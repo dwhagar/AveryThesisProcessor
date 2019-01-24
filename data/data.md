@@ -1,0 +1,1 @@
+This directory will contain the raw data files to process.
