@@ -1,0 +1,1 @@
+#TODO: Create class structure to store information on speakers.
