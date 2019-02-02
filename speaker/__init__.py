@@ -1,3 +1,5 @@
 # Package information for all classes related to speaker data.
 
-from . import speakerData
+from . import age
+from . import speaker
+from . import word
