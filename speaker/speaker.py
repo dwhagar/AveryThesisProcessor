@@ -8,3 +8,4 @@ class Speaker:
         self.sex = sex
         self.age = age
         self.language = language
+        self.adult = True
