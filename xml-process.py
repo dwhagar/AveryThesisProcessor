@@ -4,7 +4,8 @@ import argparse
 import os.path
 import xml.etree.ElementTree as ET
 
-from speaker import speaker
+# Import custom class.
+import speaker
 
 def urlScrub(data):
     """Scrubs URL data from a line of XML text, the URL is encased in {}"""
@@ -81,18 +82,23 @@ def main():
                     for g in u:
                         if urlScrub(g.tag) == "groupTier":
                             if g.attrib['tierName'] == "Morphology":
+                                # Record if a noun is seen before an adjective.
+                                seenNoun = False
+
                                 # Each word is stored in a <tg> tag and under that a <w> tag.
                                 for t in g:
                                     if urlScrub(t.tag) == "tg":
                                         for w in t:
                                             if urlScrub(w.tag) == "w":
-                                                # TODO: Parse the word string itself.
-                                                print(w.text)
-
-            # <transcript> contains all the transcript information
-            # <u speaker="MOT" id="2ccada9a-8529-4241-8f9e-7a649447923e" excludeFromSearches="false">
-            #   the u tag contains the groupTier and speaker data within the tag
-            # <groupTier tierName="Morphology"> contains words and types
+                                                word = speaker.Word(w.text)
+                                                if word.noun:
+                                                    seenNoun = True
+                                                elif word.adj:
+                                                    word.adj = True
+                                                    if seenNoun:
+                                                        word.beforeNoun = False
+                                                    else:
+                                                        word.beforeNoun = True
 
     return 0
 
