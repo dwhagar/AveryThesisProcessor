@@ -16,10 +16,9 @@ class Age:
         # P25Y0M0DT0H0M0S
         if ageStr[0] == "P":
             ageStr = ageStr[1:]
-            ageList = ageStr.split["T"]
+            ageList = ageStr.split("T")
             ageDate = ageList[0]
             ageTime = ageList[1]
-            ageTime = ageTime[1:]
 
             # Process the date from the age.
             temp = ageDate.split("Y")
@@ -34,6 +33,8 @@ class Age:
             self.hours = int(temp[0][:])
             temp = temp[1].split("M")
             self.minutes = int(temp[0][:])
+            temp = temp[1].split("S")
+            self.seconds = int(temp[0][:])
 
             # Turn the individual fields into a decimal age.
             self.decimal = self.years + (self.months / 12) + (self.days / 365.25) + (self.hours / 8760) + \
