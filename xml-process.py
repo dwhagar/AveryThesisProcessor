@@ -2,7 +2,7 @@
 
 import argparse
 import os.path
-from os import walk
+from os import walk, getcwd
 import xml.etree.ElementTree as ET
 
 # Import custom class.
@@ -42,25 +42,29 @@ def genCSV(data):
 
     return result
 
-def writeCSV(data, file):
+def writeCSV(data, file, test = False):
     """Write CSV formatted data to a file."""
-    f = open(file, "w")
+    if test:
+        for line in data:
+            print(line)
+    else:
+        f = open(file, "w")
 
-    for line in data:
-        print(line, file=f)
+        for line in data:
+            print(line, file=f)
 
-    f.close()
+        f.close()
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
     parser.add_argument("-d", "--dir", type=str, help="The directory name to find XML files to processed.")
     parser.add_argument("-c", "--child", type=str, help="The name of the CSV file to output the child data.",
-                        default="adult.csv")
+                        default=os.path.join(getcwd(), "child.csv"))
     parser.add_argument("-a", "--adult", type=str, help="The name of the CSV file to output the adult data.",
-                        default="child.csv")
-    parser.add_argument("-r", "--recursive", type=bool, help="Should a directory be looked at recursively.",
-                        default=False)
+                        default=os.path.join(getcwd(), "adult.csv"))
+    parser.add_argument("-r", "--recursive", help="Should a directory be looked at recursively.", action='store_true')
+    parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -197,8 +201,8 @@ def main():
     adultCSV = genCSV(adultStats)
 
     # Now actually write the output to the files.
-    writeCSV(childCSV, arg.child)
-    writeCSV(adultCSV, arg.adult)
+    writeCSV(childCSV, arg.child, arg.test)
+    writeCSV(adultCSV, arg.adult, arg.test)
 
     return 0
 

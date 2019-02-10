@@ -30,4 +30,9 @@ class Speaker:
                 if word.beforeNoun:
                     adjCorrect += 1
 
-        return self.role, self.name, self.sex, self.age.decimal, wordCount, adjCount, adjCorrect, adjCorrect / adjCount
+        if adjCount > 0:
+            score = adjCorrect / adjCount
+        else:
+            score = 0
+
+        return self.role, self.name, self.sex, self.age.decimal, wordCount, adjCount, adjCorrect, score
