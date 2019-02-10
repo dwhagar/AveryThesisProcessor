@@ -35,9 +35,9 @@ def genCSV(data):
         dataLine = ""
         for element in item:
             if len(dataLine) == 0:
-                dataLine = element
+                dataLine = str(element)
             else:
-                dataLine = "," + element
+                dataLine += "," + str(element)
         result.append(dataLine)
 
     return result
@@ -48,6 +48,7 @@ def writeCSV(data, file, test = False):
         for line in data:
             print(line)
     else:
+        print("Saving CSV data to '" + file + "'.")
         f = open(file, "w")
 
         for line in data:
@@ -91,7 +92,7 @@ def main():
 
     # Process all the XML files in the list.
     for file in fileList:
-        print("Processing file " + file + "...")
+        print("Processing file '" + file + "'...")
 
         corpusTree = ET.parse(arg.file)
         corpusRoot = corpusTree.getroot()
@@ -195,7 +196,7 @@ def main():
     # Correct adjectives is determined by if the adjective comes before the noun.
     print("Generating CSV data in the following format:")
     print("'Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct'")
-    print("Correct adjectives is determined by if the adjective comes before the noun.\n")
+    print("Correct adjectives is determined by if the adjective comes before the noun.")
 
     childCSV = genCSV(childStats)
     adultCSV = genCSV(adultStats)
