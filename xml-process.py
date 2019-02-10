@@ -90,15 +90,25 @@ def main():
                                     if urlScrub(t.tag) == "tg":
                                         for w in t:
                                             if urlScrub(w.tag) == "w":
-                                                word = speaker.Word(w.text)
-                                                if word.noun:
-                                                    seenNoun = True
-                                                elif word.adj:
-                                                    word.adj = True
-                                                    if seenNoun:
-                                                        word.beforeNoun = False
-                                                    else:
-                                                        word.beforeNoun = True
+                                                if not (w.text[0] == "(" or w.text[-1] == ")"):
+                                                    word = speaker.Word(w.text)
+                                                    if word.noun:
+                                                        seenNoun = True
+                                                    elif word.adj:
+                                                        word.adj = True
+                                                        if seenNoun:
+                                                            word.beforeNoun = False
+                                                        else:
+                                                            word.beforeNoun = True
+
+                                                    # Store the word into the list for this speaker.
+                                                    if not word.punctuation:
+                                                        s.words.append(word)
+
+        for part in allParts:
+            print(part.sid)
+            for word in part.words:
+                print(word.word)
 
     return 0
 
