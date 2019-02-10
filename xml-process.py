@@ -27,13 +27,40 @@ def findXML(dir, r = False):
 
     return result
 
+def genCSV(data):
+    """Generate a list of CSV formatted strings from a list of statistical data."""
+    result = []
+
+    for item in data:
+        dataLine = ""
+        for element in item:
+            if len(dataLine) == 0:
+                dataLine = element
+            else:
+                dataLine = "," + element
+        result.append(dataLine)
+
+    return result
+
+def writeCSV(data, file):
+    """Write CSV formatted data to a file."""
+    f = open(file, "w")
+
+    for line in data:
+        print(line, file=f)
+
+    f.close()
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
     parser.add_argument("-d", "--dir", type=str, help="The directory name to find XML files to processed.")
-    parser.add_argument("-o", "--output-child", type=str, help="The name of the CSV file to output the child data.")
-    parser.add_argument("-a", "--output-adult", type=str, help="The name of the CSV file to output the adult data.")
-    parser.add_argument("-r", "--recursive", type=bool, help="Should a directory be looked at recursively.")
+    parser.add_argument("-c", "--child", type=str, help="The name of the CSV file to output the child data.",
+                        default="adult.csv")
+    parser.add_argument("-a", "--adult", type=str, help="The name of the CSV file to output the adult data.",
+                        default="child.csv")
+    parser.add_argument("-r", "--recursive", type=bool, help="Should a directory be looked at recursively.",
+                        default=False)
 
     arg = parser.parse_args()
 
@@ -55,6 +82,9 @@ def main():
             return 1
         fileList = findXML(dir, arg.recursive)
 
+    # Variable to store all of the speaker data for all processed participants.
+    allParts = []
+
     # Process all the XML files in the list.
     for file in fileList:
         print("Processing file " + file + "...")
@@ -62,7 +92,8 @@ def main():
         corpusTree = ET.parse(arg.file)
         corpusRoot = corpusTree.getroot()
 
-        allParts = []
+        # Stores the list of participants unique to this file.
+        fileParts = []
 
         # Process from the root down.
         for chld in corpusRoot:
@@ -93,7 +124,7 @@ def main():
                                 lang = partData.text
 
                         curPart = speaker.Speaker(sid, role, name, sex, age, lang)
-                        allParts.append(curPart)
+                        fileParts.append(curPart)
 
             # Process the actual word data, starting with the speaker.
             elif urlScrub(chld.tag) == "transcript":
@@ -105,7 +136,7 @@ def main():
                         sid = u.attrib['speaker']
 
                         # Now find the speaker by the ID in the list.
-                        for part in allParts:
+                        for part in fileParts:
                             if part.sid == sid:
                                 # When the speaker ID is found, make a reference to it.
                                 s = part
@@ -137,12 +168,37 @@ def main():
                                                         if not word.punctuation:
                                                             s.words.append(word)
 
+        # Add all participants from this file to the master list.
+        allParts.extend(fileParts)
+
     if len(allParts) < 1:
         print("There was an error processing the data, no participants were found.")
         return 1
 
+    # A pair of lists to store all the statistical information before output to CSV files.
+    childStats = []
+    adultStats = []
+
+    # Gather statistics for each category of person.
     for spk in allParts:
-        continue
+        if spk.adult:
+            adultStats.append(spk.getStats())
+        else:
+            childStats.append(spk.getStats())
+
+    # Construct the CSV files, each file will have the following data:
+    #   Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct
+    # Correct adjectives is determined by if the adjective comes before the noun.
+    print("Generating CSV data in the following format:")
+    print("'Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct'")
+    print("Correct adjectives is determined by if the adjective comes before the noun.\n")
+
+    childCSV = genCSV(childStats)
+    adultCSV = genCSV(adultStats)
+
+    # Now actually write the output to the files.
+    writeCSV(childCSV, arg.child)
+    writeCSV(adultCSV, arg.adult)
 
     return 0
 

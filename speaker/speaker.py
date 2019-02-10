@@ -17,3 +17,17 @@ class Speaker:
                 self.adult = True
         else:
             self.age = None
+
+    def getStats(self):
+        """Gets statistics about this speaker at this age for the target data."""
+        wordCount = len(self.words)
+        adjCount = 0
+        adjCorrect = 0
+
+        for word in self.words:
+            if word.adj:
+                adjCount += 1
+                if word.beforeNoun:
+                    adjCorrect += 1
+
+        return self.role, self.name, self.sex, self.age.decimal, wordCount, adjCount, adjCorrect, adjCorrect / adjCount
