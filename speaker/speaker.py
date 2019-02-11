@@ -13,6 +13,7 @@ class Speaker:
         self.sibling = False
         self.prePairs = []
         self.postPairs = []
+        self.orphans = []
 
         if not age is None:
             self.age = Age(age)
@@ -57,6 +58,7 @@ class Speaker:
 
         preLine = ";".join(preText)
         postLine = ";".join(postText)
+        orphanLine = ";".join(self.orphans)
 
         return self.role, self.name, self.sex, round(self.age.decimal,4),\
-               ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100, preLine, postLine
+               ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100, preLine, postLine, orphanLine

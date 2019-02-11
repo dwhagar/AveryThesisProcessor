@@ -32,7 +32,7 @@ def genCSV(data):
     result = []
 
     # Add header line.
-    result.append("Role,Name,Gender,Decimal Age,Years;Months,Word Count,Adjective Count,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs")
+    result.append("Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs,Orphans")
 
     # Add data to file.
     for item in data:
@@ -48,17 +48,20 @@ def genCSV(data):
 
 def writeCSV(data, file, test = False):
     """Write CSV formatted data to a file."""
-    if test:
-        for line in data:
-            print(line)
+    if len(data) > 1:
+        if test:
+            for line in data:
+                print(line)
+        else:
+            print("Saving CSV data to '" + file + "'.")
+            f = open(file, "w")
+
+            for line in data:
+                print(line, file=f)
+
+            f.close()
     else:
-        print("Saving CSV data to '" + file + "'.")
-        f = open(file, "w")
-
-        for line in data:
-            print(line, file=f)
-
-        f.close()
+        print("No data found for '" + file + "', skipping.")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -195,7 +198,6 @@ def main():
                                                                 s.prePairs.append((adj,noun))
                                                             else:
                                                                 s.postPairs.append((adj,noun))
-
                                                             # Reset the flags so we don't add multiple pairs.
                                                             seenNoun = False
                                                             seenAdj = False
@@ -203,6 +205,10 @@ def main():
                                                         # Store the word into the list for this speaker.
                                                         if not word.punctuation:
                                                             s.words.append(word)
+
+                                    # Look for adjectives without nouns.
+                                    if seenAdj and not seenNoun:
+                                        s.orphans.append(adj)
 
         # Add all participants from this file to the master list.
         allParts.extend(fileParts)
@@ -228,24 +234,14 @@ def main():
                 childStats.append(tmp)
 
     # Construct the actual CSV files.
-    if len(childStats) > 0:
-        print("Writing child CSV to: '" + arg.child + "'.")
-        childCSV = genCSV(childStats)
-        writeCSV(childCSV, arg.child, arg.test)
-    else:
-        print("No child data found, skipping.")
-    if len(adultStats) > 0:
-        print("Writing adult CSV to: '" + arg.adult + "'.")
-        adultCSV = genCSV(adultStats)
-        writeCSV(adultCSV, arg.adult, arg.test)
-    else:
-        print("No adult data found, skipping.")
-    if len(siblingStats) > 0:
-        print("Writing sibling CSV to: '" + arg.sib + "'.")
-        siblingCSV = genCSV(siblingStats)
-        writeCSV(siblingCSV, arg.sib, arg.test)
-    else:
-        print("No sibling data found, skipping.")
+    childCSV = genCSV(childStats)
+    adultCSV = genCSV(adultStats)
+    siblingCSV = genCSV(siblingStats)
+
+    # Write the CSV files.
+    writeCSV(childCSV, arg.child, arg.test)
+    writeCSV(adultCSV, arg.adult, arg.test)
+    writeCSV(siblingCSV, arg.sib, arg.test)
 
     return 0
 
