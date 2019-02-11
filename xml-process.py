@@ -207,6 +207,7 @@ def main():
                                                             s.words.append(word)
 
                                     # Look for adjectives without nouns.
+                                    # TODO: Find out if Orphans should count toward statistics.
                                     if seenAdj and not seenNoun:
                                         s.orphans.append(adj)
 

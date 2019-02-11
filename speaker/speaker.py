@@ -58,7 +58,12 @@ class Speaker:
 
         preLine = ";".join(preText)
         postLine = ";".join(postText)
-        orphanLine = ";".join(self.orphans)
+
+        orphanText = []
+        for orphan in self.orphans:
+            orphanText.append(orphan.word)
+
+        orphanLine = ";".join(orphanText)
 
         return self.role, self.name, self.sex, round(self.age.decimal,4),\
                ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100, preLine, postLine, orphanLine
