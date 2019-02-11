@@ -31,6 +31,10 @@ def genCSV(data):
     """Generate a list of CSV formatted strings from a list of statistical data."""
     result = []
 
+    # Add header line.
+    result.append("Role,Name,Gender,Decimal Age,Years;Months,Word Count,Adjective Count,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs")
+
+    # Add data to file.
     for item in data:
         dataLine = ""
         for element in item:
@@ -152,6 +156,9 @@ def main():
                                 if g.attrib['tierName'] == "Morphology":
                                     # Record if a noun is seen before an adjective.
                                     seenNoun = False
+                                    seenAdj = False
+                                    noun = None
+                                    adj = None
 
                                     # Each word is stored in a <tg> tag and under that a <w> tag.
                                     for t in g:
@@ -164,12 +171,32 @@ def main():
                                                         word = speaker.Word(w.text)
                                                         if word.noun:
                                                             seenNoun = True
+                                                            noun = word
                                                         elif word.adj:
+                                                            seenAdj = True
                                                             word.adj = True
-                                                            if seenNoun:
+                                                            adj = word
+                                                            if seenNoun and not seenAdj:
                                                                 word.beforeNoun = False
-                                                            else:
+                                                            elif not seenNoun and seenAdj:
                                                                 word.beforeNoun = True
+
+                                                        # NOTE:  This is not the best way to do this and
+                                                        #        does not handle complex sentences particularly
+                                                        #        well, could provide unreliable statistics.
+
+                                                        # TODO: Ask Avery about this problem.
+
+                                                        # Store the noun pairs in their appropriate list.
+                                                        if seenNoun and seenAdj:
+                                                            if adj.beforeNoun:
+                                                                s.prePairs.append((adj,noun))
+                                                            else:
+                                                                s.postPairs.append((adj,noun))
+
+                                                            # Reset the flags so we don't add multiple pairs.
+                                                            seenNoun = False
+                                                            seenAdj = False
 
                                                         # Store the word into the list for this speaker.
                                                         if not word.punctuation:
@@ -189,7 +216,7 @@ def main():
     # Gather statistics for each category of person.
     for spk in allParts:
         tmp = spk.getStats()
-        if tmp[5] > 0:
+        if tmp[6] > 0:
             if spk.adult:
                 adultStats.append(tmp)
             else:
