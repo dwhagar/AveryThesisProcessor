@@ -10,15 +10,20 @@ class Speaker:
         self.sex = sex
         self.language = language
         self.adult = False
+        self.sibling = False
         self.prePairs = []
         self.postPairs = []
 
         if not age is None:
             self.age = Age(age)
-            if self.age.decimal >= 18:
-                self.adult = True
         else:
             self.age = None
+
+        if not (self.sid == "CHI" or self.sid == "BRO" or self.sid == "SIS"):
+            self.adult = True
+
+        if self.sid == "BRO" or self.sid == "SIS":
+            self.sibling = True
 
     def getStats(self):
         """Gets statistics about this speaker at this age for the target data."""
@@ -54,4 +59,4 @@ class Speaker:
         postLine = ";".join(postText)
 
         return self.role, self.name, self.sex, round(self.age.decimal,4),\
-               ageLine, wordCount, adjCount, adjCorrect, score, preLine, postLine
+               ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100, preLine, postLine

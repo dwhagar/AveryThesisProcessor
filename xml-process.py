@@ -68,6 +68,8 @@ def main():
                         default=os.path.join(getcwd(), "child.csv"))
     parser.add_argument("-a", "--adult", type=str, help="The name of the CSV file to output the adult data.",
                         default=os.path.join(getcwd(), "adult.csv"))
+    parser.add_argument("-s", "--sib", type=str, help="The name of the CSV file to output the sibling data.",
+                        default=os.path.join(getcwd(), "sibling.csv"))
     parser.add_argument("-r", "--recursive", help="Should a directory be looked at recursively.", action='store_true')
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
 
@@ -212,6 +214,7 @@ def main():
     # A pair of lists to store all the statistical information before output to CSV files.
     childStats = []
     adultStats = []
+    siblingStats = []
 
     # Gather statistics for each category of person.
     for spk in allParts:
@@ -219,22 +222,30 @@ def main():
         if tmp[6] > 0:
             if spk.adult:
                 adultStats.append(tmp)
+            elif spk.sibling:
+                siblingStats.append(tmp)
             else:
                 childStats.append(tmp)
 
-    # Construct the CSV files, each file will have the following data:
-    #   Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct
-    # Correct adjectives is determined by if the adjective comes before the noun.
-    print("Generating CSV data in the following format:")
-    print("'Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct'")
-    print("Correct adjectives is determined by if the adjective comes before the noun.")
-
-    childCSV = genCSV(childStats)
-    adultCSV = genCSV(adultStats)
-
-    # Now actually write the output to the files.
-    writeCSV(childCSV, arg.child, arg.test)
-    writeCSV(adultCSV, arg.adult, arg.test)
+    # Construct the actual CSV files.
+    if len(childStats) > 0:
+        print("Writing child CSV to: '" + arg.child + "'.")
+        childCSV = genCSV(childStats)
+        writeCSV(childCSV, arg.child, arg.test)
+    else:
+        print("No child data found, skipping.")
+    if len(adultStats) > 0:
+        print("Writing adult CSV to: '" + arg.adult + "'.")
+        adultCSV = genCSV(adultStats)
+        writeCSV(adultCSV, arg.adult, arg.test)
+    else:
+        print("No adult data found, skipping.")
+    if len(siblingStats) > 0:
+        print("Writing sibling CSV to: '" + arg.sib + "'.")
+        siblingCSV = genCSV(siblingStats)
+        writeCSV(siblingCSV, arg.sib, arg.test)
+    else:
+        print("No sibling data found, skipping.")
 
     return 0
 
