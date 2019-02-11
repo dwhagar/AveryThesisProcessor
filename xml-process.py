@@ -13,11 +13,11 @@ def urlScrub(data):
     result = data.split("}")[1]
     return result
 
-def findXML(dir, r = False):
+def findXML(directory, r = False):
     """Takes a directory specification and produces a list of XML files."""
     result = []
 
-    for (dirpath, dirnames, filenames) in walk(dir):
+    for (dirpath, dirnames, filenames) in walk(directory):
         for file in filenames:
             if file[-3:].lower() == "xml":
                 result.append(os.path.join(dirpath, file))
@@ -69,23 +69,23 @@ def main():
 
     arg = parser.parse_args()
 
-    if arg.file == "" and arg.dir == "":
-        print("You must specify either a file or directory to process.")
+    if arg.file is None and arg.dir is None:
+        print("You must specify either a file or directory to process, use '-h' for help.")
         return 1
 
     fileList = []
 
     # Process any file and directory names and make a list to iterate through.
-    if not arg.file == "":
+    if not arg.file is None:
         if not os.path.isfile(arg.file):
             print("File " + arg.file + " not found or is not a file.")
             return 1
         fileList.append(arg.file)
-    elif not arg.dir == "":
+    elif not arg.dir is None:
         if not os.path.isdir(arg.dir):
             print("Directory " + arg.dir + " not found or is not a directory.")
             return 1
-        fileList = findXML(dir, arg.recursive)
+        fileList = findXML(arg.dir, arg.recursive)
 
     # Variable to store all of the speaker data for all processed participants.
     allParts = []
@@ -94,7 +94,7 @@ def main():
     for file in fileList:
         print("Processing file '" + file + "'...")
 
-        corpusTree = ET.parse(arg.file)
+        corpusTree = ET.parse(file)
         corpusRoot = corpusTree.getroot()
 
         # Stores the list of participants unique to this file.
@@ -158,7 +158,9 @@ def main():
                                         if urlScrub(t.tag) == "tg":
                                             for w in t:
                                                 if urlScrub(w.tag) == "w":
-                                                    if not (w.text[0] == "(" or w.text[-1] == ")"):
+                                                    if not (w.text[0] == "("
+                                                            or w.text[-1] == ")"
+                                                            or w.text.find('|') < 0):
                                                         word = speaker.Word(w.text)
                                                         if word.noun:
                                                             seenNoun = True
@@ -186,10 +188,12 @@ def main():
 
     # Gather statistics for each category of person.
     for spk in allParts:
-        if spk.adult:
-            adultStats.append(spk.getStats())
-        else:
-            childStats.append(spk.getStats())
+        tmp = spk.getStats()
+        if tmp[5] > 0:
+            if spk.adult:
+                adultStats.append(tmp)
+            else:
+                childStats.append(tmp)
 
     # Construct the CSV files, each file will have the following data:
     #   Participant Role, Name, Gender, Age, Total Words, Total Adjectives, Correct Adjectives, Percent Correct
