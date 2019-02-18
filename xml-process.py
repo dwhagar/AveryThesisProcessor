@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # A processor to read XML data for Avery's corpus.
 
 import argparse
@@ -257,9 +258,11 @@ def main():
     ageList = allParts[:]
     ageList.sort(key=ageKey)
 
-    # A list to store all of the age / pair data for each group of 6 months.
-    prePairs = []
-    postPairs = []
+    # A list to store all of the age / pair data for each group of 6 months and broken down by gender.
+    prePairsM = []
+    postPairsM = []
+    prePairsF = []
+    postPairsF = []
 
     # Now lets construct the CSV data from the sorted speaker list.
     maxAge = ageList[len(ageList) - 1].age.years
@@ -268,22 +271,35 @@ def main():
 
     while ageHigh < maxAge:
         # A list to store word pair data, each will be stored with a line for every 6 months.
-        curGroupPre = []
-        curGroupPost = []
+        curGroupPreM = []
+        curGroupPostM = []
+        curGroupPreF = []
+        curGroupPostF = []
 
         for spk in ageList:
             # Check ages and construct some lists.
             if ageLow <= spk.age.years < ageHigh:
                 tmp = spk.getPairs()
-                curGroupPre.extend(tmp[0])
-                curGroupPost.extend(tmp[1])
+
+                if spk.sex == "male":
+                    curGroupPreM.extend(tmp[0])
+                    curGroupPostM.extend(tmp[1])
+                if spk.sex == "female":
+                    curGroupPreF.extend(tmp[0])
+                    curGroupPostF.extend(tmp[1])
 
         # Construct the list of lists, including age data.
-        if len(curGroupPre) > 0:
-            prePairs.extend(countPairs(curGroupPre, ageLow))
+        if len(curGroupPreM) > 0:
+            prePairsM.extend(countPairs(curGroupPreM, ageLow))
 
-        if len(curGroupPost) > 0:
-            postPairs.extend(countPairs(curGroupPost, ageLow))
+        if len(curGroupPostM) > 0:
+            postPairsM.extend(countPairs(curGroupPostM, ageLow))
+
+        if len(curGroupPreF) > 0:
+            prePairsF.extend(countPairs(curGroupPreF, ageLow))
+
+        if len(curGroupPostF) > 0:
+            postPairsF.extend(countPairs(curGroupPostF, ageLow))
 
         ageLow = ageHigh
         ageHigh = ageHigh + 0.5
@@ -295,15 +311,19 @@ def main():
     siblingCSV = genCSV(statHeader, siblingStats)
 
     adjheader = "Age Lower,Pair,Count"
-    adjPreCSV = genCSV(adjheader, prePairs)
-    adjPostCSV = genCSV(adjheader, postPairs)
+    adjPreMCSV = genCSV(adjheader, prePairsM)
+    adjPostMCSV = genCSV(adjheader, postPairsM)
+    adjPreFCSV = genCSV(adjheader, prePairsF)
+    adjPostFCSV = genCSV(adjheader, postPairsF)
 
     # Write the CSV files.
     writeCSV(childCSV, arg.child, arg.test)
     writeCSV(adultCSV, arg.adult, arg.test)
     writeCSV(siblingCSV, arg.sib, arg.test)
-    writeCSV(adjPreCSV, arg.preadj, arg.test)
-    writeCSV(adjPostCSV, arg.postadj, arg.test)
+    writeCSV(adjPreMCSV, arg.preadj + "-male", arg.test)
+    writeCSV(adjPostMCSV, arg.postadj + "-male", arg.test)
+    writeCSV(adjPreFCSV, arg.preadj + "-female", arg.test)
+    writeCSV(adjPostFCSV, arg.postadj + "-female", arg.test)
 
     return 0
 
