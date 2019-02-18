@@ -27,12 +27,12 @@ def findXML(directory, r = False):
 
     return result
 
-def genCSV(data):
+def genCSV(hdr, data):
     """Generate a list of CSV formatted strings from a list of statistical data."""
     result = []
 
     # Add header line.
-    result.append("Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs,Orphans")
+    result.append(hdr)
 
     # Add data to file.
     for item in data:
@@ -63,6 +63,22 @@ def writeCSV(data, file, test = False):
     else:
         print("No data found for '" + file + "', skipping.")
 
+def countPairs(data, age):
+    """Counts how many of a single pair is in a given list.  Returns a tuple of age, pair, and count."""
+    setData = list(set(data[:]))
+
+    result = []
+
+    for item in setData:
+        count = data.count(item)
+        result.append((age, item, count))
+
+    return result
+
+def ageKey(val):
+    """Simple function to allow sorting by the age of a speaker."""
+    return val.age.years
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
@@ -73,6 +89,10 @@ def main():
                         default=os.path.join(getcwd(), "adult.csv"))
     parser.add_argument("-s", "--sib", type=str, help="The name of the CSV file to output the sibling data.",
                         default=os.path.join(getcwd(), "sibling.csv"))
+    parser.add_argument("-j", "--preadj", type=str, help="The name of the CSV file to output the pronominal adjective pairs.",
+                        default=os.path.join(getcwd(), "pre-adjectives.csv"))
+    parser.add_argument("-k", "--postadj", type=str, help="The name of the CSV file to output the postnominal adjective pairs.",
+                        default=os.path.join(getcwd(), "post-adjectives.csv"))
     parser.add_argument("-r", "--recursive", help="Should a directory be looked at recursively.", action='store_true')
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
 
@@ -206,8 +226,7 @@ def main():
                                                         if not word.punctuation:
                                                             s.words.append(word)
 
-                                    # Look for adjectives without nouns.
-                                    # TODO: Find out if Orphans should count toward statistics.
+                                    # Look for adjectives without nouns (these are not used in statistics).
                                     if seenAdj and not seenNoun:
                                         s.orphans.append(adj)
 
@@ -234,15 +253,57 @@ def main():
             else:
                 childStats.append(tmp)
 
+    # Going to copy the list as memory isn't an issue and I'd rather leave the original list intact.
+    ageList = allParts[:]
+    ageList.sort(key=ageKey)
+
+    # A list to store all of the age / pair data for each group of 6 months.
+    prePairs = []
+    postPairs = []
+
+    # Now lets construct the CSV data from the sorted speaker list.
+    maxAge = ageList[len(ageList) - 1].age.years
+    ageLow = 0
+    ageHigh = 0.5
+
+    while ageHigh < maxAge:
+        # A list to store word pair data, each will be stored with a line for every 6 months.
+        curGroupPre = []
+        curGroupPost = []
+
+        for spk in ageList:
+            # Check ages and construct some lists.
+            if ageLow <= spk.age.years < ageHigh:
+                tmp = spk.getPairs()
+                curGroupPre.extend(tmp[0])
+                curGroupPost.extend(tmp[1])
+
+        # Construct the list of lists, including age data.
+        if len(curGroupPre) > 0:
+            prePairs.extend(countPairs(curGroupPre, ageLow))
+
+        if len(curGroupPost) > 0:
+            postPairs.extend(countPairs(curGroupPost, ageLow))
+
+        ageLow = ageHigh
+        ageHigh = ageHigh + 0.5
+
     # Construct the actual CSV files.
-    childCSV = genCSV(childStats)
-    adultCSV = genCSV(adultStats)
-    siblingCSV = genCSV(siblingStats)
+    statHeader = "Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs,Orphans"
+    childCSV = genCSV(statHeader, childStats)
+    adultCSV = genCSV(statHeader, adultStats)
+    siblingCSV = genCSV(statHeader, siblingStats)
+
+    adjheader = "Age Lower,Pair,Count"
+    adjPreCSV = genCSV(adjheader, prePairs)
+    adjPostCSV = genCSV(adjheader, postPairs)
 
     # Write the CSV files.
     writeCSV(childCSV, arg.child, arg.test)
     writeCSV(adultCSV, arg.adult, arg.test)
     writeCSV(siblingCSV, arg.sib, arg.test)
+    writeCSV(adjPreCSV, arg.preadj, arg.test)
+    writeCSV(adjPostCSV, arg.postadj, arg.test)
 
     return 0
 

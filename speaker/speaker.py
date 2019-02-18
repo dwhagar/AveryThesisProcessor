@@ -29,18 +29,15 @@ class Speaker:
     def getStats(self):
         """Gets statistics about this speaker at this age for the target data."""
         wordCount = len(self.words)
-        adjCount = 0
-        adjCorrect = 0
 
         # Human-Readable Age Line
         ageLine = str(self.age.years) + ";" + str(self.age.months)
 
         # Get a count.
-        for word in self.words:
-            if word.adj:
-                adjCount += 1
-                if word.beforeNoun:
-                    adjCorrect += 1
+        adjCount = len(self.prePairs) + len(self.postPairs)
+        adjCorrect = len(self.prePairs)
+
+        # Pre Avery's instructions, do not count the orphans.
 
         # Calculate some simple stats.
         if adjCount > 0:
@@ -48,7 +45,11 @@ class Speaker:
         else:
             score = 0
 
-        # Construct the lines for the CSV for prenominal and postnominal word lists.
+        return self.role, self.name, self.sex, round(self.age.decimal,4),\
+               ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100
+
+    def getPairs(self):
+        """Gets the lists of word pairs for this particular speaker."""
         preText = []
         postText = []
         for pre in self.prePairs:
@@ -56,14 +57,4 @@ class Speaker:
         for post in self.postPairs:
             postText.append(post[0].word + "/" + post[1].word)
 
-        preLine = ";".join(preText)
-        postLine = ";".join(postText)
-
-        orphanText = []
-        for orphan in self.orphans:
-            orphanText.append(orphan.word)
-
-        orphanLine = ";".join(orphanText)
-
-        return self.role, self.name, self.sex, round(self.age.decimal,4),\
-               ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100, preLine, postLine, orphanLine
+        return preText, postText
