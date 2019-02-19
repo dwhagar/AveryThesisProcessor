@@ -99,6 +99,17 @@ def main():
 
     arg = parser.parse_args()
 
+    if arg.child[-3:] == "csv":
+        arg.child = arg.child + ".csv"
+    if arg.adult[-3:] == "csv":
+        arg.adult = arg.adult + ".csv"
+    if arg.child[-3:] == "csv":
+        arg.sib = arg.sib + ".csv"
+    if arg.preadj[-3:] == "csv":
+        arg.preadj = arg.preadj + ".csv"
+    if arg.postadj[-3:] == "csv":
+        arg.postadj = arg.postadj + ".csv"
+
     if arg.file is None and arg.dir is None:
         print("You must specify either a file or directory to process, use '-h' for help.")
         return 1
@@ -235,7 +246,7 @@ def main():
         allParts.extend(fileParts)
 
     if len(allParts) < 1:
-        print("There was an error processing the data, no participants were found.")
+        print("There was an error processing the data, no participants were found.  Did you forget to specify '-r'?")
         return 1
 
     # A pair of lists to store all the statistical information before output to CSV files.
@@ -316,14 +327,16 @@ def main():
     adjPreFCSV = genCSV(adjheader, prePairsF)
     adjPostFCSV = genCSV(adjheader, postPairsF)
 
-    # Write the CSV files.
+    # Write the CSV files for per-speaker stats.
     writeCSV(childCSV, arg.child, arg.test)
     writeCSV(adultCSV, arg.adult, arg.test)
     writeCSV(siblingCSV, arg.sib, arg.test)
-    writeCSV(adjPreMCSV, arg.preadj + "-male", arg.test)
-    writeCSV(adjPostMCSV, arg.postadj + "-male", arg.test)
-    writeCSV(adjPreFCSV, arg.preadj + "-female", arg.test)
-    writeCSV(adjPostFCSV, arg.postadj + "-female", arg.test)
+
+    # Write the gender-specific CSV files for adjective pair stats.
+    writeCSV(adjPreMCSV, arg.preadj[:-4] + "-male" + arg.preadj[-4:], arg.test)
+    writeCSV(adjPostMCSV, arg.postadj[:-4] + "-male" + arg.postadj[-4:], arg.test)
+    writeCSV(adjPreFCSV, arg.preadj[:-4] + "-female" + arg.preadj[-4:], arg.test)
+    writeCSV(adjPostFCSV, arg.postadj[:-4] + "-female" + arg.postadj[-4:], arg.test)
 
     return 0
 

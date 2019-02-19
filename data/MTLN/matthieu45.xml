@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank https://talkbank.org/software/talkbank.xsd"
+      PID="11312/c-00029535-1"
+      Version="2.7.1"
+      Lang="fra"
+      Corpus="MTLN"
+      Date="1984-01-01">
+  <Participants>
+    <participant
+      id="CHI"
+    name="Matthieu"
+      role="Target_Child"
+      language="fra"
+      age="P3Y09M"
+      sex="male"
+      group="CTR"
+      SES="WC"
+      education="nursery"
+
+    />
+  </Participants>
+  <comment type="Situation">replica task using FP play family house</comment>
+  <u who="CHI" uID="u0">
+    <w>dormir<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u1">
+    <w>prend<mor type="mor"><mw><pos><c>v</c></pos><stem>prendre</stem><mk type="sfx">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>un<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>un</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>bonhomme<mor type="mor"><mw><pos><c>n</c></pos><stem>bonhomme</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u2">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>l'escalier<mor type="mor"><mw><pos><c>n</c></pos><stem>escalier</stem><mk type="sfxf">m</mk></mw><mor-pre><mw><pos><c>det</c><s>art</s></pos><stem>le</stem></mw></mor-pre></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u3">
+    <w>où<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>où</stem></mw></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>l'escalier<mor type="mor"><mw><pos><c>n</c></pos><stem>escalier</stem><mk type="sfxf">m</mk></mw><mor-pre><mw><pos><c>det</c><s>art</s></pos><stem>le</stem></mw></mor-pre></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u4">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>canapé<mor type="mor"><mw><pos><c>n</c></pos><stem>canapé</stem><mk type="sfxf">m</mk></mw><menx>canape</menx></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>salle<wk type="cmp"/>à<wk type="cmp"/>manger<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>salle</stem></mw><mw><pos><c>prep</c></pos><stem>à</stem></mw><mw><pos><c>n</c></pos><stem>manger</stem></mw></mwc></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u5">
+    <w>où<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>où</stem></mw></mor></w>
+    <w>sont<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>les<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>les</stem><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>manteaux<mor type="mor"><mw><pos><c>n</c></pos><stem>manteau</stem><mk type="sfxf">m</mk><mk type="sfx">PL</mk></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u6">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>peut<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>pouvoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>les<mor type="mor"><mw><pos><c>pro</c><s>obj</s></pos><stem>les</stem></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>chambre<mor type="mor"><mw><pos><c>n</c></pos><stem>chambre</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u7">
+    <w>maintenant<mor type="mor"><mw><pos><c>adv</c></pos><stem>maintenant</stem></mw></mor></w>
+    <w>moi<mor type="mor"><mw><pos><c>pro</c></pos><stem>moi</stem><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>j'ai<mor type="mor"><mw><pos><c>v</c><s>poss</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">1s</mk></mw><mor-pre><mw><pos><c>pro</c><s>subj</s></pos><stem>je</stem></mw></mor-pre></mor></w>
+    <w>un<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>un</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>grand<mor type="mor"><mw><pos><c>adj</c></pos><stem>grand</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>lit<mor type="mor"><mw><pos><c>n</c></pos><stem>lit</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u8">
+    <w>il<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>plus<mor type="mor"><mw><pos><c>part</c></pos><stem>plaire</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>mon<mor type="mor"><mw><pos><c>det</c><s>poss</s></pos><stem>mon</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>petit<mor type="mor"><mw><pos><c>adj</c></pos><stem>petit</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>lit<mor type="mor"><mw><pos><c>n</c></pos><stem>lit</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u9">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>cheval<mor type="mor"><mw><pos><c>n</c></pos><stem>cheval</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>aussi<mor type="mor"><mw><pos><c>adv</c></pos><stem>aussi</stem></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>chambre<mor type="mor"><mw><pos><c>n</c></pos><stem>chambre</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u10">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>ferme<mor type="mor"><mw><pos><c>n</c></pos><stem>ferme</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <w>aussi<mor type="mor"><mw><pos><c>adv</c></pos><stem>aussi</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u11">
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>garage<mor type="mor"><mw><pos><c>n</c></pos><stem>garage</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u12">
+    <w>encore<mor type="mor"><mw><pos><c>adv</c></pos><stem>encore</stem></mw></mor></w>
+    <w>un<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>un</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>lit<mor type="mor"><mw><pos><c>n</c></pos><stem>lit</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u13">
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>pro</c><s>obj</s></pos><stem>le</stem></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>ici<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>ici</stem></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>lit<mor type="mor"><mw><pos><c>n</c></pos><stem>lit</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u14">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>canapé<mor type="mor"><mw><pos><c>n</c></pos><stem>canapé</stem><mk type="sfxf">m</mk></mw><menx>canape</menx></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u15">
+    <w>y<mor type="mor"><mw><pos><c>pro</c><s>y</s></pos><stem>y</stem></mw></mor></w>
+    <w>a<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>de<mor type="mor"><mw><pos><c>prep</c></pos><stem>de</stem></mw></mor></w>
+    <w>canapé<mor type="mor"><mw><pos><c>n</c></pos><stem>canapé</stem><mk type="sfxf">m</mk></mw><menx>canape</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u16">
+    <w>une<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>une</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>table<mor type="mor"><mw><pos><c>n</c></pos><stem>table</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u17">
+    <w>où<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>où</stem></mw></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>une<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>une</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>table<mor type="mor"><mw><pos><c>n</c></pos><stem>table</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u18">
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>voiture<mor type="mor"><mw><pos><c>n</c></pos><stem>voiture</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>au<mor type="mor"><mw><pos><c>prep</c></pos><stem>à</stem><mk type="sfxf">le</mk></mw></mor></w>
+    <w>garage<mor type="mor"><mw><pos><c>n</c></pos><stem>garage</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u19">
+    <w>oh<mor type="mor"><mw><pos><c>co</c></pos><stem>oh</stem></mw></mor></w>
+    <w>y<mor type="mor"><mw><pos><c>pro</c><s>y</s></pos><stem>y</stem></mw></mor></w>
+    <w>a<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>plus<mor type="mor"><mw><pos><c>qn</c></pos><stem>plus</stem></mw></mor></w>
+    <w>de<mor type="mor"><mw><pos><c>prep</c></pos><stem>de</stem></mw></mor></w>
+    <w>place<mor type="mor"><mw><pos><c>n</c></pos><stem>place</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u20">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>quoi<mor type="mor"><mw><pos><c>pro</c><s>rel</s></pos><stem>quoi</stem></mw></mor></w>
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u21">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>quoi<mor type="mor"><mw><pos><c>pro</c><s>rel</s></pos><stem>quoi</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u22">
+    <w>oui<mor type="mor"><mw><pos><c>co</c></pos><stem>oui</stem></mw><menx>yes</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u23">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>fini<mor type="mor"><mw><pos><c>part</c></pos><stem>finir</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u24">
+    <w>une<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>une</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>table<mor type="mor"><mw><pos><c>n</c></pos><stem>table</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u25">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>peut<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>pouvoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u26">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>canapé<mor type="mor"><mw><pos><c>n</c></pos><stem>canapé</stem><mk type="sfxf">m</mk></mw><menx>canape</menx></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u27">
+    <w>ah<mor type="mor"><mw><pos><c>co</c></pos><stem>ah</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u28">
+    <w>une<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>une</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>table<mor type="mor"><mw><pos><c>n</c></pos><stem>table</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u29">
+    <w>les<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>les</stem><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>chaises<mor type="mor"><mw><pos><c>n</c></pos><stem>chaise</stem><mk type="sfxf">f</mk><mk type="sfx">PL</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u30">
+    <w>oh<mor type="mor"><mw><pos><c>co</c></pos><stem>oh</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u31">
+    <w>y<mor type="mor"><mw><pos><c>pro</c><s>y</s></pos><stem>y</stem></mw></mor></w>
+    <w>a<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>un<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>un</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>cheval<wk type="cmp"/>à<wk type="cmp"/>bascule<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>cheval</stem></mw><mw><pos><c>prep</c></pos><stem>à</stem></mw><mw><pos><c>n</c></pos><stem>bascule</stem></mw></mwc></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u32">
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>chambre<mor type="mor"><mw><pos><c>n</c></pos><stem>chambre</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u33">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>dormir<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u34">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>dormir<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u35">
+    <w>qu'est-ce<mor type="mor"><mw><pos><c>v</c><s>int</s></pos><stem>est</stem><mk type="sfx">ce</mk></mw><mor-pre><mw><pos><c>pro</c><s>int</s></pos><stem>que</stem></mw></mor-pre></mor></w>
+    <w>qui<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>qui</stem></mw></mor></w>
+    <w>faut<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>falloir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>encore<mor type="mor"><mw><pos><c>adv</c></pos><stem>encore</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u36">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>dort<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u37">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>où<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>où</stem></mw></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u38">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>pour<mor type="mor"><mw><pos><c>prep</c></pos><stem>pour</stem></mw></mor></w>
+    <w>monter<mor type="mor"><mw><pos><c>v</c></pos><stem>monter</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u39">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>peut<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>pouvoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>pro</c><s>obj</s></pos><stem>le</stem></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>ici<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>ici</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u40">
+    <w>je<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>je</stem></mw></mor></w>
+    <w>sais<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>savoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">12s</mk></mw></mor></w>
+    <w>sauter<mor type="mor"><mw><pos><c>v</c></pos><stem>sauter</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>moi<mor type="mor"><mw><pos><c>pro</c></pos><stem>moi</stem><mk type="sfxf">sg</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u41">
+    <w>hop<mor type="mor"><mw><pos><c>co</c></pos><stem>hop</stem></mw></mor></w>
+    <w>hop<mor type="mor"><mw><pos><c>co</c></pos><stem>hop</stem></mw></mor></w>
+    <w>hop<mor type="mor"><mw><pos><c>co</c></pos><stem>hop</stem></mw></mor></w>
+    <w>hop<mor type="mor"><mw><pos><c>co</c></pos><stem>hop</stem></mw></mor></w>
+    <tagMarker type="comma"><mor type="mor"><mw><pos><c>cm</c></pos><stem>cm</stem></mw></mor></tagMarker>
+    <w>et<mor type="mor"><mw><pos><c>conj</c></pos><stem>et</stem></mw></mor></w>
+    <w>yop<mor type="mor"><mw><pos><c>co</c></pos><stem>yop</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u42">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>pour<mor type="mor"><mw><pos><c>prep</c></pos><stem>pour</stem></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>bébé<mor type="mor"><mw><pos><c>n</c></pos><stem>bébé</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u43">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>pour<mor type="mor"><mw><pos><c>prep</c></pos><stem>pour</stem></mw></mor></w>
+    <w>se<mor type="mor"><mw><pos><c>pro</c><s>refl</s></pos><stem>se</stem></mw></mor></w>
+    <w>laver<mor type="mor"><mw><pos><c>v</c></pos><stem>laver</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u44">
+    <w>ça_y_est<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_y_est</stem></mw></mor></w>
+    <w>j'ai<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">1s</mk></mw><mor-pre><mw><pos><c>pro</c><s>subj</s></pos><stem>je</stem></mw></mor-pre></mor></w>
+    <w>trouvé<mor type="mor"><mw><pos><c>part</c></pos><stem>trouver</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u45">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>ça_va<mor type="mor"><mw><pos><c>co</c></pos><stem>ça_va</stem></mw></mor></w>
+    <w>ici<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>ici</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u46">
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>ouverte<mor type="mor"><mw><pos><c>part</c></pos><stem>ouvrir</stem><mk type="sfx">PP</mk><mk type="sfxf">f</mk></mw></mor></w>
+    <w>cette<mor type="mor"><mw><pos><c>det</c><s>dem</s></pos><stem>cette</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>porte<mor type="mor"><mw><pos><c>n</c></pos><stem>porte</stem><mk type="sfxf">f</mk></mw><menx>door</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u47">
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>regarde<mor type="mor"><mw><pos><c>v</c></pos><stem>regarder</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u48">
+    <w>une<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>une</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>petite<wk type="cmp"/>fille<mor type="mor"><mwc><pos><c>n</c></pos><mw><pos><c>n</c></pos><stem>petite</stem></mw><mw><pos><c>n</c></pos><stem>fille</stem><mk type="sfxf">f</mk></mw></mwc></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u49">
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>fait<mor type="mor"><mw><pos><c>part</c></pos><stem>faire</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>toc_toc<mor type="mor"><mw><pos><c>co</c></pos><stem>toc_toc</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u50">
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>porte<mor type="mor"><mw><pos><c>n</c></pos><stem>porte</stem><mk type="sfxf">f</mk></mw><menx>door</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u51">
+    <w>regarde<mor type="mor"><mw><pos><c>v</c></pos><stem>regarder</stem><mk type="sfx">IMP</mk><mk type="sfxf">2s</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>y<mor type="mor"><mw><pos><c>pro</c><s>y</s></pos><stem>y</stem></mw></mor></w>
+    <w>a<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>télé<mor type="mor"><mw><pos><c>n</c></pos><stem>télé</stem><mk type="sfxf">f</mk></mw><menx>television</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u52">
+    <w>regarde<mor type="mor"><mw><pos><c>v</c></pos><stem>regarder</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>dame<mor type="mor"><mw><pos><c>n</c></pos><stem>dame</stem><mk type="sfxf">f</mk></mw><menx>lady</menx></mor></w>
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>grande<mor type="mor"><mw><pos><c>adj</c></pos><stem>grand</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u53">
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>dort<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>grande<mor type="mor"><mw><pos><c>adj</c></pos><stem>grand</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u54">
+    <w>oh_oui<mor type="mor"><mw><pos><c>co</c></pos><stem>oh_oui</stem></mw></mor></w>
+    <t type="e"><mor type="mor"><mt type="e"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u55">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>se<mor type="mor"><mw><pos><c>pro</c><s>refl</s></pos><stem>se</stem></mw></mor></w>
+    <w>réveiller<mor type="mor"><mw><mpfx>re</mpfx><pos><c>v</c></pos><stem>veiller</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u56">
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>maman<mor type="mor"><mw><pos><c>n</c></pos><stem>maman</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>les<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>les</stem><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>réveiller<mor type="mor"><mw><mpfx>re</mpfx><pos><c>v</c></pos><stem>veiller</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u57">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>dormir<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>dans<mor type="mor"><mw><pos><c>prep</c></pos><stem>dans</stem></mw></mor></w>
+    <w>sa<mor type="mor"><mw><pos><c>det</c><s>poss</s></pos><stem>sa</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>cabane<mor type="mor"><mw><pos><c>n</c></pos><stem>cabane</stem><mk type="sfxf">f</mk></mw><menx>cabin</menx></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u58">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>l'escalier<mor type="mor"><mw><pos><c>n</c></pos><stem>escalier</stem><mk type="sfxf">m</mk></mw><mor-pre><mw><pos><c>det</c><s>art</s></pos><stem>le</stem></mw></mor-pre></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u59">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>dirait<mor type="mor"><mw><pos><c>v</c></pos><stem>dire</stem><mk type="sfx">COND</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>que<mor type="mor"><mw><pos><c>adv</c></pos><stem>que</stem></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>exist</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>dehors<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>dehors</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u60">
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>ferme<mor type="mor"><mw><pos><c>n</c></pos><stem>ferme</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u61">
+    <w>comment<mor type="mor"><mw><pos><c>n</c></pos><stem>comment</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>passer<mor type="mor"><mw><pos><c>v</c></pos><stem>passer</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>alors<mor type="mor"><mw><pos><c>conj</c></pos><stem>alors</stem></mw></mor></w>
+    <w>les<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>les</stem><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>voitures<mor type="mor"><mw><pos><c>n</c></pos><stem>voiture</stem><mk type="sfxf">f</mk><mk type="sfx">PL</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u62">
+    <w>t'as<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">2s</mk></mw><mor-pre><mw><pos><c>pro</c><s>subj</s></pos><stem>tu</stem></mw></mor-pre></mor></w>
+    <w>vu<mor type="mor"><mw><pos><c>part</c></pos><stem>voir</stem><mk type="sfxf">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <w>j'ai<mor type="mor"><mw><pos><c>v</c><s>poss</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">1s</mk></mw><mor-pre><mw><pos><c>pro</c><s>subj</s></pos><stem>je</stem></mw></mor-pre></mor></w>
+    <w>bien<mor type="mor"><mw><pos><c>adv</c></pos><stem>bien</stem></mw></mor></w>
+    <w>travaillé<mor type="mor"><mw><pos><c>part</c></pos><stem>travailler</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u63">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>se<mor type="mor"><mw><pos><c>pro</c><s>refl</s></pos><stem>se</stem></mw></mor></w>
+    <w>réveiller<mor type="mor"><mw><mpfx>re</mpfx><pos><c>v</c></pos><stem>veiller</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u64">
+    <w>ils<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>ils</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>manger<mor type="mor"><mw><pos><c>v</c></pos><stem>manger</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u65">
+    <w>hop<mor type="mor"><mw><pos><c>co</c></pos><stem>hop</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u66">
+    <w>ils<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>ils</stem></mw></mor></w>
+    <w>ont<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>plus<mor type="mor"><mw><pos><c>qn</c></pos><stem>plus</stem></mw></mor></w>
+    <w>de<mor type="mor"><mw><pos><c>prep</c></pos><stem>de</stem></mw></mor></w>
+    <w>place<mor type="mor"><mw><pos><c>n</c></pos><stem>place</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u67">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>n'ont<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw><mor-pre><mw><pos><c>neg</c></pos><stem>ne</stem></mw></mor-pre></mor></w>
+    <w>plus<mor type="mor"><mw><pos><c>prep</c></pos><stem>plus</stem></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>table<mor type="mor"><mw><pos><c>n</c></pos><stem>table</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u68">
+    <w>attends<mor type="mor"><mw><pos><c>v</c></pos><stem>attendre</stem><mk type="sfx">IMP</mk><mk type="sfxf">2s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u69">
+    <w>oh<mor type="mor"><mw><pos><c>co</c></pos><stem>oh</stem></mw></mor></w>
+    <w>voilà<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>voilà</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u70">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>mange<mor type="mor"><mw><pos><c>v</c></pos><stem>manger</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u71">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>mange<mor type="mor"><mw><pos><c>v</c></pos><stem>manger</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>vrai<mor type="mor"><mw><pos><c>adj</c></pos><stem>vrai</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u72">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>font<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>faire</stem><mk type="sfx">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>semblant<mor type="mor"><mw><pos><c>n</c></pos><stem>semblant</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u73">
+    <w>alors<mor type="mor"><mw><pos><c>adv</c></pos><stem>alors</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u74">
+    <w>et_lui<mor type="mor"><mw><pos><c>co</c></pos><stem>et_lui</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u75">
+    <w>non<mor type="mor"><mw><pos><c>co</c></pos><stem>non</stem></mw><menx>no</menx></mor></w>
+    <w>elle<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>elle</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>maman<mor type="mor"><mw><pos><c>n</c></pos><stem>maman</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u76">
+    <w>et_lui<mor type="mor"><mw><pos><c>co</c></pos><stem>et_lui</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>papa<mor type="mor"><mw><pos><c>n</c></pos><stem>papa</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u77">
+    <w>j'arrive<mor type="mor"><mw><pos><c>v</c></pos><stem>arriver</stem><mk type="sfx">IMP</mk><mk type="sfxf">2s</mk></mw><mor-pre><mw><pos><c>pro</c><s>subj</s></pos><stem>je</stem></mw></mor-pre></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>à<mor type="mor"><mw><pos><c>prep</c></pos><stem>à</stem></mw></mor></w>
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>sortir<mor type="mor"><mw><pos><c>n</c></pos><stem>sortir</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u78">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>comment<mor type="mor"><mw><pos><c>n</c></pos><stem>comment</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>s'ouvre<mor type="mor"><mw><pos><c>v</c></pos><stem>ouvrir</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw><mor-pre><mw><pos><c>pro</c><s>refl</s></pos><stem>se</stem></mw></mor-pre></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u79">
+    <w>et<mor type="mor"><mw><pos><c>conj</c></pos><stem>et</stem></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>exist</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>quoi<mor type="mor"><mw><pos><c>pro</c><s>rel</s></pos><stem>quoi</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u80">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>dehors<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>dehors</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u81">
+    <w>après<mor type="mor"><mw><pos><c>adv</c></pos><stem>après</stem></mw></mor></w>
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>vont<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>dormir<mor type="mor"><mw><pos><c>v</c></pos><stem>dormir</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u82">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>bébé<mor type="mor"><mw><pos><c>n</c></pos><stem>bébé</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>aussi<mor type="mor"><mw><pos><c>adv</c></pos><stem>aussi</stem></mw></mor></w>
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>s'endormir<mor type="mor"><mw><pos><c>v</c></pos><stem>endormir</stem><mk type="sfx">INF</mk></mw><mor-pre><mw><pos><c>pro</c><s>refl</s></pos><stem>se</stem></mw></mor-pre></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u83">
+    <w>voilà<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>voilà</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u84">
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>fermer<mor type="mor"><mw><pos><c>v</c></pos><stem>fermer</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>maison<mor type="mor"><mw><pos><c>n</c></pos><stem>maison</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u85">
+    <w>on<mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>on</stem></mw></mor></w>
+    <w>démolit<mor type="mor"><mw><pos><c>v</c></pos><stem>démolir</stem><mk type="sfx">PASS</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>tout<mor type="mor"><mw><pos><c>adv</c></pos><stem>tout</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u86">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>comme-ça<mor type="mor"><mw><pos><c>adv</c></pos><stem>comme</stem><mk type="sfx">ça</mk></mw></mor></w>
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>ferme<mor type="mor"><mw><pos><c>n</c></pos><stem>ferme</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u87">
+    <w>peut<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>pouvoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>pas<mor type="mor"><mw><pos><c>adv</c><s>neg</s></pos><stem>pas</stem></mw></mor></w>
+    <w>fermer<mor type="mor"><mw><pos><c>v</c></pos><stem>fermer</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u88">
+    <w>voilà<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>voilà</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u89">
+    <w>le<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>le</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>monsieur<mor type="mor"><mw><pos><c>n</c></pos><stem>monsieur</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>dit<mor type="mor"><mw><pos><c>part</c></pos><stem>dire</stem><mk type="sfx">PP</mk><mk type="sfxf">m</mk></mw></mor></w>
+    <w>toc_toc<mor type="mor"><mw><pos><c>co</c></pos><stem>toc_toc</stem></mw></mor></w>
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u90">
+    <w>i<shortening>l</shortening><mor type="mor"><mw><pos><c>pro</c><s>subj</s></pos><stem>il</stem></mw></mor></w>
+    <w>rentre<mor type="mor"><mw><pos><c>v</c></pos><stem>rentrer</stem><mk type="sfx">PRES</mk><mk type="sfxf">SUB</mk><mk type="sfxf">13s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u91">
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>mettre<mor type="mor"><mw><pos><c>v</c></pos><stem>mettre</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <w>ça<mor type="mor"><mw><pos><c>pro</c><s>dem</s></pos><stem>ça</stem></mw></mor></w>
+    <w>au<mor type="mor"><mw><pos><c>prep</c></pos><stem>à</stem><mk type="sfxf">le</mk></mw></mor></w>
+    <w>garage<mor type="mor"><mw><pos><c>n</c></pos><stem>garage</stem><mk type="sfxf">m</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u92">
+    <w>attends<mor type="mor"><mw><pos><c>v</c></pos><stem>attendre</stem><mk type="sfx">IMP</mk><mk type="sfxf">2s</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u93">
+    <w>y<mor type="mor"><mw><pos><c>pro</c><s>y</s></pos><stem>y</stem></mw></mor></w>
+    <w>a<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>avoir</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>des<mor type="mor"><mw><pos><c>prep</c></pos><stem>de</stem><mk type="sfxf">les</mk></mw></mor></w>
+    <w>choses<mor type="mor"><mw><pos><c>n</c></pos><stem>chose</stem><mk type="sfx">PL</mk></mw><menx>thing</menx></mor></w>
+    <w>qui<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>qui</stem></mw></mor></w>
+    <w>sont<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3p</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u94">
+    <w>après<mor type="mor"><mw><pos><c>adv</c></pos><stem>après</stem></mw></mor></w>
+    <w>quelqu'un<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>un</stem><mk type="sfxf">m</mk><mk type="sfxf">sg</mk></mw><mor-pre><mw><pos><c>det</c><s>gen</s></pos><stem>quelque</stem></mw></mor-pre></mor></w>
+    <w>va<mor type="mor"><mw><pos><c>v</c><s>mdl</s></pos><stem>aller</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>arriver<mor type="mor"><mw><pos><c>v</c></pos><stem>arriver</stem><mk type="sfx">INF</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u95">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>la<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>la</stem><mk type="sfxf">f</mk><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>maman<mor type="mor"><mw><pos><c>n</c></pos><stem>maman</stem><mk type="sfxf">f</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u96">
+    <w>voilà<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>voilà</stem></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u97">
+    <w>toctoc<mor type="mor"><mw><pos><c>co</c></pos><stem>toctoc</stem></mw></mor></w>
+    <w>qui<mor type="mor"><mw><pos><c>pro</c><s>int</s></pos><stem>qui</stem></mw></mor></w>
+    <w>est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw></mor></w>
+    <w>là<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>là</stem></mw></mor></w>
+    <t type="q"><mor type="mor"><mt type="q"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u98">
+    <w>c'est<mor type="mor"><mw><pos><c>v</c><s>aux</s></pos><stem>être</stem><mk type="sfxf">PRES</mk><mk type="sfxf">3s</mk></mw><mor-pre><mw><pos><c>pro</c><s>dem</s></pos><stem>ce</stem></mw></mor-pre></mor></w>
+    <w>les<mor type="mor"><mw><pos><c>det</c><s>art</s></pos><stem>les</stem><mk type="sfxf">pl</mk></mw></mor></w>
+    <w>enfants<mor type="mor"><mw><pos><c>n</c></pos><stem>enfant</stem><mk type="sfx">PL</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+  <u who="CHI" uID="u99">
+    <w>voilà<mor type="mor"><mw><pos><c>adv</c><s>place</s></pos><stem>voilà</stem></mw></mor></w>
+    <w>leur<mor type="mor"><mw><pos><c>det</c><s>poss</s></pos><stem>leur</stem><mk type="sfxf">sg</mk></mw></mor></w>
+    <w>parents<mor type="mor"><mw><pos><c>n</c></pos><stem>parent</stem><mk type="sfxf">m</mk><mk type="sfx">PL</mk></mw></mor></w>
+    <t type="p"><mor type="mor"><mt type="p"/></mor></t>
+
+  </u>
+</CHAT>
