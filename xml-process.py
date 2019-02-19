@@ -140,6 +140,7 @@ def parseTranscript(data, speakers):
             if part.sid == sid:
                 # When the speaker ID is found, make a reference to it.
                 s = part
+                break
 
         # Record if a noun is seen before an adjective.
         seenNoun = False
@@ -207,11 +208,12 @@ def parseTranscript(data, speakers):
                     if part.sid == sid:
                         # When the speaker ID is found, make a reference to it.
                         s = part
+                        break
 
                 # Now process the text via the groupTier tag under Morphology attribute.
                 for g in u:
                     # Process the groupTier format.
-                    if urlScrub(g.tag) == "groupTier":
+                    if urlScrub(g.tag) == "grouptier":
                         # Look for the Morphology attribute.
                         if g.attrib['tierName'] == "Morphology":
                             # Record if a noun is seen before an adjective.
