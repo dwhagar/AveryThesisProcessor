@@ -11,8 +11,9 @@ import speaker
 
 def urlScrub(data):
     """Scrubs URL data from a line of XML text, the URL is encased in {}"""
+    # This function also puts the result into all lowercase, to make pattern matching easier.
     result = data.split("}")[1]
-    return result
+    return result.lower()
 
 def findXML(directory, r = False):
     """Takes a directory specification and produces a list of XML files."""
@@ -80,6 +81,123 @@ def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
     return val.age.years
 
+def parseSpeakers(data):
+    """Parse through the participant data, it accepts XML object data to parse through."""
+    result = []
+
+    role = None
+    name = None
+    sex = None
+    age = None
+    lang = None
+
+    for part in data:
+        # Gather every participant in turn.
+        if urlScrub(part.tag) == "participant":
+            sid = part.attrib['id']
+
+            # Gather the actual data.
+            for partData in part:
+                if urlScrub(partData.tag) == "role":
+                    role = partData.text
+                elif urlScrub(partData.tag) == "name":
+                    name = partData.text
+                elif urlScrub(partData.tag) == "sex":
+                    sex = partData.text
+                elif urlScrub(partData.tag) == "age":
+                    age = partData.text
+                elif urlScrub(partData.tag) == "language":
+                    lang = partData.text
+
+            # Speaker data is stored as attributes of the XML Participant tags, the above will fail.
+            if role is None and \
+                    name is None and\
+                    sex is None and\
+                    age is None and\
+                    lang is None:
+                role = part.attrib['role']
+                name = part.attrib['name']
+                lang = part.attrib['language']
+                age = part.attrib['age']
+                sex = part.attrib['sex']
+
+            # Build the speaker object.
+            curPart = speaker.Speaker(sid, role, name, sex, age, lang)
+            result.append(curPart)
+
+    return result
+
+def parseTranscript(data, speakers):
+    """Parses through an XML data block for transcript information, updates list in-place."""
+    for u in data:
+        # Provide a place to store a reference to the current speaker information.
+        s = None
+
+        # Gather the speaker from the <u> tag.
+        if urlScrub(u.tag) == "u":
+            sid = u.attrib['speaker']
+
+            # Now find the speaker by the ID in the list.
+            for part in speakers:
+                if part.sid == sid:
+                    # When the speaker ID is found, make a reference to it.
+                    s = part
+
+            # Now process the text via the groupTier tag under Morphology
+            for g in u:
+                if urlScrub(g.tag) == "groupTier":
+                    if g.attrib['tierName'] == "Morphology":
+                        # Record if a noun is seen before an adjective.
+                        seenNoun = False
+                        seenAdj = False
+                        noun = None
+                        adj = None
+
+                        # Each word is stored in a <tg> tag and under that a <w> tag.
+                        for t in g:
+                            if urlScrub(t.tag) == "tg":
+                                for w in t:
+                                    if urlScrub(w.tag) == "w":
+                                        if not (w.text[0] == "("
+                                                or w.text[-1] == ")"
+                                                or w.text.find('|') < 0):
+                                            word = speaker.Word(w.text)
+                                            if word.noun:
+                                                seenNoun = True
+                                                noun = word
+                                            elif word.adj:
+                                                seenAdj = True
+                                                word.adj = True
+                                                adj = word
+                                                if seenNoun and not seenAdj:
+                                                    word.beforeNoun = False
+                                                elif not seenNoun and seenAdj:
+                                                    word.beforeNoun = True
+
+                                            # NOTE:  This is not the best way to do this and
+                                            #        does not handle complex sentences particularly
+                                            #        well, could provide unreliable statistics.
+
+                                            # TODO: Ask Avery about this problem.
+
+                                            # Store the noun pairs in their appropriate list.
+                                            if seenNoun and seenAdj:
+                                                if adj.beforeNoun:
+                                                    s.prePairs.append((adj, noun))
+                                                else:
+                                                    s.postPairs.append((adj, noun))
+                                                # Reset the flags so we don't add multiple pairs.
+                                                seenNoun = False
+                                                seenAdj = False
+
+                                            # Store the word into the list for this speaker.
+                                            if not word.punctuation:
+                                                s.words.append(word)
+
+                        # Look for adjectives without nouns (these are not used in statistics).
+                        if seenAdj and not seenNoun:
+                            s.orphans.append(adj)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
@@ -145,102 +263,20 @@ def main():
         for chld in corpusRoot:
             # Process the Participants
             if urlScrub(chld.tag) == "participants":
-                role = None
-                name = None
-                sex = None
-                age = None
-                lang = None
-
-                for part in chld:
-                    # Gather every participant in turn.
-                    if urlScrub(part.tag) == "participant":
-                        sid = part.attrib['id']
-
-                        # Gather the actual data.
-                        for partData in part:
-                            if urlScrub(partData.tag) == "role":
-                                role = partData.text
-                            elif urlScrub(partData.tag) == "name":
-                                name = partData.text
-                            elif urlScrub(partData.tag) == "sex":
-                                sex = partData.text
-                            elif urlScrub(partData.tag) == "age":
-                                age = partData.text
-                            elif urlScrub(partData.tag) == "language":
-                                lang = partData.text
-
-                        curPart = speaker.Speaker(sid, role, name, sex, age, lang)
-                        fileParts.append(curPart)
-
+                fileParts.extend(parseSpeakers(chld))
             # Process the actual word data, starting with the speaker.
             elif urlScrub(chld.tag) == "transcript":
-                for u in chld:
-                    # Provide a place to store a reference to the current speaker information.
-                    s = None
-                    # Gather the speaker from the <u> tag.
-                    if urlScrub(u.tag) == "u":
-                        sid = u.attrib['speaker']
-
-                        # Now find the speaker by the ID in the list.
-                        for part in fileParts:
-                            if part.sid == sid:
-                                # When the speaker ID is found, make a reference to it.
-                                s = part
-
-                        # Now process the text via the groupTier tag under Morphology
-                        for g in u:
-                            if urlScrub(g.tag) == "groupTier":
-                                if g.attrib['tierName'] == "Morphology":
-                                    # Record if a noun is seen before an adjective.
-                                    seenNoun = False
-                                    seenAdj = False
-                                    noun = None
-                                    adj = None
-
-                                    # Each word is stored in a <tg> tag and under that a <w> tag.
-                                    for t in g:
-                                        if urlScrub(t.tag) == "tg":
-                                            for w in t:
-                                                if urlScrub(w.tag) == "w":
-                                                    if not (w.text[0] == "("
-                                                            or w.text[-1] == ")"
-                                                            or w.text.find('|') < 0):
-                                                        word = speaker.Word(w.text)
-                                                        if word.noun:
-                                                            seenNoun = True
-                                                            noun = word
-                                                        elif word.adj:
-                                                            seenAdj = True
-                                                            word.adj = True
-                                                            adj = word
-                                                            if seenNoun and not seenAdj:
-                                                                word.beforeNoun = False
-                                                            elif not seenNoun and seenAdj:
-                                                                word.beforeNoun = True
-
-                                                        # NOTE:  This is not the best way to do this and
-                                                        #        does not handle complex sentences particularly
-                                                        #        well, could provide unreliable statistics.
-
-                                                        # TODO: Ask Avery about this problem.
-
-                                                        # Store the noun pairs in their appropriate list.
-                                                        if seenNoun and seenAdj:
-                                                            if adj.beforeNoun:
-                                                                s.prePairs.append((adj,noun))
-                                                            else:
-                                                                s.postPairs.append((adj,noun))
-                                                            # Reset the flags so we don't add multiple pairs.
-                                                            seenNoun = False
-                                                            seenAdj = False
-
-                                                        # Store the word into the list for this speaker.
-                                                        if not word.punctuation:
-                                                            s.words.append(word)
-
-                                    # Look for adjectives without nouns (these are not used in statistics).
-                                    if seenAdj and not seenNoun:
-                                        s.orphans.append(adj)
+                parseTranscript(chld, fileParts)
+            # Process the CHAT tag to descend further into the tree.
+            elif urlScrub(chld.tag) == "chat":
+                # In this case, all the data is under the tag of CHAT, so must drop into that tree.
+                for c in chld:
+                    # Process the Participants
+                    if urlScrub(c.tag) == "participants":
+                        fileParts.extend(parseSpeakers(c))
+                    # Process the actual word data, starting with the speaker.
+                    elif urlScrub(c.tag) == "transcript":
+                        parseTranscript(c, fileParts)
 
         # Add all participants from this file to the master list.
         allParts.extend(fileParts)
