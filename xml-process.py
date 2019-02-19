@@ -99,15 +99,15 @@ def main():
 
     arg = parser.parse_args()
 
-    if arg.child[-3:] == "csv":
+    if not arg.child[-3:] == "csv":
         arg.child = arg.child + ".csv"
-    if arg.adult[-3:] == "csv":
+    if not arg.adult[-3:] == "csv":
         arg.adult = arg.adult + ".csv"
-    if arg.child[-3:] == "csv":
+    if not arg.child[-3:] == "csv":
         arg.sib = arg.sib + ".csv"
-    if arg.preadj[-3:] == "csv":
+    if not arg.preadj[-3:] == "csv":
         arg.preadj = arg.preadj + ".csv"
-    if arg.postadj[-3:] == "csv":
+    if not arg.postadj[-3:] == "csv":
         arg.postadj = arg.postadj + ".csv"
 
     if arg.file is None and arg.dir is None:
