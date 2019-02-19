@@ -133,6 +133,14 @@ def parseTranscript(data, speakers):
 
     # Handle the format of transcript data which is stored under the u tag.
     if urlScrub(data.tag) == "u":
+        sid = data.attrib['who']
+
+        # Now find the speaker by the ID in the list.
+        for part in speakers:
+            if part.sid == sid:
+                # When the speaker ID is found, make a reference to it.
+                s = part
+
         # Record if a noun is seen before an adjective.
         seenNoun = False
         seenAdj = False
@@ -140,14 +148,6 @@ def parseTranscript(data, speakers):
         adj = None
 
         for w in data:
-            sid = data.attrib['who']
-
-            # Now find the speaker by the ID in the list.
-            for part in speakers:
-                if part.sid == sid:
-                    # When the speaker ID is found, make a reference to it.
-                    s = part
-
             # Look into the w tag for word data.
             if urlScrub(w.tag) == "w":
                 # The word itself is stored in the w tag's text.
@@ -166,39 +166,34 @@ def parseTranscript(data, speakers):
                                             if urlScrub(c.tag) == "c":
                                                 if c.text == "n":
                                                     word.noun = True
+                                                    seenNoun = True
+                                                    noun = word
                                                 elif c.text == "adj":
                                                     word.adj = True
+                                                    seenAdj = True
+                                                    adj = word
+                                                    if seenNoun and not seenAdj:
+                                                        word.beforeNoun = False
+                                                    elif not seenNoun and seenAdj:
+                                                        word.beforeNoun = True
 
-                # Now that the word data itself should be set, process it.
-                if word.noun:
-                    seenNoun = True
-                    noun = word
-                elif word.adj:
-                    seenAdj = True
-                    word.adj = True
-                    adj = word
-                    if seenNoun and not seenAdj:
-                        word.beforeNoun = False
-                    elif not seenNoun and seenAdj:
-                        word.beforeNoun = True
+                                                # Store the noun pairs in their appropriate list.
+                                                if seenNoun and seenAdj:
+                                                    if adj.beforeNoun:
+                                                        s.prePairs.append((adj, noun))
+                                                    else:
+                                                        s.postPairs.append((adj, noun))
+                                                    # Reset the flags so we don't add multiple pairs.
+                                                    seenNoun = False
+                                                    seenAdj = False
 
-                    # Store the noun pairs in their appropriate list.
-                    if seenNoun and seenAdj:
-                        if adj.beforeNoun:
-                            s.prePairs.append((adj, noun))
-                        else:
-                            s.postPairs.append((adj, noun))
-                        # Reset the flags so we don't add multiple pairs.
-                        seenNoun = False
-                        seenAdj = False
+                                                # Store the word into the list for this speaker.
+                                                if not word.punctuation:
+                                                    s.words.append(word)
 
-                # Store the word into the list for this speaker.
-                if not word.punctuation:
-                    s.words.append(word)
-
-                # Look for adjectives without nouns (these are not used in statistics).
-                if seenAdj and not seenNoun:
-                    s.orphans.append(adj)
+            # Look for adjectives without nouns (these are not used in statistics).
+            if seenAdj and not seenNoun:
+                s.orphans.append(adj)
 
     # Handle the format of transcript data in groupTier/Morphology.
     else:
@@ -392,7 +387,7 @@ def main():
     ageLow = 0
     ageHigh = 0.5
 
-    while ageHigh < maxAge:
+    while ageHigh <= maxAge:
         # A list to store word pair data, each will be stored with a line for every 6 months.
         curGroupPreM = []
         curGroupPostM = []
@@ -401,7 +396,7 @@ def main():
 
         for spk in ageList:
             # Check ages and construct some lists.
-            if ageLow <= spk.age.years < ageHigh:
+            if ageLow < spk.age.years <= ageHigh:
                 tmp = spk.getPairs()
 
                 if spk.sex == "male":
@@ -428,7 +423,7 @@ def main():
         ageHigh = ageHigh + 0.5
 
     # Construct the actual CSV files.
-    statHeader = "Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal,Prenominal Pairs,Postnominal Pairs,Orphans"
+    statHeader = "Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal"
     childCSV = genCSV(statHeader, childStats)
     adultCSV = genCSV(statHeader, adultStats)
     siblingCSV = genCSV(statHeader, siblingStats)
