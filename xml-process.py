@@ -109,21 +109,38 @@ def parseSpeakers(data):
                 elif urlScrub(partData.tag) == "language":
                     lang = partData.text
 
+            # A flag to see if this participant should be aborted.
+            # Some data in the XML does not have all the requires information, this will abort adding
+            # a speaker to the data set if the required data is not present.
+            abort = False
+
             # Speaker data is stored as attributes of the XML Participant tags, the above will fail.
-            if role is None and \
+            if role is None and\
                     name is None and\
                     sex is None and\
                     age is None and\
                     lang is None:
-                role = part.attrib['role']
-                name = part.attrib['name']
-                lang = part.attrib['language']
-                age = part.attrib['age']
-                sex = part.attrib['sex']
+                if "role" in part.attrib.keys():
+                    role = part.attrib['role']
+                if "name" in part.attrib.keys():
+                    name = part.attrib['name']
+                if "language" in part.attrib.keys():
+                    lang = part.attrib['language']
+                if "age" in part.attrib.keys():
+                    age = part.attrib['age']
+                if "sex" in part.attrib.keys():
+                    sex = part.attrib['sex']
+
+            if role is None or\
+                    name is None or\
+                    sex is None or\
+                    age is None:
+                abort = True
 
             # Build the speaker object.
-            curPart = speaker.Speaker(sid, role, name, sex, age, lang)
-            result.append(curPart)
+            if not abort:
+                curPart = speaker.Speaker(sid, role, name, sex, age, lang)
+                result.append(curPart)
 
     return result
 
