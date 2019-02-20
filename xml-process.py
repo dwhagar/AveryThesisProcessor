@@ -188,7 +188,7 @@ def parseTranscript(data, speakers):
                                     if urlScrub(pos.tag) == "pos":
                                         for c in pos:
                                             # Parts of speech data is stored in this tag.
-                                            if urlScrub(c.tag) == "c":
+                                            if urlScrub(c.tag) == "c" and not word.word is None:
                                                 if c.text == "n":
                                                     word.noun = True
                                                     seenNoun = True
@@ -217,7 +217,7 @@ def parseTranscript(data, speakers):
                                                     s.words.append(word)
 
             # Look for adjectives without nouns (these are not used in statistics).
-            if seenAdj and not seenNoun and not s is None:
+            if seenAdj and not seenNoun and not s is None and not adj.word is None:
                 s.orphans.append(adj)
 
     # Handle the format of transcript data in groupTier/Morphology.
