@@ -5,7 +5,7 @@ class Speaker:
     def __init__(self, sid = None, role = None, name = None, sex = None, age = None, language = None):
         self.words = []
         self.sid = sid
-        self.role = role
+        self.role = role.replace("_", " ")
         self.name = name
         self.sex = sex
         self.language = language
@@ -20,7 +20,7 @@ class Speaker:
         else:
             self.age = None
 
-        if not (self.sid == "CHI" or self.sid == "BRO" or self.sid == "SIS"):
+        if self.age.decimal >= 18:
             self.adult = True
 
         if self.sid == "BRO" or self.sid == "SIS":

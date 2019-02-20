@@ -79,7 +79,7 @@ def countPairs(data, age):
 
 def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
-    return val.age.years
+    return val.age.decimal
 
 def parseSpeakers(data):
     """Parse through the participant data, it accepts XML object data to parse through."""
@@ -142,6 +142,13 @@ def parseSpeakers(data):
                 curPart = speaker.Speaker(sid, role, name, sex, age, lang)
                 result.append(curPart)
 
+            # Set all values back to None before the next loop.
+            role = None
+            name = None
+            sex = None
+            age = None
+            lang = None
+
     return result
 
 def parseTranscript(data, speakers):
@@ -167,7 +174,7 @@ def parseTranscript(data, speakers):
 
         for w in data:
             # Look into the w tag for word data.
-            if urlScrub(w.tag) == "w":
+            if urlScrub(w.tag) == "w" and not s is None:
                 # The word itself is stored in the w tag's text.
                 word = speaker.Word(w.text)
 
@@ -210,7 +217,7 @@ def parseTranscript(data, speakers):
                                                     s.words.append(word)
 
             # Look for adjectives without nouns (these are not used in statistics).
-            if seenAdj and not seenNoun:
+            if seenAdj and not seenNoun and not s is None:
                 s.orphans.append(adj)
 
     # Handle the format of transcript data in groupTier/Morphology.
@@ -230,7 +237,7 @@ def parseTranscript(data, speakers):
                 # Now process the text via the groupTier tag under Morphology attribute.
                 for g in u:
                     # Process the groupTier format.
-                    if urlScrub(g.tag) == "grouptier":
+                    if urlScrub(g.tag) == "grouptier" and not s is None:
                         # Look for the Morphology attribute.
                         if g.attrib['tierName'] == "Morphology":
                             # Record if a noun is seen before an adjective.
@@ -402,7 +409,7 @@ def main():
     postPairsF = []
 
     # Now lets construct the CSV data from the sorted speaker list.
-    maxAge = ageList[len(ageList) - 1].age.years
+    maxAge = ageList[len(ageList) - 1].age.decimal
     ageLow = 0
     ageHigh = 0.5
 
@@ -415,7 +422,7 @@ def main():
 
         for spk in ageList:
             # Check ages and construct some lists.
-            if ageLow < spk.age.years <= ageHigh:
+            if ageLow < spk.age.decimal <= ageHigh:
                 tmp = spk.getPairs()
 
                 if spk.sex == "male":
