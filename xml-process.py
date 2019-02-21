@@ -31,10 +31,7 @@ def findXML(directory, r = False):
 
 def genCSV(hdr, data):
     """Generate a list of CSV formatted strings from a list of statistical data."""
-    result = []
-
-    # Add header line.
-    result.append(hdr)
+    result = [hdr]
 
     # Add data to file.
     for item in data:
