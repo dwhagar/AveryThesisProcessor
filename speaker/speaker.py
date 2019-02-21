@@ -47,14 +47,3 @@ class Speaker:
 
         return self.role, self.name, self.sex, round(self.age.decimal,4),\
                ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100
-
-    def getPairs(self):
-        """Gets the lists of word pairs for this particular speaker."""
-        preText = []
-        postText = []
-        for pre in self.prePairs:
-            preText.append(pre[0].word + "/" + pre[1].word)
-        for post in self.postPairs:
-            postText.append(post[0].word + "/" + post[1].word)
-
-        return preText, postText

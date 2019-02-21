@@ -73,7 +73,7 @@ def countPairs(data, age):
 
     for item in setData:
         count = data.count(item)
-        result.append((age, item, count))
+        result.append((age, item[0].word, item[1].word, count))
 
     return result
 
@@ -423,14 +423,12 @@ def main():
         for spk in ageList:
             # Check ages and construct some lists.
             if ageLow < spk.age.decimal <= ageHigh:
-                tmp = spk.getPairs()
-
                 if spk.sex == "male":
-                    curGroupPreM.extend(tmp[0])
-                    curGroupPostM.extend(tmp[1])
+                    curGroupPreM.extend(spk.prePairs)
+                    curGroupPostM.extend(spk.postPairs)
                 if spk.sex == "female":
-                    curGroupPreF.extend(tmp[0])
-                    curGroupPostF.extend(tmp[1])
+                    curGroupPreF.extend(spk.prePairs)
+                    curGroupPostF.extend(spk.postPairs)
 
         # Construct the list of lists, including age data.
         if len(curGroupPreM) > 0:
@@ -454,7 +452,7 @@ def main():
     adultCSV = genCSV(statHeader, adultStats)
     siblingCSV = genCSV(statHeader, siblingStats)
 
-    adjheader = "Age Lower,Pair,Count"
+    adjheader = "Age Lower,Adjective,Noun,Count"
     adjPreMCSV = genCSV(adjheader, prePairsM)
     adjPostMCSV = genCSV(adjheader, postPairsM)
     adjPreFCSV = genCSV(adjheader, prePairsF)
