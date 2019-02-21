@@ -3,7 +3,7 @@
 
 import argparse
 import os.path
-from os import walk, getcwd
+from os import walk, getcwd, makedirs
 import xml.etree.ElementTree as ET
 
 # Import custom class.
@@ -290,32 +290,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
     parser.add_argument("-d", "--dir", type=str, help="The directory name to find XML files to processed.")
-    parser.add_argument("-c", "--child", type=str, help="The name of the CSV file to output the child data.",
-                        default=os.path.join(getcwd(), "child.csv"))
-    parser.add_argument("-a", "--adult", type=str, help="The name of the CSV file to output the adult data.",
-                        default=os.path.join(getcwd(), "adult.csv"))
-    parser.add_argument("-s", "--sib", type=str, help="The name of the CSV file to output the sibling data.",
-                        default=os.path.join(getcwd(), "sibling.csv"))
-    parser.add_argument("-j", "--preadj", type=str, help="The name of the CSV file to output the pronominal adjective pairs.",
-                        default=os.path.join(getcwd(), "pre-adjectives.csv"))
-    parser.add_argument("-k", "--postadj", type=str, help="The name of the CSV file to output the postnominal adjective pairs.",
-                        default=os.path.join(getcwd(), "post-adjectives.csv"))
+    parser.add_argument("-o", "--output", type=str, help="The directory to output CSV files to.",
+                        default=getcwd())
     parser.add_argument("-r", "--recursive", help="Should a directory be looked at recursively.", action='store_true')
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
 
     arg = parser.parse_args()
-
-    # If there is no CSV extension on the output files, add one.
-    if not arg.child[-3:] == "csv":
-        arg.child = arg.child + ".csv"
-    if not arg.adult[-3:] == "csv":
-        arg.adult = arg.adult + ".csv"
-    if not arg.child[-3:] == "csv":
-        arg.sib = arg.sib + ".csv"
-    if not arg.preadj[-3:] == "csv":
-        arg.preadj = arg.preadj + ".csv"
-    if not arg.postadj[-3:] == "csv":
-        arg.postadj = arg.postadj + ".csv"
 
     # Validate that the user gave the program something to do.
     if arg.file is None and arg.dir is None:
@@ -458,16 +438,20 @@ def main():
     adjPreFCSV = genCSV(adjheader, prePairsF)
     adjPostFCSV = genCSV(adjheader, postPairsF)
 
+    # Create the output directory if needed.
+    if not os.path.isdir(arg.output) and not arg.test:
+        makedirs(arg.output)
+
     # Write the CSV files for per-speaker stats.
-    writeCSV(childCSV, arg.child, arg.test)
-    writeCSV(adultCSV, arg.adult, arg.test)
-    writeCSV(siblingCSV, arg.sib, arg.test)
+    writeCSV(childCSV, os.path.join(arg.output, "child.csv"), arg.test)
+    writeCSV(adultCSV, os.path.join(arg.output, "adult.csv"), arg.test)
+    writeCSV(siblingCSV, os.path.join(arg.output, "sibling.csv"), arg.test)
 
     # Write the gender-specific CSV files for adjective pair stats.
-    writeCSV(adjPreMCSV, arg.preadj[:-4] + "-male" + arg.preadj[-4:], arg.test)
-    writeCSV(adjPostMCSV, arg.postadj[:-4] + "-male" + arg.postadj[-4:], arg.test)
-    writeCSV(adjPreFCSV, arg.preadj[:-4] + "-female" + arg.preadj[-4:], arg.test)
-    writeCSV(adjPostFCSV, arg.postadj[:-4] + "-female" + arg.postadj[-4:], arg.test)
+    writeCSV(adjPreMCSV, os.path.join(arg.output, "pre-adjective-male.csv"), arg.test)
+    writeCSV(adjPostMCSV, os.path.join(arg.output, "post-adjective-male.csv"), arg.test)
+    writeCSV(adjPreFCSV, os.path.join(arg.output, "pre-adjective-female.csv"), arg.test)
+    writeCSV(adjPostFCSV, os.path.join(arg.output, "post-adjective-female.csv"), arg.test)
 
     return 0
 
