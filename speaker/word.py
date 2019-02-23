@@ -7,6 +7,7 @@ class Word:
         self.noun = False
         self.beforeNoun = False
         self.punctuation = False
+        self.orphan = False
 
         if word is None:
             self.word = None
@@ -36,6 +37,7 @@ class Word:
                 self.word = word.split("&")[0]
                 self.word = self.word.split("-")[0]
                 self.word = self.word.split("=")[0]
+
             # If no syntax data is stored, leave it at defaults.
             else:
                 self.word = word

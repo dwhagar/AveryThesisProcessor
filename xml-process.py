@@ -74,6 +74,18 @@ def countPairs(data, age):
 
     return result
 
+def countAdjectives(data, age):
+    """Counts the number of adjectives for a particular age and returns a formatted CSV tuple."""
+    setData = list(set(data[:]))
+
+    result = []
+
+    for item in setData:
+        count = data.count(item)
+        result.append((age, item, count))
+
+    return result
+
 def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
     return val.age.decimal
@@ -215,6 +227,7 @@ def parseTranscript(data, speakers):
 
             # Look for adjectives without nouns (these are not used in statistics).
             if seenAdj and not seenNoun and not s is None and not adj.word is None:
+                adj.orphan = True
                 s.orphans.append(adj)
 
     # Handle the format of transcript data in groupTier/Morphology.
@@ -280,6 +293,7 @@ def parseTranscript(data, speakers):
 
                             # Look for adjectives without nouns (these are not used in statistics).
                             if seenAdj and not seenNoun:
+                                adj.orphan = True
                                 s.orphans.append(adj)
 
 def main():
@@ -410,25 +424,35 @@ def main():
         for spk in ageList:
             # Check ages and construct some lists.
             if ageLow < spk.age.decimal <= ageHigh:
+                tmp = spk.getAdjectives()
+
                 if spk.sex == "male":
                     curGroupPreM.extend(spk.prePairs)
                     curGroupPostM.extend(spk.postPairs)
+                    curGroupPreAdjM.extend(tmp[0])
+                    curGroupPostAdjM.extend(tmp[1])
                 if spk.sex == "female":
                     curGroupPreF.extend(spk.prePairs)
                     curGroupPostF.extend(spk.postPairs)
+                    curGroupPreAdjF.extend(tmp[0])
+                    curGroupPostAdjF.extend(tmp[1])
 
         # Construct the list of lists, including age data.
         if len(curGroupPreM) > 0:
             prePairsM.extend(countPairs(curGroupPreM, ageLow))
+            preAdjM.extend(countAdjectives(curGroupPreAdjM, ageLow))
 
         if len(curGroupPostM) > 0:
             postPairsM.extend(countPairs(curGroupPostM, ageLow))
+            postAdjM.extend(countAdjectives(curGroupPreAdjM, ageLow))
 
         if len(curGroupPreF) > 0:
             prePairsF.extend(countPairs(curGroupPreF, ageLow))
+            preAdjF.extend(countAdjectives(curGroupPreAdjF, ageLow))
 
         if len(curGroupPostF) > 0:
             postPairsF.extend(countPairs(curGroupPostF, ageLow))
+            postAdjF.extend(countAdjectives(curGroupPreAdjF, ageLow))
 
         ageLow = ageHigh
         ageHigh = ageHigh + 0.5
@@ -445,6 +469,12 @@ def main():
     adjPreFCSV = genCSV(adjheader, prePairsF)
     adjPostFCSV = genCSV(adjheader, postPairsF)
 
+    adjheader2 = "Age Lower, Adjective, Count"
+    adjCountPreMCSV = genCSV(adjheader2, preAdjM)
+    adjCountPostMCSV = genCSV(adjheader2, postAdjM)
+    adjCountPreFCSV = genCSV(adjheader2, preAdjF)
+    adjCountPostFCSV = genCSV(adjheader2, postAdjF)
+
     # Create the output directory if needed.
     if not os.path.isdir(arg.output) and not arg.test:
         makedirs(arg.output)
@@ -455,10 +485,16 @@ def main():
     writeCSV(siblingCSV, os.path.join(arg.output, "sibling.csv"), arg.test)
 
     # Write the gender-specific CSV files for adjective pair stats.
-    writeCSV(adjPreMCSV, os.path.join(arg.output, "pre-adjective-male.csv"), arg.test)
-    writeCSV(adjPostMCSV, os.path.join(arg.output, "post-adjective-male.csv"), arg.test)
-    writeCSV(adjPreFCSV, os.path.join(arg.output, "pre-adjective-female.csv"), arg.test)
-    writeCSV(adjPostFCSV, os.path.join(arg.output, "post-adjective-female.csv"), arg.test)
+    writeCSV(adjPreMCSV, os.path.join(arg.output, "pre-adjective-pairs-male.csv"), arg.test)
+    writeCSV(adjPostMCSV, os.path.join(arg.output, "post-adjective-pairs-male.csv"), arg.test)
+    writeCSV(adjPreFCSV, os.path.join(arg.output, "pre-adjective-pairs-female.csv"), arg.test)
+    writeCSV(adjPostFCSV, os.path.join(arg.output, "post-adjective-pairs-female.csv"), arg.test)
+
+    # Write the gender-specific CSV files for the adjective counts.
+    writeCSV(adjCountPreMCSV, os.path.join(arg.output, "pre-adjective-male.csv"), arg.test)
+    writeCSV(adjCountPostMCSV, os.path.join(arg.output, "post-adjective-male.csv"), arg.test)
+    writeCSV(adjCountPreFCSV, os.path.join(arg.output, "pre-adjective-female.csv"), arg.test)
+    writeCSV(adjCountPostFCSV, os.path.join(arg.output, "post-adjective-female.csv"), arg.test)
 
     return 0
 

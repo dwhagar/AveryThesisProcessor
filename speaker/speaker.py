@@ -49,4 +49,16 @@ class Speaker:
                ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100
 
     def getAdjectives(self):
-        """Gets a list of adjectives for this speaker."""
+        """Gets a list of adjectives, both pre and post nomative, for this speaker."""
+        resultPre = []
+        resultPost = []
+
+        # Just go through the word list and pick out the proper words.
+        for word in self.words:
+            if word.adj and not word.orphan:
+                if word.beforeNoun:
+                    resultPre.append(word.word)
+                else:
+                    resultPost.append(word.word)
+
+        return resultPre, resultPost
