@@ -385,6 +385,12 @@ def main():
     prePairsF = []
     postPairsF = []
 
+    # A list of adjectives that counts adjectives without pairs.
+    preAdjM = []
+    postAdjM = []
+    preAdjF = []
+    postAdjF = []
+
     # Now lets construct the CSV data from the sorted speaker list.
     maxAge = ageList[len(ageList) - 1].age.decimal
     ageLow = 0
@@ -396,6 +402,10 @@ def main():
         curGroupPostM = []
         curGroupPreF = []
         curGroupPostF = []
+        curGroupPostAdjM = []
+        curGroupPostAdjF = []
+        curGroupPreAdjM = []
+        curGroupPreAdjF = []
 
         for spk in ageList:
             # Check ages and construct some lists.

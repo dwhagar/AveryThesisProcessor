@@ -47,3 +47,6 @@ class Speaker:
 
         return self.role, self.name, self.sex, round(self.age.decimal,4),\
                ageLine, wordCount, adjCount, adjCorrect, round(score,4) * 100
+
+    def getAdjectives(self):
+        """Gets a list of adjectives for this speaker."""
