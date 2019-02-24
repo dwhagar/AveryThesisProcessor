@@ -82,7 +82,7 @@ def countAdjectives(data, age):
 
     for item in setData:
         count = data.count(item)
-        result.append((age, item, count))
+        result.append((age, item.word, count))
 
     return result
 
@@ -224,6 +224,11 @@ def parseTranscript(data, speakers):
                                                 # Store the word into the list for this speaker.
                                                 if not word.punctuation:
                                                     s.words.append(word)
+                    elif urlScrub(mor.tag) == "shortening":
+                        word.word = word.word + mor.text
+                        if not mor.tail is None:
+                            if not mor.tail.strip() == "\n":
+                                word.word = word.word + mor.tail
 
             # Look for adjectives without nouns (these are not used in statistics).
             if seenAdj and not seenNoun and not s is None and not adj.word is None:
@@ -424,18 +429,18 @@ def main():
         for spk in ageList:
             # Check ages and construct some lists.
             if ageLow < spk.age.decimal <= ageHigh:
-                tmp = spk.getAdjectives()
+                tmpAdj = spk.getAdjectives()
 
                 if spk.sex == "male":
                     curGroupPreM.extend(spk.prePairs)
                     curGroupPostM.extend(spk.postPairs)
-                    curGroupPreAdjM.extend(tmp[0])
-                    curGroupPostAdjM.extend(tmp[1])
+                    curGroupPreAdjM.extend(tmpAdj[0])
+                    curGroupPostAdjM.extend(tmpAdj[1])
                 if spk.sex == "female":
                     curGroupPreF.extend(spk.prePairs)
                     curGroupPostF.extend(spk.postPairs)
-                    curGroupPreAdjF.extend(tmp[0])
-                    curGroupPostAdjF.extend(tmp[1])
+                    curGroupPreAdjF.extend(tmpAdj[0])
+                    curGroupPostAdjF.extend(tmpAdj[1])
 
         # Construct the list of lists, including age data.
         if len(curGroupPreM) > 0:

@@ -54,11 +54,9 @@ class Speaker:
         resultPost = []
 
         # Just go through the word list and pick out the proper words.
-        for word in self.words:
-            if word.adj and not word.orphan:
-                if word.beforeNoun:
-                    resultPre.append(word.word)
-                else:
-                    resultPost.append(word.word)
+        for item in self.prePairs:
+            resultPre.append(item[0])
+        for item in self.postPairs:
+            resultPost.append(item[0])
 
         return resultPre, resultPost
