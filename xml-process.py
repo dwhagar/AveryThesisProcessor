@@ -225,7 +225,10 @@ def parseTranscript(data, speakers):
                                                 if not word.punctuation:
                                                     s.words.append(word)
                     elif urlScrub(mor.tag) == "shortening":
-                        word.word = word.word + mor.text
+                        if word.word is None:
+                            word.word = mor.text
+                        else:
+                            word.word = word.word + mor.text
                         if not mor.tail is None:
                             if not mor.tail.strip() == "\n":
                                 word.word = word.word + mor.tail
