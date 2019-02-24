@@ -64,25 +64,35 @@ def writeCSV(data, file, test = False):
 
 def countPairs(data, age):
     """Counts how many of a single pair is in a given list.  Returns a tuple of age, pair, and count."""
-    setData = list(set(data[:]))
+    wordStrings = []
+
+    for d in data:
+        wordStrings.append((d[0].word, d[1].word))
+
+    setData = list(set(wordStrings[:]))
 
     result = []
 
     for item in setData:
-        count = data.count(item)
-        result.append((age, item[0].word, item[1].word, count))
+        count = wordStrings.count(item)
+        result.append((age, item[0], item[1], count))
 
     return result
 
 def countAdjectives(data, age):
     """Counts the number of adjectives for a particular age and returns a formatted CSV tuple."""
-    setData = list(set(data[:]))
+    wordStrings = []
+
+    for d in data:
+        wordStrings.append(d.word)
+
+    setData = list(set(wordStrings[:]))
 
     result = []
 
     for item in setData:
-        count = data.count(item)
-        result.append((age, item.word, count))
+        count = wordStrings.count(item)
+        result.append((age, item, count))
 
     return result
 
