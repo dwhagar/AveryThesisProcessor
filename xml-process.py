@@ -170,14 +170,15 @@ def parseSpeakers(data):
                     sex = part.attrib['sex']
 
             if role is None or\
-                    name is None or\
-                    sex is None:
+                    name is None:
                 abort = True
 
             # Adding this, this wil allow for processing of interviewers or other adults who
             # do not have an age set.
             if age is None:
                 age = "P99Y"
+            if sex is None:
+                sex = "Not Applicable"
 
             # Build the speaker object.
             if not abort:
@@ -221,7 +222,7 @@ def parseTranscript(data, speakers):
                 word = speaker.Word(w.text)
 
                 # This format does not store syntax information in the word text
-                # so we will have to fill it in from tags within the word tax.
+                # so we will have to fill it in from tags within the word text.
                 for mor in w:
                     if urlScrub(mor.tag) == "mor":
                         for mw in mor:
@@ -254,6 +255,10 @@ def parseTranscript(data, speakers):
                                                     seenNoun = False
                                                     seenAdj = False
 
+                                                    # Reset our pointers to the words.
+                                                    adj = None
+                                                    noun = None
+
                                                 # Store the word into the list for this speaker.
                                                 if not word.punctuation:
                                                     s.words.append(word)
@@ -266,10 +271,13 @@ def parseTranscript(data, speakers):
                             if not mor.tail.strip() == "\n":
                                 word.word = word.word + mor.tail
 
-            # Look for adjectives without nouns (these are not used in statistics).
-            if seenAdj and not seenNoun and not s is None and not adj.word is None:
-                adj.orphan = True
-                s.orphans.append(adj)
+        # Look for adjectives without nouns (these are not used in statistics).
+        if seenAdj and \
+                not seenNoun and\
+                not s is None and\
+                not adj.word is None:
+            adj.orphan = True
+            s.orphans.append(adj)
 
     # Handle the format of transcript data in groupTier/Morphology.
     else:
@@ -327,6 +335,9 @@ def parseTranscript(data, speakers):
                                                     # Reset the flags so we don't add multiple pairs.
                                                     seenNoun = False
                                                     seenAdj = False
+
+                                                    noun = None
+                                                    adj = None
 
                                                 # Store the word into the list for this speaker.
                                                 if not word.punctuation:
@@ -652,19 +663,6 @@ def main():
     adjCountPreFCSV = genCSV(adjHeader2, preAdjF)
     adjCountPostFCSV = genCSV(adjHeader2, postAdjF)
 
-    if not noAdultData:
-        adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom"
-        adjAdultRatesPreCSV = genCSV(adjAdultRatesHeaderPre, adultAdjectivesPre)
-        adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,% Post-Nom"
-        adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
-
-        adjChildPreHeader = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom,% for Adults,Error"
-        adjChildPreMCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
-        adjChildPreFCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
-        adjChildPostHeader = "Adjective,Post-Nom Count,Total Count,% Post-Nom,% for Adults,Error"
-        adjChildPostMCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
-        adjChildPostFCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
-
     # Create the output directory if needed.
     if not os.path.isdir(arg.output) and not arg.test:
         makedirs(arg.output)
@@ -687,6 +685,19 @@ def main():
     writeCSV(adjCountPostFCSV, os.path.join(arg.output, "post-adjective-female.csv"), arg.test)
 
     if not noAdultData:
+        # Build adult CSV data.
+        adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom"
+        adjAdultRatesPreCSV = genCSV(adjAdultRatesHeaderPre, adultAdjectivesPre)
+        adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,% Post-Nom"
+        adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
+
+        adjChildPreHeader = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom,% for Adults,Error"
+        adjChildPreMCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
+        adjChildPreFCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
+        adjChildPostHeader = "Adjective,Post-Nom Count,Total Count,% Post-Nom,% for Adults,Error"
+        adjChildPostMCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
+        adjChildPostFCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
+
         # Write Adult CSV data.
         writeCSV(adjAdultRatesPreCSV, os.path.join(arg.output, "pre-adjective-adult-rates.csv"), arg.test)
         writeCSV(adjAdultRatesPostCSV, os.path.join(arg.output, "post-adjective-adult-rates.csv"), arg.test)

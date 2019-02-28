@@ -39,14 +39,20 @@ class Age:
             temp = ageDate.split("Y")
             self.years = int(temp[0][:])
             temp = temp[1].split("M")
-            self.months = int(temp[0][:])
+            if temp[0] == "":
+                self.months = 0
+            else:
+                self.months = int(temp[0][:])
 
             # Not all age data has days specified.
-            temp = temp[1].split("D")
-            if temp[0] == "":
-                self.days = 0
+            if len(temp) > 1:
+                temp = temp[1].split("D")
+                if temp[0] == "":
+                    self.days = 0
+                else:
+                    self.days = int(temp[0][:])
             else:
-                self.days = int(temp[0][:])
+                self.days = 0
 
             # Turn the individual fields into a decimal age.
             self.decimal = self.years + (self.months / 12) + (self.days / 365.25) + (self.hours / 8760) + \
