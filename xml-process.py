@@ -487,10 +487,14 @@ def main():
     postAdjF = []
 
     # Get the usage rates for adults.
-    adultAdjectives = usageStats(allParts, True)
+    adultAdjectivesPre = usageStats(allParts, True, True)
+    adultAdjectivesPost = usageStats(allParts, True, False)
 
     # This is where we'll store data on error rates.
-    childAdjectives = []
+    childAdjectivesPreMRates = []
+    childAdjectivesPreFRates = []
+    childAdjectivesPostMRates = []
+    childAdjectivesPostFRates = []
 
     # Now lets construct the CSV data from the sorted speaker list.
     maxAge = ageList[len(ageList) - 1].age.decimal
@@ -507,6 +511,10 @@ def main():
         curGroupPostAdjF = []
         curGroupPreAdjM = []
         curGroupPreAdjF = []
+
+        # All these lists will store rate data for each category within this age group.
+        curMaleSpeakers = []
+        curFemaleSpeakers = []
 
         for spk in ageList:
             # Check ages and construct some lists.
@@ -544,7 +552,7 @@ def main():
         ageLow = ageHigh
         ageHigh = ageHigh + 0.5
 
-    # Construct the actual CSV files.
+    # Construct the actual CSV files data.
     statHeader = "Role,Name,Gender,Age (Dec),Age (Y;M),Words,Adjectives,Prenominal,% Prenominal"
     childCSV = genCSV(statHeader, childStats)
     adultCSV = genCSV(statHeader, adultStats)
@@ -556,11 +564,16 @@ def main():
     adjPreFCSV = genCSV(adjheader, prePairsF)
     adjPostFCSV = genCSV(adjheader, postPairsF)
 
-    adjheader2 = "Age Lower, Adjective, Count"
+    adjheader2 = "Age Lower,Adjective,Count"
     adjCountPreMCSV = genCSV(adjheader2, preAdjM)
     adjCountPostMCSV = genCSV(adjheader2, postAdjM)
     adjCountPreFCSV = genCSV(adjheader2, preAdjF)
     adjCountPostFCSV = genCSV(adjheader2, postAdjF)
+
+    adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,Pre-Nom Rate"
+    adjAdultRatesPreCSV = genCSV(adjAdultRatesHeaderPre, adultAdjectivesPre)
+    adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,Post-Nom Rate"
+    adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
 
     # Create the output directory if needed.
     if not os.path.isdir(arg.output) and not arg.test:
@@ -582,6 +595,10 @@ def main():
     writeCSV(adjCountPostMCSV, os.path.join(arg.output, "post-adjective-male.csv"), arg.test)
     writeCSV(adjCountPreFCSV, os.path.join(arg.output, "pre-adjective-female.csv"), arg.test)
     writeCSV(adjCountPostFCSV, os.path.join(arg.output, "post-adjective-female.csv"), arg.test)
+
+    # Write Adult CSV data.
+    writeCSV(adjAdultRatesPreCSV, os.path.join(arg.output, "pre-adjective-adult-rates.csv"), arg.test)
+    writeCSV(adjAdultRatesPostCSV, os.path.join(arg.output, "post-adjective-adult-rates.csv"), arg.test)
 
     return 0
 
