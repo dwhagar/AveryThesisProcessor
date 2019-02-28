@@ -84,7 +84,7 @@ def countAdjectives(data, age):
     wordStrings = []
 
     for d in data:
-        wordStrings.append(d.word)
+        wordStrings.append(d)
 
     setData = list(set(wordStrings[:]))
 
@@ -95,6 +95,31 @@ def countAdjectives(data, age):
         result.append((age, item, count))
 
     return result
+
+def countAdjectivesNoAge(data):
+    """Counts the number of adjectives for a particular age and returns a tuple without the ages."""
+    wordStrings = []
+
+    for d in data:
+        wordStrings.append(d.word)
+
+    setData = list(set(wordStrings[:]))
+
+    result = []
+
+    for item in setData:
+        count = wordStrings.count(item)
+        result.append((item, count))
+
+    return result
+
+def findListIndex(data, comparison):
+    """Finds a word from its tuple to give the index value within the list."""
+    for x in range(0, len(data)):
+        if data[x][0] == comparison[0]:
+            return x
+
+    return -1
 
 def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
@@ -422,6 +447,43 @@ def main():
     postAdjM = []
     preAdjF = []
     postAdjF = []
+
+    # This is where we'll store data on error rates.
+    childAdjectives = []
+    adultAdjectives = []
+    adultAdjList = []
+    adultPreList = []
+
+    # Lets get all of the adjectives in the word list for adults together.
+    for spk in allParts:
+        if spk.adult:
+            for word in spk.words:
+                if word.adj and not word.orphan:
+                    adultAdjList.append(word.word)
+
+                    # Collect just adjectives which exist before the noun.
+                    if word.beforeNoun:
+                        adultPreList.append(word.word)
+
+    adultPreRates = []
+
+    if len(adultAdjList) > 0 and len(adultPreList) > 0:
+        adultAdjCounts = countAdjectivesNoAge(adultAdjList)
+        adultPreCounts = countAdjectivesNoAge(adultPreList)
+
+        # This gets the word itself, pre, total, and calculates the rates.
+        for item in adultPreCounts:
+            totalUsage = adultAdjCounts[findListIndex(adultAdjCounts, item)][1]
+            wordRate = item[1] / totalUsage
+            adultAdjectives.append((item[0], item[1], totalUsage, wordRate))
+
+    # TODO: This list is built, not integrate it into the per-age data and do the same calculations there.
+    # I will probably need to functionalize the above.
+
+    # Just to make sure things are initialized so we don't get NoneType errors.
+    else:
+        adultPreCounts = []
+        adultAdjCounts = []
 
     # Now lets construct the CSV data from the sorted speaker list.
     maxAge = ageList[len(ageList) - 1].age.decimal
