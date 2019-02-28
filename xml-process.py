@@ -118,7 +118,6 @@ def findListIndex(data, comparison):
     for x in range(0, len(data)):
         if data[x][0] == comparison[0]:
             return x
-
     return -1
 
 def ageKey(val):
@@ -339,6 +338,45 @@ def parseTranscript(data, speakers):
                                 adj.orphan = True
                                 s.orphans.append(adj)
 
+def usageStats(data, adultOnly = False, preNom = True):
+    """
+    Given a list of Speaker objects this will return a formatted list of adjectives and their rates.
+    This function will not determine if an 'error' has occured, but simply returns a list of tules with
+    rate data and usage data per adjective found in the list of Speaker objects.
+
+    Use the adultOnly flag to only pull adults, otherwise it will only bull children.
+    Use the preNom flag to tell the script to focus on prenom adjectives or postnom acjectives.
+    """
+    adjectives = []
+    adjList = []
+    targetList = []
+
+    # Lets get all of the adjectives in the speaker set.
+    for spk in data:
+        if spk.adult == adultOnly:
+            for word in spk.words:
+                if word.adj and not word.orphan:
+                    adjList.append(word.word)
+
+                    # Collect just adjectives with the target attribute.
+                    if word.beforeNoun == preNom:
+                        targetList.append(word.word)
+
+    if len(adjList) > 0 and len(targetList) > 0:
+        adultAdjCounts = countAdjectivesNoAge(adjList)
+        adultPreCounts = countAdjectivesNoAge(targetList)
+
+        # This gets the word itself, pre, total, and calculates the rates.
+        for item in adultPreCounts:
+            totalUsage = adultAdjCounts[findListIndex(adultAdjCounts, item)][1]
+            wordRate = item[1] / totalUsage
+
+            # The format used here per list item is:
+            # word, pre-count, total-count, pre-count / total-count
+            adjectives.append((item[0], item[1], totalUsage, wordRate))
+
+    return adjectives
+
 def main():
     # Argument parsing.
     parser = argparse.ArgumentParser()
@@ -448,42 +486,11 @@ def main():
     preAdjF = []
     postAdjF = []
 
+    # Get the usage rates for adults.
+    adultAdjectives = usageStats(allParts, True)
+
     # This is where we'll store data on error rates.
     childAdjectives = []
-    adultAdjectives = []
-    adultAdjList = []
-    adultPreList = []
-
-    # Lets get all of the adjectives in the word list for adults together.
-    for spk in allParts:
-        if spk.adult:
-            for word in spk.words:
-                if word.adj and not word.orphan:
-                    adultAdjList.append(word.word)
-
-                    # Collect just adjectives which exist before the noun.
-                    if word.beforeNoun:
-                        adultPreList.append(word.word)
-
-    adultPreRates = []
-
-    if len(adultAdjList) > 0 and len(adultPreList) > 0:
-        adultAdjCounts = countAdjectivesNoAge(adultAdjList)
-        adultPreCounts = countAdjectivesNoAge(adultPreList)
-
-        # This gets the word itself, pre, total, and calculates the rates.
-        for item in adultPreCounts:
-            totalUsage = adultAdjCounts[findListIndex(adultAdjCounts, item)][1]
-            wordRate = item[1] / totalUsage
-            adultAdjectives.append((item[0], item[1], totalUsage, wordRate))
-
-    # TODO: This list is built, not integrate it into the per-age data and do the same calculations there.
-    # I will probably need to functionalize the above.
-
-    # Just to make sure things are initialized so we don't get NoneType errors.
-    else:
-        adultPreCounts = []
-        adultAdjCounts = []
 
     # Now lets construct the CSV data from the sorted speaker list.
     maxAge = ageList[len(ageList) - 1].age.decimal
