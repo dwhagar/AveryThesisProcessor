@@ -691,10 +691,10 @@ def main():
         adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,% Post-Nom"
         adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
 
-        adjChildPreHeader = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom,% for Adults,Error"
+        adjChildPreHeader = "Age Lower,Adjective,Pre-Nom Count,Total Count,% Pre-Nom,% for Adults,Error"
         adjChildPreMCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
         adjChildPreFCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
-        adjChildPostHeader = "Adjective,Post-Nom Count,Total Count,% Post-Nom,% for Adults,Error"
+        adjChildPostHeader = "Age Lower,Adjective,Post-Nom Count,Total Count,% Post-Nom,% for Adults,Error"
         adjChildPostMCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
         adjChildPostFCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
 
