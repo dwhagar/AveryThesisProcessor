@@ -338,18 +338,66 @@ def parseTranscript(data, speakers):
                                 adj.orphan = True
                                 s.orphans.append(adj)
 
-def usageStats(data, adultOnly = False, preNom = True):
+def usageHelper(counts, totalCounts, adultOnly = False, age = None, adultData = None, errorThreshold = 1):
+    """
+    See notes for usageStats, the same notes apply here for the flags, this is simply a helper
+    function to make processing the two for loops simpler to code.
+
+    counts will be the current list of adjectives and their current counts
+    totalCounts will be the counts over the entire list of adjectives present
+    """
+    result = []
+
+    for item in counts:
+        totalUsage = totalCounts[findListIndex(totalCounts, item)][1]
+        wordRate = item[1] / totalUsage
+
+        if adultOnly:
+            # The format used here per list item is:
+            # word, pre-count, total-count, pre-count / total-count
+            result.append((item[0], item[1], totalUsage, wordRate))
+        else:
+            # Lets determine if the child-data is close to the adult data.
+            adultDataIndex = findListIndex(adultData, item)
+            adultAdjRate = adultData[adultDataIndex][3]
+
+            # If the rate for which the word is used in this context is within the errorThreshold
+            # value of the adult data, it will be counted as used correctly for this age group.
+            if adultAdjRate - errorThreshold <= wordRate <= adultAdjRate + errorThreshold:
+                error = 0
+            else:
+                error = 1
+
+            # The format used here per list item is:
+            # word, pre-count, total-count, pre-count / total-count, adult usage, error
+            result.append((age, item[0], item[1], totalUsage, wordRate, adultAdjRate, error))
+
+    return result
+
+def usageStats(data, adultOnly = False, age = None, adultData = None, errorThreshold = 1):
     """
     Given a list of Speaker objects this will return a formatted list of adjectives and their rates.
     This function will not determine if an 'error' has occured, but simply returns a list of tules with
     rate data and usage data per adjective found in the list of Speaker objects.
 
     Use the adultOnly flag to only pull adults, otherwise it will only bull children.
-    Use the preNom flag to tell the script to focus on prenom adjectives or postnom acjectives.
+    The output is going to be two lists packed together, the first will be pre-nom and second post-nom.
+
+    If the age is specified, it will be included in the CSV output, otherwise it will be left out.
+
+    If there is adultData present, this will represent the pre-nom rate data for each adjective in the
+    data set for comparison, this will generate an error value (0 for if the data shows the adjective
+    rate of usage is within the errorThreshold value of the adult data specified.
+
+    The script will assume that if the flag for adultOnly is not set, that all the other data will be
+    present, defaults are given simply to make calling the script for the adult data generation is
+    easier.
     """
-    adjectives = []
+    adjectivesPre = []
+    adjectivesPost = []
     adjList = []
-    targetList = []
+    preList = []
+    postList = []
 
     # Lets get all of the adjectives in the speaker set.
     for spk in data:
@@ -359,23 +407,20 @@ def usageStats(data, adultOnly = False, preNom = True):
                     adjList.append(word.word)
 
                     # Collect just adjectives with the target attribute.
-                    if word.beforeNoun == preNom:
-                        targetList.append(word.word)
+                    if word.beforeNoun:
+                        preList.append(word.word)
+                    else:
+                        postList.append(word.word)
 
-    if len(adjList) > 0 and len(targetList) > 0:
-        adultAdjCounts = countAdjectivesNoAge(adjList)
-        adultPreCounts = countAdjectivesNoAge(targetList)
+    if len(adjList) > 0 and len(postList) > 0:
+        adjCounts = countAdjectivesNoAge(adjList)
+        preCounts = countAdjectivesNoAge(preList)
+        postCounts = countAdjectivesNoAge(postList)
 
-        # This gets the word itself, pre, total, and calculates the rates.
-        for item in adultPreCounts:
-            totalUsage = adultAdjCounts[findListIndex(adultAdjCounts, item)][1]
-            wordRate = item[1] / totalUsage
+        adjectivesPre = usageHelper(preCounts, adjCounts, adultOnly, age, adultData, errorThreshold)
+        adjectivesPost = usageHelper(postCounts, adjCounts, adultOnly, age, adultData, errorThreshold)
 
-            # The format used here per list item is:
-            # word, pre-count, total-count, pre-count / total-count
-            adjectives.append((item[0], item[1], totalUsage, wordRate))
-
-    return adjectives
+    return adjectivesPre, adjectivesPost
 
 def main():
     # Argument parsing.
@@ -487,8 +532,7 @@ def main():
     postAdjF = []
 
     # Get the usage rates for adults.
-    adultAdjectivesPre = usageStats(allParts, True, True)
-    adultAdjectivesPost = usageStats(allParts, True, False)
+    adultAdjectivesPre, adultAdjectivesPost = usageStats(allParts, True)
 
     # This is where we'll store data on error rates.
     childAdjectivesPreMRates = []
@@ -516,6 +560,12 @@ def main():
         curMaleSpeakers = []
         curFemaleSpeakers = []
 
+        # Now all the rate data (without age) for this age group.
+        curMalePreRates = []
+        curMalePostRates = []
+        curFemalePreRates = []
+        curFemalePostRates = []
+
         for spk in ageList:
             # Check ages and construct some lists.
             if ageLow < spk.age.decimal <= ageHigh:
@@ -526,11 +576,13 @@ def main():
                     curGroupPostM.extend(spk.postPairs)
                     curGroupPreAdjM.extend(tmpAdj[0])
                     curGroupPostAdjM.extend(tmpAdj[1])
+                    curMaleSpeakers.append(spk)
                 if spk.sex == "female":
                     curGroupPreF.extend(spk.prePairs)
                     curGroupPostF.extend(spk.postPairs)
                     curGroupPreAdjF.extend(tmpAdj[0])
                     curGroupPostAdjF.extend(tmpAdj[1])
+                    curFemaleSpeakers.append(spk)
 
         # Construct the list of lists, including age data.
         if len(curGroupPreM) > 0:
@@ -548,6 +600,12 @@ def main():
         if len(curGroupPostF) > 0:
             postPairsF.extend(countPairs(curGroupPostF, ageLow))
             postAdjF.extend(countAdjectives(curGroupPreAdjF, ageLow))
+
+        # Construct the rate data for this age group.
+        if len(curMaleSpeakers) > 0:
+            curMalePreRates, curMalePostRates = usageStats(curMaleSpeakers, False)
+        if len(curFemaleSpeakers) > 0:
+            curFemalePreRates, curFemalePostRates = usageStats(curFemaleSpeakers, False)
 
         ageLow = ageHigh
         ageHigh = ageHigh + 0.5
@@ -570,9 +628,9 @@ def main():
     adjCountPreFCSV = genCSV(adjheader2, preAdjF)
     adjCountPostFCSV = genCSV(adjheader2, postAdjF)
 
-    adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,Pre-Nom Rate"
+    adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom"
     adjAdultRatesPreCSV = genCSV(adjAdultRatesHeaderPre, adultAdjectivesPre)
-    adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,Post-Nom Rate"
+    adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,% Post-Nom"
     adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
 
     # Create the output directory if needed.
