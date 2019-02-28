@@ -38,9 +38,15 @@ def genCSV(hdr, data):
         dataLine = ""
         for element in item:
             if len(dataLine) == 0:
-                dataLine = str(element)
+                if type(element) == str:
+                    dataLine = element
+                else:
+                    dataLine = "=" + str(element)
             else:
-                dataLine += "," + str(element)
+                if type(element) == str:
+                    dataLine += "," + element
+                else:
+                    dataLine += ",=" + str(element)
         result.append(dataLine)
 
     return result
