@@ -369,12 +369,12 @@ def usageHelper(counts, totalCounts, adultOnly = False, age = None, adultData = 
                 error = 1
 
             # The format used here per list item is:
-            # word, pre-count, total-count, pre-count / total-count, adult usage, error
+            # age, word, pre-count, total-count, pre-count / total-count, adult usage, error
             result.append((age, item[0], item[1], totalUsage, wordRate, adultAdjRate, error))
 
     return result
 
-def usageStats(data, adultOnly = False, age = None, adultData = None, errorThreshold = 1):
+def usageStats(data, adultOnly = False, age = None, adultPreData = None, adultPostData = None, errorThreshold = 1):
     """
     Given a list of Speaker objects this will return a formatted list of adjectives and their rates.
     This function will not determine if an 'error' has occured, but simply returns a list of tules with
@@ -385,9 +385,10 @@ def usageStats(data, adultOnly = False, age = None, adultData = None, errorThres
 
     If the age is specified, it will be included in the CSV output, otherwise it will be left out.
 
-    If there is adultData present, this will represent the pre-nom rate data for each adjective in the
+    If there is adult data present, this will represent the pre-nom rate data for each adjective in the
     data set for comparison, this will generate an error value (0 for if the data shows the adjective
-    rate of usage is within the errorThreshold value of the adult data specified.
+    rate of usage is within the errorThreshold value of the adult data specified.  This is specified in
+    adultPreData and adultPostData.
 
     The script will assume that if the flag for adultOnly is not set, that all the other data will be
     present, defaults are given simply to make calling the script for the adult data generation is
@@ -417,8 +418,8 @@ def usageStats(data, adultOnly = False, age = None, adultData = None, errorThres
         preCounts = countAdjectivesNoAge(preList)
         postCounts = countAdjectivesNoAge(postList)
 
-        adjectivesPre = usageHelper(preCounts, adjCounts, adultOnly, age, adultData, errorThreshold)
-        adjectivesPost = usageHelper(postCounts, adjCounts, adultOnly, age, adultData, errorThreshold)
+        adjectivesPre = usageHelper(preCounts, adjCounts, adultOnly, age, adultPreData, errorThreshold)
+        adjectivesPost = usageHelper(postCounts, adjCounts, adultOnly, age, adultPostData, errorThreshold)
 
     return adjectivesPre, adjectivesPost
 
@@ -588,24 +589,35 @@ def main():
         if len(curGroupPreM) > 0:
             prePairsM.extend(countPairs(curGroupPreM, ageLow))
             preAdjM.extend(countAdjectives(curGroupPreAdjM, ageLow))
-
         if len(curGroupPostM) > 0:
             postPairsM.extend(countPairs(curGroupPostM, ageLow))
             postAdjM.extend(countAdjectives(curGroupPreAdjM, ageLow))
-
         if len(curGroupPreF) > 0:
             prePairsF.extend(countPairs(curGroupPreF, ageLow))
             preAdjF.extend(countAdjectives(curGroupPreAdjF, ageLow))
-
         if len(curGroupPostF) > 0:
             postPairsF.extend(countPairs(curGroupPostF, ageLow))
             postAdjF.extend(countAdjectives(curGroupPreAdjF, ageLow))
 
         # Construct the rate data for this age group.
         if len(curMaleSpeakers) > 0:
-            curMalePreRates, curMalePostRates = usageStats(curMaleSpeakers, False)
+            curMalePreRates, curMalePostRates = usageStats(curMaleSpeakers,
+                                                           False, ageLow, adultAdjectivesPre,
+                                                           adultAdjectivesPost)
         if len(curFemaleSpeakers) > 0:
-            curFemalePreRates, curFemalePostRates = usageStats(curFemaleSpeakers, False)
+            curFemalePreRates, curFemalePostRates = usageStats(curFemaleSpeakers,
+                                                           False, ageLow, adultAdjectivesPre,
+                                                           adultAdjectivesPost)
+
+        # Add the constructed data to the master lists.
+        if len(curMalePreRates) > 0:
+            childAdjectivesPreMRates.extend(curMalePreRates)
+        if len(curFemalePreRates) > 0:
+            childAdjectivesPreFRates.extend(curFemalePreRates)
+        if len(curMalePostRates) > 0:
+            childAdjectivesPostMRates.extend(curMalePostRates)
+        if len(curFemalePostRates) > 0:
+            childAdjectivesPostFRates.extend(curFemalePostRates)
 
         ageLow = ageHigh
         ageHigh = ageHigh + 0.5
@@ -616,22 +628,29 @@ def main():
     adultCSV = genCSV(statHeader, adultStats)
     siblingCSV = genCSV(statHeader, siblingStats)
 
-    adjheader = "Age Lower,Adjective,Noun,Count"
-    adjPreMCSV = genCSV(adjheader, prePairsM)
-    adjPostMCSV = genCSV(adjheader, postPairsM)
-    adjPreFCSV = genCSV(adjheader, prePairsF)
-    adjPostFCSV = genCSV(adjheader, postPairsF)
+    adjHeader = "Age Lower,Adjective,Noun,Count"
+    adjPreMCSV = genCSV(adjHeader, prePairsM)
+    adjPostMCSV = genCSV(adjHeader, postPairsM)
+    adjPreFCSV = genCSV(adjHeader, prePairsF)
+    adjPostFCSV = genCSV(adjHeader, postPairsF)
 
-    adjheader2 = "Age Lower,Adjective,Count"
-    adjCountPreMCSV = genCSV(adjheader2, preAdjM)
-    adjCountPostMCSV = genCSV(adjheader2, postAdjM)
-    adjCountPreFCSV = genCSV(adjheader2, preAdjF)
-    adjCountPostFCSV = genCSV(adjheader2, postAdjF)
+    adjHeader2 = "Age Lower,Adjective,Count"
+    adjCountPreMCSV = genCSV(adjHeader2, preAdjM)
+    adjCountPostMCSV = genCSV(adjHeader2, postAdjM)
+    adjCountPreFCSV = genCSV(adjHeader2, preAdjF)
+    adjCountPostFCSV = genCSV(adjHeader2, postAdjF)
 
     adjAdultRatesHeaderPre = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom"
     adjAdultRatesPreCSV = genCSV(adjAdultRatesHeaderPre, adultAdjectivesPre)
     adjAdultRatesHeaderPost = "Adjective,Post-Nom Count,Total Count,% Post-Nom"
     adjAdultRatesPostCSV = genCSV(adjAdultRatesHeaderPost, adultAdjectivesPost)
+
+    adjChildPreHeader = "Adjective,Pre-Nom Count,Total Count,% Pre-Nom,% for Adults,Error"
+    adjChildPreMCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
+    adjChildPreFCSV = genCSV(adjChildPreHeader, childAdjectivesPreFRates)
+    adjChildPostHeader = "Adjective,Post-Nom Count,Total Count,% Post-Nom,% for Adults,Error"
+    adjChildPostMCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
+    adjChildPostFCSV = genCSV(adjChildPostHeader, childAdjectivesPostFRates)
 
     # Create the output directory if needed.
     if not os.path.isdir(arg.output) and not arg.test:
@@ -657,6 +676,12 @@ def main():
     # Write Adult CSV data.
     writeCSV(adjAdultRatesPreCSV, os.path.join(arg.output, "pre-adjective-adult-rates.csv"), arg.test)
     writeCSV(adjAdultRatesPostCSV, os.path.join(arg.output, "post-adjective-adult-rates.csv"), arg.test)
+
+    # Write Child Rate CSV data.
+    writeCSV(adjChildPreMCSV, os.path.join(arg.output, "pre-adjective-male-child-rates.csv"), arg.test)
+    writeCSV(adjChildPreFCSV, os.path.join(arg.output, "pre-adjective-female-child-rates.csv"), arg.test)
+    writeCSV(adjChildPostMCSV, os.path.join(arg.output, "post-adjective-male-child-rates.csv"), arg.test)
+    writeCSV(adjChildPostFCSV, os.path.join(arg.output, "post-adjective-female-child-rates.csv"), arg.test)
 
     return 0
 
