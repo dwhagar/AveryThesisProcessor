@@ -176,9 +176,13 @@ def parseSpeakers(data):
 
             if role is None or\
                     name is None or\
-                    sex is None or\
-                    age is None:
+                    sex is None:
                 abort = True
+
+            # Adding this, this wil allow for processing of interviewers or other adults who
+            # do not have an age set.
+            if age is None:
+                age = "P99Y"
 
             # Build the speaker object.
             if not abort:
