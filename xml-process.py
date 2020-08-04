@@ -6,8 +6,9 @@ import os.path
 from os import walk, getcwd, makedirs
 import xml.etree.ElementTree as ET
 
-# Import custom class.
+# Import custom classes.
 import speaker
+import sentence
 
 def urlScrub(data):
     """Scrubs URL data from a line of XML text, the URL is encased in {}"""
@@ -72,6 +73,55 @@ def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
     return val.age.decimal
 
+def corpusPB12(dataXML):
+    """Processes Corpus Data for version PB1.2 such as the Lyon Corpus.
+    Accepts input of XML data for processing and returns a list of Sentence objects.
+    """
+    result = [] # This will eventually store the completed list of Sentence objects.
+
+    speakers = []
+    language = ""
+
+    for child in dataXML:
+        # Process header for the language.
+        if urlScrub(child.tag) == 'header':
+            for headerChild in child:
+                if urlScrub(headerChild.tag) == 'language':
+                    language = headerChild.text
+        # Process participants to get participant IDs and build speakers.
+        elif urlScrub(child.tag) == 'participants':
+            for part in child:
+                if urlScrub(part) == 'participant':
+                    sID = part.attibute['id']
+                    sRole = None
+                    sName = None
+                    sSex = None
+                    sAge = None
+                    sLang = None
+                    for partData in part:
+                        if urlScrub(partData) == 'role':
+                            sRole = partData.text
+                        elif urlScrub(partData) == 'name':
+                            sName = partData.text
+                        elif urlScrub(partData) == 'sex':
+                            sSex = partData.text
+                        elif urlScrub(partData) == 'age':
+                            sAge = partData.text
+                        elif urlScrub(partData) == 'language':
+                            sLang = partData.text
+                    speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
+
+
+    return result
+
+def corpus271(dataXML):
+    """Processes Corpus Data for version 2.7.1 such as Palasis and MTLM.
+    Accepts input of XML data for processing and returns a list of Sentence objects.
+    """
+    result = []
+
+    return result
+
 def main():
     # Argument parsing.
     parser = argparse.ArgumentParser()
@@ -104,9 +154,6 @@ def main():
             return 1
         fileList = findXML(arg.dir, arg.recursive)
 
-    # Variable to store all of the speaker data for all processed participants.
-    allParts = []
-
     # Process all the XML files in the list.
     for file in fileList:
         print("Processing file '" + file + "'...")
@@ -114,8 +161,20 @@ def main():
         corpusTree = ET.parse(file)
         corpusRoot = corpusTree.getroot()
 
-        # Need to determine file version for processing.
+        # Need to determine file version for processing, since different files have
+        # different capitalization, we need to account for that.
+        if 'version' in corpusRoot.attrib:
+            ver = corpusRoot.attrib['version']
+        elif 'Version' in corpusRoot.attrib:
+            ver = corpusRoot.attrib['Version']
+        else:
+            ver = ""
 
+        # Now branch to the proper processor.
+        if ver == 'PB1.2':
+            data = corpusPB12(corpusRoot)
+        elif ver == '2.7.1':
+            data = corpus271(corpusRoot)
 
     return 0
 

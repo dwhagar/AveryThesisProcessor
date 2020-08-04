@@ -2,4 +2,3 @@
 
 from .age import Age
 from .speaker import Speaker
-from .word import Word
