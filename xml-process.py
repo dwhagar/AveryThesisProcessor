@@ -78,18 +78,11 @@ def corpusPB12(dataXML):
     Accepts input of XML data for processing and returns a list of Sentence objects.
     """
     result = [] # This will eventually store the completed list of Sentence objects.
-
     speakers = []
-    language = ""
 
     for child in dataXML:
-        # Process header for the language.
-        if urlScrub(child.tag) == 'header':
-            for headerChild in child:
-                if urlScrub(headerChild.tag) == 'language':
-                    language = headerChild.text
         # Process participants to get participant IDs and build speakers.
-        elif urlScrub(child.tag) == 'participants':
+        if urlScrub(child.tag) == 'participants':
             for part in child:
                 if urlScrub(part) == 'participant':
                     sID = part.attibute['id']
@@ -110,7 +103,37 @@ def corpusPB12(dataXML):
                         elif urlScrub(partData) == 'language':
                             sLang = partData.text
                     speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
+        # Now for the actual transcript data.  Before this tag is reached we assume
+        # that we will actually have all the speakers for this file.
+        elif urlScrub(child.tag) == 'transcript':
+            for u in child:
+                if urlScrub(u.tag) == 'u':
+                    sentenceText = "" # Full reconstructed sentence
+                    thisSpeaker = None # Where to put the speaker data
+                    sID = u.attribute['speaker']
+                    # We need to locate this speaker in the list.
+                    for s in speakers:
+                        if s.sid == sID:
+                            thisSpeaker = s
+                        else:
+                            raise ValueError('Speaker not found in data.')
+                    # We have located the speaker, now we can process the actual text.
+                    for ortho in u:
+                        if urlScrub(ortho.tag) == 'orthography':
+                            for g in ortho:
+                                if urlScrub(g.tag) == 'g':
+                                    for w in g:
+                                        if urlScrub(w.tag) == 'w': # Words
+                                            if not w.text == "": # Ignore empty text.
+                                                sentenceText += " "
+                                                sentenceText += w.text
+                                        elif urlScrub(w.tag) == 'p': # Punctuation
+                                            if not w.text == "": # Ignore empty text.
+                                                sentenceText += w.text
 
+                    # Check to make sure it is logical to append the data.
+                    if not (sentenceText == "" or thisSpeaker is None):
+                        result.append(sentence.Sentence(thisSpeaker, sentenceText))
 
     return result
 

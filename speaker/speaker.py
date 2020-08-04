@@ -22,16 +22,12 @@ class Speaker:
         if self.sid == "BRO" or self.sid == "SIS":
             self.sibling = True
 
-    def checkSpeaker(self, role, name, ageData, sex):
-        """
-        Checks to see if a speaker is the same as the one in this object.
-        :param role: Role of the speaker as identified in the corpus.
-        :param name: Name of the speaker as identified in the corpus.
-        :param ageData: Age of the speaker as identified in the corpus.
-        :param sex: Gender of the speaker as identified in the corpus.
-        :return: True if the data matches this speaker, false otherwise.
-        """
-        if role == self.role and name == self.name and ageData.decimal == self.age.decimal :
+    def checkSpeaker(self, speakerData):
+        """Checks to see if a Speaker is the same as this Speaker."""
+        if speakerData.role == self.role\
+                and speakerData.name == self.name\
+                and speakerData.age.decimal == self.age.decimal\
+                and speakerData.sex == self.sex:
             return True
         else:
             return False
