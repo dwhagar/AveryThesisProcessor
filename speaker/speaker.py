@@ -13,10 +13,10 @@ class Speaker:
 
         if not age is None:
             self.age = Age(age)
+            if self.age.decimal >= 18:
+                self.adult = True
         else:
             self.age = None
-
-        if self.age.decimal >= 18:
             self.adult = True
 
         if self.sid == "BRO" or self.sid == "SIS":

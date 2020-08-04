@@ -73,6 +73,17 @@ def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
     return val.age.decimal
 
+def getAttrib(data, att):
+    """Safely pulls an attribute (att) out of an XML tag input (data).
+    Returns None type if attribute is now found.
+    """
+    result = None
+
+    if att in data.attrib:
+        result = data.attrib[att]
+
+    return result
+
 def corpusPB12(dataXML):
     """Processes Corpus Data for version PB1.2 such as the Lyon Corpus.
     Accepts input of XML data for processing and returns a list of Sentence objects.
@@ -110,26 +121,19 @@ def corpusPB12(dataXML):
                 if urlScrub(u.tag) == 'u':
                     sentenceText = "" # Full reconstructed sentence
                     thisSpeaker = None # Where to put the speaker data
-                    sID = u.attribute['speaker']
+                    sID = getAttrib(u, 'speaker')
                     # We need to locate this speaker in the list.
                     for s in speakers:
                         if s.sid == sID:
                             thisSpeaker = s
-                        else:
-                            raise ValueError('Speaker not found in data.')
+                    if thisSpeaker is None:
+                        raise ValueError('Speaker not found in data.')
                     # We have located the speaker, now we can process the actual text.
                     for ortho in u:
                         if urlScrub(ortho.tag) == 'orthography':
                             for g in ortho:
                                 if urlScrub(g.tag) == 'g':
-                                    for w in g:
-                                        if urlScrub(w.tag) == 'w': # Words
-                                            if not w.text == "": # Ignore empty text.
-                                                sentenceText += " "
-                                                sentenceText += w.text
-                                        elif urlScrub(w.tag) == 'p': # Punctuation
-                                            if not w.text == "": # Ignore empty text.
-                                                sentenceText += w.text
+                                    sentenceText = genSentence(g)
 
                     # Check to make sure it is logical to append the data.
                     if not (sentenceText == "" or thisSpeaker is None):
@@ -142,6 +146,55 @@ def corpus271(dataXML):
     Accepts input of XML data for processing and returns a list of Sentence objects.
     """
     result = []
+    speakers = []
+
+    if urlScrub(dataXML.tag) == 'chat':
+        for chat in dataXML:
+            # First thing to look for in the chat tag is the list of participants.
+            if urlScrub(chat.tag) == 'participants':
+                # Each participant is listed as an attribute of the participant tag.
+                for parts in chat:
+                    # Now get all the information about a participant from the tag.
+                    if urlScrub(parts.tag) == 'participant':
+                        sID = getAttrib(parts, 'id')
+                        sName = getAttrib(parts, 'name')
+                        sRole = getAttrib(parts, 'role')
+                        sLang = getAttrib(parts, 'language')
+                        sAge = getAttrib(parts, 'age')
+                        sSex = getAttrib(parts, 'sex')
+                        # Generate the Speaker and add to the list of speakers.
+                        speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
+            elif urlScrub(chat.tag) == 'u':
+                thisSpeaker = None  # Where to put the speaker data
+                sID = getAttrib(chat, 'who')
+                # We need to locate this speaker in the list.
+                for s in speakers:
+                    if s.sid == sID:
+                        thisSpeaker = s
+                if thisSpeaker is None:
+                    raise ValueError('Speaker not found in data.')
+
+                sentenceText = genSentence(chat)
+                # Check to make sure it is logical to append the data.
+                if not (sentenceText == "" or thisSpeaker is None):
+                    result.append(sentence.Sentence(thisSpeaker, sentenceText))
+
+    return result
+
+def genSentence(dataXML):
+    """Takes the w tags for words from a sentence transcript and returns the sentence
+    as a string or None if no w tags are found.
+    """
+    result = ""
+
+    for w in dataXML:
+        if urlScrub(w.tag) == 'w':  # Words
+            if not w.text == "":  # Ignore empty text.
+                result += " "
+                result += w.text
+        elif urlScrub(w.tag) == 'p':  # Punctuation
+            if not w.text == "":  # Ignore empty text.
+                result += w.text
 
     return result
 
@@ -186,10 +239,9 @@ def main():
 
         # Need to determine file version for processing, since different files have
         # different capitalization, we need to account for that.
-        if 'version' in corpusRoot.attrib:
-            ver = corpusRoot.attrib['version']
-        elif 'Version' in corpusRoot.attrib:
-            ver = corpusRoot.attrib['Version']
+        ver = getAttrib(corpusRoot, 'version')
+        if ver is None:
+            ver = getAttrib(corpusRoot, 'Version')
         else:
             ver = ""
 
