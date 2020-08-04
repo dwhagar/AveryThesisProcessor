@@ -189,11 +189,11 @@ def genSentence(dataXML):
 
     for w in dataXML:
         if urlScrub(w.tag) == 'w':  # Words
-            if not w.text == "":  # Ignore empty text.
+            if not (w.text == "" or w.text is None):  # Ignore empty text.
                 result += " "
                 result += w.text
         elif urlScrub(w.tag) == 'p':  # Punctuation
-            if not w.text == "":  # Ignore empty text.
+            if not (w.text == "" or w.text is None):  # Ignore empty text.
                 result += w.text
 
     return result
@@ -231,6 +231,7 @@ def main():
         fileList = findXML(arg.dir, arg.recursive)
 
     # Process all the XML files in the list.
+    data = [] # Master list of all data processed.
     for file in fileList:
         print("Processing file '" + file + "'...")
 
@@ -247,9 +248,11 @@ def main():
 
         # Now branch to the proper processor.
         if ver == 'PB1.2':
-            data = corpusPB12(corpusRoot)
+            data.extend(corpusPB12(corpusRoot))
         elif ver == '2.7.1':
-            data = corpus271(corpusRoot)
+            data.extend(corpus271(corpusRoot))
+
+
 
     return 0
 
