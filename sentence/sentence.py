@@ -1,4 +1,4 @@
-import speaker
+import nltk
 
 class Sentence:
     """Storage of a sentence and other data from a corpus."""
@@ -10,3 +10,4 @@ class Sentence:
         """
         self.text = sentenceText
         self.speaker = speakerData
+        self.pos = nltk.pos_tag(nltk.word_tokenize(sentenceText))
