@@ -95,23 +95,25 @@ def corpusPB12(dataXML):
         # Process participants to get participant IDs and build speakers.
         if urlScrub(child.tag) == 'participants':
             for part in child:
-                if urlScrub(part) == 'participant':
-                    sID = part.attibute['id']
+                if urlScrub(part.tag) == 'participant':
+                    sID = getAttrib(part, 'id')
+                    if sID is None:
+                        raise ValueError("Something went wrong with the speaker data, no speaker ID found.")
                     sRole = None
                     sName = None
                     sSex = None
                     sAge = None
                     sLang = None
                     for partData in part:
-                        if urlScrub(partData) == 'role':
+                        if urlScrub(partData.tag) == 'role':
                             sRole = partData.text
-                        elif urlScrub(partData) == 'name':
+                        elif urlScrub(partData.tag) == 'name':
                             sName = partData.text
-                        elif urlScrub(partData) == 'sex':
+                        elif urlScrub(partData.tag) == 'sex':
                             sSex = partData.text
-                        elif urlScrub(partData) == 'age':
+                        elif urlScrub(partData.tag) == 'age':
                             sAge = partData.text
-                        elif urlScrub(partData) == 'language':
+                        elif urlScrub(partData.tag) == 'language':
                             sLang = partData.text
                     speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
         # Now for the actual transcript data.  Before this tag is reached we assume
@@ -132,8 +134,16 @@ def corpusPB12(dataXML):
                     for ortho in u:
                         if urlScrub(ortho.tag) == 'orthography':
                             for g in ortho:
+                                noSpace = '!"#$%&\'(*+-./:;<=>?@[\\^_`{|~'
                                 if urlScrub(g.tag) == 'g':
-                                    sentenceText = genSentence(g)
+                                    # This data set is weird, each word (w) is also in a g tag.
+                                    newWord = genSentence(g)
+                                    if len(sentenceText) < 1:
+                                        sentenceText = newWord
+                                    elif newWord in noSpace or sentenceText[-1] in noSpace:
+                                        sentenceText += newWord
+                                    else:
+                                        sentenceText += " " + newWord
 
                     # Check to make sure it is logical to append the data.
                     if not (sentenceText == "" or thisSpeaker is None):
@@ -186,15 +196,23 @@ def genSentence(dataXML):
     as a string or None if no w tags are found.
     """
     result = ""
-
+    noSpace = '!"#$%&\'(*+-./:;<=>?@[\\^_`{|~'
     for w in dataXML:
         if urlScrub(w.tag) == 'w':  # Words
             if not (w.text == "" or w.text is None):  # Ignore empty text.
-                result += " "
-                result += w.text
+                if len(result) < 1:
+                    result = w.text
+                elif w.text in noSpace or result[-1] in noSpace:
+                    result += w.text
+                else:
+                    result += " "
+                    result += w.text
         elif urlScrub(w.tag) == 'p':  # Punctuation
             if not (w.text == "" or w.text is None):  # Ignore empty text.
-                result += w.text
+                if len(result) < 1:
+                    result = w.text
+                else:
+                    result += w.text
 
     return result
 
@@ -243,16 +261,12 @@ def main():
         ver = getAttrib(corpusRoot, 'version')
         if ver is None:
             ver = getAttrib(corpusRoot, 'Version')
-        else:
-            ver = ""
 
         # Now branch to the proper processor.
         if ver == 'PB1.2':
             data.extend(corpusPB12(corpusRoot))
         elif ver == '2.7.1':
             data.extend(corpus271(corpusRoot))
-
-
 
     return 0
 

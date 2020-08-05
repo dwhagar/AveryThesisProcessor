@@ -3,11 +3,13 @@ from .age import Age
 class Speaker:
     """A class to store information about a speaker."""
     def __init__(self, sid = None, role = None, name = None, sex = None, age = None, language = None):
-        self.sid = sid
-        self.role = role.replace("_", " ")
-        self.name = name
-        self.sex = sex
-        self.language = language
+        self.sid = sid.strip()
+        self.role = role.replace("_", " ").strip()
+        self.name = name.strip()
+        if not sex is None:
+            self.sex = sex.strip()
+        if not language is None:
+            self.language = language.strip()
         self.adult = False
         self.sibling = False
 
