@@ -5,6 +5,7 @@ import argparse
 import os.path
 from os import walk, getcwd, makedirs
 import xml.etree.ElementTree as ET
+import json
 
 # Import custom classes.
 import speaker
@@ -221,7 +222,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, help="The name of the XML file to be processed.")
     parser.add_argument("-d", "--dir", type=str, help="The directory name to find XML files to processed.")
-    parser.add_argument("-o", "--output", type=str, help="The directory to output CSV files to.",
+    parser.add_argument("-o", "--output", type=str, help="The directory to output data files to.",
                         default=getcwd())
     parser.add_argument("-r", "--recursive", help="Should a directory be looked at recursively.", action='store_true')
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
@@ -250,6 +251,7 @@ def main():
 
     # Process all the XML files in the list.
     data = [] # Master list of all data processed.
+    outData = [] # Data for output to JSON.
     for file in fileList:
         print("Processing file '" + file + "'...")
 
@@ -262,11 +264,36 @@ def main():
         if ver is None:
             ver = getAttrib(corpusRoot, 'Version')
 
+        lst = []
+
         # Now branch to the proper processor.
         if ver == 'PB1.2':
-            data.extend(corpusPB12(corpusRoot))
+            lst = corpusPB12(corpusRoot)
+            data.extend(lst)
         elif ver == '2.7.1':
-            data.extend(corpus271(corpusRoot))
+            lst = corpus271(corpusRoot)
+            data.extend(lst)
+
+        for d in lst:
+            jsonData = {
+                "file":file,
+                "data":d.dataOut()
+            }
+            outData.append(jsonData)
+
+    for d in data:
+        outData.append(d.dataOut())
+
+    print("Processing complete.")
+    if not arg.test:
+        makedirs(arg.output, exist_ok=True)
+
+    print("Outputting complete data set to complete.json...")
+    if arg.test:
+        print(json.dumps(outData, indent=4, ensure_ascii=False).encode('utf8').decode())
+    else:
+        with open(arg.output + '/complete.json', 'w') as outfile:
+            json.dump(outData, outfile, indent=4, ensure_ascii=False)
 
     return 0
 

@@ -1,3 +1,5 @@
+import datetime
+
 class Age:
     """A class to store the age data from a speaker."""
     def __init__(self, ageStr = None):
@@ -14,7 +16,17 @@ class Age:
 
     def parseAge(self, ageStr):
         # P25Y0M0DT0H0M0S
-        if ageStr[0] == "P":
+        if type(ageStr) is int:
+            self.decimal = ageStr
+            d = datetime.timedelta(days=(self.decimal * 365))
+            self.years = int(d.days / 365)
+            self.months = int((d.days - (self.years * 365)) / 30)
+            h = d.seconds / 60 / 60
+            self.hours = int(h)
+            m = (h - self.hours) * 60
+            self.minutes = int(m)
+            self.seconds = int(d.seconds - (self.hours * 60 * 60) - (self.minutes * 60))
+        elif ageStr[0] == "P":
             ageStr = ageStr[1:]
             ageList = ageStr.split("T")
             ageDate = ageList[0]
