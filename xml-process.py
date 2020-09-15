@@ -217,6 +217,21 @@ def genSentence(dataXML):
 
     return result
 
+def jsonOutput(data, file, arg):
+    """
+    Output a data structure as JSON text.
+
+    :param data: Data formatted for JSON.
+    :param file: File to output data to.
+    :param arg: Command arguments for output preferences.
+    :return: None
+    """
+    if arg.test:
+        print(json.dumps(data, indent=4, ensure_ascii=False).encode('utf8').decode())
+    else:
+        with open(arg.output + '/' + file, 'w') as outfile:
+            json.dump(data, outfile, indent=4, ensure_ascii=False)
+
 def main():
     # Argument parsing.
     parser = argparse.ArgumentParser()
@@ -252,6 +267,7 @@ def main():
     # Process all the XML files in the list.
     data = [] # Master list of all data processed.
     outData = [] # Data for output to JSON.
+    pairsOnly = [] # Only sentences which have adjective / noun groups.
     for file in fileList:
         print("Processing file '" + file + "'...")
 
@@ -280,6 +296,8 @@ def main():
                 "data":d.dataOut()
             }
             outData.append(jsonData)
+            if d.hasPair:
+                pairsOnly.append(jsonData)
 
     for d in data:
         outData.append(d.dataOut())
@@ -288,12 +306,10 @@ def main():
     if not arg.test:
         makedirs(arg.output, exist_ok=True)
 
+    print("Outputting only sentence data with noun/adjective pairs to pairs.json...")
+    jsonOutput(pairsOnly, 'pairs.json', arg)
     print("Outputting complete data set to complete.json...")
-    if arg.test:
-        print(json.dumps(outData, indent=4, ensure_ascii=False).encode('utf8').decode())
-    else:
-        with open(arg.output + '/complete.json', 'w') as outfile:
-            json.dump(outData, outfile, indent=4, ensure_ascii=False)
+    jsonOutput(outData, 'complete.json', arg)
 
     return 0
 

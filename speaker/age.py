@@ -16,7 +16,7 @@ class Age:
 
     def parseAge(self, ageStr):
         # P25Y0M0DT0H0M0S
-        if type(ageStr) is int:
+        if type(ageStr) is int or type(ageStr) is float:
             self.decimal = ageStr
             d = datetime.timedelta(days=(self.decimal * 365))
             self.years = int(d.days / 365)
