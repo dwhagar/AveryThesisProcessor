@@ -306,8 +306,8 @@ def main():
     if not arg.test:
         makedirs(arg.output, exist_ok=True)
 
-    print("Outputting only sentence data with noun/adjective pairs to pairs.json...")
-    jsonOutput(pairsOnly, 'pairs.json', arg)
+    print("Outputting only sentence data with noun/adjective pairs to unverified-groups.json...")
+    jsonOutput(pairsOnly, 'json-data/unverified-groups.json', arg)
     print("Outputting complete data set to complete.json...")
     jsonOutput(outData, 'complete.json', arg)
 

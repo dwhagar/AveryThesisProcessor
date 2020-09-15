@@ -22,6 +22,7 @@ class Sentence:
         self.speaker = speakerData
         self.pos = []
         self.hasPair = False
+        self.review = True
 
         if pos is None:
             global nlp
@@ -47,10 +48,11 @@ class Sentence:
         # Reset the lists for regrouping.
         self.postNom = []
         self.preNom = []
+        self.hasPair = False # Reset the noun/adj pair flag.
         idxMax = len(self.pos) # Maximum possible index.
         for idx in range(0, idxMax):
             w = self.pos[idx]
-            if w[1] == "NOUN":
+            if w[1] == "NOUN" and (not w[0] == '-') and (not w[1] == '_'):
                 noun = w[0]
                 thisPost = (noun, [])
                 thisPre = (noun, [])
@@ -112,16 +114,49 @@ class Sentence:
         }
         return result
 
+    def findAdjectives(self):
+        """Returns a list of all the adjectives in the sentence."""
+        result = []
+        for w in self.pos:
+            if w[1] == "ADJ":
+                result.append(w[0])
+        return result
+
     def findBad(self):
         """Finds badly tagged words in the data, denoted by a '::' prefix.  Returns a list of such words."""
         blackList = []
-        for w in self.pos:
-            if w[0][:2] == "::":
-                w[1] = "BAD"
-                w[0] = w[0][2:]
-                blackList.append(w[0])
-            elif w[0] == "_" or w[0] == "-":
-                w[1] = "BAD"
+        for x in range(0, len(self.pos)):
+            if self.pos[x][0][:2] == "::":
+                self.pos[x] = (self.pos[x][0][2:], "BAD")
+                blackList.append(self.pos[x][0])
+            elif self.pos[x][0] == "_" or self.pos[x][0] == "-":
+                self.pos[x] = (self.pos[x][0], "BAD")
 
         self.findWords()
         return blackList
+
+    def filter(self, whitelist, blacklist):
+        """
+        Checks the sentence for blacklisted & whitelisted adjectives and filters the data.
+
+        :param whitelist: A list of whitelisted adjectives that if tagged as an adjective we believe.
+        :param blacklist: A list of blacklisted adjectives that if tagged as an adjective we reject.
+        :return: Nothing
+        """
+        needs_review = []
+        for x in range(0, len(self.pos)):
+            if self.pos[x][1] == "ADJ":
+                if self.pos[x][0] in blacklist:
+                    self.pos[x] = (self.pos[x][0], "BAD")
+                    needs_review.append(False)
+                elif self.pos[x][0] in whitelist:
+                    needs_review.append(False)
+                else:
+                    needs_review.append(True)
+            else:
+                needs_review.append(False)
+
+        self.review = False
+        for rev in needs_review:
+            if rev:
+                self.review = True
