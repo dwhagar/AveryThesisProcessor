@@ -155,7 +155,7 @@ def main():
     parser.add_argument("-o", "--output", type=str,
                         help="The directory to output data files to.", default=getcwd())
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
-    parser.add_argument("-m", "--merge", type=str, help="File to merge input data into.")
+    parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -166,15 +166,17 @@ def main():
     if not os.path.isfile(arg.input):
         print("File " + arg.input + " not found or is not a file.")
         return 1
-    if os.path.isfile(arg.output):
-        print("File " + arg.output + " needs to be a directory to output data to.")
-        return 1
-    if not arg.merge is None:
-        if not os.path.isfile(arg.merge):
-            print("Cannot merge into " + arg.merge + ", it is not a file.")
+    if not arg.count:
+        if os.path.isfile(arg.output):
+            print("File " + arg.output + " needs to be a directory to output data to.")
+            return 1
 
     # Load JSON file.
     sentences = read_JSON(arg.input)
+
+    if arg.count:
+        print("There are " + str(len(sentences)) + " sentences in this file.")
+        return 0
 
     # List of known correctly tagged adjectives.
     if arg.whitelist is None:
@@ -227,6 +229,9 @@ def main():
                 to_verify.append(st)
             else:
                 verified.append(st)
+
+        print("Sentences left to verify:    " + str(len(to_verify)) + ".")
+        print("Sentences added as verified: " + str(len(verified)) + ".")
 
         save_JSON(to_verify, arg.output + '/unverified-groups.json')
 
