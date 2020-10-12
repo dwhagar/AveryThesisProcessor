@@ -293,14 +293,14 @@ def main():
         for d in lst:
             jsonData = {
                 "file":file,
-                "data":d.dataOut()
+                "data":d.data_out()
             }
             outData.append(jsonData)
             if d.has_pair:
                 pairsOnly.append(jsonData)
 
     for d in data:
-        outData.append(d.dataOut())
+        outData.append(d.data_out())
 
     print("Processing complete.")
     if not arg.test:

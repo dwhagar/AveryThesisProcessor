@@ -1,17 +1,24 @@
 # This goes contrary how how the spacy docs say one should install the corpus data.
 # Loading takes a long time, so we define it as a global variable so it doesn't have
 # to load with each and every sentence.
+
+# We had some issues with this because of it being loaded on a mac in a virtual
+# environment for PyCharm.  This is not the standard way to load the french data for
+# the parts of speech (POS) tagger.
 import fr_core_news_lg
 nlp = fr_core_news_lg.load()
 from french_lefff_lemmatizer.french_lefff_lemmatizer import FrenchLefffLemmatizer
+# Similar to above with defining a global object to reduce run times for loading.
+# The lemmatizer object takes a while to load, so loading it as a global object.
+lemmatizer = FrenchLefffLemmatizer()
 
 class Sentence:
     """Storage of a sentence and other data from a corpus."""
-    def __init__(self, speakerData, sentenceText, pos = None, post = None, pre = None, find = True):
+    def __init__(self, speaker_data, sentence_text, pos = None, post = None, pre = None, find = True):
         """
         Stores data for a single sentence.
-        :param speakerData: A Speaker object denoting who uttered the sentence.
-        :param sentenceText: The actual text of the sentence.
+        :param speaker_data: A Speaker object denoting who uttered the sentence.
+        :param sentence_text: The actual text of the sentence.
         :param pos: Pre-tagged POS data.
         :param post: Postnominal Adjective/Noun group.
         :param pre: Prenominal Adjective/Noun group.
@@ -19,10 +26,13 @@ class Sentence:
         """
         if pre is None:
             pre = []
-        self.text = sentenceText.strip()
-        self.speaker = speakerData
+        self.text = sentence_text.strip()
+        self.speaker = speaker_data
         self.pos = []
+
         self.has_pair = False
+        # This automatically sets to true, but is a holdover from a previous stage in the data.
+        # as of October 5, 2020 all sentence data has been verified.
         self.review = True
 
         if pos is None:
@@ -37,10 +47,12 @@ class Sentence:
             self.post_nom = []
         else:
             self.post_nom = post
+            self.has_pair = True
         if pre is None:
             self.pre_nom = []
         else:
             self.pre_nom = pre
+            self.has_pair = True
         if find:
             self.find_words()
 
@@ -87,27 +99,50 @@ class Sentence:
                     if len(this_pre[1]) > 0:
                         self.pre_nom.append(this_pre)
 
-    def dataOut(self):
+    def data_out_helper(self, data):
+        """
+        Builds a proper dictionary object for output from the prenominal and postnominal
+        noun / adjective groups.
+
+        :param data: A list of noun/adjective groups either in (noun, [adjective, ajective])
+        format or (noun, [(adjcetive, root), (adjective root)]) format.
+        :return: Returns a dictionary object with all the data.
+        """
+        result = []
+        for w in data:
+            if type(w[1][0]) is tuple:
+                adj_list = []
+                for a in w[1]:
+                    adj = {
+                        "adjective": a[0],
+                        "lemma": a[1]
+                    }
+                    adj_list.append(adj)
+                group = {
+                    "noun": w[0],
+                    "adjectives": adj_list
+                }
+            else:
+                group = {
+                    "noun": w[0],
+                    "adjectives": w[1]
+                }
+            result.append(group)
+
+        return result
+
+    def data_out(self):
         """Outputs the sentence data as a dictionary."""
         post_nom = []
         pre_nom = []
+
         if len(self.post_nom) > 0:
-            for w in self.post_nom:
-                post = {
-                    "noun":w[0],
-                    "adjectives":w[1]
-                }
-                post_nom.append(post)
+            post_nom = self.data_out_helper(self.post_nom)
         if len(self.pre_nom) > 0:
-            for w in self.pre_nom:
-                pre = {
-                    "noun":w[0],
-                    "adjectives":w[1]
-                }
-                pre_nom.append(pre)
+            pre_nom = self.data_out_helper(self.pre_nom)
 
         result = {
-            "speaker":self.speaker.dataOut(),
+            "speaker":self.speaker.data_out(),
             "sentence":self.text,
             "pos":self.pos,
             "postnominal":post_nom,
@@ -171,7 +206,7 @@ class Sentence:
         :return: A tuple in the format of (noun, adjectives) with the adjectives list in the format
         of [(adjective, root), (adjective, root)]
         """
-        lemmatizer = FrenchLefffLemmatizer()
+        global lemmatizer
         new_data = []
         for w in data:
             adj_list = []
@@ -191,5 +226,7 @@ class Sentence:
 
         :return: Nothing
         """
-        self.pre_nom = self.lem_helper(self.pre_nom)
-        self.post_nom = self.lem_helper(self.post_nom)
+        if len(self.pre_nom) > 0:
+            self.pre_nom = self.lem_helper(self.pre_nom)
+        if len(self.post_nom) > 0:
+            self.post_nom = self.lem_helper(self.post_nom)

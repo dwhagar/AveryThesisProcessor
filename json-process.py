@@ -68,7 +68,7 @@ def save_JSON(data, file):
     for d in data:
         jsonData = {
             "file":d.file,
-            "data":d.sentence.dataOut()
+            "data":d.sentence.data_out()
         }
         if d.sentence.has_pair:
             outData.append(jsonData)
@@ -133,7 +133,7 @@ def merge_JSON(data, file):
     for d in data:
         jsonData = {
             "file":d.file,
-            "data":d.sentence.dataOut()
+            "data":d.sentence.data_out()
         }
         if d.sentence.has_pair:
             outData.append(jsonData)
@@ -156,7 +156,7 @@ def main():
                         help="The directory to output data files to.", default=getcwd())
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
     parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
-    parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.")
+    parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -177,6 +177,11 @@ def main():
 
     if arg.count:
         print("There are " + str(len(sentences)) + " sentences in this file.")
+        return 0
+
+    if arg.lem:
+        for s in sentences:
+            s.sentence.lem()
         return 0
 
     # List of known correctly tagged adjectives.
