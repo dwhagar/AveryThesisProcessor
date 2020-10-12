@@ -296,7 +296,7 @@ def main():
                 "data":d.dataOut()
             }
             outData.append(jsonData)
-            if d.hasPair:
+            if d.has_pair:
                 pairsOnly.append(jsonData)
 
     for d in data:

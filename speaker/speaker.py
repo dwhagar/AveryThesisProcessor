@@ -29,12 +29,12 @@ class Speaker:
         if self.sid == "BRO" or self.sid == "SIS":
             self.sibling = True
 
-    def checkSpeaker(self, speakerData):
+    def check_speaker(self, speaker_data):
         """Checks to see if a Speaker is the same as this Speaker."""
-        if speakerData.role == self.role\
-                and speakerData.name == self.name\
-                and speakerData.age.decimal == self.age.decimal\
-                and speakerData.sex == self.sex:
+        if speaker_data.role == self.role\
+                and speaker_data.name == self.name\
+                and speaker_data.age.decimal == self.age.decimal\
+                and speaker_data.sex == self.sex:
             return True
         else:
             return False

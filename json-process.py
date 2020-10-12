@@ -2,7 +2,7 @@
 # A processor to read JSON data for Avery's corpus.
 import argparse
 import os.path
-from os import walk, getcwd, makedirs
+from os import getcwd
 import json
 
 # Import custom classes.
@@ -70,7 +70,7 @@ def save_JSON(data, file):
             "file":d.file,
             "data":d.sentence.dataOut()
         }
-        if d.sentence.hasPair:
+        if d.sentence.has_pair:
             outData.append(jsonData)
 
     with open(file, 'w') as f:
@@ -135,7 +135,7 @@ def merge_JSON(data, file):
             "file":d.file,
             "data":d.sentence.dataOut()
         }
-        if d.sentence.hasPair:
+        if d.sentence.has_pair:
             outData.append(jsonData)
 
     with open(file, "r+") as f:
@@ -156,6 +156,7 @@ def main():
                         help="The directory to output data files to.", default=getcwd())
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
     parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
+    parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.")
 
     arg = parser.parse_args()
 
@@ -193,10 +194,10 @@ def main():
         potential_blacklist = [] # List of possible badly tagged adjectives.
 
         for st in sentences:
-            temp_blacklist = st.sentence.findBad()
+            temp_blacklist = st.sentence.find_bad()
             if len(temp_blacklist) > 0:
                 potential_blacklist.extend(temp_blacklist)
-            temp_whitelist = st.sentence.findAdjectives()
+            temp_whitelist = st.sentence.find_adjectives()
             if len(temp_whitelist) > 0:
                 potential_whitelist.extend(temp_whitelist)
 
@@ -224,7 +225,7 @@ def main():
         to_verify = []
         for st in sentences:
             st.sentence.filter(adjective_whitelist, adjective_blacklist)
-            st.sentence.findWords()
+            st.sentence.find_words()
             if st.sentence.review:
                 to_verify.append(st)
             else:
