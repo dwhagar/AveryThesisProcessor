@@ -182,6 +182,8 @@ def main():
     if arg.lem:
         for s in sentences:
             s.sentence.lem()
+
+        save_JSON(sentences, arg.output + '/lem-data.json')
         return 0
 
     # List of known correctly tagged adjectives.
