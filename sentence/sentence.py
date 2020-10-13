@@ -72,11 +72,12 @@ class Sentence:
                 word = word[:-1]
             elif word[-2:] == "}." or word[-2:] == ":}":
                 word = word[:-2]
-            if word[0] == "{":
-                if len(word) == 1:
-                    word = ""
-                else:
-                    word = word[1:]
+            if len(word) > 0:
+                if word[0] == "{":
+                    if len(word) == 1:
+                        word = ""
+                    else:
+                        word = word[1:]
             # This is for some special cases such as "chaise+lounge" where chaise
             # is a noun and lounge is an adjective.
             if word.find("+") > -1:
@@ -100,12 +101,15 @@ class Sentence:
                     new_word = new_word[:-1]
                 elif new_word[-2:] == "}." or new_word[-2:] == ":}":
                     new_word =new_word[:-2]
-                if new_word[0] == "{":
-                    if len(new_word) == 1:
-                        new_word = ""
-                        new_part = "BAD"
-                    else:
-                        new_word = new_word[1:]
+                if len(new_word) > 0:
+                    if new_word[0] == "{":
+                        if len(new_word) == 1:
+                            new_word = ""
+                            new_part = "BAD"
+                        else:
+                            new_word = new_word[1:]
+                else:
+                    new_part = "BAD"
                 # There is a special case, mentioned in the sanitize_sentence
                 # method where two words of the types we're looking for are
                 # separated by a +, in this case we cannot make too many assumptions

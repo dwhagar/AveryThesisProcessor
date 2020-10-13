@@ -144,7 +144,7 @@ def merge_JSON(data, file):
         f.seek(0)
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-def genCSV(hdr, data):
+def gen_CSV(hdr, data):
     """Generate a list of CSV formatted strings from a list of statistical data."""
     result = [hdr]
 
@@ -166,7 +166,7 @@ def genCSV(hdr, data):
 
     return result
 
-def writeCSV(data, file, test = False):
+def write_CSV(data, file, test = False):
     """Write CSV formatted data to a file."""
     if len(data) > 1:
         if test:
@@ -213,6 +213,7 @@ def main():
     parser.add_argument("-t", "--test", help="Test mode, output goes to console.", action='store_true')
     parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
     parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.", action='store_true')
+    parser.add_argument("-a", "--age", help="Generates age-specific lists of adjectives.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -235,6 +236,7 @@ def main():
         print("There are " + str(len(sentences)) + " sentences in this file.")
         return 0
 
+    # Lemmatize the data and generate master adjective lists for all ages.
     if arg.lem:
         adjective_list = []
         lemma_list = []
@@ -250,17 +252,48 @@ def main():
 
         header = "Word, Count"
 
-        adj_csv = genCSV(header, adj_counted)
-        lemma_csv = genCSV(header, lemma_counted)
+        adj_csv = gen_CSV(header, adj_counted)
+        lemma_csv = gen_CSV(header, lemma_counted)
 
         adj_file = arg.output + '/adjectives.csv'
         lemma_file = arg.output + '/lemmas.csv'
 
-        writeCSV(adj_csv, adj_file)
-        writeCSV(lemma_csv, lemma_file)
+        write_CSV(adj_csv, adj_file)
+        write_CSV(lemma_csv, lemma_file)
 
         save_JSON(sentences, arg.output + '/lem-data.json')
         return 0
+
+    # Generate the adjective lists based on the age of 8.
+    if arg.age:
+        older_lemma = []
+        younger_lemma = []
+        for s in sentences:
+            s.sentence.lem()
+
+            # Note the use of the 'not_needed' variable, this is a placeholder since
+            # the function returns both adjectives and lemmas.  We aren't woried about
+            # the inflected adjectives, so we can throw it away.
+            if s.sentence.speaker.age.decimal > 8:
+                not_needed, temp_lemma = s.sentence.find_adjectives()
+                older_lemma.extend(temp_lemma)
+            else:
+                not_needed, temp_lemma = s.sentence.find_adjectives()
+                younger_lemma.extend(temp_lemma)
+
+        # I should turn this into a function.
+        older_counted = count_adj(older_lemma)
+        younger_counted = count_adj(younger_lemma)
+        header = "Word, Count"
+        older_csv = gen_CSV(header, older_counted)
+        younger_csv = gen_CSV(header, younger_counted)
+        older_file = arg.output + "/older.csv"
+        younger_file = arg.output + "/younger.csv"
+        write_CSV(older_csv, older_file)
+        write_CSV(younger_csv, younger_file)
+
+        return 0
+
 
     # List of known correctly tagged adjectives.
     if arg.whitelist is None:
