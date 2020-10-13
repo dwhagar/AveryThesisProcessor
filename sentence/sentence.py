@@ -63,15 +63,27 @@ class Sentence:
         sentence_list = self.text.split()
         sentence_new = []
 
+        # This is only really needed to sync up the sentence text with the parts
+        # of speech and thus with the pernominal / postnominal lists.
+        # Note that we don't strip the "." off the end here but we do for the
+        # parts of speech word list -- IF it is contained at the end of a word.
         for word in sentence_list:
             if word[-1] == "}":
                 word = word[:-1]
+            elif word[-2:] == "}." or word[-2:] == ":}":
+                word = word[:-2]
             if word[0] == "{":
                 if len(word) == 1:
                     word = ""
                 else:
                     word = word[1:]
-            sentence_new.append(word)
+            # This is for some special cases such as "chaise+lounge" where chaise
+            # is a noun and lounge is an adjective.
+            if word.find("+") > -1:
+                new_words = word.split("+")
+                sentence_new.extend(new_words)
+            else:
+                sentence_new.append(word)
 
         self.text = " ".join(sentence_new)
 
@@ -81,17 +93,38 @@ class Sentence:
 
         # Still some problems with punctuation, this should clear it up.
         for word in self.pos:
-            if word[0][-1] == "}":
-                word[0] = word[0][:-1]
-            if word[0][0] == "{":
-                if len(word[0]) == 1:
-                    word[0] = ""
-                    word[1] = "BAD"
-                else:
-                    word[0] = word[0][1:]
-            new_pos.append(word)
+            new_word = word[0]
+            new_part = word[1]
+            if not new_part == "PUNCT":
+                if new_word[-1] == "}" or new_word[-1] == ".":
+                    new_word = new_word[:-1]
+                elif new_word[-2:] == "}." or new_word[-2:] == ":}":
+                    new_word =new_word[:-2]
+                if new_word[0] == "{":
+                    if len(new_word) == 1:
+                        new_word = ""
+                        new_part = "BAD"
+                    else:
+                        new_word = new_word[1:]
+                # There is a special case, mentioned in the sanitize_sentence
+                # method where two words of the types we're looking for are
+                # separated by a +, in this case we cannot make too many assumptions
+                # and need to be specific to what is in the data.
+                if new_word == "chaise+lounge":
+                    # This is structured strangely to make the rest of the function
+                    # behave the way it should with minimal editing.
+                    # Add the new word to the POS list in the correct place.
+                    new_pos.append(("chaise", "NOUN"))
+                    # The new_word and new_part variables will be added to the list
+                    # once out of this if/then/else block.
+                    new_word = "lounge"
+                    new_part = "ADJ"
+
+            new_pos.append((new_word, new_part))
 
         self.pos = new_pos
+        # Since the POS is changed, automatically redo the prenominal and postnominal.
+        self.find_words()
 
     def find_words(self):
         """Look of nouns and compile a list of associated adjectives."""
@@ -283,7 +316,19 @@ class Sentence:
                 if a == "tits":
                     a_root = "petit"
                 elif a == "deux}{deux":
+                    a = "deux deux"
                     a_root = "deux"
+                elif a == "deu":
+                    a = "deux"
+                    a_root = "deux"
+                elif a == "rouge}pour":
+                    a = "rouge"
+                    a_root = "rouge"
+                elif a == "rase":
+                    a_root = "rad"
+                elif a == "des::petits":
+                    a = "petits"
+                    a_root = "petit"
                 else:
                     a_root = lemmatizer.lemmatize(a, 'a')
                 adj_list.append((a, a_root))
