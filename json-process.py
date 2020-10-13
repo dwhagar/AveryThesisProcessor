@@ -272,9 +272,9 @@ def main():
             s.sentence.lem()
 
             # Note the use of the 'not_needed' variable, this is a placeholder since
-            # the function returns both adjectives and lemmas.  We aren't woried about
+            # the function returns both adjectives and lemmas.  We aren't worried about
             # the inflected adjectives, so we can throw it away.
-            if s.sentence.speaker.age.decimal > 8:
+            if s.sentence.speaker.age.decimal >= 8:
                 not_needed, temp_lemma = s.sentence.find_adjectives()
                 older_lemma.extend(temp_lemma)
             else:
