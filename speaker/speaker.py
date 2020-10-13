@@ -39,7 +39,7 @@ class Speaker:
         else:
             return False
 
-    def dataOut(self):
+    def data_out(self):
         """Output the data as a dictionary."""
         result = {
             "sid":self.sid,

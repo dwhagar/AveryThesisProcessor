@@ -144,6 +144,62 @@ def merge_JSON(data, file):
         f.seek(0)
         json.dump(data, f, indent=4, ensure_ascii=False)
 
+def genCSV(hdr, data):
+    """Generate a list of CSV formatted strings from a list of statistical data."""
+    result = [hdr]
+
+    # Add data to file.
+    for item in data:
+        dataLine = ""
+        for element in item:
+            if len(dataLine) == 0:
+                if type(element) == str:
+                    dataLine = element
+                else:
+                    dataLine = "=" + str(element)
+            else:
+                if type(element) == str:
+                    dataLine += "," + element
+                else:
+                    dataLine += ",=" + str(element)
+        result.append(dataLine)
+
+    return result
+
+def writeCSV(data, file, test = False):
+    """Write CSV formatted data to a file."""
+    if len(data) > 1:
+        if test:
+            for line in data:
+                print(line)
+        else:
+            print("Saving CSV data to '" + file + "'.")
+            f = open(file, "w")
+
+            for line in data:
+                print(line, file=f)
+
+            f.close()
+    else:
+        print("No data found for '" + file + "', skipping.")
+
+def count_adj(data):
+    """
+    Counts adjectives in a given list.
+
+    :param data: A list of adjectives.
+    :return:  and returns a list of tuples in the format
+    of [(adjective, count), (adjective, count)]
+    """
+    result = []
+
+    canonical = list(set(data))
+    for word in canonical:
+        occurred = data.count(word)
+        result.append((word, occurred))
+
+    return result
+
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser()
@@ -180,8 +236,28 @@ def main():
         return 0
 
     if arg.lem:
+        adjective_list = []
+        lemma_list = []
+
         for s in sentences:
             s.sentence.lem()
+            adjectives, lemmas = s.sentence.find_adjectives()
+            adjective_list.extend(adjectives)
+            lemma_list.extend(lemmas)
+
+        adj_counted = count_adj(adjective_list)
+        lemma_counted = count_adj(lemma_list)
+
+        header = "Work, Count"
+
+        adj_csv = genCSV(header, adj_counted)
+        lemma_csv = genCSV(header, lemma_counted)
+
+        adj_file = arg.output + '/adjectives.scv'
+        lemma_file = arg.output + '/lemmas.csv'
+
+        writeCSV(adj_csv, adj_file)
+        writeCSV(lemma_csv, lemma_file)
 
         save_JSON(sentences, arg.output + '/lem-data.json')
         return 0

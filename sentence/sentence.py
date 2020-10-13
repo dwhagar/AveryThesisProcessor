@@ -150,13 +150,41 @@ class Sentence:
         }
         return result
 
+    def find_adjectives_helper(self, data):
+        """
+        Generates a list of adjectives and the lemma forms from the prenominal and
+        postnominal lists.
+
+        :param data: A list of adjectives grouped with a noun in the format of
+        [(noun, [(adjective, lemma), (adjective, lemma)]), (noun, [(adjective, lemma), (adjective, lemma)])]
+        :return: Two lists in the format of (adjectives, lammas)
+        """
+        adjective_list = []
+        lemma_list = []
+
+        for group in data:
+            for adj in group[1]:
+                adjective_list.append(adj[0])
+                lemma_list.append(adj[1])
+
+        return adjective_list, lemma_list
+
     def find_adjectives(self):
-        """Returns a list of all the adjectives in the sentence."""
-        result = []
-        for w in self.pos:
-            if w[1] == "ADJ":
-                result.append(w[0])
-        return result
+        """
+        Gets a list of adjectives and lemmas from the prenominal / postnominal groups.
+
+        :return: Two lists in the format of (adjectives, lemmas)
+        """
+
+        adj1, lemma1 = self.find_adjectives_helper(self.pre_nom)
+        adj2, lemma2 = self.find_adjectives_helper(self.post_nom)
+
+        adjectives = adj1
+        adjectives.extend(adj2)
+        lemmas = lemma1
+        lemmas.extend(lemma2)
+
+        return adjectives, lemmas
 
     def find_bad(self):
         """Finds badly tagged words in the data, denoted by a '::' prefix.  Returns a list of such words."""
