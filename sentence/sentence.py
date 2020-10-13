@@ -68,10 +68,12 @@ class Sentence:
         # Note that we don't strip the "." off the end here but we do for the
         # parts of speech word list -- IF it is contained at the end of a word.
         for word in sentence_list:
-            if word[-1] == "}":
-                word = word[:-1]
-            elif word[-2:] == "}." or word[-2:] == ":}":
-                word = word[:-2]
+            if len(word) > 0:
+                if word[-2:] == "}." or word[-2:] == ":}":
+                    word = word[:-2]
+            if len(word) > 0:
+                if word[-1] == "}":
+                    word = word[:-1]
             if len(word) > 0:
                 if word[0] == "{":
                     if len(word) == 1:
@@ -82,6 +84,9 @@ class Sentence:
             # is a noun and lounge is an adjective.
             if word.find("+") > -1:
                 new_words = word.split("+")
+                sentence_new.extend(new_words)
+            elif word.find("{") > -1:
+                new_words = word.split("{")
                 sentence_new.extend(new_words)
             else:
                 sentence_new.append(word)
@@ -97,10 +102,12 @@ class Sentence:
             new_word = word[0]
             new_part = word[1]
             if not new_part == "PUNCT":
-                if new_word[-1] == "}" or new_word[-1] == ".":
-                    new_word = new_word[:-1]
-                elif new_word[-2:] == "}." or new_word[-2:] == ":}":
-                    new_word =new_word[:-2]
+                if len(new_word) > 0:
+                    if new_word[-2:] == "}." or new_word[-2:] == ":}":
+                        new_word = new_word[:-2]
+                if len(new_word) > 0:
+                    if new_word[-1] == "}" or new_word[-1] == ".":
+                        new_word = new_word[:-1]
                 if len(new_word) > 0:
                     if new_word[0] == "{":
                         if len(new_word) == 1:
@@ -110,6 +117,10 @@ class Sentence:
                             new_word = new_word[1:]
                 else:
                     new_part = "BAD"
+
+                if len(new_word) < 1:
+                    new_part = "BAD"
+
                 # There is a special case, mentioned in the sanitize_sentence
                 # method where two words of the types we're looking for are
                 # separated by a +, in this case we cannot make too many assumptions
@@ -123,6 +134,14 @@ class Sentence:
                     # once out of this if/then/else block.
                     new_word = "lounge"
                     new_part = "ADJ"
+                if new_word == "mécanique{elle":
+                    new_pos.append(("mécanique","ADJ"))
+                    new_word = "elle"
+                    new_part = "PRON"
+                if new_word == "rouge{pour":
+                    new_pos.append(("rouge", "ADJ"))
+                    new_word = "pour"
+                    new_part = "ADP"
 
             new_pos.append((new_word, new_part))
 
