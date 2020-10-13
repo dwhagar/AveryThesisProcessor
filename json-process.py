@@ -248,12 +248,12 @@ def main():
         adj_counted = count_adj(adjective_list)
         lemma_counted = count_adj(lemma_list)
 
-        header = "Work, Count"
+        header = "Word, Count"
 
         adj_csv = genCSV(header, adj_counted)
         lemma_csv = genCSV(header, lemma_counted)
 
-        adj_file = arg.output + '/adjectives.scv'
+        adj_file = arg.output + '/adjectives.csv'
         lemma_file = arg.output + '/lemmas.csv'
 
         writeCSV(adj_csv, adj_file)
