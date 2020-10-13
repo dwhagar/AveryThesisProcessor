@@ -24,8 +24,6 @@ class Sentence:
         :param pre: Prenominal Adjective/Noun group.
         :param find: Instructs the object to find post/prenominal groupings or not.
         """
-        if pre is None:
-            pre = []
         self.text = sentence_text.strip()
         self.speaker = speaker_data
         self.pos = []
@@ -35,6 +33,7 @@ class Sentence:
         # as of October 5, 2020 all sentence data has been verified.
         self.review = True
 
+        # If we already have parts of speech, load them.
         if pos is None:
             global nlp
             doc = nlp(self.text)
@@ -43,6 +42,7 @@ class Sentence:
         else:
             self.pos = pos
 
+        # If we already have the prenominal and postnominal lists, load them.
         if post is None:
             self.post_nom = []
         else:
@@ -53,8 +53,45 @@ class Sentence:
         else:
             self.pre_nom = pre
             self.has_pair = True
+
+        # If we want to go through the find process again, do it.
         if find:
             self.find_words()
+
+    def sanitize_sentence(self):
+        """Goes through the sentence data and makes sure it is sane"""
+        sentence_list = self.text.split()
+        sentence_new = []
+
+        for word in sentence_list:
+            if word[-1] == "}":
+                word = word[:-1]
+            if word[0] == "{":
+                if len(word) == 1:
+                    word = ""
+                else:
+                    word = word[1:]
+            sentence_new.append(word)
+
+        self.text = " ".join(sentence_new)
+
+    def sanitize_words(self):
+        """Goes through the words and makes them sane."""
+        new_pos = []
+
+        # Still some problems with punctuation, this should clear it up.
+        for word in self.pos:
+            if word[0][-1] == "}":
+                word[0] = word[0][:-1]
+            if word[0][0] == "{":
+                if len(word[0]) == 1:
+                    word[0] = ""
+                    word[1] = "BAD"
+                else:
+                    word[0] = word[0][1:]
+            new_pos.append(word)
+
+        self.pos = new_pos
 
     def find_words(self):
         """Look of nouns and compile a list of associated adjectives."""
@@ -236,11 +273,19 @@ class Sentence:
         """
         global lemmatizer
         new_data = []
+
         for w in data:
             adj_list = []
             n = w[0]
             for a in w[1]:
-                a_root = lemmatizer.lemmatize(a, 'a')
+                # Some translation is needed.  Just going to do a chain if/elif/else for now, may use
+                # something more robust later if required.
+                if a == "tits":
+                    a_root = "petit"
+                elif a == "deux}{deux":
+                    a_root = "deux"
+                else:
+                    a_root = lemmatizer.lemmatize(a, 'a')
                 adj_list.append((a, a_root))
             new_data.append((n, adj_list))
 

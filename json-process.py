@@ -308,6 +308,8 @@ def main():
         to_verify = []
         for st in sentences:
             st.sentence.filter(adjective_whitelist, adjective_blacklist)
+            st.sentence.sanitize_words()
+            st.sentence.sanitize_sentence()
             st.sentence.find_words()
             if st.sentence.review:
                 to_verify.append(st)
