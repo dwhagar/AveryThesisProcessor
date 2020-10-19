@@ -183,22 +183,46 @@ def write_CSV(data, file, test = False):
     else:
         print("No data found for '" + file + "', skipping.")
 
-def count_adj(data):
+def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, prenom_younger, postnom_younger):
     """
-    Counts adjectives in a given list.
+    Given a master adjective list it will generate a count of all adjectives used
+    in the various positions (older, younger, prenominal, postnominal).
 
-    :param data: A list of adjectives.
-    :return:  and returns a list of tuples in the format
-    of [(adjective, count), (adjective, count)]
+    :param master_list: A master list of all adjectives used.
+    :param all_older: All adjectives used by those classified as older.
+    :param all_younger: All adjectives used by those classified as younger.
+    :param prenom_older: ALl prenominal adjectives used by older speakers.
+    :param postnom_older: All postnominal adjectives used by older speakers.
+    :param prenom_younger: All prenominal adjectives used by younger speakers.
+    :param postnom_younger: All postnominal adjective used by younger speakers.
+    :return: Output is a tuple with the format of:
+    (lemma, all, older, younger, prenom-older, postnom-older, prenom-younger, postnom-younger)
     """
-    result = []
+    canonical = list(set(master_list)) # Canonical list of all adjectives used.
+    counts = []
 
-    canonical = list(set(data))
-    for word in canonical:
-        occurred = data.count(word)
-        result.append((word, occurred))
+    for adj in canonical:
+        adj_count_all = master_list.count(adj)
+        adj_count_older = all_older.count(adj)
+        adj_count_younger = all_younger.count(adj)
+        adj_count_pre_older = prenom_older.count(adj)
+        adj_count_post_older = postnom_older.count(adj)
+        adj_count_pre_younger = prenom_younger.count(adj)
+        adj_count_post_younger = postnom_younger.count(adj)
+        adj_counts = (
+            adj,
+            adj_count_all,
+            adj_count_older,
+            adj_count_younger,
+            adj_count_pre_older,
+            adj_count_post_older,
+            adj_count_pre_younger,
+            adj_count_post_younger
+        )
+        counts.append(adj_counts)
 
-    return result
+    return counts
+
 
 def main():
     # Parse arguments
@@ -266,31 +290,50 @@ def main():
 
     # Generate the adjective lists based on the age of 8.
     if arg.age:
+        all_lemma = []
         older_lemma = []
         younger_lemma = []
+        older_pre_lemma = []
+        older_post_lemma = []
+        younger_pre_lemma = []
+        younger_post_lemma = []
+
         for s in sentences:
             s.sentence.lem()
-
             # Note the use of the 'not_needed' variable, this is a placeholder since
             # the function returns both adjectives and lemmas.  We aren't worried about
             # the inflected adjectives, so we can throw it away.
             if s.sentence.speaker.age.decimal >= 8:
                 not_needed, temp_lemma = s.sentence.find_adjectives()
+                all_lemma.extend(temp_lemma)
                 older_lemma.extend(temp_lemma)
+                temp_pre, temp_post = s.sentence.get_pre_post_lists()
+                older_pre_lemma.extend(temp_pre)
+                older_post_lemma.extend(temp_post)
             else:
                 not_needed, temp_lemma = s.sentence.find_adjectives()
+                all_lemma.extend(temp_lemma)
                 younger_lemma.extend(temp_lemma)
+                temp_pre, temp_post = s.sentence.get_pre_post_lists()
+                younger_pre_lemma.extend(temp_pre)
+                younger_post_lemma.extend(temp_post)
 
-        # I should turn this into a function.
-        older_counted = count_adj(older_lemma)
-        younger_counted = count_adj(younger_lemma)
-        header = "Word, Count"
-        older_csv = gen_CSV(header, older_counted)
-        younger_csv = gen_CSV(header, younger_counted)
-        older_file = arg.output + "/older.csv"
-        younger_file = arg.output + "/younger.csv"
-        write_CSV(older_csv, older_file)
-        write_CSV(younger_csv, younger_file)
+        # Now we need to count everything up.
+        counts = count_adj(
+            all_lemma,
+            older_lemma,
+            younger_lemma,
+            older_pre_lemma,
+            older_post_lemma,
+            younger_pre_lemma,
+            younger_post_lemma
+        )
+
+        # Now lets output the data out.
+        header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Older Postnominal"
+        counts_csv = gen_CSV(header, counts)
+        counts_file = arg.output + "/counts.csv"
+        write_CSV(counts_csv, counts_file)
 
         return 0
 

@@ -325,7 +325,7 @@ class Sentence:
 
         :param data: A tuple in the format of (noun, adjectives)
         :return: A tuple in the format of (noun, adjectives) with the adjectives list in the format
-        of [(adjective, root), (adjective, root)]
+        of [(adjective, lemma), (adjective, lemma)]
         """
         global lemmatizer
         new_data = []
@@ -371,3 +371,28 @@ class Sentence:
             self.pre_nom = self.lem_helper(self.pre_nom)
         if len(self.post_nom) > 0:
             self.post_nom = self.lem_helper(self.post_nom)
+
+    def get_pre_post_helper(self, data):
+        """
+        Processes a given list of noun/adjective groups and returns a list of
+        all the adjective lemmas used.
+
+        :return: A list of all the adjective lemmas.
+        """
+        result = []
+        for d in data:
+            for a in d[1]:
+                result.append(a[1])
+
+        return result
+
+    def get_pre_post_lists(self):
+        """
+        Produces a list of adjective lemmas for the pre and post nominal positions.
+
+        :return: Returns a list of adjectives present in the format of (prenominal, postnominal)
+        """
+        prenom_lemmas = self.get_pre_post_helper(self.pre_nom)
+        postnom_lemmas = self.get_pre_post_helper(self.post_nom)
+
+        return prenom_lemmas, postnom_lemmas
