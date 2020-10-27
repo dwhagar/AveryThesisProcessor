@@ -191,7 +191,7 @@ def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, 
     :param master_list: A master list of all adjectives used.
     :param all_older: All adjectives used by those classified as older.
     :param all_younger: All adjectives used by those classified as younger.
-    :param prenom_older: ALl prenominal adjectives used by older speakers.
+    :param prenom_older: All prenominal adjectives used by older speakers.
     :param postnom_older: All postnominal adjectives used by older speakers.
     :param prenom_younger: All prenominal adjectives used by younger speakers.
     :param postnom_younger: All postnominal adjective used by younger speakers.

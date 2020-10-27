@@ -336,26 +336,32 @@ class Sentence:
             for a in w[1]:
                 # Some translation is needed.  Just going to do a chain if/elif/else for now, may use
                 # something more robust later if required.
-                if a == "tits":
+                if a.lower() == "tits":
                     a_root = "petit"
-                elif a == "deux}{deux":
+                elif a.lower() == "deux}{deux":
                     a = "deux deux"
                     a_root = "deux"
-                elif a == "deu":
+                elif a.lower() == "deu":
                     a = "deux"
                     a_root = "deux"
-                elif a == "rouge}pour":
+                elif a.lower() == "rouge}pour":
                     a = "rouge"
                     a_root = "rouge"
-                elif a == "rase":
+                elif a.lower() == "rase":
                     a_root = "rad"
-                elif a == "des::petits":
+                elif a.lower() == "des::petits":
                     a = "petits"
                     a_root = "petit"
+                elif a.lower() == "roux":
+                    a = "roux"
+                    a_root = "rouge"
                 else:
                     a_root = lemmatizer.lemmatize(a, 'a')
+
+                n_root = lemmatizer.lemmatize(n, 'n')
+
                 adj_list.append((a, a_root))
-            new_data.append((n, adj_list))
+            new_data.append((n, adj_list, n_root))
 
         return new_data
 
@@ -396,3 +402,60 @@ class Sentence:
         postnom_lemmas = self.get_pre_post_helper(self.post_nom)
 
         return prenom_lemmas, postnom_lemmas
+
+    def get_colors_helper(self, data):
+        """
+        Processes a given set of noun/adjective groups and extracts those which represent colors.
+
+        :param data: A list of noun/adjective groups that has been lemmatized.
+        :return: A list of noun/adjective groups that contain colors.
+        """
+        result = []
+
+        colors = ["vert", "bleu", "blanc", "jaune", "rose", "noir", "rouge", "orange", "violet", "gris"]
+
+        for w in data:
+            for a in w[1]:
+                if a[1].lower() in colors:
+                    result.append(w)
+
+        return result
+
+    def get_colors(self):
+        """
+        Processes the prenominal and postnominal noun/adjective groups and passes on only those which
+        contain colors.
+
+        :return: A list of prenominal and postnominal noun/adjective groups containing colors in the
+        format of (prenominal, postnominal).
+        """
+        pre_nom_list = self.get_colors_helper(self.pre_nom)
+        post_nom_list = self.get_colors_helper(self.post_nom)
+
+        return pre_nom_list, post_nom_list
+
+    def get_nouns_helper(self, data):
+        """
+        Gets the lemmatized noun from each noun/adjective grouping provided in the list data.
+
+        :param data: A lemmatized list of noun/adjective groups.
+        :return: All lemmatized nouns present as a list.
+        """
+        result = []
+
+        for w in data:
+            result.appent(w[2])
+
+        return result
+
+    def get_nouns(self):
+        """
+        Gets the list of lemmatized nouns from prenominal/postnominal noun/adjective groups.
+
+        :return: All lemmatized nouns present in prenominal/postnominal noun/adjective groups
+        as two lists in the format of (prenominal/postnominal).
+        """
+        pre_nom_nouns = self.get_nouns_helper(self.pre_nom)
+        post_nom_nouns = self.get_nouns_helper(self.post_nom)
+
+        return pre_nom_nouns, post_nom_nouns
