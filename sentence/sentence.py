@@ -257,8 +257,8 @@ class Sentence:
 
         for group in data:
             for adj in group[1]:
-                adjective_list.append(adj[0])
-                lemma_list.append(adj[1])
+                adjective_list.append(adj[0].lower())
+                lemma_list.append(adj[1].lower())
 
         return adjective_list, lemma_list
 
@@ -408,7 +408,7 @@ class Sentence:
         Processes a given set of noun/adjective groups and extracts those which represent colors.
 
         :param data: A list of noun/adjective groups that has been lemmatized.
-        :return: A list of noun/adjective groups that contain colors.
+        :return: A list of color adjectives found.
         """
         result = []
 
@@ -417,7 +417,7 @@ class Sentence:
         for w in data:
             for a in w[1]:
                 if a[1].lower() in colors:
-                    result.append(w)
+                    result.append(a[1].lower())
 
         return result
 
@@ -444,7 +444,7 @@ class Sentence:
         result = []
 
         for w in data:
-            result.appent(w[2])
+            result.append(w[2].lower())
 
         return result
 

@@ -223,7 +223,6 @@ def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, 
 
     return counts
 
-
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser()
@@ -238,6 +237,7 @@ def main():
     parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
     parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.", action='store_true')
     parser.add_argument("-a", "--age", help="Generates age-specific lists of adjectives.", action='store_true')
+    parser.add_argument("-l", "--colors", help="Processes all the colors and positions for each age group.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -262,28 +262,8 @@ def main():
 
     # Lemmatize the data and generate master adjective lists for all ages.
     if arg.lem:
-        adjective_list = []
-        lemma_list = []
-
         for s in sentences:
             s.sentence.lem()
-            adjectives, lemmas = s.sentence.find_adjectives()
-            adjective_list.extend(adjectives)
-            lemma_list.extend(lemmas)
-
-        adj_counted = count_adj(adjective_list)
-        lemma_counted = count_adj(lemma_list)
-
-        header = "Word, Count"
-
-        adj_csv = gen_CSV(header, adj_counted)
-        lemma_csv = gen_CSV(header, lemma_counted)
-
-        adj_file = arg.output + '/adjectives.csv'
-        lemma_file = arg.output + '/lemmas.csv'
-
-        write_CSV(adj_csv, adj_file)
-        write_CSV(lemma_csv, lemma_file)
 
         save_JSON(sentences, arg.output + '/lem-data.json')
         return 0
@@ -337,6 +317,60 @@ def main():
 
         return 0
 
+    # Generate color adjectives only in each position.
+    if arg.colors:
+        all_colors = []
+        older_colors = []
+        younger_colors = []
+        older_pre_colors = []
+        older_post_colors = []
+        younger_pre_colors = []
+        younger_post_colors = []
+
+        for s in sentences:
+            s.sentence.lem()
+            # Note the use of the 'not_needed' variable, this is a placeholder since
+            # the function returns both adjectives and lemmas.  We aren't worried about
+            # the inflected adjectives, so we can throw it away.
+            if s.sentence.speaker.age.decimal >= 8:
+                temp_older_pre_colors, temp_older_post_colors = s.sentence.get_colors()
+                older_pre_colors.extend(temp_older_pre_colors)
+                older_post_colors.extend(temp_older_post_colors)
+            else:
+                temp_younger_pre_colors, temp_younger_post_colors = s.sentence.get_colors()
+                younger_pre_colors.extend(temp_younger_pre_colors)
+                younger_post_colors.extend(temp_younger_post_colors)
+
+        # Get the list and ready to count for every single color adjective.
+        all_colors.extend(older_pre_colors)
+        all_colors.extend(older_post_colors)
+        all_colors.extend(younger_pre_colors)
+        all_colors.extend(younger_post_colors)
+
+        # For completeness produce a list of all colors used in each age group.
+        older_colors.extend(older_pre_colors)
+        older_colors.extend(older_post_colors)
+        younger_colors.extend(younger_pre_colors)
+        younger_colors.extend(younger_post_colors)
+
+        # Now we need to count everything up.
+        counts = count_adj(
+            all_colors,
+            older_colors,
+            younger_colors,
+            older_pre_colors,
+            older_post_colors,
+            younger_pre_colors,
+            younger_post_colors
+        )
+
+        # Now lets output the data out.
+        header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Older Postnominal"
+        counts_csv = gen_CSV(header, counts)
+        counts_file = arg.output + "/colors.csv"
+        write_CSV(counts_csv, counts_file)
+
+        return 0
 
     # List of known correctly tagged adjectives.
     if arg.whitelist is None:
