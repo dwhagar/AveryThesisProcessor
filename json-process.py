@@ -223,6 +223,41 @@ def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, 
 
     return counts
 
+def count_noun(sentences, adjectives, nouns):
+    """
+    Goes through a list of sentence objects with a list of adjectives and counts how
+    often each adjective is paired with a particular noun.
+
+    :param sentences: A list of sentence objects.
+    :param adjectives: A list of adjective lemmas.
+    :param nouns: A list of noun lemmas.
+    :return: 3 2-dimensional dictionaries for all occurances, prenominal, and postnominal occurances.
+    """
+    # Define the 2 dimensional dictionary to store all the associated numbers.
+    matrix = {} # This will be a master list of all occurances.
+    for a in adjectives:
+        matrix[a] = {}
+        for n in nouns:
+            matrix[a][n] = 0
+
+    pre_matrix = matrix.copy() # For only prenominal groups.
+    post_matrix = matrix.copy() # For only postnominal groups.
+
+    # Now we'll actually go to count the occurrences.
+    for a in adjectives:
+        for s in sentences:
+            pre_nouns, post_nouns = s.sentence.adj_exist(a)
+            for n in pre_nouns:
+                matrix[a][n] += 1
+                pre_matrix[a][n] += 1
+            for n in post_nouns:
+                matrix[a][n] += 1
+                post_matrix[a][n] += 1
+
+    return matrix, pre_matrix, post_matrix
+
+
+
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser()
@@ -237,7 +272,8 @@ def main():
     parser.add_argument("-c", "--count", help="Simply counts the number of sentences in a file.", action='store_true')
     parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.", action='store_true')
     parser.add_argument("-a", "--age", help="Generates age-specific lists of adjectives.", action='store_true')
-    parser.add_argument("-l", "--colors", help="Processes all the colors and positions for each age group.", action='store_true')
+    parser.add_argument("-r", "--colors", help="Processes all the colors and positions for each age group.", action='store_true')
+    parser.add_argument("-n", "--nouns", help="Counts noun/adjective occurances fro each age group.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -310,7 +346,7 @@ def main():
         )
 
         # Now lets output the data out.
-        header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Older Postnominal"
+        header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Younger Postnominal"
         counts_csv = gen_CSV(header, counts)
         counts_file = arg.output + "/counts.csv"
         write_CSV(counts_csv, counts_file)
@@ -369,6 +405,32 @@ def main():
         counts_csv = gen_CSV(header, counts)
         counts_file = arg.output + "/colors.csv"
         write_CSV(counts_csv, counts_file)
+
+        return 0
+
+    # Generate the counts of each adjective and noun combinations.
+    if arg.nouns:
+        # A place for all the adjectives to check.
+        all_lemma = []
+        older_lemma = []
+        younger_lemma = []
+        older_pre_lemma = []
+        older_post_lemma = []
+        younger_pre_lemma = []
+        younger_post_lemma = []
+
+        # A place for all the nouns to check.
+        all_noun = []
+        older_noun = []
+        younger_noun = []
+        older_pre_noun = []
+        older_post_noun = []
+        younger_pre_noun = []
+        younger_post_noun = []
+
+        for s in sentences:
+            s.sentence.lem()
+
 
         return 0
 

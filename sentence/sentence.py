@@ -459,3 +459,36 @@ class Sentence:
         post_nom_nouns = self.get_nouns_helper(self.post_nom)
 
         return pre_nom_nouns, post_nom_nouns
+
+    def adj_exist_helper(self, adj, data):
+        """
+        Accepts an adjective lemma and a list of adjective/noun groups to check.  If found it
+        returns the lemmatized noun associated with that group.  If no result is found, it returns
+        "0".
+
+        :param adj: An adjective lemma
+        :param data: A list of adjective/noun groups with lemmas
+        :return: If adjective lemma is found returns the lemmas for any associated nouns as a list
+        """
+        nouns = []
+
+        for n in data:
+            for w in n[1]:
+                if w[1].lower() == adj.lower():
+                    nouns.append(n[2])
+
+        return nouns
+
+    def adj_exist(self, adj):
+        """
+        Goes through all of the prenominal / postnominal adjective noun groups and returns a list
+        of associated noun lemmas.
+
+        :param adj: An adjective lemma
+        :return: Two lists, one of prenominal and the other of postnominal nouns for the given
+        adjective.
+        """
+        prenominal = self.adj_exist_helper(adj, self.pre_nom)
+        postnominal = self.adj_exist_helper(adj, self.post_nom)
+
+        return prenominal, postnominal
