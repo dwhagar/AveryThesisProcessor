@@ -223,7 +223,7 @@ def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, 
 
     return counts
 
-def count_noun(sentences, adjectives, nouns):
+def count_noun(sentences, adjectives, nouns, all_older, all_younger, prenom_older, postnom_older, prenom_younger, postnom_younger):
     """
     Goes through a list of sentence objects with a list of adjectives and counts how
     often each adjective is paired with a particular noun.
@@ -231,7 +231,13 @@ def count_noun(sentences, adjectives, nouns):
     :param sentences: A list of sentence objects.
     :param adjectives: A list of adjective lemmas.
     :param nouns: A list of noun lemmas.
-    :return: 3 2-dimensional dictionaries for all occurances, prenominal, and postnominal occurances.
+    :param all_older: All adjectives used by those classified as older.
+    :param all_younger: All adjectives used by those classified as younger.
+    :param prenom_older: All prenominal adjectives used by older speakers.
+    :param postnom_older: All postnominal adjectives used by older speakers.
+    :param prenom_younger: All prenominal adjectives used by younger speakers.
+    :param postnom_younger: All postnominal adjective used by younger speakers.
+    :return: 2-dimensional dictionaries for all input categories.
     """
     # Define the 2 dimensional dictionary to store all the associated numbers.
     matrix = {} # This will be a master list of all occurances.
@@ -240,23 +246,16 @@ def count_noun(sentences, adjectives, nouns):
         for n in nouns:
             matrix[a][n] = 0
 
-    pre_matrix = matrix.copy() # For only prenominal groups.
-    post_matrix = matrix.copy() # For only postnominal groups.
-
-    # Now we'll actually go to count the occurrences.
-    for a in adjectives:
-        for s in sentences:
-            pre_nouns, post_nouns = s.sentence.adj_exist(a)
-            for n in pre_nouns:
-                matrix[a][n] += 1
-                pre_matrix[a][n] += 1
-            for n in post_nouns:
-                matrix[a][n] += 1
-                post_matrix[a][n] += 1
-
-    return matrix, pre_matrix, post_matrix
+    older_matrix = matrix.copy() # For only older speakers.
+    younger_matrix = matrix.copy() # For only younger speakers.
+    older_pre_matrix = matrix.copy() # Older / Prenominal Groups
+    older_post_matrix = matrix.copy() # Older / Postnominal Groups
+    younger_pre_matrix = matrix.copy() # Younger / Prenominal Groups
+    younger_post_matrix = matrix.copy() # Younger / Postnominal Groups
 
 
+
+    return matrix, older_matrix, younger_matrix, older_pre_matrix, older_post_matrix, younger_pre_matrix, younger_post_matrix
 
 def main():
     # Parse arguments
@@ -428,8 +427,75 @@ def main():
         younger_pre_noun = []
         younger_post_noun = []
 
+        # Get a complete list of all nouns and adjectives.
         for s in sentences:
-            s.sentence.lem()
+            # Note the use of the 'not_needed' variable, this is a placeholder since
+            # the function returns both adjectives and lemmas.  We aren't worried about
+            # the inflected adjectives, so we can throw it away.
+            not_needed, temp_lemma = s.sentence.find_adjectives()
+            temp_pre_nouns, temp_post_nouns = s.sentence.get_nouns()
+            all_lemma.extend(temp_lemma)
+            temp_pre, temp_post = s.sentence.get_pre_post_lists()
+            all_noun.extend(temp_pre_nouns)
+            all_noun.extend(temp_post_nouns)
+
+            if s.sentence.speaker.age.decimal >= 8:
+                older_lemma.extend(temp_lemma)
+                older_pre_lemma.extend(temp_pre)
+                older_post_lemma.extend(temp_post)
+                older_noun.extend(temp_pre_nouns)
+                older_noun.extend(temp_post_nouns)
+                older_pre_noun.extend(temp_pre_nouns)
+                older_post_noun.extend(temp_post_nouns)
+            else:
+                younger_lemma.extend(temp_lemma)
+                younger_pre_lemma.extend(temp_pre)
+                younger_post_lemma.extend(temp_post)
+                younger_noun.extend(temp_pre_nouns)
+                younger_noun.extend(temp_post_nouns)
+                younger_pre_noun.extend(temp_pre_nouns)
+                younger_post_noun.extend(temp_post_nouns)
+
+        # Get the adjective counts
+        counts = count_adj(
+            all_lemma,
+            older_lemma,
+            younger_lemma,
+            older_pre_lemma,
+            older_post_lemma,
+            younger_pre_lemma,
+            younger_post_lemma
+        )
+
+        reduced_lemma = list(set(all_lemma))
+        reduced_older = list(set(older_lemma))
+        reduced_younger = list(set(younger_lemma))
+        reduced_older_pre = list(set(older_pre_lemma))
+        reduced_older_post = list(set(older_post_lemma))
+        reduced_younger_pre = list(set(younger_pre_lemma))
+        reduced_younger_post = list(set(younger_post_lemma))
+
+        # Now we need to remove all adjectives from the lists that occur less
+        # than 20 times.
+        for c in all_lemma:
+            if c[1] < 20:
+                reduced_lemma.remove(c[0])
+                reduced_older.remove(c[0])
+                reduced_younger.remove(c[0])
+                reduced_older_pre.remove(c[0])
+                reduced_older_post.remove(c[0])
+                reduced_younger_pre.remove(c[0])
+                reduced_younger_post.remove(c[0])
+
+        # Make sure each list contains only one of each noun.
+        all_noun = list(set(all_noun))
+        older_noun = list(set(older_noun))
+        younger_noun = list(set(younger_noun))
+        older_pre_noun = list(set(older_pre_noun))
+        older_post_noun = list(set(older_post_noun))
+        younger_pre_noun = list(set(younger_pre_noun))
+        younger_post_noun = list(set(younger_post_noun))
+
 
 
         return 0
