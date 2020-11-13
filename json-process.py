@@ -596,7 +596,7 @@ def main():
 
         # We need to build the header.
         header = ""
-        for n in all_noun:
+        for n in reduced_nouns:
             header = header + "," + n
 
         # CSV-ize it!
