@@ -158,7 +158,7 @@ class Sentence:
         idx_max = len(self.pos) # Maximum possible index.
         for idx in range(0, idx_max):
             w = self.pos[idx]
-            if w[1] == "NOUN" and (not w[0] == '-') and (not w[1] == '_'):
+            if w[1] == "NOUN" and not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
                 noun = w[0]
                 this_post = (noun, [])
                 this_pre = (noun, [])
@@ -333,6 +333,7 @@ class Sentence:
         for w in data:
             adj_list = []
             n = w[0]
+
             for a in w[1]:
                 # Some translation is needed.  Just going to do a chain if/elif/else for now, may use
                 # something more robust later if required.
@@ -444,7 +445,8 @@ class Sentence:
         result = []
 
         for w in data:
-            result.append(w[2].lower())
+            if not (w[2] == '<' or w[2] == '>'):
+                result.append(w[2].lower())
 
         return result
 

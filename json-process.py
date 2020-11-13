@@ -235,11 +235,10 @@ def count_noun_adj_helper(groups, adjectives, matrix):
     """
     for adj in adjectives:
         for g in groups:
-            for w in g:
-                n = w[2]
-                for a in w[1]:
-                    if a[1] == adj:
-                        matrix[adj][n] += 1
+            n = g[2]
+            for a in g[1]:
+                if a[1] == adj:
+                    matrix[adj.lower()][n.lower()] += 1
 
     return matrix
 
@@ -262,9 +261,9 @@ def count_noun_adj(sentences, adjectives, nouns, all_older, all_younger, prenom_
     # Define the 2 dimensional dictionary to store all the associated numbers.
     matrix = {} # This will be a master list of all occurances.
     for a in adjectives:
-        matrix[a] = {}
+        matrix[a.lower()] = {}
         for n in nouns:
-            matrix[a][n] = 0
+            matrix[a.lower()][n.lower()] = 0
 
     older_matrix = matrix.copy() # For only older speakers.
     younger_matrix = matrix.copy() # For only younger speakers.
@@ -320,29 +319,21 @@ def matrix_gen_csv(matrix, adjs, nouns):
     :param matrix: The 2-dimensional matrix of adjective/noun pair counts.
     :param adjs: A list of possible adjectives.
     :param nouns: A list of possible nouns.
-    :return: A list of strings compatible for CSV output.
+    :return: A list of strings compatible for CSV output and the header.
     """
     adjs.sort()
     nouns.sort()
 
-    header = [""]
     data = []
-
-    # Build the header of all the nouns first.
-    for n in nouns:
-        header.append(n)
 
     for a in adjs:
         line = [a]
         for n in nouns:
-            line.append("=" + str(matrix[a][n]))
+            line.append(matrix[a.lower()][n.lower()])
 
         data.append(line)
 
-    result = [header]
-    result.extend(data)
-
-    return result
+    return data
 
 def main():
     # Parse arguments
@@ -360,6 +351,7 @@ def main():
     parser.add_argument("-a", "--age", help="Generates age-specific lists of adjectives.", action='store_true')
     parser.add_argument("-r", "--colors", help="Processes all the colors and positions for each age group.", action='store_true')
     parser.add_argument("-n", "--nouns", help="Counts noun/adjective occurrences fro each age group.", action='store_true')
+    parser.add_argument("-p", "--repair", help="Reprocesses the input file to regroup adjective/noun pairs.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -494,6 +486,15 @@ def main():
 
         return 0
 
+    # Reprocess the input file to generate new adjective/noun groups.
+    if arg.repair:
+        for s in sentences:
+            s.sentence.find_words()
+
+        save_JSON(sentences, arg.output + "/repaired-data.json")
+
+        return 0
+
     # Generate the counts of each adjective and noun combinations.
     if arg.nouns:
         # A place for all the adjectives to check.
@@ -551,24 +552,32 @@ def main():
 
         # Now we need to remove all adjectives from the lists that occur less
         # than 20 times.
-        for c in all_lemma:
+        for c in counts:
             if c[1] < 20:
-                reduced_lemma.remove(c[0])
-                reduced_older.remove(c[0])
-                reduced_younger.remove(c[0])
-                reduced_older_pre.remove(c[0])
-                reduced_older_post.remove(c[0])
-                reduced_younger_pre.remove(c[0])
-                reduced_younger_post.remove(c[0])
+                if c[0] in reduced_lemma: reduced_lemma.remove(c[0])
+                if c[0] in reduced_older: reduced_older.remove(c[0])
+                if c[0] in reduced_younger: reduced_younger.remove(c[0])
+                if c[0] in reduced_older_pre: reduced_older_pre.remove(c[0])
+                if c[0] in reduced_older_post: reduced_older_post.remove(c[0])
+                if c[0] in reduced_younger_pre: reduced_younger_pre.remove(c[0])
+                if c[0] in reduced_younger_post: reduced_younger_post.remove(c[0])
 
-        # Make sure each list contains only one of each noun.
-        all_noun = list(set(all_noun))
+        # Generate a reduced noun set.
+        canon_nouns = list(set(all_noun))
+        reduced_nouns = canon_nouns[:]
+        noun_counts = []
+        for n in canon_nouns:
+            noun_counts.append((n, all_noun.count(n)))
+
+        for nc in noun_counts:
+            if nc[1] <= 4:
+                reduced_nouns.remove(nc[0])
 
         # Count everything.
         matrix, older_matrix, younger_matrix, older_pre_matrix, older_post_matrix, younger_pre_matrix, younger_post_matrix = \
             count_noun_adj(sentences,
                            reduced_lemma,
-                           all_noun,
+                           canon_nouns,
                            reduced_older,
                            reduced_younger,
                            reduced_older_pre,
@@ -576,14 +585,28 @@ def main():
                            reduced_younger_pre,
                            reduced_younger_post)
 
-        # Generate the data to be output to CSV files.
-        all_csv = matrix_gen_csv(matrix, reduced_lemma, all_noun)
-        older_csv = matrix_gen_csv(older_matrix, reduced_lemma, all_noun)
-        younger_csv = matrix_gen_csv(younger_matrix, reduced_lemma, all_noun)
-        older_pre_csv = matrix_gen_csv(older_pre_matrix, reduced_lemma, all_lemma)
-        older_post_csv = matrix_gen_csv(older_post_matrix, reduced_lemma, all_noun)
-        younger_pre_csv = matrix_gen_csv(younger_pre_matrix, reduced_lemma, all_noun)
-        younger_post_csv = matrix_gen_csv(younger_post_matrix, reduced_lemma, all_noun)
+        # Generate the data.
+        all_data = matrix_gen_csv(matrix, reduced_lemma, reduced_nouns)
+        older_data = matrix_gen_csv(older_matrix, reduced_lemma, reduced_nouns)
+        younger_data = matrix_gen_csv(younger_matrix, reduced_lemma, reduced_nouns)
+        older_pre_data = matrix_gen_csv(older_pre_matrix, reduced_lemma, reduced_nouns)
+        older_post_data = matrix_gen_csv(older_post_matrix, reduced_lemma, reduced_nouns)
+        younger_pre_data = matrix_gen_csv(younger_pre_matrix, reduced_lemma, reduced_nouns)
+        younger_post_data = matrix_gen_csv(younger_post_matrix, reduced_lemma, reduced_nouns)
+
+        # We need to build the header.
+        header = ""
+        for n in all_noun:
+            header = header + "," + n
+
+        # CSV-ize it!
+        all_csv = gen_CSV(header, all_data)
+        older_csv = gen_CSV(header, older_data)
+        younger_csv = gen_CSV(header, younger_data)
+        older_pre_csv = gen_CSV(header, older_pre_data)
+        older_post_csv = gen_CSV(header, older_post_data)
+        younger_pre_csv = gen_CSV(header, younger_pre_data)
+        younger_post_csv = gen_CSV(header, younger_post_data)
 
         # Output the CSV data to files.
         write_CSV(all_csv, arg.output + "/matrix-all.csv")
