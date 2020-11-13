@@ -223,7 +223,27 @@ def count_adj(master_list, all_older, all_younger, prenom_older, postnom_older, 
 
     return counts
 
-def count_noun(sentences, adjectives, nouns, all_older, all_younger, prenom_older, postnom_older, prenom_younger, postnom_younger):
+def count_noun_adj_helper(groups, adjectives, matrix):
+    """
+    Uses a given 2-dimensional dictionary matrix and list of adjectives / nouns to produce a count.
+
+    :param groups:  A list of noun/adjective groups in the format of:
+    [(noun, [(adjective, adjective-lemma), ...], noun-lemma), ...]
+    :param adjectives: All adjective lemmas that need to be checked.
+    :param matrix: A 2-dimensional dictionary matrix.
+    :return: The matrix with counts filled in.
+    """
+    for adj in adjectives:
+        for g in groups:
+            for w in g:
+                n = w[2]
+                for a in w[1]:
+                    if a[1] == adj:
+                        matrix[adj][n] += 1
+
+    return matrix
+
+def count_noun_adj(sentences, adjectives, nouns, all_older, all_younger, prenom_older, postnom_older, prenom_younger, postnom_younger):
     """
     Goes through a list of sentence objects with a list of adjectives and counts how
     often each adjective is paired with a particular noun.
@@ -253,9 +273,76 @@ def count_noun(sentences, adjectives, nouns, all_older, all_younger, prenom_olde
     younger_pre_matrix = matrix.copy() # Younger / Prenominal Groups
     younger_post_matrix = matrix.copy() # Younger / Postnominal Groups
 
+    # First we will gather all of the lists of groups.
+    all_groups = []
+    older_groups = []
+    younger_groups = []
+    older_pre_groups = []
+    older_post_groups = []
+    younger_pre_groups = []
+    younger_post_groups = []
 
+    for s in sentences:
+        all_groups.extend(s.sentence.pre_nom)
+        all_groups.extend(s.sentence.post_nom)
+        if s.sentence.speaker.age.decimal >= 8:
+            older_groups.extend(s.sentence.pre_nom)
+            older_groups.extend(s.sentence.post_nom)
+            older_pre_groups.extend(s.sentence.pre_nom)
+            older_post_groups.extend(s.sentence.post_nom)
+        else:
+            younger_groups.extend(s.sentence.pre_nom)
+            younger_groups.extend(s.sentence.post_nom)
+            younger_pre_groups.extend(s.sentence.pre_nom)
+            younger_post_groups.extend(s.sentence.post_nom)
 
-    return matrix, older_matrix, younger_matrix, older_pre_matrix, older_post_matrix, younger_pre_matrix, younger_post_matrix
+    # Now that all the prep work is done we have to actually perform the counting.
+    matrix = count_noun_adj_helper(all_groups, adjectives, matrix)
+    older_matrix = count_noun_adj_helper(older_groups, all_older, older_matrix)
+    older_pre_matrix = count_noun_adj_helper(older_pre_groups, prenom_older, older_pre_matrix)
+    older_post_matrix = count_noun_adj_helper(older_post_groups, postnom_older, older_post_matrix)
+    younger_matrix = count_noun_adj_helper(younger_groups, all_younger, younger_matrix)
+    younger_pre_matrix = count_noun_adj_helper(younger_pre_groups, prenom_younger, younger_pre_matrix)
+    younger_post_matrix = count_noun_adj_helper(younger_post_groups, postnom_younger, younger_post_matrix)
+
+    return matrix,\
+           older_matrix,\
+           younger_matrix,\
+           older_pre_matrix,\
+           older_post_matrix,\
+           younger_pre_matrix,\
+           younger_post_matrix
+
+def matrix_gen_csv(matrix, adjs, nouns):
+    """
+    Takes a matrix of adjective/noun pair counts and converts it into CSV compatible data.
+
+    :param matrix: The 2-dimensional matrix of adjective/noun pair counts.
+    :param adjs: A list of possible adjectives.
+    :param nouns: A list of possible nouns.
+    :return: A list of strings compatible for CSV output.
+    """
+    adjs.sort()
+    nouns.sort()
+
+    header = [""]
+    data = []
+
+    # Build the header of all the nouns first.
+    for n in nouns:
+        header.append(n)
+
+    for a in adjs:
+        line = [a]
+        for n in nouns:
+            line.append("=" + str(matrix[a][n]))
+
+        data.append(line)
+
+    result = [header]
+    result.extend(data)
+
+    return result
 
 def main():
     # Parse arguments
@@ -272,7 +359,7 @@ def main():
     parser.add_argument("-l", "--lem", help="Lemmatize the data to extract root words.", action='store_true')
     parser.add_argument("-a", "--age", help="Generates age-specific lists of adjectives.", action='store_true')
     parser.add_argument("-r", "--colors", help="Processes all the colors and positions for each age group.", action='store_true')
-    parser.add_argument("-n", "--nouns", help="Counts noun/adjective occurances fro each age group.", action='store_true')
+    parser.add_argument("-n", "--nouns", help="Counts noun/adjective occurrences fro each age group.", action='store_true')
 
     arg = parser.parse_args()
 
@@ -420,15 +507,10 @@ def main():
 
         # A place for all the nouns to check.
         all_noun = []
-        older_noun = []
-        younger_noun = []
-        older_pre_noun = []
-        older_post_noun = []
-        younger_pre_noun = []
-        younger_post_noun = []
 
         # Get a complete list of all nouns and adjectives.
         for s in sentences:
+            s.sentence.lem()
             # Note the use of the 'not_needed' variable, this is a placeholder since
             # the function returns both adjectives and lemmas.  We aren't worried about
             # the inflected adjectives, so we can throw it away.
@@ -443,18 +525,10 @@ def main():
                 older_lemma.extend(temp_lemma)
                 older_pre_lemma.extend(temp_pre)
                 older_post_lemma.extend(temp_post)
-                older_noun.extend(temp_pre_nouns)
-                older_noun.extend(temp_post_nouns)
-                older_pre_noun.extend(temp_pre_nouns)
-                older_post_noun.extend(temp_post_nouns)
             else:
                 younger_lemma.extend(temp_lemma)
                 younger_pre_lemma.extend(temp_pre)
                 younger_post_lemma.extend(temp_post)
-                younger_noun.extend(temp_pre_nouns)
-                younger_noun.extend(temp_post_nouns)
-                younger_pre_noun.extend(temp_pre_nouns)
-                younger_post_noun.extend(temp_post_nouns)
 
         # Get the adjective counts
         counts = count_adj(
@@ -489,14 +563,36 @@ def main():
 
         # Make sure each list contains only one of each noun.
         all_noun = list(set(all_noun))
-        older_noun = list(set(older_noun))
-        younger_noun = list(set(younger_noun))
-        older_pre_noun = list(set(older_pre_noun))
-        older_post_noun = list(set(older_post_noun))
-        younger_pre_noun = list(set(younger_pre_noun))
-        younger_post_noun = list(set(younger_post_noun))
 
+        # Count everything.
+        matrix, older_matrix, younger_matrix, older_pre_matrix, older_post_matrix, younger_pre_matrix, younger_post_matrix = \
+            count_noun_adj(sentences,
+                           reduced_lemma,
+                           all_noun,
+                           reduced_older,
+                           reduced_younger,
+                           reduced_older_pre,
+                           reduced_older_post,
+                           reduced_younger_pre,
+                           reduced_younger_post)
 
+        # Generate the data to be output to CSV files.
+        all_csv = matrix_gen_csv(matrix, reduced_lemma, all_noun)
+        older_csv = matrix_gen_csv(older_matrix, reduced_lemma, all_noun)
+        younger_csv = matrix_gen_csv(younger_matrix, reduced_lemma, all_noun)
+        older_pre_csv = matrix_gen_csv(older_pre_matrix, reduced_lemma, all_lemma)
+        older_post_csv = matrix_gen_csv(older_post_matrix, reduced_lemma, all_noun)
+        younger_pre_csv = matrix_gen_csv(younger_pre_matrix, reduced_lemma, all_noun)
+        younger_post_csv = matrix_gen_csv(younger_post_matrix, reduced_lemma, all_noun)
+
+        # Output the CSV data to files.
+        write_CSV(all_csv, arg.output + "/matrix-all.csv")
+        write_CSV(older_csv, arg.output + "/matrix-older.csv")
+        write_CSV(younger_csv, arg.output + "/matrix-younger.csv")
+        write_CSV(older_pre_csv, arg.output + "/matrix-older-pre.csv")
+        write_CSV(older_post_csv, arg.output + "/matrix-older-post.csv")
+        write_CSV(younger_pre_csv, arg.output + "/matrix-younger-pre.csv")
+        write_CSV(younger_post_csv, arg.output + "/matrix-younger-post.csv")
 
         return 0
 
