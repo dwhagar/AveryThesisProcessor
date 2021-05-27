@@ -6,6 +6,7 @@
 # environment for PyCharm.  This is not the standard way to load the french data for
 # the parts of speech (POS) tagger.
 import fr_core_news_lg
+import string
 nlp = fr_core_news_lg.load()
 from french_lefff_lemmatizer.french_lefff_lemmatizer import FrenchLefffLemmatizer
 # Similar to above with defining a global object to reduce run times for loading.
@@ -197,8 +198,8 @@ class Sentence:
         Builds a proper dictionary object for output from the prenominal and postnominal
         noun / adjective groups.
 
-        :param data: A list of noun/adjective groups either in (noun, [adjective, ajective])
-        format or (noun, [(adjcetive, root), (adjective root)]) format.
+        :param data: A list of noun/adjective groups either in (noun, [adjective, ajective], lemma)
+        format or (noun, [(adjcetive, root), (adjective lemma)], lemma) format.
         :return: Returns a dictionary object with all the data.
         """
         result = []
@@ -213,7 +214,8 @@ class Sentence:
                     adj_list.append(adj)
                 group = {
                     "noun": w[0],
-                    "adjectives": adj_list
+                    "adjectives": adj_list,
+                    "lemma": w[2]
                 }
             else:
                 group = {
@@ -318,6 +320,36 @@ class Sentence:
             if rev:
                 self.review = True
 
+    def filter_all(self, blacklist):
+        """
+        Filters all words based on a blacklist of things that are NEVER words.
+
+        :param blacklist: The non-word blacklist as a list of strings.
+        :return: None
+        """
+
+        # More data issues
+        for x in range(0, len(self.pos)):
+            if self.pos[x][0] in blacklist or \
+                    self.pos[x][0] in string.digits or \
+                    self.pos[x][0] in string.punctuation:
+                self.pos[x][1] = "BAD"
+
+        # Remove BAD Words
+        for x in range(0, len(self.pos)):
+            if self.pos[x][0] == "BAD":
+                del self.pos[x]
+
+        # Reconstitute sentence
+        new_sentence_list = []
+        for word in self.pos:
+            new_sentence_list.append(word[0])
+
+        self.text = " ".join(new_sentence_list)
+
+        self.find_words()
+        self.lem()
+
     def lem_helper(self, data):
         """
         Processes a list of noun / adjectives tuples and returns a list that includes the lemmatized
@@ -329,6 +361,8 @@ class Sentence:
         """
         global lemmatizer
         new_data = []
+
+        n_root = ""
 
         for w in data:
             adj_list = []

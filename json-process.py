@@ -488,8 +488,9 @@ def main():
 
     # Reprocess the input file to generate new adjective/noun groups.
     if arg.repair:
+        non_words_list = read_text(arg.output + "/non-words.txt")
         for s in sentences:
-            s.sentence.find_words()
+            s.sentence.filter_all(non_words_list)
 
         save_JSON(sentences, arg.output + "/repaired-data.json")
 
