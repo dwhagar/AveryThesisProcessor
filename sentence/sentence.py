@@ -333,12 +333,17 @@ class Sentence:
             if self.pos[x][0] in blacklist or \
                     self.pos[x][0] in string.digits or \
                     self.pos[x][0] in string.punctuation:
-                self.pos[x][1] = "BAD"
+                self.pos[x] = (self.pos[x][0], "BAD")
 
         # Remove BAD Words
+        remove_list = []    # Need to avoid bad index errors when removing.
         for x in range(0, len(self.pos)):
-            if self.pos[x][0] == "BAD":
-                del self.pos[x]
+            if self.pos[x][1] == "BAD":
+                remove_list.append(self.pos[x])
+
+        # Annoying crap that is needed to get past bad index errors.
+        for item in remove_list:
+            self.pos.remove(item)
 
         # Reconstitute sentence
         new_sentence_list = []
