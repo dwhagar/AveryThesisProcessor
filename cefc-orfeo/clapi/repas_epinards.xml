@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> repas_epinards </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Clapi </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 3926 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"> Bruit de fond d'assiettes, on entend certains locuteurs
+          plus que d'autres. </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> repas_epinards </name> du corpus/projet <name> CLAPI </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#problème_enregistrement #NULL #bip" dur="00:28:44" type="audio">
+            <date> 30/08/2008 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> les locuteurs parlent l'aménagement d'une penderie, de leur chien, des pruneaux, des
+          cadeaux de naissance. </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="repas"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Rhône-Alpes, Lyon </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ERI">
+            <sex> M </sex>
+            <age> 61+ </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu (retraité) </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="JUS">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> lycée </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> secrétaire médical </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="CLA">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> étudiant </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="MAT">
+            <sex> F </sex>
+            <age> 16-20 </age>
+            <education> lycée </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> lycéen </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="FLR">
+            <sex> F </sex>
+            <age> 16-20 </age>
+            <education> lycée </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> lycéen </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="LX">
+            <sex> inconnu </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

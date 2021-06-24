@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>jeux_video_foot_Lyon</title>
+        <respStmt>
+          <resp>Responsables du corpus</resp>
+          <name>Clapi</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word">7427</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>projet Orfeo</publisher>
+        <pubPlace>http://projet-orfeo.fr</pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon">bruit et beaucoup de bip d'anonymisation</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>fichier <name>jeux_video_foot_Lyon</name> du corpus/projet <name>CLAPI</name>
+        </bibl>
+        <recordingStmt>
+          <recording type="audio" dur="01:23:06" ana="#problème_enregistrement #NULL #bip">
+            <date>30/10/2007</date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p>commentaires sur le jeu de foot et de voitures</p>
+      </abstract>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+      <textClass>
+        <catRef target="conversation" corresp="type"/>
+        <catRef target="privé" corresp="secteur"/>
+        <catRef target="amical" corresp="milieu"/>
+        <catRef target="face_à_face" corresp="channel"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p>France, Rhône-Alpes, Lyon</p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="jos">
+            <sex>M</sex>
+            <age>16-20</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>lycéen</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="jul">
+            <sex>M</sex>
+            <age>16-20</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>lycéen</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="mat">
+            <sex>M</sex>
+            <age>16-20</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>lycéen</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="tom">
+            <sex>M</sex>
+            <age>16-20</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>lycéen</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="che">
+            <sex>F</sex>
+            <age>inconnu</age>
+            <education>inconnu</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>inconnu</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="col">
+            <sex>F</sex>
+            <age>inconnu</age>
+            <education>inconnu</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>inconnu</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="jus">
+            <sex>M</sex>
+            <age>inconnu</age>
+            <education>inconnu</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>inconnu</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="tec">
+            <sex>F</sex>
+            <age>inconnu</age>
+            <education>inconnu</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>inconnu</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="LX">
+            <sex>inconnu</sex>
+            <age>inconnu</age>
+            <education>inconnu</education>
+            <birth>
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>inconnu</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

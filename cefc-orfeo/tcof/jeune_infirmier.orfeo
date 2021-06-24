@@ -1,0 +1,3048 @@
+# sent_id = cefc-tcof-jeune_infirmier-1
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	0.140000	0.260000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-2
+# text = NNAAMMEE bonjour
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	0.260000	0.470000	L1
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	0.560000	1.070000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-3
+# text = bonjour NNAAMMEE
+1	bonjour	bonjour	INT	INT	_	2	dm	_	_	1.630000	1.950000	L2
+2	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	1.950000	2.130000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-4
+# text = donc tu es jeune diplômé infirmier
+1	donc	donc	ADV	ADV	_	3	periph	_	_	2.280000	2.600000	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	2.600000	2.870000	L1
+3	es	être	VRB	VRB	_	5	aux	_	_	2.870000	3.070000	L1
+4	jeune	jeune	ADJ	ADJ	_	5	dep	_	_	3.070000	3.390000	L1
+5	diplômé	diplômer	VPP	VPP	_	0	root	_	_	3.390000	3.970000	L1
+6	infirmier	infirmier	ADJ	ADJ	_	5	dep	_	_	3.970000	4.550000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-5
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	4.980000	5.340000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-6
+# text = et ce que tu peux me dire en quoi
+1	et	et	COO	COO	_	2	mark	_	_	5.790000	5.980000	L1
+2	ce	ce	PRO	PRO	_	0	root	_	_	5.980000	6.110000	L1
+3	que	que	PRQ	PRQ	_	5	dep	_	_	6.110000	6.260000	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	6.260000	6.490000	L1
+5	peux	pouvoir	VRB	VRB	_	2	dep	_	_	6.490000	6.640000	L1
+6	me	me	CLI	CLI	_	7	dep	_	_	6.640000	6.760000	L1
+7	dire	dire	VNF	VNF	_	5	dep	_	_	6.760000	7.180000	L1
+8	en	en	PRE	PRE	_	7	dep	_	_	7.230000	7.300000	L1
+9	quoi	quoi	PRQ	PRQ	_	8	dep	_	_	7.300000	7.550000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-7
+# text = consistait euh ta formation en fait
+1	consistait	consister	VRB	VRB	_	0	root	_	_	7.670000	8.460000	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	8.460000	8.900000	L1
+3	ta	son	DET	DET	_	4	spe	_	_	8.900000	9.030000	L1
+4	formation	formation	NOM	NOM	_	1	dep	_	_	9.030000	9.560000	L1
+5	en	en	PRE	PRE	_	1	dep	_	_	9.560000	9.640000	L1
+6	fait	faire	VRB	VRB	_	5	dep	_	_	9.640000	9.800000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-8
+# text = pas de soucis eh bah euh mh la formation
+1	pas	pas	ADN	ADN	_	2	dep	_	_	11.080000	11.200000	L2
+2	de	de	PRE	PRE	_	0	root	_	_	11.200000	11.250000	L2
+3	soucis	souci	NOM	NOM	_	2	dep	_	_	11.250000	11.630000	L2
+4	eh bah	eh bah	INT	INT	_	3	dm	_	_	11.630000	12.020000	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	12.020000	12.660000	L2
+6	mh	mh	INT	INT	_	5	dm	_	_	12.660000	13.100000	L2
+7	la	le	DET	DET	_	8	spe	_	_	13.190000	13.360000	L2
+8	formation	formation	NOM	NOM	_	3	para	_	_	13.360000	13.980000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-9
+# text = donc elle est elle a duré trois ans et demi trois ans et demi avec euh alternance
+1	donc	donc	ADV	ADV	_	3	periph	_	_	13.980000	14.190000	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	14.190000	14.280000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	14.280000	14.810000	L2
+4	elle	il	CLS	CLS	_	6	subj	_	_	14.880000	15.200000	L2
+5	a	avoir	VRB	VRB	_	6	aux	_	_	15.200000	15.230000	L2
+6	duré	durer	VPP	VPP	_	3	para	_	_	15.230000	15.560000	L2
+7	trois	trois	NUM	NUM	_	8	spe	_	_	15.560000	15.840000	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	15.840000	15.960000	L2
+9	et	et	COO	COO	_	10	mark	_	_	16.010000	16.030001	L2
+10	demi	demi	ADJ	ADJ	_	8	para	_	_	16.070000	16.280001	L2
+11	trois	trois	NUM	NUM	_	12	spe	_	_	17.200001	17.350000	L2
+12	ans	an	NOM	NOM	_	8	para	_	_	17.350000	17.420000	L2
+13	et	et	COO	COO	_	14	mark	_	_	17.420000	17.490000	L2
+14	demi	demi	ADJ	ADJ	_	12	para	_	_	17.490000	17.809999	L2
+15	avec	avec	PRE	PRE	_	6	dep	_	_	17.809999	18.200001	L2
+16	euh	euh	INT	INT	_	15	dm	_	_	18.200001	18.969999	L2
+17	alternance	alternance	NOM	NOM	_	15	dep	_	_	19.040001	19.850000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-10
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	19.850000	20.070000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-11
+# text = de stages et de et de et de mois passés euh à l'école
+1	de	de	PRE	PRE	_	0	root	_	_	20.070000	20.500000	L2
+2	stages	stage	NOM	NOM	_	1	dep	_	_	20.500000	21.080000	L2
+3	et	et	COO	COO	_	4	mark	_	_	21.080000	21.110001	L2
+4	de	de	PRE	PRE	_	1	para	_	_	21.110001	21.719999	L2
+5	et	et	COO	COO	_	6	mark	_	_	21.820000	21.930000	L2
+6	de	de	PRE	PRE	_	4	para	_	_	21.930000	22.340000	L2
+7	et	et	COO	COO	_	8	mark	_	_	22.340000	22.490000	L2
+8	de	de	PRE	PRE	_	6	para	_	_	22.570000	22.590000	L2
+9	mois	moi	NOM	NOM	_	8	dep	_	_	22.590000	22.780001	L2
+10	passés	passer	VPP	VPP	_	9	dep	_	_	22.780001	23.230000	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	23.230000	23.420000	L2
+12	à	à	PRE	PRE	_	10	dep	_	_	23.420000	23.650000	L2
+13	l'	le	DET	DET	_	14	spe	_	_	23.650000	23.700001	L2
+14	école	école	NOM	NOM	_	12	dep	_	_	23.700001	24.049999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-12
+# text = donc euh euh la première année on a fait euh quatre stages quatre mois de stage en fait répartis sur euh sur la sur l'année l'année scolaire euh le deuxième la deuxième année euh cinq stages
+1	donc	donc	ADV	ADV	_	9	periph	_	_	24.760000	25.160000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	25.160000	25.990000	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	26.400000	27.320000	L2
+4	la	le	DET	DET	_	6	spe	_	_	27.980000	28.110001	L2
+5	première	premier	ADJ	ADJ	_	6	dep	_	_	28.110001	28.549999	L2
+6	année	année	NOM	NOM	_	9	periph	_	_	28.549999	28.900000	L2
+7	on	on	CLS	CLS	_	9	subj	_	_	28.900000	29.139999	L2
+8	a	avoir	VRB	VRB	_	9	aux	_	_	29.139999	29.170000	L2
+9	fait	faire	VPP	VPP	_	0	root	_	_	29.170000	29.590000	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	29.590000	29.920000	L2
+11	quatre	quatre	NUM	NUM	_	12	spe	_	_	29.920000	30.160000	L2
+12	stages	stage	NOM	NOM	_	9	dep	_	_	30.200001	30.590000	L2
+13	quatre	quatre	NUM	NUM	_	14	spe	_	_	30.590000	30.780001	L2
+14	mois	moi	NOM	NOM	_	12	para	_	_	30.780001	30.900000	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	30.900000	31.049999	L2
+16	stage	stage	NOM	NOM	_	15	dep	_	_	31.049999	31.379999	L2
+17	en	en	PRE	PRE	_	14	dep	_	_	31.379999	31.480000	L2
+18	fait	fait	NOM	NOM	_	17	dep	_	_	31.480000	31.650000	L2
+19	répartis	répartir	VPP	VPP	_	18	dep	_	_	31.770000	32.090000	L2
+20	sur	sur	PRE	PRE	_	19	dep	_	_	32.090000	32.599998	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	32.599998	32.770000	L2
+22	sur	sur	PRE	PRE	_	20	para	_	_	32.770000	33.049999	L2
+23	la	le	DET	DET	_	22	dep	_	_	33.049999	33.389999	L2
+24	sur	sur	PRE	PRE	_	22	para	_	_	33.520000	33.740002	L2
+25	l'	le	DET	DET	_	26	spe	_	_	33.740002	33.830002	L2
+26	année	année	NOM	NOM	_	24	dep	_	_	33.830002	34.169998	L2
+27	l'	le	DET	DET	_	28	spe	_	_	34.799999	34.849998	L2
+28	année	année	NOM	NOM	_	22	dep	_	_	34.849998	34.939999	L2
+29	scolaire	scolaire	ADJ	ADJ	_	28	dep	_	_	34.939999	35.380001	L2
+30	euh	euh	INT	INT	_	29	dm	_	_	35.980000	36.290001	L2
+31	le	le	DET	DET	_	35	spe	_	_	36.290001	36.500000	L2
+32	deuxième	deuxième	ADJ	ADJ	_	35	dep	_	_	36.500000	37.070000	L2
+33	la	le	DET	DET	_	35	spe	_	_	37.070000	37.130001	L2
+34	deuxième	deuxième	ADJ	ADJ	_	35	dep	_	_	37.130001	37.529999	L2
+35	année	année	NOM	NOM	_	22	dep	_	_	37.529999	37.939999	L2
+36	euh	euh	INT	INT	_	35	dm	_	_	37.939999	38.110001	L2
+37	cinq	cinq	NUM	NUM	_	38	spe	_	_	38.340000	38.459999	L2
+38	stages	stage	NOM	NOM	_	20	dep	_	_	38.529999	39.020000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-13
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	39.080002	39.310001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-14
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	39.310001	39.509998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-15
+# text = la la troisième année six stages
+1	la	le	DET	DET	_	4	spe	_	_	39.580002	39.849998	L2
+2	la	le	DET	DET	_	1	para	_	_	39.849998	39.990002	L2
+3	troisième	troisième	ADJ	ADJ	_	4	dep	_	_	39.990002	40.439999	L2
+4	année	année	NOM	NOM	_	0	root	_	_	40.439999	40.590000	L2
+5	six	six	NUM	NUM	_	6	spe	_	_	40.590000	40.990002	L2
+6	stages	stage	NOM	NOM	_	4	dep	_	_	41.049999	41.509998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-16
+# text = et euh
+1	et	et	COO	COO	_	0	root	_	_	42.459999	42.730000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	42.730000	42.919998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-17
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	42.919998	43.119999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-18
+# text = le
+1	le	le	DET	DET	_	0	root	_	_	43.119999	43.259998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-19
+# text = après le le sur les quelques mois qui restaient bah le de~ le stage de de diplôme d'état et donc euh voilà on a la totalité des des quinze stages qu'on a fait
+1	après	après	PRE	PRE	_	25	periph	_	_	43.259998	43.540001	L2
+2	le	le	DET	DET	_	4	spe	_	_	43.540001	43.900002	L2
+3	le	le	DET	DET	_	2	para	_	_	43.900002	44.320000	L2
+4	sur	sur	PRE	PRE	_	25	periph	_	_	44.320000	44.500000	L2
+5	les	le	DET	DET	_	7	spe	_	_	44.500000	44.590000	L2
+6	quelques	quelque	ADJ	ADJ	_	7	dep	_	_	44.590000	44.900002	L2
+7	mois	moi	NOM	NOM	_	4	dep	_	_	44.900002	45.049999	L2
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	45.049999	45.250000	L2
+9	restaient	rester	VRB	VRB	_	7	dep	_	_	45.250000	45.889999	L2
+10	bah	bah	INT	INT	_	9	dm	_	_	45.889999	46.349998	L2
+11	le	le	DET	DET	_	12	spe	_	_	46.549999	46.730000	L2
+12	de~	de~	X	X	_	9	para	_	_	46.730000	46.790001	L2
+13	le	le	DET	DET	_	14	spe	_	_	46.790001	46.880001	L2
+14	stage	stage	NOM	NOM	_	12	dep	_	_	46.880001	47.209999	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	47.259998	47.799999	L2
+16	de	de	PRE	PRE	_	15	para	_	_	47.799999	47.930000	L2
+17	diplôme	diplôme	NOM	NOM	_	16	dep	_	_	47.930000	48.330002	L2
+18	d'	de	PRE	PRE	_	17	dep	_	_	48.330002	48.380001	L2
+19	état	état	NOM	NOM	_	18	dep	_	_	48.380001	48.709999	L2
+20	et	et	COO	COO	_	25	mark	_	_	49.580002	49.799999	L2
+21	donc	donc	ADV	ADV	_	25	periph	_	_	49.799999	50.110001	L2
+22	euh	euh	INT	INT	_	21	dm	_	_	50.110001	50.209999	L2
+23	voilà	voilà	INT	INT	_	22	dm	_	_	50.209999	50.439999	L2
+24	on	on	CLS	CLS	_	25	subj	_	_	50.439999	50.599998	L2
+25	a	avoir	VRB	VRB	_	0	root	_	_	50.599998	50.639999	L2
+26	la	le	DET	DET	_	27	spe	_	_	50.639999	50.779999	L2
+27	totalité	totalité	NOM	NOM	_	25	dep	_	_	50.779999	51.410000	L2
+28	des	de	PRE	PRE	_	27	dep	_	_	51.410000	51.709999	L2
+29	des	de	PRE	PRE	_	28	para	_	_	51.709999	51.900002	L2
+30	quinze	quinze	NUM	NUM	_	31	spe	_	_	51.900002	52.169998	L2
+31	stages	stage	NOM	NOM	_	29	dep	_	_	52.169998	52.540001	L2
+32	qu'	que	PRQ	PRQ	_	35	dep	_	_	52.630001	52.660000	L2
+33	on	on	CLS	CLS	_	35	subj	_	_	52.660000	52.740002	L2
+34	a	avoir	VRB	VRB	_	35	aux	_	_	52.740002	52.779999	L2
+35	fait	faire	VPP	VPP	_	31	dep	_	_	52.779999	53.060001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-20
+# text = je crois
+1	je	je	CLS	CLS	_	2	subj	_	_	53.060001	53.160000	L2
+2	crois	croire	VRB	VRB	_	0	root	_	_	53.160000	53.369999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-21
+# text = bien O K
+1	bien	bien	ADV	ADV	_	2	dep	_	_	53.369999	53.610001	L1
+2	O	O	NOM	NOM	_	0	root	_	_	54.000000	54.029999	L1
+3	K	K	NOM	NOM	_	2	dep	_	_	54.029999	54.119999	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-22
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	55.020000	56.000000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-23
+# text = et les stages tu les choisis ça
+1	et	et	COO	COO	_	6	mark	_	_	56.669998	56.770000	L1
+2	les	le	DET	DET	_	3	spe	_	_	56.770000	56.889999	L1
+3	stages	stage	NOM	NOM	_	6	periph	_	_	56.889999	57.220001	L1
+4	tu	tu	CLS	CLS	_	6	subj	_	_	57.220001	57.389999	L1
+5	les	le	CLI	CLI	_	6	dep	_	_	57.389999	57.549999	L1
+6	choisis	choisir	VPP	VPP	_	0	root	_	_	57.549999	58.099998	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	58.099998	58.160000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-24
+# text = ça se passe euh
+1	ça	ça	PRO	PRO	_	3	subj	_	_	58.160000	58.220001	L1
+2	se	se	CLI	CLI	_	3	dep	_	_	58.220001	58.619999	L1
+3	passe	passer	VRB	VRB	_	0	root	_	_	58.669998	58.990002	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	59.090000	59.480000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-25
+# text = alors euh dans la mesure où on passe un diplôme d'état en fait on a de n'importe quel euh IFSI
+1	alors	alors	ADV	ADV	_	16	periph	_	_	59.880001	60.209999	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	60.209999	60.340000	L2
+3	dans	dans	PRE	PRE	_	16	periph	_	_	60.340000	60.450001	L2
+4	la	le	DET	DET	_	5	spe	_	_	60.450001	60.540001	L2
+5	mesure	mesure	NOM	NOM	_	3	dep	_	_	60.540001	60.790001	L2
+6	où	où	PRQ	PRQ	_	8	dep	_	_	60.790001	60.910000	L2
+7	on	on	CLS	CLS	_	8	subj	_	_	60.910000	61.049999	L2
+8	passe	passer	VRB	VRB	_	5	dep	_	_	61.049999	61.279999	L2
+9	un	un	DET	DET	_	10	spe	_	_	61.279999	61.369999	L2
+10	diplôme	diplôme	NOM	NOM	_	8	dep	_	_	61.369999	61.740002	L2
+11	d'	de	PRE	PRE	_	10	dep	_	_	61.740002	61.810001	L2
+12	état	état	NOM	NOM	_	11	dep	_	_	61.810001	62.009998	L2
+13	en	en	PRE	PRE	_	8	dep	_	_	62.009998	62.180000	L2
+14	fait	fait	NOM	NOM	_	13	dep	_	_	62.180000	62.470001	L2
+15	on	on	CLS	CLS	_	16	subj	_	_	62.630001	63.200001	L2
+16	a	avoir	VRB	VRB	_	0	root	_	_	63.200001	63.230000	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	63.230000	63.430000	L2
+18	n'	ne	CLN	CLN	_	19	dep	_	_	63.430000	63.509998	L2
+19	importe	importer	VRB	VRB	_	17	dep	_	_	63.509998	63.830002	L2
+20	quel	quel	PRQ	PRQ	_	22	dep	_	_	63.830002	64.099998	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	64.099998	64.320000	L2
+22	IFSI	IFSI	NOM	NOM	_	19	dep	_	_	64.320000	64.750000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-26
+# text = donc n'importe quelle école de France
+1	donc	donc	ADV	ADV	_	3	periph	_	_	64.800003	64.970001	L2
+2	n'	ne	CLN	CLN	_	3	dep	_	_	64.970001	65.040001	L2
+3	importe	importer	VRB	VRB	_	0	root	_	_	65.040001	65.309998	L2
+4	quelle	quel	PRQ	PRQ	_	5	dep	_	_	65.309998	65.510002	L2
+5	école	école	NOM	NOM	_	3	dep	_	_	65.510002	65.830002	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	65.830002	65.949997	L2
+7	France	France	NOM	NOM	_	6	dep	_	_	65.949997	66.410004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-27
+# text = on doit avoir tous fait le même nombre de passé le même nombre de semaines de stage euh dans euh dans chaque spécialité
+1	on	on	CLS	CLS	_	2	subj	_	_	66.519997	66.889999	L2
+2	doit	devoir	VRB	VRB	_	0	root	_	_	66.889999	67.190002	L2
+3	avoir	avoir	VNF	VNF	_	2	dep	_	_	67.190002	67.500000	L2
+4	tous	tout	ADJ	ADJ	_	5	dep	_	_	67.500000	67.849998	L2
+5	fait	faire	VPP	VPP	_	3	dep	_	_	68.250000	68.500000	L2
+6	le	le	DET	DET	_	8	spe	_	_	68.639999	68.720001	L2
+7	même	même	ADJ	ADJ	_	8	dep	_	_	68.720001	68.809998	L2
+8	nombre	nombre	NOM	NOM	_	5	dep	_	_	68.809998	69.330002	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	69.330002	69.610001	L2
+10	passé	passer	VPP	VPP	_	9	dep	_	_	69.849998	70.139999	L2
+11	le	le	DET	DET	_	13	spe	_	_	70.139999	70.169998	L2
+12	même	même	ADJ	ADJ	_	13	dep	_	_	70.169998	70.370003	L2
+13	nombre	nombre	NOM	NOM	_	10	dep	_	_	70.370003	70.739998	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	70.739998	70.879997	L2
+15	semaines	semaine	NOM	NOM	_	14	dep	_	_	70.879997	71.190002	L2
+16	de	de	PRE	PRE	_	15	dep	_	_	71.190002	71.330002	L2
+17	stage	stage	NOM	NOM	_	16	dep	_	_	71.330002	71.750000	L2
+18	euh	euh	INT	INT	_	17	dm	_	_	72.169998	72.419998	L2
+19	dans	dans	PRE	PRE	_	10	dep	_	_	72.419998	72.980003	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	72.980003	73.360001	L2
+21	dans	dans	PRE	PRE	_	19	para	_	_	73.709999	73.919998	L2
+22	chaque	chaque	DET	DET	_	23	spe	_	_	73.919998	74.160004	L2
+23	spécialité	spécialité	NOM	NOM	_	21	dep	_	_	74.160004	74.940002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-28
+# text = donc par exemple euh c'était euh obligatoire pour tout le monde d'
+1	donc	donc	ADV	ADV	_	6	periph	_	_	75.089996	75.180000	L2
+2	par	par	PRE	PRE	_	6	periph	_	_	75.180000	75.370003	L2
+3	exemple	exemple	NOM	NOM	_	2	dep	_	_	75.370003	75.809998	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	75.809998	75.970001	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	75.970001	76.099998	L2
+6	était	être	VRB	VRB	_	0	root	_	_	76.099998	76.470001	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	76.470001	76.709999	L2
+8	obligatoire	obligatoire	ADJ	ADJ	_	6	dep	_	_	77.080002	77.790001	L2
+9	pour	pour	PRE	PRE	_	6	dep	_	_	77.790001	77.959999	L2
+10	tout le monde	tout le monde	PRO	PRO	_	9	dep	_	_	77.959999	78.449997	L2
+11	d'	de	PRE	PRE	_	10	dep	_	_	78.510002	78.540001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-29
+# text = avoir fait huit semaines de stage en gériatrie huit semaines euh en chirurgie
+1	avoir	avoir	VNF	VNF	_	2	aux	_	_	78.540001	78.690002	L2
+2	fait	faire	VPP	VPP	_	0	root	_	_	78.690002	78.940002	L2
+3	huit	huit	NUM	NUM	_	4	spe	_	_	78.940002	79.180000	L2
+4	semaines	semaine	NOM	NOM	_	2	dep	_	_	79.180000	79.540001	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	79.540001	79.669998	L2
+6	stage	stage	NOM	NOM	_	5	dep	_	_	79.669998	80.080002	L2
+7	en	en	PRE	PRE	_	4	dep	_	_	80.080002	80.190002	L2
+8	gériatrie	gériatrie	NOM	NOM	_	7	dep	_	_	80.190002	80.970001	L2
+9	huit	huit	NUM	NUM	_	10	spe	_	_	81.400002	81.570000	L2
+10	semaines	semaine	NOM	NOM	_	2	dep	_	_	81.570000	82.519997	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	82.519997	82.660004	L2
+12	en	en	PRE	PRE	_	2	dep	_	_	82.660004	83.269997	L2
+13	chirurgie	chirurgie	NOM	NOM	_	12	dep	_	_	83.269997	84.080002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-30
+# text = je crois quatre semaines en pédiatrie par exemple
+1	je	je	CLS	CLS	_	2	subj	_	_	84.540001	84.639999	L2
+2	crois	croire	VRB	VRB	_	0	root	_	_	84.639999	85.070000	L2
+3	quatre	quatre	NUM	NUM	_	4	spe	_	_	85.070000	85.269997	L2
+4	semaines	semaine	NOM	NOM	_	2	dep	_	_	85.320000	85.639999	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	85.639999	85.720001	L2
+6	pédiatrie	pédiatrie	NOM	NOM	_	5	dep	_	_	85.720001	86.349998	L2
+7	par	par	PRE	PRE	_	4	dep	_	_	86.400002	86.570000	L2
+8	exemple	exemple	NOM	NOM	_	7	dep	_	_	86.570000	87.010002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-31
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	87.239998	87.440002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-32
+# text = toutes des spécialités comme ça
+1	toutes	tout	ADJ	ADJ	_	2	dep	_	_	87.440002	87.599998	L2
+2	des	de	PRE	PRE	_	0	root	_	_	87.599998	87.709999	L2
+3	spécialités	spécialité	NOM	NOM	_	2	dep	_	_	87.709999	88.419998	L2
+4	comme	comme	PRE	PRE	_	3	dep	_	_	88.419998	88.559998	L2
+5	ça	ça	PRO	PRO	_	4	dep	_	_	88.559998	88.900002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-33
+# text = mh mh
+1	mh mh	mh mh	INT	INT	_	0	root	_	_	86.480003	86.839996	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-34
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	89.470001	89.709999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-35
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	89.709999	89.970001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-36
+# text = après
+1	après	après	PRE	PRE	_	0	root	_	_	89.970001	90.339996	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-37
+# text = en fonction de l'école où tu es en fonction de la ville plutôt
+1	en	en	PRE	PRE	_	0	root	_	_	90.339996	90.459999	L2
+2	fonction	fonction	NOM	NOM	_	1	dep	_	_	90.459999	90.919998	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	90.919998	90.980003	L2
+4	l'	le	DET	DET	_	5	spe	_	_	90.980003	91.010002	L2
+5	école	école	NOM	NOM	_	3	dep	_	_	91.010002	91.309998	L2
+6	où	où	PRQ	PRQ	_	8	dep	_	_	91.309998	91.449997	L2
+7	tu	tu	CLS	CLS	_	8	subj	_	_	91.449997	91.779999	L2
+8	es	être	VRB	VRB	_	5	dep	_	_	91.959999	92.019997	L2
+9	en	en	PRE	PRE	_	8	dep	_	_	92.070000	92.099998	L2
+10	fonction	fonction	NOM	NOM	_	9	dep	_	_	92.099998	92.320000	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	92.320000	92.349998	L2
+12	la	le	DET	DET	_	13	spe	_	_	92.349998	92.440002	L2
+13	ville	ville	NOM	NOM	_	11	dep	_	_	92.440002	92.800003	L2
+14	plutôt	plutôt	ADV	ADV	_	8	dep	_	_	92.800003	93.389999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-38
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	93.470001	93.550003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-39
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	93.550003	93.800003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-40
+# text = des différents structures qu'il y a
+1	des	de	PRE	PRE	_	0	root	_	_	93.800003	94.169998	L2
+2	différents	différent	ADJ	ADJ	_	3	dep	_	_	94.169998	94.559998	L2
+3	structures	structure	NOM	NOM	_	1	dep	_	_	94.559998	95.070000	L2
+4	qu'	que	PRQ	PRQ	_	7	dep	_	_	95.110001	95.139999	L2
+5	il	il	CLS	CLS	_	7	subj	_	_	95.139999	95.199997	L2
+6	y	y	CLI	CLI	_	7	dep	_	_	95.199997	95.279999	L2
+7	a	avoir	VRB	VRB	_	3	dep	_	_	95.279999	95.459999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-41
+# text = bah tu te retrouves euh on a tous des stages dif~
+1	bah	bah	INT	INT	_	4	dm	_	_	96.199997	96.680000	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	96.680000	96.849998	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	96.849998	96.970001	L2
+4	retrouves	retrouver	VRB	VRB	_	0	root	_	_	96.970001	97.550003	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	97.550003	97.809998	L2
+6	on	on	CLS	CLS	_	7	subj	_	_	97.809998	98.040001	L2
+7	a	avoir	VRB	VRB	_	4	para	_	_	98.040001	98.120003	L2
+8	tous	tout	PRO	PRO	_	7	dep	_	_	98.220001	98.360001	L2
+9	des	de	PRE	PRE	_	8	dep	_	_	98.360001	98.510002	L2
+10	stages	stage	NOM	NOM	_	9	dep	_	_	98.510002	98.809998	L2
+11	dif~	dif~	ADJ	ADJ	_	10	dep	_	_	98.900002	99.169998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-42
+# text = enfin on a tous plus ou moins des stages différents
+1	enfin	enfin	ADV	ADV	_	3	dm	_	_	99.169998	99.360001	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	99.360001	99.389999	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	99.389999	99.419998	L2
+4	tous	tout	ADJ	ADJ	_	5	dep	_	_	99.419998	99.580002	L2
+5	plus ou moins	plus ou moins	ADV	ADV	_	3	dep	_	_	99.669998	100.070000	L2
+6	des	de	PRE	PRE	_	3	dep	_	_	100.070000	100.160004	L2
+7	stages	stage	NOM	NOM	_	6	dep	_	_	100.160004	100.470001	L2
+8	différents	différent	ADJ	ADJ	_	7	dep	_	_	100.470001	101.010002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-43
+# text = donc euh moi par exemple euh bah je suis allé en chirurgie cardiaque euh à l'Hôpital Cardio
+1	donc	donc	ADV	ADV	_	10	periph	_	_	101.410004	101.699997	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	101.699997	102.129997	L2
+3	moi	moi	PRO	PRO	_	10	periph	_	_	102.129997	102.370003	L2
+4	par	par	PRE	PRE	_	10	periph	_	_	102.370003	102.570000	L2
+5	exemple	exemple	NOM	NOM	_	4	dep	_	_	102.570000	103.389999	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	103.389999	103.489998	L2
+7	bah	bah	INT	INT	_	6	dm	_	_	104.059998	104.120003	L2
+8	je	je	CLS	CLS	_	10	subj	_	_	104.120003	104.250000	L2
+9	suis	être	VRB	VRB	_	10	aux	_	_	104.250000	104.349998	L2
+10	allé	aller	VPP	VPP	_	0	root	_	_	104.349998	104.580002	L2
+11	en	en	PRE	PRE	_	10	dep	_	_	104.580002	104.860001	L2
+12	chirurgie	chirurgie	NOM	NOM	_	11	dep	_	_	104.860001	105.599998	L2
+13	cardiaque	cardiaque	ADJ	ADJ	_	12	dep	_	_	105.599998	106.309998	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	106.730003	106.790001	L2
+15	à	à	PRE	PRE	_	10	dep	_	_	106.790001	107.370003	L2
+16	l'	le	DET	DET	_	17	spe	_	_	107.370003	107.440002	L2
+17	Hôpital	hôpital	NOM	NOM	_	15	dep	_	_	107.440002	108.040001	L2
+18	Cardio	cardiologie	NOM	NOM	_	17	dep	_	_	108.040001	108.570000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-44
+# text = donc sur Lyon euh et j'ai d'autres copains qui ont eu leur cat~ leur euh leur s~ leur stage de chirurgie mais qui sont pas forcément allé à Cardio euh
+1	donc	donc	ADV	ADV	_	7	periph	_	_	108.570000	108.790001	L2
+2	sur	sur	PRE	PRE	_	7	periph	_	_	108.870003	109.010002	L2
+3	Lyon	Lyon	NOM	NOM	_	2	dep	_	_	109.010002	109.430000	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	109.870003	110.190002	L2
+5	et	et	COO	COO	_	7	mark	_	_	110.190002	110.220001	L2
+6	j'	je	CLS	CLS	_	7	subj	_	_	110.220001	110.379997	L2
+7	ai	avoir	VRB	VRB	_	0	root	_	_	110.379997	110.430000	L2
+8	d'	de	PRE	PRE	_	7	dep	_	_	110.430000	110.519997	L2
+9	autres	autre	ADJ	ADJ	_	10	dep	_	_	110.519997	110.680000	L2
+10	copains	copain	NOM	NOM	_	8	dep	_	_	110.680000	111.080002	L2
+11	qui	qui	PRQ	PRQ	_	13	subj	_	_	111.080002	111.199997	L2
+12	ont	avoir	VRB	VRB	_	13	aux	_	_	111.199997	111.419998	L2
+13	eu	avoir	VPP	VPP	_	10	dep	_	_	111.419998	111.599998	L2
+14	leur	son	DET	DET	_	15	spe	_	_	111.599998	111.870003	L2
+15	cat~	cat~	NOM	NOM	_	13	dep	_	_	112.029999	112.279999	L2
+16	leur	son	DET	DET	_	29	periph	_	_	112.279999	112.930000	L2
+17	euh	euh	INT	INT	_	16	dm	_	_	112.930000	112.980003	L2
+18	leur	son	DET	DET	_	16	para	_	_	112.980003	113.180000	L2
+19	s~	s~	X	X	_	21	dep	_	_	113.180000	113.379997	L2
+20	leur	son	DET	DET	_	21	spe	_	_	113.379997	113.769997	L2
+21	stage	stage	NOM	NOM	_	29	subj	_	_	113.769997	114.160004	L2
+22	de	de	PRE	PRE	_	21	dep	_	_	114.160004	114.269997	L2
+23	chirurgie	chirurgie	NOM	NOM	_	22	dep	_	_	114.269997	115.110001	L2
+24	mais	mais	COO	COO	_	29	mark	_	_	115.160004	115.220001	L2
+25	qui	qui	PRQ	PRQ	_	29	subj	_	_	115.220001	115.279999	L2
+26	sont	être	VRB	VRB	_	29	aux	_	_	115.279999	115.360001	L2
+27	pas	pas	ADN	ADN	_	29	dep	_	_	115.360001	115.500000	L2
+28	forcément	forcément	ADV	ADV	_	29	dep	_	_	115.500000	116.129997	L2
+29	allé	aller	VPP	VPP	_	15	dep	_	_	116.129997	116.410004	L2
+30	à	à	PRE	PRE	_	29	dep	_	_	116.410004	116.470001	L2
+31	Cardio	cardiologie	NOM	NOM	_	30	dep	_	_	116.470001	117.239998	L2
+32	euh	euh	INT	INT	_	31	dm	_	_	117.430000	117.459999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-45
+# text = il y a pas forcément de spécialité cardiaque
+1	il	il	CLS	CLS	_	3	subj	_	_	117.650002	117.709999	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	117.709999	117.739998	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	117.739998	118.309998	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	118.349998	119.099998	L2
+5	forcément	forcément	ADV	ADV	_	3	dep	_	_	119.150002	119.589996	L2
+6	de	de	PRE	PRE	_	3	dep	_	_	119.589996	119.629997	L2
+7	spécialité	spécialité	NOM	NOM	_	6	dep	_	_	119.629997	120.250000	L2
+8	cardiaque	cardiaque	ADJ	ADJ	_	7	dep	_	_	120.250000	120.680000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-46
+# text = non non tu fais tu dois faire le nombre de spécialités
+1	non	non	INT	INT	_	4	dm	_	_	121.209999	121.400002	L2
+2	non	non	INT	INT	_	1	dm	_	_	121.400002	121.540001	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	121.540001	121.690002	L2
+4	fais	faire	VRB	VRB	_	0	root	_	_	121.690002	121.959999	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	121.959999	122.379997	L2
+6	dois	devoir	VRB	VRB	_	4	para	_	_	122.379997	122.540001	L2
+7	faire	faire	VNF	VNF	_	6	dep	_	_	122.540001	122.760002	L2
+8	le	le	DET	DET	_	9	spe	_	_	122.760002	122.930000	L2
+9	nombre	nombre	NOM	NOM	_	7	dep	_	_	122.930000	123.089996	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	123.089996	123.220001	L2
+11	spécialités	spécialité	NOM	NOM	_	10	dep	_	_	123.220001	124.080002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-47
+# text = et après euh après tu tu tu f en fait l'école
+1	et	et	COO	COO	_	8	mark	_	_	124.470001	124.510002	L2
+2	après	après	PRE	PRE	_	8	periph	_	_	124.510002	125.080002	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	125.080002	125.160004	L2
+4	après	après	PRE	PRE	_	8	periph	_	_	125.160004	125.599998	L2
+5	tu	tu	CLS	CLS	_	8	subj	_	_	126.120003	127.160004	L2
+6	tu	tu	CLS	CLS	_	5	para	_	_	127.269997	127.419998	L2
+7	tu	tu	CLS	CLS	_	6	para	_	_	127.419998	127.580002	L2
+8	f	f	VRB	VRB	_	0	root	_	_	127.580002	127.949997	L2
+9	en	en	PRE	PRE	_	10	dep	_	_	128.000000	128.029999	L2
+10	fait	faire	VPP	VPP	_	8	dep	_	_	128.029999	128.089996	L2
+11	l'	le	DET	DET	_	12	spe	_	_	128.089996	128.119995	L2
+12	école	école	NOM	NOM	_	10	dep	_	_	128.169998	128.610001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-48
+# text = nous proposait trois voeux à chaque fois pour chaque spécialité
+1	nous	nous	CLS	CLS	_	2	subj	_	_	128.610001	128.860001	L2
+2	proposait	proposer	VRB	VRB	_	0	root	_	_	128.860001	129.610001	L2
+3	trois	trois	NUM	NUM	_	4	spe	_	_	129.710007	130.009995	L2
+4	voeux	voeu	NOM	NOM	_	2	dep	_	_	130.009995	130.309998	L2
+5	à	à	PRE	PRE	_	2	dep	_	_	130.309998	130.369995	L2
+6	chaque	chaque	DET	DET	_	7	spe	_	_	130.369995	130.600006	L2
+7	fois	foi	NOM	NOM	_	5	dep	_	_	130.600006	130.809998	L2
+8	pour	pour	PRE	PRE	_	2	dep	_	_	130.809998	130.949997	L2
+9	chaque	chaque	DET	DET	_	10	spe	_	_	130.949997	131.139999	L2
+10	spécialité	spécialité	NOM	NOM	_	8	dep	_	_	131.139999	131.889999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-49
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	132.440002	132.529999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-50
+# text = en fonction de des des voeux
+1	en	en	PRE	PRE	_	0	root	_	_	132.529999	132.669998	L2
+2	fonction	fonction	NOM	NOM	_	1	dep	_	_	132.669998	133.250000	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	133.250000	133.929993	L2
+4	des	de	PRE	PRE	_	3	para	_	_	133.929993	134.130005	L2
+5	des	de	PRE	PRE	_	4	para	_	_	134.130005	134.309998	L2
+6	voeux	voeu	NOM	NOM	_	5	dep	_	_	134.309998	134.660004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-51
+# text = et comment on argumentait nos voeux
+1	et	et	COO	COO	_	4	mark	_	_	134.710007	134.740005	L2
+2	comment	comment	PRQ	PRQ	_	4	dep	_	_	134.740005	134.919998	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	134.919998	135.059998	L2
+4	argumentait	argumenter	VRB	VRB	_	0	root	_	_	135.059998	135.660004	L2
+5	nos	son	DET	DET	_	6	spe	_	_	135.660004	135.800003	L2
+6	voeux	voeu	NOM	NOM	_	4	dep	_	_	135.800003	136.100006	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-52
+# text = ouais il n'y a pas de euh pas précis
+1	ouais	ouais	INT	INT	_	5	dm	_	_	117.610001	117.669998	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	117.669998	117.730003	L1
+3	n'	ne	CLN	CLN	_	5	dep	_	_	117.730003	117.760002	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	117.760002	117.790001	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	117.790001	118.309998	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	118.349998	118.849998	L1
+7	de	de	PRE	PRE	_	5	dep	_	_	118.849998	118.940002	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	118.940002	119.120003	L1
+9	pas	pas	ADN	ADN	_	10	dep	_	_	119.180000	119.459999	L1
+10	précis	précis	ADJ	ADJ	_	7	dep	_	_	119.519997	120.660004	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-53
+# text = bah ils l'attribuaient ou pas en essayant de de prendre aussi les facteurs de de distance en fait du lieu de stage par rapport au lieu d'habitation savoir si tu as un véhicule ou pas euh
+1	bah	bah	INT	INT	_	4	dm	_	_	137.139999	137.350006	L2
+2	ils	il	CLS	CLS	_	4	subj	_	_	137.350006	137.490005	L2
+3	l'	le	CLI	CLI	_	4	dep	_	_	137.490005	137.550003	L2
+4	attribuaient	attribuer	VRB	VRB	_	0	root	_	_	137.550003	138.119995	L2
+5	ou	ou	COO	COO	_	6	mark	_	_	138.119995	138.259995	L2
+6	pas	pas	ADN	ADN	_	4	dep	_	_	138.259995	138.710007	L2
+7	en	en	PRE	PRE	_	4	dep	_	_	138.759995	138.919998	L2
+8	essayant	essayer	VPR	VPR	_	7	dep	_	_	138.919998	139.520004	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	139.520004	139.850006	L2
+10	de	de	PRE	PRE	_	9	para	_	_	140.259995	140.410004	L2
+11	prendre	prendre	VNF	VNF	_	10	dep	_	_	140.410004	140.690002	L2
+12	aussi	aussi	ADV	ADV	_	11	dep	_	_	140.690002	140.960007	L2
+13	les	le	DET	DET	_	14	spe	_	_	140.960007	141.059998	L2
+14	facteurs	facteur	NOM	NOM	_	11	dep	_	_	141.059998	141.550003	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	141.550003	142.130005	L2
+16	de	de	PRE	PRE	_	15	para	_	_	142.190002	142.500000	L2
+17	distance	distance	NOM	NOM	_	16	dep	_	_	142.500000	143.240005	L2
+18	en	en	PRE	PRE	_	11	dep	_	_	143.240005	143.360001	L2
+19	fait	fait	NOM	NOM	_	18	dep	_	_	143.360001	143.600006	L2
+20	du	de+le	PRE	PRE	_	19	dep	_	_	143.600006	143.789993	L2
+21	lieu	lieu	NOM	NOM	_	20	dep	_	_	143.789993	143.990005	L2
+22	de	de	PRE	PRE	_	21	dep	_	_	143.990005	144.119995	L2
+23	stage	stage	NOM	NOM	_	22	dep	_	_	144.119995	144.369995	L2
+24	par	par	PRE	PRE	_	23	dep	_	_	144.429993	144.619995	L2
+25	rapport	rapport	NOM	NOM	_	24	dep	_	_	144.619995	144.869995	L2
+26	au lieu	au lieu	ADV	ADV	_	11	dep	_	_	144.869995	145.210007	L2
+27	d'	de	PRE	PRE	_	26	dep	_	_	145.210007	145.240005	L2
+28	habitation	habitation	NOM	NOM	_	27	dep	_	_	145.240005	145.919998	L2
+29	savoir	savoir	VNF	VNF	_	11	dep	_	_	145.919998	146.210007	L2
+30	si	si	CSU	CSU	_	29	dep	_	_	146.210007	146.360001	L2
+31	tu	tu	CLS	CLS	_	32	subj	_	_	146.360001	146.440002	L2
+32	as	avoir	VRB	VRB	_	30	dep	_	_	146.440002	146.479996	L2
+33	un	un	DET	DET	_	34	spe	_	_	146.479996	146.570007	L2
+34	véhicule	véhicule	NOM	NOM	_	32	dep	_	_	146.570007	146.990005	L2
+35	ou	ou	COO	COO	_	36	mark	_	_	146.990005	147.070007	L2
+36	pas	pas	ADN	ADN	_	34	para	_	_	147.070007	147.440002	L2
+37	euh	euh	INT	INT	_	36	dm	_	_	147.979996	148.830002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-54
+# text = et euh donc voilà trois voeux
+1	et	et	COO	COO	_	6	mark	_	_	149.279999	149.649994	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	149.649994	149.869995	L2
+3	donc	donc	ADV	ADV	_	6	periph	_	_	149.869995	150.039993	L2
+4	voilà	voilà	INT	INT	_	3	dm	_	_	150.039993	150.330002	L2
+5	trois	trois	NUM	NUM	_	6	spe	_	_	150.330002	150.559998	L2
+6	voeux	voeu	NOM	NOM	_	0	root	_	_	150.559998	150.770004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-55
+# text = pour chaque stage
+1	pour	pour	PRE	PRE	_	0	root	_	_	150.770004	150.919998	L2
+2	chaque	chaque	DET	DET	_	3	spe	_	_	150.919998	151.149994	L2
+3	stage	stage	NOM	NOM	_	1	dep	_	_	151.149994	151.699997	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-56
+# text = plus un non choix un truc que tu veux pas faire mh
+1	plus	plus	ADN	ADN	_	4	dep	_	_	151.990005	152.309998	L2
+2	un	un	DET	DET	_	4	spe	_	_	152.309998	152.440002	L2
+3	non	non	INT	INT	_	2	dm	_	_	152.440002	152.619995	L2
+4	choix	choix	NOM	NOM	_	0	root	_	_	152.619995	152.919998	L2
+5	un	un	DET	DET	_	6	spe	_	_	152.919998	153.050003	L2
+6	truc	truc	NOM	NOM	_	4	para	_	_	153.050003	153.330002	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	153.330002	153.410004	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	153.410004	153.550003	L2
+9	veux	vouloir	VRB	VRB	_	7	dep	_	_	153.550003	153.690002	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	153.690002	153.860001	L2
+11	faire	faire	VNF	VNF	_	9	dep	_	_	153.860001	154.179993	L2
+12	mh	mh	INT	INT	_	11	dm	_	_	144.429993	144.539993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-57
+# text = euh pour des raisons X ou Y euh
+1	euh	euh	INT	INT	_	2	dm	_	_	155.059998	155.240005	L2
+2	pour	pour	PRE	PRE	_	0	root	_	_	155.240005	155.460007	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	155.460007	155.550003	L2
+4	raisons	raison	NOM	NOM	_	3	dep	_	_	155.550003	155.889999	L2
+5	X	X	NOM	NOM	_	4	dep	_	_	155.889999	156.139999	L2
+6	ou	ou	COO	COO	_	7	mark	_	_	156.139999	156.210007	L2
+7	Y	Y	NOM	NOM	_	5	para	_	_	156.210007	156.539993	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	157.309998	158.380005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-58
+# text = et donc voilà la totalité des stages après tu as on avait en deuxième até~ en deuxième année pendant le sur les deux mois de de vacances d'été
+1	et	et	COO	COO	_	5	mark	_	_	158.429993	158.570007	L2
+2	donc	donc	ADV	ADV	_	5	periph	_	_	158.570007	158.770004	L2
+3	voilà	voilà	INT	INT	_	2	dm	_	_	158.770004	159.119995	L2
+4	la	le	DET	DET	_	5	spe	_	_	159.119995	159.279999	L2
+5	totalité	totalité	NOM	NOM	_	10	periph	_	_	159.279999	159.899994	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	159.899994	160.089996	L2
+7	stages	stage	NOM	NOM	_	6	dep	_	_	160.089996	160.460007	L2
+8	après	après	PRE	PRE	_	10	periph	_	_	160.520004	161.169998	L2
+9	tu	tu	CLS	CLS	_	10	subj	_	_	161.289993	161.410004	L2
+10	as	avoir	VRB	VRB	_	0	root	_	_	161.410004	161.630005	L2
+11	on	on	CLS	CLS	_	12	subj	_	_	161.630005	162.110001	L2
+12	avait	avoir	VRB	VRB	_	10	para	_	_	162.210007	162.610001	L2
+13	en	en	PRE	PRE	_	12	dep	_	_	162.940002	163.149994	L2
+14	deuxième	deuxième	ADJ	ADJ	_	15	dep	_	_	163.149994	163.660004	L2
+15	até~	até~	NOM	NOM	_	13	dep	_	_	163.660004	163.869995	L2
+16	en	en	PRE	PRE	_	13	para	_	_	163.940002	164.089996	L2
+17	deuxième	deuxième	ADJ	ADJ	_	18	dep	_	_	164.089996	164.440002	L2
+18	année	année	NOM	NOM	_	16	dep	_	_	164.440002	164.779999	L2
+19	pendant	pendant	PRE	PRE	_	12	dep	_	_	164.919998	165.169998	L2
+20	le	le	DET	DET	_	19	dep	_	_	165.169998	165.669998	L2
+21	sur	sur	PRE	PRE	_	12	dep	_	_	165.669998	165.880005	L2
+22	les	le	DET	DET	_	24	spe	_	_	165.880005	166.130005	L2
+23	deux	deux	NUM	NUM	_	24	dep	_	_	166.130005	166.250000	L2
+24	mois	moi	NOM	NOM	_	21	dep	_	_	166.250000	166.500000	L2
+25	de	de	PRE	PRE	_	24	dep	_	_	166.500000	166.759995	L2
+26	de	de	PRE	PRE	_	25	para	_	_	166.759995	166.820007	L2
+27	vacances	vacance	NOM	NOM	_	26	dep	_	_	166.820007	167.259995	L2
+28	d'	de	PRE	PRE	_	27	dep	_	_	167.259995	167.289993	L2
+29	été	été	NOM	NOM	_	28	dep	_	_	167.289993	167.600006	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-59
+# text = mh on avait toujours un mois en stage
+1	mh	mh	INT	INT	_	3	dm	_	_	156.679993	156.740005	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	167.720001	167.750000	L2
+3	avait	avoir	VRB	VRB	_	0	root	_	_	167.750000	167.869995	L2
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	167.869995	168.130005	L2
+5	un	un	DET	DET	_	6	spe	_	_	168.130005	168.199997	L2
+6	mois	moi	NOM	NOM	_	3	dep	_	_	168.199997	168.360001	L2
+7	en	en	PRE	PRE	_	6	dep	_	_	168.360001	168.460007	L2
+8	stage	stage	NOM	NOM	_	7	dep	_	_	168.460007	168.820007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-60
+# text = il y a un stage qui était euh laissé au libre choix modu un stage optionnel en fait
+1	il	il	CLS	CLS	_	3	subj	_	_	169.429993	169.490005	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	169.490005	169.520004	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	169.520004	169.570007	L2
+4	un	un	DET	DET	_	5	spe	_	_	169.570007	169.619995	L2
+5	stage	stage	NOM	NOM	_	3	dep	_	_	169.619995	169.940002	L2
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	169.940002	170.050003	L2
+7	était	être	VRB	VRB	_	5	dep	_	_	170.050003	170.350006	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	170.350006	170.669998	L2
+9	laissé	laisser	VPP	VPP	_	7	dep	_	_	170.669998	171.199997	L2
+10	au	à+le	PRE	PRE	_	9	dep	_	_	171.199997	171.320007	L2
+11	libre	libre	ADJ	ADJ	_	12	dep	_	_	171.320007	171.619995	L2
+12	choix	choix	NOM	NOM	_	10	dep	_	_	171.619995	171.910004	L2
+13	modu	modu	ADJ	ADJ	_	12	dep	_	_	171.910004	172.210007	L2
+14	un	un	DET	DET	_	15	spe	_	_	172.490005	172.520004	L2
+15	stage	stage	NOM	NOM	_	5	para	_	_	172.520004	172.679993	L2
+16	optionnel	optionnel	ADJ	ADJ	_	15	dep	_	_	172.679993	173.190002	L2
+17	en	en	PRE	PRE	_	15	dep	_	_	173.190002	173.279999	L2
+18	fait	fait	NOM	NOM	_	17	dep	_	_	173.279999	173.460007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-61
+# text = tu choisissais ta spécialité
+1	tu	tu	CLS	CLS	_	2	subj	_	_	173.460007	173.649994	L2
+2	choisissais	choisir	VRB	VRB	_	0	root	_	_	173.649994	174.149994	L2
+3	ta	son	DET	DET	_	4	spe	_	_	174.149994	174.270004	L2
+4	spécialité	spécialité	NOM	NOM	_	2	dep	_	_	174.270004	175.130005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-62
+# text = et si tu souhaitais euh bah te trouver ton stage tu tu faisais des démarches pour te le trouver
+1	et	et	COO	COO	_	13	mark	_	_	175.580002	175.839996	L2
+2	si	si	CSU	CSU	_	13	periph	_	_	175.839996	176.020004	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	176.130005	176.330002	L2
+4	souhaitais	souhaiter	VRB	VRB	_	2	dep	_	_	176.389999	176.929993	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	176.929993	177.300003	L2
+6	bah	bah	INT	INT	_	5	dm	_	_	177.539993	177.809998	L2
+7	te	te	CLI	CLI	_	8	dep	_	_	177.809998	178.009995	L2
+8	trouver	se trouver	VNF	VNF	_	4	dep	_	_	178.009995	178.350006	L2
+9	ton	son	DET	DET	_	10	spe	_	_	178.350006	178.529999	L2
+10	stage	stage	NOM	NOM	_	8	dep	_	_	178.529999	178.860001	L2
+11	tu	tu	CLS	CLS	_	13	subj	_	_	178.919998	179.039993	L2
+12	tu	tu	CLS	CLS	_	11	para	_	_	179.279999	179.449997	L2
+13	faisais	faire	VRB	VRB	_	0	root	_	_	179.449997	179.639999	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	179.639999	179.750000	L2
+15	démarches	démarche	NOM	NOM	_	14	dep	_	_	179.750000	180.169998	L2
+16	pour	pour	PRE	PRE	_	13	dep	_	_	180.250000	180.410004	L2
+17	te	te	CLI	CLI	_	19	dep	_	_	180.410004	180.440002	L2
+18	le	le	CLI	CLI	_	19	dep	_	_	180.440002	180.580002	L2
+19	trouver	se trouver	VNF	VNF	_	16	dep	_	_	180.580002	181.070007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-63
+# text = et euh et voilà
+1	et	et	COO	COO	_	4	mark	_	_	181.589996	181.820007	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	181.820007	182.320007	L2
+3	et	et	COO	COO	_	1	para	_	_	182.520004	182.580002	L2
+4	voilà	voilà	INT	INT	_	0	root	_	_	182.580002	182.910004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-64
+# text = O K et c'est des c'est des stages euh d'observation
+1	O	O	NOM	NOM	_	5	periph	_	_	183.380005	183.410004	L1
+2	K	K	NOM	NOM	_	1	dep	_	_	183.410004	183.529999	L1
+3	et	et	COO	COO	_	5	mark	_	_	183.529999	183.729996	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	183.729996	183.789993	L1
+5	est	être	VRB	VRB	_	0	root	_	_	183.789993	183.889999	L1
+6	des	de	PRE	PRE	_	5	dep	_	_	183.970001	184.250000	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	184.250000	184.360001	L1
+8	est	être	VRB	VRB	_	5	para	_	_	184.360001	184.399994	L1
+9	des	de	PRE	PRE	_	8	dep	_	_	184.399994	184.529999	L1
+10	stages	stage	NOM	NOM	_	9	dep	_	_	184.529999	184.789993	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	184.789993	185.190002	L1
+12	d'	de	PRE	PRE	_	10	dep	_	_	185.190002	185.259995	L1
+13	observation	observation	NOM	NOM	_	12	dep	_	_	185.259995	185.970001	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-65
+# text = ou tu es plus vraiment direct dans le bain euh
+1	ou	ou	COO	COO	_	3	mark	_	_	186.020004	186.330002	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	186.330002	186.449997	L1
+3	es	être	VRB	VRB	_	0	root	_	_	186.449997	186.479996	L1
+4	plus	plus	ADN	ADN	_	6	dep	_	_	186.479996	186.600006	L1
+5	vraiment	vraiment	ADV	ADV	_	6	dep	_	_	186.750000	187.100006	L1
+6	direct	direct	ADJ	ADJ	_	3	dep	_	_	187.100006	187.550003	L1
+7	dans	dans	PRE	PRE	_	3	dep	_	_	187.550003	187.690002	L1
+8	le	le	DET	DET	_	9	spe	_	_	187.690002	187.759995	L1
+9	bain	bain	NOM	NOM	_	7	dep	_	_	187.759995	188.289993	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	188.289993	188.320007	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-66
+# text = non non première euh autant la première année le premier stage tu es plus euh
+1	non	non	INT	INT	_	13	dm	_	_	188.369995	188.509995	L2
+2	non	non	INT	INT	_	1	para	_	_	188.509995	188.589996	L2
+3	première	premier	ADJ	ADJ	_	13	periph	_	_	188.649994	189.380005	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	189.380005	189.570007	L2
+5	autant	autant	ADV	ADV	_	13	periph	_	_	190.149994	190.479996	L2
+6	la	le	DET	DET	_	8	spe	_	_	190.479996	190.570007	L2
+7	première	premier	ADJ	ADJ	_	8	dep	_	_	190.690002	190.979996	L2
+8	année	année	NOM	NOM	_	5	dep	_	_	190.979996	191.330002	L2
+9	le	le	DET	DET	_	11	spe	_	_	191.380005	191.520004	L2
+10	premier	premier	ADJ	ADJ	_	11	dep	_	_	191.520004	191.949997	L2
+11	stage	stage	NOM	NOM	_	13	periph	_	_	191.949997	192.419998	L2
+12	tu	tu	CLS	CLS	_	13	subj	_	_	192.419998	192.550003	L2
+13	es	être	VRB	VRB	_	0	root	_	_	192.550003	192.600006	L2
+14	plus	plus	ADN	ADN	_	13	dep	_	_	192.669998	192.869995	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	192.990005	193.720001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-67
+# text = tu dois faire plus la moitié du temps euh de l'observation
+1	tu	tu	CLS	CLS	_	2	subj	_	_	194.199997	194.369995	L2
+2	dois	devoir	VRB	VRB	_	0	root	_	_	194.369995	194.550003	L2
+3	faire	faire	VNF	VNF	_	2	dep	_	_	194.550003	194.789993	L2
+4	plus	plus	ADN	ADN	_	3	dep	_	_	194.789993	194.960007	L2
+5	la	le	DET	DET	_	6	spe	_	_	195.059998	195.149994	L2
+6	moitié	moitié	NOM	NOM	_	3	dep	_	_	195.149994	195.479996	L2
+7	du	de+le	PRE	PRE	_	6	dep	_	_	195.479996	195.630005	L2
+8	temps	temps	NOM	NOM	_	7	dep	_	_	195.630005	196.169998	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	196.169998	196.410004	L2
+10	de	de	PRE	PRE	_	8	dep	_	_	196.720001	196.789993	L2
+11	l'	le	DET	DET	_	12	spe	_	_	196.789993	196.839996	L2
+12	observation	observation	NOM	NOM	_	10	dep	_	_	196.839996	197.779999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-68
+# text = puis tu vas un peu aider euh plus au niveau
+1	puis	puis	COO	COO	_	3	mark	_	_	197.779999	197.889999	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	197.889999	198.050003	L2
+3	vas	aller	VRB	VRB	_	0	root	_	_	198.050003	198.190002	L2
+4	un peu	un peu	ADV	ADV	_	3	dep	_	_	198.190002	198.550003	L2
+5	aider	aider	VNF	VNF	_	3	dep	_	_	198.550003	198.889999	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	198.889999	199.089996	L2
+7	plus	plus	ADN	ADN	_	8	dep	_	_	199.210007	199.300003	L2
+8	au	à+le	PRE	PRE	_	5	dep	_	_	199.369995	199.440002	L2
+9	niveau	niveau	NOM	NOM	_	8	dep	_	_	199.440002	199.779999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-69
+# text = aide soignant mh
+1	aide	aider	VRB	VRB	_	0	root	_	_	199.779999	199.850006	L2
+2	soignant	soignant	ADV	ADV	_	1	dep	_	_	199.850006	200.289993	L2
+3	mh	mh	INT	INT	_	2	dm	_	_	200.570007	200.800003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-70
+# text = puisque de toute manière à la fin de la première année de l'école d'infirmiers tu as le diplôme équivalence
+1	puisque	puisque	CSU	CSU	_	18	periph	_	_	201.580002	201.990005	L2
+2	de	de	PRE	PRE	_	1	dep	_	_	201.990005	202.029999	L2
+3	toute	tout	ADJ	ADJ	_	4	dep	_	_	202.029999	202.190002	L2
+4	manière	manière	NOM	NOM	_	2	dep	_	_	202.190002	202.529999	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	202.529999	202.559998	L2
+6	la	le	DET	DET	_	7	spe	_	_	202.559998	202.669998	L2
+7	fin	fin	NOM	NOM	_	5	dep	_	_	202.729996	202.850006	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	202.850006	202.880005	L2
+9	la	le	DET	DET	_	11	spe	_	_	202.880005	202.970001	L2
+10	première	premier	ADJ	ADJ	_	11	dep	_	_	202.970001	203.360001	L2
+11	année	année	NOM	NOM	_	8	dep	_	_	203.360001	203.559998	L2
+12	de	de	PRE	PRE	_	11	dep	_	_	203.559998	203.630005	L2
+13	l'	le	DET	DET	_	14	spe	_	_	203.630005	203.660004	L2
+14	école	école	NOM	NOM	_	12	dep	_	_	203.660004	203.899994	L2
+15	d'	de	PRE	PRE	_	14	dep	_	_	203.899994	203.970001	L2
+16	infirmiers	infirmier	NOM	NOM	_	15	dep	_	_	203.970001	204.470001	L2
+17	tu	tu	CLS	CLS	_	18	subj	_	_	204.880005	204.940002	L2
+18	as	avoir	VRB	VRB	_	0	root	_	_	204.940002	205.029999	L2
+19	le	le	DET	DET	_	20	spe	_	_	205.029999	205.350006	L2
+20	diplôme	diplôme	NOM	NOM	_	18	dep	_	_	205.350006	205.740005	L2
+21	équivalence	équivalence	NOM	NOM	_	20	dep	_	_	205.740005	206.320007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-71
+# text = aide soignant
+1	aide	aider	VRB	VRB	_	0	root	_	_	206.320007	206.440002	L2
+2	soignant	soigner	VPR	VPR	_	1	dep	_	_	206.440002	206.770004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-72
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	207.220001	207.270004	L1
+2	accord	accord	NOM	NOM	_	1	dep	_	_	207.270004	207.539993	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-73
+# text = donc la première année tu fais plus euh
+1	donc	donc	ADV	ADV	_	6	periph	_	_	207.589996	207.679993	L2
+2	la	le	DET	DET	_	4	spe	_	_	207.679993	207.740005	L2
+3	première	premier	ADJ	ADJ	_	4	dep	_	_	207.740005	207.979996	L2
+4	année	année	NOM	NOM	_	6	periph	_	_	207.979996	208.250000	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	208.250000	208.399994	L2
+6	fais	faire	VRB	VRB	_	0	root	_	_	208.399994	208.570007	L2
+7	plus	plus	ADN	ADN	_	6	dep	_	_	208.570007	208.869995	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	209.000000	209.550003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-74
+# text = tu
+1	tu	tu	CLS	CLS	_	0	root	_	_	209.910004	210.160004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-75
+# text = entre gui~
+1	entre	entre	PRE	PRE	_	0	root	_	_	210.220001	210.529999	L2
+2	gui~	gui~	NOM	NOM	_	1	dep	_	_	210.529999	210.869995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-76
+# text = mais bon à chaque fois c'est en~ c'est assez aléatoire en fonction en fait
+1	mais	mais	COO	COO	_	7	mark	_	_	210.869995	211.160004	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	211.160004	211.399994	L2
+3	à	à	PRE	PRE	_	7	periph	_	_	211.399994	211.429993	L2
+4	chaque	chaque	DET	DET	_	5	spe	_	_	211.429993	211.589996	L2
+5	fois	foi	NOM	NOM	_	3	dep	_	_	211.589996	211.800003	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	211.800003	211.869995	L2
+7	est	être	VRB	VRB	_	0	root	_	_	211.869995	211.899994	L2
+8	en~	en~	ADV	ADV	_	7	dep	_	_	211.899994	212.080002	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	212.080002	212.199997	L2
+10	est	être	VRB	VRB	_	7	para	_	_	212.199997	212.229996	L2
+11	assez	assez	ADV	ADV	_	12	dep	_	_	212.229996	212.449997	L2
+12	aléatoire	aléatoire	ADJ	ADJ	_	10	dep	_	_	212.449997	213.009995	L2
+13	en	en	PRE	PRE	_	10	dep	_	_	213.059998	213.089996	L2
+14	fonction	fonction	NOM	NOM	_	13	dep	_	_	213.089996	213.399994	L2
+15	en	en	PRE	PRE	_	10	dep	_	_	213.399994	213.539993	L2
+16	fait	fait	NOM	NOM	_	15	dep	_	_	213.539993	213.720001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-77
+# text = c'est en fonction des équipes avec qui tu tombes
+1	c'	ce	CLS	CLS	_	2	subj	_	_	213.720001	213.750000	L2
+2	est	être	VRB	VRB	_	0	root	_	_	213.750000	213.779999	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	213.779999	213.880005	L2
+4	fonction	fonction	NOM	NOM	_	3	dep	_	_	213.880005	214.229996	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	214.229996	214.490005	L2
+6	équipes	équipe	NOM	NOM	_	5	dep	_	_	214.490005	214.740005	L2
+7	avec	avec	PRE	PRE	_	2	dep	_	_	214.740005	214.940002	L2
+8	qui	qui	PRQ	PRQ	_	10	dep	_	_	214.990005	215.059998	L2
+9	tu	tu	CLS	CLS	_	10	subj	_	_	215.059998	215.199997	L2
+10	tombes	tomber	VRB	VRB	_	7	dep	_	_	215.199997	215.460007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-78
+# text = soit euh il y a des gens euh bah
+1	soit	soit	COO	COO	_	5	mark	_	_	215.919998	216.350006	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	216.350006	216.580002	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	216.580002	216.660004	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	216.660004	216.690002	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	216.690002	216.740005	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	216.740005	216.919998	L2
+7	gens	gens	NOM	NOM	_	6	dep	_	_	216.919998	217.449997	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	217.449997	217.630005	L2
+9	bah	bah	INT	INT	_	8	dm	_	_	217.630005	218.279999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-79
+# text = ils vont te ils vont te dire bah
+1	ils	il	CLS	CLS	_	2	subj	_	_	218.279999	218.500000	L2
+2	vont	aller	VRB	VRB	_	0	root	_	_	218.500000	218.729996	L2
+3	te	te	CLI	CLI	_	5	dep	_	_	218.729996	219.149994	L2
+4	ils	il	CLS	CLS	_	5	subj	_	_	219.550003	219.639999	L2
+5	vont	aller	VRB	VRB	_	2	dep	_	_	219.639999	219.699997	L2
+6	te	te	CLI	CLI	_	7	dep	_	_	219.699997	219.820007	L2
+7	dire	dire	VNF	VNF	_	5	dep	_	_	219.820007	220.190002	L2
+8	bah	bah	INT	INT	_	7	dm	_	_	220.190002	220.369995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-80
+# text = voilà tu fais une semaine avec les aides soignants
+1	voilà	voilà	INT	INT	_	3	dm	_	_	220.369995	220.679993	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	220.740005	220.880005	L2
+3	fais	faire	VRB	VRB	_	0	root	_	_	220.880005	221.100006	L2
+4	une	un	DET	DET	_	5	spe	_	_	221.100006	221.300003	L2
+5	semaine	semaine	NOM	NOM	_	3	dep	_	_	221.300003	222.119995	L2
+6	avec	avec	PRE	PRE	_	3	dep	_	_	222.119995	222.449997	L2
+7	les	le	DET	DET	_	8	spe	_	_	222.449997	222.669998	L2
+8	aides	aide	NOM	NOM	_	6	dep	_	_	222.669998	222.729996	L2
+9	soignants	soignant	ADJ	ADJ	_	8	dep	_	_	222.729996	223.240005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-81
+# text = puis après tu feras du travail infirmier
+1	puis	puis	COO	COO	_	4	mark	_	_	223.289993	223.449997	L2
+2	après	après	PRE	PRE	_	4	periph	_	_	223.449997	223.720001	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	223.720001	223.860001	L2
+4	feras	faire	VRB	VRB	_	0	root	_	_	223.860001	224.029999	L2
+5	du	de+le	PRE	PRE	_	4	dep	_	_	224.029999	224.139999	L2
+6	travail	travail	NOM	NOM	_	5	dep	_	_	224.139999	224.520004	L2
+7	infirmier	infirmier	ADJ	ADJ	_	6	dep	_	_	224.520004	225.179993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-82
+# text = et euh mais au fur et à mesure de toute manière tu as plus de de responsabilités
+1	et	et	COO	COO	_	8	mark	_	_	225.679993	225.910004	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	225.910004	226.369995	L2
+3	mais	mais	COO	COO	_	8	mark	_	_	226.600006	226.759995	L2
+4	au fur et à mesure de	au fur et à mesure de	PRE	PRE	_	8	periph	_	_	226.759995	227.580002	L2
+5	toute	tout	ADJ	ADJ	_	6	dep	_	_	227.580002	227.699997	L2
+6	manière	manière	NOM	NOM	_	4	dep	_	_	227.699997	228.160004	L2
+7	tu	tu	CLS	CLS	_	8	subj	_	_	228.250000	228.320007	L2
+8	as	avoir	VRB	VRB	_	0	root	_	_	228.320007	228.350006	L2
+9	plus	plus	ADN	ADN	_	8	dep	_	_	228.410004	228.539993	L2
+10	de	de	PRE	PRE	_	8	dep	_	_	228.589996	228.869995	L2
+11	de	de	PRE	PRE	_	10	para	_	_	228.869995	229.009995	L2
+12	responsabilités	responsabilité	NOM	NOM	_	11	dep	_	_	229.009995	230.470001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-83
+# text = et euh et la troisième année euh tu fais le travail d'un infirmier quoi
+1	et	et	COO	COO	_	9	mark	_	_	230.889999	231.289993	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	231.289993	231.910004	L2
+3	et	et	COO	COO	_	1	para	_	_	231.910004	232.050003	L2
+4	la	le	DET	DET	_	6	spe	_	_	232.050003	232.220001	L2
+5	troisième	troisième	ADJ	ADJ	_	6	dep	_	_	232.220001	232.649994	L2
+6	année	année	NOM	NOM	_	9	periph	_	_	232.649994	233.050003	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	233.139999	233.199997	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	233.199997	233.300003	L2
+9	fais	faire	VRB	VRB	_	0	root	_	_	233.389999	233.500000	L2
+10	le	le	DET	DET	_	11	spe	_	_	233.500000	233.550003	L2
+11	travail	travail	NOM	NOM	_	9	dep	_	_	233.550003	233.889999	L2
+12	d'	de	PRE	PRE	_	11	dep	_	_	233.889999	233.960007	L2
+13	un	un	DET	DET	_	14	spe	_	_	233.960007	234.080002	L2
+14	infirmier	infirmier	ADJ	ADJ	_	12	dep	_	_	234.080002	234.630005	L2
+15	quoi	quoi	INT	INT	_	14	dm	_	_	234.630005	234.820007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-84
+# text = tu es
+1	tu	tu	CLS	CLS	_	2	subj	_	_	234.820007	235.169998	L2
+2	es	être	VRB	VRB	_	0	root	_	_	235.169998	235.300003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-85
+# text = de responsabilités
+1	de	de	PRE	PRE	_	0	root	_	_	228.589996	228.910004	L1
+2	responsabilités	responsabilité	NOM	NOM	_	1	dep	_	_	228.910004	230.470001	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-86
+# text = tu es plus ou moins encadré euh
+1	tu	tu	CLS	CLS	_	4	subj	_	_	236.190002	236.360001	L2
+2	es	être	VRB	VRB	_	4	aux	_	_	236.360001	236.399994	L2
+3	plus ou moins	plus ou moins	ADV	ADV	_	4	dep	_	_	236.399994	237.419998	L2
+4	encadré	encadrer	VPP	VPP	_	0	root	_	_	237.419998	238.380005	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	239.000000	239.029999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-87
+# text = c'est plu~
+1	c'	ce	CLS	CLS	_	2	subj	_	_	239.029999	239.179993	L2
+2	est	être	VRB	VRB	_	0	root	_	_	239.179993	239.210007	L2
+3	plu~	plu~	ADV	ADV	_	2	dep	_	_	239.210007	239.300003	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-88
+# text = c'est aléatoire
+1	c'	ce	CLS	CLS	_	2	subj	_	_	239.300003	239.330002	L2
+2	est	être	VRB	VRB	_	0	root	_	_	239.330002	239.360001	L2
+3	aléatoire	aléatoire	ADJ	ADJ	_	2	dep	_	_	239.360001	239.940002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-89
+# text = un peu c'est un peu de la formation
+1	un peu	un peu	ADV	ADV	_	3	periph	_	_	239.940002	240.220001	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	240.720001	240.800003	L1
+3	est	être	VRB	VRB	_	0	root	_	_	240.800003	240.830002	L1
+4	un peu	un peu	ADV	ADV	_	3	dep	_	_	240.830002	241.139999	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	241.139999	241.210007	L1
+6	la	le	DET	DET	_	7	spe	_	_	241.210007	241.320007	L1
+7	formation	formation	NOM	NOM	_	5	dep	_	_	241.320007	242.080002	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-90
+# text = euh enfin les stages c'est en~ tu es tu es un peu en formation
+1	euh	euh	INT	INT	_	6	dm	_	_	243.050003	243.110001	L1
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	243.110001	243.250000	L1
+3	les	le	DET	DET	_	4	spe	_	_	243.250000	243.360001	L1
+4	stages	stage	NOM	NOM	_	6	periph	_	_	243.360001	243.740005	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	243.789993	243.820007	L1
+6	est	être	VRB	VRB	_	0	root	_	_	243.820007	243.850006	L1
+7	en~	en~	ADV	ADV	_	6	dep	_	_	243.850006	244.039993	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	244.350006	244.619995	L1
+9	es	être	VRB	VRB	_	6	para	_	_	244.619995	244.839996	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	244.929993	245.029999	L1
+11	es	être	VRB	VRB	_	9	para	_	_	245.029999	245.289993	L1
+12	un peu	un peu	ADV	ADV	_	11	dep	_	_	245.289993	245.539993	L1
+13	en	en	PRE	PRE	_	11	dep	_	_	245.539993	245.679993	L1
+14	formation	formation	NOM	NOM	_	13	dep	_	_	245.679993	246.179993	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-91
+# text = mais à la fin c'est comme si t~ tu travaillais déjà en fait
+1	mais	mais	COO	COO	_	6	mark	_	_	246.229996	246.410004	L1
+2	à	à	PRE	PRE	_	6	periph	_	_	246.410004	246.479996	L1
+3	la	le	DET	DET	_	4	spe	_	_	246.479996	246.600006	L1
+4	fin	fin	NOM	NOM	_	2	dep	_	_	246.600006	247.009995	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	247.009995	247.130005	L1
+6	est	être	VRB	VRB	_	0	root	_	_	247.130005	247.210007	L1
+7	comme	comme	PRE	PRE	_	6	dep	_	_	247.210007	247.449997	L1
+8	si	si	CSU	CSU	_	7	dep	_	_	247.639999	247.770004	L1
+9	t~	t~	X	X	_	8	disflink	_	_	247.770004	247.839996	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	247.949997	248.039993	L1
+11	travaillais	travailler	VRB	VRB	_	8	dep	_	_	248.080002	248.529999	L1
+12	déjà	déjà	ADV	ADV	_	11	dep	_	_	248.529999	248.770004	L1
+13	en	en	PRE	PRE	_	14	dep	_	_	248.770004	249.000000	L1
+14	fait	faire	VPP	VPP	_	11	dep	_	_	249.050003	249.169998	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-92
+# text = quoi ouais ouais tu fais le
+1	quoi	quoi	INT	INT	_	5	dm	_	_	249.169998	249.279999	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	249.500000	249.610001	L2
+3	ouais	ouais	INT	INT	_	2	para	_	_	249.690002	249.800003	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	249.800003	249.960007	L2
+5	fais	faire	VRB	VRB	_	0	root	_	_	249.960007	250.169998	L2
+6	le	le	DET	DET	_	5	dep	_	_	250.169998	250.559998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-93
+# text = on n'est pas là pour remplacer le personnel et tout ça
+1	on	on	CLS	CLS	_	3	subj	_	_	250.860001	251.399994	L2
+2	n'	ne	CLN	CLN	_	3	dep	_	_	251.399994	251.399994	L2
+3	est	être	VRB	VRB	_	0	root	_	_	251.399994	251.470001	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	251.470001	251.690002	L2
+5	là	là	ADV	ADV	_	3	dep	_	_	251.690002	251.809998	L2
+6	pour	pour	PRE	PRE	_	3	dep	_	_	251.809998	252.089996	L2
+7	remplacer	remplacer	VNF	VNF	_	6	dep	_	_	252.089996	252.500000	L2
+8	le	le	DET	DET	_	9	spe	_	_	252.500000	252.570007	L2
+9	personnel	personnel	NOM	NOM	_	7	dep	_	_	252.570007	253.240005	L2
+10	et	et	COO	COO	_	12	mark	_	_	253.289993	253.539993	L2
+11	tout	tout	ADJ	ADJ	_	12	dep	_	_	253.539993	253.669998	L2
+12	ça	ça	PRO	PRO	_	9	para	_	_	253.669998	253.970001	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-94
+# text = mais dans la mesure où ils manquent de monde euh ils sont bien contents d'avoir des étudiants et euh et il y a des services où euh bah tu tu le sais
+1	mais	mais	COO	COO	_	12	mark	_	_	253.970001	254.360001	L2
+2	dans	dans	PRE	PRE	_	12	periph	_	_	254.360001	254.460007	L2
+3	la	le	DET	DET	_	4	spe	_	_	254.460007	254.570007	L2
+4	mesure	mesure	NOM	NOM	_	2	dep	_	_	254.570007	254.820007	L2
+5	où	où	PRQ	PRQ	_	7	dep	_	_	254.820007	255.020004	L2
+6	ils	il	CLS	CLS	_	7	subj	_	_	255.020004	255.119995	L2
+7	manquent	manquer	VRB	VRB	_	4	dep	_	_	255.119995	255.360001	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	255.360001	255.490005	L2
+9	monde	monde	NOM	NOM	_	8	dep	_	_	255.490005	255.789993	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	255.789993	256.049988	L2
+11	ils	il	CLS	CLS	_	12	subj	_	_	256.200012	256.260010	L2
+12	sont	être	VRB	VRB	_	0	root	_	_	256.260010	256.320007	L2
+13	bien	bien	ADV	ADV	_	14	dep	_	_	256.320007	256.510010	L2
+14	contents	content	ADJ	ADJ	_	12	dep	_	_	256.510010	256.940002	L2
+15	d'	de	PRE	PRE	_	14	dep	_	_	256.940002	256.989990	L2
+16	avoir	avoir	VNF	VNF	_	15	dep	_	_	256.989990	257.290009	L2
+17	des	de	PRE	PRE	_	16	dep	_	_	257.290009	257.529999	L2
+18	étudiants	étudiant	NOM	NOM	_	17	dep	_	_	257.529999	258.239990	L2
+19	et	et	COO	COO	_	24	mark	_	_	258.239990	258.450012	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	258.450012	258.549988	L2
+21	et	et	COO	COO	_	19	para	_	_	259.019989	259.179993	L2
+22	il	il	CLS	CLS	_	24	subj	_	_	259.179993	259.260010	L2
+23	y	y	CLI	CLI	_	24	dep	_	_	259.260010	259.290009	L2
+24	a	avoir	VRB	VRB	_	16	para	_	_	259.290009	259.329987	L2
+25	des	de	PRE	PRE	_	24	dep	_	_	259.329987	259.470001	L2
+26	services	service	NOM	NOM	_	25	dep	_	_	259.519989	259.970001	L2
+27	où	où	PRQ	PRQ	_	33	dep	_	_	260.040009	260.260010	L2
+28	euh	euh	INT	INT	_	27	dm	_	_	260.260010	260.329987	L2
+29	bah	bah	INT	INT	_	28	dm	_	_	260.700012	260.910004	L2
+30	tu	tu	CLS	CLS	_	33	subj	_	_	260.910004	261.250000	L2
+31	tu	tu	CLS	CLS	_	30	para	_	_	261.380005	261.450012	L2
+32	le	le	CLI	CLI	_	33	dep	_	_	261.450012	261.519989	L2
+33	sais	savoir	VRB	VRB	_	26	dep	_	_	261.519989	261.799988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-95
+# text = enfin tu le vois direct euh si tu euh vas être considéré euh comme euh un membre de l'équipe euh
+1	enfin	enfin	ADV	ADV	_	4	periph	_	_	261.799988	262.239990	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	262.790009	262.950012	L2
+3	le	le	CLI	CLI	_	4	dep	_	_	262.950012	262.980011	L2
+4	vois	voir	VRB	VRB	_	0	root	_	_	262.980011	263.149994	L2
+5	direct	direct	ADJ	ADJ	_	4	dep	_	_	263.149994	263.709991	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	263.709991	264.040009	L2
+7	si	si	CSU	CSU	_	4	dep	_	_	264.040009	264.390015	L2
+8	tu	tu	CLS	CLS	_	10	subj	_	_	264.500000	264.679993	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	264.679993	264.709991	L2
+10	vas	aller	VRB	VRB	_	7	dep	_	_	264.709991	265.000000	L2
+11	être	être	VNF	VNF	_	12	aux	_	_	265.000000	265.140015	L2
+12	considéré	considérer	VPP	VPP	_	10	dep	_	_	265.140015	265.899994	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	265.899994	266.049988	L2
+14	comme	comme	CSU	CSU	_	12	dep	_	_	266.390015	266.660004	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	266.660004	266.690002	L2
+16	un	un	DET	DET	_	17	spe	_	_	266.690002	266.970001	L2
+17	membre	membre	NOM	NOM	_	14	dep	_	_	266.970001	267.320007	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	267.320007	267.359985	L2
+19	l'	le	DET	DET	_	20	spe	_	_	267.359985	267.510010	L2
+20	équipe	équipe	NOM	NOM	_	18	dep	_	_	267.510010	268.440002	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	268.820007	269.369995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-96
+# text = et ou pas quoi tu vas voir euh
+1	et	et	COO	COO	_	6	mark	_	_	270.100006	270.350006	L2
+2	ou	ou	COO	COO	_	3	mark	_	_	270.350006	270.480011	L2
+3	pas	pas	ADN	ADN	_	6	periph	_	_	270.480011	270.779999	L2
+4	quoi	quoi	INT	INT	_	3	dm	_	_	270.779999	270.950012	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	271.230011	271.290009	L2
+6	vas	aller	VRB	VRB	_	0	root	_	_	271.290009	271.390015	L2
+7	voir	voir	VNF	VNF	_	6	dep	_	_	271.390015	271.709991	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	271.709991	271.910004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-97
+# text = mais c'est c'est assez aléatoire en fait
+1	mais	mais	COO	COO	_	3	mark	_	_	272.230011	272.609985	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	272.609985	272.730011	L2
+3	est	être	VRB	VRB	_	0	root	_	_	272.730011	273.119995	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	273.119995	273.269989	L2
+5	est	être	VRB	VRB	_	3	para	_	_	273.269989	273.299988	L2
+6	assez	assez	ADV	ADV	_	7	dep	_	_	273.299988	273.589996	L2
+7	aléatoire	aléatoire	ADJ	ADJ	_	5	dep	_	_	273.589996	274.109985	L2
+8	en	en	PRE	PRE	_	5	dep	_	_	274.109985	274.250000	L2
+9	fait	fait	NOM	NOM	_	8	dep	_	_	274.250000	274.510010	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-98
+# text = mais ouais au fur et à mesure tu as de plus en plus de responsabilités euh
+1	mais	mais	COO	COO	_	5	mark	_	_	274.739990	274.989990	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	274.989990	275.200012	L2
+3	au fur et à mesure	au fur et à mesure	ADV	ADV	_	5	periph	_	_	275.200012	275.950012	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	275.950012	276.029999	L2
+5	as	avoir	VRB	VRB	_	0	root	_	_	276.029999	276.109985	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	276.109985	276.140015	L2
+7	plus	plus	ADN	ADN	_	6	dep	_	_	276.140015	276.429993	L2
+8	en	en	PRE	PRE	_	5	dep	_	_	276.429993	276.519989	L2
+9	plus	plus	ADN	ADN	_	8	dep	_	_	276.519989	276.730011	L2
+10	de	de	PRE	PRE	_	5	dep	_	_	276.730011	276.850006	L2
+11	responsabilités	responsabilité	NOM	NOM	_	10	dep	_	_	276.850006	278.350006	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	278.350006	278.570007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-99
+# text = et bah tu peux te retrouver à gérer euh tout un secteur d'un service ou un étage et puis euh et puis avoir un contrôle de temps en temps de l'infirmier de l'autre secteur ou de l'autre étage qui monte voir euh comment ça va si tu arrives à t'organiser à gérer ton temps à gérer ce que tu as faire et puis euh et puis voir aussi si tu as pas besoin d'un coup de main non non normalement euh normalement de toute manière
+1	et	et	COO	COO	_	4	mark	_	_	279.179993	279.670013	L2
+2	bah	bah	INT	INT	_	1	dm	_	_	279.670013	279.839996	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	279.839996	279.970001	L2
+4	peux	pouvoir	VRB	VRB	_	0	root	_	_	280.010010	280.109985	L2
+5	te	te	CLI	CLI	_	6	dep	_	_	280.109985	280.179993	L2
+6	retrouver	retrouver	VNF	VNF	_	4	dep	_	_	280.179993	280.809998	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	280.809998	281.119995	L2
+8	gérer	gérer	VNF	VNF	_	7	dep	_	_	281.119995	281.790009	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	281.790009	281.839996	L2
+10	tout	tout	ADJ	ADJ	_	12	dep	_	_	282.260010	282.500000	L2
+11	un	un	DET	DET	_	12	spe	_	_	282.500000	282.760010	L2
+12	secteur	secteur	NOM	NOM	_	8	dep	_	_	282.760010	283.369995	L2
+13	d'	de	PRE	PRE	_	12	dep	_	_	283.369995	283.420013	L2
+14	un	un	DET	DET	_	15	spe	_	_	283.420013	283.510010	L2
+15	service	service	NOM	NOM	_	13	dep	_	_	283.510010	284.279999	L2
+16	ou	ou	COO	COO	_	18	mark	_	_	284.329987	284.549988	L2
+17	un	un	DET	DET	_	18	spe	_	_	284.549988	284.750000	L2
+18	étage	étage	NOM	NOM	_	15	para	_	_	284.750000	285.200012	L2
+19	et puis	et puis	COO	COO	_	18	disflink	_	_	285.200012	285.600006	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	285.600006	285.869995	L2
+21	et puis	et puis	COO	COO	_	22	mark	_	_	286.239990	286.429993	L2
+22	avoir	avoir	VNF	VNF	_	6	para	_	_	286.429993	286.720001	L2
+23	un	un	DET	DET	_	24	spe	_	_	286.720001	286.850006	L2
+24	contrôle	contrôle	NOM	NOM	_	22	dep	_	_	286.850006	287.420013	L2
+25	de	de	PRE	PRE	_	24	dep	_	_	287.420013	287.450012	L2
+26	temps	temps	NOM	NOM	_	25	dep	_	_	287.450012	287.750000	L2
+27	en	en	PRE	PRE	_	22	dep	_	_	287.750000	287.859985	L2
+28	temps	temps	NOM	NOM	_	27	dep	_	_	287.859985	288.179993	L2
+29	de	de	PRE	PRE	_	28	dep	_	_	288.179993	288.420013	L2
+30	l'	le	DET	DET	_	31	spe	_	_	288.420013	288.470001	L2
+31	infirmier	infirmier	NOM	NOM	_	29	dep	_	_	288.470001	288.970001	L2
+32	de	de	PRE	PRE	_	31	dep	_	_	288.970001	289.010010	L2
+33	l'	le	DET	DET	_	35	spe	_	_	289.010010	289.049988	L2
+34	autre	autre	ADJ	ADJ	_	35	dep	_	_	289.049988	289.170013	L2
+35	secteur	secteur	NOM	NOM	_	32	dep	_	_	289.170013	289.600006	L2
+36	ou	ou	COO	COO	_	37	mark	_	_	289.660004	289.690002	L2
+37	de	de	PRE	PRE	_	32	para	_	_	289.690002	289.720001	L2
+38	l'	le	DET	DET	_	40	spe	_	_	289.720001	289.750000	L2
+39	autre	autre	ADJ	ADJ	_	40	dep	_	_	289.750000	289.839996	L2
+40	étage	étage	NOM	NOM	_	37	dep	_	_	289.839996	290.179993	L2
+41	qui	qui	PRQ	PRQ	_	42	subj	_	_	290.179993	290.329987	L2
+42	monte	monter	VRB	VRB	_	40	dep	_	_	290.329987	290.579987	L2
+43	voir	voir	VNF	VNF	_	42	dep	_	_	290.579987	291.079987	L2
+44	euh	euh	INT	INT	_	43	dm	_	_	291.079987	291.130005	L2
+45	comment	comment	PRQ	PRQ	_	47	dep	_	_	291.600006	291.779999	L2
+46	ça	ça	PRO	PRO	_	47	subj	_	_	291.779999	291.970001	L2
+47	va	aller	VRB	VRB	_	43	dep	_	_	291.970001	292.220001	L2
+48	si	si	CSU	CSU	_	47	dep	_	_	292.220001	292.410004	L2
+49	tu	tu	CLS	CLS	_	50	subj	_	_	292.410004	292.510010	L2
+50	arrives	arriver	VRB	VRB	_	48	dep	_	_	292.510010	292.750000	L2
+51	à	à	PRE	PRE	_	50	dep	_	_	292.750000	293.190002	L2
+52	t'	te	CLI	CLI	_	53	dep	_	_	293.269989	293.359985	L2
+53	organiser	organiser	VNF	VNF	_	51	dep	_	_	293.359985	294.109985	L2
+54	à	à	PRE	PRE	_	53	dep	_	_	294.109985	294.149994	L2
+55	gérer	gérer	VNF	VNF	_	54	dep	_	_	294.149994	294.489990	L2
+56	ton	son	DET	DET	_	57	spe	_	_	294.489990	294.690002	L2
+57	temps	temps	NOM	NOM	_	55	dep	_	_	294.690002	295.019989	L2
+58	à	à	PRE	PRE	_	55	dep	_	_	295.079987	295.179993	L2
+59	gérer	gérer	VNF	VNF	_	58	dep	_	_	295.179993	295.459991	L2
+60	ce	ce	PRO	PRO	_	59	dep	_	_	295.459991	295.549988	L2
+61	que	que	PRQ	PRQ	_	63	dep	_	_	295.589996	295.670013	L2
+62	tu	tu	CLS	CLS	_	63	subj	_	_	295.670013	295.750000	L2
+63	as	avoir	VRB	VRB	_	60	dep	_	_	295.750000	295.880005	L2
+64	faire	faire	VNF	VNF	_	63	dep	_	_	295.880005	296.309998	L2
+65	et puis	et puis	COO	COO	_	68	mark	_	_	296.760010	297.230011	L2
+66	euh	euh	INT	INT	_	65	dm	_	_	297.230011	297.489990	L2
+67	et puis	et puis	COO	COO	_	68	mark	_	_	297.779999	298.029999	L2
+68	voir	voir	VNF	VNF	_	22	para	_	_	298.029999	298.200012	L2
+69	aussi	aussi	ADV	ADV	_	68	dep	_	_	298.200012	298.500000	L2
+70	si	si	CSU	CSU	_	68	dep	_	_	298.500000	298.600006	L2
+71	tu	tu	CLS	CLS	_	72	subj	_	_	298.600006	298.670013	L2
+72	as	avoir	VRB	VRB	_	70	dep	_	_	298.670013	298.760010	L2
+73	pas	pas	ADN	ADN	_	72	dep	_	_	298.950012	299.040009	L2
+74	besoin	besoin	NOM	NOM	_	72	dep	_	_	299.040009	299.739990	L2
+75	d'	de	PRE	PRE	_	74	dep	_	_	299.739990	299.779999	L2
+76	un	un	DET	DET	_	77	spe	_	_	299.779999	300.079987	L2
+77	coup	coup	NOM	NOM	_	75	dep	_	_	300.209991	300.480011	L2
+78	de	de	PRE	PRE	_	77	dep	_	_	300.480011	300.630005	L2
+79	main	main	NOM	NOM	_	78	dep	_	_	300.670013	300.880005	L2
+80	non	non	INT	INT	_	79	dm	_	_	300.980011	301.179993	L2
+81	non	non	INT	INT	_	80	para	_	_	301.179993	301.450012	L2
+82	normalement	normalement	ADV	ADV	_	68	dep	_	_	301.450012	302.179993	L2
+83	euh	euh	INT	INT	_	82	dm	_	_	302.179993	302.339996	L2
+84	normalement	normalement	ADV	ADV	_	68	dep	_	_	302.450012	302.899994	L2
+85	de	de	PRE	PRE	_	68	dep	_	_	303.059998	303.140015	L2
+86	toute	tout	ADJ	ADJ	_	87	dep	_	_	303.140015	303.380005	L2
+87	manière	manière	NOM	NOM	_	85	dep	_	_	303.470001	303.890015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-100
+# text = on est on est étudiant hein
+1	on	on	CLS	CLS	_	2	subj	_	_	303.890015	304.000000	L2
+2	est	être	VRB	VRB	_	0	root	_	_	304.000000	304.160004	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	304.160004	304.369995	L2
+4	est	être	VRB	VRB	_	2	para	_	_	304.369995	304.480011	L2
+5	étudiant	étudiant	ADJ	ADJ	_	4	dep	_	_	304.609985	305.109985	L2
+6	hein	hein	INT	INT	_	5	dm	_	_	305.109985	305.329987	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-101
+# text = on est encore euh
+1	on	on	CLS	CLS	_	2	subj	_	_	305.799988	305.839996	L2
+2	est	être	VRB	VRB	_	0	root	_	_	305.839996	305.869995	L2
+3	encore	encore	ADV	ADV	_	2	dep	_	_	305.869995	306.059998	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	306.130005	306.149994	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-102
+# text = on est à l'école
+1	on	on	CLS	CLS	_	2	subj	_	_	306.459991	306.630005	L2
+2	est	être	VRB	VRB	_	0	root	_	_	306.630005	306.660004	L2
+3	à	à	PRE	PRE	_	2	dep	_	_	306.660004	306.720001	L2
+4	l'	le	DET	DET	_	5	spe	_	_	306.720001	306.760010	L2
+5	école	école	NOM	NOM	_	3	dep	_	_	306.760010	307.040009	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-103
+# text = on est là pour apprendre encore hein
+1	on	on	CLS	CLS	_	2	subj	_	_	307.040009	307.179993	L2
+2	est	être	VRB	VRB	_	0	root	_	_	307.179993	307.209991	L2
+3	là	là	ADV	ADV	_	2	dep	_	_	307.209991	307.339996	L2
+4	pour	pour	PRE	PRE	_	2	dep	_	_	307.339996	307.549988	L2
+5	apprendre	apprendre	VNF	VNF	_	4	dep	_	_	307.549988	307.890015	L2
+6	encore	encore	ADV	ADV	_	5	dep	_	_	307.890015	308.230011	L2
+7	hein	hein	INT	INT	_	6	dm	_	_	308.299988	308.320007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-104
+# text = mh oui tu es pas l~ lâché complètement encadrés quoi
+1	mh	mh	INT	INT	_	4	dm	_	_	271.239990	271.570007	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	298.910004	299.459991	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	299.459991	299.529999	L1
+4	es	être	VRB	VRB	_	0	root	_	_	299.529999	299.559998	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	299.559998	299.720001	L1
+6	l~	l~	X	X	_	5	disflink	_	_	299.720001	300.049988	L1
+7	lâché	lâcher	VPP	VPP	_	9	aux	_	_	300.049988	300.290009	L1
+8	complètement	complètement	ADV	ADV	_	9	dep	_	_	300.290009	300.880005	L1
+9	encadrés	encadrer	VPP	VPP	_	4	para	_	_	304.720001	305.459991	L1
+10	quoi	quoi	INT	INT	_	9	dm	_	_	305.459991	305.730011	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-105
+# text = et tu as vu des choses que tu pensais pas voir ou enfin que tu pensais complètement euh que c'était différent ou
+1	et	et	COO	COO	_	4	mark	_	_	308.850006	308.929993	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	308.929993	309.059998	L1
+3	as	avoir	VRB	VRB	_	4	aux	_	_	309.059998	309.100006	L1
+4	vu	voir	VPP	VPP	_	0	root	_	_	309.100006	309.179993	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	309.179993	309.329987	L1
+6	choses	chose	NOM	NOM	_	5	dep	_	_	309.329987	309.660004	L1
+7	que	que	CSU	CSU	_	4	dep	_	_	309.660004	309.820007	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	309.820007	309.920013	L1
+9	pensais	penser	VRB	VRB	_	7	dep	_	_	309.980011	310.299988	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	310.299988	310.420013	L1
+11	voir	voir	VNF	VNF	_	9	dep	_	_	310.420013	310.980011	L1
+12	ou	ou	COO	COO	_	13	mark	_	_	311.040009	311.190002	L1
+13	enfin	enfin	ADV	ADV	_	7	dm	_	_	311.190002	311.440002	L1
+14	que	que	CSU	CSU	_	7	para	_	_	311.440002	311.480011	L1
+15	tu	tu	CLS	CLS	_	16	subj	_	_	311.480011	311.589996	L1
+16	pensais	penser	VRB	VRB	_	14	dep	_	_	311.640015	311.920013	L1
+17	complètement	complètement	ADV	ADV	_	16	dep	_	_	311.920013	312.809998	L1
+18	euh	euh	INT	INT	_	17	dm	_	_	312.809998	312.950012	L1
+19	que	que	CSU	CSU	_	16	dep	_	_	312.950012	313.000000	L1
+20	c'	ce	CLS	CLS	_	21	subj	_	_	313.140015	313.220001	L1
+21	était	être	VRB	VRB	_	19	dep	_	_	313.220001	313.440002	L1
+22	différent	différent	ADJ	ADJ	_	21	dep	_	_	313.440002	314.179993	L1
+23	ou	ou	COO	COO	_	22	disflink	_	_	314.179993	314.480011	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-106
+# text = bah
+1	bah	bah	INT	INT	_	0	root	_	_	315.440002	315.779999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-107
+# text = ou c'est plus dans ce que tu pensais quand même
+1	ou	ou	COO	COO	_	3	mark	_	_	316.010010	316.040009	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	316.040009	316.070007	L1
+3	est	être	VRB	VRB	_	0	root	_	_	316.070007	316.140015	L1
+4	plus	plus	ADN	ADN	_	5	dep	_	_	316.140015	316.390015	L1
+5	dans	dans	PRE	PRE	_	3	dep	_	_	316.519989	316.809998	L1
+6	ce	ce	PRO	PRO	_	5	dep	_	_	316.809998	316.920013	L1
+7	que	que	PRQ	PRQ	_	9	dep	_	_	316.920013	316.989990	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	316.989990	317.130005	L1
+9	pensais	penser	VRB	VRB	_	6	dep	_	_	317.170013	317.519989	L1
+10	quand	quand	CSU	CSU	_	9	dep	_	_	317.519989	317.660004	L1
+11	même	même	ADV	ADV	_	10	dep	_	_	317.660004	317.970001	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-108
+# text = au niveau du travail euh pff
+1	au	à+le	PRE	PRE	_	0	root	_	_	319.130005	319.269989	L2
+2	niveau	niveau	NOM	NOM	_	1	dep	_	_	319.269989	319.510010	L2
+3	du	de+le	PRE	PRE	_	2	dep	_	_	319.510010	319.739990	L2
+4	travail	travail	NOM	NOM	_	3	dep	_	_	319.739990	320.279999	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	320.279999	320.690002	L2
+6	pff	pff	INT	INT	_	5	dm	_	_	320.769989	321.230011	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-109
+# text = ouais ou personnel ou
+1	ouais	ouais	INT	INT	_	3	dm	_	_	320.899994	321.070007	L1
+2	ou	ou	COO	COO	_	3	mark	_	_	321.489990	321.549988	L1
+3	personnel	personnel	ADJ	ADJ	_	0	root	_	_	321.549988	322.380005	L1
+4	ou	ou	COO	COO	_	3	disflink	_	_	322.380005	322.630005	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-110
+# text = bah après la formation elle te renvoie en fonction de en fonction du vécu et des histoires de chacun euh les situations que tu vas être amené à rencontrer
+1	bah	bah	INT	INT	_	7	dm	_	_	323.450012	323.690002	L2
+2	après	après	PRE	PRE	_	7	periph	_	_	323.690002	323.910004	L2
+3	la	le	DET	DET	_	4	spe	_	_	323.910004	324.029999	L2
+4	formation	formation	NOM	NOM	_	7	periph	_	_	324.029999	324.609985	L2
+5	elle	il	CLS	CLS	_	7	subj	_	_	324.609985	324.709991	L2
+6	te	te	CLI	CLI	_	7	dep	_	_	324.709991	324.839996	L2
+7	renvoie	renvoyer	VRB	VRB	_	0	root	_	_	324.839996	325.369995	L2
+8	en	en	PRE	PRE	_	7	dep	_	_	325.890015	325.920013	L2
+9	fonction	fonction	NOM	NOM	_	8	dep	_	_	325.920013	326.339996	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	326.339996	326.679993	L2
+11	en	en	PRE	PRE	_	8	para	_	_	327.019989	327.170013	L2
+12	fonction	fonction	NOM	NOM	_	11	dep	_	_	327.170013	327.630005	L2
+13	du	de+le	PRE	PRE	_	12	dep	_	_	327.630005	327.809998	L2
+14	vécu	vécu	NOM	NOM	_	13	dep	_	_	327.809998	328.350006	L2
+15	et	et	COO	COO	_	16	mark	_	_	328.350006	328.390015	L2
+16	des	de	PRE	PRE	_	13	para	_	_	328.390015	328.489990	L2
+17	histoires	histoire	NOM	NOM	_	16	dep	_	_	328.489990	328.989990	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	328.989990	329.070007	L2
+19	chacun	chacun	PRO	PRO	_	18	dep	_	_	329.070007	329.660004	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	329.769989	330.000000	L2
+21	les	le	DET	DET	_	22	spe	_	_	330.269989	330.329987	L2
+22	situations	situation	NOM	NOM	_	17	para	_	_	330.329987	330.660004	L2
+23	que	que	CSU	CSU	_	22	dep	_	_	330.660004	330.700012	L2
+24	tu	tu	CLS	CLS	_	25	subj	_	_	330.700012	330.809998	L2
+25	vas	aller	VRB	VRB	_	23	dep	_	_	330.809998	330.920013	L2
+26	être	être	VNF	VNF	_	27	aux	_	_	330.920013	331.079987	L2
+27	amené	amener	VPP	VPP	_	25	dep	_	_	331.079987	331.299988	L2
+28	à	à	PRE	PRE	_	27	dep	_	_	331.299988	331.329987	L2
+29	rencontrer	rencontrer	VNF	VNF	_	28	dep	_	_	331.329987	331.859985	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-111
+# text = elles te renvoient des choses euh euh ou pas quoi euh
+1	elles	il	CLS	CLS	_	3	subj	_	_	331.910004	331.989990	L2
+2	te	te	CLI	CLI	_	3	dep	_	_	331.989990	332.140015	L2
+3	renvoient	renvoyer	VRB	VRB	_	0	root	_	_	332.140015	332.529999	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	332.529999	332.660004	L2
+5	choses	chose	NOM	NOM	_	4	dep	_	_	332.660004	333.239990	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	333.239990	333.309998	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	333.899994	334.359985	L2
+8	ou	ou	COO	COO	_	9	mark	_	_	334.359985	334.600006	L2
+9	pas	pas	ADN	ADN	_	4	para	_	_	334.600006	335.010010	L2
+10	quoi	quoi	INT	INT	_	9	dm	_	_	335.010010	335.339996	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	335.339996	335.640015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-112
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	336.130005	336.529999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-113
+# text = si euh si euh tu as euh ton frangin
+1	si	si	CSU	CSU	_	0	root	_	_	336.529999	336.929993	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	336.929993	337.440002	L2
+3	si	si	CSU	CSU	_	1	para	_	_	337.589996	338.029999	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	338.029999	338.079987	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	338.130005	338.190002	L2
+6	as	avoir	VRB	VRB	_	3	dep	_	_	338.190002	338.220001	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	338.220001	338.730011	L2
+8	ton	son	DET	DET	_	9	spe	_	_	338.730011	339.670013	L2
+9	frangin	frangin	NOM	NOM	_	6	dep	_	_	340.000000	340.850006	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-114
+# text = oui tout le monde voit pas la même chose pareil
+1	oui	oui	INT	INT	_	3	dm	_	_	335.700012	335.760010	L1
+2	tout le monde	tout le monde	PRO	PRO	_	3	subj	_	_	336.059998	336.369995	L1
+3	voit	voir	VRB	VRB	_	0	root	_	_	336.369995	336.540009	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	336.540009	337.100006	L1
+5	la	le	DET	DET	_	7	spe	_	_	337.100006	337.239990	L1
+6	même	même	ADJ	ADJ	_	7	dep	_	_	337.239990	337.429993	L1
+7	chose	chose	NOM	NOM	_	3	dep	_	_	337.429993	337.609985	L1
+8	pareil	pareil	ADJ	ADJ	_	7	dep	_	_	337.850006	338.049988	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-115
+# text = euh qui est mort d'une leucémie
+1	euh	euh	INT	INT	_	4	dm	_	_	341.029999	341.089996	L2
+2	qui	qui	PRQ	PRQ	_	4	subj	_	_	341.089996	341.309998	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	341.309998	341.359985	L2
+4	mort	mourir	VPP	VPP	_	0	root	_	_	341.359985	341.549988	L2
+5	d'	de	PRE	PRE	_	4	dep	_	_	341.549988	341.589996	L2
+6	une	un	DET	DET	_	7	spe	_	_	341.589996	341.709991	L2
+7	leucémie	leucémie	NOM	NOM	_	5	dep	_	_	341.709991	342.209991	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-116
+# text = ou je sais pas quoi
+1	ou	ou	COO	COO	_	3	mark	_	_	342.209991	342.250000	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	342.250000	342.320007	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	342.320007	342.410004	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	342.410004	342.559998	L2
+5	quoi	quoi	INT	INT	_	4	dm	_	_	342.559998	342.869995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-117
+# text = et que tu te retrouves en pédiatrie euh chez les cancéreux et que tu tombes euh sur des gamins euh qui sont euh qui sont dans les situations que tu as pu vivre c'est sûr que ça va pas être euh spécialement simple à gérer
+1	et	et	COO	COO	_	2	mark	_	_	342.959991	342.989990	L2
+2	que	que	CSU	CSU	_	0	root	_	_	342.989990	343.019989	L2
+3	tu	tu	CLS	CLS	_	5	subj	_	_	343.019989	343.079987	L2
+4	te	te	CLI	CLI	_	5	dep	_	_	343.079987	343.109985	L2
+5	retrouves	retrouver	VRB	VRB	_	2	dep	_	_	343.109985	343.359985	L2
+6	en	en	PRE	PRE	_	5	dep	_	_	343.359985	343.500000	L2
+7	pédiatrie	pédiatrie	NOM	NOM	_	6	dep	_	_	343.500000	344.160004	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	344.160004	344.250000	L2
+9	chez	chez	PRE	PRE	_	5	dep	_	_	344.250000	344.420013	L2
+10	les	le	DET	DET	_	11	spe	_	_	344.420013	344.549988	L2
+11	cancéreux	cancéreux	NOM	NOM	_	9	dep	_	_	344.549988	345.179993	L2
+12	et	et	COO	COO	_	13	mark	_	_	345.579987	345.709991	L2
+13	que	que	CSU	CSU	_	2	para	_	_	345.709991	345.750000	L2
+14	tu	tu	CLS	CLS	_	15	subj	_	_	345.750000	345.869995	L2
+15	tombes	tombe	NOM	NOM	_	13	dep	_	_	345.869995	346.269989	L2
+16	euh	euh	INT	INT	_	15	dm	_	_	346.269989	346.329987	L2
+17	sur	sur	PRE	PRE	_	15	dep	_	_	346.329987	346.540009	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	346.540009	346.670013	L2
+19	gamins	gamin	NOM	NOM	_	18	dep	_	_	346.670013	347.390015	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	347.390015	347.480011	L2
+21	qui	qui	PRQ	PRQ	_	22	subj	_	_	347.480011	347.690002	L2
+22	sont	être	VRB	VRB	_	19	dep	_	_	347.690002	348.170013	L2
+23	euh	euh	INT	INT	_	22	dm	_	_	348.170013	348.209991	L2
+24	qui	qui	PRQ	PRQ	_	25	subj	_	_	348.589996	348.750000	L2
+25	sont	être	VRB	VRB	_	22	para	_	_	348.750000	348.970001	L2
+26	dans	dans	PRE	PRE	_	25	dep	_	_	348.970001	349.119995	L2
+27	les	le	DET	DET	_	28	spe	_	_	349.119995	349.260010	L2
+28	situations	situation	NOM	NOM	_	26	dep	_	_	349.260010	349.839996	L2
+29	que	que	CSU	CSU	_	28	dep	_	_	349.839996	349.869995	L2
+30	tu	tu	CLS	CLS	_	32	subj	_	_	349.869995	349.950012	L2
+31	as	avoir	VRB	VRB	_	32	aux	_	_	349.950012	350.019989	L2
+32	pu	pouvoir	VPP	VPP	_	29	dep	_	_	350.019989	350.209991	L2
+33	vivre	vivre	VNF	VNF	_	32	dep	_	_	350.209991	350.440002	L2
+34	c'	ce	CLS	CLS	_	35	subj	_	_	350.440002	350.470001	L2
+35	est	être	VRB	VRB	_	2	dep	_	_	350.470001	350.529999	L2
+36	sûr	sûr	ADJ	ADJ	_	35	dep	_	_	350.529999	350.760010	L2
+37	que	que	CSU	CSU	_	36	dep	_	_	350.839996	350.989990	L2
+38	ça	ça	PRO	PRO	_	39	subj	_	_	350.989990	351.089996	L2
+39	va	aller	VRB	VRB	_	37	dep	_	_	351.089996	351.250000	L2
+40	pas	pas	ADN	ADN	_	39	dep	_	_	351.250000	351.420013	L2
+41	être	être	VNF	VNF	_	39	dep	_	_	351.420013	351.579987	L2
+42	euh	euh	INT	INT	_	41	dm	_	_	351.579987	351.839996	L2
+43	spécialement	spécialement	ADV	ADV	_	44	dep	_	_	352.399994	352.920013	L2
+44	simple	simple	ADJ	ADJ	_	41	dep	_	_	352.920013	353.290009	L2
+45	à	à	PRE	PRE	_	44	dep	_	_	353.290009	353.329987	L2
+46	gérer	gérer	VNF	VNF	_	45	dep	_	_	353.329987	353.750000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-118
+# text = alors euh on a un truc
+1	alors	alors	ADV	ADV	_	4	periph	_	_	354.230011	354.570007	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	354.570007	354.869995	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	354.869995	355.160004	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	355.160004	355.190002	L2
+5	un	un	DET	DET	_	6	spe	_	_	355.190002	355.429993	L2
+6	truc	truc	NOM	NOM	_	4	dep	_	_	355.429993	355.679993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-119
+# text = on a on avait un
+1	on	on	CLS	CLS	_	2	subj	_	_	355.890015	355.980011	L2
+2	a	avoir	VRB	VRB	_	0	root	_	_	355.980011	356.109985	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	356.109985	356.709991	L2
+4	avait	avoir	VRB	VRB	_	2	para	_	_	357.040009	357.410004	L2
+5	un	un	DET	DET	_	4	dep	_	_	357.410004	357.700012	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-120
+# text = après les stages en fait au retour à l'école on avait euh un temps une demi journée généralement de ou une demi matinée euh de de retour de stage en fait euh
+1	après	après	PRE	PRE	_	12	periph	_	_	358.730011	358.980011	L2
+2	les	le	DET	DET	_	3	spe	_	_	358.980011	359.140015	L2
+3	stages	stage	NOM	NOM	_	1	dep	_	_	359.140015	359.480011	L2
+4	en	en	PRE	PRE	_	12	periph	_	_	359.480011	359.570007	L2
+5	fait	fait	NOM	NOM	_	4	dep	_	_	359.570007	359.839996	L2
+6	au	à+le	PRE	PRE	_	5	dep	_	_	359.839996	359.920013	L2
+7	retour	retour	NOM	NOM	_	6	dep	_	_	359.920013	360.399994	L2
+8	à	à	PRE	PRE	_	12	periph	_	_	360.399994	360.519989	L2
+9	l'	le	DET	DET	_	10	spe	_	_	360.519989	360.579987	L2
+10	école	école	NOM	NOM	_	8	dep	_	_	360.579987	360.869995	L2
+11	on	on	CLS	CLS	_	12	subj	_	_	360.929993	361.079987	L2
+12	avait	avoir	VRB	VRB	_	0	root	_	_	361.079987	361.470001	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	361.470001	361.799988	L2
+14	un	un	DET	DET	_	15	spe	_	_	362.149994	362.399994	L2
+15	temps	temps	NOM	NOM	_	12	dep	_	_	362.399994	362.679993	L2
+16	une	un	DET	DET	_	18	spe	_	_	362.880005	363.140015	L2
+17	demi	demi	ADJ	ADJ	_	18	dep	_	_	363.140015	363.660004	L2
+18	journée	journée	NOM	NOM	_	15	para	_	_	363.660004	364.119995	L2
+19	généralement	généralement	ADV	ADV	_	20	dep	_	_	364.119995	364.929993	L2
+20	de	de	PRE	PRE	_	12	dep	_	_	365.179993	366.239990	L2
+21	ou	ou	COO	COO	_	24	mark	_	_	366.339996	366.410004	L2
+22	une	un	DET	DET	_	24	spe	_	_	366.410004	366.480011	L2
+23	demi	demi	ADJ	ADJ	_	24	dep	_	_	366.529999	366.790009	L2
+24	matinée	matinée	NOM	NOM	_	20	dep	_	_	366.790009	367.440002	L2
+25	euh	euh	INT	INT	_	24	dm	_	_	367.750000	368.010010	L2
+26	de	de	PRE	PRE	_	24	dep	_	_	368.010010	368.690002	L2
+27	de	de	PRE	PRE	_	26	para	_	_	368.690002	368.829987	L2
+28	retour	retour	NOM	NOM	_	27	dep	_	_	368.829987	369.149994	L2
+29	de	de	PRE	PRE	_	28	dep	_	_	369.149994	369.269989	L2
+30	stage	stage	NOM	NOM	_	29	dep	_	_	369.269989	369.630005	L2
+31	en	en	PRE	PRE	_	12	dep	_	_	369.630005	369.739990	L2
+32	fait	fait	NOM	NOM	_	31	dep	_	_	369.739990	369.980011	L2
+33	euh	euh	INT	INT	_	32	dm	_	_	370.549988	371.019989	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-121
+# text = ou euh le petit groupe euh avec notre référent pédagogique on avait on pouvait euh exprimer euh bah le ressenti sur le stage aussi bien dire bah
+1	ou	ou	COO	COO	_	5	mark	_	_	371.019989	371.380005	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	371.380005	371.769989	L2
+3	le	le	DET	DET	_	5	spe	_	_	371.769989	371.989990	L2
+4	petit	petit	ADJ	ADJ	_	5	dep	_	_	371.989990	372.239990	L2
+5	groupe	groupe	NOM	NOM	_	12	periph	_	_	372.239990	372.630005	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	372.630005	372.869995	L2
+7	avec	avec	PRE	PRE	_	12	periph	_	_	373.269989	373.489990	L2
+8	notre	son	DET	DET	_	9	spe	_	_	373.540009	373.779999	L2
+9	référent	référent	NOM	NOM	_	7	dep	_	_	373.779999	374.149994	L2
+10	pédagogique	pédagogique	ADJ	ADJ	_	9	dep	_	_	374.149994	374.820007	L2
+11	on	on	CLS	CLS	_	12	subj	_	_	374.820007	374.859985	L2
+12	avait	avoir	VRB	VRB	_	0	root	_	_	374.929993	375.250000	L2
+13	on	on	CLS	CLS	_	14	subj	_	_	375.769989	376.470001	L2
+14	pouvait	pouvoir	VRB	VRB	_	12	para	_	_	376.470001	376.959991	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	376.959991	377.450012	L2
+16	exprimer	exprimer	VNF	VNF	_	14	dep	_	_	377.750000	378.429993	L2
+17	euh	euh	INT	INT	_	16	dm	_	_	378.429993	378.619995	L2
+18	bah	bah	INT	INT	_	17	dm	_	_	378.619995	378.880005	L2
+19	le	le	DET	DET	_	20	spe	_	_	378.880005	379.010010	L2
+20	ressenti	ressentir	VPP	VPP	_	16	dep	_	_	379.010010	379.489990	L2
+21	sur	sur	PRE	PRE	_	20	dep	_	_	379.489990	379.690002	L2
+22	le	le	DET	DET	_	23	spe	_	_	379.690002	379.829987	L2
+23	stage	stage	NOM	NOM	_	21	dep	_	_	379.829987	380.209991	L2
+24	aussi	aussi	ADV	ADV	_	16	dep	_	_	380.209991	380.549988	L2
+25	bien	bien	ADV	ADV	_	16	dep	_	_	380.670013	380.760010	L2
+26	dire	dire	VNF	VNF	_	16	dep	_	_	380.760010	380.989990	L2
+27	bah	bah	INT	INT	_	26	dm	_	_	380.989990	381.190002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-122
+# text = ça s'est bien passé
+1	ça	ça	PRO	PRO	_	5	subj	_	_	381.190002	381.320007	L2
+2	s'	se	CLI	CLI	_	5	dep	_	_	381.320007	381.410004	L2
+3	est	être	VRB	VRB	_	5	aux	_	_	381.410004	381.489990	L2
+4	bien	bien	ADV	ADV	_	5	dep	_	_	381.489990	381.790009	L2
+5	passé	passer	VPP	VPP	_	0	root	_	_	381.790009	382.440002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-123
+# text = mh mh une sorte de débriefing
+1	mh mh	mh mh	INT	INT	_	3	dm	_	_	375.440002	375.679993	L1
+2	une	un	DET	DET	_	3	spe	_	_	380.739990	380.869995	L1
+3	sorte	sorte	NOM	NOM	_	0	root	_	_	380.869995	381.320007	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	381.320007	381.380005	L1
+5	débriefing	débriefing	NOM	NOM	_	4	dep	_	_	381.380005	382.440002	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-124
+# text = euh j'ai bien aimé j'ai fait telle et telle chose ou euh bah euh
+1	euh	euh	INT	INT	_	5	dm	_	_	382.869995	383.399994	L2
+2	j'	je	CLS	CLS	_	5	subj	_	_	383.399994	383.549988	L2
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	383.549988	383.619995	L2
+4	bien	bien	ADV	ADV	_	5	dep	_	_	383.619995	383.880005	L2
+5	aimé	aimer	VPP	VPP	_	0	root	_	_	383.880005	384.440002	L2
+6	j'	je	CLS	CLS	_	8	subj	_	_	384.440002	384.540009	L2
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	384.540009	384.609985	L2
+8	fait	faire	VPP	VPP	_	5	para	_	_	384.609985	384.799988	L2
+9	telle et telle	tel	DET	DET	_	10	spe	_	_	384.799988	385.299988	L2
+10	chose	chose	NOM	NOM	_	8	dep	_	_	385.359985	385.649994	L2
+11	ou	ou	COO	COO	_	10	disflink	_	_	385.649994	386.200012	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	386.510010	386.540009	L2
+13	bah	bah	INT	INT	_	12	dm	_	_	386.540009	386.910004	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	386.910004	387.079987	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-125
+# text = ça s'est pas très bien passé parce que j'ai pas réussi à m'adapter à l'équipe ou parce que euh
+1	ça	ça	PRO	PRO	_	3	subj	_	_	387.140015	387.220001	L2
+2	s'	se	CLI	CLI	_	3	dep	_	_	387.220001	387.309998	L2
+3	est	être	VRB	VRB	_	0	root	_	_	387.309998	387.369995	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	387.369995	387.519989	L2
+5	très	très	ADV	ADV	_	6	dep	_	_	387.519989	387.709991	L2
+6	bien	bien	ADV	ADV	_	7	dep	_	_	387.709991	387.899994	L2
+7	passé	passer	VPP	VPP	_	3	dep	_	_	387.899994	388.339996	L2
+8	parce que	parce que	CSU	CSU	_	7	dep	_	_	388.420013	389.010010	L2
+9	j'	je	CLS	CLS	_	12	subj	_	_	389.010010	389.119995	L2
+10	ai	avoir	VRB	VRB	_	12	aux	_	_	389.119995	389.200012	L2
+11	pas	pas	ADN	ADN	_	12	dep	_	_	389.200012	389.309998	L2
+12	réussi	réussir	VPP	VPP	_	8	dep	_	_	389.309998	389.619995	L2
+13	à	à	PRE	PRE	_	12	dep	_	_	389.619995	389.670013	L2
+14	m'	me	CLI	CLI	_	15	dep	_	_	389.670013	389.739990	L2
+15	adapter	adapter	VNF	VNF	_	13	dep	_	_	389.739990	390.070007	L2
+16	à	à	PRE	PRE	_	15	dep	_	_	390.070007	390.140015	L2
+17	l'	le	DET	DET	_	18	spe	_	_	390.140015	390.220001	L2
+18	équipe	équipe	NOM	NOM	_	16	dep	_	_	390.220001	390.690002	L2
+19	ou	ou	COO	COO	_	20	mark	_	_	390.690002	390.769989	L2
+20	parce que	parce que	CSU	CSU	_	15	dep	_	_	390.769989	391.399994	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	391.399994	391.429993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-126
+# text = cela
+1	cela	cela	PRO	PRO	_	0	root	_	_	391.750000	392.320007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-127
+# text = ou euh ou justement parce que euh j'ai rencontré telle situation
+1	ou	ou	COO	COO	_	3	mark	_	_	392.320007	392.630005	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	392.630005	392.809998	L2
+3	ou	ou	COO	COO	_	5	mark	_	_	392.809998	392.959991	L2
+4	justement	justement	ADV	ADV	_	5	dep	_	_	392.959991	393.470001	L2
+5	parce que	parce que	CSU	CSU	_	0	root	_	_	393.470001	393.739990	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	393.739990	394.170013	L2
+7	j'	je	CLS	CLS	_	9	subj	_	_	394.170013	394.279999	L2
+8	ai	avoir	VRB	VRB	_	9	aux	_	_	394.279999	394.309998	L2
+9	rencontré	rencontrer	VPP	VPP	_	5	dep	_	_	394.309998	394.769989	L2
+10	telle	tel	ADJ	ADJ	_	9	dep	_	_	394.769989	394.950012	L2
+11	situation	situation	NOM	NOM	_	9	dep	_	_	394.950012	395.630005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-128
+# text = j'étais confronté à des décès euh
+1	j'	je	CLS	CLS	_	3	subj	_	_	395.630005	395.679993	L2
+2	étais	être	VRB	VRB	_	3	aux	_	_	395.679993	395.799988	L2
+3	confronté	confronter	VPP	VPP	_	0	root	_	_	395.799988	396.489990	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	396.899994	397.040009	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	397.040009	397.220001	L2
+6	décès	décès	NOM	NOM	_	5	dep	_	_	397.220001	398.000000	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	398.049988	398.109985	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-129
+# text = parce que bah oui
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	398.489990	398.839996	L2
+2	bah	bah	INT	INT	_	1	dm	_	_	398.839996	399.339996	L2
+3	oui	oui	INT	INT	_	2	dm	_	_	399.390015	399.619995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-130
+# text = tu es confronté euh à des décès tu es confronté à des gens qui euh qui euh se dégradent complètement et que tu vois pas forcément mourir
+1	tu	tu	CLS	CLS	_	3	subj	_	_	399.619995	399.750000	L2
+2	es	être	VRB	VRB	_	3	aux	_	_	399.750000	399.779999	L2
+3	confronté	confronter	VPP	VPP	_	0	root	_	_	399.779999	400.359985	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	400.359985	400.540009	L2
+5	à	à	PRE	PRE	_	3	dep	_	_	400.619995	400.640015	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	400.890015	401.059998	L2
+7	décès	décès	NOM	NOM	_	6	dep	_	_	401.059998	401.700012	L2
+8	tu	tu	CLS	CLS	_	10	subj	_	_	401.779999	401.839996	L2
+9	es	être	VRB	VRB	_	10	aux	_	_	401.839996	401.869995	L2
+10	confronté	confronter	VPP	VPP	_	3	para	_	_	401.869995	402.399994	L2
+11	à	à	PRE	PRE	_	10	dep	_	_	402.399994	402.630005	L2
+12	des	de	PRE	PRE	_	11	dep	_	_	402.630005	402.750000	L2
+13	gens	gens	NOM	NOM	_	12	dep	_	_	402.750000	403.100006	L2
+14	qui	qui	PRQ	PRQ	_	19	dep	_	_	403.100006	403.470001	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	403.470001	403.779999	L2
+16	qui	qui	PRQ	PRQ	_	19	subj	_	_	404.690002	405.019989	L2
+17	euh	euh	INT	INT	_	16	dm	_	_	405.019989	405.320007	L2
+18	se	se	CLI	CLI	_	19	dep	_	_	405.320007	405.359985	L2
+19	dégradent	dégrader	VRB	VRB	_	13	dep	_	_	405.359985	405.809998	L2
+20	complètement	complètement	ADV	ADV	_	19	dep	_	_	405.809998	406.579987	L2
+21	et	et	COO	COO	_	22	mark	_	_	406.630005	406.670013	L2
+22	que	que	CSU	CSU	_	3	dep	_	_	406.670013	406.720001	L2
+23	tu	tu	CLS	CLS	_	24	subj	_	_	406.720001	406.850006	L2
+24	vois	voir	VRB	VRB	_	22	dep	_	_	406.850006	407.010010	L2
+25	pas	pas	ADN	ADN	_	24	dep	_	_	407.010010	407.100006	L2
+26	forcément	forcément	ADV	ADV	_	24	dep	_	_	407.100006	407.549988	L2
+27	mourir	mourir	VNF	VNF	_	24	dep	_	_	407.549988	407.920013	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-131
+# text = mais que tu vois en un mois en quatre semaines de stage le les gens tu les vois des fois
+1	mais	mais	COO	COO	_	2	mark	_	_	407.920013	408.070007	L2
+2	que	que	CSU	CSU	_	0	root	_	_	408.070007	408.459991	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	408.459991	408.600006	L2
+4	vois	voir	VRB	VRB	_	2	dep	_	_	408.600006	409.190002	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	409.190002	409.459991	L2
+6	un	un	DET	DET	_	7	spe	_	_	409.459991	409.609985	L2
+7	mois	moi	NOM	NOM	_	5	dep	_	_	409.609985	409.799988	L2
+8	en	en	PRE	PRE	_	5	para	_	_	409.970001	410.040009	L2
+9	quatre	quatre	NUM	NUM	_	10	spe	_	_	410.040009	410.190002	L2
+10	semaines	semaine	NOM	NOM	_	8	dep	_	_	410.190002	410.549988	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	410.609985	410.640015	L2
+12	stage	stage	NOM	NOM	_	11	dep	_	_	410.640015	410.989990	L2
+13	le	le	DET	DET	_	15	spe	_	_	410.989990	411.220001	L2
+14	les	le	DET	DET	_	13	para	_	_	411.220001	411.369995	L2
+15	gens	gens	NOM	NOM	_	18	periph	_	_	411.369995	411.630005	L2
+16	tu	tu	CLS	CLS	_	18	subj	_	_	411.690002	411.790009	L2
+17	les	le	CLI	CLI	_	18	dep	_	_	411.790009	411.920013	L2
+18	vois	voir	VRB	VRB	_	4	para	_	_	411.920013	412.130005	L2
+19	des	de	PRE	PRE	_	18	dep	_	_	412.130005	412.230011	L2
+20	fois	foi	NOM	NOM	_	19	dep	_	_	412.230011	412.440002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-132
+# text = tu les vois euh
+1	tu	tu	CLS	CLS	_	3	subj	_	_	412.440002	412.609985	L2
+2	les	le	CLI	CLI	_	3	dep	_	_	412.609985	412.769989	L2
+3	vois	voir	VRB	VRB	_	0	root	_	_	412.769989	413.049988	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	413.049988	413.140015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-133
+# text = complètement euh euh ouais décliner quoi
+1	complètement	complètement	ADV	ADV	_	5	dep	_	_	413.660004	414.390015	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	414.390015	414.630005	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	415.000000	415.640015	L2
+4	ouais	ouais	INT	INT	_	3	dm	_	_	416.019989	416.339996	L2
+5	décliner	décliner	VNF	VNF	_	0	root	_	_	416.339996	417.350006	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	417.350006	417.640015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-134
+# text = et euh
+1	et	et	COO	COO	_	0	root	_	_	417.760010	417.779999	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	417.779999	417.809998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-135
+# text = mh mh mais ça c'est pas quelque chose euh à quoi
+1	mh mh	mh mh	INT	INT	_	5	dm	_	_	409.970001	410.489990	L1
+2	mais	mais	COO	COO	_	5	mark	_	_	418.019989	418.109985	L1
+3	ça	ça	PRO	PRO	_	5	periph	_	_	418.109985	418.220001	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	418.220001	418.279999	L1
+5	est	être	VRB	VRB	_	0	root	_	_	418.279999	418.450012	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	418.510010	418.660004	L1
+7	quelque chose	quelque chose	PRO	PRO	_	5	dep	_	_	418.660004	419.170013	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	419.170013	419.420013	L1
+9	à	à	PRE	PRE	_	5	dep	_	_	419.660004	419.790009	L1
+10	quoi	quoi	PRQ	PRQ	_	9	dep	_	_	419.790009	419.929993	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-136
+# text = tu es préparé avant de de commencer enfin quand tu arrives à l'école d'infirmiers euh
+1	tu	tu	CLS	CLS	_	3	subj	_	_	419.929993	420.010010	L1
+2	es	être	VRB	VRB	_	3	aux	_	_	420.010010	420.049988	L1
+3	préparé	préparer	VPP	VPP	_	0	root	_	_	420.049988	420.529999	L1
+4	avant	avant	PRE	PRE	_	3	dep	_	_	420.529999	420.730011	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	420.730011	421.130005	L1
+6	de	de	PRE	PRE	_	5	para	_	_	421.130005	421.260010	L1
+7	commencer	commencer	VNF	VNF	_	6	dep	_	_	421.260010	421.899994	L1
+8	enfin	enfin	ADV	ADV	_	7	dm	_	_	422.239990	422.450012	L1
+9	quand	quand	CSU	CSU	_	7	dep	_	_	422.450012	422.600006	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	422.600006	422.660004	L1
+11	arrives	arriver	VRB	VRB	_	9	dep	_	_	422.660004	422.880005	L1
+12	à	à	PRE	PRE	_	11	dep	_	_	422.880005	422.929993	L1
+13	l'	le	DET	DET	_	14	spe	_	_	422.929993	422.980011	L1
+14	école	école	NOM	NOM	_	12	dep	_	_	422.980011	423.190002	L1
+15	d'	de	PRE	PRE	_	14	dep	_	_	423.190002	423.250000	L1
+16	infirmiers	infirmier	NOM	NOM	_	15	dep	_	_	423.250000	423.779999	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	423.779999	423.929993	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-137
+# text = tu tu tu connais pas ça
+1	tu	tu	CLS	CLS	_	4	subj	_	_	423.929993	424.220001	L1
+2	tu	tu	CLS	CLS	_	1	para	_	_	424.410004	424.670013	L1
+3	tu	tu	CLS	CLS	_	2	para	_	_	424.670013	424.769989	L1
+4	connais	connaître	VRB	VRB	_	0	root	_	_	424.769989	424.959991	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	424.959991	425.109985	L1
+6	ça	ça	PRO	PRO	_	4	dep	_	_	425.109985	425.250000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-138
+# text = donc non pas spécialement non non
+1	donc	donc	ADV	ADV	_	4	periph	_	_	425.250000	425.399994	L1
+2	non	non	INT	INT	_	1	dm	_	_	425.399994	425.480011	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	425.480011	425.570007	L1
+4	spécialement	spécialement	ADV	ADV	_	0	root	_	_	425.570007	425.980011	L1
+5	non	non	INT	INT	_	4	dm	_	_	425.980011	426.049988	L1
+6	non	non	INT	INT	_	5	para	_	_	426.049988	426.279999	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-139
+# text = ça doit faire bizarre
+1	ça	ça	PRO	PRO	_	2	subj	_	_	426.640015	426.720001	L1
+2	doit	devoir	VRB	VRB	_	0	root	_	_	426.720001	426.850006	L1
+3	faire	faire	VNF	VNF	_	2	dep	_	_	426.850006	427.089996	L1
+4	bizarre	bizarre	ADJ	ADJ	_	3	dep	_	_	427.089996	427.420013	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-140
+# text = la enfin
+1	la	le	DET	DET	_	2	spe	_	_	427.420013	427.529999	L1
+2	enfin	enfin	ADV	ADV	_	0	root	_	_	427.529999	427.910004	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-141
+# text = plus que
+1	plus	plus	ADV	ADV	_	2	dep	_	_	427.910004	428.290009	L1
+2	que	que	CSU	CSU	_	0	root	_	_	428.390015	428.519989	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-142
+# text = bizarre la première fois que tu tu es confronté à quelque chose comme ça
+1	bizarre	bizarre	NOM	NOM	_	0	root	_	_	428.519989	428.839996	L1
+2	la	le	DET	DET	_	4	spe	_	_	428.890015	428.980011	L1
+3	première	premier	ADJ	ADJ	_	4	dep	_	_	428.980011	429.320007	L1
+4	fois	foi	NOM	NOM	_	1	para	_	_	429.420013	429.510010	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	429.510010	429.540009	L1
+6	tu	tu	CLS	CLS	_	9	subj	_	_	429.540009	430.040009	L1
+7	tu	tu	CLS	CLS	_	6	para	_	_	430.190002	430.250000	L1
+8	es	être	VRB	VRB	_	9	aux	_	_	430.250000	430.279999	L1
+9	confronté	confronter	VPP	VPP	_	5	dep	_	_	430.279999	430.489990	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	430.489990	430.519989	L1
+11	quelque chose	quelque chose	PRO	PRO	_	10	dep	_	_	430.519989	431.109985	L1
+12	comme	comme	PRE	PRE	_	11	dep	_	_	431.170013	431.279999	L1
+13	ça	ça	PRO	PRO	_	12	dep	_	_	431.279999	431.359985	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-143
+# text = ouais ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	430.190002	430.320007	L2
+2	ouais	ouais	INT	INT	_	1	para	_	_	430.320007	430.450012	L2
+3	ouais	ouais	INT	INT	_	2	para	_	_	430.679993	431.089996	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-144
+# text = bah c'est sûr que euh c'est ouais ça
+1	bah	bah	INT	INT	_	3	dm	_	_	432.299988	432.470001	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	432.470001	432.519989	L2
+3	est	être	VRB	VRB	_	0	root	_	_	432.519989	432.589996	L2
+4	sûr	sûr	ADJ	ADJ	_	3	dep	_	_	432.589996	432.869995	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	432.869995	432.920013	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	432.920013	433.540009	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	434.130005	434.170013	L2
+8	est	être	VRB	VRB	_	5	dep	_	_	434.170013	434.239990	L2
+9	ouais	ouais	INT	INT	_	8	dm	_	_	434.239990	434.480011	L2
+10	ça	ça	PRO	PRO	_	8	dep	_	_	434.480011	434.579987	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-145
+# text = c'est clair et net que après euh bah après tu gères ça euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	434.579987	434.660004	L2
+2	est	être	VRB	VRB	_	0	root	_	_	434.660004	434.769989	L2
+3	clair	clair	ADJ	ADJ	_	2	dep	_	_	434.769989	434.959991	L2
+4	et	et	COO	COO	_	5	mark	_	_	434.959991	434.989990	L2
+5	net	net	NOM	NOM	_	3	para	_	_	434.989990	435.209991	L2
+6	que	que	CSU	CSU	_	2	dep	_	_	435.290009	435.489990	L2
+7	après	après	PRE	PRE	_	12	periph	_	_	435.489990	435.929993	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	435.929993	436.410004	L2
+9	bah	bah	INT	INT	_	8	dm	_	_	437.029999	437.260010	L2
+10	après	après	PRE	PRE	_	12	periph	_	_	437.260010	437.420013	L2
+11	tu	tu	CLS	CLS	_	12	subj	_	_	437.420013	437.589996	L2
+12	gères	gérer	VRB	VRB	_	6	dep	_	_	437.589996	437.779999	L2
+13	ça	ça	PRO	PRO	_	12	dep	_	_	437.779999	438.170013	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	438.170013	438.410004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-146
+# text = généralement quand euh quand il y arrive des choses comme ça dans les les équipes déjà dans l'équipe euh généralement les les équipes elles sont là
+1	généralement	généralement	ADV	ADV	_	26	periph	_	_	438.609985	439.519989	L2
+2	quand	quand	CSU	CSU	_	26	periph	_	_	439.519989	439.790009	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	439.790009	440.029999	L2
+4	quand	quand	CSU	CSU	_	26	periph	_	_	440.200012	440.260010	L2
+5	il	il	CLS	CLS	_	7	subj	_	_	440.260010	440.320007	L2
+6	y	y	CLI	CLI	_	7	dep	_	_	440.320007	440.350006	L2
+7	arrive	arriver	VRB	VRB	_	4	dep	_	_	440.350006	440.470001	L2
+8	des	de	PRE	PRE	_	7	dep	_	_	440.470001	440.559998	L2
+9	choses	chose	NOM	NOM	_	8	dep	_	_	440.559998	440.790009	L2
+10	comme	comme	PRE	PRE	_	9	dep	_	_	440.790009	440.989990	L2
+11	ça	ça	PRO	PRO	_	10	dep	_	_	440.989990	441.309998	L2
+12	dans	dans	PRE	PRE	_	7	dep	_	_	441.309998	441.489990	L2
+13	les	le	DET	DET	_	15	spe	_	_	441.489990	441.790009	L2
+14	les	le	DET	DET	_	13	para	_	_	441.790009	441.970001	L2
+15	équipes	équipe	NOM	NOM	_	12	dep	_	_	441.970001	442.260010	L2
+16	déjà	déjà	ADV	ADV	_	7	dep	_	_	442.260010	442.690002	L2
+17	dans	dans	PRE	PRE	_	7	dep	_	_	442.690002	442.850006	L2
+18	l'	le	DET	DET	_	19	spe	_	_	442.850006	442.940002	L2
+19	équipe	équipe	NOM	NOM	_	17	dep	_	_	442.940002	443.359985	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	443.720001	444.119995	L2
+21	généralement	généralement	ADV	ADV	_	26	periph	_	_	444.119995	444.779999	L2
+22	les	le	DET	DET	_	24	spe	_	_	444.779999	445.130005	L2
+23	les	le	DET	DET	_	22	para	_	_	445.130005	445.339996	L2
+24	équipes	équipe	NOM	NOM	_	26	periph	_	_	445.339996	445.760010	L2
+25	elles	il	CLS	CLS	_	26	subj	_	_	445.760010	445.820007	L2
+26	sont	être	VRB	VRB	_	0	root	_	_	445.820007	446.119995	L2
+27	là	là	ADV	ADV	_	26	dep	_	_	446.119995	446.429993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-147
+# text = elles euh tu tu tu peux être amené à en discuter avec l'équipe et tout
+1	elles	il	CLS	CLS	_	6	periph	_	_	446.739990	447.459991	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	447.459991	447.609985	L2
+3	tu	tu	CLS	CLS	_	1	para	_	_	448.149994	448.350006	L2
+4	tu	tu	CLS	CLS	_	3	para	_	_	448.350006	448.579987	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	448.579987	448.709991	L2
+6	peux	pouvoir	VRB	VRB	_	0	root	_	_	448.709991	448.809998	L2
+7	être	être	VNF	VNF	_	8	aux	_	_	448.809998	449.010010	L2
+8	amené	amener	VPP	VPP	_	6	dep	_	_	449.010010	449.230011	L2
+9	à	à	PRE	PRE	_	8	dep	_	_	449.230011	449.260010	L2
+10	en	en	CLI	CLI	_	11	dep	_	_	449.260010	449.380005	L2
+11	discuter	discuter	VNF	VNF	_	9	dep	_	_	449.380005	449.970001	L2
+12	avec	avec	PRE	PRE	_	11	dep	_	_	449.970001	450.190002	L2
+13	l'	le	DET	DET	_	14	spe	_	_	450.250000	450.279999	L2
+14	équipe	équipe	NOM	NOM	_	12	dep	_	_	450.279999	450.720001	L2
+15	et	et	COO	COO	_	16	mark	_	_	450.779999	450.809998	L2
+16	tout	tout	ADV	ADV	_	14	para	_	_	450.809998	451.010010	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-148
+# text = mais encore une fois c'est un peu aléatoire quoi hein
+1	mais	mais	COO	COO	_	6	mark	_	_	451.010010	451.239990	L2
+2	encore	encore	ADV	ADV	_	6	periph	_	_	451.239990	451.630005	L2
+3	une	un	DET	DET	_	4	spe	_	_	451.630005	451.690002	L2
+4	fois	foi	NOM	NOM	_	6	periph	_	_	451.690002	451.940002	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	451.940002	452.010010	L2
+6	est	être	VRB	VRB	_	0	root	_	_	452.010010	452.040009	L2
+7	un peu	un peu	ADV	ADV	_	8	dep	_	_	452.040009	452.440002	L2
+8	aléatoire	aléatoire	ADJ	ADJ	_	6	dep	_	_	452.440002	452.989990	L2
+9	quoi	quoi	INT	INT	_	8	dm	_	_	452.989990	453.220001	L2
+10	hein	hein	INT	INT	_	9	dm	_	_	453.220001	453.410004	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-149
+# text = il y a des gens qui vont être euh
+1	il	il	CLS	CLS	_	3	subj	_	_	453.510010	453.570007	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	453.570007	453.609985	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	453.609985	453.640015	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	453.640015	453.700012	L2
+5	gens	gens	NOM	NOM	_	4	dep	_	_	453.700012	453.760010	L2
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	453.760010	453.920013	L2
+7	vont	aller	VRB	VRB	_	5	dep	_	_	453.920013	454.100006	L2
+8	être	être	VNF	VNF	_	7	dep	_	_	454.100006	454.500000	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	455.029999	455.070007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-150
+# text = il y a des gens qui vont dire bah euh euh
+1	il	il	CLS	CLS	_	3	subj	_	_	455.119995	455.179993	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	455.179993	455.260010	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	455.260010	455.290009	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	455.290009	455.350006	L2
+5	gens	gens	NOM	NOM	_	4	dep	_	_	455.350006	455.429993	L2
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	455.429993	455.570007	L2
+7	vont	aller	VRB	VRB	_	5	dep	_	_	455.570007	455.769989	L2
+8	dire	dire	VNF	VNF	_	7	dep	_	_	455.769989	456.000000	L2
+9	bah	bah	INT	INT	_	8	dm	_	_	456.000000	456.450012	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	456.450012	456.519989	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	456.899994	457.130005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-151
+# text = parce que
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	457.130005	457.339996	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-152
+# text = dans les soins infirmiers la toilette mortuaire euh tout ce qui est euh tout ce qui est aussi paperasse euh sur le la déclaration appeler la famille toutes les choses là c'est du travail infirmier
+1	dans	dans	PRE	PRE	_	33	periph	_	_	457.339996	457.470001	L2
+2	les	le	DET	DET	_	3	spe	_	_	457.470001	457.570007	L2
+3	soins	soin	NOM	NOM	_	1	dep	_	_	457.570007	457.820007	L2
+4	infirmiers	infirmier	ADJ	ADJ	_	3	dep	_	_	457.820007	458.250000	L2
+5	la	le	DET	DET	_	6	spe	_	_	458.250000	458.350006	L2
+6	toilette	toilette	NOM	NOM	_	3	para	_	_	458.350006	458.649994	L2
+7	mortuaire	mortuaire	NOM	NOM	_	6	dep	_	_	458.649994	459.459991	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	459.459991	459.559998	L2
+9	tout	tout	ADJ	ADJ	_	10	dep	_	_	459.779999	459.839996	L2
+10	ce	ce	PRO	PRO	_	7	para	_	_	459.839996	459.869995	L2
+11	qui	qui	PRQ	PRQ	_	12	dep	_	_	459.869995	460.000000	L2
+12	est	être	VRB	VRB	_	10	dep	_	_	460.000000	460.179993	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	460.179993	460.399994	L2
+14	tout	tout	ADJ	ADJ	_	15	dep	_	_	460.579987	460.649994	L2
+15	ce	ce	PRO	PRO	_	12	dep	_	_	460.700012	461.500000	L2
+16	qui	qui	PRQ	PRQ	_	17	subj	_	_	461.739990	462.179993	L2
+17	est	être	VRB	VRB	_	15	dep	_	_	462.179993	462.209991	L2
+18	aussi	aussi	ADV	ADV	_	17	dep	_	_	462.209991	462.559998	L2
+19	paperasse	paperasse	NOM	NOM	_	17	dep	_	_	462.559998	463.170013	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	463.170013	463.350006	L2
+21	sur	sur	PRE	PRE	_	17	dep	_	_	463.529999	463.619995	L2
+22	le	le	DET	DET	_	24	spe	_	_	463.619995	463.929993	L2
+23	la	le	DET	DET	_	22	para	_	_	463.929993	464.100006	L2
+24	déclaration	déclaration	NOM	NOM	_	21	dep	_	_	464.100006	464.859985	L2
+25	appeler	appeler	VNF	VNF	_	17	dep	_	_	464.859985	465.059998	L2
+26	la	le	DET	DET	_	27	spe	_	_	465.059998	465.149994	L2
+27	famille	famille	NOM	NOM	_	25	dep	_	_	465.149994	465.559998	L2
+28	toutes	tout	ADJ	ADJ	_	30	dep	_	_	465.730011	465.869995	L2
+29	les	le	DET	DET	_	30	spe	_	_	465.869995	465.929993	L2
+30	choses	chose	NOM	NOM	_	25	dep	_	_	465.929993	466.170013	L2
+31	là	là	ADV	ADV	_	25	dep	_	_	466.170013	466.329987	L2
+32	c'	ce	CLS	CLS	_	33	subj	_	_	466.440002	466.470001	L2
+33	est	être	VRB	VRB	_	0	root	_	_	466.470001	466.500000	L2
+34	du	de+le	PRE	PRE	_	33	dep	_	_	466.500000	466.589996	L2
+35	travail	travail	NOM	NOM	_	34	dep	_	_	466.589996	466.940002	L2
+36	infirmier	infirmier	ADJ	ADJ	_	35	dep	_	_	466.940002	467.559998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-153
+# text = et donc euh il y a des équipes qui vont volontairement euh t'exclure de tout ça pour un peu te protéger quand tu es au début ou ou voilà
+1	et	et	COO	COO	_	6	mark	_	_	469.089996	469.250000	L2
+2	donc	donc	ADV	ADV	_	6	periph	_	_	469.250000	469.549988	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	469.549988	470.079987	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	470.079987	470.170013	L2
+5	y	y	CLI	CLI	_	6	dep	_	_	470.170013	470.209991	L2
+6	a	avoir	VRB	VRB	_	0	root	_	_	470.209991	470.290009	L2
+7	des	de	PRE	PRE	_	6	dep	_	_	470.290009	470.489990	L2
+8	équipes	équipe	NOM	NOM	_	7	dep	_	_	470.489990	470.880005	L2
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	470.880005	471.019989	L2
+10	vont	aller	VRB	VRB	_	8	dep	_	_	471.019989	471.250000	L2
+11	volontairement	volontairement	ADV	ADV	_	10	dep	_	_	471.250000	472.299988	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	472.299988	472.329987	L2
+13	t'	te	CLI	CLI	_	14	dep	_	_	472.399994	472.429993	L2
+14	exclure	exclure	VNF	VNF	_	10	dep	_	_	472.429993	472.779999	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	472.779999	472.890015	L2
+16	tout	tout	ADJ	ADJ	_	17	dep	_	_	472.890015	473.029999	L2
+17	ça	ça	PRO	PRO	_	15	dep	_	_	473.029999	473.290009	L2
+18	pour	pour	PRE	PRE	_	14	dep	_	_	473.290009	473.500000	L2
+19	un peu	un peu	ADV	ADV	_	18	dep	_	_	473.500000	473.779999	L2
+20	te	te	CLI	CLI	_	21	dep	_	_	473.779999	473.809998	L2
+21	protéger	protéger	VNF	VNF	_	18	dep	_	_	473.809998	474.459991	L2
+22	quand	quand	CSU	CSU	_	10	dep	_	_	474.600006	474.929993	L2
+23	tu	tu	CLS	CLS	_	24	subj	_	_	474.929993	474.959991	L2
+24	es	être	VRB	VRB	_	22	dep	_	_	474.959991	474.989990	L2
+25	au	à+le	PRE	PRE	_	24	dep	_	_	475.040009	475.070007	L2
+26	début	début	NOM	NOM	_	25	dep	_	_	475.070007	475.399994	L2
+27	ou	ou	COO	COO	_	28	mark	_	_	475.399994	476.029999	L2
+28	ou	ou	COO	COO	_	29	mark	_	_	476.369995	476.559998	L2
+29	voilà	voilà	INT	INT	_	26	dm	_	_	476.559998	476.989990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-154
+# text = et il y en a d'autres au contraire euh qui vont euh euh t'inclure complètement dans le truc pour que pour que bah
+1	et	et	COO	COO	_	5	mark	_	_	477.359985	477.579987	L2
+2	il	il	CLS	CLS	_	5	subj	_	_	477.579987	477.640015	L2
+3	y	y	CLI	CLI	_	5	dep	_	_	477.640015	477.690002	L2
+4	en	en	CLI	CLI	_	5	dep	_	_	477.690002	477.839996	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	477.839996	477.950012	L2
+6	d'	de	PRE	PRE	_	5	dep	_	_	477.950012	477.989990	L2
+7	autres	autre	ADJ	ADJ	_	6	dep	_	_	477.989990	478.220001	L2
+8	au	à+le	PRE	PRE	_	5	dep	_	_	478.220001	478.279999	L2
+9	contraire	contraire	NOM	NOM	_	8	dep	_	_	478.279999	478.970001	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	478.970001	479.040009	L2
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	479.040009	479.290009	L2
+12	vont	aller	VRB	VRB	_	9	dep	_	_	479.290009	479.720001	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	479.720001	479.829987	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	480.160004	480.649994	L2
+15	t'	te	CLI	CLI	_	16	dep	_	_	480.720001	480.750000	L2
+16	inclure	inclure	VNF	VNF	_	12	dep	_	_	480.750000	481.130005	L2
+17	complètement	complètement	ADV	ADV	_	16	dep	_	_	481.130005	481.630005	L2
+18	dans	dans	PRE	PRE	_	16	dep	_	_	481.630005	481.769989	L2
+19	le	le	DET	DET	_	20	spe	_	_	481.769989	481.799988	L2
+20	truc	truc	NOM	NOM	_	18	dep	_	_	481.799988	482.109985	L2
+21	pour	pour	PRE	PRE	_	16	dep	_	_	482.109985	482.309998	L2
+22	que	que	CSU	CSU	_	21	dep	_	_	482.309998	482.700012	L2
+23	pour	pour	PRE	PRE	_	21	para	_	_	483.130005	483.220001	L2
+24	que	que	CSU	CSU	_	23	dep	_	_	483.220001	483.420013	L2
+25	bah	bah	INT	INT	_	24	dm	_	_	483.420013	484.130005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-155
+# text = quelque part
+1	quelque part	quelque part	ADV	ADV	_	0	root	_	_	485.000000	485.769989	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-156
+# text = si tu t'es occupé d'une personne et que je sais pas
+1	si	si	CSU	CSU	_	0	root	_	_	485.839996	485.980011	L2
+2	tu	tu	CLS	CLS	_	5	subj	_	_	485.980011	486.100006	L2
+3	t'	te	CLI	CLI	_	5	dep	_	_	486.100006	486.160004	L2
+4	es	être	VRB	VRB	_	5	aux	_	_	486.160004	486.209991	L2
+5	occupé	occuper	VPP	VPP	_	1	dep	_	_	486.209991	486.549988	L2
+6	d'	de	PRE	PRE	_	5	dep	_	_	486.549988	486.589996	L2
+7	une	un	DET	DET	_	8	spe	_	_	486.589996	486.709991	L2
+8	personne	personne	NOM	NOM	_	6	dep	_	_	486.709991	487.269989	L2
+9	et	et	COO	COO	_	10	mark	_	_	487.320007	487.350006	L2
+10	que	que	CSU	CSU	_	1	para	_	_	487.350006	487.790009	L2
+11	je	je	CLS	CLS	_	12	subj	_	_	487.790009	487.970001	L2
+12	sais	savoir	VRB	VRB	_	10	dep	_	_	487.970001	488.140015	L2
+13	pas	pas	ADN	ADN	_	12	dep	_	_	488.140015	488.309998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-157
+# text = moi on part en week end
+1	moi	moi	PRO	PRO	_	3	periph	_	_	488.309998	488.440002	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	488.440002	488.540009	L2
+3	part	partir	VRB	VRB	_	0	root	_	_	488.540009	488.660004	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	488.660004	488.829987	L2
+5	week	week	NOM	NOM	_	4	dep	_	_	488.829987	489.079987	L2
+6	end	end	NOM	NOM	_	5	dep	_	_	489.079987	489.179993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-158
+# text = tu reviens le lundi
+1	tu	tu	CLS	CLS	_	2	subj	_	_	489.230011	489.290009	L2
+2	reviens	revenir	VRB	VRB	_	0	root	_	_	489.290009	489.500000	L2
+3	le	le	DET	DET	_	4	spe	_	_	489.500000	489.570007	L2
+4	lundi	lundi	NOM	NOM	_	2	dep	_	_	489.570007	490.130005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-159
+# text = et euh et on dit
+1	et	et	COO	COO	_	5	mark	_	_	490.130005	490.250000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	490.250000	490.720001	L2
+3	et	et	COO	COO	_	1	para	_	_	490.720001	490.760010	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	490.760010	490.890015	L2
+5	dit	dire	VRB	VRB	_	0	root	_	_	490.890015	491.149994	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-160
+# text = ah bah monsieur machin il est mort euh
+1	ah bah	ah bah	INT	INT	_	6	dm	_	_	491.149994	491.519989	L2
+2	monsieur	Monsieur	NOM	NOM	_	6	periph	_	_	491.519989	492.100006	L2
+3	machin	machin	NOM	NOM	_	2	dep	_	_	492.100006	492.410004	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	492.410004	492.549988	L2
+5	est	être	VRB	VRB	_	6	aux	_	_	492.549988	492.619995	L2
+6	mort	mourir	VPP	VPP	_	0	root	_	_	492.619995	493.170013	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	493.170013	493.200012	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-161
+# text = il est mort euh hier soir ou euh ou un truc comme ça euh bon
+1	il	il	CLS	CLS	_	3	subj	_	_	493.609985	493.820007	L2
+2	est	être	VRB	VRB	_	3	aux	_	_	493.820007	493.859985	L2
+3	mort	mourir	VPP	VPP	_	0	root	_	_	493.859985	494.250000	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	494.250000	494.790009	L2
+5	hier	hier	ADV	ADV	_	3	dep	_	_	494.790009	495.190002	L2
+6	soir	soir	NOM	NOM	_	5	dep	_	_	495.190002	495.730011	L2
+7	ou	ou	COO	COO	_	11	mark	_	_	495.730011	495.959991	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	495.959991	496.190002	L2
+9	ou	ou	COO	COO	_	7	para	_	_	496.600006	496.709991	L2
+10	un	un	DET	DET	_	11	spe	_	_	496.709991	496.799988	L2
+11	truc	truc	NOM	NOM	_	5	para	_	_	496.799988	497.059998	L2
+12	comme	comme	PRE	PRE	_	11	dep	_	_	497.059998	497.190002	L2
+13	ça	ça	PRO	PRO	_	12	dep	_	_	497.190002	497.529999	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	497.890015	498.339996	L2
+15	bon	bon	INT	INT	_	14	dm	_	_	498.339996	498.529999	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-162
+# text = généralement euh tout ce
+1	généralement	généralement	ADV	ADV	_	4	periph	_	_	498.529999	499.170013	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	499.170013	499.220001	L2
+3	tout	tout	ADJ	ADJ	_	4	dep	_	_	499.220001	499.299988	L2
+4	ce	ce	PRO	PRO	_	0	root	_	_	499.299988	499.350006	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-163
+# text = qui est protéger ouais
+1	qui	qui	PRQ	PRQ	_	2	subj	_	_	499.450012	499.619995	L1
+2	est	être	VRB	VRB	_	0	root	_	_	499.619995	499.920013	L1
+3	protéger	protéger	VNF	VNF	_	2	dep	_	_	474.519989	474.760010	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	474.760010	474.989990	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-164
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	500.670013	500.700012	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-165
+# text = la toilette mortuaire toutes ces choses
+1	la	le	DET	DET	_	2	spe	_	_	500.700012	500.790009	L2
+2	toilette	toilette	NOM	NOM	_	0	root	_	_	500.790009	501.019989	L2
+3	mortuaire	mortuaire	NOM	NOM	_	2	dep	_	_	501.019989	501.369995	L2
+4	toutes	tout	ADJ	ADJ	_	6	dep	_	_	501.369995	501.549988	L2
+5	ces	ce	DET	DET	_	6	spe	_	_	501.549988	501.630005	L2
+6	choses	chose	NOM	NOM	_	3	para	_	_	501.630005	501.859985	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-166
+# text = là sont faites et tout les papiers aussi
+1	là	là	ADV	ADV	_	2	periph	_	_	501.859985	501.970001	L2
+2	sont	être	VRB	VRB	_	0	root	_	_	501.970001	502.179993	L2
+3	faites	faire	VPP	VPP	_	2	dep	_	_	502.179993	502.429993	L2
+4	et	et	COO	COO	_	5	mark	_	_	502.429993	502.489990	L2
+5	tout	tout	ADV	ADV	_	3	para	_	_	502.489990	502.720001	L2
+6	les	le	DET	DET	_	7	spe	_	_	502.820007	502.880005	L2
+7	papiers	papier	NOM	NOM	_	2	dep	_	_	502.880005	503.190002	L2
+8	aussi	aussi	ADV	ADV	_	2	dep	_	_	503.190002	503.540009	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-167
+# text = mais mais après on peut quand même t'inclure dans je sais pas ou ranger ça
+1	mais	mais	COO	COO	_	5	mark	_	_	503.540009	503.790009	L2
+2	mais	mais	COO	COO	_	1	para	_	_	504.130005	504.279999	L2
+3	après	après	PRE	PRE	_	5	periph	_	_	504.279999	504.640015	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	504.640015	504.769989	L2
+5	peut	pouvoir	VRB	VRB	_	0	root	_	_	504.769989	504.910004	L2
+6	quand	quand	CSU	CSU	_	5	dep	_	_	504.910004	505.040009	L2
+7	même	même	ADV	ADV	_	9	dep	_	_	505.040009	505.179993	L2
+8	t'	te	CLI	CLI	_	9	dep	_	_	505.179993	505.290009	L2
+9	inclure	inclure	VNF	VNF	_	6	dep	_	_	505.290009	505.679993	L2
+10	dans	dans	PRE	PRE	_	9	dep	_	_	505.679993	505.809998	L2
+11	je	je	CLS	CLS	_	12	subj	_	_	505.809998	505.890015	L2
+12	sais	savoir	VRB	VRB	_	10	dep	_	_	505.890015	506.000000	L2
+13	pas	pas	ADN	ADN	_	12	dep	_	_	506.000000	506.320007	L2
+14	ou	ou	COO	COO	_	15	mark	_	_	506.320007	506.679993	L2
+15	ranger	ranger	VNF	VNF	_	12	dep	_	_	506.679993	506.959991	L2
+16	ça	ça	PRO	PRO	_	15	dep	_	_	506.959991	507.119995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-168
+# text = chambre faire ses affaires des choses comme ça
+1	chambre	chambrer	VRB	VRB	_	0	root	_	_	507.119995	507.630005	L2
+2	faire	faire	VNF	VNF	_	1	dep	_	_	507.679993	507.779999	L2
+3	ses	son	DET	DET	_	4	spe	_	_	507.779999	508.010010	L2
+4	affaires	affaire	NOM	NOM	_	2	dep	_	_	508.010010	508.339996	L2
+5	des	de	PRE	PRE	_	2	dep	_	_	508.500000	508.559998	L2
+6	choses	chose	NOM	NOM	_	5	dep	_	_	508.559998	508.660004	L2
+7	comme	comme	PRE	PRE	_	6	dep	_	_	508.660004	508.809998	L2
+8	ça	ça	PRO	PRO	_	7	dep	_	_	508.809998	509.049988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-169
+# text = mh euh quelque part tu es intégré
+1	mh	mh	INT	INT	_	6	dm	_	_	507.929993	508.190002	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	509.519989	509.869995	L2
+3	quelque part	quelque part	ADV	ADV	_	6	periph	_	_	509.869995	510.359985	L2
+4	tu	tu	CLS	CLS	_	6	subj	_	_	510.359985	510.459991	L2
+5	es	être	VRB	VRB	_	6	aux	_	_	510.459991	510.540009	L2
+6	intégré	intégrer	VPP	VPP	_	0	root	_	_	510.540009	511.679993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-170
+# text = et euh si c'est quelqu' un que tu as que tu as pris en charge bah ça fait parti du du bah
+1	et	et	COO	COO	_	17	mark	_	_	511.839996	512.030029	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	512.030029	512.390015	L2
+3	si	si	CSU	CSU	_	17	periph	_	_	512.390015	512.530029	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	512.530029	512.599976	L2
+5	est	être	VRB	VRB	_	3	dep	_	_	512.599976	512.650024	L2
+6	quelqu' un	quelqu'un	PRO	PRO	_	5	dep	_	_	512.650024	512.960022	L2
+7	que	que	CSU	CSU	_	5	dep	_	_	512.960022	513.000000	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	513.000000	513.080017	L2
+9	as	avoir	VRB	VRB	_	7	dep	_	_	513.080017	513.419983	L2
+10	que	que	CSU	CSU	_	7	para	_	_	513.830017	513.989990	L2
+11	tu	tu	CLS	CLS	_	13	subj	_	_	513.989990	514.059998	L2
+12	as	avoir	VRB	VRB	_	13	aux	_	_	514.059998	514.159973	L2
+13	pris	-	VPP	VPP	_	10	dep	_	_	514.159973	514.380005	L2
+14	en charge	en charge	ADJ	ADJ	_	13	dep	_	_	514.380005	514.950012	L2
+15	bah	bah	INT	INT	_	14	dm	_	_	514.950012	515.140015	L2
+16	ça	ça	PRO	PRO	_	17	subj	_	_	515.140015	515.270020	L2
+17	fait	faire	VRB	VRB	_	18	aux	_	_	515.270020	515.419983	L2
+18	parti	partir	VPP	VPP	_	0	root	_	_	515.419983	515.849976	L2
+19	du	de+le	PRE	PRE	_	18	dep	_	_	515.849976	516.400024	L2
+20	du	de+le	PRE	PRE	_	19	para	_	_	516.840027	517.349976	L2
+21	bah	bah	INT	INT	_	20	dm	_	_	518.599976	518.809998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-171
+# text = voilà il est décédé
+1	voilà	voilà	INT	INT	_	4	dm	_	_	518.809998	519.030029	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	519.030029	519.150024	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	519.150024	519.260010	L2
+4	décédé	décéder	VPP	VPP	_	0	root	_	_	519.260010	519.789978	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-172
+# text = mais c'est ça s'arrête pas net euh comme ça euh
+1	mais	mais	COO	COO	_	3	mark	_	_	519.789978	520.059998	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	520.059998	520.090027	L2
+3	est	être	VRB	VRB	_	0	root	_	_	520.090027	520.150024	L2
+4	ça	ça	PRO	PRO	_	6	subj	_	_	520.150024	520.320007	L2
+5	s'	se	CLI	CLI	_	6	dep	_	_	520.320007	520.390015	L2
+6	arrête	arrêter	VRB	VRB	_	3	dep	_	_	520.390015	520.650024	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	520.650024	520.919983	L2
+8	net	net	ADJ	ADJ	_	6	dep	_	_	520.919983	521.229980	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	521.280029	521.520020	L2
+10	comme	comme	PRE	PRE	_	6	dep	_	_	521.520020	521.669983	L2
+11	ça	ça	PRO	PRO	_	10	dep	_	_	521.669983	521.960022	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	521.960022	522.369995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-173
+# text = donc tu fais
+1	donc	donc	ADV	ADV	_	3	periph	_	_	522.859985	523.090027	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	523.090027	523.280029	L2
+3	fais	faire	VRB	VRB	_	0	root	_	_	523.280029	523.750000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-174
+# text = oui c'est pas fini
+1	oui	oui	INT	INT	_	3	dm	_	_	521.280029	521.500000	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	521.500000	521.599976	L1
+3	est	être	VRB	VRB	_	0	root	_	_	521.599976	521.739990	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	521.739990	521.969971	L1
+5	fini	finir	VPP	VPP	_	3	dep	_	_	521.969971	522.309998	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-175
+# text = mais bon c'est
+1	mais	mais	COO	COO	_	4	mark	_	_	524.090027	524.250000	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	524.250000	524.479980	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	524.479980	524.520020	L2
+4	est	être	VRB	VRB	_	0	root	_	_	524.599976	524.909973	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-176
+# text = après tu fais tu fais aussi euh
+1	après	après	PRE	PRE	_	3	periph	_	_	525.729980	526.090027	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	526.090027	526.229980	L2
+3	fais	faire	VRB	VRB	_	0	root	_	_	526.229980	526.679993	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	526.679993	526.840027	L2
+5	fais	faire	VRB	VRB	_	3	para	_	_	526.840027	526.989990	L2
+6	aussi	aussi	ADV	ADV	_	5	dep	_	_	526.989990	527.469971	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	527.469971	527.659973	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-177
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	527.659973	528.380005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-178
+# text = si tu es entouré euh de ta si si tu es tout seul dans une ville que tu connais pas
+1	si	si	CSU	CSU	_	0	root	_	_	528.440002	528.599976	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	528.599976	528.710022	L2
+3	es	être	VRB	VRB	_	4	aux	_	_	528.710022	528.739990	L2
+4	entouré	entourer	VPP	VPP	_	1	dep	_	_	528.739990	529.280029	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	529.280029	529.409973	L2
+6	de	de	PRE	PRE	_	4	dep	_	_	529.409973	529.440002	L2
+7	ta	son	DET	DET	_	6	disflink	_	_	529.440002	529.849976	L2
+8	si	si	CSU	CSU	_	1	para	_	_	530.780029	531.030029	L2
+9	si	si	CSU	CSU	_	8	para	_	_	531.239990	531.409973	L2
+10	tu	tu	CLS	CLS	_	11	subj	_	_	531.409973	531.640015	L2
+11	es	être	VRB	VRB	_	9	dep	_	_	531.640015	531.760010	L2
+12	tout	tout	ADV	ADV	_	13	dep	_	_	531.760010	531.890015	L2
+13	seul	seul	ADJ	ADJ	_	11	dep	_	_	531.890015	532.099976	L2
+14	dans	dans	PRE	PRE	_	11	dep	_	_	532.099976	532.270020	L2
+15	une	un	DET	DET	_	16	spe	_	_	532.270020	532.400024	L2
+16	ville	ville	NOM	NOM	_	14	dep	_	_	532.400024	532.559998	L2
+17	que	que	CSU	CSU	_	11	dep	_	_	532.559998	532.690002	L2
+18	tu	tu	CLS	CLS	_	19	subj	_	_	532.690002	532.809998	L2
+19	connais	connaître	VRB	VRB	_	17	dep	_	_	532.809998	533.090027	L2
+20	pas	pas	ADN	ADN	_	19	dep	_	_	533.090027	533.469971	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-179
+# text = enfin tu vois
+1	enfin	enfin	ADV	ADV	_	0	root	_	_	533.549988	533.690002	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	533.690002	533.760010	L2
+3	vois	voir	VRB	VRB	_	1	dm	_	_	533.760010	533.940002	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-180
+# text = si il y a il y a plein de gens euh
+1	si	si	CSU	CSU	_	0	root	_	_	533.979980	534.080017	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	534.080017	534.109985	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	534.109985	534.159973	L2
+4	a	avoir	VRB	VRB	_	1	dep	_	_	534.159973	534.190002	L2
+5	il	il	CLS	CLS	_	7	subj	_	_	534.190002	534.260010	L2
+6	y	y	CLI	CLI	_	7	dep	_	_	534.260010	534.299988	L2
+7	a	avoir	VRB	VRB	_	4	para	_	_	534.299988	534.330017	L2
+8	plein	plein	ADJ	ADJ	_	7	dep	_	_	534.330017	534.520020	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	534.520020	534.549988	L2
+10	gens	gens	NOM	NOM	_	9	dep	_	_	534.549988	534.900024	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	534.900024	535.070007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-181
+# text = moi je suis parti à Lyon
+1	moi	moi	PRO	PRO	_	4	periph	_	_	535.270020	535.380005	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	535.380005	535.419983	L2
+3	suis	être	VRB	VRB	_	4	aux	_	_	535.530029	535.619995	L2
+4	parti	partir	VPP	VPP	_	0	root	_	_	535.619995	535.789978	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	535.789978	535.820007	L2
+6	Lyon	Lyon	NOM	NOM	_	5	dep	_	_	535.820007	535.969971	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-182
+# text = je j'aurais débarqué à Lyon tout seul en étant tout seul dans mon appart et en me tapant des situations glauques et des trucs comme ça
+1	je	je	CLS	CLS	_	4	subj	_	_	535.969971	536.299988	L2
+2	j'	je	CLS	CLS	_	1	para	_	_	536.299988	536.500000	L2
+3	aurais	avoir	VRB	VRB	_	4	aux	_	_	536.500000	536.659973	L2
+4	débarqué	débarquer	VPP	VPP	_	0	root	_	_	536.659973	537.039978	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	537.039978	537.099976	L2
+6	Lyon	Lyon	NOM	NOM	_	5	dep	_	_	537.099976	537.330017	L2
+7	tout	tout	ADV	ADV	_	8	dep	_	_	537.330017	537.489990	L2
+8	seul	seul	ADJ	ADJ	_	4	dep	_	_	537.489990	537.799988	L2
+9	en	en	PRE	PRE	_	4	dep	_	_	538.219971	538.330017	L2
+10	étant	être	VPR	VPR	_	9	dep	_	_	538.330017	538.539978	L2
+11	tout	tout	ADV	ADV	_	12	dep	_	_	538.539978	538.640015	L2
+12	seul	seul	ADJ	ADJ	_	10	dep	_	_	538.710022	538.840027	L2
+13	dans	dans	PRE	PRE	_	10	dep	_	_	538.840027	538.940002	L2
+14	mon	son	DET	DET	_	15	spe	_	_	538.940002	539.090027	L2
+15	appart	appart	NOM	NOM	_	13	dep	_	_	539.090027	539.549988	L2
+16	et	et	COO	COO	_	17	mark	_	_	539.549988	539.580017	L2
+17	en	en	PRE	PRE	_	9	para	_	_	539.580017	539.640015	L2
+18	me	me	CLI	CLI	_	19	dep	_	_	539.700012	539.719971	L2
+19	tapant	se taper	VPR	VPR	_	17	dep	_	_	539.719971	540.030029	L2
+20	des	de	PRE	PRE	_	19	dep	_	_	540.200012	540.260010	L2
+21	situations	situation	NOM	NOM	_	20	dep	_	_	540.260010	540.700012	L2
+22	glauques	glauque	ADJ	ADJ	_	21	dep	_	_	540.700012	541.049988	L2
+23	et	et	COO	COO	_	24	mark	_	_	541.049988	541.140015	L2
+24	des	de	PRE	PRE	_	20	para	_	_	541.140015	541.200012	L2
+25	trucs	truc	NOM	NOM	_	24	dep	_	_	541.200012	541.380005	L2
+26	comme	comme	PRE	PRE	_	25	dep	_	_	541.380005	541.479980	L2
+27	ça	ça	PRO	PRO	_	26	dep	_	_	541.479980	541.739990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-183
+# text = tu rentres chez toi même si t'a~ tu avais l'équipe avec toi si tu rentres chez toi et que tu te retrouves tout seul et que tu vas te caler devant la télé
+1	tu	tu	CLS	CLS	_	2	subj	_	_	542.090027	542.190002	L2
+2	rentres	rentrer	VRB	VRB	_	0	root	_	_	542.190002	542.349976	L2
+3	chez	chez	PRE	PRE	_	2	dep	_	_	542.349976	542.500000	L2
+4	toi	moi	PRO	PRO	_	3	dep	_	_	542.500000	542.669983	L2
+5	même	même	ADV	ADV	_	6	dep	_	_	542.669983	542.830017	L2
+6	si	si	CSU	CSU	_	2	dep	_	_	542.869995	543.049988	L2
+7	t'	te	CLI	CLI	_	8	dep	_	_	543.049988	543.130005	L2
+8	a~	a~	X	X	_	6	dep	_	_	543.130005	543.539978	L2
+9	tu	tu	CLS	CLS	_	10	subj	_	_	543.539978	543.650024	L2
+10	avais	avoir	VRB	VRB	_	6	dep	_	_	543.650024	543.929993	L2
+11	l'	le	DET	DET	_	12	spe	_	_	543.929993	543.969971	L2
+12	équipe	équipe	NOM	NOM	_	10	dep	_	_	543.969971	544.280029	L2
+13	avec	avec	PRE	PRE	_	12	dep	_	_	544.280029	544.489990	L2
+14	toi	moi	PRO	PRO	_	13	dep	_	_	544.489990	544.780029	L2
+15	si	si	CSU	CSU	_	6	para	_	_	545.099976	545.179993	L2
+16	tu	tu	CLS	CLS	_	17	subj	_	_	545.179993	545.239990	L2
+17	rentres	rentrer	VRB	VRB	_	15	dep	_	_	545.239990	545.359985	L2
+18	chez	chez	PRE	PRE	_	17	dep	_	_	545.359985	545.489990	L2
+19	toi	moi	PRO	PRO	_	18	dep	_	_	545.489990	545.690002	L2
+20	et	et	COO	COO	_	21	mark	_	_	545.690002	545.719971	L2
+21	que	que	CSU	CSU	_	15	para	_	_	545.719971	545.760010	L2
+22	tu	tu	CLS	CLS	_	24	subj	_	_	545.760010	546.159973	L2
+23	te	te	CLI	CLI	_	24	dep	_	_	546.159973	546.260010	L2
+24	retrouves	retrouver	VRB	VRB	_	21	dep	_	_	546.330017	546.619995	L2
+25	tout	tout	ADV	ADV	_	26	dep	_	_	546.619995	546.770020	L2
+26	seul	seul	ADJ	ADJ	_	24	dep	_	_	546.770020	547.020020	L2
+27	et	et	COO	COO	_	28	mark	_	_	547.070007	547.099976	L2
+28	que	que	CSU	CSU	_	21	para	_	_	547.099976	547.130005	L2
+29	tu	tu	CLS	CLS	_	30	subj	_	_	547.130005	547.190002	L2
+30	vas	aller	VRB	VRB	_	28	dep	_	_	547.190002	547.250000	L2
+31	te	te	CLI	CLI	_	32	dep	_	_	547.320007	547.380005	L2
+32	caler	caler	VNF	VNF	_	30	dep	_	_	547.380005	547.539978	L2
+33	devant	devant	PRE	PRE	_	32	dep	_	_	547.539978	547.690002	L2
+34	la	le	DET	DET	_	35	spe	_	_	547.690002	547.799988	L2
+35	télé	télé	NOM	NOM	_	33	dep	_	_	547.799988	548.059998	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-184
+# text = c'est à mon avis c'est moins gérable que
+1	c'	ce	CLS	CLS	_	2	subj	_	_	548.539978	548.570007	L2
+2	est	être	VRB	VRB	_	0	root	_	_	548.570007	548.599976	L2
+3	à	à	PRE	PRE	_	2	dep	_	_	548.599976	548.630005	L2
+4	mon	son	DET	DET	_	5	spe	_	_	548.630005	549.010010	L2
+5	avis	avis	NOM	NOM	_	3	dep	_	_	549.010010	549.200012	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	549.200012	549.299988	L2
+7	est	être	VRB	VRB	_	2	para	_	_	549.299988	549.359985	L2
+8	moins	moins	ADV	ADV	_	9	dep	_	_	549.359985	549.840027	L2
+9	gérable	gérable	ADJ	ADJ	_	7	dep	_	_	549.840027	550.369995	L2
+10	que	que	CSU	CSU	_	9	dep	_	_	550.369995	550.799988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-185
+# text = si tu rentres et que tu vis avec ta copine ou que tu rentres et que tu vas retrouver tes potes et que et voilà tu tu peux
+1	si	si	CSU	CSU	_	0	root	_	_	550.979980	551.349976	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	551.349976	551.500000	L2
+3	rentres	rentrer	VRB	VRB	_	1	dep	_	_	551.500000	551.859985	L2
+4	et	et	COO	COO	_	5	mark	_	_	551.859985	551.940002	L2
+5	que	que	CSU	CSU	_	1	para	_	_	551.940002	552.580017	L2
+6	tu	tu	CLS	CLS	_	7	subj	_	_	552.580017	552.750000	L2
+7	vis	vivre	VRB	VRB	_	5	dep	_	_	552.750000	552.859985	L2
+8	avec	avec	PRE	PRE	_	7	dep	_	_	552.859985	553.010010	L2
+9	ta	son	DET	DET	_	10	spe	_	_	553.010010	553.130005	L2
+10	copine	copine	NOM	NOM	_	8	dep	_	_	553.190002	553.770020	L2
+11	ou	ou	COO	COO	_	12	mark	_	_	553.859985	553.890015	L2
+12	que	que	CSU	CSU	_	5	para	_	_	553.890015	553.919983	L2
+13	tu	tu	CLS	CLS	_	14	subj	_	_	553.919983	554.010010	L2
+14	rentres	rentrer	VRB	VRB	_	12	dep	_	_	554.010010	554.340027	L2
+15	et	et	COO	COO	_	16	mark	_	_	554.340027	554.429993	L2
+16	que	que	CSU	CSU	_	12	para	_	_	554.429993	554.460022	L2
+17	tu	tu	CLS	CLS	_	18	subj	_	_	554.460022	554.580017	L2
+18	vas	aller	VRB	VRB	_	16	dep	_	_	554.580017	554.700012	L2
+19	retrouver	retrouver	VNF	VNF	_	18	dep	_	_	554.700012	554.989990	L2
+20	tes	son	DET	DET	_	21	spe	_	_	554.989990	555.200012	L2
+21	potes	pote	NOM	NOM	_	19	dep	_	_	555.200012	555.520020	L2
+22	et	et	COO	COO	_	23	mark	_	_	555.520020	555.599976	L2
+23	que	que	CSU	CSU	_	16	para	_	_	555.599976	556.030029	L2
+24	et	et	COO	COO	_	28	mark	_	_	556.500000	556.650024	L2
+25	voilà	voilà	INT	INT	_	24	dm	_	_	556.650024	556.940002	L2
+26	tu	tu	CLS	CLS	_	28	subj	_	_	556.940002	557.190002	L2
+27	tu	tu	CLS	CLS	_	26	para	_	_	557.190002	557.340027	L2
+28	peux	pouvoir	VRB	VRB	_	23	dep	_	_	557.340027	558.150024	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-186
+# text = ça
+1	ça	ça	PRO	PRO	_	0	root	_	_	558.570007	558.809998	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-187
+# text = un poids vraiment personnel comme travail
+1	un	un	DET	DET	_	2	spe	_	_	558.809998	558.969971	L1
+2	poids	poids	NOM	NOM	_	0	root	_	_	558.969971	559.270020	L1
+3	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	559.270020	559.809998	L1
+4	personnel	personnel	ADJ	ADJ	_	2	dep	_	_	559.809998	560.320007	L1
+5	comme	comme	PRE	PRE	_	2	dep	_	_	560.400024	560.510010	L1
+6	travail	travail	NOM	NOM	_	5	dep	_	_	560.510010	560.739990	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-188
+# text = enfin ça des répercussions euh quand quand tu rentres de ton travail il il est pas juste
+1	enfin	enfin	ADV	ADV	_	15	dm	_	_	560.739990	560.919983	L1
+2	ça	ça	PRO	PRO	_	15	periph	_	_	560.919983	561.080017	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	561.080017	561.210022	L1
+4	répercussions	répercussion	NOM	NOM	_	3	dep	_	_	561.210022	562.159973	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	562.159973	562.210022	L1
+6	quand	quand	CSU	CSU	_	15	periph	_	_	562.880005	563.049988	L1
+7	quand	quand	CSU	CSU	_	6	para	_	_	563.159973	563.760010	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	563.809998	563.869995	L1
+9	rentres	rentrer	VRB	VRB	_	7	dep	_	_	563.869995	564.010010	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	564.010010	564.039978	L1
+11	ton	son	DET	DET	_	12	spe	_	_	564.039978	564.099976	L1
+12	travail	travail	NOM	NOM	_	10	dep	_	_	564.099976	564.280029	L1
+13	il	il	CLS	CLS	_	15	subj	_	_	564.280029	564.429993	L1
+14	il	il	CLS	CLS	_	13	para	_	_	564.429993	564.619995	L1
+15	est	être	VRB	VRB	_	0	root	_	_	564.619995	564.700012	L1
+16	pas	pas	ADN	ADN	_	15	dep	_	_	564.700012	564.929993	L1
+17	juste	juste	ADV	ADV	_	15	dep	_	_	564.929993	565.109985	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-189
+# text = enfin peut être que vous vous y arrivez
+1	enfin	enfin	ADV	ADV	_	2	dep	_	_	565.179993	565.510010	L1
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	565.669983	565.750000	L1
+3	être	être	VNF	VNF	_	2	dep	_	_	565.750000	565.849976	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	565.849976	565.929993	L1
+5	vous	vous	CLS	CLS	_	8	subj	_	_	565.929993	565.989990	L1
+6	vous	vous	CLI	CLI	_	8	dep	_	_	565.989990	566.340027	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	566.429993	566.479980	L1
+8	arrivez	arriver	VRB	VRB	_	4	dep	_	_	566.479980	566.750000	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-190
+# text = mais il est pas derrière toi euh
+1	mais	mais	COO	COO	_	3	mark	_	_	566.750000	566.840027	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	566.840027	566.919983	L1
+3	est	être	VRB	VRB	_	0	root	_	_	566.919983	566.979980	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	566.979980	567.130005	L1
+5	derrière	derrière	PRE	PRE	_	3	dep	_	_	567.130005	567.559998	L1
+6	toi	moi	PRO	PRO	_	5	dep	_	_	567.559998	567.780029	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	567.780029	568.070007	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-191
+# text = ouais après bah ça tu apprends ça ouais
+1	ouais	ouais	INT	INT	_	6	dm	_	_	562.710022	562.940002	L2
+2	après	après	PRE	PRE	_	6	periph	_	_	562.940002	563.690002	L2
+3	bah	bah	INT	INT	_	2	dm	_	_	568.210022	568.349976	L2
+4	ça	ça	PRO	PRO	_	6	periph	_	_	568.349976	568.510010	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	568.510010	568.570007	L2
+6	apprends	apprendre	VRB	VRB	_	0	root	_	_	568.570007	568.919983	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	568.919983	569.299988	L2
+8	ouais	ouais	INT	INT	_	7	dm	_	_	569.299988	569.479980	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-192
+# text = on apprend ça au fur et à mesure euh là euh
+1	on	on	CLS	CLS	_	2	subj	_	_	569.479980	569.679993	L2
+2	apprend	apprendre	VRB	VRB	_	0	root	_	_	569.679993	569.900024	L2
+3	ça	ça	PRO	PRO	_	2	dep	_	_	569.900024	570.030029	L2
+4	au fur et à mesure	au fur et à mesure	ADV	ADV	_	2	dep	_	_	570.030029	570.849976	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	570.919983	571.119995	L2
+6	là	là	ADV	ADV	_	2	dep	_	_	571.119995	571.580017	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	571.580017	572.020020	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-193
+# text = j'ai fait trois ans et demi de formation
+1	j'	je	CLS	CLS	_	3	subj	_	_	572.020020	572.169983	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	572.169983	572.200012	L2
+3	fait	faire	VPP	VPP	_	0	root	_	_	572.200012	572.359985	L2
+4	trois	trois	NUM	NUM	_	5	spe	_	_	572.359985	572.669983	L2
+5	ans	an	NOM	NOM	_	3	dep	_	_	572.669983	572.770020	L2
+6	et	et	COO	COO	_	7	mark	_	_	572.770020	572.830017	L2
+7	demi	demi	ADJ	ADJ	_	5	para	_	_	572.830017	573.020020	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	573.020020	573.049988	L2
+9	formation	formation	NOM	NOM	_	8	dep	_	_	573.049988	573.700012	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-194
+# text = je suis pas persuadé que je sois capable encore de faire euh de faire justement le distinguo de
+1	je	je	CLS	CLS	_	4	subj	_	_	573.750000	573.789978	L2
+2	suis	être	VRB	VRB	_	4	aux	_	_	573.789978	573.880005	L2
+3	pas	pas	ADN	ADN	_	4	dep	_	_	573.880005	574.000000	L2
+4	persuadé	persuader	VPP	VPP	_	0	root	_	_	574.000000	574.539978	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	574.539978	574.580017	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	574.580017	574.770020	L2
+7	sois	être	VRB	VRB	_	5	dep	_	_	574.770020	575.000000	L2
+8	capable	capable	ADJ	ADJ	_	7	dep	_	_	575.000000	575.369995	L2
+9	encore	encore	ADV	ADV	_	7	dep	_	_	575.369995	575.599976	L2
+10	de	de	PRE	PRE	_	7	dep	_	_	575.599976	575.630005	L2
+11	faire	faire	VNF	VNF	_	10	dep	_	_	575.710022	576.039978	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	576.039978	576.070007	L2
+13	de	de	PRE	PRE	_	10	para	_	_	576.549988	576.729980	L2
+14	faire	faire	VNF	VNF	_	13	dep	_	_	576.729980	576.909973	L2
+15	justement	justement	ADV	ADV	_	14	dep	_	_	576.909973	577.390015	L2
+16	le	le	DET	DET	_	17	spe	_	_	577.390015	577.460022	L2
+17	distinguo	distinguo	NOM	NOM	_	14	dep	_	_	577.460022	577.979980	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	577.979980	578.369995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-195
+# text = je sors du boulot
+1	je	je	CLS	CLS	_	2	subj	_	_	578.369995	578.500000	L2
+2	sors	sortir	VRB	VRB	_	0	root	_	_	578.500000	578.650024	L2
+3	du	de+le	PRE	PRE	_	2	dep	_	_	578.650024	578.760010	L2
+4	boulot	boulot	NOM	NOM	_	3	dep	_	_	578.760010	578.989990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-196
+# text = j'ai fini le travail
+1	j'	je	CLS	CLS	_	3	subj	_	_	579.150024	579.179993	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	579.179993	579.210022	L2
+3	fini	finir	VPP	VPP	_	0	root	_	_	579.210022	579.330017	L2
+4	le	le	DET	DET	_	5	spe	_	_	579.330017	579.359985	L2
+5	travail	travail	NOM	NOM	_	3	dep	_	_	579.359985	579.840027	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-197
+# text = et je pense à autre chose quoi
+1	et	et	COO	COO	_	3	mark	_	_	579.840027	579.869995	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	579.869995	580.049988	L2
+3	pense	penser	VRB	VRB	_	0	root	_	_	580.049988	580.169983	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	580.169983	580.200012	L2
+5	autre	autre	ADJ	ADJ	_	6	dep	_	_	580.200012	580.309998	L2
+6	chose	chose	NOM	NOM	_	4	dep	_	_	580.349976	580.530029	L2
+7	quoi	quoi	INT	INT	_	6	dm	_	_	580.619995	580.739990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-198
+# text = bien sûr bien sûr oui euh bah je rentre je passe à autre chose euh euh
+1	bien	bien	ADV	ADV	_	3	dep	_	_	581.280029	581.400024	L2
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	581.400024	581.940002	L2
+3	bien	bien	ADV	ADV	_	9	periph	_	_	582.380005	582.530029	L2
+4	sûr	sûr	ADJ	ADJ	_	3	morph	_	_	582.530029	582.739990	L2
+5	oui	oui	INT	INT	_	4	dm	_	_	582.739990	583.020020	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	583.020020	583.400024	L2
+7	bah	bah	INT	INT	_	6	dm	_	_	583.400024	583.559998	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	583.559998	584.080017	L2
+9	rentre	rentrer	VRB	VRB	_	0	root	_	_	584.250000	584.700012	L2
+10	je	je	CLS	CLS	_	11	subj	_	_	584.700012	584.849976	L2
+11	passe	passer	VRB	VRB	_	9	para	_	_	584.900024	585.169983	L2
+12	à	à	PRE	PRE	_	11	dep	_	_	585.169983	585.200012	L2
+13	autre	autre	ADJ	ADJ	_	14	dep	_	_	585.200012	585.289978	L2
+14	chose	chose	NOM	NOM	_	12	dep	_	_	585.349976	585.840027	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	585.840027	585.919983	L2
+16	euh	euh	INT	INT	_	15	dm	_	_	586.250000	586.409973	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-199
+# text = je vois des potes ou je vois ma copine ou ou je fais des trucs
+1	je	je	CLS	CLS	_	2	subj	_	_	586.409973	586.520020	L2
+2	vois	voir	VRB	VRB	_	0	root	_	_	586.520020	586.650024	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	586.650024	586.840027	L2
+4	potes	pote	NOM	NOM	_	3	dep	_	_	586.840027	587.260010	L2
+5	ou	ou	COO	COO	_	7	mark	_	_	587.260010	587.380005	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	587.590027	587.640015	L2
+7	vois	voir	VRB	VRB	_	2	para	_	_	587.640015	587.809998	L2
+8	ma	son	DET	DET	_	9	spe	_	_	587.809998	587.929993	L2
+9	copine	copine	NOM	NOM	_	7	dep	_	_	587.929993	588.539978	L2
+10	ou	ou	COO	COO	_	13	mark	_	_	588.539978	588.890015	L2
+11	ou	ou	COO	COO	_	10	para	_	_	589.049988	589.080017	L2
+12	je	je	CLS	CLS	_	13	subj	_	_	589.080017	589.109985	L2
+13	fais	faire	VRB	VRB	_	7	para	_	_	589.109985	589.169983	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	589.169983	589.280029	L2
+15	trucs	truc	NOM	NOM	_	14	dep	_	_	589.280029	589.619995	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-200
+# text = mais euh c'est sûr qu'il y a deux trois situations
+1	mais	mais	COO	COO	_	4	mark	_	_	589.619995	589.799988	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	589.799988	589.919983	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	590.489990	590.520020	L2
+4	est	être	VRB	VRB	_	0	root	_	_	590.520020	590.549988	L2
+5	sûr	sûr	ADJ	ADJ	_	4	dep	_	_	590.549988	590.640015	L2
+6	qu'	que	CSU	CSU	_	5	dep	_	_	590.640015	590.669983	L2
+7	il	il	CLS	CLS	_	9	subj	_	_	590.669983	590.729980	L2
+8	y	y	CLI	CLI	_	9	dep	_	_	590.729980	590.760010	L2
+9	a	avoir	VRB	VRB	_	6	dep	_	_	590.760010	590.789978	L2
+10	deux	deux	NUM	NUM	_	12	spe	_	_	590.789978	590.849976	L2
+11	trois	trois	NUM	NUM	_	10	dep	_	_	590.849976	590.969971	L2
+12	situations	situation	NOM	NOM	_	9	dep	_	_	590.969971	591.549988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-201
+# text = il y a deux trois trucs où où tu es amené à repenser comme ça des situations euh pas forcément un décès euh
+1	il	il	CLS	CLS	_	3	subj	_	_	591.549988	591.619995	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	591.619995	591.650024	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	591.650024	591.729980	L2
+4	deux	deux	NUM	NUM	_	6	spe	_	_	591.729980	591.820007	L2
+5	trois	trois	NUM	NUM	_	4	dep	_	_	591.820007	592.000000	L2
+6	trucs	truc	NOM	NOM	_	3	dep	_	_	592.000000	592.299988	L2
+7	où	où	PRQ	PRQ	_	11	dep	_	_	592.299988	592.690002	L2
+8	où	où	PRQ	PRQ	_	7	para	_	_	592.929993	593.210022	L2
+9	tu	tu	CLS	CLS	_	11	subj	_	_	593.210022	593.330017	L2
+10	es	être	VRB	VRB	_	11	aux	_	_	593.330017	593.369995	L2
+11	amené	amener	VPP	VPP	_	6	dep	_	_	593.369995	593.719971	L2
+12	à	à	PRE	PRE	_	11	dep	_	_	593.719971	593.830017	L2
+13	repenser	repenser	VNF	VNF	_	12	dep	_	_	593.830017	594.380005	L2
+14	comme	comme	PRE	PRE	_	13	dep	_	_	594.380005	594.549988	L2
+15	ça	ça	PRO	PRO	_	14	dep	_	_	594.549988	594.960022	L2
+16	des	de	PRE	PRE	_	13	dep	_	_	594.960022	595.070007	L2
+17	situations	situation	NOM	NOM	_	16	dep	_	_	595.070007	595.960022	L2
+18	euh	euh	INT	INT	_	17	dm	_	_	595.960022	596.109985	L2
+19	pas	pas	ADN	ADN	_	20	dep	_	_	596.559998	596.619995	L2
+20	forcément	forcément	ADV	ADV	_	13	dep	_	_	596.619995	597.020020	L2
+21	un	un	DET	DET	_	22	spe	_	_	597.020020	597.080017	L2
+22	décès	décès	NOM	NOM	_	13	dep	_	_	597.080017	597.489990	L2
+23	euh	euh	INT	INT	_	22	dm	_	_	597.489990	597.799988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-202
+# text = même euh tu vas euh euh
+1	même	même	ADV	ADV	_	4	periph	_	_	597.799988	598.270020	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	598.270020	598.330017	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	598.330017	598.479980	L2
+4	vas	aller	VRB	VRB	_	0	root	_	_	598.479980	598.820007	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	598.820007	598.950012	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	599.479980	599.549988	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-203
+# text = je sais pas moi dans des services où tu peux être confronté à de la violence physique ou verbale de la psychiatrie des services de consultation ou ou même des services d'hospitalisation hein quand tu mh quand tu es hospitalisé que tu te retrouves à moitié tout seul ou enfermé ou que tu peux pas bouger tout ça bah des fois euh
+1	je	je	CLS	CLS	_	2	subj	_	_	599.549988	599.979980	L2
+2	sais	savoir	VRB	VRB	_	0	root	_	_	600.049988	600.130005	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	600.190002	600.349976	L2
+4	moi	moi	PRO	PRO	_	2	periph	_	_	600.349976	600.640015	L2
+5	dans	dans	PRE	PRE	_	2	dep	_	_	600.640015	600.799988	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	600.799988	600.900024	L2
+7	services	service	NOM	NOM	_	6	dep	_	_	600.900024	601.289978	L2
+8	où	où	PRQ	PRQ	_	10	dep	_	_	601.289978	601.320007	L2
+9	tu	tu	CLS	CLS	_	10	subj	_	_	601.390015	601.440002	L2
+10	peux	pouvoir	VRB	VRB	_	7	dep	_	_	601.489990	601.570007	L2
+11	être	être	VNF	VNF	_	12	aux	_	_	601.570007	601.659973	L2
+12	confronté	confronter	VPP	VPP	_	10	dep	_	_	601.659973	602.090027	L2
+13	à	à	PRE	PRE	_	12	dep	_	_	602.219971	602.659973	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	602.940002	603.039978	L2
+15	la	le	DET	DET	_	16	spe	_	_	603.039978	603.130005	L2
+16	violence	violence	NOM	NOM	_	14	dep	_	_	603.130005	603.580017	L2
+17	physique	physique	ADJ	ADJ	_	16	dep	_	_	603.580017	604.030029	L2
+18	ou	ou	COO	COO	_	19	mark	_	_	604.030029	604.090027	L2
+19	verbale	verbal	ADJ	ADJ	_	17	para	_	_	604.090027	604.760010	L2
+20	de	de	PRE	PRE	_	19	dep	_	_	604.840027	604.869995	L2
+21	la	le	DET	DET	_	22	spe	_	_	604.869995	604.929993	L2
+22	psychiatrie	psychiatrie	NOM	NOM	_	20	dep	_	_	604.929993	605.729980	L2
+23	des	de	PRE	PRE	_	22	dep	_	_	605.729980	605.849976	L2
+24	services	service	NOM	NOM	_	23	dep	_	_	605.919983	606.150024	L2
+25	de	de	PRE	PRE	_	24	dep	_	_	606.150024	606.289978	L2
+26	consultation	consultation	NOM	NOM	_	25	dep	_	_	606.289978	607.440002	L2
+27	ou	ou	COO	COO	_	30	mark	_	_	607.440002	607.580017	L2
+28	ou	ou	COO	COO	_	27	para	_	_	607.890015	607.929993	L2
+29	même	même	ADV	ADV	_	30	dep	_	_	607.929993	608.039978	L2
+30	des	de	PRE	PRE	_	26	para	_	_	608.039978	608.159973	L2
+31	services	service	NOM	NOM	_	30	dep	_	_	608.159973	608.549988	L2
+32	d'	de	PRE	PRE	_	31	dep	_	_	608.549988	608.599976	L2
+33	hospitalisation	hospitalisation	NOM	NOM	_	32	dep	_	_	608.599976	609.599976	L2
+34	hein	hein	INT	INT	_	33	dm	_	_	609.599976	609.809998	L2
+35	quand	quand	CSU	CSU	_	12	dep	_	_	609.890015	610.030029	L2
+36	tu	tu	CLS	CLS	_	35	disflink	_	_	610.030029	610.159973	L2
+37	mh	mh	INT	INT	_	36	dm	_	_	609.859985	610.099976	L2
+38	quand	quand	CSU	CSU	_	35	para	_	_	610.669983	610.830017	L2
+39	tu	tu	CLS	CLS	_	41	subj	_	_	610.830017	610.919983	L2
+40	es	être	VRB	VRB	_	41	aux	_	_	610.919983	610.950012	L2
+41	hospitalisé	hospitaliser	VPP	VPP	_	38	dep	_	_	610.950012	611.940002	L2
+42	que	que	CSU	CSU	_	41	dep	_	_	611.940002	612.130005	L2
+43	tu	tu	CLS	CLS	_	45	subj	_	_	612.130005	612.239990	L2
+44	te	te	CLI	CLI	_	45	dep	_	_	612.239990	612.309998	L2
+45	retrouves	retrouver	VRB	VRB	_	42	dep	_	_	612.309998	612.820007	L2
+46	à moitié	à moitié	ADV	ADV	_	45	dep	_	_	612.820007	613.169983	L2
+47	tout	tout	ADV	ADV	_	48	dep	_	_	613.169983	613.340027	L2
+48	seul	seul	ADJ	ADJ	_	45	dep	_	_	613.409973	613.760010	L2
+49	ou	ou	COO	COO	_	50	mark	_	_	613.809998	613.929993	L2
+50	enfermé	enfermer	VPP	VPP	_	48	para	_	_	613.929993	614.690002	L2
+51	ou	ou	COO	COO	_	52	mark	_	_	614.690002	614.750000	L2
+52	que	que	CSU	CSU	_	50	dep	_	_	614.750000	614.809998	L2
+53	tu	tu	CLS	CLS	_	54	subj	_	_	614.809998	614.900024	L2
+54	peux	pouvoir	VRB	VRB	_	52	dep	_	_	614.940002	615.049988	L2
+55	pas	pas	ADN	ADN	_	54	dep	_	_	615.049988	615.159973	L2
+56	bouger	bouger	VNF	VNF	_	54	dep	_	_	615.159973	615.520020	L2
+57	tout	tout	ADJ	ADJ	_	58	dep	_	_	615.520020	615.590027	L2
+58	ça	ça	PRO	PRO	_	56	dep	_	_	615.650024	615.900024	L2
+59	bah	bah	INT	INT	_	58	dm	_	_	615.900024	616.109985	L2
+60	des	de	PRE	PRE	_	56	dep	_	_	616.109985	616.210022	L2
+61	fois	foi	NOM	NOM	_	60	dep	_	_	616.210022	616.609985	L2
+62	euh	euh	INT	INT	_	61	dm	_	_	616.609985	616.640015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-204
+# text = bah ouais des fois tu aurais besoin de de de te décharger bah qui c'est que tu as en face de toi euh
+1	bah	bah	INT	INT	_	6	dm	_	_	617.390015	617.580017	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	617.580017	617.739990	L2
+3	des	de	PRE	PRE	_	6	periph	_	_	617.739990	617.840027	L2
+4	fois	foi	NOM	NOM	_	3	dep	_	_	617.840027	618.020020	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	618.020020	618.140015	L2
+6	aurais	avoir	VRB	VRB	_	0	root	_	_	618.140015	618.250000	L2
+7	besoin	besoin	NOM	NOM	_	6	dep	_	_	618.250000	618.570007	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	618.570007	618.950012	L2
+9	de	de	PRE	PRE	_	8	para	_	_	619.390015	620.159973	L2
+10	de	de	PRE	PRE	_	9	para	_	_	620.890015	621.090027	L2
+11	te	te	CLI	CLI	_	12	dep	_	_	621.090027	621.119995	L2
+12	décharger	décharger	VNF	VNF	_	10	dep	_	_	621.119995	621.840027	L2
+13	bah	bah	INT	INT	_	12	dm	_	_	621.840027	622.099976	L2
+14	qui	qui	PRQ	PRQ	_	16	dep	_	_	622.099976	622.200012	L2
+15	c'	ce	CLS	CLS	_	16	subj	_	_	622.260010	622.369995	L2
+16	est	être	VRB	VRB	_	7	dep	_	_	622.369995	622.409973	L2
+17	que	que	CSU	CSU	_	16	dep	_	_	622.409973	622.469971	L2
+18	tu	tu	CLS	CLS	_	19	subj	_	_	622.469971	622.559998	L2
+19	as	avoir	VRB	VRB	_	17	dep	_	_	622.559998	622.590027	L2
+20	en	en	PRE	PRE	_	19	dep	_	_	622.590027	622.690002	L2
+21	face	face	NOM	NOM	_	20	dep	_	_	622.690002	622.929993	L2
+22	de	de	PRE	PRE	_	21	dep	_	_	622.929993	623.080017	L2
+23	toi	moi	PRO	PRO	_	22	dep	_	_	623.080017	623.380005	L2
+24	euh	euh	INT	INT	_	23	dm	_	_	623.380005	623.479980	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-205
+# text = généralement euh c'est les soignants c'est les aides soignants les les infirmiers euh des fois le médecin aussi quoi
+1	généralement	généralement	ADV	ADV	_	4	periph	_	_	623.479980	624.309998	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	624.309998	624.650024	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	624.739990	624.770020	L2
+4	est	être	VRB	VRB	_	0	root	_	_	624.770020	624.840027	L2
+5	les	le	DET	DET	_	6	spe	_	_	624.840027	624.919983	L2
+6	soignants	soignant	NOM	NOM	_	4	dep	_	_	624.919983	625.409973	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	625.409973	625.450012	L2
+8	est	être	VRB	VRB	_	4	para	_	_	625.450012	625.500000	L2
+9	les	le	DET	DET	_	10	spe	_	_	625.500000	625.640015	L2
+10	aides	aide	NOM	NOM	_	8	dep	_	_	625.640015	625.739990	L2
+11	soignants	soignant	ADJ	ADJ	_	10	dep	_	_	625.739990	626.340027	L2
+12	les	le	DET	DET	_	14	spe	_	_	626.340027	626.690002	L2
+13	les	le	DET	DET	_	12	para	_	_	627.130005	627.219971	L2
+14	infirmiers	infirmier	NOM	NOM	_	8	dep	_	_	627.280029	628.299988	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	628.299988	628.340027	L2
+16	des	de	PRE	PRE	_	8	dep	_	_	628.799988	628.859985	L2
+17	fois	foi	NOM	NOM	_	16	dep	_	_	628.859985	629.070007	L2
+18	le	le	DET	DET	_	19	spe	_	_	629.070007	629.119995	L2
+19	médecin	médecin	NOM	NOM	_	8	dep	_	_	629.119995	629.450012	L2
+20	aussi	aussi	ADV	ADV	_	8	dep	_	_	629.450012	629.770020	L2
+21	quoi	quoi	INT	INT	_	20	dm	_	_	629.770020	629.919983	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-206
+# text = mais euh tu te prends un peu des trucs
+1	mais	mais	COO	COO	_	5	mark	_	_	629.919983	630.159973	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	630.159973	630.340027	L2
+3	tu	tu	CLS	CLS	_	5	subj	_	_	631.590027	631.729980	L2
+4	te	te	CLI	CLI	_	5	dep	_	_	631.729980	631.760010	L2
+5	prends	prendre	VRB	VRB	_	0	root	_	_	631.760010	632.000000	L2
+6	un peu	un peu	ADV	ADV	_	5	dep	_	_	632.000000	632.200012	L2
+7	des	de	PRE	PRE	_	5	dep	_	_	632.200012	632.320007	L2
+8	trucs	truc	NOM	NOM	_	7	dep	_	_	632.320007	632.570007	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-207
+# text = donc euh après c'est euh c'est ouais c'est des choses
+1	donc	donc	ADV	ADV	_	5	periph	_	_	632.570007	632.869995	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	632.869995	633.200012	L2
+3	après	après	ADV	ADV	_	5	periph	_	_	633.489990	633.789978	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	633.789978	633.869995	L2
+5	est	être	VRB	VRB	_	0	root	_	_	633.869995	634.049988	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	634.049988	634.250000	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	635.929993	635.960022	L2
+8	est	être	VRB	VRB	_	5	para	_	_	636.020020	636.150024	L2
+9	ouais	ouais	INT	INT	_	8	dm	_	_	636.150024	636.369995	L2
+10	c'	ce	CLS	CLS	_	11	subj	_	_	636.369995	636.400024	L2
+11	est	être	VRB	VRB	_	8	para	_	_	636.400024	636.570007	L2
+12	des	de	PRE	PRE	_	11	dep	_	_	636.570007	636.640015	L2
+13	choses	chose	NOM	NOM	_	12	dep	_	_	636.640015	637.179993	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-208
+# text = tu a~ tu apprends tu te blindes pas forcément
+1	tu	tu	CLS	CLS	_	4	subj	_	_	637.179993	637.260010	L2
+2	a~	a~	X	X	_	1	disflink	_	_	637.260010	637.390015	L2
+3	tu	tu	CLS	CLS	_	1	para	_	_	637.390015	637.460022	L2
+4	apprends	apprendre	VRB	VRB	_	0	root	_	_	637.460022	638.140015	L2
+5	tu	tu	CLS	CLS	_	7	subj	_	_	638.140015	638.299988	L2
+6	te	te	CLI	CLI	_	7	dep	_	_	638.299988	638.330017	L2
+7	blindes	blinde	NOM	NOM	_	4	dep	_	_	638.330017	638.640015	L2
+8	pas	pas	ADN	ADN	_	9	dep	_	_	638.640015	638.770020	L2
+9	forcément	forcément	ADV	ADV	_	7	dep	_	_	638.770020	639.359985	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-209
+# text = mais tu te tu te forges
+1	mais	mais	COO	COO	_	6	mark	_	_	639.419983	639.479980	L2
+2	tu	tu	CLS	CLS	_	6	subj	_	_	639.479980	639.599976	L2
+3	te	te	CLI	CLI	_	6	dep	_	_	639.599976	639.919983	L2
+4	tu	tu	CLS	CLS	_	6	subj	_	_	639.919983	639.989990	L2
+5	te	te	CLI	CLI	_	6	dep	_	_	640.039978	640.109985	L2
+6	forges	forge	NOM	NOM	_	0	root	_	_	640.109985	640.469971	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-210
+# text = aussi une
+1	aussi	aussi	ADV	ADV	_	0	root	_	_	640.469971	640.789978	L2
+2	une	un	DET	DET	_	1	disflink	_	_	640.789978	641.219971	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-211
+# text = une tu te forges un pas une carapace
+1	une	un	DET	DET	_	4	spe	_	_	641.640015	642.510010	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	642.909973	643.030029	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	643.030029	643.099976	L2
+4	forges	forge	NOM	NOM	_	0	root	_	_	643.099976	643.479980	L2
+5	un	un	DET	DET	_	8	spe	_	_	643.479980	644.000000	L2
+6	pas	pas	ADN	ADN	_	5	para	_	_	645.840027	645.950012	L2
+7	une	un	DET	DET	_	5	para	_	_	645.950012	646.090027	L2
+8	carapace	carapace	NOM	NOM	_	4	para	_	_	646.090027	646.450012	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-212
+# text = parce que je pense
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	646.619995	646.989990	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	646.989990	647.080017	L2
+3	pense	penser	VRB	VRB	_	1	dep	_	_	647.080017	647.390015	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-213
+# text = si tu te fais une carapace après tu es tu deviens complètement euh
+1	si	si	CSU	CSU	_	9	periph	_	_	647.390015	647.479980	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	647.479980	647.580017	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	647.580017	647.640015	L2
+4	fais	faire	VRB	VRB	_	1	dep	_	_	647.690002	647.789978	L2
+5	une	un	DET	DET	_	6	spe	_	_	647.789978	647.869995	L2
+6	carapace	carapace	NOM	NOM	_	4	dep	_	_	647.869995	648.380005	L2
+7	après	après	PRE	PRE	_	4	dep	_	_	648.429993	648.650024	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	648.650024	648.940002	L2
+9	es	être	VRB	VRB	_	0	root	_	_	648.940002	649.000000	L2
+10	tu	tu	CLS	CLS	_	11	subj	_	_	649.000000	649.130005	L2
+11	deviens	devenir	VRB	VRB	_	9	para	_	_	649.130005	649.380005	L2
+12	complètement	complètement	ADV	ADV	_	11	dep	_	_	649.380005	650.219971	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	650.219971	650.380005	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-214
+# text = détaché
+1	détaché	détacher	VPP	VPP	_	0	root	_	_	650.609985	651.039978	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-215
+# text = ouais tu mais tu te forges enfin tu te tu tu te mets des trucs en place pour te protéger aussi parce que sinon ça te bouffe quoi à prendre sur toi et euh à être euh à être là et à tout prendre sur toi bah ouais
+1	ouais	ouais	INT	INT	_	13	dm	_	_	651.130005	651.330017	L2
+2	tu	tu	CLS	CLS	_	13	subj	_	_	651.330017	651.900024	L2
+3	mais	mais	COO	COO	_	13	mark	_	_	652.229980	652.400024	L2
+4	tu	tu	CLS	CLS	_	6	subj	_	_	652.400024	652.609985	L2
+5	te	te	CLI	CLI	_	6	dep	_	_	652.739990	652.789978	L2
+6	forges	forge	NOM	NOM	_	13	periph	_	_	652.789978	653.320007	L2
+7	enfin	enfin	ADV	ADV	_	6	dm	_	_	653.320007	653.659973	L2
+8	tu	tu	CLS	CLS	_	7	disflink	_	_	653.729980	653.780029	L2
+9	te	te	CLI	CLI	_	8	disflink	_	_	653.780029	654.369995	L2
+10	tu	tu	CLS	CLS	_	13	subj	_	_	654.700012	654.909973	L2
+11	tu	tu	CLS	CLS	_	10	para	_	_	655.020020	655.169983	L2
+12	te	te	CLI	CLI	_	13	dep	_	_	655.169983	655.210022	L2
+13	mets	mettre	VRB	VRB	_	0	root	_	_	655.210022	655.320007	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	655.320007	655.440002	L2
+15	trucs	truc	NOM	NOM	_	14	dep	_	_	655.440002	655.679993	L2
+16	en place	en place	ADJ	ADJ	_	15	dep	_	_	655.679993	656.020020	L2
+17	pour	pour	PRE	PRE	_	13	dep	_	_	656.020020	656.179993	L2
+18	te	te	CLI	CLI	_	19	dep	_	_	656.179993	656.219971	L2
+19	protéger	protéger	VNF	VNF	_	17	dep	_	_	656.219971	656.729980	L2
+20	aussi	aussi	ADV	ADV	_	19	dep	_	_	656.729980	657.010010	L2
+21	parce que	parce que	CSU	CSU	_	13	dep	_	_	657.119995	657.309998	L2
+22	sinon	sinon	ADV	ADV	_	25	periph	_	_	657.309998	657.500000	L2
+23	ça	ça	PRO	PRO	_	25	subj	_	_	657.500000	657.650024	L2
+24	te	te	CLI	CLI	_	25	dep	_	_	657.650024	657.679993	L2
+25	bouffe	bouffer	VRB	VRB	_	21	dep	_	_	657.679993	657.960022	L2
+26	quoi	quoi	INT	INT	_	25	dm	_	_	657.960022	658.169983	L2
+27	à	à	PRE	PRE	_	25	dep	_	_	658.739990	658.770020	L2
+28	prendre	prendre	VNF	VNF	_	27	dep	_	_	658.770020	658.950012	L2
+29	sur	sur	PRE	PRE	_	28	dep	_	_	658.950012	659.159973	L2
+30	toi	moi	PRO	PRO	_	29	dep	_	_	659.159973	659.609985	L2
+31	et	et	COO	COO	_	42	mark	_	_	659.609985	659.770020	L2
+32	euh	euh	INT	INT	_	31	dm	_	_	659.770020	659.940002	L2
+33	à	à	PRE	PRE	_	42	periph	_	_	660.340027	660.460022	L2
+34	être	être	VNF	VNF	_	33	dep	_	_	660.460022	661.150024	L2
+35	euh	euh	INT	INT	_	34	dm	_	_	661.150024	661.250000	L2
+36	à	à	PRE	PRE	_	33	para	_	_	661.520020	661.549988	L2
+37	être	être	VNF	VNF	_	36	dep	_	_	661.549988	661.739990	L2
+38	là	là	ADV	ADV	_	37	dep	_	_	661.739990	662.080017	L2
+39	et	et	COO	COO	_	40	mark	_	_	662.080017	662.219971	L2
+40	à	à	PRE	PRE	_	33	para	_	_	662.219971	662.409973	L2
+41	tout	tout	PRO	PRO	_	42	dep	_	_	662.619995	662.760010	L2
+42	prendre	prendre	VNF	VNF	_	28	para	_	_	662.760010	663.000000	L2
+43	sur	sur	PRE	PRE	_	42	dep	_	_	663.000000	663.159973	L2
+44	toi	moi	PRO	PRO	_	43	dep	_	_	663.219971	663.570007	L2
+45	bah	bah	INT	INT	_	44	dm	_	_	663.669983	664.090027	L2
+46	ouais	ouais	INT	INT	_	45	dm	_	_	664.429993	664.489990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-216
+# text = je pense qu'
+1	je	je	CLS	CLS	_	2	subj	_	_	664.489990	664.520020	L2
+2	pense	penser	VRB	VRB	_	0	root	_	_	664.520020	664.710022	L2
+3	qu'	que	CSU	CSU	_	2	dep	_	_	664.710022	664.750000	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-217
+# text = au bout d'un moment mh
+1	au	à+le	PRE	PRE	_	0	root	_	_	664.750000	664.780029	L2
+2	bout	bout	NOM	NOM	_	1	dep	_	_	664.780029	664.880005	L2
+3	d'	de	PRE	PRE	_	2	dep	_	_	664.880005	664.940002	L2
+4	un	un	DET	DET	_	5	spe	_	_	665.010010	665.030029	L2
+5	moment	moment	NOM	NOM	_	3	dep	_	_	665.030029	665.320007	L2
+6	mh	mh	INT	INT	_	5	dm	_	_	658.450012	658.580017	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-218
+# text = euh si tu es pas si tu as pas une vie équilibrée si tu as pas un truc des échappatoires euh du sport ou euh ou des trucs euh ou sortir ou faire euh je pense qu'au bout d'un moment euh tu tu tu tu tu ouais tu tu dois partir un peu
+1	euh	euh	INT	INT	_	2	dm	_	_	665.539978	665.710022	L2
+2	si	si	CSU	CSU	_	36	periph	_	_	665.989990	666.090027	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	666.090027	666.190002	L2
+4	es	être	VRB	VRB	_	2	dep	_	_	666.190002	666.219971	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	666.219971	666.570007	L2
+6	si	si	CSU	CSU	_	4	dep	_	_	666.570007	666.640015	L2
+7	tu	tu	CLS	CLS	_	8	subj	_	_	666.640015	666.710022	L2
+8	as	avoir	VRB	VRB	_	6	dep	_	_	666.710022	666.780029	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	666.780029	666.880005	L2
+10	une	un	DET	DET	_	11	spe	_	_	666.880005	666.950012	L2
+11	vie	vie	NOM	NOM	_	8	dep	_	_	666.950012	667.130005	L2
+12	équilibrée	équilibré	ADJ	ADJ	_	11	dep	_	_	667.130005	667.799988	L2
+13	si	si	CSU	CSU	_	6	para	_	_	667.950012	668.010010	L2
+14	tu	tu	CLS	CLS	_	15	subj	_	_	668.010010	668.099976	L2
+15	as	avoir	VRB	VRB	_	13	dep	_	_	668.099976	668.229980	L2
+16	pas	pas	ADN	ADN	_	15	dep	_	_	668.229980	668.309998	L2
+17	un	un	DET	DET	_	18	spe	_	_	668.309998	668.340027	L2
+18	truc	truc	NOM	NOM	_	15	dep	_	_	668.340027	668.669983	L2
+19	des	de	PRE	PRE	_	18	dep	_	_	668.960022	669.159973	L2
+20	échappatoires	échappatoire	NOM	NOM	_	19	dep	_	_	669.159973	669.919983	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	669.969971	670.049988	L2
+22	du	de+le	PRE	PRE	_	18	dep	_	_	670.049988	670.169983	L2
+23	sport	sport	NOM	NOM	_	22	dep	_	_	670.229980	671.130005	L2
+24	ou	ou	COO	COO	_	26	mark	_	_	671.419983	671.450012	L2
+25	euh	euh	INT	INT	_	24	dm	_	_	671.450012	671.479980	L2
+26	ou	ou	COO	COO	_	27	mark	_	_	671.479980	671.609985	L2
+27	des	de	PRE	PRE	_	18	para	_	_	671.609985	671.739990	L2
+28	trucs	truc	NOM	NOM	_	27	dep	_	_	671.739990	672.109985	L2
+29	euh	euh	INT	INT	_	28	dm	_	_	672.109985	672.500000	L2
+30	ou	ou	COO	COO	_	31	mark	_	_	672.500000	672.669983	L2
+31	sortir	sortir	VNF	VNF	_	27	dep	_	_	672.669983	673.190002	L2
+32	ou	ou	COO	COO	_	33	mark	_	_	673.190002	673.330017	L2
+33	faire	faire	VNF	VNF	_	31	para	_	_	673.330017	673.690002	L2
+34	euh	euh	INT	INT	_	33	dm	_	_	674.039978	674.070007	L2
+35	je	je	CLS	CLS	_	36	subj	_	_	674.070007	674.159973	L2
+36	pense	penser	VRB	VRB	_	0	root	_	_	674.159973	674.330017	L2
+37	qu'	que	CSU	CSU	_	36	dep	_	_	674.330017	674.390015	L2
+38	au	à+le	PRE	PRE	_	52	periph	_	_	674.390015	674.419983	L2
+39	bout	bout	NOM	NOM	_	38	dep	_	_	674.419983	674.520020	L2
+40	d'	de	PRE	PRE	_	39	dep	_	_	674.520020	674.590027	L2
+41	un	un	DET	DET	_	42	spe	_	_	674.590027	674.719971	L2
+42	moment	moment	NOM	NOM	_	40	dep	_	_	674.719971	675.109985	L2
+43	euh	euh	INT	INT	_	42	dm	_	_	675.109985	675.489990	L2
+44	tu	tu	CLS	CLS	_	52	subj	_	_	675.489990	676.070007	L2
+45	tu	tu	CLS	CLS	_	44	para	_	_	676.840027	677.109985	L2
+46	tu	tu	CLS	CLS	_	45	para	_	_	677.109985	677.309998	L2
+47	tu	tu	CLS	CLS	_	46	para	_	_	677.400024	677.619995	L2
+48	tu	tu	CLS	CLS	_	47	para	_	_	677.619995	677.890015	L2
+49	ouais	ouais	INT	INT	_	48	dm	_	_	677.890015	678.109985	L2
+50	tu	tu	CLS	CLS	_	48	para	_	_	678.200012	678.260010	L2
+51	tu	tu	CLS	CLS	_	50	para	_	_	678.260010	678.359985	L2
+52	dois	devoir	VRB	VRB	_	37	dep	_	_	678.580017	678.690002	L2
+53	partir	partir	VNF	VNF	_	52	dep	_	_	678.690002	679.099976	L2
+54	un peu	un peu	ADV	ADV	_	53	dep	_	_	679.099976	679.489990	L2
+
+# sent_id = cefc-tcof-jeune_infirmier-219
+# text = en ouais
+1	en	en	PRE	PRE	_	0	root	_	_	679.489990	679.619995	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	670.340027	670.840027	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-220
+# text = bien sûr
+1	bien	bien	ADV	ADV	_	0	root	_	_	670.840027	671.090027	L1
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	671.250000	671.369995	L1
+
+# sent_id = cefc-tcof-jeune_infirmier-221
+# text = banane quoi
+1	banane	banane	NOM	NOM	_	0	root	_	_	681.010010	681.219971	L2
+2	quoi	quoi	INT	INT	_	1	dm	_	_	681.219971	681.760010	L2
+

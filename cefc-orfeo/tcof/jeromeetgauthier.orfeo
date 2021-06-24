@@ -1,0 +1,1822 @@
+# sent_id = cefc-tcof-jeromeetgauthier-1
+# text = d'ailleurs euh mercre~ euh c'est jeudi soir que tu avais ta réunion parents profs à un moment
+1	d'	de	PRE	PRE	_	7	periph	_	_	0.200000	0.240000	L1
+2	ailleurs	ailleurs	ADV	ADV	_	1	morph	_	_	0.240000	0.620000	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	0.620000	0.930000	L1
+4	mercre~	mercre~	NOM	NOM	_	1	dep	_	_	0.930000	1.110000	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	1.110000	1.400000	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	1.850000	1.970000	L1
+7	est	être	VRB	VRB	_	0	root	_	_	1.970000	2.010000	L1
+8	jeudi	jeudi	NOM	NOM	_	7	dep	_	_	2.010000	2.220000	L1
+9	soir	soir	NOM	NOM	_	8	dep	_	_	2.220000	2.380000	L1
+10	que	que	CSU	CSU	_	7	dep	_	_	2.470000	2.500000	L1
+11	tu	tu	CLS	CLS	_	12	subj	_	_	2.500000	2.560000	L1
+12	avais	avoir	VRB	VRB	_	10	dep	_	_	2.560000	2.650000	L1
+13	ta	son	DET	DET	_	14	spe	_	_	2.650000	2.710000	L1
+14	réunion	réunion	NOM	NOM	_	12	dep	_	_	2.710000	2.900000	L1
+15	parents	parent	NOM	NOM	_	14	dep	_	_	2.900000	3.150000	L1
+16	profs	prof	NOM	NOM	_	15	dep	_	_	3.150000	3.440000	L1
+17	à	à	PRE	PRE	_	12	dep	_	_	4.320000	4.430000	L1
+18	un	un	DET	DET	_	19	spe	_	_	4.430000	4.460000	L1
+19	moment	moment	NOM	NOM	_	17	dep	_	_	4.510000	4.630000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-2
+# text = j'étais sorti de la de la voiture parce que tu sais pour voir si vous
+1	j'	je	CLS	CLS	_	3	subj	_	_	4.630000	4.680000	L1
+2	étais	être	VRB	VRB	_	3	aux	_	_	4.680000	4.800000	L1
+3	sorti	sortir	VPP	VPP	_	0	root	_	_	4.800000	5.150000	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	5.210000	5.510000	L1
+5	la	le	DET	DET	_	4	dep	_	_	5.510000	5.590000	L1
+6	de	de	PRE	PRE	_	4	para	_	_	5.590000	5.670000	L1
+7	la	le	DET	DET	_	8	spe	_	_	5.670000	5.730000	L1
+8	voiture	voiture	NOM	NOM	_	6	dep	_	_	5.730000	6.180000	L1
+9	parce que	parce que	CSU	CSU	_	3	dep	_	_	6.250000	6.410000	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	6.410000	6.470000	L1
+11	sais	savoir	VRB	VRB	_	9	dep	_	_	6.470000	6.630000	L1
+12	pour	pour	PRE	PRE	_	11	dep	_	_	6.630000	6.800000	L1
+13	voir	voir	VNF	VNF	_	12	dep	_	_	6.800000	6.940000	L1
+14	si	si	CSU	CSU	_	13	dep	_	_	6.940000	7.180000	L1
+15	vous	vous	CLS	CLS	_	14	disflink	_	_	7.180000	7.460000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-3
+# text = hum ouais
+1	hum	hum	INT	INT	_	0	root	_	_	3.820000	3.880000	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	4.270000	4.460000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-4
+# text = veniez ou pas j'ai croisé
+1	veniez	venir	VRB	VRB	_	0	root	_	_	8.480000	8.720000	L1
+2	ou	ou	COO	COO	_	6	mark	_	_	8.720000	8.800000	L1
+3	pas	pas	ADN	ADN	_	6	dep	_	_	8.800000	8.960000	L1
+4	j'	je	CLS	CLS	_	6	subj	_	_	8.960000	9.010000	L1
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	9.010000	9.040000	L1
+6	croisé	croiser	VPP	VPP	_	1	para	_	_	9.040000	9.350000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-5
+# text = madame NNAAMMEE
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	9.350000	9.590000	L1
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	9.590000	9.910000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-6
+# text = ah ouais tu lui as dit bonjour
+1	ah	ah	INT	INT	_	6	dm	_	_	10.280000	10.310000	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	10.310000	10.510000	L2
+3	tu	tu	CLS	CLS	_	6	subj	_	_	10.510000	10.720000	L2
+4	lui	lui	CLI	CLI	_	6	dep	_	_	10.720000	10.820000	L2
+5	as	avoir	VRB	VRB	_	6	aux	_	_	10.820000	10.850000	L2
+6	dit	dire	VPP	VPP	_	0	root	_	_	10.850000	10.930000	L2
+7	bonjour	bonjour	INT	INT	_	6	dm	_	_	10.930000	11.080000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-7
+# text = ben j'ai essayé d'éviter parce que tu sais
+1	ben	ben	INT	INT	_	4	dm	_	_	11.720000	12.050000	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	12.050000	12.110000	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	12.110000	12.190000	L1
+4	essayé	essayer	VPP	VPP	_	0	root	_	_	12.190000	12.350000	L1
+5	d'	de	PRE	PRE	_	4	dep	_	_	12.350000	12.380000	L1
+6	éviter	éviter	VNF	VNF	_	5	dep	_	_	12.380000	12.680000	L1
+7	parce que	parce que	CSU	CSU	_	6	dep	_	_	12.680000	12.960000	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	12.960000	13.100000	L1
+9	sais	savoir	VRB	VRB	_	7	dep	_	_	13.100000	13.170000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-8
+# text = j'étais habillé un peu bien crade com~
+1	j'	je	CLS	CLS	_	3	subj	_	_	13.170000	13.200000	L1
+2	étais	être	VRB	VRB	_	3	aux	_	_	13.200000	13.300000	L1
+3	habillé	habiller	VPP	VPP	_	0	root	_	_	13.300000	13.500000	L1
+4	un peu	un peu	ADV	ADV	_	5	dep	_	_	13.500000	13.640000	L1
+5	bien	bien	ADV	ADV	_	3	dep	_	_	13.700000	13.880000	L1
+6	crade	crade	ADJ	ADJ	_	7	dep	_	_	13.880000	14.160000	L1
+7	com~	com~	NOM	NOM	_	3	dep	_	_	14.220000	14.340000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-9
+# text = tu sais j'étais en habits de ferme
+1	tu	tu	CLS	CLS	_	2	subj	_	_	14.340000	14.400000	L1
+2	sais	savoir	VRB	VRB	_	4	dm	_	_	14.450000	14.540000	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	14.540000	14.630000	L1
+4	étais	être	VRB	VRB	_	0	root	_	_	14.630000	14.770000	L1
+5	en	en	PRE	PRE	_	4	dep	_	_	14.770000	15.080000	L1
+6	habits	habit	NOM	NOM	_	5	dep	_	_	15.080000	15.260000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	15.260000	15.290000	L1
+8	ferme	ferme	NOM	NOM	_	7	dep	_	_	15.290000	15.630000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-10
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	15.700000	15.830000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-11
+# text = ah ouais
+1	ah	ah	INT	INT	_	0	root	_	_	16.170000	16.260000	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	16.260000	16.440001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-12
+# text = je me suis senti un peu gêné
+1	je	je	CLS	CLS	_	4	subj	_	_	17.580000	17.690001	L1
+2	me	me	CLI	CLI	_	4	dep	_	_	17.690001	17.780001	L1
+3	suis	être	VRB	VRB	_	4	aux	_	_	17.780001	17.950001	L1
+4	senti	sentir	VPP	VPP	_	0	root	_	_	17.950001	18.190001	L1
+5	un peu	un peu	ADV	ADV	_	4	dep	_	_	18.190001	18.450001	L1
+6	gêné	gêné	ADJ	ADJ	_	4	dep	_	_	18.450001	18.780001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-13
+# text = tu vois quand je l'ai croisé comme ca
+1	tu	tu	CLS	CLS	_	2	subj	_	_	18.780001	18.889999	L1
+2	vois	voir	VRB	VRB	_	0	root	_	_	18.889999	19.629999	L1
+3	quand	quand	CSU	CSU	_	2	dep	_	_	19.690001	19.780001	L1
+4	je	je	CLS	CLS	_	7	subj	_	_	19.780001	19.809999	L1
+5	l'	le	CLI	CLI	_	7	dep	_	_	19.809999	19.840000	L1
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	19.840000	19.870001	L1
+7	croisé	croiser	VPP	VPP	_	3	dep	_	_	19.870001	20.049999	L1
+8	comme	comme	PRE	PRE	_	7	dep	_	_	20.170000	20.250000	L1
+9	ca	ca	NOM	NOM	_	8	dep	_	_	20.250000	20.309999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-14
+# text = j'étais en pauvre jogging
+1	j'	je	CLS	CLS	_	2	subj	_	_	20.309999	20.379999	L1
+2	étais	être	VRB	VRB	_	0	root	_	_	20.379999	20.480000	L1
+3	en	en	PRE	PRE	_	2	dep	_	_	20.480000	20.629999	L1
+4	pauvre	pauvre	ADJ	ADJ	_	5	dep	_	_	20.629999	20.820000	L1
+5	jogging	jogging	NOM	NOM	_	3	dep	_	_	20.820000	21.270000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-15
+# text = ouais tu puais de la mort
+1	ouais	ouais	INT	INT	_	3	dm	_	_	21.559999	21.690001	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	21.690001	21.760000	L2
+3	puais	puer	VRB	VRB	_	0	root	_	_	21.920000	22.059999	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	22.059999	22.090000	L2
+5	la	le	DET	DET	_	6	spe	_	_	22.090000	22.209999	L2
+6	mort	mort	NOM	NOM	_	4	dep	_	_	22.370001	22.770000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-16
+# text = non un peu plus fais pas le malin là si
+1	non	non	INT	INT	_	4	dm	_	_	23.320000	23.559999	L1
+2	un peu	un peu	ADV	ADV	_	4	dep	_	_	23.559999	23.650000	L1
+3	plus	plus	ADN	ADN	_	4	dep	_	_	23.650000	24.010000	L1
+4	fais	faire	VRB	VRB	_	0	root	_	_	24.660000	25.150000	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	25.200001	25.260000	L1
+6	le	le	DET	DET	_	7	spe	_	_	25.260000	25.340000	L1
+7	malin	malin	NOM	NOM	_	4	dep	_	_	25.340000	25.459999	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	25.520000	25.570000	L1
+9	si	si	CSU	CSU	_	4	dep	_	_	25.790001	26.040001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-17
+# text = ouais et puis sinon ben voilà quoi
+1	ouais	ouais	INT	INT	_	6	dm	_	_	27.350000	27.530001	L1
+2	et puis	et puis	COO	COO	_	6	mark	_	_	27.530001	29.129999	L1
+3	sinon	sinon	ADV	ADV	_	6	periph	_	_	29.170000	29.549999	L1
+4	ben	ben	INT	INT	_	3	dm	_	_	29.549999	29.680000	L1
+5	voilà	voilà	INT	INT	_	4	dm	_	_	29.680000	29.840000	L1
+6	quoi	quoi	INT	INT	_	0	root	_	_	29.840000	29.950001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-18
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	32.080002	32.360001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-19
+# text = alors ta réunion parents profs ça s'est passé
+1	alors	alors	ADV	ADV	_	9	periph	_	_	34.580002	34.799999	L1
+2	ta	son	DET	DET	_	3	spe	_	_	34.799999	34.880001	L1
+3	réunion	réunion	NOM	NOM	_	9	periph	_	_	34.880001	35.099998	L1
+4	parents	parent	NOM	NOM	_	3	dep	_	_	35.099998	35.279999	L1
+5	profs	prof	NOM	NOM	_	4	dep	_	_	35.279999	35.509998	L1
+6	ça	ça	PRO	PRO	_	9	subj	_	_	35.509998	35.599998	L1
+7	s'	se	CLI	CLI	_	9	dep	_	_	35.599998	35.709999	L1
+8	est	être	VRB	VRB	_	9	aux	_	_	35.709999	35.770000	L1
+9	passé	passer	VPP	VPP	_	0	root	_	_	35.770000	36.000000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-20
+# text = comment ben ça va
+1	comment	comment	PRQ	PRQ	_	4	dep	_	_	36.000000	36.209999	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	37.180000	37.450001	L2
+3	ça	ça	PRO	PRO	_	4	subj	_	_	37.450001	37.529999	L2
+4	va	aller	VRB	VRB	_	0	root	_	_	37.580002	37.650002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-21
+# text = ben j'étais surpris parce que euh en S V T tu sais par rapport aux autres années
+1	ben	ben	INT	INT	_	4	dm	_	_	37.650002	37.980000	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	38.980000	39.230000	L2
+3	étais	être	VRB	VRB	_	4	aux	_	_	39.230000	39.410000	L2
+4	surpris	surprendre	VPP	VPP	_	0	root	_	_	39.490002	39.810001	L2
+5	parce que	parce que	CSU	CSU	_	4	dep	_	_	39.810001	40.240002	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	40.240002	40.270000	L2
+7	en	en	PRE	PRE	_	12	periph	_	_	40.959999	41.090000	L2
+8	S	S	NOM	NOM	_	7	dep	_	_	41.090000	41.250000	L2
+9	V	V	PRE	PRE	_	8	dep	_	_	41.250000	41.400002	L2
+10	T	T	NOM	NOM	_	9	dep	_	_	41.400002	41.580002	L2
+11	tu	tu	CLS	CLS	_	12	subj	_	_	41.580002	41.639999	L2
+12	sais	savoir	VRB	VRB	_	5	dep	_	_	41.639999	41.750000	L2
+13	par	par	PRE	PRE	_	12	dep	_	_	41.750000	41.869999	L2
+14	rapport	rapport	NOM	NOM	_	13	dep	_	_	41.869999	42.040001	L2
+15	aux	à+le	PRE	PRE	_	14	dep	_	_	42.040001	42.119999	L2
+16	autres	autre	ADJ	ADJ	_	17	dep	_	_	42.119999	42.320000	L2
+17	années	année	NOM	NOM	_	15	dep	_	_	42.320000	42.630001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-22
+# text = j'ai de pauvres résultats quoi
+1	j'	je	CLS	CLS	_	2	subj	_	_	42.689999	42.830002	L2
+2	ai	avoir	VRB	VRB	_	0	root	_	_	42.830002	42.860001	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	42.919998	42.939999	L2
+4	pauvres	pauvre	NOM	NOM	_	3	dep	_	_	43.500000	43.759998	L2
+5	résultats	résultat	NOM	NOM	_	4	dep	_	_	43.759998	44.230000	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	44.230000	44.330002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-23
+# text = j'ai eu que des mauv~ pff
+1	j'	je	CLS	CLS	_	3	subj	_	_	45.320000	45.380001	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	45.380001	45.410000	L2
+3	eu	avoir	VPP	VPP	_	0	root	_	_	45.410000	45.549999	L2
+4	que	que	ADN	ADN	_	3	dep	_	_	45.610001	45.750000	L2
+5	des	de	PRE	PRE	_	3	dep	_	_	45.750000	45.860001	L2
+6	mauv~	mauv~	NOM	NOM	_	5	dep	_	_	45.860001	46.090000	L2
+7	pff	pff	INT	INT	_	6	dm	_	_	46.090000	46.439999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-24
+# text = j'ai eu un une note en dessous de la moyen au dessus de la moyenne
+1	j'	je	CLS	CLS	_	3	subj	_	_	46.590000	46.639999	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	46.639999	46.669998	L2
+3	eu	avoir	VPP	VPP	_	0	root	_	_	46.669998	46.700001	L2
+4	un	un	DET	DET	_	6	spe	_	_	46.700001	46.730000	L2
+5	une	un	DET	DET	_	4	para	_	_	46.730000	47.130001	L2
+6	note	note	NOM	NOM	_	3	dep	_	_	47.130001	47.380001	L2
+7	en dessous	en dessous	ADV	ADV	_	6	dep	_	_	47.380001	47.540001	L2
+8	de	de	PRE	PRE	_	6	dep	_	_	47.540001	47.570000	L2
+9	la	le	DET	DET	_	10	spe	_	_	47.570000	47.630001	L2
+10	moyen	moyen	NOM	NOM	_	8	dep	_	_	47.630001	47.950001	L2
+11	au	à+le	PRE	PRE	_	10	dep	_	_	48.290001	48.410000	L2
+12	dessus	dessus	ADV	ADV	_	11	dep	_	_	48.410000	48.570000	L2
+13	de	de	PRE	PRE	_	10	dep	_	_	48.570000	48.599998	L2
+14	la	le	DET	DET	_	15	spe	_	_	48.599998	48.660000	L2
+15	moyenne	moyenne	NOM	NOM	_	13	dep	_	_	48.660000	48.900002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-25
+# text = c'est un onze puis deux notes en dessous
+1	c'	ce	CLS	CLS	_	2	subj	_	_	48.900002	48.990002	L2
+2	est	être	VRB	VRB	_	0	root	_	_	48.990002	49.020000	L2
+3	un	un	DET	DET	_	4	spe	_	_	49.020000	49.119999	L2
+4	onze	onze	NOM	NOM	_	2	dep	_	_	49.119999	49.509998	L2
+5	puis	puis	COO	COO	_	7	mark	_	_	50.130001	50.220001	L2
+6	deux	deux	NUM	NUM	_	7	spe	_	_	50.220001	50.299999	L2
+7	notes	note	NOM	NOM	_	4	para	_	_	50.299999	50.480000	L2
+8	en dessous	en dessous	ADV	ADV	_	2	dep	_	_	50.480000	50.830002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-26
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	50.830002	51.209999	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	51.209999	51.240002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-27
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	44.790001	44.990002	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-28
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	49.810001	50.060001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-29
+# text = voilà la moyenne
+1	voilà	voilà	INT	INT	_	3	dm	_	_	52.529999	52.709999	L2
+2	la	le	DET	DET	_	3	spe	_	_	52.709999	52.790001	L2
+3	moyenne	moyenne	NOM	NOM	_	0	root	_	_	52.790001	53.290001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-30
+# text = et euh ben finalement elle m'a pas trop engueulé
+1	et	et	COO	COO	_	10	mark	_	_	54.650002	54.930000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	54.930000	55.430000	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	55.650002	55.770000	L2
+4	finalement	finalement	ADV	ADV	_	10	periph	_	_	55.770000	56.130001	L2
+5	elle	il	CLS	CLS	_	10	subj	_	_	56.130001	56.189999	L2
+6	m'	me	CLI	CLI	_	10	dep	_	_	56.189999	56.240002	L2
+7	a	avoir	VRB	VRB	_	10	aux	_	_	56.240002	56.270000	L2
+8	pas	pas	ADN	ADN	_	10	dep	_	_	56.270000	56.410000	L2
+9	trop	trop	ADV	ADV	_	10	dep	_	_	56.410000	56.540001	L2
+10	engueulé	engueuler	VPP	VPP	_	0	root	_	_	56.580002	57.099998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-31
+# text = elle m'a dit euh cette année il a des difficultés machin
+1	elle	il	CLS	CLS	_	4	subj	_	_	57.209999	57.279999	L2
+2	m'	me	CLI	CLI	_	4	dep	_	_	57.279999	57.310001	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	57.310001	57.340000	L2
+4	dit	dire	VPP	VPP	_	0	root	_	_	57.340000	57.509998	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	57.549999	57.610001	L2
+6	cette	ce	DET	DET	_	7	spe	_	_	58.369999	58.450001	L2
+7	année	année	NOM	NOM	_	4	dep	_	_	58.450001	58.650002	L2
+8	il	il	CLS	CLS	_	9	subj	_	_	58.650002	58.730000	L2
+9	a	avoir	VRB	VRB	_	4	dep	_	_	58.730000	58.790001	L2
+10	des	de	PRE	PRE	_	9	dep	_	_	58.790001	58.880001	L2
+11	difficultés	difficulté	NOM	NOM	_	10	dep	_	_	58.880001	59.639999	L2
+12	machin	machin	NOM	NOM	_	11	dep	_	_	59.639999	60.009998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-32
+# text = puis c'est vrai en plus
+1	puis	puis	COO	COO	_	3	mark	_	_	60.430000	60.520000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	60.520000	60.549999	L2
+3	est	être	VRB	VRB	_	0	root	_	_	60.549999	60.580002	L2
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	60.580002	60.669998	L2
+5	en	en	PRE	PRE	_	3	periph	_	_	60.669998	60.790001	L2
+6	plus	plus	ADN	ADN	_	5	dep	_	_	60.790001	60.910000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-33
+# text = tu as des difficultés
+1	tu	tu	CLS	CLS	_	2	subj	_	_	61.830002	61.889999	L1
+2	as	avoir	VRB	VRB	_	0	root	_	_	61.889999	61.919998	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	61.919998	62.020000	L1
+4	difficultés	difficulté	NOM	NOM	_	3	dep	_	_	62.020000	62.779999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-34
+# text = ah je te jure en S V T
+1	ah	ah	INT	INT	_	4	dm	_	_	62.950001	63.000000	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	63.000000	63.090000	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	63.090000	63.250000	L2
+4	jure	jurer	VRB	VRB	_	0	root	_	_	63.250000	63.430000	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	63.430000	63.509998	L2
+6	S	S	NOM	NOM	_	5	dep	_	_	63.509998	63.669998	L2
+7	V	V	PRE	PRE	_	4	dep	_	_	63.669998	63.779999	L2
+8	T	T	NOM	NOM	_	7	dep	_	_	63.779999	63.810001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-35
+# text = j~ j~ je galère
+1	j~	j~	CLI	CLI	_	4	dep	_	_	63.810001	63.910000	L2
+2	j~	j~	CLI	CLI	_	4	dep	_	_	64.250000	64.339996	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	64.730003	64.839996	L2
+4	galère	galérer	VRB	VRB	_	0	root	_	_	64.839996	65.230003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-36
+# text = tu fais quoi
+1	tu	tu	CLS	CLS	_	2	subj	_	_	66.129997	66.230003	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	66.230003	66.389999	L1
+3	quoi	quoi	PRQ	PRQ	_	2	dep	_	_	66.389999	66.510002	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-37
+# text = tu fais euh l'A D N tout ça
+1	tu	tu	CLS	CLS	_	2	subj	_	_	66.510002	66.639999	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	66.639999	66.879997	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	66.879997	67.180000	L1
+4	l'	le	DET	DET	_	5	spe	_	_	69.419998	69.489998	L1
+5	A	A	NOM	NOM	_	2	dep	_	_	69.489998	69.540001	L1
+6	D	D	NOM	NOM	_	5	dep	_	_	69.540001	69.660004	L1
+7	N	N	NOM	NOM	_	6	dep	_	_	69.660004	69.919998	L1
+8	tout	tout	ADJ	ADJ	_	9	dep	_	_	69.919998	69.980003	L1
+9	ça	ça	PRO	PRO	_	6	para	_	_	69.980003	70.120003	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-38
+# text = les gênes les chromosomes
+1	les	le	DET	DET	_	2	spe	_	_	70.919998	71.120003	L2
+2	gênes	gêne	NOM	NOM	_	0	root	_	_	71.120003	71.769997	L2
+3	les	le	DET	DET	_	4	spe	_	_	71.830002	72.040001	L2
+4	chromosomes	chromosome	NOM	NOM	_	2	para	_	_	72.080002	72.739998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-39
+# text = ouais les chrom~ ouais tu fais encore avec les vaches euh les gênes sans cordes avec cordes non non avait fait ça nous ou couleur des vaches la couleur des vaches euh récessifs machin
+1	ouais	ouais	INT	INT	_	6	dm	_	_	71.820000	71.919998	L1
+2	les	le	DET	DET	_	3	spe	_	_	71.919998	72.040001	L1
+3	chrom~	chrom~	NOM	NOM	_	6	periph	_	_	72.080002	72.300003	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	72.300003	72.680000	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	73.160004	73.290001	L1
+6	fais	faire	VRB	VRB	_	0	root	_	_	73.290001	73.400002	L1
+7	encore	encore	ADV	ADV	_	6	dep	_	_	73.400002	73.690002	L1
+8	avec	avec	PRE	PRE	_	6	dep	_	_	73.690002	73.900002	L1
+9	les	le	DET	DET	_	10	spe	_	_	73.900002	74.000000	L1
+10	vaches	vache	NOM	NOM	_	8	dep	_	_	74.000000	74.360001	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	74.360001	74.419998	L1
+12	les	le	DET	DET	_	13	spe	_	_	74.419998	74.510002	L1
+13	gênes	gêne	NOM	NOM	_	10	para	_	_	74.510002	74.709999	L1
+14	sans	sans	PRE	PRE	_	13	dep	_	_	74.709999	74.879997	L1
+15	cordes	corde	NOM	NOM	_	14	dep	_	_	74.879997	75.099998	L1
+16	avec	avec	PRE	PRE	_	13	dep	_	_	75.099998	75.349998	L1
+17	cordes	corde	NOM	NOM	_	16	dep	_	_	75.349998	75.580002	L1
+18	non	non	INT	INT	_	17	dm	_	_	75.889999	76.190002	L1
+19	non	non	INT	INT	_	18	para	_	_	76.690002	76.940002	L1
+20	avait	avoir	VRB	VRB	_	21	aux	_	_	76.940002	77.050003	L1
+21	fait	faire	VPP	VPP	_	6	para	_	_	77.050003	77.209999	L1
+22	ça	ça	PRO	PRO	_	21	dep	_	_	77.209999	77.349998	L1
+23	nous	moi	PRO	PRO	_	21	periph	_	_	77.349998	77.410004	L1
+24	ou	ou	COO	COO	_	25	mark	_	_	78.010002	78.260002	L1
+25	couleur	couleur	NOM	NOM	_	21	dep	_	_	78.260002	78.730003	L1
+26	des	de	PRE	PRE	_	25	dep	_	_	78.779999	78.839996	L1
+27	vaches	vache	NOM	NOM	_	26	dep	_	_	78.839996	79.010002	L1
+28	la	le	DET	DET	_	29	spe	_	_	79.010002	79.070000	L1
+29	couleur	couleur	NOM	NOM	_	27	para	_	_	79.070000	79.250000	L1
+30	des	de	PRE	PRE	_	29	dep	_	_	79.250000	79.330002	L1
+31	vaches	vache	NOM	NOM	_	30	dep	_	_	79.330002	79.839996	L1
+32	euh	euh	INT	INT	_	31	dm	_	_	80.330002	80.370003	L1
+33	récessifs	récessif	ADJ	ADJ	_	34	dep	_	_	80.370003	80.949997	L1
+34	machin	machin	NOM	NOM	_	31	para	_	_	80.949997	81.230003	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-40
+# text = ouais ben
+1	ouais	ouais	INT	INT	_	0	root	_	_	81.589996	81.720001	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	81.720001	82.169998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-41
+# text = nous nous aussi euh
+1	nous	moi	PRO	PRO	_	0	root	_	_	82.169998	82.199997	L2
+2	nous	moi	PRO	PRO	_	1	para	_	_	82.199997	82.260002	L2
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	82.260002	82.580002	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	82.580002	82.739998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-42
+# text = récessif euh domin
+1	récessif	récessif	ADJ	ADJ	_	0	root	_	_	82.739998	83.480003	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	83.480003	83.660004	L2
+3	domin	domin	INT	INT	_	2	dm	_	_	83.660004	83.970001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-43
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	84.639999	84.910004	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-44
+# text = enfin
+1	enfin	enfin	ADV	ADV	_	0	root	_	_	84.639999	84.940002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-45
+# text = et puis euh ben le prof de sport il a dit à ma mère que c'était catastrophique
+1	et puis	et puis	COO	COO	_	10	mark	_	_	85.959999	86.290001	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	86.290001	86.320000	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	86.320000	86.919998	L2
+4	le	le	DET	DET	_	5	spe	_	_	87.139999	87.180000	L2
+5	prof	prof	NOM	NOM	_	10	periph	_	_	87.180000	87.750000	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	87.750000	87.889999	L2
+7	sport	sport	NOM	NOM	_	6	dep	_	_	87.889999	88.279999	L2
+8	il	il	CLS	CLS	_	10	subj	_	_	88.279999	88.400002	L2
+9	a	avoir	VRB	VRB	_	10	aux	_	_	88.400002	88.440002	L2
+10	dit	dire	VPP	VPP	_	0	root	_	_	88.440002	88.610001	L2
+11	à	à	PRE	PRE	_	10	dep	_	_	88.610001	88.639999	L2
+12	ma	son	DET	DET	_	13	spe	_	_	88.639999	88.709999	L2
+13	mère	mère	NOM	NOM	_	11	dep	_	_	88.709999	88.870003	L2
+14	que	que	CSU	CSU	_	10	dep	_	_	88.870003	88.900002	L2
+15	c'	ce	CLS	CLS	_	16	subj	_	_	88.900002	88.930000	L2
+16	était	être	VRB	VRB	_	14	dep	_	_	89.059998	89.209999	L2
+17	catastrophique	catastrophique	ADJ	ADJ	_	16	dep	_	_	89.209999	90.019997	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-46
+# text = ouais c'est pas vrai ça
+1	ouais	ouais	INT	INT	_	3	dm	_	_	90.559998	90.790001	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	90.790001	90.820000	L1
+3	est	être	VRB	VRB	_	0	root	_	_	90.820000	90.849998	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	90.849998	90.949997	L1
+5	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	90.949997	91.139999	L1
+6	ça	ça	PRO	PRO	_	3	periph	_	_	91.139999	91.199997	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-47
+# text = ah si il a dit euh pff il a dit bon ben NNAAMMEE vous pouvez repartir c'est c'est lamentable machin
+1	ah	ah	INT	INT	_	2	dm	_	_	91.519997	91.580002	L2
+2	si	si	CSU	CSU	_	0	root	_	_	91.800003	91.870003	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	91.900002	91.959999	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	92.629997	92.680000	L2
+5	dit	dire	VPP	VPP	_	2	dep	_	_	92.680000	93.019997	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	93.019997	93.129997	L2
+7	pff	pff	INT	INT	_	6	dm	_	_	93.129997	93.320000	L2
+8	il	il	CLS	CLS	_	10	subj	_	_	93.320000	93.389999	L2
+9	a	avoir	VRB	VRB	_	10	aux	_	_	93.389999	93.470001	L2
+10	dit	dire	VPP	VPP	_	5	para	_	_	93.470001	93.559998	L2
+11	bon ben	bon ben	INT	INT	_	14	dm	_	_	93.559998	93.860001	L2
+12	NNAAMMEE	NOM	NOM	NOM	_	14	periph	_	_	93.860001	94.080002	L2
+13	vous	vous	CLS	CLS	_	14	subj	_	_	94.139999	94.269997	L2
+14	pouvez	pouvoir	VRB	VRB	_	10	dep	_	_	94.269997	94.410004	L2
+15	repartir	repartir	VNF	VNF	_	14	dep	_	_	94.410004	94.910004	L2
+16	c'	ce	CLS	CLS	_	17	subj	_	_	95.040001	95.110001	L2
+17	est	être	VRB	VRB	_	2	dep	_	_	95.459999	95.480003	L2
+18	c'	ce	CLS	CLS	_	19	subj	_	_	95.480003	95.559998	L2
+19	est	être	VRB	VRB	_	17	para	_	_	95.559998	95.620003	L2
+20	lamentable	lamentable	ADJ	ADJ	_	19	dep	_	_	95.620003	96.379997	L2
+21	machin	machin	NOM	NOM	_	19	dep	_	_	96.379997	96.599998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-48
+# text = après il a fait euh il a fait euh ouais euh non
+1	après	après	ADV	ADV	_	4	periph	_	_	97.019997	97.220001	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	97.220001	97.279999	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	97.279999	97.330002	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	97.330002	97.559998	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	97.559998	97.610001	L2
+6	il	il	CLS	CLS	_	8	subj	_	_	98.599998	98.720001	L2
+7	a	avoir	VRB	VRB	_	8	aux	_	_	98.720001	98.800003	L2
+8	fait	faire	VPP	VPP	_	4	para	_	_	98.800003	99.050003	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	99.050003	99.360001	L2
+10	ouais	ouais	INT	INT	_	9	dm	_	_	100.349998	100.730003	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	100.730003	100.919998	L2
+12	non	non	INT	INT	_	11	dm	_	_	100.919998	101.099998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-49
+# text = je rigole c'est bien
+1	je	je	CLS	CLS	_	2	subj	_	_	101.099998	101.260002	L2
+2	rigole	rigole	NOM	NOM	_	4	periph	_	_	101.260002	101.680000	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	102.139999	102.169998	L2
+4	est	être	VRB	VRB	_	0	root	_	_	102.379997	102.410004	L2
+5	bien	bien	ADV	ADV	_	4	dep	_	_	102.410004	102.650002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-50
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	104.040001	104.300003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-51
+# text = quoi O K
+1	quoi	quoi	INT	INT	_	2	dm	_	_	104.300003	104.540001	L1
+2	O	O	NOM	NOM	_	0	root	_	_	104.070000	104.300003	L1
+3	K	K	NOM	NOM	_	2	dep	_	_	104.300003	104.540001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-52
+# text = puis ben
+1	puis	puis	COO	COO	_	0	root	_	_	106.279999	106.459999	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	106.459999	106.639999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-53
+# text = sinon euh ben
+1	sinon	sinon	ADV	ADV	_	0	root	_	_	106.699997	107.400002	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	107.400002	107.449997	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	108.290001	108.709999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-54
+# text = la prof d'anglais
+1	la	le	DET	DET	_	2	spe	_	_	108.709999	108.790001	L2
+2	prof	prof	NOM	NOM	_	0	root	_	_	108.790001	108.989998	L2
+3	d'	de	PRE	PRE	_	2	dep	_	_	108.989998	109.019997	L2
+4	anglais	anglais	NOM	NOM	_	3	dep	_	_	109.019997	109.440002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-55
+# text = elle a un peu parlé à maman
+1	elle	il	CLS	CLS	_	4	subj	_	_	109.440002	109.470001	L2
+2	a	avoir	VRB	VRB	_	4	aux	_	_	109.470001	109.500000	L2
+3	un peu	un peu	ADV	ADV	_	4	dep	_	_	109.500000	109.610001	L2
+4	parlé	parler	VPP	VPP	_	0	root	_	_	109.680000	109.910004	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	109.910004	109.949997	L2
+6	maman	maman	NOM	NOM	_	5	dep	_	_	109.949997	110.279999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-56
+# text = puis après elle a dit
+1	puis	puis	COO	COO	_	5	mark	_	_	111.250000	111.400002	L2
+2	après	après	PRE	PRE	_	5	periph	_	_	111.400002	111.580002	L2
+3	elle	il	CLS	CLS	_	5	subj	_	_	111.580002	111.610001	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	111.610001	111.639999	L2
+5	dit	dire	VPP	VPP	_	0	root	_	_	111.639999	111.849998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-57
+# text = euh vous vous souvenez vous vous souvenez de moi
+1	euh	euh	INT	INT	_	4	dm	_	_	111.849998	112.019997	L2
+2	vous	vous	CLS	CLS	_	4	subj	_	_	112.019997	112.080002	L2
+3	vous	vous	CLI	CLI	_	4	dep	_	_	112.080002	112.169998	L2
+4	souvenez	souvenez	VRB	VRB	_	0	root	_	_	112.349998	113.019997	L2
+5	vous	vous	CLS	CLS	_	7	subj	_	_	113.220001	113.349998	L2
+6	vous	vous	CLI	CLI	_	7	dep	_	_	113.349998	113.410004	L2
+7	souvenez	souvenez	VRB	VRB	_	4	dep	_	_	113.410004	113.910004	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	113.910004	113.940002	L2
+9	moi	moi	PRO	PRO	_	8	dep	_	_	113.940002	114.230003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-58
+# text = puis alors euh maman elle a dit euh ouais ben un peu plus plus euh papa
+1	puis	puis	COO	COO	_	7	mark	_	_	115.120003	115.209999	L2
+2	alors	alors	ADV	ADV	_	7	periph	_	_	115.209999	115.529999	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	115.529999	115.739998	L2
+4	maman	maman	NOM	NOM	_	7	periph	_	_	116.169998	116.480003	L2
+5	elle	il	CLS	CLS	_	7	subj	_	_	116.480003	116.709999	L2
+6	a	avoir	VRB	VRB	_	7	aux	_	_	116.709999	116.739998	L2
+7	dit	dire	VPP	VPP	_	0	root	_	_	116.739998	116.870003	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	116.870003	116.949997	L2
+9	ouais	ouais	INT	INT	_	8	dm	_	_	117.379997	117.680000	L2
+10	ben	ben	INT	INT	_	9	dm	_	_	117.680000	117.900002	L2
+11	un peu	un peu	ADV	ADV	_	7	dep	_	_	117.900002	118.260002	L2
+12	plus	plus	ADN	ADN	_	15	dep	_	_	119.199997	119.529999	L2
+13	plus	plus	ADN	ADN	_	12	para	_	_	119.529999	119.620003	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	119.620003	119.980003	L2
+15	papa	papa	NOM	NOM	_	7	dep	_	_	120.089996	120.440002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-59
+# text = quoi ouais
+1	quoi	quoi	INT	INT	_	0	root	_	_	120.440002	120.610001	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	110.830002	111.199997	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-60
+# text = ouais elle était étonnée
+1	ouais	ouais	INT	INT	_	3	dm	_	_	121.059998	121.290001	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	121.290001	121.320000	L1
+3	était	être	VRB	VRB	_	0	root	_	_	121.320000	121.540001	L1
+4	étonnée	étonné	ADJ	ADJ	_	3	dep	_	_	121.540001	121.900002	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-61
+# text = ben un peu ouais elle pensait pas qu'on se s qu'il se aient
+1	ben	ben	INT	INT	_	5	dm	_	_	122.680000	123.230003	L2
+2	un peu	un peu	ADV	ADV	_	5	periph	_	_	123.230003	123.519997	L2
+3	ouais	ouais	INT	INT	_	2	dm	_	_	123.519997	123.839996	L2
+4	elle	il	CLS	CLS	_	5	subj	_	_	123.839996	123.910004	L2
+5	pensait	penser	VRB	VRB	_	0	root	_	_	123.970001	124.269997	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	124.309998	124.360001	L2
+7	qu'	que	CSU	CSU	_	5	dep	_	_	124.360001	124.440002	L2
+8	on	on	CLS	CLS	_	10	subj	_	_	124.440002	124.699997	L2
+9	se	se	CLI	CLI	_	10	dep	_	_	124.879997	124.989998	L2
+10	s	s	VRB	VRB	_	7	dep	_	_	124.989998	124.989998	L2
+11	qu'	que	CSU	CSU	_	10	dep	_	_	125.120003	125.139999	L2
+12	il	il	CLS	CLS	_	14	subj	_	_	125.459999	125.580002	L2
+13	se	se	CLI	CLI	_	14	dep	_	_	125.580002	125.730003	L2
+14	aient	avoir	VRB	VRB	_	11	dep	_	_	125.730003	125.730003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-62
+# text = souvenait
+1	souvenait	souvenir	VRB	VRB	_	0	root	_	_	125.730003	126.059998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-63
+# text = quoi O K
+1	quoi	quoi	INT	INT	_	2	dm	_	_	126.059998	126.239998	L1
+2	O	O	NOM	NOM	_	0	root	_	_	127.099998	127.129997	L1
+3	K	K	NOM	NOM	_	2	dep	_	_	127.129997	127.290001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-64
+# text = puis
+1	puis	puis	COO	COO	_	0	root	_	_	128.360001	128.639999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-65
+# text = si
+1	si	si	CSU	CSU	_	0	root	_	_	128.809998	129.160004	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-66
+# text = ma mèr~ maman elle a dit euh papa vous passe le bonjour
+1	ma	son	DET	DET	_	2	spe	_	_	129.160004	129.369995	L2
+2	mèr~	mèr~	NOM	NOM	_	6	periph	_	_	129.369995	129.649994	L2
+3	maman	maman	NOM	NOM	_	6	periph	_	_	129.679993	130.020004	L2
+4	elle	il	CLS	CLS	_	6	subj	_	_	130.020004	130.080002	L2
+5	a	avoir	VRB	VRB	_	6	aux	_	_	130.080002	130.149994	L2
+6	dit	dire	VPP	VPP	_	0	root	_	_	130.149994	130.399994	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	130.399994	130.520004	L2
+8	papa	papa	NOM	NOM	_	6	dep	_	_	131.699997	131.839996	L2
+9	vous	vous	CLS	CLS	_	10	subj	_	_	131.839996	132.130005	L2
+10	passe	passer	VRB	VRB	_	6	dep	_	_	132.130005	132.289993	L2
+11	le	le	DET	DET	_	10	disflink	_	_	132.360001	132.470001	L2
+12	bonjour	bonjour	INT	INT	_	6	dm	_	_	132.470001	132.860001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-67
+# text = quoi ça fait plaiz'
+1	quoi	quoi	INT	INT	_	3	dm	_	_	132.990005	133.080002	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	133.669998	133.809998	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	133.809998	133.940002	L1
+4	plaiz'	plaiz'	ADN	ADN	_	3	dep	_	_	133.940002	134.289993	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-68
+# text = ouais ben ouais ça fait tout drôle
+1	ouais	ouais	INT	INT	_	5	dm	_	_	134.720001	134.949997	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	134.949997	135.360001	L2
+3	ouais	ouais	INT	INT	_	2	dm	_	_	135.360001	135.419998	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	136.270004	136.399994	L2
+5	fait	faire	VRB	VRB	_	0	root	_	_	136.399994	136.580002	L2
+6	tout	tout	ADJ	ADJ	_	7	dep	_	_	136.580002	136.750000	L2
+7	drôle	drôle	NOM	NOM	_	5	dep	_	_	136.750000	136.869995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-69
+# text = quoi elle part avec vous en Angleterre
+1	quoi	quoi	INT	INT	_	3	dm	_	_	136.949997	137.279999	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	136.949997	137.240005	L1
+3	part	partir	VRB	VRB	_	0	root	_	_	137.330002	137.419998	L1
+4	avec	avec	PRE	PRE	_	3	dep	_	_	137.419998	137.539993	L1
+5	vous	moi	PRO	PRO	_	4	dep	_	_	137.539993	137.610001	L1
+6	en	en	PRE	PRE	_	3	dep	_	_	137.610001	137.699997	L1
+7	Angleterre	Angleterre	NOM	NOM	_	6	dep	_	_	137.699997	137.960007	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-70
+# text = hum ben tu sais en fait
+1	hum	hum	INT	INT	_	4	dm	_	_	138.440002	138.610001	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	139.419998	139.520004	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	139.520004	139.589996	L2
+4	sais	savoir	VRB	VRB	_	0	root	_	_	139.589996	139.729996	L2
+5	en	en	PRE	PRE	_	6	dep	_	_	139.729996	139.770004	L2
+6	fait	faire	VPP	VPP	_	4	dep	_	_	139.770004	139.949997	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-71
+# text = elle elle elle devait partir en Australie pour de pour pour faire des moutons
+1	elle	il	CLS	CLS	_	4	subj	_	_	140.000000	140.199997	L2
+2	elle	il	CLS	CLS	_	1	para	_	_	140.690002	141.110001	L2
+3	elle	il	CLS	CLS	_	2	para	_	_	141.679993	141.800003	L2
+4	devait	devoir	VRB	VRB	_	0	root	_	_	141.800003	142.020004	L2
+5	partir	partir	VNF	VNF	_	4	dep	_	_	142.020004	142.449997	L2
+6	en	en	PRE	PRE	_	5	dep	_	_	142.449997	142.589996	L2
+7	Australie	Australie	NOM	NOM	_	6	dep	_	_	142.589996	142.990005	L2
+8	pour	pour	PRE	PRE	_	5	dep	_	_	142.990005	143.220001	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	143.220001	143.429993	L2
+10	pour	pour	PRE	PRE	_	8	para	_	_	143.720001	143.869995	L2
+11	pour	pour	PRE	PRE	_	10	para	_	_	143.970001	144.080002	L2
+12	faire	faire	VNF	VNF	_	11	dep	_	_	144.080002	144.250000	L2
+13	des	de	PRE	PRE	_	12	dep	_	_	144.250000	144.449997	L2
+14	moutons	mouton	NOM	NOM	_	13	dep	_	_	144.449997	144.649994	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-72
+# text = ou je sais plus trop
+1	ou	ou	COO	COO	_	3	mark	_	_	144.649994	144.830002	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	144.830002	144.919998	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	144.919998	144.979996	L2
+4	plus	plus	ADN	ADN	_	5	dep	_	_	144.979996	145.080002	L2
+5	trop	trop	ADV	ADV	_	3	dep	_	_	145.080002	145.279999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-73
+# text = quoi ouais et avoir une ferme
+1	quoi	quoi	INT	INT	_	4	dm	_	_	145.279999	145.399994	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	145.830002	146.029999	L1
+3	et	et	COO	COO	_	4	mark	_	_	146.029999	146.059998	L1
+4	avoir	avoir	VNF	VNF	_	0	root	_	_	146.059998	146.279999	L1
+5	une	un	DET	DET	_	6	spe	_	_	146.279999	146.389999	L1
+6	ferme	ferme	NOM	NOM	_	4	dep	_	_	146.389999	146.589996	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-74
+# text = là bas
+1	là	là	ADV	ADV	_	0	root	_	_	146.589996	146.660004	L1
+2	bas	bas	ADV	ADV	_	1	dep	_	_	146.660004	146.820007	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-75
+# text = ouais et puis ça lui a pas plu apparemment
+1	ouais	ouais	INT	INT	_	7	dm	_	_	147.029999	147.190002	L2
+2	et puis	et puis	COO	COO	_	7	mark	_	_	147.520004	147.710007	L2
+3	ça	ça	PRO	PRO	_	7	subj	_	_	147.710007	147.820007	L2
+4	lui	lui	CLI	CLI	_	7	dep	_	_	147.820007	148.089996	L2
+5	a	avoir	VRB	VRB	_	7	aux	_	_	148.089996	148.169998	L2
+6	pas	pas	ADN	ADN	_	7	dep	_	_	148.169998	148.259995	L2
+7	plu	plaire	VPP	VPP	_	0	root	_	_	148.259995	148.490005	L2
+8	apparemment	apparemment	ADV	ADV	_	7	dep	_	_	148.490005	148.970001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-76
+# text = puis elle est revenue
+1	puis	puis	COO	COO	_	4	mark	_	_	149.149994	149.270004	L2
+2	elle	il	CLS	CLS	_	4	subj	_	_	149.330002	149.380005	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	149.380005	149.410004	L2
+4	revenue	revenir	VPP	VPP	_	0	root	_	_	149.410004	149.589996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-77
+# text = puis elle fait prof d'an~ d'anglais
+1	puis	puis	COO	COO	_	3	mark	_	_	149.639999	149.750000	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	149.750000	149.809998	L2
+3	fait	faire	VRB	VRB	_	0	root	_	_	149.809998	149.960007	L2
+4	prof	prof	NOM	NOM	_	3	dep	_	_	149.960007	150.190002	L2
+5	d'	de	PRE	PRE	_	4	dep	_	_	150.190002	150.229996	L2
+6	an~	an~	NOM	NOM	_	5	dep	_	_	150.229996	150.410004	L2
+7	d'	de	PRE	PRE	_	6	dep	_	_	150.520004	150.580002	L2
+8	anglais	anglais	NOM	NOM	_	7	dep	_	_	150.580002	150.880005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-78
+# text = quoi ouais elle a raison elle est plus tranquille au moins
+1	quoi	quoi	INT	INT	_	4	dm	_	_	150.960007	151.039993	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	151.639999	151.809998	L1
+3	elle	il	CLS	CLS	_	4	subj	_	_	151.809998	151.839996	L1
+4	a	avoir	VRB	VRB	_	0	root	_	_	151.839996	151.929993	L1
+5	raison	raison	NOM	NOM	_	4	dep	_	_	151.929993	152.149994	L1
+6	elle	il	CLS	CLS	_	7	subj	_	_	152.149994	152.210007	L1
+7	est	être	VRB	VRB	_	4	para	_	_	152.210007	152.240005	L1
+8	plus	plus	ADN	ADN	_	9	dep	_	_	152.240005	152.330002	L1
+9	tranquille	tranquille	ADJ	ADJ	_	7	dep	_	_	152.330002	152.699997	L1
+10	au	à+le	PRE	PRE	_	9	dep	_	_	152.699997	152.729996	L1
+11	moins	moins	ADV	ADV	_	10	dep	_	_	152.789993	152.869995	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-79
+# text = ben elle dit c'est pas pareil
+1	ben	ben	INT	INT	_	3	dm	_	_	153.809998	153.979996	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	153.979996	154.070007	L2
+3	dit	dire	VRB	VRB	_	0	root	_	_	154.070007	154.160004	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	154.160004	154.229996	L2
+5	est	être	VRB	VRB	_	3	dep	_	_	154.229996	154.259995	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	154.259995	154.410004	L2
+7	pareil	pareil	ADJ	ADJ	_	5	dep	_	_	154.410004	154.740005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-80
+# text = tu vois
+1	tu	tu	CLS	CLS	_	2	subj	_	_	155.570007	155.679993	L2
+2	vois	voir	VRB	VRB	_	0	root	_	_	155.679993	155.869995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-81
+# text = ah ouais parce qu'elle vous parle des fois de sa vie
+1	ah	ah	INT	INT	_	3	dm	_	_	154.960007	155.130005	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	155.130005	155.190002	L1
+3	parce qu'	parce que	CSU	CSU	_	0	root	_	_	155.380005	155.699997	L1
+4	elle	il	CLS	CLS	_	6	subj	_	_	155.699997	155.869995	L1
+5	vous	vous	CLI	CLI	_	6	dep	_	_	155.919998	156.020004	L1
+6	parle	parler	VRB	VRB	_	3	dep	_	_	156.020004	156.139999	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	156.139999	156.199997	L1
+8	fois	foi	NOM	NOM	_	7	dep	_	_	156.199997	156.289993	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	156.289993	156.330002	L1
+10	sa	son	DET	DET	_	11	spe	_	_	156.330002	156.389999	L1
+11	vie	vie	NOM	NOM	_	9	dep	_	_	156.389999	156.490005	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-82
+# text = n~ non
+1	n~	n~	X	X	_	0	root	_	_	157.210007	157.279999	L2
+2	non	non	INT	INT	_	1	dm	_	_	157.539993	157.710007	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-83
+# text = mais avec maman
+1	mais	mais	COO	COO	_	2	mark	_	_	157.759995	157.889999	L2
+2	avec	avec	PRE	PRE	_	0	root	_	_	157.889999	158.339996	L2
+3	maman	maman	NOM	NOM	_	2	dep	_	_	158.339996	158.509995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-84
+# text = on en a parlé
+1	on	on	CLS	CLS	_	4	subj	_	_	158.509995	158.539993	L2
+2	en	en	CLI	CLI	_	4	dep	_	_	158.539993	158.699997	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	158.699997	158.759995	L2
+4	parlé	parler	VPP	VPP	_	0	root	_	_	158.759995	159.089996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-85
+# text = tu sais avant elle faisait les contrôles euh pour la PAC
+1	tu	tu	CLS	CLS	_	2	subj	_	_	159.520004	159.580002	L2
+2	sais	savoir	VRB	VRB	_	0	root	_	_	159.580002	159.639999	L2
+3	avant	avant	PRE	PRE	_	2	dep	_	_	159.639999	159.750000	L2
+4	elle	il	CLS	CLS	_	5	subj	_	_	159.750000	159.880005	L2
+5	faisait	faire	VRB	VRB	_	2	para	_	_	159.880005	160.029999	L2
+6	les	le	DET	DET	_	7	spe	_	_	160.029999	160.139999	L2
+7	contrôles	contrôle	NOM	NOM	_	5	dep	_	_	160.139999	161.080002	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	161.080002	161.110001	L2
+9	pour	pour	PRE	PRE	_	5	dep	_	_	161.350006	161.460007	L2
+10	la	le	DET	DET	_	11	spe	_	_	161.460007	161.660004	L2
+11	PAC	PAC	NOM	NOM	_	9	dep	_	_	161.800003	161.949997	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-86
+# text = ou je sais pas trop quoi pour les trucs laitiers les quotas
+1	ou	ou	COO	COO	_	3	mark	_	_	162.330002	162.389999	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	162.389999	162.419998	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	162.419998	162.520004	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	162.520004	162.669998	L2
+5	trop	trop	ADV	ADV	_	3	dep	_	_	162.669998	162.830002	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	162.830002	163.279999	L2
+7	pour	pour	PRE	PRE	_	3	dep	_	_	163.759995	163.889999	L2
+8	les	le	DET	DET	_	9	spe	_	_	163.889999	163.970001	L2
+9	trucs	truc	NOM	NOM	_	7	dep	_	_	163.970001	164.210007	L2
+10	laitiers	laitier	NOM	NOM	_	9	dep	_	_	164.210007	164.539993	L2
+11	les	le	DET	DET	_	12	spe	_	_	164.539993	164.690002	L2
+12	quotas	quota	NOM	NOM	_	10	para	_	_	164.690002	165.000000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-87
+# text = puis avant elle elle disait faut faire les gendarmes pour pour le pour parce que ils font trop de lait
+1	puis	puis	COO	COO	_	5	mark	_	_	165.529999	165.619995	L2
+2	avant	avant	PRE	PRE	_	5	periph	_	_	165.619995	165.869995	L2
+3	elle	moi	PRO	PRO	_	2	dep	_	_	165.869995	166.059998	L2
+4	elle	il	CLS	CLS	_	5	subj	_	_	166.059998	166.250000	L2
+5	disait	dire	VRB	VRB	_	0	root	_	_	166.320007	166.520004	L2
+6	faut	faillir	VRB	VRB	_	5	dep	_	_	166.520004	166.660004	L2
+7	faire	faire	VNF	VNF	_	6	dep	_	_	166.660004	166.820007	L2
+8	les	le	DET	DET	_	9	spe	_	_	166.820007	166.889999	L2
+9	gendarmes	gendarme	NOM	NOM	_	7	dep	_	_	166.889999	167.360001	L2
+10	pour	pour	PRE	PRE	_	7	dep	_	_	167.360001	167.460007	L2
+11	pour	pour	PRE	PRE	_	10	para	_	_	168.020004	168.169998	L2
+12	le	le	DET	DET	_	11	dep	_	_	168.169998	168.429993	L2
+13	pour	pour	PRE	PRE	_	11	para	_	_	168.429993	168.570007	L2
+14	parce que	parce que	CSU	CSU	_	13	dep	_	_	168.690002	168.889999	L2
+15	ils	il	CLS	CLS	_	16	subj	_	_	168.889999	169.009995	L2
+16	font	faire	VRB	VRB	_	14	dep	_	_	169.009995	169.250000	L2
+17	trop	trop	ADV	ADV	_	16	dep	_	_	169.250000	169.449997	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	169.449997	169.500000	L2
+19	lait	lait	NOM	NOM	_	18	dep	_	_	169.500000	169.720001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-88
+# text = maintenant on fait les gendarmes avec les élèves
+1	maintenant	maintenant	ADV	ADV	_	3	periph	_	_	170.089996	170.360001	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	170.360001	170.389999	L2
+3	fait	faire	VRB	VRB	_	0	root	_	_	170.389999	170.490005	L2
+4	les	le	DET	DET	_	5	spe	_	_	170.490005	170.570007	L2
+5	gendarmes	gendarme	NOM	NOM	_	3	dep	_	_	170.570007	170.910004	L2
+6	avec	avec	PRE	PRE	_	3	dep	_	_	170.910004	171.190002	L2
+7	les	le	DET	DET	_	8	spe	_	_	171.190002	171.279999	L2
+8	élèves	élève	NOM	NOM	_	6	dep	_	_	171.279999	171.559998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-89
+# text = donc euh ça revient peu au même
+1	donc	donc	ADV	ADV	_	4	periph	_	_	171.600006	171.779999	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	171.779999	171.809998	L2
+3	ça	ça	PRO	PRO	_	4	subj	_	_	172.759995	173.020004	L2
+4	revient	revenir	VRB	VRB	_	0	root	_	_	173.020004	173.240005	L2
+5	peu	peu	ADV	ADV	_	4	dep	_	_	173.240005	173.309998	L2
+6	au	à+le	PRE	PRE	_	4	dep	_	_	173.309998	173.479996	L2
+7	même	même	ADV	ADV	_	6	dep	_	_	173.479996	173.740005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-90
+# text = mais elle préfère quand
+1	mais	mais	COO	COO	_	3	mark	_	_	173.789993	173.880005	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	173.880005	173.910004	L2
+3	préfère	préférer	VRB	VRB	_	0	root	_	_	173.910004	174.179993	L2
+4	quand	quand	CSU	CSU	_	3	dep	_	_	174.309998	174.410004	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-91
+# text = même euh
+1	même	même	ADV	ADV	_	0	root	_	_	174.410004	174.759995	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	174.759995	174.820007	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-92
+# text = être prof
+1	être	être	VNF	VNF	_	0	root	_	_	175.250000	175.380005	L2
+2	prof	prof	NOM	NOM	_	1	dep	_	_	175.380005	175.669998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-93
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	175.669998	175.770004	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-94
+# text = ah ouais
+1	ah	ah	INT	INT	_	0	root	_	_	159.250000	159.410004	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	159.410004	159.470001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-95
+# text = ouais ouais ouais non ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	162.330002	162.520004	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	162.520004	162.669998	L1
+3	ouais	ouais	INT	INT	_	2	para	_	_	162.779999	163.070007	L1
+4	non	non	INT	INT	_	3	para	_	_	163.070007	163.279999	L1
+5	ouais	ouais	INT	INT	_	4	para	_	_	165.229996	165.389999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-96
+# text = ah ouais elle a dit ça
+1	ah	ah	INT	INT	_	5	dm	_	_	172.789993	172.869995	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	172.869995	173.220001	L1
+3	elle	il	CLS	CLS	_	5	subj	_	_	173.220001	173.419998	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	173.419998	173.449997	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	173.449997	173.529999	L1
+6	ça	ça	PRO	PRO	_	5	dep	_	_	173.529999	173.690002	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-97
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	177.229996	177.619995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-98
+# text = quoi O K
+1	quoi	quoi	INT	INT	_	2	dm	_	_	177.619995	177.750000	L1
+2	O	O	NOM	NOM	_	0	root	_	_	178.229996	178.259995	L1
+3	K	K	NOM	NOM	_	2	dep	_	_	178.339996	178.389999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-99
+# text = puis ben sinon j'ai été voir ma prof de religion
+1	puis	puis	COO	COO	_	6	mark	_	_	179.289993	179.539993	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	179.539993	179.690002	L2
+3	sinon	sinon	ADV	ADV	_	6	periph	_	_	179.779999	180.360001	L2
+4	j'	je	CLS	CLS	_	6	subj	_	_	180.759995	180.789993	L2
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	180.789993	180.850006	L2
+6	été	être	VPP	VPP	_	0	root	_	_	180.850006	180.979996	L2
+7	voir	voir	VNF	VNF	_	6	dep	_	_	180.979996	181.190002	L2
+8	ma	son	DET	DET	_	9	spe	_	_	181.190002	181.250000	L2
+9	prof	prof	NOM	NOM	_	7	dep	_	_	181.250000	181.369995	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	181.369995	181.509995	L2
+11	religion	religion	NOM	NOM	_	10	dep	_	_	181.509995	181.850006	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-100
+# text = ouais en fait tu as pas eu trop de mauvaises remarques
+1	ouais	ouais	INT	INT	_	3	dm	_	_	183.279999	183.639999	L1
+2	en	en	PRE	PRE	_	3	periph	_	_	183.960007	183.990005	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	183.990005	184.089996	L1
+4	tu	tu	CLS	CLS	_	7	subj	_	_	184.089996	184.160004	L1
+5	as	avoir	VRB	VRB	_	7	aux	_	_	184.160004	184.270004	L1
+6	pas	pas	ADN	ADN	_	7	dep	_	_	184.339996	184.399994	L1
+7	eu	avoir	VPP	VPP	_	3	para	_	_	184.399994	184.429993	L1
+8	trop	trop	ADV	ADV	_	7	dep	_	_	184.429993	184.529999	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	184.529999	184.600006	L1
+10	mauvaises	mauvais	NOM	NOM	_	9	dep	_	_	184.600006	184.940002	L1
+11	remarques	remarque	NOM	NOM	_	10	dep	_	_	184.940002	185.250000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-101
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	185.300003	185.389999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-102
+# text = ben elle est contente de
+1	ben	ben	INT	INT	_	3	dm	_	_	183.279999	183.630005	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	183.729996	183.839996	L2
+3	est	être	VRB	VRB	_	0	root	_	_	183.839996	183.899994	L2
+4	contente	content	ADJ	ADJ	_	3	dep	_	_	183.960007	184.130005	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	184.130005	184.270004	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-103
+# text = ben
+1	ben	ben	INT	INT	_	0	root	_	_	185.850006	186.259995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-104
+# text = si
+1	si	si	CSU	CSU	_	0	root	_	_	186.259995	186.539993	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-105
+# text = un peu quoi
+1	un peu	un peu	ADV	ADV	_	0	root	_	_	186.539993	186.869995	L2
+2	quoi	quoi	INT	INT	_	1	dm	_	_	186.869995	187.000000	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-106
+# text = la prof de de musique
+1	la	le	DET	DET	_	2	spe	_	_	187.000000	187.059998	L2
+2	prof	prof	NOM	NOM	_	0	root	_	_	187.059998	187.309998	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	187.309998	187.889999	L2
+4	de	de	PRE	PRE	_	3	para	_	_	188.820007	188.919998	L2
+5	musique	musique	NOM	NOM	_	4	dep	_	_	188.919998	189.449997	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-107
+# text = quoi à cause de ton mot dans le carnet
+1	quoi	quoi	INT	INT	_	2	dm	_	_	189.449997	189.520004	L1
+2	à cause de	à cause de	PRE	PRE	_	0	root	_	_	190.119995	191.100006	L1
+3	ton	son	DET	DET	_	4	spe	_	_	191.100006	191.160004	L1
+4	mot	mot	NOM	NOM	_	2	dep	_	_	191.160004	191.270004	L1
+5	dans	dans	PRE	PRE	_	2	para	_	_	191.270004	191.460007	L1
+6	le	le	DET	DET	_	7	spe	_	_	191.460007	191.490005	L1
+7	carnet	carnet	NOM	NOM	_	5	dep	_	_	191.490005	191.779999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-108
+# text = ben oui
+1	ben	ben	INT	INT	_	0	root	_	_	191.979996	192.039993	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	192.169998	192.509995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-109
+# text = ben c'est pas sérieux ça hein
+1	ben	ben	INT	INT	_	3	dm	_	_	192.139999	192.259995	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	192.259995	192.289993	L1
+3	est	être	VRB	VRB	_	0	root	_	_	192.289993	192.529999	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	192.639999	192.729996	L1
+5	sérieux	sérieux	ADJ	ADJ	_	3	dep	_	_	192.729996	192.919998	L1
+6	ça	ça	PRO	PRO	_	3	periph	_	_	192.919998	193.029999	L1
+7	hein	hein	INT	INT	_	6	dm	_	_	193.029999	193.070007	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-110
+# text = moi en troisième j'avais pas un mot dans le carnet
+1	moi	moi	PRO	PRO	_	5	periph	_	_	194.020004	194.250000	L1
+2	en	en	PRE	PRE	_	5	periph	_	_	194.320007	194.380005	L1
+3	troisième	troisième	NOM	NOM	_	2	dep	_	_	194.429993	194.710007	L1
+4	j'	je	CLS	CLS	_	5	subj	_	_	194.710007	194.750000	L1
+5	avais	avoir	VRB	VRB	_	0	root	_	_	194.750000	194.839996	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	194.839996	195.199997	L1
+7	un	un	DET	DET	_	8	spe	_	_	195.199997	195.250000	L1
+8	mot	mot	NOM	NOM	_	5	dep	_	_	195.250000	195.320007	L1
+9	dans	dans	PRE	PRE	_	5	dep	_	_	195.320007	195.470001	L1
+10	le	le	DET	DET	_	11	spe	_	_	195.470001	195.500000	L1
+11	carnet	carnet	NOM	NOM	_	9	dep	_	_	195.610001	195.910004	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-111
+# text = ouais non mais parce que
+1	ouais	ouais	INT	INT	_	4	dm	_	_	193.440002	193.740005	L2
+2	non	non	INT	INT	_	1	dm	_	_	193.740005	193.850006	L2
+3	mais	mais	COO	COO	_	4	mark	_	_	193.850006	193.970001	L2
+4	parce que	parce que	CSU	CSU	_	0	root	_	_	194.070007	194.380005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-112
+# text = oui non mais c'est bon
+1	oui	oui	INT	INT	_	5	dm	_	_	195.630005	195.899994	L2
+2	non	non	INT	INT	_	1	dm	_	_	195.899994	195.990005	L2
+3	mais	mais	COO	COO	_	5	mark	_	_	195.990005	196.050003	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	196.119995	196.229996	L2
+5	est	être	VRB	VRB	_	0	root	_	_	196.229996	196.279999	L2
+6	bon	bon	ADJ	ADJ	_	5	dep	_	_	196.279999	196.399994	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-113
+# text = NNAAMMEE dis pas n' importe quoi
+1	NNAAMMEE	NOM	NOM	NOM	_	2	subj	_	_	196.520004	196.690002	L2
+2	dis	dire	VRB	VRB	_	0	root	_	_	196.690002	196.850006	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	196.910004	197.009995	L2
+4	n' importe quoi	n'importe quoi	PRO	PRO	_	2	dep	_	_	197.009995	197.550003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-114
+# text = non tu as
+1	non	non	INT	INT	_	3	dm	_	_	198.520004	198.720001	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	198.970001	199.020004	L2
+3	as	avoir	VRB	VRB	_	0	root	_	_	199.020004	199.050003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-115
+# text = peut
+1	peut	pouvoir	VRB	VRB	_	0	root	_	_	199.050003	199.130005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-116
+# text = être pas eu de mots dans le carnet
+1	être	être	VNF	VNF	_	3	aux	_	_	199.130005	199.320007	L2
+2	pas	pas	ADN	ADN	_	3	dep	_	_	199.320007	199.399994	L2
+3	eu	avoir	VPP	VPP	_	0	root	_	_	199.399994	199.529999	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	199.529999	199.559998	L2
+5	mots	mot	NOM	NOM	_	4	dep	_	_	199.559998	199.690002	L2
+6	dans	dans	PRE	PRE	_	3	dep	_	_	199.690002	199.830002	L2
+7	le	le	DET	DET	_	8	spe	_	_	199.830002	199.860001	L2
+8	carnet	carnet	NOM	NOM	_	6	dep	_	_	199.860001	200.229996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-117
+# text = mais tu as eu tu as eu des paires de colles
+1	mais	mais	COO	COO	_	4	mark	_	_	200.289993	200.440002	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	200.440002	200.660004	L2
+3	as	avoir	VRB	VRB	_	4	aux	_	_	200.660004	200.690002	L2
+4	eu	avoir	VPP	VPP	_	0	root	_	_	200.690002	200.720001	L2
+5	tu	tu	CLS	CLS	_	7	subj	_	_	200.720001	200.779999	L2
+6	as	avoir	VRB	VRB	_	7	aux	_	_	200.779999	200.809998	L2
+7	eu	avoir	VPP	VPP	_	4	para	_	_	200.809998	200.839996	L2
+8	des	de	PRE	PRE	_	7	dep	_	_	200.839996	200.929993	L2
+9	paires	paire	NOM	NOM	_	8	dep	_	_	200.929993	201.059998	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	201.059998	201.210007	L2
+11	colles	colle	NOM	NOM	_	10	dep	_	_	201.210007	201.580002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-118
+# text = alors euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	201.949997	202.210007	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	202.210007	202.240005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-119
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	198.039993	198.300003	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-120
+# text = non en troisième j'en avais
+1	non	non	INT	INT	_	6	dm	_	_	202.309998	202.369995	L1
+2	en	en	PRE	PRE	_	6	periph	_	_	202.369995	202.399994	L1
+3	troisième	troisième	ADJ	ADJ	_	2	dep	_	_	202.399994	202.639999	L1
+4	j'	je	CLS	CLS	_	6	subj	_	_	202.699997	202.720001	L1
+5	en	en	CLI	CLI	_	6	dep	_	_	202.720001	202.750000	L1
+6	avais	avoir	VRB	VRB	_	0	root	_	_	202.750000	202.850006	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-121
+# text = plus ouais
+1	plus	plus	ADN	ADN	_	0	root	_	_	202.850006	203.089996	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	203.520004	203.729996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-122
+# text = si allez
+1	si	si	CSU	CSU	_	0	root	_	_	203.729996	204.110001	L2
+2	allez	aller	VRB	VRB	_	1	dep	_	_	204.110001	204.229996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-123
+# text = ben elle m'a juste dit que que je fasse attention quoi que que je la prenne pas trop pour sa copine quoi
+1	ben	ben	INT	INT	_	6	dm	_	_	205.119995	205.229996	L2
+2	elle	il	CLS	CLS	_	6	subj	_	_	205.229996	205.350006	L2
+3	m'	me	CLI	CLI	_	6	dep	_	_	205.350006	205.380005	L2
+4	a	avoir	VRB	VRB	_	6	aux	_	_	205.380005	205.410004	L2
+5	juste	juste	ADV	ADV	_	6	dep	_	_	205.410004	205.669998	L2
+6	dit	dire	VPP	VPP	_	0	root	_	_	205.669998	205.850006	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	205.850006	206.410004	L2
+8	que	que	CSU	CSU	_	7	para	_	_	206.820007	206.949997	L2
+9	je	je	CLS	CLS	_	10	subj	_	_	206.949997	207.050003	L2
+10	fasse	faire	VRB	VRB	_	8	dep	_	_	207.050003	207.259995	L2
+11	attention	attention	NOM	NOM	_	10	dep	_	_	207.259995	207.850006	L2
+12	quoi	quoi	PRO	PRO	_	10	dep	_	_	207.850006	207.940002	L2
+13	que	que	CSU	CSU	_	12	dep	_	_	207.940002	208.020004	L2
+14	que	que	CSU	CSU	_	13	para	_	_	208.679993	208.699997	L2
+15	je	je	CLS	CLS	_	17	subj	_	_	208.789993	208.889999	L2
+16	la	le	CLI	CLI	_	17	dep	_	_	208.889999	208.960007	L2
+17	prenne	prendre	VRB	VRB	_	14	dep	_	_	208.960007	209.229996	L2
+18	pas	pas	ADN	ADN	_	17	dep	_	_	209.229996	209.389999	L2
+19	trop	trop	ADV	ADV	_	17	dep	_	_	209.389999	209.570007	L2
+20	pour	pour	PRE	PRE	_	17	dep	_	_	209.570007	209.809998	L2
+21	sa	son	DET	DET	_	22	spe	_	_	209.809998	210.110001	L2
+22	copine	copine	NOM	NOM	_	20	dep	_	_	210.270004	210.740005	L2
+23	quoi	quoi	INT	INT	_	22	dm	_	_	210.740005	210.830002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-124
+# text = mais bon de toute façon le moment là c'était pas trop de ma faute quoi
+1	mais	mais	COO	COO	_	10	mark	_	_	212.169998	212.500000	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	212.500000	212.559998	L2
+3	de	de	PRE	PRE	_	10	periph	_	_	212.559998	212.600006	L2
+4	toute	tout	ADJ	ADJ	_	5	dep	_	_	212.660004	212.740005	L2
+5	façon	façon	NOM	NOM	_	3	dep	_	_	212.740005	213.149994	L2
+6	le	le	DET	DET	_	7	spe	_	_	213.149994	213.179993	L2
+7	moment	moment	NOM	NOM	_	10	periph	_	_	213.179993	213.339996	L2
+8	là	là	ADV	ADV	_	7	dep	_	_	213.339996	213.460007	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	213.460007	213.490005	L2
+10	était	être	VRB	VRB	_	0	root	_	_	213.490005	213.630005	L2
+11	pas	pas	ADN	ADN	_	10	dep	_	_	213.630005	213.789993	L2
+12	trop	trop	ADV	ADV	_	13	dep	_	_	213.789993	213.970001	L2
+13	de	de	PRE	PRE	_	10	dep	_	_	213.970001	214.000000	L2
+14	ma	son	DET	DET	_	15	spe	_	_	214.000000	214.169998	L2
+15	faute	faute	NOM	NOM	_	13	dep	_	_	214.169998	214.529999	L2
+16	quoi	quoi	INT	INT	_	15	dm	_	_	214.610001	214.690002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-125
+# text = si je te jure
+1	si	si	CSU	CSU	_	0	root	_	_	215.479996	215.710007	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	215.710007	215.910004	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	215.910004	215.940002	L2
+4	jure	jurer	VRB	VRB	_	1	dep	_	_	215.940002	216.179993	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-126
+# text = ouais ouais c'est toujours
+1	ouais	ouais	INT	INT	_	4	dm	_	_	215.139999	215.419998	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	215.470001	215.550003	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	215.550003	215.580002	L1
+4	est	être	VRB	VRB	_	0	root	_	_	215.580002	215.610001	L1
+5	toujours	toujours	ADV	ADV	_	4	dep	_	_	215.610001	216.139999	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-127
+# text = non mais on dit toujours
+1	non	non	INT	INT	_	4	dm	_	_	216.240005	216.300003	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	216.300003	216.369995	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	216.369995	216.399994	L1
+4	dit	dire	VRB	VRB	_	0	root	_	_	216.399994	216.509995	L1
+5	toujours	toujours	ADV	ADV	_	4	dep	_	_	216.509995	216.750000	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-128
+# text = ça c'est pas de ma faute
+1	ça	ça	PRO	PRO	_	3	periph	_	_	216.869995	216.960007	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	217.119995	217.149994	L1
+3	est	être	VRB	VRB	_	0	root	_	_	217.149994	217.190002	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	217.330002	217.509995	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	217.509995	217.539993	L1
+6	ma	son	DET	DET	_	7	spe	_	_	217.539993	217.699997	L1
+7	faute	faute	NOM	NOM	_	5	dep	_	_	217.830002	217.910004	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-129
+# text = c'est de la faute de mon voisin
+1	c'	ce	CLS	CLS	_	2	subj	_	_	218.089996	218.119995	L1
+2	est	être	VRB	VRB	_	0	root	_	_	218.119995	218.149994	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	218.149994	218.179993	L1
+4	la	le	DET	DET	_	5	spe	_	_	218.179993	218.240005	L1
+5	faute	faute	NOM	NOM	_	3	dep	_	_	218.240005	218.449997	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	218.449997	218.550003	L1
+7	mon	son	DET	DET	_	8	spe	_	_	218.550003	218.610001	L1
+8	voisin	voisin	NOM	NOM	_	6	dep	_	_	218.610001	218.929993	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-130
+# text = c'est lui
+1	c'	ce	CLS	CLS	_	2	subj	_	_	219.009995	219.029999	L1
+2	est	être	VRB	VRB	_	0	root	_	_	219.029999	219.089996	L1
+3	lui	moi	PRO	PRO	_	2	dep	_	_	219.089996	219.199997	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-131
+# text = qui
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	219.279999	219.330002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-132
+# text = non mais arrête
+1	non	non	INT	INT	_	3	dm	_	_	217.149994	217.550003	L2
+2	mais	mais	COO	COO	_	3	mark	_	_	217.550003	217.610001	L2
+3	arrête	arrêter	VRB	VRB	_	0	root	_	_	217.610001	217.899994	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-133
+# text = je te jure ah
+1	je	je	CLS	CLS	_	3	subj	_	_	219.500000	219.600006	L2
+2	te	te	CLI	CLI	_	3	dep	_	_	219.600006	219.630005	L2
+3	jure	jurer	VRB	VRB	_	0	root	_	_	219.630005	219.990005	L2
+4	ah	ah	INT	INT	_	3	dm	_	_	220.270004	220.440002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-134
+# text = non tu dois prendre tes responsabilités
+1	non	non	INT	INT	_	3	dm	_	_	220.440002	220.520004	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	220.660004	220.720001	L1
+3	dois	devoir	VRB	VRB	_	0	root	_	_	220.720001	220.839996	L1
+4	prendre	prendre	VNF	VNF	_	3	dep	_	_	220.839996	221.009995	L1
+5	tes	son	DET	DET	_	6	spe	_	_	221.009995	221.070007	L1
+6	responsabilités	responsabilité	NOM	NOM	_	4	dep	_	_	221.070007	221.869995	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-135
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	221.869995	221.910004	L1
+2	est	être	VRB	VRB	_	0	root	_	_	221.910004	221.949997	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-136
+# text = tout non ben
+1	tout	tout	PRO	PRO	_	0	root	_	_	222.080002	222.259995	L2
+2	non	non	INT	INT	_	1	dm	_	_	222.070007	222.240005	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	222.389999	222.520004	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-137
+# text = même pas en fait euh elle a fait une remarque
+1	même	même	ADV	ADV	_	2	dep	_	_	222.520004	222.729996	L2
+2	pas	pas	ADN	ADN	_	3	dep	_	_	222.729996	222.940002	L2
+3	en	en	PRE	PRE	_	8	periph	_	_	224.320007	224.410004	L2
+4	fait	fait	NOM	NOM	_	3	dep	_	_	224.479996	224.729996	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	224.729996	224.929993	L2
+6	elle	il	CLS	CLS	_	8	subj	_	_	225.490005	225.630005	L2
+7	a	avoir	VRB	VRB	_	8	aux	_	_	225.630005	225.759995	L2
+8	fait	faire	VPP	VPP	_	0	root	_	_	225.759995	225.889999	L2
+9	une	un	DET	DET	_	10	spe	_	_	225.889999	225.960007	L2
+10	remarque	remarque	NOM	NOM	_	8	dep	_	_	225.960007	226.380005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-138
+# text = c'était pas moi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	226.460007	226.490005	L2
+2	était	être	VRB	VRB	_	0	root	_	_	227.369995	227.600006	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	227.600006	227.740005	L2
+4	moi	moi	PRO	PRO	_	2	dep	_	_	227.740005	228.029999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-139
+# text = puis elle m'a fait une deuxième remarque là
+1	puis	puis	COO	COO	_	5	mark	_	_	228.830002	228.940002	L2
+2	elle	il	CLS	CLS	_	5	subj	_	_	228.940002	229.110001	L2
+3	m'	me	CLI	CLI	_	5	dep	_	_	229.110001	229.139999	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	229.139999	229.169998	L2
+5	fait	faire	VPP	VPP	_	0	root	_	_	229.169998	229.229996	L2
+6	une	un	DET	DET	_	8	spe	_	_	229.229996	229.289993	L2
+7	deuxième	deuxième	ADJ	ADJ	_	8	dep	_	_	229.289993	229.589996	L2
+8	remarque	remarque	NOM	NOM	_	5	dep	_	_	229.589996	229.949997	L2
+9	là	là	ADV	ADV	_	5	periph	_	_	229.949997	230.039993	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-140
+# text = j'étais pris en flagrant délit
+1	j'	je	CLS	CLS	_	3	subj	_	_	230.039993	230.130005	L2
+2	étais	être	VRB	VRB	_	3	aux	_	_	230.130005	230.270004	L2
+3	pris	-	VPP	VPP	_	0	root	_	_	230.270004	230.449997	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	230.449997	230.559998	L2
+5	flagrant	flagrant	ADJ	ADJ	_	6	dep	_	_	230.619995	230.889999	L2
+6	délit	délit	NOM	NOM	_	4	dep	_	_	230.889999	231.149994	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-141
+# text = tu sais c'est derrière c'est derrière
+1	tu	tu	CLS	CLS	_	2	subj	_	_	231.149994	231.229996	L2
+2	sais	savoir	VRB	VRB	_	4	dm	_	_	231.229996	231.369995	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	231.669998	231.740005	L2
+4	est	être	VRB	VRB	_	0	root	_	_	231.740005	231.770004	L2
+5	derrière	derrière	PRE	PRE	_	4	dep	_	_	232.039993	232.479996	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	232.860001	232.899994	L2
+7	est	être	VRB	VRB	_	4	para	_	_	232.899994	232.929993	L2
+8	derrière	derrière	ADJ	ADJ	_	7	dep	_	_	232.929993	233.470001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-142
+# text = il m~ il me demande quelque chose
+1	il	il	CLS	CLS	_	2	subj	_	_	233.470001	233.529999	L2
+2	m~	m~	VRB	VRB	_	0	root	_	_	233.529999	233.660004	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	233.660004	233.720001	L2
+4	me	me	CLI	CLI	_	5	dep	_	_	233.720001	233.759995	L2
+5	demande	demander	VRB	VRB	_	2	dep	_	_	233.759995	234.050003	L2
+6	quelque chose	quelque chose	PRO	PRO	_	5	dep	_	_	234.050003	234.550003	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-143
+# text = alors moi je réponds
+1	alors	alors	ADV	ADV	_	4	periph	_	_	234.550003	234.740005	L2
+2	moi	moi	PRO	PRO	_	4	periph	_	_	234.740005	234.850006	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	234.850006	234.880005	L2
+4	réponds	répondre	VRB	VRB	_	0	root	_	_	234.880005	235.279999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-144
+# text = puis alors là elle me fait tu te retournes pas peut être puis je fais
+1	puis	puis	COO	COO	_	6	mark	_	_	235.529999	235.649994	L2
+2	alors	alors	ADV	ADV	_	6	periph	_	_	236.009995	236.130005	L2
+3	là	là	ADV	ADV	_	6	periph	_	_	236.220001	236.270004	L2
+4	elle	il	CLS	CLS	_	6	subj	_	_	236.270004	236.330002	L2
+5	me	me	CLI	CLI	_	6	dep	_	_	236.330002	236.360001	L2
+6	fait	faire	VRB	VRB	_	0	root	_	_	236.360001	236.419998	L2
+7	tu	tu	CLS	CLS	_	9	subj	_	_	236.570007	236.660004	L2
+8	te	te	CLI	CLI	_	9	dep	_	_	236.660004	236.770004	L2
+9	retournes	retourner	VRB	VRB	_	6	para	_	_	236.770004	237.089996	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	237.089996	237.279999	L2
+11	peut	pouvoir	VRB	VRB	_	9	para	_	_	237.279999	237.410004	L2
+12	être	être	VNF	VNF	_	11	dep	_	_	237.410004	237.589996	L2
+13	puis	puis	COO	COO	_	15	mark	_	_	237.690002	237.800003	L2
+14	je	je	CLS	CLS	_	15	subj	_	_	237.800003	237.830002	L2
+15	fais	faire	VRB	VRB	_	11	para	_	_	237.830002	238.009995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-145
+# text = mais non mais c'est pas moi
+1	mais	mais	COO	COO	_	5	mark	_	_	238.009995	238.149994	L2
+2	non	non	INT	INT	_	1	dm	_	_	238.149994	238.350006	L2
+3	mais	mais	COO	COO	_	1	para	_	_	238.350006	238.490005	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	238.490005	238.529999	L2
+5	est	être	VRB	VRB	_	0	root	_	_	238.529999	238.619995	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	238.619995	238.830002	L2
+7	moi	moi	PRO	PRO	_	5	dep	_	_	238.830002	239.029999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-146
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	235.539993	235.949997	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-147
+# text = puis tu sais en disant
+1	puis	puis	COO	COO	_	3	mark	_	_	239.339996	239.479996	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	239.479996	239.639999	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	239.679993	239.899994	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	239.949997	239.979996	L2
+5	disant	dire	VPR	VPR	_	4	dep	_	_	239.979996	240.119995	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-148
+# text = mais oui mais tu sais en disant comme ça tu sais tu penses pas au moment là
+1	mais	mais	COO	COO	_	13	mark	_	_	240.210007	240.279999	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	240.279999	240.389999	L2
+3	mais	mais	COO	COO	_	1	para	_	_	240.470001	240.660004	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	240.660004	240.940002	L2
+5	sais	savoir	VRB	VRB	_	3	dm	_	_	241.039993	241.179993	L2
+6	en	en	PRE	PRE	_	13	periph	_	_	241.179993	241.300003	L2
+7	disant	dire	VPR	VPR	_	6	dep	_	_	241.300003	241.600006	L2
+8	comme	comme	PRE	PRE	_	7	dep	_	_	241.600006	241.770004	L2
+9	ça	ça	PRO	PRO	_	8	dep	_	_	241.770004	242.029999	L2
+10	tu	tu	CLS	CLS	_	11	subj	_	_	242.029999	242.360001	L2
+11	sais	savoir	VRB	VRB	_	7	dep	_	_	242.360001	242.419998	L2
+12	tu	tu	CLS	CLS	_	13	subj	_	_	242.520004	242.619995	L2
+13	penses	penser	VRB	VRB	_	0	root	_	_	242.619995	242.919998	L2
+14	pas	pas	ADN	ADN	_	13	dep	_	_	242.919998	243.059998	L2
+15	au	à+le	PRE	PRE	_	13	dep	_	_	243.059998	243.089996	L2
+16	moment	moment	NOM	NOM	_	15	dep	_	_	243.089996	243.320007	L2
+17	là	là	ADV	ADV	_	16	dep	_	_	243.320007	243.470001	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-149
+# text = tu tu veux prendre ta défense comme quoi
+1	tu	tu	CLS	CLS	_	3	subj	_	_	243.470001	243.710007	L2
+2	tu	tu	CLS	CLS	_	1	para	_	_	244.039993	244.149994	L2
+3	veux	vouloir	VRB	VRB	_	0	root	_	_	244.149994	244.229996	L2
+4	prendre	prendre	VNF	VNF	_	3	dep	_	_	244.229996	244.440002	L2
+5	ta	son	DET	DET	_	6	spe	_	_	244.440002	244.550003	L2
+6	défense	défense	NOM	NOM	_	4	dep	_	_	244.550003	244.970001	L2
+7	comme	comme	CSU	CSU	_	4	dep	_	_	244.970001	245.130005	L2
+8	quoi	quoi	PRQ	PRQ	_	7	dep	_	_	245.130005	245.339996	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-150
+# text = c'est non c'est pas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	245.389999	245.419998	L1
+2	est	être	VRB	VRB	_	0	root	_	_	245.520004	245.580002	L1
+3	non	non	INT	INT	_	2	dm	_	_	245.399994	245.460007	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	245.460007	245.509995	L1
+5	est	être	VRB	VRB	_	2	para	_	_	245.509995	245.580002	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	245.699997	245.759995	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-151
+# text = moi c'est le voisin qui s'est retourné
+1	moi	moi	PRO	PRO	_	3	periph	_	_	245.809998	245.889999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	245.889999	245.919998	L1
+3	est	être	VRB	VRB	_	0	root	_	_	245.919998	245.949997	L1
+4	le	le	DET	DET	_	5	spe	_	_	246.000000	246.050003	L1
+5	voisin	voisin	NOM	NOM	_	3	dep	_	_	246.050003	246.210007	L1
+6	qui	qui	PRQ	PRQ	_	9	dep	_	_	246.320007	246.419998	L1
+7	s'	se	CLI	CLI	_	9	dep	_	_	246.419998	246.449997	L1
+8	est	être	VRB	VRB	_	9	aux	_	_	246.449997	246.539993	L1
+9	retourné	retourner	VPP	VPP	_	5	dep	_	_	246.539993	246.940002	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-152
+# text = oui là tu vois tu veux prendre ta défense
+1	oui	oui	INT	INT	_	4	dm	_	_	247.039993	247.119995	L2
+2	là	là	ADV	ADV	_	4	periph	_	_	247.119995	247.220001	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	247.220001	247.330002	L2
+4	vois	voir	VRB	VRB	_	0	root	_	_	247.330002	247.539993	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	247.600006	247.720001	L2
+6	veux	vouloir	VRB	VRB	_	4	para	_	_	247.720001	247.800003	L2
+7	prendre	prendre	VNF	VNF	_	6	dep	_	_	247.800003	248.009995	L2
+8	ta	son	DET	DET	_	9	spe	_	_	248.009995	248.119995	L2
+9	défense	défense	NOM	NOM	_	7	dep	_	_	248.119995	248.559998	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-153
+# text = puis elle m'a fait allez hop carnet et puis
+1	puis	puis	COO	COO	_	5	mark	_	_	248.949997	249.110001	L2
+2	elle	il	CLS	CLS	_	5	subj	_	_	249.110001	249.190002	L2
+3	m'	me	CLI	CLI	_	5	dep	_	_	249.190002	249.279999	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	249.279999	249.309998	L2
+5	fait	faire	VPP	VPP	_	0	root	_	_	249.309998	249.500000	L2
+6	allez	aller	VRB	VRB	_	5	dm	_	_	249.500000	249.729996	L2
+7	hop	hop	INT	INT	_	6	dm	_	_	249.729996	249.949997	L2
+8	carnet	carnet	NOM	NOM	_	5	dep	_	_	250.020004	250.419998	L2
+9	et puis	et puis	COO	COO	_	8	disflink	_	_	250.419998	250.699997	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-154
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	250.699997	250.889999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-155
+# text = quoi tu fais encore de la flûte en musique tout ça
+1	quoi	quoi	INT	INT	_	3	dm	_	_	250.889999	250.990005	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	252.570007	252.860001	L1
+3	fais	faire	VRB	VRB	_	0	root	_	_	252.949997	253.139999	L1
+4	encore	encore	ADV	ADV	_	3	dep	_	_	253.190002	253.309998	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	253.309998	253.339996	L1
+6	la	le	DET	DET	_	7	spe	_	_	253.339996	253.399994	L1
+7	flûte	flûte	NOM	NOM	_	5	dep	_	_	253.399994	253.520004	L1
+8	en	en	PRE	PRE	_	7	dep	_	_	253.520004	253.639999	L1
+9	musique	musique	NOM	NOM	_	8	dep	_	_	253.639999	253.960007	L1
+10	tout	tout	ADJ	ADJ	_	11	dep	_	_	254.000000	254.059998	L1
+11	ça	ça	PRO	PRO	_	7	para	_	_	254.110001	254.220001	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-156
+# text = donc c'est tout
+1	donc	donc	ADV	ADV	_	3	periph	_	_	252.570007	252.740005	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	252.740005	252.770004	L2
+3	est	être	VRB	VRB	_	0	root	_	_	252.770004	252.800003	L2
+4	tout	tout	ADJ	ADJ	_	3	dep	_	_	252.800003	253.139999	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-157
+# text = non ben heureusement c'est pourrave la flûte
+1	non	non	INT	INT	_	5	dm	_	_	254.130005	254.520004	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	254.570007	254.630005	L2
+3	heureusement	heureusement	ADV	ADV	_	5	periph	_	_	254.630005	255.029999	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	255.110001	255.210007	L2
+5	est	être	VRB	VRB	_	0	root	_	_	255.210007	255.240005	L2
+6	pourrave	pourrave	ADJ	ADJ	_	5	dep	_	_	255.300003	255.619995	L2
+7	la	le	DET	DET	_	8	spe	_	_	255.619995	255.699997	L2
+8	flûte	flûte	NOM	NOM	_	5	dep	_	_	255.699997	256.040009	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-158
+# text = ouais moi j'aimais pas
+1	ouais	ouais	INT	INT	_	4	dm	_	_	256.760010	256.950012	L1
+2	moi	moi	PRO	PRO	_	4	periph	_	_	256.950012	257.079987	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	257.079987	257.109985	L1
+4	aimais	aimer	VRB	VRB	_	0	root	_	_	257.109985	257.260010	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	257.260010	257.320007	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-159
+# text = non plus là on fait Cali en chant
+1	non plus	non plus	ADV	ADV	_	4	periph	_	_	257.320007	257.649994	L2
+2	là	là	ADV	ADV	_	4	periph	_	_	258.589996	258.660004	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	258.660004	258.950012	L2
+4	fait	faire	VRB	VRB	_	0	root	_	_	258.950012	259.149994	L2
+5	Cali	Cali	NOM	NOM	_	4	dep	_	_	259.149994	259.510010	L2
+6	en	en	PRE	PRE	_	5	dep	_	_	259.510010	259.660004	L2
+7	chant	chant	NOM	NOM	_	6	dep	_	_	259.760010	259.910004	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-160
+# text = ah c'est pas mal ça
+1	ah	ah	INT	INT	_	3	dm	_	_	260.320007	260.420013	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	260.420013	260.450012	L1
+3	est	être	VRB	VRB	_	0	root	_	_	260.450012	260.480011	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	260.480011	260.600006	L1
+5	mal	mal	ADV	ADV	_	3	dep	_	_	260.600006	260.760010	L1
+6	ça	ça	PRO	PRO	_	3	dep	_	_	260.760010	260.880005	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-161
+# text = ouais et puis on a
+1	ouais	ouais	INT	INT	_	4	dm	_	_	261.100006	261.329987	L2
+2	et puis	et puis	COO	COO	_	4	mark	_	_	262.220001	262.519989	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	262.570007	262.679993	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	262.779999	262.799988	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-162
+# text = non non ça ira
+1	non	non	INT	INT	_	4	dm	_	_	263.649994	263.829987	L2
+2	non	non	INT	INT	_	1	dm	_	_	263.829987	263.890015	L2
+3	ça	ça	PRO	PRO	_	4	subj	_	_	263.890015	264.029999	L2
+4	ira	aller	VRB	VRB	_	0	root	_	_	264.029999	264.299988	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-163
+# text = non ça ira
+1	non	non	INT	INT	_	3	dm	_	_	265.190002	265.260010	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	265.260010	265.399994	L2
+3	ira	aller	VRB	VRB	_	0	root	_	_	265.399994	265.790009	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-164
+# text = non tais toi
+1	non	non	INT	INT	_	2	dm	_	_	266.190002	266.399994	L2
+2	tais	taire	VRB	VRB	_	0	root	_	_	266.459991	266.559998	L2
+3	toi	moi	PRO	PRO	_	2	dep	_	_	266.559998	266.769989	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-165
+# text = et puis après j'ai été voir le prof de techno
+1	et puis	et puis	COO	COO	_	5	mark	_	_	267.230011	267.390015	L2
+2	après	après	ADV	ADV	_	5	periph	_	_	267.390015	267.549988	L2
+3	j'	je	CLS	CLS	_	5	subj	_	_	267.549988	267.579987	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	267.579987	267.660004	L2
+5	été	être	VPP	VPP	_	0	root	_	_	267.660004	267.739990	L2
+6	voir	voir	VNF	VNF	_	5	dep	_	_	267.739990	267.859985	L2
+7	le	le	DET	DET	_	8	spe	_	_	267.859985	267.890015	L2
+8	prof	prof	NOM	NOM	_	6	dep	_	_	267.890015	268.119995	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	268.119995	268.500000	L2
+10	techno	techno	NOM	NOM	_	9	dep	_	_	268.589996	268.880005	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-166
+# text = vas y chante voir un petit peu hein
+1	vas	aller	VRB	VRB	_	3	aux	_	_	262.600006	262.700012	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	262.700012	262.799988	L1
+3	chante	chanter	VRB	VRB	_	0	root	_	_	262.880005	263.010010	L1
+4	voir	voir	VNF	VNF	_	3	dep	_	_	263.010010	263.130005	L1
+5	un	un	DET	DET	_	7	spe	_	_	263.130005	263.160004	L1
+6	petit	petit	ADJ	ADJ	_	7	dep	_	_	263.160004	263.299988	L1
+7	peu	peu	NOM	NOM	_	4	dep	_	_	263.299988	263.589996	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	264.480011	264.670013	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-167
+# text = pourquoi allez
+1	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	264.670013	265.029999	L1
+2	allez	aller	VRB	VRB	_	0	root	_	_	265.869995	266.079987	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-168
+# text = ouais le NNAAMMEE
+1	ouais	ouais	INT	INT	_	3	dm	_	_	269.380005	269.480011	L1
+2	le	le	DET	DET	_	3	spe	_	_	269.480011	269.670013	L1
+3	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	269.670013	269.910004	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-169
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	270.109985	270.260010	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-170
+# text = ah je l'aimais bien
+1	ah	ah	INT	INT	_	4	dm	_	_	270.420013	270.540009	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	270.540009	270.570007	L1
+3	l'	le	CLI	CLI	_	4	dep	_	_	270.570007	270.600006	L1
+4	aimais	aimer	VRB	VRB	_	0	root	_	_	270.600006	270.690002	L1
+5	bien	bien	ADV	ADV	_	4	dep	_	_	270.690002	270.859985	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-171
+# text = lui il me faisait tripper
+1	lui	moi	PRO	PRO	_	4	periph	_	_	270.859985	270.950012	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	271.079987	271.149994	L1
+3	me	me	CLI	CLI	_	4	dep	_	_	271.149994	271.179993	L1
+4	faisait	faire	VRB	VRB	_	0	root	_	_	271.179993	271.299988	L1
+5	tripper	tripper	ADV	ADV	_	4	dep	_	_	271.299988	271.519989	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-172
+# text = hein ben il ouais ben
+1	hein	hein	INT	INT	_	4	dm	_	_	272.070007	272.350006	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	272.350006	272.410004	L2
+3	il	il	CLS	CLS	_	2	disflink	_	_	272.410004	272.570007	L2
+4	ouais	ouais	INT	INT	_	0	root	_	_	272.829987	273.190002	L2
+5	ben	ben	INT	INT	_	4	dm	_	_	273.190002	273.350006	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-173
+# text = il m'a dit que c'était bien ça va
+1	il	il	CLS	CLS	_	4	subj	_	_	273.350006	273.420013	L2
+2	m'	me	CLI	CLI	_	4	dep	_	_	273.420013	273.549988	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	273.549988	273.589996	L2
+4	dit	dire	VPP	VPP	_	0	root	_	_	273.589996	273.820007	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	273.820007	274.010010	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	275.130005	275.250000	L2
+7	était	être	VRB	VRB	_	5	dep	_	_	275.250000	275.529999	L2
+8	bien	bien	ADV	ADV	_	7	dep	_	_	275.529999	275.850006	L2
+9	ça	ça	PRO	PRO	_	10	subj	_	_	275.850006	276.040009	L2
+10	va	aller	VRB	VRB	_	5	dep	_	_	276.040009	276.299988	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-174
+# text = puis j'ai été voir la NNAAMMEE
+1	puis	puis	COO	COO	_	4	mark	_	_	277.160004	277.260010	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	277.429993	277.489990	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	277.489990	277.559998	L2
+4	été	être	VPP	VPP	_	0	root	_	_	277.559998	277.649994	L2
+5	voir	voir	VNF	VNF	_	4	dep	_	_	277.649994	277.799988	L2
+6	la	le	DET	DET	_	7	spe	_	_	277.799988	277.940002	L2
+7	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	277.940002	278.209991	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-175
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	278.670013	278.859985	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-176
+# text = ben elle m'a dit que j'ai ça allait je me débrouillais pas mal par contre j'ai de grosses gros problèmes en ortho~ en orthographe
+1	ben	ben	INT	INT	_	5	dm	_	_	280.850006	280.970001	L2
+2	elle	il	CLS	CLS	_	5	subj	_	_	280.970001	281.059998	L2
+3	m'	me	CLI	CLI	_	5	dep	_	_	281.059998	281.100006	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	281.100006	281.140015	L2
+5	dit	dire	VPP	VPP	_	0	root	_	_	281.140015	281.200012	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	281.200012	281.230011	L2
+7	j'	je	CLS	CLS	_	8	subj	_	_	281.230011	281.309998	L2
+8	ai	avoir	VRB	VRB	_	6	dep	_	_	281.309998	281.829987	L2
+9	ça	ça	PRO	PRO	_	10	subj	_	_	282.200012	282.380005	L2
+10	allait	aller	VRB	VRB	_	5	dep	_	_	282.380005	282.640015	L2
+11	je	je	CLS	CLS	_	13	subj	_	_	282.829987	282.859985	L2
+12	me	me	CLI	CLI	_	13	dep	_	_	282.859985	282.890015	L2
+13	débrouillais	débrouiller	VRB	VRB	_	10	para	_	_	282.890015	283.220001	L2
+14	pas	pas	ADN	ADN	_	15	dep	_	_	283.220001	283.329987	L2
+15	mal	mal	ADV	ADV	_	13	dep	_	_	283.329987	283.589996	L2
+16	par	par	PRE	PRE	_	13	dep	_	_	283.690002	283.779999	L2
+17	contre	contre	NOM	NOM	_	16	dep	_	_	283.779999	283.959991	L2
+18	j'	je	CLS	CLS	_	19	subj	_	_	283.959991	284.029999	L2
+19	ai	avoir	VRB	VRB	_	5	dep	_	_	284.029999	284.079987	L2
+20	de	de	PRE	PRE	_	19	dep	_	_	284.160004	284.200012	L2
+21	grosses	gros	NOM	NOM	_	20	dep	_	_	284.390015	284.899994	L2
+22	gros	gros	ADJ	ADJ	_	23	dep	_	_	285.739990	285.920013	L2
+23	problèmes	problème	NOM	NOM	_	5	dep	_	_	285.920013	286.369995	L2
+24	en	en	PRE	PRE	_	5	dep	_	_	286.369995	286.459991	L2
+25	ortho~	ortho~	NOM	NOM	_	24	dep	_	_	286.459991	286.769989	L2
+26	en	en	PRE	PRE	_	25	dep	_	_	286.850006	287.250000	L2
+27	orthographe	orthographe	NOM	NOM	_	26	dep	_	_	287.250000	287.829987	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-177
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	287.829987	287.890015	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-178
+# text = ah ouais tu écris tu fais des fautes
+1	ah	ah	INT	INT	_	4	dm	_	_	288.690002	288.769989	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	288.769989	288.929993	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	288.929993	289.019989	L1
+4	écris	écrire	VRB	VRB	_	0	root	_	_	289.019989	289.720001	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	289.880005	289.940002	L1
+6	fais	faire	VRB	VRB	_	4	para	_	_	289.940002	290.100006	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	290.100006	290.190002	L1
+8	fautes	faute	NOM	NOM	_	7	dep	_	_	290.190002	290.380005	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-179
+# text = plein de fautes plein plein de fautes
+1	plein	plein	ADJ	ADJ	_	0	root	_	_	289.950012	290.220001	L2
+2	de	de	PRE	PRE	_	1	dep	_	_	290.440002	290.519989	L2
+3	fautes	faute	NOM	NOM	_	2	dep	_	_	290.519989	290.799988	L2
+4	plein	plein	ADJ	ADJ	_	1	para	_	_	292.190002	292.299988	L2
+5	plein	plein	ADJ	ADJ	_	4	para	_	_	292.299988	292.420013	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	292.420013	292.649994	L2
+7	fautes	faute	NOM	NOM	_	6	dep	_	_	292.649994	293.049988	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-180
+# text = non mais toi je le sais toi
+1	non	non	INT	INT	_	6	dm	_	_	293.570007	293.700012	L2
+2	mais	mais	COO	COO	_	6	mark	_	_	293.700012	293.829987	L2
+3	toi	moi	PRO	PRO	_	6	periph	_	_	293.829987	293.970001	L2
+4	je	je	CLS	CLS	_	6	subj	_	_	293.970001	294.070007	L2
+5	le	le	CLI	CLI	_	6	dep	_	_	294.070007	294.209991	L2
+6	sais	savoir	VRB	VRB	_	0	root	_	_	294.209991	294.429993	L2
+7	toi	moi	PRO	PRO	_	6	dep	_	_	294.570007	294.649994	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-181
+# text = ouais moi aussi par contre tu as hé j'étais fort au début en dictée tout ça
+1	ouais	ouais	INT	INT	_	7	dm	_	_	292.220001	292.420013	L1
+2	moi	moi	PRO	PRO	_	7	periph	_	_	292.420013	292.619995	L1
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	292.619995	293.089996	L1
+4	par	par	PRE	PRE	_	7	periph	_	_	295.190002	295.350006	L1
+5	contre	contre	PRE	PRE	_	4	dep	_	_	295.350006	295.959991	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	295.959991	296.019989	L1
+7	as	avoir	VRB	VRB	_	0	root	_	_	296.019989	296.049988	L1
+8	hé	hé	INT	INT	_	7	dm	_	_	296.049988	296.350006	L1
+9	j'	je	CLS	CLS	_	10	subj	_	_	296.350006	296.429993	L1
+10	étais	être	VRB	VRB	_	7	para	_	_	296.429993	296.609985	L1
+11	fort	fort	ADJ	ADJ	_	10	dep	_	_	296.609985	296.760010	L1
+12	au	à+le	PRE	PRE	_	10	dep	_	_	296.760010	296.820007	L1
+13	début	début	NOM	NOM	_	12	dep	_	_	296.820007	297.079987	L1
+14	en	en	PRE	PRE	_	13	dep	_	_	297.079987	297.149994	L1
+15	dictée	dictée	NOM	NOM	_	14	dep	_	_	297.230011	297.480011	L1
+16	tout	tout	ADJ	ADJ	_	17	dep	_	_	297.559998	297.739990	L1
+17	ça	ça	PRO	PRO	_	13	para	_	_	297.739990	297.809998	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-182
+# text = j'avais des
+1	j'	je	CLS	CLS	_	2	subj	_	_	297.859985	297.890015	L1
+2	avais	avoir	VRB	VRB	_	0	root	_	_	297.890015	297.980011	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	297.980011	298.040009	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-183
+# text = vingt tout ça mais
+1	vingt	vingt	NUM	NUM	_	0	root	_	_	298.040009	298.119995	L1
+2	tout	tout	ADJ	ADJ	_	3	dep	_	_	298.119995	298.179993	L1
+3	ça	ça	PRO	PRO	_	1	dep	_	_	298.179993	298.399994	L1
+4	mais	mais	COO	COO	_	3	disflink	_	_	298.399994	298.579987	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-184
+# text = ouais non mais avec
+1	ouais	ouais	INT	INT	_	4	dm	_	_	298.850006	299.049988	L2
+2	non	non	INT	INT	_	1	dm	_	_	299.049988	299.149994	L2
+3	mais	mais	COO	COO	_	4	mark	_	_	299.149994	299.369995	L2
+4	avec	avec	PRE	PRE	_	0	root	_	_	299.369995	299.579987	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-185
+# text = qui tu a eu des vingt
+1	qui	qui	PRQ	PRQ	_	4	dep	_	_	299.579987	299.679993	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	299.679993	299.839996	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	299.839996	299.869995	L2
+4	eu	avoir	VPP	VPP	_	0	root	_	_	299.869995	299.899994	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	299.899994	300.000000	L2
+6	vingt	vingt	NUM	NUM	_	5	dep	_	_	300.000000	300.260010	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-186
+# text = avec madame NNAAMMEE tout ça
+1	avec	avec	PRE	PRE	_	0	root	_	_	300.750000	300.929993	L1
+2	madame	Monsieur	NOM	NOM	_	1	dep	_	_	300.929993	301.170013	L1
+3	NNAAMMEE	NOM	NOM	NOM	_	2	dep	_	_	301.170013	301.540009	L1
+4	tout	tout	ADJ	ADJ	_	5	dep	_	_	301.540009	301.600006	L1
+5	ça	ça	PRO	PRO	_	3	para	_	_	301.600006	301.799988	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-187
+# text = ouais ben voilà hein
+1	ouais	ouais	INT	INT	_	0	root	_	_	302.000000	302.089996	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	302.089996	302.200012	L2
+3	voilà	voilà	INT	INT	_	2	dm	_	_	302.200012	302.519989	L2
+4	hein	hein	INT	INT	_	3	dm	_	_	302.519989	302.549988	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-188
+# text = hé tu rigoles hein euh
+1	hé	hé	INT	INT	_	3	dm	_	_	303.109985	303.250000	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	303.250000	303.399994	L1
+3	rigoles	rigole	NOM	NOM	_	0	root	_	_	303.399994	303.559998	L1
+4	hein	hein	INT	INT	_	3	dm	_	_	303.609985	303.649994	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	303.649994	303.799988	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-189
+# text = attends t oui mais attends du C E 1 passé au
+1	attends	attendre	VRB	VRB	_	0	root	_	_	303.649994	303.929993	L2
+2	t	t	X	X	_	1	disflink	_	_	303.929993	304.049988	L2
+3	oui	oui	INT	INT	_	2	dm	_	_	304.179993	304.269989	L2
+4	mais	mais	COO	COO	_	5	mark	_	_	304.269989	304.390015	L2
+5	attends	attendre	VRB	VRB	_	1	para	_	_	304.390015	304.570007	L2
+6	du	de+le	PRE	PRE	_	5	dep	_	_	304.570007	304.670013	L2
+7	C	C	NOM	NOM	_	6	dep	_	_	304.670013	304.989990	L2
+8	E	E	PRE	PRE	_	5	dep	_	_	304.989990	305.100006	L2
+9	1	1	X	X	_	10	aux	_	_	305.100006	305.170013	L2
+10	passé	passer	VPP	VPP	_	8	dep	_	_	305.170013	305.510010	L2
+11	au	à+le	PRE	PRE	_	10	dep	_	_	305.570007	305.690002	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-190
+# text = tu as vu tout ce que tu as appris
+1	tu	tu	CLS	CLS	_	3	subj	_	_	305.989990	306.100006	L2
+2	as	avoir	VRB	VRB	_	3	aux	_	_	306.100006	306.130005	L2
+3	vu	voir	VPP	VPP	_	0	root	_	_	306.130005	306.200012	L2
+4	tout	tout	ADJ	ADJ	_	5	dep	_	_	306.260010	306.329987	L2
+5	ce	ce	PRO	PRO	_	3	dep	_	_	306.380005	306.410004	L2
+6	que	que	PRQ	PRQ	_	9	dep	_	_	306.410004	306.440002	L2
+7	tu	tu	CLS	CLS	_	9	subj	_	_	306.440002	306.500000	L2
+8	as	avoir	VRB	VRB	_	9	aux	_	_	306.500000	306.640015	L2
+9	appris	apprendre	VPP	VPP	_	5	dep	_	_	306.640015	306.850006	L2
+
+# sent_id = cefc-tcof-jeromeetgauthier-191
+# text = oui mais au C E 1 c'est jusqu'au C E 1
+1	oui	oui	INT	INT	_	8	dm	_	_	306.390015	306.450012	L1
+2	mais	mais	COO	COO	_	8	mark	_	_	306.450012	306.510010	L1
+3	au	à+le	PRE	PRE	_	8	periph	_	_	306.510010	306.609985	L1
+4	C	C	NOM	NOM	_	3	dep	_	_	306.609985	306.670013	L1
+5	E	E	PRE	PRE	_	4	dep	_	_	306.670013	306.700012	L1
+6	1	1	NOM	NOM	_	5	dep	_	_	306.700012	306.890015	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	307.100006	307.130005	L1
+8	est	être	VRB	VRB	_	0	root	_	_	307.130005	307.230011	L1
+9	jusqu'	jusque	PRE	PRE	_	8	dep	_	_	307.230011	307.450012	L1
+10	au	à+le	PRE	PRE	_	9	dep	_	_	307.450012	307.489990	L1
+11	C	C	NOM	NOM	_	10	dep	_	_	307.549988	307.640015	L1
+12	E	E	PRE	PRE	_	8	dep	_	_	307.640015	307.690002	L1
+13	1	1	X	X	_	12	dep	_	_	307.690002	307.839996	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-192
+# text = j'avais des vingt en dictée
+1	j'	je	CLS	CLS	_	2	subj	_	_	307.839996	307.869995	L1
+2	avais	avoir	VRB	VRB	_	0	root	_	_	307.869995	307.980011	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	307.980011	308.100006	L1
+4	vingt	vingt	NUM	NUM	_	3	dep	_	_	308.100006	308.209991	L1
+5	en	en	PRE	PRE	_	2	dep	_	_	308.299988	308.320007	L1
+6	dictée	dictée	NOM	NOM	_	5	dep	_	_	308.390015	308.679993	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-193
+# text = puis après je sais pas je crois que je lisais moins puis
+1	puis	puis	COO	COO	_	4	mark	_	_	308.739990	308.829987	L1
+2	après	après	PRE	PRE	_	4	periph	_	_	308.829987	308.950012	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	308.950012	309.029999	L1
+4	sais	savoir	VRB	VRB	_	7	dm	_	_	309.029999	309.089996	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	309.089996	309.179993	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	309.179993	309.230011	L1
+7	crois	croire	VRB	VRB	_	0	root	_	_	309.309998	309.450012	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	309.450012	309.510010	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	309.510010	309.540009	L1
+10	lisais	lire	VRB	VRB	_	8	dep	_	_	309.540009	309.760010	L1
+11	moins	moins	ADV	ADV	_	10	dep	_	_	309.809998	309.929993	L1
+12	puis	puis	COO	COO	_	11	disflink	_	_	309.929993	310.170013	L1
+
+# sent_id = cefc-tcof-jeromeetgauthier-194
+# text = voilà quoi
+1	voilà	voilà	INT	INT	_	0	root	_	_	311.369995	311.720001	L1
+2	quoi	quoi	INT	INT	_	1	dm	_	_	311.869995	311.950012	L1
+

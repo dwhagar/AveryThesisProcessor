@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     irtLF1s
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Anne-Catherine Simon
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     7121
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon"/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      irtLF1s
+     </name>
+     du corpus/projet
+     <name>
+      VALIBEL
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:32:46" type="audio">
+      <date>
+       00/00/1999
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Interactions radio/télé (émissions médiatiques belges et françaises): Emission
+          radiophonique "Eclectik" diffusée chaque matin à 9 h sur France Inter (Radio France).
+          Cette émission normalement présentée par Rebecca Manzoni est ici présentée par une
+          remplaçante
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="médias oraux"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="radio"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Ile-de-France, Paris
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="irtLP1">
+      <sex>
+       M
+      </sex>
+      <age>
+       61+
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        France, Midi-Pyrénées, Montauban
+       </placeName>
+      </birth>
+      <occupation>
+       écrivain
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="irtLF1">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        France, Ile-de-France, Paris
+       </placeName>
+      </birth>
+      <occupation>
+       commédien
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="irtGL1">
+      <sex>
+       F
+      </sex>
+      <age>
+       inconnu
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       journaliste
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="irtDS1">
+      <sex>
+       M
+      </sex>
+      <age>
+       inconnu
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       chroniqueur
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

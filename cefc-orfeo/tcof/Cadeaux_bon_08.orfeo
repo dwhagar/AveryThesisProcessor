@@ -1,0 +1,2487 @@
+# sent_id = cefc-tcof-Cadeaux_bon_08-1
+# text = tu me feras penser à appeler mon frère tout à l'heure
+1	tu	tu	CLS	CLS	_	3	subj	_	_	0.38	0.43	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	0.55	0.57	L1
+3	feras	faire	VRB	VRB	_	0	ROOT	_	_	0.58	0.66	L1
+4	penser	penser	VNF	VNF	_	3	dep	_	_	0.71	0.84	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	0.88	0.90	L1
+6	appeler	appeler	VNF	VNF	_	5	dep	_	_	1.00	1.11	L1
+7	mon	son	DET	DET	_	8	spe	_	_	1.12	1.18	L1
+8	frère	frère	NOM	NOM	_	6	dep	_	_	1.71	1.82	L1
+9	tout	tout	ADJ	ADJ	_	3	dep	_	_	1.83	1.89	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	1.90	1.93	L1
+11	l'	le	DET	DET	_	12	spe	_	_	1.94	1.98	L1
+12	heure	heure	NOM	NOM	_	10	dep	_	_	1.99	2.07	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-2
+# text = ton frère
+1	ton	son	DET	DET	_	2	spe	_	_	2.49	2.60	L2
+2	frère	frère	NOM	NOM	_	0	ROOT	_	_	2.61	2.80	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-3
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	2.97	3.10	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-4
+# text = ah
+1	ah	ah	INT	INT	_	0	ROOT	_	_	3.86	3.88	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-5
+# text = mais je veux pas que tu écoutes quand je l'appelle
+1	mais	mais	COO	COO	_	3	mark	_	_	4.10	4.15	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	4.16	4.22	L1
+3	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	4.23	4.35	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	4.36	4.46	L1
+5	que	que	CSU	CSU	_	3	dep	_	_	4.47	4.49	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	4.50	4.56	L1
+7	écoutes	écoute	NOM	NOM	_	5	dep	_	_	4.57	4.80	L1
+8	quand	quand	CSU	CSU	_	7	dep	_	_	5.11	5.24	L1
+9	je	je	CLS	CLS	_	11	subj	_	_	5.25	5.51	L1
+10	l'	le	CLI	CLI	_	11	dep	_	_	5.60	5.64	L1
+11	appelle	appeler	VRB	VRB	_	8	dep	_	_	5.70	5.84	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-6
+# text = si c'est pour mon cadeau de Noël
+1	si	si	CSU	CSU	_	0	ROOT	_	_	6.16	6.31	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	6.41	6.45	L2
+3	est	être	VRB	VRB	_	1	dep	_	_	6.46	6.53	L2
+4	pour	pour	PRE	PRE	_	3	dep	_	_	6.54	6.66	L2
+5	mon	son	DET	DET	_	6	spe	_	_	6.67	6.80	L2
+6	cadeau	cadeau	NOM	NOM	_	4	dep	_	_	6.81	6.97	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	7.04	7.06	L2
+8	Noël	noël	NOM	NOM	_	7	dep	_	_	7.30	7.41	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-7
+# text = non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	7.61	7.79	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-8
+# text = c'est pour le cadeau de Noël
+1	c'	ce	CLS	CLS	_	2	subj	_	_	8.32	8.34	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	8.35	8.41	L2
+3	pour	pour	PRE	PRE	_	2	dep	_	_	8.56	8.64	L2
+4	le	le	DET	DET	_	5	spe	_	_	8.65	8.76	L2
+5	cadeau	cadeau	NOM	NOM	_	3	dep	_	_	8.77	9.10	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	9.11	9.17	L2
+7	Noël	noël	NOM	NOM	_	6	dep	_	_	9.31	9.49	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-9
+# text = tu peux aller chercher ma pommade dans le
+1	tu	tu	CLS	CLS	_	2	subj	_	_	12.78	12.86	L2
+2	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	12.90	13.18	L2
+3	aller	aller	VNF	VNF	_	2	dep	_	_	13.33	13.68	L2
+4	chercher	chercher	VNF	VNF	_	3	dep	_	_	13.69	14.06	L2
+5	ma	son	DET	DET	_	6	spe	_	_	14.07	14.34	L2
+6	pommade	pommade	NOM	NOM	_	4	dep	_	_	14.50	14.72	L2
+7	dans	dans	PRE	PRE	_	4	dep	_	_	14.90	14.99	L2
+8	le	le	DET	DET	_	7	disflink	_	_	17.12	17.34	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-10
+# text = je te rapporte ton sac si tu veux
+1	je	je	CLS	CLS	_	3	subj	_	_	17.40	17.48	L1
+2	te	te	CLI	CLI	_	3	dep	_	_	17.49	17.61	L1
+3	rapporte	rapporter	VRB	VRB	_	0	ROOT	_	_	17.62	17.91	L1
+4	ton	son	DET	DET	_	5	spe	_	_	17.95	18.02	L1
+5	sac	sac	NOM	NOM	_	3	dep	_	_	18.03	18.11	L1
+6	si	si	CSU	CSU	_	3	dep	_	_	18.27	18.34	L1
+7	tu	tu	CLS	CLS	_	8	subj	_	_	18.56	18.62	L1
+8	veux	vouloir	VRB	VRB	_	6	dep	_	_	18.69	18.81	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-11
+# text = non ben non c'est le gros
+1	non	non	ADN	ADN	_	5	dm	_	_	19.15	19.24	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	19.25	19.33	L2
+3	non	non	ADN	ADN	_	2	dm	_	_	19.34	19.64	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	19.71	19.73	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	19.74	19.83	L2
+6	le	le	DET	DET	_	7	spe	_	_	19.84	19.92	L2
+7	gros	gros	ADJ	ADJ	_	5	dep	_	_	19.93	20.10	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-12
+# text = ah
+1	ah	ah	INT	INT	_	0	ROOT	_	_	21.51	21.60	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-13
+# text = c'est dans la trousse de toilette verte dedans
+1	c'	ce	CLS	CLS	_	2	subj	_	_	21.87	21.89	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	21.90	21.97	L2
+3	dans	dans	PRE	PRE	_	2	dep	_	_	21.98	22.07	L2
+4	la	le	DET	DET	_	5	spe	_	_	22.08	22.22	L2
+5	trousse	trousse	NOM	NOM	_	3	dep	_	_	22.27	22.43	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	22.44	22.59	L2
+7	toilette	toilette	NOM	NOM	_	6	dep	_	_	22.60	22.92	L2
+8	verte	vert	ADJ	ADJ	_	7	dep	_	_	22.93	23.15	L2
+9	dedans	dedans	ADV	ADV	_	2	dep	_	_	23.61	23.93	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-14
+# text = il faut que tu montes sur une chaise
+1	il	il	CLS	CLS	_	2	subj	_	_	23.94	23.99	L2
+2	faut	faillir	VRB	VRB	_	0	ROOT	_	_	24.04	24.10	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	24.11	24.14	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	24.19	24.25	L2
+5	montes	monter	VRB	VRB	_	3	dep	_	_	24.26	24.54	L2
+6	sur	sur	PRE	PRE	_	5	dep	_	_	24.55	24.64	L2
+7	une	un	DET	DET	_	8	spe	_	_	24.68	24.81	L2
+8	chaise	chaise	NOM	NOM	_	6	dep	_	_	24.82	25.08	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-15
+# text = ouais je te retourne tout
+1	ouais	ouais	INT	INT	_	4	dm	_	_	25.43	25.51	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	26.91	27.00	L1
+3	te	te	CLI	CLI	_	4	dep	_	_	27.01	27.11	L1
+4	retourne	retourne	VRB	VRB	_	0	ROOT	_	_	27.12	27.66	L1
+5	tout	tout	PRO	PRO	_	4	dep	_	_	27.67	27.78	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-16
+# text = non aller arrête
+1	non	non	ADN	ADN	_	3	dm	_	_	29.41	29.53	L2
+2	aller	aller	VRB	VRB	_	3	periph	_	_	31.35	31.44	L2
+3	arrête	arrêter	VRB	VRB	_	0	ROOT	_	_	32.42	32.74	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-17
+# text = on regarde pour les
+1	on	on	CLS	CLS	_	2	subj	_	_	37.44	37.62	L2
+2	regarde	regarder	VRB	VRB	_	0	ROOT	_	_	37.63	37.90	L2
+3	pour	pour	PRE	PRE	_	2	dep	_	_	37.91	38.11	L2
+4	les	le	DET	DET	_	3	disflink	_	_	38.12	38.19	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-18
+# text = là dans là-dedans dans la petite truc euh couleur pomme là verte ouais verte pomme
+1	là	là	ADV	ADV	_	4	periph	_	_	38.25	38.39	L1
+2	dans	dans	PRE	PRE	_	1	disflink	_	_	38.40	38.55	L1
+3	là-dedans	là-dedans	ADV	ADV	_	4	periph	_	_	38.56	38.86	L1
+4	dans	dans	PRE	PRE	_	0	ROOT	_	_	38.87	38.96	L1
+5	la	le	DET	DET	_	7	spe	_	_	39.18	39.36	L1
+6	petite	petit	ADJ	ADJ	_	7	dep	_	_	39.37	39.49	L1
+7	truc	truc	NOM	NOM	_	4	dep	_	_	39.61	39.83	L1
+8	euh	euh	INT	INT	_	7	disflink	_	_	39.84	40.08	L1
+9	couleur	couleur	NOM	NOM	_	7	dep	_	_	40.20	40.37	L1
+10	pomme	pomme	NOM	NOM	_	9	dep	_	_	40.45	40.74	L1
+11	là	là	ADV	ADV	_	10	periph	_	_	40.75	40.80	L1
+12	verte	vert	ADJ	ADJ	_	10	para	_	_	41.01	41.23	L2
+13	ouais	ouais	INT	INT	_	12	dm	_	_	41.53	41.70	L2
+14	verte	vert	ADJ	ADJ	_	12	para	_	_	41.92	42.07	L2
+15	pomme	pomme	NOM	NOM	_	14	dep	_	_	42.31	42.59	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-19
+# text = mais c'est vide
+1	mais	mais	COO	COO	_	3	mark	_	_	42.65	42.74	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	42.75	42.77	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	42.78	42.89	L1
+4	vide	vide	ADJ	ADJ	_	3	dep	_	_	42.90	43.26	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-20
+# text = non elle est pas vide
+1	non	non	ADN	ADN	_	3	dm	_	_	43.92	44.52	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	44.53	44.58	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	44.59	44.66	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	44.67	44.74	L2
+5	vide	vide	ADJ	ADJ	_	3	dep	_	_	44.75	44.83	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-21
+# text = ben si
+1	ben	ben	INT	INT	_	2	dm	_	_	45.12	45.40	L1
+2	si	si	ADV	ADV	_	0	ROOT	_	_	45.44	45.60	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-22
+# text = à l'intérieur
+1	à	à	PRE	PRE	_	0	ROOT	_	_	45.92	46.13	L2
+2	l'	le	DET	DET	_	3	spe	_	_	46.19	46.22	L2
+3	intérieur	intérieur	NOM	NOM	_	1	dep	_	_	46.23	46.63	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-23
+# text = hein ça vitamine A
+1	hein	hein	INT	INT	_	3	dm	_	_	46.86	47.05	L1
+2	ça	ça	PRO	PRO	_	3	periph	_	_	47.26	47.41	L1
+3	vitamine	vitamine	NOM	NOM	_	0	ROOT	_	_	47.71	48.20	L1
+4	A	_	NOM	NOM	_	3	dep	_	_	48.21	48.26	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-24
+# text = vitamine A voilà voilà
+1	vitamine	vitamine	NOM	NOM	_	0	ROOT	_	_	48.32	48.68	L2
+2	A	_	NOM	NOM	_	1	dep	_	_	48.79	48.85	L2
+3	voilà	voilà	VRB	VRB	_	2	dm	_	_	48.86	49.06	L2
+4	voilà	voilà	VRB	VRB	_	3	para	_	_	49.91	50.16	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-25
+# text = mets à côté de la table de nuit
+1	mets	mettre	VRB	VRB	_	0	ROOT	_	_	51.01	51.13	L2
+2	à#côté#de	à côté de	PRE	PRE	_	1	dep	_	_	51.14	51.59	L2
+3	la	le	DET	DET	_	4	spe	_	_	51.60	51.72	L2
+4	table	table	NOM	NOM	_	2	dep	_	_	51.78	51.97	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	51.98	52.00	L2
+6	nuit	nuit	NOM	NOM	_	5	dep	_	_	52.01	52.35	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-26
+# text = ouais tu regarderas le film après
+1	ouais	ouais	INT	INT	_	3	dm	_	_	54.52	54.70	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	57.96	58.07	L1
+3	regarderas	regarder	VRB	VRB	_	0	ROOT	_	_	58.08	58.56	L1
+4	le	le	DET	DET	_	5	spe	_	_	58.57	58.59	L1
+5	film	film	NOM	NOM	_	3	dep	_	_	58.60	58.87	L1
+6	après	après	PRE	PRE	_	3	dep	_	_	58.88	59.15	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-27
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	60.06	60.24	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-28
+# text = euh vers neuf heures et quart
+1	euh	euh	INT	INT	_	2	disflink	_	_	60.30	60.32	L1
+2	vers	vers	PRE	PRE	_	0	ROOT	_	_	60.33	60.41	L1
+3	neuf	_	NUM	NUM	_	4	spe	_	_	60.42	60.54	L1
+4	heures	heure	NOM	NOM	_	2	dep	_	_	60.55	60.66	L1
+5	et	et	COO	COO	_	6	mark	_	_	60.67	60.78	L1
+6	quart	quart	NOM	NOM	_	4	dep	_	_	60.79	60.88	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-29
+# text = non à neuf heures
+1	non	non	ADN	ADN	_	2	dm	_	_	62.03	62.37	L2
+2	à	à	PRE	PRE	_	0	ROOT	_	_	62.38	62.41	L2
+3	neuf	_	NUM	NUM	_	4	spe	_	_	62.42	62.51	L2
+4	heures	heure	NOM	NOM	_	2	dep	_	_	62.52	62.62	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-30
+# text = non neuf heures et quart
+1	non	non	ADN	ADN	_	3	dm	_	_	63.76	63.94	L1
+2	neuf	_	NUM	NUM	_	3	spe	_	_	63.95	64.10	L1
+3	heures	heure	NOM	NOM	_	0	ROOT	_	_	64.11	64.25	L1
+4	et	et	COO	COO	_	5	mark	_	_	64.26	64.32	L1
+5	quart	quart	NOM	NOM	_	3	dep	_	_	64.33	64.46	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-31
+# text = il est quelle heure
+1	il	il	CLS	CLS	_	2	subj	_	_	64.64	64.73	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	64.74	64.89	L2
+3	quelle	quel	DET	DET	_	4	spe	_	_	64.90	65.10	L2
+4	heure	heure	NOM	NOM	_	2	dep	_	_	65.11	65.18	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-32
+# text = neuf heures moins le quart
+1	neuf	_	NUM	NUM	_	2	spe	_	_	65.88	66.02	L1
+2	heures	heure	NOM	NOM	_	0	ROOT	_	_	66.03	66.09	L1
+3	moins	moins	ADV	ADV	_	2	dep	_	_	66.10	66.36	L1
+4	le	le	DET	DET	_	5	spe	_	_	66.37	66.39	L1
+5	quart	quart	NOM	NOM	_	3	dep	_	_	66.40	66.53	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-33
+# text = c'est quoi l'invitation qu'il t'a dit le NNAAMMEE
+1	c'	ce	CLS	CLS	_	2	subj	_	_	71.85	71.87	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	71.88	71.94	L2
+3	quoi	_	PRQ	PRQ	_	2	dep	_	_	71.95	72.13	L2
+4	l'	le	DET	DET	_	5	spe	_	_	72.14	72.17	L2
+5	invitation	invitation	NOM	NOM	_	2	periph	_	_	72.18	72.69	L2
+6	qu'	que	PRQ	PRQ	_	10	dep	_	_	72.70	72.73	L2
+7	il	il	CLS	CLS	_	10	subj	_	_	72.78	72.85	L2
+8	t'	te	CLI	CLI	_	10	dep	_	_	72.86	72.88	L2
+9	a	avoir	VRB	VRB	_	10	aux	_	_	72.93	72.95	L2
+10	dit	dire	VPP	VPP	_	5	dep	_	_	73.14	73.21	L2
+11	le	le	DET	DET	_	12	spe	_	_	73.22	73.60	L2
+12	NNAAMMEE	NNAAMMEE	NOM	NOM	_	10	periph	_	_	74.24	74.58	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-34
+# text = je sais pas
+1	je	je	CLS	CLS	_	2	subj	_	_	75.19	75.26	L1
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	75.39	75.54	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	75.55	75.74	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-35
+# text = c'était quoi le mot
+1	c'	ce	CLS	CLS	_	2	subj	_	_	75.75	75.78	L1
+2	était	être	VRB	VRB	_	0	ROOT	_	_	75.82	75.96	L1
+3	quoi	quoi	PRO	PRO	_	2	dep	_	_	75.97	76.05	L1
+4	le	le	DET	DET	_	5	spe	_	_	76.06	76.08	L1
+5	mot	mot	NOM	NOM	_	2	periph	_	_	76.09	76.14	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-36
+# text = c'est où
+1	c'	ce	CLS	CLS	_	2	subj	_	_	77.37	77.39	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	77.40	77.66	L2
+3	où	où	PRQ	PRQ	_	2	dep	_	_	77.67	77.75	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-37
+# text = tu veux que je les appelle
+1	tu	tu	CLS	CLS	_	2	subj	_	_	78.01	78.13	L1
+2	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	78.14	78.25	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	78.26	78.28	L1
+4	je	je	CLS	CLS	_	6	subj	_	_	78.29	78.33	L1
+5	les	le	CLI	CLI	_	6	dep	_	_	78.34	78.46	L1
+6	appelle	appeler	VRB	VRB	_	3	dep	_	_	78.47	78.82	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-38
+# text = je peux l'appeler la NNAAMMEE
+1	je	je	CLS	CLS	_	2	subj	_	_	78.89	78.99	L1
+2	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	79.00	79.11	L1
+3	l'	le	CLI	CLI	_	4	dep	_	_	79.12	79.16	L1
+4	appeler	appeler	VNF	VNF	_	2	dep	_	_	79.17	79.31	L1
+5	la	le	DET	DET	_	6	spe	_	_	79.32	79.37	L1
+6	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	periph	_	_	79.38	79.55	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-39
+# text = non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	81.10	81.34	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-40
+# text = mais si le NNAAMMEE il travaille de de euh de nuit
+1	mais	mais	COO	COO	_	6	mark	_	_	82.34	82.42	L1
+2	si	si	ADV	ADV	_	1	dm	_	_	82.46	82.62	L1
+3	le	le	DET	DET	_	4	spe	_	_	82.63	82.67	L1
+4	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	periph	_	_	83.01	83.26	L1
+5	il	il	CLS	CLS	_	6	subj	_	_	83.27	83.30	L1
+6	travaille	travailler	VRB	VRB	_	0	ROOT	_	_	83.31	83.52	L1
+7	de	de	PRE	PRE	_	6	disflink	_	_	83.90	83.96	L1
+8	de	de	PRE	PRE	_	7	disflink	_	_	83.97	84.57	L1
+9	euh	euh	INT	INT	_	8	disflink	_	_	84.58	84.60	L1
+10	de	de	PRE	PRE	_	6	dep	_	_	84.92	85.04	L2
+11	nuit	nuit	NOM	NOM	_	10	dep	_	_	85.14	85.34	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-41
+# text = et il revient à quelle heure
+1	et	et	COO	COO	_	3	mark	_	_	85.63	85.66	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	85.67	85.72	L2
+3	revient	revenir	VRB	VRB	_	0	ROOT	_	_	85.73	86.03	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	86.04	86.10	L2
+5	quelle	quel	DET	DET	_	6	spe	_	_	86.15	86.31	L2
+6	heure	heure	NOM	NOM	_	4	dep	_	_	86.32	86.42	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-42
+# text = il revient
+1	il	il	CLS	CLS	_	2	subj	_	_	89.40	89.66	L1
+2	revient	revenir	VRB	VRB	_	0	ROOT	_	_	89.67	90.68	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-43
+# text = attends
+1	attends	attendre	VRB	VRB	_	0	ROOT	_	_	91.18	91.46	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-44
+# text = eh bien si il revient à dix heures je peux l'appeler
+1	eh#bien	_	ADV	ADV	_	2	dm	_	_	92.15	92.42	L1
+2	si	si	CSU	CSU	_	9	periph	_	_	92.53	92.70	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	92.71	92.73	L1
+4	revient	revenir	VRB	VRB	_	2	dep	_	_	92.74	92.95	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	92.96	92.99	L1
+6	dix	_	NUM	NUM	_	7	spe	_	_	93.00	93.10	L1
+7	heures	heure	NOM	NOM	_	5	dep	_	_	93.20	93.28	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	93.78	93.90	L1
+9	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	93.91	94.00	L1
+10	l'	le	CLI	CLI	_	11	dep	_	_	94.01	94.05	L1
+11	appeler	appeler	VNF	VNF	_	9	dep	_	_	94.06	94.39	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-45
+# text = c'est trempé partout
+1	c'	ce	CLS	CLS	_	3	subj	_	_	94.88	94.90	L2
+2	est	être	VRB	VRB	_	3	aux	_	_	94.91	94.93	L2
+3	trempé	tremper	VPP	VPP	_	0	ROOT	_	_	94.94	95.41	L2
+4	partout	_	ADV	ADV	_	3	dep	_	_	95.42	95.73	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-46
+# text = je te promets
+1	je	je	CLS	CLS	_	3	subj	_	_	96.08	96.18	L1
+2	te	te	CLI	CLI	_	3	dep	_	_	96.19	96.31	L1
+3	promets	promettre	VRB	VRB	_	0	ROOT	_	_	96.32	96.69	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-47
+# text = je suis rentré c'est
+1	je	je	CLS	CLS	_	3	subj	_	_	96.98	97.00	L1
+2	suis	être	VRB	VRB	_	3	aux	_	_	97.01	97.15	L1
+3	rentré	rentrer	VPP	VPP	_	0	ROOT	_	_	97.16	97.55	L1
+4	c'	ce	CLS	CLS	_	3	disflink	_	_	97.74	97.77	L1
+5	est	être	VRB	VRB	_	4	disflink	_	_	97.78	98.25	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-48
+# text = c'est tout
+1	c'	ce	CLS	CLS	_	2	subj	_	_	98.32	98.39	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	98.40	98.46	L1
+3	tout	tout	ADJ	ADJ	_	2	dep	_	_	98.53	99.02	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-49
+# text = c'est humide
+1	c'	ce	CLS	CLS	_	2	subj	_	_	99.38	99.50	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	99.51	99.55	L1
+3	humide	humide	ADJ	ADJ	_	2	dep	_	_	99.56	99.98	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-50
+# text = ça va puer le poisson demain chez moi
+1	ça	ça	PRO	PRO	_	2	subj	_	_	100.83	101.00	L1
+2	va	aller	VRB	VRB	_	0	ROOT	_	_	101.01	101.06	L1
+3	puer	puer	VNF	VNF	_	2	dep	_	_	101.07	101.33	L1
+4	le	le	DET	DET	_	5	spe	_	_	101.34	101.36	L1
+5	poisson	poisson	NOM	NOM	_	3	dep	_	_	101.37	101.74	L1
+6	demain	demain	ADV	ADV	_	3	dep	_	_	101.75	101.93	L1
+7	chez	chez	PRE	PRE	_	3	dep	_	_	102.07	102.14	L1
+8	moi	moi	PRO	PRO	_	7	dep	_	_	102.15	102.29	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-51
+# text = chez toi
+1	chez	chez	PRE	PRE	_	0	ROOT	_	_	102.96	103.19	L2
+2	toi	moi	PRO	PRO	_	1	dep	_	_	103.26	103.48	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-52
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	103.65	103.80	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-53
+# text = ben chez toi aussi
+1	ben	ben	INT	INT	_	2	dm	_	_	104.95	105.07	L1
+2	chez	chez	PRE	PRE	_	0	ROOT	_	_	105.08	105.28	L1
+3	toi	moi	PRO	PRO	_	2	dep	_	_	105.29	105.37	L1
+4	aussi	aussi	ADV	ADV	_	2	dep	_	_	105.38	105.62	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-54
+# text = non tu as
+1	non	non	ADN	ADN	_	3	dm	_	_	106.08	106.46	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	106.57	106.62	L2
+3	as	avoir	VRB	VRB	_	0	ROOT	_	_	106.63	106.77	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-55
+# text = il y a ma cousine de connectée
+1	il	il	CLS	CLS	_	3	subj	_	_	107.58	107.63	L1
+2	y	y	CLI	CLI	_	3	aff	_	_	107.64	107.66	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	107.67	107.80	L1
+4	ma	son	DET	DET	_	5	spe	_	_	107.81	107.88	L1
+5	cousine	cousin	NOM	NOM	_	3	dep	_	_	107.89	108.30	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	108.31	108.37	L1
+7	connectée	connecter	VPP	VPP	_	6	dep	_	_	108.38	108.73	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-56
+# text = qui
+1	qui	_	PRQ	PRQ	_	0	ROOT	_	_	108.92	109.10	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-57
+# text = ma cousine
+1	ma	son	DET	DET	_	2	spe	_	_	109.48	109.53	L1
+2	cousine	cousin	NOM	NOM	_	0	ROOT	_	_	109.54	109.94	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-58
+# text = NNAAMMEE
+1	NNAAMMEE	NNAAMMEE	NOM	NOM	_	0	ROOT	_	_	110.84	111.11	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-59
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	111.27	111.40	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-60
+# text = je sais
+1	je	je	CLS	CLS	_	2	subj	_	_	111.95	111.97	L2
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	111.98	112.05	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-61
+# text = et il y a NNAAMMEE aussi chez moi
+1	et	et	COO	COO	_	4	mark	_	_	112.13	112.26	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	112.34	112.43	L2
+3	y	y	CLI	CLI	_	4	aff	_	_	112.44	112.47	L2
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	112.48	112.60	L2
+5	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	dep	_	_	112.99	113.25	L2
+6	aussi	aussi	ADV	ADV	_	4	dep	_	_	113.26	113.39	L2
+7	chez	chez	PRE	PRE	_	4	dep	_	_	114.41	114.52	L2
+8	moi	moi	PRO	PRO	_	7	dep	_	_	114.53	114.68	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-62
+# text = ouais et en fait je fais quoi
+1	ouais	ouais	INT	INT	_	5	dm	_	_	114.97	115.17	L1
+2	et	et	COO	COO	_	5	mark	_	_	115.52	115.57	L1
+3	en#fait	en fait	ADV	ADV	_	5	dm	_	_	115.58	115.89	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	115.90	115.92	L1
+5	fais	faire	VRB	VRB	_	0	ROOT	_	_	115.93	115.98	L1
+6	quoi	_	PRQ	PRQ	_	5	dep	_	_	115.99	116.09	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-63
+# text = je fais quoi
+1	je	je	CLS	CLS	_	2	subj	_	_	116.10	116.14	L1
+2	fais	faire	VRB	VRB	_	0	ROOT	_	_	116.15	116.20	L1
+3	quoi	quoi	INT	INT	_	2	dep	_	_	116.21	116.29	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-64
+# text = tu peux imprimer ma photo
+1	tu	tu	CLS	CLS	_	2	subj	_	_	117.09	117.14	L2
+2	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	117.15	117.25	L2
+3	imprimer	imprimer	VNF	VNF	_	2	dep	_	_	117.26	117.63	L2
+4	ma	son	DET	DET	_	5	spe	_	_	117.69	117.84	L2
+5	photo	photo	NOM	NOM	_	3	dep	_	_	117.85	118.13	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-65
+# text = si tu me montes l'imprimante
+1	si	si	CSU	CSU	_	0	ROOT	_	_	119.44	119.51	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	119.52	119.66	L1
+3	me	me	CLI	CLI	_	4	dep	_	_	119.67	119.74	L1
+4	montes	monter	VRB	VRB	_	1	dep	_	_	119.75	119.96	L1
+5	l'	le	DET	DET	_	6	spe	_	_	119.97	119.99	L1
+6	imprimante	imprimante	NOM	NOM	_	4	dep	_	_	120.00	120.54	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-66
+# text = oh une dix fois quinze ça
+1	oh	oh	INT	INT	_	2	dm	_	_	121.22	121.31	L2
+2	une	un	DET	DET	_	4	spe	_	_	124.31	124.49	L2
+3	dix	_	NUM	NUM	_	4	dep	_	_	124.50	124.69	L2
+4	fois	foi	NOM	NOM	_	0	ROOT	_	_	124.81	125.02	L2
+5	quinze	_	NUM	NUM	_	4	dep	_	_	125.03	125.32	L2
+6	ça	ça	PRO	PRO	_	4	periph	_	_	127.16	127.43	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-67
+# text = ah je suis en taille normale
+1	ah	ah	INT	INT	_	3	dm	_	_	127.53	127.59	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	127.60	127.62	L1
+3	suis	être	VRB	VRB	_	0	ROOT	_	_	127.63	127.71	L1
+4	en	en	PRE	PRE	_	3	dep	_	_	127.72	127.84	L1
+5	taille	taille	NOM	NOM	_	4	dep	_	_	127.85	128.01	L1
+6	normale	normal	ADJ	ADJ	_	5	dep	_	_	128.02	128.48	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-68
+# text = ah ben ouais je pense
+1	ah#ben	ah ben	INT	INT	_	4	dm	_	_	129.28	129.72	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	129.80	129.85	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	129.86	129.98	L2
+4	pense	penser	VRB	VRB	_	0	ROOT	_	_	130.08	130.27	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-69
+# text = ouais ben tu as autant la faire au Leclerc
+1	ouais	ouais	INT	INT	_	7	dm	_	_	130.57	130.68	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	130.69	131.01	L1
+3	tu	tu	CLS	CLS	_	2	dm	_	_	131.02	131.07	L1
+4	as	avoir	VRB	VRB	_	3	disflink	_	_	131.08	131.10	L1
+5	autant	autant	ADV	ADV	_	7	periph	_	_	131.11	131.19	L1
+6	la	le	CLI	CLI	_	7	dep	_	_	131.20	131.28	L1
+7	faire	-	VNF	VNF	_	0	ROOT	_	_	131.34	131.49	L1
+8	au	à	PRE	PRE	_	7	dep	_	_	131.50	131.60	L1
+9	Leclerc	_	NOM	NOM	_	8	dep	_	_	131.61	131.91	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-70
+# text = enfin euh en dans un magasin
+1	enfin	enfin	ADV	ADV	_	4	dm	_	_	132.20	132.38	L1
+2	euh	euh	INT	INT	_	1	disflink	_	_	132.39	132.41	L1
+3	en	en	PRE	PRE	_	2	disflink	_	_	132.42	132.44	L1
+4	dans	dans	PRE	PRE	_	0	ROOT	_	_	132.45	132.50	L1
+5	un	un	DET	DET	_	6	spe	_	_	132.51	132.53	L1
+6	magasin	magasin	NOM	NOM	_	4	dep	_	_	132.54	132.71	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-71
+# text = et en plus grand aussi en un peu plus grand
+1	et	et	COO	COO	_	2	mark	_	_	132.95	133.24	L2
+2	en	en	PRE	PRE	_	0	ROOT	_	_	133.25	133.31	L2
+3	plus	plus	ADN	ADN	_	4	dep	_	_	133.32	133.59	L2
+4	grand	grand	ADJ	ADJ	_	2	dep	_	_	133.84	134.09	L2
+5	aussi	aussi	ADV	ADV	_	4	dep	_	_	134.15	134.28	L2
+6	en	en	PRE	PRE	_	2	para	_	_	134.46	134.56	L2
+7	un#peu	un peu	ADV	ADV	_	8	dep	_	_	134.57	134.66	L2
+8	plus	plus	ADN	ADN	_	9	dep	_	_	134.77	134.86	L2
+9	grand	grand	ADJ	ADJ	_	6	dep	_	_	135.04	135.31	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-72
+# text = comme ça à peu près
+1	comme	comme	PRE	PRE	_	0	ROOT	_	_	135.53	135.83	L2
+2	ça	ça	PRO	PRO	_	1	dep	_	_	136.35	136.50	L2
+3	à#peu#près	à peu près	ADV	ADV	_	1	dep	_	_	136.68	137.15	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-73
+# text = pourquoi
+1	pourquoi	pourquoi	PRQ	PRQ	_	0	ROOT	_	_	137.95	138.26	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-74
+# text = comme ça parce que ma soeur elle en a mis une
+1	comme	comme	PRE	PRE	_	3	periph	_	_	138.95	139.05	L2
+2	ça	ça	PRO	PRO	_	1	dep	_	_	139.06	139.11	L2
+3	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	139.12	139.47	L2
+4	ma	son	DET	DET	_	5	spe	_	_	139.48	139.58	L2
+5	soeur	soeur	NOM	NOM	_	9	periph	_	_	139.65	139.83	L2
+6	elle	il	CLS	CLS	_	9	subj	_	_	139.84	139.89	L2
+7	en	en	CLI	CLI	_	9	dep	_	_	139.90	140.02	L2
+8	a	avoir	VRB	VRB	_	9	aux	_	_	140.03	140.10	L2
+9	mis	mettre	VPP	VPP	_	3	dep	_	_	140.11	140.33	L2
+10	une	un	DET	DET	_	9	dep	_	_	140.34	140.39	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-75
+# text = et c'est comme ça
+1	et	et	COO	COO	_	3	mark	_	_	140.40	140.51	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	140.52	140.54	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	140.55	140.62	L2
+4	comme	comme	PRE	PRE	_	3	dep	_	_	140.63	140.84	L2
+5	ça	ça	PRO	PRO	_	4	dep	_	_	140.85	141.02	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-76
+# text = c'est la taille de sa photo
+1	c'	ce	CLS	CLS	_	2	subj	_	_	141.50	141.52	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	141.53	141.60	L2
+3	la	le	DET	DET	_	4	spe	_	_	141.61	141.68	L2
+4	taille	taille	NOM	NOM	_	2	dep	_	_	141.69	141.84	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	141.85	141.87	L2
+6	sa	son	DET	DET	_	7	spe	_	_	141.92	142.08	L2
+7	photo	photo	NOM	NOM	_	5	dep	_	_	142.24	142.36	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-77
+# text = et bien pourquoi tu la veux en dix fois quinze
+1	et	et	COO	COO	_	6	mark	_	_	143.03	143.11	L1
+2	bien	bien	ADV	ADV	_	1	dm	_	_	143.12	143.22	L1
+3	pourquoi	pourquoi	PRQ	PRQ	_	6	dep	_	_	143.28	143.46	L1
+4	tu	tu	CLS	CLS	_	6	subj	_	_	143.47	143.57	L1
+5	la	le	CLI	CLI	_	6	dep	_	_	143.58	143.63	L1
+6	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	143.64	143.75	L1
+7	en	en	PRE	PRE	_	6	dep	_	_	143.76	143.88	L1
+8	dix	_	NUM	NUM	_	9	dep	_	_	143.89	143.98	L1
+9	fois	foi	NOM	NOM	_	7	dep	_	_	144.17	144.33	L1
+10	quinze	_	NUM	NUM	_	9	dep	_	_	144.34	144.42	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-78
+# text = ben parce que c'était marqué ça dans le cadre
+1	ben	ben	INT	INT	_	2	dm	_	_	144.68	144.78	L2
+2	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	144.79	144.93	L2
+3	c'	ce	CLS	CLS	_	5	subj	_	_	144.94	144.96	L2
+4	était	être	VRB	VRB	_	5	aux	_	_	144.97	145.19	L2
+5	marqué	marquer	VPP	VPP	_	2	dep	_	_	145.20	145.50	L2
+6	ça	ça	PRO	PRO	_	5	dep	_	_	145.51	145.60	L2
+7	dans	dans	PRE	PRE	_	5	dep	_	_	145.61	145.76	L2
+8	le	le	DET	DET	_	9	spe	_	_	145.77	145.80	L2
+9	cadre	cadre	NOM	NOM	_	7	dep	_	_	145.81	146.09	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-79
+# text = et elle en a mis une grande
+1	et	et	COO	COO	_	5	mark	_	_	146.83	146.92	L2
+2	elle	il	CLS	CLS	_	5	subj	_	_	146.93	146.98	L2
+3	en	en	CLI	CLI	_	5	dep	_	_	146.99	147.02	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	147.03	147.05	L2
+5	mis	mettre	VPP	VPP	_	0	ROOT	_	_	147.06	147.11	L2
+6	une	un	DET	DET	_	7	spe	_	_	147.12	147.21	L2
+7	grande	grand	ADJ	ADJ	_	5	dep	_	_	147.22	147.33	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-80
+# text = et
+1	et	et	COO	COO	_	0	ROOT	_	_	147.34	147.36	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-81
+# text = ah d'accord
+1	ah	ah	INT	INT	_	2	dm	_	_	147.51	147.66	L1
+2	d'	de	PRE	PRE	_	0	ROOT	_	_	147.67	147.74	L1
+3	accord	accord	NOM	NOM	_	2	dep	_	_	147.75	148.04	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-82
+# text = et ça marche quand même
+1	et	et	COO	COO	_	3	mark	_	_	149.42	149.50	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	149.51	149.59	L2
+3	marche	marcher	VRB	VRB	_	0	ROOT	_	_	149.60	149.78	L2
+4	quand#même	quand même	ADV	ADV	_	3	dep	_	_	149.79	150.03	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-83
+# text = mais ce sera beaucoup plus beau si tu la fais dans un magasin
+1	mais	mais	COO	COO	_	3	mark	_	_	150.09	150.20	L1
+2	ce	ce	CLS	CLS	_	3	subj	_	_	150.21	150.26	L1
+3	sera	être	VRB	VRB	_	0	ROOT	_	_	150.27	150.38	L1
+4	beaucoup	beaucoup	ADV	ADV	_	5	dep	_	_	150.39	150.62	L1
+5	plus	plus	ADV	ADV	_	6	dep	_	_	150.70	150.83	L1
+6	beau	beau	ADJ	ADJ	_	3	dep	_	_	150.84	150.98	L1
+7	si	si	CSU	CSU	_	3	dep	_	_	150.99	151.14	L1
+8	tu	tu	CLS	CLS	_	10	subj	_	_	151.20	151.32	L1
+9	la	le	CLI	CLI	_	10	dep	_	_	151.33	151.39	L1
+10	fais	faire	VRB	VRB	_	7	dep	_	_	151.49	151.62	L1
+11	dans	dans	PRE	PRE	_	10	dep	_	_	151.63	151.73	L1
+12	un	un	DET	DET	_	13	spe	_	_	151.85	151.87	L1
+13	magasin	magasin	NOM	NOM	_	11	dep	_	_	151.88	152.29	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-84
+# text = non elle veut pas
+1	non	non	ADN	ADN	_	3	dm	_	_	152.39	152.63	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	152.73	152.80	L2
+3	veut	vouloir	VRB	VRB	_	0	ROOT	_	_	152.81	152.97	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	153.03	153.20	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-85
+# text = poutch
+1	poutch	_	INT	INT	_	0	ROOT	_	_	154.28	154.62	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-86
+# text = ils veulent ah oui dem~
+1	ils	il	CLS	CLS	_	2	subj	_	_	154.97	155.02	L2
+2	veulent	vouloir	VRB	VRB	_	0	ROOT	_	_	155.03	155.19	L2
+3	ah	ah	INT	INT	_	2	dm	_	_	155.20	155.39	L2
+4	oui	oui	ADV	ADV	_	3	dm	_	_	155.40	155.66	L2
+5	dem~	_	ADV	ADV	_	4	disflink	_	_	155.85	156.12	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-87
+# text = ah ben non je peux pas lui écrire en
+1	ah#ben	ah ben	INT	INT	_	4	dm	_	_	156.13	156.36	L2
+2	non	non	ADN	ADN	_	4	dm	_	_	156.37	156.58	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	156.59	156.71	L2
+4	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	156.72	156.85	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	156.86	157.01	L2
+6	lui	lui	CLI	CLI	_	7	dep	_	_	157.02	157.12	L2
+7	écrire	écrire	VNF	VNF	_	4	dep	_	_	157.13	157.49	L2
+8	en	en	PRE	PRE	_	7	disflink	_	_	157.50	157.52	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-88
+# text = et euh tu as écris à NNAAMMEE
+1	et	et	COO	COO	_	4	mark	_	_	160.45	160.62	L1
+2	euh	euh	INT	INT	_	1	disflink	_	_	160.63	160.98	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	161.05	161.10	L1
+4	as	avoir	VRB	VRB	_	0	ROOT	_	_	161.11	161.23	L1
+5	écris	écrire	VRB	VRB	_	4	para	_	_	161.24	161.45	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	161.46	161.90	L1
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	dep	_	_	161.91	162.36	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-89
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	162.80	162.96	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-90
+# text = tu veux que je lui écrive
+1	tu	tu	CLS	CLS	_	2	subj	_	_	163.20	163.26	L1
+2	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	163.27	163.35	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	163.36	163.38	L1
+4	je	je	CLS	CLS	_	6	subj	_	_	163.39	163.48	L1
+5	lui	lui	CLI	CLI	_	6	dep	_	_	163.49	163.59	L1
+6	écrive	écrire	VRB	VRB	_	3	dep	_	_	163.60	163.87	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-91
+# text = ouais je te dis ce qu'il faut mettre
+1	ouais	ouais	INT	INT	_	4	dm	_	_	164.09	164.16	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	165.23	165.30	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	165.31	165.40	L2
+4	dis	dire	VRB	VRB	_	0	ROOT	_	_	165.41	165.59	L2
+5	ce	ce	PRO	PRO	_	4	dep	_	_	165.60	165.63	L2
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	165.64	165.66	L2
+7	il	il	CLS	CLS	_	8	subj	_	_	165.67	165.75	L2
+8	faut	faillir	VRB	VRB	_	5	dep	_	_	165.76	165.85	L2
+9	mettre	mettre	VNF	VNF	_	8	dep	_	_	165.86	166.03	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-92
+# text = non je connais
+1	non	non	ADN	ADN	_	3	dm	_	_	166.30	166.56	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	167.12	167.15	L1
+3	connais	connaître	VRB	VRB	_	0	ROOT	_	_	167.16	167.27	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-93
+# text = salut NNAAMMEE
+1	salut	salut	NOM	NOM	_	0	ROOT	_	_	167.28	167.39	L1
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	1	periph	_	_	167.40	167.58	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-94
+# text = connais
+1	connais	connaître	VRB	VRB	_	0	ROOT	_	_	167.66	167.80	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-95
+# text = mais non mais il faut que je lui demande
+1	mais	mais	COO	COO	_	5	mark	_	_	168.18	168.26	L2
+2	non	non	ADN	ADN	_	1	dm	_	_	168.27	168.37	L2
+3	mais	mais	COO	COO	_	1	para	_	_	168.38	168.45	L2
+4	il	il	CLS	CLS	_	5	subj	_	_	168.78	168.84	L2
+5	faut	faillir	VRB	VRB	_	0	ROOT	_	_	168.85	168.90	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	168.91	168.93	L2
+7	je	je	CLS	CLS	_	9	subj	_	_	168.94	168.96	L2
+8	lui	lui	CLI	CLI	_	9	dep	_	_	168.97	169.11	L2
+9	demande	demander	VRB	VRB	_	6	dep	_	_	169.12	169.33	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-96
+# text = oh elle a mis sa photo
+1	oh	oh	INT	INT	_	4	dm	_	_	169.82	169.84	L2
+2	elle	il	CLS	CLS	_	4	subj	_	_	169.85	169.94	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	169.95	170.00	L2
+4	mis	mettre	VPP	VPP	_	0	ROOT	_	_	170.01	170.15	L2
+5	sa	son	DET	DET	_	6	spe	_	_	170.23	170.31	L2
+6	photo	photo	NOM	NOM	_	4	dep	_	_	170.32	170.61	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-97
+# text = tu sais c'était où ça
+1	tu	tu	CLS	CLS	_	2	subj	_	_	170.62	170.67	L2
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	170.95	171.04	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	171.05	171.07	L2
+4	était	être	VRB	VRB	_	2	dep	_	_	171.08	171.19	L2
+5	où	où	PRQ	PRQ	_	4	dep	_	_	171.20	171.28	L2
+6	ça	ça	PRO	PRO	_	4	periph	_	_	171.37	171.50	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-98
+# text = c'est dans un mail de truc non
+1	c'	ce	CLS	CLS	_	2	subj	_	_	172.26	172.30	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	172.31	172.39	L1
+3	dans	dans	PRE	PRE	_	2	dep	_	_	172.40	172.67	L1
+4	un	un	DET	DET	_	5	spe	_	_	172.73	172.88	L1
+5	mail	mail	NOM	NOM	_	3	dep	_	_	172.89	173.05	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	173.06	173.43	L1
+7	truc	truc	NOM	NOM	_	6	dep	_	_	173.50	173.67	L1
+8	non	non	ADN	ADN	_	7	dm	_	_	174.03	174.08	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-99
+# text = ouais je te demande où c'est à la cité de l'espace à NNAAMMEE
+1	ouais	ouais	INT	INT	_	4	dm	_	_	174.22	174.47	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	174.51	174.63	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	174.90	174.92	L2
+4	demande	demander	VRB	VRB	_	0	ROOT	_	_	175.51	175.95	L2
+5	où	où	PRQ	PRQ	_	4	dep	_	_	176.04	176.15	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	177.42	177.44	L2
+7	est	être	VRB	VRB	_	5	dep	_	_	177.45	177.49	L2
+8	à	à	PRE	PRE	_	7	dep	_	_	177.50	177.53	L2
+9	la	le	DET	DET	_	10	spe	_	_	177.54	177.67	L2
+10	cité	cité	NOM	NOM	_	8	dep	_	_	177.76	177.98	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	177.99	178.01	L2
+12	l'	le	DET	DET	_	13	spe	_	_	178.02	178.04	L2
+13	espace	espace	NOM	NOM	_	11	dep	_	_	178.05	178.21	L2
+14	à	à	PRE	PRE	_	8	para	_	_	178.22	178.24	L2
+15	NNAAMMEE	NNAAMMEE	NOM	NOM	_	14	dep	_	_	178.30	178.55	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-100
+# text = waouh ah ouais d'accord elle est à travers un hublot
+1	waouh	_	INT	INT	_	7	dm	_	_	179.87	180.19	L1
+2	ah	ah	INT	INT	_	1	dm	_	_	180.81	180.95	L1
+3	ouais	ouais	INT	INT	_	2	dm	_	_	180.96	181.09	L1
+4	d'	de	PRE	PRE	_	7	periph	_	_	181.10	181.12	L1
+5	accord	accord	NOM	NOM	_	4	dep	_	_	181.13	181.47	L1
+6	elle	il	CLS	CLS	_	7	subj	_	_	181.48	181.58	L1
+7	est	être	VRB	VRB	_	0	ROOT	_	_	181.59	181.62	L1
+8	à#travers	à travers	PRE	PRE	_	7	dep	_	_	181.63	182.08	L1
+9	un	un	DET	DET	_	10	spe	_	_	182.09	182.12	L1
+10	hublot	hublot	NOM	NOM	_	8	dep	_	_	182.13	182.45	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-101
+# text = c'est ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	183.05	183.08	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	183.09	183.17	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	183.18	183.33	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-102
+# text = ben attends je sais pas
+1	ben	ben	INT	INT	_	4	dm	_	_	183.67	183.89	L2
+2	attends	attendre	VRB	VRB	_	4	periph	_	_	183.90	184.08	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	184.09	184.16	L2
+4	sais	savoir	VRB	VRB	_	0	ROOT	_	_	184.17	184.30	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	184.31	184.43	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-103
+# text = non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	185.58	185.78	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-104
+# text = ouais voilà mais elle elle a les oreilles de je sais pas quoi
+1	ouais	ouais	INT	INT	_	6	dm	_	_	185.86	186.09	L2
+2	voilà	voilà	VRB	VRB	_	1	dm	_	_	186.10	186.46	L2
+3	mais	mais	COO	COO	_	6	mark	_	_	186.47	186.87	L2
+4	elle	il	CLS	CLS	_	3	disflink	_	_	186.88	186.95	L2
+5	elle	il	CLS	CLS	_	6	subj	_	_	186.96	187.11	L2
+6	a	avoir	VRB	VRB	_	0	ROOT	_	_	187.12	187.17	L2
+7	les	le	DET	DET	_	8	spe	_	_	187.18	187.48	L2
+8	oreilles	oreille	NOM	NOM	_	6	dep	_	_	187.49	187.77	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	187.78	187.92	L2
+10	je	je	CLS	CLS	_	11	subj	_	_	187.93	188.03	L2
+11	sais	savoir	VRB	VRB	_	9	dep	_	_	188.04	188.09	L2
+12	pas	pas	ADN	ADN	_	11	dep	_	_	188.14	188.23	L2
+13	quoi	quoi	PRO	PRO	_	11	dep	_	_	188.29	188.46	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-105
+# text = mais elle a pas d'oreille
+1	mais	mais	COO	COO	_	3	mark	_	_	189.54	189.74	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	189.75	189.88	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	189.89	189.95	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	189.96	190.13	L1
+5	d'	de	PRE	PRE	_	3	dep	_	_	190.20	190.22	L1
+6	oreille	oreille	NOM	NOM	_	5	dep	_	_	190.23	190.53	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-106
+# text = c'est des tâches noires qu'il y a derrière
+1	c'	ce	CLS	CLS	_	2	subj	_	_	190.54	190.56	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	190.57	190.59	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	190.89	191.16	L1
+4	tâches	tâche	NOM	NOM	_	3	dep	_	_	191.17	191.39	L1
+5	noires	noir	ADJ	ADJ	_	4	dep	_	_	191.45	191.62	L1
+6	qu'	que	CSU	CSU	_	9	dep	_	_	191.72	191.74	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	191.75	191.80	L1
+8	y	y	CLI	CLI	_	9	aff	_	_	191.81	191.83	L1
+9	a	avoir	VRB	VRB	_	4	dep	_	_	191.94	191.96	L1
+10	derrière	derrière	PRE	PRE	_	9	dep	_	_	191.97	192.14	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-107
+# text = c'est NNAAMMEE avec là sur la photo ouais
+1	c'	ce	CLS	CLS	_	2	subj	_	_	193.65	193.68	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	193.69	193.77	L2
+3	NNAAMMEE	NNAAMMEE	NOM	NOM	_	2	dep	_	_	194.25	194.43	L2
+4	avec	avec	PRE	PRE	_	3	dep	_	_	194.44	194.55	L2
+5	là	là	ADV	ADV	_	2	periph	_	_	194.56	194.61	L2
+6	sur	sur	PRE	PRE	_	2	dep	_	_	194.62	194.70	L2
+7	la	le	DET	DET	_	8	spe	_	_	194.71	194.80	L2
+8	photo	photo	NOM	NOM	_	6	dep	_	_	194.81	195.05	L2
+9	ouais	ouais	INT	INT	_	8	dm	_	_	195.06	195.11	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-108
+# text = on croirait NNAAMMEE avec
+1	on	on	CLS	CLS	_	2	subj	_	_	196.26	196.28	L1
+2	croirait	croire	VRB	VRB	_	0	ROOT	_	_	196.29	196.67	L1
+3	NNAAMMEE	NNAAMMEE	NOM	NOM	_	2	dep	_	_	196.71	197.09	L1
+4	avec	avec	PRE	PRE	_	3	dep	_	_	197.46	197.59	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-109
+# text = non non non NNAAMMEE
+1	non	non	ADN	ADN	_	4	dm	_	_	197.71	197.78	L2
+2	non	non	ADN	ADN	_	1	dm	_	_	197.79	197.84	L2
+3	non	non	ADN	ADN	_	2	dm	_	_	197.85	197.92	L2
+4	NNAAMMEE	NNAAMMEE	NOM	NOM	_	0	ROOT	_	_	197.93	198.18	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-110
+# text = ah on croirait *P7
+1	ah	ah	INT	INT	_	3	dm	_	_	198.72	198.98	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	198.99	199.26	L1
+3	croirait	croire	VRB	VRB	_	0	ROOT	_	_	199.27	199.44	L1
+4	*P7	_	X	X	_	3	dep	_	_	199.45	199.59	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-111
+# text = c'est NNAAMMEE
+1	c'	ce	CLS	CLS	_	2	subj	_	_	199.67	199.74	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	199.75	199.82	L2
+3	NNAAMMEE	NNAAMMEE	NOM	NOM	_	2	dep	_	_	199.83	200.54	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-112
+# text = aller
+1	aller	aller	VRB	VRB	_	0	ROOT	_	_	201.90	202.06	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-113
+# text = ah
+1	ah	ah	INT	INT	_	0	ROOT	_	_	202.16	202.27	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-114
+# text = aller mais quel
+1	aller	aller	VRB	VRB	_	3	dm	_	_	203.47	203.56	L1
+2	mais	mais	COO	COO	_	3	mark	_	_	203.57	203.62	L1
+3	quel	quel	PRQ	PRQ	_	0	ROOT	_	_	203.63	203.72	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-115
+# text = est-ce qu'elle est déjà revenue à NNAAMMEE
+1	est-ce	_	VRB	VRB	_	6	dep	_	_	203.78	203.94	L2
+2	qu'	que	CSU	CSU	_	1	morph	_	_	203.95	203.97	L2
+3	elle	il	CLS	CLS	_	6	subj	_	_	203.98	204.12	L2
+4	est	être	VRB	VRB	_	6	aux	_	_	204.13	204.22	L2
+5	déjà	déjà	ADV	ADV	_	6	dep	_	_	204.23	204.54	L2
+6	revenue	revenir	VPP	VPP	_	0	ROOT	_	_	204.55	204.76	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	204.77	204.79	L2
+8	NNAAMMEE	NNAAMMEE	NOM	NOM	_	7	dep	_	_	204.80	205.02	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-116
+# text = elle habite où
+1	elle	il	CLS	CLS	_	2	subj	_	_	212.54	212.67	L1
+2	habite	habiter	VRB	VRB	_	0	ROOT	_	_	212.68	212.97	L1
+3	où	où	PRQ	PRQ	_	2	dep	_	_	212.98	213.16	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-117
+# text = j'ai pas mes lunettes à NNAAMMEE
+1	j'	je	CLS	CLS	_	2	subj	_	_	213.55	213.65	L2
+2	ai	avoir	VRB	VRB	_	0	ROOT	_	_	213.66	213.69	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	213.70	213.79	L2
+4	mes	son	DET	DET	_	5	spe	_	_	213.80	213.85	L2
+5	lunettes	lunette	NOM	NOM	_	2	dep	_	_	213.86	214.22	L2
+6	à	à	PRE	PRE	_	5	disflink	_	_	214.37	214.41	L2
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	dep	_	_	215.76	216.00	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-118
+# text = putain ce mec
+1	putain	putain	NOM	NOM	_	3	dm	_	_	217.45	217.70	L1
+2	ce	_	DET	DET	_	3	spe	_	_	217.75	217.85	L1
+3	mec	mec	NOM	NOM	_	0	ROOT	_	_	217.86	218.05	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-119
+# text = ah NNAAMMEE tu veux lui parler
+1	ah	ah	INT	INT	_	2	dm	_	_	218.12	218.35	L1
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	periph	_	_	218.81	219.22	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	219.23	219.28	L1
+4	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	219.29	219.35	L1
+5	lui	lui	CLI	CLI	_	6	dep	_	_	219.36	219.44	L1
+6	parler	parler	VNF	VNF	_	4	dep	_	_	219.45	219.67	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-120
+# text = non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	220.16	220.22	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-121
+# text = si
+1	si	_	ADV	ADV	_	0	ROOT	_	_	220.70	220.81	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-122
+# text = non je ne parlerai pas
+1	non	non	ADN	ADN	_	4	dm	_	_	220.99	221.17	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	221.39	221.41	L2
+3	ne	ne	CLN	CLN	_	4	dep	_	_	221.78	222.13	L2
+4	parlerai	parler	VRB	VRB	_	0	ROOT	_	_	222.14	222.53	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	222.54	222.70	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-123
+# text = salut NNAAMMEE
+1	salut	salut	NOM	NOM	_	0	ROOT	_	_	224.03	224.21	L1
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	1	periph	_	_	224.89	225.14	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-124
+# text = non je rigolais pas quand je t'ai dit euh
+1	non	non	ADN	ADN	_	3	dm	_	_	225.29	225.49	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	225.58	225.85	L2
+3	rigolais	rigoler	VRB	VRB	_	0	ROOT	_	_	226.28	226.67	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	226.68	226.93	L2
+5	quand	quand	CSU	CSU	_	3	dep	_	_	226.94	227.03	L2
+6	je	je	CLS	CLS	_	9	subj	_	_	227.04	227.16	L2
+7	t'	te	CLI	CLI	_	9	dep	_	_	227.17	227.19	L2
+8	ai	avoir	VRB	VRB	_	9	aux	_	_	227.29	227.32	L2
+9	dit	dire	VPP	VPP	_	5	dep	_	_	227.33	227.38	L2
+10	euh	euh	INT	INT	_	9	disflink	_	_	227.39	227.41	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-125
+# text = non je vais juste
+1	non	non	ADN	ADN	_	3	dm	_	_	229.25	229.51	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	229.58	229.77	L1
+3	vais	aller	VRB	VRB	_	0	ROOT	_	_	229.78	230.04	L1
+4	juste	juste	ADV	ADV	_	3	dep	_	_	230.05	230.22	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-126
+# text = oh et si j'ai envie de parler avec elle
+1	oh	oh	INT	INT	_	2	dm	_	_	230.39	230.58	L1
+2	et	et	COO	COO	_	5	mark	_	_	230.59	230.61	L1
+3	si	si	CSU	CSU	_	2	dm	_	_	230.74	230.85	L1
+4	j'	je	CLS	CLS	_	5	subj	_	_	230.95	231.01	L1
+5	ai	avoir	VRB	VRB	_	0	ROOT	_	_	231.10	231.12	L1
+6	envie	envie	NOM	NOM	_	5	dep	_	_	231.27	231.62	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	233.71	233.83	L1
+8	parler	parler	VNF	VNF	_	7	dep	_	_	235.87	236.04	L1
+9	avec	avec	PRE	PRE	_	8	dep	_	_	237.04	237.24	L1
+10	elle	moi	PRO	PRO	_	9	dep	_	_	237.25	237.30	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-127
+# text = elle est sur la liste d'amis de la NNAAMMEE
+1	elle	il	CLS	CLS	_	2	subj	_	_	237.31	237.37	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	237.38	237.40	L1
+3	sur	sur	PRE	PRE	_	2	dep	_	_	237.41	237.53	L1
+4	la	le	DET	DET	_	5	spe	_	_	237.54	237.69	L1
+5	liste	liste	NOM	NOM	_	3	dep	_	_	237.70	237.98	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	237.99	238.02	L1
+7	amis	ami	NOM	NOM	_	6	dep	_	_	238.03	238.23	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	238.24	238.30	L1
+9	la	le	DET	DET	_	10	spe	_	_	238.31	238.44	L1
+10	NNAAMMEE	NNAAMMEE	NOM	NOM	_	8	dep	_	_	238.45	238.73	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-128
+# text = qui
+1	qui	_	PRQ	PRQ	_	0	ROOT	_	_	239.53	239.74	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-129
+# text = NNAAMMEE
+1	NNAAMMEE	NNAAMMEE	NOM	NOM	_	0	ROOT	_	_	240.18	240.77	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-130
+# text = c'est vrai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	241.10	241.14	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	241.18	241.29	L2
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	241.30	241.45	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-131
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	241.74	241.91	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-132
+# text = ben comment ça se fait
+1	ben	ben	INT	INT	_	5	dm	_	_	242.32	242.47	L2
+2	comment	comment	PRQ	PRQ	_	5	dep	_	_	242.48	242.63	L2
+3	ça	ça	PRO	PRO	_	5	subj	_	_	242.64	242.69	L2
+4	se	se	CLI	CLI	_	5	dep	_	_	242.70	242.89	L2
+5	fait	faire	VRB	VRB	_	0	ROOT	_	_	242.98	243.03	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-133
+# text = je sais pas
+1	je	je	CLS	CLS	_	2	subj	_	_	243.91	243.94	L1
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	243.95	244.12	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	244.13	244.34	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-134
+# text = ben parce qu'elle a vue euh dans la mienne donc euh
+1	ben	ben	INT	INT	_	2	dm	_	_	244.88	244.99	L1
+2	parce#qu'	parce que	CSU	CSU	_	0	ROOT	_	_	245.00	245.36	L1
+3	elle	il	CLS	CLS	_	5	subj	_	_	245.37	245.70	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	245.71	245.80	L1
+5	vue	voir	VPP	VPP	_	2	dep	_	_	245.81	246.07	L1
+6	euh	euh	INT	INT	_	5	disflink	_	_	246.08	246.23	L1
+7	dans	dans	PRE	PRE	_	5	dep	_	_	246.24	246.54	L1
+8	la#mienne	_	PRO	PRO	_	7	dep	_	_	246.55	247.06	L1
+9	donc	donc	ADV	ADV	_	2	periph	_	_	247.07	247.15	L1
+10	euh	euh	INT	INT	_	9	disflink	_	_	247.16	247.18	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-135
+# text = ah ouais voilà
+1	ah	ah	INT	INT	_	3	dm	_	_	247.37	247.40	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	247.41	247.46	L2
+3	voilà	voilà	VRB	VRB	_	0	ROOT	_	_	247.47	247.66	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-136
+# text = j'aimerais bien aller la voir quand elle retournera NNAAMMEE
+1	j'	je	CLS	CLS	_	2	subj	_	_	250.60	250.62	L1
+2	aimerais	aimer	VRB	VRB	_	0	ROOT	_	_	250.63	250.90	L1
+3	bien	bien	ADV	ADV	_	2	dep	_	_	250.91	251.07	L1
+4	aller	aller	VNF	VNF	_	2	dep	_	_	251.08	251.20	L1
+5	la	le	CLI	CLI	_	6	dep	_	_	251.21	251.36	L1
+6	voir	voir	VNF	VNF	_	4	dep	_	_	251.37	251.59	L1
+7	quand	quand	CSU	CSU	_	2	dep	_	_	251.60	251.76	L1
+8	elle	il	CLS	CLS	_	9	subj	_	_	251.77	251.95	L1
+9	retournera	retourner	VRB	VRB	_	7	dep	_	_	251.96	252.51	L1
+10	NNAAMMEE	NNAAMMEE	NOM	NOM	_	9	periph	_	_	253.92	254.09	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-137
+# text = tu viendras si tu veux
+1	tu	tu	CLS	CLS	_	2	subj	_	_	254.53	254.59	L1
+2	viendras	venir	VRB	VRB	_	0	ROOT	_	_	254.60	255.16	L1
+3	si	si	CSU	CSU	_	2	dep	_	_	255.24	255.32	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	255.33	255.44	L1
+5	veux	vouloir	VRB	VRB	_	3	dep	_	_	255.45	255.61	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-138
+# text = tu sais on a pas des va~ des vacances à rallonge
+1	tu	tu	CLS	CLS	_	2	subj	_	_	256.80	256.85	L2
+2	sais	savoir	VRB	VRB	_	4	dm	_	_	256.86	256.91	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	256.92	256.94	L2
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	256.95	256.97	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	256.98	257.06	L2
+6	des	de	PRE	PRE	_	5	disflink	_	_	257.07	257.12	L2
+7	va~	_	NOM	NOM	_	6	disflink	_	_	257.13	257.21	L2
+8	des	de	PRE	PRE	_	4	dep	_	_	257.22	257.28	L2
+9	vacances	vacance	NOM	NOM	_	8	dep	_	_	257.29	257.75	L2
+10	à	à	PRE	PRE	_	9	dep	_	_	257.76	257.79	L2
+11	rallonge	rallonge	NOM	NOM	_	10	dep	_	_	257.80	258.01	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-139
+# text = oui ben eh c'est bon
+1	oui	oui	ADV	ADV	_	5	dm	_	_	258.50	258.74	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	258.75	259.10	L1
+3	eh	eh	INT	INT	_	2	dm	_	_	259.11	259.33	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	259.42	259.45	L1
+5	est	être	VRB	VRB	_	0	ROOT	_	_	259.46	259.51	L1
+6	bon	bon	ADJ	ADJ	_	5	dep	_	_	259.52	259.73	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-140
+# text = je peux lui consacrer euh une heure non
+1	je	je	CLS	CLS	_	2	subj	_	_	259.74	259.83	L1
+2	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	259.84	259.95	L1
+3	lui	lui	CLI	CLI	_	4	dep	_	_	259.96	260.07	L1
+4	consacrer	consacrer	VNF	VNF	_	2	dep	_	_	260.08	260.66	L1
+5	euh	euh	INT	INT	_	4	disflink	_	_	260.67	260.69	L1
+6	une	un	DET	DET	_	7	spe	_	_	260.70	261.47	L1
+7	heure	heure	NOM	NOM	_	4	dep	_	_	261.48	261.69	L1
+8	non	non	ADN	ADN	_	7	dm	_	_	261.88	262.08	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-141
+# text = ouais une heure c'est largement suffisant
+1	ouais	ouais	INT	INT	_	5	dm	_	_	262.69	262.85	L2
+2	une	un	DET	DET	_	3	spe	_	_	263.07	263.21	L2
+3	heure	heure	NOM	NOM	_	5	periph	_	_	263.22	263.30	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	263.31	263.33	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	263.41	263.47	L2
+6	largement	largement	ADV	ADV	_	7	dep	_	_	263.48	263.65	L2
+7	suffisant	suffisant	ADJ	ADJ	_	5	dep	_	_	264.01	264.18	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-142
+# text = et euh NNAAMMEE elle t'a dit je suis à NNAAMMEE depuis samedi
+1	et	et	COO	COO	_	7	mark	_	_	265.10	265.20	L1
+2	euh	euh	INT	INT	_	1	disflink	_	_	265.21	265.23	L1
+3	NNAAMMEE	NNAAMMEE	NOM	NOM	_	7	periph	_	_	265.24	265.54	L1
+4	elle	il	CLS	CLS	_	7	subj	_	_	265.55	265.64	L1
+5	t'	te	CLI	CLI	_	7	dep	_	_	265.65	265.67	L1
+6	a	avoir	VRB	VRB	_	7	aux	_	_	265.97	266.08	L1
+7	dit	dire	VPP	VPP	_	0	ROOT	_	_	266.09	266.14	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	266.15	266.36	L1
+9	suis	être	VRB	VRB	_	7	dep	_	_	266.37	266.67	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	266.68	266.70	L1
+11	NNAAMMEE	NNAAMMEE	NOM	NOM	_	10	dep	_	_	266.71	266.90	L1
+12	depuis	depuis	PRE	PRE	_	9	dep	_	_	267.27	267.45	L1
+13	samedi	samedi	NOM	NOM	_	12	dep	_	_	267.52	267.83	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-143
+# text = ah merde oui c'est vrai
+1	ah	ah	INT	INT	_	5	dm	_	_	268.62	268.80	L2
+2	merde	merde	NOM	NOM	_	5	dm	_	_	269.28	269.60	L2
+3	oui	oui	INT	INT	_	5	dm	_	_	269.61	269.66	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	269.81	269.83	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	269.84	270.02	L2
+6	vrai	vrai	ADJ	ADJ	_	5	dep	_	_	270.03	270.15	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-144
+# text = ça a été à L'Envers
+1	ça	ça	PRO	PRO	_	3	subj	_	_	270.16	270.48	L2
+2	a	avoir	VRB	VRB	_	3	aux	_	_	271.26	271.32	L2
+3	été	être	VPP	VPP	_	0	ROOT	_	_	271.90	272.00	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	276.21	276.33	L2
+5	L'	le	DET	DET	_	6	spe	_	_	276.53	276.62	L2
+6	Envers	envers	NOM	NOM	_	4	dep	_	_	276.63	276.75	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-145
+# text = demande-lui
+1	demande-lui	_	VRB	VRB	_	0	ROOT	_	_	279.64	280.19	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-146
+# text = elle a pas été à la f~
+1	elle	il	CLS	CLS	_	4	subj	_	_	280.66	280.79	L2
+2	a	avoir	VRB	VRB	_	4	aux	_	_	280.80	280.91	L2
+3	pas	pas	ADN	ADN	_	4	dep	_	_	280.92	281.01	L2
+4	été	être	VPP	VPP	_	0	ROOT	_	_	281.02	281.13	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	281.14	281.20	L2
+6	la	le	DET	DET	_	7	spe	_	_	281.21	281.33	L2
+7	f~	_	NOM	NOM	_	5	disflink	_	_	281.47	281.52	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-147
+# text = tu as
+1	tu	tu	CLS	CLS	_	2	subj	_	_	281.53	281.76	L2
+2	as	avoir	VRB	VRB	_	0	ROOT	_	_	281.77	281.83	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-148
+# text = et demande lui si elle a été à la fac aujourd' hui
+1	et	et	COO	COO	_	2	mark	_	_	281.84	281.88	L2
+2	demande	demander	VRB	VRB	_	0	ROOT	_	_	281.89	282.07	L2
+3	lui	moi	PRO	PRO	_	2	dep	_	_	282.08	282.20	L2
+4	si	si	CSU	CSU	_	2	dep	_	_	282.21	282.26	L2
+5	elle	il	CLS	CLS	_	7	subj	_	_	282.27	282.32	L2
+6	a	avoir	VRB	VRB	_	7	aux	_	_	282.33	282.35	L2
+7	été	être	VPP	VPP	_	4	dep	_	_	282.36	282.56	L2
+8	à	à	PRE	PRE	_	7	dep	_	_	282.57	282.59	L2
+9	la	le	DET	DET	_	10	spe	_	_	282.60	282.70	L2
+10	fac	fac	NOM	NOM	_	8	dep	_	_	282.71	282.84	L2
+11	aujourd'#hui	aujourd'hui	ADV	ADV	_	7	dep	_	_	282.91	283.18	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-149
+# text = oh c'était trop nul le cours euh qu'on a eu de quatre à six
+1	oh	oh	INT	INT	_	3	dm	_	_	292.52	292.69	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	292.70	292.72	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	292.73	292.94	L1
+4	trop	trop	ADV	ADV	_	5	dep	_	_	292.95	293.15	L1
+5	nul	nul	ADJ	ADJ	_	3	dep	_	_	293.16	293.42	L1
+6	le	le	DET	DET	_	7	spe	_	_	293.43	293.53	L1
+7	cours	cour	NOM	NOM	_	3	periph	_	_	293.58	293.78	L1
+8	euh	euh	INT	INT	_	7	disflink	_	_	293.79	293.88	L1
+9	qu'	que	CSU	CSU	_	12	dep	_	_	293.95	293.98	L1
+10	on	on	CLS	CLS	_	12	subj	_	_	293.99	294.01	L1
+11	a	avoir	VRB	VRB	_	12	aux	_	_	294.08	294.11	L1
+12	eu	-	VPP	VPP	_	7	dep	_	_	294.12	294.18	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	294.27	294.29	L1
+14	quatre	_	NUM	NUM	_	13	dep	_	_	294.30	294.44	L1
+15	à	à	PRE	PRE	_	13	para	_	_	294.45	294.50	L1
+16	six	_	NUM	NUM	_	15	dep	_	_	294.64	294.72	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-150
+# text = c'est vrai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	294.99	295.01	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	295.02	295.32	L2
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	295.33	295.41	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-151
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	295.63	295.82	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-152
+# text = oh là là les dernières
+1	oh#là#là	oh là là	INT	INT	_	3	dm	_	_	297.74	297.91	L1
+2	les	le	DET	DET	_	3	spe	_	_	297.92	297.97	L1
+3	dernières	dernier	ADJ	ADJ	_	0	ROOT	_	_	297.98	298.18	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-153
+# text = mais c'était quoi
+1	mais	mais	COO	COO	_	3	mark	_	_	298.31	298.45	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	298.46	298.49	L2
+3	était	être	VRB	VRB	_	0	ROOT	_	_	298.50	298.85	L2
+4	quoi	quoi	PRO	PRO	_	3	dep	_	_	298.93	299.10	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-154
+# text = vingt minutes
+1	vingt	_	NUM	NUM	_	2	spe	_	_	299.19	299.35	L1
+2	minutes	minute	NOM	NOM	_	0	ROOT	_	_	299.36	299.65	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-155
+# text = mais c'était quoi ce cours
+1	mais	mais	COO	COO	_	3	mark	_	_	299.74	299.79	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	299.80	299.82	L2
+3	était	être	VRB	VRB	_	0	ROOT	_	_	299.83	300.03	L2
+4	quoi	_	PRQ	PRQ	_	3	dep	_	_	300.04	300.14	L2
+5	ce	_	DET	DET	_	6	spe	_	_	300.24	300.35	L2
+6	cours	cour	NOM	NOM	_	3	periph	_	_	300.42	300.59	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-156
+# text = c'est un cours qu'il qu'il fait toujours l'appel
+1	c'	ce	CLS	CLS	_	2	subj	_	_	301.60	301.62	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	301.63	301.65	L1
+3	un	un	DET	DET	_	4	spe	_	_	301.66	301.81	L1
+4	cours	cour	NOM	NOM	_	2	dep	_	_	301.82	301.95	L1
+5	qu'	que	CSU	CSU	_	4	disflink	_	_	302.02	302.04	L1
+6	il	il	CLS	CLS	_	5	disflink	_	_	302.05	302.49	L1
+7	qu'	que	CSU	CSU	_	4	dep	_	_	302.58	302.62	L1
+8	il	il	CLS	CLS	_	9	subj	_	_	302.63	302.70	L1
+9	fait	faire	VRB	VRB	_	7	dep	_	_	302.71	302.80	L1
+10	toujours	toujours	ADV	ADV	_	9	dep	_	_	302.81	303.06	L1
+11	l'	le	DET	DET	_	12	spe	_	_	303.07	303.09	L1
+12	appel	appel	NOM	NOM	_	9	dep	_	_	303.10	303.36	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-157
+# text = donc tout le monde y va
+1	donc	donc	ADV	ADV	_	4	periph	_	_	303.40	303.49	L1
+2	tout#le#monde	tout le monde	PRO	PRO	_	4	subj	_	_	303.72	304.03	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	304.04	304.06	L1
+4	va	aller	VRB	VRB	_	0	ROOT	_	_	304.07	304.22	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-158
+# text = et je me doute
+1	et	et	COO	COO	_	4	mark	_	_	304.50	304.61	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	304.62	304.64	L2
+3	me	me	CLI	CLI	_	4	dep	_	_	304.65	304.86	L2
+4	doute	douter	VRB	VRB	_	0	ROOT	_	_	304.87	304.95	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-159
+# text = et il a fait tout à la fin l'appel
+1	et	et	COO	COO	_	4	mark	_	_	305.44	305.52	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	305.53	305.65	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	305.66	305.76	L1
+4	fait	-	VPP	VPP	_	0	ROOT	_	_	305.77	305.89	L1
+5	tout	tout	PRO	PRO	_	4	dep	_	_	306.01	306.06	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	306.07	306.11	L1
+7	la	le	DET	DET	_	8	spe	_	_	306.12	306.26	L1
+8	fin	fin	NOM	NOM	_	6	dep	_	_	306.32	306.52	L1
+9	l'	le	DET	DET	_	10	spe	_	_	306.53	306.55	L1
+10	appel	appel	NOM	NOM	_	4	dep	_	_	306.61	306.72	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-160
+# text = oh
+1	oh	oh	INT	INT	_	0	ROOT	_	_	306.99	306.99	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-161
+# text = en fait je voulais venir quand je suis euh
+1	en#fait	en fait	ADV	ADV	_	3	dm	_	_	307.29	307.59	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	307.60	307.62	L1
+3	voulais	vouloir	VRB	VRB	_	0	ROOT	_	_	307.63	307.84	L1
+4	venir	venir	VNF	VNF	_	3	dep	_	_	307.85	308.05	L1
+5	quand	quand	CSU	CSU	_	4	dep	_	_	308.09	308.21	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	308.25	308.28	L1
+7	suis	être	VRB	VRB	_	5	dep	_	_	308.29	308.60	L1
+8	euh	euh	INT	INT	_	7	disflink	_	_	308.61	308.82	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-162
+# text = après la pause je voulais venir te voir rester avec toi
+1	après	après	PRE	PRE	_	5	periph	_	_	308.83	309.15	L1
+2	la	le	DET	DET	_	3	spe	_	_	309.16	309.29	L1
+3	pause	pause	NOM	NOM	_	1	dep	_	_	309.30	309.56	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	309.57	309.59	L1
+5	voulais	vouloir	VRB	VRB	_	0	ROOT	_	_	309.60	309.84	L1
+6	venir	venir	VNF	VNF	_	5	dep	_	_	309.85	310.01	L1
+7	te	te	CLI	CLI	_	8	dep	_	_	310.09	310.24	L1
+8	voir	voir	VNF	VNF	_	6	dep	_	_	310.25	310.48	L1
+9	rester	rester	VNF	VNF	_	6	para	_	_	310.77	311.06	L1
+10	avec	avec	PRE	PRE	_	9	dep	_	_	311.07	311.23	L1
+11	toi	moi	PRO	PRO	_	10	dep	_	_	311.30	311.47	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-163
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	311.90	312.01	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-164
+# text = et euh
+1	et	et	COO	COO	_	2	mark	_	_	312.47	312.67	L1
+2	euh	euh	INT	INT	_	0	ROOT	_	_	312.68	312.76	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-165
+# text = et vu qu'il y a pas eu l'appel tu t'es dit
+1	et	et	COO	COO	_	14	mark	_	_	312.94	312.96	L2
+2	vu	voir	VPP	VPP	_	14	periph	_	_	312.97	313.03	L2
+3	qu'	que	CSU	CSU	_	2	morph	_	_	313.04	313.06	L2
+4	il	il	CLS	CLS	_	8	subj	_	_	313.07	313.12	L2
+5	y	y	CLI	CLI	_	8	aff	_	_	313.13	313.15	L2
+6	a	avoir	VRB	VRB	_	8	aux	_	_	313.16	313.23	L2
+7	pas	pas	ADN	ADN	_	8	dep	_	_	313.24	313.40	L2
+8	eu	-	VPP	VPP	_	3	dep	_	_	313.41	313.47	L2
+9	l'	le	DET	DET	_	10	spe	_	_	313.48	313.50	L2
+10	appel	appel	NOM	NOM	_	8	dep	_	_	313.51	313.83	L2
+11	tu	tu	CLS	CLS	_	14	subj	_	_	313.90	313.95	L2
+12	t'	te	CLI	CLI	_	14	dep	_	_	314.02	314.06	L2
+13	es	être	VRB	VRB	_	14	aux	_	_	314.07	314.15	L2
+14	dit	dire	VPP	VPP	_	0	ROOT	_	_	314.19	314.34	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-166
+# text = non non non non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	315.13	315.25	L1
+2	non	non	ADN	ADN	_	1	disflink	_	_	315.26	315.31	L1
+3	non	non	ADN	ADN	_	2	disflink	_	_	315.32	315.37	L1
+4	non	non	ADN	ADN	_	3	disflink	_	_	315.38	315.44	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-167
+# text = et tu as eu une pause
+1	et	et	COO	COO	_	4	mark	_	_	315.50	315.52	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	315.53	315.58	L2
+3	as	avoir	VRB	VRB	_	4	aux	_	_	315.59	315.79	L2
+4	eu	-	VPP	VPP	_	0	ROOT	_	_	315.80	315.91	L2
+5	une	un	DET	DET	_	6	spe	_	_	315.92	316.01	L2
+6	pause	pause	NOM	NOM	_	4	dep	_	_	316.02	316.35	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-168
+# text = et j'allais partir oui
+1	et	et	COO	COO	_	3	mark	_	_	316.41	316.44	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	316.45	316.48	L1
+3	allais	aller	VRB	VRB	_	0	ROOT	_	_	316.49	316.69	L1
+4	partir	partir	VNF	VNF	_	3	dep	_	_	316.70	317.05	L1
+5	oui	oui	INT	INT	_	4	dm	_	_	317.06	317.21	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-169
+# text = on a eu une pause
+1	on	on	CLS	CLS	_	3	subj	_	_	317.22	317.32	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	317.33	317.35	L1
+3	eu	-	VPP	VPP	_	0	ROOT	_	_	317.36	317.47	L1
+4	une	un	DET	DET	_	5	spe	_	_	317.48	317.56	L1
+5	pause	pause	NOM	NOM	_	3	dep	_	_	317.57	317.84	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-170
+# text = oh tu es pas venu
+1	oh	oh	INT	INT	_	5	dm	_	_	318.22	318.25	L2
+2	tu	tu	CLS	CLS	_	5	subj	_	_	318.26	318.36	L2
+3	es	être	VRB	VRB	_	5	aux	_	_	318.37	318.42	L2
+4	pas	pas	ADN	ADN	_	5	dep	_	_	318.43	318.70	L2
+5	venu	venir	VPP	VPP	_	0	ROOT	_	_	318.71	318.86	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-171
+# text = j'étais à l'autre bout de l'ESSTIN
+1	j'	je	CLS	CLS	_	2	subj	_	_	319.07	319.18	L1
+2	étais	être	VRB	VRB	_	0	ROOT	_	_	319.19	319.34	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	319.35	319.43	L1
+4	l'	le	DET	DET	_	6	spe	_	_	319.44	319.47	L1
+5	autre	autre	ADJ	ADJ	_	6	dep	_	_	319.48	319.56	L1
+6	bout	bout	NOM	NOM	_	3	dep	_	_	319.63	319.68	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	319.77	319.80	L1
+8	l'	le	DET	DET	_	9	spe	_	_	319.81	319.83	L1
+9	ESSTIN	_	NOM	NOM	_	7	dep	_	_	319.84	320.17	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-172
+# text = donc j'ai pas venu venir
+1	donc	donc	ADV	ADV	_	5	periph	_	_	320.24	320.35	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	320.36	320.41	L1
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	320.42	320.45	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	320.46	320.56	L1
+5	venu	venir	VPP	VPP	_	0	ROOT	_	_	320.57	320.88	L1
+6	venir	venir	VNF	VNF	_	5	dep	_	_	321.00	321.16	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-173
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	321.56	321.92	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-174
+# text = et il y a un
+1	et	et	COO	COO	_	4	mark	_	_	322.27	322.29	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	322.30	322.35	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	322.36	322.38	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	322.39	322.45	L1
+5	un	un	DET	DET	_	4	disflink	_	_	322.46	322.66	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-175
+# text = O K
+1	O	_	NOM	NOM	_	0	ROOT	_	_	322.78	322.80	L2
+2	K	_	NOM	NOM	_	1	dep	_	_	322.81	323.07	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-176
+# text = et puis en fait quand euh quand euh il a fait la pause il a dit oh euh ceux qui ont envie de partir euh n'oubliez pas que je fais l'appel à la deuxième heure
+1	et#puis	et puis	COO	COO	_	14	dm	_	_	325.72	326.02	L1
+2	en#fait	en fait	ADV	ADV	_	1	dm	_	_	326.03	326.33	L1
+3	quand	quand	CSU	CSU	_	14	parenth	_	_	326.34	326.56	L1
+4	euh	euh	INT	INT	_	3	disflink	_	_	326.57	326.84	L1
+5	quand	quand	CSU	CSU	_	14	periph	_	_	326.85	326.97	L1
+6	euh	euh	INT	INT	_	5	disflink	_	_	327.07	327.48	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	327.49	327.65	L1
+8	a	avoir	VRB	VRB	_	9	aux	_	_	327.66	327.74	L1
+9	fait	-	VPP	VPP	_	5	dep	_	_	327.75	327.86	L1
+10	la	le	DET	DET	_	11	spe	_	_	327.87	328.01	L1
+11	pause	pause	NOM	NOM	_	9	dep	_	_	328.06	328.26	L1
+12	il	il	CLS	CLS	_	14	subj	_	_	328.27	328.39	L1
+13	a	avoir	VRB	VRB	_	14	aux	_	_	328.40	328.45	L1
+14	dit	dire	VPP	VPP	_	0	ROOT	_	_	328.46	328.63	L1
+15	oh	oh	INT	INT	_	14	dm	_	_	328.64	328.83	L1
+16	euh	euh	INT	INT	_	15	disflink	_	_	328.84	329.46	L1
+17	ceux	celui	PRO	PRO	_	25	periph	_	_	329.47	329.65	L1
+18	qui	_	PRQ	PRQ	_	19	subj	_	_	329.66	329.77	L1
+19	ont	avoir	VRB	VRB	_	17	dep	_	_	329.78	329.83	L1
+20	envie	envie	NOM	NOM	_	19	dep	_	_	329.84	329.97	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	330.04	330.06	L1
+22	partir	partir	VNF	VNF	_	21	dep	_	_	330.07	330.72	L1
+23	euh	euh	INT	INT	_	22	disflink	_	_	330.73	331.04	L1
+24	n'	ne	CLN	CLN	_	25	dep	_	_	331.97	332.03	L1
+25	oubliez	oublier	VRB	VRB	_	14	dep	_	_	332.04	332.35	L1
+26	pas	pas	ADN	ADN	_	25	dep	_	_	332.36	332.48	L1
+27	que	que	CSU	CSU	_	25	dep	_	_	332.54	332.59	L1
+28	je	je	CLS	CLS	_	29	subj	_	_	332.60	332.72	L1
+29	fais	faire	VRB	VRB	_	27	dep	_	_	332.73	332.87	L1
+30	l'	le	DET	DET	_	31	spe	_	_	332.88	332.92	L1
+31	appel	appel	NOM	NOM	_	29	dep	_	_	332.93	333.25	L1
+32	à	à	PRE	PRE	_	29	dep	_	_	333.26	333.30	L1
+33	la	le	DET	DET	_	35	spe	_	_	333.31	333.46	L1
+34	deuxième	deuxième	ADJ	ADJ	_	35	dep	_	_	333.47	333.82	L1
+35	heure	heure	NOM	NOM	_	32	dep	_	_	333.83	333.88	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-177
+# text = oh
+1	oh	oh	INT	INT	_	0	ROOT	_	_	334.54	334.60	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-178
+# text = donc ce qui fait que je suis pas
+1	donc	donc	ADV	ADV	_	2	periph	_	_	334.73	334.85	L1
+2	ce	ce	PRO	PRO	_	0	ROOT	_	_	334.99	335.03	L1
+3	qui	_	PRQ	PRQ	_	4	subj	_	_	335.04	335.09	L1
+4	fait	faire	VRB	VRB	_	2	dep	_	_	335.10	335.24	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	335.25	335.27	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	335.28	335.38	L1
+7	suis	être	VRB	VRB	_	5	dep	_	_	335.39	335.47	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	335.48	335.54	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-179
+# text = je voulais venir tu sais à la pause et puis euh venir prendre mes affaires à l'appart
+1	je	je	CLS	CLS	_	2	subj	_	_	335.55	335.66	L1
+2	voulais	vouloir	VRB	VRB	_	0	ROOT	_	_	335.67	335.82	L1
+3	venir	venir	VNF	VNF	_	2	dep	_	_	335.83	336.10	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	336.11	336.16	L1
+5	sais	savoir	VRB	VRB	_	3	dm	_	_	336.17	336.24	L1
+6	à	à	PRE	PRE	_	3	dep	_	_	336.25	336.27	L1
+7	la	le	DET	DET	_	8	spe	_	_	336.28	336.33	L1
+8	pause	pause	NOM	NOM	_	6	dep	_	_	336.34	336.47	L1
+9	et#puis	et puis	COO	COO	_	11	mark	_	_	336.48	336.65	L1
+10	euh	euh	INT	INT	_	9	disflink	_	_	336.66	336.68	L1
+11	venir	venir	VNF	VNF	_	3	para	_	_	336.69	336.82	L1
+12	prendre	-	VNF	VNF	_	11	dep	_	_	336.83	336.99	L1
+13	mes	son	DET	DET	_	14	spe	_	_	337.00	337.05	L1
+14	affaires	affaire	NOM	NOM	_	12	dep	_	_	337.06	337.17	L1
+15	à	à	PRE	PRE	_	12	dep	_	_	337.18	337.20	L1
+16	l'	le	DET	DET	_	17	spe	_	_	337.21	337.23	L1
+17	appart	appart	NOM	NOM	_	15	dep	_	_	337.24	337.39	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-180
+# text = ouais oui mais non mets lui oui
+1	ouais	ouais	INT	INT	_	5	dm	_	_	337.46	337.94	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	339.42	339.54	L2
+3	mais	mais	COO	COO	_	5	mark	_	_	339.55	339.66	L2
+4	non	non	INT	INT	_	3	dm	_	_	339.67	340.12	L2
+5	mets	mettre	VRB	VRB	_	0	ROOT	_	_	340.13	340.34	L2
+6	lui	moi	PRO	PRO	_	5	dep	_	_	340.35	340.64	L2
+7	oui	oui	INT	INT	_	5	dep	_	_	340.65	340.76	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-181
+# text = c'est ce que je voulais te demander
+1	c'	ce	CLS	CLS	_	2	subj	_	_	340.77	340.81	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	340.90	340.92	L2
+3	ce	ce	PRO	PRO	_	2	dep	_	_	341.02	341.14	L2
+4	que	que	PRQ	PRQ	_	6	dep	_	_	341.15	341.17	L2
+5	je	je	CLS	CLS	_	6	subj	_	_	341.18	341.31	L2
+6	voulais	vouloir	VRB	VRB	_	3	dep	_	_	341.36	341.52	L2
+7	te	te	CLI	CLI	_	8	dep	_	_	341.53	341.71	L2
+8	demander	demander	VNF	VNF	_	6	dep	_	_	341.72	342.06	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-182
+# text = c'est sur le curares
+1	c'	ce	CLS	CLS	_	2	subj	_	_	342.13	342.17	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	342.18	342.24	L2
+3	sur	sur	PRE	PRE	_	2	dep	_	_	342.25	342.45	L2
+4	le	le	DET	DET	_	5	spe	_	_	342.50	342.61	L2
+5	curares	curare	NOM	NOM	_	3	dep	_	_	342.62	343.08	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-183
+# text = tu crois qu'on pourra l'avoir par NNAAMMEE
+1	tu	tu	CLS	CLS	_	2	subj	_	_	343.94	344.03	L2
+2	crois	croire	VRB	VRB	_	0	ROOT	_	_	344.04	344.22	L2
+3	qu'	que	CSU	CSU	_	2	dep	_	_	344.23	344.25	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	344.26	344.41	L2
+5	pourra	pouvoir	VRB	VRB	_	3	dep	_	_	344.42	344.70	L2
+6	l'	le	CLI	CLI	_	7	dep	_	_	344.71	344.73	L2
+7	avoir	avoir	VNF	VNF	_	5	dep	_	_	344.74	345.11	L2
+8	par	par	PRE	PRE	_	7	dep	_	_	346.18	346.33	L2
+9	NNAAMMEE	NNAAMMEE	NOM	NOM	_	8	dep	_	_	347.18	347.35	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-184
+# text = mais je suis trop fatiguée pour
+1	mais	mais	COO	COO	_	3	mark	_	_	347.67	348.12	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	348.98	349.04	L2
+3	suis	être	VRB	VRB	_	0	ROOT	_	_	349.05	349.19	L2
+4	trop	trop	ADV	ADV	_	5	dep	_	_	349.23	349.36	L2
+5	fatiguée	fatiguer	VPP	VPP	_	3	dep	_	_	349.37	349.70	L2
+6	pour	pour	PRE	PRE	_	5	dep	_	_	349.74	350.03	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-185
+# text = c'est sur le c sur le curares E S
+1	c'	ce	CLS	CLS	_	2	subj	_	_	350.20	350.22	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	350.23	350.33	L1
+3	sur	sur	PRE	PRE	_	2	disflink	_	_	350.34	350.52	L1
+4	le	le	DET	DET	_	3	disflink	_	_	350.53	350.69	L1
+5	c	_	NOM	NOM	_	4	disflink	_	_	350.77	350.82	L1
+6	sur	sur	PRE	PRE	_	2	dep	_	_	357.61	357.69	L2
+7	le	le	DET	DET	_	8	spe	_	_	357.70	357.89	L2
+8	curares	curare	NOM	NOM	_	6	dep	_	_	357.90	358.31	L2
+9	E	_	NOM	NOM	_	8	dep	_	_	358.50	358.65	L2
+10	S	_	NOM	NOM	_	9	dep	_	_	358.66	358.82	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-186
+# text = curares
+1	curares	curare	NOM	NOM	_	0	ROOT	_	_	359.85	360.26	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-187
+# text = ouais voilà curare
+1	ouais	ouais	INT	INT	_	3	dm	_	_	360.95	361.10	L2
+2	voilà	voilà	VRB	VRB	_	3	periph	_	_	361.11	361.38	L2
+3	curare	curare	NOM	NOM	_	0	ROOT	_	_	361.65	362.23	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-188
+# text = et après
+1	et	et	COO	COO	_	2	mark	_	_	363.09	363.11	L1
+2	après	après	PRE	PRE	_	0	ROOT	_	_	363.12	363.33	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-189
+# text = euh est-ce que euh tu crois qu'on pourra l'avoir par quelqu' un ce qui veut dire par NNAAMMEE
+1	euh	euh	INT	INT	_	6	disflink	_	_	364.17	364.19	L2
+2	est-ce	_	VRB	VRB	_	6	dep	_	_	364.20	364.59	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	364.60	364.62	L2
+4	euh	euh	INT	INT	_	3	disflink	_	_	364.63	364.65	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	364.74	365.19	L2
+6	crois	croire	VRB	VRB	_	0	ROOT	_	_	365.23	365.45	L2
+7	qu'	que	CSU	CSU	_	6	dep	_	_	365.46	365.48	L2
+8	on	on	CLS	CLS	_	9	subj	_	_	365.49	365.60	L2
+9	pourra	pouvoir	VRB	VRB	_	7	dep	_	_	365.65	365.93	L2
+10	l'	le	CLI	CLI	_	11	dep	_	_	365.94	365.98	L2
+11	avoir	avoir	VNF	VNF	_	9	dep	_	_	365.99	366.36	L2
+12	par	par	PRE	PRE	_	11	dep	_	_	366.51	366.64	L2
+13	quelqu'#un	quelqu' un	PRO	PRO	_	12	dep	_	_	366.74	367.06	L2
+14	ce	ce	PRO	PRO	_	6	parenth	_	_	367.73	367.83	L2
+15	qui	_	PRQ	PRQ	_	16	subj	_	_	367.97	368.07	L2
+16	veut	vouloir	VRB	VRB	_	14	dep	_	_	368.17	368.23	L2
+17	dire	dire	VNF	VNF	_	16	dep	_	_	368.51	368.85	L2
+18	par	par	PRE	PRE	_	12	para	_	_	369.44	369.66	L2
+19	NNAAMMEE	NNAAMMEE	NOM	NOM	_	18	dep	_	_	370.10	370.28	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-190
+# text = il va falloir que je récupère tous les cours euh par NNAAMMEE et tout
+1	il	il	CLS	CLS	_	2	subj	_	_	376.03	376.08	L1
+2	va	aller	VRB	VRB	_	0	ROOT	_	_	376.09	376.14	L1
+3	falloir	falloir	VNF	VNF	_	2	dep	_	_	376.15	376.44	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	376.45	376.58	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	376.59	376.61	L1
+6	récupère	récupérer	VRB	VRB	_	4	dep	_	_	376.62	377.02	L1
+7	tous	tout	ADJ	ADJ	_	9	dep	_	_	377.10	377.18	L1
+8	les	le	DET	DET	_	9	spe	_	_	377.19	377.32	L1
+9	cours	cour	NOM	NOM	_	6	dep	_	_	377.33	377.60	L1
+10	euh	euh	INT	INT	_	9	disflink	_	_	377.61	377.80	L1
+11	par	par	PRE	PRE	_	6	dep	_	_	377.81	377.98	L1
+12	NNAAMMEE	NNAAMMEE	NOM	NOM	_	11	dep	_	_	378.31	378.49	L1
+13	et	et	COO	COO	_	14	mark	_	_	378.60	378.62	L1
+14	tout	tout	ADV	ADV	_	9	para	_	_	378.83	378.89	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-191
+# text = oh merde j'ai envoyé salut
+1	oh	oh	INT	INT	_	5	dm	_	_	378.99	379.04	L1
+2	merde	merde	NOM	NOM	_	5	periph	_	_	379.05	379.28	L1
+3	j'	je	CLS	CLS	_	5	subj	_	_	379.29	379.36	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	379.37	379.41	L1
+5	envoyé	envoyer	VPP	VPP	_	0	ROOT	_	_	379.42	379.72	L1
+6	salut	salut	INT	INT	_	5	dep	_	_	379.73	380.03	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-192
+# text = j'ai pas fais gaffe
+1	j'	je	CLS	CLS	_	4	subj	_	_	380.04	380.12	L1
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	380.13	380.15	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	380.19	380.27	L1
+4	fais	faire	VRB	VRB	_	0	ROOT	_	_	380.33	380.47	L1
+5	gaffe	gaffe	NOM	NOM	_	4	dep	_	_	380.48	380.62	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-193
+# text = j'ai pas fait attention
+1	j'	je	CLS	CLS	_	4	subj	_	_	381.26	381.32	L1
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	382.13	382.31	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	382.32	382.47	L1
+4	fait	-	VPP	VPP	_	0	ROOT	_	_	382.48	382.53	L1
+5	attention	attention	NOM	NOM	_	4	dep	_	_	382.54	382.75	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-194
+# text = c'est pas vrai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	382.91	382.93	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	382.94	383.16	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	383.17	383.49	L2
+4	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	383.50	383.70	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-195
+# text = non non non mais j'ai même pas fait attention
+1	non	non	INT	INT	_	9	dm	_	_	383.80	383.87	L1
+2	non	non	INT	INT	_	1	disflink	_	_	383.88	384.03	L1
+3	non	non	INT	INT	_	2	disflink	_	_	384.10	384.16	L1
+4	mais	mais	COO	COO	_	9	mark	_	_	384.17	384.35	L1
+5	j'	je	CLS	CLS	_	9	subj	_	_	384.36	384.41	L1
+6	ai	avoir	VRB	VRB	_	9	aux	_	_	384.42	384.47	L1
+7	même	même	ADV	ADV	_	8	dep	_	_	384.48	384.62	L1
+8	pas	pas	ADN	ADN	_	9	dep	_	_	384.63	384.74	L1
+9	fait	-	VPP	VPP	_	0	ROOT	_	_	384.79	384.89	L1
+10	attention	attention	NOM	NOM	_	9	dep	_	_	384.90	385.26	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-196
+# text = tu me l'as dit
+1	tu	tu	CLS	CLS	_	5	subj	_	_	385.39	385.44	L2
+2	me	me	CLI	CLI	_	5	dep	_	_	385.45	385.56	L2
+3	l'	le	CLI	CLI	_	5	dep	_	_	385.57	385.60	L2
+4	as	avoir	VRB	VRB	_	5	aux	_	_	385.61	385.78	L2
+5	dit	dire	VPP	VPP	_	0	ROOT	_	_	385.79	385.84	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-197
+# text = tu m'as dit oh je vais lui envoyer salut
+1	tu	tu	CLS	CLS	_	4	subj	_	_	386.03	386.08	L2
+2	m'	me	CLI	CLI	_	4	dep	_	_	386.09	386.19	L2
+3	as	avoir	VRB	VRB	_	4	aux	_	_	386.20	386.25	L2
+4	dit	dire	VPP	VPP	_	0	ROOT	_	_	386.26	386.45	L2
+5	oh	oh	INT	INT	_	4	dm	_	_	386.59	386.61	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	386.62	386.65	L2
+7	vais	aller	VRB	VRB	_	4	dep	_	_	386.66	386.80	L2
+8	lui	lui	CLI	CLI	_	9	dep	_	_	386.81	386.91	L2
+9	envoyer	envoyer	VNF	VNF	_	7	dep	_	_	386.96	387.22	L2
+10	salut	salut	NOM	NOM	_	9	dep	_	_	387.44	387.58	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-198
+# text = menteur
+1	menteur	menteur	NOM	NOM	_	0	ROOT	_	_	389.67	390.35	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-199
+# text = le capuchon
+1	le	le	DET	DET	_	2	spe	_	_	393.58	393.66	L2
+2	capuchon	capuchon	NOM	NOM	_	0	ROOT	_	_	393.89	394.35	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-200
+# text = ben elle est peut-être pas repartie chez elle hein encore
+1	ben	ben	INT	INT	_	6	dm	_	_	394.57	394.73	L2
+2	elle	il	CLS	CLS	_	6	subj	_	_	395.21	395.31	L2
+3	est	être	VRB	VRB	_	6	aux	_	_	395.82	395.84	L2
+4	peut-être	peut-être	ADV	ADV	_	6	dep	_	_	396.33	397.36	L2
+5	pas	pas	ADN	ADN	_	6	dep	_	_	398.19	398.25	L2
+6	repartie	repartir	VPP	VPP	_	0	ROOT	_	_	399.53	399.74	L2
+7	chez	chez	PRE	PRE	_	6	dep	_	_	399.93	400.20	L2
+8	elle	moi	PRO	PRO	_	7	dep	_	_	400.21	400.40	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	400.41	400.51	L2
+10	encore	encore	ADV	ADV	_	6	periph	_	_	400.52	400.67	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-201
+# text = NNAAMMEE va me le donner
+1	NNAAMMEE	NNAAMMEE	NOM	NOM	_	2	subj	_	_	400.97	401.31	L2
+2	va	aller	VRB	VRB	_	0	ROOT	_	_	401.74	401.84	L2
+3	me	me	CLI	CLI	_	5	dep	_	_	401.96	402.08	L2
+4	le	le	CLI	CLI	_	5	dep	_	_	403.41	403.45	L2
+5	donner	-	VNF	VNF	_	2	dep	_	_	404.00	404.71	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-202
+# text = cool
+1	cool	cool	ADJ	ADJ	_	0	ROOT	_	_	405.05	405.20	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-203
+# text = tu ah
+1	tu	tu	CLS	CLS	_	0	ROOT	_	_	405.44	406.24	L1
+2	ah	ah	INT	INT	_	1	disflink	_	_	406.79	407.06	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-204
+# text = ouais tu
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	407.82	408.43	L1
+2	tu	tu	CLS	CLS	_	1	disflink	_	_	408.44	408.49	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-205
+# text = ben je croyais qu'elle venait à
+1	ben	ben	INT	INT	_	3	dm	_	_	414.54	414.68	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	414.69	414.77	L2
+3	croyais	croire	VRB	VRB	_	0	ROOT	_	_	414.78	415.05	L2
+4	qu'	que	CSU	CSU	_	3	dep	_	_	415.06	415.08	L2
+5	elle	il	CLS	CLS	_	6	subj	_	_	415.09	415.23	L2
+6	venait	venir	VRB	VRB	_	4	dep	_	_	415.24	415.59	L2
+7	à	à	PRE	PRE	_	6	disflink	_	_	415.63	416.01	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-206
+# text = ben ouais mais c'est à qui m'a
+1	ben	ben	INT	INT	_	5	dm	_	_	416.39	416.48	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	416.49	416.80	L1
+3	mais	mais	COO	COO	_	5	mark	_	_	416.81	416.96	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	416.97	417.01	L1
+5	est	être	VRB	VRB	_	0	ROOT	_	_	417.02	417.32	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	417.40	417.42	L1
+7	qui	_	PRQ	PRQ	_	6	disflink	_	_	417.43	417.51	L1
+8	m'	me	CLI	CLI	_	7	disflink	_	_	417.52	417.54	L1
+9	a	avoir	VRB	VRB	_	8	disflink	_	_	417.55	417.64	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-207
+# text = ah tiens j'ai vu la NNAAMMEE au Leclerc
+1	ah	ah	INT	INT	_	5	dm	_	_	417.68	417.75	L1
+2	tiens	tiens	VRB	VRB	_	1	dm	_	_	417.76	417.98	L1
+3	j'	je	CLS	CLS	_	5	subj	_	_	417.99	418.06	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	418.07	418.12	L1
+5	vu	voir	VPP	VPP	_	0	ROOT	_	_	418.13	418.18	L1
+6	la	le	DET	DET	_	7	spe	_	_	418.19	418.24	L1
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	5	dep	_	_	418.25	418.42	L1
+8	au	à	PRE	PRE	_	5	dep	_	_	418.75	418.78	L1
+9	Leclerc	_	NOM	NOM	_	8	dep	_	_	418.79	419.02	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-208
+# text = ah ouais
+1	ah	ah	INT	INT	_	2	dm	_	_	419.63	419.76	L2
+2	ouais	ouais	INT	INT	_	0	ROOT	_	_	419.77	419.82	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-209
+# text = euh dimanche
+1	euh	euh	INT	INT	_	2	disflink	_	_	420.46	420.48	L1
+2	dimanche	dimanche	NOM	NOM	_	0	ROOT	_	_	420.49	420.63	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-210
+# text = elle travaille le dimanche
+1	elle	il	CLS	CLS	_	2	subj	_	_	420.71	420.80	L2
+2	travaille	travailler	VRB	VRB	_	0	ROOT	_	_	420.81	421.24	L2
+3	le	le	DET	DET	_	4	spe	_	_	421.25	421.28	L2
+4	dimanche	dimanche	NOM	NOM	_	2	dep	_	_	421.29	421.87	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-211
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	421.93	422.04	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-212
+# text = oh là là et la NNAAMMEE ils travaillent
+1	oh#là#là	oh là là	INT	INT	_	6	dm	_	_	422.55	422.89	L2
+2	et	et	COO	COO	_	6	mark	_	_	423.05	423.07	L2
+3	la	le	ADV	ADV	_	6	periph	_	_	423.08	423.15	L2
+4	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	periph	_	_	423.16	423.35	L2
+5	ils	il	CLS	CLS	_	6	subj	_	_	423.70	423.75	L2
+6	travaillent	travailler	VRB	VRB	_	0	ROOT	_	_	423.98	424.22	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-213
+# text = ils travaillent
+1	ils	il	CLS	CLS	_	2	subj	_	_	424.32	424.37	L1
+2	travaillent	travailler	VRB	VRB	_	0	ROOT	_	_	424.38	424.59	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-214
+# text = non ils travaillent en opposé
+1	non	non	INT	INT	_	3	dm	_	_	424.60	424.71	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	424.72	424.84	L1
+3	travaillent	travailler	VRB	VRB	_	0	ROOT	_	_	424.85	425.13	L1
+4	en	en	PRE	PRE	_	3	dep	_	_	425.14	425.20	L1
+5	opposé	opposé	NOM	NOM	_	4	dep	_	_	425.21	425.63	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-215
+# text = ah d'accord
+1	ah	ah	INT	INT	_	2	dm	_	_	426.03	426.05	L2
+2	d'	de	PRE	PRE	_	0	ROOT	_	_	426.19	426.22	L2
+3	accord	accord	NOM	NOM	_	2	dep	_	_	426.23	426.34	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-216
+# text = quand il y a la NNAAMMEE il y a pas la NNAAMMEE
+1	quand	quand	CSU	CSU	_	9	dep	_	_	427.02	427.11	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	427.12	427.17	L1
+3	y	y	CLI	CLI	_	4	aff	_	_	427.18	427.20	L1
+4	a	avoir	VRB	VRB	_	1	dep	_	_	427.21	427.23	L1
+5	la	le	DET	DET	_	6	spe	_	_	427.24	427.29	L1
+6	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	dep	_	_	427.30	427.47	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	427.70	427.75	L1
+8	y	y	CLI	CLI	_	9	aff	_	_	427.76	427.78	L1
+9	a	avoir	VRB	VRB	_	0	ROOT	_	_	427.79	427.81	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	427.88	427.95	L1
+11	la	le	DET	DET	_	12	spe	_	_	427.96	428.06	L1
+12	NNAAMMEE	NNAAMMEE	NOM	NOM	_	9	dep	_	_	428.63	428.97	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-217
+# text = O K ah c'est bête
+1	O	_	X	X	_	5	dm	_	_	429.16	429.18	L2
+2	K	_	X	X	_	1	dep	_	_	429.26	429.31	L2
+3	ah	ah	INT	INT	_	5	dm	_	_	429.58	429.71	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	429.72	429.77	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	429.78	429.84	L2
+6	bête	bête	ADJ	ADJ	_	5	dep	_	_	429.85	429.97	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-218
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	430.49	430.66	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-219
+# text = pour eux quoi
+1	pour	pour	PRE	PRE	_	0	ROOT	_	_	431.63	431.81	L2
+2	eux	moi	PRO	PRO	_	1	dep	_	_	431.82	431.94	L2
+3	quoi	_	PRQ	PRQ	_	2	dm	_	_	431.95	432.07	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-220
+# text = oui c'est bon
+1	oui	oui	INT	INT	_	3	dm	_	_	435.36	435.41	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	435.42	435.44	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	435.45	435.79	L1
+4	bon	bon	ADJ	ADJ	_	3	dep	_	_	435.80	436.00	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-221
+# text = elle a rien mis
+1	elle	il	CLS	CLS	_	4	subj	_	_	436.01	436.07	L1
+2	a	avoir	VRB	VRB	_	4	aux	_	_	436.08	436.18	L1
+3	rien	rien	PRO	PRO	_	4	dep	_	_	436.19	436.38	L1
+4	mis	mettre	VPP	VPP	_	0	ROOT	_	_	436.39	436.52	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-222
+# text = oui et c'est
+1	oui	oui	INT	INT	_	4	dm	_	_	436.60	436.75	L2
+2	et	et	COO	COO	_	4	mark	_	_	436.79	436.97	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	437.59	437.61	L2
+4	est	être	VRB	VRB	_	0	ROOT	_	_	437.74	437.87	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-223
+# text = est -ce que tu peux demander si elle a eu des annales de chimie thérapeutique et si mercredi elle peut me ramener euh le la partie euh sur les pénicillines des grou~ du groupe trois les carboxy euh
+1	est#-ce#que	est -ce que	CSU	CSU	_	3	dep	_	_	437.93	438.74	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	438.75	438.88	L2
+3	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	438.96	439.19	L2
+4	demander	demander	VNF	VNF	_	3	dep	_	_	439.58	439.99	L2
+5	si	si	CSU	CSU	_	4	dep	_	_	440.03	440.12	L2
+6	elle	il	CLS	CLS	_	8	subj	_	_	440.13	440.24	L2
+7	a	avoir	VRB	VRB	_	8	aux	_	_	440.25	440.29	L2
+8	eu	-	VPP	VPP	_	5	dep	_	_	440.30	440.39	L2
+9	des	de	PRE	PRE	_	8	dep	_	_	440.40	440.49	L2
+10	annales	annale	NOM	NOM	_	9	dep	_	_	440.50	440.73	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	440.82	440.93	L2
+12	chimie	chimie	NOM	NOM	_	11	dep	_	_	441.02	441.28	L2
+13	thérapeutique	thérapeutique	ADJ	ADJ	_	12	dep	_	_	441.29	441.61	L2
+14	et	et	COO	COO	_	15	mark	_	_	450.62	450.88	L2
+15	si	si	CSU	CSU	_	5	para	_	_	450.89	450.96	L2
+16	mercredi	mercredi	NOM	NOM	_	18	dep	_	_	450.97	451.55	L2
+17	elle	il	CLS	CLS	_	18	subj	_	_	451.56	451.70	L2
+18	peut	pouvoir	VRB	VRB	_	15	dep	_	_	451.71	451.84	L2
+19	me	me	CLI	CLI	_	20	dep	_	_	451.85	451.88	L2
+20	ramener	ramener	VNF	VNF	_	18	dep	_	_	451.89	452.57	L2
+21	euh	euh	INT	INT	_	20	disflink	_	_	453.22	453.26	L2
+22	le	le	DET	DET	_	21	disflink	_	_	453.27	453.95	L2
+23	la	le	DET	DET	_	24	spe	_	_	453.96	454.16	L2
+24	partie	partie	NOM	NOM	_	20	dep	_	_	454.17	454.75	L2
+25	euh	euh	INT	INT	_	24	disflink	_	_	454.76	454.78	L2
+26	sur	sur	PRE	PRE	_	24	dep	_	_	454.83	455.05	L2
+27	les	le	DET	DET	_	28	spe	_	_	455.11	455.26	L2
+28	pénicillines	pénicilline	NOM	NOM	_	26	dep	_	_	455.27	455.83	L2
+29	des	de	PRE	PRE	_	28	disflink	_	_	455.89	456.06	L2
+30	grou~	_	NOM	NOM	_	29	disflink	_	_	456.07	456.30	L2
+31	du	_	PRE	PRE	_	28	dep	_	_	456.54	456.66	L2
+32	groupe	groupe	NOM	NOM	_	31	dep	_	_	456.67	456.97	L2
+33	trois	_	NUM	NUM	_	32	dep	_	_	456.98	457.40	L2
+34	les	le	DET	DET	_	35	spe	_	_	457.89	458.14	L2
+35	carboxy	_	NOM	NOM	_	28	para	_	_	458.15	458.93	L2
+36	euh	euh	INT	INT	_	35	disflink	_	_	458.94	459.32	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-224
+# text = attends attends attends mercredi tu pourrais me ramener les quoi les pénicillines
+1	attends	attendre	VRB	VRB	_	6	dm	_	_	460.08	460.64	L1
+2	attends	attendre	VRB	VRB	_	6	dm	_	_	460.65	461.09	L1
+3	attends	attendre	VRB	VRB	_	6	dm	_	_	461.10	461.32	L1
+4	mercredi	mercredi	NOM	NOM	_	6	periph	_	_	461.84	462.35	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	462.36	462.51	L1
+6	pourrais	pouvoir	VRB	VRB	_	0	ROOT	_	_	462.63	462.83	L1
+7	me	me	CLI	CLI	_	8	dep	_	_	462.84	462.95	L1
+8	ramener	ramener	VNF	VNF	_	6	dep	_	_	462.96	463.32	L1
+9	les	le	DET	DET	_	10	spe	_	_	463.33	463.39	L1
+10	quoi	quoi	INT	INT	_	8	dep	_	_	463.40	463.69	L1
+11	les	le	DET	DET	_	12	spe	_	_	464.22	464.38	L1
+12	pénicillines	pénicilline	NOM	NOM	_	10	para	_	_	464.39	465.13	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-225
+# text = le la par~ l~
+1	le	le	DET	DET	_	0	ROOT	_	_	465.28	465.33	L2
+2	la	le	DET	DET	_	1	disflink	_	_	465.34	465.50	L2
+3	par~	_	NOM	NOM	_	2	disflink	_	_	465.51	465.91	L2
+4	l~	_	X	X	_	3	disflink	_	_	465.97	466.36	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-226
+# text = le cours
+1	le	le	DET	DET	_	2	spe	_	_	466.37	466.43	L2
+2	cours	cour	NOM	NOM	_	0	ROOT	_	_	466.49	466.94	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-227
+# text = le cours
+1	le	le	DET	DET	_	2	spe	_	_	467.40	467.58	L1
+2	cours	cour	NOM	NOM	_	0	ROOT	_	_	467.65	467.97	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-228
+# text = sur les pénicillines du groupe
+1	sur	sur	PRE	PRE	_	0	ROOT	_	_	468.20	468.28	L2
+2	les	le	DET	DET	_	3	spe	_	_	468.29	468.41	L2
+3	pénicillines	pénicilline	NOM	NOM	_	1	dep	_	_	468.42	469.07	L2
+4	du	_	PRE	PRE	_	3	dep	_	_	469.08	469.15	L2
+5	groupe	groupe	NOM	NOM	_	4	dep	_	_	469.16	469.27	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-229
+# text = sur
+1	sur	sur	PRE	PRE	_	0	ROOT	_	_	469.39	469.51	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-230
+# text = trois
+1	trois	_	NUM	NUM	_	0	ROOT	_	_	469.58	469.90	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-231
+# text = les pénicillines du groupe trois
+1	les	le	DET	DET	_	2	spe	_	_	472.02	472.16	L1
+2	pénicillines	pénicilline	NOM	NOM	_	0	ROOT	_	_	472.17	472.70	L1
+3	du	_	PRE	PRE	_	2	dep	_	_	472.94	473.03	L1
+4	groupe	groupe	NOM	NOM	_	3	dep	_	_	473.04	473.25	L1
+5	trois	_	NUM	NUM	_	4	dep	_	_	473.31	473.63	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-232
+# text = sur la partie quoi
+1	sur	sur	PRE	PRE	_	0	ROOT	_	_	473.73	473.85	L1
+2	la	le	DET	DET	_	3	spe	_	_	473.86	474.00	L1
+3	partie	partie	NOM	NOM	_	1	dep	_	_	474.01	474.26	L1
+4	quoi	quoi	INT	INT	_	3	dm	_	_	474.31	474.45	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-233
+# text = non euh entre parenthèses tu mets carboxy benzyl pénicilline
+1	non	non	INT	INT	_	6	dm	_	_	475.00	475.07	L2
+2	euh	euh	INT	INT	_	1	disflink	_	_	475.32	475.57	L2
+3	entre	entre	PRE	PRE	_	6	periph	_	_	475.91	476.20	L2
+4	parenthèses	parenthèse	NOM	NOM	_	3	dep	_	_	476.21	476.59	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	476.60	476.75	L2
+6	mets	mettre	VRB	VRB	_	0	ROOT	_	_	476.76	476.92	L2
+7	carboxy	_	X	X	_	9	dep	_	_	476.93	477.51	L2
+8	benzyl	_	X	X	_	9	dep	_	_	477.52	478.00	L2
+9	pénicilline	pénicilline	NOM	NOM	_	6	dep	_	_	478.01	478.68	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-234
+# text = attends caroboxy benzym
+1	attends	attendre	VRB	VRB	_	2	periph	_	_	478.98	479.10	L1
+2	caroboxy	_	X	X	_	0	ROOT	_	_	479.46	480.11	L1
+3	benzym	_	X	X	_	2	dep	_	_	480.58	481.43	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-235
+# text = benzyl Y L pénicilline
+1	benzyl	_	ADJ	ADJ	_	4	dep	_	_	482.01	482.43	L2
+2	Y	Y	X	X	_	1	disflink	_	_	482.50	483.05	L2
+3	L	_	X	X	_	2	disflink	_	_	483.06	483.12	L2
+4	pénicilline	pénicilline	NOM	NOM	_	0	ROOT	_	_	483.74	484.39	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-236
+# text = pénicilline waouh il faut que je le rappelle
+1	pénicilline	pénicilline	NOM	NOM	_	4	periph	_	_	485.30	486.50	L1
+2	waouh	_	INT	INT	_	1	dm	_	_	488.31	488.66	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	490.78	490.91	L1
+4	faut	faillir	VRB	VRB	_	0	ROOT	_	_	490.92	491.04	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	491.05	491.18	L1
+6	je	je	CLS	CLS	_	8	subj	_	_	491.19	491.25	L1
+7	le	le	CLI	CLI	_	8	dep	_	_	491.26	491.38	L1
+8	rappelle	rappeler	VRB	VRB	_	5	dep	_	_	491.39	491.72	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-237
+# text = oui ben tu regarderas après
+1	oui	oui	INT	INT	_	4	dm	_	_	491.73	491.96	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	491.97	492.11	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	492.12	492.22	L1
+4	regarderas	regarder	VRB	VRB	_	0	ROOT	_	_	492.23	492.82	L1
+5	après	après	PRE	PRE	_	4	dep	_	_	492.83	493.01	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-238
+# text = tu lui parleras après hein
+1	tu	tu	CLS	CLS	_	3	subj	_	_	493.02	493.13	L1
+2	lui	lui	CLI	CLI	_	3	dep	_	_	493.14	493.22	L1
+3	parleras	parler	VRB	VRB	_	0	ROOT	_	_	493.23	493.66	L1
+4	après	après	PRE	PRE	_	3	dep	_	_	493.84	493.96	L1
+5	hein	hein	INT	INT	_	4	dm	_	_	493.97	493.99	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-239
+# text = et euh elle remonte à NNAAMMEE en Lorraine
+1	et	et	COO	COO	_	4	mark	_	_	494.58	494.80	L2
+2	euh	euh	INT	INT	_	1	disflink	_	_	494.81	494.99	L2
+3	elle	il	CLS	CLS	_	4	subj	_	_	495.91	495.96	L1
+4	remonte	remonter	VRB	VRB	_	0	ROOT	_	_	495.97	496.08	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	496.09	496.11	L1
+6	NNAAMMEE	NNAAMMEE	NOM	NOM	_	5	dep	_	_	496.12	496.29	L1
+7	en	en	PRE	PRE	_	4	dep	_	_	496.30	496.32	L1
+8	Lorraine	Lorraine	NOM	NOM	_	7	dep	_	_	496.33	496.48	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-240
+# text = elle remontera en Lorraine
+1	elle	il	CLS	CLS	_	2	subj	_	_	496.77	496.82	L1
+2	remontera	remonter	VRB	VRB	_	0	ROOT	_	_	496.83	497.02	L1
+3	en	en	PRE	PRE	_	2	dep	_	_	497.11	497.13	L1
+4	Lorraine	Lorraine	NOM	NOM	_	3	dep	_	_	497.78	497.92	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-241
+# text = ah d'accord c'est cool
+1	ah	ah	INT	INT	_	5	dm	_	_	497.98	498.17	L2
+2	d'	de	PRE	PRE	_	5	periph	_	_	498.18	498.20	L2
+3	accord	accord	NOM	NOM	_	2	dep	_	_	498.25	498.38	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	498.39	498.41	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	498.73	498.81	L2
+6	cool	cool	ADJ	ADJ	_	5	dep	_	_	498.82	498.96	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-242
+# text = tu entends le bruit qu'on entend là en bas
+1	tu	tu	CLS	CLS	_	2	subj	_	_	515.05	515.10	L1
+2	entends	entendre	VRB	VRB	_	0	ROOT	_	_	515.11	515.33	L1
+3	le	le	DET	DET	_	4	spe	_	_	515.34	515.40	L1
+4	bruit	bruit	NOM	NOM	_	2	dep	_	_	515.41	515.60	L1
+5	qu'	que	PRQ	PRQ	_	7	dep	_	_	515.61	515.65	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	515.69	515.77	L1
+7	entend	entendre	VRB	VRB	_	4	dep	_	_	515.78	516.03	L1
+8	là	là	ADV	ADV	_	7	periph	_	_	516.04	516.09	L1
+9	en#bas	en bas	ADV	ADV	_	7	dep	_	_	516.10	516.33	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-243
+# text = ouais c'est euh c'est quoi d'ailleurs
+1	ouais	ouais	INT	INT	_	6	dm	_	_	516.73	516.84	L2
+2	c'	ce	CLS	CLS	_	6	parenth	_	_	517.48	517.50	L2
+3	est	être	VRB	VRB	_	2	disflink	_	_	517.75	518.25	L2
+4	euh	euh	INT	INT	_	3	disflink	_	_	518.26	518.30	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	518.82	518.84	L2
+6	est	être	VRB	VRB	_	0	ROOT	_	_	518.85	518.94	L2
+7	quoi	_	PRQ	PRQ	_	6	dep	_	_	518.95	519.10	L2
+8	d'	de	PRE	PRE	_	6	periph	_	_	519.11	519.17	L2
+9	ailleurs	ailleurs	ADV	ADV	_	8	dep	_	_	519.18	519.46	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-244
+# text = le b~
+1	le	le	DET	DET	_	0	ROOT	_	_	519.47	519.49	L2
+2	b~	_	X	X	_	1	disflink	_	_	519.62	519.78	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-245
+# text = le baby
+1	le	le	DET	DET	_	0	ROOT	_	_	519.87	520.02	L2
+2	baby	baby	NOM	NOM	_	1	disflink	_	_	520.03	520.25	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-246
+# text = le babyfoot qui fait ça
+1	le	le	DET	DET	_	2	spe	_	_	522.02	522.11	L2
+2	babyfoot	_	NOM	NOM	_	0	ROOT	_	_	522.12	522.59	L2
+3	qui	_	PRQ	PRQ	_	4	subj	_	_	523.69	523.82	L2
+4	fait	faire	VRB	VRB	_	2	dep	_	_	523.83	523.92	L2
+5	ça	ça	PRO	PRO	_	4	dep	_	_	523.98	524.15	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-247
+# text = ben si
+1	ben	ben	INT	INT	_	2	dm	_	_	525.09	525.14	L2
+2	si	si	ADV	ADV	_	0	ROOT	_	_	525.33	525.41	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-248
+# text = mais oui c'est le babyfoot
+1	mais	mais	COO	COO	_	4	mark	_	_	525.80	526.02	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	526.03	526.08	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	526.09	526.11	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	526.12	526.16	L1
+5	le	le	DET	DET	_	6	spe	_	_	526.17	526.37	L1
+6	babyfoot	_	NOM	NOM	_	4	dep	_	_	526.38	526.68	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-249
+# text = tu le sais quoi
+1	tu	tu	CLS	CLS	_	3	subj	_	_	526.88	526.93	L1
+2	le	le	CLI	CLI	_	3	dep	_	_	526.94	526.96	L1
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	527.13	527.18	L1
+4	quoi	quoi	INT	INT	_	3	dm	_	_	527.26	527.34	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-250
+# text = ben tu le tu ramèneras les cours sur la pénicilline
+1	ben	ben	INT	INT	_	5	dm	_	_	528.14	528.35	L2
+2	tu	tu	CLS	CLS	_	5	parenth	_	_	528.36	528.41	L2
+3	le	le	CLI	CLI	_	2	disflink	_	_	528.42	528.54	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	528.66	528.71	L1
+5	ramèneras	ramener	VRB	VRB	_	0	ROOT	_	_	528.72	529.20	L1
+6	les	le	DET	DET	_	7	spe	_	_	529.21	529.27	L1
+7	cours	cour	NOM	NOM	_	5	dep	_	_	529.28	529.46	L1
+8	sur	sur	PRE	PRE	_	7	dep	_	_	529.84	529.94	L1
+9	la	le	DET	DET	_	10	spe	_	_	529.95	530.01	L1
+10	pénicilline	pénicilline	NOM	NOM	_	8	dep	_	_	530.07	530.50	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-251
+# text = oui elle te rapportera le cours sur tes trucs
+1	oui	oui	INT	INT	_	4	dm	_	_	530.66	530.72	L1
+2	elle	il	CLS	CLS	_	4	subj	_	_	530.73	531.09	L1
+3	te	te	CLI	CLI	_	4	dep	_	_	531.10	531.18	L1
+4	rapportera	rapporter	VRB	VRB	_	0	ROOT	_	_	531.19	531.67	L1
+5	le	le	DET	DET	_	6	spe	_	_	531.68	531.70	L1
+6	cours	cour	NOM	NOM	_	4	dep	_	_	531.88	532.01	L1
+7	sur	sur	PRE	PRE	_	6	dep	_	_	532.08	532.19	L1
+8	tes	son	DET	DET	_	9	spe	_	_	532.28	532.42	L1
+9	trucs	truc	NOM	NOM	_	7	dep	_	_	532.49	532.63	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-252
+# text = merci beaucoup NNAAMMEE
+1	merci	merci	NOM	NOM	_	0	ROOT	_	_	533.72	533.96	L2
+2	beaucoup	beaucoup	ADV	ADV	_	1	dep	_	_	534.04	534.24	L2
+3	NNAAMMEE	NNAAMMEE	NOM	NOM	_	1	periph	_	_	534.25	534.45	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-253
+# text = ah en fait ton frère il m'a racheté un cadeau de Noël hein
+1	ah	ah	INT	INT	_	8	dm	_	_	535.43	535.46	L2
+2	en#fait	en fait	ADV	ADV	_	1	dm	_	_	539.25	539.55	L2
+3	ton	son	DET	DET	_	4	spe	_	_	539.56	539.63	L2
+4	frère	frère	NOM	NOM	_	8	periph	_	_	539.64	539.82	L2
+5	il	il	CLS	CLS	_	8	subj	_	_	540.07	540.26	L2
+6	m'	me	CLI	CLI	_	8	dep	_	_	540.27	540.30	L2
+7	a	avoir	VRB	VRB	_	8	aux	_	_	540.31	540.33	L2
+8	racheté	racheter	VPP	VPP	_	0	ROOT	_	_	540.34	540.63	L2
+9	un	un	DET	DET	_	10	spe	_	_	540.76	540.86	L2
+10	cadeau	cadeau	NOM	NOM	_	8	dep	_	_	540.87	540.99	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	541.00	541.02	L2
+12	Noël	noël	NOM	NOM	_	11	dep	_	_	541.03	541.20	L2
+13	hein	hein	INT	INT	_	12	dm	_	_	542.74	542.91	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-254
+# text = je sais pas moi
+1	je	je	CLS	CLS	_	2	subj	_	_	543.72	543.81	L1
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	543.82	544.04	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	544.05	544.11	L1
+4	moi	moi	PRO	PRO	_	2	periph	_	_	544.12	544.36	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-255
+# text = ben si si tu veux pas que je sois pas quand téléphone
+1	ben	ben	INT	INT	_	3	dm	_	_	545.05	545.26	L2
+2	si	si	ADV	ADV	_	1	disflink	_	_	545.33	545.51	L2
+3	si	si	CSU	CSU	_	0	ROOT	_	_	545.52	545.62	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	545.69	545.78	L2
+5	veux	vouloir	VRB	VRB	_	3	dep	_	_	545.79	545.92	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	545.93	546.11	L2
+7	que	que	CSU	CSU	_	5	dep	_	_	546.12	546.26	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	546.27	546.39	L2
+9	sois	être	VRB	VRB	_	7	dep	_	_	546.40	546.53	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	546.54	546.66	L2
+11	quand	quand	CSU	CSU	_	9	dep	_	_	546.67	546.78	L2
+12	téléphone	téléphone	NOM	NOM	_	11	disflink	_	_	546.79	547.01	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-256
+# text = il faut qu'on fasse les les qu'on regarde euh qui combien que je te dois
+1	il	il	CLS	CLS	_	2	subj	_	_	547.07	547.65	L1
+2	faut	faillir	VRB	VRB	_	0	ROOT	_	_	547.83	547.92	L1
+3	qu'	que	CSU	CSU	_	2	dep	_	_	548.95	548.97	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	549.25	549.54	L1
+5	fasse	faire	VRB	VRB	_	3	dep	_	_	549.55	549.71	L1
+6	les	le	DET	DET	_	5	disflink	_	_	549.81	550.43	L1
+7	les	le	DET	DET	_	6	disflink	_	_	550.44	550.62	L1
+8	qu'	que	CSU	CSU	_	3	para	_	_	550.68	550.70	L1
+9	on	on	CLS	CLS	_	10	subj	_	_	550.71	550.84	L1
+10	regarde	regarder	VRB	VRB	_	8	dep	_	_	550.85	551.58	L1
+11	euh	euh	INT	INT	_	10	disflink	_	_	551.63	551.65	L1
+12	qui	_	PRQ	PRQ	_	10	dep	_	_	551.85	552.11	L1
+13	combien	combien	PRQ	PRQ	_	12	para	_	_	552.12	552.49	L1
+14	que	que	PRQ	PRQ	_	13	dep	_	_	552.50	552.52	L1
+15	je	je	CLS	CLS	_	17	subj	_	_	552.64	552.66	L1
+16	te	te	CLI	CLI	_	17	dep	_	_	552.67	552.78	L1
+17	dois	devoir	VRB	VRB	_	14	dep	_	_	552.79	552.99	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-257
+# text = et combien que tu me dois
+1	et	et	COO	COO	_	2	mark	_	_	553.00	553.07	L1
+2	combien	combien	PRQ	PRQ	_	0	ROOT	_	_	553.08	553.26	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	553.27	553.34	L1
+4	tu	tu	CLS	CLS	_	6	subj	_	_	553.45	553.51	L1
+5	me	me	CLI	CLI	_	6	dep	_	_	553.52	553.54	L1
+6	dois	devoir	VRB	VRB	_	3	dep	_	_	553.55	553.75	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-258
+# text = ouais les bons comptes font les bons amis
+1	ouais	ouais	INT	INT	_	5	dm	_	_	555.17	555.22	L2
+2	les	le	DET	DET	_	4	spe	_	_	555.23	555.28	L2
+3	bons	bon	ADJ	ADJ	_	4	dep	_	_	555.29	555.40	L2
+4	comptes	compte	NOM	NOM	_	5	subj	_	_	555.41	555.56	L2
+5	font	faire	VRB	VRB	_	0	ROOT	_	_	555.68	555.75	L2
+6	les	le	DET	DET	_	8	spe	_	_	555.76	555.82	L2
+7	bons	bon	NOM	NOM	_	8	dep	_	_	556.00	556.15	L2
+8	amis	ami	ADJ	ADJ	_	5	dep	_	_	556.16	556.84	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-259
+# text = ouais alors tu m'as donné soixante pour mes parents
+1	ouais	ouais	INT	INT	_	6	dm	_	_	557.19	557.35	L1
+2	alors	alors	ADV	ADV	_	6	periph	_	_	561.11	561.65	L1
+3	tu	tu	CLS	CLS	_	6	subj	_	_	561.66	561.71	L1
+4	m'	me	CLI	CLI	_	6	dep	_	_	561.72	561.75	L1
+5	as	avoir	VRB	VRB	_	6	aux	_	_	561.76	561.85	L1
+6	donné	donner	VPP	VPP	_	0	ROOT	_	_	562.12	562.35	L1
+7	soixante	_	NUM	NUM	_	6	dep	_	_	565.31	565.71	L1
+8	pour	pour	PRE	PRE	_	6	dep	_	_	565.72	565.93	L1
+9	mes	son	DET	DET	_	10	spe	_	_	565.94	566.05	L1
+10	parents	parent	NOM	NOM	_	8	dep	_	_	566.06	566.40	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-260
+# text = ouais faut que tu rajoutes dix
+1	ouais	ouais	INT	INT	_	2	dm	_	_	567.16	567.30	L2
+2	faut	faillir	VRB	VRB	_	0	ROOT	_	_	567.41	567.46	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	567.47	567.50	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	567.51	567.62	L2
+5	rajoutes	rajouter	VRB	VRB	_	3	dep	_	_	567.63	567.89	L2
+6	dix	_	NUM	NUM	_	5	dep	_	_	567.90	568.20	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-261
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	570.69	571.25	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-262
+# text = et dix
+1	et	et	COO	COO	_	2	mark	_	_	571.51	571.65	L2
+2	dix	_	NUM	NUM	_	0	ROOT	_	_	571.74	571.82	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-263
+# text = oui ch~ on peut rien se devoir puisqu'on n'a rien acheté encore
+1	oui	oui	INT	INT	_	4	dm	_	_	573.19	573.38	L1
+2	ch~	_	NOM	NOM	_	1	disflink	_	_	573.39	573.58	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	573.59	573.78	L1
+4	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	573.79	573.91	L1
+5	rien	rien	PRO	PRO	_	7	dep	_	_	573.92	574.24	L1
+6	se	se	CLI	CLI	_	7	aff	_	_	574.25	574.27	L1
+7	devoir	devoir	VNF	VNF	_	4	dep	_	_	574.31	574.59	L1
+8	puisqu'	puisque	CSU	CSU	_	4	dep	_	_	574.60	574.78	L1
+9	on	on	CLS	CLS	_	13	subj	_	_	574.84	574.90	L1
+10	n'	ne	CLN	CLN	_	13	dep	_	_	574.91	574.93	L1
+11	a	avoir	VRB	VRB	_	13	aux	_	_	574.94	574.97	L1
+12	rien	rien	PRO	PRO	_	13	dep	_	_	574.98	575.22	L1
+13	acheté	acheter	VPP	VPP	_	8	dep	_	_	575.23	575.48	L1
+14	encore	encore	ADV	ADV	_	13	dep	_	_	575.49	575.72	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-264
+# text = mais si mais oui mais moi je dois
+1	mais	mais	COO	COO	_	8	mark	_	_	576.07	576.31	L2
+2	si	si	ADV	ADV	_	1	dm	_	_	577.20	577.25	L2
+3	mais	mais	COO	COO	_	1	para	_	_	577.67	577.90	L2
+4	oui	oui	INT	INT	_	3	dm	_	_	577.91	578.21	L2
+5	mais	mais	COO	COO	_	3	para	_	_	578.22	578.39	L2
+6	moi	moi	PRO	PRO	_	8	periph	_	_	578.40	578.54	L2
+7	je	je	CLS	CLS	_	8	subj	_	_	578.55	578.67	L2
+8	dois	devoir	VRB	VRB	_	0	ROOT	_	_	578.68	578.89	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-265
+# text = ton frère il doit me rembourser la moitié
+1	ton	son	DET	DET	_	2	spe	_	_	579.07	579.24	L2
+2	frère	frère	NOM	NOM	_	4	periph	_	_	579.25	579.51	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	579.59	579.65	L2
+4	doit	devoir	VRB	VRB	_	0	ROOT	_	_	579.66	579.81	L2
+5	me	me	CLI	CLI	_	6	dep	_	_	579.82	579.89	L2
+6	rembourser	rembourser	VNF	VNF	_	4	dep	_	_	579.90	580.32	L2
+7	la	le	DET	DET	_	8	spe	_	_	580.33	580.43	L2
+8	moitié	moitié	NOM	NOM	_	6	dep	_	_	580.44	580.74	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-266
+# text = parce que en fait non
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	580.80	580.94	L1
+2	en#fait	en fait	ADV	ADV	_	1	disflink	_	_	580.95	581.17	L1
+3	non	non	INT	INT	_	2	subj	_	_	582.44	582.65	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-267
+# text = mais on verra ça demain en fait quand on aura acheté
+1	mais	mais	COO	COO	_	3	mark	_	_	582.66	582.73	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	582.74	582.81	L1
+3	verra	voir	VRB	VRB	_	0	ROOT	_	_	582.82	583.09	L1
+4	ça	ça	PRO	PRO	_	3	dep	_	_	583.19	583.27	L1
+5	demain	demain	ADV	ADV	_	3	dep	_	_	583.28	583.37	L1
+6	en#fait	en fait	ADV	ADV	_	5	dm	_	_	583.38	583.47	L1
+7	quand	quand	CSU	CSU	_	3	dep	_	_	583.48	583.54	L1
+8	on	on	CLS	CLS	_	10	subj	_	_	583.55	583.58	L1
+9	aura	avoir	VRB	VRB	_	10	aux	_	_	583.59	583.69	L1
+10	acheté	acheter	VPP	VPP	_	7	dep	_	_	583.84	583.95	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-268
+# text = quand on les les achats
+1	quand	quand	CSU	CSU	_	0	ROOT	_	_	584.34	584.44	L2
+2	on	on	CLS	CLS	_	1	parenth	_	_	584.48	584.61	L2
+3	les	le	CLI	CLI	_	2	disflink	_	_	584.62	584.69	L2
+4	les	le	DET	DET	_	5	spe	_	_	584.70	584.82	L2
+5	achats	achat	NOM	NOM	_	1	dep	_	_	584.92	585.29	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-269
+# text = oui mais demain on ira pas encore
+1	oui	oui	INT	INT	_	5	dm	_	_	585.30	585.47	L2
+2	mais	mais	COO	COO	_	5	mark	_	_	585.63	585.87	L2
+3	demain	demain	ADV	ADV	_	5	dep	_	_	586.12	586.53	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	586.54	586.72	L2
+5	ira	aller	VRB	VRB	_	0	ROOT	_	_	586.73	586.92	L2
+6	pas#encore	pas encore	ADV	ADV	_	5	dep	_	_	586.93	587.26	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-270
+# text = et pourquoi
+1	et	et	COO	COO	_	2	mark	_	_	587.93	587.95	L1
+2	pourquoi	pourquoi	PRQ	PRQ	_	0	ROOT	_	_	587.96	588.20	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-271
+# text = parce que
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	589.18	589.37	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-272
+# text = eh ben on ira quand jeudi
+1	eh#ben	eh ben	INT	INT	_	3	dm	_	_	589.75	589.86	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	589.87	590.02	L1
+3	ira	aller	VRB	VRB	_	0	ROOT	_	_	590.03	590.19	L1
+4	quand	quand	CSU	CSU	_	3	dep	_	_	590.20	590.34	L1
+5	jeudi	jeudi	NOM	NOM	_	4	para	_	_	590.43	590.81	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-273
+# text = jeudi il y a NNAAMMEE
+1	jeudi	jeudi	NOM	NOM	_	4	periph	_	_	591.44	591.64	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	591.65	591.69	L2
+3	y	y	CLI	CLI	_	4	aff	_	_	591.70	591.87	L2
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	591.88	591.93	L2
+5	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	dep	_	_	592.61	592.78	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-274
+# text = elle est déjà là l'aprem
+1	elle	il	CLS	CLS	_	2	subj	_	_	593.04	593.04	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	593.04	593.04	L1
+3	déjà	déjà	ADV	ADV	_	4	dep	_	_	593.04	593.04	L1
+4	là	là	ADV	ADV	_	2	dep	_	_	593.04	593.04	L1
+5	l'	le	DET	DET	_	6	spe	_	_	593.05	593.05	L1
+6	aprem	_	NOM	NOM	_	2	dep	_	_	593.05	593.05	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-275
+# text = non mais il y
+1	non	non	ADN	ADN	_	3	dm	_	_	593.05	593.05	L1
+2	mais	mais	COO	COO	_	3	mark	_	_	593.05	593.05	L1
+3	il	il	CLS	CLS	_	0	ROOT	_	_	593.05	593.05	L1
+4	y	y	CLI	CLI	_	3	disflink	_	_	593.05	593.05	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-276
+# text = la réunion l'aprem
+1	la	le	DET	DET	_	2	spe	_	_	594.81	594.86	L1
+2	réunion	réunion	NOM	NOM	_	0	ROOT	_	_	594.87	595.21	L1
+3	l'	le	DET	DET	_	4	spe	_	_	595.22	595.24	L1
+4	aprem	_	NOM	NOM	_	2	periph	_	_	595.25	595.59	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-277
+# text = non c'est
+1	non	non	ADN	ADN	_	3	periph	_	_	595.95	596.02	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	596.03	596.05	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	596.06	596.08	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-278
+# text = non
+1	non	non	ADN	ADN	_	0	ROOT	_	_	596.15	596.24	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-279
+# text = vendredi aprem
+1	vendredi	vendredi	NOM	NOM	_	0	ROOT	_	_	596.30	596.66	L2
+2	aprem	_	ADJ	ADJ	_	1	dep	_	_	596.67	596.99	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-280
+# text = eh ben jeudi moi j'ai pas cours
+1	eh#ben	eh ben	INT	INT	_	5	dm	_	_	598.22	598.61	L1
+2	jeudi	jeudi	NOM	NOM	_	5	periph	_	_	598.62	598.88	L1
+3	moi	moi	PRO	PRO	_	5	periph	_	_	598.99	599.15	L1
+4	j'	je	CLS	CLS	_	5	subj	_	_	599.16	599.28	L1
+5	ai	avoir	VRB	VRB	_	0	ROOT	_	_	599.29	599.37	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	599.38	599.54	L1
+7	cours	cour	NOM	NOM	_	5	dep	_	_	599.66	599.85	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-281
+# text = ah non jeudi j'ai rendez-vous chez le dentiste à NNAAMMEE chez moi
+1	ah	ah	INT	INT	_	5	dm	_	_	599.89	599.99	L1
+2	non	non	INT	INT	_	1	dm	_	_	600.00	600.25	L1
+3	jeudi	jeudi	NOM	NOM	_	5	periph	_	_	600.67	600.93	L1
+4	j'	je	CLS	CLS	_	5	subj	_	_	602.23	602.31	L1
+5	ai	avoir	VRB	VRB	_	0	ROOT	_	_	602.32	602.62	L1
+6	rendez-vous	rendez-vous	NOM	NOM	_	5	dep	_	_	602.63	603.09	L1
+7	chez	chez	PRE	PRE	_	6	dep	_	_	603.10	603.20	L1
+8	le	le	DET	DET	_	9	spe	_	_	603.21	603.25	L1
+9	dentiste	dentiste	NOM	NOM	_	7	dep	_	_	603.26	603.60	L1
+10	à	à	PRE	PRE	_	7	para	_	_	603.81	603.85	L1
+11	NNAAMMEE	NNAAMMEE	NOM	NOM	_	10	dep	_	_	604.33	604.54	L1
+12	chez	chez	PRE	PRE	_	10	para	_	_	604.61	604.78	L1
+13	moi	moi	PRO	PRO	_	12	dep	_	_	604.85	604.96	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-282
+# text = à quelle heure
+1	à	à	PRE	PRE	_	0	ROOT	_	_	605.85	605.97	L2
+2	quelle	quel	DET	DET	_	3	spe	_	_	605.98	606.11	L2
+3	heure	heure	NOM	NOM	_	1	dep	_	_	606.12	606.33	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-283
+# text = à dix heures quarante-cinq
+1	à	à	PRE	PRE	_	0	ROOT	_	_	606.80	606.82	L1
+2	dix	_	NUM	NUM	_	3	spe	_	_	606.83	606.98	L1
+3	heures	heure	NOM	NOM	_	1	dep	_	_	607.03	607.12	L1
+4	quarante-cinq	_	NUM	NUM	_	3	dep	_	_	607.21	607.67	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-284
+# text = ouais mais tu as le rendez-vous plus tard
+1	ouais	ouais	INT	INT	_	4	dm	_	_	608.21	608.31	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	608.32	608.43	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	608.44	608.49	L2
+4	as	avoir	VRB	VRB	_	0	ROOT	_	_	608.50	608.56	L2
+5	le	le	DET	DET	_	6	spe	_	_	608.57	608.60	L2
+6	rendez-vous	rendez-vous	NOM	NOM	_	4	dep	_	_	608.61	609.02	L2
+7	plus	plus	ADV	ADV	_	8	dep	_	_	609.03	609.20	L2
+8	tard	tard	ADV	ADV	_	4	dep	_	_	609.21	609.38	L2
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-285
+# text = à mi~
+1	à	à	PRE	PRE	_	0	ROOT	_	_	610.42	610.46	L1
+2	mi~	_	NOM	NOM	_	1	disflink	_	_	610.47	610.63	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-286
+# text = à quatorze heures
+1	à	à	PRE	PRE	_	0	ROOT	_	_	610.71	610.73	L1
+2	quatorze	_	NUM	NUM	_	3	spe	_	_	610.74	611.01	L1
+3	heures	heure	NOM	NOM	_	1	dep	_	_	611.02	611.07	L1
+
+# sent_id = cefc-tcof-Cadeaux_bon_08-287
+# text = ouais voilà
+1	ouais	ouais	INT	INT	_	2	dm	_	_	611.29	611.34	L2
+2	voilà	voilà	VRB	VRB	_	0	ROOT	_	_	611.35	611.51	L2
+

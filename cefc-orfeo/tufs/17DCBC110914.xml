@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> 17DCBC110914 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Kawaguchi </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 12416 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> 17DCBC110914 </name> du corpus/projet <name> TUFS </name> (Aix11) </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:50:33" type="audio">
+            <date> 14/09/2011 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> organisation du voyage au Japon, avenir, rencontres avec des célébrités </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="conversation"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, PACA, Aix-en-Provence </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="BC">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> étudiant </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="DC">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> étudiant </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

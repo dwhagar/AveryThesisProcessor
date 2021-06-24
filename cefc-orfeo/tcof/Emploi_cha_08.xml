@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Emploi_cha_08
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Virginie André
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     3020
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon"/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Emploi_cha_08
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:15:13" type="audio">
+      <date>
+       05/12/2008
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Une jeune femme actuellement à la recherche d'un travail est en rendez-vous avec une
+          conseillère. Cette dernière lui présentée quelques offres d'emploi, lui demande également
+          où elle en est dans sa recherche, le type d'offres pour lesquelles elle a postulé, les
+          relances téléphoniques qu'elle doit effectuer. Elle lui propose également de revoir
+          l'écriture d'une lettre de motivation.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="entretien"/>
+    <catRef corresp="secteur" target="professionnel"/>
+    <catRef corresp="theme" target="conseil"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       chef de projet
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       lycée
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       sans emploi
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

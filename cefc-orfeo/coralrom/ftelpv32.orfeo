@@ -1,0 +1,462 @@
+# sent_id = cefc-coralrom-ftelpv32-1
+# text = NNAAMMEE Restaurant Bonjour
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	0.440000	0.620000	OPE
+2	Restaurant	restaurant	NOM	NOM	_	1	dep	_	_	0.680000	0.890000	OPE
+3	Bonjour	bonjour	NOM	NOM	_	2	dep	_	_	0.900000	1.200000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-2
+# text = oui bonjour j'aim-~ j'organise une conférence ce samedi
+1	oui	oui	INT	INT	_	4	dm	_	_	1.570000	1.730000	EST
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1.740000	2.220000	EST
+3	j'	je	CLS	CLS	_	4	subj	_	_	2.230000	2.330000	EST
+4	aim-~	aim-~	VRB	VRB	_	0	root	_	_	2.340000	2.560000	EST
+5	j'	je	CLS	CLS	_	6	subj	_	_	2.570000	2.660000	EST
+6	organise	organiser	VRB	VRB	_	4	para	_	_	2.670000	3.150000	EST
+7	une	un	DET	DET	_	8	spe	_	_	3.190000	3.360000	EST
+8	conférence	conférence	NOM	NOM	_	6	dep	_	_	3.370000	3.940000	EST
+9	ce	ce	DET	DET	_	10	spe	_	_	4.010000	4.050000	EST
+10	samedi	samedi	NOM	NOM	_	6	dep	_	_	4.120000	4.490000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-3
+# text = et j'aurais aimé savoir s'il était possible de livrer euh deux pauses
+1	et	et	COO	COO	_	4	mark	_	_	4.500000	4.520000	EST
+2	j'	je	CLS	CLS	_	4	subj	_	_	4.530000	4.650000	EST
+3	aurais	avoir	VRB	VRB	_	4	aux	_	_	4.660000	4.780000	EST
+4	aimé	aimer	VPP	VPP	_	0	root	_	_	4.790000	4.890000	EST
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	4.900000	5.290000	EST
+6	s'	si	CSU	CSU	_	5	dep	_	_	5.430000	5.460000	EST
+7	il	il	CLS	CLS	_	8	subj	_	_	5.470000	5.560000	EST
+8	était	être	VRB	VRB	_	6	dep	_	_	5.570000	5.730000	EST
+9	possible	possible	ADJ	ADJ	_	8	dep	_	_	5.740000	6.320000	EST
+10	de	de	PRE	PRE	_	9	dep	_	_	6.330000	6.360000	EST
+11	livrer	livrer	VNF	VNF	_	10	dep	_	_	6.370000	6.780000	EST
+12	euh	euh	INT	INT	_	11	dm	_	_	6.790000	7.120000	EST
+13	deux	deux	NUM	NUM	_	14	spe	_	_	7.360000	7.510000	EST
+14	pauses	pause	NOM	NOM	_	11	dep	_	_	7.680000	8.230000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-4
+# text = oui bien sûr
+1	oui	oui	INT	INT	_	2	dm	_	_	8.610000	8.820000	OPE
+2	bien	bien	ADV	ADV	_	0	root	_	_	8.830000	8.960000	OPE
+3	sûr	sûr	ADJ	ADJ	_	2	morph	_	_	9.020000	9.100000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-5
+# text = oui c'est à vous c'est bien vous
+1	oui	oui	INT	INT	_	3	dm	_	_	9.280000	9.440000	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	9.880000	9.910000	EST
+3	est	être	VRB	VRB	_	0	root	_	_	9.920000	10.010000	EST
+4	à	à	PRE	PRE	_	3	dep	_	_	10.020000	10.080000	EST
+5	vous	moi	PRO	PRO	_	4	dep	_	_	10.090000	10.270000	EST
+6	c'	ce	CLS	CLS	_	7	subj	_	_	10.280000	10.370000	EST
+7	est	être	VRB	VRB	_	3	para	_	_	10.380000	10.430000	EST
+8	bien	bien	ADV	ADV	_	7	dep	_	_	10.440000	10.590000	EST
+9	vous	vous	CLS	CLS	_	8	disflink	_	_	10.600000	10.780000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-6
+# text = parce que oui
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	10.790000	11.180000	OPE
+2	oui	oui	INT	INT	_	1	dm	_	_	11.340000	11.550000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-7
+# text = mais par contre ici vous êtes au mauvais numéro
+1	mais	mais	COO	COO	_	6	mark	_	_	11.560000	11.700000	OPE
+2	par	par	PRE	PRE	_	6	periph	_	_	11.710000	11.820000	OPE
+3	contre	contre	PRE	PRE	_	2	dep	_	_	11.830000	12.050000	OPE
+4	ici	ici	ADV	ADV	_	3	dep	_	_	12.110000	12.240000	OPE
+5	vous	vous	CLS	CLS	_	6	subj	_	_	12.250000	12.340000	OPE
+6	êtes	être	VRB	VRB	_	0	root	_	_	12.350000	12.460000	OPE
+7	au	à+le	PRE	PRE	_	6	dep	_	_	12.470000	12.520000	OPE
+8	mauvais	mauvais	ADJ	ADJ	_	9	dep	_	_	12.530000	12.820000	OPE
+9	numéro	numéro	NOM	NOM	_	7	dep	_	_	12.830000	13.170000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-8
+# text = ah je rappelle lequel
+1	ah	ah	INT	INT	_	3	dm	_	_	13.400000	13.850000	EST
+2	je	je	CLS	CLS	_	3	subj	_	_	14.770000	14.800000	EST
+3	rappelle	rappeler	VRB	VRB	_	0	root	_	_	14.810000	15.260000	EST
+4	lequel	lequel	PRQ	PRQ	_	3	dep	_	_	15.270000	15.570000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-9
+# text = euh je vais vous dire ça euh
+1	euh	euh	INT	INT	_	3	dm	_	_	15.890000	15.950000	OPE
+2	je	je	CLS	CLS	_	3	subj	_	_	15.960000	16.030001	OPE
+3	vais	aller	VRB	VRB	_	0	root	_	_	16.040001	16.090000	OPE
+4	vous	vous	CLI	CLI	_	5	dep	_	_	16.100000	16.190001	OPE
+5	dire	dire	VNF	VNF	_	3	dep	_	_	16.240000	16.370001	OPE
+6	ça	ça	PRO	PRO	_	5	dep	_	_	16.500000	16.969999	OPE
+7	euh	euh	INT	INT	_	6	dm	_	_	16.980000	17.330000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-10
+# text = c'est quoi le numéro d'ici
+1	c'	ce	CLS	CLS	_	2	subj	_	_	17.340000	17.459999	OPE
+2	est	être	VRB	VRB	_	0	root	_	_	17.469999	17.490000	OPE
+3	quoi	quoi	PRQ	PRQ	_	2	dep	_	_	17.500000	17.610001	OPE
+4	le	le	DET	DET	_	5	spe	_	_	17.620001	17.639999	OPE
+5	numéro	numéro	NOM	NOM	_	2	dep	_	_	17.650000	17.930000	OPE
+6	d'	de	PRE	PRE	_	5	dep	_	_	17.940001	17.959999	OPE
+7	ici	ici	ADV	ADV	_	6	dep	_	_	17.969999	18.219999	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-11
+# text = va voir sur le tampon
+1	va	aller	VRB	VRB	_	0	root	_	_	19.490000	19.650000	OPE
+2	voir	voir	VNF	VNF	_	1	dep	_	_	19.660000	19.940001	OPE
+3	sur	sur	PRE	PRE	_	2	dep	_	_	19.950001	20.049999	OPE
+4	le	le	DET	DET	_	5	spe	_	_	20.059999	20.170000	OPE
+5	tampon	tampon	NOM	NOM	_	3	dep	_	_	20.180000	20.520000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-12
+# text = s'il te plait
+1	s'	si	CSU	CSU	_	0	root	_	_	21.059999	21.110001	OPE
+2	il	il	CLS	CLS	_	4	subj	_	_	21.120001	21.230000	OPE
+3	te	te	CLI	CLI	_	4	dep	_	_	21.240000	21.379999	OPE
+4	plait	plait	VRB	VRB	_	1	dep	_	_	21.389999	21.650000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-13
+# text = parce que vous je j'ai cherché par Internet
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	22.170000	22.670000	EST
+2	vous	vous	CLS	CLS	_	6	subj	_	_	22.770000	22.820000	EST
+3	je	je	CLS	CLS	_	2	para	_	_	22.830000	23.090000	EST
+4	j'	je	CLS	CLS	_	3	para	_	_	23.100000	23.139999	EST
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	23.150000	23.459999	EST
+6	cherché	chercher	VPP	VPP	_	1	dep	_	_	23.469999	23.959999	EST
+7	par	par	PRE	PRE	_	6	dep	_	_	24.129999	24.250000	EST
+8	Internet	internet	NOM	NOM	_	7	dep	_	_	24.260000	24.790001	EST
+
+# sent_id = cefc-coralrom-ftelpv32-14
+# text = et j'en ai euh
+1	et	et	COO	COO	_	4	mark	_	_	24.850000	24.920000	EST
+2	j'	je	CLS	CLS	_	4	subj	_	_	24.930000	24.980000	EST
+3	en	en	CLI	CLI	_	4	dep	_	_	24.990000	25.160000	EST
+4	ai	avoir	VRB	VRB	_	0	root	_	_	25.170000	25.360001	EST
+5	euh	euh	INT	INT	_	4	dm	_	_	25.370001	25.620001	EST
+
+# sent_id = cefc-coralrom-ftelpv32-15
+# text = quinze ou vingt de NNAAMMEE
+1	quinze	quinze	NUM	NUM	_	0	root	_	_	26.000000	26.600000	EST
+2	ou	ou	COO	COO	_	3	mark	_	_	26.610001	26.629999	EST
+3	vingt	vingt	NUM	NUM	_	1	para	_	_	26.639999	26.809999	EST
+4	de	de	PRE	PRE	_	3	dep	_	_	26.820000	26.910000	EST
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	26.969999	27.170000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-16
+# text = donc j'ai pris le premier hein
+1	donc	donc	ADV	ADV	_	4	periph	_	_	27.500000	27.700001	EST
+2	j'	je	CLS	CLS	_	4	subj	_	_	27.709999	27.770000	EST
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	27.780001	27.830000	EST
+4	pris	-	VPP	VPP	_	0	root	_	_	27.840000	28.000000	EST
+5	le	le	DET	DET	_	6	dep	_	_	28.010000	28.030001	EST
+6	premier	premier	ADJ	ADJ	_	4	dep	_	_	28.040001	28.320000	EST
+7	hein	hein	INT	INT	_	6	dm	_	_	28.650000	28.790001	EST
+
+# sent_id = cefc-coralrom-ftelpv32-17
+# text = euh je suis à Aix-en-Provence
+1	euh	euh	INT	INT	_	3	dm	_	_	29.309999	29.330000	EST
+2	je	je	CLS	CLS	_	3	subj	_	_	29.459999	30.040001	EST
+3	suis	être	VRB	VRB	_	0	root	_	_	30.139999	30.320000	EST
+4	à	à	PRE	PRE	_	3	dep	_	_	30.330000	30.379999	EST
+5	Aix-en-Provence	Aix-en-Provence	NOM	NOM	_	4	dep	_	_	30.389999	30.920000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-18
+# text = mais euh je viens à Paris
+1	mais	mais	COO	COO	_	4	mark	_	_	31.129999	31.320000	EST
+2	euh	euh	INT	INT	_	1	dm	_	_	31.330000	31.350000	EST
+3	je	je	CLS	CLS	_	4	subj	_	_	31.420000	31.440001	EST
+4	viens	venir	VRB	VRB	_	0	root	_	_	31.450001	31.980000	EST
+5	à	à	PRE	PRE	_	4	dep	_	_	32.040001	32.099998	EST
+6	Paris	Paris	NOM	NOM	_	5	dep	_	_	32.110001	32.340000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-19
+# text = mais je je viens à Paris hein
+1	mais	mais	COO	COO	_	4	mark	_	_	32.509998	32.590000	EST
+2	je	je	CLS	CLS	_	4	subj	_	_	32.599998	32.639999	EST
+3	je	je	CLS	CLS	_	2	para	_	_	32.779999	32.919998	EST
+4	viens	venir	VRB	VRB	_	0	root	_	_	32.930000	33.130001	EST
+5	à	à	PRE	PRE	_	4	dep	_	_	33.139999	33.160000	EST
+6	Paris	Paris	NOM	NOM	_	5	dep	_	_	33.169998	33.480000	EST
+7	hein	hein	INT	INT	_	6	dm	_	_	33.490002	33.529999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-20
+# text = c'est à Paris que j'organise
+1	c'	ce	CLS	CLS	_	2	subj	_	_	33.610001	33.630001	EST
+2	est	être	VRB	VRB	_	0	root	_	_	33.639999	33.660000	EST
+3	à	à	PRE	PRE	_	2	dep	_	_	33.669998	33.689999	EST
+4	Paris	Paris	NOM	NOM	_	3	dep	_	_	33.790001	34.060001	EST
+5	que	que	PRQ	PRQ	_	7	dep	_	_	34.070000	34.130001	EST
+6	j'	je	CLS	CLS	_	7	subj	_	_	34.180000	34.200001	EST
+7	organise	organiser	VRB	VRB	_	4	dep	_	_	34.209999	34.900002	EST
+
+# sent_id = cefc-coralrom-ftelpv32-21
+# text = vous êtes où à Aix-en-Provence sur euh l'immeuble de Bercy rue de Bercy
+1	vous	vous	CLS	CLS	_	2	subj	_	_	28.379999	28.469999	OPE
+2	êtes	être	VRB	VRB	_	0	root	_	_	28.480000	28.639999	OPE
+3	où	où	PRQ	PRQ	_	2	dep	_	_	28.650000	28.790001	OPE
+4	à	à	PRE	PRE	_	2	dep	_	_	31.410000	31.430000	OPE
+5	Aix-en-Provence	Aix-en-Provence	NOM	NOM	_	4	dep	_	_	31.440001	32.349998	OPE
+6	sur	sur	PRE	PRE	_	2	dep	_	_	33.910000	34.590000	OPE
+7	euh	euh	INT	INT	_	6	dm	_	_	34.720001	34.900002	OPE
+8	l'	le	DET	DET	_	9	spe	_	_	34.959999	35.090000	OPE
+9	immeuble	immeuble	NOM	NOM	_	6	dep	_	_	35.099998	35.320000	OPE
+10	de	de	PRE	PRE	_	9	dep	_	_	35.330002	35.439999	OPE
+11	Bercy	Bercy	NOM	NOM	_	10	dep	_	_	35.450001	35.810001	OPE
+12	rue	rue	NOM	NOM	_	9	para	_	_	36.490002	36.630001	OPE
+13	de	de	PRE	PRE	_	12	dep	_	_	36.639999	36.660000	OPE
+14	Bercy	Bercy	NOM	NOM	_	13	dep	_	_	36.669998	36.959999	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-22
+# text = non c'est à la s-~ est à la Salpêtrière dans le treizième
+1	non	non	INT	INT	_	3	dm	_	_	37.080002	37.470001	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	37.480000	37.500000	EST
+3	est	être	VRB	VRB	_	0	root	_	_	37.509998	37.529999	EST
+4	à	à	PRE	PRE	_	3	dep	_	_	37.540001	37.570000	EST
+5	la	le	DET	DET	_	6	spe	_	_	37.580002	37.660000	EST
+6	s-~	s-~	NOM	NOM	_	4	dep	_	_	37.669998	37.790001	EST
+7	est	être	VRB	VRB	_	3	para	_	_	37.889999	37.930000	EST
+8	à	à	PRE	PRE	_	7	dep	_	_	37.939999	38.029999	EST
+9	la	le	DET	DET	_	10	spe	_	_	38.040001	38.090000	EST
+10	Salpêtrière	salpêtrière	NOM	NOM	_	8	dep	_	_	38.099998	38.889999	EST
+11	dans	dans	PRE	PRE	_	7	dep	_	_	39.630001	39.790001	EST
+12	le	le	DET	DET	_	13	spe	_	_	39.799999	39.820000	EST
+13	treizième	treizième	NOM	NOM	_	11	dep	_	_	39.830002	40.380001	EST
+
+# sent_id = cefc-coralrom-ftelpv32-23
+# text = ah faut euh
+1	ah	ah	INT	INT	_	2	dm	_	_	40.570000	41.470001	OPE
+2	faut	faillir	VRB	VRB	_	0	root	_	_	41.630001	41.980000	OPE
+3	euh	euh	INT	INT	_	2	dm	_	_	41.990002	42.099998	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-24
+# text = je j'appelle lequel parce que il y en a pas dans le treizième
+1	je	je	CLS	CLS	_	3	subj	_	_	42.770000	42.980000	EST
+2	j'	je	CLS	CLS	_	1	para	_	_	43.189999	43.400002	EST
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	43.439999	43.790001	EST
+4	lequel	lequel	PRQ	PRQ	_	3	dep	_	_	43.799999	44.099998	EST
+5	parce que	parce que	CSU	CSU	_	3	dep	_	_	44.110001	44.349998	EST
+6	il	il	CLS	CLS	_	9	subj	_	_	44.360001	44.410000	EST
+7	y	y	CLI	CLI	_	9	dep	_	_	44.419998	44.560001	EST
+8	en	en	CLI	CLI	_	9	dep	_	_	44.570000	44.650002	EST
+9	a	avoir	VRB	VRB	_	5	dep	_	_	44.660000	44.709999	EST
+10	pas	pas	ADN	ADN	_	9	dep	_	_	44.720001	44.860001	EST
+11	dans	dans	PRE	PRE	_	9	dep	_	_	44.869999	44.990002	EST
+12	le	le	DET	DET	_	13	spe	_	_	45.000000	45.020000	EST
+13	treizième	treizième	NOM	NOM	_	11	dep	_	_	45.029999	45.389999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-25
+# text = apparemment il y en a pas de NNAAMMEE dans le treizième apparemment
+1	apparemment	apparemment	ADV	ADV	_	5	periph	_	_	45.400002	45.849998	EST
+2	il	il	CLS	CLS	_	5	subj	_	_	46.549999	46.619999	EST
+3	y	y	CLI	CLI	_	5	dep	_	_	46.630001	46.779999	EST
+4	en	en	CLI	CLI	_	5	dep	_	_	46.790001	46.869999	EST
+5	a	avoir	VRB	VRB	_	0	root	_	_	46.880001	46.919998	EST
+6	pas	pas	ADN	ADN	_	5	dep	_	_	46.980000	47.110001	EST
+7	de	de	PRE	PRE	_	5	dep	_	_	47.119999	47.139999	EST
+8	NNAAMMEE	NOM	NOM	NOM	_	7	dep	_	_	47.150002	47.480000	EST
+9	dans	dans	PRE	PRE	_	5	dep	_	_	47.619999	47.779999	EST
+10	le	le	DET	DET	_	11	spe	_	_	47.790001	47.810001	EST
+11	treizième	treizième	NOM	NOM	_	9	dep	_	_	47.820000	48.139999	EST
+12	apparemment	apparemment	ADV	ADV	_	5	periph	_	_	48.259998	48.689999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-26
+# text = hein
+1	hein	hein	INT	INT	_	0	root	_	_	46.110001	46.380001	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-27
+# text = ah parce que nous on peut pas délivrer dans le treizième hein
+1	ah	ah	INT	INT	_	2	dm	_	_	48.419998	48.689999	OPE
+2	parce que	parce que	CSU	CSU	_	0	root	_	_	48.770000	49.049999	OPE
+3	nous	moi	PRO	PRO	_	5	periph	_	_	49.060001	49.189999	OPE
+4	on	on	CLS	CLS	_	5	subj	_	_	49.200001	49.290001	OPE
+5	peut	pouvoir	VRB	VRB	_	2	dep	_	_	49.349998	49.439999	OPE
+6	pas	pas	ADN	ADN	_	5	dep	_	_	49.450001	49.650002	OPE
+7	délivrer	délivrer	VNF	VNF	_	5	dep	_	_	49.700001	50.119999	OPE
+8	dans	dans	PRE	PRE	_	7	dep	_	_	50.130001	50.270000	OPE
+9	le	le	DET	DET	_	10	spe	_	_	50.279999	50.299999	OPE
+10	treizième	treizième	NOM	NOM	_	8	dep	_	_	50.310001	50.779999	OPE
+11	hein	hein	INT	INT	_	10	dm	_	_	50.790001	50.849998	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-28
+# text = aïe
+1	aïe	aïe	INT	INT	_	0	root	_	_	51.209999	51.529999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-29
+# text = si c'était sur l'immeuble de Bercy il y a pas de problèmes
+1	si	si	CSU	CSU	_	11	periph	_	_	52.060001	52.180000	OPE
+2	c'	ce	CLS	CLS	_	3	subj	_	_	52.189999	52.250000	OPE
+3	était	être	VRB	VRB	_	1	dep	_	_	52.259998	52.520000	OPE
+4	sur	sur	PRE	PRE	_	3	dep	_	_	52.529999	52.630001	OPE
+5	l'	le	DET	DET	_	6	spe	_	_	52.639999	52.689999	OPE
+6	immeuble	immeuble	NOM	NOM	_	4	dep	_	_	52.700001	52.930000	OPE
+7	de	de	PRE	PRE	_	6	dep	_	_	52.939999	53.049999	OPE
+8	Bercy	Bercy	NOM	NOM	_	7	dep	_	_	53.060001	53.320000	OPE
+9	il	il	CLS	CLS	_	11	subj	_	_	53.330002	53.349998	OPE
+10	y	y	CLI	CLI	_	11	dep	_	_	53.360001	53.389999	OPE
+11	a	avoir	VRB	VRB	_	0	root	_	_	53.400002	53.430000	OPE
+12	pas	pas	ADN	ADN	_	11	dep	_	_	53.439999	53.580002	OPE
+13	de	de	PRE	PRE	_	11	dep	_	_	53.590000	53.610001	OPE
+14	problèmes	problème	NOM	NOM	_	13	dep	_	_	53.619999	53.880001	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-30
+# text = ah non non non c'est euh à la s
+1	ah	ah	INT	INT	_	2	dm	_	_	54.200001	54.240002	EST
+2	non	non	INT	INT	_	6	dm	_	_	54.250000	54.380001	EST
+3	non	non	INT	INT	_	2	para	_	_	54.389999	54.540001	EST
+4	non	non	INT	INT	_	3	para	_	_	54.549999	54.709999	EST
+5	c'	ce	CLS	CLS	_	6	subj	_	_	54.720001	54.830002	EST
+6	est	être	VRB	VRB	_	0	root	_	_	54.840000	55.009998	EST
+7	euh	euh	INT	INT	_	6	dm	_	_	55.020000	55.040001	EST
+8	à	à	PRE	PRE	_	6	dep	_	_	55.099998	55.240002	EST
+9	la	le	DET	DET	_	10	spe	_	_	55.250000	55.389999	EST
+10	s	s	NOM	NOM	_	8	dep	_	_	55.400002	55.619999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-31
+# text = ah ça je peux pas malheureusement
+1	ah	ah	INT	INT	_	4	dm	_	_	55.099998	55.259998	OPE
+2	ça	ça	PRO	PRO	_	4	periph	_	_	55.270000	55.330002	OPE
+3	je	je	CLS	CLS	_	4	subj	_	_	55.369999	55.480000	OPE
+4	peux	pouvoir	VRB	VRB	_	0	root	_	_	55.490002	55.599998	OPE
+5	pas	pas	ADN	ADN	_	4	dep	_	_	55.610001	55.680000	OPE
+6	malheureusement	malheureusement	ADV	ADV	_	4	dep	_	_	55.740002	56.040001	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-32
+# text = parce qu'en fait faut comprendre
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	56.490002	56.779999	OPE
+2	en	en	PRE	PRE	_	4	periph	_	_	56.830002	56.910000	OPE
+3	fait	fait	NOM	NOM	_	2	dep	_	_	56.919998	57.029999	OPE
+4	faut	faillir	VRB	VRB	_	1	dep	_	_	57.169998	57.349998	OPE
+5	comprendre	comprendre	VNF	VNF	_	4	dep	_	_	57.360001	57.610001	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-33
+# text = on n'a pas d'équipements pour faire le enfin nous ce qu'on c'est ce restaurant là de NNAAMMEE NNAAMMEE là
+1	on	on	CLS	CLS	_	3	subj	_	_	57.619999	57.639999	OPE
+2	n'	ne	CLN	CLN	_	3	dep	_	_	57.650002	57.669998	OPE
+3	a	avoir	VRB	VRB	_	0	root	_	_	57.680000	57.700001	OPE
+4	pas	pas	ADN	ADN	_	3	dep	_	_	57.709999	57.880001	OPE
+5	d'	de	PRE	PRE	_	3	dep	_	_	57.889999	57.910000	OPE
+6	équipements	équipement	NOM	NOM	_	5	dep	_	_	57.919998	58.380001	OPE
+7	pour	pour	PRE	PRE	_	3	dep	_	_	58.389999	58.549999	OPE
+8	faire	faire	VNF	VNF	_	7	dep	_	_	58.560001	58.970001	OPE
+9	le	le	DET	DET	_	12	spe	_	_	59.520000	59.970001	OPE
+10	enfin	enfin	ADV	ADV	_	9	dm	_	_	59.980000	60.419998	OPE
+11	nous	nous	CLS	CLS	_	12	dep	_	_	60.430000	60.529999	OPE
+12	ce	ce	PRO	PRO	_	8	dep	_	_	60.540001	60.570000	OPE
+13	qu'	que	PRQ	PRQ	_	16	dep	_	_	60.580002	60.639999	OPE
+14	on	on	CLS	CLS	_	16	periph	_	_	60.650002	60.840000	OPE
+15	c'	ce	CLS	CLS	_	16	subj	_	_	60.849998	60.910000	OPE
+16	est	être	VRB	VRB	_	12	dep	_	_	60.919998	61.270000	OPE
+17	ce	ce	DET	DET	_	18	spe	_	_	61.279999	61.529999	OPE
+18	restaurant	restaurant	NOM	NOM	_	16	dep	_	_	61.680000	62.020000	OPE
+19	là	là	ADV	ADV	_	18	dep	_	_	62.029999	62.270000	OPE
+20	de	de	PRE	PRE	_	18	dep	_	_	62.279999	62.389999	OPE
+21	NNAAMMEE	NOM	NOM	NOM	_	20	dep	_	_	62.400002	62.580002	OPE
+22	NNAAMMEE	NOM	NOM	NOM	_	21	dep	_	_	62.590000	62.830002	OPE
+23	là	là	ADV	ADV	_	8	dep	_	_	62.840000	62.900002	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-34
+# text = on n'a pas l'agrément pour pour se déplacer avec de la nourriture
+1	on	on	CLS	CLS	_	3	subj	_	_	62.910000	62.970001	OPE
+2	n'	ne	CLN	CLN	_	3	dep	_	_	62.980000	63.119999	OPE
+3	a	avoir	VRB	VRB	_	0	root	_	_	63.130001	63.180000	OPE
+4	pas	pas	ADN	ADN	_	3	dep	_	_	63.189999	63.389999	OPE
+5	l'	le	DET	DET	_	6	spe	_	_	63.840000	63.860001	OPE
+6	agrément	agrément	NOM	NOM	_	3	dep	_	_	63.869999	64.400002	OPE
+7	pour	pour	PRE	PRE	_	3	dep	_	_	64.410004	64.970001	OPE
+8	pour	pour	PRE	PRE	_	7	para	_	_	65.339996	65.470001	OPE
+9	se	se	CLI	CLI	_	10	dep	_	_	65.480003	65.500000	OPE
+10	déplacer	déplacer	VNF	VNF	_	8	dep	_	_	65.510002	65.900002	OPE
+11	avec	avec	PRE	PRE	_	10	dep	_	_	65.910004	66.059998	OPE
+12	de	de	PRE	PRE	_	11	para	_	_	66.070000	66.129997	OPE
+13	la	le	DET	DET	_	14	spe	_	_	66.139999	66.220001	OPE
+14	nourriture	nourriture	NOM	NOM	_	12	dep	_	_	66.230003	66.750000	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-35
+# text = quoi et
+1	quoi	quoi	INT	INT	_	2	dm	_	_	66.760002	66.839996	EST
+2	et	et	COO	COO	_	0	root	_	_	56.610001	56.779999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-36
+# text = ah voilà
+1	ah	ah	INT	INT	_	0	root	_	_	67.279999	67.430000	OPE
+2	voilà	voilà	INT	INT	_	1	dm	_	_	68.089996	68.339996	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-37
+# text = donc il faut que j'appelle euh d'autres NNAAMMEE d'accord
+1	donc	donc	ADV	ADV	_	3	periph	_	_	68.720001	69.470001	EST
+2	il	il	CLS	CLS	_	3	subj	_	_	69.480003	69.550003	EST
+3	faut	faillir	VRB	VRB	_	0	root	_	_	69.559998	69.760002	EST
+4	que	que	CSU	CSU	_	3	dep	_	_	69.830002	69.959999	EST
+5	j'	je	CLS	CLS	_	6	subj	_	_	69.970001	70.050003	EST
+6	appelle	appeler	VRB	VRB	_	4	dep	_	_	70.059998	70.889999	EST
+7	euh	euh	INT	INT	_	6	dm	_	_	70.900002	70.919998	EST
+8	d'	de	PRE	PRE	_	6	dep	_	_	70.930000	71.050003	EST
+9	autres	autre	ADJ	ADJ	_	10	dep	_	_	71.059998	71.589996	EST
+10	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	71.739998	71.910004	EST
+11	d'	de	PRE	PRE	_	6	dep	_	_	72.709999	72.809998	EST
+12	accord	accord	NOM	NOM	_	11	dep	_	_	72.820000	73.169998	EST
+
+# sent_id = cefc-coralrom-ftelpv32-38
+# text = bon je vais faire ça
+1	bon	bon	INT	INT	_	3	dm	_	_	73.330002	73.449997	EST
+2	je	je	CLS	CLS	_	3	subj	_	_	73.459999	73.480003	EST
+3	vais	aller	VRB	VRB	_	0	root	_	_	73.489998	73.540001	EST
+4	faire	faire	VNF	VNF	_	3	dep	_	_	73.550003	73.629997	EST
+5	ça	ça	PRO	PRO	_	4	dep	_	_	73.830002	74.180000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-39
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	72.220001	72.370003	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-40
+# text = qui sont dans le quartier peut-être
+1	qui	qui	PRQ	PRQ	_	2	subj	_	_	73.690002	73.839996	OPE
+2	sont	être	VRB	VRB	_	0	root	_	_	73.849998	74.029999	OPE
+3	dans	dans	PRE	PRE	_	2	dep	_	_	74.040001	74.150002	OPE
+4	le	le	DET	DET	_	5	spe	_	_	74.160004	74.180000	OPE
+5	quartier	quartier	NOM	NOM	_	3	dep	_	_	74.190002	74.480003	OPE
+6	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	74.739998	75.099998	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-41
+# text = oui ben il y a Alliance Prestige
+1	oui	oui	INT	INT	_	5	dm	_	_	75.480003	75.699997	EST
+2	ben	ben	INT	INT	_	1	dm	_	_	75.709999	75.790001	EST
+3	il	il	CLS	CLS	_	5	subj	_	_	75.860001	75.980003	EST
+4	y	y	CLI	CLI	_	5	dep	_	_	75.989998	76.050003	EST
+5	a	avoir	VRB	VRB	_	0	root	_	_	76.059998	76.320000	EST
+6	Alliance	alliance	NOM	NOM	_	5	dep	_	_	76.330002	76.610001	EST
+7	Prestige	prestige	NOM	NOM	_	6	dep	_	_	76.709999	77.430000	EST
+
+# sent_id = cefc-coralrom-ftelpv32-42
+# text = il y en a Kl~ Avenue Kleber
+1	il	il	CLS	CLS	_	4	subj	_	_	77.440002	77.559998	EST
+2	y	y	CLI	CLI	_	4	dep	_	_	77.570000	77.589996	EST
+3	en	en	CLI	CLI	_	4	dep	_	_	77.599998	77.650002	EST
+4	a	avoir	VRB	VRB	_	0	root	_	_	77.660004	77.709999	EST
+5	Kl~	Kl~	NOM	NOM	_	4	dep	_	_	77.720001	77.889999	EST
+6	Avenue	avenue	NOM	NOM	_	5	dep	_	_	78.010002	78.269997	EST
+7	Kleber	Kleber	NOM	NOM	_	6	dep	_	_	78.279999	78.669998	EST
+
+# sent_id = cefc-coralrom-ftelpv32-43
+# text = on va essayer d'accord
+1	on	on	CLS	CLS	_	2	subj	_	_	78.750000	78.769997	EST
+2	va	aller	VRB	VRB	_	0	root	_	_	78.779999	78.830002	EST
+3	essayer	essayer	VNF	VNF	_	2	dep	_	_	78.930000	79.290001	EST
+4	d'	de	PRE	PRE	_	3	dep	_	_	79.889999	79.910004	EST
+5	accord	accord	NOM	NOM	_	4	dep	_	_	79.959999	80.279999	EST
+
+# sent_id = cefc-coralrom-ftelpv32-44
+# text = je vous remercie
+1	je	je	CLS	CLS	_	3	subj	_	_	80.930000	80.959999	EST
+2	vous	vous	CLI	CLI	_	3	dep	_	_	80.970001	81.029999	EST
+3	remercie	remercier	VRB	VRB	_	0	root	_	_	81.040001	81.419998	EST
+
+# sent_id = cefc-coralrom-ftelpv32-45
+# text = au revoir mh
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	82.169998	82.470001	OPE
+2	mh	mh	INT	INT	_	1	dm	_	_	79.089996	79.279999	OPE
+
+# sent_id = cefc-coralrom-ftelpv32-46
+# text = voilà je suis désolé au revoir
+1	voilà	voilà	INT	INT	_	4	dm	_	_	80.510002	80.739998	OPE
+2	je	je	CLS	CLS	_	4	subj	_	_	81.480003	81.519997	OPE
+3	suis	être	VRB	VRB	_	4	aux	_	_	81.529999	81.629997	OPE
+4	désolé	désoler	VPP	VPP	_	0	root	_	_	81.639999	81.849998	OPE
+5	au revoir	au revoir	VNF	VNF	_	4	dep	_	_	81.860001	82.070000	OPE
+

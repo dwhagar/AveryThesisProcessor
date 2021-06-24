@@ -1,0 +1,390 @@
+# sent_id = cefc-coralrom-fpubcv04-1
+# text = vous les avez réinstallées
+1	vous	vous	CLS	CLS	_	4	subj	_	_	0.660000	0.720000	DEL
+2	les	le	CLI	CLI	_	4	dep	_	_	0.730000	1.050000	DEL
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	1.060000	1.150000	DEL
+4	réinstallées	réinstaller	VPP	VPP	_	0	root	_	_	1.160000	1.450000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-2
+# text = ou pas
+1	ou	ou	COO	COO	_	2	mark	_	_	1.460000	1.590000	DEL
+2	pas	pas	ADN	ADN	_	0	root	_	_	1.600000	1.650000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-3
+# text = finalement
+1	finalement	finalement	ADV	ADV	_	0	root	_	_	1.660000	1.870000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-4
+# text = les machines dans l'A deux
+1	les	le	DET	DET	_	2	spe	_	_	1.880000	1.930000	DEL
+2	machines	machine	NOM	NOM	_	0	root	_	_	1.940000	2.130000	DEL
+3	dans	dans	PRE	PRE	_	2	dep	_	_	2.140000	2.200000	DEL
+4	l'	le	DET	DET	_	5	spe	_	_	2.210000	2.230000	DEL
+5	A	A	NOM	NOM	_	3	dep	_	_	2.240000	2.280000	DEL
+6	deux	deux	NUM	NUM	_	5	dep	_	_	2.290000	2.530000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-5
+# text = cent douze
+1	cent	cent	NUM	NUM	_	0	root	_	_	2.810000	2.870000	DEL
+2	douze	douze	NUM	NUM	_	1	dep	_	_	2.950000	3.050000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-6
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	3.140000	3.440000	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-7
+# text = il y a juste un truc
+1	il	il	CLS	CLS	_	3	subj	_	_	7.520000	7.570000	DEL
+2	y	y	CLI	CLI	_	3	dep	_	_	7.580000	7.610000	DEL
+3	a	avoir	VRB	VRB	_	0	root	_	_	7.620000	7.640000	DEL
+4	juste	juste	ADV	ADV	_	3	dep	_	_	7.650000	7.860000	DEL
+5	un	un	DET	DET	_	6	spe	_	_	7.870000	7.960000	DEL
+6	truc	truc	NOM	NOM	_	3	dep	_	_	7.970000	8.110000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-8
+# text = c'est qu'il y a le euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	8.120000	8.230000	DEL
+2	est	être	VRB	VRB	_	0	root	_	_	8.240000	8.270000	DEL
+3	qu'	que	CSU	CSU	_	2	dep	_	_	8.320000	8.340000	DEL
+4	il	il	CLS	CLS	_	6	subj	_	_	8.350000	8.400000	DEL
+5	y	y	CLI	CLI	_	6	dep	_	_	8.410000	8.430000	DEL
+6	a	avoir	VRB	VRB	_	3	dep	_	_	8.440000	8.470000	DEL
+7	le	le	DET	DET	_	6	dep	_	_	8.480000	9.450000	DEL
+8	euh	euh	INT	INT	_	7	dm	_	_	9.540000	9.560000	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-9
+# text = il y a les extensions connues qui sont masquées sur le euh sur le poste maître et sur euh une ou deux machines
+1	il	il	CLS	CLS	_	3	subj	_	_	9.940000	10.010000	DEL
+2	y	y	CLI	CLI	_	3	dep	_	_	10.020000	10.040000	DEL
+3	a	avoir	VRB	VRB	_	0	root	_	_	10.050000	10.070000	DEL
+4	les	le	DET	DET	_	5	spe	_	_	10.080000	10.260000	DEL
+5	extensions	extension	NOM	NOM	_	3	dep	_	_	10.270000	10.900000	DEL
+6	connues	connaître	ADJ	ADJ	_	5	dep	_	_	11.450000	11.790000	DEL
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	11.800000	11.890000	DEL
+8	sont	être	VRB	VRB	_	9	aux	_	_	11.900000	12.110000	DEL
+9	masquées	masquer	VPP	VPP	_	5	dep	_	_	12.120000	12.550000	DEL
+10	sur	sur	PRE	PRE	_	9	dep	_	_	14.320000	14.530000	DEL
+11	le	le	DET	DET	_	10	dep	_	_	14.540000	14.950000	DEL
+12	euh	euh	INT	INT	_	11	dm	_	_	14.960000	15.020000	DEL
+13	sur	sur	PRE	PRE	_	10	para	_	_	15.030000	15.350000	DEL
+14	le	le	DET	DET	_	15	spe	_	_	15.360000	15.460000	DEL
+15	poste	poste	NOM	NOM	_	13	dep	_	_	15.520000	15.710000	DEL
+16	maître	maître	NOM	NOM	_	15	dep	_	_	15.810000	16.160000	DEL
+17	et	et	COO	COO	_	18	mark	_	_	16.170000	16.209999	DEL
+18	sur	sur	PRE	PRE	_	13	para	_	_	16.219999	16.370001	DEL
+19	euh	euh	INT	INT	_	18	dm	_	_	16.379999	16.430000	DEL
+20	une	un	DET	DET	_	23	spe	_	_	16.480000	17.299999	DEL
+21	ou	ou	COO	COO	_	22	mark	_	_	17.350000	17.370001	DEL
+22	deux	deux	NUM	NUM	_	20	para	_	_	17.379999	17.549999	DEL
+23	machines	machine	NOM	NOM	_	18	dep	_	_	17.559999	17.969999	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-10
+# text = j'ai constaté ça
+1	j'	je	CLS	CLS	_	3	subj	_	_	17.980000	18.059999	DEL
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	18.070000	18.090000	DEL
+3	constaté	constater	VPP	VPP	_	0	root	_	_	18.139999	18.469999	DEL
+4	ça	ça	PRO	PRO	_	3	periph	_	_	18.540001	18.709999	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-11
+# text = euh c'est sur toutes puisqu'elles ont la même image
+1	euh	euh	INT	INT	_	3	dm	_	_	18.950001	19.170000	EDI
+2	c'	ce	CLS	CLS	_	3	subj	_	_	19.180000	19.280001	EDI
+3	est	être	VRB	VRB	_	0	root	_	_	19.290001	19.350000	EDI
+4	sur	sur	PRE	PRE	_	3	dep	_	_	19.360001	19.510000	EDI
+5	toutes	tout	ADJ	ADJ	_	6	dep	_	_	19.629999	19.879999	EDI
+6	puisqu'	puisque	CSU	CSU	_	4	dep	_	_	20.049999	20.190001	EDI
+7	elles	il	CLS	CLS	_	8	subj	_	_	20.250000	20.370001	EDI
+8	ont	avoir	VRB	VRB	_	6	dep	_	_	20.379999	20.450001	EDI
+9	la	le	DET	DET	_	11	spe	_	_	20.459999	20.520000	EDI
+10	même	même	ADJ	ADJ	_	11	dep	_	_	20.530001	20.770000	EDI
+11	image	image	NOM	NOM	_	8	dep	_	_	20.780001	21.139999	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-12
+# text = mais il me semblait que vous les aviez
+1	mais	mais	COO	COO	_	4	mark	_	_	21.240000	21.320000	DEL
+2	il	il	CLS	CLS	_	4	subj	_	_	21.330000	21.400000	DEL
+3	me	me	CLI	CLI	_	4	dep	_	_	21.410000	21.530001	DEL
+4	semblait	sembler	VRB	VRB	_	0	root	_	_	21.540001	21.910000	DEL
+5	que	que	CSU	CSU	_	4	dep	_	_	21.920000	21.940001	DEL
+6	vous	vous	CLS	CLS	_	8	subj	_	_	22.000000	22.049999	DEL
+7	les	le	CLI	CLI	_	8	dep	_	_	22.059999	22.110001	DEL
+8	aviez	avoir	VRB	VRB	_	5	dep	_	_	22.170000	22.389999	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-13
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	22.690001	22.860001	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-14
+# text = euh démasquées
+1	euh	euh	INT	INT	_	2	dm	_	_	22.730000	22.860001	DEL
+2	démasquées	démasquer	ADJ	ADJ	_	0	root	_	_	23.020000	23.450001	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-15
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	23.780001	24.110001	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-16
+# text = ah mais tu sais c'était un problème de profil qu'on a revu après
+1	ah	ah	INT	INT	_	6	dm	_	_	23.889999	23.910000	EDI
+2	mais	mais	COO	COO	_	6	mark	_	_	23.920000	24.080000	EDI
+3	tu	tu	CLS	CLS	_	4	subj	_	_	24.280001	24.389999	EDI
+4	sais	savoir	VRB	VRB	_	2	dm	_	_	24.400000	24.450001	EDI
+5	c'	ce	CLS	CLS	_	6	subj	_	_	24.459999	24.559999	EDI
+6	était	être	VRB	VRB	_	0	root	_	_	24.570000	24.730000	EDI
+7	un	un	DET	DET	_	8	spe	_	_	24.740000	24.760000	EDI
+8	problème	problème	NOM	NOM	_	6	dep	_	_	24.860001	25.299999	EDI
+9	de	de	PRE	PRE	_	8	dep	_	_	25.459999	25.490000	EDI
+10	profil	profil	NOM	NOM	_	9	dep	_	_	25.860001	26.030001	EDI
+11	qu'	que	PRQ	PRQ	_	14	dep	_	_	26.040001	26.059999	EDI
+12	on	on	CLS	CLS	_	14	subj	_	_	26.070000	26.090000	EDI
+13	a	avoir	VRB	VRB	_	14	aux	_	_	26.100000	26.120001	EDI
+14	revu	revoir	VPP	VPP	_	10	dep	_	_	26.170000	26.250000	EDI
+15	après	après	PRE	PRE	_	14	dep	_	_	26.299999	26.450001	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-17
+# text = non tu sais
+1	non	non	INT	INT	_	3	dm	_	_	27.900000	28.090000	EDI
+2	tu	tu	CLS	CLS	_	3	subj	_	_	28.549999	28.600000	EDI
+3	sais	savoir	VRB	VRB	_	0	root	_	_	28.730000	29.059999	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-18
+# text = c'est oui
+1	c'	ce	CLS	CLS	_	2	subj	_	_	29.070000	29.129999	MIC
+2	est	être	VRB	VRB	_	0	root	_	_	29.139999	29.160000	MIC
+3	oui	oui	INT	INT	_	2	dm	_	_	29.219999	29.430000	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-19
+# text = mais si quelqu' un les a si quelqu' un les a enlevés entre temps depuis hier la salle a été utilisée
+1	mais	mais	COO	COO	_	18	mark	_	_	29.440001	29.600000	MIC
+2	si	si	CSU	CSU	_	18	periph	_	_	29.610001	29.680000	MIC
+3	quelqu' un	quelqu'un	PRO	PRO	_	5	subj	_	_	29.690001	29.990000	MIC
+4	les	le	CLI	CLI	_	5	dep	_	_	30.000000	30.230000	MIC
+5	a	avoir	VRB	VRB	_	2	dep	_	_	30.240000	30.430000	MIC
+6	si	si	CSU	CSU	_	2	para	_	_	30.440001	30.559999	MIC
+7	quelqu' un	quelqu'un	PRO	PRO	_	10	subj	_	_	30.570000	30.879999	MIC
+8	les	le	CLI	CLI	_	10	dep	_	_	30.889999	31.100000	MIC
+9	a	avoir	VRB	VRB	_	10	aux	_	_	31.110001	31.330000	MIC
+10	enlevés	enlever	VPP	VPP	_	6	dep	_	_	31.340000	31.959999	MIC
+11	entre temps	entre temps	ADV	ADV	_	10	dep	_	_	32.189999	32.590000	MIC
+12	depuis	depuis	PRE	PRE	_	10	dep	_	_	33.430000	33.720001	MIC
+13	hier	hier	ADV	ADV	_	12	dep	_	_	33.730000	33.880001	MIC
+14	la	le	DET	DET	_	15	spe	_	_	34.459999	34.619999	MIC
+15	salle	salle	NOM	NOM	_	18	subj	_	_	34.630001	34.799999	MIC
+16	a	avoir	VRB	VRB	_	17	aux	_	_	34.810001	34.830002	MIC
+17	été	être	VPP	VPP	_	18	aux	_	_	34.840000	34.980000	MIC
+18	utilisée	utiliser	VPP	VPP	_	0	root	_	_	34.990002	35.410000	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-20
+# text = et bé il y a eu cours juste
+1	et	et	COO	COO	_	6	mark	_	_	35.799999	35.830002	MIC
+2	bé	bé	INT	INT	_	1	dm	_	_	35.840000	35.959999	MIC
+3	il	il	CLS	CLS	_	6	subj	_	_	35.970001	36.020000	MIC
+4	y	y	CLI	CLI	_	6	dep	_	_	36.029999	36.049999	MIC
+5	a	avoir	VRB	VRB	_	6	aux	_	_	36.060001	36.320000	MIC
+6	eu	avoir	VPP	VPP	_	0	root	_	_	36.330002	36.529999	MIC
+7	cours	cour	NOM	NOM	_	6	dep	_	_	36.540001	36.779999	MIC
+8	juste	juste	ADV	ADV	_	6	dep	_	_	36.790001	36.910000	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-21
+# text = après
+1	après	après	PRE	PRE	_	0	root	_	_	36.919998	37.150002	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-22
+# text = qui qui va qui va enlever les extensions
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	38.320000	38.459999	DEL
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	38.500000	38.689999	DEL
+3	va	aller	VRB	VRB	_	1	dep	_	_	38.700001	38.869999	DEL
+4	qui	qui	PRQ	PRQ	_	5	subj	_	_	39.049999	39.189999	DEL
+5	va	aller	VRB	VRB	_	3	para	_	_	39.200001	39.320000	DEL
+6	enlever	enlever	VNF	VNF	_	5	dep	_	_	39.330002	39.509998	DEL
+7	les	le	DET	DET	_	8	spe	_	_	39.520000	39.610001	DEL
+8	extensions	extension	NOM	NOM	_	6	dep	_	_	39.810001	40.200001	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-23
+# text = écoute toutes les machines sont pareilles
+1	écoute	écouter	VRB	VRB	_	5	dm	_	_	41.619999	42.189999	MIC
+2	toutes	tout	ADJ	ADJ	_	4	dep	_	_	42.400002	42.570000	MIC
+3	les	le	DET	DET	_	4	spe	_	_	42.580002	42.680000	MIC
+4	machines	machine	NOM	NOM	_	5	subj	_	_	42.689999	42.970001	MIC
+5	sont	être	VRB	VRB	_	0	root	_	_	42.980000	43.110001	MIC
+6	pareilles	pareil	ADJ	ADJ	_	5	dep	_	_	43.119999	43.430000	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-24
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	43.880001	43.910000	MIC
+2	accord	accord	NOM	NOM	_	1	dep	_	_	43.919998	44.180000	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-25
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	44.639999	44.790001	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-26
+# text = s'il y en a deux ou trois qui sont pas pareilles
+1	s'	si	CSU	CSU	_	0	root	_	_	44.799999	44.869999	MIC
+2	il	il	CLS	CLS	_	5	subj	_	_	44.880001	44.980000	MIC
+3	y	y	CLI	CLI	_	5	dep	_	_	44.990002	45.009998	MIC
+4	en	en	CLI	CLI	_	5	dep	_	_	45.020000	45.040001	MIC
+5	a	avoir	VRB	VRB	_	1	dep	_	_	45.049999	45.070000	MIC
+6	deux	deux	NUM	NUM	_	5	dep	_	_	45.080002	45.150002	MIC
+7	ou	ou	COO	COO	_	8	mark	_	_	45.160000	45.189999	MIC
+8	trois	trois	NUM	NUM	_	6	para	_	_	45.200001	45.470001	MIC
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	45.480000	45.529999	MIC
+10	sont	être	VRB	VRB	_	8	dep	_	_	45.540001	45.650002	MIC
+11	pas	pas	ADN	ADN	_	10	dep	_	_	45.660000	45.770000	MIC
+12	pareilles	pareil	ADJ	ADJ	_	10	dep	_	_	45.779999	45.939999	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-27
+# text = il y a
+1	il	il	CLS	CLS	_	3	subj	_	_	41.619999	41.709999	DEL
+2	y	y	CLI	CLI	_	3	dep	_	_	41.790001	42.040001	DEL
+3	a	avoir	VRB	VRB	_	0	root	_	_	42.090000	42.169998	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-28
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	43.889999	44.130001	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-29
+# text = c'est qu'elles ont été déjà modifiées
+1	c'	ce	CLS	CLS	_	2	subj	_	_	46.070000	46.130001	MIC
+2	est	être	VRB	VRB	_	0	root	_	_	46.139999	46.169998	MIC
+3	qu'	que	CSU	CSU	_	2	dep	_	_	46.180000	46.200001	MIC
+4	elles	il	CLS	CLS	_	6	subj	_	_	46.209999	46.400002	MIC
+5	ont	avoir	VRB	VRB	_	6	aux	_	_	46.410000	46.430000	MIC
+6	été	être	VPP	VPP	_	3	dep	_	_	46.439999	46.590000	MIC
+7	déjà	déjà	ADV	ADV	_	6	dep	_	_	46.599998	46.759998	MIC
+8	modifiées	modifier	ADJ	ADJ	_	6	dep	_	_	46.770000	47.139999	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-30
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	47.340000	47.360001	MIC
+2	est	être	VRB	VRB	_	0	root	_	_	47.450001	47.470001	MIC
+
+# sent_id = cefc-coralrom-fpubcv04-31
+# text = tout mh oui
+1	tout	tout	ADJ	ADJ	_	0	root	_	_	47.689999	47.990002	EDI
+2	mh	mh	INT	INT	_	1	dm	_	_	47.720001	47.990002	EDI
+3	oui	oui	INT	INT	_	2	dm	_	_	48.189999	48.259998	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-32
+# text = mais vous avez testé uniquement sur deux ou trois
+1	mais	mais	COO	COO	_	4	mark	_	_	48.270000	48.470001	EDI
+2	vous	vous	CLS	CLS	_	4	subj	_	_	48.480000	48.639999	EDI
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	48.709999	48.849998	EDI
+4	testé	tester	VPP	VPP	_	0	root	_	_	48.930000	49.230000	EDI
+5	uniquement	uniquement	ADV	ADV	_	4	dep	_	_	49.240002	49.650002	EDI
+6	sur	sur	PRE	PRE	_	4	dep	_	_	49.759998	49.869999	EDI
+7	deux	deux	NUM	NUM	_	6	dep	_	_	49.919998	50.110001	EDI
+8	ou	ou	COO	COO	_	9	mark	_	_	50.290001	50.419998	EDI
+9	trois	trois	NUM	NUM	_	7	para	_	_	50.430000	50.660000	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-33
+# text = ou alors sur certaines ça marché
+1	ou	ou	COO	COO	_	6	mark	_	_	50.669998	50.700001	EDI
+2	alors	alors	ADV	ADV	_	6	periph	_	_	50.709999	50.820000	EDI
+3	sur	sur	PRE	PRE	_	6	periph	_	_	50.939999	51.070000	EDI
+4	certaines	certain	DET	DET	_	6	periph	_	_	51.130001	51.369999	EDI
+5	ça	ça	PRO	PRO	_	6	subj	_	_	51.570000	51.790001	EDI
+6	marché	marcher	VPP	VPP	_	0	root	_	_	51.799999	52.200001	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-34
+# text = le poste maître euh
+1	le	le	DET	DET	_	2	spe	_	_	52.700001	52.830002	DEL
+2	poste	poste	NOM	NOM	_	0	root	_	_	52.840000	53.180000	DEL
+3	maître	maître	NOM	NOM	_	2	dep	_	_	53.189999	54.200001	DEL
+4	euh	euh	INT	INT	_	3	dm	_	_	54.290001	54.310001	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-35
+# text = et les autres vous a~ il y en a sur lesquelles
+1	et	et	COO	COO	_	5	mark	_	_	54.610001	54.700001	EDI
+2	les	le	DET	DET	_	3	spe	_	_	54.709999	54.930000	EDI
+3	autres	autres	NOM	NOM	_	5	periph	_	_	54.970001	55.130001	EDI
+4	vous	vous	CLS	CLS	_	5	subj	_	_	55.139999	55.299999	EDI
+5	a~	a~	VRB	VRB	_	0	root	_	_	55.310001	55.330002	EDI
+6	il	il	CLS	CLS	_	9	subj	_	_	55.410000	55.529999	EDI
+7	y	y	CLI	CLI	_	9	dep	_	_	55.540001	55.599998	EDI
+8	en	en	CLI	CLI	_	9	dep	_	_	55.610001	55.639999	EDI
+9	a	avoir	VRB	VRB	_	5	dep	_	_	55.650002	55.669998	EDI
+10	sur	sur	PRE	PRE	_	9	dep	_	_	55.790001	55.970001	EDI
+11	lesquelles	lequel	PRQ	PRQ	_	10	dep	_	_	55.980000	56.459999	EDI
+
+# sent_id = cefc-coralrom-fpubcv04-36
+# text = et il y avait
+1	et	et	COO	COO	_	4	mark	_	_	55.759998	55.779999	DEL
+2	il	il	CLS	CLS	_	4	subj	_	_	55.860001	56.000000	DEL
+3	y	y	CLI	CLI	_	4	dep	_	_	56.009998	56.029999	DEL
+4	avait	avoir	VRB	VRB	_	0	root	_	_	56.040001	56.400002	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-37
+# text = et et il me semble que c'était quasiment sur toutes les machines puisque j'ai vu que les étudiants euh
+1	et	et	COO	COO	_	5	mark	_	_	56.580002	56.810001	DEL
+2	et	et	COO	COO	_	1	para	_	_	57.119999	57.160000	DEL
+3	il	il	CLS	CLS	_	5	subj	_	_	57.169998	57.220001	DEL
+4	me	me	CLI	CLI	_	5	dep	_	_	57.230000	57.340000	DEL
+5	semble	sembler	VRB	VRB	_	0	root	_	_	57.349998	57.590000	DEL
+6	que	que	CSU	CSU	_	5	dep	_	_	57.639999	57.660000	DEL
+7	c'	ce	CLS	CLS	_	8	subj	_	_	57.669998	57.740002	DEL
+8	était	être	VRB	VRB	_	6	dep	_	_	57.750000	57.889999	DEL
+9	quasiment	quasiment	ADV	ADV	_	8	dep	_	_	57.900002	58.290001	DEL
+10	sur	sur	PRE	PRE	_	8	dep	_	_	58.299999	58.380001	DEL
+11	toutes	tout	ADJ	ADJ	_	13	dep	_	_	58.560001	58.650002	DEL
+12	les	le	DET	DET	_	13	spe	_	_	58.660000	58.740002	DEL
+13	machines	machine	NOM	NOM	_	10	dep	_	_	58.750000	59.029999	DEL
+14	puisque	puisque	CSU	CSU	_	8	periph	_	_	59.180000	59.430000	DEL
+15	j'	je	CLS	CLS	_	17	subj	_	_	59.520000	59.540001	DEL
+16	ai	avoir	VRB	VRB	_	17	aux	_	_	59.599998	59.619999	DEL
+17	vu	voir	VPP	VPP	_	14	dep	_	_	59.880001	60.009998	DEL
+18	que	que	CSU	CSU	_	17	dep	_	_	60.060001	60.080002	DEL
+19	les	le	DET	DET	_	20	spe	_	_	60.090000	60.169998	DEL
+20	étudiants	étudiant	NOM	NOM	_	18	dep	_	_	60.180000	60.360001	DEL
+21	euh	euh	INT	INT	_	20	dm	_	_	60.369999	60.389999	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-38
+# text = donc c'est juste pour ça quoi bon
+1	donc	donc	ADV	ADV	_	3	periph	_	_	62.740002	62.880001	DEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	62.889999	62.959999	DEL
+3	est	être	VRB	VRB	_	0	root	_	_	62.970001	63.009998	DEL
+4	juste	juste	ADV	ADV	_	3	dep	_	_	63.020000	63.240002	DEL
+5	pour	pour	PRE	PRE	_	3	dep	_	_	63.320000	63.410000	DEL
+6	ça	ça	PRO	PRO	_	5	dep	_	_	63.419998	63.610001	DEL
+7	quoi	quoi	PRQ	PRQ	_	3	dep	_	_	63.669998	63.759998	DEL
+8	bon	bon	INT	INT	_	7	dm	_	_	63.770000	63.919998	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-39
+# text = s c'est je trouve ça bizarre puisque il se passe des trucs
+1	s	s	X	X	_	3	dep	_	_	64.550003	64.760002	DEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	65.250000	65.330002	DEL
+3	est	être	VRB	VRB	_	0	root	_	_	65.339996	65.449997	DEL
+4	je	je	CLS	CLS	_	5	subj	_	_	65.459999	65.500000	DEL
+5	trouve	trouver	VRB	VRB	_	3	para	_	_	65.510002	65.620003	DEL
+6	ça	ça	PRO	PRO	_	5	dep	_	_	65.629997	65.800003	DEL
+7	bizarre	bizarre	ADJ	ADJ	_	5	dep	_	_	65.809998	66.169998	DEL
+8	puisque	puisque	CSU	CSU	_	5	periph	_	_	66.180000	66.389999	DEL
+9	il	il	CLS	CLS	_	11	subj	_	_	66.440002	66.529999	DEL
+10	se	se	CLI	CLI	_	11	dep	_	_	66.650002	66.669998	DEL
+11	passe	passer	VRB	VRB	_	8	dep	_	_	66.680000	66.809998	DEL
+12	des	de	PRE	PRE	_	11	dep	_	_	66.849998	66.910004	DEL
+13	trucs	truc	NOM	NOM	_	12	dep	_	_	67.040001	67.260002	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-40
+# text = et tu as l'impression qu'il y a des choses qui se dérèglent
+1	et	et	COO	COO	_	3	mark	_	_	67.269997	67.339996	DEL
+2	tu	tu	CLS	CLS	_	3	subj	_	_	67.419998	67.480003	DEL
+3	as	avoir	VRB	VRB	_	0	root	_	_	67.620003	67.639999	DEL
+4	l'	le	DET	DET	_	5	spe	_	_	67.650002	67.669998	DEL
+5	impression	impression	NOM	NOM	_	3	dep	_	_	67.680000	67.989998	DEL
+6	qu'	que	PRQ	PRQ	_	9	dep	_	_	68.000000	68.019997	DEL
+7	il	il	CLS	CLS	_	9	subj	_	_	68.029999	68.080002	DEL
+8	y	y	CLI	CLI	_	9	dep	_	_	68.089996	68.110001	DEL
+9	a	avoir	VRB	VRB	_	5	dep	_	_	68.120003	68.139999	DEL
+10	des	de	PRE	PRE	_	9	dep	_	_	68.150002	68.250000	DEL
+11	choses	chose	NOM	NOM	_	10	dep	_	_	68.260002	68.400002	DEL
+12	qui	qui	PRQ	PRQ	_	14	subj	_	_	68.410004	68.459999	DEL
+13	se	se	CLI	CLI	_	14	dep	_	_	68.540001	68.580002	DEL
+14	dérèglent	dérégler	VRB	VRB	_	11	dep	_	_	68.589996	68.790001	DEL
+
+# sent_id = cefc-coralrom-fpubcv04-41
+# text = c'est bizarre
+1	c'	ce	CLS	CLS	_	2	subj	_	_	64.660004	64.680000	MIC
+2	est	être	VRB	VRB	_	0	root	_	_	64.690002	64.739998	MIC
+3	bizarre	bizarre	ADJ	ADJ	_	2	dep	_	_	64.919998	65.129997	MIC
+

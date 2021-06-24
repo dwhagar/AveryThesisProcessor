@@ -1,0 +1,2597 @@
+# sent_id = cefc-crfp-PRI-PER-2-1
+# text = et personnellement je m'appelle NNAAMMEE NNAAMMEE
+1	et	et	COO	COO	_	5	mark	_	_	0.080000	0.130000	L1
+2	personnellement	personnellement	ADV	ADV	_	5	periph	_	_	0.170000	0.950000	L1
+3	je	je	CLS	CLS	_	5	subj	_	_	0.960000	1.110000	L1
+4	m'	me	CLI	CLI	_	5	dep	_	_	1.120000	1.230000	L1
+5	appelle	appeler	VRB	VRB	_	0	root	_	_	1.240000	1.580000	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	1.590000	2.350000	L1
+7	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	2.400000	2.630000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-2
+# text = et je suis sculpteur
+1	et	et	COO	COO	_	3	mark	_	_	3.710000	3.750000	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	3.760000	3.880000	L1
+3	suis	être	VRB	VRB	_	0	root	_	_	3.890000	4.020000	L1
+4	sculpteur	sculpteur	NOM	NOM	_	3	dep	_	_	4.030000	4.520000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-3
+# text = pourquoi sculpteur
+1	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	7.960000	8.360000	L1
+2	sculpteur	sculpteur	NOM	NOM	_	0	root	_	_	8.370000	8.900000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-4
+# text = parce que j'aime bien la sculpture
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	10.510000	10.790000	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	10.800000	10.860000	L1
+3	aime	aimer	VRB	VRB	_	1	dep	_	_	10.870000	11.060000	L1
+4	bien	bien	ADV	ADV	_	3	dep	_	_	11.070000	11.170000	L1
+5	la	le	DET	DET	_	6	spe	_	_	11.220000	11.280000	L1
+6	sculpture	sculpture	NOM	NOM	_	3	dep	_	_	11.290000	11.780000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-5
+# text = pourquoi j'aime la sculpture
+1	pourquoi	pourquoi	PRQ	PRQ	_	3	dep	_	_	13.440000	13.820000	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	13.830000	13.950000	L1
+3	aime	aimer	VRB	VRB	_	0	root	_	_	13.960000	14.070000	L1
+4	la	le	DET	DET	_	5	spe	_	_	14.080000	14.190000	L1
+5	sculpture	sculpture	NOM	NOM	_	3	dep	_	_	14.200000	14.850000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-6
+# text = eh bien euh
+1	eh bien	eh bien	INT	INT	_	0	root	_	_	16.120001	16.650000	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	16.660000	16.790001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-7
+# text = tout d'abord
+1	tout	tout	ADJ	ADJ	_	2	dep	_	_	16.840000	16.959999	L1
+2	d'	de	PRE	PRE	_	0	root	_	_	16.969999	17.040001	L1
+3	abord	abord	NOM	NOM	_	2	dep	_	_	17.049999	17.530001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-8
+# text = je savais pas je croyais que la sculpture était faite pour les sculpteurs
+1	je	je	CLS	CLS	_	2	subj	_	_	18.010000	18.090000	L1
+2	savais	savoir	VRB	VRB	_	5	dm	_	_	18.100000	18.490000	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	18.500000	18.840000	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	18.850000	18.959999	L1
+5	croyais	croire	VRB	VRB	_	0	root	_	_	18.969999	19.180000	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	19.190001	19.350000	L1
+7	la	le	DET	DET	_	8	spe	_	_	19.360001	19.440001	L1
+8	sculpture	sculpture	NOM	NOM	_	10	subj	_	_	19.450001	20.100000	L1
+9	était	être	VRB	VRB	_	10	aux	_	_	20.889999	21.129999	L1
+10	faite	faire	VPP	VPP	_	6	dep	_	_	21.139999	21.590000	L1
+11	pour	pour	PRE	PRE	_	10	dep	_	_	21.770000	21.940001	L1
+12	les	le	DET	DET	_	13	spe	_	_	21.950001	22.049999	L1
+13	sculpteurs	sculpteur	NOM	NOM	_	11	dep	_	_	22.059999	22.600000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-9
+# text = la peinture pour les peintres
+1	la	le	DET	DET	_	2	spe	_	_	23.459999	23.570000	L1
+2	peinture	peinture	NOM	NOM	_	0	root	_	_	23.580000	24.129999	L1
+3	pour	pour	PRE	PRE	_	2	dep	_	_	24.180000	24.360001	L1
+4	les	le	DET	DET	_	5	spe	_	_	24.370001	24.510000	L1
+5	peintres	peintre	NOM	NOM	_	3	dep	_	_	24.520000	24.940001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-10
+# text = et je savais pas vraiment profondément que quoi qu'on fasse dans la vie fallait apprendre
+1	et	et	COO	COO	_	3	mark	_	_	26.950001	27.120001	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	27.129999	27.530001	L1
+3	savais	savoir	VRB	VRB	_	0	root	_	_	27.540001	27.730000	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	27.740000	27.809999	L1
+5	vraiment	vraiment	ADV	ADV	_	3	dep	_	_	28.299999	28.900000	L1
+6	profondément	profondément	ADV	ADV	_	3	dep	_	_	29.010000	29.860001	L1
+7	que	que	CSU	CSU	_	3	dep	_	_	29.870001	30.120001	L1
+8	quoi	quoi	PRQ	PRQ	_	15	subj	_	_	31.330000	31.500000	L1
+9	qu'	que	CSU	CSU	_	8	para	_	_	31.510000	31.530001	L1
+10	on	on	CLS	CLS	_	11	subj	_	_	31.540001	31.660000	L1
+11	fasse	faire	VRB	VRB	_	9	dep	_	_	31.670000	32.009998	L1
+12	dans	dans	PRE	PRE	_	11	dep	_	_	32.020000	32.099998	L1
+13	la	le	DET	DET	_	14	spe	_	_	32.110001	32.209999	L1
+14	vie	vie	NOM	NOM	_	12	dep	_	_	32.220001	32.439999	L1
+15	fallait	falloir	VRB	VRB	_	7	dep	_	_	32.450001	32.680000	L1
+16	apprendre	apprendre	VNF	VNF	_	15	dep	_	_	32.689999	33.040001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-11
+# text = et je pensais que apprendre ne suffisait pas pour être sculpteur
+1	et	et	COO	COO	_	3	mark	_	_	37.459999	37.810001	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	38.470001	38.490002	L1
+3	pensais	penser	VRB	VRB	_	0	root	_	_	38.500000	38.709999	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	38.720001	38.930000	L1
+5	apprendre	apprendre	VNF	VNF	_	7	subj	_	_	39.180000	39.930000	L1
+6	ne	ne	CLN	CLN	_	7	dep	_	_	39.939999	40.049999	L1
+7	suffisait	suffire	VRB	VRB	_	4	dep	_	_	40.060001	40.660000	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	40.669998	40.950001	L1
+9	pour	pour	PRE	PRE	_	7	dep	_	_	40.959999	41.110001	L1
+10	être	être	VNF	VNF	_	9	dep	_	_	41.119999	41.290001	L1
+11	sculpteur	sculpteur	NOM	NOM	_	10	dep	_	_	41.299999	41.840000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-12
+# text = je pensais qu'on naissait qu'on naissait euh la profession euh que l'on exerçait
+1	je	je	CLS	CLS	_	2	subj	_	_	41.849998	41.939999	L1
+2	pensais	penser	VRB	VRB	_	0	root	_	_	41.950001	42.310001	L1
+3	qu'	que	CSU	CSU	_	2	dep	_	_	42.320000	42.360001	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	42.369999	42.419998	L1
+5	naissait	naître	VRB	VRB	_	3	dep	_	_	42.430000	43.130001	L1
+6	qu'	que	CSU	CSU	_	3	para	_	_	45.320000	45.360001	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	45.419998	45.500000	L1
+8	naissait	naître	VRB	VRB	_	6	dep	_	_	45.509998	46.130001	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	46.139999	46.830002	L1
+10	la	le	DET	DET	_	11	spe	_	_	46.840000	46.980000	L1
+11	profession	profession	NOM	NOM	_	8	dep	_	_	46.990002	47.880001	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	47.889999	47.950001	L1
+13	que	que	CSU	CSU	_	11	dep	_	_	48.049999	48.119999	L1
+14	l'	le	DET	DET	_	16	dep	_	_	48.130001	48.169998	L1
+15	on	on	CLS	CLS	_	16	subj	_	_	48.180000	48.290001	L1
+16	exerçait	exercer	VRB	VRB	_	13	dep	_	_	48.299999	48.759998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-13
+# text = et je me suis rendu compte que qu'en apprenant
+1	et	et	COO	COO	_	5	mark	_	_	50.980000	52.029999	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	54.400002	54.400002	L1
+3	me	me	CLI	CLI	_	5	dep	_	_	54.400002	54.400002	L1
+4	suis	être	VRB	VRB	_	5	aux	_	_	54.400002	54.400002	L1
+5	rendu	rendre	VPP	VPP	_	0	root	_	_	54.400002	54.400002	L1
+6	compte	compte	NOM	NOM	_	5	dep	_	_	54.400002	54.400002	L1
+7	que	que	CSU	CSU	_	5	dep	_	_	54.400002	54.400002	L1
+8	qu'	que	CSU	CSU	_	7	para	_	_	54.799999	54.820000	L1
+9	en	en	PRE	PRE	_	8	dep	_	_	54.830002	54.939999	L1
+10	apprenant	apprendre	VPR	VPR	_	9	dep	_	_	54.990002	55.470001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-14
+# text = on pouvait devenir
+1	on	on	CLS	CLS	_	2	subj	_	_	55.480000	55.669998	L1
+2	pouvait	pouvoir	VRB	VRB	_	0	root	_	_	55.680000	55.919998	L1
+3	devenir	devenir	VNF	VNF	_	2	dep	_	_	55.930000	56.490002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-15
+# text = ce qu'on voulait être à partir du moment où on était intéressé par la chose
+1	ce	ce	PRO	PRO	_	0	root	_	_	57.709999	57.849998	L1
+2	qu'	que	PRQ	PRQ	_	4	dep	_	_	57.860001	57.950001	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	57.959999	58.099998	L1
+4	voulait	vouloir	VRB	VRB	_	1	dep	_	_	58.110001	58.439999	L1
+5	être	être	VNF	VNF	_	4	dep	_	_	58.450001	58.689999	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	59.150002	59.290001	L1
+7	partir	partir	VNF	VNF	_	6	dep	_	_	59.299999	59.680000	L1
+8	du	de+le	PRE	PRE	_	7	dep	_	_	59.689999	59.750000	L1
+9	moment	moment	NOM	NOM	_	8	dep	_	_	59.759998	60.220001	L1
+10	où	où	PRQ	PRQ	_	13	dep	_	_	60.320000	60.529999	L1
+11	on	on	CLS	CLS	_	13	subj	_	_	62.610001	62.980000	L1
+12	était	être	VRB	VRB	_	13	aux	_	_	62.990002	63.480000	L1
+13	intéressé	intéresser	VPP	VPP	_	9	dep	_	_	63.490002	63.950001	L1
+14	par	par	PRE	PRE	_	13	dep	_	_	63.959999	64.230003	L1
+15	la	le	DET	DET	_	16	spe	_	_	64.239998	64.320000	L1
+16	chose	chose	NOM	NOM	_	14	dep	_	_	64.330002	64.790001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-16
+# text = et qu'on le faisait même pas bien normalement quoi simplement et normalement
+1	et	et	COO	COO	_	2	mark	_	_	65.620003	65.690002	L1
+2	qu'	que	CSU	CSU	_	0	root	_	_	65.699997	65.739998	L1
+3	on	on	CLS	CLS	_	5	subj	_	_	65.750000	65.879997	L1
+4	le	le	CLI	CLI	_	5	dep	_	_	65.889999	65.980003	L1
+5	faisait	faire	VRB	VRB	_	2	dep	_	_	65.989998	66.629997	L1
+6	même	même	ADV	ADV	_	7	dep	_	_	68.830002	69.419998	L1
+7	pas	pas	ADN	ADN	_	8	dep	_	_	69.430000	69.730003	L1
+8	bien	bien	ADV	ADV	_	5	dep	_	_	69.739998	70.070000	L1
+9	normalement	normalement	ADV	ADV	_	5	dep	_	_	70.080002	70.550003	L1
+10	quoi	quoi	INT	INT	_	9	dm	_	_	70.559998	70.680000	L1
+11	simplement	simplement	ADV	ADV	_	5	dep	_	_	71.360001	71.940002	L1
+12	et	et	COO	COO	_	13	mark	_	_	71.949997	71.980003	L1
+13	normalement	normalement	ADV	ADV	_	2	para	_	_	71.989998	72.430000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-17
+# text = donc je ne savais pas que j'étais sculpteur tout ça pour dire que je savais pas que j'étais sculpteur
+1	donc	donc	ADV	ADV	_	4	periph	_	_	74.139999	74.480003	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	74.489998	74.629997	L1
+3	ne	ne	CLN	CLN	_	4	dep	_	_	74.639999	74.750000	L1
+4	savais	savoir	VRB	VRB	_	0	root	_	_	74.760002	74.870003	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	74.879997	74.940002	L1
+6	que	que	CSU	CSU	_	4	dep	_	_	74.949997	74.970001	L1
+7	j'	je	CLS	CLS	_	8	subj	_	_	74.980003	75.019997	L1
+8	étais	être	VRB	VRB	_	6	dep	_	_	75.029999	75.199997	L1
+9	sculpteur	sculpteur	NOM	NOM	_	8	dep	_	_	75.209999	75.720001	L1
+10	tout	tout	ADJ	ADJ	_	8	dep	_	_	75.889999	75.940002	L1
+11	ça	ça	PRO	PRO	_	8	periph	_	_	75.949997	76.089996	L1
+12	pour	pour	PRE	PRE	_	8	dep	_	_	76.099998	76.269997	L1
+13	dire	dire	VNF	VNF	_	12	dep	_	_	76.279999	76.519997	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	76.529999	76.580002	L1
+15	je	je	CLS	CLS	_	16	subj	_	_	76.589996	76.650002	L1
+16	savais	savoir	VRB	VRB	_	14	dep	_	_	76.660004	76.860001	L1
+17	pas	pas	ADN	ADN	_	16	dep	_	_	76.870003	76.970001	L1
+18	que	que	CSU	CSU	_	16	dep	_	_	76.980003	77.089996	L1
+19	j'	je	CLS	CLS	_	20	subj	_	_	77.099998	77.199997	L1
+20	étais	être	VRB	VRB	_	18	dep	_	_	77.209999	77.360001	L1
+21	sculpteur	sculpteur	NOM	NOM	_	20	dep	_	_	77.370003	77.750000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-18
+# text = et puis un jour par hasard je faisais de la peinture parce que la peinture je trouvais que c'était assez facile parce qu'il suffisait d'aligner des des coups de pinceau et des coups de crayon
+1	et puis	et puis	COO	COO	_	3	mark	_	_	80.580002	80.959999	L1
+2	un	un	DET	DET	_	3	spe	_	_	80.970001	80.989998	L1
+3	jour	jour	NOM	NOM	_	7	periph	_	_	81.000000	81.260002	L1
+4	par	par	PRE	PRE	_	3	dep	_	_	82.330002	82.510002	L1
+5	hasard	hasard	NOM	NOM	_	4	dep	_	_	82.519997	82.860001	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	85.220001	85.339996	L1
+7	faisais	faire	VRB	VRB	_	0	root	_	_	85.349998	86.040001	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	86.050003	86.260002	L1
+9	la	le	DET	DET	_	10	spe	_	_	86.940002	86.989998	L1
+10	peinture	peinture	NOM	NOM	_	8	dep	_	_	87.610001	87.860001	L1
+11	parce que	parce que	CSU	CSU	_	7	dep	_	_	88.080002	88.290001	L1
+12	la	le	DET	DET	_	13	spe	_	_	88.300003	88.440002	L1
+13	peinture	peinture	NOM	NOM	_	15	periph	_	_	88.449997	88.879997	L1
+14	je	je	CLS	CLS	_	15	subj	_	_	88.889999	89.029999	L1
+15	trouvais	trouver	VRB	VRB	_	11	dep	_	_	89.040001	89.309998	L1
+16	que	que	CSU	CSU	_	15	dep	_	_	89.320000	89.440002	L1
+17	c'	ce	CLS	CLS	_	18	subj	_	_	89.449997	89.519997	L1
+18	était	être	VRB	VRB	_	16	dep	_	_	89.529999	89.709999	L1
+19	assez	assez	ADV	ADV	_	20	dep	_	_	89.720001	89.940002	L1
+20	facile	facile	ADJ	ADJ	_	18	dep	_	_	89.949997	90.410004	L1
+21	parce qu'	parce que	CSU	CSU	_	18	dep	_	_	90.470001	90.639999	L1
+22	il	il	CLS	CLS	_	23	subj	_	_	90.650002	90.699997	L1
+23	suffisait	suffire	VRB	VRB	_	21	dep	_	_	90.709999	91.150002	L1
+24	d'	de	PRE	PRE	_	23	dep	_	_	91.160004	91.239998	L1
+25	aligner	aligner	VNF	VNF	_	24	dep	_	_	91.250000	91.620003	L1
+26	des	de	PRE	PRE	_	25	dep	_	_	91.730003	91.820000	L1
+27	des	de	PRE	PRE	_	26	para	_	_	92.070000	92.180000	L1
+28	coups	coup	NOM	NOM	_	27	dep	_	_	92.220001	92.330002	L1
+29	de	de	PRE	PRE	_	28	dep	_	_	92.339996	92.470001	L1
+30	pinceau	pinceau	NOM	NOM	_	29	dep	_	_	92.480003	92.930000	L1
+31	et	et	COO	COO	_	32	mark	_	_	92.940002	92.959999	L1
+32	des	de	PRE	PRE	_	29	para	_	_	92.970001	93.070000	L1
+33	coups	coup	NOM	NOM	_	32	dep	_	_	93.110001	93.190002	L1
+34	de	de	PRE	PRE	_	33	dep	_	_	93.199997	93.309998	L1
+35	crayon	crayon	NOM	NOM	_	34	dep	_	_	93.360001	93.709999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-19
+# text = bon étant assez habile de mes mains je pouvais réaliser des petits dessins sympathiques
+1	bon	bon	INT	INT	_	4	dm	_	_	95.269997	95.589996	L1
+2	étant	être	VPR	VPR	_	4	aux	_	_	95.599998	95.940002	L1
+3	assez	assez	ADV	ADV	_	4	dep	_	_	96.010002	96.910004	L1
+4	habile	habile	ADJ	ADJ	_	9	periph	_	_	98.010002	98.440002	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	98.449997	98.550003	L1
+6	mes	son	DET	DET	_	7	spe	_	_	98.559998	98.730003	L1
+7	mains	main	NOM	NOM	_	5	dep	_	_	98.739998	98.970001	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	99.650002	99.839996	L1
+9	pouvais	pouvoir	VRB	VRB	_	0	root	_	_	99.849998	100.110001	L1
+10	réaliser	réaliser	VNF	VNF	_	9	dep	_	_	100.120003	100.570000	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	100.580002	100.690002	L1
+12	petits	petit	ADJ	ADJ	_	13	dep	_	_	100.699997	100.879997	L1
+13	dessins	dessin	NOM	NOM	_	11	dep	_	_	100.889999	101.300003	L1
+14	sympathiques	sympathique	ADJ	ADJ	_	13	dep	_	_	101.629997	102.139999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-20
+# text = donc je croyais que comme j'étais pas peintre je ne pourrais jamais mettre beaucoup de couleu de couleur
+1	donc	donc	ADV	ADV	_	3	periph	_	_	102.900002	103.099998	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	103.110001	103.160004	L1
+3	croyais	croire	VRB	VRB	_	0	root	_	_	103.169998	103.620003	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	103.629997	103.980003	L1
+5	comme	comme	CSU	CSU	_	12	periph	_	_	104.690002	104.879997	L1
+6	j'	je	CLS	CLS	_	7	subj	_	_	104.889999	104.959999	L1
+7	étais	être	VRB	VRB	_	5	dep	_	_	104.970001	105.169998	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	105.180000	105.309998	L1
+9	peintre	peintre	NOM	NOM	_	7	dep	_	_	105.320000	105.680000	L1
+10	je	je	CLS	CLS	_	12	subj	_	_	105.690002	105.900002	L1
+11	ne	ne	CLN	CLN	_	12	dep	_	_	105.910004	105.989998	L1
+12	pourrais	pouvoir	VRB	VRB	_	4	dep	_	_	106.059998	106.209999	L1
+13	jamais	jamais	ADN	ADN	_	12	dep	_	_	106.220001	106.459999	L1
+14	mettre	mettre	VNF	VNF	_	12	dep	_	_	106.470001	106.739998	L1
+15	beaucoup	beaucoup	ADV	ADV	_	14	dep	_	_	106.750000	106.989998	L1
+16	de	de	PRE	PRE	_	14	dep	_	_	107.000000	107.099998	L1
+17	couleu	couleu	NOM	NOM	_	16	dep	_	_	107.220001	107.400002	L1
+18	de	de	PRE	PRE	_	17	dep	_	_	107.650002	107.669998	L1
+19	couleur	couleur	NOM	NOM	_	18	dep	_	_	107.680000	108.059998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-21
+# text = donc je me suis dit tu vas faire de la peinture
+1	donc	donc	ADV	ADV	_	5	periph	_	_	108.330002	108.529999	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	108.540001	108.559998	L1
+3	me	me	CLI	CLI	_	5	dep	_	_	108.570000	108.589996	L1
+4	suis	être	VRB	VRB	_	5	aux	_	_	108.599998	108.930000	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	108.940002	109.010002	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	110.449997	110.620003	L1
+7	vas	aller	VRB	VRB	_	5	dep	_	_	110.629997	110.940002	L1
+8	faire	faire	VNF	VNF	_	7	dep	_	_	111.029999	111.489998	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	111.500000	111.519997	L1
+10	la	le	DET	DET	_	11	spe	_	_	111.529999	111.589996	L1
+11	peinture	peinture	NOM	NOM	_	9	dep	_	_	111.599998	111.889999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-22
+# text = et puis j'en ai eu marre de faire de la peinture
+1	et puis	et puis	COO	COO	_	5	mark	_	_	112.309998	112.550003	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	112.559998	112.699997	L1
+3	en	en	CLI	CLI	_	5	dep	_	_	112.709999	112.779999	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	112.790001	112.910004	L1
+5	eu	avoir	VPP	VPP	_	0	root	_	_	112.919998	112.980003	L1
+6	marre	marre	ADV	ADV	_	5	dep	_	_	112.989998	113.260002	L1
+7	de	de	PRE	PRE	_	5	dep	_	_	113.269997	113.339996	L1
+8	faire	faire	VNF	VNF	_	7	dep	_	_	113.349998	113.570000	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	113.580002	113.760002	L1
+10	la	le	DET	DET	_	11	spe	_	_	113.830002	113.900002	L1
+11	peinture	peinture	NOM	NOM	_	9	dep	_	_	113.910004	114.220001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-23
+# text = parce que c'est quand même j'avais pas envie de reproduire
+1	parce que	parce que	CSU	CSU	_	7	periph	_	_	115.180000	115.419998	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	115.430000	115.500000	L1
+3	est	être	VRB	VRB	_	1	dep	_	_	115.510002	115.550003	L1
+4	quand	quand	CSU	CSU	_	3	dep	_	_	115.610001	115.709999	L1
+5	même	même	ADV	ADV	_	4	morph	_	_	115.720001	116.250000	L1
+6	j'	je	CLS	CLS	_	7	subj	_	_	117.739998	117.839996	L1
+7	avais	avoir	VRB	VRB	_	0	root	_	_	117.849998	117.959999	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	117.970001	118.110001	L1
+9	envie	envie	NOM	NOM	_	7	dep	_	_	118.120003	118.339996	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	118.349998	118.440002	L1
+11	reproduire	reproduire	VNF	VNF	_	10	dep	_	_	118.449997	118.919998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-24
+# text = je trouvais que c'était plat que les cartes postales étaient beaucoup plus jolies que les films c'était très beau
+1	je	je	CLS	CLS	_	2	subj	_	_	118.930000	119.040001	L1
+2	trouvais	trouver	VRB	VRB	_	0	root	_	_	119.050003	119.349998	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	119.360001	119.419998	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	119.430000	119.510002	L1
+5	était	être	VRB	VRB	_	3	dep	_	_	119.519997	119.720001	L1
+6	plat	plat	ADJ	ADJ	_	5	dep	_	_	119.809998	120.099998	L1
+7	que	que	CSU	CSU	_	3	para	_	_	121.339996	121.400002	L1
+8	les	le	DET	DET	_	9	spe	_	_	121.410004	121.529999	L1
+9	cartes	carte	NOM	NOM	_	11	subj	_	_	121.540001	121.800003	L1
+10	postales	postal	ADJ	ADJ	_	9	dep	_	_	121.809998	122.199997	L1
+11	étaient	être	VRB	VRB	_	7	dep	_	_	122.209999	122.400002	L1
+12	beaucoup	beaucoup	ADV	ADV	_	13	dep	_	_	122.410004	122.669998	L1
+13	plus	plus	ADV	ADV	_	14	dep	_	_	122.680000	122.839996	L1
+14	jolies	joli	ADJ	ADJ	_	11	dep	_	_	122.849998	123.150002	L1
+15	que	que	CSU	CSU	_	7	para	_	_	124.540001	124.680000	L1
+16	les	le	DET	DET	_	17	spe	_	_	124.690002	124.900002	L1
+17	films	film	NOM	NOM	_	19	periph	_	_	124.910004	125.190002	L1
+18	c'	ce	CLS	CLS	_	19	subj	_	_	125.629997	125.709999	L1
+19	était	être	VRB	VRB	_	15	dep	_	_	125.720001	125.910004	L1
+20	très	très	ADV	ADV	_	21	dep	_	_	125.919998	126.099998	L1
+21	beau	beau	ADJ	ADJ	_	19	dep	_	_	126.110001	126.300003	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-25
+# text = alors je me suis dit c'est pas la peine que tu fasses de la peinture si tu ouvres
+1	alors	alors	ADV	ADV	_	5	periph	_	_	126.910004	127.050003	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	127.059998	127.080002	L1
+3	me	me	CLI	CLI	_	5	dep	_	_	127.089996	127.120003	L1
+4	suis	être	VRB	VRB	_	5	aux	_	_	127.129997	127.250000	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	127.260002	127.309998	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	127.320000	127.339996	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	127.349998	127.370003	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	127.379997	127.440002	L1
+9	la	le	DET	DET	_	10	spe	_	_	127.449997	127.519997	L1
+10	peine	peine	NOM	NOM	_	7	dep	_	_	127.529999	127.750000	L1
+11	que	que	CSU	CSU	_	10	dep	_	_	127.760002	127.839996	L1
+12	tu	tu	CLS	CLS	_	13	subj	_	_	127.849998	127.949997	L1
+13	fasses	faire	VRB	VRB	_	11	dep	_	_	127.959999	128.119995	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	128.130005	128.149994	L1
+15	la	le	DET	DET	_	16	spe	_	_	128.160004	128.259995	L1
+16	peinture	peinture	NOM	NOM	_	14	dep	_	_	128.270004	128.669998	L1
+17	si	si	CSU	CSU	_	7	dep	_	_	128.679993	128.789993	L1
+18	tu	tu	CLS	CLS	_	19	subj	_	_	128.860001	128.970001	L1
+19	ouvres	ouvrer	VRB	VRB	_	17	dep	_	_	128.979996	129.289993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-26
+# text = tu regardes par ta fenêtre
+1	tu	tu	CLS	CLS	_	2	subj	_	_	129.570007	129.639999	L1
+2	regardes	regarder	VRB	VRB	_	0	root	_	_	129.649994	129.919998	L1
+3	par	par	PRE	PRE	_	2	dep	_	_	129.929993	130.059998	L1
+4	ta	son	DET	DET	_	5	spe	_	_	130.070007	130.169998	L1
+5	fenêtre	fenêtre	NOM	NOM	_	3	dep	_	_	130.179993	130.649994	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-27
+# text = c'est c'est mille fois mieux
+1	c'	ce	CLS	CLS	_	2	subj	_	_	132.279999	132.389999	L1
+2	est	être	VRB	VRB	_	0	root	_	_	132.399994	132.470001	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	132.479996	132.550003	L1
+4	est	être	VRB	VRB	_	2	para	_	_	132.559998	132.589996	L1
+5	mille	mille	NUM	NUM	_	6	spe	_	_	132.600006	132.809998	L1
+6	fois	foi	NOM	NOM	_	4	dep	_	_	132.889999	132.990005	L1
+7	mieux	mieux	ADV	ADV	_	4	dep	_	_	133.000000	133.210007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-28
+# text = tu as toutes les couleurs qui changent toutes les cinq minutes qu'est-ce que tu vas t'emmerder à faire de la peinture
+1	tu	tu	CLS	CLS	_	2	subj	_	_	134.130005	134.199997	L1
+2	as	avoir	VRB	VRB	_	0	root	_	_	134.210007	134.229996	L1
+3	toutes	tout	ADJ	ADJ	_	5	dep	_	_	134.240005	134.500000	L1
+4	les	le	DET	DET	_	5	spe	_	_	134.509995	134.639999	L1
+5	couleurs	couleur	NOM	NOM	_	2	dep	_	_	134.649994	134.899994	L1
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	134.910004	134.979996	L1
+7	changent	changer	VRB	VRB	_	5	dep	_	_	134.990005	135.380005	L1
+8	toutes	tout	ADJ	ADJ	_	11	dep	_	_	135.389999	135.649994	L1
+9	les	le	DET	DET	_	11	spe	_	_	135.660004	135.800003	L1
+10	cinq	cinq	NUM	NUM	_	11	dep	_	_	135.809998	136.059998	L1
+11	minutes	minute	NOM	NOM	_	7	dep	_	_	136.070007	136.440002	L1
+12	qu'	que	PRQ	PRQ	_	13	dep	_	_	137.070007	137.100006	L1
+13	est-ce	est-ce	VRB	VRB	_	5	dep	_	_	137.110001	137.190002	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	137.199997	137.289993	L1
+15	tu	tu	CLS	CLS	_	16	subj	_	_	137.300003	137.399994	L1
+16	vas	aller	VRB	VRB	_	14	dep	_	_	137.410004	137.500000	L1
+17	t'	te	CLI	CLI	_	18	dep	_	_	137.509995	137.559998	L1
+18	emmerder	emmerder	VNF	VNF	_	16	dep	_	_	137.570007	137.940002	L1
+19	à	à	PRE	PRE	_	18	dep	_	_	137.949997	138.009995	L1
+20	faire	faire	VNF	VNF	_	19	dep	_	_	138.020004	138.320007	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	138.330002	138.380005	L1
+22	la	le	DET	DET	_	23	spe	_	_	138.389999	138.460007	L1
+23	peinture	peinture	NOM	NOM	_	21	dep	_	_	138.470001	139.020004	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-29
+# text = si en regardant par la fenêtre tu as autant de peinture que tu veux
+1	si	si	CSU	CSU	_	8	periph	_	_	139.460007	139.639999	L1
+2	en	en	PRE	PRE	_	8	periph	_	_	139.649994	139.710007	L1
+3	regardant	regarder	VPR	VPR	_	2	dep	_	_	139.720001	140.080002	L1
+4	par	par	PRE	PRE	_	3	dep	_	_	140.089996	140.229996	L1
+5	la	le	DET	DET	_	6	spe	_	_	140.240005	140.320007	L1
+6	fenêtre	fenêtre	NOM	NOM	_	4	dep	_	_	140.330002	140.940002	L1
+7	tu	tu	CLS	CLS	_	8	subj	_	_	141.320007	141.399994	L1
+8	as	avoir	VRB	VRB	_	0	root	_	_	141.410004	141.429993	L1
+9	autant	autant	ADV	ADV	_	8	dep	_	_	141.440002	141.610001	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	141.619995	141.779999	L1
+11	peinture	peinture	NOM	NOM	_	10	dep	_	_	141.789993	142.229996	L1
+12	que	que	CSU	CSU	_	9	dep	_	_	142.240005	142.380005	L1
+13	tu	tu	CLS	CLS	_	14	subj	_	_	142.389999	142.509995	L1
+14	veux	vouloir	VRB	VRB	_	12	dep	_	_	142.520004	142.570007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-30
+# text = bon
+1	bon	bon	INT	INT	_	0	root	_	_	145.070007	145.270004	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-31
+# text = raisonnement très simple
+1	raisonnement	raisonnement	ADV	ADV	_	3	dep	_	_	146.440002	147.139999	L1
+2	très	très	ADV	ADV	_	3	dep	_	_	147.149994	147.389999	L1
+3	simple	simple	ADJ	ADJ	_	0	root	_	_	147.399994	147.789993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-32
+# text = mais je le pense encore aujourd' hui eh
+1	mais	mais	COO	COO	_	4	mark	_	_	147.800003	147.960007	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	147.970001	148.119995	L1
+3	le	le	CLI	CLI	_	4	dep	_	_	148.130005	148.210007	L1
+4	pense	penser	VRB	VRB	_	0	root	_	_	148.220001	148.539993	L1
+5	encore	encore	ADV	ADV	_	4	dep	_	_	148.550003	148.759995	L1
+6	aujourd' hui	aujourd'hui	ADV	ADV	_	4	dep	_	_	148.770004	149.309998	L1
+7	eh	eh	INT	INT	_	6	dm	_	_	149.320007	149.339996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-33
+# text = bon et ça suffisait pas de me convaincre pour peindre
+1	bon	bon	INT	INT	_	4	dm	_	_	151.729996	152.009995	L1
+2	et	et	COO	COO	_	4	mark	_	_	152.210007	152.630005	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	152.759995	152.929993	L1
+4	suffisait	suffire	VRB	VRB	_	0	root	_	_	152.940002	153.460007	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	153.500000	153.929993	L1
+6	de	de	PRE	PRE	_	4	dep	_	_	155.339996	155.360001	L1
+7	me	me	CLI	CLI	_	8	dep	_	_	155.369995	155.600006	L1
+8	convaincre	convaincre	VNF	VNF	_	6	dep	_	_	155.610001	156.169998	L1
+9	pour	pour	PRE	PRE	_	8	dep	_	_	156.210007	156.389999	L1
+10	peindre	peindre	VNF	VNF	_	9	dep	_	_	156.399994	156.729996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-34
+# text = je ne trouvais pas su~ suffisamment d'intérêt à peindre des choses que je trouve très belles en regardant par la fenêtre ou assis sur un caillou au bord de la route au bord de la mer au bord de la montagne
+1	je	je	CLS	CLS	_	3	subj	_	_	158.699997	158.789993	L1
+2	ne	ne	CLN	CLN	_	3	dep	_	_	158.800003	159.009995	L1
+3	trouvais	trouver	VRB	VRB	_	0	root	_	_	159.020004	159.410004	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	159.419998	159.779999	L1
+5	su~	su~	X	X	_	3	dep	_	_	160.160004	160.220001	L1
+6	suffisamment	suffisamment	ADV	ADV	_	3	dep	_	_	160.410004	161.050003	L1
+7	d'	de	PRE	PRE	_	3	dep	_	_	161.059998	161.169998	L1
+8	intérêt	intérêt	NOM	NOM	_	7	dep	_	_	161.279999	161.830002	L1
+9	à	à	PRE	PRE	_	3	dep	_	_	162.309998	162.479996	L1
+10	peindre	peindre	VNF	VNF	_	9	dep	_	_	162.529999	162.869995	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	162.880005	162.960007	L1
+12	choses	chose	NOM	NOM	_	11	dep	_	_	162.970001	163.259995	L1
+13	que	que	PRQ	PRQ	_	15	dep	_	_	163.339996	163.429993	L1
+14	je	je	CLS	CLS	_	15	subj	_	_	163.440002	163.509995	L1
+15	trouve	trouver	VRB	VRB	_	12	dep	_	_	163.520004	163.750000	L1
+16	très	très	ADV	ADV	_	17	dep	_	_	163.759995	164.029999	L1
+17	belles	beau	ADJ	ADJ	_	15	dep	_	_	164.039993	164.389999	L1
+18	en	en	PRE	PRE	_	15	dep	_	_	164.750000	164.880005	L1
+19	regardant	regarder	VPR	VPR	_	18	dep	_	_	164.889999	165.169998	L1
+20	par	par	PRE	PRE	_	19	dep	_	_	165.179993	165.339996	L1
+21	la	le	DET	DET	_	22	spe	_	_	165.350006	165.399994	L1
+22	fenêtre	fenêtre	NOM	NOM	_	20	dep	_	_	165.410004	165.919998	L1
+23	ou	ou	COO	COO	_	24	mark	_	_	166.550003	166.729996	L1
+24	assis	asseoir	VPP	VPP	_	19	para	_	_	166.740005	167.130005	L1
+25	sur	sur	PRE	PRE	_	24	dep	_	_	167.139999	167.350006	L1
+26	un	un	DET	DET	_	27	spe	_	_	167.360001	167.440002	L1
+27	caillou	caillou	NOM	NOM	_	25	dep	_	_	167.490005	167.889999	L1
+28	au	à+le	PRE	PRE	_	27	dep	_	_	167.899994	167.940002	L1
+29	bord	bord	NOM	NOM	_	28	dep	_	_	167.949997	168.119995	L1
+30	de	de	PRE	PRE	_	29	dep	_	_	168.130005	168.250000	L1
+31	la	le	DET	DET	_	32	spe	_	_	168.259995	168.360001	L1
+32	route	route	NOM	NOM	_	30	dep	_	_	168.369995	168.729996	L1
+33	au	à+le	PRE	PRE	_	32	dep	_	_	168.820007	168.940002	L1
+34	bord	bord	NOM	NOM	_	33	dep	_	_	168.949997	169.059998	L1
+35	de	de	PRE	PRE	_	34	dep	_	_	169.070007	169.089996	L1
+36	la	le	DET	DET	_	37	spe	_	_	169.100006	169.169998	L1
+37	mer	mer	NOM	NOM	_	35	dep	_	_	169.179993	169.330002	L1
+38	au	à+le	PRE	PRE	_	37	dep	_	_	169.339996	169.380005	L1
+39	bord	bord	NOM	NOM	_	38	dep	_	_	169.389999	169.580002	L1
+40	de	de	PRE	PRE	_	39	dep	_	_	169.589996	169.660004	L1
+41	la	le	DET	DET	_	42	spe	_	_	169.669998	169.740005	L1
+42	montagne	montagne	NOM	NOM	_	40	dep	_	_	169.750000	170.080002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-35
+# text = donc j'ai décidé d'arrêter la peinture
+1	donc	donc	ADV	ADV	_	4	periph	_	_	172.009995	172.330002	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	172.339996	172.419998	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	172.429993	172.460007	L1
+4	décidé	décider	VPP	VPP	_	0	root	_	_	172.470001	172.809998	L1
+5	d'	de	PRE	PRE	_	4	dep	_	_	172.820007	172.860001	L1
+6	arrêter	arrêter	VNF	VNF	_	5	dep	_	_	172.869995	173.169998	L1
+7	la	le	DET	DET	_	8	spe	_	_	173.179993	173.279999	L1
+8	peinture	peinture	NOM	NOM	_	6	dep	_	_	173.289993	173.740005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-36
+# text = et quelqu' un m'a dit
+1	et	et	COO	COO	_	5	mark	_	_	175.460007	175.600006	L1
+2	quelqu' un	quelqu'un	PRO	PRO	_	5	subj	_	_	175.610001	175.880005	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	175.889999	175.960007	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	175.970001	176.050003	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	176.059998	176.190002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-37
+# text = mais si tu veux au lieu d'arrêter la peinture on pourrait essayer de faire de la de la sculpture
+1	mais	mais	COO	COO	_	11	mark	_	_	176.199997	176.440002	L1
+2	si	si	CSU	CSU	_	11	periph	_	_	176.910004	177.029999	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	177.039993	177.190002	L1
+4	veux	vouloir	VRB	VRB	_	2	dep	_	_	177.199997	177.520004	L1
+5	au lieu	au lieu	ADV	ADV	_	4	dep	_	_	177.750000	177.919998	L1
+6	d'	de	PRE	PRE	_	4	dep	_	_	177.929993	177.979996	L1
+7	arrêter	arrêter	VNF	VNF	_	6	dep	_	_	177.990005	178.279999	L1
+8	la	le	DET	DET	_	9	spe	_	_	178.289993	178.380005	L1
+9	peinture	peinture	NOM	NOM	_	7	dep	_	_	178.389999	178.899994	L1
+10	on	on	CLS	CLS	_	11	subj	_	_	180.699997	180.720001	L1
+11	pourrait	pouvoir	VRB	VRB	_	0	root	_	_	180.770004	181.240005	L1
+12	essayer	essayer	VNF	VNF	_	11	dep	_	_	181.250000	181.580002	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	181.589996	181.710007	L1
+14	faire	faire	VNF	VNF	_	13	dep	_	_	181.720001	181.899994	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	181.910004	182.080002	L1
+16	la	le	DET	DET	_	15	disflink	_	_	182.089996	182.330002	L1
+17	de	de	PRE	PRE	_	15	para	_	_	182.910004	182.990005	L1
+18	la	le	DET	DET	_	19	spe	_	_	183.000000	183.080002	L1
+19	sculpture	sculpture	NOM	NOM	_	17	dep	_	_	183.089996	183.580002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-38
+# text = j'ai dit non
+1	j'	je	CLS	CLS	_	3	subj	_	_	183.910004	183.979996	L1
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	183.990005	184.009995	L1
+3	dit	dire	VPP	VPP	_	0	root	_	_	184.020004	184.070007	L1
+4	non	non	INT	INT	_	3	dm	_	_	184.080002	184.259995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-39
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	184.270004	184.350006	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-40
+# text = la sculpture je
+1	la	le	DET	DET	_	2	spe	_	_	184.360001	184.429993	L1
+2	sculpture	sculpture	NOM	NOM	_	0	root	_	_	184.440002	184.850006	L1
+3	je	je	CLS	CLS	_	2	disflink	_	_	184.860001	185.100006	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-41
+# text = dans ma tête je me disais c'est fait pour les sculpteurs
+1	dans	dans	PRE	PRE	_	6	periph	_	_	185.110001	185.199997	L1
+2	ma	son	DET	DET	_	3	spe	_	_	185.210007	185.399994	L1
+3	tête	tête	NOM	NOM	_	1	dep	_	_	185.410004	185.580002	L1
+4	je	je	CLS	CLS	_	6	subj	_	_	185.669998	185.720001	L1
+5	me	me	CLI	CLI	_	6	dep	_	_	185.729996	185.820007	L1
+6	disais	dire	VRB	VRB	_	0	root	_	_	185.830002	186.089996	L1
+7	c'	ce	CLS	CLS	_	9	subj	_	_	186.339996	186.389999	L1
+8	est	être	VRB	VRB	_	9	aux	_	_	186.509995	186.529999	L1
+9	fait	faire	VPP	VPP	_	6	dep	_	_	186.539993	186.710007	L1
+10	pour	pour	PRE	PRE	_	9	dep	_	_	186.770004	186.850006	L1
+11	les	le	DET	DET	_	12	spe	_	_	186.860001	186.919998	L1
+12	sculpteurs	sculpteur	NOM	NOM	_	10	dep	_	_	186.929993	187.410004	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-42
+# text = c'est pas fait pour moi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	188.029999	188.080002	L1
+2	est	être	VRB	VRB	_	0	root	_	_	188.089996	188.119995	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	188.130005	188.250000	L1
+4	fait	faire	VPP	VPP	_	2	dep	_	_	188.259995	188.410004	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	188.419998	188.800003	L1
+6	moi	moi	PRO	PRO	_	5	dep	_	_	188.809998	188.919998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-43
+# text = je suis pas sculpteur
+1	je	je	CLS	CLS	_	2	subj	_	_	189.610001	189.699997	L1
+2	suis	être	VRB	VRB	_	0	root	_	_	189.710007	189.809998	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	189.820007	189.919998	L1
+4	sculpteur	sculpteur	NOM	NOM	_	2	dep	_	_	189.929993	190.399994	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-44
+# text = elle me dit
+1	elle	il	CLS	CLS	_	3	subj	_	_	192.050003	192.210007	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	192.220001	192.289993	L1
+3	dit	dire	VRB	VRB	_	0	root	_	_	192.300003	192.389999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-45
+# text = bon et bé écoute on va essayer
+1	bon	bon	INT	INT	_	6	dm	_	_	192.399994	192.559998	L1
+2	et	et	COO	COO	_	6	mark	_	_	192.570007	192.589996	L1
+3	bé	bé	INT	INT	_	2	dm	_	_	192.600006	192.740005	L1
+4	écoute	écouter	VRB	VRB	_	3	dm	_	_	192.750000	192.919998	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	192.929993	193.009995	L1
+6	va	aller	VRB	VRB	_	0	root	_	_	193.020004	193.110001	L1
+7	essayer	essayer	VNF	VNF	_	6	dep	_	_	193.119995	193.589996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-46
+# text = alors on m'a donné de l'argile
+1	alors	alors	ADV	ADV	_	5	periph	_	_	193.759995	193.880005	L1
+2	on	on	CLS	CLS	_	5	subj	_	_	193.889999	194.009995	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	194.020004	194.070007	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	194.080002	194.119995	L1
+5	donné	donner	VPP	VPP	_	0	root	_	_	194.130005	194.360001	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	194.369995	194.500000	L1
+7	l'	le	DET	DET	_	8	spe	_	_	194.509995	194.559998	L1
+8	argile	argile	NOM	NOM	_	6	dep	_	_	194.570007	195.000000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-47
+# text = et en parlant à avec cette argile j'ai fait tout le monde faisait des des petites têtes assez simples
+1	et	et	COO	COO	_	10	mark	_	_	196.520004	196.850006	L1
+2	en	en	PRE	PRE	_	10	periph	_	_	198.589996	198.639999	L1
+3	parlant	parler	VPR	VPR	_	2	dep	_	_	198.740005	199.309998	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	199.320007	199.360001	L1
+5	avec	avec	PRE	PRE	_	3	dep	_	_	199.399994	199.580002	L1
+6	cette	ce	DET	DET	_	7	spe	_	_	199.589996	199.770004	L1
+7	argile	argile	NOM	NOM	_	5	dep	_	_	199.779999	200.149994	L1
+8	j'	je	CLS	CLS	_	10	subj	_	_	200.160004	200.220001	L1
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	200.229996	200.309998	L1
+10	fait	faire	VPP	VPP	_	0	root	_	_	200.320007	200.630005	L1
+11	tout le monde	tout le monde	PRO	PRO	_	12	subj	_	_	201.559998	202.000000	L1
+12	faisait	faire	VRB	VRB	_	10	dep	_	_	202.009995	202.270004	L1
+13	des	de	PRE	PRE	_	12	dep	_	_	202.279999	202.449997	L1
+14	des	de	PRE	PRE	_	13	para	_	_	202.460007	202.630005	L1
+15	petites	petit	ADJ	ADJ	_	16	dep	_	_	202.679993	202.869995	L1
+16	têtes	tête	NOM	NOM	_	14	dep	_	_	202.880005	203.160004	L1
+17	assez	assez	ADV	ADV	_	18	dep	_	_	203.669998	203.940002	L1
+18	simples	simple	ADJ	ADJ	_	16	dep	_	_	203.949997	204.389999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-48
+# text = et moi j'ai fait une tête que je croyais simple
+1	et	et	COO	COO	_	5	mark	_	_	205.520004	205.820007	L1
+2	moi	moi	PRO	PRO	_	5	periph	_	_	205.830002	205.979996	L1
+3	j'	je	CLS	CLS	_	5	subj	_	_	205.990005	206.039993	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	206.050003	206.100006	L1
+5	fait	faire	VPP	VPP	_	0	root	_	_	206.110001	206.240005	L1
+6	une	un	DET	DET	_	7	spe	_	_	206.250000	206.410004	L1
+7	tête	tête	NOM	NOM	_	5	dep	_	_	206.419998	206.690002	L1
+8	que	que	PRQ	PRQ	_	10	dep	_	_	206.699997	206.809998	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	206.820007	206.940002	L1
+10	croyais	croire	VRB	VRB	_	7	dep	_	_	206.979996	207.309998	L1
+11	simple	simple	ADJ	ADJ	_	10	dep	_	_	207.320007	207.720001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-49
+# text = et en fait elle était assez assez compliquée
+1	et	et	COO	COO	_	3	mark	_	_	208.279999	208.350006	L1
+2	en	en	PRE	PRE	_	3	periph	_	_	208.360001	208.460007	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	208.470001	208.710007	L1
+4	elle	il	CLS	CLS	_	5	subj	_	_	208.720001	208.800003	L1
+5	était	être	VRB	VRB	_	3	para	_	_	208.809998	209.089996	L1
+6	assez	assez	ADV	ADV	_	8	dep	_	_	209.130005	209.550003	L1
+7	assez	assez	ADV	ADV	_	8	dep	_	_	209.929993	210.160004	L1
+8	compliquée	compliqué	ADJ	ADJ	_	5	dep	_	_	210.169998	210.710007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-50
+# text = enfin je me suis rendu compte que je n'avais pas de problème pour faire de la sculpture que j'y arrivais comme
+1	enfin	enfin	ADV	ADV	_	5	periph	_	_	211.259995	211.369995	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	211.380005	211.460007	L1
+3	me	me	CLI	CLI	_	5	dep	_	_	211.470001	211.559998	L1
+4	suis	être	VRB	VRB	_	5	aux	_	_	211.570007	211.710007	L1
+5	rendu	rendre	VPP	VPP	_	0	root	_	_	211.720001	211.929993	L1
+6	compte	compte	NOM	NOM	_	5	dep	_	_	211.940002	212.179993	L1
+7	que	que	PRQ	PRQ	_	10	dep	_	_	212.240005	212.309998	L1
+8	je	je	CLS	CLS	_	10	subj	_	_	212.320007	212.440002	L1
+9	n'	ne	CLN	CLN	_	10	dep	_	_	212.449997	212.509995	L1
+10	avais	avoir	VRB	VRB	_	6	dep	_	_	212.520004	212.690002	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	212.779999	213.100006	L1
+12	de	de	PRE	PRE	_	10	dep	_	_	214.669998	214.850006	L1
+13	problème	problème	NOM	NOM	_	12	dep	_	_	214.860001	215.259995	L1
+14	pour	pour	PRE	PRE	_	10	dep	_	_	215.270004	215.449997	L1
+15	faire	faire	VNF	VNF	_	14	dep	_	_	215.460007	215.669998	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	215.679993	215.699997	L1
+17	la	le	DET	DET	_	18	spe	_	_	215.710007	215.759995	L1
+18	sculpture	sculpture	NOM	NOM	_	16	dep	_	_	215.770004	216.210007	L1
+19	que	que	PRQ	PRQ	_	22	dep	_	_	216.479996	216.559998	L1
+20	j'	je	CLS	CLS	_	22	subj	_	_	216.570007	216.639999	L1
+21	y	y	CLI	CLI	_	22	dep	_	_	216.649994	216.669998	L1
+22	arrivais	arriver	VRB	VRB	_	18	dep	_	_	216.679993	217.190002	L1
+23	comme	comme	PRE	PRE	_	22	dep	_	_	217.399994	217.910004	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-51
+# text = j'avais l'oeil suffisamment aiguisé et mes mains suffisamment habiles pour réaliser ce que mes yeux voyaient mes mains
+1	j'	je	CLS	CLS	_	2	subj	_	_	217.919998	218.000000	L1
+2	avais	avoir	VRB	VRB	_	0	root	_	_	218.009995	218.190002	L1
+3	l'	le	DET	DET	_	4	spe	_	_	218.199997	218.289993	L1
+4	oeil	oeil	NOM	NOM	_	2	dep	_	_	218.300003	218.410004	L1
+5	suffisamment	suffisamment	ADV	ADV	_	6	dep	_	_	218.419998	219.100006	L1
+6	aiguisé	aiguiser	VPP	VPP	_	4	dep	_	_	219.110001	219.559998	L1
+7	et	et	COO	COO	_	9	mark	_	_	220.830002	220.899994	L1
+8	mes	son	DET	DET	_	9	spe	_	_	220.910004	221.080002	L1
+9	mains	main	NOM	NOM	_	4	para	_	_	221.089996	221.259995	L1
+10	suffisamment	suffisamment	ADV	ADV	_	11	dep	_	_	221.270004	222.029999	L1
+11	habiles	habile	ADJ	ADJ	_	9	dep	_	_	222.039993	222.490005	L1
+12	pour	pour	PRE	PRE	_	2	dep	_	_	222.979996	223.210007	L1
+13	réaliser	réaliser	VNF	VNF	_	12	dep	_	_	223.220001	223.610001	L1
+14	ce	ce	PRO	PRO	_	13	dep	_	_	223.619995	223.770004	L1
+15	que	que	PRQ	PRQ	_	18	dep	_	_	223.860001	224.089996	L1
+16	mes	son	DET	DET	_	17	spe	_	_	224.970001	225.250000	L1
+17	yeux	oeil	NOM	NOM	_	18	subj	_	_	225.259995	225.350006	L1
+18	voyaient	voir	VRB	VRB	_	14	dep	_	_	225.360001	225.789993	L1
+19	mes	son	DET	DET	_	20	spe	_	_	226.470001	226.690002	L1
+20	mains	main	NOM	NOM	_	18	dep	_	_	226.699997	226.979996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-52
+# text = pouvaient euh le faire
+1	pouvaient	pouvoir	VRB	VRB	_	0	root	_	_	227.470001	227.899994	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	227.910004	228.149994	L1
+3	le	le	CLI	CLI	_	4	dep	_	_	229.179993	229.279999	L1
+4	faire	faire	VNF	VNF	_	1	dep	_	_	229.289993	229.710007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-53
+# text = et là j'ai été surpris
+1	et	et	COO	COO	_	6	mark	_	_	231.350006	231.520004	L1
+2	là	là	ADV	ADV	_	6	periph	_	_	231.529999	231.630005	L1
+3	j'	je	CLS	CLS	_	6	subj	_	_	231.639999	231.779999	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	231.789993	231.880005	L1
+5	été	être	VPP	VPP	_	6	aux	_	_	231.889999	232.000000	L1
+6	surpris	surprendre	VPP	VPP	_	0	root	_	_	232.009995	232.500000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-54
+# text = ça m'a laissé un peu un peu bizarre quoi de voir que j'arrivais à faire
+1	ça	ça	PRO	PRO	_	4	subj	_	_	234.119995	234.289993	L1
+2	m'	me	CLI	CLI	_	4	dep	_	_	234.300003	234.429993	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	234.440002	234.460007	L1
+4	laissé	laisser	VPP	VPP	_	0	root	_	_	234.470001	234.789993	L1
+5	un peu	un peu	ADV	ADV	_	4	dep	_	_	234.800003	235.529999	L1
+6	un peu	un peu	ADV	ADV	_	4	dep	_	_	235.539993	235.789993	L1
+7	bizarre	bizarre	ADJ	ADJ	_	4	dep	_	_	235.800003	236.320007	L1
+8	quoi	quoi	INT	INT	_	7	dm	_	_	236.330002	236.470001	L1
+9	de	de	PRE	PRE	_	7	dep	_	_	236.479996	236.619995	L1
+10	voir	voir	VNF	VNF	_	9	dep	_	_	236.630005	236.910004	L1
+11	que	que	CSU	CSU	_	10	dep	_	_	236.960007	237.020004	L1
+12	j'	je	CLS	CLS	_	13	subj	_	_	237.029999	237.169998	L1
+13	arrivais	arriver	VRB	VRB	_	11	dep	_	_	237.179993	237.500000	L1
+14	à	à	PRE	PRE	_	13	dep	_	_	237.509995	237.589996	L1
+15	faire	faire	VNF	VNF	_	14	dep	_	_	237.600006	237.919998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-55
+# text = pas ce que je voulais
+1	pas	pas	ADN	ADN	_	2	dep	_	_	239.490005	239.619995	L1
+2	ce	ce	PRO	PRO	_	0	root	_	_	239.630005	239.789993	L1
+3	que	que	PRQ	PRQ	_	5	dep	_	_	239.800003	239.919998	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	239.929993	240.000000	L1
+5	voulais	vouloir	VRB	VRB	_	2	dep	_	_	240.009995	240.419998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-56
+# text = mais que je pouvais faire des choses avec mes doigts quoi
+1	mais	mais	COO	COO	_	2	mark	_	_	240.429993	240.759995	L1
+2	que	que	CSU	CSU	_	0	root	_	_	241.470001	241.509995	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	241.520004	241.600006	L1
+4	pouvais	pouvoir	VRB	VRB	_	2	dep	_	_	241.649994	241.820007	L1
+5	faire	faire	VNF	VNF	_	4	dep	_	_	241.830002	242.020004	L1
+6	des	de	PRE	PRE	_	5	dep	_	_	242.029999	242.080002	L1
+7	choses	chose	NOM	NOM	_	6	dep	_	_	242.089996	242.330002	L1
+8	avec	avec	PRE	PRE	_	7	dep	_	_	242.339996	242.449997	L1
+9	mes	son	DET	DET	_	10	spe	_	_	242.460007	242.570007	L1
+10	doigts	doigt	NOM	NOM	_	8	dep	_	_	242.580002	242.770004	L1
+11	quoi	quoi	INT	INT	_	10	dm	_	_	242.820007	242.910004	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-57
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	245.309998	245.600006	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-58
+# text = quand j'ai eu fini
+1	quand	quand	CSU	CSU	_	0	root	_	_	245.610001	245.630005	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	245.639999	245.779999	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	245.789993	245.820007	L1
+4	eu	avoir	VPP	VPP	_	5	aux	_	_	245.830002	245.919998	L1
+5	fini	finir	VPP	VPP	_	1	dep	_	_	245.929993	246.210007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-59
+# text = ça j'ai eu besoin de toucher encore de la terre et pendant deux ans
+1	ça	ça	PRO	PRO	_	4	periph	_	_	246.220001	246.520004	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	247.610001	247.789993	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	247.800003	247.820007	L1
+4	eu	avoir	VPP	VPP	_	0	root	_	_	247.830002	248.029999	L1
+5	besoin	besoin	NOM	NOM	_	4	dep	_	_	248.039993	248.419998	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	248.429993	248.660004	L1
+7	toucher	toucher	VNF	VNF	_	6	dep	_	_	248.669998	249.039993	L1
+8	encore	encore	ADV	ADV	_	7	dep	_	_	249.050003	249.320007	L1
+9	de	de	PRE	PRE	_	7	dep	_	_	249.330002	249.419998	L1
+10	la	le	DET	DET	_	11	spe	_	_	249.429993	249.550003	L1
+11	terre	terre	NOM	NOM	_	9	dep	_	_	249.619995	249.800003	L1
+12	et	et	COO	COO	_	13	mark	_	_	251.419998	251.529999	L1
+13	pendant	pendant	PRE	PRE	_	9	para	_	_	251.539993	251.830002	L1
+14	deux	deux	NUM	NUM	_	15	spe	_	_	251.839996	252.229996	L1
+15	ans	an	NOM	NOM	_	13	dep	_	_	252.240005	252.259995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-60
+# text = je n'ai touché que de la terre
+1	je	je	CLS	CLS	_	4	subj	_	_	252.270004	252.399994	L1
+2	n'	ne	CLN	CLN	_	4	dep	_	_	252.410004	252.479996	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	252.490005	252.550003	L1
+4	touché	toucher	VPP	VPP	_	0	root	_	_	252.559998	252.880005	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	252.889999	252.990005	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	253.000000	253.089996	L1
+7	la	le	DET	DET	_	8	spe	_	_	253.100006	253.210007	L1
+8	terre	terre	NOM	NOM	_	6	dep	_	_	253.220001	253.509995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-61
+# text = et j'ai fait plein de choses plein plein plein
+1	et	et	COO	COO	_	4	mark	_	_	253.770004	253.789993	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	253.800003	253.910004	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	253.919998	253.940002	L1
+4	fait	faire	VPP	VPP	_	0	root	_	_	253.949997	254.119995	L1
+5	plein	plein	ADJ	ADJ	_	4	dep	_	_	254.229996	254.410004	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	254.419998	254.490005	L1
+7	choses	chose	NOM	NOM	_	6	dep	_	_	254.500000	254.929993	L1
+8	plein	plein	ADJ	ADJ	_	5	para	_	_	255.330002	255.490005	L1
+9	plein	plein	ADJ	ADJ	_	8	para	_	_	255.550003	255.750000	L1
+10	plein	plein	ADJ	ADJ	_	9	para	_	_	255.759995	255.940002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-62
+# text = j'ai fait des séries de corps humains euh des tas de trucs
+1	j'	je	CLS	CLS	_	3	subj	_	_	256.410004	256.500000	L1
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	256.510010	256.540009	L1
+3	fait	faire	VPP	VPP	_	0	root	_	_	256.549988	256.690002	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	256.700012	256.799988	L1
+5	séries	série	NOM	NOM	_	4	dep	_	_	256.809998	257.160004	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	257.170013	257.359985	L1
+7	corps	corps	NOM	NOM	_	6	dep	_	_	257.369995	257.609985	L1
+8	humains	humain	ADJ	ADJ	_	7	dep	_	_	257.619995	258.269989	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	258.279999	258.299988	L1
+10	des	de	PRE	PRE	_	4	para	_	_	259.190002	259.269989	L1
+11	tas	tas	NOM	NOM	_	10	dep	_	_	259.279999	259.399994	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	259.410004	259.559998	L1
+13	trucs	truc	NOM	NOM	_	12	dep	_	_	259.570007	260.059998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-63
+# text = mais des des des tas
+1	mais	mais	COO	COO	_	2	mark	_	_	260.769989	260.899994	L1
+2	des	de	PRE	PRE	_	0	root	_	_	260.910004	261.130005	L1
+3	des	de	PRE	PRE	_	2	para	_	_	261.140015	261.260010	L1
+4	des	de	PRE	PRE	_	3	para	_	_	261.269989	261.459991	L1
+5	tas	tas	NOM	NOM	_	4	dep	_	_	261.470001	261.630005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-64
+# text = j'en ai fait
+1	j'	je	CLS	CLS	_	4	subj	_	_	261.640015	261.720001	L1
+2	en	en	CLI	CLI	_	4	dep	_	_	261.730011	261.839996	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	261.850006	261.869995	L1
+4	fait	faire	VPP	VPP	_	0	root	_	_	261.880005	262.109985	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-65
+# text = j'ai dès que j'avais un moment
+1	j'	je	CLS	CLS	_	2	subj	_	_	262.450012	262.559998	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	262.570007	262.600006	L1
+3	dès	dès	PRE	PRE	_	2	dep	_	_	262.609985	262.820007	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	262.829987	262.880005	L1
+5	j'	je	CLS	CLS	_	6	subj	_	_	262.890015	263.010010	L1
+6	avais	avoir	VRB	VRB	_	4	dep	_	_	263.019989	263.140015	L1
+7	un	un	DET	DET	_	8	spe	_	_	263.149994	263.170013	L1
+8	moment	moment	NOM	NOM	_	6	dep	_	_	263.179993	263.579987	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-66
+# text = je je me mettais à toucher la terre
+1	je	je	CLS	CLS	_	4	subj	_	_	263.589996	263.859985	L1
+2	je	je	CLS	CLS	_	1	para	_	_	264.029999	264.059998	L1
+3	me	me	CLI	CLI	_	4	dep	_	_	264.209991	264.260010	L1
+4	mettais	mettre	VRB	VRB	_	0	root	_	_	264.269989	264.559998	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	264.570007	264.630005	L1
+6	toucher	toucher	VNF	VNF	_	5	dep	_	_	264.690002	264.970001	L1
+7	la	le	DET	DET	_	8	spe	_	_	264.980011	265.089996	L1
+8	terre	terre	NOM	NOM	_	6	dep	_	_	265.140015	265.339996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-67
+# text = et depuis j'ai pas arrêté voilà depuis depuis
+1	et	et	COO	COO	_	6	mark	_	_	266.500000	267.380005	L1
+2	depuis	depuis	PRE	PRE	_	6	periph	_	_	267.390015	267.709991	L1
+3	j'	je	CLS	CLS	_	6	subj	_	_	267.720001	267.809998	L1
+4	ai	avoir	VRB	VRB	_	6	aux	_	_	267.820007	267.859985	L1
+5	pas	pas	ADN	ADN	_	6	dep	_	_	267.899994	268.040009	L1
+6	arrêté	arrêter	VPP	VPP	_	0	root	_	_	268.049988	268.309998	L1
+7	voilà	voilà	INT	INT	_	6	dm	_	_	268.750000	268.920013	L1
+8	depuis	depuis	PRE	PRE	_	6	dep	_	_	269.109985	269.690002	L1
+9	depuis	depuis	PRE	PRE	_	8	para	_	_	269.700012	270.010010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-68
+# text = j'ai plus je ne peux plus arrêter de penser à sortir des formes en peinture
+1	j'	je	CLS	CLS	_	2	subj	_	_	270.019989	270.070007	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	270.079987	270.140015	L1
+3	plus	plus	ADN	ADN	_	2	dep	_	_	270.279999	270.649994	L1
+4	je	je	CLS	CLS	_	6	subj	_	_	270.660004	270.790009	L1
+5	ne	ne	CLN	CLN	_	6	dep	_	_	270.799988	270.929993	L1
+6	peux	pouvoir	VRB	VRB	_	2	para	_	_	271.049988	271.250000	L1
+7	plus	plus	ADN	ADN	_	6	dep	_	_	271.510010	271.700012	L1
+8	arrêter	arrêter	VNF	VNF	_	6	dep	_	_	271.769989	272.329987	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	272.910004	273.109985	L1
+10	penser	penser	VNF	VNF	_	9	dep	_	_	273.119995	273.540009	L1
+11	à	à	PRE	PRE	_	10	dep	_	_	273.549988	273.619995	L1
+12	sortir	sortir	VNF	VNF	_	11	dep	_	_	273.630005	274.029999	L1
+13	des	de	PRE	PRE	_	12	dep	_	_	274.040009	274.109985	L1
+14	formes	forme	NOM	NOM	_	13	dep	_	_	274.119995	274.720001	L1
+15	en	en	PRE	PRE	_	8	dep	_	_	275.750000	275.950012	L1
+16	peinture	peinture	NOM	NOM	_	15	dep	_	_	275.959991	276.440002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-69
+# text = c'était à plat parce que je n'avais pas suffisamment de technique pour faire du relief
+1	c'	ce	CLS	CLS	_	2	subj	_	_	276.450012	276.559998	L1
+2	était	être	VRB	VRB	_	0	root	_	_	276.570007	276.950012	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	276.959991	277.269989	L1
+4	plat	plat	NOM	NOM	_	3	dep	_	_	277.279999	277.640015	L1
+5	parce que	parce que	CSU	CSU	_	2	dep	_	_	277.760010	278.019989	L1
+6	je	je	CLS	CLS	_	8	subj	_	_	278.029999	278.140015	L1
+7	n'	ne	CLN	CLN	_	8	dep	_	_	278.149994	278.220001	L1
+8	avais	avoir	VRB	VRB	_	5	dep	_	_	278.230011	278.429993	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	278.440002	278.720001	L1
+10	suffisamment	suffisamment	ADV	ADV	_	8	dep	_	_	278.959991	279.329987	L1
+11	de	de	PRE	PRE	_	8	dep	_	_	279.339996	279.429993	L1
+12	technique	technique	NOM	NOM	_	11	dep	_	_	279.440002	279.739990	L1
+13	pour	pour	PRE	PRE	_	8	dep	_	_	279.809998	280.010010	L1
+14	faire	faire	VNF	VNF	_	13	dep	_	_	280.019989	280.230011	L1
+15	du	de+le	PRE	PRE	_	14	dep	_	_	280.239990	280.339996	L1
+16	relief	relief	NOM	NOM	_	15	dep	_	_	280.350006	280.640015	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-70
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	281.230011	281.420013	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-71
+# text = qu'avec la sculpture j'ai la 3D
+1	qu'	que	CSU	CSU	_	0	root	_	_	281.429993	281.459991	L1
+2	avec	avec	PRE	PRE	_	6	periph	_	_	281.470001	281.589996	L1
+3	la	le	DET	DET	_	4	spe	_	_	281.600006	281.709991	L1
+4	sculpture	sculpture	NOM	NOM	_	2	dep	_	_	281.720001	282.359985	L1
+5	j'	je	CLS	CLS	_	6	subj	_	_	282.369995	282.450012	L1
+6	ai	avoir	VRB	VRB	_	1	dep	_	_	282.459991	282.489990	L1
+7	la	le	DET	DET	_	8	spe	_	_	282.500000	282.649994	L1
+8	3D	3D	NOM	NOM	_	6	dep	_	_	282.660004	283.309998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-72
+# text = j'ai trois dimensions
+1	j'	je	CLS	CLS	_	2	subj	_	_	283.320007	283.390015	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	283.399994	283.429993	L1
+3	trois	trois	NUM	NUM	_	4	spe	_	_	283.480011	283.640015	L1
+4	dimensions	dimension	NOM	NOM	_	2	dep	_	_	283.649994	284.119995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-73
+# text = j'ai la face le côté le haut le bas
+1	j'	je	CLS	CLS	_	2	subj	_	_	284.760010	284.820007	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	284.829987	284.869995	L1
+3	la	le	DET	DET	_	4	spe	_	_	284.880005	285.000000	L1
+4	face	face	NOM	NOM	_	2	dep	_	_	285.010010	285.359985	L1
+5	le	le	DET	DET	_	6	spe	_	_	285.369995	285.489990	L1
+6	côté	côté	NOM	NOM	_	4	para	_	_	285.500000	286.000000	L1
+7	le	le	DET	DET	_	8	spe	_	_	286.010010	286.049988	L1
+8	haut	haut	NOM	NOM	_	4	para	_	_	286.059998	286.320007	L1
+9	le	le	DET	DET	_	10	spe	_	_	286.329987	286.450012	L1
+10	bas	bas	NOM	NOM	_	8	para	_	_	286.459991	286.779999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-74
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	286.790009	286.880005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-75
+# text = toute
+1	toute	tout	ADJ	ADJ	_	0	root	_	_	286.980011	287.260010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-76
+# text = la
+1	la	le	DET	DET	_	0	root	_	_	287.269989	287.429993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-77
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	288.859985	289.100006	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-78
+# text = depuis ce jour-là
+1	depuis	depuis	PRE	PRE	_	0	root	_	_	289.109985	289.380005	L1
+2	ce	ce	DET	DET	_	3	spe	_	_	289.390015	289.619995	L1
+3	jour-là	jour-là	NOM	NOM	_	1	dep	_	_	289.630005	290.089996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-79
+# text = depuis que je je touche de la terre
+1	depuis	depuis	PRE	PRE	_	5	periph	_	_	290.850006	291.429993	L1
+2	que	que	CSU	CSU	_	1	dep	_	_	291.440002	291.579987	L1
+3	je	je	CLS	CLS	_	2	disflink	_	_	291.589996	291.940002	L1
+4	je	je	CLS	CLS	_	3	para	_	_	291.950012	292.079987	L1
+5	touche	touche	NOM	NOM	_	0	root	_	_	292.089996	292.390015	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	292.399994	292.470001	L1
+7	la	le	DET	DET	_	8	spe	_	_	292.480011	292.589996	L1
+8	terre	terre	NOM	NOM	_	6	dep	_	_	292.600006	292.890015	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-80
+# text = je suis toujours tomb
+1	je	je	CLS	CLS	_	2	subj	_	_	292.899994	292.950012	L1
+2	suis	être	VRB	VRB	_	0	root	_	_	292.959991	293.119995	L1
+3	toujours	toujours	ADV	ADV	_	2	dep	_	_	293.179993	293.489990	L1
+4	tomb	tomb	ADV	ADV	_	2	dep	_	_	293.549988	293.970001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-81
+# text = enfin je suis tombé dedans quoi
+1	enfin	enfin	ADV	ADV	_	4	dep	_	_	294.100006	294.309998	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	294.399994	294.529999	L1
+3	suis	être	VRB	VRB	_	4	aux	_	_	294.540009	294.619995	L1
+4	tombé	tomber	VPP	VPP	_	0	root	_	_	294.660004	294.929993	L1
+5	dedans	dedans	ADV	ADV	_	4	dep	_	_	294.940002	295.250000	L1
+6	quoi	quoi	INT	INT	_	5	dm	_	_	295.260010	295.390015	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-82
+# text = et maintenant je pense qu'à ça je ne vis que pour ça
+1	et	et	COO	COO	_	4	mark	_	_	296.049988	296.109985	L1
+2	maintenant	maintenant	ADV	ADV	_	4	periph	_	_	296.119995	296.350006	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	296.359985	296.540009	L1
+4	pense	penser	VRB	VRB	_	0	root	_	_	296.549988	296.880005	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	296.890015	296.959991	L1
+6	à	à	PRE	PRE	_	10	periph	_	_	296.970001	297.040009	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	297.049988	297.470001	L1
+8	je	je	CLS	CLS	_	10	subj	_	_	297.839996	298.000000	L1
+9	ne	ne	CLN	CLN	_	10	dep	_	_	298.010010	298.140015	L1
+10	vis	vivre	VRB	VRB	_	5	dep	_	_	298.149994	298.320007	L1
+11	que	que	ADN	ADN	_	10	dep	_	_	298.329987	298.459991	L1
+12	pour	pour	PRE	PRE	_	10	dep	_	_	298.519989	298.720001	L1
+13	ça	ça	PRO	PRO	_	12	dep	_	_	298.730011	299.049988	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-83
+# text = et tout le reste je m'en fous
+1	et	et	COO	COO	_	8	mark	_	_	299.899994	301.119995	L1
+2	tout	tout	ADV	ADV	_	8	periph	_	_	301.209991	301.350006	L1
+3	le	le	DET	DET	_	4	spe	_	_	301.359985	301.399994	L1
+4	reste	reste	NOM	NOM	_	8	periph	_	_	301.410004	301.660004	L1
+5	je	je	CLS	CLS	_	8	subj	_	_	301.670013	301.760010	L1
+6	m'	me	CLI	CLI	_	8	dep	_	_	301.769989	301.829987	L1
+7	en	en	CLI	CLI	_	8	dep	_	_	301.839996	301.920013	L1
+8	fous	foutre	VRB	VRB	_	0	root	_	_	301.970001	302.130005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-84
+# text = et la sculpture c'est et en fait la sculpture
+1	et	et	COO	COO	_	5	mark	_	_	303.649994	303.829987	L1
+2	la	le	DET	DET	_	3	spe	_	_	303.839996	303.910004	L1
+3	sculpture	sculpture	NOM	NOM	_	5	periph	_	_	303.920013	304.480011	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	304.489990	304.670013	L1
+5	est	être	VRB	VRB	_	0	root	_	_	304.679993	305.260010	L1
+6	et	et	COO	COO	_	8	mark	_	_	305.269989	305.309998	L1
+7	en	en	PRE	PRE	_	8	dep	_	_	305.320007	305.399994	L1
+8	fait	faire	VRB	VRB	_	5	para	_	_	305.410004	305.619995	L1
+9	la	le	DET	DET	_	10	spe	_	_	306.769989	306.850006	L1
+10	sculpture	sculpture	NOM	NOM	_	8	dep	_	_	306.859985	307.290009	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-85
+# text = c'est pareil
+1	c'	ce	CLS	CLS	_	2	subj	_	_	307.299988	307.380005	L1
+2	est	être	VRB	VRB	_	0	root	_	_	307.390015	307.429993	L1
+3	pareil	pareil	ADJ	ADJ	_	2	dep	_	_	307.440002	307.859985	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-86
+# text = on naît pas sculpteur on peut avoir des facilités pour la sculpture
+1	on	on	CLS	CLS	_	2	subj	_	_	307.920013	307.980011	L1
+2	naît	naître	VRB	VRB	_	0	root	_	_	307.989990	308.100006	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	308.109985	308.339996	L1
+4	sculpteur	sculpteur	NOM	NOM	_	2	dep	_	_	308.350006	308.799988	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	308.859985	308.880005	L1
+6	peut	pouvoir	VRB	VRB	_	2	para	_	_	308.890015	308.989990	L1
+7	avoir	avoir	VNF	VNF	_	6	dep	_	_	309.000000	309.220001	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	309.230011	309.339996	L1
+9	facilités	facilité	NOM	NOM	_	8	dep	_	_	309.350006	309.940002	L1
+10	pour	pour	PRE	PRE	_	7	dep	_	_	309.950012	310.089996	L1
+11	la	le	DET	DET	_	12	spe	_	_	310.100006	310.170013	L1
+12	sculpture	sculpture	NOM	NOM	_	10	dep	_	_	310.179993	310.630005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-87
+# text = mais faut beaucoup beaucoup travailler comme tout le reste quoi
+1	mais	mais	COO	COO	_	2	mark	_	_	311.100006	311.220001	L1
+2	faut	faillir	VRB	VRB	_	0	root	_	_	311.230011	311.420013	L1
+3	beaucoup	beaucoup	ADV	ADV	_	2	dep	_	_	311.429993	311.760010	L1
+4	beaucoup	beaucoup	ADV	ADV	_	3	para	_	_	311.769989	312.049988	L1
+5	travailler	travailler	VNF	VNF	_	2	dep	_	_	312.059998	312.570007	L1
+6	comme	comme	PRE	PRE	_	5	dep	_	_	312.579987	312.799988	L1
+7	tout	tout	PRO	PRO	_	6	dep	_	_	312.809998	312.950012	L1
+8	le	le	DET	DET	_	9	spe	_	_	312.959991	312.989990	L1
+9	reste	reste	NOM	NOM	_	5	dep	_	_	313.000000	313.390015	L1
+10	quoi	quoi	INT	INT	_	9	dm	_	_	313.440002	313.519989	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-88
+# text = donc on devient pas sculpteur
+1	donc	donc	ADV	ADV	_	3	periph	_	_	314.220001	314.529999	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	316.179993	316.369995	L1
+3	devient	devenir	VRB	VRB	_	0	root	_	_	316.380005	316.779999	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	316.790009	317.000000	L1
+5	sculpteur	sculpteur	NOM	NOM	_	3	dep	_	_	317.010010	317.720001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-89
+# text = on sculpte mieux en travaillant quoi
+1	on	on	CLS	CLS	_	2	subj	_	_	318.720001	318.839996	L1
+2	sculpte	sculpter	VRB	VRB	_	0	root	_	_	318.850006	319.279999	L1
+3	mieux	mieux	ADV	ADV	_	2	dep	_	_	319.290009	319.649994	L1
+4	en	en	PRE	PRE	_	2	dep	_	_	319.660004	319.760010	L1
+5	travaillant	travailler	VPR	VPR	_	4	dep	_	_	319.769989	320.209991	L1
+6	quoi	quoi	INT	INT	_	5	dm	_	_	320.299988	320.380005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-90
+# text = ou sinon si on travaille pas euh c'est c'est beaucoup de travail la sculpture
+1	ou	ou	COO	COO	_	9	mark	_	_	321.769989	321.809998	L1
+2	sinon	sinon	ADV	ADV	_	9	periph	_	_	321.820007	322.179993	L1
+3	si	si	CSU	CSU	_	9	periph	_	_	322.190002	322.329987	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	322.339996	322.440002	L1
+5	travaille	travailler	VRB	VRB	_	3	dep	_	_	322.450012	322.750000	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	322.799988	322.869995	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	322.880005	322.959991	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	323.529999	323.579987	L1
+9	est	être	VRB	VRB	_	0	root	_	_	323.589996	323.609985	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	323.619995	323.640015	L1
+11	est	être	VRB	VRB	_	9	para	_	_	323.649994	323.670013	L1
+12	beaucoup	beaucoup	ADV	ADV	_	11	dep	_	_	323.679993	323.890015	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	323.899994	324.029999	L1
+14	travail	travail	NOM	NOM	_	13	dep	_	_	324.040009	324.329987	L1
+15	la	le	DET	DET	_	16	spe	_	_	324.339996	324.429993	L1
+16	sculpture	sculpture	NOM	NOM	_	11	dep	_	_	324.440002	324.869995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-91
+# text = beaucoup de s d'exercice
+1	beaucoup	beaucoup	ADV	ADV	_	0	root	_	_	325.970001	326.440002	L1
+2	de	de	PRE	PRE	_	1	dep	_	_	326.450012	326.609985	L1
+3	s	s	NOM	NOM	_	2	dep	_	_	326.609985	326.609985	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	326.619995	326.670013	L1
+5	exercice	exercice	NOM	NOM	_	4	dep	_	_	326.679993	327.529999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-92
+# text = des yeux
+1	des	de	PRE	PRE	_	0	root	_	_	329.350006	329.690002	L1
+2	yeux	oeil	NOM	NOM	_	1	dep	_	_	329.700012	329.899994	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-93
+# text = à regarder les détails et à pouvoir les interpréter ensuite avec la main quoi
+1	à	à	PRE	PRE	_	0	root	_	_	330.160004	330.269989	L1
+2	regarder	regarder	VNF	VNF	_	1	dep	_	_	330.279999	330.839996	L1
+3	les	le	DET	DET	_	4	spe	_	_	330.850006	330.959991	L1
+4	détails	détail	NOM	NOM	_	2	dep	_	_	330.970001	331.429993	L1
+5	et	et	COO	COO	_	6	mark	_	_	331.570007	331.660004	L1
+6	à	à	PRE	PRE	_	1	para	_	_	331.670013	331.700012	L1
+7	pouvoir	pouvoir	VNF	VNF	_	6	dep	_	_	331.769989	332.010010	L1
+8	les	le	CLI	CLI	_	9	dep	_	_	332.019989	332.160004	L1
+9	interpréter	interpréter	VNF	VNF	_	7	dep	_	_	332.170013	332.760010	L1
+10	ensuite	ensuite	ADV	ADV	_	9	dep	_	_	332.769989	333.029999	L1
+11	avec	avec	PRE	PRE	_	9	dep	_	_	333.040009	333.200012	L1
+12	la	le	DET	DET	_	13	spe	_	_	333.209991	333.339996	L1
+13	main	main	NOM	NOM	_	11	dep	_	_	333.350006	333.470001	L1
+14	quoi	quoi	INT	INT	_	13	dm	_	_	333.510010	333.619995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-94
+# text = donc les motivations de la sculpture s-~ sont que ma principale motivation c'est que je peux pas m'en passer quoi
+1	donc	donc	ADV	ADV	_	8	periph	_	_	334.600006	334.750000	L1
+2	les	le	DET	DET	_	3	spe	_	_	334.760010	334.869995	L1
+3	motivations	motivation	NOM	NOM	_	8	periph	_	_	334.880005	335.700012	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	335.709991	335.799988	L1
+5	la	le	DET	DET	_	6	spe	_	_	335.809998	335.910004	L1
+6	sculpture	sculpture	NOM	NOM	_	4	dep	_	_	335.920013	336.549988	L1
+7	s-~	s-~	CLS	CLS	_	8	subj	_	_	337.160004	338.149994	L1
+8	sont	être	VRB	VRB	_	0	root	_	_	338.160004	338.570007	L1
+9	que	que	CSU	CSU	_	8	dep	_	_	338.579987	339.070007	L1
+10	ma	son	DET	DET	_	12	spe	_	_	339.989990	340.109985	L1
+11	principale	principal	ADJ	ADJ	_	12	dep	_	_	340.119995	340.570007	L1
+12	motivation	motivation	NOM	NOM	_	14	periph	_	_	340.579987	341.209991	L1
+13	c'	ce	CLS	CLS	_	14	subj	_	_	341.220001	341.299988	L1
+14	est	être	VRB	VRB	_	9	dep	_	_	341.309998	341.339996	L1
+15	que	que	CSU	CSU	_	14	dep	_	_	341.350006	341.450012	L1
+16	je	je	CLS	CLS	_	17	subj	_	_	341.459991	341.529999	L1
+17	peux	pouvoir	VRB	VRB	_	15	dep	_	_	341.570007	341.649994	L1
+18	pas	pas	ADN	ADN	_	17	dep	_	_	341.660004	341.799988	L1
+19	m'	me	CLI	CLI	_	21	dep	_	_	341.809998	341.829987	L1
+20	en	en	CLI	CLI	_	21	dep	_	_	341.839996	341.959991	L1
+21	passer	passer	VNF	VNF	_	17	dep	_	_	341.970001	342.299988	L1
+22	quoi	quoi	INT	INT	_	21	dm	_	_	342.309998	342.440002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-95
+# text = c'est comme une drogue pour moi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	343.920013	343.940002	L1
+2	est	être	VRB	VRB	_	0	root	_	_	343.950012	343.970001	L1
+3	comme	comme	PRE	PRE	_	2	dep	_	_	344.019989	344.209991	L1
+4	une	un	DET	DET	_	5	spe	_	_	344.220001	344.369995	L1
+5	drogue	drogue	NOM	NOM	_	3	dep	_	_	344.380005	344.750000	L1
+6	pour	pour	PRE	PRE	_	2	dep	_	_	344.820007	344.970001	L1
+7	moi	moi	PRO	PRO	_	6	dep	_	_	344.980011	345.140015	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-96
+# text = c'est pas c'est une drogue si je sculpte pas je m'emmerde
+1	c'	ce	CLS	CLS	_	2	subj	_	_	345.329987	345.390015	L1
+2	est	être	VRB	VRB	_	0	root	_	_	345.399994	345.929993	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	345.940002	345.989990	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	346.000000	346.089996	L1
+5	est	être	VRB	VRB	_	2	para	_	_	346.100006	346.160004	L1
+6	une	un	DET	DET	_	7	spe	_	_	346.170013	346.279999	L1
+7	drogue	drogue	NOM	NOM	_	5	dep	_	_	346.290009	346.589996	L1
+8	si	si	CSU	CSU	_	5	dep	_	_	346.980011	347.149994	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	347.160004	347.239990	L1
+10	sculpte	sculpter	VRB	VRB	_	8	dep	_	_	347.250000	347.540009	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	347.549988	347.670013	L1
+12	je	je	CLS	CLS	_	14	subj	_	_	347.679993	347.799988	L1
+13	m'	me	CLI	CLI	_	14	dep	_	_	347.809998	347.880005	L1
+14	emmerde	emmerder	VRB	VRB	_	8	dep	_	_	347.890015	348.339996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-97
+# text = et si je suis si on m'enlève de quoi sculpter euh je je m'en vais je peux pas rester dans un lieu où je n'ai pas un truc à soit regarder pour emmagasiner des idées soit pour pour sculpter
+1	et	et	COO	COO	_	17	mark	_	_	348.899994	348.950012	L1
+2	si	si	CSU	CSU	_	17	periph	_	_	348.959991	349.119995	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	349.130005	349.220001	L1
+4	suis	être	VRB	VRB	_	2	dep	_	_	349.230011	350.160004	L1
+5	si	si	CSU	CSU	_	2	para	_	_	350.880005	351.040009	L1
+6	on	on	CLS	CLS	_	8	subj	_	_	351.049988	351.079987	L1
+7	m'	me	CLI	CLI	_	8	dep	_	_	351.089996	351.160004	L1
+8	enlève	enlever	VRB	VRB	_	5	dep	_	_	351.170013	351.600006	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	351.609985	351.700012	L1
+10	quoi	quoi	PRQ	PRQ	_	9	dep	_	_	351.790009	351.880005	L1
+11	sculpter	sculpter	VNF	VNF	_	8	dep	_	_	351.890015	352.500000	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	352.510010	352.649994	L1
+13	je	je	CLS	CLS	_	17	subj	_	_	354.070007	354.399994	L1
+14	je	je	CLS	CLS	_	13	para	_	_	354.410004	354.510010	L1
+15	m'	me	CLI	CLI	_	17	dep	_	_	354.519989	354.589996	L1
+16	en	en	CLI	CLI	_	17	dep	_	_	354.600006	354.679993	L1
+17	vais	aller	VRB	VRB	_	0	root	_	_	354.690002	354.859985	L1
+18	je	je	CLS	CLS	_	19	subj	_	_	355.700012	355.799988	L1
+19	peux	pouvoir	VRB	VRB	_	17	para	_	_	355.850006	355.950012	L1
+20	pas	pas	ADN	ADN	_	19	dep	_	_	355.959991	356.130005	L1
+21	rester	rester	VNF	VNF	_	19	dep	_	_	356.140015	356.519989	L1
+22	dans	dans	PRE	PRE	_	21	dep	_	_	356.529999	356.750000	L1
+23	un	un	DET	DET	_	24	spe	_	_	356.760010	356.820007	L1
+24	lieu	lieu	NOM	NOM	_	22	dep	_	_	356.829987	357.160004	L1
+25	où	où	PRQ	PRQ	_	28	dep	_	_	357.170013	357.320007	L1
+26	je	je	CLS	CLS	_	28	subj	_	_	357.329987	357.420013	L1
+27	n'	ne	CLN	CLN	_	28	dep	_	_	357.429993	357.529999	L1
+28	ai	avoir	VRB	VRB	_	24	dep	_	_	357.540009	357.630005	L1
+29	pas	pas	ADN	ADN	_	28	dep	_	_	357.690002	357.850006	L1
+30	un	un	DET	DET	_	31	spe	_	_	357.859985	358.089996	L1
+31	truc	truc	NOM	NOM	_	28	dep	_	_	358.100006	358.510010	L1
+32	à	à	PRE	PRE	_	31	dep	_	_	358.519989	358.709991	L1
+33	soit	soit	COO	COO	_	34	mark	_	_	359.579987	359.880005	L1
+34	regarder	regarder	VNF	VNF	_	32	dep	_	_	359.890015	360.480011	L1
+35	pour	pour	PRE	PRE	_	28	dep	_	_	362.609985	362.839996	L1
+36	emmagasiner	emmagasiner	VNF	VNF	_	35	dep	_	_	362.850006	363.480011	L1
+37	des	de	PRE	PRE	_	36	dep	_	_	363.489990	363.709991	L1
+38	idées	idée	NOM	NOM	_	37	dep	_	_	363.720001	363.989990	L1
+39	soit	soit	COO	COO	_	40	mark	_	_	365.510010	365.970001	L1
+40	pour	pour	PRE	PRE	_	35	para	_	_	366.029999	366.609985	L1
+41	pour	pour	PRE	PRE	_	40	para	_	_	366.679993	366.829987	L1
+42	sculpter	sculpter	VNF	VNF	_	41	dep	_	_	366.839996	367.220001	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-98
+# text = c'est-à-dire pour moi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	367.230011	367.260010	L1
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	367.269989	367.660004	L1
+3	pour	pour	PRE	PRE	_	2	dep	_	_	367.700012	367.829987	L1
+4	moi	moi	PRO	PRO	_	3	dep	_	_	367.839996	368.010010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-99
+# text = c'est c'est une drogue
+1	c'	ce	CLS	CLS	_	2	subj	_	_	368.019989	368.179993	L1
+2	est	être	VRB	VRB	_	0	root	_	_	368.190002	368.470001	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	368.480011	368.609985	L1
+4	est	être	VRB	VRB	_	2	para	_	_	368.619995	368.670013	L1
+5	une	un	DET	DET	_	6	spe	_	_	368.679993	368.859985	L1
+6	drogue	drogue	NOM	NOM	_	4	dep	_	_	368.869995	369.079987	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-100
+# text = c'est c'est une drogue
+1	c'	ce	CLS	CLS	_	2	subj	_	_	370.799988	370.959991	L1
+2	est	être	VRB	VRB	_	0	root	_	_	370.970001	371.209991	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	371.220001	371.339996	L1
+4	est	être	VRB	VRB	_	2	para	_	_	371.350006	371.380005	L1
+5	une	un	DET	DET	_	6	spe	_	_	371.390015	371.600006	L1
+6	drogue	drogue	NOM	NOM	_	4	dep	_	_	371.609985	371.859985	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-101
+# text = je j'organise toute ma vie en fonction de ma drogue quoi
+1	je	je	CLS	CLS	_	3	subj	_	_	372.589996	373.450012	L1
+2	j'	je	CLS	CLS	_	1	para	_	_	374.720001	374.829987	L1
+3	organise	organiser	VRB	VRB	_	0	root	_	_	374.839996	375.339996	L1
+4	toute	tout	ADJ	ADJ	_	6	dep	_	_	375.350006	375.630005	L1
+5	ma	son	DET	DET	_	6	spe	_	_	375.640015	375.750000	L1
+6	vie	vie	NOM	NOM	_	3	dep	_	_	375.760010	375.940002	L1
+7	en	en	PRE	PRE	_	6	dep	_	_	375.950012	375.989990	L1
+8	fonction	fonction	NOM	NOM	_	7	dep	_	_	376.000000	376.429993	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	376.440002	376.529999	L1
+10	ma	son	DET	DET	_	11	spe	_	_	376.540009	376.660004	L1
+11	drogue	drogue	NOM	NOM	_	9	dep	_	_	376.670013	376.920013	L1
+12	quoi	quoi	INT	INT	_	11	dm	_	_	377.089996	377.170013	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-102
+# text = je fais de mal à personne
+1	je	je	CLS	CLS	_	2	subj	_	_	378.929993	379.049988	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	379.059998	379.209991	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	379.220001	379.320007	L1
+4	mal	mal	NOM	NOM	_	3	dep	_	_	379.329987	379.519989	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	379.529999	379.549988	L1
+6	personne	personne	PRO	PRO	_	5	dep	_	_	379.559998	380.029999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-103
+# text = et donc l'origine est toute simple c'est un hasard d'avoir rencontré
+1	et	et	COO	COO	_	5	mark	_	_	382.399994	382.779999	L1
+2	donc	donc	ADV	ADV	_	5	periph	_	_	384.160004	384.320007	L1
+3	l'	le	DET	DET	_	4	spe	_	_	384.329987	384.410004	L1
+4	origine	origine	NOM	NOM	_	5	subj	_	_	384.420013	384.790009	L1
+5	est	être	VRB	VRB	_	0	root	_	_	384.799988	384.899994	L1
+6	toute	tout	ADJ	ADJ	_	7	dep	_	_	384.910004	385.149994	L1
+7	simple	simple	NOM	NOM	_	5	dep	_	_	385.160004	385.540009	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	385.549988	385.720001	L1
+9	est	être	VRB	VRB	_	5	para	_	_	385.730011	385.760010	L1
+10	un	un	DET	DET	_	11	spe	_	_	385.769989	385.880005	L1
+11	hasard	hasard	NOM	NOM	_	9	dep	_	_	385.890015	386.200012	L1
+12	d'	de	PRE	PRE	_	11	dep	_	_	387.880005	387.910004	L1
+13	avoir	avoir	VNF	VNF	_	12	dep	_	_	387.920013	388.250000	L1
+14	rencontré	rencontrer	VPP	VPP	_	13	dep	_	_	388.260010	389.170013	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-104
+# text = c'est l'origine c'est un hasard d'avoir rencontré des gens qui m'aient permis de de de jouer avec eux quoi en fait
+1	c'	ce	CLS	CLS	_	2	subj	_	_	390.630005	390.720001	L1
+2	est	être	VRB	VRB	_	0	root	_	_	390.730011	390.790009	L1
+3	l'	le	DET	DET	_	4	spe	_	_	390.799988	390.859985	L1
+4	origine	origine	NOM	NOM	_	2	dep	_	_	390.869995	391.279999	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	391.290009	391.309998	L1
+6	est	être	VRB	VRB	_	2	para	_	_	391.320007	391.649994	L1
+7	un	un	DET	DET	_	8	spe	_	_	391.660004	391.730011	L1
+8	hasard	hasard	NOM	NOM	_	6	dep	_	_	391.739990	392.049988	L1
+9	d'	de	PRE	PRE	_	8	dep	_	_	392.109985	392.130005	L1
+10	avoir	avoir	VNF	VNF	_	11	aux	_	_	392.140015	392.440002	L1
+11	rencontré	rencontrer	VPP	VPP	_	9	dep	_	_	392.579987	393.070007	L1
+12	des	de	PRE	PRE	_	11	dep	_	_	393.079987	393.179993	L1
+13	gens	gens	NOM	NOM	_	12	dep	_	_	393.190002	393.399994	L1
+14	qui	qui	PRQ	PRQ	_	17	subj	_	_	393.410004	393.600006	L1
+15	m'	me	CLI	CLI	_	17	dep	_	_	393.609985	393.660004	L1
+16	aient	avoir	VRB	VRB	_	17	aux	_	_	393.670013	393.720001	L1
+17	permis	permettre	VPP	VPP	_	13	dep	_	_	393.769989	394.170013	L1
+18	de	de	PRE	PRE	_	17	dep	_	_	394.179993	394.380005	L1
+19	de	de	PRE	PRE	_	18	para	_	_	395.869995	396.230011	L1
+20	de	de	PRE	PRE	_	19	para	_	_	396.239990	396.350006	L1
+21	jouer	jouer	VNF	VNF	_	20	dep	_	_	396.359985	396.670013	L1
+22	avec	avec	PRE	PRE	_	21	dep	_	_	396.679993	396.989990	L1
+23	eux	moi	PRO	PRO	_	22	dep	_	_	397.000000	397.100006	L1
+24	quoi	quoi	INT	INT	_	23	dm	_	_	397.109985	397.290009	L1
+25	en	en	PRE	PRE	_	6	dep	_	_	397.299988	397.320007	L1
+26	fait	faire	VRB	VRB	_	25	dep	_	_	397.329987	397.540009	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-105
+# text = on jouait au départ
+1	on	on	CLS	CLS	_	2	subj	_	_	397.549988	397.649994	L1
+2	jouait	jouer	VRB	VRB	_	0	root	_	_	397.660004	397.869995	L1
+3	au	à+le	PRE	PRE	_	2	dep	_	_	397.880005	397.950012	L1
+4	départ	départ	NOM	NOM	_	3	dep	_	_	397.959991	398.269989	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-106
+# text = et puis eux ils se sont arrêtés de jouer
+1	et puis	et puis	COO	COO	_	6	mark	_	_	399.100006	399.350006	L1
+2	eux	moi	PRO	PRO	_	6	periph	_	_	399.359985	399.700012	L1
+3	ils	il	CLS	CLS	_	6	subj	_	_	400.230011	400.320007	L1
+4	se	se	CLI	CLI	_	6	dep	_	_	400.329987	400.559998	L1
+5	sont	être	VRB	VRB	_	6	aux	_	_	400.570007	400.640015	L1
+6	arrêtés	arrêter	VPP	VPP	_	0	root	_	_	400.649994	401.000000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	401.010010	401.160004	L1
+8	jouer	jouer	VNF	VNF	_	7	dep	_	_	401.170013	401.589996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-107
+# text = moi je continue à moi
+1	moi	moi	PRO	PRO	_	3	periph	_	_	401.600006	401.720001	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	401.730011	401.829987	L1
+3	continue	continuer	VRB	VRB	_	0	root	_	_	401.839996	402.589996	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	402.600006	402.790009	L1
+5	moi	moi	PRO	PRO	_	4	dep	_	_	403.750000	403.850006	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-108
+# text = je continue euh toutes formes de sculpture parce que chaque fois c'est un défi différent
+1	je	je	CLS	CLS	_	2	subj	_	_	403.859985	404.000000	L1
+2	continue	continuer	VRB	VRB	_	0	root	_	_	404.010010	404.609985	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	404.649994	404.739990	L1
+4	toutes	tout	ADJ	ADJ	_	5	dep	_	_	406.359985	406.579987	L1
+5	formes	forme	NOM	NOM	_	2	dep	_	_	406.589996	406.959991	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	406.970001	407.079987	L1
+7	sculpture	sculpture	NOM	NOM	_	6	dep	_	_	407.089996	407.570007	L1
+8	parce que	parce que	CSU	CSU	_	2	dep	_	_	407.579987	407.890015	L1
+9	chaque	chaque	DET	DET	_	10	spe	_	_	407.980011	408.269989	L1
+10	fois	foi	NOM	NOM	_	12	periph	_	_	408.279999	408.480011	L1
+11	c'	ce	CLS	CLS	_	12	subj	_	_	408.489990	408.589996	L1
+12	est	être	VRB	VRB	_	8	dep	_	_	408.600006	408.660004	L1
+13	un	un	DET	DET	_	14	spe	_	_	408.670013	408.720001	L1
+14	défi	défi	NOM	NOM	_	12	dep	_	_	408.730011	409.029999	L1
+15	différent	différent	ADJ	ADJ	_	14	dep	_	_	409.040009	409.529999	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-109
+# text = et et je pense qu'à ça donc euh je veux dire
+1	et	et	COO	COO	_	4	mark	_	_	410.649994	411.079987	L1
+2	et	et	COO	COO	_	1	para	_	_	413.160004	413.179993	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	413.190002	413.369995	L1
+4	pense	penser	VRB	VRB	_	0	root	_	_	413.380005	413.459991	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	413.470001	413.489990	L1
+6	à	à	PRE	PRE	_	11	periph	_	_	413.570007	413.589996	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	413.630005	413.679993	L1
+8	donc	donc	ADV	ADV	_	11	periph	_	_	413.910004	414.239990	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	415.339996	415.649994	L1
+10	je	je	CLS	CLS	_	11	subj	_	_	415.709991	415.779999	L1
+11	veux	vouloir	VRB	VRB	_	5	dep	_	_	415.790009	415.839996	L1
+12	dire	dire	VNF	VNF	_	11	dep	_	_	415.850006	415.929993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-110
+# text = je n'ai je n'ai pas beaucoup de centres d'intérêt
+1	je	je	CLS	CLS	_	3	subj	_	_	415.940002	416.089996	L1
+2	n'	ne	CLN	CLN	_	3	dep	_	_	416.100006	416.119995	L1
+3	ai	avoir	VRB	VRB	_	0	root	_	_	416.130005	416.250000	L1
+4	je	je	CLS	CLS	_	6	subj	_	_	417.200012	417.329987	L1
+5	n'	ne	CLN	CLN	_	6	dep	_	_	417.339996	417.390015	L1
+6	ai	avoir	VRB	VRB	_	3	para	_	_	417.399994	417.519989	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	417.529999	417.630005	L1
+8	beaucoup	beaucoup	ADV	ADV	_	6	dep	_	_	417.640015	417.940002	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	417.950012	418.029999	L1
+10	centres	centre	NOM	NOM	_	9	dep	_	_	418.040009	418.420013	L1
+11	d'	de	PRE	PRE	_	10	dep	_	_	418.429993	418.480011	L1
+12	intérêt	intérêt	NOM	NOM	_	11	dep	_	_	418.489990	418.920013	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-111
+# text = mais j'en ai un qui me prend toute la place
+1	mais	mais	COO	COO	_	4	mark	_	_	419.959991	420.049988	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	420.059998	420.130005	L1
+3	en	en	CLI	CLI	_	4	dep	_	_	420.140015	420.239990	L1
+4	ai	avoir	VRB	VRB	_	0	root	_	_	420.250000	420.279999	L1
+5	un	un	PRO	PRO	_	4	dep	_	_	420.290009	420.380005	L1
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	420.390015	420.519989	L1
+7	me	me	CLI	CLI	_	8	dep	_	_	420.529999	420.600006	L1
+8	prend	prendre	VRB	VRB	_	5	dep	_	_	420.609985	420.809998	L1
+9	toute	tout	ADJ	ADJ	_	11	dep	_	_	420.820007	421.029999	L1
+10	la	le	DET	DET	_	11	spe	_	_	421.040009	421.119995	L1
+11	place	place	NOM	NOM	_	8	dep	_	_	421.130005	421.399994	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-112
+# text = ce n'est pas dans but de faire des
+1	ce	ce	CLS	CLS	_	3	subj	_	_	423.250000	423.429993	L1
+2	n'	ne	CLN	CLN	_	3	dep	_	_	423.440002	423.489990	L1
+3	est	être	VRB	VRB	_	0	root	_	_	423.500000	423.649994	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	423.660004	424.290009	L1
+5	dans	dans	PRE	PRE	_	3	dep	_	_	424.410004	424.459991	L1
+6	but	but	NOM	NOM	_	5	dep	_	_	424.470001	424.700012	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	424.709991	424.890015	L1
+8	faire	faire	VNF	VNF	_	7	dep	_	_	424.899994	425.320007	L1
+9	des	de	PRE	PRE	_	8	dep	_	_	425.420013	425.589996	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-113
+# text = là je me rends compte que bon j'ai fait des expositions tout ça
+1	là	là	ADV	ADV	_	4	periph	_	_	427.700012	427.829987	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	427.839996	427.959991	L1
+3	me	me	CLI	CLI	_	4	dep	_	_	427.970001	428.010010	L1
+4	rends	rendre	VRB	VRB	_	0	root	_	_	428.019989	428.239990	L1
+5	compte	compte	NOM	NOM	_	4	dep	_	_	428.250000	428.600006	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	428.609985	428.929993	L1
+7	bon	bon	INT	INT	_	6	dm	_	_	428.940002	429.190002	L1
+8	j'	je	CLS	CLS	_	10	subj	_	_	429.200012	429.320007	L1
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	429.329987	429.350006	L1
+10	fait	faire	VPP	VPP	_	6	dep	_	_	429.359985	429.470001	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	429.480011	429.609985	L1
+12	expositions	exposition	NOM	NOM	_	11	dep	_	_	429.619995	430.040009	L1
+13	tout	tout	ADJ	ADJ	_	14	dep	_	_	430.049988	430.149994	L1
+14	ça	ça	PRO	PRO	_	10	dep	_	_	430.160004	430.369995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-114
+# text = mais ce n'est pas ce qui me motive les expositions ce qui me motive
+1	mais	mais	COO	COO	_	4	mark	_	_	430.429993	430.649994	L1
+2	ce	ce	CLS	CLS	_	4	subj	_	_	431.019989	431.209991	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	431.220001	431.279999	L1
+4	est	être	VRB	VRB	_	0	root	_	_	431.290009	431.369995	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	431.410004	431.640015	L1
+6	ce	ce	PRO	PRO	_	4	dep	_	_	431.649994	431.809998	L1
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	431.859985	432.000000	L1
+8	me	me	CLI	CLI	_	9	dep	_	_	432.010010	432.220001	L1
+9	motive	motiver	VRB	VRB	_	6	dep	_	_	432.230011	432.630005	L1
+10	les	le	DET	DET	_	11	spe	_	_	432.640015	432.700012	L1
+11	expositions	exposition	NOM	NOM	_	9	dep	_	_	432.709991	433.299988	L1
+12	ce	ce	PRO	PRO	_	6	para	_	_	433.600006	433.730011	L1
+13	qui	qui	PRQ	PRQ	_	15	dep	_	_	433.739990	433.880005	L1
+14	me	me	CLI	CLI	_	15	dep	_	_	433.890015	434.029999	L1
+15	motive	motiver	VRB	VRB	_	12	dep	_	_	434.040009	434.429993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-115
+# text = moi c'est d'avoir la tête tranquille pouvoir faire ce qu'il me plaît quand il me plaît
+1	moi	moi	PRO	PRO	_	3	periph	_	_	434.440002	434.549988	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	434.559998	434.600006	L1
+3	est	être	VRB	VRB	_	0	root	_	_	434.609985	434.940002	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	436.859985	436.970001	L1
+5	avoir	avoir	VNF	VNF	_	4	dep	_	_	436.980011	437.260010	L1
+6	la	le	DET	DET	_	7	spe	_	_	437.269989	437.350006	L1
+7	tête	tête	NOM	NOM	_	5	dep	_	_	437.359985	437.619995	L1
+8	tranquille	tranquille	ADJ	ADJ	_	7	dep	_	_	437.630005	438.309998	L1
+9	pouvoir	pouvoir	VNF	VNF	_	5	para	_	_	439.570007	439.920013	L1
+10	faire	faire	VNF	VNF	_	9	dep	_	_	439.929993	440.209991	L1
+11	ce	ce	PRO	PRO	_	10	dep	_	_	440.220001	440.739990	L1
+12	qu'	que	PRQ	PRQ	_	15	dep	_	_	440.799988	440.820007	L1
+13	il	il	CLS	CLS	_	15	subj	_	_	440.829987	440.970001	L1
+14	me	me	CLI	CLI	_	15	dep	_	_	440.980011	441.109985	L1
+15	plaît	plaire	VRB	VRB	_	11	dep	_	_	441.179993	441.480011	L1
+16	quand	quand	CSU	CSU	_	9	dep	_	_	442.059998	442.350006	L1
+17	il	il	CLS	CLS	_	19	subj	_	_	442.359985	442.470001	L1
+18	me	me	CLI	CLI	_	19	dep	_	_	442.480011	442.630005	L1
+19	plaît	plaire	VRB	VRB	_	16	dep	_	_	442.739990	442.880005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-116
+# text = autrement dit de la sculpture beh ce qu'il me plaît qu-~ il y a que la sculpture qui me plaise
+1	autrement	autrement	ADV	ADV	_	2	dep	_	_	444.089996	444.390015	L1
+2	dit	dire	VPP	VPP	_	0	root	_	_	444.399994	444.489990	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	444.500000	444.630005	L1
+4	la	le	DET	DET	_	5	spe	_	_	444.640015	444.709991	L1
+5	sculpture	sculpture	NOM	NOM	_	3	dep	_	_	444.720001	445.820007	L1
+6	beh	beh	INT	INT	_	5	dm	_	_	446.480011	446.529999	L1
+7	ce	ce	PRO	PRO	_	15	periph	_	_	446.540009	446.660004	L1
+8	qu'	que	PRQ	PRQ	_	11	dep	_	_	446.670013	446.720001	L1
+9	il	il	CLS	CLS	_	11	subj	_	_	446.730011	446.820007	L1
+10	me	me	CLI	CLI	_	11	dep	_	_	446.829987	446.910004	L1
+11	plaît	plaire	VRB	VRB	_	7	dep	_	_	446.920013	447.000000	L1
+12	qu-~	qu-~	PRQ	PRQ	_	15	dep	_	_	447.010010	447.029999	L1
+13	il	il	CLS	CLS	_	15	subj	_	_	447.040009	447.130005	L1
+14	y	y	CLI	CLI	_	15	dep	_	_	447.140015	447.179993	L1
+15	a	avoir	VRB	VRB	_	2	dep	_	_	447.190002	447.209991	L1
+16	que	que	CSU	CSU	_	15	dep	_	_	447.220001	447.850006	L1
+17	la	le	DET	DET	_	18	spe	_	_	447.910004	448.019989	L1
+18	sculpture	sculpture	NOM	NOM	_	16	dep	_	_	448.029999	448.480011	L1
+19	qui	qui	PRQ	PRQ	_	21	subj	_	_	448.489990	448.640015	L1
+20	me	me	CLI	CLI	_	21	dep	_	_	448.649994	448.700012	L1
+21	plaise	plaire	VRB	VRB	_	18	dep	_	_	448.799988	449.040009	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-117
+# text = donc le reste c'est pas c'est pas un problème quoi
+1	donc	donc	ADV	ADV	_	5	periph	_	_	449.049988	449.209991	L1
+2	le	le	DET	DET	_	3	spe	_	_	449.220001	449.239990	L1
+3	reste	reste	NOM	NOM	_	5	periph	_	_	449.250000	449.660004	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	450.720001	450.790009	L1
+5	est	être	VRB	VRB	_	0	root	_	_	450.799988	451.630005	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	451.640015	451.690002	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	452.519989	452.609985	L1
+8	est	être	VRB	VRB	_	5	para	_	_	452.619995	452.670013	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	452.730011	452.959991	L1
+10	un	un	DET	DET	_	11	spe	_	_	452.970001	452.989990	L1
+11	problème	problème	NOM	NOM	_	8	dep	_	_	453.000000	453.399994	L1
+12	quoi	quoi	PRQ	PRQ	_	8	dep	_	_	453.459991	453.540009	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-118
+# text = je veux dire c'est c'est comme ça je veux dire
+1	je	je	CLS	CLS	_	2	subj	_	_	453.549988	453.570007	L1
+2	veux	vouloir	VRB	VRB	_	0	root	_	_	453.579987	453.649994	L1
+3	dire	dire	VNF	VNF	_	2	dep	_	_	453.730011	453.899994	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	453.910004	454.059998	L1
+5	est	être	VRB	VRB	_	2	para	_	_	454.070007	454.239990	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	456.320007	456.410004	L1
+7	est	être	VRB	VRB	_	5	para	_	_	456.420013	456.450012	L1
+8	comme	comme	PRE	PRE	_	7	dep	_	_	456.510010	457.279999	L1
+9	ça	ça	PRO	PRO	_	8	dep	_	_	457.320007	457.369995	L1
+10	je	je	CLS	CLS	_	11	subj	_	_	457.529999	457.630005	L1
+11	veux	vouloir	VRB	VRB	_	7	para	_	_	457.640015	457.869995	L1
+12	dire	dire	VNF	VNF	_	11	dep	_	_	457.880005	458.059998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-119
+# text = c'est c'est tout simple
+1	c'	ce	CLS	CLS	_	2	subj	_	_	458.070007	458.140015	L1
+2	est	être	VRB	VRB	_	0	root	_	_	458.149994	458.179993	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	458.190002	458.279999	L1
+4	est	être	VRB	VRB	_	2	para	_	_	458.290009	458.359985	L1
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	458.369995	458.500000	L1
+6	simple	simple	ADJ	ADJ	_	4	dep	_	_	458.510010	458.769989	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-120
+# text = j'ai des raisonnements tout à fait simples
+1	j'	je	CLS	CLS	_	2	subj	_	_	458.880005	459.130005	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	459.140015	459.170013	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	459.179993	459.279999	L1
+4	raisonnements	raisonnement	NOM	NOM	_	3	dep	_	_	459.290009	459.720001	L1
+5	tout à fait	tout à fait	ADV	ADV	_	6	dep	_	_	459.730011	460.179993	L1
+6	simples	simple	ADJ	ADJ	_	4	dep	_	_	460.190002	460.619995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-121
+# text = et en fait je j
+1	et	et	COO	COO	_	3	mark	_	_	461.450012	461.760010	L1
+2	en	en	PRE	PRE	_	3	periph	_	_	462.980011	463.000000	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	463.010010	463.059998	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	463.070007	463.470001	L1
+5	j	j	VRB	VRB	_	3	para	_	_	463.579987	463.709991	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-122
+# text = commence à réaliser que j'ai la grande chance en fait d'avoir une passion et que ma passion c'est de d'aller chercher des des formes quoi d'inven~ pas d'inventer des formes parce qu'on peut pas les inventer mais de jouer avec les formes de les assembler de les ass-~ de les dessembler de les alléger de les ajourer de les de les faire de les parfaire de les défaire de les reconstruire
+1	commence	commencer	VRB	VRB	_	0	root	_	_	464.160004	464.559998	L1
+2	à	à	PRE	PRE	_	1	dep	_	_	464.570007	464.609985	L1
+3	réaliser	réaliser	VNF	VNF	_	2	dep	_	_	464.619995	465.329987	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	466.250000	466.329987	L1
+5	j'	je	CLS	CLS	_	6	subj	_	_	466.339996	466.429993	L1
+6	ai	avoir	VRB	VRB	_	4	dep	_	_	466.440002	466.459991	L1
+7	la	le	DET	DET	_	9	spe	_	_	466.470001	466.570007	L1
+8	grande	grand	ADJ	ADJ	_	9	dep	_	_	466.579987	466.910004	L1
+9	chance	chance	NOM	NOM	_	6	dep	_	_	466.920013	467.279999	L1
+10	en	en	PRE	PRE	_	9	dep	_	_	467.290009	467.359985	L1
+11	fait	fait	NOM	NOM	_	10	dep	_	_	467.369995	467.519989	L1
+12	d'	de	PRE	PRE	_	11	dep	_	_	467.529999	467.630005	L1
+13	avoir	avoir	VNF	VNF	_	12	dep	_	_	467.640015	467.890015	L1
+14	une	un	DET	DET	_	15	spe	_	_	467.899994	468.040009	L1
+15	passion	passion	NOM	NOM	_	13	dep	_	_	468.089996	468.510010	L1
+16	et	et	COO	COO	_	17	mark	_	_	469.619995	469.720001	L1
+17	que	que	CSU	CSU	_	4	para	_	_	469.779999	469.940002	L1
+18	ma	son	DET	DET	_	19	spe	_	_	469.950012	470.089996	L1
+19	passion	passion	NOM	NOM	_	21	periph	_	_	470.100006	470.730011	L1
+20	c'	ce	CLS	CLS	_	21	subj	_	_	470.739990	470.859985	L1
+21	est	être	VRB	VRB	_	17	dep	_	_	470.869995	470.899994	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	470.910004	471.359985	L1
+23	d'	de	PRE	PRE	_	22	para	_	_	472.959991	473.029999	L1
+24	aller	aller	VNF	VNF	_	23	dep	_	_	473.040009	473.179993	L1
+25	chercher	chercher	VNF	VNF	_	24	dep	_	_	473.190002	473.760010	L1
+26	des	de	PRE	PRE	_	25	dep	_	_	473.769989	473.959991	L1
+27	des	de	PRE	PRE	_	26	para	_	_	473.970001	474.160004	L1
+28	formes	forme	NOM	NOM	_	27	dep	_	_	474.170013	474.579987	L1
+29	quoi	quoi	INT	INT	_	28	dm	_	_	474.589996	474.779999	L1
+30	d'	de	PRE	PRE	_	28	dep	_	_	475.089996	475.170013	L1
+31	inven~	inven~	NOM	NOM	_	30	dep	_	_	475.179993	475.549988	L1
+32	pas	pas	ADN	ADN	_	21	dep	_	_	475.809998	475.950012	L1
+33	d'	de	PRE	PRE	_	21	dep	_	_	475.959991	476.049988	L1
+34	inventer	inventer	VNF	VNF	_	33	dep	_	_	476.059998	476.559998	L1
+35	des	de	PRE	PRE	_	34	dep	_	_	476.570007	476.690002	L1
+36	formes	forme	NOM	NOM	_	35	dep	_	_	476.700012	477.000000	L1
+37	parce qu'	parce que	CSU	CSU	_	21	dep	_	_	477.010010	477.269989	L1
+38	on	on	CLS	CLS	_	39	subj	_	_	477.279999	477.329987	L1
+39	peut	pouvoir	VRB	VRB	_	37	dep	_	_	477.459991	477.579987	L1
+40	pas	pas	ADN	ADN	_	39	dep	_	_	477.660004	477.760010	L1
+41	les	le	CLI	CLI	_	42	dep	_	_	477.769989	477.929993	L1
+42	inventer	inventer	VNF	VNF	_	39	dep	_	_	477.940002	478.589996	L1
+43	mais	mais	COO	COO	_	44	mark	_	_	478.980011	479.100006	L1
+44	de	de	PRE	PRE	_	2	para	_	_	479.109985	479.200012	L1
+45	jouer	jouer	VNF	VNF	_	44	dep	_	_	479.209991	479.549988	L1
+46	avec	avec	PRE	PRE	_	45	dep	_	_	479.559998	479.739990	L1
+47	les	le	DET	DET	_	48	spe	_	_	479.750000	479.850006	L1
+48	formes	forme	NOM	NOM	_	46	dep	_	_	479.859985	480.239990	L1
+49	de	de	PRE	PRE	_	48	dep	_	_	481.450012	481.559998	L1
+50	les	le	CLI	CLI	_	51	dep	_	_	481.570007	481.720001	L1
+51	assembler	assembler	VNF	VNF	_	49	dep	_	_	481.730011	482.359985	L1
+52	de	de	PRE	PRE	_	51	dep	_	_	482.369995	482.459991	L1
+53	les	le	DET	DET	_	54	spe	_	_	482.470001	482.649994	L1
+54	ass-~	ass-~	NOM	NOM	_	52	dep	_	_	482.660004	482.989990	L1
+55	de	de	PRE	PRE	_	54	dep	_	_	483.000000	483.279999	L1
+56	les	le	DET	DET	_	57	spe	_	_	483.290009	483.429993	L1
+57	dessembler	dessembler	NOM	NOM	_	55	dep	_	_	483.480011	484.179993	L1
+58	de	de	PRE	PRE	_	57	dep	_	_	484.190002	484.290009	L1
+59	les	le	CLI	CLI	_	60	dep	_	_	484.299988	484.859985	L1
+60	alléger	alléger	VNF	VNF	_	58	dep	_	_	484.869995	485.549988	L1
+61	de	de	PRE	PRE	_	60	dep	_	_	486.000000	486.109985	L1
+62	les	le	CLI	CLI	_	63	dep	_	_	486.119995	486.350006	L1
+63	ajourer	ajourer	VNF	VNF	_	61	dep	_	_	486.359985	487.100006	L1
+64	de	de	PRE	PRE	_	63	dep	_	_	487.880005	488.000000	L1
+65	les	le	DET	DET	_	64	disflink	_	_	488.010010	488.670013	L1
+66	de	de	PRE	PRE	_	64	para	_	_	489.260010	489.350006	L1
+67	les	le	CLI	CLI	_	68	dep	_	_	489.359985	489.440002	L1
+68	faire	faire	VNF	VNF	_	66	dep	_	_	489.450012	490.000000	L1
+69	de	de	PRE	PRE	_	68	dep	_	_	490.010010	490.079987	L1
+70	les	le	CLI	CLI	_	71	dep	_	_	490.089996	490.170013	L1
+71	parfaire	parfaire	VNF	VNF	_	69	dep	_	_	490.179993	490.989990	L1
+72	de	de	PRE	PRE	_	71	dep	_	_	491.549988	491.660004	L1
+73	les	le	CLI	CLI	_	74	dep	_	_	491.670013	491.760010	L1
+74	défaire	défaire	VNF	VNF	_	72	dep	_	_	491.769989	492.540009	L1
+75	de	de	PRE	PRE	_	72	para	_	_	493.140015	493.269989	L1
+76	les	le	CLI	CLI	_	77	dep	_	_	493.279999	493.390015	L1
+77	reconstruire	reconstruire	VNF	VNF	_	75	dep	_	_	493.399994	494.609985	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-123
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	495.589996	495.649994	L1
+2	est	être	VRB	VRB	_	0	root	_	_	495.660004	496.309998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-124
+# text = attends tu peux arrêter là
+1	attends	attendre	VRB	VRB	_	3	dm	_	_	501.260010	501.429993	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	501.579987	501.709991	L1
+3	peux	pouvoir	VRB	VRB	_	0	root	_	_	501.760010	501.899994	L1
+4	arrêter	arrêter	VNF	VNF	_	3	dep	_	_	501.940002	502.239990	L1
+5	là	là	ADV	ADV	_	4	dep	_	_	502.399994	502.579987	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-125
+# text = voilà alors je disais donc que la sculpture c'était ma grande passion
+1	voilà	voilà	INT	INT	_	4	dm	_	_	506.570007	507.279999	L1
+2	alors	alors	ADV	ADV	_	4	periph	_	_	507.339996	507.480011	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	507.489990	507.619995	L1
+4	disais	dire	VRB	VRB	_	0	root	_	_	507.630005	507.739990	L1
+5	donc	donc	ADV	ADV	_	4	dep	_	_	507.750000	507.890015	L1
+6	que	que	CSU	CSU	_	4	dep	_	_	507.899994	508.079987	L1
+7	la	le	DET	DET	_	8	spe	_	_	508.089996	508.200012	L1
+8	sculpture	sculpture	NOM	NOM	_	10	periph	_	_	508.209991	508.799988	L1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	508.809998	508.899994	L1
+10	était	être	VRB	VRB	_	6	dep	_	_	508.910004	509.309998	L1
+11	ma	son	DET	DET	_	13	spe	_	_	509.320007	509.459991	L1
+12	grande	grand	ADJ	ADJ	_	13	dep	_	_	509.470001	509.779999	L1
+13	passion	passion	NOM	NOM	_	10	dep	_	_	509.829987	510.170013	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-126
+# text = et on m'a proposé de faire partager ma passion à d'autres personnes et pour faire partager sa passion à d'autres personnes
+1	et	et	COO	COO	_	5	mark	_	_	510.869995	511.029999	L1
+2	on	on	CLS	CLS	_	5	subj	_	_	511.089996	511.209991	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	511.220001	511.299988	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	511.309998	511.350006	L1
+5	proposé	proposer	VPP	VPP	_	0	root	_	_	511.359985	512.010010	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	512.320007	512.400024	L1
+7	faire	faire	VNF	VNF	_	6	dep	_	_	512.409973	512.650024	L1
+8	partager	partager	VNF	VNF	_	7	dep	_	_	512.659973	513.200012	L1
+9	ma	son	DET	DET	_	10	spe	_	_	513.210022	513.409973	L1
+10	passion	passion	NOM	NOM	_	8	dep	_	_	513.419983	513.880005	L1
+11	à	à	PRE	PRE	_	7	dep	_	_	516.669983	516.780029	L1
+12	d'	de	PRE	PRE	_	11	dep	_	_	516.789978	516.840027	L1
+13	autres	autre	ADJ	ADJ	_	14	dep	_	_	516.849976	517.080017	L1
+14	personnes	personne	NOM	NOM	_	12	dep	_	_	517.090027	517.580017	L1
+15	et	et	COO	COO	_	16	mark	_	_	517.750000	517.859985	L1
+16	pour	pour	PRE	PRE	_	6	para	_	_	517.869995	518.000000	L1
+17	faire	faire	VNF	VNF	_	16	dep	_	_	518.010010	518.390015	L1
+18	partager	partager	VNF	VNF	_	17	dep	_	_	519.479980	519.880005	L1
+19	sa	son	DET	DET	_	20	spe	_	_	519.890015	520.130005	L1
+20	passion	passion	NOM	NOM	_	18	dep	_	_	520.140015	520.460022	L1
+21	à	à	PRE	PRE	_	18	dep	_	_	520.469971	520.489990	L1
+22	d'	de	PRE	PRE	_	21	dep	_	_	520.500000	520.530029	L1
+23	autres	autre	ADJ	ADJ	_	24	dep	_	_	520.539978	520.729980	L1
+24	personnes	personne	NOM	NOM	_	22	dep	_	_	520.739990	521.309998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-127
+# text = on fait des expositions
+1	on	on	CLS	CLS	_	2	subj	_	_	522.099976	522.229980	L1
+2	fait	faire	VRB	VRB	_	0	root	_	_	522.239990	522.380005	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	522.390015	522.530029	L1
+4	expositions	exposition	NOM	NOM	_	3	dep	_	_	522.539978	523.109985	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-128
+# text = et à travers ces expositions euh on est en contact avec des gens
+1	et	et	COO	COO	_	7	mark	_	_	524.289978	524.359985	L1
+2	à travers	à travers	PRE	PRE	_	7	periph	_	_	524.369995	524.789978	L1
+3	ces	ce	DET	DET	_	4	spe	_	_	524.799988	524.900024	L1
+4	expositions	exposition	NOM	NOM	_	2	dep	_	_	524.909973	525.659973	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	526.359985	526.960022	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	527.950012	528.140015	L1
+7	est	être	VRB	VRB	_	0	root	_	_	528.150024	528.169983	L1
+8	en	en	PRE	PRE	_	7	dep	_	_	528.179993	528.260010	L1
+9	contact	contact	NOM	NOM	_	8	dep	_	_	528.270020	528.780029	L1
+10	avec	avec	PRE	PRE	_	7	dep	_	_	528.789978	528.960022	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	528.969971	529.080017	L1
+12	gens	gens	NOM	NOM	_	11	dep	_	_	529.090027	529.409973	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-129
+# text = et ces ces personnes sont plus ou moins sensibles à ton travail
+1	et	et	COO	COO	_	5	mark	_	_	529.539978	529.599976	L1
+2	ces	ce	DET	DET	_	4	spe	_	_	529.609985	530.020020	L1
+3	ces	ce	DET	DET	_	2	para	_	_	530.030029	530.190002	L1
+4	personnes	personne	NOM	NOM	_	5	subj	_	_	530.200012	530.609985	L1
+5	sont	être	VRB	VRB	_	0	root	_	_	530.619995	530.849976	L1
+6	plus ou moins	plus ou moins	ADV	ADV	_	7	dep	_	_	530.859985	531.239990	L1
+7	sensibles	sensible	ADJ	ADJ	_	5	dep	_	_	531.250000	531.919983	L1
+8	à	à	PRE	PRE	_	7	dep	_	_	531.929993	532.000000	L1
+9	ton	son	DET	DET	_	10	spe	_	_	532.010010	532.150024	L1
+10	travail	travail	NOM	NOM	_	8	dep	_	_	532.159973	532.460022	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-130
+# text = alors certaines sont aiment
+1	alors	alors	ADV	ADV	_	2	dep	_	_	533.419983	533.619995	L1
+2	certaines	certain	ADJ	ADJ	_	3	subj	_	_	533.630005	534.219971	L1
+3	sont	être	VRB	VRB	_	0	root	_	_	534.229980	534.690002	L1
+4	aiment	aiment	ADV	ADV	_	3	dep	_	_	535.489990	535.880005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-131
+# text = et d'autres n'aiment pas
+1	et	et	COO	COO	_	5	mark	_	_	536.679993	536.760010	L1
+2	d'	de	PRE	PRE	_	5	periph	_	_	536.770020	536.809998	L1
+3	autres	autre	ADJ	ADJ	_	5	subj	_	_	536.820007	537.250000	L1
+4	n'	ne	CLN	CLN	_	5	dep	_	_	537.260010	537.309998	L1
+5	aiment	aimer	VRB	VRB	_	0	root	_	_	537.320007	537.570007	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	537.580017	537.700012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-132
+# text = il faut apprendre à gérer
+1	il	il	CLS	CLS	_	2	subj	_	_	540.739990	540.900024	L1
+2	faut	faillir	VRB	VRB	_	0	root	_	_	540.909973	541.150024	L1
+3	apprendre	apprendre	VNF	VNF	_	2	dep	_	_	541.159973	541.440002	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	541.450012	541.469971	L1
+5	gérer	gérer	VNF	VNF	_	4	dep	_	_	541.479980	542.080017	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-133
+# text = ceux qui aiment et ceux qui aiment pas
+1	ceux	celui	PRO	PRO	_	0	root	_	_	542.229980	542.429993	L1
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	542.440002	542.650024	L1
+3	aiment	aimer	VRB	VRB	_	1	dep	_	_	542.659973	542.909973	L1
+4	et	et	COO	COO	_	5	mark	_	_	543.109985	543.169983	L1
+5	ceux	celui	PRO	PRO	_	1	para	_	_	543.179993	543.369995	L1
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	543.380005	543.479980	L1
+7	aiment	aimer	VRB	VRB	_	5	dep	_	_	543.489990	543.669983	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	543.799988	543.869995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-134
+# text = parce qu'en fait s-~ lorsqu'on fait des expositions c'est surtout pour vendre
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	545.650024	546.070007	L1
+2	en	en	PRE	PRE	_	4	periph	_	_	546.080017	546.109985	L1
+3	fait	fait	NOM	NOM	_	2	dep	_	_	546.119995	546.179993	L1
+4	s-~	s-~	X	X	_	11	disflink	_	_	546.520020	546.799988	L1
+5	lorsqu'	lorsque	CSU	CSU	_	11	periph	_	_	546.809998	547.020020	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	547.030029	547.159973	L1
+7	fait	faire	VRB	VRB	_	5	dep	_	_	547.169983	547.239990	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	547.250000	547.309998	L1
+9	expositions	exposition	NOM	NOM	_	8	dep	_	_	547.320007	548.020020	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	548.030029	548.179993	L1
+11	est	être	VRB	VRB	_	1	dep	_	_	548.190002	548.260010	L1
+12	surtout	surtout	ADV	ADV	_	11	dep	_	_	548.270020	548.659973	L1
+13	pour	pour	PRE	PRE	_	11	dep	_	_	548.669983	548.859985	L1
+14	vendre	vendre	VNF	VNF	_	13	dep	_	_	548.869995	549.260010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-135
+# text = et si les gens aiment on se dit bon a une chance de vendre
+1	et	et	COO	COO	_	8	mark	_	_	550.469971	550.690002	L1
+2	si	si	CSU	CSU	_	8	periph	_	_	550.700012	550.900024	L1
+3	les	le	DET	DET	_	4	spe	_	_	550.909973	551.020020	L1
+4	gens	gens	NOM	NOM	_	8	periph	_	_	551.030029	551.309998	L1
+5	aiment	aiment	ADV	ADV	_	4	dep	_	_	551.380005	551.770020	L1
+6	on	on	CLS	CLS	_	8	subj	_	_	553.640015	553.700012	L1
+7	se	se	CLI	CLI	_	8	dep	_	_	553.710022	553.880005	L1
+8	dit	dire	VRB	VRB	_	0	root	_	_	553.890015	554.070007	L1
+9	bon	bon	INT	INT	_	10	dm	_	_	554.080017	554.250000	L1
+10	a	avoir	VRB	VRB	_	8	dep	_	_	554.289978	554.309998	L1
+11	une	un	DET	DET	_	12	spe	_	_	554.320007	554.409973	L1
+12	chance	chance	NOM	NOM	_	10	dep	_	_	554.419983	554.760010	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	554.770020	554.789978	L1
+14	vendre	vendre	VNF	VNF	_	13	dep	_	_	554.799988	555.059998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-136
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	555.219971	555.260010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-137
+# text = s'ils aiment pas
+1	s'	si	CSU	CSU	_	0	root	_	_	555.270020	555.390015	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	555.400024	555.539978	L1
+3	aiment	aimer	VRB	VRB	_	1	dep	_	_	555.549988	555.700012	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	555.710022	556.020020	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-138
+# text = on se dit pfft notre travail ne vaut rien
+1	on	on	CLS	CLS	_	4	subj	_	_	556.500000	556.559998	L1
+2	se	se	CLI	CLI	_	4	dep	_	_	556.570007	556.750000	L1
+3	dit	dire	VRB	VRB	_	4	aux	_	_	556.760010	557.010010	L1
+4	pfft	pfft	VPP	VPP	_	0	root	_	_	557.049988	557.260010	L1
+5	notre	son	DET	DET	_	6	spe	_	_	557.270020	557.489990	L1
+6	travail	travail	NOM	NOM	_	8	subj	_	_	557.500000	557.840027	L1
+7	ne	ne	CLN	CLN	_	8	dep	_	_	557.849976	557.950012	L1
+8	vaut	valoir	VRB	VRB	_	4	dep	_	_	557.960022	558.080017	L1
+9	rien	rien	PRO	PRO	_	8	dep	_	_	558.090027	558.349976	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-139
+# text = et il faut pas se laisser euh se laisser se laisser attrister si le travail ne plaît pas parce qu'il y a toujours des gens à qui ça plaît
+1	et	et	COO	COO	_	3	mark	_	_	560.559998	561.450012	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	561.460022	561.520020	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	561.530029	561.650024	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	561.659973	561.890015	L1
+5	se	se	CLI	CLI	_	6	dep	_	_	561.900024	562.109985	L1
+6	laisser	laisser	VNF	VNF	_	3	dep	_	_	562.119995	562.630005	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	562.640015	562.900024	L1
+8	se	se	CLI	CLI	_	9	dep	_	_	564.750000	565.150024	L1
+9	laisser	laisser	VNF	VNF	_	6	para	_	_	565.159973	566.530029	L1
+10	se	se	CLI	CLI	_	11	dep	_	_	568.130005	568.200012	L1
+11	laisser	laisser	VNF	VNF	_	9	dep	_	_	568.210022	568.580017	L1
+12	attrister	attrister	VNF	VNF	_	11	dep	_	_	568.590027	569.169983	L1
+13	si	si	CSU	CSU	_	9	dep	_	_	569.179993	569.330017	L1
+14	le	le	DET	DET	_	15	spe	_	_	569.340027	569.450012	L1
+15	travail	travail	NOM	NOM	_	17	subj	_	_	569.460022	569.739990	L1
+16	ne	ne	CLN	CLN	_	17	dep	_	_	569.750000	569.849976	L1
+17	plaît	plaire	VRB	VRB	_	13	dep	_	_	569.859985	570.010010	L1
+18	pas	pas	ADN	ADN	_	17	dep	_	_	570.020020	570.250000	L1
+19	parce qu'	parce que	CSU	CSU	_	9	dep	_	_	570.700012	570.880005	L1
+20	il	il	CLS	CLS	_	22	subj	_	_	570.890015	570.940002	L1
+21	y	y	CLI	CLI	_	22	dep	_	_	570.950012	570.969971	L1
+22	a	avoir	VRB	VRB	_	19	dep	_	_	570.979980	571.000000	L1
+23	toujours	toujours	ADV	ADV	_	22	dep	_	_	571.010010	571.299988	L1
+24	des	de	PRE	PRE	_	22	dep	_	_	571.309998	571.400024	L1
+25	gens	gens	NOM	NOM	_	24	dep	_	_	571.409973	571.619995	L1
+26	à	à	PRE	PRE	_	25	dep	_	_	571.630005	571.669983	L1
+27	qui	qui	PRQ	PRQ	_	29	dep	_	_	571.679993	571.830017	L1
+28	ça	ça	PRO	PRO	_	29	subj	_	_	571.840027	572.030029	L1
+29	plaît	plaire	VRB	VRB	_	25	dep	_	_	572.039978	572.250000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-140
+# text = et d'autres à qui ça ne plaît pas
+1	et	et	COO	COO	_	8	mark	_	_	573.349976	573.419983	L1
+2	d'	de	PRE	PRE	_	8	periph	_	_	573.429993	573.460022	L1
+3	autres	autre	ADJ	ADJ	_	2	dep	_	_	573.469971	573.669983	L1
+4	à	à	PRE	PRE	_	2	para	_	_	573.679993	573.710022	L1
+5	qui	qui	PRQ	PRQ	_	4	dep	_	_	573.719971	573.830017	L1
+6	ça	ça	PRO	PRO	_	8	subj	_	_	573.840027	573.979980	L1
+7	ne	ne	CLN	CLN	_	8	dep	_	_	573.989990	574.099976	L1
+8	plaît	plaire	VRB	VRB	_	0	root	_	_	574.109985	574.299988	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	574.309998	574.659973	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-141
+# text = mais pour pour des raisons qui leur sont personnelles
+1	mais	mais	COO	COO	_	2	mark	_	_	574.700012	575.000000	L1
+2	pour	pour	PRE	PRE	_	0	root	_	_	575.169983	575.400024	L1
+3	pour	pour	PRE	PRE	_	2	para	_	_	576.969971	577.150024	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	577.159973	577.320007	L1
+5	raisons	raison	NOM	NOM	_	4	dep	_	_	577.330017	577.599976	L1
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	577.609985	577.710022	L1
+7	leur	lui	CLI	CLI	_	8	dep	_	_	577.719971	577.880005	L1
+8	sont	être	VRB	VRB	_	5	dep	_	_	577.890015	578.320007	L1
+9	personnelles	personnel	ADJ	ADJ	_	8	dep	_	_	578.390015	579.070007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-142
+# text = et dans lequel le sculpteur n'y est pour rien ça leur plaît pas
+1	et	et	COO	COO	_	8	mark	_	_	579.539978	579.599976	L1
+2	dans	dans	PRE	PRE	_	8	periph	_	_	579.609985	579.710022	L1
+3	lequel	lequel	PRQ	PRQ	_	2	dep	_	_	579.719971	580.270020	L1
+4	le	le	DET	DET	_	5	spe	_	_	580.679993	580.770020	L1
+5	sculpteur	sculpteur	NOM	NOM	_	8	subj	_	_	580.780029	581.270020	L1
+6	n'	ne	CLN	CLN	_	8	dep	_	_	581.280029	581.369995	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	581.380005	581.400024	L1
+8	est	être	VRB	VRB	_	0	root	_	_	581.409973	581.460022	L1
+9	pour	pour	PRE	PRE	_	8	dep	_	_	581.469971	581.710022	L1
+10	rien	rien	PRO	PRO	_	9	dep	_	_	581.719971	581.849976	L1
+11	ça	ça	PRO	PRO	_	13	subj	_	_	582.659973	582.780029	L1
+12	leur	lui	CLI	CLI	_	13	dep	_	_	582.789978	582.960022	L1
+13	plaît	plaire	VRB	VRB	_	8	para	_	_	582.969971	583.119995	L1
+14	pas	pas	ADN	ADN	_	13	dep	_	_	583.130005	583.330017	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-143
+# text = pourquoi
+1	pourquoi	pourquoi	PRQ	PRQ	_	0	root	_	_	583.340027	583.880005	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-144
+# text = parce que ça peut réveiller en eux des choses qu'ils n'aiment pas chez eux
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	584.369995	584.659973	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	584.669983	584.799988	L1
+3	peut	pouvoir	VRB	VRB	_	1	dep	_	_	584.809998	584.979980	L1
+4	réveiller	réveiller	VNF	VNF	_	3	dep	_	_	584.989990	585.700012	L1
+5	en	en	PRE	PRE	_	4	dep	_	_	585.710022	585.890015	L1
+6	eux	moi	PRO	PRO	_	5	dep	_	_	585.900024	586.080017	L1
+7	des	de	PRE	PRE	_	4	dep	_	_	586.559998	586.650024	L1
+8	choses	chose	NOM	NOM	_	7	dep	_	_	586.659973	587.190002	L1
+9	qu'	que	PRQ	PRQ	_	12	dep	_	_	587.710022	587.760010	L1
+10	ils	il	CLS	CLS	_	12	subj	_	_	587.770020	587.840027	L1
+11	n'	ne	CLN	CLN	_	12	dep	_	_	587.849976	587.919983	L1
+12	aiment	aimer	VRB	VRB	_	1	dep	_	_	587.929993	588.159973	L1
+13	pas	pas	ADN	ADN	_	12	dep	_	_	588.169983	588.280029	L1
+14	chez	chez	PRE	PRE	_	12	dep	_	_	588.289978	588.640015	L1
+15	eux	moi	PRO	PRO	_	14	dep	_	_	588.650024	588.729980	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-145
+# text = donc c'est pas parce qu'ils ne les aiment pas chez eux qu'elles sont pas par contre s'il y en a qui aiment beaucoup parce que ça leur permet
+1	donc	donc	ADV	ADV	_	3	periph	_	_	590.700012	592.469971	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	593.630005	593.630005	L1
+3	est	être	VRB	VRB	_	0	root	_	_	593.630005	593.630005	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	593.630005	593.630005	L1
+5	parce qu'	parce que	CSU	CSU	_	3	dep	_	_	593.630005	593.630005	L1
+6	ils	il	CLS	CLS	_	9	subj	_	_	593.630005	593.630005	L1
+7	ne	ne	CLN	CLN	_	9	dep	_	_	593.630005	593.630005	L1
+8	les	le	CLI	CLI	_	9	dep	_	_	593.630005	593.630005	L1
+9	aiment	aimer	VRB	VRB	_	5	dep	_	_	593.630005	593.630005	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	593.630005	593.630005	L1
+11	chez	chez	PRE	PRE	_	9	dep	_	_	593.630005	593.630005	L1
+12	eux	moi	PRO	PRO	_	11	dep	_	_	593.630005	593.630005	L1
+13	qu'	que	CSU	CSU	_	5	para	_	_	593.630005	593.630005	L1
+14	elles	il	CLS	CLS	_	15	subj	_	_	593.630005	593.630005	L1
+15	sont	être	VRB	VRB	_	13	dep	_	_	593.630005	593.630005	L1
+16	pas	pas	ADN	ADN	_	15	dep	_	_	593.630005	593.630005	L1
+17	par	par	PRE	PRE	_	3	dep	_	_	594.820007	595.010010	L1
+18	contre	contre	PRE	PRE	_	17	dep	_	_	595.020020	595.330017	L1
+19	s'	si	CSU	CSU	_	3	dep	_	_	595.340027	595.460022	L1
+20	il	il	CLS	CLS	_	23	subj	_	_	595.469971	595.619995	L1
+21	y	y	CLI	CLI	_	23	dep	_	_	595.630005	595.669983	L1
+22	en	en	CLI	CLI	_	23	dep	_	_	595.679993	595.710022	L1
+23	a	avoir	VRB	VRB	_	19	dep	_	_	595.719971	595.760010	L1
+24	qui	qui	PRQ	PRQ	_	25	subj	_	_	595.770020	595.950012	L1
+25	aiment	aimer	VRB	VRB	_	23	para	_	_	595.960022	596.109985	L1
+26	beaucoup	beaucoup	ADV	ADV	_	25	dep	_	_	596.119995	596.549988	L1
+27	parce que	parce que	CSU	CSU	_	25	dep	_	_	596.559998	597.000000	L1
+28	ça	ça	PRO	PRO	_	30	subj	_	_	597.520020	597.669983	L1
+29	leur	lui	CLI	CLI	_	30	dep	_	_	597.679993	597.880005	L1
+30	permet	permettre	VRB	VRB	_	27	dep	_	_	597.890015	598.429993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-146
+# text = ils reconnaissent des choses qu'ils aiment chez eux
+1	ils	il	CLS	CLS	_	2	subj	_	_	598.780029	598.940002	L1
+2	reconnaissent	reconnaître	VRB	VRB	_	0	root	_	_	598.950012	599.429993	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	599.440002	599.530029	L1
+4	choses	chose	NOM	NOM	_	3	dep	_	_	599.539978	599.859985	L1
+5	qu'	que	PRQ	PRQ	_	7	dep	_	_	599.900024	599.940002	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	599.950012	600.239990	L1
+7	aiment	aimer	VRB	VRB	_	4	dep	_	_	600.250000	600.299988	L1
+8	chez	chez	PRE	PRE	_	7	dep	_	_	600.840027	601.190002	L1
+9	eux	moi	PRO	PRO	_	8	dep	_	_	601.200012	601.309998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-147
+# text = qu'ils aimeraient faire qu'ils aimeraient euh reproduire
+1	qu'	que	PRQ	PRQ	_	3	dep	_	_	602.309998	602.369995	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	602.380005	602.559998	L1
+3	aimeraient	aimer	VRB	VRB	_	0	root	_	_	602.570007	602.840027	L1
+4	faire	faire	VNF	VNF	_	3	dep	_	_	602.849976	603.270020	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	603.349976	603.380005	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	603.390015	603.510010	L1
+7	aimeraient	aimer	VRB	VRB	_	5	dep	_	_	603.520020	604.020020	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	604.030029	604.200012	L1
+9	reproduire	reproduire	VNF	VNF	_	7	dep	_	_	604.390015	605.010010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-148
+# text = et donc ils prennent déjà beaucoup de plaisir à les regarder
+1	et	et	COO	COO	_	4	mark	_	_	605.559998	606.059998	L1
+2	donc	donc	ADV	ADV	_	4	periph	_	_	608.659973	609.099976	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	609.109985	609.239990	L1
+4	prennent	prendre	VRB	VRB	_	0	root	_	_	609.250000	609.460022	L1
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	609.469971	609.830017	L1
+6	beaucoup	beaucoup	ADV	ADV	_	4	dep	_	_	610.190002	610.450012	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	610.460022	610.590027	L1
+8	plaisir	plaisir	NOM	NOM	_	7	dep	_	_	610.599976	610.979980	L1
+9	à	à	PRE	PRE	_	4	dep	_	_	610.989990	611.020020	L1
+10	les	le	CLI	CLI	_	11	dep	_	_	611.030029	611.119995	L1
+11	regarder	regarder	VNF	VNF	_	9	dep	_	_	611.130005	611.700012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-149
+# text = et à les toucher souvent
+1	et	et	COO	COO	_	5	mark	_	_	612.840027	613.250000	L1
+2	à	à	PRE	PRE	_	5	dep	_	_	613.260010	613.320007	L1
+3	les	le	DET	DET	_	4	spe	_	_	613.330017	613.539978	L1
+4	toucher	toucher	NOM	NOM	_	2	dep	_	_	613.549988	613.979980	L1
+5	souvent	souvent	ADV	ADV	_	0	root	_	_	614.039978	614.489990	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-150
+# text = et ceux-là on voit des
+1	et	et	COO	COO	_	4	mark	_	_	615.469971	615.859985	L1
+2	ceux-là	celui-là	PRO	PRO	_	4	periph	_	_	615.869995	616.450012	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	616.460022	616.619995	L1
+4	voit	voir	VRB	VRB	_	0	root	_	_	616.630005	616.780029	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	616.789978	617.250000	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-151
+# text = on voit des échanges euh
+1	on	on	CLS	CLS	_	2	subj	_	_	618.150024	618.359985	L1
+2	voit	voir	VRB	VRB	_	0	root	_	_	618.369995	618.500000	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	618.510010	618.739990	L1
+4	échanges	échange	NOM	NOM	_	3	dep	_	_	618.750000	619.539978	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	620.599976	621.190002	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-152
+# text = positifs dans le sens qu'il y a une reconnaissance de du travail fait
+1	positifs	positif	NOM	NOM	_	0	root	_	_	623.179993	623.530029	L1
+2	dans	dans	PRE	PRE	_	1	dep	_	_	623.539978	623.590027	L1
+3	le	le	DET	DET	_	4	spe	_	_	623.599976	623.619995	L1
+4	sens	sens	NOM	NOM	_	2	dep	_	_	623.630005	623.719971	L1
+5	qu'	que	PRQ	PRQ	_	8	dep	_	_	623.729980	623.750000	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	623.760010	623.809998	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	623.820007	623.869995	L1
+8	a	avoir	VRB	VRB	_	4	dep	_	_	623.880005	623.900024	L1
+9	une	un	DET	DET	_	10	spe	_	_	623.909973	624.090027	L1
+10	reconnaissance	reconnaissance	NOM	NOM	_	8	dep	_	_	624.099976	625.140015	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	626.469971	626.979980	L1
+12	du	de+le	PRE	PRE	_	11	para	_	_	627.460022	627.739990	L1
+13	travail	travail	NOM	NOM	_	12	dep	_	_	627.750000	628.169983	L1
+14	fait	faire	ADJ	ADJ	_	13	dep	_	_	628.179993	628.580017	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-153
+# text = et cette reconnaissance peut nourrir euh l'artiste qui présente ses oeuvres
+1	et	et	COO	COO	_	4	mark	_	_	629.169983	629.239990	L1
+2	cette	ce	DET	DET	_	3	spe	_	_	629.250000	629.609985	L1
+3	reconnaissance	reconnaissance	NOM	NOM	_	4	subj	_	_	629.619995	630.340027	L1
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	630.429993	630.590027	L1
+5	nourrir	nourrir	VNF	VNF	_	4	dep	_	_	630.599976	631.070007	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	631.080017	631.099976	L1
+7	l'	le	DET	DET	_	8	spe	_	_	631.820007	631.929993	L1
+8	artiste	artiste	NOM	NOM	_	5	dep	_	_	631.940002	632.580017	L1
+9	qui	qui	PRQ	PRQ	_	10	dep	_	_	632.989990	633.109985	L1
+10	présente	présent	ADJ	ADJ	_	8	dep	_	_	633.119995	633.580017	L1
+11	ses	son	DET	DET	_	12	spe	_	_	633.590027	633.859985	L1
+12	oeuvres	oeuvre	NOM	NOM	_	10	dep	_	_	633.869995	634.179993	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-154
+# text = mais c'est aussi nourrissant quand les autres n'aiment pas
+1	mais	mais	COO	COO	_	3	mark	_	_	635.010010	635.320007	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	635.330017	635.359985	L1
+3	est	être	VRB	VRB	_	0	root	_	_	635.369995	635.400024	L1
+4	aussi	aussi	ADV	ADV	_	5	dep	_	_	635.409973	635.679993	L1
+5	nourrissant	nourrissant	ADJ	ADJ	_	3	dep	_	_	635.690002	636.320007	L1
+6	quand	quand	CSU	CSU	_	3	dep	_	_	636.450012	636.650024	L1
+7	les	le	DET	DET	_	8	spe	_	_	636.690002	636.900024	L1
+8	autres	autres	NOM	NOM	_	10	subj	_	_	636.909973	637.210022	L1
+9	n'	ne	CLN	CLN	_	10	dep	_	_	637.219971	637.280029	L1
+10	aiment	aimer	VRB	VRB	_	6	dep	_	_	637.289978	637.510010	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	637.599976	637.820007	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-155
+# text = parce que ça oblige l'artiste à se poser la question
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	638.349976	638.849976	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	639.049988	639.179993	L1
+3	oblige	obliger	VRB	VRB	_	1	dep	_	_	639.190002	639.590027	L1
+4	l'	le	DET	DET	_	5	spe	_	_	639.599976	639.669983	L1
+5	artiste	artiste	NOM	NOM	_	3	dep	_	_	639.679993	640.190002	L1
+6	à	à	PRE	PRE	_	3	dep	_	_	640.200012	640.219971	L1
+7	se	se	CLI	CLI	_	8	dep	_	_	640.229980	640.369995	L1
+8	poser	poser	VNF	VNF	_	6	dep	_	_	640.380005	640.669983	L1
+9	la	le	DET	DET	_	10	spe	_	_	640.679993	640.770020	L1
+10	question	question	NOM	NOM	_	8	dep	_	_	640.780029	641.239990	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-156
+# text = pourquoi ils n'aiment pas
+1	pourquoi	pourquoi	PRQ	PRQ	_	4	dep	_	_	641.320007	641.849976	L1
+2	ils	il	CLS	CLS	_	4	subj	_	_	642.340027	642.510010	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	642.520020	642.619995	L1
+4	aiment	aimer	VRB	VRB	_	0	root	_	_	642.630005	642.820007	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	642.830017	643.140015	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-157
+# text = voire si à lui ça lui permet de de d'essayer de trouver d'autres possibilités dans sa création pour ne c'est pour ça que je dis qu'il faut apprendre à le gérer parce que c'est très bien que des personnes n'aiment pas et qu'ils en parlent
+1	voire	voire	COO	COO	_	2	mark	_	_	643.780029	644.130005	L1
+2	si	si	CSU	CSU	_	23	periph	_	_	644.140015	644.590027	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	644.599976	644.619995	L1
+4	lui	moi	PRO	PRO	_	3	dep	_	_	644.630005	644.849976	L1
+5	ça	ça	PRO	PRO	_	7	subj	_	_	644.859985	645.010010	L1
+6	lui	lui	CLI	CLI	_	7	dep	_	_	645.020020	645.179993	L1
+7	permet	permettre	VRB	VRB	_	2	dep	_	_	645.190002	645.679993	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	645.690002	645.969971	L1
+9	de	de	PRE	PRE	_	8	para	_	_	646.710022	646.809998	L1
+10	d'	de	PRE	PRE	_	9	para	_	_	648.210022	648.359985	L1
+11	essayer	essayer	VNF	VNF	_	10	dep	_	_	648.369995	648.710022	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	648.719971	648.840027	L1
+13	trouver	se trouver	VNF	VNF	_	12	dep	_	_	648.849976	649.469971	L1
+14	d'	de	PRE	PRE	_	13	dep	_	_	650.340027	650.599976	L1
+15	autres	autre	ADJ	ADJ	_	16	dep	_	_	650.609985	650.830017	L1
+16	possibilités	possibilité	NOM	NOM	_	14	dep	_	_	650.840027	651.609985	L1
+17	dans	dans	PRE	PRE	_	13	dep	_	_	651.619995	651.669983	L1
+18	sa	son	DET	DET	_	19	spe	_	_	651.679993	651.859985	L1
+19	création	création	NOM	NOM	_	17	dep	_	_	651.960022	652.450012	L1
+20	pour	pour	PRE	PRE	_	11	dep	_	_	653.820007	654.039978	L1
+21	ne	ne	CLN	CLN	_	20	dep	_	_	654.049988	654.289978	L1
+22	c'	ce	CLS	CLS	_	23	subj	_	_	654.520020	654.590027	L1
+23	est	être	VRB	VRB	_	0	root	_	_	654.599976	654.650024	L1
+24	pour	pour	PRE	PRE	_	23	dep	_	_	654.659973	654.799988	L1
+25	ça	ça	PRO	PRO	_	24	dep	_	_	654.809998	654.969971	L1
+26	que	que	PRQ	PRQ	_	28	dep	_	_	654.979980	655.070007	L1
+27	je	je	CLS	CLS	_	28	subj	_	_	655.080017	655.150024	L1
+28	dis	dire	VRB	VRB	_	23	dep	_	_	655.159973	655.260010	L1
+29	qu'	que	CSU	CSU	_	28	dep	_	_	655.270020	655.320007	L1
+30	il	il	CLS	CLS	_	31	subj	_	_	655.330017	655.400024	L1
+31	faut	faillir	VRB	VRB	_	29	dep	_	_	655.409973	655.520020	L1
+32	apprendre	apprendre	VNF	VNF	_	31	dep	_	_	655.530029	656.020020	L1
+33	à	à	PRE	PRE	_	32	dep	_	_	656.030029	656.049988	L1
+34	le	le	CLI	CLI	_	35	dep	_	_	656.059998	656.140015	L1
+35	gérer	gérer	VNF	VNF	_	33	dep	_	_	656.150024	656.549988	L1
+36	parce que	parce que	CSU	CSU	_	32	dep	_	_	657.169983	657.390015	L1
+37	c'	ce	CLS	CLS	_	38	subj	_	_	657.400024	657.469971	L1
+38	est	être	VRB	VRB	_	36	dep	_	_	657.479980	657.549988	L1
+39	très	très	ADV	ADV	_	40	dep	_	_	657.559998	657.780029	L1
+40	bien	bien	ADV	ADV	_	38	dep	_	_	657.789978	658.030029	L1
+41	que	que	CSU	CSU	_	38	dep	_	_	658.039978	658.130005	L1
+42	des	de	PRE	PRE	_	41	dep	_	_	658.140015	658.250000	L1
+43	personnes	personne	NOM	NOM	_	42	dep	_	_	658.260010	658.729980	L1
+44	n'	ne	CLN	CLN	_	45	dep	_	_	658.739990	658.789978	L1
+45	aiment	aimer	VRB	VRB	_	23	para	_	_	658.799988	659.010010	L1
+46	pas	pas	ADN	ADN	_	45	dep	_	_	659.080017	659.349976	L1
+47	et	et	COO	COO	_	48	mark	_	_	659.469971	659.549988	L1
+48	qu'	que	CSU	CSU	_	45	dep	_	_	659.559998	659.609985	L1
+49	ils	il	CLS	CLS	_	51	subj	_	_	659.619995	659.760010	L1
+50	en	en	CLI	CLI	_	51	dep	_	_	659.770020	659.909973	L1
+51	parlent	parler	VRB	VRB	_	48	dep	_	_	659.919983	660.210022	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-158
+# text = ça permet euh de savoir et de mettre à jour que ce que l'on fait n'est pas obligatoirement très bien
+1	ça	ça	PRO	PRO	_	2	subj	_	_	660.640015	660.789978	L1
+2	permet	permettre	VRB	VRB	_	0	root	_	_	660.799988	661.359985	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	661.950012	662.400024	L1
+4	de	de	PRE	PRE	_	2	dep	_	_	662.570007	663.390015	L1
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	663.400024	664.049988	L1
+6	et	et	COO	COO	_	7	mark	_	_	664.489990	664.580017	L1
+7	de	de	PRE	PRE	_	4	para	_	_	664.590027	664.739990	L1
+8	mettre	mettre	VNF	VNF	_	7	dep	_	_	664.750000	665.090027	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	665.150024	665.210022	L1
+10	jour	jour	NOM	NOM	_	9	dep	_	_	665.219971	665.590027	L1
+11	que	que	CSU	CSU	_	2	dep	_	_	666.059998	666.179993	L1
+12	ce	ce	PRO	PRO	_	18	subj	_	_	666.190002	666.369995	L1
+13	que	que	PRQ	PRQ	_	16	dep	_	_	666.380005	666.500000	L1
+14	l'	le	DET	DET	_	16	dep	_	_	666.510010	666.559998	L1
+15	on	on	CLS	CLS	_	16	subj	_	_	666.570007	666.750000	L1
+16	fait	faire	VRB	VRB	_	12	dep	_	_	666.760010	667.210022	L1
+17	n'	ne	CLN	CLN	_	18	dep	_	_	667.789978	667.859985	L1
+18	est	être	VRB	VRB	_	11	dep	_	_	667.869995	667.929993	L1
+19	pas	pas	ADN	ADN	_	18	dep	_	_	667.940002	668.080017	L1
+20	obligatoirement	obligatoirement	ADV	ADV	_	18	dep	_	_	668.090027	669.109985	L1
+21	très	très	ADV	ADV	_	22	dep	_	_	669.450012	669.739990	L1
+22	bien	bien	ADV	ADV	_	18	dep	_	_	669.750000	670.059998	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-159
+# text = ça peut plaire tout ce qu'on fait peut plaire déplaire je veux dire
+1	ça	ça	PRO	PRO	_	2	subj	_	_	670.210022	670.400024	L1
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	670.409973	670.590027	L1
+3	plaire	plaire	VNF	VNF	_	2	dep	_	_	670.630005	671.150024	L1
+4	tout	tout	ADJ	ADJ	_	5	dep	_	_	671.890015	671.979980	L1
+5	ce	ce	PRO	PRO	_	3	dep	_	_	671.989990	672.039978	L1
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	672.049988	672.099976	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	672.109985	672.239990	L1
+8	fait	faire	VRB	VRB	_	5	dep	_	_	672.250000	672.450012	L1
+9	peut	pouvoir	VRB	VRB	_	8	para	_	_	672.489990	672.619995	L1
+10	plaire	plaire	VNF	VNF	_	9	dep	_	_	672.630005	673.119995	L1
+11	déplaire	déplaire	VNF	VNF	_	10	dep	_	_	673.130005	673.659973	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	673.840027	673.890015	L1
+13	veux	vouloir	VRB	VRB	_	9	para	_	_	673.900024	673.979980	L1
+14	dire	dire	VNF	VNF	_	13	dep	_	_	673.989990	674.200012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-160
+# text = on est toujours entre deux deux tendances plaire et déplaire
+1	on	on	CLS	CLS	_	2	subj	_	_	674.489990	674.630005	L1
+2	est	être	VRB	VRB	_	0	root	_	_	674.640015	674.719971	L1
+3	toujours	toujours	ADV	ADV	_	2	dep	_	_	674.780029	675.229980	L1
+4	entre	entre	PRE	PRE	_	2	dep	_	_	675.380005	675.770020	L1
+5	deux	deux	NUM	NUM	_	7	spe	_	_	675.780029	676.159973	L1
+6	deux	deux	NUM	NUM	_	5	dep	_	_	676.169983	676.330017	L1
+7	tendances	tendance	NOM	NOM	_	4	dep	_	_	676.340027	676.890015	L1
+8	plaire	plaire	VNF	VNF	_	4	dep	_	_	677.609985	678.020020	L1
+9	et	et	COO	COO	_	10	mark	_	_	678.169983	678.250000	L1
+10	déplaire	déplaire	VNF	VNF	_	4	para	_	_	678.260010	678.669983	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-161
+# text = donc les expositions c'est ça met
+1	donc	donc	ADV	ADV	_	5	periph	_	_	680.000000	680.229980	L1
+2	les	le	DET	DET	_	3	spe	_	_	680.239990	680.409973	L1
+3	expositions	exposition	NOM	NOM	_	5	periph	_	_	680.419983	681.179993	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	681.190002	681.330017	L1
+5	est	être	VRB	VRB	_	0	root	_	_	681.340027	681.690002	L1
+6	ça	ça	PRO	PRO	_	7	subj	_	_	683.429993	683.640015	L1
+7	met	mettre	VRB	VRB	_	5	para	_	_	683.650024	684.200012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-162
+# text = ça te met tout nu devant le public quoi
+1	ça	ça	PRO	PRO	_	3	subj	_	_	684.210022	684.359985	L1
+2	te	te	CLI	CLI	_	3	dep	_	_	684.369995	684.549988	L1
+3	met	mettre	VRB	VRB	_	0	root	_	_	684.559998	684.919983	L1
+4	tout	tout	ADV	ADV	_	5	dep	_	_	686.190002	686.390015	L1
+5	nu	nu	ADJ	ADJ	_	3	dep	_	_	686.400024	686.659973	L1
+6	devant	devant	PRE	PRE	_	5	dep	_	_	686.669983	686.960022	L1
+7	le	le	DET	DET	_	8	spe	_	_	686.969971	687.099976	L1
+8	public	public	NOM	NOM	_	6	dep	_	_	687.109985	687.469971	L1
+9	quoi	quoi	INT	INT	_	8	dm	_	_	687.520020	687.599976	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-163
+# text = on a vraiment l'impression d'être nu et même parfois écorché vif quoi
+1	on	on	CLS	CLS	_	2	subj	_	_	687.780029	687.919983	L1
+2	a	avoir	VRB	VRB	_	0	root	_	_	687.929993	688.099976	L1
+3	vraiment	vraiment	ADV	ADV	_	2	dep	_	_	688.109985	688.340027	L1
+4	l'	le	DET	DET	_	5	spe	_	_	688.349976	688.369995	L1
+5	impression	impression	NOM	NOM	_	2	dep	_	_	688.380005	689.119995	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	689.130005	689.169983	L1
+7	être	être	VNF	VNF	_	6	dep	_	_	689.179993	689.419983	L1
+8	nu	nu	ADJ	ADJ	_	7	dep	_	_	689.429993	689.630005	L1
+9	et	et	COO	COO	_	12	mark	_	_	689.640015	689.789978	L1
+10	même	même	ADV	ADV	_	12	dep	_	_	689.799988	690.020020	L1
+11	parfois	parfois	ADV	ADV	_	12	dep	_	_	690.030029	690.419983	L1
+12	écorché	écorcher	VPP	VPP	_	7	dep	_	_	690.429993	690.869995	L1
+13	vif	vif	ADJ	ADJ	_	12	dep	_	_	690.880005	691.080017	L1
+14	quoi	quoi	INT	INT	_	13	dm	_	_	691.140015	691.219971	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-164
+# text = et c'est vrai que quand la première fois que tu entends dire que c'est pas bien tu es tu es vraiment pas content
+1	et	et	COO	COO	_	3	mark	_	_	692.770020	692.789978	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	692.919983	692.979980	L1
+3	est	être	VRB	VRB	_	0	root	_	_	692.989990	694.200012	L1
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	694.210022	694.340027	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	694.440002	694.559998	L1
+6	quand	quand	CSU	CSU	_	20	periph	_	_	694.619995	694.969971	L1
+7	la	le	DET	DET	_	9	spe	_	_	694.979980	695.059998	L1
+8	première	premier	ADJ	ADJ	_	9	dep	_	_	695.070007	695.390015	L1
+9	fois	foi	NOM	NOM	_	6	dep	_	_	695.400024	695.609985	L1
+10	que	que	CSU	CSU	_	6	para	_	_	695.650024	695.770020	L1
+11	tu	tu	CLS	CLS	_	12	subj	_	_	695.780029	695.890015	L1
+12	entends	entendre	VRB	VRB	_	10	dep	_	_	695.900024	696.179993	L1
+13	dire	dire	VNF	VNF	_	12	dep	_	_	696.190002	696.520020	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	696.530029	696.659973	L1
+15	c'	ce	CLS	CLS	_	16	subj	_	_	696.669983	696.780029	L1
+16	est	être	VRB	VRB	_	14	dep	_	_	696.789978	696.820007	L1
+17	pas	pas	ADN	ADN	_	16	dep	_	_	696.900024	697.030029	L1
+18	bien	bien	ADV	ADV	_	16	dep	_	_	697.039978	697.239990	L1
+19	tu	tu	CLS	CLS	_	20	subj	_	_	698.239990	698.330017	L1
+20	es	être	VRB	VRB	_	5	dep	_	_	698.340027	698.460022	L1
+21	tu	tu	CLS	CLS	_	22	subj	_	_	698.469971	698.570007	L1
+22	es	être	VRB	VRB	_	20	para	_	_	698.580017	698.599976	L1
+23	vraiment	vraiment	ADV	ADV	_	22	dep	_	_	698.609985	698.900024	L1
+24	pas	pas	ADN	ADN	_	22	dep	_	_	698.909973	699.059998	L1
+25	content	content	ADJ	ADJ	_	22	dep	_	_	699.070007	699.450012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-165
+# text = je sais pas pourquoi
+1	je	je	CLS	CLS	_	2	subj	_	_	700.099976	700.150024	L1
+2	sais	savoir	VRB	VRB	_	0	root	_	_	700.159973	700.260010	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	700.270020	700.320007	L1
+4	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	700.330017	700.729980	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-166
+# text = mais ça rend pas content
+1	mais	mais	COO	COO	_	3	mark	_	_	700.739990	700.820007	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	700.830017	701.000000	L1
+3	rend	rendre	VRB	VRB	_	0	root	_	_	701.010010	701.150024	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	701.159973	701.299988	L1
+5	content	content	ADJ	ADJ	_	3	dep	_	_	701.309998	701.650024	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-167
+# text = alors que
+1	alors	alors	ADV	ADV	_	2	periph	_	_	702.380005	702.609985	L1
+2	que	que	CSU	CSU	_	0	root	_	_	702.619995	702.700012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-168
+# text = quand on te dit que c'est bien
+1	quand	quand	CSU	CSU	_	0	root	_	_	702.789978	702.919983	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	702.929993	703.059998	L1
+3	te	te	CLI	CLI	_	4	dep	_	_	703.070007	703.090027	L1
+4	dit	dire	VRB	VRB	_	1	dep	_	_	703.099976	703.280029	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	703.289978	703.409973	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	703.419983	703.539978	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	703.549988	703.640015	L1
+8	bien	bien	ADV	ADV	_	7	dep	_	_	703.650024	703.830017	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-169
+# text = mh mh tu les embrasserais
+1	mh mh	mh mh	INT	INT	_	4	dm	_	_	703.840027	704.179993	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	704.309998	704.469971	L1
+3	les	le	CLI	CLI	_	4	dep	_	_	704.479980	704.530029	L1
+4	embrasserais	embrasser	VRB	VRB	_	0	root	_	_	704.539978	705.159973	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-170
+# text = et tout
+1	et	et	COO	COO	_	2	mark	_	_	705.169983	705.330017	L1
+2	tout	tout	ADV	ADV	_	0	root	_	_	705.340027	705.760010	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-171
+# text = et donc les expositions euh ce truc de bon c'est de d'accorder le de te mettre sur un diapason euh avec des hauts et des bas quoi c'est c'est une justice
+1	et	et	COO	COO	_	31	mark	_	_	706.299988	706.799988	L1
+2	donc	donc	ADV	ADV	_	31	periph	_	_	707.119995	707.390015	L1
+3	les	le	DET	DET	_	4	spe	_	_	707.469971	707.630005	L1
+4	expositions	exposition	NOM	NOM	_	31	periph	_	_	707.640015	708.469971	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	708.599976	708.710022	L1
+6	ce	ce	DET	DET	_	7	spe	_	_	708.719971	708.859985	L1
+7	truc	truc	NOM	NOM	_	4	para	_	_	708.900024	709.130005	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	709.140015	709.219971	L1
+9	bon	bon	INT	INT	_	11	dm	_	_	709.229980	709.479980	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	709.489990	709.580017	L1
+11	est	être	VRB	VRB	_	7	dep	_	_	709.590027	709.679993	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	709.690002	709.989990	L1
+13	d'	de	PRE	PRE	_	12	para	_	_	710.500000	710.549988	L1
+14	accorder	accorder	VNF	VNF	_	13	dep	_	_	710.559998	711.030029	L1
+15	le	le	DET	DET	_	16	spe	_	_	711.039978	711.299988	L1
+16	de	de	PRE	PRE	_	14	dep	_	_	711.840027	711.929993	L1
+17	te	te	CLI	CLI	_	18	dep	_	_	711.940002	712.049988	L1
+18	mettre	mettre	VNF	VNF	_	16	dep	_	_	712.059998	712.309998	L1
+19	sur	sur	PRE	PRE	_	18	dep	_	_	712.320007	712.530029	L1
+20	un	un	DET	DET	_	21	spe	_	_	712.539978	712.630005	L1
+21	diapason	diapason	NOM	NOM	_	19	dep	_	_	712.640015	713.489990	L1
+22	euh	euh	INT	INT	_	21	dm	_	_	713.500000	713.559998	L1
+23	avec	avec	PRE	PRE	_	18	dep	_	_	713.960022	714.260010	L1
+24	des	de	PRE	PRE	_	23	dep	_	_	714.270020	714.409973	L1
+25	hauts	haut	NOM	NOM	_	24	dep	_	_	714.419983	714.559998	L1
+26	et	et	COO	COO	_	27	mark	_	_	714.570007	714.609985	L1
+27	des	de	PRE	PRE	_	24	para	_	_	714.619995	714.760010	L1
+28	bas	bas	NOM	NOM	_	27	dep	_	_	714.770020	714.929993	L1
+29	quoi	quoi	INT	INT	_	28	dm	_	_	714.969971	715.049988	L1
+30	c'	ce	CLS	CLS	_	31	subj	_	_	715.880005	716.020020	L1
+31	est	être	VRB	VRB	_	0	root	_	_	716.030029	716.559998	L1
+32	c'	ce	CLS	CLS	_	33	subj	_	_	717.909973	717.979980	L1
+33	est	être	VRB	VRB	_	31	para	_	_	718.119995	718.229980	L1
+34	une	un	DET	DET	_	35	spe	_	_	718.239990	718.330017	L1
+35	justice	justice	NOM	NOM	_	33	dep	_	_	718.380005	719.400024	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-172
+# text = ouais je trouve que c'est de la justice
+1	ouais	ouais	INT	INT	_	3	dm	_	_	720.049988	720.200012	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	720.210022	720.309998	L1
+3	trouve	trouver	VRB	VRB	_	0	root	_	_	720.349976	720.679993	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	720.690002	720.710022	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	720.719971	720.739990	L1
+6	est	être	VRB	VRB	_	4	dep	_	_	720.750000	720.770020	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	720.780029	720.859985	L1
+8	la	le	DET	DET	_	9	spe	_	_	720.869995	720.940002	L1
+9	justice	justice	NOM	NOM	_	7	dep	_	_	720.950012	721.489990	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-173
+# text = même si ça se passe très mal
+1	même	même	ADV	ADV	_	2	dep	_	_	722.380005	722.559998	L1
+2	si	si	CSU	CSU	_	0	root	_	_	722.570007	722.729980	L1
+3	ça	ça	PRO	PRO	_	5	subj	_	_	722.739990	722.849976	L1
+4	se	se	CLI	CLI	_	5	dep	_	_	722.859985	722.969971	L1
+5	passe	passer	VRB	VRB	_	2	dep	_	_	722.979980	723.190002	L1
+6	très	très	ADV	ADV	_	7	dep	_	_	723.229980	723.429993	L1
+7	mal	mal	ADV	ADV	_	5	dep	_	_	723.440002	723.619995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-174
+# text = ça permet euh parce que l'exposition elle peut se passer bien et mal
+1	ça	ça	PRO	PRO	_	2	subj	_	_	724.960022	725.090027	L1
+2	permet	permettre	VRB	VRB	_	0	root	_	_	725.099976	725.760010	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	725.770020	725.869995	L1
+4	parce que	parce que	CSU	CSU	_	2	dep	_	_	726.140015	726.500000	L1
+5	l'	le	DET	DET	_	6	spe	_	_	726.510010	726.530029	L1
+6	exposition	exposition	NOM	NOM	_	8	periph	_	_	726.539978	726.960022	L1
+7	elle	il	CLS	CLS	_	8	subj	_	_	726.969971	727.020020	L1
+8	peut	pouvoir	VRB	VRB	_	4	dep	_	_	727.030029	727.140015	L1
+9	se	se	CLI	CLI	_	10	dep	_	_	727.150024	727.289978	L1
+10	passer	passer	VNF	VNF	_	8	dep	_	_	727.299988	727.640015	L1
+11	bien	bien	ADV	ADV	_	10	dep	_	_	727.650024	727.940002	L1
+12	et	et	COO	COO	_	13	mark	_	_	727.950012	728.059998	L1
+13	mal	mal	ADV	ADV	_	10	dep	_	_	728.070007	728.400024	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-175
+# text = si tu fais une exposition premièrement
+1	si	si	CSU	CSU	_	3	dep	_	_	728.869995	728.960022	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	729.010010	729.119995	L1
+3	fais	faire	VRB	VRB	_	0	root	_	_	729.130005	729.280029	L1
+4	une	un	DET	DET	_	5	spe	_	_	729.289978	729.340027	L1
+5	exposition	exposition	NOM	NOM	_	3	dep	_	_	729.349976	729.830017	L1
+6	premièrement	premièrement	ADV	ADV	_	3	dep	_	_	729.840027	730.210022	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-176
+# text = il faut qu'elle soit au bon endroit avec les les les il faut choisir le lieu d'exposition
+1	il	il	CLS	CLS	_	2	subj	_	_	730.219971	730.270020	L1
+2	faut	faillir	VRB	VRB	_	0	root	_	_	730.280029	730.380005	L1
+3	qu'	que	CSU	CSU	_	2	dep	_	_	730.390015	730.460022	L1
+4	elle	il	CLS	CLS	_	5	subj	_	_	730.469971	730.530029	L1
+5	soit	être	VRB	VRB	_	3	dep	_	_	730.539978	730.679993	L1
+6	au	à+le	PRE	PRE	_	5	dep	_	_	730.690002	730.729980	L1
+7	bon	bon	ADJ	ADJ	_	8	dep	_	_	730.739990	730.909973	L1
+8	endroit	endroit	NOM	NOM	_	6	dep	_	_	730.919983	731.309998	L1
+9	avec	avec	PRE	PRE	_	5	dep	_	_	732.070007	733.239990	L1
+10	les	le	DET	DET	_	14	dep	_	_	733.359985	733.440002	L1
+11	les	le	DET	DET	_	10	para	_	_	733.530029	733.580017	L1
+12	les	le	DET	DET	_	11	para	_	_	733.590027	733.650024	L1
+13	il	il	CLS	CLS	_	14	subj	_	_	734.280029	734.330017	L1
+14	faut	faillir	VRB	VRB	_	9	dep	_	_	734.340027	734.469971	L1
+15	choisir	choisir	VNF	VNF	_	14	dep	_	_	734.479980	734.830017	L1
+16	le	le	DET	DET	_	17	spe	_	_	734.840027	734.909973	L1
+17	lieu	lieu	NOM	NOM	_	15	dep	_	_	734.919983	735.080017	L1
+18	d'	de	PRE	PRE	_	17	dep	_	_	735.090027	735.109985	L1
+19	exposition	exposition	NOM	NOM	_	18	dep	_	_	735.119995	735.869995	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-177
+# text = et ensuite faire en sorte avec un processus de de de de de marketing et de commercial que les gens viennent à ton exposition quoi
+1	et	et	COO	COO	_	3	mark	_	_	737.140015	737.330017	L1
+2	ensuite	ensuite	ADV	ADV	_	3	dep	_	_	737.340027	738.460022	L1
+3	faire	faire	VNF	VNF	_	0	root	_	_	738.570007	738.849976	L1
+4	en	en	PRE	PRE	_	3	dep	_	_	738.859985	738.960022	L1
+5	sorte	sorte	NOM	NOM	_	4	dep	_	_	738.969971	739.549988	L1
+6	avec	avec	PRE	PRE	_	3	dep	_	_	740.650024	740.979980	L1
+7	un	un	DET	DET	_	8	spe	_	_	740.989990	741.140015	L1
+8	processus	processus	NOM	NOM	_	6	dep	_	_	741.150024	741.739990	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	741.750000	742.140015	L1
+10	de	de	PRE	PRE	_	9	para	_	_	742.369995	742.500000	L1
+11	de	de	PRE	PRE	_	10	para	_	_	742.549988	742.669983	L1
+12	de	de	PRE	PRE	_	11	para	_	_	742.679993	742.950012	L1
+13	de	de	PRE	PRE	_	12	para	_	_	743.000000	743.080017	L1
+14	marketing	marketing	NOM	NOM	_	13	dep	_	_	743.090027	743.750000	L1
+15	et	et	COO	COO	_	16	mark	_	_	743.809998	743.830017	L1
+16	de	de	PRE	PRE	_	13	para	_	_	743.840027	743.859985	L1
+17	commercial	commercial	NOM	NOM	_	16	dep	_	_	743.869995	744.260010	L1
+18	que	que	CSU	CSU	_	3	dep	_	_	744.270020	744.289978	L1
+19	les	le	DET	DET	_	20	spe	_	_	744.369995	744.450012	L1
+20	gens	gens	NOM	NOM	_	21	subj	_	_	744.460022	744.580017	L1
+21	viennent	venir	VRB	VRB	_	18	dep	_	_	744.590027	744.809998	L1
+22	à	à	PRE	PRE	_	21	dep	_	_	744.820007	744.859985	L1
+23	ton	son	DET	DET	_	24	spe	_	_	744.869995	745.039978	L1
+24	exposition	exposition	NOM	NOM	_	22	dep	_	_	745.049988	745.599976	L1
+25	quoi	quoi	INT	INT	_	24	dm	_	_	745.669983	745.780029	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-178
+# text = c'est à toi d'aller chercher les gens quoi de les de faire un appel une exposition pour qu'ils viennent
+1	c'	ce	CLS	CLS	_	2	subj	_	_	746.500000	746.570007	L1
+2	est	être	VRB	VRB	_	0	root	_	_	746.580017	746.599976	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	746.609985	746.669983	L1
+4	toi	moi	PRO	PRO	_	3	dep	_	_	746.729980	746.859985	L1
+5	d'	de	PRE	PRE	_	2	dep	_	_	746.869995	746.900024	L1
+6	aller	aller	VNF	VNF	_	5	dep	_	_	746.909973	747.049988	L1
+7	chercher	chercher	VNF	VNF	_	6	dep	_	_	747.059998	747.400024	L1
+8	les	le	DET	DET	_	9	spe	_	_	747.409973	747.469971	L1
+9	gens	gens	NOM	NOM	_	7	dep	_	_	747.479980	747.700012	L1
+10	quoi	quoi	INT	INT	_	9	dm	_	_	747.770020	747.859985	L1
+11	de	de	PRE	PRE	_	7	dep	_	_	748.799988	748.950012	L1
+12	les	le	DET	DET	_	11	disflink	_	_	748.960022	749.309998	L1
+13	de	de	PRE	PRE	_	11	para	_	_	749.320007	749.380005	L1
+14	faire	faire	VNF	VNF	_	13	dep	_	_	749.390015	749.659973	L1
+15	un	un	DET	DET	_	16	spe	_	_	749.669983	749.750000	L1
+16	appel	appel	NOM	NOM	_	14	dep	_	_	749.760010	750.130005	L1
+17	une	un	DET	DET	_	18	spe	_	_	750.140015	750.239990	L1
+18	exposition	exposition	NOM	NOM	_	14	dep	_	_	750.250000	750.799988	L1
+19	pour	pour	PRE	PRE	_	14	dep	_	_	750.859985	750.989990	L1
+20	qu'	que	CSU	CSU	_	19	dep	_	_	751.000000	751.090027	L1
+21	ils	il	CLS	CLS	_	22	subj	_	_	751.099976	751.159973	L1
+22	viennent	venir	VRB	VRB	_	20	dep	_	_	751.169983	751.330017	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-179
+# text = c'est m
+1	c'	ce	CLS	CLS	_	2	subj	_	_	752.979980	753.020020	L1
+2	est	être	VRB	VRB	_	0	root	_	_	753.030029	753.450012	L1
+3	m	m	X	X	_	2	disflink	_	_	753.460022	753.770020	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-180
+# text = m-~ mais en plus tu ce qu'il y a de bien dans les dans les expositions c'est que tu rencontres toujours des gens sensibles hyper-sensibles
+1	m-~	m-~	X	X	_	19	disflink	_	_	755.359985	756.250000	L1
+2	mais	mais	COO	COO	_	6	mark	_	_	756.260010	756.359985	L1
+3	en	en	PRE	PRE	_	6	periph	_	_	756.369995	756.479980	L1
+4	plus	plus	ADN	ADN	_	3	dep	_	_	756.489990	756.650024	L1
+5	tu	tu	CLS	CLS	_	6	dep	_	_	756.659973	757.020020	L1
+6	ce	ce	PRO	PRO	_	19	periph	_	_	757.030029	757.190002	L1
+7	qu'	que	PRQ	PRQ	_	10	dep	_	_	757.200012	757.219971	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	757.229980	757.280029	L1
+9	y	y	CLI	CLI	_	10	dep	_	_	757.289978	757.309998	L1
+10	a	avoir	VRB	VRB	_	6	dep	_	_	757.320007	757.369995	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	757.380005	757.609985	L1
+12	bien	bien	ADV	ADV	_	13	dep	_	_	757.619995	757.830017	L1
+13	dans	dans	PRE	PRE	_	11	para	_	_	757.840027	758.020020	L1
+14	les	le	DET	DET	_	13	disflink	_	_	758.030029	758.289978	L1
+15	dans	dans	PRE	PRE	_	13	para	_	_	758.299988	758.549988	L1
+16	les	le	DET	DET	_	17	spe	_	_	758.559998	758.690002	L1
+17	expositions	exposition	NOM	NOM	_	15	dep	_	_	758.700012	759.489990	L1
+18	c'	ce	CLS	CLS	_	19	subj	_	_	760.030029	760.119995	L1
+19	est	être	VRB	VRB	_	0	root	_	_	760.130005	760.169983	L1
+20	que	que	CSU	CSU	_	19	dep	_	_	760.179993	760.280029	L1
+21	tu	tu	CLS	CLS	_	22	subj	_	_	760.289978	760.400024	L1
+22	rencontres	rencontrer	VRB	VRB	_	20	dep	_	_	760.409973	760.919983	L1
+23	toujours	toujours	ADV	ADV	_	22	dep	_	_	760.960022	761.270020	L1
+24	des	de	PRE	PRE	_	22	dep	_	_	761.280029	761.400024	L1
+25	gens	gens	NOM	NOM	_	24	dep	_	_	761.409973	761.679993	L1
+26	sensibles	sensible	ADJ	ADJ	_	25	dep	_	_	762.289978	763.090027	L1
+27	hyper-sensibles	hyper-sensibles	NOM	NOM	_	25	para	_	_	763.700012	764.729980	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-181
+# text = et ça te touche vraiment quoi tu es vraiment content quoi ça
+1	et	et	COO	COO	_	4	mark	_	_	765.539978	765.840027	L1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	765.849976	766.039978	L1
+3	te	te	CLI	CLI	_	4	dep	_	_	766.049988	766.190002	L1
+4	touche	touche	NOM	NOM	_	8	periph	_	_	766.200012	766.510010	L1
+5	vraiment	vraiment	ADV	ADV	_	8	periph	_	_	766.520020	766.919983	L1
+6	quoi	quoi	INT	INT	_	5	dm	_	_	766.929993	767.010010	L1
+7	tu	tu	CLS	CLS	_	8	subj	_	_	767.750000	767.840027	L1
+8	es	être	VRB	VRB	_	0	root	_	_	767.849976	767.869995	L1
+9	vraiment	vraiment	ADV	ADV	_	10	dep	_	_	767.880005	768.190002	L1
+10	content	content	ADJ	ADJ	_	8	dep	_	_	768.200012	768.570007	L1
+11	quoi	quoi	INT	INT	_	10	dm	_	_	768.640015	768.760010	L1
+12	ça	ça	PRO	PRO	_	8	periph	_	_	768.770020	768.960022	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-182
+# text = même si tu vends pas des pièces que que les gens ne te les achètent pas
+1	même	même	ADV	ADV	_	2	dep	_	_	769.770020	769.929993	L1
+2	si	si	CSU	CSU	_	0	root	_	_	769.940002	770.150024	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	770.159973	770.260010	L1
+4	vends	vendre	VRB	VRB	_	2	dep	_	_	770.270020	770.500000	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	770.510010	770.719971	L1
+6	des	de	PRE	PRE	_	4	dep	_	_	770.729980	770.859985	L1
+7	pièces	pièce	NOM	NOM	_	6	dep	_	_	770.869995	771.289978	L1
+8	que	que	CSU	CSU	_	4	dep	_	_	771.440002	771.520020	L1
+9	que	que	CSU	CSU	_	8	para	_	_	771.530029	771.700012	L1
+10	les	le	DET	DET	_	11	spe	_	_	771.909973	772.039978	L1
+11	gens	gens	NOM	NOM	_	15	subj	_	_	772.049988	772.179993	L1
+12	ne	ne	CLN	CLN	_	15	dep	_	_	772.190002	772.330017	L1
+13	te	te	CLI	CLI	_	15	dep	_	_	772.340027	772.460022	L1
+14	les	le	CLI	CLI	_	15	dep	_	_	772.469971	772.619995	L1
+15	achètent	acheter	VRB	VRB	_	9	dep	_	_	772.630005	772.989990	L1
+16	pas	pas	ADN	ADN	_	15	dep	_	_	773.049988	773.219971	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-183
+# text = s~ tu tu as un contact avec les gens
+1	s~	s~	X	X	_	4	disflink	_	_	774.030029	774.190002	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	774.280029	774.849976	L1
+3	tu	tu	CLS	CLS	_	2	para	_	_	774.909973	775.000000	L1
+4	as	avoir	VRB	VRB	_	0	root	_	_	775.010010	775.049988	L1
+5	un	un	DET	DET	_	6	spe	_	_	775.059998	775.159973	L1
+6	contact	contact	NOM	NOM	_	4	dep	_	_	775.169983	775.659973	L1
+7	avec	avec	PRE	PRE	_	6	dep	_	_	775.669983	775.869995	L1
+8	les	le	DET	DET	_	9	spe	_	_	775.880005	775.979980	L1
+9	gens	gens	NOM	NOM	_	7	dep	_	_	775.989990	776.200012	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-184
+# text = et ça fait vachement de bien quoi
+1	et	et	COO	COO	_	3	mark	_	_	776.239990	776.260010	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	776.270020	776.429993	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	776.440002	776.609985	L1
+4	vachement	vachement	ADV	ADV	_	3	dep	_	_	776.619995	776.979980	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	776.989990	777.090027	L1
+6	bien	bien	ADV	ADV	_	5	dep	_	_	777.169983	777.260010	L1
+7	quoi	quoi	INT	INT	_	6	dm	_	_	777.369995	777.460022	L1
+
+# sent_id = cefc-crfp-PRI-PER-2-185
+# text = c'est c'est comme une nourriture invisible qui nous fait du bien et qui fait pas grossir
+1	c'	ce	CLS	CLS	_	2	subj	_	_	778.190002	778.330017	L1
+2	est	être	VRB	VRB	_	0	root	_	_	778.340027	778.780029	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	780.479980	780.530029	L1
+4	est	être	VRB	VRB	_	2	para	_	_	780.539978	780.590027	L1
+5	comme	comme	PRE	PRE	_	4	dep	_	_	780.650024	780.849976	L1
+6	une	un	DET	DET	_	7	spe	_	_	780.859985	781.059998	L1
+7	nourriture	nourriture	NOM	NOM	_	5	dep	_	_	781.070007	781.840027	L1
+8	invisible	invisible	ADJ	ADJ	_	7	dep	_	_	783.090027	783.919983	L1
+9	qui	qui	PRQ	PRQ	_	11	dep	_	_	785.150024	785.289978	L1
+10	nous	nous	CLI	CLI	_	11	dep	_	_	785.299988	785.390015	L1
+11	fait	faire	VRB	VRB	_	4	para	_	_	785.400024	785.619995	L1
+12	du	de+le	PRE	PRE	_	11	dep	_	_	785.630005	785.750000	L1
+13	bien	bien	NOM	NOM	_	12	dep	_	_	785.760010	786.059998	L1
+14	et	et	COO	COO	_	16	mark	_	_	786.179993	786.229980	L1
+15	qui	qui	PRQ	PRQ	_	16	dep	_	_	786.239990	786.359985	L1
+16	fait	faire	VRB	VRB	_	11	para	_	_	786.369995	786.500000	L1
+17	pas	pas	ADN	ADN	_	16	dep	_	_	786.510010	786.640015	L1
+18	grossir	grossir	VNF	VNF	_	16	dep	_	_	786.650024	787.090027	L1
+

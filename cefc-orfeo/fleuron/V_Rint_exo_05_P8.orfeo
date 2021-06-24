@@ -1,0 +1,882 @@
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-1
+# text = c'est bon
+1	c'	ce	CLS	CLS	_	2	subj	_	_	0.090000	0.110000	E
+2	est	être	VRB	VRB	_	0	root	_	_	0.410000	0.430000	E
+3	bon	bon	ADJ	ADJ	_	2	dep	_	_	1.040000	1.120000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-2
+# text = alors dites-moi vous êtes NNAAMMEE
+1	alors	alors	ADV	ADV	_	4	periph	_	_	1.750000	1.960000	A
+2	dites-moi	dites-moi	PRO	PRO	_	4	periph	_	_	1.970000	2.630000	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	4.100000	4.420000	A
+4	êtes	être	VRB	VRB	_	0	root	_	_	4.490000	4.640000	A
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	5.950000	6.280000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-3
+# text = NNAAMMEE
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	6.600000	6.980000	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-4
+# text = c'est la première fois qu'on se voit
+1	c'	ce	CLS	CLS	_	2	subj	_	_	8.290000	8.350000	A
+2	est	être	VRB	VRB	_	0	root	_	_	8.360000	8.390000	A
+3	la	le	DET	DET	_	5	spe	_	_	8.400000	8.520000	A
+4	première	premier	ADJ	ADJ	_	5	dep	_	_	8.530000	8.820000	A
+5	fois	foi	NOM	NOM	_	2	dep	_	_	8.830000	8.970000	A
+6	qu'	que	PRQ	PRQ	_	9	dep	_	_	8.980000	9.040000	A
+7	on	on	CLS	CLS	_	9	subj	_	_	9.050000	9.110000	A
+8	se	se	CLI	CLI	_	9	dep	_	_	9.120000	9.270000	A
+9	voit	voir	VRB	VRB	_	5	dep	_	_	9.280000	9.480000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-5
+# text = vous n'êtes jamais venue dans dans le bureau d'accord
+1	vous	vous	CLS	CLS	_	5	subj	_	_	9.620000	9.680000	A
+2	n'	ne	CLN	CLN	_	5	dep	_	_	9.690000	9.740000	A
+3	êtes	être	VRB	VRB	_	5	aux	_	_	9.750000	10.080000	A
+4	jamais	jamais	ADN	ADN	_	5	dep	_	_	10.090000	10.370000	A
+5	venue	venir	VPP	VPP	_	0	root	_	_	10.380000	10.570000	A
+6	dans	dans	PRE	PRE	_	5	dep	_	_	10.580000	10.780000	A
+7	dans	dans	PRE	PRE	_	6	para	_	_	10.790000	10.880000	A
+8	le	le	DET	DET	_	9	spe	_	_	10.890000	10.990000	A
+9	bureau	bureau	NOM	NOM	_	7	dep	_	_	11.000000	11.340000	A
+10	d'	de	PRE	PRE	_	9	dep	_	_	12.130000	12.260000	A
+11	accord	accord	NOM	NOM	_	10	dep	_	_	12.270000	12.690000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-6
+# text = vous êtes arrivée
+1	vous	vous	CLS	CLS	_	3	subj	_	_	12.700000	12.830000	A
+2	êtes	être	VRB	VRB	_	3	aux	_	_	12.840000	12.940000	A
+3	arrivée	arriver	VPP	VPP	_	0	root	_	_	12.950000	13.280000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-7
+# text = quand non eh vendredi
+1	quand	quand	CSU	CSU	_	4	periph	_	_	13.290000	13.480000	E
+2	non	non	INT	INT	_	1	dm	_	_	11.450000	11.550000	E
+3	eh	eh	INT	INT	_	4	dm	_	_	14.120000	14.140000	E
+4	vendredi	vendredi	NOM	NOM	_	0	root	_	_	14.330000	14.670000	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-8
+# text = vendredi très très bien
+1	vendredi	vendredi	NOM	NOM	_	0	root	_	_	15.240000	16.200001	A
+2	très	très	ADV	ADV	_	4	dep	_	_	16.209999	16.469999	A
+3	très	très	ADV	ADV	_	2	para	_	_	16.520000	16.680000	A
+4	bien	bien	ADV	ADV	_	1	dep	_	_	16.690001	17.070000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-9
+# text = donc NNAAMMEE donc je vais vous expliquer un petit peu la procédure hein
+1	donc	donc	ADV	ADV	_	5	periph	_	_	20.670000	20.900000	A
+2	NNAAMMEE	NOM	NOM	NOM	_	5	periph	_	_	21.370001	21.610001	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	21.930000	22.059999	A
+4	je	je	CLS	CLS	_	5	subj	_	_	22.070000	22.170000	A
+5	vais	aller	VRB	VRB	_	0	root	_	_	22.180000	22.290001	A
+6	vous	vous	CLI	CLI	_	7	dep	_	_	22.299999	22.459999	A
+7	expliquer	expliquer	VNF	VNF	_	5	dep	_	_	22.469999	22.889999	A
+8	un	un	DET	DET	_	10	spe	_	_	22.900000	23.010000	A
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	23.020000	23.129999	A
+10	peu	peu	NOM	NOM	_	7	dep	_	_	23.190001	23.280001	A
+11	la	le	DET	DET	_	12	spe	_	_	23.290001	23.440001	A
+12	procédure	procédure	NOM	NOM	_	7	dep	_	_	23.450001	23.950001	A
+13	hein	hein	INT	INT	_	12	dm	_	_	23.959999	23.980000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-10
+# text = quand les étudiants erasmus arrivent à l'Université Nancy deux je vois que vous êtes là pour deux semestres
+1	quand	quand	CSU	CSU	_	12	periph	_	_	24.040001	24.530001	A
+2	les	le	DET	DET	_	3	spe	_	_	24.540001	24.840000	A
+3	étudiants	étudiant	NOM	NOM	_	5	subj	_	_	24.850000	25.370001	A
+4	erasmus	erasmus	ADV	ADV	_	5	dep	_	_	25.379999	25.709999	A
+5	arrivent	arriver	VRB	VRB	_	1	dep	_	_	25.719999	25.910000	A
+6	à	à	PRE	PRE	_	5	dep	_	_	26.139999	26.160000	A
+7	l'	le	DET	DET	_	8	spe	_	_	26.170000	26.400000	A
+8	Université	université	NOM	NOM	_	6	dep	_	_	27.180000	27.730000	A
+9	Nancy	Nancy	NOM	NOM	_	8	dep	_	_	27.740000	27.920000	A
+10	deux	deux	NUM	NUM	_	9	dep	_	_	27.930000	27.980000	A
+11	je	je	CLS	CLS	_	12	subj	_	_	28.160000	28.440001	A
+12	vois	voir	VRB	VRB	_	0	root	_	_	29.200001	29.530001	A
+13	que	que	CSU	CSU	_	12	dep	_	_	29.540001	29.559999	A
+14	vous	vous	CLS	CLS	_	15	subj	_	_	29.570000	29.680000	A
+15	êtes	être	VRB	VRB	_	13	dep	_	_	29.690001	29.770000	A
+16	là	là	ADV	ADV	_	15	dep	_	_	29.780001	29.910000	A
+17	pour	pour	PRE	PRE	_	15	dep	_	_	29.969999	30.070000	A
+18	deux	deux	NUM	NUM	_	19	spe	_	_	30.080000	30.190001	A
+19	semestres	semestre	NOM	NOM	_	17	dep	_	_	30.200001	30.830000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-11
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	31.709999	31.950001	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-12
+# text = euh je vais regarder dans votre dossier
+1	euh	euh	INT	INT	_	3	dm	_	_	32.880001	33.150002	A
+2	je	je	CLS	CLS	_	3	subj	_	_	34.430000	34.560001	A
+3	vais	aller	VRB	VRB	_	0	root	_	_	34.570000	34.660000	A
+4	regarder	regarder	VNF	VNF	_	3	dep	_	_	34.669998	34.910000	A
+5	dans	dans	PRE	PRE	_	4	dep	_	_	34.919998	35.020000	A
+6	votre	son	DET	DET	_	7	spe	_	_	35.029999	35.279999	A
+7	dossier	dossier	NOM	NOM	_	5	dep	_	_	35.290001	35.669998	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-13
+# text = je vais vous dire quel est le nom du professeur qui va vous aider tout au long de votre séjour
+1	je	je	CLS	CLS	_	2	subj	_	_	35.730000	35.790001	A
+2	vais	aller	VRB	VRB	_	0	root	_	_	35.799999	35.900002	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	35.910000	36.020000	A
+4	dire	dire	VNF	VNF	_	2	dep	_	_	36.029999	36.279999	A
+5	quel	quel	PRQ	PRQ	_	6	dep	_	_	36.599998	36.740002	A
+6	est	être	VRB	VRB	_	4	dep	_	_	36.750000	36.810001	A
+7	le	le	DET	DET	_	8	spe	_	_	36.820000	36.919998	A
+8	nom	nom	NOM	NOM	_	6	dep	_	_	36.930000	37.040001	A
+9	du	de+le	PRE	PRE	_	8	dep	_	_	37.049999	37.119999	A
+10	professeur	professeur	NOM	NOM	_	9	dep	_	_	37.130001	37.580002	A
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	37.660000	37.759998	A
+12	va	aller	VRB	VRB	_	10	dep	_	_	37.770000	37.889999	A
+13	vous	vous	CLI	CLI	_	14	dep	_	_	37.900002	38.070000	A
+14	aider	aider	VNF	VNF	_	12	dep	_	_	38.080002	38.320000	A
+15	tout	tout	ADV	ADV	_	16	dep	_	_	38.480000	38.590000	A
+16	au long de	au long de	PRE	PRE	_	14	dep	_	_	38.660000	38.840000	A
+17	votre	son	DET	DET	_	18	spe	_	_	38.849998	39.110001	A
+18	séjour	séjour	NOM	NOM	_	16	dep	_	_	39.169998	39.610001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-14
+# text = O K merci
+1	O	O	NOM	NOM	_	0	root	_	_	39.759998	39.779999	E
+2	K	K	NOM	NOM	_	1	dep	_	_	40.630001	40.689999	E
+3	merci	merci	INT	INT	_	2	dm	_	_	40.700001	40.919998	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-15
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	48.049999	49.240002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-16
+# text = voici votre dossier NNAAMMEE donc je vais regarder dans les documents que j'ai euh
+1	voici	voici	INT	INT	_	3	dm	_	_	53.090000	53.700001	A
+2	votre	son	DET	DET	_	3	spe	_	_	53.709999	54.040001	A
+3	dossier	dossier	NOM	NOM	_	7	periph	_	_	54.049999	54.540001	A
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	54.689999	55.139999	A
+5	donc	donc	ADV	ADV	_	7	periph	_	_	55.150002	55.240002	A
+6	je	je	CLS	CLS	_	7	subj	_	_	55.250000	55.310001	A
+7	vais	aller	VRB	VRB	_	0	root	_	_	55.320000	55.369999	A
+8	regarder	regarder	VNF	VNF	_	7	dep	_	_	55.419998	55.799999	A
+9	dans	dans	PRE	PRE	_	8	dep	_	_	56.180000	56.349998	A
+10	les	le	DET	DET	_	11	spe	_	_	56.360001	56.480000	A
+11	documents	document	NOM	NOM	_	9	dep	_	_	56.490002	56.939999	A
+12	que	que	PRQ	PRQ	_	14	dep	_	_	56.950001	57.119999	A
+13	j'	je	CLS	CLS	_	14	subj	_	_	57.130001	57.299999	A
+14	ai	avoir	VRB	VRB	_	11	dep	_	_	57.310001	57.500000	A
+15	euh	euh	INT	INT	_	14	dm	_	_	60.119999	60.150002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-17
+# text = vous étudiez éducation
+1	vous	vous	CLS	CLS	_	2	subj	_	_	61.040001	62.959999	A
+2	étudiez	étudier	VRB	VRB	_	0	root	_	_	62.970001	63.380001	A
+3	éducation	éducation	NOM	NOM	_	2	dep	_	_	63.389999	64.309998	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-18
+# text = littérature je vois littérature
+1	littérature	littérature	NOM	NOM	_	3	periph	_	_	65.379997	66.800003	A
+2	je	je	CLS	CLS	_	3	subj	_	_	66.809998	66.980003	A
+3	vois	voir	VRB	VRB	_	0	root	_	_	66.989998	67.139999	A
+4	littérature	littérature	NOM	NOM	_	3	dep	_	_	67.150002	68.110001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-19
+# text = alors c'est madame NNAAMMEE qui est le professeur
+1	alors	alors	ADV	ADV	_	3	periph	_	_	74.500000	74.720001	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	74.730003	74.830002	A
+3	est	être	VRB	VRB	_	0	root	_	_	74.839996	74.900002	A
+4	madame	Monsieur	NOM	NOM	_	3	dep	_	_	74.910004	75.309998	A
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	75.320000	76.680000	A
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	76.989998	77.120003	A
+7	est	être	VRB	VRB	_	5	dep	_	_	77.129997	77.279999	A
+8	le	le	DET	DET	_	9	spe	_	_	77.290001	77.379997	A
+9	professeur	professeur	NOM	NOM	_	7	dep	_	_	77.389999	77.980003	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-20
+# text = ah oui
+1	ah	ah	INT	INT	_	0	root	_	_	77.129997	77.300003	E
+2	oui	oui	INT	INT	_	1	dm	_	_	77.360001	77.529999	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-21
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	78.750000	78.809998	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-22
+# text = vous avez déjà entendu son nom
+1	vous	vous	CLS	CLS	_	4	subj	_	_	78.870003	79.029999	A
+2	avez	avoir	VRB	VRB	_	4	aux	_	_	79.040001	79.190002	A
+3	déjà	déjà	ADV	ADV	_	4	dep	_	_	79.199997	79.400002	A
+4	entendu	entendre	VPP	VPP	_	0	root	_	_	79.410004	79.599998	A
+5	son	son	DET	DET	_	6	spe	_	_	79.610001	79.820000	A
+6	nom	nom	NOM	NOM	_	4	dep	_	_	79.830002	79.980003	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-23
+# text = oui hum j'ai un rendez-vous avec elle cette semaine
+1	oui	oui	INT	INT	_	4	dm	_	_	80.089996	80.410004	E
+2	hum	hum	INT	INT	_	1	dm	_	_	80.419998	80.489998	E
+3	j'	je	CLS	CLS	_	4	subj	_	_	80.500000	80.529999	E
+4	ai	avoir	VRB	VRB	_	0	root	_	_	80.570000	80.589996	E
+5	un	un	DET	DET	_	6	spe	_	_	80.599998	80.620003	E
+6	rendez-vous	rendez-vous	NOM	NOM	_	4	dep	_	_	80.709999	80.910004	E
+7	avec	avec	PRE	PRE	_	6	dep	_	_	81.000000	81.150002	E
+8	elle	moi	PRO	PRO	_	7	dep	_	_	81.440002	81.489998	E
+9	cette	ce	DET	DET	_	10	spe	_	_	81.529999	81.739998	E
+10	semaine	semaine	NOM	NOM	_	6	para	_	_	81.919998	82.099998	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-24
+# text = oh bah c'est très bien c'est très bien c'est parfait NNAAMMEE
+1	oh bah	oh bah	INT	INT	_	3	dm	_	_	83.610001	83.779999	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	83.790001	83.809998	A
+3	est	être	VRB	VRB	_	0	root	_	_	83.820000	83.839996	A
+4	très	très	ADV	ADV	_	5	dep	_	_	83.849998	83.980003	A
+5	bien	bien	ADV	ADV	_	3	dep	_	_	83.989998	84.129997	A
+6	c'	ce	CLS	CLS	_	7	subj	_	_	84.139999	84.160004	A
+7	est	être	VRB	VRB	_	3	para	_	_	84.169998	84.540001	A
+8	très	très	ADV	ADV	_	9	dep	_	_	84.629997	84.830002	A
+9	bien	bien	ADV	ADV	_	7	dep	_	_	84.839996	85.029999	A
+10	c'	ce	CLS	CLS	_	11	subj	_	_	85.040001	85.070000	A
+11	est	être	VRB	VRB	_	3	para	_	_	85.080002	85.099998	A
+12	parfait	parfait	ADJ	ADJ	_	11	dep	_	_	85.139999	85.629997	A
+13	NNAAMMEE	NOM	NOM	NOM	_	11	dep	_	_	86.470001	87.169998	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-25
+# text = c'est elle qui va vous aider pour le choix de vos cours hein toutes les questions sur les cours elle sera là pour vous aider hein pendant les quelques mois de votre séjour
+1	c'	ce	CLS	CLS	_	2	subj	_	_	87.180000	87.199997	A
+2	est	être	VRB	VRB	_	0	root	_	_	87.209999	87.320000	A
+3	elle	moi	PRO	PRO	_	2	dep	_	_	87.330002	87.459999	A
+4	qui	qui	PRQ	PRQ	_	5	subj	_	_	87.470001	87.570000	A
+5	va	aller	VRB	VRB	_	3	dep	_	_	87.580002	87.680000	A
+6	vous	vous	CLI	CLI	_	7	dep	_	_	87.690002	87.860001	A
+7	aider	aider	VNF	VNF	_	5	dep	_	_	87.870003	88.150002	A
+8	pour	pour	PRE	PRE	_	7	dep	_	_	88.160004	88.279999	A
+9	le	le	DET	DET	_	10	spe	_	_	88.290001	88.379997	A
+10	choix	choix	NOM	NOM	_	8	dep	_	_	88.389999	88.589996	A
+11	de	de	PRE	PRE	_	10	dep	_	_	88.599998	88.720001	A
+12	vos	son	DET	DET	_	13	spe	_	_	88.730003	88.820000	A
+13	cours	cour	NOM	NOM	_	11	dep	_	_	88.830002	89.199997	A
+14	hein	hein	INT	INT	_	13	dm	_	_	89.209999	89.290001	A
+15	toutes	tout	ADJ	ADJ	_	17	dep	_	_	89.410004	89.510002	A
+16	les	le	DET	DET	_	17	spe	_	_	89.519997	89.580002	A
+17	questions	question	NOM	NOM	_	22	periph	_	_	89.589996	89.870003	A
+18	sur	sur	PRE	PRE	_	17	dep	_	_	89.879997	90.059998	A
+19	les	le	DET	DET	_	20	spe	_	_	90.070000	90.209999	A
+20	cours	cour	NOM	NOM	_	18	dep	_	_	90.220001	90.620003	A
+21	elle	il	CLS	CLS	_	22	subj	_	_	91.690002	91.849998	A
+22	sera	être	VRB	VRB	_	8	dep	_	_	91.860001	92.129997	A
+23	là	là	ADV	ADV	_	22	dep	_	_	92.139999	92.309998	A
+24	pour	pour	PRE	PRE	_	22	dep	_	_	92.320000	92.419998	A
+25	vous	vous	CLI	CLI	_	26	dep	_	_	92.430000	92.620003	A
+26	aider	aider	VNF	VNF	_	24	dep	_	_	92.629997	92.900002	A
+27	hein	hein	INT	INT	_	26	dm	_	_	92.910004	93.029999	A
+28	pendant	pendant	PRE	PRE	_	26	dep	_	_	93.040001	93.379997	A
+29	les	le	DET	DET	_	31	spe	_	_	93.389999	93.519997	A
+30	quelques	quelque	ADJ	ADJ	_	31	dep	_	_	93.529999	93.809998	A
+31	mois	moi	NOM	NOM	_	28	dep	_	_	93.820000	93.980003	A
+32	de	de	PRE	PRE	_	31	dep	_	_	95.330002	95.500000	A
+33	votre	son	DET	DET	_	34	spe	_	_	95.510002	95.709999	A
+34	séjour	séjour	NOM	NOM	_	32	dep	_	_	95.720001	96.099998	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-26
+# text = et puis euh moi je m'occuperai de la partie administrative
+1	et puis	et puis	COO	COO	_	6	mark	_	_	97.660004	98.269997	A
+2	euh	euh	INT	INT	_	1	dm	_	_	98.279999	98.629997	A
+3	moi	moi	PRO	PRO	_	6	periph	_	_	98.639999	98.769997	A
+4	je	je	CLS	CLS	_	6	subj	_	_	98.779999	98.889999	A
+5	m'	me	CLI	CLI	_	6	dep	_	_	98.900002	98.949997	A
+6	occuperai	occuper	VRB	VRB	_	0	root	_	_	98.959999	99.230003	A
+7	de	de	PRE	PRE	_	6	dep	_	_	99.239998	99.260002	A
+8	la	le	DET	DET	_	9	spe	_	_	99.269997	99.370003	A
+9	partie	partie	NOM	NOM	_	7	dep	_	_	99.379997	99.730003	A
+10	administrative	administratif	ADJ	ADJ	_	9	dep	_	_	99.739998	100.639999	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-27
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	101.480003	101.540001	E
+2	hum	hum	INT	INT	_	1	dm	_	_	101.879997	101.980003	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-28
+# text = je vais vous donner un dossier pour déjà
+1	je	je	CLS	CLS	_	2	subj	_	_	102.739998	102.760002	A
+2	vais	aller	VRB	VRB	_	0	root	_	_	102.910004	103.220001	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	103.230003	103.370003	A
+4	donner	donner	VNF	VNF	_	2	dep	_	_	103.379997	103.610001	A
+5	un	un	DET	DET	_	6	spe	_	_	103.620003	103.699997	A
+6	dossier	dossier	NOM	NOM	_	4	dep	_	_	103.709999	104.089996	A
+7	pour	pour	PRE	PRE	_	4	dep	_	_	104.099998	104.330002	A
+8	déjà	déjà	ADV	ADV	_	7	dep	_	_	104.339996	104.739998	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-29
+# text = euh faire les démarches pour avoir une la carte d'étudiant
+1	euh	euh	INT	INT	_	2	dm	_	_	105.750000	106.089996	A
+2	faire	faire	VNF	VNF	_	0	root	_	_	106.230003	106.489998	A
+3	les	le	DET	DET	_	4	spe	_	_	106.500000	106.599998	A
+4	démarches	démarche	NOM	NOM	_	2	dep	_	_	106.610001	106.949997	A
+5	pour	pour	PRE	PRE	_	2	dep	_	_	107.059998	107.150002	A
+6	avoir	avoir	VNF	VNF	_	5	dep	_	_	107.160004	107.500000	A
+7	une	un	DET	DET	_	9	spe	_	_	107.510002	107.809998	A
+8	la	le	DET	DET	_	7	para	_	_	107.820000	107.900002	A
+9	carte	carte	NOM	NOM	_	6	dep	_	_	107.910004	108.260002	A
+10	d'	de	PRE	PRE	_	9	dep	_	_	108.269997	108.300003	A
+11	étudiant	étudier	VPR	VPR	_	10	dep	_	_	108.309998	108.760002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-30
+# text = donc c'est ce papier qu'il faudra me compléter
+1	donc	donc	ADV	ADV	_	3	periph	_	_	110.449997	110.690002	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	110.699997	110.750000	A
+3	est	être	VRB	VRB	_	0	root	_	_	110.760002	110.830002	A
+4	ce	ce	DET	DET	_	5	spe	_	_	110.839996	110.989998	A
+5	papier	papier	NOM	NOM	_	3	dep	_	_	111.000000	111.339996	A
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	111.349998	111.389999	A
+7	il	il	CLS	CLS	_	8	subj	_	_	111.400002	111.459999	A
+8	faudra	falloir	VRB	VRB	_	5	dep	_	_	111.470001	111.730003	A
+9	me	me	CLI	CLI	_	10	dep	_	_	111.739998	111.769997	A
+10	compléter	compléter	VNF	VNF	_	8	dep	_	_	111.779999	111.980003	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-31
+# text = juste les documents les les mots qui sont mis en jaune hein
+1	juste	juste	ADV	ADV	_	3	dep	_	_	112.730003	113.410004	A
+2	les	le	DET	DET	_	3	spe	_	_	113.419998	113.540001	A
+3	documents	document	NOM	NOM	_	0	root	_	_	113.550003	113.989998	A
+4	les	le	DET	DET	_	6	spe	_	_	114.150002	114.779999	A
+5	les	le	DET	DET	_	4	para	_	_	115.470001	115.570000	A
+6	mots	mot	NOM	NOM	_	3	para	_	_	115.580002	115.709999	A
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	115.720001	115.769997	A
+8	sont	être	VRB	VRB	_	9	aux	_	_	115.779999	116.110001	A
+9	mis	mettre	VPP	VPP	_	6	dep	_	_	116.120003	116.169998	A
+10	en	en	PRE	PRE	_	9	dep	_	_	116.180000	116.320000	A
+11	jaune	jaune	NOM	NOM	_	10	dep	_	_	116.330002	116.720001	A
+12	hein	hein	INT	INT	_	11	dm	_	_	118.330002	118.720001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-32
+# text = ce n'est pas
+1	ce	ce	CLS	CLS	_	3	subj	_	_	118.730003	119.000000	A
+2	n'	ne	CLN	CLN	_	3	dep	_	_	119.400002	119.459999	A
+3	est	être	VRB	VRB	_	0	root	_	_	119.470001	119.550003	A
+4	pas	pas	ADN	ADN	_	3	dep	_	_	119.559998	119.830002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-33
+# text = ça va très vite à remplir une petite signature une date
+1	ça	ça	PRO	PRO	_	2	subj	_	_	119.900002	119.959999	A
+2	va	aller	VRB	VRB	_	0	root	_	_	119.970001	120.089996	A
+3	très	très	ADV	ADV	_	4	dep	_	_	120.099998	120.279999	A
+4	vite	vite	ADV	ADV	_	2	dep	_	_	120.290001	120.440002	A
+5	à	à	PRE	PRE	_	2	dep	_	_	120.449997	120.500000	A
+6	remplir	remplir	VNF	VNF	_	5	dep	_	_	120.510002	120.919998	A
+7	une	un	DET	DET	_	9	spe	_	_	121.529999	121.669998	A
+8	petite	petit	ADJ	ADJ	_	9	dep	_	_	121.680000	121.959999	A
+9	signature	signature	NOM	NOM	_	6	dep	_	_	121.970001	122.620003	A
+10	une	un	DET	DET	_	11	spe	_	_	122.629997	122.860001	A
+11	date	date	NOM	NOM	_	9	para	_	_	122.870003	122.980003	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-34
+# text = et puis euh euh
+1	et puis	et puis	COO	COO	_	0	root	_	_	123.910004	125.290001	A
+2	euh	euh	INT	INT	_	1	dm	_	_	125.300003	125.750000	A
+3	euh	euh	INT	INT	_	2	dm	_	_	126.669998	127.699997	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-35
+# text = les photocopies de votre carte d'identité ou de votre passeport la carte européenne
+1	les	le	DET	DET	_	2	spe	_	_	127.709999	127.849998	A
+2	photocopies	photocopie	NOM	NOM	_	0	root	_	_	127.860001	128.740005	A
+3	de	de	PRE	PRE	_	2	dep	_	_	128.750000	128.839996	A
+4	votre	son	DET	DET	_	5	spe	_	_	128.850006	129.080002	A
+5	carte	carte	NOM	NOM	_	3	dep	_	_	129.089996	129.339996	A
+6	d'	de	PRE	PRE	_	5	dep	_	_	129.350006	129.369995	A
+7	identité	identité	NOM	NOM	_	6	dep	_	_	129.380005	129.979996	A
+8	ou	ou	COO	COO	_	9	mark	_	_	130.240005	130.339996	A
+9	de	de	PRE	PRE	_	3	para	_	_	130.350006	130.460007	A
+10	votre	son	DET	DET	_	11	spe	_	_	130.470001	130.690002	A
+11	passeport	passeport	NOM	NOM	_	9	dep	_	_	130.699997	131.320007	A
+12	la	le	DET	DET	_	13	spe	_	_	132.289993	132.500000	A
+13	carte	carte	NOM	NOM	_	2	para	_	_	132.539993	132.899994	A
+14	européenne	européen	ADJ	ADJ	_	13	dep	_	_	132.910004	133.639999	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-36
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	133.699997	133.770004	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-37
+# text = et l'attestation d'acceptation que vous êtes bien étudiante erasmus
+1	et	et	COO	COO	_	3	mark	_	_	134.949997	135.039993	A
+2	l'	le	DET	DET	_	3	spe	_	_	135.050003	135.100006	A
+3	attestation	attestation	NOM	NOM	_	8	periph	_	_	135.110001	136.070007	A
+4	d'	de	PRE	PRE	_	3	dep	_	_	136.080002	136.110001	A
+5	acceptation	acceptation	NOM	NOM	_	4	dep	_	_	136.119995	136.669998	A
+6	que	que	CSU	CSU	_	8	dep	_	_	136.679993	136.699997	A
+7	vous	vous	CLS	CLS	_	8	subj	_	_	136.710007	136.830002	A
+8	êtes	être	VRB	VRB	_	0	root	_	_	136.839996	136.910004	A
+9	bien	bien	ADV	ADV	_	10	dep	_	_	136.919998	137.089996	A
+10	étudiante	étudiant	ADJ	ADJ	_	8	dep	_	_	137.160004	137.589996	A
+11	erasmus	erasmus	NOM	NOM	_	8	dep	_	_	137.600006	137.979996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-38
+# text = mais là je l'ai déjà donc ne faites pas de copie
+1	mais	mais	COO	COO	_	5	mark	_	_	138.039993	138.460007	A
+2	là	là	ADV	ADV	_	5	periph	_	_	139.759995	140.160004	A
+3	je	je	CLS	CLS	_	5	subj	_	_	140.169998	140.309998	A
+4	l'	le	CLI	CLI	_	5	dep	_	_	140.320007	140.360001	A
+5	ai	avoir	VRB	VRB	_	0	root	_	_	140.369995	140.460007	A
+6	déjà	déjà	ADV	ADV	_	5	dep	_	_	140.470001	140.860001	A
+7	donc	donc	ADV	ADV	_	9	periph	_	_	140.869995	141.279999	A
+8	ne	ne	CLN	CLN	_	9	dep	_	_	141.360001	141.399994	A
+9	faites	faire	VRB	VRB	_	5	para	_	_	141.410004	141.490005	A
+10	pas	pas	ADN	ADN	_	9	dep	_	_	141.500000	141.550003	A
+11	de	de	PRE	PRE	_	9	dep	_	_	141.559998	141.589996	A
+12	copie	copie	NOM	NOM	_	11	dep	_	_	141.639999	142.039993	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-39
+# text = je vais vous donner un rendez-vous
+1	je	je	CLS	CLS	_	2	subj	_	_	145.289993	145.419998	A
+2	vais	aller	VRB	VRB	_	0	root	_	_	145.429993	145.539993	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	145.550003	145.649994	A
+4	donner	donner	VNF	VNF	_	2	dep	_	_	145.660004	146.020004	A
+5	un	un	DET	DET	_	6	spe	_	_	146.130005	146.309998	A
+6	rendez-vous	rendez-vous	NOM	NOM	_	4	dep	_	_	146.320007	146.839996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-40
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	149.520004	149.630005	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-41
+# text = voici ma carte carte
+1	voici	voici	PRE	PRE	_	0	root	_	_	150.809998	151.309998	E
+2	ma	son	DET	DET	_	3	spe	_	_	151.320007	151.399994	E
+3	carte	carte	NOM	NOM	_	1	dep	_	_	151.500000	151.809998	E
+4	carte	carte	NOM	NOM	_	3	dep	_	_	151.820007	151.979996	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-42
+# text = c'est bien c'est cette carte que j'aurai besoin
+1	c'	ce	CLS	CLS	_	2	subj	_	_	150.830002	150.850006	A
+2	est	être	VRB	VRB	_	0	root	_	_	150.860001	150.910004	A
+3	bien	bien	ADV	ADV	_	2	dep	_	_	150.919998	151.110001	A
+4	c'	ce	CLS	CLS	_	5	subj	_	_	151.119995	151.139999	A
+5	est	être	VRB	VRB	_	2	para	_	_	151.149994	151.169998	A
+6	cette	ce	DET	DET	_	7	spe	_	_	151.179993	151.300003	A
+7	carte	carte	NOM	NOM	_	5	dep	_	_	151.309998	151.460007	A
+8	que	que	PRQ	PRQ	_	10	dep	_	_	151.470001	151.490005	A
+9	j'	je	CLS	CLS	_	10	subj	_	_	151.500000	151.520004	A
+10	aurai	avoir	VRB	VRB	_	7	dep	_	_	151.529999	151.669998	A
+11	besoin	besoin	NOM	NOM	_	10	dep	_	_	151.679993	151.979996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-43
+# text = j'aurai besoin de la copie hein de de la carte
+1	j'	je	CLS	CLS	_	2	subj	_	_	152.110001	152.210007	A
+2	aurai	avoir	VRB	VRB	_	0	root	_	_	152.220001	152.350006	A
+3	besoin	besoin	NOM	NOM	_	2	dep	_	_	154.440002	154.750000	A
+4	de	de	PRE	PRE	_	3	dep	_	_	154.759995	154.970001	A
+5	la	le	DET	DET	_	6	spe	_	_	154.979996	155.179993	A
+6	copie	copie	NOM	NOM	_	4	dep	_	_	155.190002	155.559998	A
+7	hein	hein	INT	INT	_	6	dm	_	_	155.570007	155.679993	A
+8	de	de	PRE	PRE	_	6	dep	_	_	155.690002	155.710007	A
+9	de	de	PRE	PRE	_	8	para	_	_	155.759995	155.850006	A
+10	la	le	DET	DET	_	11	spe	_	_	155.899994	156.089996	A
+11	carte	carte	NOM	NOM	_	9	dep	_	_	156.100006	156.320007	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-44
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	156.729996	156.899994	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-45
+# text = voici
+1	voici	voici	INT	INT	_	0	root	_	_	161.419998	162.059998	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-46
+# text = un une copie de ma carte
+1	un	un	DET	DET	_	3	spe	_	_	162.070007	162.210007	E
+2	une	un	DET	DET	_	1	para	_	_	162.279999	162.429993	E
+3	copie	copie	NOM	NOM	_	0	root	_	_	162.440002	162.570007	E
+4	de	de	PRE	PRE	_	3	dep	_	_	162.580002	162.600006	E
+5	ma	son	DET	DET	_	6	spe	_	_	162.610001	162.669998	E
+6	carte	carte	NOM	NOM	_	4	dep	_	_	162.710007	162.970001	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-47
+# text = voilà aussi
+1	voilà	voilà	INT	INT	_	2	dm	_	_	163.520004	163.699997	A
+2	aussi	aussi	ADV	ADV	_	0	root	_	_	164.070007	164.399994	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-48
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	164.789993	164.979996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-49
+# text = est-ce qu'on peut prendre rendez-vous jeudi
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	167.750000	167.949997	A
+2	qu'	que	CSU	CSU	_	1	dep	_	_	167.960007	168.000000	A
+3	on	on	CLS	CLS	_	4	subj	_	_	168.009995	168.179993	A
+4	peut	pouvoir	VRB	VRB	_	2	dep	_	_	168.190002	168.250000	A
+5	prendre	prendre	VNF	VNF	_	4	dep	_	_	168.259995	168.539993	A
+6	rendez-vous	rendez-vous	NOM	NOM	_	5	dep	_	_	168.550003	168.869995	A
+7	jeudi	jeudi	NOM	NOM	_	6	dep	_	_	168.880005	169.289993	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-50
+# text = quatorze heures ça vous va jeudi quatorze heures jeudi vingt-quatre septembre
+1	quatorze	quatorze	NUM	NUM	_	2	spe	_	_	169.690002	170.160004	A
+2	heures	heure	NOM	NOM	_	5	periph	_	_	170.169998	170.330002	A
+3	ça	ça	PRO	PRO	_	5	periph	_	_	171.729996	171.869995	A
+4	vous	vous	CLS	CLS	_	5	subj	_	_	171.880005	171.960007	A
+5	va	aller	VRB	VRB	_	0	root	_	_	171.970001	172.210007	A
+6	jeudi	jeudi	NOM	NOM	_	5	dep	_	_	172.320007	172.610001	A
+7	quatorze	quatorze	NUM	NUM	_	8	spe	_	_	172.619995	173.009995	A
+8	heures	heure	NOM	NOM	_	5	dep	_	_	173.020004	173.149994	A
+9	jeudi	jeudi	NOM	NOM	_	8	dep	_	_	173.160004	173.460007	A
+10	vingt-quatre	vingt-quatre	NUM	NUM	_	11	spe	_	_	173.470001	173.639999	A
+11	septembre	septembre	NOM	NOM	_	8	para	_	_	173.649994	173.970001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-51
+# text = hum pardon je ne comprends
+1	hum	hum	INT	INT	_	5	dm	_	_	175.000000	175.500000	E
+2	pardon	pardon	NOM	NOM	_	5	periph	_	_	176.889999	177.050003	E
+3	je	je	CLS	CLS	_	5	subj	_	_	177.309998	177.440002	E
+4	ne	ne	CLN	CLN	_	5	dep	_	_	177.449997	177.539993	E
+5	comprends	comprendre	VRB	VRB	_	0	root	_	_	177.550003	177.839996	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-52
+# text = pas pour euh
+1	pas	pas	ADN	ADN	_	0	root	_	_	177.850006	177.919998	A
+2	pour	pour	PRE	PRE	_	1	dep	_	_	178.320007	178.410004	A
+3	euh	euh	INT	INT	_	2	dm	_	_	178.570007	178.589996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-53
+# text = je vous donne ce document
+1	je	je	CLS	CLS	_	3	subj	_	_	178.710007	178.750000	A
+2	vous	vous	CLI	CLI	_	3	dep	_	_	178.759995	178.850006	A
+3	donne	donner	VRB	VRB	_	0	root	_	_	178.860001	179.449997	A
+4	ce	ce	DET	DET	_	5	spe	_	_	179.460007	179.570007	A
+5	document	document	NOM	NOM	_	3	dep	_	_	179.580002	179.869995	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-54
+# text = vous le complétez tranquillement dans votre chambre
+1	vous	vous	CLS	CLS	_	3	subj	_	_	180.110001	180.490005	A
+2	le	le	CLI	CLI	_	3	dep	_	_	180.979996	181.259995	A
+3	complétez	compléter	VRB	VRB	_	0	root	_	_	181.270004	181.880005	A
+4	tranquillement	tranquillement	ADV	ADV	_	3	dep	_	_	181.990005	182.639999	A
+5	dans	dans	PRE	PRE	_	3	dep	_	_	182.649994	182.770004	A
+6	votre	son	DET	DET	_	7	spe	_	_	182.779999	183.029999	A
+7	chambre	chambre	NOM	NOM	_	5	dep	_	_	183.039993	183.330002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-55
+# text = ce soir
+1	ce	ce	DET	DET	_	2	spe	_	_	183.339996	183.479996	A
+2	soir	soir	NOM	NOM	_	0	root	_	_	183.490005	183.789993	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-56
+# text = et puis euh ce soir ou demain et puis jeudi vous revenez au bureau avec les photocopies
+1	et puis	et puis	COO	COO	_	10	mark	_	_	184.389999	184.979996	A
+2	euh	euh	INT	INT	_	1	dm	_	_	184.990005	185.029999	A
+3	ce	ce	DET	DET	_	4	spe	_	_	185.039993	185.410004	A
+4	soir	soir	NOM	NOM	_	10	periph	_	_	185.419998	185.770004	A
+5	ou	ou	COO	COO	_	6	mark	_	_	185.779999	185.839996	A
+6	demain	demain	ADV	ADV	_	4	para	_	_	185.850006	185.979996	A
+7	et puis	et puis	COO	COO	_	8	mark	_	_	186.610001	187.339996	A
+8	jeudi	jeudi	NOM	NOM	_	10	periph	_	_	187.350006	187.949997	A
+9	vous	vous	CLS	CLS	_	10	subj	_	_	188.119995	188.229996	A
+10	revenez	revenir	VRB	VRB	_	0	root	_	_	188.240005	188.690002	A
+11	au	à+le	PRE	PRE	_	10	dep	_	_	188.699997	188.759995	A
+12	bureau	bureau	NOM	NOM	_	11	dep	_	_	188.770004	188.979996	A
+13	avec	avec	PRE	PRE	_	10	dep	_	_	189.699997	190.000000	A
+14	les	le	DET	DET	_	15	spe	_	_	190.070007	190.250000	A
+15	photocopies	photocopie	NOM	NOM	_	13	dep	_	_	190.259995	190.910004	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-57
+# text = et le document
+1	et	et	COO	COO	_	3	mark	_	_	191.660004	191.750000	A
+2	le	le	DET	DET	_	3	spe	_	_	191.759995	191.779999	A
+3	document	document	NOM	NOM	_	0	root	_	_	191.789993	191.979996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-58
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	189.169998	189.199997	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	189.699997	190.710007	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-59
+# text = à
+1	à	à	PRE	PRE	_	0	root	_	_	192.039993	192.059998	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-60
+# text = tren-~ treize heures
+1	tren-~	tren-~	NUM	NUM	_	0	root	_	_	192.070007	192.589996	E
+2	treize	treize	NUM	NUM	_	3	spe	_	_	193.460007	193.639999	E
+3	heures	heure	NOM	NOM	_	1	dep	_	_	193.809998	194.100006	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-61
+# text = jeudi vingt-quatre
+1	jeudi	jeudi	NOM	NOM	_	0	root	_	_	193.699997	194.100006	A
+2	vingt-quatre	vingt-quatre	NUM	NUM	_	1	dep	_	_	194.339996	195.139999	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-62
+# text = à quatorze heures
+1	à	à	PRE	PRE	_	0	root	_	_	195.350006	195.580002	A
+2	quatorze	quatorze	NUM	NUM	_	3	spe	_	_	195.770004	196.320007	A
+3	heures	heure	NOM	NOM	_	1	dep	_	_	196.330002	196.520004	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-63
+# text = quatorze heures
+1	quatorze	quatorze	NUM	NUM	_	2	spe	_	_	196.929993	197.119995	E
+2	heures	heure	NOM	NOM	_	0	root	_	_	197.300003	197.399994	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-64
+# text = je vous ferai la saisie
+1	je	je	CLS	CLS	_	3	subj	_	_	207.630005	207.869995	A
+2	vous	vous	CLI	CLI	_	3	dep	_	_	207.880005	208.020004	A
+3	ferai	faire	VRB	VRB	_	0	root	_	_	208.029999	208.419998	A
+4	la	le	DET	DET	_	5	spe	_	_	208.490005	208.669998	A
+5	saisie	saisie	NOM	NOM	_	3	dep	_	_	208.740005	209.080002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-65
+# text = j'enregistre les les renseignements et ensuite
+1	j'	je	CLS	CLS	_	2	subj	_	_	209.089996	209.179993	A
+2	enregistre	enregistrer	VRB	VRB	_	0	root	_	_	209.190002	209.710007	A
+3	les	le	DET	DET	_	5	spe	_	_	209.720001	209.979996	A
+4	les	le	DET	DET	_	3	para	_	_	209.990005	210.080002	A
+5	renseignements	renseignement	NOM	NOM	_	2	dep	_	_	210.089996	210.669998	A
+6	et	et	COO	COO	_	7	mark	_	_	210.729996	210.750000	A
+7	ensuite	ensuite	ADV	ADV	_	5	para	_	_	210.759995	211.070007	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-66
+# text = je vous donne un papier
+1	je	je	CLS	CLS	_	3	subj	_	_	211.080002	211.160004	A
+2	vous	vous	CLI	CLI	_	3	dep	_	_	211.169998	211.229996	A
+3	donne	donner	VRB	VRB	_	0	root	_	_	211.240005	211.399994	A
+4	un	un	DET	DET	_	5	spe	_	_	211.410004	211.470001	A
+5	papier	papier	NOM	NOM	_	3	dep	_	_	211.479996	211.889999	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-67
+# text = et vous aurez la carte d'étudiant jeudi
+1	et	et	COO	COO	_	3	mark	_	_	211.929993	212.039993	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	212.050003	212.270004	A
+3	aurez	avoir	VRB	VRB	_	0	root	_	_	212.279999	212.399994	A
+4	la	le	DET	DET	_	5	spe	_	_	212.410004	212.509995	A
+5	carte	carte	NOM	NOM	_	3	dep	_	_	212.580002	212.720001	A
+6	d'	de	PRE	PRE	_	5	dep	_	_	212.770004	212.839996	A
+7	étudiant	étudier	VPR	VPR	_	6	dep	_	_	212.850006	213.210007	A
+8	jeudi	jeudi	NOM	NOM	_	5	para	_	_	213.470001	213.860001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-68
+# text = vous avez la carte d'étudiante
+1	vous	vous	CLS	CLS	_	2	subj	_	_	213.869995	213.929993	A
+2	avez	avoir	VRB	VRB	_	0	root	_	_	213.940002	214.089996	A
+3	la	le	DET	DET	_	4	spe	_	_	214.199997	214.309998	A
+4	carte	carte	NOM	NOM	_	2	dep	_	_	214.320007	214.500000	A
+5	d'	de	PRE	PRE	_	4	dep	_	_	214.550003	214.619995	A
+6	étudiante	étudiant	NOM	NOM	_	5	dep	_	_	214.630005	214.970001	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-69
+# text = ah oui O K d'accord
+1	ah	ah	INT	INT	_	3	dm	_	_	213.460007	213.479996	E
+2	oui	oui	INT	INT	_	1	dm	_	_	213.490005	213.860001	E
+3	O	O	NOM	NOM	_	0	root	_	_	215.449997	215.470001	E
+4	K	K	NOM	NOM	_	3	dep	_	_	215.770004	215.820007	E
+5	d'	de	PRE	PRE	_	4	dep	_	_	215.830002	215.850006	E
+6	accord	accord	NOM	NOM	_	5	dep	_	_	215.899994	216.020004	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-70
+# text = je vous remets le papier
+1	je	je	CLS	CLS	_	3	subj	_	_	216.460007	216.550003	A
+2	vous	vous	CLI	CLI	_	3	dep	_	_	216.559998	216.679993	A
+3	remets	remettre	VRB	VRB	_	0	root	_	_	216.690002	216.929993	A
+4	le	le	DET	DET	_	5	spe	_	_	216.940002	217.039993	A
+5	papier	papier	NOM	NOM	_	3	dep	_	_	217.050003	217.479996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-71
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	217.759995	217.979996	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-72
+# text = je je vais vous noter
+1	je	je	CLS	CLS	_	3	subj	_	_	219.250000	219.429993	A
+2	je	je	CLS	CLS	_	1	para	_	_	219.440002	219.520004	A
+3	vais	aller	VRB	VRB	_	0	root	_	_	219.529999	219.600006	A
+4	vous	vous	CLI	CLI	_	5	dep	_	_	219.610001	219.699997	A
+5	noter	noter	VNF	VNF	_	3	dep	_	_	219.710007	220.190002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-73
+# text = oh excusez-moi je vais vous noter sur le le dossier la date du rendez-vous
+1	oh	oh	INT	INT	_	4	dm	_	_	220.199997	220.270004	A
+2	excusez-moi	excusez-moi	PRO	PRO	_	4	periph	_	_	220.279999	220.759995	A
+3	je	je	CLS	CLS	_	4	subj	_	_	221.020004	221.220001	A
+4	vais	aller	VRB	VRB	_	0	root	_	_	221.229996	221.309998	A
+5	vous	vous	CLI	CLI	_	6	dep	_	_	221.320007	221.369995	A
+6	noter	noter	VNF	VNF	_	4	dep	_	_	221.380005	221.710007	A
+7	sur	sur	PRE	PRE	_	6	dep	_	_	221.720001	221.929993	A
+8	le	le	DET	DET	_	10	spe	_	_	221.940002	222.330002	A
+9	le	le	DET	DET	_	8	para	_	_	222.410004	222.529999	A
+10	dossier	dossier	NOM	NOM	_	7	dep	_	_	222.539993	222.970001	A
+11	la	le	DET	DET	_	12	spe	_	_	223.800003	223.979996	A
+12	date	date	NOM	NOM	_	6	dep	_	_	223.990005	224.139999	A
+13	du	de+le	PRE	PRE	_	12	dep	_	_	224.149994	224.289993	A
+14	rendez-vous	rendez-vous	NOM	NOM	_	13	dep	_	_	224.300003	224.690002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-74
+# text = sinon vous êtes euh
+1	sinon	sinon	ADV	ADV	_	3	periph	_	_	230.529999	231.220001	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	231.229996	231.320007	A
+3	êtes	être	VRB	VRB	_	0	root	_	_	231.330002	231.509995	A
+4	euh	euh	INT	INT	_	3	dm	_	_	231.520004	231.539993	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-75
+# text = est-ce que vous êtes allée au test de français de Monsieur NNAAMMEE
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	231.550003	232.699997	A
+2	que	que	CSU	CSU	_	1	dep	_	_	232.710007	232.729996	A
+3	vous	vous	CLS	CLS	_	5	subj	_	_	232.740005	232.949997	A
+4	êtes	être	VRB	VRB	_	5	aux	_	_	232.960007	233.059998	A
+5	allée	aller	VPP	VPP	_	2	dep	_	_	233.070007	233.259995	A
+6	au	à+le	PRE	PRE	_	5	dep	_	_	233.270004	233.369995	A
+7	test	test	NOM	NOM	_	6	dep	_	_	233.380005	233.750000	A
+8	de	de	PRE	PRE	_	7	dep	_	_	233.860001	233.970001	A
+9	français	français	NOM	NOM	_	8	dep	_	_	233.979996	234.460007	A
+10	de	de	PRE	PRE	_	9	dep	_	_	234.470001	234.490005	A
+11	Monsieur	Monsieur	NOM	NOM	_	10	dep	_	_	234.500000	234.690002	A
+12	NNAAMMEE	NOM	NOM	NOM	_	11	dep	_	_	234.699997	234.869995	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-76
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	235.860001	236.020004	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-77
+# text = oui bon bah c'est parfait c'est très bien
+1	oui	oui	INT	INT	_	4	dm	_	_	236.119995	236.210007	A
+2	bon bah	bon bah	INT	INT	_	1	dm	_	_	236.220001	236.539993	A
+3	c'	ce	CLS	CLS	_	4	subj	_	_	236.550003	236.619995	A
+4	est	être	VRB	VRB	_	0	root	_	_	236.630005	236.699997	A
+5	parfait	parfait	ADJ	ADJ	_	4	dep	_	_	236.710007	237.169998	A
+6	c'	ce	CLS	CLS	_	7	subj	_	_	237.240005	237.279999	A
+7	est	être	VRB	VRB	_	4	para	_	_	237.289993	237.320007	A
+8	très	très	ADV	ADV	_	9	dep	_	_	237.330002	237.570007	A
+9	bien	bien	ADV	ADV	_	7	dep	_	_	237.580002	237.740005	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-78
+# text = la rentrée c'est le lundi vingt-huit septembre
+1	la	le	DET	DET	_	2	spe	_	_	238.600006	238.750000	A
+2	rentrée	rentrée	NOM	NOM	_	4	periph	_	_	238.759995	239.139999	A
+3	c'	ce	CLS	CLS	_	4	subj	_	_	239.270004	239.309998	A
+4	est	être	VRB	VRB	_	0	root	_	_	239.320007	239.339996	A
+5	le	le	DET	DET	_	6	spe	_	_	239.350006	239.470001	A
+6	lundi	lundi	NOM	NOM	_	4	dep	_	_	239.479996	239.729996	A
+7	vingt-huit	vingt-huit	NUM	NUM	_	8	spe	_	_	239.740005	240.419998	A
+8	septembre	septembre	NOM	NOM	_	6	para	_	_	240.429993	240.979996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-79
+# text = oui je sais
+1	oui	oui	INT	INT	_	3	dm	_	_	241.059998	241.360001	E
+2	je	je	CLS	CLS	_	3	subj	_	_	241.679993	241.740005	E
+3	sais	savoir	VRB	VRB	_	0	root	_	_	241.789993	241.979996	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-80
+# text = hum avez-vous ma lettre ma lettre d'acceptance
+1	hum	hum	INT	INT	_	2	dm	_	_	242.539993	242.589996	E
+2	avez-vous	avez-vous	PRE	PRE	_	0	root	_	_	243.059998	243.449997	E
+3	ma	son	DET	DET	_	4	spe	_	_	243.460007	243.619995	E
+4	lettre	lettre	NOM	NOM	_	2	dep	_	_	243.949997	244.630005	E
+5	ma	son	DET	DET	_	6	spe	_	_	244.830002	245.089996	E
+6	lettre	lettre	NOM	NOM	_	2	dep	_	_	245.369995	245.630005	E
+7	d'	de	PRE	PRE	_	6	dep	_	_	246.199997	246.220001	E
+8	acceptance	acceptance	NOM	NOM	_	7	dep	_	_	247.389999	247.720001	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-81
+# text = hum oui
+1	hum	hum	INT	INT	_	0	root	_	_	248.080002	248.210007	E
+2	oui	oui	INT	INT	_	1	dm	_	_	248.330002	248.850006	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-82
+# text = je l'ai ici
+1	je	je	CLS	CLS	_	3	subj	_	_	250.320007	250.490005	A
+2	l'	le	CLI	CLI	_	3	dep	_	_	250.500000	250.520004	A
+3	ai	avoir	VRB	VRB	_	0	root	_	_	250.529999	250.639999	A
+4	ici	ici	ADV	ADV	_	3	dep	_	_	250.690002	250.940002	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-83
+# text = oui voilà je vous la redonne j'en ai besoin que d'une ça me suffira
+1	oui	oui	INT	INT	_	6	dm	_	_	251.630005	251.699997	A
+2	voilà	voilà	INT	INT	_	1	dm	_	_	252.130005	252.410004	A
+3	je	je	CLS	CLS	_	6	subj	_	_	252.419998	252.580002	A
+4	vous	vous	CLI	CLI	_	6	dep	_	_	252.589996	252.679993	A
+5	la	le	CLI	CLI	_	6	dep	_	_	252.690002	252.850006	A
+6	redonne	redonner	VRB	VRB	_	0	root	_	_	252.860001	253.160004	A
+7	j'	je	CLS	CLS	_	9	subj	_	_	253.169998	253.190002	A
+8	en	en	CLI	CLI	_	9	dep	_	_	253.199997	253.229996	A
+9	ai	avoir	VRB	VRB	_	6	para	_	_	253.389999	253.539993	A
+10	besoin	besoin	NOM	NOM	_	9	dep	_	_	253.550003	253.779999	A
+11	que	que	PRQ	PRQ	_	16	dep	_	_	253.789993	253.809998	A
+12	d'	de	PRE	PRE	_	11	dep	_	_	253.820007	253.839996	A
+13	une	un	DET	DET	_	12	dep	_	_	253.850006	253.960007	A
+14	ça	ça	PRO	PRO	_	16	subj	_	_	254.660004	254.839996	A
+15	me	me	CLI	CLI	_	16	dep	_	_	254.850006	254.889999	A
+16	suffira	suffire	VRB	VRB	_	10	dep	_	_	254.899994	255.339996	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-84
+# text = hum merci
+1	hum	hum	INT	INT	_	2	dm	_	_	255.520004	255.570007	E
+2	merci	merci	INT	INT	_	0	root	_	_	256.079987	256.380005	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-85
+# text = ça va sinon vous avez d'autres questions
+1	ça	ça	PRO	PRO	_	2	subj	_	_	257.109985	257.170013	A
+2	va	aller	VRB	VRB	_	0	root	_	_	258.119995	258.410004	A
+3	sinon	sinon	ADV	ADV	_	5	periph	_	_	258.420013	258.649994	A
+4	vous	vous	CLS	CLS	_	5	subj	_	_	258.660004	258.899994	A
+5	avez	avoir	VRB	VRB	_	2	para	_	_	258.910004	259.070007	A
+6	d'	de	PRE	PRE	_	5	dep	_	_	259.079987	259.100006	A
+7	autres	autre	ADJ	ADJ	_	8	dep	_	_	259.109985	259.359985	A
+8	questions	question	NOM	NOM	_	6	dep	_	_	259.369995	259.750000	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-86
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	259.880005	259.929993	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-87
+# text = pas pour l'instant bon bah
+1	pas	pas	ADN	ADN	_	2	dep	_	_	260.850006	260.989990	A
+2	pour	pour	PRE	PRE	_	0	root	_	_	261.000000	261.119995	A
+3	l'	le	DET	DET	_	4	spe	_	_	261.130005	261.170013	A
+4	instant	instant	NOM	NOM	_	2	dep	_	_	261.179993	261.529999	A
+5	bon bah	bon bah	INT	INT	_	4	dm	_	_	261.670013	262.269989	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-88
+# text = si vous avez d'autres questions même plus tard hein
+1	si	si	CSU	CSU	_	0	root	_	_	262.279999	262.399994	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	262.410004	262.549988	A
+3	avez	avoir	VRB	VRB	_	1	dep	_	_	262.559998	262.679993	A
+4	d'	de	PRE	PRE	_	3	dep	_	_	262.690002	262.709991	A
+5	autres	autre	ADJ	ADJ	_	6	dep	_	_	262.720001	262.959991	A
+6	questions	question	NOM	NOM	_	4	dep	_	_	262.970001	263.290009	A
+7	même	même	ADV	ADV	_	8	dep	_	_	263.299988	263.480011	A
+8	plus	plus	ADV	ADV	_	9	dep	_	_	263.549988	263.630005	A
+9	tard	tard	ADV	ADV	_	6	dep	_	_	263.640015	263.880005	A
+10	hein	hein	INT	INT	_	9	dm	_	_	264.399994	264.510010	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-89
+# text = le bureau est ouvert
+1	le	le	DET	DET	_	2	spe	_	_	264.519989	264.649994	A
+2	bureau	bureau	NOM	NOM	_	3	subj	_	_	264.660004	264.880005	A
+3	est	être	VRB	VRB	_	0	root	_	_	264.890015	264.910004	A
+4	ouvert	ouvert	ADJ	ADJ	_	3	dep	_	_	264.920013	265.149994	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-90
+# text = tous les après-midis donc vous pouvez revenir ici c'est vraiment le bureau des étudiants erasmus voilà
+1	tous	tout	ADJ	ADJ	_	3	dep	_	_	265.160004	265.260010	A
+2	les	le	DET	DET	_	3	spe	_	_	265.269989	265.420013	A
+3	après-midis	après-midi	NOM	NOM	_	6	periph	_	_	265.429993	265.890015	A
+4	donc	donc	ADV	ADV	_	6	periph	_	_	265.989990	266.109985	A
+5	vous	vous	CLS	CLS	_	6	subj	_	_	266.119995	266.230011	A
+6	pouvez	pouvoir	VRB	VRB	_	10	periph	_	_	266.239990	266.510010	A
+7	revenir	revenir	VNF	VNF	_	6	dep	_	_	266.519989	266.869995	A
+8	ici	ici	ADV	ADV	_	7	dep	_	_	266.880005	267.140015	A
+9	c'	ce	CLS	CLS	_	10	subj	_	_	267.149994	267.239990	A
+10	est	être	VRB	VRB	_	0	root	_	_	267.250000	267.279999	A
+11	vraiment	vraiment	ADV	ADV	_	10	dep	_	_	267.290009	267.549988	A
+12	le	le	DET	DET	_	13	spe	_	_	267.559998	267.589996	A
+13	bureau	bureau	NOM	NOM	_	10	dep	_	_	267.600006	268.019989	A
+14	des	de	PRE	PRE	_	13	dep	_	_	268.029999	268.209991	A
+15	étudiants	étudiant	NOM	NOM	_	14	dep	_	_	268.220001	268.510010	A
+16	erasmus	erasmus	ADV	ADV	_	10	dep	_	_	268.570007	268.980011	A
+17	voilà	voilà	INT	INT	_	16	dm	_	_	269.829987	270.170013	A
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-91
+# text = à bientôt oui merci
+1	à bientôt	à bientôt	INT	INT	_	3	dm	_	_	270.600006	271.049988	E
+2	oui	oui	INT	INT	_	1	dm	_	_	269.489990	269.559998	E
+3	merci	merci	INT	INT	_	0	root	_	_	269.829987	270.170013	E
+
+# sent_id = cefc-fleuron-V_Rint_exo_05_P8-92
+# text = d'accord O K
+1	d'	de	PRE	PRE	_	0	root	_	_	271.420013	271.459991	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	271.940002	272.059998	E
+3	O	O	NOM	NOM	_	1	dep	_	_	272.160004	272.179993	E
+4	K	K	NOM	NOM	_	3	dep	_	_	272.190002	272.279999	E
+

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> fpubcv06 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Cresti </name>
+          <name> Moneglia </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 330 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"> son bas, bruits, on n'entend pas les élèves </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> fpubcv06 </name> du corpus/projet <name> CORALROM </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#problème_enregistrement #NULL #script Daniel Hirst" dur="00:03:24"
+            type="audio">
+            <date> 00/05/1994 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> fiche technique "petit poussin" </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="cours"/>
+        <catRef corresp="secteur" target="professionnel"/>
+        <catRef corresp="milieu" target="scolaire"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, PACA, Aix-en-Provence </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="CHR">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> enseignant </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="GAE">
+            <sex> F </sex>
+            <age> 0-15 </age>
+            <education> primaire </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> élève </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="LAU">
+            <sex> F </sex>
+            <age> 0-15 </age>
+            <education> primaire </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> élève </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="NIC">
+            <sex> M </sex>
+            <age> 0-15 </age>
+            <education> primaire </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> élève </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="ELA">
+            <sex> F </sex>
+            <age> 0-15 </age>
+            <education> primaire </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> élève </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="FLO">
+            <sex> F </sex>
+            <age> 0-15 </age>
+            <education> primaire </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> élève </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="XYZ">
+            <sex> inconnu </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

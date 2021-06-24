@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Rosemonde_Ehrard_60_et_Patrick_Bernard_49_7e </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Sonia Branca-Rosoff </name>
+          <name> Florence Lefeuvre </name>
+          <name> Serge Fleury </name>
+          <name> Mat Pires </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 14811 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"> léger bruit de fond, coup de téléphone </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> Rosemonde_Ehrard_60_et_Patrick_Bernard_49_7e </name> du corpus/projet
+            <name> CFPP </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #audio/x-wav #NULL" dur="01:07:33" type="audio">
+            <date> 09/10/2008 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> interview sur la vie dans le quartier </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="entretien"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Ile-de-France, Paris, 7e arrondissement </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Rosemonde_Ehrard">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> assistant du Directeur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="Pierre_Bernard">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> conseiller municipal </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="Sonia_Branca-Rosoff">
+            <sex> F </sex>
+            <age> 61+ </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> USA, New York </placeName>
+            </birth>
+            <occupation> enseignant-chercheur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="dame_1">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="dame_2">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="dame_3">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> inconnu </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

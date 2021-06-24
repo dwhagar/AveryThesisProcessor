@@ -1,0 +1,755 @@
+# sent_id = cefc-coralrom-fmedmt01-1
+# text = bonsoir à
+1	bonsoir	bonsoir	INT	INT	_	2	dm	_	_	0.140000	0.500000	PAT
+2	à	à	PRE	PRE	_	0	root	_	_	0.510000	0.720000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-2
+# text = tous et voilà et voilà
+1	tous	tout	PRO	PRO	_	5	dm	_	_	0.770000	1.040000	PAT
+2	et	et	COO	COO	_	3	mark	_	_	1.050000	1.140000	PAT
+3	voilà	voilà	INT	INT	_	1	dm	_	_	1.150000	1.420000	PAT
+4	et	et	COO	COO	_	5	mark	_	_	1.430000	1.520000	PAT
+5	voilà	voilà	INT	INT	_	0	root	_	_	1.530000	1.840000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-3
+# text = et voilà ça devait arriver la météo a perdu le Nord
+1	et	et	COO	COO	_	4	mark	_	_	1.850000	1.920000	PAT
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1.930000	2.250000	PAT
+3	ça	ça	PRO	PRO	_	4	subj	_	_	2.260000	2.420000	PAT
+4	devait	devoir	VRB	VRB	_	0	root	_	_	2.430000	2.580000	PAT
+5	arriver	arriver	VNF	VNF	_	4	dep	_	_	2.590000	3.000000	PAT
+6	la	le	DET	DET	_	7	spe	_	_	3.010000	3.110000	PAT
+7	météo	météo	NOM	NOM	_	5	dep	_	_	3.120000	3.480000	PAT
+8	a	avoir	VRB	VRB	_	9	aux	_	_	3.490000	3.550000	PAT
+9	perdu	perdre	VPP	VPP	_	5	dep	_	_	3.560000	3.820000	PAT
+10	le	le	DET	DET	_	11	spe	_	_	3.830000	3.850000	PAT
+11	Nord	Nord	NOM	NOM	_	9	dep	_	_	3.860000	4.310000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-4
+# text = le temps du Nord on va le retrouver sur le Sud dans les jours qui viennent
+1	le	le	DET	DET	_	2	spe	_	_	4.690000	4.860000	PAT
+2	temps	temps	NOM	NOM	_	6	periph	_	_	4.870000	5.040000	PAT
+3	du	de+le	PRE	PRE	_	2	dep	_	_	5.050000	5.160000	PAT
+4	Nord	Nord	NOM	NOM	_	3	dep	_	_	5.170000	5.340000	PAT
+5	on	on	CLS	CLS	_	6	subj	_	_	5.350000	5.410000	PAT
+6	va	aller	VRB	VRB	_	0	root	_	_	5.420000	5.520000	PAT
+7	le	le	CLI	CLI	_	8	dep	_	_	5.530000	5.560000	PAT
+8	retrouver	retrouver	VNF	VNF	_	6	dep	_	_	5.570000	5.920000	PAT
+9	sur	sur	PRE	PRE	_	8	dep	_	_	5.930000	6.120000	PAT
+10	le	le	DET	DET	_	11	spe	_	_	6.130000	6.210000	PAT
+11	Sud	sud	NOM	NOM	_	9	dep	_	_	6.220000	6.640000	PAT
+12	dans	dans	PRE	PRE	_	9	para	_	_	7.150000	7.230000	PAT
+13	les	le	DET	DET	_	14	spe	_	_	7.240000	7.340000	PAT
+14	jours	jour	NOM	NOM	_	12	dep	_	_	7.350000	7.550000	PAT
+15	qui	qui	PRQ	PRQ	_	16	subj	_	_	7.560000	7.670000	PAT
+16	viennent	venir	VRB	VRB	_	14	dep	_	_	7.680000	8.070000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-5
+# text = ah ah oui c'est pas coutume
+1	ah	ah	INT	INT	_	5	dm	_	_	8.410000	8.510000	PAT
+2	ah	ah	INT	INT	_	1	dm	_	_	9.500000	9.520000	PAT
+3	oui	oui	INT	INT	_	2	dm	_	_	9.630000	9.960000	PAT
+4	c'	ce	CLS	CLS	_	5	subj	_	_	10.050000	10.490000	PAT
+5	est	être	VRB	VRB	_	0	root	_	_	10.500000	10.570000	PAT
+6	pas	pas	ADN	ADN	_	5	dep	_	_	10.580000	10.980000	PAT
+7	coutume	coutume	NOM	NOM	_	5	dep	_	_	10.990000	11.580000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-6
+# text = mais c'est comme ça
+1	mais	mais	COO	COO	_	3	mark	_	_	11.590000	11.730000	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	11.740000	11.780000	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	11.790000	11.840000	PAT
+4	comme	comme	PRE	PRE	_	3	dep	_	_	11.850000	12.050000	PAT
+5	ça	ça	PRO	PRO	_	4	dep	_	_	12.060000	12.280000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-7
+# text = et la preuve avec l'animation satellite avec euh
+1	et	et	COO	COO	_	3	mark	_	_	12.290000	12.360000	PAT
+2	la	le	DET	DET	_	3	spe	_	_	12.370000	12.480000	PAT
+3	preuve	preuve	NOM	NOM	_	0	root	_	_	12.490000	12.700000	PAT
+4	avec	avec	PRE	PRE	_	3	dep	_	_	12.710000	12.910000	PAT
+5	l'	le	DET	DET	_	6	spe	_	_	12.920000	12.950000	PAT
+6	animation	animation	NOM	NOM	_	4	dep	_	_	12.960000	13.410000	PAT
+7	satellite	satellite	ADJ	ADJ	_	6	dep	_	_	13.420000	13.990000	PAT
+8	avec	avec	PRE	PRE	_	4	para	_	_	14.000000	14.340000	PAT
+9	euh	euh	INT	INT	_	8	dm	_	_	14.350000	14.410000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-8
+# text = effectivement
+1	effectivement	effectivement	ADV	ADV	_	0	root	_	_	14.420000	15.030000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-9
+# text = cette bande nuageuse qu'on voit bien quand
+1	cette	ce	DET	DET	_	2	spe	_	_	15.040000	15.230000	PAT
+2	bande	bande	NOM	NOM	_	0	root	_	_	15.240000	15.470000	PAT
+3	nuageuse	nuageux	ADJ	ADJ	_	2	dep	_	_	15.480000	15.870000	PAT
+4	qu'	que	CSU	CSU	_	3	dep	_	_	15.880000	15.940000	PAT
+5	on	on	CLS	CLS	_	6	subj	_	_	15.950000	16.020000	PAT
+6	voit	voir	VRB	VRB	_	4	dep	_	_	16.030001	16.150000	PAT
+7	bien	bien	ADV	ADV	_	6	dep	_	_	16.160000	16.570000	PAT
+8	quand	quand	CSU	CSU	_	6	dep	_	_	16.580000	16.730000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-10
+# text = même
+1	même	même	ADV	ADV	_	0	root	_	_	16.740000	16.990000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-11
+# text = ici
+1	ici	ici	ADV	ADV	_	0	root	_	_	17.280001	17.570000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-12
+# text = du Sud Ouest
+1	du	de+le	PRE	PRE	_	0	root	_	_	17.580000	17.680000	PAT
+2	Sud	sud	NOM	NOM	_	1	dep	_	_	17.690001	17.900000	PAT
+3	Ouest	ouest	NOM	NOM	_	2	dep	_	_	17.910000	18.209999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-13
+# text = et puis qui longe la Méditerranée
+1	et puis	et puis	COO	COO	_	3	mark	_	_	18.219999	18.420000	PAT
+2	qui	qui	PRQ	PRQ	_	3	dep	_	_	18.430000	18.540001	PAT
+3	longe	longe	NOM	NOM	_	0	root	_	_	18.549999	18.889999	PAT
+4	la	le	DET	DET	_	5	spe	_	_	18.900000	18.990000	PAT
+5	Méditerranée	méditerranée	NOM	NOM	_	3	para	_	_	19.000000	19.549999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-14
+# text = alors que sur le Nord
+1	alors	alors	ADV	ADV	_	2	periph	_	_	19.559999	19.750000	PAT
+2	que	que	CSU	CSU	_	0	root	_	_	19.760000	19.850000	PAT
+3	sur	sur	PRE	PRE	_	2	dep	_	_	19.860001	20.059999	PAT
+4	le	le	DET	DET	_	5	spe	_	_	20.070000	20.170000	PAT
+5	Nord	Nord	NOM	NOM	_	3	dep	_	_	20.180000	20.450001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-15
+# text = eh bien c'est plutôt dégagé de la Bretagne jusqu'au Nord Pas-de-Calais
+1	eh bien	eh bien	INT	INT	_	3	dm	_	_	20.459999	20.660000	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	20.670000	20.740000	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	20.750000	20.790001	PAT
+4	plutôt	plutôt	ADV	ADV	_	5	dep	_	_	20.799999	21.139999	PAT
+5	dégagé	dégager	VPP	VPP	_	3	dep	_	_	21.420000	21.860001	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	21.870001	21.980000	PAT
+7	la	le	DET	DET	_	8	spe	_	_	21.990000	22.100000	PAT
+8	Bretagne	Bretagne	NOM	NOM	_	6	dep	_	_	22.110001	22.790001	PAT
+9	jusqu'	jusque	PRE	PRE	_	5	dep	_	_	23.049999	23.379999	PAT
+10	au	à+le	PRE	PRE	_	9	dep	_	_	23.389999	23.440001	PAT
+11	Nord	Nord	NOM	NOM	_	10	dep	_	_	23.450001	23.610001	PAT
+12	Pas-de-Calais	Pas-de-Calais	NOM	NOM	_	11	dep	_	_	23.620001	23.889999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-16
+# text = et ça va donner ça pour demain matin au lever du jour encore quelques petites averses sur l'Artois par exemple
+1	et	et	COO	COO	_	3	mark	_	_	24.040001	24.139999	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	24.190001	24.280001	PAT
+3	va	aller	VRB	VRB	_	0	root	_	_	24.290001	24.410000	PAT
+4	donner	donner	VNF	VNF	_	3	dep	_	_	24.420000	24.629999	PAT
+5	ça	ça	PRO	PRO	_	4	dep	_	_	24.639999	24.889999	PAT
+6	pour	pour	PRE	PRE	_	4	dep	_	_	24.900000	25.030001	PAT
+7	demain	demain	ADV	ADV	_	6	dep	_	_	25.040001	25.230000	PAT
+8	matin	matin	NOM	NOM	_	4	dep	_	_	25.240000	25.510000	PAT
+9	au	à+le	PRE	PRE	_	4	dep	_	_	25.520000	25.590000	PAT
+10	lever	lever	VNF	VNF	_	9	dep	_	_	25.600000	25.830000	PAT
+11	du	de+le	PRE	PRE	_	10	dep	_	_	25.840000	25.940001	PAT
+12	jour	jour	NOM	NOM	_	11	dep	_	_	25.950001	26.100000	PAT
+13	encore	encore	ADV	ADV	_	14	dep	_	_	26.299999	26.639999	PAT
+14	quelques	quelque	ADJ	ADJ	_	16	spe	_	_	26.650000	26.930000	PAT
+15	petites	petit	ADJ	ADJ	_	16	dep	_	_	26.940001	27.280001	PAT
+16	averses	averse	NOM	NOM	_	4	dep	_	_	27.290001	27.580000	PAT
+17	sur	sur	PRE	PRE	_	4	dep	_	_	27.790001	27.990000	PAT
+18	l'	le	DET	DET	_	19	spe	_	_	28.000000	28.070000	PAT
+19	Artois	Artois	NOM	NOM	_	17	dep	_	_	28.080000	28.500000	PAT
+20	par	par	PRE	PRE	_	4	dep	_	_	28.510000	28.680000	PAT
+21	exemple	exemple	NOM	NOM	_	20	dep	_	_	28.690001	29.000000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-17
+# text = sinon de très très belles éclaircies
+1	sinon	sinon	ADV	ADV	_	0	root	_	_	29.070000	29.549999	PAT
+2	de	de	PRE	PRE	_	1	dep	_	_	29.559999	29.660000	PAT
+3	très	très	ADV	ADV	_	5	dep	_	_	29.670000	29.830000	PAT
+4	très	très	ADV	ADV	_	3	para	_	_	29.840000	30.000000	PAT
+5	belles	beau	ADJ	ADJ	_	6	dep	_	_	30.010000	30.590000	PAT
+6	éclaircies	éclaircie	NOM	NOM	_	2	dep	_	_	30.600000	31.170000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-18
+# text = au Nord de la Seine quelques petits coups de tonnerre sur la pointe de Bretagne quelques passages nuageux
+1	au	à+le	PRE	PRE	_	0	root	_	_	31.340000	31.510000	PAT
+2	Nord	Nord	NOM	NOM	_	1	dep	_	_	31.520000	31.840000	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	31.850000	31.950001	PAT
+4	la	le	DET	DET	_	5	spe	_	_	31.959999	32.070000	PAT
+5	Seine	Seine	NOM	NOM	_	3	dep	_	_	32.080002	32.419998	PAT
+6	quelques	quelque	ADJ	ADJ	_	5	dep	_	_	32.660000	33.029999	PAT
+7	petits	petit	ADJ	ADJ	_	8	dep	_	_	33.040001	33.529999	PAT
+8	coups	coup	NOM	NOM	_	5	para	_	_	33.540001	33.669998	PAT
+9	de	de	PRE	PRE	_	8	dep	_	_	33.680000	33.720001	PAT
+10	tonnerre	tonnerre	NOM	NOM	_	9	dep	_	_	33.779999	34.209999	PAT
+11	sur	sur	PRE	PRE	_	8	dep	_	_	34.220001	34.490002	PAT
+12	la	le	DET	DET	_	13	spe	_	_	34.500000	34.660000	PAT
+13	pointe	pointe	NOM	NOM	_	11	dep	_	_	34.730000	35.270000	PAT
+14	de	de	PRE	PRE	_	13	dep	_	_	35.279999	35.369999	PAT
+15	Bretagne	Bretagne	NOM	NOM	_	14	dep	_	_	35.380001	35.910000	PAT
+16	quelques	quelque	ADJ	ADJ	_	17	spe	_	_	36.250000	36.549999	PAT
+17	passages	passage	NOM	NOM	_	14	dep	_	_	36.560001	36.930000	PAT
+18	nuageux	nuageux	ADJ	ADJ	_	17	dep	_	_	36.939999	37.290001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-19
+# text = mais de belles éclaircies quand même un petit peu de vent
+1	mais	mais	COO	COO	_	2	mark	_	_	37.299999	37.419998	PAT
+2	de	de	PRE	PRE	_	0	root	_	_	37.430000	37.520000	PAT
+3	belles	beau	ADJ	ADJ	_	4	dep	_	_	37.529999	37.849998	PAT
+4	éclaircies	éclaircie	NOM	NOM	_	2	dep	_	_	37.860001	38.439999	PAT
+5	quand	quand	PRQ	PRQ	_	9	dep	_	_	38.500000	38.619999	PAT
+6	même	même	ADV	ADV	_	5	morph	_	_	38.630001	38.880001	PAT
+7	un	un	DET	DET	_	9	spe	_	_	39.080002	39.200001	PAT
+8	petit	petit	ADJ	ADJ	_	9	dep	_	_	39.209999	39.419998	PAT
+9	peu	peu	NOM	NOM	_	4	para	_	_	39.430000	39.610001	PAT
+10	de	de	PRE	PRE	_	9	dep	_	_	39.619999	39.689999	PAT
+11	vent	vent	NOM	NOM	_	10	dep	_	_	39.700001	39.910000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-20
+# text = au large de la Vendée et sur le Sud c'est très ennuagé avec des averses un petit peu partout des chutes de neige au dessus de mille cinq cents mètres sur les Pyrénées
+1	au	à+le	PRE	PRE	_	11	periph	_	_	40.160000	40.240002	PAT
+2	large	large	NOM	NOM	_	1	dep	_	_	40.250000	40.490002	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	40.500000	40.590000	PAT
+4	la	le	DET	DET	_	5	spe	_	_	40.599998	40.680000	PAT
+5	Vendée	Vendée	NOM	NOM	_	3	dep	_	_	40.689999	40.980000	PAT
+6	et	et	COO	COO	_	7	mark	_	_	41.270000	41.320000	PAT
+7	sur	sur	PRE	PRE	_	1	para	_	_	41.330002	41.509998	PAT
+8	le	le	DET	DET	_	9	spe	_	_	41.520000	41.630001	PAT
+9	Sud	sud	NOM	NOM	_	7	dep	_	_	41.639999	41.860001	PAT
+10	c'	ce	CLS	CLS	_	11	subj	_	_	41.869999	41.959999	PAT
+11	est	être	VRB	VRB	_	0	root	_	_	41.970001	42.020000	PAT
+12	très	très	ADV	ADV	_	13	dep	_	_	42.029999	42.400002	PAT
+13	ennuagé	ennuager	VPP	VPP	_	11	dep	_	_	42.410000	42.900002	PAT
+14	avec	avec	PRE	PRE	_	13	dep	_	_	43.119999	43.549999	PAT
+15	des	de	PRE	PRE	_	14	dep	_	_	43.590000	43.910000	PAT
+16	averses	averse	NOM	NOM	_	15	dep	_	_	43.919998	44.290001	PAT
+17	un	un	DET	DET	_	19	spe	_	_	44.299999	44.430000	PAT
+18	petit	petit	ADJ	ADJ	_	19	dep	_	_	44.439999	44.549999	PAT
+19	peu	peu	NOM	NOM	_	16	para	_	_	44.560001	44.689999	PAT
+20	partout	partout	ADV	ADV	_	13	dep	_	_	44.700001	45.020000	PAT
+21	des	de	PRE	PRE	_	13	dep	_	_	45.029999	45.139999	PAT
+22	chutes	chute	NOM	NOM	_	21	dep	_	_	45.150002	45.320000	PAT
+23	de	de	PRE	PRE	_	22	dep	_	_	45.330002	45.450001	PAT
+24	neige	neige	NOM	NOM	_	23	dep	_	_	45.459999	45.730000	PAT
+25	au	à+le	PRE	PRE	_	13	dep	_	_	45.930000	46.060001	PAT
+26	dessus	dessus	ADV	ADV	_	25	dep	_	_	46.070000	46.380001	PAT
+27	de	de	PRE	PRE	_	13	dep	_	_	46.389999	46.490002	PAT
+28	mille	mille	NUM	NUM	_	31	spe	_	_	46.500000	46.779999	PAT
+29	cinq	cinq	NUM	NUM	_	28	dep	_	_	46.790001	46.990002	PAT
+30	cents	cents	NUM	NUM	_	29	dep	_	_	47.000000	47.160000	PAT
+31	mètres	mètre	NOM	NOM	_	27	dep	_	_	47.169998	47.439999	PAT
+32	sur	sur	PRE	PRE	_	13	dep	_	_	47.619999	47.849998	PAT
+33	les	le	DET	DET	_	34	spe	_	_	47.860001	47.959999	PAT
+34	Pyrénées	Pyrénées	NOM	NOM	_	32	dep	_	_	47.970001	48.380001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-21
+# text = et et l'après-midi sur les Pyrénées il y aura toujours des chutes de neige
+1	et	et	COO	COO	_	10	mark	_	_	48.520000	48.580002	PAT
+2	et	et	COO	COO	_	1	para	_	_	49.130001	49.320000	PAT
+3	l'	le	DET	DET	_	4	spe	_	_	49.450001	49.529999	PAT
+4	après-midi	après-midi	NOM	NOM	_	10	periph	_	_	49.540001	50.119999	PAT
+5	sur	sur	PRE	PRE	_	4	dep	_	_	50.400002	50.650002	PAT
+6	les	le	DET	DET	_	7	spe	_	_	50.660000	50.740002	PAT
+7	Pyrénées	Pyrénées	NOM	NOM	_	5	dep	_	_	50.810001	51.160000	PAT
+8	il	il	CLS	CLS	_	10	subj	_	_	51.169998	51.240002	PAT
+9	y	y	CLI	CLI	_	10	dep	_	_	51.250000	51.299999	PAT
+10	aura	avoir	VRB	VRB	_	0	root	_	_	51.310001	51.439999	PAT
+11	toujours	toujours	ADV	ADV	_	10	dep	_	_	51.450001	51.709999	PAT
+12	des	de	PRE	PRE	_	10	dep	_	_	51.720001	51.799999	PAT
+13	chutes	chute	NOM	NOM	_	12	dep	_	_	51.810001	52.000000	PAT
+14	de	de	PRE	PRE	_	13	dep	_	_	52.009998	52.099998	PAT
+15	neige	neige	NOM	NOM	_	14	dep	_	_	52.110001	52.380001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-22
+# text = au dessus de mille deux cents mètres de mille huit cents mètres
+1	au	à+le	PRE	PRE	_	0	root	_	_	52.549999	52.680000	PAT
+2	dessus	dessus	ADV	ADV	_	1	dep	_	_	52.689999	52.970001	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	52.980000	53.060001	PAT
+4	mille	mille	NUM	NUM	_	7	spe	_	_	53.070000	53.259998	PAT
+5	deux	deux	NUM	NUM	_	4	dep	_	_	53.270000	53.400002	PAT
+6	cents	cents	NUM	NUM	_	5	dep	_	_	53.410000	53.590000	PAT
+7	mètres	mètre	NOM	NOM	_	3	dep	_	_	53.599998	53.770000	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	54.029999	54.240002	PAT
+9	mille	mille	NUM	NUM	_	12	spe	_	_	54.250000	54.549999	PAT
+10	huit	huit	NUM	NUM	_	9	dep	_	_	54.560001	54.680000	PAT
+11	cents	cents	NUM	NUM	_	10	dep	_	_	54.689999	54.880001	PAT
+12	mètres	mètre	NOM	NOM	_	8	dep	_	_	54.889999	55.169998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-23
+# text = sur les Pyrénées orientales par exemple
+1	sur	sur	PRE	PRE	_	0	root	_	_	55.180000	55.349998	PAT
+2	les	le	DET	DET	_	3	spe	_	_	55.360001	55.480000	PAT
+3	Pyrénées	Pyrénées	NOM	NOM	_	1	dep	_	_	55.490002	55.810001	PAT
+4	orientales	oriental	ADJ	ADJ	_	3	dep	_	_	55.820000	56.660000	PAT
+5	par	par	PRE	PRE	_	1	para	_	_	56.860001	56.939999	PAT
+6	exemple	exemple	NOM	NOM	_	5	dep	_	_	56.980000	57.150002	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-24
+# text = au dessus
+1	au	à+le	PRE	PRE	_	0	root	_	_	57.160000	57.220001	PAT
+2	dessus	dessus	ADV	ADV	_	1	dep	_	_	57.230000	57.490002	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-25
+# text = de neuf cents mètres sur euh le Jura et puis sur les Vosges au dessus de mille cinq cents mètres sur le Nord des Alpes
+1	de	de	PRE	PRE	_	0	root	_	_	57.500000	57.590000	PAT
+2	neuf	neuf	NUM	NUM	_	4	spe	_	_	57.599998	57.779999	PAT
+3	cents	cents	NUM	NUM	_	2	dep	_	_	57.790001	57.939999	PAT
+4	mètres	mètre	NOM	NOM	_	1	dep	_	_	57.950001	58.419998	PAT
+5	sur	sur	PRE	PRE	_	4	dep	_	_	58.430000	58.910000	PAT
+6	euh	euh	INT	INT	_	5	dm	_	_	58.919998	59.009998	PAT
+7	le	le	DET	DET	_	8	spe	_	_	59.279999	59.400002	PAT
+8	Jura	Jura	NOM	NOM	_	5	dep	_	_	59.410000	59.759998	PAT
+9	et puis	et puis	COO	COO	_	10	mark	_	_	59.770000	59.930000	PAT
+10	sur	sur	PRE	PRE	_	5	para	_	_	59.939999	60.240002	PAT
+11	les	le	DET	DET	_	12	spe	_	_	60.250000	60.419998	PAT
+12	Vosges	Vosges	NOM	NOM	_	10	dep	_	_	60.430000	60.980000	PAT
+13	au	à+le	PRE	PRE	_	12	dep	_	_	61.020000	61.060001	PAT
+14	dessus	dessus	ADV	ADV	_	13	dep	_	_	61.070000	61.360001	PAT
+15	de	de	PRE	PRE	_	12	dep	_	_	61.369999	61.480000	PAT
+16	mille	mille	NUM	NUM	_	19	spe	_	_	61.490002	61.709999	PAT
+17	cinq	cinq	NUM	NUM	_	16	dep	_	_	61.720001	61.910000	PAT
+18	cents	cents	NUM	NUM	_	17	dep	_	_	61.919998	62.080002	PAT
+19	mètres	mètre	NOM	NOM	_	15	dep	_	_	62.090000	62.360001	PAT
+20	sur	sur	PRE	PRE	_	12	dep	_	_	62.369999	62.590000	PAT
+21	le	le	DET	DET	_	22	spe	_	_	62.599998	62.669998	PAT
+22	Nord	Nord	NOM	NOM	_	20	dep	_	_	62.680000	62.930000	PAT
+23	des	de	PRE	PRE	_	22	dep	_	_	62.939999	63.130001	PAT
+24	Alpes	Alpes	NOM	NOM	_	23	dep	_	_	63.139999	63.290001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-26
+# text = allez allons dans le détail au dessus de mille huit cents mètres sur les Alpes du Sud en tout cas
+1	allez	aller	VRB	VRB	_	0	root	_	_	63.779999	64.199997	PAT
+2	allons	aller	VRB	VRB	_	1	para	_	_	64.209999	64.489998	PAT
+3	dans	dans	PRE	PRE	_	2	dep	_	_	64.500000	64.650002	PAT
+4	le	le	DET	DET	_	5	spe	_	_	64.660004	64.680000	PAT
+5	détail	détail	NOM	NOM	_	3	dep	_	_	64.690002	65.139999	PAT
+6	au	à+le	PRE	PRE	_	5	dep	_	_	65.150002	65.199997	PAT
+7	dessus	dessus	ADV	ADV	_	6	dep	_	_	65.209999	65.470001	PAT
+8	de	de	PRE	PRE	_	5	dep	_	_	65.480003	65.589996	PAT
+9	mille	mille	NUM	NUM	_	12	spe	_	_	65.599998	65.980003	PAT
+10	huit	huit	NUM	NUM	_	9	dep	_	_	65.989998	66.169998	PAT
+11	cents	cents	NUM	NUM	_	10	dep	_	_	66.180000	66.370003	PAT
+12	mètres	mètre	NOM	NOM	_	8	dep	_	_	66.379997	66.870003	PAT
+13	sur	sur	PRE	PRE	_	2	dep	_	_	67.000000	67.169998	PAT
+14	les	le	DET	DET	_	15	spe	_	_	67.180000	67.400002	PAT
+15	Alpes du Sud	Alpes du Sud	NOM	NOM	_	13	dep	_	_	67.410004	68.059998	PAT
+16	en tout cas	en tout cas	ADV	ADV	_	2	dep	_	_	68.150002	68.720001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-27
+# text = en tous cas au Sud il y aura quand même pas mal de nuages
+1	en	en	PRE	PRE	_	8	periph	_	_	68.949997	69.059998	PAT
+2	tous	tout	ADJ	ADJ	_	3	dep	_	_	69.070000	69.209999	PAT
+3	cas	cas	NOM	NOM	_	1	dep	_	_	69.220001	69.459999	PAT
+4	au	à+le	PRE	PRE	_	8	periph	_	_	69.510002	69.580002	PAT
+5	Sud	sud	NOM	NOM	_	4	dep	_	_	69.589996	69.830002	PAT
+6	il	il	CLS	CLS	_	8	subj	_	_	69.839996	70.000000	PAT
+7	y	y	CLI	CLI	_	8	dep	_	_	70.010002	70.040001	PAT
+8	aura	avoir	VRB	VRB	_	0	root	_	_	70.050003	70.209999	PAT
+9	quand	quand	CSU	CSU	_	8	dep	_	_	70.220001	70.339996	PAT
+10	même	même	ADV	ADV	_	11	dep	_	_	70.349998	70.529999	PAT
+11	pas	pas	ADN	ADN	_	12	dep	_	_	70.800003	70.930000	PAT
+12	mal	mal	ADV	ADV	_	9	dep	_	_	70.940002	71.120003	PAT
+13	de	de	PRE	PRE	_	8	dep	_	_	71.129997	71.209999	PAT
+14	nuages	nuage	NOM	NOM	_	13	dep	_	_	71.220001	71.559998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-28
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	71.570000	71.739998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-29
+# text = qu'il y aura de très belles éclaircies sur les régions du Nord et du Nord Ouest avec toujours quelques petits coups de tonnerre sur euh la Bretagne et puis des petites averses ici ou
+1	qu'	que	CSU	CSU	_	0	root	_	_	71.750000	71.779999	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	71.790001	71.849998	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	71.860001	71.919998	PAT
+4	aura	avoir	VRB	VRB	_	1	dep	_	_	71.930000	72.080002	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	72.089996	72.199997	PAT
+6	très	très	ADV	ADV	_	7	dep	_	_	72.209999	72.389999	PAT
+7	belles	beau	ADJ	ADJ	_	8	dep	_	_	72.400002	72.760002	PAT
+8	éclaircies	éclaircie	NOM	NOM	_	5	dep	_	_	72.769997	73.360001	PAT
+9	sur	sur	PRE	PRE	_	4	dep	_	_	73.639999	73.900002	PAT
+10	les	le	DET	DET	_	11	spe	_	_	73.910004	74.000000	PAT
+11	régions	région	NOM	NOM	_	9	dep	_	_	74.010002	74.349998	PAT
+12	du	de+le	PRE	PRE	_	11	dep	_	_	74.360001	74.480003	PAT
+13	Nord	Nord	NOM	NOM	_	12	dep	_	_	74.489998	74.709999	PAT
+14	et	et	COO	COO	_	15	mark	_	_	74.720001	74.760002	PAT
+15	du	de+le	PRE	PRE	_	12	para	_	_	74.769997	74.889999	PAT
+16	Nord	Nord	NOM	NOM	_	15	dep	_	_	74.900002	75.070000	PAT
+17	Ouest	ouest	NOM	NOM	_	16	dep	_	_	75.080002	75.349998	PAT
+18	avec	avec	PRE	PRE	_	17	dep	_	_	75.360001	75.550003	PAT
+19	toujours	toujours	ADV	ADV	_	18	dep	_	_	75.559998	75.889999	PAT
+20	quelques	quelque	ADJ	ADJ	_	22	spe	_	_	75.900002	76.169998	PAT
+21	petits	petit	ADJ	ADJ	_	22	dep	_	_	76.180000	76.529999	PAT
+22	coups	coup	NOM	NOM	_	17	para	_	_	76.540001	76.650002	PAT
+23	de	de	PRE	PRE	_	22	dep	_	_	76.660004	76.680000	PAT
+24	tonnerre	tonnerre	NOM	NOM	_	23	dep	_	_	76.750000	77.110001	PAT
+25	sur	sur	PRE	PRE	_	22	dep	_	_	77.459999	77.800003	PAT
+26	euh	euh	INT	INT	_	25	dm	_	_	77.809998	77.980003	PAT
+27	la	le	DET	DET	_	28	spe	_	_	77.989998	78.110001	PAT
+28	Bretagne	Bretagne	NOM	NOM	_	25	dep	_	_	78.120003	78.550003	PAT
+29	et puis	et puis	COO	COO	_	30	mark	_	_	78.559998	78.730003	PAT
+30	des	de	PRE	PRE	_	25	para	_	_	78.739998	78.839996	PAT
+31	petites	petit	ADJ	ADJ	_	32	dep	_	_	78.849998	79.139999	PAT
+32	averses	averse	NOM	NOM	_	30	dep	_	_	79.150002	79.570000	PAT
+33	ici	ici	ADV	ADV	_	25	dep	_	_	79.580002	79.989998	PAT
+34	ou	ou	COO	COO	_	33	disflink	_	_	80.239998	80.529999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-30
+# text = ou là les masses d'air maintenant nous sommes dans un flux d'Ouest
+1	ou	ou	COO	COO	_	9	mark	_	_	80.750000	81.070000	PAT
+2	là	là	ADV	ADV	_	9	periph	_	_	81.330002	81.629997	PAT
+3	les	le	DET	DET	_	4	spe	_	_	82.019997	82.139999	PAT
+4	masses	masse	NOM	NOM	_	9	periph	_	_	82.150002	82.370003	PAT
+5	d'	de	PRE	PRE	_	4	dep	_	_	82.379997	82.449997	PAT
+6	air	air	NOM	NOM	_	5	dep	_	_	82.459999	82.680000	PAT
+7	maintenant	maintenant	ADV	ADV	_	9	periph	_	_	82.690002	83.160004	PAT
+8	nous	nous	CLS	CLS	_	9	subj	_	_	83.169998	83.300003	PAT
+9	sommes	être	VRB	VRB	_	0	root	_	_	83.309998	83.589996	PAT
+10	dans	dans	PRE	PRE	_	9	dep	_	_	83.599998	83.860001	PAT
+11	un	un	DET	DET	_	12	spe	_	_	83.870003	84.019997	PAT
+12	flux	flux	NOM	NOM	_	10	dep	_	_	84.330002	84.599998	PAT
+13	d'	de	PRE	PRE	_	12	dep	_	_	84.610001	84.639999	PAT
+14	Ouest	ouest	NOM	NOM	_	13	dep	_	_	84.650002	85.180000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-31
+# text = alors c'est toujours un petit peu doux
+1	alors	alors	ADV	ADV	_	3	periph	_	_	85.379997	85.580002	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	85.589996	85.660004	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	85.669998	85.720001	PAT
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	85.730003	86.050003	PAT
+5	un	un	DET	DET	_	7	spe	_	_	86.059998	86.150002	PAT
+6	petit	petit	ADJ	ADJ	_	7	dep	_	_	86.160004	86.320000	PAT
+7	peu	peu	NOM	NOM	_	3	dep	_	_	86.330002	86.489998	PAT
+8	doux	doux	ADJ	ADJ	_	7	dep	_	_	86.500000	86.769997	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-32
+# text = euh regardez les températures au lever du jour
+1	euh	euh	INT	INT	_	2	dm	_	_	87.169998	87.529999	PAT
+2	regardez	regarder	VRB	VRB	_	0	root	_	_	87.540001	88.099998	PAT
+3	les	le	DET	DET	_	4	spe	_	_	88.110001	88.209999	PAT
+4	températures	température	NOM	NOM	_	2	dep	_	_	88.220001	88.849998	PAT
+5	au	à+le	PRE	PRE	_	4	dep	_	_	88.860001	88.910004	PAT
+6	lever	lever	VNF	VNF	_	5	dep	_	_	88.919998	89.180000	PAT
+7	du	de+le	PRE	PRE	_	6	dep	_	_	89.190002	89.279999	PAT
+8	jour	jour	NOM	NOM	_	7	dep	_	_	89.290001	89.660004	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-33
+# text = s'il vous plait alors ça donne quoi
+1	s'	si	CSU	CSU	_	7	periph	_	_	89.669998	89.779999	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	89.790001	89.900002	PAT
+3	vous	vous	CLI	CLI	_	4	dep	_	_	89.910004	90.040001	PAT
+4	plait	plait	VRB	VRB	_	1	dep	_	_	90.050003	90.430000	PAT
+5	alors	alors	ADV	ADV	_	7	periph	_	_	90.680000	90.949997	PAT
+6	ça	ça	PRO	PRO	_	7	subj	_	_	90.959999	91.099998	PAT
+7	donne	donner	VRB	VRB	_	0	root	_	_	91.110001	91.339996	PAT
+8	quoi	quoi	INT	INT	_	7	dm	_	_	91.349998	91.669998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-34
+# text = eh ben ça donne au minimum deux degrés à Orléans par exemple et puis deux degrés à Grenoble
+1	eh ben	eh ben	INT	INT	_	3	dm	_	_	91.760002	91.949997	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	91.959999	92.110001	PAT
+3	donne	donner	VRB	VRB	_	0	root	_	_	92.120003	92.330002	PAT
+4	au	à+le	PRE	PRE	_	3	dep	_	_	92.339996	92.370003	PAT
+5	minimum	minimum	NOM	NOM	_	4	dep	_	_	92.379997	93.010002	PAT
+6	deux	deux	NUM	NUM	_	7	spe	_	_	93.309998	93.690002	PAT
+7	degrés	degré	NOM	NOM	_	3	dep	_	_	93.699997	94.129997	PAT
+8	à	à	PRE	PRE	_	7	dep	_	_	94.139999	94.209999	PAT
+9	Orléans	Orléans	NOM	NOM	_	8	dep	_	_	94.220001	94.750000	PAT
+10	par	par	PRE	PRE	_	7	dep	_	_	94.760002	95.010002	PAT
+11	exemple	exemple	NOM	NOM	_	10	dep	_	_	95.019997	95.519997	PAT
+12	et puis	et puis	COO	COO	_	14	mark	_	_	95.860001	96.209999	PAT
+13	deux	deux	NUM	NUM	_	14	spe	_	_	96.220001	96.440002	PAT
+14	degrés	degré	NOM	NOM	_	7	para	_	_	96.449997	96.900002	PAT
+15	à	à	PRE	PRE	_	14	dep	_	_	96.949997	97.040001	PAT
+16	Grenoble	Grenoble	NOM	NOM	_	15	dep	_	_	97.050003	97.599998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-35
+# text = mais au maximum on va
+1	mais	mais	COO	COO	_	5	mark	_	_	97.610001	97.940002	PAT
+2	au	à+le	PRE	PRE	_	5	periph	_	_	97.949997	98.000000	PAT
+3	maximum	maximum	NOM	NOM	_	2	dep	_	_	98.010002	98.559998	PAT
+4	on	on	CLS	CLS	_	5	subj	_	_	98.570000	98.650002	PAT
+5	va	aller	VRB	VRB	_	0	root	_	_	98.660004	98.779999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-36
+# text = quand même grimper jusqu'à neuf degrés dès le matin
+1	quand	quand	CSU	CSU	_	0	root	_	_	98.820000	98.919998	PAT
+2	même	même	ADV	ADV	_	3	dep	_	_	98.930000	99.129997	PAT
+3	grimper	grimper	VNF	VNF	_	1	dep	_	_	99.139999	99.489998	PAT
+4	jusqu'	jusque	PRE	PRE	_	3	dep	_	_	99.500000	99.809998	PAT
+5	à	à	PRE	PRE	_	4	dep	_	_	99.820000	99.870003	PAT
+6	neuf	neuf	NUM	NUM	_	7	spe	_	_	99.879997	100.080002	PAT
+7	degrés	degré	NOM	NOM	_	5	dep	_	_	100.089996	100.580002	PAT
+8	dès	dès	PRE	PRE	_	3	dep	_	_	101.000000	101.139999	PAT
+9	le	le	DET	DET	_	10	spe	_	_	101.150002	101.230003	PAT
+10	matin	matin	NOM	NOM	_	8	dep	_	_	101.239998	101.500000	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-37
+# text = et l'après midi eh bien l'après midi ça pourrait bien grimper à dix-sept degrés en Corse à Bastia
+1	et	et	COO	COO	_	10	mark	_	_	101.580002	101.690002	PAT
+2	l'	le	DET	DET	_	4	spe	_	_	101.699997	101.730003	PAT
+3	après	après	PRE	PRE	_	4	dep	_	_	101.739998	102.040001	PAT
+4	midi	midi	NOM	NOM	_	10	periph	_	_	102.050003	102.470001	PAT
+5	eh bien	eh bien	INT	INT	_	4	dm	_	_	102.480003	102.830002	PAT
+6	l'	le	DET	DET	_	10	spe	_	_	102.839996	102.879997	PAT
+7	après	après	PRE	PRE	_	10	periph	_	_	102.889999	103.099998	PAT
+8	midi	midi	NOM	NOM	_	7	dep	_	_	103.110001	103.349998	PAT
+9	ça	ça	PRO	PRO	_	10	subj	_	_	103.360001	103.529999	PAT
+10	pourrait	pouvoir	VRB	VRB	_	0	root	_	_	103.540001	103.779999	PAT
+11	bien	bien	ADV	ADV	_	10	dep	_	_	103.790001	104.000000	PAT
+12	grimper	grimper	VNF	VNF	_	10	dep	_	_	104.010002	104.489998	PAT
+13	à	à	PRE	PRE	_	12	dep	_	_	104.660004	104.750000	PAT
+14	dix-sept	dix-sept	NUM	NUM	_	15	spe	_	_	104.760002	105.239998	PAT
+15	degrés	degré	NOM	NOM	_	13	dep	_	_	105.250000	105.620003	PAT
+16	en	en	PRE	PRE	_	15	dep	_	_	105.660004	105.730003	PAT
+17	Corse	Corse	NOM	NOM	_	16	dep	_	_	105.739998	106.099998	PAT
+18	à	à	PRE	PRE	_	15	dep	_	_	106.410004	106.529999	PAT
+19	Bastia	Bastia	NOM	NOM	_	18	dep	_	_	106.540001	107.050003	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-38
+# text = alors que le minimum sera de huit à Auriac de huit à Limoges de
+1	alors	alors	ADV	ADV	_	2	periph	_	_	107.290001	107.529999	PAT
+2	que	que	CSU	CSU	_	0	root	_	_	107.540001	107.610001	PAT
+3	le	le	DET	DET	_	4	spe	_	_	107.620003	107.769997	PAT
+4	minimum	minimum	NOM	NOM	_	5	subj	_	_	107.779999	108.230003	PAT
+5	sera	être	VRB	VRB	_	2	dep	_	_	108.239998	108.470001	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	108.480003	108.709999	PAT
+7	huit	huit	NUM	NUM	_	6	dep	_	_	108.720001	108.970001	PAT
+8	à	à	PRE	PRE	_	5	dep	_	_	109.260002	109.410004	PAT
+9	Auriac	Auriac	NOM	NOM	_	8	dep	_	_	109.419998	109.870003	PAT
+10	de	de	PRE	PRE	_	9	dep	_	_	109.879997	109.949997	PAT
+11	huit	huit	NUM	NUM	_	10	dep	_	_	109.959999	110.239998	PAT
+12	à	à	PRE	PRE	_	9	dep	_	_	110.250000	110.279999	PAT
+13	Limoges	Limoges	NOM	NOM	_	12	dep	_	_	110.290001	110.779999	PAT
+14	de	de	PRE	PRE	_	13	dep	_	_	110.790001	110.879997	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-39
+# text = huit à Orléans
+1	huit	huit	NUM	NUM	_	0	root	_	_	110.889999	111.110001	PAT
+2	à	à	PRE	PRE	_	1	dep	_	_	111.120003	111.180000	PAT
+3	Orléans	Orléans	NOM	NOM	_	2	dep	_	_	111.190002	111.589996	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-40
+# text = toujours et de huit
+1	toujours	toujours	ADV	ADV	_	3	dm	_	_	111.599998	111.930000	PAT
+2	et	et	COO	COO	_	3	mark	_	_	111.940002	111.970001	PAT
+3	de	de	PRE	PRE	_	0	root	_	_	111.980003	112.010002	PAT
+4	huit	huit	NUM	NUM	_	3	dep	_	_	112.019997	112.330002	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-41
+# text = à Besançon douze à Paris neuf euh sur le Nord onze sur l'Ouest dix sur l'Est
+1	à	à	PRE	PRE	_	0	root	_	_	112.339996	112.370003	PAT
+2	Besançon	Besançon	NOM	NOM	_	1	dep	_	_	112.430000	112.910004	PAT
+3	douze	douze	NUM	NUM	_	2	dep	_	_	112.919998	113.160004	PAT
+4	à	à	PRE	PRE	_	1	para	_	_	113.169998	113.220001	PAT
+5	Paris	Paris	NOM	NOM	_	4	dep	_	_	113.230003	113.489998	PAT
+6	neuf	neuf	NUM	NUM	_	5	dep	_	_	113.500000	113.849998	PAT
+7	euh	euh	INT	INT	_	6	dm	_	_	114.209999	114.349998	PAT
+8	sur	sur	PRE	PRE	_	4	para	_	_	114.360001	114.580002	PAT
+9	le	le	DET	DET	_	10	spe	_	_	114.589996	114.699997	PAT
+10	Nord	Nord	NOM	NOM	_	8	dep	_	_	114.709999	115.110001	PAT
+11	onze	onze	NUM	NUM	_	10	dep	_	_	115.120003	115.529999	PAT
+12	sur	sur	PRE	PRE	_	8	para	_	_	115.540001	115.760002	PAT
+13	l'	le	DET	DET	_	14	spe	_	_	115.769997	115.800003	PAT
+14	Ouest	ouest	NOM	NOM	_	12	dep	_	_	115.809998	116.419998	PAT
+15	dix	dix	NUM	NUM	_	14	dep	_	_	116.430000	116.900002	PAT
+16	sur	sur	PRE	PRE	_	12	para	_	_	116.910004	117.019997	PAT
+17	l'	le	DET	DET	_	18	spe	_	_	117.029999	117.110001	PAT
+18	Est	est	NOM	NOM	_	16	dep	_	_	117.120003	117.470001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-42
+# text = et puis treize sur le Sud Ouest euh regardons maintenant ce qui se passe autour de nous avec une chose tout à fait étonnante un petit coup de siroco qui va tomber sur Tunis trente-deux degrés demain à Tunis vingt-huit à Alger avec du soleil seize seulement à Rhaba
+1	et puis	et puis	COO	COO	_	8	mark	_	_	117.760002	117.989998	PAT
+2	treize	treize	NUM	NUM	_	8	subj	_	_	118.000000	118.260002	PAT
+3	sur	sur	PRE	PRE	_	2	dep	_	_	118.269997	118.510002	PAT
+4	le	le	DET	DET	_	5	spe	_	_	118.519997	118.690002	PAT
+5	Sud	sud	NOM	NOM	_	3	dep	_	_	119.000000	119.279999	PAT
+6	Ouest	ouest	NOM	NOM	_	5	dep	_	_	119.290001	119.800003	PAT
+7	euh	euh	INT	INT	_	2	dm	_	_	120.089996	120.110001	PAT
+8	regardons	regarder	VRB	VRB	_	0	root	_	_	120.120003	120.809998	PAT
+9	maintenant	maintenant	ADV	ADV	_	8	dep	_	_	120.820000	121.220001	PAT
+10	ce	ce	PRO	PRO	_	8	dep	_	_	121.480003	121.580002	PAT
+11	qui	qui	PRQ	PRQ	_	13	subj	_	_	121.589996	121.750000	PAT
+12	se	se	CLI	CLI	_	13	dep	_	_	121.760002	121.839996	PAT
+13	passe	passer	VRB	VRB	_	10	dep	_	_	121.849998	122.139999	PAT
+14	autour	autour	ADV	ADV	_	13	dep	_	_	122.150002	122.419998	PAT
+15	de	de	PRE	PRE	_	14	dep	_	_	122.430000	122.519997	PAT
+16	nous	moi	PRO	PRO	_	15	dep	_	_	122.529999	122.699997	PAT
+17	avec	avec	PRE	PRE	_	13	dep	_	_	122.709999	123.040001	PAT
+18	une	un	DET	DET	_	19	spe	_	_	123.050003	123.150002	PAT
+19	chose	chose	NOM	NOM	_	17	dep	_	_	123.160004	123.430000	PAT
+20	tout à fait	tout à fait	ADV	ADV	_	21	dep	_	_	123.440002	123.809998	PAT
+21	étonnante	étonnant	ADJ	ADJ	_	19	dep	_	_	123.820000	124.290001	PAT
+22	un	un	DET	DET	_	24	spe	_	_	124.300003	124.379997	PAT
+23	petit	petit	ADJ	ADJ	_	24	dep	_	_	124.389999	124.519997	PAT
+24	coup	coup	NOM	NOM	_	21	dep	_	_	124.529999	124.720001	PAT
+25	de	de	PRE	PRE	_	24	dep	_	_	124.730003	124.760002	PAT
+26	siroco	siroco	NOM	NOM	_	25	dep	_	_	124.769997	125.320000	PAT
+27	qui	qui	PRQ	PRQ	_	28	subj	_	_	125.540001	125.660004	PAT
+28	va	aller	VRB	VRB	_	26	dep	_	_	125.669998	125.800003	PAT
+29	tomber	tomber	VNF	VNF	_	28	dep	_	_	125.809998	126.250000	PAT
+30	sur	sur	PRE	PRE	_	29	dep	_	_	126.430000	126.949997	PAT
+31	Tunis	Tunis	NOM	NOM	_	30	dep	_	_	126.959999	127.449997	PAT
+32	trente-deux	trente-deux	NUM	NUM	_	33	spe	_	_	127.459999	128.179993	PAT
+33	degrés	degré	NOM	NOM	_	29	dep	_	_	128.190002	128.779999	PAT
+34	demain	demain	ADV	ADV	_	29	dep	_	_	129.020004	129.470001	PAT
+35	à	à	PRE	PRE	_	29	dep	_	_	129.479996	129.529999	PAT
+36	Tunis	Tunis	NOM	NOM	_	35	dep	_	_	129.539993	129.880005	PAT
+37	vingt-huit	vingt-huit	NUM	NUM	_	29	dep	_	_	130.100006	130.779999	PAT
+38	à	à	PRE	PRE	_	37	dep	_	_	130.789993	130.889999	PAT
+39	Alger	Alger	NOM	NOM	_	38	dep	_	_	130.899994	131.169998	PAT
+40	avec	avec	PRE	PRE	_	29	dep	_	_	131.179993	131.330002	PAT
+41	du	de+le	PRE	PRE	_	40	dep	_	_	131.339996	131.460007	PAT
+42	soleil	soleil	NOM	NOM	_	41	dep	_	_	131.470001	131.880005	PAT
+43	seize	seize	NUM	NUM	_	29	dep	_	_	132.130005	132.539993	PAT
+44	seulement	seulement	ADV	ADV	_	29	dep	_	_	132.550003	132.899994	PAT
+45	à	à	PRE	PRE	_	29	dep	_	_	132.910004	132.960007	PAT
+46	Rhaba	Rhaba	NOM	NOM	_	45	dep	_	_	132.970001	133.279999	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-43
+# text = alors que sur le Nord
+1	alors	alors	ADV	ADV	_	2	periph	_	_	133.600006	133.850006	PAT
+2	que	que	CSU	CSU	_	0	root	_	_	133.860001	133.960007	PAT
+3	sur	sur	PRE	PRE	_	2	dep	_	_	133.970001	134.169998	PAT
+4	le	le	DET	DET	_	5	spe	_	_	134.179993	134.300003	PAT
+5	Nord	Nord	NOM	NOM	_	3	dep	_	_	134.309998	134.559998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-44
+# text = eh ben ça varie de deux jusqu'à huit degrés
+1	eh ben	eh ben	INT	INT	_	3	dm	_	_	134.570007	134.750000	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	134.759995	134.919998	PAT
+3	varie	varier	VRB	VRB	_	0	root	_	_	134.929993	135.229996	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	135.240005	135.360001	PAT
+5	deux	deux	NUM	NUM	_	4	dep	_	_	135.369995	135.600006	PAT
+6	jusqu'	jusque	PRE	PRE	_	3	dep	_	_	135.869995	136.500000	PAT
+7	à	à	PRE	PRE	_	6	dep	_	_	136.509995	136.610001	PAT
+8	huit	huit	NUM	NUM	_	9	spe	_	_	136.619995	136.809998	PAT
+9	degrés	degré	NOM	NOM	_	7	dep	_	_	136.820007	137.220001	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-45
+# text = et et et et revenons en France pour samedi
+1	et	et	COO	COO	_	5	mark	_	_	137.270004	137.490005	PAT
+2	et	et	COO	COO	_	1	para	_	_	137.550003	137.809998	PAT
+3	et	et	COO	COO	_	2	para	_	_	137.850006	138.139999	PAT
+4	et	et	COO	COO	_	5	mark	_	_	138.149994	138.289993	PAT
+5	revenons	revenir	VRB	VRB	_	0	root	_	_	138.300003	138.809998	PAT
+6	en	en	PRE	PRE	_	5	dep	_	_	138.820007	138.979996	PAT
+7	France	France	NOM	NOM	_	6	dep	_	_	138.990005	139.350006	PAT
+8	pour	pour	PRE	PRE	_	5	dep	_	_	139.360001	139.529999	PAT
+9	samedi	samedi	NOM	NOM	_	8	dep	_	_	139.539993	139.910004	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-46
+# text = deux mars du soleil sur le Nord
+1	deux	deux	NUM	NUM	_	2	spe	_	_	139.919998	140.020004	PAT
+2	mars	mar	NOM	NOM	_	0	root	_	_	140.029999	140.320007	PAT
+3	du	de+le	PRE	PRE	_	2	dep	_	_	140.600006	140.800003	PAT
+4	soleil	soleil	NOM	NOM	_	3	dep	_	_	140.809998	141.130005	PAT
+5	sur	sur	PRE	PRE	_	2	dep	_	_	141.139999	141.350006	PAT
+6	le	le	DET	DET	_	7	spe	_	_	141.360001	141.440002	PAT
+7	Nord	Nord	NOM	NOM	_	5	dep	_	_	141.449997	141.690002	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-47
+# text = du mauvais temps sur le Sud c'est ce que je vous disais
+1	du	de+le	PRE	PRE	_	8	periph	_	_	141.919998	142.080002	PAT
+2	mauvais	mauvais	ADJ	ADJ	_	3	dep	_	_	142.089996	142.380005	PAT
+3	temps	temps	NOM	NOM	_	1	dep	_	_	142.389999	142.550003	PAT
+4	sur	sur	PRE	PRE	_	8	periph	_	_	142.559998	142.750000	PAT
+5	le	le	DET	DET	_	6	spe	_	_	142.759995	142.839996	PAT
+6	Sud	sud	NOM	NOM	_	4	dep	_	_	142.850006	143.039993	PAT
+7	c'	ce	CLS	CLS	_	8	subj	_	_	143.050003	143.130005	PAT
+8	est	être	VRB	VRB	_	0	root	_	_	143.139999	143.179993	PAT
+9	ce	ce	PRO	PRO	_	8	dep	_	_	143.190002	143.289993	PAT
+10	que	que	PRQ	PRQ	_	13	dep	_	_	143.300003	143.399994	PAT
+11	je	je	CLS	CLS	_	13	subj	_	_	143.410004	143.490005	PAT
+12	vous	vous	CLI	CLI	_	13	dep	_	_	143.500000	143.580002	PAT
+13	disais	dire	VRB	VRB	_	9	dep	_	_	143.589996	143.869995	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-48
+# text = sauf sur l'extrême Sud Est et puis et puis dimanche trois mars toujours du soleil sur le Nord c'est la météo
+1	sauf	sauf	COO	COO	_	19	mark	_	_	144.110001	144.440002	PAT
+2	sur	sur	PRE	PRE	_	19	periph	_	_	144.449997	144.589996	PAT
+3	l'	le	DET	DET	_	4	spe	_	_	144.600006	144.649994	PAT
+4	extrême	extrême	NOM	NOM	_	2	dep	_	_	144.660004	145.070007	PAT
+5	Sud	sud	NOM	NOM	_	4	dep	_	_	145.080002	145.339996	PAT
+6	Est	est	NOM	NOM	_	5	dep	_	_	145.410004	145.580002	PAT
+7	et puis	et puis	COO	COO	_	9	mark	_	_	145.889999	146.449997	PAT
+8	et puis	et puis	COO	COO	_	9	mark	_	_	146.520004	147.220001	PAT
+9	dimanche	dimanche	NOM	NOM	_	19	periph	_	_	147.229996	147.889999	PAT
+10	trois	trois	NUM	NUM	_	11	spe	_	_	148.250000	148.639999	PAT
+11	mars	mar	NOM	NOM	_	9	para	_	_	148.649994	149.330002	PAT
+12	toujours	toujours	ADV	ADV	_	11	dep	_	_	149.750000	150.419998	PAT
+13	du	de+le	PRE	PRE	_	11	dep	_	_	150.429993	150.589996	PAT
+14	soleil	soleil	NOM	NOM	_	13	dep	_	_	150.600006	150.990005	PAT
+15	sur	sur	PRE	PRE	_	9	dep	_	_	151.000000	151.270004	PAT
+16	le	le	DET	DET	_	17	spe	_	_	151.279999	151.410004	PAT
+17	Nord	Nord	NOM	NOM	_	15	dep	_	_	151.419998	151.839996	PAT
+18	c'	ce	CLS	CLS	_	19	subj	_	_	151.979996	152.089996	PAT
+19	est	être	VRB	VRB	_	0	root	_	_	152.100006	152.210007	PAT
+20	la	le	DET	DET	_	21	spe	_	_	152.220001	152.350006	PAT
+21	météo	météo	NOM	NOM	_	19	dep	_	_	152.360001	152.809998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-49
+# text = je vous le disais qui a perdu le Nord puisque c'est sur le Sud qu'il y aura le plus de nuages de chutes de neige de coups de tonnerre
+1	je	je	CLS	CLS	_	4	subj	_	_	152.820007	152.970001	PAT
+2	vous	vous	CLI	CLI	_	4	dep	_	_	152.979996	153.139999	PAT
+3	le	le	CLI	CLI	_	4	dep	_	_	153.149994	153.210007	PAT
+4	disais	dire	VRB	VRB	_	0	root	_	_	153.220001	153.550003	PAT
+5	qui	qui	PRQ	PRQ	_	7	dep	_	_	153.559998	153.690002	PAT
+6	a	avoir	VRB	VRB	_	7	aux	_	_	153.699997	153.800003	PAT
+7	perdu	perdre	VPP	VPP	_	4	dep	_	_	153.809998	154.110001	PAT
+8	le	le	DET	DET	_	9	spe	_	_	154.119995	154.199997	PAT
+9	Nord	Nord	NOM	NOM	_	7	dep	_	_	154.210007	154.529999	PAT
+10	puisque	puisque	CSU	CSU	_	7	periph	_	_	154.720001	155.070007	PAT
+11	c'	ce	CLS	CLS	_	12	subj	_	_	155.080002	155.100006	PAT
+12	est	être	VRB	VRB	_	10	dep	_	_	155.160004	155.229996	PAT
+13	sur	sur	PRE	PRE	_	12	dep	_	_	155.240005	155.399994	PAT
+14	le	le	DET	DET	_	15	spe	_	_	155.410004	155.460007	PAT
+15	Sud	sud	NOM	NOM	_	13	dep	_	_	155.470001	155.720001	PAT
+16	qu'	que	PRQ	PRQ	_	19	dep	_	_	155.729996	155.789993	PAT
+17	il	il	CLS	CLS	_	19	subj	_	_	155.800003	155.899994	PAT
+18	y	y	CLI	CLI	_	19	dep	_	_	155.910004	155.929993	PAT
+19	aura	avoir	VRB	VRB	_	15	dep	_	_	155.940002	156.070007	PAT
+20	le	le	DET	DET	_	21	spe	_	_	156.080002	156.160004	PAT
+21	plus	plus	NOM	NOM	_	19	dep	_	_	156.169998	156.380005	PAT
+22	de	de	PRE	PRE	_	21	dep	_	_	156.389999	156.460007	PAT
+23	nuages	nuage	NOM	NOM	_	22	dep	_	_	156.470001	156.759995	PAT
+24	de	de	PRE	PRE	_	23	dep	_	_	156.979996	157.100006	PAT
+25	chutes	chute	NOM	NOM	_	24	dep	_	_	157.110001	157.309998	PAT
+26	de	de	PRE	PRE	_	25	dep	_	_	157.320007	157.429993	PAT
+27	neige	neige	NOM	NOM	_	26	dep	_	_	157.440002	157.649994	PAT
+28	de	de	PRE	PRE	_	27	dep	_	_	157.869995	158.029999	PAT
+29	coups	coup	NOM	NOM	_	28	dep	_	_	158.039993	158.169998	PAT
+30	de	de	PRE	PRE	_	29	dep	_	_	158.179993	158.199997	PAT
+31	tonnerre	tonnerre	NOM	NOM	_	30	dep	_	_	158.300003	158.669998	PAT
+
+# sent_id = cefc-coralrom-fmedmt01-50
+# text = mais quand même des températures en moyenne jusqu'à quatorze degrés très bonne soirée à tous devant France deux vous retrouvez demain Laurent Romechko aux côté de William Lemergy à demain soir merci
+1	mais	mais	COO	COO	_	20	mark	_	_	158.899994	159.029999	PAT
+2	quand	quand	CSU	CSU	_	20	periph	_	_	159.039993	159.190002	PAT
+3	même	même	ADV	ADV	_	2	morph	_	_	159.199997	159.369995	PAT
+4	des	de	PRE	PRE	_	20	periph	_	_	159.380005	159.509995	PAT
+5	températures	température	NOM	NOM	_	4	dep	_	_	159.520004	160.050003	PAT
+6	en moyenne	en moyenne	ADV	ADV	_	20	periph	_	_	160.059998	160.419998	PAT
+7	jusqu'	jusque	PRE	PRE	_	20	periph	_	_	160.429993	160.639999	PAT
+8	à	à	PRE	PRE	_	7	dep	_	_	160.649994	160.690002	PAT
+9	quatorze	quatorze	NUM	NUM	_	10	spe	_	_	160.699997	161.139999	PAT
+10	degrés	degré	NOM	NOM	_	8	dep	_	_	161.149994	161.330002	PAT
+11	très	très	ADV	ADV	_	12	dep	_	_	161.779999	161.929993	PAT
+12	bonne	bon	ADJ	ADJ	_	13	dep	_	_	161.940002	162.089996	PAT
+13	soirée	soirée	NOM	NOM	_	10	para	_	_	162.100006	162.419998	PAT
+14	à	à	PRE	PRE	_	13	dep	_	_	162.429993	162.490005	PAT
+15	tous	tout	PRO	PRO	_	14	dep	_	_	162.500000	162.740005	PAT
+16	devant	devant	PRE	PRE	_	13	dep	_	_	162.750000	163.039993	PAT
+17	France	France	NOM	NOM	_	16	dep	_	_	163.050003	163.320007	PAT
+18	deux	deux	NUM	NUM	_	17	dep	_	_	163.330002	163.500000	PAT
+19	vous	vous	CLS	CLS	_	20	subj	_	_	163.509995	163.639999	PAT
+20	retrouvez	retrouver	VRB	VRB	_	0	root	_	_	163.649994	164.020004	PAT
+21	demain	demain	ADV	ADV	_	20	dep	_	_	164.029999	164.589996	PAT
+22	Laurent	Laurent	NOM	NOM	_	20	dep	_	_	164.600006	164.860001	PAT
+23	Romechko	Romechko	NOM	NOM	_	22	dep	_	_	164.869995	165.350006	PAT
+24	aux	à+le	PRE	PRE	_	20	dep	_	_	165.649994	165.720001	PAT
+25	côté	côté	NOM	NOM	_	24	dep	_	_	165.729996	166.009995	PAT
+26	de	de	PRE	PRE	_	25	dep	_	_	166.020004	166.110001	PAT
+27	William	William	NOM	NOM	_	26	dep	_	_	166.119995	166.559998	PAT
+28	Lemergy	Lemergy	NOM	NOM	_	27	dep	_	_	166.570007	167.119995	PAT
+29	à	à	PRE	PRE	_	20	dep	_	_	167.220001	167.350006	PAT
+30	demain	demain	ADV	ADV	_	29	dep	_	_	167.360001	167.570007	PAT
+31	soir	soir	NOM	NOM	_	30	dep	_	_	167.580002	167.889999	PAT
+32	merci	merci	INT	INT	_	31	dm	_	_	168.210007	168.710007	PAT
+

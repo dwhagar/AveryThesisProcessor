@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Mathieu_Rosier_H_28_Elisa_Rysnik_F_26_12e
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Sonia Branca-Rosoff
+     </name>
+     <name>
+      Florence Lefeuvre
+     </name>
+     <name>
+      Serge Fleury
+     </name>
+     <name>
+      Mat Pires
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     20273
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     Bruit de font, Grésillement de l'enregistreur.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Mathieu_Rosier_H_28_Elisa_Rysnik_F_26_12e
+     </name>
+     du corpus/projet
+     <name>
+      CFPP
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="#problème_enregistrement #audio/x-wav #NULL" dur="01:34:15" type="audio">
+      <date>
+       09/07/2008
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">Annotation automatique</p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     interview sur la vie dans le quartier
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="entretien"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Ile-de-France, Paris, 12e arrondissement
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="Sonia_Branca-Rosoff">
+      <sex>
+       F
+      </sex>
+      <age>
+       61+
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        USA, New York
+       </placeName>
+      </birth>
+      <occupation>
+       enseignant-chercheur
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="Mathieu_Rosier">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Ile-de-France, Paris
+       </placeName>
+      </birth>
+      <occupation>
+       responsable du service éducatif d'un musée
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="Elisa_Rysnik">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Ile-de-France, Paris 12e
+       </placeName>
+      </birth>
+      <occupation>
+       inconnu
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

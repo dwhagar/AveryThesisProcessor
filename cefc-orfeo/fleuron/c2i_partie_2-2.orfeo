@@ -1,0 +1,919 @@
+# sent_id = cefc-fleuron-c2i_partie_2-2-1
+# text = je vais passer au deuxième point de ma présentation
+1	je	je	CLS	CLS	_	2	subj	_	_	0.230000	0.270000	A
+2	vais	aller	VRB	VRB	_	0	root	_	_	0.350000	0.400000	A
+3	passer	passer	VNF	VNF	_	2	dep	_	_	0.410000	0.700000	A
+4	au	à+le	PRE	PRE	_	3	dep	_	_	0.710000	0.770000	A
+5	deuxième	deuxième	ADJ	ADJ	_	6	dep	_	_	0.830000	1.370000	A
+6	point	point	NOM	NOM	_	4	dep	_	_	1.380000	1.980000	A
+7	de	de	PRE	PRE	_	6	dep	_	_	2.220000	2.340000	A
+8	ma	son	DET	DET	_	9	spe	_	_	2.350000	2.500000	A
+9	présentation	présentation	NOM	NOM	_	7	dep	_	_	2.510000	2.980000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-2
+# text = le deuxième point concerne les f-~ la formation
+1	le	le	DET	DET	_	3	spe	_	_	3.770000	3.840000	A
+2	deuxième	deuxième	ADJ	ADJ	_	3	dep	_	_	3.850000	4.240000	A
+3	point	point	NOM	NOM	_	4	subj	_	_	4.250000	4.460000	A
+4	concerne	concerner	VRB	VRB	_	0	root	_	_	4.470000	4.750000	A
+5	les	le	DET	DET	_	6	spe	_	_	5.040000	5.160000	A
+6	f-~	f-~	NOM	NOM	_	4	dep	_	_	5.170000	5.280000	A
+7	la	le	DET	DET	_	8	spe	_	_	5.290000	5.400000	A
+8	formation	formation	NOM	NOM	_	6	para	_	_	5.480000	5.910000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-3
+# text = cette formation s'appelle préparation au C 2 I
+1	cette	ce	DET	DET	_	2	spe	_	_	6.350000	6.440000	A
+2	formation	formation	NOM	NOM	_	4	subj	_	_	6.510000	6.950000	A
+3	s'	se	CLI	CLI	_	4	dep	_	_	6.960000	6.990000	A
+4	appelle	appeler	VRB	VRB	_	0	root	_	_	7.090000	7.410000	A
+5	préparation	préparation	NOM	NOM	_	4	dep	_	_	7.420000	7.840000	A
+6	au	à+le	PRE	PRE	_	4	dep	_	_	8.000000	8.020000	A
+7	C	C	NOM	NOM	_	6	dep	_	_	8.100000	8.150000	A
+8	2	2	X	X	_	7	dep	_	_	8.310000	8.530000	A
+9	I	I	X	X	_	8	disflink	_	_	8.540000	8.560000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-4
+# text = alors je vous dis tout de suite
+1	alors	alors	ADV	ADV	_	4	periph	_	_	9.230000	9.630000	A
+2	je	je	CLS	CLS	_	4	subj	_	_	9.640000	9.730000	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	9.740000	9.800000	A
+4	dis	dire	VRB	VRB	_	0	root	_	_	9.810000	10.080000	A
+5	tout	tout	PRO	PRO	_	4	dep	_	_	10.090000	10.140000	A
+6	de	de	PRE	PRE	_	5	dep	_	_	10.150000	10.170000	A
+7	suite	suite	NOM	NOM	_	6	dep	_	_	10.180000	10.640000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-5
+# text = si la préparation s'appelle pré-~ préparation si la formation s'appelle préparation au C 2 I euh ce n'est pas obligatoire de passer le C 2 I au terme de cette formation d'accord
+1	si	si	CSU	CSU	_	21	periph	_	_	11.130000	11.440000	A
+2	la	le	DET	DET	_	3	spe	_	_	11.450000	11.610000	A
+3	préparation	préparation	NOM	NOM	_	5	subj	_	_	11.620000	12.100000	A
+4	s'	se	CLI	CLI	_	5	dep	_	_	12.110000	12.130000	A
+5	appelle	appeler	VRB	VRB	_	1	dep	_	_	12.170000	12.630000	A
+6	pré-~	pré-~	ADJ	ADJ	_	5	dep	_	_	12.720000	12.860000	A
+7	préparation	préparation	NOM	NOM	_	5	dep	_	_	12.870000	13.530000	A
+8	si	si	CSU	CSU	_	1	para	_	_	13.740000	14.010000	A
+9	la	le	DET	DET	_	10	spe	_	_	14.020000	14.070000	A
+10	formation	formation	NOM	NOM	_	12	subj	_	_	14.120000	14.390000	A
+11	s'	se	CLI	CLI	_	12	dep	_	_	14.400000	14.470000	A
+12	appelle	appeler	VRB	VRB	_	8	dep	_	_	14.480000	14.690000	A
+13	préparation	préparation	NOM	NOM	_	12	dep	_	_	14.700000	15.130000	A
+14	au	à+le	PRE	PRE	_	12	dep	_	_	15.190000	15.210000	A
+15	C	C	NOM	NOM	_	14	dep	_	_	15.270000	15.370000	A
+16	2	2	PRE	PRE	_	15	dep	_	_	15.380000	15.570000	A
+17	I	I	NOM	NOM	_	16	dep	_	_	15.580000	15.960000	A
+18	euh	euh	INT	INT	_	17	dm	_	_	16.150000	16.299999	A
+19	ce	ce	CLS	CLS	_	21	subj	_	_	16.309999	16.850000	A
+20	n'	ne	CLN	CLN	_	21	dep	_	_	16.920000	16.940001	A
+21	est	être	VRB	VRB	_	0	root	_	_	16.950001	16.969999	A
+22	pas	pas	ADN	ADN	_	21	dep	_	_	17.639999	18.100000	A
+23	obligatoire	obligatoire	ADJ	ADJ	_	21	dep	_	_	18.110001	18.780001	A
+24	de	de	PRE	PRE	_	23	dep	_	_	18.790001	18.879999	A
+25	passer	passer	VNF	VNF	_	24	dep	_	_	18.889999	19.049999	A
+26	le	le	DET	DET	_	27	spe	_	_	19.139999	19.160000	A
+27	C	C	NOM	NOM	_	25	dep	_	_	19.170000	19.280001	A
+28	2	2	PRE	PRE	_	27	dep	_	_	19.290001	19.480000	A
+29	I	I	NOM	NOM	_	28	dep	_	_	19.490000	19.700001	A
+30	au	à+le	PRE	PRE	_	25	dep	_	_	19.709999	19.730000	A
+31	terme	terme	NOM	NOM	_	30	dep	_	_	19.740000	19.860001	A
+32	de	de	PRE	PRE	_	31	dep	_	_	19.870001	19.889999	A
+33	cette	ce	DET	DET	_	34	spe	_	_	19.900000	20.020000	A
+34	formation	formation	NOM	NOM	_	32	dep	_	_	20.299999	20.549999	A
+35	d'	de	PRE	PRE	_	34	dep	_	_	20.559999	20.580000	A
+36	accord	accord	NOM	NOM	_	35	dep	_	_	20.620001	20.730000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-6
+# text = vous pouvez suivre cette formation en fait
+1	vous	vous	CLS	CLS	_	2	subj	_	_	21.110001	21.160000	A
+2	pouvez	pouvoir	VRB	VRB	_	0	root	_	_	21.680000	22.750000	A
+3	suivre	suivre	VNF	VNF	_	2	dep	_	_	23.840000	24.230000	A
+4	cette	ce	DET	DET	_	5	spe	_	_	24.240000	24.320000	A
+5	formation	formation	NOM	NOM	_	3	dep	_	_	24.379999	24.940001	A
+6	en	en	PRE	PRE	_	3	dep	_	_	24.950001	25.049999	A
+7	fait	fait	NOM	NOM	_	6	dep	_	_	25.059999	25.120001	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-7
+# text = vous devez suivre cette formation puisque c'est dans c'est dans votre licence
+1	vous	vous	CLS	CLS	_	2	subj	_	_	25.250000	25.420000	A
+2	devez	devoir	VRB	VRB	_	0	root	_	_	25.430000	25.690001	A
+3	suivre	suivre	VNF	VNF	_	2	dep	_	_	25.700001	25.940001	A
+4	cette	ce	DET	DET	_	5	spe	_	_	25.950001	26.030001	A
+5	formation	formation	NOM	NOM	_	3	dep	_	_	26.040001	26.370001	A
+6	puisque	puisque	CSU	CSU	_	2	periph	_	_	26.440001	26.600000	A
+7	c'	ce	CLS	CLS	_	8	subj	_	_	26.670000	26.719999	A
+8	est	être	VRB	VRB	_	6	dep	_	_	26.730000	26.750000	A
+9	dans	dans	PRE	PRE	_	8	dep	_	_	26.820000	27.020000	A
+10	c'	ce	CLS	CLS	_	11	subj	_	_	27.030001	27.049999	A
+11	est	être	VRB	VRB	_	6	dep	_	_	27.059999	27.080000	A
+12	dans	dans	PRE	PRE	_	11	dep	_	_	27.250000	27.299999	A
+13	votre	son	DET	DET	_	14	spe	_	_	27.309999	27.600000	A
+14	licence	licence	NOM	NOM	_	12	dep	_	_	27.610001	27.850000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-8
+# text = vous devez suivre cette formation
+1	vous	vous	CLS	CLS	_	2	subj	_	_	28.650000	28.709999	A
+2	devez	devoir	VRB	VRB	_	0	root	_	_	28.719999	29.070000	A
+3	suivre	suivre	VNF	VNF	_	2	dep	_	_	29.080000	29.240000	A
+4	cette	ce	DET	DET	_	5	spe	_	_	29.250000	29.469999	A
+5	formation	formation	NOM	NOM	_	3	dep	_	_	29.480000	30.170000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-9
+# text = et même si vous avez acquis cinquante pourcent soixante pourcent ou quatre-vingt-dix pourcent de cette formation c'est déjà bien utile par rapport à ce que vous avez à faire dans la suite de votre licence ici à Nancy
+1	et	et	COO	COO	_	18	mark	_	_	30.420000	30.900000	A
+2	même	même	ADV	ADV	_	3	dep	_	_	31.299999	31.540001	A
+3	si	si	CSU	CSU	_	18	periph	_	_	31.590000	31.770000	A
+4	vous	vous	CLS	CLS	_	6	subj	_	_	31.780001	31.930000	A
+5	avez	avoir	VRB	VRB	_	6	aux	_	_	31.940001	32.279999	A
+6	acquis	acquérir	VPP	VPP	_	3	dep	_	_	32.380001	32.459999	A
+7	cinquante	cinquante	NUM	NUM	_	8	spe	_	_	32.520000	32.869999	A
+8	pourcent	pourcent	NOM	NOM	_	6	dep	_	_	32.880001	33.040001	A
+9	soixante	soixante	NUM	NUM	_	10	spe	_	_	33.049999	33.270000	A
+10	pourcent	pourcent	NOM	NOM	_	8	para	_	_	33.279999	33.490002	A
+11	ou	ou	COO	COO	_	13	mark	_	_	33.669998	33.709999	A
+12	quatre-vingt-dix	quatre-vingt-dix	NUM	NUM	_	13	spe	_	_	33.959999	34.790001	A
+13	pourcent	pourcent	NOM	NOM	_	10	para	_	_	34.799999	34.950001	A
+14	de	de	PRE	PRE	_	13	dep	_	_	35.009998	35.029999	A
+15	cette	ce	DET	DET	_	16	spe	_	_	35.040001	35.119999	A
+16	formation	formation	NOM	NOM	_	14	dep	_	_	35.130001	35.520000	A
+17	c'	ce	CLS	CLS	_	18	subj	_	_	35.889999	35.959999	A
+18	est	être	VRB	VRB	_	0	root	_	_	35.970001	36.080002	A
+19	déjà	déjà	ADV	ADV	_	18	dep	_	_	36.090000	36.369999	A
+20	bien	bien	ADV	ADV	_	21	dep	_	_	36.520000	36.610001	A
+21	utile	utile	ADJ	ADJ	_	18	dep	_	_	36.619999	36.970001	A
+22	par	par	PRE	PRE	_	21	dep	_	_	36.980000	37.220001	A
+23	rapport	rapport	NOM	NOM	_	22	dep	_	_	37.230000	37.520000	A
+24	à	à	PRE	PRE	_	23	dep	_	_	37.529999	37.610001	A
+25	ce	ce	PRO	PRO	_	24	dep	_	_	37.619999	37.639999	A
+26	que	que	PRQ	PRQ	_	28	dep	_	_	37.650002	37.669998	A
+27	vous	vous	CLS	CLS	_	28	subj	_	_	37.680000	37.779999	A
+28	avez	avoir	VRB	VRB	_	25	dep	_	_	37.790001	38.250000	A
+29	à	à	PRE	PRE	_	28	dep	_	_	38.259998	38.279999	A
+30	faire	faire	VNF	VNF	_	29	dep	_	_	38.290001	38.709999	A
+31	dans	dans	PRE	PRE	_	30	dep	_	_	38.849998	38.919998	A
+32	la	le	DET	DET	_	33	spe	_	_	38.930000	39.020000	A
+33	suite	suite	NOM	NOM	_	31	dep	_	_	39.310001	39.419998	A
+34	de	de	PRE	PRE	_	33	dep	_	_	39.590000	39.680000	A
+35	votre	son	DET	DET	_	36	spe	_	_	39.689999	39.810001	A
+36	licence	licence	NOM	NOM	_	34	dep	_	_	39.820000	40.580002	A
+37	ici	ici	ADV	ADV	_	30	dep	_	_	41.490002	41.799999	A
+38	à	à	PRE	PRE	_	30	dep	_	_	41.810001	41.849998	A
+39	Nancy	Nancy	NOM	NOM	_	38	dep	_	_	41.860001	42.009998	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-10
+# text = deux on vous propose un ensemble un environnement informatique
+1	deux	deux	NUM	NUM	_	4	periph	_	_	42.180000	42.509998	A
+2	on	on	CLS	CLS	_	4	subj	_	_	42.520000	43.070000	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	43.080002	43.130001	A
+4	propose	proposer	VRB	VRB	_	0	root	_	_	43.139999	43.369999	A
+5	un	un	DET	DET	_	6	spe	_	_	43.450001	43.650002	A
+6	ensemble	ensemble	NOM	NOM	_	4	dep	_	_	43.820000	43.980000	A
+7	un	un	DET	DET	_	8	spe	_	_	44.480000	44.540001	A
+8	environnement	environnement	NOM	NOM	_	4	dep	_	_	44.619999	45.080002	A
+9	informatique	informatique	ADJ	ADJ	_	8	dep	_	_	45.090000	45.570000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-11
+# text = que ce soit d'un point de vue salle informatique logiciel ou service en ligne tout ceci
+1	que	que	CSU	CSU	_	0	root	_	_	45.700001	45.759998	A
+2	ce	ce	CLS	CLS	_	3	subj	_	_	45.770000	45.830002	A
+3	soit	être	VRB	VRB	_	1	dep	_	_	45.919998	46.090000	A
+4	d'	de	PRE	PRE	_	3	dep	_	_	46.099998	46.130001	A
+5	un	un	DET	DET	_	6	spe	_	_	46.139999	46.279999	A
+6	point	point	NOM	NOM	_	4	dep	_	_	46.290001	46.369999	A
+7	de	de	PRE	PRE	_	6	dep	_	_	46.380001	46.400002	A
+8	vue	vue	NOM	NOM	_	7	dep	_	_	46.410000	46.560001	A
+9	salle	salle	NOM	NOM	_	8	dep	_	_	46.570000	46.810001	A
+10	informatique	informatique	ADJ	ADJ	_	9	dep	_	_	47.099998	47.369999	A
+11	logiciel	logiciel	NOM	NOM	_	9	para	_	_	47.840000	48.889999	A
+12	ou	ou	COO	COO	_	13	mark	_	_	48.939999	48.990002	A
+13	service	service	NOM	NOM	_	11	para	_	_	49.049999	49.330002	A
+14	en	en	PRE	PRE	_	13	dep	_	_	49.490002	49.549999	A
+15	ligne	ligne	NOM	NOM	_	14	dep	_	_	49.599998	49.930000	A
+16	tout	tout	ADJ	ADJ	_	17	dep	_	_	50.520000	50.599998	A
+17	ceci	ceci	PRO	PRO	_	13	para	_	_	50.669998	50.779999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-12
+# text = vous est proposé
+1	vous	vous	CLS	CLS	_	3	subj	_	_	50.790001	51.610001	A
+2	est	être	VRB	VRB	_	3	aux	_	_	51.619999	51.889999	A
+3	proposé	proposer	VPP	VPP	_	0	root	_	_	51.900002	52.240002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-13
+# text = et tout ceci s'apprend
+1	et	et	COO	COO	_	2	mark	_	_	52.279999	52.299999	A
+2	tout	tout	ADV	ADV	_	0	root	_	_	52.369999	52.430000	A
+3	ceci	ceci	PRO	PRO	_	5	subj	_	_	52.439999	52.540001	A
+4	s'	se	CLI	CLI	_	5	dep	_	_	52.549999	52.660000	A
+5	apprend	apprendre	VRB	VRB	_	2	dep	_	_	52.669998	52.959999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-14
+# text = et ça c'est c'est pris en charge par la formation de préparation au C 2 I
+1	et	et	COO	COO	_	4	mark	_	_	53.730000	53.759998	A
+2	ça	ça	PRO	PRO	_	4	periph	_	_	53.770000	54.400002	A
+3	c'	ce	CLS	CLS	_	4	subj	_	_	54.669998	54.720001	A
+4	est	être	VRB	VRB	_	0	root	_	_	54.730000	55.250000	A
+5	c'	ce	CLS	CLS	_	7	subj	_	_	55.459999	55.610001	A
+6	est	être	VRB	VRB	_	7	aux	_	_	55.619999	55.919998	A
+7	pris	-	VPP	VPP	_	4	para	_	_	55.930000	56.099998	A
+8	en charge	en charge	ADJ	ADJ	_	7	dep	_	_	56.110001	56.639999	A
+9	par	par	PRE	PRE	_	7	dep	_	_	56.650002	56.799999	A
+10	la	le	DET	DET	_	11	spe	_	_	56.810001	56.980000	A
+11	formation	formation	NOM	NOM	_	9	dep	_	_	56.990002	57.380001	A
+12	de	de	PRE	PRE	_	11	dep	_	_	57.459999	57.480000	A
+13	préparation	préparation	NOM	NOM	_	12	dep	_	_	57.490002	57.950001	A
+14	au	à+le	PRE	PRE	_	11	dep	_	_	58.040001	58.060001	A
+15	C	C	NOM	NOM	_	14	dep	_	_	58.150002	58.200001	A
+16	2	2	PRE	PRE	_	15	dep	_	_	58.290001	58.570000	A
+17	I	I	NOM	NOM	_	16	dep	_	_	58.580002	58.619999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-15
+# text = donc même si vous n'avez pas le projet de passer le C 2 I il est utile de suivre cette formation correctement à cette formation qui s'appelle préparation au C 2 I
+1	donc	donc	ADV	ADV	_	17	periph	_	_	58.939999	59.430000	A
+2	même	même	ADV	ADV	_	3	dep	_	_	60.040001	60.259998	A
+3	si	si	CSU	CSU	_	17	periph	_	_	60.270000	60.529999	A
+4	vous	vous	CLS	CLS	_	6	subj	_	_	60.540001	60.619999	A
+5	n'	ne	CLN	CLN	_	6	dep	_	_	60.630001	60.650002	A
+6	avez	avoir	VRB	VRB	_	3	dep	_	_	60.660000	60.860001	A
+7	pas	pas	ADN	ADN	_	6	dep	_	_	60.869999	60.939999	A
+8	le	le	DET	DET	_	9	spe	_	_	60.950001	61.230000	A
+9	projet	projet	NOM	NOM	_	6	dep	_	_	61.240002	61.759998	A
+10	de	de	PRE	PRE	_	9	dep	_	_	61.770000	61.840000	A
+11	passer	passer	VNF	VNF	_	10	dep	_	_	61.849998	61.959999	A
+12	le	le	DET	DET	_	13	spe	_	_	61.970001	61.990002	A
+13	C	C	NOM	NOM	_	11	dep	_	_	62.080002	62.240002	A
+14	2	2	PRE	PRE	_	13	dep	_	_	62.250000	62.540001	A
+15	I	I	NOM	NOM	_	14	dep	_	_	62.549999	62.580002	A
+16	il	il	CLS	CLS	_	17	subj	_	_	62.810001	62.910000	A
+17	est	être	VRB	VRB	_	0	root	_	_	62.970001	63.009998	A
+18	utile	utile	ADJ	ADJ	_	17	dep	_	_	63.139999	63.549999	A
+19	de	de	PRE	PRE	_	18	dep	_	_	64.070000	64.250000	A
+20	suivre	suivre	VNF	VNF	_	19	dep	_	_	64.419998	64.610001	A
+21	cette	ce	DET	DET	_	22	spe	_	_	64.620003	64.699997	A
+22	formation	formation	NOM	NOM	_	20	dep	_	_	64.709999	64.980003	A
+23	correctement	correctement	ADV	ADV	_	20	dep	_	_	65.779999	66.459999	A
+24	à	à	PRE	PRE	_	20	dep	_	_	66.889999	66.910004	A
+25	cette	ce	DET	DET	_	26	spe	_	_	66.919998	67.070000	A
+26	formation	formation	NOM	NOM	_	24	dep	_	_	67.080002	67.519997	A
+27	qui	qui	PRQ	PRQ	_	29	subj	_	_	67.529999	67.580002	A
+28	s'	se	CLI	CLI	_	29	dep	_	_	67.589996	67.669998	A
+29	appelle	appeler	VRB	VRB	_	26	dep	_	_	67.680000	67.919998	A
+30	préparation	préparation	NOM	NOM	_	29	dep	_	_	67.930000	68.620003	A
+31	au	à+le	PRE	PRE	_	29	dep	_	_	68.629997	68.660004	A
+32	C	C	NOM	NOM	_	31	dep	_	_	68.709999	68.809998	A
+33	2	2	PRE	PRE	_	32	dep	_	_	68.820000	69.150002	A
+34	I	I	NOM	NOM	_	33	dep	_	_	69.220001	69.239998	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-16
+# text = alors pour résumer il n'y a pas d'obligation de passer le C 2 I
+1	alors	alors	ADV	ADV	_	7	periph	_	_	69.900002	70.400002	A
+2	pour	pour	PRE	PRE	_	7	periph	_	_	70.410004	70.519997	A
+3	résumer	résumer	VNF	VNF	_	2	dep	_	_	70.529999	71.120003	A
+4	il	il	CLS	CLS	_	7	subj	_	_	71.129997	71.209999	A
+5	n'	ne	CLN	CLN	_	7	dep	_	_	71.220001	71.250000	A
+6	y	y	CLI	CLI	_	7	dep	_	_	71.260002	71.290001	A
+7	a	avoir	VRB	VRB	_	0	root	_	_	71.300003	71.330002	A
+8	pas	pas	ADN	ADN	_	7	dep	_	_	71.339996	71.400002	A
+9	d'	de	PRE	PRE	_	7	dep	_	_	71.410004	71.430000	A
+10	obligation	obligation	NOM	NOM	_	9	dep	_	_	71.440002	71.769997	A
+11	de	de	PRE	PRE	_	10	dep	_	_	71.779999	71.809998	A
+12	passer	passer	VNF	VNF	_	11	dep	_	_	71.959999	72.120003	A
+13	le	le	DET	DET	_	14	spe	_	_	72.129997	72.169998	A
+14	C	C	NOM	NOM	_	12	dep	_	_	72.180000	72.419998	A
+15	2	2	PRE	PRE	_	14	dep	_	_	72.430000	72.620003	A
+16	I	I	NOM	NOM	_	15	dep	_	_	72.629997	72.650002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-17
+# text = mais si dans le cadre de cette formation vous avez des bonnes notes des très bonnes notes
+1	mais	mais	COO	COO	_	10	mark	_	_	73.089996	73.209999	A
+2	si	si	CSU	CSU	_	10	periph	_	_	73.290001	73.589996	A
+3	dans	dans	PRE	PRE	_	10	periph	_	_	73.720001	73.800003	A
+4	le	le	DET	DET	_	5	spe	_	_	73.809998	73.970001	A
+5	cadre	cadre	NOM	NOM	_	3	dep	_	_	73.980003	74.260002	A
+6	de	de	PRE	PRE	_	5	dep	_	_	74.269997	74.290001	A
+7	cette	ce	DET	DET	_	8	spe	_	_	74.339996	74.430000	A
+8	formation	formation	NOM	NOM	_	6	dep	_	_	74.540001	74.860001	A
+9	vous	vous	CLS	CLS	_	10	subj	_	_	75.029999	75.099998	A
+10	avez	avoir	VRB	VRB	_	0	root	_	_	75.110001	75.260002	A
+11	des	de	PRE	PRE	_	10	dep	_	_	75.269997	75.320000	A
+12	bonnes	bon	ADJ	ADJ	_	13	dep	_	_	75.330002	75.470001	A
+13	notes	note	NOM	NOM	_	11	dep	_	_	75.480003	75.559998	A
+14	des	de	PRE	PRE	_	13	dep	_	_	75.570000	75.620003	A
+15	très	très	ADV	ADV	_	16	dep	_	_	75.629997	75.709999	A
+16	bonnes	bon	ADJ	ADJ	_	17	dep	_	_	75.720001	75.860001	A
+17	notes	note	NOM	NOM	_	14	dep	_	_	75.870003	75.949997	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-18
+# text = on va pas vous donner le C 2 I pour autant
+1	on	on	CLS	CLS	_	2	subj	_	_	77.150002	77.339996	A
+2	va	aller	VRB	VRB	_	0	root	_	_	77.349998	77.440002	A
+3	pas	pas	ADN	ADN	_	2	dep	_	_	77.449997	77.519997	A
+4	vous	vous	CLI	CLI	_	5	dep	_	_	77.529999	77.599998	A
+5	donner	donner	VNF	VNF	_	2	dep	_	_	77.610001	77.720001	A
+6	le	le	DET	DET	_	7	spe	_	_	77.730003	77.750000	A
+7	C	C	NOM	NOM	_	5	dep	_	_	77.760002	77.820000	A
+8	2	2	PRE	PRE	_	7	dep	_	_	77.830002	78.239998	A
+9	I	I	NOM	NOM	_	8	dep	_	_	78.250000	78.430000	A
+10	pour	pour	PRE	PRE	_	5	dep	_	_	78.440002	78.550003	A
+11	autant	autant	ADV	ADV	_	10	dep	_	_	78.559998	78.680000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-19
+# text = donc c'est dans les deux sens
+1	donc	donc	ADV	ADV	_	3	periph	_	_	78.760002	78.879997	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	79.059998	79.080002	A
+3	est	être	VRB	VRB	_	0	root	_	_	79.089996	79.160004	A
+4	dans	dans	PRE	PRE	_	3	dep	_	_	79.199997	79.320000	A
+5	les	le	DET	DET	_	7	spe	_	_	79.330002	79.379997	A
+6	deux	deux	NUM	NUM	_	7	dep	_	_	79.389999	79.610001	A
+7	sens	sens	NOM	NOM	_	4	dep	_	_	79.839996	79.889999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-20
+# text = c'est réciproque pour avoir le C 2 I
+1	c'	ce	CLS	CLS	_	3	subj	_	_	79.900002	79.940002	A
+2	est	être	VRB	VRB	_	3	aux	_	_	79.949997	79.980003	A
+3	réciproque	réciproque	VPP	VPP	_	0	root	_	_	80.050003	80.610001	A
+4	pour	pour	PRE	PRE	_	3	dep	_	_	80.949997	81.059998	A
+5	avoir	avoir	VNF	VNF	_	4	dep	_	_	81.070000	81.360001	A
+6	le	le	DET	DET	_	7	spe	_	_	81.370003	81.540001	A
+7	C	C	NOM	NOM	_	5	dep	_	_	81.550003	81.599998	A
+8	2	2	PRE	PRE	_	7	dep	_	_	81.680000	81.820000	A
+9	I	I	NOM	NOM	_	8	dep	_	_	81.830002	82.129997	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-21
+# text = il n'y a qu'un seul moyen
+1	il	il	CLS	CLS	_	4	subj	_	_	82.139999	82.180000	A
+2	n'	ne	CLN	CLN	_	4	dep	_	_	82.220001	82.250000	A
+3	y	y	CLI	CLI	_	4	dep	_	_	82.260002	82.400002	A
+4	a	avoir	VRB	VRB	_	0	root	_	_	82.410004	82.430000	A
+5	qu'	qu'	ADN	ADN	_	4	dep	_	_	82.440002	82.459999	A
+6	un	un	DET	DET	_	8	spe	_	_	82.470001	82.489998	A
+7	seul	seul	ADJ	ADJ	_	8	dep	_	_	82.500000	82.629997	A
+8	moyen	moyen	NOM	NOM	_	4	dep	_	_	82.879997	83.129997	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-22
+# text = c'est de se présenter aux épreuves de C 2 I qui vont se dérouler au mois de mai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	83.510002	83.589996	A
+2	est	être	VRB	VRB	_	0	root	_	_	83.599998	83.730003	A
+3	de	de	PRE	PRE	_	2	dep	_	_	83.830002	83.879997	A
+4	se	se	CLI	CLI	_	5	dep	_	_	83.889999	83.919998	A
+5	présenter	présenter	VNF	VNF	_	3	dep	_	_	83.930000	84.389999	A
+6	aux	à+le	PRE	PRE	_	5	dep	_	_	84.459999	84.519997	A
+7	épreuves	épreuve	NOM	NOM	_	6	dep	_	_	84.610001	84.870003	A
+8	de	de	PRE	PRE	_	7	dep	_	_	84.970001	85.000000	A
+9	C	C	NOM	NOM	_	8	dep	_	_	85.010002	85.110001	A
+10	2	2	PRE	PRE	_	9	dep	_	_	85.120003	85.349998	A
+11	I	I	NOM	NOM	_	10	dep	_	_	85.360001	85.410004	A
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	85.419998	85.500000	A
+13	vont	aller	VRB	VRB	_	11	dep	_	_	85.510002	85.610001	A
+14	se	se	CLI	CLI	_	15	dep	_	_	85.620003	85.639999	A
+15	dérouler	dérouler	VNF	VNF	_	13	dep	_	_	85.779999	86.129997	A
+16	au	à+le	PRE	PRE	_	15	dep	_	_	86.139999	86.160004	A
+17	mois	moi	NOM	NOM	_	16	dep	_	_	86.169998	86.309998	A
+18	de	de	PRE	PRE	_	17	dep	_	_	86.320000	86.379997	A
+19	mai	mai	NOM	NOM	_	18	dep	_	_	86.389999	86.440002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-23
+# text = toutes les licences sont concernées la formation est répartie sur deux semestres don
+1	toutes	tout	ADJ	ADJ	_	3	dep	_	_	90.000000	90.080002	A
+2	les	le	DET	DET	_	3	spe	_	_	90.089996	90.360001	A
+3	licences	licence	NOM	NOM	_	5	subj	_	_	90.370003	90.919998	A
+4	sont	être	VRB	VRB	_	5	aux	_	_	90.930000	91.029999	A
+5	concernées	concerner	VPP	VPP	_	0	root	_	_	91.040001	91.440002	A
+6	la	le	DET	DET	_	7	spe	_	_	92.510002	92.650002	A
+7	formation	formation	NOM	NOM	_	9	subj	_	_	92.660004	93.290001	A
+8	est	être	VRB	VRB	_	9	aux	_	_	93.300003	93.320000	A
+9	répartie	répartir	VPP	VPP	_	5	para	_	_	93.330002	93.669998	A
+10	sur	sur	PRE	PRE	_	9	dep	_	_	93.680000	93.760002	A
+11	deux	deux	NUM	NUM	_	12	spe	_	_	93.769997	93.889999	A
+12	semestres	semestre	NOM	NOM	_	10	dep	_	_	93.900002	94.360001	A
+13	don	don	NOM	NOM	_	12	dep	_	_	94.900002	94.980003	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-24
+# text = donc à chaque semestre vous avez des vous avez des évaluations la formation fait quarante heures en tout
+1	donc	donc	ADV	ADV	_	6	periph	_	_	95.190002	95.669998	A
+2	à	à	PRE	PRE	_	6	periph	_	_	95.680000	95.720001	A
+3	chaque	chaque	DET	DET	_	4	spe	_	_	95.870003	95.980003	A
+4	semestre	semestre	NOM	NOM	_	2	dep	_	_	96.169998	96.370003	A
+5	vous	vous	CLS	CLS	_	6	subj	_	_	96.519997	96.610001	A
+6	avez	avoir	VRB	VRB	_	0	root	_	_	96.620003	96.830002	A
+7	des	de	PRE	PRE	_	6	dep	_	_	96.839996	97.139999	A
+8	vous	vous	CLS	CLS	_	9	subj	_	_	97.150002	97.309998	A
+9	avez	avoir	VRB	VRB	_	6	para	_	_	97.320000	97.830002	A
+10	des	de	PRE	PRE	_	9	dep	_	_	97.839996	98.040001	A
+11	évaluations	évaluation	NOM	NOM	_	10	dep	_	_	98.050003	98.599998	A
+12	la	le	DET	DET	_	13	spe	_	_	99.629997	99.800003	A
+13	formation	formation	NOM	NOM	_	9	dep	_	_	99.809998	100.239998	A
+14	fait	faire	VPP	VPP	_	13	dep	_	_	100.250000	100.410004	A
+15	quarante	quarante	NUM	NUM	_	16	spe	_	_	100.419998	100.809998	A
+16	heures	heure	NOM	NOM	_	14	dep	_	_	100.820000	100.870003	A
+17	en	en	PRE	PRE	_	16	dep	_	_	100.879997	100.919998	A
+18	tout	tout	PRO	PRO	_	17	dep	_	_	100.930000	100.980003	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-25
+# text = donc vous avez vingt heures au premier semestre et vingt heures au deuxième semestre
+1	donc	donc	ADV	ADV	_	3	periph	_	_	101.050003	101.160004	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	101.589996	101.660004	A
+3	avez	avoir	VRB	VRB	_	0	root	_	_	101.669998	101.949997	A
+4	vingt	vingt	NUM	NUM	_	5	spe	_	_	101.959999	102.099998	A
+5	heures	heure	NOM	NOM	_	3	dep	_	_	102.110001	102.290001	A
+6	au	à+le	PRE	PRE	_	5	dep	_	_	102.300003	102.320000	A
+7	premier	premier	ADJ	ADJ	_	8	dep	_	_	102.330002	102.699997	A
+8	semestre	semestre	NOM	NOM	_	6	dep	_	_	102.709999	103.239998	A
+9	et	et	COO	COO	_	11	mark	_	_	103.250000	103.330002	A
+10	vingt	vingt	NUM	NUM	_	11	spe	_	_	103.339996	103.529999	A
+11	heures	heure	NOM	NOM	_	8	para	_	_	103.540001	103.830002	A
+12	au	à+le	PRE	PRE	_	3	dep	_	_	104.000000	104.019997	A
+13	deuxième	deuxième	ADJ	ADJ	_	14	dep	_	_	104.070000	104.320000	A
+14	semestre	semestre	NOM	NOM	_	12	dep	_	_	104.330002	104.790001	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-26
+# text = les vingt heures se répartissent de la manière suivante
+1	les	le	DET	DET	_	3	spe	_	_	105.209999	105.290001	A
+2	vingt	vingt	NUM	NUM	_	3	dep	_	_	105.300003	105.449997	A
+3	heures	heure	NOM	NOM	_	5	subj	_	_	105.459999	105.820000	A
+4	se	se	CLI	CLI	_	5	dep	_	_	105.830002	105.849998	A
+5	répartissent	répartir	VRB	VRB	_	0	root	_	_	105.860001	106.379997	A
+6	de	de	PRE	PRE	_	5	dep	_	_	106.389999	106.410004	A
+7	la	le	DET	DET	_	8	spe	_	_	106.419998	106.470001	A
+8	manière	manière	NOM	NOM	_	6	dep	_	_	106.480003	106.650002	A
+9	suivante	suivant	ADJ	ADJ	_	8	dep	_	_	106.660004	106.830002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-27
+# text = vous avez dix-huit heures de T D par tranches de deux heures des séances de deux heures
+1	vous	vous	CLS	CLS	_	2	subj	_	_	107.529999	107.699997	A
+2	avez	avoir	VRB	VRB	_	0	root	_	_	107.709999	108.239998	A
+3	dix-huit	dix-huit	NUM	NUM	_	4	spe	_	_	108.250000	108.440002	A
+4	heures	heure	NOM	NOM	_	2	dep	_	_	108.449997	108.779999	A
+5	de	de	PRE	PRE	_	4	dep	_	_	108.790001	108.889999	A
+6	T	T	NOM	NOM	_	5	dep	_	_	108.900002	109.059998	A
+7	D	D	NOM	NOM	_	6	dep	_	_	109.070000	109.500000	A
+8	par	par	PRE	PRE	_	4	dep	_	_	109.660004	109.870003	A
+9	tranches	tranche	NOM	NOM	_	8	dep	_	_	109.879997	110.050003	A
+10	de	de	PRE	PRE	_	9	dep	_	_	110.190002	110.209999	A
+11	deux	deux	NUM	NUM	_	12	spe	_	_	110.279999	110.360001	A
+12	heures	heure	NOM	NOM	_	10	dep	_	_	110.449997	110.599998	A
+13	des	de	PRE	PRE	_	12	dep	_	_	110.699997	110.790001	A
+14	séances	séance	NOM	NOM	_	13	dep	_	_	110.800003	110.980003	A
+15	de	de	PRE	PRE	_	14	dep	_	_	111.320000	111.349998	A
+16	deux	deux	NUM	NUM	_	17	spe	_	_	111.419998	111.470001	A
+17	heures	heure	NOM	NOM	_	15	dep	_	_	111.480003	111.540001	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-28
+# text = et vous avez deux heures de cours magistraux
+1	et	et	COO	COO	_	3	mark	_	_	111.949997	112.150002	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	112.160004	112.250000	A
+3	avez	avoir	VRB	VRB	_	0	root	_	_	112.260002	112.750000	A
+4	deux	deux	NUM	NUM	_	5	spe	_	_	113.019997	113.180000	A
+5	heures	heure	NOM	NOM	_	3	dep	_	_	113.300003	113.580002	A
+6	de	de	PRE	PRE	_	5	dep	_	_	113.589996	113.610001	A
+7	cours	cour	NOM	NOM	_	6	dep	_	_	113.620003	113.870003	A
+8	magistraux	magistral	ADJ	ADJ	_	7	dep	_	_	113.959999	114.410004	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-29
+# text = alors ce cours magistral concerne euh la la thématique de droit et de déontologie qui va se passer en amphithéâtre
+1	alors	alors	ADV	ADV	_	5	periph	_	_	115.180000	115.370003	A
+2	ce	ce	DET	DET	_	3	spe	_	_	115.379997	115.400002	A
+3	cours	cour	NOM	NOM	_	5	subj	_	_	115.580002	115.720001	A
+4	magistral	magistral	ADJ	ADJ	_	3	dep	_	_	115.730003	116.400002	A
+5	concerne	concerner	VRB	VRB	_	0	root	_	_	116.739998	117.110001	A
+6	euh	euh	INT	INT	_	5	dm	_	_	117.580002	117.860001	A
+7	la	le	DET	DET	_	9	spe	_	_	117.949997	118.040001	A
+8	la	le	DET	DET	_	7	para	_	_	118.050003	118.230003	A
+9	thématique	thématique	NOM	NOM	_	5	dep	_	_	118.279999	118.860001	A
+10	de	de	PRE	PRE	_	9	dep	_	_	118.870003	118.919998	A
+11	droit	droit	NOM	NOM	_	10	dep	_	_	118.930000	119.059998	A
+12	et	et	COO	COO	_	13	mark	_	_	119.070000	119.089996	A
+13	de	de	PRE	PRE	_	10	para	_	_	119.099998	119.150002	A
+14	déontologie	déontologie	NOM	NOM	_	13	dep	_	_	119.160004	119.879997	A
+15	qui	qui	PRQ	PRQ	_	16	subj	_	_	119.889999	119.970001	A
+16	va	aller	VRB	VRB	_	14	dep	_	_	119.980003	120.070000	A
+17	se	se	CLI	CLI	_	18	dep	_	_	120.080002	120.199997	A
+18	passer	passer	VNF	VNF	_	16	dep	_	_	120.209999	120.529999	A
+19	en	en	PRE	PRE	_	18	dep	_	_	120.870003	121.099998	A
+20	amphithéâtre	amphithéâtre	NOM	NOM	_	19	dep	_	_	121.110001	121.529999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-30
+# text = ça va être un samedi matin du mois de novembre
+1	ça	ça	PRO	PRO	_	2	subj	_	_	122.089996	122.279999	A
+2	va	aller	VRB	VRB	_	0	root	_	_	122.290001	122.360001	A
+3	être	être	VNF	VNF	_	2	dep	_	_	122.370003	122.839996	A
+4	un	un	DET	DET	_	5	spe	_	_	122.889999	122.910004	A
+5	samedi	samedi	NOM	NOM	_	3	dep	_	_	122.919998	123.230003	A
+6	matin	matin	NOM	NOM	_	5	dep	_	_	123.239998	123.449997	A
+7	du	de+le	PRE	PRE	_	5	dep	_	_	124.120003	124.279999	A
+8	mois	moi	NOM	NOM	_	7	dep	_	_	124.290001	124.709999	A
+9	de	de	PRE	PRE	_	8	dep	_	_	124.720001	124.849998	A
+10	novembre	novembre	NOM	NOM	_	9	dep	_	_	124.889999	125.570000	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-31
+# text = alors ces deux heures hebdo-~ hebdomadaires se passent de la manière suivante
+1	alors	alors	ADV	ADV	_	8	periph	_	_	126.660004	127.290001	A
+2	ces	ce	DET	DET	_	4	spe	_	_	127.550003	127.980003	A
+3	deux	deux	NUM	NUM	_	4	dep	_	_	127.989998	128.070007	A
+4	heures	heure	NOM	NOM	_	8	subj	_	_	128.080002	128.440002	A
+5	hebdo-~	hebdo-~	ADJ	ADJ	_	4	dep	_	_	128.449997	128.559998	A
+6	hebdomadaires	hebdomadaire	NOM	NOM	_	4	para	_	_	128.570007	129.100006	A
+7	se	se	CLI	CLI	_	8	dep	_	_	129.169998	129.190002	A
+8	passent	passer	VRB	VRB	_	0	root	_	_	129.289993	129.440002	A
+9	de	de	PRE	PRE	_	8	dep	_	_	129.449997	129.470001	A
+10	la	le	DET	DET	_	11	spe	_	_	129.479996	129.539993	A
+11	manière	manière	NOM	NOM	_	9	dep	_	_	129.550003	129.729996	A
+12	suivante	suivant	ADJ	ADJ	_	11	dep	_	_	129.740005	129.910004	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-32
+# text = vous vous devez choisir l'horaire en fonction de votre emploi du temps bien entendu
+1	vous	vous	CLS	CLS	_	3	subj	_	_	130.880005	130.990005	A
+2	vous	vous	CLI	CLI	_	3	dep	_	_	131.070007	131.309998	A
+3	devez	devoir	VRB	VRB	_	0	root	_	_	131.320007	131.580002	A
+4	choisir	choisir	VNF	VNF	_	3	dep	_	_	131.589996	132.179993	A
+5	l'	le	DET	DET	_	6	spe	_	_	132.639999	132.720001	A
+6	horaire	horaire	NOM	NOM	_	4	dep	_	_	132.729996	133.000000	A
+7	en	en	PRE	PRE	_	4	dep	_	_	133.009995	133.029999	A
+8	fonction	fonction	NOM	NOM	_	7	dep	_	_	133.660004	133.860001	A
+9	de	de	PRE	PRE	_	8	dep	_	_	133.899994	133.919998	A
+10	votre	son	DET	DET	_	11	spe	_	_	133.990005	134.199997	A
+11	emploi	emploi	NOM	NOM	_	9	dep	_	_	134.210007	134.419998	A
+12	du	de+le	PRE	PRE	_	11	dep	_	_	134.429993	134.500000	A
+13	temps	temps	NOM	NOM	_	12	dep	_	_	134.509995	134.720001	A
+14	bien	bien	ADV	ADV	_	15	dep	_	_	134.729996	134.809998	A
+15	entendu	entendre	VPP	VPP	_	12	dep	_	_	134.820007	134.960007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-33
+# text = donc en passant par les I P web c'est le moyen de s'inscrire pédagogiquement
+1	donc	donc	ADV	ADV	_	10	periph	_	_	135.429993	135.740005	A
+2	en	en	PRE	PRE	_	10	periph	_	_	136.350006	136.500000	A
+3	passant	passer	VPR	VPR	_	2	dep	_	_	136.509995	136.729996	A
+4	par	par	PRE	PRE	_	3	dep	_	_	136.860001	137.020004	A
+5	les	le	DET	DET	_	6	spe	_	_	137.029999	137.160004	A
+6	I	I	NOM	NOM	_	4	dep	_	_	137.250000	137.279999	A
+7	P	P	PRE	PRE	_	6	dep	_	_	137.289993	137.679993	A
+8	web	web	NOM	NOM	_	7	dep	_	_	137.740005	137.860001	A
+9	c'	ce	CLS	CLS	_	10	subj	_	_	138.130005	138.250000	A
+10	est	être	VRB	VRB	_	0	root	_	_	138.259995	138.449997	A
+11	le	le	DET	DET	_	12	spe	_	_	138.460007	138.589996	A
+12	moyen	moyen	NOM	NOM	_	10	dep	_	_	138.600006	139.080002	A
+13	de	de	PRE	PRE	_	12	dep	_	_	139.389999	139.410004	A
+14	s'	se	CLI	CLI	_	15	dep	_	_	139.419998	139.509995	A
+15	inscrire	inscrire	VNF	VNF	_	13	dep	_	_	139.710007	139.919998	A
+16	pédagogiquement	pédagogiquement	ADV	ADV	_	15	dep	_	_	139.990005	140.600006	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-34
+# text = donc c'est là où vous allez faire votre choix de vos unités libres de vos créneaux de T D donc tout ça se fait par euh internet
+1	donc	donc	ADV	ADV	_	3	periph	_	_	140.610001	140.850006	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	140.940002	141.039993	A
+3	est	être	VRB	VRB	_	0	root	_	_	141.050003	141.080002	A
+4	là	là	ADV	ADV	_	3	dep	_	_	141.130005	141.229996	A
+5	où	où	PRQ	PRQ	_	7	dep	_	_	141.240005	141.330002	A
+6	vous	vous	CLS	CLS	_	7	subj	_	_	141.339996	141.570007	A
+7	allez	aller	VRB	VRB	_	3	dep	_	_	141.580002	141.699997	A
+8	faire	faire	VNF	VNF	_	7	dep	_	_	141.710007	142.000000	A
+9	votre	son	DET	DET	_	10	spe	_	_	142.139999	142.250000	A
+10	choix	choix	NOM	NOM	_	8	dep	_	_	142.259995	142.789993	A
+11	de	de	PRE	PRE	_	10	dep	_	_	143.330002	143.350006	A
+12	vos	son	DET	DET	_	13	spe	_	_	143.360001	143.460007	A
+13	unités	unité	NOM	NOM	_	11	dep	_	_	143.470001	144.199997	A
+14	libres	libre	ADJ	ADJ	_	13	dep	_	_	144.210007	144.820007	A
+15	de	de	PRE	PRE	_	13	dep	_	_	145.039993	145.220001	A
+16	vos	son	DET	DET	_	17	spe	_	_	145.229996	145.369995	A
+17	créneaux	créneau	NOM	NOM	_	15	dep	_	_	145.449997	145.880005	A
+18	de	de	PRE	PRE	_	17	dep	_	_	145.940002	145.979996	A
+19	T	T	NOM	NOM	_	18	dep	_	_	146.300003	146.320007	A
+20	D	D	NOM	NOM	_	19	dep	_	_	146.429993	146.949997	A
+21	donc	donc	ADV	ADV	_	25	periph	_	_	147.449997	147.529999	A
+22	tout	tout	ADJ	ADJ	_	23	dep	_	_	147.570007	147.619995	A
+23	ça	ça	PRO	PRO	_	25	subj	_	_	147.630005	147.809998	A
+24	se	se	CLI	CLI	_	25	dep	_	_	147.820007	147.889999	A
+25	fait	faire	VRB	VRB	_	17	dep	_	_	148.059998	148.330002	A
+26	par	par	PRE	PRE	_	25	dep	_	_	148.339996	148.630005	A
+27	euh	euh	INT	INT	_	26	dm	_	_	149.369995	149.520004	A
+28	internet	internet	NOM	NOM	_	26	dep	_	_	149.940002	150.559998	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-35
+# text = vous passez sur un site web où vous avez le choix de euh de tous ces éléments-là
+1	vous	vous	CLS	CLS	_	2	subj	_	_	150.750000	150.869995	A
+2	passez	passer	VRB	VRB	_	0	root	_	_	150.880005	151.369995	A
+3	sur	sur	PRE	PRE	_	2	dep	_	_	151.380005	151.460007	A
+4	un	un	DET	DET	_	5	spe	_	_	151.470001	151.490005	A
+5	site web	site internet	NOM	NOM	_	3	dep	_	_	151.539993	152.169998	A
+6	où	où	PRQ	PRQ	_	8	dep	_	_	152.570007	152.660004	A
+7	vous	vous	CLS	CLS	_	8	subj	_	_	152.669998	152.899994	A
+8	avez	avoir	VRB	VRB	_	5	dep	_	_	152.910004	153.360001	A
+9	le	le	DET	DET	_	10	spe	_	_	153.440002	153.460007	A
+10	choix	choix	NOM	NOM	_	8	dep	_	_	153.470001	153.889999	A
+11	de	de	PRE	PRE	_	10	dep	_	_	154.050003	154.089996	A
+12	euh	euh	INT	INT	_	11	dm	_	_	154.100006	154.729996	A
+13	de	de	PRE	PRE	_	11	para	_	_	154.990005	155.350006	A
+14	tous	tout	ADJ	ADJ	_	16	dep	_	_	155.649994	155.710007	A
+15	ces	ce	DET	DET	_	16	spe	_	_	155.770004	155.960007	A
+16	éléments-là	éléments-là	NOM	NOM	_	13	dep	_	_	155.970001	156.460007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-36
+# text = donc pour le C 2 I on vous propose une soixantaine de groupe parce que il existe le groupe du lundi matin à huit heures
+1	donc	donc	ADV	ADV	_	9	periph	_	_	157.000000	157.139999	A
+2	pour	pour	PRE	PRE	_	9	periph	_	_	157.389999	157.800003	A
+3	le	le	DET	DET	_	4	spe	_	_	157.809998	157.869995	A
+4	C	C	NOM	NOM	_	2	dep	_	_	157.880005	158.080002	A
+5	2	2	PRE	PRE	_	4	dep	_	_	158.089996	158.399994	A
+6	I	I	NOM	NOM	_	5	dep	_	_	158.410004	158.600006	A
+7	on	on	CLS	CLS	_	9	subj	_	_	158.800003	159.029999	A
+8	vous	vous	CLI	CLI	_	9	dep	_	_	159.039993	159.229996	A
+9	propose	proposer	VRB	VRB	_	0	root	_	_	159.240005	159.550003	A
+10	une	un	DET	DET	_	11	spe	_	_	159.559998	159.610001	A
+11	soixantaine	soixantaine	NOM	NOM	_	9	dep	_	_	159.679993	160.149994	A
+12	de	de	PRE	PRE	_	11	dep	_	_	160.199997	160.220001	A
+13	groupe	groupe	NOM	NOM	_	12	dep	_	_	160.229996	160.369995	A
+14	parce que	parce que	CSU	CSU	_	9	dep	_	_	161.270004	161.630005	A
+15	il	il	CLS	CLS	_	16	subj	_	_	161.639999	161.710007	A
+16	existe	exister	VRB	VRB	_	14	dep	_	_	161.720001	162.119995	A
+17	le	le	DET	DET	_	18	spe	_	_	162.130005	162.199997	A
+18	groupe	groupe	NOM	NOM	_	16	dep	_	_	162.210007	162.710007	A
+19	du	de+le	PRE	PRE	_	18	dep	_	_	163.089996	163.210007	A
+20	lundi	lundi	NOM	NOM	_	19	dep	_	_	163.220001	164.080002	A
+21	matin	matin	NOM	NOM	_	16	dep	_	_	164.089996	164.199997	A
+22	à	à	PRE	PRE	_	16	dep	_	_	164.210007	164.229996	A
+23	huit	huit	NUM	NUM	_	24	spe	_	_	164.240005	164.320007	A
+24	heures	heure	NOM	NOM	_	22	dep	_	_	164.330002	164.440002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-37
+# text = et c'est tous les jours jusque vingt heures jusqu'au vendredi
+1	et	et	COO	COO	_	3	mark	_	_	164.500000	164.529999	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	164.539993	164.600006	A
+3	est	être	VRB	VRB	_	0	root	_	_	164.610001	164.630005	A
+4	tous	tout	ADJ	ADJ	_	6	dep	_	_	164.669998	164.720001	A
+5	les	le	DET	DET	_	6	spe	_	_	164.779999	165.039993	A
+6	jours	jour	NOM	NOM	_	3	dep	_	_	165.050003	165.229996	A
+7	jusque	jusque	PRE	PRE	_	6	dep	_	_	165.240005	165.350006	A
+8	vingt	vingt	NUM	NUM	_	9	spe	_	_	165.460007	165.550003	A
+9	heures	heure	NOM	NOM	_	7	dep	_	_	165.559998	165.639999	A
+10	jusqu'	jusque	PRE	PRE	_	3	dep	_	_	165.649994	165.770004	A
+11	au	à+le	PRE	PRE	_	10	dep	_	_	165.779999	165.800003	A
+12	vendredi	vendredi	NOM	NOM	_	11	dep	_	_	166.029999	166.389999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-38
+# text = donc vous avez des créneaux horaires par tranches de deux heures
+1	donc	donc	ADV	ADV	_	3	periph	_	_	166.820007	167.050003	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	167.059998	167.220001	A
+3	avez	avoir	VRB	VRB	_	0	root	_	_	167.229996	167.600006	A
+4	des	de	PRE	PRE	_	3	dep	_	_	167.639999	167.729996	A
+5	créneaux	créneau	NOM	NOM	_	4	dep	_	_	167.740005	167.979996	A
+6	horaires	horaire	ADJ	ADJ	_	5	dep	_	_	167.990005	168.360001	A
+7	par	par	PRE	PRE	_	3	dep	_	_	168.539993	168.710007	A
+8	tranches	tranche	NOM	NOM	_	7	dep	_	_	168.720001	168.960007	A
+9	de	de	PRE	PRE	_	8	dep	_	_	169.229996	169.270004	A
+10	deux	deux	NUM	NUM	_	11	spe	_	_	169.360001	169.429993	A
+11	heures	heure	NOM	NOM	_	9	dep	_	_	169.440002	169.570007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-39
+# text = et vous av-~ vous aurez vraiment beaucoup de choix en principe tout le monde trouve une heure peut-être pas idéalement placée
+1	et	et	COO	COO	_	3	mark	_	_	169.880005	169.960007	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	169.970001	170.169998	A
+3	av-~	av-~	VRB	VRB	_	13	dm	_	_	170.179993	170.369995	A
+4	vous	vous	CLS	CLS	_	5	subj	_	_	170.380005	170.589996	A
+5	aurez	avoir	VRB	VRB	_	3	para	_	_	170.600006	170.839996	A
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	170.850006	171.169998	A
+7	beaucoup	beaucoup	ADV	ADV	_	5	dep	_	_	171.179993	171.289993	A
+8	de	de	PRE	PRE	_	7	dep	_	_	171.399994	171.429993	A
+9	choix	choix	NOM	NOM	_	8	dep	_	_	171.440002	171.520004	A
+10	en	en	PRE	PRE	_	5	dep	_	_	172.919998	172.949997	A
+11	principe	principe	NOM	NOM	_	10	dep	_	_	173.009995	173.559998	A
+12	tout le monde	tout le monde	PRO	PRO	_	13	subj	_	_	173.699997	174.139999	A
+13	trouve	trouver	VRB	VRB	_	0	root	_	_	174.149994	174.720001	A
+14	une	un	DET	DET	_	15	spe	_	_	175.070007	175.289993	A
+15	heure	heure	NOM	NOM	_	13	dep	_	_	175.300003	175.649994	A
+16	peut-être	peut-être	ADV	ADV	_	19	dep	_	_	175.660004	175.830002	A
+17	pas	pas	ADN	ADN	_	19	dep	_	_	175.839996	176.250000	A
+18	idéalement	idéalement	ADV	ADV	_	19	dep	_	_	176.479996	176.990005	A
+19	placée	placer	VPP	VPP	_	15	dep	_	_	177.000000	177.229996	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-40
+# text = mais vous arrivez toujours à vous débrouiller puisque les cours ont lieu jusqu'à vingt heures
+1	mais	mais	COO	COO	_	3	mark	_	_	177.350006	177.649994	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	177.660004	177.710007	A
+3	arrivez	arriver	VRB	VRB	_	0	root	_	_	177.720001	178.100006	A
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	178.110001	178.250000	A
+5	à	à	PRE	PRE	_	3	dep	_	_	178.259995	178.279999	A
+6	vous	vous	CLI	CLI	_	7	dep	_	_	178.289993	178.429993	A
+7	débrouiller	débrouiller	VNF	VNF	_	5	dep	_	_	178.440002	179.110001	A
+8	puisque	puisque	CSU	CSU	_	3	periph	_	_	179.229996	179.539993	A
+9	les	le	DET	DET	_	10	spe	_	_	179.550003	179.610001	A
+10	cours	cour	NOM	NOM	_	11	subj	_	_	179.690002	179.960007	A
+11	ont	avoir	VRB	VRB	_	8	dep	_	_	179.970001	180.000000	A
+12	lieu	lieu	NOM	NOM	_	11	dep	_	_	180.070007	180.220001	A
+13	jusqu'	jusque	PRE	PRE	_	11	dep	_	_	180.229996	180.449997	A
+14	à	à	PRE	PRE	_	13	dep	_	_	180.630005	180.759995	A
+15	vingt	vingt	NUM	NUM	_	16	spe	_	_	180.770004	180.910004	A
+16	heures	heure	NOM	NOM	_	14	dep	_	_	180.919998	180.979996	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-41
+# text = alors de manière intéressée il faudrait que je vous signale que les cours qui ont lieu à dix heures ou à quatorze heures sont pris d'assaut
+1	alors	alors	ADV	ADV	_	6	periph	_	_	181.630005	182.190002	A
+2	de	de	PRE	PRE	_	6	periph	_	_	182.199997	182.220001	A
+3	manière	manière	NOM	NOM	_	2	dep	_	_	182.229996	182.630005	A
+4	intéressée	intéresser	ADJ	ADJ	_	3	dep	_	_	182.949997	183.699997	A
+5	il	il	CLS	CLS	_	6	subj	_	_	183.779999	183.830002	A
+6	faudrait	falloir	VRB	VRB	_	0	root	_	_	183.839996	184.110001	A
+7	que	que	CSU	CSU	_	6	dep	_	_	184.119995	184.210007	A
+8	je	je	CLS	CLS	_	10	subj	_	_	184.220001	184.279999	A
+9	vous	vous	CLI	CLI	_	10	dep	_	_	184.289993	184.639999	A
+10	signale	signaler	VRB	VRB	_	7	dep	_	_	184.649994	184.809998	A
+11	que	que	CSU	CSU	_	10	dep	_	_	185.240005	185.389999	A
+12	les	le	DET	DET	_	13	spe	_	_	185.399994	185.619995	A
+13	cours	cour	NOM	NOM	_	11	dep	_	_	185.630005	185.899994	A
+14	qui	qui	PRQ	PRQ	_	15	subj	_	_	186.179993	186.320007	A
+15	ont	avoir	VRB	VRB	_	11	dep	_	_	186.330002	186.449997	A
+16	lieu	lieu	NOM	NOM	_	15	dep	_	_	186.559998	186.820007	A
+17	à	à	PRE	PRE	_	15	dep	_	_	186.919998	186.970001	A
+18	dix	dix	NUM	NUM	_	19	spe	_	_	186.979996	187.320007	A
+19	heures	heure	NOM	NOM	_	17	dep	_	_	187.330002	187.770004	A
+20	ou	ou	COO	COO	_	21	mark	_	_	187.779999	187.809998	A
+21	à	à	PRE	PRE	_	17	para	_	_	187.820007	187.919998	A
+22	quatorze	quatorze	NUM	NUM	_	23	spe	_	_	187.929993	188.330002	A
+23	heures	heure	NOM	NOM	_	21	dep	_	_	188.399994	188.570007	A
+24	sont	être	VRB	VRB	_	25	aux	_	_	188.580002	188.740005	A
+25	pris	-	VPP	VPP	_	15	para	_	_	188.750000	188.949997	A
+26	d'	de	PRE	PRE	_	25	dep	_	_	188.960007	188.979996	A
+27	assaut	assaut	NOM	NOM	_	26	dep	_	_	188.990005	189.160004	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-42
+# text = donc si vous avez des contraintes je vous invite à vous y inscrire très rapidement
+1	donc	donc	ADV	ADV	_	9	periph	_	_	189.539993	189.649994	A
+2	si	si	CSU	CSU	_	9	periph	_	_	189.660004	190.000000	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	190.009995	190.089996	A
+4	avez	avoir	VRB	VRB	_	2	dep	_	_	190.100006	190.649994	A
+5	des	de	PRE	PRE	_	4	dep	_	_	191.080002	191.220001	A
+6	contraintes	contrainte	NOM	NOM	_	5	dep	_	_	191.229996	191.940002	A
+7	je	je	CLS	CLS	_	9	subj	_	_	192.199997	192.270004	A
+8	vous	vous	CLI	CLI	_	9	dep	_	_	192.500000	192.559998	A
+9	invite	inviter	VRB	VRB	_	0	root	_	_	192.570007	193.009995	A
+10	à	à	PRE	PRE	_	9	dep	_	_	193.020004	193.039993	A
+11	vous	moi	PRO	PRO	_	10	dep	_	_	193.050003	193.130005	A
+12	y	y	CLI	CLI	_	13	dep	_	_	193.139999	193.169998	A
+13	inscrire	inscrire	VNF	VNF	_	11	dep	_	_	193.179993	193.380005	A
+14	très	très	ADV	ADV	_	15	dep	_	_	193.389999	193.470001	A
+15	rapidement	rapidement	ADV	ADV	_	13	dep	_	_	193.559998	193.889999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-43
+# text = les inscriptions sont ouvertes dès le dix-huit septembre
+1	les	le	DET	DET	_	2	spe	_	_	194.600006	194.740005	A
+2	inscriptions	inscription	NOM	NOM	_	4	subj	_	_	194.750000	195.220001	A
+3	sont	être	VRB	VRB	_	4	aux	_	_	195.309998	195.509995	A
+4	ouvertes	ouvrir	VPP	VPP	_	0	root	_	_	195.520004	196.059998	A
+5	dès	dès	PRE	PRE	_	4	dep	_	_	196.070007	196.570007	A
+6	le	le	DET	DET	_	7	spe	_	_	196.580002	196.600006	A
+7	dix-huit	dix-huit	NUM	NUM	_	5	dep	_	_	196.610001	196.789993	A
+8	septembre	septembre	NOM	NOM	_	7	dep	_	_	196.800003	197.320007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-44
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	197.619995	197.889999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-45
+# text = allez-y
+1	allez-y	allez-y	ADV	ADV	_	0	root	_	_	198.190002	198.630005	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-46
+# text = le plus rapidement possible
+1	le	le	DET	DET	_	2	spe	_	_	198.809998	198.929993	A
+2	plus	plus	NOM	NOM	_	0	root	_	_	198.940002	199.080002	A
+3	rapidement	rapidement	ADV	ADV	_	4	dep	_	_	199.089996	199.550003	A
+4	possible	possible	ADJ	ADJ	_	2	dep	_	_	199.559998	199.960007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-47
+# text = pour choisir vos créneaux si vous avez véritablement des contraintes si vous n'avez pas beaucoup de contraintes il y a des créneaux qui sont assez libres
+1	pour	pour	PRE	PRE	_	21	periph	_	_	200.240005	200.389999	A
+2	choisir	choisir	VNF	VNF	_	1	dep	_	_	200.399994	200.759995	A
+3	vos	son	DET	DET	_	4	spe	_	_	200.770004	200.929993	A
+4	créneaux	créneau	NOM	NOM	_	2	dep	_	_	200.990005	201.410004	A
+5	si	si	CSU	CSU	_	21	periph	_	_	201.630005	201.839996	A
+6	vous	vous	CLS	CLS	_	7	subj	_	_	201.850006	201.929993	A
+7	avez	avoir	VRB	VRB	_	5	dep	_	_	201.940002	202.149994	A
+8	véritablement	véritablement	ADV	ADV	_	7	dep	_	_	202.160004	202.570007	A
+9	des	de	PRE	PRE	_	7	dep	_	_	202.580002	202.630005	A
+10	contraintes	contrainte	NOM	NOM	_	9	dep	_	_	202.639999	202.899994	A
+11	si	si	CSU	CSU	_	5	para	_	_	203.520004	203.740005	A
+12	vous	vous	CLS	CLS	_	14	subj	_	_	203.750000	203.860001	A
+13	n'	ne	CLN	CLN	_	14	dep	_	_	203.869995	203.889999	A
+14	avez	avoir	VRB	VRB	_	11	dep	_	_	203.899994	204.080002	A
+15	pas	pas	ADN	ADN	_	14	dep	_	_	204.089996	204.149994	A
+16	beaucoup	beaucoup	ADV	ADV	_	14	dep	_	_	204.160004	204.300003	A
+17	de	de	PRE	PRE	_	14	dep	_	_	204.309998	204.330002	A
+18	contraintes	contrainte	NOM	NOM	_	17	dep	_	_	204.339996	205.009995	A
+19	il	il	CLS	CLS	_	21	subj	_	_	205.320007	205.369995	A
+20	y	y	CLI	CLI	_	21	dep	_	_	205.380005	205.429993	A
+21	a	avoir	VRB	VRB	_	0	root	_	_	205.470001	205.490005	A
+22	des	de	PRE	PRE	_	21	dep	_	_	205.500000	205.779999	A
+23	créneaux	créneau	NOM	NOM	_	22	dep	_	_	205.789993	206.119995	A
+24	qui	qui	PRQ	PRQ	_	25	subj	_	_	206.130005	206.199997	A
+25	sont	être	VRB	VRB	_	23	dep	_	_	206.210007	206.559998	A
+26	assez	assez	ADV	ADV	_	27	dep	_	_	206.610001	206.770004	A
+27	libres	libre	ADJ	ADJ	_	25	dep	_	_	206.839996	206.960007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-48
+# text = ce sont les créneaux de dix-huit heures
+1	ce	ce	CLS	CLS	_	2	subj	_	_	207.070007	207.240005	A
+2	sont	être	VRB	VRB	_	0	root	_	_	207.419998	207.669998	A
+3	les	le	DET	DET	_	4	spe	_	_	207.679993	207.880005	A
+4	créneaux	créneau	NOM	NOM	_	2	dep	_	_	207.889999	208.169998	A
+5	de	de	PRE	PRE	_	4	dep	_	_	208.179993	208.320007	A
+6	dix-huit	dix-huit	NUM	NUM	_	7	spe	_	_	208.330002	208.660004	A
+7	heures	heure	NOM	NOM	_	5	dep	_	_	208.710007	208.970001	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-49
+# text = plus on approche de dix-huit heures
+1	plus	plus	ADV	ADV	_	3	periph	_	_	209.610001	209.880005	A
+2	on	on	CLS	CLS	_	3	subj	_	_	209.940002	209.960007	A
+3	approche	approche	NOM	NOM	_	0	root	_	_	209.970001	210.250000	A
+4	de	de	PRE	PRE	_	3	dep	_	_	210.259995	210.279999	A
+5	dix-huit	dix-huit	NUM	NUM	_	6	spe	_	_	210.479996	210.660004	A
+6	heures	heure	NOM	NOM	_	4	dep	_	_	210.669998	210.940002	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-50
+# text = moins c'est chargé
+1	moins	moins	ADV	ADV	_	3	periph	_	_	211.309998	211.470001	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	211.479996	211.570007	A
+3	est	être	VRB	VRB	_	0	root	_	_	211.580002	211.600006	A
+4	chargé	charger	VPP	VPP	_	3	dep	_	_	211.759995	212.350006	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-51
+# text = et les créneaux de vendredi après-midi
+1	et	et	COO	COO	_	3	mark	_	_	212.440002	212.470001	A
+2	les	le	DET	DET	_	3	spe	_	_	212.479996	213.100006	A
+3	créneaux	créneau	NOM	NOM	_	0	root	_	_	213.110001	213.300003	A
+4	de	de	PRE	PRE	_	3	dep	_	_	213.309998	213.330002	A
+5	vendredi	vendredi	NOM	NOM	_	4	dep	_	_	213.339996	213.750000	A
+6	après-midi	après-midi	NOM	NOM	_	5	dep	_	_	213.759995	214.119995	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-52
+# text = pourquoi choisir ces créneaux
+1	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	214.720001	215.050003	A
+2	choisir	choisir	VNF	VNF	_	0	root	_	_	215.210007	215.589996	A
+3	ces	ce	DET	DET	_	4	spe	_	_	215.660004	215.740005	A
+4	créneaux	créneau	NOM	NOM	_	2	dep	_	_	215.750000	215.929993	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-53
+# text = je fais de la pub pour ces créneaux bien entendu parce que ils sont pas très remplis euh tout simplement parce que on y travaille mieux
+1	je	je	CLS	CLS	_	2	subj	_	_	216.220001	216.250000	A
+2	fais	faire	VRB	VRB	_	0	root	_	_	216.259995	216.389999	A
+3	de	de	PRE	PRE	_	2	dep	_	_	216.399994	216.429993	A
+4	la	le	DET	DET	_	5	spe	_	_	216.440002	216.610001	A
+5	pub	pub	NOM	NOM	_	3	dep	_	_	216.800003	216.880005	A
+6	pour	pour	PRE	PRE	_	2	dep	_	_	216.889999	216.979996	A
+7	ces	ce	DET	DET	_	8	spe	_	_	216.990005	217.160004	A
+8	créneaux	créneau	NOM	NOM	_	6	dep	_	_	217.309998	217.500000	A
+9	bien	bien	ADV	ADV	_	10	dep	_	_	217.509995	217.619995	A
+10	entendu	entendre	VPP	VPP	_	8	dep	_	_	217.630005	217.889999	A
+11	parce que	parce que	CSU	CSU	_	2	dep	_	_	217.979996	218.169998	A
+12	ils	il	CLS	CLS	_	13	subj	_	_	218.220001	218.320007	A
+13	sont	être	VRB	VRB	_	11	dep	_	_	218.330002	218.380005	A
+14	pas	pas	ADN	ADN	_	16	dep	_	_	218.449997	218.509995	A
+15	très	très	ADV	ADV	_	16	dep	_	_	218.710007	218.789993	A
+16	remplis	remplir	VPP	VPP	_	13	dep	_	_	218.800003	218.979996	A
+17	euh	euh	INT	INT	_	16	dm	_	_	219.630005	220.000000	A
+18	tout	tout	ADJ	ADJ	_	19	dep	_	_	220.009995	220.089996	A
+19	simplement	simplement	ADV	ADV	_	16	dep	_	_	220.100006	221.000000	A
+20	parce que	parce que	CSU	CSU	_	16	dep	_	_	221.309998	221.869995	A
+21	on	on	CLS	CLS	_	23	subj	_	_	222.529999	222.639999	A
+22	y	y	CLI	CLI	_	23	dep	_	_	222.649994	222.720001	A
+23	travaille	travailler	VRB	VRB	_	20	dep	_	_	222.729996	223.139999	A
+24	mieux	mieux	ADV	ADV	_	23	dep	_	_	223.149994	223.320007	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-54
+# text = on n'est pas nombreux
+1	on	on	CLS	CLS	_	3	subj	_	_	223.330002	223.399994	A
+2	n'	ne	CLN	CLN	_	3	dep	_	_	223.399994	223.399994	A
+3	est	être	VRB	VRB	_	0	root	_	_	223.410004	223.520004	A
+4	pas	pas	ADN	ADN	_	3	dep	_	_	223.529999	223.610001	A
+5	nombreux	nombreux	ADJ	ADJ	_	3	dep	_	_	223.619995	223.889999	A
+
+# sent_id = cefc-fleuron-c2i_partie_2-2-55
+# text = donc des fois on se retrouve à dix on est chacun sur une machine plutôt que de se retrouver dans une salle où on a peine une place de s'asseoir hein
+1	donc	donc	ADV	ADV	_	6	periph	_	_	224.139999	224.270004	A
+2	des	de	PRE	PRE	_	6	periph	_	_	224.429993	224.570007	A
+3	fois	foi	NOM	NOM	_	2	dep	_	_	224.580002	224.750000	A
+4	on	on	CLS	CLS	_	6	subj	_	_	224.759995	224.779999	A
+5	se	se	CLI	CLI	_	6	dep	_	_	224.789993	224.830002	A
+6	retrouve	retrouver	VRB	VRB	_	10	periph	_	_	224.839996	225.169998	A
+7	à	à	PRE	PRE	_	6	dep	_	_	225.179993	225.199997	A
+8	dix	dix	NUM	NUM	_	7	dep	_	_	225.300003	225.759995	A
+9	on	on	CLS	CLS	_	10	subj	_	_	225.770004	225.789993	A
+10	est	être	VRB	VRB	_	0	root	_	_	225.800003	225.820007	A
+11	chacun	chacun	PRO	PRO	_	10	dep	_	_	225.830002	225.960007	A
+12	sur	sur	PRE	PRE	_	10	dep	_	_	225.970001	226.050003	A
+13	une	un	DET	DET	_	14	spe	_	_	226.250000	226.300003	A
+14	machine	machine	NOM	NOM	_	12	dep	_	_	226.419998	226.970001	A
+15	plutôt que	plutôt que	COO	COO	_	16	mark	_	_	227.089996	227.490005	A
+16	de	de	PRE	PRE	_	12	para	_	_	227.500000	227.570007	A
+17	se	se	CLI	CLI	_	18	dep	_	_	227.580002	227.820007	A
+18	retrouver	retrouver	VNF	VNF	_	16	dep	_	_	227.830002	228.619995	A
+19	dans	dans	PRE	PRE	_	18	dep	_	_	228.630005	228.710007	A
+20	une	un	DET	DET	_	21	spe	_	_	228.800003	228.860001	A
+21	salle	salle	NOM	NOM	_	19	dep	_	_	228.899994	229.270004	A
+22	où	où	PRQ	PRQ	_	24	dep	_	_	229.279999	229.300003	A
+23	on	on	CLS	CLS	_	24	subj	_	_	229.440002	229.559998	A
+24	a	avoir	VRB	VRB	_	21	dep	_	_	229.570007	229.690002	A
+25	peine	peine	NOM	NOM	_	24	dep	_	_	229.699997	229.830002	A
+26	une	un	DET	DET	_	27	spe	_	_	229.919998	229.970001	A
+27	place	place	NOM	NOM	_	24	dep	_	_	229.979996	230.130005	A
+28	de	de	PRE	PRE	_	27	dep	_	_	230.139999	230.160004	A
+29	s'	se	CLI	CLI	_	30	dep	_	_	230.169998	230.190002	A
+30	asseoir	asseoir	VNF	VNF	_	28	dep	_	_	230.199997	230.350006	A
+31	hein	hein	INT	INT	_	30	dm	_	_	230.539993	230.559998	A
+

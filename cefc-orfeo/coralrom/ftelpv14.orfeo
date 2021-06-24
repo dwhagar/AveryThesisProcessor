@@ -1,0 +1,104 @@
+# sent_id = cefc-coralrom-ftelpv14-1
+# text = Christophe bonjour votre renseignement concerne quelle ville
+1	Christophe	Christophe	NOM	NOM	_	5	periph	_	_	0.900000	1.360000	CHR
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1.370000	1.730000	CHR
+3	votre	son	DET	DET	_	4	spe	_	_	1.740000	1.950000	CHR
+4	renseignement	renseignement	NOM	NOM	_	5	subj	_	_	1.960000	2.410000	CHR
+5	concerne	concerner	VRB	VRB	_	0	root	_	_	2.420000	2.810000	CHR
+6	quelle	quel	PRQ	PRQ	_	7	dep	_	_	2.820000	3.050000	CHR
+7	ville	ville	NOM	NOM	_	5	dep	_	_	3.060000	3.230000	CHR
+
+# sent_id = cefc-coralrom-ftelpv14-2
+# text = euh Aix-en-Provence
+1	euh	euh	INT	INT	_	2	dm	_	_	3.540000	3.570000	EST
+2	Aix-en-Provence	Aix-en-Provence	NOM	NOM	_	0	root	_	_	3.680000	4.340000	EST
+
+# sent_id = cefc-coralrom-ftelpv14-3
+# text = oui je vous écoute
+1	oui	oui	INT	INT	_	4	dm	_	_	4.740000	4.940000	CHR
+2	je	je	CLS	CLS	_	4	subj	_	_	4.950000	4.990000	CHR
+3	vous	vous	CLI	CLI	_	4	dep	_	_	5.060000	5.140000	CHR
+4	écoute	écouter	VRB	VRB	_	0	root	_	_	5.150000	5.420000	CHR
+
+# sent_id = cefc-coralrom-ftelpv14-4
+# text = alors j'aimerais avoir le numéro de téléphone de l'Office de Tourisme
+1	alors	alors	ADV	ADV	_	3	periph	_	_	5.890000	6.040000	EST
+2	j'	je	CLS	CLS	_	3	subj	_	_	6.090000	6.170000	EST
+3	aimerais	aimer	VRB	VRB	_	0	root	_	_	6.180000	6.330000	EST
+4	avoir	avoir	VNF	VNF	_	3	dep	_	_	6.340000	6.530000	EST
+5	le	le	DET	DET	_	6	spe	_	_	6.540000	6.720000	EST
+6	numéro	numéro	NOM	NOM	_	4	dep	_	_	6.730000	7.050000	EST
+7	de	de	PRE	PRE	_	6	dep	_	_	7.060000	7.080000	EST
+8	téléphone	téléphone	NOM	NOM	_	7	dep	_	_	7.090000	7.560000	EST
+9	de	de	PRE	PRE	_	8	dep	_	_	7.570000	7.590000	EST
+10	l'	le	DET	DET	_	11	spe	_	_	7.600000	7.630000	EST
+11	Office	office	NOM	NOM	_	9	dep	_	_	7.640000	8.020000	EST
+12	de	de	PRE	PRE	_	11	dep	_	_	8.080000	8.130000	EST
+13	Tourisme	tourisme	NOM	NOM	_	12	dep	_	_	8.230000	8.790000	EST
+
+# sent_id = cefc-coralrom-ftelpv14-5
+# text = s'il vous plaît à Aix-en-Provence
+1	s'	si	CSU	CSU	_	0	root	_	_	8.800000	8.920000	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	8.930000	8.980000	EST
+3	vous	vous	CLI	CLI	_	4	dep	_	_	8.990000	9.040000	EST
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	9.050000	9.270000	EST
+5	à	à	PRE	PRE	_	4	dep	_	_	9.500000	9.520000	EST
+6	Aix-en-Provence	Aix-en-Provence	NOM	NOM	_	5	dep	_	_	9.530000	10.120000	EST
+
+# sent_id = cefc-coralrom-ftelpv14-6
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	10.380000	10.420000	CHR
+2	accord	accord	NOM	NOM	_	1	dep	_	_	10.540000	10.800000	CHR
+
+# sent_id = cefc-coralrom-ftelpv14-7
+# text = voilà veuillez patienter merci
+1	voilà	voilà	INT	INT	_	2	dm	_	_	20.700001	20.959999	CHR
+2	veuillez	vouloir	VRB	VRB	_	0	root	_	_	21.400000	21.969999	CHR
+3	patienter	patienter	VNF	VNF	_	2	dep	_	_	21.980000	22.450001	CHR
+4	merci	merci	INT	INT	_	3	dm	_	_	22.459999	22.799999	CHR
+
+# sent_id = cefc-coralrom-ftelpv14-8
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	22.980000	23.500000	EST
+
+# sent_id = cefc-coralrom-ftelpv14-9
+# text = le numéro demandé est le zéro quatre quarante-deux seize
+1	le	le	DET	DET	_	2	spe	_	_	24.459999	24.639999	L00
+2	numéro	numéro	NOM	NOM	_	3	subj	_	_	24.650000	25.110001	L00
+3	demandé	demander	VPP	VPP	_	0	root	_	_	25.120001	25.750000	L00
+4	est	être	VRB	VRB	_	3	dep	_	_	25.870001	25.940001	L00
+5	le	le	DET	DET	_	6	spe	_	_	26.030001	26.410000	L00
+6	zéro	zéro	NOM	NOM	_	4	dep	_	_	26.900000	27.200001	L00
+7	quatre	quatre	NUM	NUM	_	6	dep	_	_	27.209999	27.600000	L00
+8	quarante-deux	quarante-deux	NUM	NUM	_	3	dep	_	_	28.250000	29.020000	L00
+9	seize	seize	NUM	NUM	_	8	dep	_	_	29.850000	30.320000	L00
+
+# sent_id = cefc-coralrom-ftelpv14-10
+# text = onze soixante
+1	onze	onze	NUM	NUM	_	0	root	_	_	30.910000	31.340000	L00
+2	soixante	soixante	NUM	NUM	_	1	para	_	_	31.879999	32.299999	L00
+
+# sent_id = cefc-coralrom-ftelpv14-11
+# text = et un je répète
+1	et	et	COO	COO	_	4	mark	_	_	32.310001	32.459999	L00
+2	un	un	DET	DET	_	1	dep	_	_	32.470001	32.570000	L00
+3	je	je	CLS	CLS	_	4	subj	_	_	33.330002	33.540001	L00
+4	répète	répéter	VRB	VRB	_	0	root	_	_	33.650002	33.860001	L00
+
+# sent_id = cefc-coralrom-ftelpv14-12
+# text = zéro quatre
+1	zéro	zéro	NUM	NUM	_	0	root	_	_	34.380001	34.680000	L00
+2	quatre	quatre	NUM	NUM	_	1	dep	_	_	34.689999	35.099998	L00
+
+# sent_id = cefc-coralrom-ftelpv14-13
+# text = quarante-deux
+1	quarante-deux	quarante-deux	NUM	NUM	_	0	root	_	_	35.639999	36.500000	L00
+
+# sent_id = cefc-coralrom-ftelpv14-14
+# text = seize onze soixante et un
+1	seize	seize	NUM	NUM	_	0	root	_	_	37.320000	37.779999	L00
+2	onze	onze	NUM	NUM	_	1	dep	_	_	38.389999	38.830002	L00
+3	soixante	soixante	NUM	NUM	_	1	para	_	_	39.419998	39.820000	L00
+4	et	et	COO	COO	_	5	mark	_	_	39.830002	39.970001	L00
+5	un	un	DET	DET	_	1	para	_	_	39.980000	40.099998	L00
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>reunion_organisation_dh</title>
+        <respStmt>
+          <resp>Responsables du corpus</resp>
+          <name>Clapi</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word">18370</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>projet Orfeo</publisher>
+        <pubPlace>http://projet-orfeo.fr</pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon">beaucoup de participants </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>fichier <name>reunion_organisation_dh</name> du corpus/projet <name>CLAPI</name>
+            </bibl>
+        <recordingStmt>
+          <recording type="audio" dur="01:42:49" ana="#problème_enregistrement #NULL #bip">
+            <date>14/12/2011</date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p>3ème réunion d'organisation d'un évènement publique "les Dialogues en Humanités", à Lyon.
+            </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+      <textClass>
+        <catRef target="réunion" corresp="type"/>
+        <catRef target="professionnel" corresp="secteur"/>
+        <catRef target="associatif" corresp="milieu"/>
+        <catRef target="face_à_face" corresp="channel"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p>France, Rhône-Alpes, Lyon</p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="GAB">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="LIN">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="MOD">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="NAT">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="JUL">
+            <sex>M</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="FRA">
+            <sex>M</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="HEN">
+            <sex>M</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="CEL">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="VEA">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="ROG">
+            <sex>M</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="GWEN">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="JEA">
+            <sex>M</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="PPA">
+            <sex>F</sex>
+            <birth from="1941" to="1991">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

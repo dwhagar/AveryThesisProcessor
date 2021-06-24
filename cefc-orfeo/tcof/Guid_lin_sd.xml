@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Guid_lin_sd
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Jeanne-Marie Debaisieux
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     1604
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     grésillement
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Guid_lin_sd
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:07:50" type="audio">
+      <date>
+       00/00/2005
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Un étudiant suit une visite guidée de la villa Majorelle de Nancy. La vie de Louis
+          Majorelle, de Jacques Majorelle et de Auguste Majorelle est décryptée à travers des
+          oeuvres, meubles, peintures, présentés par la guide tout au long de la visite.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="présentation publique"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="theme" target="culturel"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       guide de musée
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       inconnu
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       inconnu
+      </occupation>
+      <langKnowledge>
+       <langKnown level="inconnu">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L3">
+      <sex>
+       M
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       étudiant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="inconnu">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L4">
+      <sex>
+       M
+      </sex>
+      <age>
+       inconnu
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        inconnnu
+       </placeName>
+      </birth>
+      <occupation>
+       inconnu
+      </occupation>
+      <langKnowledge>
+       <langKnown level="inconnu">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

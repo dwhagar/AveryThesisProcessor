@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Bizouerne_039-2_OUNAMIR </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Janice Carruthers </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 2616 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> Bizouerne_039-2_OUNAMIR </name> du corpus/projet <name>
+            Frenchoralnarrative </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #NULL #NULL" dur="00:14:27" type="audio">
+            <date> 19/05/1998 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> Un locuteur raconte un conte </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="narration"/>
+        <catRef corresp="secteur" target="professionnel"/>
+        <catRef corresp="theme" target="culturel"/>
+        <catRef corresp="channel" target="en_public"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="1"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Centre-Val de Loire, Vendôme </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Bizouerne">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> lycée </education>
+            <birth>
+              <placeName> France, Ile-de-France, Suresnes </placeName>
+            </birth>
+            <occupation> conteur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

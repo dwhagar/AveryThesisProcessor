@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     potins_famille
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Laboratoire CRAPEL-ATILF - CNRS
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     1675
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     son pas clair
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      potins_famille
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+     (DEBAISIEUX)
+    </bibl>
+    <recordingStmt>
+     <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:07:12" type="audio">
+      <date>
+       22/10/2006
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Discussion entre trois locuteurs qui parlent des cours à l'université suivis en candidat
+          libre, de la botanique, des différents loisirs de L1 et L2 (peinture, couture).
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="conversation"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine, Villiers-lès-Nancy
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine, Villers-lès-Nancy
+       </placeName>
+      </birth>
+      <occupation>
+       préparateur en phamarcie- orthésiste
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       61+
+      </age>
+      <education>
+       lycée
+      </education>
+      <birth>
+       <placeName>
+        Italie, Milan
+       </placeName>
+      </birth>
+      <occupation>
+       inconnu (retraité)
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_secondaire">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L3">
+      <sex>
+       M
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        France, Pays de la Loire, Oudon
+       </placeName>
+      </birth>
+      <occupation>
+       couvreur
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

@@ -1,0 +1,181 @@
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-1
+# text = euh bonjour
+1	euh	euh	INT	INT	_	0	root	_	_	0.210000	0.250000	E
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	0.330000	0.480000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-2
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	0.540000	0.910000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-3
+# text = je suis en culture et communication
+1	je	je	CLS	CLS	_	2	subj	_	_	1.040000	1.220000	E
+2	suis	être	VRB	VRB	_	0	root	_	_	1.230000	1.310000	E
+3	en	en	PRE	PRE	_	2	dep	_	_	1.320000	1.340000	E
+4	culture	culture	NOM	NOM	_	3	dep	_	_	1.350000	1.610000	E
+5	et	et	COO	COO	_	6	mark	_	_	1.620000	1.650000	E
+6	communication	communication	NOM	NOM	_	4	para	_	_	1.660000	2.420000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-4
+# text = et j'aurais aimé effectuer un stage facultatif
+1	et	et	COO	COO	_	4	mark	_	_	2.480000	2.580000	E
+2	j'	je	CLS	CLS	_	4	subj	_	_	2.590000	2.700000	E
+3	aurais	avoir	VRB	VRB	_	4	aux	_	_	2.710000	2.880000	E
+4	aimé	aimer	VPP	VPP	_	0	root	_	_	2.890000	3.280000	E
+5	effectuer	effectuer	VNF	VNF	_	4	dep	_	_	3.290000	3.580000	E
+6	un	un	DET	DET	_	7	spe	_	_	3.590000	3.680000	E
+7	stage	stage	NOM	NOM	_	5	dep	_	_	3.750000	4.090000	E
+8	facultatif	facultatif	ADJ	ADJ	_	7	dep	_	_	4.210000	4.780000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-5
+# text = et euh j'aurais aimé obtenir une convention
+1	et	et	COO	COO	_	5	mark	_	_	6.120000	6.160000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	6.370000	6.590000	E
+3	j'	je	CLS	CLS	_	5	subj	_	_	6.600000	6.700000	E
+4	aurais	avoir	VRB	VRB	_	5	aux	_	_	6.710000	6.920000	E
+5	aimé	aimer	VPP	VPP	_	0	root	_	_	6.930000	7.030000	E
+6	obtenir	obtenir	VNF	VNF	_	5	dep	_	_	7.040000	7.390000	E
+7	une	un	DET	DET	_	8	spe	_	_	7.400000	7.500000	E
+8	convention	convention	NOM	NOM	_	6	dep	_	_	7.510000	7.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-6
+# text = voir si c'est possible oui
+1	voir	voir	VNF	VNF	_	0	root	_	_	8.910000	9.040000	E
+2	si	si	CSU	CSU	_	1	dep	_	_	9.050000	9.130000	E
+3	c'	ce	CLS	CLS	_	4	subj	_	_	9.170000	9.210000	E
+4	est	être	VRB	VRB	_	2	dep	_	_	9.360000	9.380000	E
+5	possible	possible	ADJ	ADJ	_	4	dep	_	_	9.510000	9.940000	E
+6	oui	oui	INT	INT	_	5	dm	_	_	10.240000	10.830000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-7
+# text = alors une convention de stage il faudrait voir avec l'U F
+1	alors	alors	ADV	ADV	_	7	periph	_	_	9.080000	9.190000	A
+2	une	un	DET	DET	_	3	spe	_	_	9.380000	9.430000	A
+3	convention	convention	NOM	NOM	_	7	periph	_	_	9.510000	9.790000	A
+4	de	de	PRE	PRE	_	3	dep	_	_	9.800000	9.820000	A
+5	stage	stage	NOM	NOM	_	4	dep	_	_	9.830000	9.950000	A
+6	il	il	CLS	CLS	_	7	subj	_	_	11.250000	11.310000	A
+7	faudrait	falloir	VRB	VRB	_	0	root	_	_	11.360000	11.560000	A
+8	voir	voir	VNF	VNF	_	7	dep	_	_	11.570000	11.680000	A
+9	avec	avec	PRE	PRE	_	8	dep	_	_	11.690000	11.800000	A
+10	l'	le	DET	DET	_	11	spe	_	_	11.810000	11.830000	A
+11	U	U	NOM	NOM	_	9	dep	_	_	11.840000	11.860000	A
+12	F	F	NOM	NOM	_	11	dep	_	_	11.870000	11.920000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-8
+# text = R hum d'accord
+1	R	R	NOM	NOM	_	0	root	_	_	11.930000	11.980000	E
+2	hum	hum	INT	INT	_	1	dm	_	_	12.210000	12.300000	E
+3	d'	de	PRE	PRE	_	1	dep	_	_	12.310000	12.330000	E
+4	accord	accord	NOM	NOM	_	3	dep	_	_	12.590000	12.720000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-9
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	13.040000	13.240000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-10
+# text = faut que j'aille voir euh
+1	faut	faillir	VRB	VRB	_	0	root	_	_	14.070000	14.160000	E
+2	que	que	CSU	CSU	_	1	dep	_	_	14.170000	14.590000	E
+3	j'	je	CLS	CLS	_	4	subj	_	_	14.600000	14.690000	E
+4	aille	ailler	VRB	VRB	_	2	dep	_	_	14.700000	14.790000	E
+5	voir	voir	VNF	VNF	_	4	dep	_	_	14.800000	14.950000	E
+6	euh	euh	INT	INT	_	5	dm	_	_	14.960000	14.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-11
+# text = ouais c'est
+1	ouais	ouais	INT	INT	_	3	dm	_	_	15.670000	15.890000	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	15.900000	16.030001	A
+3	est	être	VRB	VRB	_	0	root	_	_	16.040001	16.559999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-12
+# text = alors c'est en
+1	alors	alors	ADV	ADV	_	3	periph	_	_	16.570000	16.790001	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	16.799999	16.820000	A
+3	est	être	VRB	VRB	_	0	root	_	_	16.830000	16.850000	A
+4	en	en	PRE	PRE	_	3	dep	_	_	16.860001	16.879999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-13
+# text = quoi euh
+1	quoi	quoi	INT	INT	_	0	root	_	_	16.889999	16.980000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	17.280001	17.370001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-14
+# text = exactement
+1	exactement	exactement	ADV	ADV	_	0	root	_	_	18.090000	18.469999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-15
+# text = je suis en culture et communication
+1	je	je	CLS	CLS	_	2	subj	_	_	18.540001	18.690001	E
+2	suis	être	VRB	VRB	_	0	root	_	_	18.700001	19.010000	E
+3	en	en	PRE	PRE	_	2	dep	_	_	19.020000	19.090000	E
+4	culture	culture	NOM	NOM	_	3	dep	_	_	19.100000	19.290001	E
+5	et	et	COO	COO	_	6	mark	_	_	19.299999	19.320000	E
+6	communication	communication	NOM	NOM	_	4	para	_	_	19.330000	19.660000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-16
+# text = donc c'est
+1	donc	donc	ADV	ADV	_	3	periph	_	_	19.670000	19.770000	E
+2	c'	ce	CLS	CLS	_	3	subj	_	_	19.780001	19.809999	E
+3	est	être	VRB	VRB	_	0	root	_	_	19.820000	19.850000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-17
+# text = en ouais donc il faudrait voir l'U F R de lettres au premier étage
+1	en	en	PRE	PRE	_	5	periph	_	_	19.860001	19.889999	A
+2	ouais	ouais	INT	INT	_	1	dm	_	_	20.530001	20.900000	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	21.129999	21.330000	A
+4	il	il	CLS	CLS	_	5	subj	_	_	21.340000	21.389999	A
+5	faudrait	falloir	VRB	VRB	_	0	root	_	_	21.400000	21.680000	A
+6	voir	voir	VNF	VNF	_	5	dep	_	_	21.690001	21.879999	A
+7	l'	le	DET	DET	_	8	spe	_	_	21.889999	21.910000	A
+8	U	U	NOM	NOM	_	6	dep	_	_	21.920000	21.940001	A
+9	F	F	PRE	PRE	_	6	dep	_	_	21.950001	22.150000	A
+10	R	R	NOM	NOM	_	9	dep	_	_	22.160000	22.209999	A
+11	de	de	PRE	PRE	_	10	dep	_	_	22.219999	22.240000	A
+12	lettres	lettre	NOM	NOM	_	11	dep	_	_	22.250000	22.389999	A
+13	au	à+le	PRE	PRE	_	6	dep	_	_	22.459999	22.480000	A
+14	premier	premier	ADJ	ADJ	_	15	dep	_	_	22.490000	22.730000	A
+15	étage	étage	NOM	NOM	_	13	dep	_	_	22.740000	22.959999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-18
+# text = d'accord je vais voir l'U F R de lettres
+1	d'	de	PRE	PRE	_	4	periph	_	_	23.049999	23.070000	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	23.080000	23.350000	E
+3	je	je	CLS	CLS	_	4	subj	_	_	23.559999	23.719999	E
+4	vais	aller	VRB	VRB	_	0	root	_	_	23.730000	23.889999	E
+5	voir	voir	VNF	VNF	_	4	dep	_	_	23.930000	24.110001	E
+6	l'	le	DET	DET	_	7	spe	_	_	24.120001	24.170000	E
+7	U	U	NOM	NOM	_	5	dep	_	_	24.180000	24.209999	E
+8	F	F	PRE	PRE	_	5	dep	_	_	24.219999	24.320000	E
+9	R	R	NOM	NOM	_	8	dep	_	_	24.330000	24.430000	E
+10	de	de	PRE	PRE	_	9	dep	_	_	24.440001	24.459999	E
+11	lettres	lettre	NOM	NOM	_	10	dep	_	_	24.469999	24.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-19
+# text = en euh G euh G cent seize
+1	en	en	PRE	PRE	_	0	root	_	_	25.040001	25.059999	A
+2	euh	euh	INT	INT	_	1	dm	_	_	25.070000	25.400000	A
+3	G	G	NOM	NOM	_	1	dep	_	_	25.410000	26.100000	A
+4	euh	euh	INT	INT	_	3	dm	_	_	28.420000	28.540001	A
+5	G	G	NOM	NOM	_	3	dep	_	_	28.549999	28.719999	A
+6	cent	cent	NUM	NUM	_	5	dep	_	_	28.730000	28.889999	A
+7	seize	seize	NUM	NUM	_	6	dep	_	_	28.900000	28.980000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-20
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	29.049999	29.070000	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	29.080000	29.430000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-21
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	30.500000	30.620001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P9-22
+# text = bah d'accord je vous remercie
+1	bah	bah	INT	INT	_	6	dm	_	_	31.850000	31.910000	E
+2	d'	de	PRE	PRE	_	6	periph	_	_	31.980000	32.040001	E
+3	accord	accord	NOM	NOM	_	2	dep	_	_	32.049999	32.279999	E
+4	je	je	CLS	CLS	_	6	subj	_	_	32.720001	32.750000	E
+5	vous	vous	CLI	CLI	_	6	dep	_	_	32.820000	32.990002	E
+6	remercie	remercier	VRB	VRB	_	0	root	_	_	33.900002	34.220001	E
+

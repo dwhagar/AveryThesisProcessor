@@ -1,0 +1,333 @@
+# sent_id = cefc-coralrom-fpubcv08-1
+# text = non non ça va
+1	non	non	INT	INT	_	4	dm	_	_	0.230000	0.300000	DEP
+2	non	non	INT	INT	_	1	para	_	_	0.310000	0.530000	DEP
+3	ça	ça	PRO	PRO	_	4	subj	_	_	0.970000	1.430000	DEP
+4	va	aller	VRB	VRB	_	0	root	_	_	1.500000	1.610000	DEP
+
+# sent_id = cefc-coralrom-fpubcv08-2
+# text = c'est la petite réunion euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1.700000	1.720000	DEL
+2	est	être	VRB	VRB	_	0	root	_	_	1.810000	1.830000	DEL
+3	la	le	DET	DET	_	5	spe	_	_	1.840000	1.930000	DEL
+4	petite	petit	ADJ	ADJ	_	5	dep	_	_	1.940000	2.120000	DEL
+5	réunion	réunion	NOM	NOM	_	2	dep	_	_	2.170000	2.690000	DEL
+6	euh	euh	INT	INT	_	5	dm	_	_	2.700000	2.830000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-3
+# text = vous venez vous réunir ici
+1	vous	vous	CLS	CLS	_	2	subj	_	_	3.240000	3.300000	MIC
+2	venez	venir	VRB	VRB	_	0	root	_	_	3.400000	3.680000	MIC
+3	vous	vous	CLI	CLI	_	4	dep	_	_	3.810000	3.870000	MIC
+4	réunir	réunir	VNF	VNF	_	2	dep	_	_	4.060000	4.530000	MIC
+5	ici	ici	ADV	ADV	_	4	dep	_	_	4.540000	4.650000	MIC
+
+# sent_id = cefc-coralrom-fpubcv08-4
+# text = du caviar
+1	du	de+le	PRE	PRE	_	0	root	_	_	4.730000	4.850000	JLP
+2	caviar	caviar	NOM	NOM	_	1	dep	_	_	4.860000	5.240000	JLP
+
+# sent_id = cefc-coralrom-fpubcv08-5
+# text = du café euh donc euh il en reste du
+1	du	de+le	PRE	PRE	_	8	periph	_	_	5.330000	5.380000	DEL
+2	café	café	NOM	NOM	_	1	dep	_	_	5.390000	5.850000	DEL
+3	euh	euh	INT	INT	_	2	dm	_	_	6.000000	6.160000	DEL
+4	donc	donc	ADV	ADV	_	8	periph	_	_	6.730000	6.870000	DEL
+5	euh	euh	INT	INT	_	4	dm	_	_	6.880000	6.900000	DEL
+6	il	il	CLS	CLS	_	8	subj	_	_	6.940000	7.320000	DEL
+7	en	en	CLI	CLI	_	8	dep	_	_	7.330000	7.390000	DEL
+8	reste	rester	VRB	VRB	_	0	root	_	_	7.400000	7.640000	DEL
+9	du	de+le	PRE	PRE	_	8	dep	_	_	7.650000	7.730000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-6
+# text = quais du café
+1	quais	quai	NOM	NOM	_	0	root	_	_	6.760000	7.080000	EST
+2	du	de+le	PRE	PRE	_	1	dep	_	_	7.150000	7.270000	EST
+3	café	café	NOM	NOM	_	2	dep	_	_	7.280000	7.520000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-7
+# text = café ou
+1	café	café	NOM	NOM	_	0	root	_	_	8.030000	8.140000	MIC
+2	ou	ou	COO	COO	_	1	disflink	_	_	8.150000	8.170000	MIC
+
+# sent_id = cefc-coralrom-fpubcv08-8
+# text = pas c'est un caviar
+1	pas	pas	ADN	ADN	_	3	periph	_	_	8.180000	8.280000	JLP
+2	c'	ce	CLS	CLS	_	3	subj	_	_	8.620000	8.640000	JLP
+3	est	être	VRB	VRB	_	0	root	_	_	8.650000	8.670000	JLP
+4	un	un	DET	DET	_	5	spe	_	_	8.680000	8.740000	JLP
+5	caviar	caviar	NOM	NOM	_	3	dep	_	_	8.750000	9.070000	JLP
+
+# sent_id = cefc-coralrom-fpubcv08-9
+# text = ouais il doit en rester té
+1	ouais	ouais	INT	INT	_	3	dm	_	_	8.690000	8.840000	EST
+2	il	il	CLS	CLS	_	3	subj	_	_	8.850000	8.980000	EST
+3	doit	devoir	VRB	VRB	_	0	root	_	_	9.210000	9.380000	EST
+4	en	en	CLI	CLI	_	5	dep	_	_	9.390000	9.450000	EST
+5	rester	rester	VNF	VNF	_	3	dep	_	_	9.570000	9.860000	EST
+6	té	té	NOM	NOM	_	5	dep	_	_	9.870000	9.970000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-10
+# text = sert-lui un café va
+1	sert-lui	sert-lui	VRB	VRB	_	4	dm	_	_	10.020000	10.280000	EST
+2	un	un	DET	DET	_	3	spe	_	_	10.290000	10.410000	EST
+3	café	café	NOM	NOM	_	4	subj	_	_	10.420000	10.760000	EST
+4	va	aller	VRB	VRB	_	0	root	_	_	10.770000	10.950000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-11
+# text = où
+1	où	où	PRQ	PRQ	_	0	root	_	_	11.750000	11.870000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-12
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	12.060000	12.220000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-13
+# text = en revanche
+1	en	en	PRE	PRE	_	0	root	_	_	12.340000	12.370000	DEL
+2	revanche	revanche	NOM	NOM	_	1	dep	_	_	12.380000	12.580000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-14
+# text = ah ouais c'est quoi c'est le fameux rack euh ouais d'accord
+1	ah	ah	INT	INT	_	4	dm	_	_	12.950000	13.270000	DEL
+2	ouais	ouais	INT	INT	_	1	dm	_	_	13.510000	14.070000	DEL
+3	c'	ce	CLS	CLS	_	4	subj	_	_	14.300000	14.370000	DEL
+4	est	être	VRB	VRB	_	0	root	_	_	14.380000	14.440000	DEL
+5	quoi	quoi	PRQ	PRQ	_	4	dep	_	_	14.450000	14.600000	DEL
+6	c'	ce	CLS	CLS	_	7	subj	_	_	14.610000	14.710000	DEL
+7	est	être	VRB	VRB	_	4	para	_	_	14.720000	14.840000	DEL
+8	le	le	DET	DET	_	10	spe	_	_	14.850000	14.880000	DEL
+9	fameux	fameux	ADJ	ADJ	_	10	dep	_	_	14.930000	15.140000	DEL
+10	rack	rack	NOM	NOM	_	7	dep	_	_	15.150000	15.550000	DEL
+11	euh	euh	INT	INT	_	10	dm	_	_	15.560000	15.670000	DEL
+12	ouais	ouais	INT	INT	_	11	dm	_	_	15.820000	15.910000	DEL
+13	d'	de	PRE	PRE	_	10	dep	_	_	15.920000	15.970000	DEL
+14	accord	accord	NOM	NOM	_	13	dep	_	_	15.980000	16.219999	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-15
+# text = c'est le français de référence qui est sur le rack et euh NNAAMMEE m'a dit tu
+1	c'	ce	CLS	CLS	_	2	subj	_	_	17.389999	17.450001	EST
+2	est	être	VRB	VRB	_	0	root	_	_	17.459999	17.549999	EST
+3	le	le	DET	DET	_	4	spe	_	_	17.559999	17.870001	EST
+4	français	français	NOM	NOM	_	2	dep	_	_	17.879999	18.209999	EST
+5	de	de	PRE	PRE	_	4	dep	_	_	18.219999	18.270000	EST
+6	référence	référence	NOM	NOM	_	5	dep	_	_	18.280001	18.879999	EST
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	18.940001	19.030001	EST
+8	est	être	VRB	VRB	_	4	dep	_	_	19.040001	19.080000	EST
+9	sur	sur	PRE	PRE	_	8	dep	_	_	19.090000	19.270000	EST
+10	le	le	DET	DET	_	11	spe	_	_	19.280001	19.299999	EST
+11	rack	rack	NOM	NOM	_	9	dep	_	_	19.340000	19.500000	EST
+12	et	et	COO	COO	_	17	mark	_	_	19.690001	19.910000	EST
+13	euh	euh	INT	INT	_	12	dm	_	_	19.920000	19.940001	EST
+14	NNAAMMEE	NOM	NOM	NOM	_	17	subj	_	_	19.950001	20.770000	EST
+15	m'	me	CLI	CLI	_	17	dep	_	_	20.900000	20.959999	EST
+16	a	avoir	VRB	VRB	_	17	aux	_	_	20.969999	21.030001	EST
+17	dit	dire	VPP	VPP	_	8	para	_	_	21.040001	21.340000	EST
+18	tu	tu	CLS	CLS	_	17	disflink	_	_	21.350000	21.400000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-16
+# text = de trente gigas
+1	de	de	PRE	PRE	_	0	root	_	_	19.559999	19.580000	DEL
+2	trente	trente	NUM	NUM	_	3	spe	_	_	19.590000	19.900000	DEL
+3	gigas	giga-octet	NOM	NOM	_	1	dep	_	_	19.910000	20.760000	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-17
+# text = ne le tu ne le donnes pas à NNAAMMEE tu le donnes à personne
+1	ne	ne	CLN	CLN	_	6	dep	_	_	21.500000	21.830000	EST
+2	le	le	DET	DET	_	6	spe	_	_	21.879999	21.980000	EST
+3	tu	tu	CLS	CLS	_	6	subj	_	_	22.020000	22.170000	EST
+4	ne	ne	CLN	CLN	_	6	dep	_	_	22.180000	22.209999	EST
+5	le	le	DET	DET	_	6	spe	_	_	22.219999	22.250000	EST
+6	donnes	donne	NOM	NOM	_	0	root	_	_	22.260000	22.440001	EST
+7	pas	pas	ADN	ADN	_	8	dep	_	_	22.450001	22.600000	EST
+8	à	à	PRE	PRE	_	6	dep	_	_	22.680000	22.770000	EST
+9	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	22.840000	23.200001	EST
+10	tu	tu	CLS	CLS	_	9	disflink	_	_	23.209999	23.260000	EST
+11	le	le	DET	DET	_	12	spe	_	_	23.270000	23.290001	EST
+12	donnes	donne	NOM	NOM	_	8	dep	_	_	23.299999	23.450001	EST
+13	à	à	PRE	PRE	_	12	dep	_	_	23.459999	23.510000	EST
+14	personne	personne	PRO	PRO	_	13	dep	_	_	23.520000	23.920000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-18
+# text = parce qu'on a qu'une seule sauvegarde
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	23.930000	24.160000	EST
+2	on	on	CLS	CLS	_	3	subj	_	_	24.170000	24.209999	EST
+3	a	avoir	VRB	VRB	_	1	dep	_	_	24.219999	24.240000	EST
+4	qu'	qu'	ADN	ADN	_	3	dep	_	_	24.330000	24.350000	EST
+5	une	un	DET	DET	_	7	spe	_	_	24.360001	24.430000	EST
+6	seule	seul	ADJ	ADJ	_	7	dep	_	_	24.440001	24.990000	EST
+7	sauvegarde	sauvegarde	NOM	NOM	_	3	dep	_	_	25.629999	26.040001	EST
+
+# sent_id = cefc-coralrom-fpubcv08-19
+# text = donc tu fais une sauvegarde
+1	donc	donc	ADV	ADV	_	3	periph	_	_	26.049999	26.100000	EST
+2	tu	tu	CLS	CLS	_	3	subj	_	_	26.110001	26.160000	EST
+3	fais	faire	VRB	VRB	_	0	root	_	_	26.170000	26.219999	EST
+4	une	un	DET	DET	_	5	spe	_	_	26.230000	26.280001	EST
+5	sauvegarde	sauvegarde	NOM	NOM	_	3	dep	_	_	26.420000	26.830000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-20
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	26.840000	26.860001	EST
+
+# sent_id = cefc-coralrom-fpubcv08-21
+# text = tu
+1	tu	tu	CLS	CLS	_	0	root	_	_	26.870001	26.920000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-22
+# text = le donnes à NNAAMMEE
+1	le	le	DET	DET	_	2	spe	_	_	26.930000	26.959999	EST
+2	donnes	donne	NOM	NOM	_	0	root	_	_	26.969999	27.150000	EST
+3	à	à	PRE	PRE	_	2	dep	_	_	27.160000	27.240000	EST
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	27.250000	27.559999	EST
+
+# sent_id = cefc-coralrom-fpubcv08-23
+# text = pour qu'il puisse travailler tout simplement parce que ceci dit on peut
+1	pour	pour	PRE	PRE	_	0	root	_	_	28.530001	28.670000	EST
+2	qu'	que	CSU	CSU	_	1	dep	_	_	28.680000	28.730000	EST
+3	il	il	CLS	CLS	_	4	subj	_	_	28.740000	28.870001	EST
+4	puisse	pouvoir	VRB	VRB	_	2	dep	_	_	28.879999	29.129999	EST
+5	travailler	travailler	VNF	VNF	_	4	dep	_	_	29.139999	29.670000	EST
+6	tout	tout	ADV	ADV	_	7	dep	_	_	29.780001	29.920000	EST
+7	simplement	simplement	ADV	ADV	_	5	dep	_	_	29.930000	30.209999	EST
+8	parce que	parce que	CSU	CSU	_	4	dep	_	_	30.299999	30.510000	EST
+9	ceci	ceci	PRO	PRO	_	10	subj	_	_	30.520000	30.600000	EST
+10	dit	dire	VRB	VRB	_	8	dep	_	_	30.610001	30.740000	EST
+11	on	on	CLS	CLS	_	12	subj	_	_	30.750000	31.010000	EST
+12	peut	pouvoir	VRB	VRB	_	10	dep	_	_	31.020000	31.070000	EST
+
+# sent_id = cefc-coralrom-fpubcv08-24
+# text = pas
+1	pas	pas	ADN	ADN	_	0	root	_	_	31.139999	31.540001	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-25
+# text = mais je le savais je devais en avoir
+1	mais	mais	COO	COO	_	4	mark	_	_	26.360001	26.540001	DEL
+2	je	je	CLS	CLS	_	4	subj	_	_	26.549999	26.570000	DEL
+3	le	le	CLI	CLI	_	4	dep	_	_	26.580000	26.600000	DEL
+4	savais	savoir	VRB	VRB	_	0	root	_	_	26.610001	26.850000	DEL
+5	je	je	CLS	CLS	_	6	subj	_	_	26.860001	26.879999	DEL
+6	devais	devoir	VRB	VRB	_	4	para	_	_	26.889999	27.000000	DEL
+7	en	en	CLI	CLI	_	8	dep	_	_	27.010000	27.070000	DEL
+8	avoir	avoir	VNF	VNF	_	6	dep	_	_	27.150000	27.440001	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-26
+# text = ah mais où tu vas faire une sauvegarde de trente gigas
+1	ah	ah	INT	INT	_	5	dm	_	_	27.799999	27.860001	DEL
+2	mais	mais	COO	COO	_	5	mark	_	_	30.330000	30.610001	DEL
+3	où	où	PRQ	PRQ	_	5	dep	_	_	30.620001	30.830000	DEL
+4	tu	tu	CLS	CLS	_	5	subj	_	_	30.840000	30.910000	DEL
+5	vas	aller	VRB	VRB	_	0	root	_	_	30.920000	31.090000	DEL
+6	faire	faire	VNF	VNF	_	5	dep	_	_	31.100000	31.330000	DEL
+7	une	un	DET	DET	_	8	spe	_	_	31.340000	31.389999	DEL
+8	sauvegarde	sauvegarde	NOM	NOM	_	6	dep	_	_	31.400000	31.879999	DEL
+9	de	de	PRE	PRE	_	8	dep	_	_	32.419998	32.540001	DEL
+10	trente	trente	NUM	NUM	_	11	spe	_	_	32.549999	32.790001	DEL
+11	gigas	giga-octet	NOM	NOM	_	9	dep	_	_	32.799999	33.130001	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-27
+# text = Michel c'est là que Michel intervient parce que Michel euh je sais pas
+1	Michel	Michel	NOM	NOM	_	3	periph	_	_	33.650002	33.980000	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	34.700001	34.779999	EST
+3	est	être	VRB	VRB	_	0	root	_	_	34.790001	34.820000	EST
+4	là	là	ADV	ADV	_	3	dep	_	_	34.830002	35.000000	EST
+5	que	que	CSU	CSU	_	3	dep	_	_	35.009998	35.029999	EST
+6	Michel	Michel	NOM	NOM	_	7	subj	_	_	35.040001	35.259998	EST
+7	intervient	intervenir	VRB	VRB	_	5	dep	_	_	35.270000	35.799999	EST
+8	parce que	parce que	CSU	CSU	_	3	dep	_	_	36.139999	36.430000	EST
+9	Michel	Michel	NOM	NOM	_	12	periph	_	_	36.439999	37.180000	EST
+10	euh	euh	INT	INT	_	9	dm	_	_	37.240002	37.480000	EST
+11	je	je	CLS	CLS	_	12	subj	_	_	37.540001	37.650002	EST
+12	sais	savoir	VRB	VRB	_	8	dep	_	_	37.720001	37.939999	EST
+13	pas	pas	ADN	ADN	_	12	dep	_	_	37.950001	38.200001	EST
+
+# sent_id = cefc-coralrom-fpubcv08-28
+# text = non non non non
+1	non	non	INT	INT	_	0	root	_	_	39.070000	39.320000	EST
+2	non	non	INT	INT	_	1	para	_	_	40.139999	40.369999	EST
+3	non	non	INT	INT	_	2	para	_	_	40.380001	40.459999	EST
+4	non	non	INT	INT	_	3	para	_	_	40.549999	40.639999	EST
+
+# sent_id = cefc-coralrom-fpubcv08-29
+# text = et c'est pas sur le serveur
+1	et	et	COO	COO	_	3	mark	_	_	40.709999	40.730000	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	40.779999	40.849998	EST
+3	est	être	VRB	VRB	_	0	root	_	_	40.860001	40.900002	EST
+4	pas	pas	ADN	ADN	_	3	dep	_	_	40.910000	40.970001	EST
+5	sur	sur	PRE	PRE	_	3	dep	_	_	41.009998	41.139999	EST
+6	le	le	DET	DET	_	7	spe	_	_	41.150002	41.169998	EST
+7	serveur	serveur	NOM	NOM	_	5	dep	_	_	41.180000	41.459999	EST
+
+# sent_id = cefc-coralrom-fpubcv08-30
+# text = mais où tu as sauvegardé
+1	mais	mais	COO	COO	_	5	mark	_	_	36.139999	36.410000	JLP
+2	où	où	PRQ	PRQ	_	5	dep	_	_	36.419998	36.660000	JLP
+3	tu	tu	CLS	CLS	_	5	subj	_	_	36.669998	36.790001	JLP
+4	as	avoir	VRB	VRB	_	5	aux	_	_	36.799999	36.939999	JLP
+5	sauvegardé	sauvegarder	VPP	VPP	_	0	root	_	_	36.950001	37.330002	JLP
+
+# sent_id = cefc-coralrom-fpubcv08-31
+# text = ça me dit pas que tu as mis ça sur le serveur et qu'on a plus de place pour travailler
+1	ça	ça	PRO	PRO	_	3	subj	_	_	37.340000	37.480000	JLP
+2	me	me	CLI	CLI	_	3	dep	_	_	37.540001	37.639999	JLP
+3	dit	dire	VRB	VRB	_	0	root	_	_	37.650002	37.759998	JLP
+4	pas	pas	ADN	ADN	_	3	dep	_	_	37.770000	37.889999	JLP
+5	que	que	CSU	CSU	_	3	dep	_	_	37.900002	37.919998	JLP
+6	tu	tu	CLS	CLS	_	8	subj	_	_	37.930000	37.990002	JLP
+7	as	avoir	VRB	VRB	_	8	aux	_	_	38.000000	38.200001	JLP
+8	mis	mettre	VPP	VPP	_	5	dep	_	_	38.279999	38.369999	JLP
+9	ça	ça	PRO	PRO	_	8	dep	_	_	38.380001	38.529999	JLP
+10	sur	sur	PRE	PRE	_	8	dep	_	_	38.540001	38.669998	JLP
+11	le	le	DET	DET	_	12	spe	_	_	38.680000	38.700001	JLP
+12	serveur	serveur	NOM	NOM	_	10	dep	_	_	38.709999	38.950001	JLP
+13	et	et	COO	COO	_	14	mark	_	_	38.959999	38.980000	JLP
+14	qu'	que	CSU	CSU	_	5	para	_	_	39.139999	39.200001	JLP
+15	on	on	CLS	CLS	_	16	subj	_	_	39.209999	39.310001	JLP
+16	a	avoir	VRB	VRB	_	14	dep	_	_	39.320000	39.369999	JLP
+17	plus	plus	ADN	ADN	_	16	dep	_	_	39.380001	39.459999	JLP
+18	de	de	PRE	PRE	_	16	dep	_	_	39.540001	39.560001	JLP
+19	place	place	NOM	NOM	_	18	dep	_	_	39.570000	39.689999	JLP
+20	pour	pour	PRE	PRE	_	16	dep	_	_	39.740002	39.849998	JLP
+21	travailler	travailler	VNF	VNF	_	20	dep	_	_	39.860001	40.080002	JLP
+
+# sent_id = cefc-coralrom-fpubcv08-32
+# text = ah c'est là c'est là où je l'ai mis maintenant
+1	ah	ah	INT	INT	_	3	dm	_	_	42.450001	42.480000	MIC
+2	c'	ce	CLS	CLS	_	3	subj	_	_	42.709999	42.740002	MIC
+3	est	être	VRB	VRB	_	0	root	_	_	42.750000	42.840000	MIC
+4	là	là	ADV	ADV	_	3	dep	_	_	42.849998	43.110001	MIC
+5	c'	ce	CLS	CLS	_	6	subj	_	_	43.570000	43.619999	MIC
+6	est	être	VRB	VRB	_	3	para	_	_	43.630001	43.660000	MIC
+7	là	là	ADV	ADV	_	6	dep	_	_	43.669998	43.720001	MIC
+8	où	où	PRQ	PRQ	_	12	dep	_	_	43.730000	43.849998	MIC
+9	je	je	CLS	CLS	_	12	subj	_	_	43.860001	43.910000	MIC
+10	l'	le	CLI	CLI	_	12	dep	_	_	43.919998	44.000000	MIC
+11	ai	avoir	VRB	VRB	_	12	aux	_	_	44.009998	44.090000	MIC
+12	mis	mettre	VPP	VPP	_	7	dep	_	_	44.099998	44.250000	MIC
+13	maintenant	maintenant	ADV	ADV	_	12	dep	_	_	44.259998	44.459999	MIC
+
+# sent_id = cefc-coralrom-fpubcv08-33
+# text = si ça tombe en panne
+1	si	si	CSU	CSU	_	0	root	_	_	44.560001	44.630001	MIC
+2	ça	ça	PRO	PRO	_	3	subj	_	_	44.639999	44.740002	MIC
+3	tombe	tomber	VRB	VRB	_	1	dep	_	_	44.750000	44.889999	MIC
+4	en	en	PRE	PRE	_	3	dep	_	_	44.900002	44.950001	MIC
+5	panne	panne	NOM	NOM	_	4	dep	_	_	45.029999	45.439999	MIC
+
+# sent_id = cefc-coralrom-fpubcv08-34
+# text = ben oui c'est sur le serveur
+1	ben	ben	INT	INT	_	4	dm	_	_	45.700001	45.889999	DEL
+2	oui	oui	INT	INT	_	1	dm	_	_	45.900002	45.950001	DEL
+3	c'	ce	CLS	CLS	_	4	subj	_	_	45.959999	46.020000	DEL
+4	est	être	VRB	VRB	_	0	root	_	_	46.029999	46.060001	DEL
+5	sur	sur	PRE	PRE	_	4	dep	_	_	46.070000	46.189999	DEL
+6	le	le	DET	DET	_	7	spe	_	_	46.200001	46.220001	DEL
+7	serveur	serveur	NOM	NOM	_	5	dep	_	_	46.230000	46.439999	DEL
+
+# sent_id = cefc-coralrom-fpubcv08-35
+# text = vous aboulez le bakchich
+1	vous	vous	CLS	CLS	_	2	subj	_	_	46.509998	46.669998	MIC
+2	aboulez	abouler	VRB	VRB	_	0	root	_	_	46.680000	46.930000	MIC
+3	le	le	DET	DET	_	4	spe	_	_	46.939999	46.959999	MIC
+4	bakchich	bakchich	NOM	NOM	_	2	dep	_	_	46.970001	47.389999	MIC
+

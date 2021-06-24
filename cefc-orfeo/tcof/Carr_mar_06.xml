@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Carr_mar_06
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Virginie André
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     1104
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon"/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Carr_mar_06
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:05:09" type="audio">
+      <date>
+       16/12/2006
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Une étudiante discute avec une amie, adjointe administrative dans la fonction publique.
+          Cette dernière évoque le passage d'un concours de la fonction publique, ce qui l'amène à
+          évoquer son expérience au sein du ministère de l'Agriculture et de la pêche, les modalités
+          de passage du concours, ainsi que l'évolution de carrière dans la fonction publique. Puis
+          la conversation dévie sur son entourage professionnel au sein du ministère auquel elle est
+          rattachée.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="entretien"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       administratif
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       étudiant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

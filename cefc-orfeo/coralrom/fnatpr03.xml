@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> fnatpr03 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Cresti </name>
+          <name> Moneglia </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 2994 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> fnatpr03 </name> du corpus/projet <name> CORALROM </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:13:58" type="audio">
+            <date> 00/12/2001 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> le livre des Rois I 17 </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="discours"/>
+        <catRef corresp="secteur" target="professionnel"/>
+        <catRef corresp="milieu" target="religieux"/>
+        <catRef corresp="channel" target="en_public"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="1"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Auvergne, Clermont-Ferrand </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ARN">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> France, Auvergne, Clermont-Ferrand </placeName>
+            </birth>
+            <occupation> pasteur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

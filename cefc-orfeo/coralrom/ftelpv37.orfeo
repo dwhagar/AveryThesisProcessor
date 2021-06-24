@@ -1,0 +1,162 @@
+# sent_id = cefc-coralrom-ftelpv37-1
+# text = NNAAMMEE NNAAMMEE bonjour
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	1.660000	1.970000	OPE
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	1.980000	2.230000	OPE
+3	bonjour	bonjour	INT	INT	_	2	dm	_	_	2.240000	2.470000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-2
+# text = oui bonjour ce serait pour annuler une réservation s'il vous plait
+1	oui	oui	INT	INT	_	4	dm	_	_	2.800000	2.950000	JEA
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	2.960000	3.350000	JEA
+3	ce	ce	CLS	CLS	_	4	subj	_	_	3.360000	3.420000	JEA
+4	serait	être	VRB	VRB	_	0	root	_	_	3.490000	3.700000	JEA
+5	pour	pour	PRE	PRE	_	4	dep	_	_	3.710000	3.890000	JEA
+6	annuler	annuler	VNF	VNF	_	5	dep	_	_	3.900000	4.270000	JEA
+7	une	un	DET	DET	_	8	spe	_	_	4.280000	4.690000	JEA
+8	réservation	réservation	NOM	NOM	_	6	dep	_	_	4.700000	5.330000	JEA
+9	s'	si	CSU	CSU	_	4	dep	_	_	5.410000	5.440000	JEA
+10	il	il	CLS	CLS	_	12	subj	_	_	5.450000	5.520000	JEA
+11	vous	vous	CLI	CLI	_	12	dep	_	_	5.530000	5.660000	JEA
+12	plait	plait	VRB	VRB	_	9	dep	_	_	5.670000	6.020000	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-3
+# text = vous avez le billet euh entre vos mains
+1	vous	vous	CLS	CLS	_	2	subj	_	_	6.500000	6.610000	OPE
+2	avez	avoir	VRB	VRB	_	0	root	_	_	6.620000	6.780000	OPE
+3	le	le	DET	DET	_	4	spe	_	_	6.790000	6.930000	OPE
+4	billet	billet	NOM	NOM	_	2	dep	_	_	6.940000	7.150000	OPE
+5	euh	euh	INT	INT	_	4	dm	_	_	7.160000	7.180000	OPE
+6	entre	entre	PRE	PRE	_	2	dep	_	_	7.390000	7.870000	OPE
+7	vos	son	DET	DET	_	8	spe	_	_	7.880000	8.040000	OPE
+8	mains	main	NOM	NOM	_	6	dep	_	_	8.050000	8.230000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-4
+# text = ou c'est que une référence
+1	ou	ou	COO	COO	_	3	mark	_	_	8.240000	8.260000	OPE
+2	c'	ce	CLS	CLS	_	3	subj	_	_	8.270000	8.300000	OPE
+3	est	être	VRB	VRB	_	0	root	_	_	8.310000	8.330000	OPE
+4	que	que	CSU	CSU	_	3	dep	_	_	8.400000	8.740000	OPE
+5	une	un	DET	DET	_	6	spe	_	_	8.750000	8.980000	OPE
+6	référence	référence	NOM	NOM	_	4	dep	_	_	8.990000	9.790000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-5
+# text = euh non j'avais simplement fait une réservation téléphonique
+1	euh	euh	INT	INT	_	6	dm	_	_	8.520000	8.730000	JEA
+2	non	non	INT	INT	_	1	dm	_	_	8.740000	9.050000	JEA
+3	j'	je	CLS	CLS	_	6	subj	_	_	9.060000	9.130000	JEA
+4	avais	avoir	VRB	VRB	_	6	aux	_	_	9.140000	9.370000	JEA
+5	simplement	simplement	ADV	ADV	_	6	dep	_	_	9.380000	9.760000	JEA
+6	fait	faire	VPP	VPP	_	0	root	_	_	9.980000	10.150000	JEA
+7	une	un	DET	DET	_	8	spe	_	_	10.160000	10.500000	JEA
+8	réservation	réservation	NOM	NOM	_	6	dep	_	_	10.510000	10.980000	JEA
+9	téléphonique	téléphonique	ADJ	ADJ	_	8	dep	_	_	10.990000	11.510000	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-6
+# text = j'avais p-~ j'ai pas le billet
+1	j'	je	CLS	CLS	_	2	subj	_	_	11.520000	11.590000	JEA
+2	avais	avoir	VRB	VRB	_	0	root	_	_	11.600000	11.710000	JEA
+3	p-~	p-~	X	X	_	2	disflink	_	_	11.720000	11.780000	JEA
+4	j'	je	CLS	CLS	_	5	subj	_	_	11.790000	11.890000	JEA
+5	ai	avoir	VRB	VRB	_	2	para	_	_	11.900000	11.950000	JEA
+6	pas	pas	ADN	ADN	_	5	dep	_	_	11.960000	12.080000	JEA
+7	le	le	DET	DET	_	8	spe	_	_	12.090000	12.150000	JEA
+8	billet	billet	NOM	NOM	_	5	dep	_	_	12.160000	12.560000	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-7
+# text = d'accord je vous écoute pour le pour les lettres
+1	d'	de	PRE	PRE	_	5	periph	_	_	12.850000	12.870000	OPE
+2	accord	accord	NOM	NOM	_	1	dep	_	_	13.090000	13.320000	OPE
+3	je	je	CLS	CLS	_	5	subj	_	_	13.330000	13.350000	OPE
+4	vous	vous	CLI	CLI	_	5	dep	_	_	13.360000	13.410000	OPE
+5	écoute	écouter	VRB	VRB	_	0	root	_	_	13.420000	13.670000	OPE
+6	pour	pour	PRE	PRE	_	5	dep	_	_	13.720000	13.890000	OPE
+7	le	le	DET	DET	_	6	dep	_	_	13.900000	14.200000	OPE
+8	pour	pour	PRE	PRE	_	6	para	_	_	14.360000	14.470000	OPE
+9	les	le	DET	DET	_	10	spe	_	_	14.480000	14.580000	OPE
+10	lettres	lettre	NOM	NOM	_	8	dep	_	_	14.590000	14.960000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-8
+# text = alors euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	15.520000	15.850000	JEA
+2	euh	euh	INT	INT	_	1	dm	_	_	15.860000	16.100000	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-9
+# text = Raoul Etienne Sophie André François
+1	Raoul	Raoul	NOM	NOM	_	0	root	_	_	16.110001	16.740000	JEA
+2	Etienne	Etienne	NOM	NOM	_	1	dep	_	_	17.270000	18.110001	JEA
+3	Sophie	Sophie	NOM	NOM	_	2	para	_	_	18.780001	19.410000	JEA
+4	André	André	NOM	NOM	_	3	dep	_	_	20.160000	20.830000	JEA
+5	François	François	NOM	NOM	_	4	dep	_	_	21.389999	22.180000	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-10
+# text = Georges
+1	Georges	Georges	NOM	NOM	_	0	root	_	_	22.709999	23.410000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-11
+# text = à quel nom
+1	à	à	PRE	PRE	_	0	root	_	_	24.350000	24.430000	OPE
+2	quel	quel	PRQ	PRQ	_	3	dep	_	_	24.440001	24.660000	OPE
+3	nom	nom	NOM	NOM	_	1	dep	_	_	24.670000	24.940001	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-12
+# text = NNAAMMEE
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	25.080000	26.299999	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-13
+# text = ben elle est annulée
+1	ben	ben	INT	INT	_	4	dm	_	_	27.100000	27.290001	OPE
+2	elle	il	CLS	CLS	_	4	subj	_	_	27.540001	27.660000	OPE
+3	est	être	VRB	VRB	_	4	aux	_	_	27.670000	27.690001	OPE
+4	annulée	annuler	VPP	VPP	_	0	root	_	_	27.700001	28.080000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-14
+# text = fallait la retirer avant le vingt-quatre mai
+1	fallait	falloir	VRB	VRB	_	0	root	_	_	28.090000	28.309999	OPE
+2	la	le	CLI	CLI	_	3	dep	_	_	28.320000	28.450001	OPE
+3	retirer	retirer	VNF	VNF	_	1	dep	_	_	28.459999	28.750000	OPE
+4	avant	avant	PRE	PRE	_	3	dep	_	_	28.760000	28.969999	OPE
+5	le	le	DET	DET	_	7	spe	_	_	28.980000	29.070000	OPE
+6	vingt-quatre	vingt-quatre	NUM	NUM	_	7	dep	_	_	29.080000	29.520000	OPE
+7	mai	mai	NOM	NOM	_	4	dep	_	_	29.530001	29.709999	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-15
+# text = donc c'est
+1	donc	donc	ADV	ADV	_	3	periph	_	_	29.719999	29.860001	OPE
+2	c'	ce	CLS	CLS	_	3	subj	_	_	30.000000	30.020000	OPE
+3	est	être	VRB	VRB	_	0	root	_	_	30.030001	30.059999	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-16
+# text = bon ah bon ben voilà ça s'est annulé tout
+1	bon	bon	ADJ	ADJ	_	8	periph	_	_	30.070000	30.139999	JEA
+2	ah bon	ah bon	INT	INT	_	1	dm	_	_	30.290001	30.690001	JEA
+3	ben	ben	INT	INT	_	2	dm	_	_	30.700001	30.830000	JEA
+4	voilà	voilà	INT	INT	_	3	dm	_	_	30.840000	31.010000	JEA
+5	ça	ça	PRO	PRO	_	8	subj	_	_	31.100000	31.170000	JEA
+6	s'	se	CLI	CLI	_	8	dep	_	_	31.180000	31.209999	JEA
+7	est	être	VRB	VRB	_	8	aux	_	_	31.219999	31.260000	JEA
+8	annulé	annuler	VPP	VPP	_	0	root	_	_	31.360001	31.620001	JEA
+9	tout	tout	ADV	ADV	_	8	dep	_	_	31.730000	31.860001	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-17
+# text = seul voilà
+1	seul	seul	ADJ	ADJ	_	0	root	_	_	31.900000	32.480000	OPE
+2	voilà	voilà	INT	INT	_	1	dm	_	_	31.080000	31.620001	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-18
+# text = ben écoutez je vous remercie
+1	ben	ben	INT	INT	_	5	dm	_	_	32.990002	33.080002	JEA
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	33.090000	33.430000	JEA
+3	je	je	CLS	CLS	_	5	subj	_	_	33.439999	33.480000	JEA
+4	vous	vous	CLI	CLI	_	5	dep	_	_	33.490002	33.560001	JEA
+5	remercie	remercier	VRB	VRB	_	0	root	_	_	33.570000	33.970001	JEA
+
+# sent_id = cefc-coralrom-ftelpv37-19
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	34.400002	34.770000	OPE
+
+# sent_id = cefc-coralrom-ftelpv37-20
+# text = de rien au revoir
+1	de	de	PRE	PRE	_	0	root	_	_	34.029999	34.070000	OPE
+2	rien	rien	PRO	PRO	_	1	dep	_	_	34.080002	34.230000	OPE
+3	au revoir	au revoir	INT	INT	_	2	dm	_	_	34.840000	35.080002	OPE
+

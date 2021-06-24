@@ -1,0 +1,528 @@
+# sent_id = cefc-coralrom-ftelpv30-1
+# text = NNAAMMEE bonjour
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	1.810000	2.110000	OPE
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	2.170000	2.550000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-2
+# text = oui bonjour j'aimerais savoir si vous organisez des des collations pour les pauses si vous livrez
+1	oui	oui	INT	INT	_	4	dm	_	_	2.780000	3.000000	EST
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	3.010000	3.390000	EST
+3	j'	je	CLS	CLS	_	4	subj	_	_	3.400000	3.490000	EST
+4	aimerais	aimer	VRB	VRB	_	0	root	_	_	3.500000	3.670000	EST
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	3.680000	3.940000	EST
+6	si	si	CSU	CSU	_	5	dep	_	_	3.950000	4.020000	EST
+7	vous	vous	CLS	CLS	_	8	subj	_	_	4.030000	4.230000	EST
+8	organisez	organiser	VRB	VRB	_	6	dep	_	_	4.240000	4.740000	EST
+9	des	de	PRE	PRE	_	8	dep	_	_	4.780000	5.150000	EST
+10	des	de	PRE	PRE	_	9	para	_	_	5.280000	5.370000	EST
+11	collations	collation	NOM	NOM	_	10	dep	_	_	5.380000	5.910000	EST
+12	pour	pour	PRE	PRE	_	8	dep	_	_	5.920000	6.030000	EST
+13	les	le	DET	DET	_	14	spe	_	_	6.040000	6.140000	EST
+14	pauses	pause	NOM	NOM	_	12	dep	_	_	6.200000	6.570000	EST
+15	si	si	CSU	CSU	_	6	para	_	_	7.080000	7.130000	EST
+16	vous	vous	CLS	CLS	_	17	subj	_	_	7.140000	7.200000	EST
+17	livrez	livrer	VRB	VRB	_	15	dep	_	_	7.290000	7.620000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-3
+# text = pardon j'ai pas entendu
+1	pardon	pardon	NOM	NOM	_	5	periph	_	_	7.430000	7.640000	OPE
+2	j'	je	CLS	CLS	_	5	subj	_	_	7.730000	7.790000	OPE
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	7.800000	7.830000	OPE
+4	pas	pas	ADN	ADN	_	5	dep	_	_	7.840000	8.000000	OPE
+5	entendu	entendre	VPP	VPP	_	0	root	_	_	8.010000	8.360000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-4
+# text = oui je reprends du début
+1	oui	oui	INT	INT	_	3	dm	_	_	8.680000	9.280000	EST
+2	je	je	CLS	CLS	_	3	subj	_	_	9.290000	9.410000	EST
+3	reprends	reprendre	VRB	VRB	_	0	root	_	_	9.420000	9.710000	EST
+4	du	de+le	PRE	PRE	_	3	dep	_	_	9.720000	9.770000	EST
+5	début	début	NOM	NOM	_	4	dep	_	_	9.780000	9.970000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-5
+# text = je me suis mal exprimée
+1	je	je	CLS	CLS	_	5	subj	_	_	10.110000	10.240000	EST
+2	me	me	CLI	CLI	_	5	dep	_	_	10.250000	10.290000	EST
+3	suis	être	VRB	VRB	_	5	aux	_	_	10.300000	10.420000	EST
+4	mal	mal	ADV	ADV	_	5	dep	_	_	10.430000	10.530000	EST
+5	exprimée	exprimer	VPP	VPP	_	0	root	_	_	10.540000	10.930000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-6
+# text = je j'organise une conférence samedi
+1	je	je	CLS	CLS	_	3	subj	_	_	11.170000	11.710000	EST
+2	j'	je	CLS	CLS	_	1	para	_	_	11.850000	11.970000	EST
+3	organise	organiser	VRB	VRB	_	0	root	_	_	11.980000	12.350000	EST
+4	une	un	DET	DET	_	5	spe	_	_	12.360000	12.440000	EST
+5	conférence	conférence	NOM	NOM	_	3	dep	_	_	12.450000	13.030000	EST
+6	samedi	samedi	NOM	NOM	_	5	dep	_	_	13.280000	13.670000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-7
+# text = et il y aura deux pauses dans la journée
+1	et	et	COO	COO	_	4	mark	_	_	14.490000	14.590000	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	14.600000	14.660000	EST
+3	y	y	CLI	CLI	_	4	dep	_	_	14.670000	14.700000	EST
+4	aura	avoir	VRB	VRB	_	0	root	_	_	14.710000	14.910000	EST
+5	deux	deux	NUM	NUM	_	6	spe	_	_	14.920000	15.110000	EST
+6	pauses	pause	NOM	NOM	_	4	dep	_	_	15.120000	15.610000	EST
+7	dans	dans	PRE	PRE	_	4	dep	_	_	16.110001	16.299999	EST
+8	la	le	DET	DET	_	9	spe	_	_	16.309999	16.400000	EST
+9	journée	journée	NOM	NOM	_	7	dep	_	_	16.410000	16.709999	EST
+
+# sent_id = cefc-coralrom-ftelpv30-8
+# text = et j'aurais aimé savoir si vous livriez des des collations pour les pauses
+1	et	et	COO	COO	_	4	mark	_	_	16.790001	16.889999	EST
+2	j'	je	CLS	CLS	_	4	subj	_	_	16.900000	16.980000	EST
+3	aurais	avoir	VRB	VRB	_	4	aux	_	_	16.990000	17.160000	EST
+4	aimé	aimer	VPP	VPP	_	0	root	_	_	17.170000	17.250000	EST
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	17.260000	17.549999	EST
+6	si	si	CSU	CSU	_	5	dep	_	_	17.559999	17.700001	EST
+7	vous	vous	CLS	CLS	_	8	subj	_	_	17.709999	17.840000	EST
+8	livriez	livrer	VRB	VRB	_	6	dep	_	_	17.850000	18.290001	EST
+9	des	de	PRE	PRE	_	8	dep	_	_	18.299999	18.600000	EST
+10	des	de	PRE	PRE	_	9	para	_	_	18.610001	18.700001	EST
+11	collations	collation	NOM	NOM	_	10	dep	_	_	18.709999	19.200001	EST
+12	pour	pour	PRE	PRE	_	8	dep	_	_	19.209999	19.350000	EST
+13	les	le	DET	DET	_	14	spe	_	_	19.360001	19.469999	EST
+14	pauses	pause	NOM	NOM	_	12	dep	_	_	19.480000	19.820000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-9
+# text = ah oui mais c'est vraiment pas notre spécialité hein
+1	ah	ah	INT	INT	_	5	dm	_	_	21.520000	21.540001	OPE
+2	oui	oui	INT	INT	_	1	dm	_	_	21.549999	21.790001	OPE
+3	mais	mais	COO	COO	_	5	mark	_	_	21.799999	21.910000	OPE
+4	c'	ce	CLS	CLS	_	5	subj	_	_	21.920000	21.950001	OPE
+5	est	être	VRB	VRB	_	0	root	_	_	21.959999	22.020000	OPE
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	22.030001	22.340000	OPE
+7	pas	pas	ADN	ADN	_	5	dep	_	_	22.350000	22.459999	OPE
+8	notre	son	DET	DET	_	9	spe	_	_	22.469999	22.709999	OPE
+9	spécialité	spécialité	NOM	NOM	_	5	dep	_	_	22.719999	23.490000	OPE
+10	hein	hein	INT	INT	_	9	dm	_	_	23.500000	23.570000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-10
+# text = on n'est pas traiteur
+1	on	on	CLS	CLS	_	3	subj	_	_	23.580000	23.690001	OPE
+2	n'	ne	CLN	CLN	_	3	dep	_	_	23.690001	23.690001	OPE
+3	est	être	VRB	VRB	_	0	root	_	_	23.700001	23.740000	OPE
+4	pas	pas	ADN	ADN	_	3	dep	_	_	23.750000	23.860001	OPE
+5	traiteur	traiteur	NOM	NOM	_	3	dep	_	_	23.870001	24.280001	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-11
+# text = on est organisateur d'événements
+1	on	on	CLS	CLS	_	2	subj	_	_	24.290001	24.400000	OPE
+2	est	être	VRB	VRB	_	0	root	_	_	24.410000	24.430000	OPE
+3	organisateur	organisateur	NOM	NOM	_	2	dep	_	_	24.440001	25.250000	OPE
+4	d'	de	PRE	PRE	_	3	dep	_	_	25.260000	25.299999	OPE
+5	événements	événement	NOM	NOM	_	4	dep	_	_	25.309999	25.770000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-12
+# text = ah mais vous apparaissez dans la rubrique traiteur
+1	ah	ah	INT	INT	_	4	dm	_	_	25.969999	26.080000	EST
+2	mais	mais	COO	COO	_	4	mark	_	_	26.090000	26.330000	EST
+3	vous	vous	CLS	CLS	_	4	subj	_	_	26.340000	26.410000	EST
+4	apparaissez	apparaître	VRB	VRB	_	0	root	_	_	26.420000	26.889999	EST
+5	dans	dans	PRE	PRE	_	4	dep	_	_	26.930000	27.020000	EST
+6	la	le	DET	DET	_	7	spe	_	_	27.030001	27.120001	EST
+7	rubrique	rubrique	NOM	NOM	_	5	dep	_	_	27.129999	27.450001	EST
+8	traiteur	traiteur	NOM	NOM	_	7	dep	_	_	27.530001	27.980000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-13
+# text = euh oui mais c'est une rubrique qui est qui englobe les deux organisateurs de réceptions et traiteur
+1	euh	euh	INT	INT	_	5	dm	_	_	28.870001	29.030001	OPE
+2	oui	oui	INT	INT	_	1	dm	_	_	29.180000	29.360001	OPE
+3	mais	mais	COO	COO	_	5	mark	_	_	29.370001	29.469999	OPE
+4	c'	ce	CLS	CLS	_	5	subj	_	_	29.570000	29.590000	OPE
+5	est	être	VRB	VRB	_	0	root	_	_	29.600000	29.709999	OPE
+6	une	un	DET	DET	_	7	spe	_	_	29.719999	29.770000	OPE
+7	rubrique	rubrique	NOM	NOM	_	5	dep	_	_	29.780001	30.190001	OPE
+8	qui	qui	PRQ	PRQ	_	9	subj	_	_	30.200001	30.240000	OPE
+9	est	être	VRB	VRB	_	7	dep	_	_	30.250000	30.490000	OPE
+10	qui	qui	PRQ	PRQ	_	11	subj	_	_	30.559999	30.670000	OPE
+11	englobe	englober	VRB	VRB	_	9	para	_	_	30.680000	31.080000	OPE
+12	les	le	DET	DET	_	14	spe	_	_	31.090000	31.250000	OPE
+13	deux	deux	NUM	NUM	_	14	dep	_	_	31.260000	31.450001	OPE
+14	organisateurs	organisateur	NOM	NOM	_	11	dep	_	_	31.650000	32.419998	OPE
+15	de	de	PRE	PRE	_	14	dep	_	_	32.430000	32.470001	OPE
+16	réceptions	réception	NOM	NOM	_	15	dep	_	_	32.480000	33.240002	OPE
+17	et	et	COO	COO	_	18	mark	_	_	33.310001	33.750000	OPE
+18	traiteur	traiteur	NOM	NOM	_	16	para	_	_	33.759998	34.259998	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-14
+# text = oui oui c'est vrai
+1	oui	oui	INT	INT	_	4	dm	_	_	33.330002	33.570000	EST
+2	oui	oui	INT	INT	_	1	dm	_	_	33.580002	33.779999	EST
+3	c'	ce	CLS	CLS	_	4	subj	_	_	33.790001	33.830002	EST
+4	est	être	VRB	VRB	_	0	root	_	_	33.840000	33.939999	EST
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	33.950001	34.279999	EST
+
+# sent_id = cefc-coralrom-ftelpv30-15
+# text = oui d'accord qui englobe
+1	oui	oui	INT	INT	_	2	dm	_	_	34.369999	34.430000	EST
+2	d'	de	PRE	PRE	_	0	root	_	_	34.540001	34.599998	EST
+3	accord	accord	NOM	NOM	_	2	dep	_	_	34.610001	34.740002	EST
+4	qui	qui	PRQ	PRQ	_	5	dep	_	_	34.750000	34.869999	EST
+5	englobe	englober	VRB	VRB	_	3	dep	_	_	34.880001	35.230000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-16
+# text = les deux
+1	les	le	DET	DET	_	2	spe	_	_	35.400002	35.599998	OPE
+2	deux	deux	NUM	NUM	_	0	root	_	_	35.639999	35.939999	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-17
+# text = mais bon non pour des petites choses ponctuelles comme ça
+1	mais	mais	COO	COO	_	4	mark	_	_	35.990002	36.189999	OPE
+2	bon	bon	INT	INT	_	1	dm	_	_	36.500000	36.669998	OPE
+3	non	non	INT	INT	_	2	dm	_	_	36.680000	36.869999	OPE
+4	pour	pour	PRE	PRE	_	0	root	_	_	36.880001	37.009998	OPE
+5	des	de	PRE	PRE	_	4	dep	_	_	37.020000	37.119999	OPE
+6	petites	petit	ADJ	ADJ	_	7	dep	_	_	37.130001	37.330002	OPE
+7	choses	chose	NOM	NOM	_	5	dep	_	_	37.340000	37.529999	OPE
+8	ponctuelles	ponctuel	ADJ	ADJ	_	7	dep	_	_	37.610001	38.080002	OPE
+9	comme	comme	PRE	PRE	_	7	dep	_	_	38.090000	38.290001	OPE
+10	ça	ça	PRO	PRO	_	9	dep	_	_	38.299999	38.490002	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-18
+# text = non non j'imagine bien
+1	non	non	INT	INT	_	4	dm	_	_	38.500000	38.639999	EST
+2	non	non	INT	INT	_	1	dm	_	_	38.900002	39.200001	EST
+3	j'	je	CLS	CLS	_	4	subj	_	_	39.209999	39.290001	EST
+4	imagine	imaginer	VRB	VRB	_	0	root	_	_	39.299999	39.730000	EST
+5	bien	bien	ADV	ADV	_	4	dep	_	_	39.740002	39.880001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-19
+# text = non mais je vais
+1	non	non	INT	INT	_	4	dm	_	_	40.860001	41.000000	EST
+2	mais	mais	COO	COO	_	4	mark	_	_	41.009998	41.310001	EST
+3	je	je	CLS	CLS	_	4	subj	_	_	41.320000	41.450001	EST
+4	vais	aller	VRB	VRB	_	0	root	_	_	41.459999	41.630001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-20
+# text = non vaut mieux s'adresser à un traiteur
+1	non	non	INT	INT	_	2	dm	_	_	40.130001	40.320000	OPE
+2	vaut	valoir	VRB	VRB	_	0	root	_	_	40.410000	40.520000	OPE
+3	mieux	mieux	ADV	ADV	_	2	dep	_	_	40.660000	40.770000	OPE
+4	s'	se	CLI	CLI	_	5	dep	_	_	40.889999	40.910000	OPE
+5	adresser	adresser	VNF	VNF	_	2	dep	_	_	40.919998	41.549999	OPE
+6	à	à	PRE	PRE	_	5	dep	_	_	41.560001	41.599998	OPE
+7	un	un	DET	DET	_	8	spe	_	_	41.639999	41.689999	OPE
+8	traiteur	traiteur	NOM	NOM	_	6	dep	_	_	41.779999	42.130001	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-21
+# text = vous vous êtes dans quel coin
+1	vous	vous	CLS	CLS	_	3	subj	_	_	42.450001	42.660000	OPE
+2	vous	vous	CLI	CLI	_	3	dep	_	_	42.669998	42.770000	OPE
+3	êtes	être	VRB	VRB	_	0	root	_	_	42.779999	42.860001	OPE
+4	dans	dans	PRE	PRE	_	3	dep	_	_	42.869999	43.000000	OPE
+5	quel	quel	PRQ	PRQ	_	6	dep	_	_	43.009998	43.169998	OPE
+6	coin	coin	NOM	NOM	_	4	dep	_	_	43.180000	43.500000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-22
+# text = dans le treizième
+1	dans	dans	PRE	PRE	_	0	root	_	_	43.830002	43.990002	EST
+2	le	le	DET	DET	_	3	spe	_	_	44.000000	44.020000	EST
+3	treizième	treizième	ADJ	ADJ	_	1	dep	_	_	44.029999	44.570000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-23
+# text = treizième euh
+1	treizième	treizième	ADJ	ADJ	_	0	root	_	_	44.910000	46.419998	OPE
+2	euh	euh	INT	INT	_	1	dm	_	_	46.430000	46.450001	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-24
+# text = vous connaissez pas quelqu' un qui ferait ça parce que il y a NNAAMMEE NNAAMMEE
+1	vous	vous	CLS	CLS	_	2	subj	_	_	46.509998	46.560001	EST
+2	connaissez	connaître	VRB	VRB	_	0	root	_	_	46.570000	46.910000	EST
+3	pas	pas	ADN	ADN	_	2	dep	_	_	46.919998	47.029999	EST
+4	quelqu' un	quelqu'un	PRO	PRO	_	2	dep	_	_	47.040001	47.439999	EST
+5	qui	qui	PRQ	PRQ	_	6	dep	_	_	47.450001	47.570000	EST
+6	ferait	faire	VRB	VRB	_	4	dep	_	_	47.580002	47.759998	EST
+7	ça	ça	PRO	PRO	_	6	dep	_	_	47.770000	48.049999	EST
+8	parce que	parce que	CSU	CSU	_	2	dep	_	_	48.060001	48.330002	EST
+9	il	il	CLS	CLS	_	11	subj	_	_	48.340000	48.419998	EST
+10	y	y	CLI	CLI	_	11	dep	_	_	48.430000	48.450001	EST
+11	a	avoir	VRB	VRB	_	8	dep	_	_	48.459999	48.500000	EST
+12	NNAAMMEE	NOM	NOM	NOM	_	11	dep	_	_	48.650002	48.830002	EST
+13	NNAAMMEE	NOM	NOM	NOM	_	12	dep	_	_	48.840000	49.009998	EST
+
+# sent_id = cefc-coralrom-ftelpv30-25
+# text = mais c'est un peu cher
+1	mais	mais	COO	COO	_	3	mark	_	_	49.060001	49.209999	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	49.290001	49.310001	EST
+3	est	être	VRB	VRB	_	0	root	_	_	49.320000	49.340000	EST
+4	un peu	un peu	ADV	ADV	_	5	dep	_	_	49.470001	49.709999	EST
+5	cher	cher	ADJ	ADJ	_	3	dep	_	_	49.720001	50.110001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-26
+# text = deux cents
+1	deux	deux	NUM	NUM	_	0	root	_	_	50.630001	50.790001	EST
+2	cents	cents	NUM	NUM	_	1	dep	_	_	50.799999	51.020000	EST
+
+# sent_id = cefc-coralrom-ftelpv30-27
+# text = combien de personnes madame euh je vais vous donner les coordonnées de notre traiteur
+1	combien	combien	PRQ	PRQ	_	4	dep	_	_	49.340000	49.689999	OPE
+2	de	de	PRE	PRE	_	1	dep	_	_	49.700001	49.720001	OPE
+3	personnes	personne	NOM	NOM	_	2	dep	_	_	49.730000	50.119999	OPE
+4	madame	Monsieur	NOM	NOM	_	7	periph	_	_	50.220001	50.540001	OPE
+5	euh	euh	INT	INT	_	4	dm	_	_	52.180000	53.150002	OPE
+6	je	je	CLS	CLS	_	7	subj	_	_	54.090000	54.110001	OPE
+7	vais	aller	VRB	VRB	_	0	root	_	_	54.160000	54.240002	OPE
+8	vous	vous	CLI	CLI	_	9	dep	_	_	54.250000	54.310001	OPE
+9	donner	donner	VNF	VNF	_	7	dep	_	_	54.320000	54.570000	OPE
+10	les	le	DET	DET	_	11	spe	_	_	54.580002	54.720001	OPE
+11	coordonnées	coordonnée	NOM	NOM	_	9	dep	_	_	54.730000	55.290001	OPE
+12	de	de	PRE	PRE	_	11	dep	_	_	55.349998	55.419998	OPE
+13	notre	son	DET	DET	_	14	spe	_	_	55.500000	55.740002	OPE
+14	traiteur	traiteur	NOM	NOM	_	12	dep	_	_	55.750000	56.430000	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-28
+# text = à la rigueur
+1	à	à	PRE	PRE	_	0	root	_	_	56.730000	56.759998	EST
+2	la	le	DET	DET	_	3	spe	_	_	56.770000	56.880001	EST
+3	rigueur	rigueur	NOM	NOM	_	1	dep	_	_	56.889999	57.200001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-29
+# text = euh vous appelez de ma part
+1	euh	euh	INT	INT	_	3	dm	_	_	57.330002	57.349998	OPE
+2	vous	vous	CLS	CLS	_	3	subj	_	_	57.360001	57.410000	OPE
+3	appelez	appeler	VRB	VRB	_	0	root	_	_	57.419998	58.490002	OPE
+4	de	de	PRE	PRE	_	3	dep	_	_	58.500000	58.599998	OPE
+5	ma	son	DET	DET	_	6	spe	_	_	58.610001	58.779999	OPE
+6	part	part	NOM	NOM	_	4	dep	_	_	58.790001	59.349998	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-30
+# text = d'accord je le dirai
+1	d'	de	PRE	PRE	_	5	periph	_	_	59.580002	59.720001	EST
+2	accord	accord	NOM	NOM	_	1	dep	_	_	59.730000	60.080002	EST
+3	je	je	CLS	CLS	_	5	subj	_	_	60.090000	60.200001	EST
+4	le	le	CLI	CLI	_	5	dep	_	_	60.209999	60.349998	EST
+5	dirai	dire	VRB	VRB	_	0	root	_	_	60.360001	60.580002	EST
+
+# sent_id = cefc-coralrom-ftelpv30-31
+# text = alors je dirai c'est de la part de NNAAMMEE
+1	alors	alors	ADV	ADV	_	3	periph	_	_	60.799999	61.750000	OPE
+2	je	je	CLS	CLS	_	3	subj	_	_	62.930000	62.950001	EST
+3	dirai	dire	VRB	VRB	_	0	root	_	_	63.299999	63.500000	EST
+4	c'	ce	CLS	CLS	_	5	subj	_	_	63.509998	63.529999	EST
+5	est	être	VRB	VRB	_	3	dep	_	_	63.540001	63.639999	EST
+6	de	de	PRE	PRE	_	5	dep	_	_	63.650002	63.669998	EST
+7	la	le	DET	DET	_	8	spe	_	_	63.680000	63.810001	EST
+8	part	part	NOM	NOM	_	6	dep	_	_	63.820000	63.980000	EST
+9	de	de	PRE	PRE	_	8	dep	_	_	63.990002	64.150002	EST
+10	NNAAMMEE	NOM	NOM	NOM	_	9	dep	_	_	64.160004	64.400002	EST
+
+# sent_id = cefc-coralrom-ftelpv30-32
+# text = euh alors de la part de NNAAMMEE société NNAAMMEE alors vous appelez NNAAMMEE
+1	euh	euh	INT	INT	_	12	dm	_	_	65.589996	65.610001	OPE
+2	alors	alors	ADV	ADV	_	12	periph	_	_	65.930000	66.800003	OPE
+3	de	de	PRE	PRE	_	2	disflink	_	_	66.989998	67.110001	OPE
+4	la	le	DET	DET	_	5	spe	_	_	67.730003	67.949997	OPE
+5	part	part	NOM	NOM	_	3	dep	_	_	67.959999	68.169998	OPE
+6	de	de	PRE	PRE	_	5	dep	_	_	68.180000	68.230003	OPE
+7	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	68.239998	69.459999	OPE
+8	société	société	NOM	NOM	_	7	dep	_	_	69.989998	70.699997	OPE
+9	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	70.709999	70.989998	OPE
+10	alors	alors	ADV	ADV	_	12	periph	_	_	72.129997	72.300003	OPE
+11	vous	vous	CLS	CLS	_	12	subj	_	_	72.309998	72.419998	OPE
+12	appelez	appeler	VRB	VRB	_	0	root	_	_	72.430000	72.830002	OPE
+13	NNAAMMEE	NOM	NOM	NOM	_	12	dep	_	_	73.269997	74.410004	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-33
+# text = NNAAMMEE oh
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	74.650002	75.410004	EST
+2	oh	oh	INT	INT	_	1	dm	_	_	75.669998	75.720001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-34
+# text = quel joli nom
+1	quel	quel	PRQ	PRQ	_	3	dep	_	_	75.809998	75.930000	EST
+2	joli	joli	ADJ	ADJ	_	3	dep	_	_	75.940002	76.169998	EST
+3	nom	nom	NOM	NOM	_	0	root	_	_	76.180000	76.370003	EST
+
+# sent_id = cefc-coralrom-ftelpv30-35
+# text = euh traiteur
+1	euh	euh	INT	INT	_	2	dm	_	_	76.779999	76.820000	OPE
+2	traiteur	traiteur	NOM	NOM	_	0	root	_	_	77.139999	78.040001	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-36
+# text = alors traiteur on fait pas
+1	alors	alors	ADV	ADV	_	4	periph	_	_	78.050003	78.440002	OPE
+2	traiteur	traiteur	NOM	NOM	_	4	periph	_	_	80.160004	80.750000	OPE
+3	on	on	CLS	CLS	_	4	subj	_	_	83.040001	83.139999	OPE
+4	fait	faire	VRB	VRB	_	0	root	_	_	83.180000	84.000000	OPE
+5	pas	pas	ADN	ADN	_	4	dep	_	_	84.290001	85.459999	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-37
+# text = on a pas mal de traiteurs
+1	on	on	CLS	CLS	_	2	subj	_	_	85.589996	86.129997	OPE
+2	a	avoir	VRB	VRB	_	0	root	_	_	86.139999	86.190002	OPE
+3	pas	pas	ADN	ADN	_	4	dep	_	_	86.199997	86.360001	OPE
+4	mal	mal	ADV	ADV	_	2	dep	_	_	86.370003	86.519997	OPE
+5	de	de	PRE	PRE	_	2	dep	_	_	86.529999	86.639999	OPE
+6	traiteurs	traiteur	NOM	NOM	_	5	dep	_	_	86.650002	87.150002	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-38
+# text = mais lui c'est bon le plus standard hein
+1	mais	mais	COO	COO	_	4	mark	_	_	87.160004	87.379997	OPE
+2	lui	moi	PRO	PRO	_	4	periph	_	_	87.389999	87.540001	OPE
+3	c'	ce	CLS	CLS	_	4	subj	_	_	87.610001	87.660004	OPE
+4	est	être	VRB	VRB	_	0	root	_	_	87.669998	87.790001	OPE
+5	bon	bon	ADJ	ADJ	_	4	dep	_	_	87.800003	87.980003	OPE
+6	le	le	DET	DET	_	7	spe	_	_	87.989998	88.029999	OPE
+7	plus	plus	NOM	NOM	_	4	dep	_	_	88.139999	88.230003	OPE
+8	standard	standard	ADJ	ADJ	_	7	dep	_	_	88.239998	88.889999	OPE
+9	hein	hein	INT	INT	_	8	dm	_	_	88.949997	89.199997	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-39
+# text = si vous avez pas un énorme budget
+1	si	si	CSU	CSU	_	0	root	_	_	89.300003	89.349998	OPE
+2	vous	vous	CLS	CLS	_	3	subj	_	_	89.360001	89.440002	OPE
+3	avez	avoir	VRB	VRB	_	1	dep	_	_	89.449997	89.669998	OPE
+4	pas	pas	ADN	ADN	_	3	dep	_	_	89.680000	89.849998	OPE
+5	un	un	DET	DET	_	7	spe	_	_	89.860001	89.889999	OPE
+6	énorme	énorme	ADJ	ADJ	_	7	dep	_	_	89.970001	90.239998	OPE
+7	budget	budget	NOM	NOM	_	3	dep	_	_	90.250000	90.660004	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-40
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	88.949997	89.199997	EST
+
+# sent_id = cefc-coralrom-ftelpv30-41
+# text = voilà oui ce serait parfait
+1	voilà	voilà	INT	INT	_	4	dm	_	_	90.800003	91.139999	EST
+2	oui	oui	INT	INT	_	1	dm	_	_	91.150002	91.279999	EST
+3	ce	ce	CLS	CLS	_	4	subj	_	_	91.290001	91.320000	EST
+4	serait	être	VRB	VRB	_	0	root	_	_	91.500000	91.599998	EST
+5	parfait	parfait	ADJ	ADJ	_	4	dep	_	_	91.610001	91.919998	EST
+
+# sent_id = cefc-coralrom-ftelpv30-42
+# text = c'est tout à fait classique
+1	c'	ce	CLS	CLS	_	2	subj	_	_	92.000000	92.019997	OPE
+2	est	être	VRB	VRB	_	0	root	_	_	92.029999	92.050003	OPE
+3	tout à fait	tout à fait	ADV	ADV	_	4	dep	_	_	92.059998	92.639999	OPE
+4	classique	classique	ADJ	ADJ	_	2	dep	_	_	92.650002	93.139999	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-43
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	93.199997	93.360001	EST
+
+# sent_id = cefc-coralrom-ftelpv30-44
+# text = mh mh
+1	mh mh	mh mh	INT	INT	_	0	root	_	_	93.610001	93.860001	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-45
+# text = ah traiteur
+1	ah	ah	INT	INT	_	2	dm	_	_	98.250000	99.120003	OPE
+2	traiteur	traiteur	NOM	NOM	_	0	root	_	_	100.849998	101.480003	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-46
+# text = hum alors
+1	hum	hum	INT	INT	_	0	root	_	_	103.029999	104.419998	OPE
+2	alors	alors	ADV	ADV	_	1	dm	_	_	109.330002	110.330002	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-47
+# text = NNAAMMEE donc vous demandez monsieur NNAAMMEE
+1	NNAAMMEE	NOM	NOM	NOM	_	4	periph	_	_	111.400002	112.139999	OPE
+2	donc	donc	ADV	ADV	_	4	periph	_	_	112.150002	112.279999	OPE
+3	vous	vous	CLS	CLS	_	4	subj	_	_	112.290001	112.339996	OPE
+4	demandez	demander	VRB	VRB	_	0	root	_	_	112.349998	112.790001	OPE
+5	monsieur	Monsieur	NOM	NOM	_	4	dep	_	_	112.800003	113.339996	OPE
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	114.000000	114.169998	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-48
+# text = comment il s'appelle NNAAMMEE oui NNAAMMEE
+1	comment	comment	PRQ	PRQ	_	4	dep	_	_	114.550003	114.779999	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	114.790001	114.849998	EST
+3	s'	se	CLI	CLI	_	4	dep	_	_	114.860001	114.910004	EST
+4	appelle	appeler	VRB	VRB	_	0	root	_	_	114.949997	115.059998	EST
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	115.250000	116.769997	EST
+6	oui	oui	INT	INT	_	5	dm	_	_	117.199997	117.279999	EST
+7	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	117.699997	120.459999	EST
+
+# sent_id = cefc-coralrom-ftelpv30-49
+# text = c'est juste une livraison
+1	c'	ce	CLS	CLS	_	2	subj	_	_	121.199997	121.220001	OPE
+2	est	être	VRB	VRB	_	0	root	_	_	121.519997	121.559998	OPE
+3	juste	juste	ADV	ADV	_	2	dep	_	_	121.599998	121.809998	OPE
+4	une	un	DET	DET	_	5	spe	_	_	121.820000	121.879997	OPE
+5	livraison	livraison	NOM	NOM	_	2	dep	_	_	121.889999	122.419998	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-50
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	123.150002	123.279999	EST
+
+# sent_id = cefc-coralrom-ftelpv30-51
+# text = il vous faut un maître d'hôtel
+1	il	il	CLS	CLS	_	3	subj	_	_	123.480003	123.550003	OPE
+2	vous	vous	CLI	CLI	_	3	dep	_	_	123.559998	123.669998	OPE
+3	faut	faillir	VRB	VRB	_	0	root	_	_	123.680000	123.800003	OPE
+4	un	un	DET	DET	_	5	spe	_	_	123.809998	123.900002	OPE
+5	maître	maître	NOM	NOM	_	3	dep	_	_	123.910004	124.080002	OPE
+6	d'	de	PRE	PRE	_	5	dep	_	_	124.089996	124.110001	OPE
+7	hôtel	hôtel	NOM	NOM	_	6	dep	_	_	124.120003	124.339996	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-52
+# text = il vous faut
+1	il	il	CLS	CLS	_	3	subj	_	_	124.589996	124.889999	OPE
+2	vous	vous	CLI	CLI	_	3	dep	_	_	125.099998	125.199997	OPE
+3	faut	faillir	VRB	VRB	_	0	root	_	_	125.260002	125.459999	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-53
+# text = non non non non on a le personne-~
+1	non	non	INT	INT	_	6	dm	_	_	124.519997	124.900002	EST
+2	non	non	INT	INT	_	1	para	_	_	124.910004	125.220001	EST
+3	non	non	INT	INT	_	2	para	_	_	125.230003	125.459999	EST
+4	non	non	INT	INT	_	3	para	_	_	125.540001	125.720001	EST
+5	on	on	CLS	CLS	_	6	subj	_	_	125.870003	126.000000	EST
+6	a	avoir	VRB	VRB	_	0	root	_	_	126.010002	126.059998	EST
+7	le	le	DET	DET	_	8	spe	_	_	126.070000	126.120003	EST
+8	personne-~	personne-~	NOM	NOM	_	6	dep	_	_	126.129997	126.489998	EST
+
+# sent_id = cefc-coralrom-ftelpv30-54
+# text = enfin on n-~ on pourra s'en occuper oui
+1	enfin	enfin	ADV	ADV	_	3	dm	_	_	126.500000	126.680000	EST
+2	on	on	CLS	CLS	_	3	subj	_	_	126.690002	126.980003	EST
+3	n-~	n-~	VRB	VRB	_	0	root	_	_	126.989998	127.050003	EST
+4	on	on	CLS	CLS	_	5	subj	_	_	127.059998	127.320000	EST
+5	pourra	pouvoir	VRB	VRB	_	3	para	_	_	127.330002	127.570000	EST
+6	s'	se	CLI	CLI	_	8	dep	_	_	127.580002	127.629997	EST
+7	en	en	CLI	CLI	_	8	dep	_	_	127.639999	127.730003	EST
+8	occuper	occuper	VNF	VNF	_	5	dep	_	_	127.739998	128.039993	EST
+9	oui	oui	INT	INT	_	8	dm	_	_	128.050003	128.130005	EST
+
+# sent_id = cefc-coralrom-ftelpv30-55
+# text = euh donc zéro un quarante-sept trente-neuf
+1	euh	euh	INT	INT	_	3	dm	_	_	128.429993	128.460007	OPE
+2	donc	donc	ADV	ADV	_	1	dm	_	_	128.500000	129.100006	OPE
+3	zéro	zéro	NOM	NOM	_	0	root	_	_	129.199997	129.440002	OPE
+4	un	un	DET	DET	_	3	dep	_	_	129.449997	129.580002	OPE
+5	quarante-sept	quarante-sept	NUM	NUM	_	4	para	_	_	129.589996	130.229996	OPE
+6	trente-neuf	trente-neuf	NUM	NUM	_	5	dep	_	_	130.240005	130.960007	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-56
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	131.229996	131.589996	EST
+
+# sent_id = cefc-coralrom-ftelpv30-57
+# text = NNAAMMEE NNAAMMEE
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	132.039993	132.690002	OPE
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	132.699997	132.929993	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-58
+# text = NNAAMMEE NNAAMMEE
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	133.080002	133.529999	EST
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	133.580002	133.960007	EST
+
+# sent_id = cefc-coralrom-ftelpv30-59
+# text = voilà je vous en prie
+1	voilà	voilà	INT	INT	_	5	dm	_	_	134.169998	134.350006	OPE
+2	je	je	CLS	CLS	_	5	subj	_	_	135.309998	135.360001	OPE
+3	vous	vous	CLI	CLI	_	5	dep	_	_	135.369995	135.479996	OPE
+4	en	en	CLI	CLI	_	5	dep	_	_	135.490005	135.570007	OPE
+5	prie	prier	VRB	VRB	_	0	root	_	_	135.580002	135.679993	OPE
+
+# sent_id = cefc-coralrom-ftelpv30-60
+# text = au revoir ben je vous remercie au revoir
+1	au revoir	au revoir	INT	INT	_	5	dm	_	_	135.740005	136.270004	EST
+2	ben	ben	INT	INT	_	1	dm	_	_	134.509995	134.610001	EST
+3	je	je	CLS	CLS	_	5	subj	_	_	134.619995	134.710007	EST
+4	vous	vous	CLI	CLI	_	5	dep	_	_	134.720001	134.809998	EST
+5	remercie	remercier	VRB	VRB	_	0	root	_	_	134.820007	135.250000	EST
+6	au revoir	au revoir	INT	INT	_	5	dm	_	_	135.740005	136.270004	EST
+

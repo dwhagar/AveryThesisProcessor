@@ -1,0 +1,583 @@
+# sent_id = cefc-coralrom-ftelpv22-1
+# text = service clients NNAAMMEE NNAAMMEE NNAAMMEE bonjour
+1	service	service	NOM	NOM	_	0	root	_	_	0.820000	1.300000	IGO
+2	clients	client	ADJ	ADJ	_	1	dep	_	_	1.400000	1.850000	IGO
+3	NNAAMMEE	NOM	NOM	NOM	_	1	para	_	_	1.860000	2.090000	IGO
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	2.100000	2.390000	IGO
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	2.400000	2.580000	IGO
+6	bonjour	bonjour	INT	INT	_	5	dm	_	_	2.590000	3.010000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-2
+# text = bonjour monsieur je vous éc euh téléphone pour faire un petit peu le point parce que euh une de mes filles
+1	bonjour	bonjour	INT	INT	_	5	dm	_	_	3.190000	3.540000	MAR
+2	monsieur	Monsieur	NOM	NOM	_	5	periph	_	_	3.550000	3.960000	MAR
+3	je	je	CLS	CLS	_	5	subj	_	_	4.910000	5.150000	MAR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	5.160000	5.230000	MAR
+5	éc	éc	VRB	VRB	_	0	root	_	_	5.240000	5.330000	MAR
+6	euh	euh	INT	INT	_	5	dm	_	_	5.630000	5.880000	MAR
+7	téléphone	téléphone	NOM	NOM	_	5	dep	_	_	5.890000	6.430000	MAR
+8	pour	pour	PRE	PRE	_	5	dep	_	_	6.440000	6.580000	MAR
+9	faire	faire	VNF	VNF	_	8	dep	_	_	6.590000	6.740000	MAR
+10	un	un	DET	DET	_	12	spe	_	_	6.750000	6.930000	MAR
+11	petit	petit	ADJ	ADJ	_	12	dep	_	_	6.940000	7.040000	MAR
+12	peu	peu	NOM	NOM	_	9	dep	_	_	7.080000	7.190000	MAR
+13	le	le	DET	DET	_	14	spe	_	_	7.200000	7.260000	MAR
+14	point	point	NOM	NOM	_	9	dep	_	_	7.300000	7.580000	MAR
+15	parce que	parce que	CSU	CSU	_	9	dep	_	_	8.110000	8.740000	MAR
+16	euh	euh	INT	INT	_	15	dm	_	_	8.750000	8.830000	MAR
+17	une	un	DET	DET	_	5	dep	_	_	8.920000	9.120000	MAR
+18	de	de	PRE	PRE	_	17	dep	_	_	9.130000	9.240000	MAR
+19	mes	son	DET	DET	_	20	spe	_	_	9.250000	9.430000	MAR
+20	filles	fille	NOM	NOM	_	18	dep	_	_	9.550000	9.760000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-3
+# text = a un abonnement NNAAMMEE qui avait été souscrit courant juillet l'année dernière
+1	a	avoir	VRB	VRB	_	0	root	_	_	9.770000	9.850000	MAR
+2	un	un	DET	DET	_	3	spe	_	_	9.860000	10.220000	MAR
+3	abonnement	abonnement	NOM	NOM	_	1	dep	_	_	10.230000	10.670000	MAR
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	10.680000	10.950000	MAR
+5	qui	qui	PRQ	PRQ	_	8	dep	_	_	10.960000	11.010000	MAR
+6	avait	avoir	VRB	VRB	_	7	aux	_	_	11.020000	11.150000	MAR
+7	été	être	VPP	VPP	_	8	aux	_	_	11.160000	11.360000	MAR
+8	souscrit	souscrire	VPP	VPP	_	4	dep	_	_	11.370000	11.940000	MAR
+9	courant	courant	ADJ	ADJ	_	8	dep	_	_	12.310000	12.610000	MAR
+10	juillet	juillet	NOM	NOM	_	8	dep	_	_	12.620000	13.000000	MAR
+11	l'	le	DET	DET	_	12	spe	_	_	13.010000	13.070000	MAR
+12	année	année	NOM	NOM	_	8	dep	_	_	13.080000	13.270000	MAR
+13	dernière	dernier	ADJ	ADJ	_	12	dep	_	_	13.280000	13.760000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-4
+# text = que j'ai résilié
+1	que	que	CSU	CSU	_	0	root	_	_	14.220000	14.360000	MAR
+2	j'	je	CLS	CLS	_	4	subj	_	_	14.370000	14.470000	MAR
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	14.480000	14.500000	MAR
+4	résilié	résilier	VPP	VPP	_	1	dep	_	_	14.510000	15.190000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-5
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	15.200000	15.610000	MAR
+2	euh	euh	INT	INT	_	1	dm	_	_	15.620000	16.219999	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-6
+# text = comme comme on doit le faire
+1	comme	comme	PRE	PRE	_	0	root	_	_	16.709999	17.270000	MAR
+2	comme	comme	CSU	CSU	_	1	dep	_	_	17.280001	17.450001	MAR
+3	on	on	CLS	CLS	_	4	subj	_	_	17.459999	17.540001	MAR
+4	doit	devoir	VRB	VRB	_	2	dep	_	_	17.549999	17.750000	MAR
+5	le	le	CLI	CLI	_	6	dep	_	_	17.760000	17.780001	MAR
+6	faire	faire	VNF	VNF	_	4	dep	_	_	17.790001	18.000000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-7
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	14.040000	14.090000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-8
+# text = c'est-à-dire euh un mois
+1	c'	ce	CLS	CLS	_	2	subj	_	_	18.120001	18.150000	MAR
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	18.160000	18.400000	MAR
+3	euh	euh	INT	INT	_	2	dm	_	_	18.620001	18.760000	MAR
+4	un	un	DET	DET	_	5	spe	_	_	18.860001	18.950001	MAR
+5	mois	moi	NOM	NOM	_	2	dep	_	_	18.959999	19.290001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-9
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	18.160000	18.360001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-10
+# text = oui vous pouvez me rappelez le numéro de mobile
+1	oui	oui	INT	INT	_	3	dm	_	_	19.719999	19.850000	IGO
+2	vous	vous	CLS	CLS	_	3	subj	_	_	19.860001	20.010000	IGO
+3	pouvez	pouvoir	VRB	VRB	_	0	root	_	_	20.020000	20.360001	IGO
+4	me	me	CLI	CLI	_	5	dep	_	_	20.410000	20.750000	IGO
+5	rappelez	rappeler	VRB	VRB	_	3	para	_	_	20.760000	21.209999	IGO
+6	le	le	DET	DET	_	7	spe	_	_	21.219999	21.370001	IGO
+7	numéro	numéro	NOM	NOM	_	5	dep	_	_	21.410000	21.709999	IGO
+8	de	de	PRE	PRE	_	7	dep	_	_	21.719999	21.770000	IGO
+9	mobile	mobile	NOM	NOM	_	8	dep	_	_	21.780001	21.950001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-11
+# text = s'il vous plaît madame
+1	s'	si	CSU	CSU	_	0	root	_	_	21.959999	21.980000	IGO
+2	il	il	CLS	CLS	_	4	subj	_	_	21.990000	22.040001	IGO
+3	vous	vous	CLI	CLI	_	4	dep	_	_	22.049999	22.230000	IGO
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	22.320000	22.440001	IGO
+5	madame	Monsieur	NOM	NOM	_	4	dep	_	_	22.450001	22.719999	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-12
+# text = oui zéro six quatre-vingt-quatre douze
+1	oui	oui	INT	INT	_	2	dm	_	_	22.379999	22.700001	MAR
+2	zéro	zéro	NOM	NOM	_	0	root	_	_	23.030001	23.430000	MAR
+3	six	six	NUM	NUM	_	2	dep	_	_	23.440001	23.750000	MAR
+4	quatre-vingt-quatre	quatre-vingt-quatre	NUM	NUM	_	3	dep	_	_	23.760000	24.680000	MAR
+5	douze	douze	NUM	NUM	_	4	dep	_	_	24.690001	25.219999	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-13
+# text = j'ai donc fait un courrier
+1	j'	je	CLS	CLS	_	4	subj	_	_	27.570000	27.670000	MAR
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	27.680000	27.740000	MAR
+3	donc	donc	ADV	ADV	_	4	dep	_	_	27.750000	27.950001	MAR
+4	fait	faire	VPP	VPP	_	0	root	_	_	28.000000	28.070000	MAR
+5	un	un	DET	DET	_	6	spe	_	_	28.080000	28.219999	MAR
+6	courrier	courrier	NOM	NOM	_	4	dep	_	_	28.230000	28.700001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-14
+# text = il y a je pense un petit mois
+1	il	il	CLS	CLS	_	3	subj	_	_	28.709999	28.799999	MAR
+2	y	y	CLI	CLI	_	3	dep	_	_	28.809999	28.840000	MAR
+3	a	avoir	VRB	VRB	_	0	root	_	_	28.850000	28.930000	MAR
+4	je	je	CLS	CLS	_	5	subj	_	_	28.940001	29.070000	MAR
+5	pense	penser	VRB	VRB	_	3	dm	_	_	29.080000	29.450001	MAR
+6	un	un	DET	DET	_	8	spe	_	_	29.459999	29.590000	MAR
+7	petit	petit	ADJ	ADJ	_	8	dep	_	_	29.600000	29.770000	MAR
+8	mois	moi	NOM	NOM	_	5	dep	_	_	29.780001	30.090000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-15
+# text = oui vous pouvez me rappeler le nom et les coordonnées
+1	oui	oui	INT	INT	_	3	dm	_	_	30.959999	31.110001	IGO
+2	vous	vous	CLS	CLS	_	3	subj	_	_	31.120001	31.230000	IGO
+3	pouvez	pouvoir	VRB	VRB	_	0	root	_	_	31.240000	31.480000	IGO
+4	me	me	CLI	CLI	_	5	dep	_	_	31.490000	31.549999	IGO
+5	rappeler	rappeler	VNF	VNF	_	3	dep	_	_	31.559999	31.809999	IGO
+6	le	le	DET	DET	_	7	spe	_	_	31.820000	32.029999	IGO
+7	nom	nom	NOM	NOM	_	5	dep	_	_	32.099998	32.299999	IGO
+8	et	et	COO	COO	_	10	mark	_	_	32.360001	32.400002	IGO
+9	les	le	DET	DET	_	10	spe	_	_	32.410000	32.549999	IGO
+10	coordonnées	coordonnée	NOM	NOM	_	7	para	_	_	32.560001	32.980000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-16
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	33.029999	33.160000	IGO
+2	il	il	CLS	CLS	_	4	subj	_	_	33.169998	33.220001	IGO
+3	vous	vous	CLI	CLI	_	4	dep	_	_	33.230000	33.320000	IGO
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	33.330002	33.500000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-17
+# text = alors je pense que c'est à mon nom NNAAMMEE quarante-huit avenue du NNAAMMEE puisqu'elle était mineure euh au moment où j'ai souscrit le contrat
+1	alors	alors	ADV	ADV	_	3	periph	_	_	33.650002	34.389999	MAR
+2	je	je	CLS	CLS	_	3	subj	_	_	34.480000	34.680000	MAR
+3	pense	penser	VRB	VRB	_	0	root	_	_	34.689999	34.970001	MAR
+4	que	que	CSU	CSU	_	3	dep	_	_	34.980000	35.090000	MAR
+5	c'	ce	CLS	CLS	_	6	subj	_	_	35.099998	35.200001	MAR
+6	est	être	VRB	VRB	_	4	dep	_	_	35.209999	35.230000	MAR
+7	à	à	PRE	PRE	_	6	dep	_	_	35.240002	35.320000	MAR
+8	mon	son	DET	DET	_	9	spe	_	_	35.330002	35.470001	MAR
+9	nom	nom	NOM	NOM	_	7	dep	_	_	35.480000	35.720001	MAR
+10	NNAAMMEE	NOM	NOM	NOM	_	9	dep	_	_	35.730000	36.279999	MAR
+11	quarante-huit	quarante-huit	NUM	NUM	_	12	spe	_	_	36.340000	36.939999	MAR
+12	avenue	avenue	NOM	NOM	_	9	para	_	_	36.950001	37.240002	MAR
+13	du	de+le	PRE	PRE	_	12	dep	_	_	37.250000	37.389999	MAR
+14	NNAAMMEE	NOM	NOM	NOM	_	13	dep	_	_	37.400002	37.820000	MAR
+15	puisqu'	puisque	CSU	CSU	_	3	periph	_	_	38.810001	38.980000	MAR
+16	elle	il	CLS	CLS	_	17	subj	_	_	38.990002	39.150002	MAR
+17	était	être	VRB	VRB	_	15	dep	_	_	39.160000	39.430000	MAR
+18	mineure	mineure	NOM	NOM	_	17	dep	_	_	39.500000	40.070000	MAR
+19	euh	euh	INT	INT	_	18	dm	_	_	40.080002	40.119999	MAR
+20	au	à+le	PRE	PRE	_	17	dep	_	_	40.130001	40.160000	MAR
+21	moment	moment	NOM	NOM	_	20	dep	_	_	40.169998	40.509998	MAR
+22	où	où	PRQ	PRQ	_	25	dep	_	_	40.520000	40.549999	MAR
+23	j'	je	CLS	CLS	_	25	subj	_	_	40.560001	40.669998	MAR
+24	ai	avoir	VRB	VRB	_	25	aux	_	_	40.680000	40.889999	MAR
+25	souscrit	souscrire	VPP	VPP	_	21	dep	_	_	40.900002	41.250000	MAR
+26	le	le	DET	DET	_	27	spe	_	_	41.259998	41.320000	MAR
+27	contrat	contrat	NOM	NOM	_	25	dep	_	_	41.330002	41.689999	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-18
+# text = d'accord donc vous avez
+1	d'	de	PRE	PRE	_	5	periph	_	_	38.310001	38.549999	IGO
+2	accord	accord	NOM	NOM	_	1	dep	_	_	38.560001	38.700001	IGO
+3	donc	donc	ADV	ADV	_	5	periph	_	_	38.790001	38.970001	IGO
+4	vous	vous	CLS	CLS	_	5	subj	_	_	38.980000	39.169998	IGO
+5	avez	avoir	VRB	VRB	_	0	root	_	_	39.180000	39.380001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-19
+# text = donc vous avez fait un courrier
+1	donc	donc	ADV	ADV	_	4	periph	_	_	41.869999	42.040001	IGO
+2	vous	vous	CLS	CLS	_	4	subj	_	_	42.049999	42.209999	IGO
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	42.220001	42.439999	IGO
+4	fait	faire	VPP	VPP	_	0	root	_	_	42.450001	42.500000	IGO
+5	un	un	DET	DET	_	6	spe	_	_	42.509998	42.540001	IGO
+6	courrier	courrier	NOM	NOM	_	4	dep	_	_	42.549999	42.820000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-20
+# text = il y a un mois pour euh
+1	il	il	CLS	CLS	_	3	subj	_	_	42.830002	43.029999	IGO
+2	y	y	CLI	CLI	_	3	dep	_	_	43.040001	43.080002	IGO
+3	a	avoir	VRB	VRB	_	0	root	_	_	43.090000	43.130001	IGO
+4	un	un	DET	DET	_	5	spe	_	_	43.139999	43.220001	IGO
+5	mois	moi	NOM	NOM	_	3	dep	_	_	43.230000	43.459999	IGO
+6	pour	pour	PRE	PRE	_	3	dep	_	_	43.470001	43.790001	IGO
+7	euh	euh	INT	INT	_	6	dm	_	_	43.799999	43.820000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-21
+# text = pour annuler le le con-~ le le contrat
+1	pour	pour	PRE	PRE	_	0	root	_	_	44.110001	44.299999	MAR
+2	annuler	annuler	VNF	VNF	_	1	dep	_	_	44.310001	44.720001	MAR
+3	le	le	DET	DET	_	5	spe	_	_	44.730000	45.509998	MAR
+4	le	le	DET	DET	_	3	para	_	_	45.520000	45.709999	MAR
+5	con-~	con-~	NOM	NOM	_	2	dep	_	_	45.720001	45.959999	MAR
+6	le	le	DET	DET	_	8	spe	_	_	45.970001	46.340000	MAR
+7	le	le	DET	DET	_	6	para	_	_	46.349998	46.509998	MAR
+8	contrat	contrat	NOM	NOM	_	5	para	_	_	46.520000	46.950001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-22
+# text = pour annuler le contrat hum
+1	pour	pour	PRE	PRE	_	0	root	_	_	47.250000	47.400002	IGO
+2	annuler	annuler	VNF	VNF	_	1	dep	_	_	47.410000	47.669998	IGO
+3	le	le	DET	DET	_	4	spe	_	_	47.680000	47.779999	IGO
+4	contrat	contrat	NOM	NOM	_	2	dep	_	_	47.790001	48.139999	IGO
+5	hum	hum	INT	INT	_	4	dm	_	_	48.820000	48.880001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-23
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	48.209999	48.470001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-24
+# text = et donc on m'avait dit que je pense que ça prendrait effet euh que le téléphone cesserait de de fonctionner le vingt-deux juillet
+1	et	et	COO	COO	_	6	mark	_	_	49.340000	49.369999	MAR
+2	donc	donc	ADV	ADV	_	6	periph	_	_	49.380001	49.980000	MAR
+3	on	on	CLS	CLS	_	6	subj	_	_	49.990002	50.220001	MAR
+4	m'	me	CLI	CLI	_	6	dep	_	_	50.230000	50.299999	MAR
+5	avait	avoir	VRB	VRB	_	6	aux	_	_	50.310001	50.560001	MAR
+6	dit	dire	VPP	VPP	_	0	root	_	_	50.570000	50.869999	MAR
+7	que	que	CSU	CSU	_	6	dep	_	_	50.880001	51.080002	MAR
+8	je	je	CLS	CLS	_	9	subj	_	_	51.090000	51.240002	MAR
+9	pense	penser	VRB	VRB	_	7	dep	_	_	51.250000	51.540001	MAR
+10	que	que	CSU	CSU	_	9	dep	_	_	51.549999	51.650002	MAR
+11	ça	ça	PRO	PRO	_	12	subj	_	_	51.660000	51.820000	MAR
+12	prendrait	prendre	VRB	VRB	_	10	dep	_	_	51.830002	52.270000	MAR
+13	effet	effet	NOM	NOM	_	12	dep	_	_	52.400002	52.590000	MAR
+14	euh	euh	INT	INT	_	13	dm	_	_	52.599998	52.840000	MAR
+15	que	que	CSU	CSU	_	12	dep	_	_	53.340000	53.459999	MAR
+16	le	le	DET	DET	_	17	spe	_	_	53.470001	53.570000	MAR
+17	téléphone	téléphone	NOM	NOM	_	18	subj	_	_	53.580002	54.139999	MAR
+18	cesserait	cesser	VRB	VRB	_	15	dep	_	_	54.150002	54.610001	MAR
+19	de	de	PRE	PRE	_	18	dep	_	_	54.619999	54.990002	MAR
+20	de	de	PRE	PRE	_	19	para	_	_	55.000000	55.110001	MAR
+21	fonctionner	fonctionner	VNF	VNF	_	20	dep	_	_	55.119999	55.669998	MAR
+22	le	le	DET	DET	_	24	spe	_	_	55.680000	55.810001	MAR
+23	vingt-deux	vingt-deux	NUM	NUM	_	24	dep	_	_	55.820000	56.189999	MAR
+24	juillet	juillet	NOM	NOM	_	21	dep	_	_	56.200001	56.540001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-25
+# text = et on m'avait également dit qu'on m'enverrait un courrier
+1	et	et	COO	COO	_	6	mark	_	_	57.419998	57.549999	MAR
+2	on	on	CLS	CLS	_	6	subj	_	_	57.560001	57.650002	MAR
+3	m'	me	CLI	CLI	_	6	dep	_	_	57.660000	57.730000	MAR
+4	avait	avoir	VRB	VRB	_	6	aux	_	_	57.740002	57.959999	MAR
+5	également	également	ADV	ADV	_	6	dep	_	_	57.970001	58.340000	MAR
+6	dit	dire	VPP	VPP	_	0	root	_	_	58.349998	58.500000	MAR
+7	qu'	que	CSU	CSU	_	6	dep	_	_	58.509998	58.570000	MAR
+8	on	on	CLS	CLS	_	10	subj	_	_	58.580002	58.639999	MAR
+9	m'	me	CLI	CLI	_	10	dep	_	_	58.650002	58.689999	MAR
+10	enverrait	envoyer	VRB	VRB	_	7	dep	_	_	58.700001	58.980000	MAR
+11	un	un	DET	DET	_	12	spe	_	_	58.990002	59.119999	MAR
+12	courrier	courrier	NOM	NOM	_	10	dep	_	_	59.130001	59.610001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-26
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	59.959999	60.029999	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-27
+# text = j'ai envoyé un courrier par reco-~ recommandé avec euh accusé de réception que j'ai reçu
+1	j'	je	CLS	CLS	_	3	subj	_	_	60.299999	60.380001	MAR
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	60.389999	60.410000	MAR
+3	envoyé	envoyer	VPP	VPP	_	0	root	_	_	60.419998	60.779999	MAR
+4	un	un	DET	DET	_	5	spe	_	_	60.790001	60.860001	MAR
+5	courrier	courrier	NOM	NOM	_	3	dep	_	_	60.869999	61.169998	MAR
+6	par	par	PRE	PRE	_	5	dep	_	_	61.180000	61.430000	MAR
+7	reco-~	reco-~	NOM	NOM	_	6	dep	_	_	61.439999	61.680000	MAR
+8	recommandé	recommander	VPP	VPP	_	7	dep	_	_	61.689999	62.290001	MAR
+9	avec	avec	PRE	PRE	_	8	dep	_	_	62.299999	62.650002	MAR
+10	euh	euh	INT	INT	_	9	dm	_	_	62.660000	62.880001	MAR
+11	accusé	accuser	VPP	VPP	_	8	para	_	_	62.889999	63.139999	MAR
+12	de	de	PRE	PRE	_	11	dep	_	_	63.250000	63.290001	MAR
+13	réception	réception	NOM	NOM	_	12	dep	_	_	63.299999	63.849998	MAR
+14	que	que	PRQ	PRQ	_	17	dep	_	_	63.980000	64.080002	MAR
+15	j'	je	CLS	CLS	_	17	subj	_	_	64.089996	64.220001	MAR
+16	ai	avoir	VRB	VRB	_	17	aux	_	_	64.230003	64.250000	MAR
+17	reçu	recevoir	VPP	VPP	_	11	para	_	_	64.260002	64.720001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-28
+# text = et comme j'ai aucune nouvelle euh je me permettais de vous appeler pour savoir ce
+1	et	et	COO	COO	_	10	mark	_	_	65.309998	65.379997	MAR
+2	comme	comme	CSU	CSU	_	10	periph	_	_	65.389999	65.620003	MAR
+3	j'	je	CLS	CLS	_	4	subj	_	_	65.629997	65.690002	MAR
+4	ai	avoir	VRB	VRB	_	2	dep	_	_	65.699997	65.720001	MAR
+5	aucune	aucun	DET	DET	_	6	spe	_	_	65.730003	66.070000	MAR
+6	nouvelle	nouveau	NOM	NOM	_	4	dep	_	_	66.080002	66.500000	MAR
+7	euh	euh	INT	INT	_	10	dm	_	_	67.010002	67.029999	MAR
+8	je	je	CLS	CLS	_	10	subj	_	_	67.089996	67.269997	MAR
+9	me	me	CLI	CLI	_	10	dep	_	_	67.279999	67.349998	MAR
+10	permettais	permettre	VRB	VRB	_	0	root	_	_	67.360001	67.800003	MAR
+11	de	de	PRE	PRE	_	10	dep	_	_	67.809998	67.860001	MAR
+12	vous	vous	CLI	CLI	_	13	dep	_	_	67.870003	68.019997	MAR
+13	appeler	appeler	VNF	VNF	_	11	dep	_	_	68.029999	68.360001	MAR
+14	pour	pour	PRE	PRE	_	13	dep	_	_	68.370003	68.500000	MAR
+15	savoir	savoir	VNF	VNF	_	14	dep	_	_	68.510002	68.830002	MAR
+16	ce	ce	PRO	PRO	_	15	dep	_	_	68.839996	68.860001	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-29
+# text = qu'il en était accusé de réception
+1	qu'	que	PRQ	PRQ	_	5	dep	_	_	68.870003	68.910004	MAR
+2	il	il	CLS	CLS	_	5	subj	_	_	68.949997	69.050003	MAR
+3	en	en	CLI	CLI	_	5	dep	_	_	69.059998	69.190002	MAR
+4	était	être	VRB	VRB	_	5	aux	_	_	69.199997	69.430000	MAR
+5	accusé	accuser	VPP	VPP	_	0	root	_	_	63.230000	63.380001	IGO
+6	de	de	PRE	PRE	_	5	dep	_	_	63.389999	63.410000	IGO
+7	réception	réception	NOM	NOM	_	6	dep	_	_	63.419998	63.849998	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-30
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	64.970001	65.080002	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-31
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	66.980003	67.029999	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-32
+# text = d'accord je vous p~ prie de patienter un tout petit peu
+1	d'	de	PRE	PRE	_	5	periph	_	_	69.510002	69.680000	IGO
+2	accord	accord	NOM	NOM	_	1	dep	_	_	69.750000	69.949997	IGO
+3	je	je	CLS	CLS	_	5	subj	_	_	70.290001	70.430000	IGO
+4	vous	vous	CLI	CLI	_	5	dep	_	_	70.510002	70.639999	IGO
+5	p~	p~	VRB	VRB	_	0	root	_	_	70.650002	70.760002	IGO
+6	prie	prie	NOM	NOM	_	5	dep	_	_	71.029999	71.169998	IGO
+7	de	de	PRE	PRE	_	6	dep	_	_	71.180000	71.290001	IGO
+8	patienter	patienter	VNF	VNF	_	7	dep	_	_	71.300003	71.660004	IGO
+9	un	un	DET	DET	_	12	spe	_	_	71.669998	71.699997	IGO
+10	tout	tout	ADJ	ADJ	_	11	dep	_	_	71.709999	71.809998	IGO
+11	petit	petit	ADJ	ADJ	_	12	dep	_	_	71.820000	71.989998	IGO
+12	peu	peu	ADV	ADV	_	8	dep	_	_	72.000000	72.089996	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-33
+# text = je consulte votre dossier hein
+1	je	je	CLS	CLS	_	2	subj	_	_	72.099998	72.239998	IGO
+2	consulte	consulter	VRB	VRB	_	0	root	_	_	72.250000	72.610001	IGO
+3	votre	son	DET	DET	_	4	spe	_	_	72.620003	72.889999	IGO
+4	dossier	dossier	NOM	NOM	_	2	dep	_	_	72.900002	73.080002	IGO
+5	hein	hein	INT	INT	_	4	dm	_	_	73.230003	73.400002	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-34
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	73.669998	74.070000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-35
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	73.139999	73.400002	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-36
+# text = madame je vous remercie d'avoir patienté
+1	madame	Monsieur	NOM	NOM	_	4	periph	_	_	78.879997	79.360001	IGO
+2	je	je	CLS	CLS	_	4	subj	_	_	79.820000	79.959999	IGO
+3	vous	vous	CLI	CLI	_	4	dep	_	_	79.970001	80.019997	IGO
+4	remercie	remercier	VRB	VRB	_	0	root	_	_	80.029999	80.290001	IGO
+5	d'	de	PRE	PRE	_	4	dep	_	_	80.300003	80.339996	IGO
+6	avoir	avoir	VNF	VNF	_	5	dep	_	_	80.349998	80.529999	IGO
+7	patienté	patienter	VPP	VPP	_	6	dep	_	_	80.540001	81.089996	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-37
+# text = donc on a bien reçu votre courrier en accusé de réception
+1	donc	donc	ADV	ADV	_	5	periph	_	_	81.519997	81.680000	IGO
+2	on	on	CLS	CLS	_	5	subj	_	_	81.690002	81.790001	IGO
+3	a	avoir	VRB	VRB	_	5	aux	_	_	81.800003	81.849998	IGO
+4	bien	bien	ADV	ADV	_	5	dep	_	_	81.860001	82.019997	IGO
+5	reçu	recevoir	VPP	VPP	_	0	root	_	_	82.029999	82.360001	IGO
+6	votre	son	DET	DET	_	7	spe	_	_	82.370003	82.809998	IGO
+7	courrier	courrier	NOM	NOM	_	5	dep	_	_	82.820000	83.169998	IGO
+8	en	en	PRE	PRE	_	7	dep	_	_	83.180000	83.250000	IGO
+9	accusé	accusé	NOM	NOM	_	8	dep	_	_	83.260002	83.540001	IGO
+10	de	de	PRE	PRE	_	9	dep	_	_	83.550003	83.570000	IGO
+11	réception	réception	NOM	NOM	_	10	dep	_	_	83.580002	84.110001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-38
+# text = oui oui ben oui j'en doute pas puisque j'ai reçu moi-même le le la confirmation euh de l'accusé de réception hein
+1	oui	oui	INT	INT	_	7	dm	_	_	79.570000	79.680000	MAR
+2	oui	oui	INT	INT	_	1	para	_	_	84.480003	84.739998	MAR
+3	ben	ben	INT	INT	_	2	dm	_	_	84.750000	84.940002	MAR
+4	oui	oui	INT	INT	_	3	dm	_	_	84.949997	85.019997	MAR
+5	j'	je	CLS	CLS	_	7	subj	_	_	85.169998	85.300003	MAR
+6	en	en	CLI	CLI	_	7	dep	_	_	85.309998	85.379997	MAR
+7	doute	douter	VRB	VRB	_	0	root	_	_	85.389999	85.470001	MAR
+8	pas	pas	ADN	ADN	_	7	dep	_	_	85.480003	85.629997	MAR
+9	puisque	puisque	CSU	CSU	_	7	periph	_	_	85.739998	86.010002	MAR
+10	j'	je	CLS	CLS	_	12	subj	_	_	86.019997	86.120003	MAR
+11	ai	avoir	VRB	VRB	_	12	aux	_	_	86.129997	86.160004	MAR
+12	reçu	recevoir	VPP	VPP	_	9	dep	_	_	86.169998	86.500000	MAR
+13	moi-même	moi-même	PRO	PRO	_	12	dep	_	_	86.510002	86.949997	MAR
+14	le	le	DET	DET	_	17	spe	_	_	86.959999	87.199997	MAR
+15	le	le	DET	DET	_	14	para	_	_	87.699997	88.070000	MAR
+16	la	le	DET	DET	_	15	para	_	_	88.080002	88.260002	MAR
+17	confirmation	confirmation	NOM	NOM	_	12	dep	_	_	88.269997	88.919998	MAR
+18	euh	euh	INT	INT	_	17	dm	_	_	88.930000	88.949997	MAR
+19	de	de	PRE	PRE	_	17	dep	_	_	89.029999	89.309998	MAR
+20	l'	le	DET	DET	_	21	spe	_	_	89.320000	89.389999	MAR
+21	accusé	accusé	NOM	NOM	_	19	dep	_	_	89.400002	89.760002	MAR
+22	de	de	PRE	PRE	_	21	dep	_	_	89.769997	89.910004	MAR
+23	réception	réception	NOM	NOM	_	22	dep	_	_	90.059998	90.989998	MAR
+24	hein	hein	INT	INT	_	23	dm	_	_	91.000000	91.019997	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-39
+# text = vous allez vous avez reçu la confirmation
+1	vous	vous	CLS	CLS	_	2	subj	_	_	85.110001	85.180000	IGO
+2	allez	aller	VRB	VRB	_	0	root	_	_	85.309998	85.650002	IGO
+3	vous	vous	CLS	CLS	_	5	subj	_	_	89.010002	89.250000	IGO
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	89.260002	89.410004	IGO
+5	reçu	recevoir	VPP	VPP	_	2	para	_	_	89.419998	89.660004	IGO
+6	la	le	DET	DET	_	7	spe	_	_	89.669998	89.889999	IGO
+7	confirmation	confirmation	NOM	NOM	_	5	dep	_	_	89.900002	91.019997	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-40
+# text = oui tout à fait euh donc tout sera bien euh clôturé au vingt-deux juillet
+1	oui	oui	INT	INT	_	6	dm	_	_	91.110001	91.330002	IGO
+2	tout à fait	tout à fait	ADV	ADV	_	6	periph	_	_	91.339996	91.800003	IGO
+3	euh	euh	INT	INT	_	2	dm	_	_	92.089996	92.260002	IGO
+4	donc	donc	ADV	ADV	_	6	periph	_	_	92.269997	92.589996	IGO
+5	tout	tout	ADV	ADV	_	6	dep	_	_	92.599998	92.760002	IGO
+6	sera	être	VRB	VRB	_	9	aux	_	_	92.769997	92.980003	IGO
+7	bien	bien	ADV	ADV	_	6	dep	_	_	92.989998	93.309998	IGO
+8	euh	euh	INT	INT	_	7	dm	_	_	93.320000	93.349998	IGO
+9	clôturé	clôturer	VPP	VPP	_	0	root	_	_	93.360001	93.790001	IGO
+10	au	à+le	PRE	PRE	_	9	dep	_	_	93.800003	93.839996	IGO
+11	vingt-deux	vingt-deux	NUM	NUM	_	12	spe	_	_	93.849998	94.110001	IGO
+12	juillet	juillet	NOM	NOM	_	10	dep	_	_	94.120003	94.400002	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-41
+# text = d'accord donc c'est normal que je n'ai pas de courrier de votre part
+1	d'	de	PRE	PRE	_	5	periph	_	_	94.650002	94.669998	MAR
+2	accord	accord	NOM	NOM	_	1	dep	_	_	94.980003	95.230003	MAR
+3	donc	donc	ADV	ADV	_	5	periph	_	_	95.239998	95.389999	MAR
+4	c'	ce	CLS	CLS	_	5	subj	_	_	95.440002	95.459999	MAR
+5	est	être	VRB	VRB	_	0	root	_	_	95.470001	95.510002	MAR
+6	normal	normal	ADJ	ADJ	_	5	dep	_	_	95.519997	95.870003	MAR
+7	que	que	CSU	CSU	_	6	dep	_	_	95.879997	95.949997	MAR
+8	je	je	CLS	CLS	_	10	subj	_	_	96.000000	96.080002	MAR
+9	n'	ne	CLN	CLN	_	10	dep	_	_	96.089996	96.150002	MAR
+10	ai	avoir	VRB	VRB	_	7	dep	_	_	96.160004	96.239998	MAR
+11	pas	pas	ADN	ADN	_	10	dep	_	_	96.250000	96.360001	MAR
+12	de	de	PRE	PRE	_	10	dep	_	_	96.370003	96.699997	MAR
+13	courrier	courrier	NOM	NOM	_	12	dep	_	_	96.709999	97.019997	MAR
+14	de	de	PRE	PRE	_	13	dep	_	_	97.029999	97.070000	MAR
+15	votre	son	DET	DET	_	16	spe	_	_	97.080002	97.349998	MAR
+16	part	part	NOM	NOM	_	14	dep	_	_	97.360001	97.800003	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-42
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	98.790001	98.849998	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-43
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	98.959999	99.070000	MAR
+2	accord	accord	NOM	NOM	_	1	dep	_	_	99.080002	100.169998	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-44
+# text = c'-~ non
+1	c'-~	c'-~	VRB	VRB	_	0	root	_	_	98.230003	98.610001	IGO
+2	non	non	INT	INT	_	1	dm	_	_	98.620003	98.730003	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-45
+# text = ce n'est absolument pas normal
+1	ce	ce	CLS	CLS	_	3	subj	_	_	98.820000	99.000000	IGO
+2	n'	ne	CLN	CLN	_	3	dep	_	_	99.010002	99.059998	IGO
+3	est	être	VRB	VRB	_	0	root	_	_	99.070000	99.110001	IGO
+4	absolument	absolument	ADV	ADV	_	5	dep	_	_	99.120003	99.580002	IGO
+5	pas	pas	ADN	ADN	_	3	dep	_	_	99.589996	99.699997	IGO
+6	normal	normal	ADJ	ADJ	_	3	dep	_	_	99.709999	100.220001	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-46
+# text = euh vous allez recevoir un courrier qui vous confirme tout ça
+1	euh	euh	INT	INT	_	3	dm	_	_	100.559998	100.680000	IGO
+2	vous	vous	CLS	CLS	_	3	subj	_	_	100.690002	100.889999	IGO
+3	allez	aller	VRB	VRB	_	0	root	_	_	100.900002	101.019997	IGO
+4	recevoir	recevoir	VNF	VNF	_	3	dep	_	_	101.029999	101.629997	IGO
+5	un	un	DET	DET	_	6	spe	_	_	101.639999	101.660004	IGO
+6	courrier	courrier	NOM	NOM	_	4	dep	_	_	101.669998	102.110001	IGO
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	102.410004	102.550003	IGO
+8	vous	vous	CLI	CLI	_	9	dep	_	_	102.559998	102.699997	IGO
+9	confirme	confirmer	VRB	VRB	_	4	para	_	_	102.779999	103.089996	IGO
+10	tout	tout	ADJ	ADJ	_	11	dep	_	_	103.339996	103.459999	IGO
+11	ça	ça	PRO	PRO	_	9	dep	_	_	103.470001	103.680000	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-47
+# text = ça c'est le courrier est
+1	ça	ça	PRO	PRO	_	3	periph	_	_	103.690002	103.860001	IGO
+2	c'	ce	CLS	CLS	_	3	subj	_	_	103.870003	103.970001	IGO
+3	est	être	VRB	VRB	_	0	root	_	_	103.980003	104.000000	IGO
+4	le	le	DET	DET	_	5	spe	_	_	104.010002	104.110001	IGO
+5	courrier	courrier	NOM	NOM	_	3	dep	_	_	104.120003	104.550003	IGO
+6	est	être	VRB	VRB	_	3	para	_	_	104.559998	104.589996	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-48
+# text = en cours
+1	en cours	en cours	ADJ	ADJ	_	0	root	_	_	104.599998	104.949997	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-49
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	105.279999	105.349998	MAR
+2	accord	accord	NOM	NOM	_	1	dep	_	_	105.360001	105.519997	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-50
+# text = il v-~ il va vous parvenir
+1	il	il	CLS	CLS	_	2	subj	_	_	105.580002	105.629997	IGO
+2	v-~	v-~	VRB	VRB	_	0	root	_	_	105.639999	105.699997	IGO
+3	il	il	CLS	CLS	_	4	subj	_	_	105.709999	105.769997	IGO
+4	va	aller	VRB	VRB	_	2	para	_	_	105.779999	106.010002	IGO
+5	vous	vous	CLI	CLI	_	6	dep	_	_	106.019997	106.160004	IGO
+6	parvenir	parvenir	VNF	VNF	_	4	dep	_	_	106.169998	106.589996	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-51
+# text = d'accord je vous remercie
+1	d'	de	PRE	PRE	_	5	periph	_	_	107.010002	107.059998	MAR
+2	accord	accord	NOM	NOM	_	1	dep	_	_	107.070000	107.330002	MAR
+3	je	je	CLS	CLS	_	5	subj	_	_	107.339996	107.379997	MAR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	107.389999	107.470001	MAR
+5	remercie	remercier	VRB	VRB	_	0	root	_	_	107.480003	107.919998	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-52
+# text = mais c'est moi qui vous remercie
+1	mais	mais	COO	COO	_	3	mark	_	_	108.230003	108.279999	IGO
+2	c'	ce	CLS	CLS	_	3	subj	_	_	108.290001	108.370003	IGO
+3	est	être	VRB	VRB	_	0	root	_	_	108.379997	108.410004	IGO
+4	moi	moi	PRO	PRO	_	3	dep	_	_	108.419998	108.559998	IGO
+5	qui	qui	PRQ	PRQ	_	7	dep	_	_	108.570000	108.620003	IGO
+6	vous	vous	CLI	CLI	_	7	dep	_	_	108.629997	108.680000	IGO
+7	remercie	remercier	VRB	VRB	_	4	dep	_	_	108.690002	108.900002	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-53
+# text = vous avez une autre question
+1	vous	vous	CLS	CLS	_	2	subj	_	_	108.970001	109.070000	IGO
+2	avez	avoir	VRB	VRB	_	0	root	_	_	109.080002	109.209999	IGO
+3	une	un	DET	DET	_	5	spe	_	_	109.220001	109.269997	IGO
+4	autre	autre	ADJ	ADJ	_	5	dep	_	_	109.279999	109.370003	IGO
+5	question	question	NOM	NOM	_	2	dep	_	_	109.379997	109.839996	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-54
+# text = au revoir monsieur euh non c'est bon c'est
+1	au revoir	au revoir	INT	INT	_	6	dm	_	_	108.959999	109.360001	MAR
+2	monsieur	Monsieur	NOM	NOM	_	6	periph	_	_	109.370003	109.879997	MAR
+3	euh	euh	INT	INT	_	2	dm	_	_	110.180000	110.309998	MAR
+4	non	non	INT	INT	_	3	dm	_	_	110.320000	110.510002	MAR
+5	c'	ce	CLS	CLS	_	6	subj	_	_	110.519997	110.589996	MAR
+6	est	être	VRB	VRB	_	0	root	_	_	110.599998	110.650002	MAR
+7	bon	bon	ADJ	ADJ	_	6	dep	_	_	110.660004	110.839996	MAR
+8	c'	ce	CLS	CLS	_	9	subj	_	_	110.849998	110.949997	MAR
+9	est	être	VRB	VRB	_	6	para	_	_	110.959999	111.000000	MAR
+
+# sent_id = cefc-coralrom-ftelpv22-55
+# text = bon d'accord ben bonne journée au revoir
+1	bon	bon	ADJ	ADJ	_	2	dm	_	_	111.010002	111.169998	IGO
+2	d'	de	PRE	PRE	_	0	root	_	_	111.360001	111.389999	IGO
+3	accord	accord	NOM	NOM	_	2	dep	_	_	111.400002	111.589996	IGO
+4	ben	ben	INT	INT	_	3	dm	_	_	111.599998	111.720001	IGO
+5	bonne	bon	ADJ	ADJ	_	6	dep	_	_	111.730003	111.849998	IGO
+6	journée	journée	NOM	NOM	_	2	dep	_	_	111.860001	112.040001	IGO
+7	au revoir	au revoir	INT	INT	_	6	dm	_	_	112.879997	113.190002	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-56
+# text = madame
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	113.940002	114.129997	IGO
+
+# sent_id = cefc-coralrom-ftelpv22-57
+# text = merci au revoir
+1	merci	merci	INT	INT	_	2	dm	_	_	112.150002	112.529999	MAR
+2	au revoir	au revoir	VNF	VNF	_	0	root	_	_	112.540001	112.809998	MAR
+

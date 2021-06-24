@@ -1,0 +1,3648 @@
+# sent_id = cefc-coralrom-fnatpe02-1
+# text = alors d'abord je suis heureuse de vous accueillir
+1	alors	alors	ADV	ADV	_	5	periph	_	_	0.120000	0.330000	PAT
+2	d'	de	PRE	PRE	_	5	periph	_	_	0.340000	0.360000	PAT
+3	abord	abord	NOM	NOM	_	2	dep	_	_	0.370000	0.770000	PAT
+4	je	je	CLS	CLS	_	5	subj	_	_	0.860000	1.010000	PAT
+5	suis	être	VRB	VRB	_	0	root	_	_	1.060000	1.140000	PAT
+6	heureuse	heureux	ADJ	ADJ	_	5	dep	_	_	1.150000	1.410000	PAT
+7	de	de	PRE	PRE	_	6	dep	_	_	1.420000	1.440000	PAT
+8	vous	vous	CLI	CLI	_	9	dep	_	_	1.450000	1.500000	PAT
+9	accueillir	accueillir	VNF	VNF	_	7	dep	_	_	1.560000	2.390000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-2
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1.560000	2.340000	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-3
+# text = vous êtes au musée des Beaux-Arts
+1	vous	vous	CLS	CLS	_	2	subj	_	_	2.800000	2.980000	PAT
+2	êtes	être	VRB	VRB	_	0	root	_	_	2.990000	3.110000	PAT
+3	au	à+le	PRE	PRE	_	2	dep	_	_	3.120000	3.150000	PAT
+4	musée	musée	NOM	NOM	_	3	dep	_	_	3.160000	3.420000	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	3.430000	3.520000	PAT
+6	Beaux-Arts	beaux-arts	NOM	NOM	_	5	dep	_	_	3.530000	3.950000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-4
+# text = il faut pas oublier que ce musée a été une villa
+1	il	il	CLS	CLS	_	2	subj	_	_	4.610000	4.700000	PAT
+2	faut	faillir	VRB	VRB	_	0	root	_	_	4.710000	4.800000	PAT
+3	pas	pas	ADN	ADN	_	2	dep	_	_	4.880000	5.000000	PAT
+4	oublier	oublier	VNF	VNF	_	2	dep	_	_	5.010000	5.660000	PAT
+5	que	que	CSU	CSU	_	4	dep	_	_	5.670000	5.690000	PAT
+6	ce	ce	DET	DET	_	7	spe	_	_	5.700000	5.890000	PAT
+7	musée	musée	NOM	NOM	_	9	subj	_	_	5.900000	6.380000	PAT
+8	a	avoir	VRB	VRB	_	9	aux	_	_	6.710000	6.760000	PAT
+9	été	être	VPP	VPP	_	5	dep	_	_	6.770000	6.850000	PAT
+10	une	un	DET	DET	_	11	spe	_	_	7.010000	7.240000	PAT
+11	villa	villa	NOM	NOM	_	9	dep	_	_	7.250000	7.640000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-5
+# text = elle est construite en mille huit cent soixante-dix-huit pour une princesse russe qui l'a fait construire achète le terrain des Baumettes à cette époque-là la colonie russe
+1	elle	il	CLS	CLS	_	3	subj	_	_	8.170000	8.260000	PAT
+2	est	être	VRB	VRB	_	3	aux	_	_	8.270000	8.320000	PAT
+3	construite	construire	VPP	VPP	_	0	root	_	_	8.330000	8.810000	PAT
+4	en	en	PRE	PRE	_	3	dep	_	_	8.820000	8.890000	PAT
+5	mille	mille	NUM	NUM	_	28	spe	_	_	8.900000	9.090000	PAT
+6	huit	huit	NUM	NUM	_	5	dep	_	_	9.150000	9.230000	PAT
+7	cent	cent	NUM	NUM	_	6	dep	_	_	9.240000	9.410000	PAT
+8	soixante-dix-huit	soixante-dix-huit	NUM	NUM	_	7	dep	_	_	9.420000	10.100000	PAT
+9	pour	pour	PRE	PRE	_	5	dep	_	_	10.460000	10.710000	PAT
+10	une	un	DET	DET	_	11	spe	_	_	10.720000	10.790000	PAT
+11	princesse	prince	NOM	NOM	_	9	dep	_	_	10.800000	11.270000	PAT
+12	russe	russe	ADJ	ADJ	_	11	dep	_	_	11.310000	11.580000	PAT
+13	qui	qui	PRQ	PRQ	_	16	subj	_	_	12.540000	12.680000	PAT
+14	l'	le	CLI	CLI	_	16	dep	_	_	12.690000	12.740000	PAT
+15	a	avoir	VRB	VRB	_	16	aux	_	_	12.750000	12.790000	PAT
+16	fait	faire	VPP	VPP	_	11	dep	_	_	12.800000	12.960000	PAT
+17	construire	construire	VNF	VNF	_	16	dep	_	_	12.970000	13.370000	PAT
+18	achète	achète	NOM	NOM	_	17	dep	_	_	13.650000	14.030000	PAT
+19	le	le	DET	DET	_	20	spe	_	_	14.040000	14.060000	PAT
+20	terrain	terrain	NOM	NOM	_	17	dep	_	_	14.070000	14.340000	PAT
+21	des	de	PRE	PRE	_	20	dep	_	_	14.350000	14.460000	PAT
+22	Baumettes	Baumettes	NOM	NOM	_	21	dep	_	_	14.470000	14.820000	PAT
+23	à	à	PRE	PRE	_	17	dep	_	_	15.060000	15.080000	PAT
+24	cette	ce	DET	DET	_	25	spe	_	_	15.180000	15.390000	PAT
+25	époque-là	époque-là	NOM	NOM	_	23	dep	_	_	15.400000	15.830000	PAT
+26	la	le	DET	DET	_	27	spe	_	_	15.840000	15.910000	PAT
+27	colonie	colonie	NOM	NOM	_	17	dep	_	_	16.000000	16.469999	PAT
+28	russe	russe	NOM	NOM	_	4	dep	_	_	16.480000	16.680000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-6
+# text = était très importante
+1	était	être	VRB	VRB	_	0	root	_	_	16.690001	16.840000	PAT
+2	très	très	ADV	ADV	_	3	dep	_	_	16.940001	17.030001	PAT
+3	importante	important	ADJ	ADJ	_	1	dep	_	_	17.100000	17.559999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-7
+# text = Nice attirait par la douceur de son climat toute la Côte d'Azur d'ailleurs
+1	Nice	Nice	NOM	NOM	_	2	subj	_	_	18.129999	18.600000	PAT
+2	attirait	attirer	VRB	VRB	_	0	root	_	_	18.700001	19.190001	PAT
+3	par	par	PRE	PRE	_	2	dep	_	_	19.200001	19.299999	PAT
+4	la	le	DET	DET	_	5	spe	_	_	19.309999	19.389999	PAT
+5	douceur	douceur	NOM	NOM	_	3	dep	_	_	19.510000	19.830000	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	19.840000	19.910000	PAT
+7	son	son	DET	DET	_	8	spe	_	_	19.920000	20.090000	PAT
+8	climat	climat	NOM	NOM	_	6	dep	_	_	20.129999	20.410000	PAT
+9	toute	tout	ADJ	ADJ	_	11	dep	_	_	20.650000	20.790001	PAT
+10	la	le	DET	DET	_	11	spe	_	_	20.799999	20.870001	PAT
+11	Côte	côte	NOM	NOM	_	5	para	_	_	20.969999	21.070000	PAT
+12	d'	de	PRE	PRE	_	11	dep	_	_	21.080000	21.120001	PAT
+13	Azur	Azur	NOM	NOM	_	12	dep	_	_	21.129999	21.370001	PAT
+14	d'	de	PRE	PRE	_	11	dep	_	_	21.379999	21.430000	PAT
+15	ailleurs	ailleurs	ADV	ADV	_	14	morph	_	_	21.440001	21.680000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-8
+# text = attirait hein
+1	attirait	attirer	VRB	VRB	_	0	root	_	_	21.690001	22.110001	PAT
+2	hein	hein	INT	INT	_	1	dm	_	_	22.120001	22.150000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-9
+# text = mais et beaucoup de Russes beaucoup d'Anglais venaient certains vivaient en hôtel d'autres ont eu les moyens de se faire construire des villas
+1	mais	mais	COO	COO	_	9	mark	_	_	22.440001	22.540001	PAT
+2	et	et	COO	COO	_	9	mark	_	_	22.549999	22.590000	PAT
+3	beaucoup	beaucoup	PRO	PRO	_	9	periph	_	_	23.090000	23.240000	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	23.420000	23.570000	PAT
+5	Russes	russe	NOM	NOM	_	4	dep	_	_	23.629999	23.809999	PAT
+6	beaucoup	beaucoup	ADV	ADV	_	9	periph	_	_	23.820000	24.020000	PAT
+7	d'	de	PRE	PRE	_	6	dep	_	_	24.030001	24.110001	PAT
+8	Anglais	anglais	NOM	NOM	_	7	dep	_	_	24.120001	24.360001	PAT
+9	venaient	venir	VRB	VRB	_	0	root	_	_	24.370001	24.730000	PAT
+10	certains	certains	PRO	PRO	_	11	subj	_	_	25.070000	25.459999	PAT
+11	vivaient	vivre	VRB	VRB	_	9	para	_	_	25.469999	25.719999	PAT
+12	en	en	PRE	PRE	_	11	dep	_	_	25.730000	25.900000	PAT
+13	hôtel	hôtel	NOM	NOM	_	12	dep	_	_	25.910000	26.230000	PAT
+14	d'	de	PRE	PRE	_	11	dep	_	_	26.520000	26.580000	PAT
+15	autres	autre	ADJ	ADJ	_	17	dep	_	_	26.590000	26.770000	PAT
+16	ont	avoir	VRB	VRB	_	17	aux	_	_	26.780001	26.870001	PAT
+17	eu	avoir	VPP	VPP	_	14	dep	_	_	26.879999	26.920000	PAT
+18	les	le	DET	DET	_	19	spe	_	_	26.930000	27.040001	PAT
+19	moyens	moyen	NOM	NOM	_	17	dep	_	_	27.049999	27.370001	PAT
+20	de	de	PRE	PRE	_	19	dep	_	_	27.379999	27.500000	PAT
+21	se	se	CLI	CLI	_	22	dep	_	_	27.510000	27.860001	PAT
+22	faire	faire	VNF	VNF	_	20	dep	_	_	27.870001	28.000000	PAT
+23	construire	construire	VNF	VNF	_	22	dep	_	_	28.100000	28.480000	PAT
+24	des	de	PRE	PRE	_	23	dep	_	_	28.490000	28.590000	PAT
+25	villas	villa	NOM	NOM	_	24	dep	_	_	28.600000	28.809999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-10
+# text = et ici j'aime bien parler parce qu'on a une très belle lumière grâce à cette verrière
+1	et	et	COO	COO	_	4	mark	_	_	28.889999	28.910000	PAT
+2	ici	ici	ADV	ADV	_	4	periph	_	_	29.129999	29.500000	PAT
+3	j'	je	CLS	CLS	_	4	subj	_	_	29.510000	29.570000	PAT
+4	aime	aimer	VRB	VRB	_	0	root	_	_	29.580000	29.700001	PAT
+5	bien	bien	ADV	ADV	_	4	dep	_	_	29.709999	29.850000	PAT
+6	parler	parler	VNF	VNF	_	4	dep	_	_	29.910000	30.299999	PAT
+7	parce qu'	parce que	CSU	CSU	_	6	dep	_	_	30.600000	30.799999	PAT
+8	on	on	CLS	CLS	_	9	subj	_	_	30.809999	30.900000	PAT
+9	a	avoir	VRB	VRB	_	7	dep	_	_	30.910000	30.930000	PAT
+10	une	un	DET	DET	_	13	spe	_	_	30.940001	31.020000	PAT
+11	très	très	ADV	ADV	_	12	dep	_	_	31.120001	31.200001	PAT
+12	belle	beau	ADJ	ADJ	_	13	dep	_	_	31.209999	31.410000	PAT
+13	lumière	lumière	NOM	NOM	_	9	dep	_	_	31.420000	31.770000	PAT
+14	grâce	grâce	NOM	NOM	_	13	dep	_	_	32.340000	32.509998	PAT
+15	à	à	PRE	PRE	_	9	dep	_	_	32.570000	32.599998	PAT
+16	cette	ce	DET	DET	_	17	spe	_	_	32.689999	32.840000	PAT
+17	verrière	verrière	NOM	NOM	_	15	dep	_	_	32.849998	33.430000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-11
+# text = donc ici tout est monumental la hauteur des plafonds la f-~ la taille des pièces
+1	donc	donc	ADV	ADV	_	4	periph	_	_	33.730000	33.889999	PAT
+2	ici	ici	ADV	ADV	_	4	periph	_	_	33.900002	34.290001	PAT
+3	tout	tout	PRO	PRO	_	4	subj	_	_	34.849998	34.980000	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	35.099998	35.200001	PAT
+5	monumental	monumental	ADJ	ADJ	_	4	dep	_	_	35.209999	36.029999	PAT
+6	la	le	DET	DET	_	7	spe	_	_	36.090000	36.200001	PAT
+7	hauteur	hauteur	NOM	NOM	_	4	dep	_	_	36.290001	36.480000	PAT
+8	des	de	PRE	PRE	_	7	dep	_	_	36.529999	36.590000	PAT
+9	plafonds	plafond	NOM	NOM	_	8	dep	_	_	36.639999	37.139999	PAT
+10	la	le	DET	DET	_	11	spe	_	_	37.150002	37.290001	PAT
+11	f-~	f-~	NOM	NOM	_	7	para	_	_	37.610001	37.669998	PAT
+12	la	le	DET	DET	_	13	spe	_	_	37.680000	37.759998	PAT
+13	taille	taille	NOM	NOM	_	11	para	_	_	37.869999	38.020000	PAT
+14	des	de	PRE	PRE	_	13	dep	_	_	38.080002	38.150002	PAT
+15	pièces	pièce	NOM	NOM	_	14	dep	_	_	38.200001	38.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-12
+# text = et la lumière est très belle
+1	et	et	COO	COO	_	4	mark	_	_	38.849998	38.889999	PAT
+2	la	le	DET	DET	_	3	spe	_	_	39.009998	39.110001	PAT
+3	lumière	lumière	NOM	NOM	_	4	subj	_	_	39.119999	39.459999	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	39.470001	39.520000	PAT
+5	très	très	ADV	ADV	_	6	dep	_	_	39.610001	39.810001	PAT
+6	belle	beau	ADJ	ADJ	_	4	dep	_	_	39.849998	40.040001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-13
+# text = ici c'est pour ça qu'on en a fait d'ailleurs
+1	ici	ici	ADV	ADV	_	3	periph	_	_	40.270000	40.560001	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	40.790001	40.810001	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	40.820000	40.840000	PAT
+4	pour	pour	PRE	PRE	_	3	dep	_	_	40.849998	40.939999	PAT
+5	ça	ça	PRO	PRO	_	4	dep	_	_	40.950001	41.049999	PAT
+6	qu'	que	PRQ	PRQ	_	10	dep	_	_	41.130001	41.150002	PAT
+7	on	on	CLS	CLS	_	10	subj	_	_	41.160000	41.220001	PAT
+8	en	en	CLI	CLI	_	10	dep	_	_	41.230000	41.259998	PAT
+9	a	avoir	VRB	VRB	_	10	aux	_	_	41.330002	41.360001	PAT
+10	fait	faire	VPP	VPP	_	5	dep	_	_	41.439999	41.570000	PAT
+11	d'	de	PRE	PRE	_	10	dep	_	_	41.580002	41.619999	PAT
+12	ailleurs	ailleurs	ADV	ADV	_	11	morph	_	_	41.630001	41.880001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-14
+# text = vous voyez un petit comptoir de ventes avec tous les livres que l'on a à la disposition
+1	vous	vous	CLS	CLS	_	2	subj	_	_	42.189999	42.250000	PAT
+2	voyez	voir	VRB	VRB	_	0	root	_	_	42.259998	42.439999	PAT
+3	un	un	DET	DET	_	5	spe	_	_	42.810001	42.900002	PAT
+4	petit	petit	ADJ	ADJ	_	5	dep	_	_	43.110001	43.320000	PAT
+5	comptoir	comptoir	NOM	NOM	_	2	dep	_	_	43.389999	43.689999	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	43.700001	43.779999	PAT
+7	ventes	vente	NOM	NOM	_	6	dep	_	_	43.790001	44.110001	PAT
+8	avec	avec	PRE	PRE	_	2	dep	_	_	44.509998	44.689999	PAT
+9	tous	tout	ADJ	ADJ	_	11	dep	_	_	44.740002	44.830002	PAT
+10	les	le	DET	DET	_	11	spe	_	_	44.900002	44.970001	PAT
+11	livres	livre	NOM	NOM	_	8	dep	_	_	45.070000	45.230000	PAT
+12	que	que	PRQ	PRQ	_	15	dep	_	_	45.349998	45.410000	PAT
+13	l'	le	DET	DET	_	15	dep	_	_	45.419998	45.470001	PAT
+14	on	on	CLS	CLS	_	15	subj	_	_	45.610001	45.669998	PAT
+15	a	avoir	VRB	VRB	_	11	dep	_	_	45.680000	45.730000	PAT
+16	à	à	PRE	PRE	_	15	dep	_	_	46.000000	46.029999	PAT
+17	la	le	DET	DET	_	18	spe	_	_	46.040001	46.119999	PAT
+18	disposition	disposition	NOM	NOM	_	16	dep	_	_	46.130001	46.650002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-15
+# text = donc ça quand elle f vend la maison cette p-~ euh la princesse russe
+1	donc	donc	ADV	ADV	_	6	periph	_	_	47.060001	47.169998	PAT
+2	ça	ça	PRO	PRO	_	6	periph	_	_	47.180000	47.330002	PAT
+3	quand	quand	CSU	CSU	_	6	periph	_	_	47.959999	48.080002	PAT
+4	elle	il	CLS	CLS	_	5	subj	_	_	48.180000	48.290001	PAT
+5	f	f	VRB	VRB	_	3	dep	_	_	48.299999	48.380001	PAT
+6	vend	vendre	VRB	VRB	_	0	root	_	_	48.759998	48.950001	PAT
+7	la	le	DET	DET	_	8	spe	_	_	48.959999	49.049999	PAT
+8	maison	maison	NOM	NOM	_	6	dep	_	_	49.060001	49.439999	PAT
+9	cette	ce	DET	DET	_	10	spe	_	_	49.930000	50.029999	PAT
+10	p-~	p-~	NOM	NOM	_	6	dep	_	_	50.130001	50.180000	PAT
+11	euh	euh	INT	INT	_	10	dm	_	_	50.189999	50.220001	PAT
+12	la	le	DET	DET	_	13	spe	_	_	50.310001	50.360001	PAT
+13	princesse	prince	NOM	NOM	_	10	para	_	_	50.369999	50.790001	PAT
+14	russe	russe	ADJ	ADJ	_	13	dep	_	_	50.799999	50.910000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-16
+# text = elle la vend à un très riche Américain et dans les journaux de l'époque
+1	elle	il	CLS	CLS	_	3	subj	_	_	51.200001	51.299999	PAT
+2	la	le	CLI	CLI	_	3	dep	_	_	51.310001	51.380001	PAT
+3	vend	vendre	VRB	VRB	_	0	root	_	_	51.389999	51.509998	PAT
+4	à	à	PRE	PRE	_	3	dep	_	_	51.520000	51.540001	PAT
+5	un	un	DET	DET	_	8	spe	_	_	51.549999	51.700001	PAT
+6	très	très	ADV	ADV	_	7	dep	_	_	51.709999	51.880001	PAT
+7	riche	riche	ADJ	ADJ	_	8	dep	_	_	51.889999	52.139999	PAT
+8	Américain	américain	NOM	NOM	_	4	dep	_	_	52.150002	52.480000	PAT
+9	et	et	COO	COO	_	10	mark	_	_	52.939999	52.959999	PAT
+10	dans	dans	PRE	PRE	_	4	para	_	_	52.970001	53.090000	PAT
+11	les	le	DET	DET	_	12	spe	_	_	53.099998	53.180000	PAT
+12	journaux	journal	NOM	NOM	_	10	dep	_	_	53.189999	53.529999	PAT
+13	de	de	PRE	PRE	_	12	dep	_	_	53.540001	53.590000	PAT
+14	l'	le	DET	DET	_	15	spe	_	_	53.599998	53.619999	PAT
+15	époque	époque	NOM	NOM	_	13	dep	_	_	53.630001	53.910000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-17
+# text = c'est-à-dire vers mille huit cent quatre-vingt-huit quatre-vingt-dix on parle beaucoup de la villa Thomson
+1	c'	ce	CLS	CLS	_	2	subj	_	_	53.990002	54.009998	PAT
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	54.110001	54.419998	PAT
+3	vers	vers	PRE	PRE	_	2	dep	_	_	54.430000	54.610001	PAT
+4	mille	mille	NUM	NUM	_	10	periph	_	_	54.619999	54.830002	PAT
+5	huit	huit	NUM	NUM	_	4	dep	_	_	54.840000	54.959999	PAT
+6	cent	cent	NUM	NUM	_	5	dep	_	_	54.970001	55.220001	PAT
+7	quatre-vingt-huit	quatre-vingt-huit	NUM	NUM	_	6	dep	_	_	55.230000	55.810001	PAT
+8	quatre-vingt-dix	quatre-vingt-dix	NUM	NUM	_	7	dep	_	_	56.119999	56.990002	PAT
+9	on	on	CLS	CLS	_	10	subj	_	_	57.270000	57.340000	PAT
+10	parle	parler	VRB	VRB	_	3	dep	_	_	57.349998	57.590000	PAT
+11	beaucoup	beaucoup	PRO	PRO	_	10	dep	_	_	57.650002	57.919998	PAT
+12	de	de	PRE	PRE	_	11	dep	_	_	57.930000	57.970001	PAT
+13	la	le	DET	DET	_	14	spe	_	_	57.980000	58.119999	PAT
+14	villa	villa	NOM	NOM	_	12	dep	_	_	58.130001	58.369999	PAT
+15	Thomson	Thomson	NOM	NOM	_	14	dep	_	_	58.619999	59.169998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-18
+# text = elle est plus connue sous le nom de villa Thomson
+1	elle	il	CLS	CLS	_	2	subj	_	_	59.630001	59.689999	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	59.700001	59.730000	PAT
+3	plus	plus	ADN	ADN	_	4	dep	_	_	59.810001	60.070000	PAT
+4	connue	connaître	ADJ	ADJ	_	2	dep	_	_	60.080002	60.360001	PAT
+5	sous	sous	PRE	PRE	_	2	dep	_	_	60.369999	60.549999	PAT
+6	le	le	DET	DET	_	7	spe	_	_	60.560001	60.619999	PAT
+7	nom	nom	NOM	NOM	_	5	dep	_	_	60.630001	60.830002	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	60.840000	60.860001	PAT
+9	villa	villa	NOM	NOM	_	8	dep	_	_	60.910000	61.200001	PAT
+10	Thomson	Thomson	NOM	NOM	_	9	dep	_	_	61.290001	61.709999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-19
+# text = que de villa qui était le nom de cette princesse russe
+1	que	que	CSU	CSU	_	0	root	_	_	61.970001	62.029999	PAT
+2	de	de	PRE	PRE	_	5	periph	_	_	62.040001	62.139999	PAT
+3	villa	villa	NOM	NOM	_	2	dep	_	_	62.150002	62.430000	PAT
+4	qui	qui	PRQ	PRQ	_	5	subj	_	_	63.150002	63.220001	PAT
+5	était	être	VRB	VRB	_	1	dep	_	_	63.230000	63.320000	PAT
+6	le	le	DET	DET	_	7	spe	_	_	63.330002	63.349998	PAT
+7	nom	nom	NOM	NOM	_	5	dep	_	_	63.360001	63.599998	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	63.610001	63.650002	PAT
+9	cette	ce	DET	DET	_	10	spe	_	_	63.660000	63.779999	PAT
+10	princesse	prince	NOM	NOM	_	8	dep	_	_	63.830002	64.199997	PAT
+11	russe	russe	ADJ	ADJ	_	10	dep	_	_	64.279999	64.389999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-20
+# text = monsieur Thomson reçoit beaucoup des grandes fêtes des grands bals
+1	monsieur	Monsieur	NOM	NOM	_	3	subj	_	_	64.800003	64.989998	PAT
+2	Thomson	Thomson	NOM	NOM	_	1	dep	_	_	65.000000	65.419998	PAT
+3	reçoit	recevoir	VRB	VRB	_	0	root	_	_	65.629997	66.010002	PAT
+4	beaucoup	beaucoup	PRO	PRO	_	3	dep	_	_	66.260002	66.570000	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	66.580002	66.739998	PAT
+6	grandes	grand	ADJ	ADJ	_	7	dep	_	_	66.750000	67.029999	PAT
+7	fêtes	fête	NOM	NOM	_	5	dep	_	_	67.040001	67.360001	PAT
+8	des	de	PRE	PRE	_	5	para	_	_	67.430000	67.510002	PAT
+9	grands	grand	ADJ	ADJ	_	10	dep	_	_	67.519997	67.779999	PAT
+10	bals	bal	NOM	NOM	_	8	dep	_	_	67.839996	68.040001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-21
+# text = enfin c'est un lieu mondain
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	68.050003	68.239998	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	68.459999	68.500000	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	68.510002	68.550003	PAT
+4	un	un	DET	DET	_	5	spe	_	_	68.639999	68.720001	PAT
+5	lieu	lieu	NOM	NOM	_	3	dep	_	_	68.730003	68.889999	PAT
+6	mondain	mondain	NOM	NOM	_	5	dep	_	_	68.900002	69.320000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-22
+# text = il va mourir dans cette maison en quatre-vingt-dix-huit
+1	il	il	CLS	CLS	_	2	subj	_	_	70.220001	70.290001	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	70.300003	70.419998	PAT
+3	mourir	mourir	VNF	VNF	_	2	dep	_	_	70.430000	70.750000	PAT
+4	dans	dans	PRE	PRE	_	3	dep	_	_	70.760002	70.820000	PAT
+5	cette	ce	DET	DET	_	6	spe	_	_	70.889999	71.099998	PAT
+6	maison	maison	NOM	NOM	_	4	dep	_	_	71.110001	71.349998	PAT
+7	en	en	PRE	PRE	_	6	dep	_	_	71.360001	71.379997	PAT
+8	quatre-vingt-dix-huit	quatre-vingt-dix-huit	NUM	NUM	_	7	dep	_	_	71.389999	72.150002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-23
+# text = et après elle va avoir un j'allais dire plusieurs propriétaires qui vont un peu la négliger et la ville de Nice
+1	et	et	COO	COO	_	4	mark	_	_	72.739998	72.790001	PAT
+2	après	après	PRE	PRE	_	4	periph	_	_	72.800003	73.180000	PAT
+3	elle	moi	PRO	PRO	_	4	subj	_	_	73.190002	73.209999	PAT
+4	va	aller	VRB	VRB	_	0	root	_	_	73.220001	73.370003	PAT
+5	avoir	avoir	VNF	VNF	_	4	dep	_	_	73.379997	73.660004	PAT
+6	un	un	DET	DET	_	8	spe	_	_	73.669998	73.839996	PAT
+7	j'	je	CLS	CLS	_	8	subj	_	_	73.849998	73.919998	PAT
+8	allais	aller	VRB	VRB	_	5	dep	_	_	73.930000	74.040001	PAT
+9	dire	dire	VNF	VNF	_	8	dep	_	_	74.110001	74.209999	PAT
+10	plusieurs	plusieurs	DET	DET	_	11	spe	_	_	74.419998	74.720001	PAT
+11	propriétaires	propriétaire	NOM	NOM	_	9	dep	_	_	74.779999	75.309998	PAT
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	75.610001	75.699997	PAT
+13	vont	aller	VRB	VRB	_	11	dep	_	_	75.709999	75.839996	PAT
+14	un peu	un peu	ADV	ADV	_	13	dep	_	_	75.849998	76.099998	PAT
+15	la	le	CLI	CLI	_	16	dep	_	_	76.110001	76.169998	PAT
+16	négliger	négliger	VNF	VNF	_	13	dep	_	_	76.230003	76.800003	PAT
+17	et	et	COO	COO	_	19	mark	_	_	77.309998	77.330002	PAT
+18	la	le	DET	DET	_	19	spe	_	_	77.339996	77.430000	PAT
+19	ville	ville	NOM	NOM	_	11	para	_	_	77.440002	77.629997	PAT
+20	de	de	PRE	PRE	_	19	dep	_	_	77.639999	77.660004	PAT
+21	Nice	Nice	NOM	NOM	_	20	dep	_	_	77.669998	78.010002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-24
+# text = va~ avoir l'occasion de l'acheter en mille neuf cent vingt-cinq
+1	va~	va~	VRB	VRB	_	0	root	_	_	78.220001	78.379997	PAT
+2	avoir	avoir	VNF	VNF	_	1	dep	_	_	78.510002	78.820000	PAT
+3	l'	le	DET	DET	_	4	spe	_	_	78.919998	78.959999	PAT
+4	occasion	occasion	NOM	NOM	_	2	dep	_	_	78.970001	79.419998	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	79.480003	79.559998	PAT
+6	l'	le	CLI	CLI	_	7	dep	_	_	79.570000	79.620003	PAT
+7	acheter	acheter	VNF	VNF	_	5	dep	_	_	79.629997	79.889999	PAT
+8	en	en	PRE	PRE	_	7	dep	_	_	80.300003	80.430000	PAT
+9	mille	mille	NUM	NUM	_	8	dep	_	_	80.440002	80.529999	PAT
+10	neuf	neuf	NUM	NUM	_	9	dep	_	_	80.540001	80.750000	PAT
+11	cent	cent	NUM	NUM	_	10	dep	_	_	80.760002	80.889999	PAT
+12	vingt-cinq	vingt-cinq	NUM	NUM	_	11	dep	_	_	80.900002	81.320000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-25
+# text = on ouvre le premier grand musée des Beaux-Arts qu'on va très vite appeler le musée Chéret les anciens Niçois
+1	on	on	CLS	CLS	_	2	subj	_	_	81.650002	81.849998	PAT
+2	ouvre	ouvrer	VRB	VRB	_	0	root	_	_	81.860001	82.099998	PAT
+3	le	le	DET	DET	_	6	spe	_	_	82.500000	82.690002	PAT
+4	premier	premier	ADJ	ADJ	_	6	dep	_	_	82.760002	83.320000	PAT
+5	grand	grand	ADJ	ADJ	_	4	para	_	_	83.550003	83.809998	PAT
+6	musée	musée	NOM	NOM	_	2	dep	_	_	83.820000	84.400002	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	84.440002	84.620003	PAT
+8	Beaux-Arts	beaux-arts	NOM	NOM	_	7	dep	_	_	84.629997	84.870003	PAT
+9	qu'	que	PRQ	PRQ	_	11	dep	_	_	85.430000	85.480003	PAT
+10	on	on	CLS	CLS	_	11	subj	_	_	85.489998	85.529999	PAT
+11	va	aller	VRB	VRB	_	6	dep	_	_	85.540001	85.720001	PAT
+12	très	très	ADV	ADV	_	13	dep	_	_	85.790001	85.989998	PAT
+13	vite	vite	ADV	ADV	_	11	dep	_	_	86.000000	86.209999	PAT
+14	appeler	appeler	VNF	VNF	_	11	dep	_	_	86.220001	86.540001	PAT
+15	le	le	DET	DET	_	16	spe	_	_	86.550003	86.620003	PAT
+16	musée	musée	NOM	NOM	_	14	dep	_	_	86.629997	86.889999	PAT
+17	Chéret	Chéret	NOM	NOM	_	16	dep	_	_	86.900002	87.330002	PAT
+18	les	le	DET	DET	_	19	spe	_	_	87.720001	87.879997	PAT
+19	anciens	ancien	NOM	NOM	_	17	para	_	_	87.889999	88.129997	PAT
+20	Niçois	Niçois	NOM	NOM	_	19	dep	_	_	88.139999	88.449997	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-26
+# text = ils connaîtront toujours ils diront toujours le musée Chéret
+1	ils	il	CLS	CLS	_	2	subj	_	_	88.459999	88.510002	PAT
+2	connaîtront	connaître	VRB	VRB	_	0	root	_	_	88.570000	88.980003	PAT
+3	toujours	toujours	ADV	ADV	_	2	dep	_	_	88.989998	89.400002	PAT
+4	ils	il	CLS	CLS	_	5	subj	_	_	89.410004	89.459999	PAT
+5	diront	dire	VRB	VRB	_	2	para	_	_	89.470001	89.750000	PAT
+6	toujours	toujours	ADV	ADV	_	5	dep	_	_	89.760002	90.029999	PAT
+7	le	le	DET	DET	_	8	spe	_	_	90.440002	90.589996	PAT
+8	musée	musée	NOM	NOM	_	5	dep	_	_	90.599998	90.900002	PAT
+9	Chéret	Chéret	NOM	NOM	_	8	dep	_	_	90.910004	91.309998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-27
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	91.680000	91.860001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-28
+# text = que vous verrez
+1	que	que	CSU	CSU	_	0	root	_	_	91.870003	91.930000	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	91.940002	92.089996	PAT
+3	verrez	voir	VRB	VRB	_	1	dep	_	_	92.099998	92.419998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-29
+# text = moi j'essaie de dire toujours musée des Beaux-Arts
+1	moi	moi	PRO	PRO	_	3	periph	_	_	92.430000	92.529999	PAT
+2	j'	je	CLS	CLS	_	3	subj	_	_	92.540001	92.620003	PAT
+3	essaie	essayer	VRB	VRB	_	0	root	_	_	92.629997	92.790001	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	92.800003	92.930000	PAT
+5	dire	dire	VNF	VNF	_	4	dep	_	_	92.980003	93.150002	PAT
+6	toujours	toujours	ADV	ADV	_	7	dep	_	_	93.160004	93.449997	PAT
+7	musée	muser	VPP	VPP	_	5	dep	_	_	93.739998	93.870003	PAT
+8	des	de	PRE	PRE	_	7	dep	_	_	93.879997	94.059998	PAT
+9	Beaux-Arts	beaux-arts	NOM	NOM	_	8	dep	_	_	94.150002	94.639999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-30
+# text = d'ailleurs
+1	d'	de	PRE	PRE	_	0	root	_	_	94.150002	94.169998	DOM
+2	ailleurs	ailleurs	ADV	ADV	_	1	dep	_	_	94.180000	94.489998	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-31
+# text = c'est marqué musée Chéret
+1	c'	ce	CLS	CLS	_	3	subj	_	_	94.699997	94.720001	DOM
+2	est	être	VRB	VRB	_	3	aux	_	_	94.730003	94.750000	DOM
+3	marqué	marquer	VPP	VPP	_	4	aux	_	_	94.980003	95.290001	DOM
+4	musée	muser	VPP	VPP	_	0	root	_	_	95.300003	95.440002	DOM
+5	Chéret	Chéret	NOM	NOM	_	4	dep	_	_	95.580002	95.860001	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-32
+# text = c'est marqué musée Chéret parce qu'en fin de compte on a une collection d'oeuvres de Chéret
+1	c'	ce	CLS	CLS	_	3	subj	_	_	95.580002	95.800003	PAT
+2	est	être	VRB	VRB	_	3	aux	_	_	95.849998	95.870003	PAT
+3	marqué	marquer	VPP	VPP	_	4	aux	_	_	96.180000	96.470001	PAT
+4	musée	muser	VPP	VPP	_	0	root	_	_	96.480003	96.809998	PAT
+5	Chéret	Chéret	NOM	NOM	_	4	dep	_	_	96.820000	96.959999	PAT
+6	parce qu'	parce que	CSU	CSU	_	4	dep	_	_	97.260002	97.510002	PAT
+7	en	en	PRE	PRE	_	12	periph	_	_	97.519997	97.550003	PAT
+8	fin	fin	NOM	NOM	_	7	dep	_	_	97.559998	97.699997	PAT
+9	de	de	PRE	PRE	_	8	dep	_	_	97.709999	97.739998	PAT
+10	compte	compte	NOM	NOM	_	9	dep	_	_	97.750000	97.930000	PAT
+11	on	on	CLS	CLS	_	12	subj	_	_	97.980003	98.070000	PAT
+12	a	avoir	VRB	VRB	_	6	dep	_	_	98.080002	98.129997	PAT
+13	une	un	DET	DET	_	14	spe	_	_	98.139999	98.220001	PAT
+14	collection	collection	NOM	NOM	_	12	dep	_	_	98.269997	98.610001	PAT
+15	d'	de	PRE	PRE	_	14	dep	_	_	98.620003	98.639999	PAT
+16	oeuvres	oeuvre	NOM	NOM	_	15	dep	_	_	98.650002	99.139999	PAT
+17	de	de	PRE	PRE	_	16	dep	_	_	99.150002	99.169998	PAT
+18	Chéret	Chéret	NOM	NOM	_	17	dep	_	_	99.180000	99.480003	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-33
+# text = alors quelles sont nos grandes collections
+1	alors	alors	ADV	ADV	_	3	periph	_	_	99.620003	99.760002	PAT
+2	quelles	quel	PRQ	PRQ	_	3	subj	_	_	100.309998	100.470001	PAT
+3	sont	être	VRB	VRB	_	0	root	_	_	100.480003	100.650002	PAT
+4	nos	son	DET	DET	_	6	spe	_	_	100.730003	100.830002	PAT
+5	grandes	grand	ADJ	ADJ	_	6	dep	_	_	100.839996	101.139999	PAT
+6	collections	collection	NOM	NOM	_	3	dep	_	_	101.150002	101.589996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-34
+# text = on a une collection Chéret Chéret
+1	on	on	CLS	CLS	_	2	subj	_	_	102.800003	102.980003	PAT
+2	a	avoir	VRB	VRB	_	0	root	_	_	102.989998	103.019997	PAT
+3	une	un	DET	DET	_	4	spe	_	_	103.809998	103.889999	PAT
+4	collection	collection	NOM	NOM	_	2	dep	_	_	103.900002	104.330002	PAT
+5	Chéret	Chéret	NOM	NOM	_	4	dep	_	_	104.339996	104.870003	PAT
+6	Chéret	Chéret	NOM	NOM	_	2	dep	_	_	105.470001	105.739998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-35
+# text = meurt à Nice en mille neuf cent trente-deux
+1	meurt	mourir	VRB	VRB	_	0	root	_	_	105.750000	105.970001	PAT
+2	à	à	PRE	PRE	_	1	dep	_	_	105.980003	106.040001	PAT
+3	Nice	Nice	NOM	NOM	_	2	dep	_	_	106.169998	106.339996	PAT
+4	en	en	PRE	PRE	_	1	dep	_	_	106.349998	106.379997	PAT
+5	mille	mille	NUM	NUM	_	4	dep	_	_	106.389999	106.470001	PAT
+6	neuf	neuf	NUM	NUM	_	5	dep	_	_	106.559998	106.709999	PAT
+7	cent	cent	NUM	NUM	_	6	dep	_	_	106.720001	106.839996	PAT
+8	trente-deux	trente-deux	NUM	NUM	_	7	dep	_	_	106.849998	107.279999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-36
+# text = la ville de Nice hérite de tout
+1	la	le	DET	DET	_	2	spe	_	_	107.730003	107.800003	PAT
+2	ville	ville	NOM	NOM	_	5	subj	_	_	107.809998	107.959999	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	108.019997	108.050003	PAT
+4	Nice	Nice	NOM	NOM	_	3	dep	_	_	108.059998	108.529999	PAT
+5	hérite	hériter	VRB	VRB	_	0	root	_	_	108.540001	108.699997	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	108.709999	108.790001	PAT
+7	tout	tout	PRO	PRO	_	6	dep	_	_	108.949997	109.050003	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-37
+# text = on a une collection de Carpeaux
+1	on	on	CLS	CLS	_	2	subj	_	_	109.430000	109.449997	PAT
+2	a	avoir	VRB	VRB	_	0	root	_	_	109.459999	109.480003	PAT
+3	une	un	DET	DET	_	4	spe	_	_	109.489998	109.589996	PAT
+4	collection	collection	NOM	NOM	_	2	dep	_	_	109.709999	110.080002	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	110.169998	110.190002	PAT
+6	Carpeaux	carpeau	NOM	NOM	_	5	dep	_	_	110.550003	110.699997	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-38
+# text = vous avez encore un Carpeaux ici
+1	vous	vous	CLS	CLS	_	2	subj	_	_	110.830002	111.120003	PAT
+2	avez	avoir	VRB	VRB	_	0	root	_	_	111.129997	111.239998	PAT
+3	encore	encore	ADV	ADV	_	2	dep	_	_	111.250000	111.410004	PAT
+4	un	un	DET	DET	_	5	spe	_	_	111.790001	111.839996	PAT
+5	Carpeaux	carpeau	NOM	NOM	_	2	dep	_	_	112.089996	112.309998	PAT
+6	ici	ici	ADV	ADV	_	2	dep	_	_	112.320000	112.639999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-39
+# text = Carpeaux était malade
+1	Carpeaux	carpeau	NOM	NOM	_	2	subj	_	_	112.989998	113.379997	PAT
+2	était	être	VRB	VRB	_	0	root	_	_	113.639999	113.820000	PAT
+3	malade	malade	ADJ	ADJ	_	2	dep	_	_	113.830002	114.239998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-40
+# text = il est venu se soigner sur la Côte d'Azur par testament
+1	il	il	CLS	CLS	_	3	subj	_	_	114.599998	114.699997	PAT
+2	est	être	VRB	VRB	_	3	aux	_	_	114.709999	114.730003	PAT
+3	venu	venir	VPP	VPP	_	0	root	_	_	114.739998	115.010002	PAT
+4	se	se	CLI	CLI	_	5	dep	_	_	115.019997	115.250000	PAT
+5	soigner	soigner	VNF	VNF	_	3	dep	_	_	115.260002	115.430000	PAT
+6	sur	sur	PRE	PRE	_	5	dep	_	_	115.440002	115.570000	PAT
+7	la	le	DET	DET	_	8	spe	_	_	115.580002	115.639999	PAT
+8	Côte	côte	NOM	NOM	_	6	dep	_	_	115.650002	115.959999	PAT
+9	d'	de	PRE	PRE	_	8	dep	_	_	115.970001	115.989998	PAT
+10	Azur	Azur	NOM	NOM	_	9	dep	_	_	116.040001	116.199997	PAT
+11	par	par	PRE	PRE	_	5	dep	_	_	116.470001	116.589996	PAT
+12	testament	testament	NOM	NOM	_	11	dep	_	_	116.660004	117.120003	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-41
+# text = il va léguer beaucoup on a une grande collection de Dufy puisque madame Dufy va nous léguer
+1	il	il	CLS	CLS	_	2	subj	_	_	117.129997	117.180000	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	117.190002	117.370003	PAT
+3	léguer	léguer	VNF	VNF	_	2	dep	_	_	117.379997	117.730003	PAT
+4	beaucoup	beaucoup	ADV	ADV	_	6	periph	_	_	118.089996	118.290001	PAT
+5	on	on	CLS	CLS	_	6	subj	_	_	118.550003	118.610001	PAT
+6	a	avoir	VRB	VRB	_	3	dep	_	_	118.620003	118.639999	PAT
+7	une	un	DET	DET	_	9	spe	_	_	118.650002	118.809998	PAT
+8	grande	grand	ADJ	ADJ	_	9	dep	_	_	118.820000	119.099998	PAT
+9	collection	collection	NOM	NOM	_	6	dep	_	_	119.110001	119.540001	PAT
+10	de	de	PRE	PRE	_	9	dep	_	_	119.550003	119.639999	PAT
+11	Dufy	Dufy	NOM	NOM	_	10	dep	_	_	119.709999	120.089996	PAT
+12	puisque	puisque	CSU	CSU	_	2	periph	_	_	120.730003	120.940002	PAT
+13	madame	Monsieur	NOM	NOM	_	15	subj	_	_	120.949997	121.370003	PAT
+14	Dufy	Dufy	NOM	NOM	_	13	dep	_	_	121.459999	121.889999	PAT
+15	va	aller	VRB	VRB	_	12	dep	_	_	122.199997	122.290001	PAT
+16	nous	nous	CLI	CLI	_	17	dep	_	_	122.300003	122.680000	PAT
+17	léguer	léguer	VNF	VNF	_	15	dep	_	_	122.779999	122.989998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-42
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	123.000000	123.190002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-43
+# text = toute sa collection personnelle
+1	toute	tout	ADJ	ADJ	_	3	dep	_	_	123.230003	123.379997	PAT
+2	sa	son	DET	DET	_	3	spe	_	_	123.389999	123.529999	PAT
+3	collection	collection	NOM	NOM	_	0	root	_	_	123.540001	124.010002	PAT
+4	personnelle	personnel	ADJ	ADJ	_	3	dep	_	_	124.059998	124.610001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-44
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	110.940002	111.040001	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-45
+# text = vous voulez suivre la visite commentée
+1	vous	vous	CLS	CLS	_	2	subj	_	_	125.639999	125.760002	PAT
+2	voulez	vouloir	VRB	VRB	_	0	root	_	_	125.769997	125.980003	PAT
+3	suivre	suivre	VNF	VNF	_	2	dep	_	_	125.989998	126.269997	PAT
+4	la	le	DET	DET	_	5	spe	_	_	126.279999	126.379997	PAT
+5	visite	visite	NOM	NOM	_	3	dep	_	_	126.389999	126.599998	PAT
+6	commentée	commenter	VPP	VPP	_	5	dep	_	_	126.650002	127.180000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-46
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	127.379997	127.430000	PER
+
+# sent_id = cefc-coralrom-fnatpe02-47
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	127.629997	127.739998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-48
+# text = ah ça vous dirait
+1	ah	ah	INT	INT	_	4	dm	_	_	128.500000	128.550003	PAT
+2	ça	ça	PRO	PRO	_	4	subj	_	_	128.919998	128.970001	PAT
+3	vous	vous	CLI	CLI	_	4	dep	_	_	128.979996	129.100006	PAT
+4	dirait	dire	VRB	VRB	_	0	root	_	_	129.110001	129.529999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-49
+# text = ah ben alors voilà restez avec nous
+1	ah ben	ah ben	INT	INT	_	4	dm	_	_	129.539993	129.729996	PAT
+2	alors	alors	ADV	ADV	_	4	periph	_	_	129.740005	129.960007	PAT
+3	voilà	voilà	INT	INT	_	2	dm	_	_	130.009995	130.240005	PAT
+4	restez	rester	VRB	VRB	_	0	root	_	_	130.309998	130.589996	PAT
+5	avec	avec	PRE	PRE	_	4	dep	_	_	130.600006	130.759995	PAT
+6	nous	moi	PRO	PRO	_	5	dep	_	_	130.820007	130.929993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-50
+# text = je venais juste de commencer
+1	je	je	CLS	CLS	_	2	subj	_	_	131.169998	131.210007	PAT
+2	venais	venir	VRB	VRB	_	0	root	_	_	131.220001	131.399994	PAT
+3	juste	juste	ADV	ADV	_	2	dep	_	_	131.410004	131.619995	PAT
+4	de	de	PRE	PRE	_	2	dep	_	_	131.630005	131.729996	PAT
+5	commencer	commencer	VNF	VNF	_	4	dep	_	_	131.740005	132.169998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-51
+# text = donc j'ai pas j'ai pas beaucoup j'ai pas beaucoup j'ai juste fait un tout petit euh
+1	donc	donc	ADV	ADV	_	3	periph	_	_	132.179993	132.389999	PAT
+2	j'	je	CLS	CLS	_	3	subj	_	_	132.399994	132.440002	PAT
+3	ai	avoir	VRB	VRB	_	0	root	_	_	132.449997	132.570007	PAT
+4	pas	pas	ADN	ADN	_	3	dep	_	_	132.580002	132.690002	PAT
+5	j'	je	CLS	CLS	_	6	subj	_	_	132.970001	133.009995	PAT
+6	ai	avoir	VRB	VRB	_	3	para	_	_	133.020004	133.050003	PAT
+7	pas	pas	ADN	ADN	_	6	dep	_	_	133.110001	133.210007	PAT
+8	beaucoup	beaucoup	ADV	ADV	_	6	dep	_	_	133.309998	133.639999	PAT
+9	j'	je	CLS	CLS	_	10	subj	_	_	133.699997	133.800003	PAT
+10	ai	avoir	VRB	VRB	_	6	para	_	_	133.809998	133.880005	PAT
+11	pas	pas	ADN	ADN	_	10	dep	_	_	133.889999	133.970001	PAT
+12	beaucoup	beaucoup	ADV	ADV	_	10	dep	_	_	134.190002	134.300003	PAT
+13	j'	je	CLS	CLS	_	16	subj	_	_	134.460007	134.520004	PAT
+14	ai	avoir	VRB	VRB	_	16	aux	_	_	134.529999	134.559998	PAT
+15	juste	juste	ADV	ADV	_	16	dep	_	_	134.570007	134.860001	PAT
+16	fait	faire	VPP	VPP	_	10	para	_	_	134.869995	135.020004	PAT
+17	un	un	DET	DET	_	19	spe	_	_	135.029999	135.110001	PAT
+18	tout	tout	ADJ	ADJ	_	19	dep	_	_	135.179993	135.250000	PAT
+19	petit	petit	ADJ	ADJ	_	16	dep	_	_	135.399994	135.770004	PAT
+20	euh	euh	INT	INT	_	19	dm	_	_	136.000000	136.020004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-52
+# text = j'allais dire un tout petit rappel de l'histoire de la maison construite pour une princesse russe puis habitée par un très riche Américain devenue musée des Beaux-Arts en mille neuf cent vingt-cinq et achetée par la ville à ce moment-là
+1	j'	je	CLS	CLS	_	2	subj	_	_	136.300003	136.389999	PAT
+2	allais	aller	VRB	VRB	_	0	root	_	_	136.399994	136.490005	PAT
+3	dire	dire	VNF	VNF	_	2	dep	_	_	136.500000	136.639999	PAT
+4	un	un	DET	DET	_	7	spe	_	_	136.649994	136.729996	PAT
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	136.820007	136.899994	PAT
+6	petit	petit	ADJ	ADJ	_	7	dep	_	_	136.990005	137.139999	PAT
+7	rappel	rappel	NOM	NOM	_	3	dep	_	_	137.149994	137.649994	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	138.050003	138.229996	PAT
+9	l'	le	DET	DET	_	10	spe	_	_	138.240005	138.350006	PAT
+10	histoire	histoire	NOM	NOM	_	8	dep	_	_	138.360001	138.720001	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	138.729996	138.789993	PAT
+12	la	le	DET	DET	_	13	spe	_	_	138.800003	138.880005	PAT
+13	maison	maison	NOM	NOM	_	11	dep	_	_	138.889999	139.330002	PAT
+14	construite	construire	ADJ	ADJ	_	13	dep	_	_	139.649994	140.009995	PAT
+15	pour	pour	PRE	PRE	_	3	dep	_	_	140.080002	140.240005	PAT
+16	une	un	DET	DET	_	17	spe	_	_	140.250000	140.330002	PAT
+17	princesse	prince	NOM	NOM	_	15	dep	_	_	140.339996	140.809998	PAT
+18	russe	russe	ADJ	ADJ	_	17	dep	_	_	140.820007	141.210007	PAT
+19	puis	puis	COO	COO	_	20	mark	_	_	141.410004	141.710007	PAT
+20	habitée	habiter	VPP	VPP	_	15	para	_	_	141.910004	142.259995	PAT
+21	par	par	PRE	PRE	_	20	dep	_	_	142.309998	142.449997	PAT
+22	un	un	DET	DET	_	25	spe	_	_	142.460007	142.559998	PAT
+23	très	très	ADV	ADV	_	24	dep	_	_	142.619995	142.750000	PAT
+24	riche	riche	ADJ	ADJ	_	25	dep	_	_	142.759995	142.970001	PAT
+25	Américain	américain	NOM	NOM	_	21	dep	_	_	142.979996	143.479996	PAT
+26	devenue	devenue	ADV	ADV	_	27	dep	_	_	143.800003	144.210007	PAT
+27	musée	muser	VPP	VPP	_	20	para	_	_	144.220001	144.610001	PAT
+28	des	de	PRE	PRE	_	27	dep	_	_	144.699997	144.830002	PAT
+29	Beaux-Arts	beaux-arts	NOM	NOM	_	28	dep	_	_	144.839996	144.949997	PAT
+30	en	en	PRE	PRE	_	27	dep	_	_	145.029999	145.070007	PAT
+31	mille	mille	NUM	NUM	_	30	dep	_	_	145.080002	145.190002	PAT
+32	neuf	neuf	NUM	NUM	_	31	dep	_	_	145.199997	145.369995	PAT
+33	cent	cent	NUM	NUM	_	32	dep	_	_	145.380005	145.509995	PAT
+34	vingt-cinq	vingt-cinq	NUM	NUM	_	33	dep	_	_	145.520004	145.880005	PAT
+35	et	et	COO	COO	_	36	mark	_	_	146.539993	146.679993	PAT
+36	achetée	acheter	VPP	VPP	_	27	para	_	_	146.770004	147.029999	PAT
+37	par	par	PRE	PRE	_	36	dep	_	_	147.039993	147.220001	PAT
+38	la	le	DET	DET	_	39	spe	_	_	147.229996	147.309998	PAT
+39	ville	ville	NOM	NOM	_	37	dep	_	_	147.320007	147.509995	PAT
+40	à	à	PRE	PRE	_	36	dep	_	_	147.520004	147.559998	PAT
+41	ce	ce	DET	DET	_	42	spe	_	_	147.570007	147.669998	PAT
+42	moment-là	moment-là	NOM	NOM	_	40	dep	_	_	147.679993	148.020004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-53
+# text = on en était donc à aux différentes collections principales
+1	on	on	CLS	CLS	_	3	subj	_	_	148.369995	148.490005	PAT
+2	en	en	CLI	CLI	_	3	dep	_	_	148.500000	148.660004	PAT
+3	était	être	VRB	VRB	_	0	root	_	_	148.770004	148.889999	PAT
+4	donc	donc	ADV	ADV	_	3	dep	_	_	148.899994	149.080002	PAT
+5	à	à	PRE	PRE	_	3	dep	_	_	149.210007	149.240005	PAT
+6	aux	à+le	PRE	PRE	_	5	para	_	_	149.250000	149.270004	PAT
+7	différentes	différent	ADJ	ADJ	_	8	dep	_	_	149.279999	149.779999	PAT
+8	collections	collection	NOM	NOM	_	6	dep	_	_	149.820007	150.190002	PAT
+9	principales	principal	ADJ	ADJ	_	8	dep	_	_	150.229996	150.839996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-54
+# text = collection Chéret qui lui donne son nom collection Dufy collection Carpeaux
+1	collection	collection	NOM	NOM	_	0	root	_	_	151.679993	152.110001	PAT
+2	Chéret	Chéret	NOM	NOM	_	1	dep	_	_	152.119995	152.580002	PAT
+3	qui	qui	PRQ	PRQ	_	5	dep	_	_	152.880005	153.009995	PAT
+4	lui	lui	CLI	CLI	_	5	dep	_	_	153.050003	153.130005	PAT
+5	donne	donner	VRB	VRB	_	2	dep	_	_	153.139999	153.320007	PAT
+6	son	son	DET	DET	_	7	spe	_	_	153.330002	153.500000	PAT
+7	nom	nom	NOM	NOM	_	5	dep	_	_	153.550003	153.729996	PAT
+8	collection	collection	NOM	NOM	_	7	dep	_	_	154.009995	154.419998	PAT
+9	Dufy	Dufy	NOM	NOM	_	8	dep	_	_	154.429993	154.770004	PAT
+10	collection	collection	NOM	NOM	_	9	dep	_	_	155.100006	155.440002	PAT
+11	Carpeaux	carpeau	NOM	NOM	_	10	dep	_	_	155.550003	155.880005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-55
+# text = et depuis ces deux dernières années on a eu la chance d'avoir deux dames qui nous ont donné s leur s collection d'abord madame euh A~ d'Acquaviva et qui va nous donner des peintures flamandes du dix-septième siècle
+1	et	et	COO	COO	_	9	mark	_	_	156.339996	156.559998	PAT
+2	depuis	depuis	PRE	PRE	_	9	periph	_	_	156.690002	157.039993	PAT
+3	ces	ce	DET	DET	_	6	spe	_	_	157.050003	157.240005	PAT
+4	deux	deux	NUM	NUM	_	6	dep	_	_	157.279999	157.389999	PAT
+5	dernières	dernier	ADJ	ADJ	_	6	dep	_	_	157.399994	157.729996	PAT
+6	années	année	NOM	NOM	_	2	dep	_	_	157.740005	157.919998	PAT
+7	on	on	CLS	CLS	_	9	subj	_	_	157.929993	158.089996	PAT
+8	a	avoir	VRB	VRB	_	9	aux	_	_	158.100006	158.139999	PAT
+9	eu	avoir	VPP	VPP	_	0	root	_	_	158.149994	158.220001	PAT
+10	la	le	DET	DET	_	11	spe	_	_	158.229996	158.339996	PAT
+11	chance	chance	NOM	NOM	_	9	dep	_	_	158.399994	158.600006	PAT
+12	d'	de	PRE	PRE	_	11	dep	_	_	158.960007	158.979996	PAT
+13	avoir	avoir	VNF	VNF	_	12	dep	_	_	158.990005	159.190002	PAT
+14	deux	deux	NUM	NUM	_	15	spe	_	_	159.440002	159.639999	PAT
+15	dames	dame	NOM	NOM	_	13	dep	_	_	159.949997	160.199997	PAT
+16	qui	qui	PRQ	PRQ	_	19	subj	_	_	160.350006	160.399994	PAT
+17	nous	nous	CLI	CLI	_	19	dep	_	_	160.440002	160.610001	PAT
+18	ont	avoir	VRB	VRB	_	19	aux	_	_	160.619995	160.679993	PAT
+19	donné	donner	VPP	VPP	_	11	dep	_	_	160.690002	161.009995	PAT
+20	s	s	X	X	_	19	disflink	_	_	161.009995	161.009995	PAT
+21	leur	son	DET	DET	_	22	spe	_	_	161.020004	161.179993	PAT
+22	s	s	NOM	NOM	_	19	dep	_	_	161.179993	161.179993	PAT
+23	collection	collection	NOM	NOM	_	22	dep	_	_	161.300003	161.720001	PAT
+24	d'	de	PRE	PRE	_	19	dep	_	_	162.149994	162.190002	PAT
+25	abord	abord	NOM	NOM	_	24	dep	_	_	162.199997	162.429993	PAT
+26	madame	Monsieur	NOM	NOM	_	19	dep	_	_	162.440002	162.800003	PAT
+27	euh	euh	INT	INT	_	26	dm	_	_	163.740005	163.929993	PAT
+28	A~	A~	NOM	NOM	_	19	dep	_	_	164.029999	164.070007	PAT
+29	d'	de	PRE	PRE	_	28	dep	_	_	164.160004	164.179993	PAT
+30	Acquaviva	Acquaviva	NOM	NOM	_	29	dep	_	_	164.350006	164.899994	PAT
+31	et	et	COO	COO	_	33	mark	_	_	165.360001	165.380005	PAT
+32	qui	qui	PRQ	PRQ	_	33	subj	_	_	165.529999	165.979996	PAT
+33	va	aller	VRB	VRB	_	19	para	_	_	165.990005	166.050003	PAT
+34	nous	nous	CLI	CLI	_	35	dep	_	_	166.059998	166.320007	PAT
+35	donner	donner	VNF	VNF	_	33	dep	_	_	166.330002	166.440002	PAT
+36	des	de	PRE	PRE	_	35	dep	_	_	166.449997	166.589996	PAT
+37	peintures	peinture	NOM	NOM	_	36	dep	_	_	166.600006	166.990005	PAT
+38	flamandes	flamand	ADJ	ADJ	_	37	dep	_	_	167.000000	167.440002	PAT
+39	du	de+le	PRE	PRE	_	36	para	_	_	167.669998	167.770004	PAT
+40	dix-septième	dix-septième	ADJ	ADJ	_	41	dep	_	_	167.820007	168.250000	PAT
+41	siècle	siècle	NOM	NOM	_	39	dep	_	_	168.339996	168.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-56
+# text = et en
+1	et	et	COO	COO	_	0	root	_	_	169.029999	169.190002	PAT
+2	en	en	PRE	PRE	_	1	disflink	_	_	169.759995	170.080002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-57
+# text = pour les journées du patrimoine en septembre quatre-vingt-dix-neuf
+1	pour	pour	PRE	PRE	_	0	root	_	_	170.570007	170.649994	PAT
+2	les	le	DET	DET	_	3	spe	_	_	170.660004	170.710007	PAT
+3	journées	journée	NOM	NOM	_	1	dep	_	_	170.720001	170.910004	PAT
+4	du	de+le	PRE	PRE	_	3	dep	_	_	170.919998	171.009995	PAT
+5	patrimoine	patrimoine	NOM	NOM	_	4	dep	_	_	171.020004	171.559998	PAT
+6	en	en	PRE	PRE	_	3	dep	_	_	171.570007	171.589996	PAT
+7	septembre	septembre	NOM	NOM	_	6	dep	_	_	171.600006	172.039993	PAT
+8	quatre-vingt-dix-neuf	quatre-vingt-dix-neuf	NUM	NUM	_	7	dep	_	_	172.050003	172.720001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-58
+# text = madame Messiah
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	173.070007	173.429993	PAT
+2	Messiah	Messiah	NOM	NOM	_	1	dep	_	_	173.440002	173.960007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-59
+# text = madame Ethel Messiah
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	174.330002	174.490005	PAT
+2	Ethel	Ethel	NOM	NOM	_	1	dep	_	_	174.580002	174.850006	PAT
+3	Messiah	Messiah	NOM	NOM	_	2	dep	_	_	174.860001	175.220001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-60
+# text = nous a donné des oeuvres on a des petits Signac adorables quatre beaux petits Signac euh un Manguin Misk-~ euh Moïse Kisling
+1	nous	nous	CLS	CLS	_	3	subj	_	_	175.509995	175.669998	PAT
+2	a	avoir	VRB	VRB	_	3	aux	_	_	175.679993	175.720001	PAT
+3	donné	donner	VPP	VPP	_	7	periph	_	_	175.779999	176.149994	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	176.160004	176.320007	PAT
+5	oeuvres	oeuvre	NOM	NOM	_	4	dep	_	_	176.330002	176.500000	PAT
+6	on	on	CLS	CLS	_	7	subj	_	_	176.509995	176.610001	PAT
+7	a	avoir	VRB	VRB	_	0	root	_	_	176.619995	176.669998	PAT
+8	des	de	PRE	PRE	_	7	dep	_	_	176.729996	176.789993	PAT
+9	petits	petit	ADJ	ADJ	_	10	dep	_	_	176.880005	176.990005	PAT
+10	Signac	Signac	NOM	NOM	_	8	dep	_	_	177.000000	177.460007	PAT
+11	adorables	adorable	ADJ	ADJ	_	10	dep	_	_	178.059998	178.600006	PAT
+12	quatre	quatre	NUM	NUM	_	15	spe	_	_	178.880005	179.169998	PAT
+13	beaux	beau	ADJ	ADJ	_	15	dep	_	_	179.289993	179.360001	PAT
+14	petits	petit	ADJ	ADJ	_	15	dep	_	_	179.529999	179.750000	PAT
+15	Signac	Signac	NOM	NOM	_	10	para	_	_	179.759995	180.179993	PAT
+16	euh	euh	INT	INT	_	15	dm	_	_	180.619995	180.639999	PAT
+17	un	un	DET	DET	_	18	spe	_	_	180.649994	181.089996	PAT
+18	Manguin	Manguin	NOM	NOM	_	15	para	_	_	181.100006	181.710007	PAT
+19	Misk-~	Misk-~	NOM	NOM	_	18	dep	_	_	182.809998	183.309998	PAT
+20	euh	euh	INT	INT	_	19	dm	_	_	183.320007	183.419998	PAT
+21	Moïse	moïse	NOM	NOM	_	19	para	_	_	183.479996	183.770004	PAT
+22	Kisling	Kisling	NOM	NOM	_	21	dep	_	_	183.779999	184.520004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-61
+# text = enfin
+1	enfin	enfin	ADV	ADV	_	0	root	_	_	185.589996	185.839996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-62
+# text = des peintres célèbres
+1	des	de	PRE	PRE	_	0	root	_	_	185.850006	185.910004	PAT
+2	peintres	peintre	NOM	NOM	_	1	dep	_	_	186.039993	186.279999	PAT
+3	célèbres	célèbre	ADJ	ADJ	_	2	dep	_	_	186.449997	187.070007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-63
+# text = un peintre de Saint-Tropez peintre de la couleur des années vingt des années trente
+1	un	un	DET	DET	_	2	spe	_	_	187.270004	187.289993	PAT
+2	peintre	peintre	NOM	NOM	_	0	root	_	_	187.410004	187.720001	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	187.850006	187.869995	PAT
+4	Saint-Tropez	Saint-Tropez	NOM	NOM	_	3	dep	_	_	187.880005	188.460007	PAT
+5	peintre	peintre	NOM	NOM	_	4	dep	_	_	188.619995	188.889999	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	188.899994	188.929993	PAT
+7	la	le	DET	DET	_	8	spe	_	_	188.979996	189.070007	PAT
+8	couleur	couleur	NOM	NOM	_	6	dep	_	_	189.229996	189.440002	PAT
+9	des	de	PRE	PRE	_	8	dep	_	_	189.699997	189.839996	PAT
+10	années	année	NOM	NOM	_	9	dep	_	_	189.850006	190.059998	PAT
+11	vingt	vingt	NUM	NUM	_	8	dep	_	_	190.070007	190.210007	PAT
+12	des	de	PRE	PRE	_	11	dep	_	_	190.220001	190.380005	PAT
+13	années	année	NOM	NOM	_	12	dep	_	_	190.389999	190.490005	PAT
+14	trente	trente	NUM	NUM	_	13	dep	_	_	190.500000	190.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-64
+# text = alors ça fait qu'on a eu deux legs très importants
+1	alors	alors	ADV	ADV	_	3	periph	_	_	191.020004	191.139999	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	191.149994	191.259995	PAT
+3	fait	faire	VRB	VRB	_	0	root	_	_	191.270004	191.410004	PAT
+4	qu'	que	CSU	CSU	_	3	dep	_	_	191.449997	191.479996	PAT
+5	on	on	CLS	CLS	_	7	subj	_	_	191.490005	191.610001	PAT
+6	a	avoir	VRB	VRB	_	7	aux	_	_	191.619995	191.639999	PAT
+7	eu	avoir	VPP	VPP	_	4	dep	_	_	191.649994	191.770004	PAT
+8	deux	deux	NUM	NUM	_	9	spe	_	_	191.850006	192.000000	PAT
+9	legs	legs	NOM	NOM	_	7	dep	_	_	192.009995	192.300003	PAT
+10	très	très	ADV	ADV	_	11	dep	_	_	192.649994	192.899994	PAT
+11	importants	important	ADJ	ADJ	_	9	dep	_	_	192.910004	193.350006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-65
+# text = il y a récemment
+1	il	il	CLS	CLS	_	4	subj	_	_	193.759995	193.809998	PAT
+2	y	y	CLI	CLI	_	4	dep	_	_	193.820007	193.860001	PAT
+3	a	avoir	VRB	VRB	_	4	aux	_	_	193.869995	193.910004	PAT
+4	récemment	récemment	VPP	VPP	_	0	root	_	_	193.919998	194.160004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-66
+# text = alors je vais vous entraîner
+1	alors	alors	ADV	ADV	_	3	periph	_	_	194.529999	194.669998	PAT
+2	je	je	CLS	CLS	_	3	subj	_	_	194.970001	195.070007	PAT
+3	vais	aller	VRB	VRB	_	0	root	_	_	195.080002	195.199997	PAT
+4	vous	vous	CLI	CLI	_	5	dep	_	_	195.210007	195.410004	PAT
+5	entraîner	entraîner	VNF	VNF	_	3	dep	_	_	195.419998	195.800003	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-67
+# text = on va faire un parcours un peu chronologique mis à part le Moyen-Age
+1	on	on	CLS	CLS	_	2	subj	_	_	196.089996	196.149994	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	196.160004	196.240005	PAT
+3	faire	faire	VNF	VNF	_	2	dep	_	_	196.250000	196.429993	PAT
+4	un	un	DET	DET	_	5	spe	_	_	196.440002	196.479996	PAT
+5	parcours	parcours	NOM	NOM	_	3	dep	_	_	196.529999	196.869995	PAT
+6	un peu	un peu	ADV	ADV	_	7	dep	_	_	196.880005	197.149994	PAT
+7	chronologique	chronologique	ADJ	ADJ	_	5	dep	_	_	197.160004	198.039993	PAT
+8	mis	mettre	VPP	VPP	_	5	dep	_	_	198.380005	198.520004	PAT
+9	à	à	PRE	PRE	_	8	dep	_	_	198.529999	198.580002	PAT
+10	part	part	NOM	NOM	_	9	dep	_	_	198.589996	198.750000	PAT
+11	le	le	DET	DET	_	12	spe	_	_	198.809998	198.830002	PAT
+12	Moyen-Age	Moyen-Age	NOM	NOM	_	8	dep	_	_	198.869995	199.389999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-68
+# text = je ne ferai pas
+1	je	je	CLS	CLS	_	3	subj	_	_	199.910004	199.960007	PAT
+2	ne	ne	CLN	CLN	_	3	dep	_	_	199.970001	199.990005	PAT
+3	ferai	faire	VRB	VRB	_	0	root	_	_	200.000000	200.199997	PAT
+4	pas	pas	ADN	ADN	_	3	dep	_	_	200.410004	200.520004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-69
+# text = la visite commentée de la peinture de la galerie
+1	la	le	DET	DET	_	2	spe	_	_	200.759995	200.809998	PAT
+2	visite	visite	NOM	NOM	_	0	root	_	_	200.919998	201.110001	PAT
+3	commentée	commenter	VPP	VPP	_	2	dep	_	_	201.119995	201.320007	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	202.050003	202.070007	PAT
+5	la	le	DET	DET	_	6	spe	_	_	202.080002	202.139999	PAT
+6	peinture	peinture	NOM	NOM	_	4	dep	_	_	202.210007	202.389999	PAT
+7	de	de	PRE	PRE	_	6	dep	_	_	202.399994	202.429993	PAT
+8	la	le	DET	DET	_	9	spe	_	_	202.440002	202.509995	PAT
+9	galerie	galerie	NOM	NOM	_	7	dep	_	_	202.520004	202.800003	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-70
+# text = donc ça vous devrez le regarder seuls
+1	donc	donc	ADV	ADV	_	4	periph	_	_	203.050003	203.210007	PAT
+2	ça	ça	PRO	PRO	_	4	periph	_	_	203.300003	203.389999	PAT
+3	vous	vous	CLS	CLS	_	4	subj	_	_	203.399994	203.559998	PAT
+4	devrez	devoir	VRB	VRB	_	0	root	_	_	203.570007	203.979996	PAT
+5	le	le	CLI	CLI	_	6	dep	_	_	203.990005	204.050003	PAT
+6	regarder	regarder	VNF	VNF	_	4	dep	_	_	204.059998	204.389999	PAT
+7	seuls	seul	ADJ	ADJ	_	6	dep	_	_	204.500000	204.649994	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-71
+# text = on va commencer par le legs de madame
+1	on	on	CLS	CLS	_	2	subj	_	_	205.610001	205.639999	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	205.649994	205.750000	PAT
+3	commencer	commencer	VNF	VNF	_	2	dep	_	_	205.759995	206.199997	PAT
+4	par	par	PRE	PRE	_	3	dep	_	_	206.210007	206.350006	PAT
+5	le	le	DET	DET	_	6	spe	_	_	206.360001	206.490005	PAT
+6	legs	legs	NOM	NOM	_	4	dep	_	_	206.500000	206.809998	PAT
+7	de	de	PRE	PRE	_	6	dep	_	_	207.119995	207.179993	PAT
+8	madame	Monsieur	NOM	NOM	_	7	dep	_	_	207.190002	207.639999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-72
+# text = Avidgor d'Acquaviva
+1	Avidgor	Avidgor	NOM	NOM	_	0	root	_	_	210.139999	210.919998	PAT
+2	d'	de	PRE	PRE	_	1	dep	_	_	210.929993	210.949997	PAT
+3	Acquaviva	Acquaviva	NOM	NOM	_	2	dep	_	_	211.039993	211.460007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-73
+# text = tout à coup il y avait son nom qui m'échappait
+1	tout à coup	tout à coup	ADV	ADV	_	4	periph	_	_	211.699997	212.029999	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	212.039993	212.100006	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	212.110001	212.130005	PAT
+4	avait	avoir	VRB	VRB	_	0	root	_	_	212.139999	212.229996	PAT
+5	son	son	DET	DET	_	6	spe	_	_	212.240005	212.399994	PAT
+6	nom	nom	NOM	NOM	_	4	dep	_	_	212.410004	212.509995	PAT
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	212.550003	212.630005	PAT
+8	m'	me	CLI	CLI	_	9	dep	_	_	212.639999	212.669998	PAT
+9	échappait	échapper	VRB	VRB	_	6	dep	_	_	212.679993	213.039993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-74
+# text = je voudrais que vous remarquiez le plafond dans cette villa à l'origine
+1	je	je	CLS	CLS	_	2	subj	_	_	213.979996	214.000000	PAT
+2	voudrais	vouloir	VRB	VRB	_	0	root	_	_	214.580002	214.820007	PAT
+3	que	que	CSU	CSU	_	2	dep	_	_	214.830002	215.149994	PAT
+4	vous	vous	CLS	CLS	_	5	subj	_	_	215.160004	215.309998	PAT
+5	remarquiez	remarquer	VRB	VRB	_	3	dep	_	_	215.320007	215.570007	PAT
+6	le	le	DET	DET	_	7	spe	_	_	215.639999	215.940002	PAT
+7	plafond	plafond	NOM	NOM	_	5	dep	_	_	215.949997	216.389999	PAT
+8	dans	dans	PRE	PRE	_	5	dep	_	_	218.389999	218.479996	PAT
+9	cette	ce	DET	DET	_	10	spe	_	_	218.610001	218.789993	PAT
+10	villa	villa	NOM	NOM	_	8	dep	_	_	218.800003	219.160004	PAT
+11	à	à	PRE	PRE	_	5	dep	_	_	219.369995	219.419998	PAT
+12	l'	le	DET	DET	_	13	spe	_	_	219.429993	219.449997	PAT
+13	origine	origine	NOM	NOM	_	11	dep	_	_	219.500000	220.110001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-75
+# text = il y avait des plafonds peints
+1	il	il	CLS	CLS	_	3	subj	_	_	220.460007	220.619995	PAT
+2	y	y	CLI	CLI	_	3	dep	_	_	220.630005	220.660004	PAT
+3	avait	avoir	VRB	VRB	_	0	root	_	_	220.669998	220.979996	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	220.990005	221.080002	PAT
+5	plafonds	plafond	NOM	NOM	_	4	dep	_	_	221.160004	221.509995	PAT
+6	peints	peindre	ADJ	ADJ	_	5	dep	_	_	221.610001	221.779999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-76
+# text = et il y avait même dans la galerie des grandes peintures murales
+1	et	et	COO	COO	_	4	mark	_	_	222.250000	222.289993	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	222.300003	222.440002	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	222.449997	222.490005	PAT
+4	avait	avoir	VRB	VRB	_	0	root	_	_	222.500000	222.660004	PAT
+5	même	même	ADV	ADV	_	4	dep	_	_	222.669998	223.039993	PAT
+6	dans	dans	PRE	PRE	_	4	dep	_	_	223.440002	223.509995	PAT
+7	la	le	DET	DET	_	8	spe	_	_	223.520004	223.570007	PAT
+8	galerie	galerie	NOM	NOM	_	6	dep	_	_	223.580002	223.750000	PAT
+9	des	de	PRE	PRE	_	4	dep	_	_	224.470001	224.639999	PAT
+10	grandes	grand	ADJ	ADJ	_	11	dep	_	_	224.649994	224.940002	PAT
+11	peintures	peinture	NOM	NOM	_	9	dep	_	_	224.979996	225.339996	PAT
+12	murales	mural	ADJ	ADJ	_	11	dep	_	_	225.350006	225.699997	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-77
+# text = c'était la grande mode à cette époque-là
+1	c'	ce	CLS	CLS	_	2	subj	_	_	226.130005	226.160004	PAT
+2	était	être	VRB	VRB	_	0	root	_	_	226.169998	226.309998	PAT
+3	la	le	DET	DET	_	5	spe	_	_	226.320007	226.429993	PAT
+4	grande	grand	ADJ	ADJ	_	5	dep	_	_	226.539993	226.679993	PAT
+5	mode	mode	NOM	NOM	_	2	dep	_	_	226.690002	226.949997	PAT
+6	à	à	PRE	PRE	_	2	dep	_	_	226.960007	227.009995	PAT
+7	cette	ce	DET	DET	_	8	spe	_	_	227.020004	227.220001	PAT
+8	époque-là	époque-là	NOM	NOM	_	6	dep	_	_	227.229996	227.750000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-78
+# text = on venait de découvrir Pompéi
+1	on	on	CLS	CLS	_	2	subj	_	_	228.059998	228.089996	PAT
+2	venait	venir	VRB	VRB	_	0	root	_	_	228.100006	228.360001	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	228.369995	228.410004	PAT
+4	découvrir	découvrir	VNF	VNF	_	3	dep	_	_	228.470001	228.970001	PAT
+5	Pompéi	Pompéi	NOM	NOM	_	4	dep	_	_	229.029999	229.600006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-79
+# text = donc on avait fait des fouilles
+1	donc	donc	ADV	ADV	_	4	periph	_	_	230.000000	230.190002	PAT
+2	on	on	CLS	CLS	_	4	subj	_	_	230.199997	230.279999	PAT
+3	avait	avoir	VRB	VRB	_	4	aux	_	_	230.289993	230.429993	PAT
+4	fait	faire	VPP	VPP	_	0	root	_	_	230.440002	230.619995	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	230.630005	230.740005	PAT
+6	fouilles	fouille	NOM	NOM	_	5	dep	_	_	230.750000	231.130005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-80
+# text = et c'était la mode des peintures murales à style mythologique
+1	et	et	COO	COO	_	3	mark	_	_	231.419998	231.580002	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	232.029999	232.080002	PAT
+3	était	être	VRB	VRB	_	0	root	_	_	232.119995	232.240005	PAT
+4	la	le	DET	DET	_	5	spe	_	_	232.250000	232.350006	PAT
+5	mode	mode	NOM	NOM	_	3	dep	_	_	232.360001	232.600006	PAT
+6	des	de	PRE	PRE	_	5	dep	_	_	232.830002	232.940002	PAT
+7	peintures	peinture	NOM	NOM	_	6	dep	_	_	232.949997	233.330002	PAT
+8	murales	mural	ADJ	ADJ	_	7	dep	_	_	233.339996	233.750000	PAT
+9	à	à	PRE	PRE	_	5	dep	_	_	234.009995	234.039993	PAT
+10	style	style	NOM	NOM	_	9	dep	_	_	234.050003	234.649994	PAT
+11	mythologique	mythologique	ADJ	ADJ	_	10	dep	_	_	234.789993	235.529999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-81
+# text = et vous avez ici une Vénus entourée par des petits Cupidon dans un plafond qu'on appelle
+1	et	et	COO	COO	_	3	mark	_	_	235.850006	235.880005	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	235.889999	236.080002	PAT
+3	avez	avoir	VRB	VRB	_	0	root	_	_	236.089996	236.410004	PAT
+4	ici	ici	ADV	ADV	_	3	dep	_	_	236.539993	236.740005	PAT
+5	une	un	DET	DET	_	6	spe	_	_	237.110001	237.270004	PAT
+6	Vénus	vénus	NOM	NOM	_	3	dep	_	_	237.279999	237.960007	PAT
+7	entourée	entourer	VPP	VPP	_	6	dep	_	_	238.320007	238.789993	PAT
+8	par	par	PRE	PRE	_	7	dep	_	_	238.869995	239.149994	PAT
+9	des	de	PRE	PRE	_	8	dep	_	_	239.210007	239.259995	PAT
+10	petits	petit	ADJ	ADJ	_	11	dep	_	_	239.270004	239.440002	PAT
+11	Cupidon	cupidon	NOM	NOM	_	9	dep	_	_	239.449997	240.000000	PAT
+12	dans	dans	PRE	PRE	_	3	dep	_	_	240.289993	240.449997	PAT
+13	un	un	DET	DET	_	14	spe	_	_	240.460007	240.589996	PAT
+14	plafond	plafond	NOM	NOM	_	12	dep	_	_	240.600006	241.000000	PAT
+15	qu'	que	PRQ	PRQ	_	17	dep	_	_	241.009995	241.029999	PAT
+16	on	on	CLS	CLS	_	17	subj	_	_	241.039993	241.130005	PAT
+17	appelle	appeler	VRB	VRB	_	14	dep	_	_	241.139999	241.440002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-82
+# text = ça s'appelle des plafonds à ciel ouvert
+1	ça	ça	PRO	PRO	_	3	subj	_	_	241.750000	241.800003	PAT
+2	s'	se	CLI	CLI	_	3	dep	_	_	241.809998	241.869995	PAT
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	241.880005	242.059998	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	242.070007	242.160004	PAT
+5	plafonds	plafond	NOM	NOM	_	4	dep	_	_	242.220001	242.550003	PAT
+6	à	à	PRE	PRE	_	3	dep	_	_	242.559998	242.600006	PAT
+7	ciel	ciel	NOM	NOM	_	6	dep	_	_	242.610001	242.910004	PAT
+8	ouvert	ouvert	ADJ	ADJ	_	7	dep	_	_	242.919998	243.279999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-83
+# text = ça donne l'illusion d'ouvrir sur le ciel voilà
+1	ça	ça	PRO	PRO	_	2	subj	_	_	243.779999	243.869995	PAT
+2	donne	donner	VRB	VRB	_	0	root	_	_	243.880005	244.119995	PAT
+3	l'	le	DET	DET	_	4	spe	_	_	244.130005	244.169998	PAT
+4	illusion	illusion	NOM	NOM	_	2	dep	_	_	244.179993	244.910004	PAT
+5	d'	de	PRE	PRE	_	4	dep	_	_	245.169998	245.190002	PAT
+6	ouvrir	ouvrir	VNF	VNF	_	5	dep	_	_	245.259995	245.520004	PAT
+7	sur	sur	PRE	PRE	_	6	dep	_	_	245.559998	245.740005	PAT
+8	le	le	DET	DET	_	9	spe	_	_	245.750000	245.850006	PAT
+9	ciel	ciel	NOM	NOM	_	7	dep	_	_	245.860001	246.179993	PAT
+10	voilà	voilà	INT	INT	_	9	dm	_	_	246.460007	246.779999	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-84
+# text = alors je vous présente le legs ancien
+1	alors	alors	ADV	ADV	_	4	periph	_	_	247.080002	247.220001	PAT
+2	je	je	CLS	CLS	_	4	subj	_	_	247.330002	247.380005	PAT
+3	vous	vous	CLI	CLI	_	4	dep	_	_	247.389999	247.479996	PAT
+4	présente	présenter	VRB	VRB	_	0	root	_	_	247.490005	247.720001	PAT
+5	le	le	DET	DET	_	6	spe	_	_	247.990005	248.089996	PAT
+6	legs	legs	NOM	NOM	_	4	dep	_	_	248.100006	248.210007	PAT
+7	ancien	ancien	ADJ	ADJ	_	6	dep	_	_	248.789993	248.899994	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-85
+# text = voilà en quatre-vingt-dix-huit nous avons eu la chance d'avoir le legs de cette dame
+1	voilà	voilà	INT	INT	_	6	dm	_	_	259.309998	259.540009	PAT
+2	en	en	PRE	PRE	_	6	periph	_	_	260.179993	260.200012	PAT
+3	quatre-vingt-dix-huit	quatre-vingt-dix-huit	NUM	NUM	_	2	dep	_	_	260.510010	262.130005	PAT
+4	nous	nous	CLS	CLS	_	6	subj	_	_	263.029999	263.160004	PAT
+5	avons	avoir	VRB	VRB	_	6	aux	_	_	263.170013	263.380005	PAT
+6	eu	avoir	VPP	VPP	_	0	root	_	_	263.390015	263.489990	PAT
+7	la	le	DET	DET	_	8	spe	_	_	263.500000	263.630005	PAT
+8	chance	chance	NOM	NOM	_	6	dep	_	_	263.790009	264.250000	PAT
+9	d'	de	PRE	PRE	_	8	dep	_	_	264.420013	264.450012	PAT
+10	avoir	avoir	VNF	VNF	_	9	dep	_	_	264.459991	264.730011	PAT
+11	le	le	DET	DET	_	12	spe	_	_	264.820007	265.070007	PAT
+12	legs	legs	NOM	NOM	_	10	dep	_	_	265.079987	265.290009	PAT
+13	de	de	PRE	PRE	_	12	dep	_	_	265.299988	265.359985	PAT
+14	cette	ce	DET	DET	_	15	spe	_	_	265.420013	265.559998	PAT
+15	dame	dame	NOM	NOM	_	13	dep	_	_	265.690002	265.989990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-86
+# text = madame Aline Avidgor d'Acquaviva
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	267.000000	268.010010	PAT
+2	Aline	Aline	NOM	NOM	_	1	dep	_	_	268.019989	268.220001	PAT
+3	Avidgor	Avidgor	NOM	NOM	_	2	dep	_	_	268.309998	268.750000	PAT
+4	d'	de	PRE	PRE	_	3	dep	_	_	268.760010	268.799988	PAT
+5	Acquaviva	Acquaviva	NOM	NOM	_	4	dep	_	_	268.809998	269.369995	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-87
+# text = alors cette dame elle est d'origine niçoise
+1	alors	alors	ADV	ADV	_	5	periph	_	_	269.609985	269.720001	PAT
+2	cette	ce	DET	DET	_	3	spe	_	_	269.730011	269.929993	PAT
+3	dame	dame	NOM	NOM	_	5	periph	_	_	269.989990	270.170013	PAT
+4	elle	il	CLS	CLS	_	5	subj	_	_	270.179993	270.269989	PAT
+5	est	être	VRB	VRB	_	0	root	_	_	270.279999	270.359985	PAT
+6	d'	de	PRE	PRE	_	5	dep	_	_	270.369995	270.410004	PAT
+7	origine	origine	NOM	NOM	_	6	dep	_	_	270.420013	270.970001	PAT
+8	niçoise	niçois	ADJ	ADJ	_	7	dep	_	_	270.980011	271.440002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-88
+# text = mais elle vivait plus à Paris
+1	mais	mais	COO	COO	_	3	mark	_	_	272.410004	272.589996	PAT
+2	elle	il	CLS	CLS	_	3	subj	_	_	272.880005	273.059998	PAT
+3	vivait	vivre	VRB	VRB	_	0	root	_	_	273.070007	273.250000	PAT
+4	plus	plus	ADN	ADN	_	3	dep	_	_	273.309998	273.440002	PAT
+5	à	à	PRE	PRE	_	3	dep	_	_	273.450012	273.570007	PAT
+6	Paris	Paris	NOM	NOM	_	5	dep	_	_	273.579987	273.850006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-89
+# text = quand elle nous a fait ce elle n~ ne vivait plus à Nice elle vivait à Paris quand elle nous a fait ce legs
+1	quand	quand	CSU	CSU	_	15	periph	_	_	273.959991	274.010010	PAT
+2	elle	il	CLS	CLS	_	5	subj	_	_	274.130005	274.190002	PAT
+3	nous	nous	CLI	CLI	_	5	dep	_	_	274.200012	274.350006	PAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	274.359985	274.399994	PAT
+5	fait	faire	VPP	VPP	_	1	dep	_	_	274.410004	274.579987	PAT
+6	ce	ce	DET	DET	_	8	spe	_	_	274.589996	274.709991	PAT
+7	elle	il	CLS	CLS	_	8	dep	_	_	274.720001	274.850006	PAT
+8	n~	n~	X	X	_	10	subj	_	_	274.859985	274.980011	PAT
+9	ne	ne	CLN	CLN	_	10	dep	_	_	275.019989	275.130005	PAT
+10	vivait	vivre	VRB	VRB	_	5	para	_	_	275.140015	275.410004	PAT
+11	plus	plus	ADN	ADN	_	10	dep	_	_	275.420013	275.600006	PAT
+12	à	à	PRE	PRE	_	10	dep	_	_	275.609985	275.660004	PAT
+13	Nice	Nice	NOM	NOM	_	12	dep	_	_	275.670013	275.910004	PAT
+14	elle	il	CLS	CLS	_	15	subj	_	_	275.920013	275.980011	PAT
+15	vivait	vivre	VRB	VRB	_	0	root	_	_	275.989990	276.160004	PAT
+16	à	à	PRE	PRE	_	15	dep	_	_	276.170013	276.250000	PAT
+17	Paris	Paris	NOM	NOM	_	16	dep	_	_	276.320007	276.510010	PAT
+18	quand	quand	CSU	CSU	_	15	dep	_	_	276.869995	276.920013	PAT
+19	elle	il	CLS	CLS	_	22	subj	_	_	277.029999	277.130005	PAT
+20	nous	nous	CLI	CLI	_	22	dep	_	_	277.260010	277.309998	PAT
+21	a	avoir	VRB	VRB	_	22	aux	_	_	277.320007	277.339996	PAT
+22	fait	faire	VPP	VPP	_	18	dep	_	_	277.440002	277.510010	PAT
+23	ce	ce	DET	DET	_	24	spe	_	_	277.579987	277.709991	PAT
+24	legs	legs	NOM	NOM	_	22	dep	_	_	277.720001	277.929993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-90
+# text = et parmi les vingt toiles les vingt
+1	et	et	COO	COO	_	7	mark	_	_	278.369995	278.399994	PAT
+2	parmi	parmi	PRE	PRE	_	7	periph	_	_	278.920013	279.160004	PAT
+3	les	le	DET	DET	_	5	spe	_	_	279.170013	279.339996	PAT
+4	vingt	vingt	NUM	NUM	_	5	dep	_	_	279.350006	279.690002	PAT
+5	toiles	toile	NOM	NOM	_	2	dep	_	_	279.799988	280.130005	PAT
+6	les	le	DET	DET	_	7	spe	_	_	280.239990	280.320007	PAT
+7	vingt	vingt	NUM	NUM	_	0	root	_	_	280.329987	280.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-91
+# text = les vingt peintures flamandes
+1	les	le	DET	DET	_	3	spe	_	_	281.239990	281.290009	PAT
+2	vingt	vingt	NUM	NUM	_	3	dep	_	_	281.339996	281.489990	PAT
+3	peintures	peinture	NOM	NOM	_	0	root	_	_	281.630005	281.899994	PAT
+4	flamandes	flamand	ADJ	ADJ	_	3	dep	_	_	281.910004	282.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-92
+# text = qu'elle nous donne du dix-septième siècle
+1	qu'	que	CSU	CSU	_	0	root	_	_	283.019989	283.079987	PAT
+2	elle	il	CLS	CLS	_	4	subj	_	_	283.089996	283.179993	PAT
+3	nous	nous	CLI	CLI	_	4	dep	_	_	283.190002	283.320007	PAT
+4	donne	donner	VRB	VRB	_	1	dep	_	_	283.329987	283.589996	PAT
+5	du	de+le	PRE	PRE	_	4	dep	_	_	283.600006	283.660004	PAT
+6	dix-septième	dix-septième	ADJ	ADJ	_	7	dep	_	_	283.709991	284.119995	PAT
+7	siècle	siècle	NOM	NOM	_	5	dep	_	_	284.130005	284.329987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-93
+# text = vous aviez ces deux oeuvres majeures qui sont deux Bruegel
+1	vous	vous	CLS	CLS	_	2	subj	_	_	284.779999	284.829987	PAT
+2	aviez	avoir	VRB	VRB	_	0	root	_	_	285.059998	285.269989	PAT
+3	ces	ce	DET	DET	_	5	spe	_	_	285.760010	286.000000	PAT
+4	deux	deux	NUM	NUM	_	5	dep	_	_	286.010010	286.059998	PAT
+5	oeuvres	oeuvre	NOM	NOM	_	2	dep	_	_	286.070007	286.279999	PAT
+6	majeures	majeur	ADJ	ADJ	_	5	dep	_	_	286.290009	286.769989	PAT
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	286.859985	286.929993	PAT
+8	sont	être	VRB	VRB	_	5	dep	_	_	286.940002	287.140015	PAT
+9	deux	deux	NUM	NUM	_	10	spe	_	_	287.149994	287.350006	PAT
+10	Bruegel	Bruegel	NOM	NOM	_	8	dep	_	_	287.440002	287.799988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-94
+# text = Bruegel dit de Velours c'est le fils de Bruegel Ancien
+1	Bruegel	Bruegel	NOM	NOM	_	2	subj	_	_	288.850006	289.299988	PAT
+2	dit	dire	VPP	VPP	_	0	root	_	_	289.399994	289.570007	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	289.579987	289.679993	PAT
+4	Velours	velours	NOM	NOM	_	3	dep	_	_	289.690002	290.279999	PAT
+5	c'	ce	CLS	CLS	_	6	subj	_	_	290.739990	290.899994	PAT
+6	est	être	VRB	VRB	_	2	dep	_	_	290.910004	290.959991	PAT
+7	le	le	DET	DET	_	8	spe	_	_	290.970001	291.079987	PAT
+8	fils	fil	NOM	NOM	_	6	dep	_	_	291.089996	291.739990	PAT
+9	de	de	PRE	PRE	_	8	dep	_	_	292.260010	292.359985	PAT
+10	Bruegel	Bruegel	NOM	NOM	_	9	dep	_	_	292.369995	293.010010	PAT
+11	Ancien	ancien	NOM	NOM	_	10	dep	_	_	293.019989	293.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-95
+# text = c'est un peintre qui est connu beaucoup dans les histoires de l'art pour ses natures mortes et ses bouquets
+1	c'	ce	CLS	CLS	_	2	subj	_	_	294.440002	294.500000	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	294.510010	294.540009	PAT
+3	un	un	DET	DET	_	4	spe	_	_	294.549988	294.579987	PAT
+4	peintre	peintre	NOM	NOM	_	2	dep	_	_	294.660004	294.859985	PAT
+5	qui	qui	PRQ	PRQ	_	7	subj	_	_	294.940002	294.989990	PAT
+6	est	être	VRB	VRB	_	7	aux	_	_	295.000000	295.119995	PAT
+7	connu	connaître	VPP	VPP	_	4	dep	_	_	295.579987	295.959991	PAT
+8	beaucoup	beaucoup	ADV	ADV	_	7	dep	_	_	296.019989	296.190002	PAT
+9	dans	dans	PRE	PRE	_	7	dep	_	_	296.200012	296.269989	PAT
+10	les	le	DET	DET	_	11	spe	_	_	296.279999	296.510010	PAT
+11	histoires	histoire	NOM	NOM	_	9	dep	_	_	296.519989	296.839996	PAT
+12	de	de	PRE	PRE	_	11	dep	_	_	296.929993	296.950012	PAT
+13	l'	le	DET	DET	_	14	spe	_	_	296.959991	296.980011	PAT
+14	art	art	NOM	NOM	_	12	dep	_	_	296.989990	297.109985	PAT
+15	pour	pour	PRE	PRE	_	7	dep	_	_	297.640015	297.769989	PAT
+16	ses	son	DET	DET	_	17	spe	_	_	297.779999	298.019989	PAT
+17	natures	nature	NOM	NOM	_	15	dep	_	_	298.029999	298.299988	PAT
+18	mortes	mort	ADJ	ADJ	_	17	dep	_	_	298.309998	298.760010	PAT
+19	et	et	COO	COO	_	21	mark	_	_	298.950012	298.970001	PAT
+20	ses	son	DET	DET	_	21	spe	_	_	298.980011	299.029999	PAT
+21	bouquets	bouquet	NOM	NOM	_	7	para	_	_	299.160004	299.540009	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-96
+# text = et là il nous laisse deux magnifiques peintures sur chêne
+1	et	et	COO	COO	_	5	mark	_	_	300.019989	300.160004	PAT
+2	là	là	ADV	ADV	_	5	periph	_	_	300.170013	300.290009	PAT
+3	il	il	CLS	CLS	_	5	subj	_	_	300.299988	300.359985	PAT
+4	nous	nous	CLI	CLI	_	5	dep	_	_	300.450012	300.519989	PAT
+5	laisse	laisser	VRB	VRB	_	0	root	_	_	300.649994	300.859985	PAT
+6	deux	deux	NUM	NUM	_	8	spe	_	_	301.709991	302.059998	PAT
+7	magnifiques	magnifique	ADJ	ADJ	_	8	dep	_	_	302.070007	302.940002	PAT
+8	peintures	peinture	NOM	NOM	_	5	dep	_	_	303.420013	304.059998	PAT
+9	sur	sur	PRE	PRE	_	8	dep	_	_	304.209991	304.299988	PAT
+10	chêne	chêne	NOM	NOM	_	9	dep	_	_	304.410004	304.859985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-97
+# text = peintures sur bois
+1	peintures	peinture	NOM	NOM	_	0	root	_	_	305.209991	305.429993	PAT
+2	sur	sur	PRE	PRE	_	1	dep	_	_	305.480011	305.589996	PAT
+3	bois	bois	NOM	NOM	_	2	dep	_	_	306.000000	306.309998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-98
+# text = représentant
+1	représentant	représenter	VPR	VPR	_	0	root	_	_	306.829987	307.679993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-99
+# text = deux thèmes liés à la nature la terre et l'eau
+1	deux	deux	NUM	NUM	_	2	spe	_	_	308.100006	308.510010	PAT
+2	thèmes	thème	NOM	NOM	_	0	root	_	_	308.519989	308.839996	PAT
+3	liés	lier	VPP	VPP	_	2	dep	_	_	309.190002	309.609985	PAT
+4	à	à	PRE	PRE	_	3	dep	_	_	309.619995	309.679993	PAT
+5	la	le	DET	DET	_	6	spe	_	_	309.690002	309.820007	PAT
+6	nature	nature	NOM	NOM	_	4	dep	_	_	309.829987	310.440002	PAT
+7	la	le	DET	DET	_	8	spe	_	_	310.970001	311.059998	PAT
+8	terre	terre	NOM	NOM	_	2	para	_	_	311.239990	311.769989	PAT
+9	et	et	COO	COO	_	11	mark	_	_	312.940002	313.019989	PAT
+10	l'	le	DET	DET	_	11	spe	_	_	313.029999	313.089996	PAT
+11	eau	eau	NOM	NOM	_	2	para	_	_	313.100006	313.260010	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-100
+# text = et vous avez la m
+1	et	et	COO	COO	_	3	mark	_	_	314.510010	314.820007	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	314.829987	315.059998	PAT
+3	avez	avoir	VRB	VRB	_	0	root	_	_	315.070007	315.480011	PAT
+4	la	le	DET	DET	_	5	spe	_	_	315.859985	315.959991	PAT
+5	m	m	NOM	NOM	_	3	dep	_	_	315.970001	316.040009	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-101
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	317.799988	317.820007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-102
+# text = le la richesse des détails la richesse de
+1	le	le	DET	DET	_	3	spe	_	_	317.829987	318.010010	PAT
+2	la	le	DET	DET	_	1	para	_	_	318.190002	318.309998	PAT
+3	richesse	richesse	NOM	NOM	_	0	root	_	_	318.320007	318.880005	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	318.890015	318.980011	PAT
+5	détails	détail	NOM	NOM	_	4	dep	_	_	318.989990	319.339996	PAT
+6	la	le	DET	DET	_	7	spe	_	_	320.100006	320.149994	PAT
+7	richesse	richesse	NOM	NOM	_	3	para	_	_	320.339996	320.730011	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	321.160004	321.239990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-103
+# text = et et
+1	et	et	COO	COO	_	0	root	_	_	321.570007	321.589996	PAT
+2	et	et	COO	COO	_	1	para	_	_	321.820007	321.839996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-104
+# text = les fouillis un peu de tous ces détails
+1	les	le	DET	DET	_	2	spe	_	_	321.910004	321.980011	PAT
+2	fouillis	fouillis	NOM	NOM	_	0	root	_	_	321.989990	322.230011	PAT
+3	un peu	un peu	ADV	ADV	_	4	dep	_	_	322.239990	322.640015	PAT
+4	de	de	PRE	PRE	_	2	dep	_	_	322.899994	323.029999	PAT
+5	tous	tout	ADJ	ADJ	_	7	dep	_	_	323.079987	323.230011	PAT
+6	ces	ce	DET	DET	_	7	spe	_	_	323.239990	323.420013	PAT
+7	détails	détail	NOM	NOM	_	4	dep	_	_	323.459991	323.820007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-105
+# text = alors vous avez ces magnifiques fleurs ici sur les côtés
+1	alors	alors	ADV	ADV	_	3	periph	_	_	324.160004	324.290009	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	324.369995	324.489990	PAT
+3	avez	avoir	VRB	VRB	_	0	root	_	_	324.559998	324.720001	PAT
+4	ces	ce	DET	DET	_	6	spe	_	_	324.989990	325.040009	PAT
+5	magnifiques	magnifique	ADJ	ADJ	_	6	dep	_	_	325.220001	325.559998	PAT
+6	fleurs	fleur	NOM	NOM	_	3	dep	_	_	325.700012	325.950012	PAT
+7	ici	ici	ADV	ADV	_	3	dep	_	_	326.359985	326.829987	PAT
+8	sur	sur	PRE	PRE	_	3	dep	_	_	326.839996	326.929993	PAT
+9	les	le	DET	DET	_	10	spe	_	_	326.940002	327.000000	PAT
+10	côtés	côté	NOM	NOM	_	8	dep	_	_	327.109985	327.299988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-106
+# text = les fruits les fruits de la terre plein de petits animaux
+1	les	le	DET	DET	_	2	spe	_	_	328.070007	328.119995	PAT
+2	fruits	fruit	NOM	NOM	_	0	root	_	_	328.130005	328.260010	PAT
+3	les	le	DET	DET	_	4	spe	_	_	328.709991	328.760010	PAT
+4	fruits	fruit	NOM	NOM	_	2	para	_	_	328.769989	328.880005	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	329.130005	329.260010	PAT
+6	la	le	DET	DET	_	7	spe	_	_	329.269989	329.329987	PAT
+7	terre	terre	NOM	NOM	_	5	dep	_	_	329.429993	329.899994	PAT
+8	plein	plein	ADJ	ADJ	_	7	dep	_	_	330.220001	330.640015	PAT
+9	de	de	PRE	PRE	_	7	dep	_	_	330.649994	330.670013	PAT
+10	petits	petit	ADJ	ADJ	_	11	dep	_	_	330.769989	330.950012	PAT
+11	animaux	animal	NOM	NOM	_	9	dep	_	_	330.959991	331.380005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-107
+# text = des petits singes qui sont très cocasses les petits lapins qui s'enfuient ici deux petits lapins qui s'enfuient
+1	des	de	PRE	PRE	_	0	root	_	_	331.609985	331.709991	PAT
+2	petits	petit	ADJ	ADJ	_	3	dep	_	_	331.720001	332.010010	PAT
+3	singes	singe	NOM	NOM	_	1	dep	_	_	332.019989	332.209991	PAT
+4	qui	qui	PRQ	PRQ	_	5	subj	_	_	332.220001	332.269989	PAT
+5	sont	être	VRB	VRB	_	3	dep	_	_	332.720001	332.779999	PAT
+6	très	très	ADV	ADV	_	7	dep	_	_	332.829987	332.940002	PAT
+7	cocasses	cocasse	ADJ	ADJ	_	5	dep	_	_	332.950012	333.100006	PAT
+8	les	le	DET	DET	_	10	spe	_	_	333.769989	333.950012	PAT
+9	petits	petit	ADJ	ADJ	_	10	dep	_	_	333.959991	334.079987	PAT
+10	lapins	lapin	NOM	NOM	_	13	subj	_	_	334.089996	334.489990	PAT
+11	qui	qui	PRQ	PRQ	_	13	dep	_	_	334.609985	334.660004	PAT
+12	s'	se	CLI	CLI	_	13	dep	_	_	334.670013	334.700012	PAT
+13	enfuient	enfuient	VRB	VRB	_	3	dep	_	_	334.829987	335.179993	PAT
+14	ici	ici	ADV	ADV	_	13	dep	_	_	335.190002	335.239990	PAT
+15	deux	deux	NUM	NUM	_	17	spe	_	_	336.130005	336.209991	PAT
+16	petits	petit	ADJ	ADJ	_	17	dep	_	_	336.269989	336.410004	PAT
+17	lapins	lapin	NOM	NOM	_	13	dep	_	_	336.420013	336.670013	PAT
+18	qui	qui	PRQ	PRQ	_	20	dep	_	_	336.720001	336.779999	PAT
+19	s'	se	CLI	CLI	_	20	dep	_	_	336.890015	336.920013	PAT
+20	enfuient	enfuient	VRB	VRB	_	17	dep	_	_	336.929993	337.239990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-108
+# text = enfin il y a une très grande richesse de de détails de d'éléments de la nature et ce qui est très beau aussi dans ces deux Bruegel enfin dans ce Bruegel-là
+1	enfin	enfin	ADV	ADV	_	4	dm	_	_	337.500000	337.660004	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	337.670013	337.769989	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	337.779999	337.809998	PAT
+4	a	avoir	VRB	VRB	_	0	root	_	_	337.820007	337.839996	PAT
+5	une	un	DET	DET	_	8	spe	_	_	337.850006	337.929993	PAT
+6	très	très	ADV	ADV	_	7	dep	_	_	337.989990	338.160004	PAT
+7	grande	grand	ADJ	ADJ	_	8	dep	_	_	338.170013	338.320007	PAT
+8	richesse	richesse	NOM	NOM	_	4	dep	_	_	338.440002	338.799988	PAT
+9	de	de	PRE	PRE	_	8	dep	_	_	339.000000	339.149994	PAT
+10	de	de	PRE	PRE	_	9	para	_	_	339.609985	339.649994	PAT
+11	détails	détail	NOM	NOM	_	10	dep	_	_	339.720001	340.320007	PAT
+12	de	de	PRE	PRE	_	11	dep	_	_	340.739990	340.970001	PAT
+13	d'	de	PRE	PRE	_	12	para	_	_	340.980011	341.029999	PAT
+14	éléments	élément	NOM	NOM	_	13	dep	_	_	341.040009	341.529999	PAT
+15	de	de	PRE	PRE	_	14	dep	_	_	341.850006	341.910004	PAT
+16	la	le	DET	DET	_	17	spe	_	_	341.920013	342.000000	PAT
+17	nature	nature	NOM	NOM	_	15	dep	_	_	342.010010	342.579987	PAT
+18	et	et	COO	COO	_	19	mark	_	_	342.970001	343.200012	PAT
+19	ce	ce	PRO	PRO	_	8	para	_	_	343.829987	343.929993	PAT
+20	qui	qui	PRQ	PRQ	_	21	subj	_	_	344.010010	344.119995	PAT
+21	est	être	VRB	VRB	_	19	dep	_	_	344.130005	344.149994	PAT
+22	très	très	ADV	ADV	_	23	dep	_	_	344.160004	344.369995	PAT
+23	beau	beau	ADJ	ADJ	_	21	dep	_	_	344.380005	344.609985	PAT
+24	aussi	aussi	ADV	ADV	_	21	dep	_	_	344.619995	344.839996	PAT
+25	dans	dans	PRE	PRE	_	21	dep	_	_	344.850006	344.959991	PAT
+26	ces	ce	DET	DET	_	28	spe	_	_	345.079987	345.130005	PAT
+27	deux	deux	NUM	NUM	_	28	dep	_	_	345.190002	345.260010	PAT
+28	Bruegel	Bruegel	NOM	NOM	_	25	dep	_	_	345.489990	345.769989	PAT
+29	enfin	enfin	ADV	ADV	_	28	dm	_	_	345.779999	346.000000	PAT
+30	dans	dans	PRE	PRE	_	25	para	_	_	346.230011	346.329987	PAT
+31	ce	ce	DET	DET	_	32	spe	_	_	346.339996	346.459991	PAT
+32	Bruegel-là	Bruegel-là	NOM	NOM	_	30	dep	_	_	346.570007	346.980011	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-109
+# text = particulièrement c'est la composition
+1	particulièrement	particulièrement	ADV	ADV	_	3	periph	_	_	347.070007	347.690002	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	347.940002	348.000000	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	348.010010	348.029999	PAT
+4	la	le	DET	DET	_	5	spe	_	_	348.040009	348.160004	PAT
+5	composition	composition	NOM	NOM	_	3	dep	_	_	348.209991	349.000000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-110
+# text = vous avez ici une trouée
+1	vous	vous	CLS	CLS	_	2	subj	_	_	349.500000	349.679993	PAT
+2	avez	avoir	VRB	VRB	_	0	root	_	_	349.690002	349.920013	PAT
+3	ici	ici	ADV	ADV	_	2	dep	_	_	349.929993	350.320007	PAT
+4	une	un	DET	DET	_	5	spe	_	_	350.970001	351.220001	PAT
+5	trouée	trouée	NOM	NOM	_	2	dep	_	_	351.420013	351.829987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-111
+# text = et là une autre trouée et ces deux trouées
+1	et	et	COO	COO	_	5	mark	_	_	352.529999	352.570007	PAT
+2	là	là	ADV	ADV	_	5	periph	_	_	352.579987	352.739990	PAT
+3	une	un	DET	DET	_	5	spe	_	_	353.309998	353.380005	PAT
+4	autre	autre	ADJ	ADJ	_	5	dep	_	_	353.480011	353.589996	PAT
+5	trouée	trouée	NOM	NOM	_	0	root	_	_	353.600006	354.329987	PAT
+6	et	et	COO	COO	_	9	mark	_	_	354.679993	354.709991	PAT
+7	ces	ce	DET	DET	_	9	spe	_	_	354.720001	354.950012	PAT
+8	deux	deux	NUM	NUM	_	9	dep	_	_	354.959991	355.089996	PAT
+9	trouées	trouée	NOM	NOM	_	5	para	_	_	355.100006	355.609985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-112
+# text = elles vous donnent la profondeur au tableau
+1	elles	il	CLS	CLS	_	3	subj	_	_	355.970001	356.059998	PAT
+2	vous	vous	CLI	CLI	_	3	dep	_	_	356.190002	356.279999	PAT
+3	donnent	donner	VRB	VRB	_	0	root	_	_	356.399994	356.640015	PAT
+4	la	le	DET	DET	_	5	spe	_	_	356.709991	356.769989	PAT
+5	profondeur	profondeur	NOM	NOM	_	3	dep	_	_	357.320007	357.649994	PAT
+6	au	à+le	PRE	PRE	_	3	dep	_	_	358.130005	358.149994	PAT
+7	tableau	tableau	NOM	NOM	_	6	dep	_	_	358.220001	358.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-113
+# text = par ces deux trouées lumineuses
+1	par	par	PRE	PRE	_	0	root	_	_	359.529999	359.640015	PAT
+2	ces	ce	DET	DET	_	4	spe	_	_	359.869995	359.950012	PAT
+3	deux	deux	NUM	NUM	_	4	dep	_	_	360.109985	360.529999	PAT
+4	trouées	trouée	NOM	NOM	_	1	dep	_	_	360.600006	360.970001	PAT
+5	lumineuses	lumineux	ADJ	ADJ	_	4	dep	_	_	360.980011	361.700012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-114
+# text = le ciel la ligne d'horizon une petite scène des paysans
+1	le	le	DET	DET	_	2	spe	_	_	362.850006	363.100006	PAT
+2	ciel	ciel	NOM	NOM	_	0	root	_	_	363.109985	363.720001	PAT
+3	la	le	DET	DET	_	4	spe	_	_	363.929993	364.070007	PAT
+4	ligne	ligne	NOM	NOM	_	2	para	_	_	364.079987	364.350006	PAT
+5	d'	de	PRE	PRE	_	4	dep	_	_	364.450012	364.480011	PAT
+6	horizon	horizon	NOM	NOM	_	5	dep	_	_	364.489990	365.029999	PAT
+7	une	un	DET	DET	_	9	spe	_	_	365.489990	365.570007	PAT
+8	petite	petit	ADJ	ADJ	_	9	dep	_	_	366.200012	366.410004	PAT
+9	scène	scène	NOM	NOM	_	4	para	_	_	366.420013	366.500000	PAT
+10	des	de	PRE	PRE	_	9	dep	_	_	366.510010	366.570007	PAT
+11	paysans	paysan	NOM	NOM	_	10	dep	_	_	366.579987	366.970001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-115
+# text = ici le ciel l'horizon un château va vous donner de la profondeur à cette à à ce paysage
+1	ici	ici	ADV	ADV	_	8	periph	_	_	367.350006	367.429993	PAT
+2	le	le	DET	DET	_	3	spe	_	_	367.890015	367.959991	PAT
+3	ciel	ciel	NOM	NOM	_	8	periph	_	_	368.010010	368.640015	PAT
+4	l'	le	DET	DET	_	5	spe	_	_	368.700012	368.850006	PAT
+5	horizon	horizon	NOM	NOM	_	3	para	_	_	368.950012	369.459991	PAT
+6	un	un	DET	DET	_	7	spe	_	_	369.670013	369.859985	PAT
+7	château	château	NOM	NOM	_	8	subj	_	_	369.869995	370.529999	PAT
+8	va	aller	VRB	VRB	_	0	root	_	_	370.829987	370.970001	PAT
+9	vous	vous	CLI	CLI	_	10	dep	_	_	370.980011	371.049988	PAT
+10	donner	donner	VNF	VNF	_	8	dep	_	_	371.109985	371.380005	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	371.390015	371.480011	PAT
+12	la	le	DET	DET	_	13	spe	_	_	371.489990	371.570007	PAT
+13	profondeur	profondeur	NOM	NOM	_	11	dep	_	_	371.790009	372.329987	PAT
+14	à	à	PRE	PRE	_	10	dep	_	_	373.549988	373.589996	PAT
+15	cette	ce	DET	DET	_	16	spe	_	_	373.760010	374.459991	PAT
+16	à	à	PRE	PRE	_	14	para	_	_	374.470001	374.540009	PAT
+17	à	à	PRE	PRE	_	16	para	_	_	374.769989	374.809998	PAT
+18	ce	ce	DET	DET	_	19	spe	_	_	374.820007	374.959991	PAT
+19	paysage	paysage	NOM	NOM	_	17	dep	_	_	375.000000	375.609985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-116
+# text = cette
+1	cette	ce	DET	DET	_	0	root	_	_	375.980011	376.079987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-117
+# text = et en même temps il mélange paysage et mythologie
+1	et	et	COO	COO	_	4	mark	_	_	376.160004	376.179993	PAT
+2	en même temps	en même temps	ADV	ADV	_	4	periph	_	_	376.399994	377.049988	PAT
+3	il	il	CLS	CLS	_	4	subj	_	_	377.059998	377.130005	PAT
+4	mélange	mélanger	VRB	VRB	_	0	root	_	_	377.140015	377.529999	PAT
+5	paysage	paysage	NOM	NOM	_	4	dep	_	_	377.820007	378.440002	PAT
+6	et	et	COO	COO	_	7	mark	_	_	378.790009	378.839996	PAT
+7	mythologie	mythologie	NOM	NOM	_	5	para	_	_	378.850006	379.579987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-118
+# text = parce que vous avez la déesse de la nature la déesse de la terre Erès avec regardez ce qu'elle porte la corne d'abondance la corne d'abondance avec des fleurs avec des fruits
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	380.250000	380.619995	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	380.630005	380.750000	PAT
+3	avez	avoir	VRB	VRB	_	1	dep	_	_	380.760010	380.859985	PAT
+4	la	le	DET	DET	_	5	spe	_	_	380.950012	381.000000	PAT
+5	déesse	déesse	NOM	NOM	_	3	dep	_	_	381.010010	381.140015	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	381.149994	381.170013	PAT
+7	la	le	DET	DET	_	8	spe	_	_	381.179993	381.250000	PAT
+8	nature	nature	NOM	NOM	_	6	dep	_	_	381.260010	381.640015	PAT
+9	la	le	DET	DET	_	10	spe	_	_	381.880005	381.989990	PAT
+10	déesse	déesse	NOM	NOM	_	5	para	_	_	382.130005	382.309998	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	382.320007	382.399994	PAT
+12	la	le	DET	DET	_	13	spe	_	_	382.410004	382.500000	PAT
+13	terre	terre	NOM	NOM	_	11	dep	_	_	382.630005	382.869995	PAT
+14	Erès	Erès	NOM	NOM	_	13	dep	_	_	382.950012	383.140015	PAT
+15	avec	avec	PRE	PRE	_	3	dep	_	_	383.869995	384.049988	PAT
+16	regardez	regarder	VRB	VRB	_	15	dep	_	_	384.130005	384.519989	PAT
+17	ce	ce	PRO	PRO	_	16	dep	_	_	384.529999	384.549988	PAT
+18	qu'	que	PRQ	PRQ	_	20	dep	_	_	384.559998	384.579987	PAT
+19	elle	il	CLS	CLS	_	20	subj	_	_	384.679993	384.869995	PAT
+20	porte	porter	VRB	VRB	_	17	dep	_	_	384.880005	385.040009	PAT
+21	la	le	DET	DET	_	22	spe	_	_	385.500000	385.570007	PAT
+22	corne	corne	NOM	NOM	_	20	dep	_	_	385.700012	386.399994	PAT
+23	d'	de	PRE	PRE	_	22	dep	_	_	386.410004	386.429993	PAT
+24	abondance	abondance	NOM	NOM	_	23	dep	_	_	386.440002	386.880005	PAT
+25	la	le	DET	DET	_	26	spe	_	_	387.660004	387.709991	PAT
+26	corne	corne	NOM	NOM	_	22	para	_	_	387.779999	388.029999	PAT
+27	d'	de	PRE	PRE	_	26	dep	_	_	388.040009	388.079987	PAT
+28	abondance	abondance	NOM	NOM	_	27	dep	_	_	388.089996	388.640015	PAT
+29	avec	avec	PRE	PRE	_	26	dep	_	_	388.649994	388.859985	PAT
+30	des	de	PRE	PRE	_	29	dep	_	_	388.869995	388.929993	PAT
+31	fleurs	fleur	NOM	NOM	_	30	dep	_	_	388.940002	389.500000	PAT
+32	avec	avec	PRE	PRE	_	29	para	_	_	389.510010	389.709991	PAT
+33	des	de	PRE	PRE	_	32	dep	_	_	389.720001	389.940002	PAT
+34	fruits	fruit	NOM	NOM	_	33	dep	_	_	389.950012	390.100006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-119
+# text = voilà et c'est peint comme une enluminure par la finesse des détails
+1	voilà	voilà	INT	INT	_	5	dm	_	_	390.559998	390.720001	PAT
+2	et	et	COO	COO	_	5	mark	_	_	391.119995	391.179993	PAT
+3	c'	ce	CLS	CLS	_	5	subj	_	_	391.190002	391.339996	PAT
+4	est	être	VRB	VRB	_	5	aux	_	_	391.350006	391.519989	PAT
+5	peint	peindre	VPP	VPP	_	0	root	_	_	391.559998	391.690002	PAT
+6	comme	comme	PRE	PRE	_	5	dep	_	_	391.859985	392.059998	PAT
+7	une	un	DET	DET	_	8	spe	_	_	392.070007	392.200012	PAT
+8	enluminure	enluminure	NOM	NOM	_	6	dep	_	_	392.209991	392.950012	PAT
+9	par	par	PRE	PRE	_	5	dep	_	_	394.399994	394.720001	PAT
+10	la	le	DET	DET	_	11	spe	_	_	394.730011	394.920013	PAT
+11	finesse	finesse	NOM	NOM	_	9	dep	_	_	395.570007	396.470001	PAT
+12	des	de	PRE	PRE	_	11	dep	_	_	396.720001	396.839996	PAT
+13	détails	détail	NOM	NOM	_	12	dep	_	_	396.850006	397.220001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-120
+# text = donc finesse des détails euh
+1	donc	donc	ADV	ADV	_	2	dep	_	_	397.820007	397.970001	PAT
+2	finesse	finesse	NOM	NOM	_	0	root	_	_	397.980011	398.679993	PAT
+3	des	de	PRE	PRE	_	2	dep	_	_	398.690002	398.739990	PAT
+4	détails	détail	NOM	NOM	_	3	dep	_	_	398.790009	399.059998	PAT
+5	euh	euh	INT	INT	_	4	dm	_	_	399.329987	399.350006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-121
+# text = finesse des petits personnages à thème mythologique
+1	finesse	finesse	NOM	NOM	_	0	root	_	_	399.500000	399.820007	PAT
+2	des	de	PRE	PRE	_	1	dep	_	_	399.829987	399.959991	PAT
+3	petits	petit	ADJ	ADJ	_	4	dep	_	_	399.970001	400.540009	PAT
+4	personnages	personnage	NOM	NOM	_	2	dep	_	_	400.950012	401.559998	PAT
+5	à	à	PRE	PRE	_	1	dep	_	_	401.720001	401.799988	PAT
+6	thème	thème	NOM	NOM	_	5	dep	_	_	402.019989	402.130005	PAT
+7	mythologique	mythologique	ADJ	ADJ	_	6	dep	_	_	402.190002	402.549988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-122
+# text = par exemple là vous avez un personnage comme un un centaure ou un satyre avec des petites des petites cornes
+1	par	par	PRE	PRE	_	5	periph	_	_	402.790009	402.880005	PAT
+2	exemple	exemple	NOM	NOM	_	1	dep	_	_	402.959991	403.170013	PAT
+3	là	là	ADV	ADV	_	1	dep	_	_	403.209991	403.399994	PAT
+4	vous	vous	CLS	CLS	_	5	subj	_	_	403.450012	403.500000	PAT
+5	avez	avoir	VRB	VRB	_	0	root	_	_	403.510010	403.600006	PAT
+6	un	un	DET	DET	_	7	spe	_	_	403.670013	403.690002	PAT
+7	personnage	personnage	NOM	NOM	_	5	dep	_	_	403.769989	404.209991	PAT
+8	comme	comme	PRE	PRE	_	5	dep	_	_	404.690002	404.929993	PAT
+9	un	un	DET	DET	_	11	spe	_	_	404.940002	405.070007	PAT
+10	un	un	DET	DET	_	9	para	_	_	405.359985	405.380005	PAT
+11	centaure	centaure	NOM	NOM	_	8	dep	_	_	405.450012	406.320007	PAT
+12	ou	ou	COO	COO	_	14	mark	_	_	406.329987	406.380005	PAT
+13	un	un	DET	DET	_	14	spe	_	_	406.510010	406.570007	PAT
+14	satyre	satyre	NOM	NOM	_	11	para	_	_	406.660004	406.890015	PAT
+15	avec	avec	PRE	PRE	_	14	dep	_	_	406.899994	407.119995	PAT
+16	des	de	PRE	PRE	_	15	dep	_	_	407.130005	407.410004	PAT
+17	petites	petit	ADJ	ADJ	_	16	dep	_	_	407.420013	407.720001	PAT
+18	des	de	PRE	PRE	_	16	para	_	_	408.000000	408.059998	PAT
+19	petites	petit	ADJ	ADJ	_	20	dep	_	_	408.100006	408.339996	PAT
+20	cornes	corne	NOM	NOM	_	18	dep	_	_	408.390015	408.799988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-123
+# text = donc mélange du paysage et de la mythologie
+1	donc	donc	ADV	ADV	_	2	dep	_	_	409.049988	409.269989	PAT
+2	mélange	mélange	NOM	NOM	_	0	root	_	_	409.510010	409.950012	PAT
+3	du	de+le	PRE	PRE	_	2	dep	_	_	410.989990	411.130005	PAT
+4	paysage	paysage	NOM	NOM	_	3	dep	_	_	411.179993	411.720001	PAT
+5	et	et	COO	COO	_	6	mark	_	_	411.869995	411.950012	PAT
+6	de	de	PRE	PRE	_	3	para	_	_	411.959991	412.000000	PAT
+7	la	le	DET	DET	_	8	spe	_	_	412.010010	412.140015	PAT
+8	mythologie	mythologie	NOM	NOM	_	6	dep	_	_	412.149994	412.760010	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-124
+# text = alors ça c'est pour la terre
+1	alors	alors	ADV	ADV	_	4	periph	_	_	413.079987	413.190002	PAT
+2	ça	ça	PRO	PRO	_	4	periph	_	_	413.250000	413.299988	PAT
+3	c'	ce	CLS	CLS	_	4	subj	_	_	413.309998	413.329987	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	413.410004	413.450012	PAT
+5	pour	pour	PRE	PRE	_	4	dep	_	_	413.459991	413.609985	PAT
+6	la	le	DET	DET	_	7	spe	_	_	413.619995	413.730011	PAT
+7	terre	terre	NOM	NOM	_	5	dep	_	_	413.839996	413.959991	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-125
+# text = maintenant on passe à l'autre pendant l'eau
+1	maintenant	maintenant	ADV	ADV	_	3	periph	_	_	414.970001	415.190002	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	415.200012	415.329987	PAT
+3	passe	passer	VRB	VRB	_	0	root	_	_	415.380005	415.609985	PAT
+4	à	à	PRE	PRE	_	3	dep	_	_	416.140015	416.179993	PAT
+5	l'	le	DET	DET	_	6	spe	_	_	416.190002	416.299988	PAT
+6	autre	autre	NOM	NOM	_	4	dep	_	_	416.309998	416.660004	PAT
+7	pendant	pendant	PRE	PRE	_	3	dep	_	_	416.670013	417.059998	PAT
+8	l'	le	DET	DET	_	9	spe	_	_	418.040009	418.179993	PAT
+9	eau	eau	NOM	NOM	_	7	dep	_	_	418.190002	418.320007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-126
+# text = encore
+1	encore	encore	ADV	ADV	_	0	root	_	_	419.959991	420.290009	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-127
+# text = une déesse Amphitrite
+1	une	un	DET	DET	_	2	spe	_	_	420.299988	420.459991	PAT
+2	déesse	déesse	NOM	NOM	_	0	root	_	_	420.470001	420.950012	PAT
+3	Amphitrite	Amphitrite	NOM	NOM	_	2	dep	_	_	421.290009	422.019989	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-128
+# text = la déesse de l'eau
+1	la	le	DET	DET	_	2	spe	_	_	422.369995	422.440002	PAT
+2	déesse	déesse	NOM	NOM	_	0	root	_	_	422.450012	422.859985	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	423.480011	423.589996	PAT
+4	l'	le	DET	DET	_	5	spe	_	_	423.600006	423.690002	PAT
+5	eau	eau	NOM	NOM	_	3	dep	_	_	423.700012	424.000000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-129
+# text = au loin Neptune
+1	au	à+le	PRE	PRE	_	0	root	_	_	424.410004	424.510010	PAT
+2	loin	loin	ADV	ADV	_	1	dep	_	_	424.519989	424.829987	PAT
+3	Neptune	Neptune	NOM	NOM	_	1	dep	_	_	425.369995	426.350006	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-130
+# text = les chevaux marins les tritons les sirènes
+1	les	le	DET	DET	_	2	spe	_	_	426.950012	427.000000	PAT
+2	chevaux	cheval	NOM	NOM	_	0	root	_	_	427.040009	427.480011	PAT
+3	marins	marin	ADJ	ADJ	_	2	dep	_	_	427.489990	428.100006	PAT
+4	les	le	DET	DET	_	5	spe	_	_	428.709991	429.000000	PAT
+5	tritons	triton	NOM	NOM	_	2	para	_	_	429.010010	429.760010	PAT
+6	les	le	DET	DET	_	7	spe	_	_	429.769989	429.859985	PAT
+7	sirènes	sirène	NOM	NOM	_	5	para	_	_	429.869995	430.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-131
+# text = une composition avec une ligne en diagonale de ce côté-là
+1	une	un	DET	DET	_	2	spe	_	_	431.970001	432.119995	PAT
+2	composition	composition	NOM	NOM	_	0	root	_	_	432.130005	433.010010	PAT
+3	avec	avec	PRE	PRE	_	2	dep	_	_	433.149994	433.290009	PAT
+4	une	un	DET	DET	_	5	spe	_	_	433.299988	433.359985	PAT
+5	ligne	ligne	NOM	NOM	_	3	dep	_	_	433.369995	433.500000	PAT
+6	en	en	PRE	PRE	_	5	dep	_	_	433.510010	433.549988	PAT
+7	diagonale	diagonale	NOM	NOM	_	6	dep	_	_	433.559998	434.209991	PAT
+8	de	de	PRE	PRE	_	2	dep	_	_	435.140015	435.230011	PAT
+9	ce	ce	DET	DET	_	10	spe	_	_	435.239990	435.399994	PAT
+10	côté-là	côté-là	NOM	NOM	_	8	dep	_	_	435.410004	435.970001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-132
+# text = une lumière moins claire regardez c'est pas du tout le même bleu
+1	une	un	DET	DET	_	2	spe	_	_	437.049988	437.170013	PAT
+2	lumière	lumière	NOM	NOM	_	5	subj	_	_	437.179993	437.709991	PAT
+3	moins	moins	ADV	ADV	_	4	dep	_	_	438.100006	438.549988	PAT
+4	claire	clair	ADJ	ADJ	_	2	dep	_	_	438.619995	438.869995	PAT
+5	regardez	regarder	VRB	VRB	_	0	root	_	_	439.350006	439.549988	PAT
+6	c'	ce	CLS	CLS	_	7	subj	_	_	439.790009	439.809998	PAT
+7	est	être	VRB	VRB	_	5	para	_	_	439.820007	439.859985	PAT
+8	pas du tout	pas du tout	ADN	ADN	_	7	dep	_	_	439.869995	440.320007	PAT
+9	le	le	DET	DET	_	11	spe	_	_	440.329987	440.480011	PAT
+10	même	même	ADJ	ADJ	_	11	dep	_	_	440.489990	440.570007	PAT
+11	bleu	bleu	NOM	NOM	_	7	dep	_	_	440.579987	440.790009	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-133
+# text = vous voyez quelque chose de plus bleu-gris de plus atténué dans la tonalité du bleu
+1	vous	vous	CLS	CLS	_	2	subj	_	_	441.239990	441.290009	PAT
+2	voyez	voir	VRB	VRB	_	0	root	_	_	441.299988	441.540009	PAT
+3	quelque chose	quelque chose	PRO	PRO	_	2	dep	_	_	441.829987	442.149994	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	442.390015	442.429993	PAT
+5	plus	plus	ADN	ADN	_	6	dep	_	_	442.500000	442.869995	PAT
+6	bleu-gris	bleu-gris	ADV	ADV	_	4	dep	_	_	443.470001	443.920013	PAT
+7	de	de	PRE	PRE	_	4	para	_	_	444.450012	444.470001	PAT
+8	plus	plus	ADN	ADN	_	9	dep	_	_	444.559998	444.880005	PAT
+9	atténué	atténuer	VPP	VPP	_	7	dep	_	_	445.190002	445.880005	PAT
+10	dans	dans	PRE	PRE	_	9	dep	_	_	446.250000	446.440002	PAT
+11	la	le	DET	DET	_	12	spe	_	_	446.450012	446.850006	PAT
+12	tonalité	tonalité	NOM	NOM	_	10	dep	_	_	446.859985	447.410004	PAT
+13	du	de+le	PRE	PRE	_	12	dep	_	_	447.420013	447.510010	PAT
+14	bleu	bleu	NOM	NOM	_	13	dep	_	_	447.519989	447.880005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-134
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	439.510010	439.609985	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-135
+# text = la ligne d'horizon l'eau le ciel
+1	la	le	DET	DET	_	2	spe	_	_	449.260010	449.350006	PAT
+2	ligne	ligne	NOM	NOM	_	0	root	_	_	449.359985	449.649994	PAT
+3	d'	de	PRE	PRE	_	2	dep	_	_	449.660004	449.700012	PAT
+4	horizon	horizon	NOM	NOM	_	3	dep	_	_	449.709991	450.329987	PAT
+5	l'	le	DET	DET	_	6	spe	_	_	451.019989	451.179993	PAT
+6	eau	eau	NOM	NOM	_	2	para	_	_	451.190002	451.350006	PAT
+7	le	le	DET	DET	_	8	spe	_	_	451.359985	451.670013	PAT
+8	ciel	ciel	NOM	NOM	_	6	para	_	_	451.679993	452.329987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-136
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	452.700012	452.730011	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-137
+# text = de ce côté-là
+1	de	de	PRE	PRE	_	0	root	_	_	453.290009	453.320007	PAT
+2	ce	ce	DET	DET	_	3	spe	_	_	453.359985	453.559998	PAT
+3	côté-là	côté-là	NOM	NOM	_	1	dep	_	_	453.570007	454.220001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-138
+# text = sur la terre tous les éléments
+1	sur	sur	PRE	PRE	_	0	root	_	_	454.679993	454.929993	PAT
+2	la	le	DET	DET	_	3	spe	_	_	454.940002	455.029999	PAT
+3	terre	terre	NOM	NOM	_	1	dep	_	_	455.109985	455.480011	PAT
+4	tous	tout	ADJ	ADJ	_	6	dep	_	_	455.829987	455.959991	PAT
+5	les	le	DET	DET	_	6	spe	_	_	455.970001	456.170013	PAT
+6	éléments	élément	NOM	NOM	_	3	para	_	_	456.179993	456.579987	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-139
+# text = tous les poissons tous les canards toutes les tortues euh les coquillages tout est sorti de l'eau extrait hein extrait de l'eau
+1	tous	tout	ADJ	ADJ	_	3	dep	_	_	457.070007	457.190002	PAT
+2	les	le	DET	DET	_	3	spe	_	_	457.200012	457.399994	PAT
+3	poissons	poisson	NOM	NOM	_	0	root	_	_	457.410004	457.970001	PAT
+4	tous	tout	ADJ	ADJ	_	6	dep	_	_	458.359985	458.470001	PAT
+5	les	le	DET	DET	_	6	spe	_	_	458.480011	458.709991	PAT
+6	canards	canard	NOM	NOM	_	3	para	_	_	458.720001	459.299988	PAT
+7	toutes	tout	ADJ	ADJ	_	9	dep	_	_	459.489990	459.679993	PAT
+8	les	le	DET	DET	_	9	spe	_	_	459.690002	459.790009	PAT
+9	tortues	tortue	NOM	NOM	_	6	para	_	_	460.000000	460.899994	PAT
+10	euh	euh	INT	INT	_	9	dm	_	_	461.179993	461.200012	PAT
+11	les	le	DET	DET	_	12	spe	_	_	461.339996	461.510010	PAT
+12	coquillages	coquillage	NOM	NOM	_	9	para	_	_	461.519989	462.149994	PAT
+13	tout	tout	ADJ	ADJ	_	15	dep	_	_	462.260010	462.350006	PAT
+14	est	être	VRB	VRB	_	15	aux	_	_	462.470001	462.839996	PAT
+15	sorti	sortir	VPP	VPP	_	12	dep	_	_	463.260010	463.799988	PAT
+16	de	de	PRE	PRE	_	15	dep	_	_	463.809998	463.829987	PAT
+17	l'	le	DET	DET	_	18	spe	_	_	463.839996	463.989990	PAT
+18	eau	eau	NOM	NOM	_	16	dep	_	_	464.000000	464.079987	PAT
+19	extrait	extrait	NOM	NOM	_	18	dep	_	_	464.480011	464.850006	PAT
+20	hein	hein	INT	INT	_	19	dm	_	_	465.350006	465.420013	PAT
+21	extrait	extrait	NOM	NOM	_	18	para	_	_	465.679993	466.079987	PAT
+22	de	de	PRE	PRE	_	21	dep	_	_	466.089996	466.130005	PAT
+23	l'	le	DET	DET	_	24	spe	_	_	466.140015	466.329987	PAT
+24	eau	eau	NOM	NOM	_	22	dep	_	_	466.399994	466.589996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-140
+# text = et vous avez une très grande richesse
+1	et	et	COO	COO	_	3	mark	_	_	466.929993	466.950012	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	467.250000	467.359985	PAT
+3	avez	avoir	VRB	VRB	_	0	root	_	_	467.369995	467.540009	PAT
+4	une	un	DET	DET	_	7	spe	_	_	467.549988	467.820007	PAT
+5	très	très	ADV	ADV	_	6	dep	_	_	467.869995	467.950012	PAT
+6	grande	grand	ADJ	ADJ	_	7	dep	_	_	468.049988	468.190002	PAT
+7	richesse	richesse	NOM	NOM	_	3	dep	_	_	468.309998	468.589996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-141
+# text = alors là aujourd' hui vous avez un beau soleil
+1	alors	alors	ADV	ADV	_	5	periph	_	_	468.850006	469.000000	PAT
+2	là	là	ADV	ADV	_	5	periph	_	_	469.170013	469.269989	PAT
+3	aujourd' hui	aujourd'hui	ADV	ADV	_	5	periph	_	_	469.279999	469.630005	PAT
+4	vous	vous	CLS	CLS	_	5	subj	_	_	469.640015	469.760010	PAT
+5	avez	avoir	VRB	VRB	_	0	root	_	_	469.769989	469.859985	PAT
+6	un	un	DET	DET	_	8	spe	_	_	469.869995	470.010010	PAT
+7	beau	beau	ADJ	ADJ	_	8	dep	_	_	470.019989	470.130005	PAT
+8	soleil	soleil	NOM	NOM	_	5	dep	_	_	470.140015	470.640015	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-142
+# text = parce que celui-là il est moins lumineux que l'autre et donc vous avez la chance l'autre fois
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	471.029999	471.239990	PAT
+2	celui-là	celui-là	PRO	PRO	_	4	periph	_	_	471.359985	471.690002	PAT
+3	il	il	CLS	CLS	_	4	subj	_	_	471.700012	471.760010	PAT
+4	est	être	VRB	VRB	_	1	dep	_	_	471.769989	471.790009	PAT
+5	moins	moins	ADV	ADV	_	6	dep	_	_	471.799988	472.079987	PAT
+6	lumineux	lumineux	ADJ	ADJ	_	4	dep	_	_	472.089996	472.500000	PAT
+7	que	que	CSU	CSU	_	6	dep	_	_	472.510010	472.559998	PAT
+8	l'	le	DET	DET	_	9	spe	_	_	472.570007	472.700012	PAT
+9	autre	autre	NOM	NOM	_	13	periph	_	_	472.709991	472.970001	PAT
+10	et	et	COO	COO	_	13	mark	_	_	473.369995	473.399994	PAT
+11	donc	donc	ADV	ADV	_	13	periph	_	_	473.410004	473.540009	PAT
+12	vous	vous	CLS	CLS	_	13	subj	_	_	473.649994	473.720001	PAT
+13	avez	avoir	VRB	VRB	_	7	dep	_	_	473.769989	473.850006	PAT
+14	la	le	DET	DET	_	15	spe	_	_	473.910004	473.959991	PAT
+15	chance	chance	NOM	NOM	_	13	dep	_	_	474.320007	474.470001	PAT
+16	l'	le	DET	DET	_	18	spe	_	_	475.209991	475.239990	PAT
+17	autre	autre	ADJ	ADJ	_	18	dep	_	_	475.250000	475.470001	PAT
+18	fois	foi	NOM	NOM	_	13	dep	_	_	475.480011	475.700012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-143
+# text = je v-~ je vais vous dire quelque chose
+1	je	je	CLS	CLS	_	2	subj	_	_	476.739990	476.880005	PAT
+2	v-~	v-~	VRB	VRB	_	0	root	_	_	476.890015	477.100006	PAT
+3	je	je	CLS	CLS	_	4	subj	_	_	477.109985	477.179993	PAT
+4	vais	aller	VRB	VRB	_	2	para	_	_	477.190002	477.250000	PAT
+5	vous	vous	CLI	CLI	_	6	dep	_	_	477.260010	477.350006	PAT
+6	dire	dire	VNF	VNF	_	4	dep	_	_	477.359985	477.489990	PAT
+7	quelque chose	quelque chose	PRO	PRO	_	6	dep	_	_	477.500000	477.970001	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-144
+# text = je les vois depuis qu-~ depuis juin quatre-vingt-dix-huit
+1	je	je	CLS	CLS	_	3	subj	_	_	478.019989	478.089996	PAT
+2	les	le	CLI	CLI	_	3	dep	_	_	478.100006	478.179993	PAT
+3	vois	voir	VRB	VRB	_	0	root	_	_	478.190002	478.339996	PAT
+4	depuis	depuis	PRE	PRE	_	3	dep	_	_	478.350006	478.649994	PAT
+5	qu-~	qu-~	NOM	NOM	_	4	dep	_	_	478.700012	479.000000	PAT
+6	depuis	depuis	PRE	PRE	_	3	dep	_	_	479.010010	479.209991	PAT
+7	juin	juin	NOM	NOM	_	6	dep	_	_	479.220001	479.519989	PAT
+8	quatre-vingt-dix-huit	quatre-vingt-dix-huit	NUM	NUM	_	7	dep	_	_	479.529999	480.200012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-145
+# text = ça fait quand même déjà chaque fois que je descends
+1	ça	ça	PRO	PRO	_	2	subj	_	_	480.649994	480.709991	PAT
+2	fait	faire	VRB	VRB	_	0	root	_	_	480.720001	480.820007	PAT
+3	quand	quand	CSU	CSU	_	2	dep	_	_	480.829987	480.950012	PAT
+4	même	même	ADV	ADV	_	7	dep	_	_	480.959991	481.049988	PAT
+5	déjà	déjà	ADV	ADV	_	4	para	_	_	481.059998	481.190002	PAT
+6	chaque	chaque	DET	DET	_	7	spe	_	_	481.839996	482.130005	PAT
+7	fois	foi	NOM	NOM	_	3	dep	_	_	482.140015	482.299988	PAT
+8	que	que	PRQ	PRQ	_	10	dep	_	_	482.309998	482.329987	PAT
+9	je	je	CLS	CLS	_	10	subj	_	_	482.339996	482.480011	PAT
+10	descends	descendre	VRB	VRB	_	7	dep	_	_	482.570007	482.869995	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-146
+# text = je découvre quelque chose de nouveau par exemple
+1	je	je	CLS	CLS	_	2	subj	_	_	482.880005	483.010010	PAT
+2	découvre	découvrir	VRB	VRB	_	0	root	_	_	483.019989	483.329987	PAT
+3	quelque chose	quelque chose	PRO	PRO	_	2	dep	_	_	483.339996	483.809998	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	483.820007	483.850006	PAT
+5	nouveau	nouveau	ADJ	ADJ	_	4	morph	_	_	483.859985	484.119995	PAT
+6	par	par	PRE	PRE	_	2	dep	_	_	484.390015	484.519989	PAT
+7	exemple	exemple	NOM	NOM	_	6	dep	_	_	484.630005	484.839996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-147
+# text = cette petite loutre avec un poisson dans la gueule
+1	cette	ce	DET	DET	_	3	spe	_	_	485.160004	485.239990	PAT
+2	petite	petit	ADJ	ADJ	_	3	dep	_	_	485.250000	485.570007	PAT
+3	loutre	loutre	NOM	NOM	_	0	root	_	_	485.649994	486.019989	PAT
+4	avec	avec	PRE	PRE	_	3	dep	_	_	486.179993	486.359985	PAT
+5	un	un	DET	DET	_	6	spe	_	_	486.369995	486.480011	PAT
+6	poisson	poisson	NOM	NOM	_	4	dep	_	_	486.489990	487.049988	PAT
+7	dans	dans	PRE	PRE	_	3	dep	_	_	487.059998	487.170013	PAT
+8	la	le	DET	DET	_	9	spe	_	_	487.309998	487.390015	PAT
+9	gueule	gueule	NOM	NOM	_	7	dep	_	_	487.399994	487.619995	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-148
+# text = ben je l'avais pas vue
+1	ben	ben	INT	INT	_	6	dm	_	_	487.929993	487.989990	PAT
+2	je	je	CLS	CLS	_	6	subj	_	_	488.000000	488.100006	PAT
+3	l'	le	CLI	CLI	_	6	dep	_	_	488.109985	488.170013	PAT
+4	avais	avoir	VRB	VRB	_	6	aux	_	_	488.179993	488.390015	PAT
+5	pas	pas	ADN	ADN	_	6	dep	_	_	488.399994	488.549988	PAT
+6	vue	voir	VPP	VPP	_	0	root	_	_	488.679993	488.839996	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-149
+# text = et je l'ai vue que depuis à peine quelques semaines c'est un animal
+1	et	et	COO	COO	_	5	mark	_	_	489.480011	489.500000	PAT
+2	je	je	CLS	CLS	_	5	subj	_	_	489.510010	489.600006	PAT
+3	l'	le	CLI	CLI	_	5	dep	_	_	489.609985	489.630005	PAT
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	489.640015	489.769989	PAT
+5	vue	voir	VPP	VPP	_	0	root	_	_	489.779999	489.959991	PAT
+6	que	que	CSU	CSU	_	5	dep	_	_	489.970001	490.089996	PAT
+7	depuis	depuis	PRE	PRE	_	12	periph	_	_	490.100006	490.359985	PAT
+8	à peine	à peine	ADV	ADV	_	7	dep	_	_	490.369995	490.690002	PAT
+9	quelques	quelque	ADJ	ADJ	_	10	spe	_	_	490.730011	491.029999	PAT
+10	semaines	semaine	NOM	NOM	_	7	dep	_	_	491.040009	491.269989	PAT
+11	c'	ce	CLS	CLS	_	12	subj	_	_	491.549988	491.579987	PAT
+12	est	être	VRB	VRB	_	6	dep	_	_	491.589996	491.700012	PAT
+13	un	un	DET	DET	_	14	spe	_	_	491.709991	491.750000	PAT
+14	animal	animal	NOM	NOM	_	12	dep	_	_	491.890015	492.070007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-150
+# text = je pense que c'est une loutre hein avec un un poisson dans la gueule
+1	je	je	CLS	CLS	_	2	subj	_	_	492.260010	492.399994	PAT
+2	pense	penser	VRB	VRB	_	0	root	_	_	492.410004	492.589996	PAT
+3	que	que	CSU	CSU	_	2	dep	_	_	492.600006	492.619995	PAT
+4	c'	ce	CLS	CLS	_	5	subj	_	_	492.660004	492.679993	PAT
+5	est	être	VRB	VRB	_	3	dep	_	_	492.690002	492.709991	PAT
+6	une	un	DET	DET	_	7	spe	_	_	492.720001	492.799988	PAT
+7	loutre	loutre	NOM	NOM	_	5	dep	_	_	492.809998	493.269989	PAT
+8	hein	hein	INT	INT	_	7	dm	_	_	493.279999	493.309998	PAT
+9	avec	avec	PRE	PRE	_	5	dep	_	_	493.649994	493.869995	PAT
+10	un	un	DET	DET	_	12	spe	_	_	493.880005	494.059998	PAT
+11	un	un	DET	DET	_	10	para	_	_	494.910004	495.019989	PAT
+12	poisson	poisson	NOM	NOM	_	9	dep	_	_	495.100006	495.450012	PAT
+13	dans	dans	PRE	PRE	_	5	dep	_	_	495.459991	495.709991	PAT
+14	la	le	DET	DET	_	15	spe	_	_	495.720001	495.790009	PAT
+15	gueule	gueule	NOM	NOM	_	13	dep	_	_	495.799988	496.140015	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-151
+# text = donc chaque fois vous voyez parce qu'elle est elle est grise
+1	donc	donc	ADV	ADV	_	5	periph	_	_	496.390015	496.510010	PAT
+2	chaque	chaque	DET	DET	_	3	spe	_	_	496.890015	497.170013	PAT
+3	fois	foi	NOM	NOM	_	5	periph	_	_	497.320007	497.410004	PAT
+4	vous	vous	CLS	CLS	_	5	subj	_	_	497.890015	497.940002	PAT
+5	voyez	voir	VRB	VRB	_	0	root	_	_	497.980011	498.429993	PAT
+6	parce qu'	parce que	CSU	CSU	_	5	dep	_	_	498.540009	498.839996	PAT
+7	elle	il	CLS	CLS	_	8	subj	_	_	498.850006	498.910004	PAT
+8	est	être	VRB	VRB	_	6	dep	_	_	498.920013	498.970001	PAT
+9	elle	il	CLS	CLS	_	10	subj	_	_	498.980011	499.049988	PAT
+10	est	être	VRB	VRB	_	8	para	_	_	499.059998	499.230011	PAT
+11	grise	gris	ADJ	ADJ	_	10	dep	_	_	499.239990	499.660004	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-152
+# text = bon par contre il y a des éléments colorés comme ces poissons rouges comme ces comme ce poisson lune
+1	bon	bon	INT	INT	_	6	dm	_	_	499.950012	500.130005	PAT
+2	par	par	PRE	PRE	_	6	periph	_	_	500.510010	500.690002	PAT
+3	contre	contre	NOM	NOM	_	2	dep	_	_	500.700012	500.929993	PAT
+4	il	il	CLS	CLS	_	6	subj	_	_	500.940002	501.049988	PAT
+5	y	y	CLI	CLI	_	6	dep	_	_	501.059998	501.079987	PAT
+6	a	avoir	VRB	VRB	_	0	root	_	_	501.089996	501.109985	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	501.119995	501.290009	PAT
+8	éléments	élément	NOM	NOM	_	7	dep	_	_	501.299988	501.540009	PAT
+9	colorés	colorer	VPP	VPP	_	8	dep	_	_	501.549988	501.839996	PAT
+10	comme	comme	PRE	PRE	_	9	dep	_	_	501.850006	502.269989	PAT
+11	ces	ce	DET	DET	_	12	spe	_	_	502.279999	502.399994	PAT
+12	poissons	poisson	NOM	NOM	_	10	dep	_	_	502.510010	502.649994	PAT
+13	rouges	rouge	ADJ	ADJ	_	12	dep	_	_	502.940002	503.339996	PAT
+14	comme	comme	PRE	PRE	_	10	para	_	_	503.670013	503.820007	PAT
+15	ces	ce	DET	DET	_	14	dep	_	_	503.869995	504.140015	PAT
+16	comme	comme	PRE	PRE	_	14	para	_	_	504.309998	504.450012	PAT
+17	ce	ce	DET	DET	_	18	spe	_	_	504.519989	504.609985	PAT
+18	poisson	poisson	NOM	NOM	_	16	dep	_	_	504.660004	505.179993	PAT
+19	lune	lune	NOM	NOM	_	18	dep	_	_	505.190002	505.739990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-153
+# text = bien sûr le poisson volant il y a des éléments qu'on voit tout de suite
+1	bien	bien	ADV	ADV	_	8	periph	_	_	506.019989	506.100006	PAT
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	506.109985	506.359985	PAT
+3	le	le	DET	DET	_	4	spe	_	_	506.369995	506.489990	PAT
+4	poisson	poisson	NOM	NOM	_	8	periph	_	_	506.500000	506.869995	PAT
+5	volant	voler	VPR	VPR	_	4	dep	_	_	506.880005	507.230011	PAT
+6	il	il	CLS	CLS	_	8	subj	_	_	507.320007	507.369995	PAT
+7	y	y	CLI	CLI	_	8	dep	_	_	507.380005	507.399994	PAT
+8	a	avoir	VRB	VRB	_	0	root	_	_	507.410004	507.429993	PAT
+9	des	de	PRE	PRE	_	8	dep	_	_	507.470001	507.579987	PAT
+10	éléments	élément	NOM	NOM	_	9	dep	_	_	507.589996	508.029999	PAT
+11	qu'	que	PRQ	PRQ	_	13	dep	_	_	508.040009	508.059998	PAT
+12	on	on	CLS	CLS	_	13	subj	_	_	508.070007	508.179993	PAT
+13	voit	voir	VRB	VRB	_	10	dep	_	_	508.190002	508.329987	PAT
+14	tout	tout	PRO	PRO	_	13	dep	_	_	508.339996	508.390015	PAT
+15	de	de	PRE	PRE	_	13	dep	_	_	508.399994	508.470001	PAT
+16	suite	suite	NOM	NOM	_	15	dep	_	_	508.579987	508.950012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-154
+# text = puis il y a des éléments au contraire
+1	puis	puis	COO	COO	_	4	mark	_	_	509.040009	509.130005	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	509.279999	509.339996	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	509.350006	509.399994	PAT
+4	a	avoir	VRB	VRB	_	0	root	_	_	509.410004	509.429993	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	509.440002	509.630005	PAT
+6	éléments	élément	NOM	NOM	_	5	dep	_	_	509.640015	509.989990	PAT
+7	au	à+le	PRE	PRE	_	4	dep	_	_	510.000000	510.040009	PAT
+8	contraire	contraire	NOM	NOM	_	7	dep	_	_	510.049988	510.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-155
+# text = qui sont plus euh cachés plus difficilement détectables voilà hein
+1	qui	qui	PRQ	PRQ	_	5	subj	_	_	510.829987	510.880005	PAT
+2	sont	être	VRB	VRB	_	5	aux	_	_	510.890015	511.070007	PAT
+3	plus	plus	ADN	ADN	_	5	dep	_	_	511.269989	511.799988	PAT
+4	euh	euh	INT	INT	_	3	dm	_	_	512.479980	512.510010	PAT
+5	cachés	cacher	VPP	VPP	_	0	root	_	_	513.020020	513.729980	PAT
+6	plus	plus	ADN	ADN	_	7	dep	_	_	513.940002	514.140015	PAT
+7	difficilement	difficilement	ADV	ADV	_	5	dep	_	_	514.179993	514.929993	PAT
+8	détectables	détectable	ADJ	ADJ	_	5	dep	_	_	514.940002	515.440002	PAT
+9	voilà	voilà	INT	INT	_	8	dm	_	_	516.039978	516.190002	PAT
+10	hein	hein	INT	INT	_	9	dm	_	_	516.460022	516.500000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-156
+# text = et en fin de compte alors moi les je fais beaucoup de visites commentées avec des enfants
+1	et	et	COO	COO	_	10	mark	_	_	516.780029	516.890015	PAT
+2	en	en	PRE	PRE	_	10	periph	_	_	516.900024	516.929993	PAT
+3	fin	fin	NOM	NOM	_	2	dep	_	_	516.940002	517.090027	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	517.099976	517.119995	PAT
+5	compte	compte	NOM	NOM	_	4	dep	_	_	517.210022	517.330017	PAT
+6	alors	alors	ADV	ADV	_	10	periph	_	_	517.739990	517.919983	PAT
+7	moi	moi	PRO	PRO	_	10	periph	_	_	518.440002	518.570007	PAT
+8	les	le	DET	DET	_	10	dep	_	_	518.580017	518.849976	PAT
+9	je	je	CLS	CLS	_	10	subj	_	_	518.859985	518.960022	PAT
+10	fais	faire	VRB	VRB	_	0	root	_	_	518.969971	519.140015	PAT
+11	beaucoup	beaucoup	PRO	PRO	_	10	dep	_	_	519.150024	519.340027	PAT
+12	de	de	PRE	PRE	_	11	dep	_	_	519.349976	519.369995	PAT
+13	visites	visite	NOM	NOM	_	12	dep	_	_	519.380005	519.679993	PAT
+14	commentées	commenter	VPP	VPP	_	13	dep	_	_	519.690002	520.020020	PAT
+15	avec	avec	PRE	PRE	_	14	dep	_	_	520.030029	520.200012	PAT
+16	des	de	PRE	PRE	_	15	dep	_	_	520.210022	520.349976	PAT
+17	enfants	enfant	NOM	NOM	_	16	dep	_	_	520.359985	520.609985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-157
+# text = par exemple ils me disent toujours c'est deux fois la même dame
+1	par	par	PRE	PRE	_	5	periph	_	_	520.869995	521.000000	PAT
+2	exemple	exemple	NOM	NOM	_	1	dep	_	_	521.010010	521.200012	PAT
+3	ils	il	CLS	CLS	_	5	subj	_	_	521.210022	521.260010	PAT
+4	me	me	CLI	CLI	_	5	dep	_	_	521.270020	521.320007	PAT
+5	disent	dire	VRB	VRB	_	0	root	_	_	521.330017	521.599976	PAT
+6	toujours	toujours	ADV	ADV	_	5	dep	_	_	521.609985	522.200012	PAT
+7	c'	ce	CLS	CLS	_	8	subj	_	_	522.500000	522.520020	PAT
+8	est	être	VRB	VRB	_	5	dep	_	_	522.909973	522.969971	PAT
+9	deux	deux	NUM	NUM	_	10	spe	_	_	522.979980	523.130005	PAT
+10	fois	foi	NOM	NOM	_	8	dep	_	_	523.140015	523.359985	PAT
+11	la	le	DET	DET	_	13	spe	_	_	523.369995	523.479980	PAT
+12	même	même	ADJ	ADJ	_	13	dep	_	_	523.489990	523.780029	PAT
+13	dame	dame	NOM	NOM	_	10	para	_	_	523.789978	524.080017	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-158
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	491.890015	492.000000	DOM
+2	hum	hum	INT	INT	_	1	dm	_	_	494.660004	494.760010	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-159
+# text = alors c'est vrai que le les deux déesses
+1	alors	alors	ADV	ADV	_	3	periph	_	_	524.940002	525.090027	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	525.099976	525.179993	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	525.190002	525.219971	PAT
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	525.229980	525.429993	PAT
+5	que	que	CSU	CSU	_	4	dep	_	_	525.440002	525.530029	PAT
+6	le	le	DET	DET	_	9	spe	_	_	525.539978	525.729980	PAT
+7	les	le	DET	DET	_	6	para	_	_	525.739990	525.849976	PAT
+8	deux	deux	NUM	NUM	_	9	dep	_	_	525.859985	525.969971	PAT
+9	déesses	déesse	NOM	NOM	_	5	dep	_	_	525.979980	526.559998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-160
+# text = quand vous regardez Amphitrite le nu le drapé elles ont des points communs sauf qu'ici par exemple c'est du corail
+1	quand	quand	CSU	CSU	_	10	periph	_	_	527.340027	527.450012	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	527.460022	527.599976	PAT
+3	regardez	regarder	VRB	VRB	_	1	dep	_	_	527.609985	528.080017	PAT
+4	Amphitrite	Amphitrite	NOM	NOM	_	3	dep	_	_	528.469971	529.010010	PAT
+5	le	le	DET	DET	_	6	spe	_	_	529.400024	529.599976	PAT
+6	nu	nu	NOM	NOM	_	3	dep	_	_	529.609985	529.929993	PAT
+7	le	le	DET	DET	_	8	spe	_	_	530.380005	530.460022	PAT
+8	drapé	drapé	NOM	NOM	_	10	periph	_	_	530.469971	530.890015	PAT
+9	elles	il	CLS	CLS	_	10	subj	_	_	531.349976	531.500000	PAT
+10	ont	avoir	VRB	VRB	_	0	root	_	_	531.510010	531.580017	PAT
+11	des	de	PRE	PRE	_	10	dep	_	_	531.590027	531.719971	PAT
+12	points	point	NOM	NOM	_	11	dep	_	_	531.729980	531.880005	PAT
+13	communs	commun	ADJ	ADJ	_	12	dep	_	_	531.929993	532.340027	PAT
+14	sauf	sauf	COO	COO	_	15	mark	_	_	532.669983	532.820007	PAT
+15	qu'	que	CSU	CSU	_	10	dep	_	_	532.830017	532.849976	PAT
+16	ici	ici	ADV	ADV	_	20	periph	_	_	532.950012	533.150024	PAT
+17	par	par	PRE	PRE	_	20	periph	_	_	533.159973	533.289978	PAT
+18	exemple	exemple	NOM	NOM	_	17	dep	_	_	533.299988	533.539978	PAT
+19	c'	ce	CLS	CLS	_	20	subj	_	_	533.549988	533.580017	PAT
+20	est	être	VRB	VRB	_	15	dep	_	_	533.590027	533.630005	PAT
+21	du	de+le	PRE	PRE	_	20	dep	_	_	533.640015	533.739990	PAT
+22	corail	corail	NOM	NOM	_	21	dep	_	_	533.840027	534.109985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-161
+# text = qu'elle va porter dans sa corne d'abondance
+1	qu'	que	PRQ	PRQ	_	0	root	_	_	534.239990	534.270020	PAT
+2	elle	il	CLS	CLS	_	3	subj	_	_	534.280029	534.359985	PAT
+3	va	aller	VRB	VRB	_	1	dep	_	_	534.369995	534.460022	PAT
+4	porter	porter	VNF	VNF	_	3	dep	_	_	534.539978	534.840027	PAT
+5	dans	dans	PRE	PRE	_	4	dep	_	_	534.849976	534.900024	PAT
+6	sa	son	DET	DET	_	7	spe	_	_	535.020020	535.070007	PAT
+7	corne	corne	NOM	NOM	_	5	dep	_	_	535.140015	535.320007	PAT
+8	d'	de	PRE	PRE	_	7	dep	_	_	535.330017	535.359985	PAT
+9	abondance	abondance	NOM	NOM	_	8	dep	_	_	535.369995	535.849976	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-162
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	536.190002	536.429993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-163
+# text = que là-bas ça sera des fruits
+1	que	que	CSU	CSU	_	0	root	_	_	536.440002	536.479980	PAT
+2	là-bas	là-bas	ADV	ADV	_	1	dep	_	_	536.489990	536.830017	PAT
+3	ça	ça	PRO	PRO	_	4	subj	_	_	537.090027	537.140015	PAT
+4	sera	être	VRB	VRB	_	1	dep	_	_	537.150024	537.349976	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	537.359985	537.460022	PAT
+6	fruits	fruit	NOM	NOM	_	5	dep	_	_	537.469971	537.859985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-164
+# text = et je termine par ça
+1	et	et	COO	COO	_	3	mark	_	_	538.549988	538.830017	PAT
+2	je	je	CLS	CLS	_	3	subj	_	_	539.330017	539.409973	PAT
+3	termine	(se) terminer	VRB	VRB	_	0	root	_	_	539.419983	539.890015	PAT
+4	par	par	PRE	PRE	_	3	dep	_	_	539.989990	540.070007	PAT
+5	ça	ça	PRO	PRO	_	4	dep	_	_	540.229980	540.330017	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-165
+# text = vous avez remarqué que il y a deux noms de peintres Bruegel et Van Dalen
+1	vous	vous	CLS	CLS	_	3	subj	_	_	540.869995	540.950012	PAT
+2	avez	avoir	VRB	VRB	_	3	aux	_	_	540.960022	541.070007	PAT
+3	remarqué	remarquer	VPP	VPP	_	0	root	_	_	541.080017	541.409973	PAT
+4	que	que	CSU	CSU	_	3	dep	_	_	541.580017	541.760010	PAT
+5	il	il	CLS	CLS	_	7	subj	_	_	541.890015	541.969971	PAT
+6	y	y	CLI	CLI	_	7	dep	_	_	541.979980	542.000000	PAT
+7	a	avoir	VRB	VRB	_	4	dep	_	_	542.010010	542.030029	PAT
+8	deux	deux	NUM	NUM	_	9	spe	_	_	542.039978	542.340027	PAT
+9	noms	nom	NOM	NOM	_	7	dep	_	_	542.349976	542.510010	PAT
+10	de	de	PRE	PRE	_	9	dep	_	_	542.520020	542.679993	PAT
+11	peintres	peintre	NOM	NOM	_	10	dep	_	_	542.690002	542.890015	PAT
+12	Bruegel	Bruegel	NOM	NOM	_	11	dep	_	_	543.700012	544.090027	PAT
+13	et	et	COO	COO	_	14	mark	_	_	544.099976	544.270020	PAT
+14	Van	Van	NOM	NOM	_	12	para	_	_	544.280029	544.479980	PAT
+15	Dalen	Dalen	NOM	NOM	_	14	dep	_	_	544.489990	544.789978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-166
+# text = ça s'appelle une peinture à quatre mains
+1	ça	ça	PRO	PRO	_	3	subj	_	_	544.869995	544.950012	PAT
+2	s'	se	CLI	CLI	_	3	dep	_	_	544.960022	545.020020	PAT
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	545.030029	545.299988	PAT
+4	une	un	DET	DET	_	5	spe	_	_	545.309998	545.419983	PAT
+5	peinture	peinture	NOM	NOM	_	3	dep	_	_	545.500000	545.950012	PAT
+6	à	à	PRE	PRE	_	5	dep	_	_	545.960022	546.000000	PAT
+7	quatre	quatre	NUM	NUM	_	8	spe	_	_	546.080017	546.309998	PAT
+8	mains	main	NOM	NOM	_	6	dep	_	_	546.400024	546.580017	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-167
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	543.479980	543.530029	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-168
+# text = c'était à la mode à cette époque-là
+1	c'	ce	CLS	CLS	_	2	subj	_	_	547.010010	547.030029	PAT
+2	était	être	VRB	VRB	_	0	root	_	_	547.169983	547.299988	PAT
+3	à	à	PRE	PRE	_	2	dep	_	_	547.419983	547.450012	PAT
+4	la	le	DET	DET	_	5	spe	_	_	547.460022	547.580017	PAT
+5	mode	mode	NOM	NOM	_	3	dep	_	_	547.590027	547.789978	PAT
+6	à	à	PRE	PRE	_	5	dep	_	_	547.799988	547.820007	PAT
+7	cette	ce	DET	DET	_	8	spe	_	_	547.830017	548.119995	PAT
+8	époque-là	époque-là	NOM	NOM	_	6	dep	_	_	548.130005	548.690002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-169
+# text = deux peintres vont fonctionner sur la même toile enfin sur le même euh la même oeuvre
+1	deux	deux	NUM	NUM	_	2	spe	_	_	549.659973	549.919983	PAT
+2	peintres	peintre	NOM	NOM	_	3	subj	_	_	549.929993	550.260010	PAT
+3	vont	aller	VRB	VRB	_	0	root	_	_	550.460022	550.809998	PAT
+4	fonctionner	fonctionner	VNF	VNF	_	3	dep	_	_	550.940002	551.679993	PAT
+5	sur	sur	PRE	PRE	_	4	dep	_	_	551.849976	552.080017	PAT
+6	la	le	DET	DET	_	8	spe	_	_	552.140015	552.219971	PAT
+7	même	même	ADJ	ADJ	_	8	dep	_	_	552.229980	552.419983	PAT
+8	toile	toile	NOM	NOM	_	5	dep	_	_	552.539978	552.760010	PAT
+9	enfin	enfin	ADV	ADV	_	8	dm	_	_	552.770020	552.950012	PAT
+10	sur	sur	PRE	PRE	_	5	para	_	_	553.010010	553.090027	PAT
+11	le	le	DET	DET	_	12	spe	_	_	553.099976	553.169983	PAT
+12	même	même	ADJ	ADJ	_	10	dep	_	_	553.179993	553.359985	PAT
+13	euh	euh	INT	INT	_	12	dm	_	_	553.369995	553.440002	PAT
+14	la	le	DET	DET	_	16	spe	_	_	553.450012	553.559998	PAT
+15	même	même	ADJ	ADJ	_	16	dep	_	_	553.570007	553.770020	PAT
+16	oeuvre	oeuvre	NOM	NOM	_	4	dep	_	_	553.780029	553.880005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-170
+# text = alors on dit que je dis bien on dit que
+1	alors	alors	ADV	ADV	_	3	periph	_	_	554.469971	554.690002	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	554.760010	554.960022	PAT
+3	dit	dire	VRB	VRB	_	9	parenth	_	_	554.969971	555.200012	PAT
+4	que	que	CSU	CSU	_	3	dep	_	_	555.250000	555.409973	PAT
+5	je	je	CLS	CLS	_	6	subj	_	_	555.419983	555.489990	PAT
+6	dis	dire	VRB	VRB	_	4	dep	_	_	555.500000	555.739990	PAT
+7	bien	bien	ADV	ADV	_	6	dep	_	_	555.750000	555.979980	PAT
+8	on	on	CLS	CLS	_	9	subj	_	_	555.989990	556.130005	PAT
+9	dit	dire	VRB	VRB	_	0	root	_	_	556.140015	556.280029	PAT
+10	que	que	CSU	CSU	_	9	dep	_	_	556.340027	556.460022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-171
+# text = parce qu'on n'en est pas vraiment sûr
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	556.500000	556.669983	PAT
+2	on	on	CLS	CLS	_	5	subj	_	_	556.679993	556.750000	PAT
+3	n'	ne	CLN	CLN	_	5	dep	_	_	556.750000	556.750000	PAT
+4	en	en	CLI	CLI	_	5	dep	_	_	556.760010	556.780029	PAT
+5	est	être	VRB	VRB	_	1	dep	_	_	556.830017	556.849976	PAT
+6	pas	pas	ADN	ADN	_	5	dep	_	_	556.859985	556.989990	PAT
+7	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	557.000000	557.190002	PAT
+8	sûr	sûr	ADJ	ADJ	_	5	dep	_	_	557.299988	557.429993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-172
+# text = que Bruegel aurait fait tout l'élément végétaux nature feuillage s tout ça et que Van dalen aurait fait les petits personnages
+1	que	que	CSU	CSU	_	0	root	_	_	557.830017	558.090027	PAT
+2	Bruegel	Bruegel	NOM	NOM	_	4	subj	_	_	558.179993	558.599976	PAT
+3	aurait	avoir	VRB	VRB	_	4	aux	_	_	558.609985	558.840027	PAT
+4	fait	faire	VPP	VPP	_	1	dep	_	_	558.849976	559.229980	PAT
+5	tout	tout	ADN	ADN	_	7	dep	_	_	559.460022	559.710022	PAT
+6	l'	le	DET	DET	_	7	spe	_	_	559.719971	559.789978	PAT
+7	élément	élément	NOM	NOM	_	4	dep	_	_	559.799988	560.150024	PAT
+8	végétaux	végétal	ADJ	ADJ	_	7	dep	_	_	560.500000	561.140015	PAT
+9	nature	nature	NOM	NOM	_	7	para	_	_	561.469971	561.940002	PAT
+10	feuillage	feuillage	NOM	NOM	_	9	dep	_	_	562.190002	562.599976	PAT
+11	s	s	X	X	_	10	disflink	_	_	562.599976	562.599976	PAT
+12	tout	tout	ADJ	ADJ	_	13	dep	_	_	562.609985	562.690002	PAT
+13	ça	ça	PRO	PRO	_	10	para	_	_	562.780029	562.969971	PAT
+14	et	et	COO	COO	_	15	mark	_	_	563.330017	563.359985	PAT
+15	que	que	CSU	CSU	_	4	dep	_	_	563.369995	563.539978	PAT
+16	Van	Van	NOM	NOM	_	19	subj	_	_	563.549988	563.869995	PAT
+17	dalen	dalen	NOM	NOM	_	16	dep	_	_	563.880005	564.349976	PAT
+18	aurait	avoir	VRB	VRB	_	19	aux	_	_	565.090027	565.369995	PAT
+19	fait	faire	VPP	VPP	_	15	dep	_	_	565.380005	565.890015	PAT
+20	les	le	DET	DET	_	22	spe	_	_	566.890015	567.049988	PAT
+21	petits	petit	ADJ	ADJ	_	22	dep	_	_	567.059998	567.320007	PAT
+22	personnages	personnage	NOM	NOM	_	19	dep	_	_	567.359985	567.969971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-173
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	547.169983	547.239990	DOM
+2	hum	hum	INT	INT	_	1	dm	_	_	547.250000	547.299988	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-174
+# text = ils sont là
+1	ils	il	CLS	CLS	_	2	subj	_	_	568.929993	568.979980	PAT
+2	sont	être	VRB	VRB	_	0	root	_	_	568.989990	569.210022	PAT
+3	là	là	ADV	ADV	_	2	dep	_	_	569.219971	569.330017	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-175
+# text = et on appelle en peinture ça des glacis
+1	et	et	COO	COO	_	3	mark	_	_	569.729980	569.760010	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	569.770020	570.070007	PAT
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	570.080017	570.390015	PAT
+4	en	en	PRE	PRE	_	3	dep	_	_	570.400024	570.479980	PAT
+5	peinture	peinture	NOM	NOM	_	4	dep	_	_	570.520020	571.030029	PAT
+6	ça	ça	PRO	PRO	_	3	dep	_	_	571.280029	571.520020	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	571.640015	571.700012	PAT
+8	glacis	glacis	NOM	NOM	_	7	dep	_	_	571.760010	572.390015	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-176
+# text = alors qu'est-ce que c'est qu'un glacis un glacis c'est quand on mélange la peinture l'huile la peinture à l'huile est déjà mélangée avec un vernis vous savez le vernis
+1	alors	alors	ADV	ADV	_	33	periph	_	_	573.130005	573.369995	PAT
+2	qu'	que	CSU	CSU	_	3	dep	_	_	573.380005	573.440002	PAT
+3	est-ce	est-ce	NOM	NOM	_	33	periph	_	_	573.590027	573.669983	PAT
+4	que	que	CSU	CSU	_	3	dep	_	_	573.679993	573.789978	PAT
+5	c'	ce	CLS	CLS	_	6	subj	_	_	573.799988	573.890015	PAT
+6	est	être	VRB	VRB	_	4	dep	_	_	573.900024	573.979980	PAT
+7	qu'	que	CSU	CSU	_	6	dep	_	_	573.989990	574.030029	PAT
+8	un	un	DET	DET	_	9	spe	_	_	574.039978	574.099976	PAT
+9	glacis	glacis	NOM	NOM	_	13	periph	_	_	574.109985	574.479980	PAT
+10	un	un	DET	DET	_	11	spe	_	_	575.020020	575.080017	PAT
+11	glacis	glacis	NOM	NOM	_	9	para	_	_	575.090027	575.690002	PAT
+12	c'	ce	CLS	CLS	_	13	subj	_	_	576.409973	576.510010	PAT
+13	est	être	VRB	VRB	_	7	dep	_	_	576.520020	576.630005	PAT
+14	quand	quand	CSU	CSU	_	13	dep	_	_	576.640015	576.900024	PAT
+15	on	on	CLS	CLS	_	16	subj	_	_	576.909973	577.099976	PAT
+16	mélange	mélanger	VRB	VRB	_	14	dep	_	_	577.109985	577.609985	PAT
+17	la	le	DET	DET	_	18	spe	_	_	577.750000	577.830017	PAT
+18	peinture	peinture	NOM	NOM	_	16	dep	_	_	577.929993	578.289978	PAT
+19	l'	le	DET	DET	_	20	spe	_	_	578.299988	578.390015	PAT
+20	huile	huile	NOM	NOM	_	16	dep	_	_	578.400024	578.890015	PAT
+21	la	le	DET	DET	_	22	spe	_	_	578.950012	579.090027	PAT
+22	peinture	peinture	NOM	NOM	_	20	para	_	_	579.099976	579.460022	PAT
+23	à	à	PRE	PRE	_	22	dep	_	_	579.469971	579.530029	PAT
+24	l'	le	DET	DET	_	25	spe	_	_	579.539978	579.570007	PAT
+25	huile	huile	NOM	NOM	_	23	dep	_	_	579.619995	579.929993	PAT
+26	est	être	VRB	VRB	_	13	para	_	_	579.940002	579.979980	PAT
+27	déjà	déjà	ADV	ADV	_	28	dep	_	_	579.989990	580.280029	PAT
+28	mélangée	mélanger	VPP	VPP	_	26	dep	_	_	580.340027	580.809998	PAT
+29	avec	avec	PRE	PRE	_	28	dep	_	_	581.099976	581.390015	PAT
+30	un	un	DET	DET	_	31	spe	_	_	581.679993	581.750000	PAT
+31	vernis	verni	NOM	NOM	_	29	dep	_	_	581.869995	582.030029	PAT
+32	vous	vous	CLS	CLS	_	33	subj	_	_	582.369995	582.419983	PAT
+33	savez	savoir	VRB	VRB	_	0	root	_	_	582.539978	582.750000	PAT
+34	le	le	DET	DET	_	35	spe	_	_	582.760010	582.799988	PAT
+35	vernis	verni	NOM	NOM	_	33	dep	_	_	582.809998	583.190002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-177
+# text = il va être mis à l'extérieur l'oeuvre finie
+1	il	il	CLS	CLS	_	2	subj	_	_	583.250000	583.309998	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	583.440002	583.599976	PAT
+3	être	être	VNF	VNF	_	4	aux	_	_	583.609985	583.900024	PAT
+4	mis	mettre	VPP	VPP	_	2	dep	_	_	583.909973	584.200012	PAT
+5	à	à	PRE	PRE	_	4	dep	_	_	584.289978	584.340027	PAT
+6	l'	le	DET	DET	_	7	spe	_	_	584.349976	584.390015	PAT
+7	extérieur	extérieur	NOM	NOM	_	5	dep	_	_	584.400024	584.960022	PAT
+8	l'	le	DET	DET	_	9	spe	_	_	585.210022	585.239990	PAT
+9	oeuvre	oeuvre	NOM	NOM	_	4	dep	_	_	585.250000	585.440002	PAT
+10	finie	fini	ADJ	ADJ	_	9	dep	_	_	585.450012	585.679993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-178
+# text = mais des fois on peut mélanger ce vernis dans la peinture même
+1	mais	mais	COO	COO	_	5	mark	_	_	585.960022	586.030029	PAT
+2	des	de	PRE	PRE	_	5	periph	_	_	586.039978	586.270020	PAT
+3	fois	foi	NOM	NOM	_	2	dep	_	_	586.280029	586.530029	PAT
+4	on	on	CLS	CLS	_	5	subj	_	_	586.539978	586.640015	PAT
+5	peut	pouvoir	VRB	VRB	_	0	root	_	_	586.650024	586.770020	PAT
+6	mélanger	mélanger	VNF	VNF	_	5	dep	_	_	586.780029	587.219971	PAT
+7	ce	ce	DET	DET	_	8	spe	_	_	587.229980	587.349976	PAT
+8	vernis	verni	NOM	NOM	_	6	dep	_	_	587.359985	587.690002	PAT
+9	dans	dans	PRE	PRE	_	6	dep	_	_	588.080017	588.239990	PAT
+10	la	le	DET	DET	_	11	spe	_	_	588.250000	588.330017	PAT
+11	peinture	peinture	NOM	NOM	_	9	dep	_	_	588.340027	588.820007	PAT
+12	même	même	ADV	ADV	_	6	dep	_	_	588.830017	589.130005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-179
+# text = et ça donne des effets de brillance
+1	et	et	COO	COO	_	3	mark	_	_	589.590027	589.609985	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	589.619995	589.690002	PAT
+3	donne	donner	VRB	VRB	_	0	root	_	_	589.739990	589.960022	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	589.969971	590.090027	PAT
+5	effets	effet	NOM	NOM	_	4	dep	_	_	590.099976	590.450012	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	590.460022	590.559998	PAT
+7	brillance	brillance	NOM	NOM	_	6	dep	_	_	590.570007	590.989990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-180
+# text = or regardez bien le corps
+1	or	or	CLS	CLS	_	2	subj	_	_	591.000000	591.250000	PAT
+2	regardez	regarder	VRB	VRB	_	0	root	_	_	591.260010	591.510010	PAT
+3	bien	bien	ADV	ADV	_	2	dep	_	_	591.520020	591.830017	PAT
+4	le	le	DET	DET	_	5	spe	_	_	591.890015	591.919983	PAT
+5	corps	corps	NOM	NOM	_	2	dep	_	_	591.969971	592.109985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-181
+# text = regardez bien le corps du bambin
+1	regardez	regarder	VRB	VRB	_	0	root	_	_	592.729980	593.049988	PAT
+2	bien	bien	ADV	ADV	_	1	dep	_	_	593.059998	593.140015	PAT
+3	le	le	DET	DET	_	4	spe	_	_	593.280029	593.320007	PAT
+4	corps	corps	NOM	NOM	_	1	dep	_	_	593.479980	593.609985	PAT
+5	du	de+le	PRE	PRE	_	4	dep	_	_	593.619995	593.710022	PAT
+6	bambin	bambin	NOM	NOM	_	5	dep	_	_	593.719971	594.099976	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-182
+# text = ici regardez bien le corps
+1	ici	ici	ADV	ADV	_	2	periph	_	_	594.260010	594.530029	PAT
+2	regardez	regarder	VRB	VRB	_	0	root	_	_	595.030029	595.210022	PAT
+3	bien	bien	ADV	ADV	_	2	dep	_	_	595.219971	595.830017	PAT
+4	le	le	DET	DET	_	5	spe	_	_	595.840027	595.880005	PAT
+5	corps	corps	NOM	NOM	_	2	dep	_	_	595.950012	596.309998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-183
+# text = ça donne du relief
+1	ça	ça	PRO	PRO	_	2	subj	_	_	596.669983	596.770020	PAT
+2	donne	donner	VRB	VRB	_	0	root	_	_	596.809998	596.989990	PAT
+3	du	de+le	PRE	PRE	_	2	dep	_	_	597.000000	597.099976	PAT
+4	relief	relief	NOM	NOM	_	3	dep	_	_	597.210022	597.570007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-184
+# text = alors ça va être fait les glacis pour des choses qu'on a envie de voir visages mains
+1	alors	alors	ADV	ADV	_	3	periph	_	_	597.799988	597.960022	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	598.030029	598.090027	PAT
+3	va	aller	VRB	VRB	_	0	root	_	_	598.099976	598.190002	PAT
+4	être	être	VNF	VNF	_	5	aux	_	_	598.200012	598.299988	PAT
+5	fait	faire	VPP	VPP	_	3	dep	_	_	598.309998	598.500000	PAT
+6	les	le	DET	DET	_	7	spe	_	_	598.510010	598.599976	PAT
+7	glacis	glacis	NOM	NOM	_	5	dep	_	_	598.609985	599.070007	PAT
+8	pour	pour	PRE	PRE	_	5	dep	_	_	599.500000	599.659973	PAT
+9	des	de	PRE	PRE	_	8	dep	_	_	599.669983	599.799988	PAT
+10	choses	chose	NOM	NOM	_	9	dep	_	_	599.809998	600.010010	PAT
+11	qu'	que	PRQ	PRQ	_	13	dep	_	_	600.020020	600.039978	PAT
+12	on	on	CLS	CLS	_	13	subj	_	_	600.130005	600.210022	PAT
+13	a	avoir	VRB	VRB	_	10	dep	_	_	600.219971	600.260010	PAT
+14	envie	envie	NOM	NOM	_	13	dep	_	_	600.270020	600.469971	PAT
+15	de	de	PRE	PRE	_	14	dep	_	_	600.609985	600.630005	PAT
+16	voir	voir	VNF	VNF	_	15	dep	_	_	600.640015	600.989990	PAT
+17	visages	visage	NOM	NOM	_	14	para	_	_	601.609985	602.119995	PAT
+18	mains	main	NOM	NOM	_	17	dep	_	_	602.530029	602.859985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-185
+# text = vont être souvent faites en glacis
+1	vont	aller	VRB	VRB	_	0	root	_	_	603.919983	604.049988	PAT
+2	être	être	VNF	VNF	_	1	dep	_	_	604.059998	604.179993	PAT
+3	souvent	souvent	ADV	ADV	_	2	dep	_	_	604.190002	604.580017	PAT
+4	faites	faire	ADJ	ADJ	_	2	dep	_	_	604.590027	604.840027	PAT
+5	en	en	PRE	PRE	_	2	dep	_	_	605.330017	605.450012	PAT
+6	glacis	glacis	NOM	NOM	_	5	dep	_	_	605.460022	605.849976	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-186
+# text = donc ça c'est quelque chose qui est important
+1	donc	donc	ADV	ADV	_	4	periph	_	_	606.539978	606.669983	PAT
+2	ça	ça	PRO	PRO	_	4	periph	_	_	606.739990	606.890015	PAT
+3	c'	ce	CLS	CLS	_	4	subj	_	_	606.900024	606.919983	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	606.969971	607.000000	PAT
+5	quelque chose	quelque chose	PRO	PRO	_	4	dep	_	_	607.010010	607.609985	PAT
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	607.880005	607.929993	PAT
+7	est	être	VRB	VRB	_	5	dep	_	_	607.940002	608.090027	PAT
+8	important	important	ADJ	ADJ	_	7	dep	_	_	608.250000	608.750000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-187
+# text = il peut y avoir des parties des parties plus claires qui peuvent être faites
+1	il	il	CLS	CLS	_	2	subj	_	_	608.940002	608.989990	PAT
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	609.030029	609.109985	PAT
+3	y	y	CLI	CLI	_	4	dep	_	_	609.119995	609.200012	PAT
+4	avoir	avoir	VNF	VNF	_	2	dep	_	_	609.210022	609.400024	PAT
+5	des	de	PRE	PRE	_	4	dep	_	_	609.409973	609.539978	PAT
+6	parties	partie	NOM	NOM	_	5	dep	_	_	609.549988	609.940002	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	610.239990	610.330017	PAT
+8	parties	partie	NOM	NOM	_	7	dep	_	_	610.340027	610.549988	PAT
+9	plus	plus	ADN	ADN	_	10	dep	_	_	610.840027	611.020020	PAT
+10	claires	clair	ADJ	ADJ	_	4	dep	_	_	611.030029	611.460022	PAT
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	611.729980	611.799988	PAT
+12	peuvent	pouvoir	VRB	VRB	_	4	dep	_	_	611.809998	612.059998	PAT
+13	être	être	VNF	VNF	_	12	dep	_	_	612.070007	612.190002	PAT
+14	faites	faire	ADJ	ADJ	_	13	dep	_	_	612.200012	612.570007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-188
+# text = donc s il nt
+1	donc	donc	ADV	ADV	_	4	periph	_	_	612.849976	612.929993	PAT
+2	s	s	X	X	_	1	disflink	_	_	612.929993	612.929993	PAT
+3	il	il	CLS	CLS	_	4	subj	_	_	612.940002	613.409973	PAT
+4	nt	nt	VRB	VRB	_	0	root	_	_	613.409973	613.409973	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-189
+# text = rajoute quelques gouttes de vernis dans son mélange
+1	rajoute	rajouter	VRB	VRB	_	0	root	_	_	613.419983	613.849976	PAT
+2	quelques	quelque	ADJ	ADJ	_	3	dep	_	_	613.859985	614.200012	PAT
+3	gouttes	goutte	NOM	NOM	_	1	dep	_	_	614.210022	614.340027	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	614.349976	614.460022	PAT
+5	vernis	verni	NOM	NOM	_	4	dep	_	_	614.469971	614.989990	PAT
+6	dans	dans	PRE	PRE	_	1	dep	_	_	615.309998	615.469971	PAT
+7	son	son	DET	DET	_	8	spe	_	_	615.479980	615.700012	PAT
+8	mélange	mélange	NOM	NOM	_	6	dep	_	_	615.710022	616.150024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-190
+# text = et ça donne
+1	et	et	COO	COO	_	3	mark	_	_	616.479980	616.510010	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	616.520020	616.659973	PAT
+3	donne	donner	VRB	VRB	_	0	root	_	_	616.669983	616.950012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-191
+# text = on ça accentue le modelé le modelé des des éléments voilà
+1	on	on	CLS	CLS	_	3	periph	_	_	618.119995	618.479980	PAT
+2	ça	ça	PRO	PRO	_	3	subj	_	_	618.489990	618.900024	PAT
+3	accentue	accentuer	VRB	VRB	_	0	root	_	_	619.059998	619.679993	PAT
+4	le	le	DET	DET	_	5	spe	_	_	619.780029	620.059998	PAT
+5	modelé	modelé	NOM	NOM	_	3	dep	_	_	620.070007	620.750000	PAT
+6	le	le	DET	DET	_	7	spe	_	_	621.280029	621.359985	PAT
+7	modelé	modelé	NOM	NOM	_	5	para	_	_	621.369995	621.890015	PAT
+8	des	de	PRE	PRE	_	7	dep	_	_	621.960022	622.109985	PAT
+9	des	de	PRE	PRE	_	8	para	_	_	622.119995	622.340027	PAT
+10	éléments	élément	NOM	NOM	_	9	dep	_	_	622.349976	622.640015	PAT
+11	voilà	voilà	INT	INT	_	10	dm	_	_	622.919983	623.109985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-192
+# text = si vous avez des questions ne me laissez pas parler toute seule pendant une heure
+1	si	si	CSU	CSU	_	8	periph	_	_	623.409973	623.460022	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	623.539978	623.630005	PAT
+3	avez	avoir	VRB	VRB	_	1	dep	_	_	623.640015	623.770020	PAT
+4	des	de	PRE	PRE	_	3	dep	_	_	623.780029	623.919983	PAT
+5	questions	question	NOM	NOM	_	4	dep	_	_	623.960022	624.270020	PAT
+6	ne	ne	CLN	CLN	_	8	dep	_	_	625.039978	625.179993	PAT
+7	me	me	CLI	CLI	_	8	dep	_	_	625.190002	625.239990	PAT
+8	laissez	laisser	VRB	VRB	_	0	root	_	_	625.250000	625.460022	PAT
+9	pas	pas	ADN	ADN	_	8	dep	_	_	625.469971	625.599976	PAT
+10	parler	parler	VNF	VNF	_	8	dep	_	_	625.609985	625.809998	PAT
+11	toute	tout	ADJ	ADJ	_	12	dep	_	_	625.909973	626.000000	PAT
+12	seule	seul	ADJ	ADJ	_	10	dep	_	_	626.010010	626.190002	PAT
+13	pendant	pendant	PRE	PRE	_	10	dep	_	_	626.229980	626.450012	PAT
+14	une	un	DET	DET	_	15	spe	_	_	626.799988	626.940002	PAT
+15	heure	heure	NOM	NOM	_	13	dep	_	_	626.950012	627.130005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-193
+# text = donc essayez d'intervenir de faire vos remarques
+1	donc	donc	ADV	ADV	_	2	periph	_	_	627.429993	627.580017	PAT
+2	essayez	essayer	VRB	VRB	_	0	root	_	_	627.590027	627.799988	PAT
+3	d'	de	PRE	PRE	_	2	dep	_	_	627.809998	627.840027	PAT
+4	intervenir	intervenir	VNF	VNF	_	3	dep	_	_	627.890015	628.450012	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	628.460022	628.520020	PAT
+6	faire	faire	VNF	VNF	_	5	dep	_	_	628.530029	628.650024	PAT
+7	vos	son	DET	DET	_	8	spe	_	_	628.960022	629.299988	PAT
+8	remarques	remarque	NOM	NOM	_	6	dep	_	_	629.599976	629.859985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-194
+# text = le panneau là
+1	le	le	DET	DET	_	2	spe	_	_	631.169983	631.299988	DOM
+2	panneau	panneau	NOM	NOM	_	0	root	_	_	631.309998	631.440002	DOM
+3	là	là	ADV	ADV	_	2	dep	_	_	631.450012	631.500000	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-195
+# text = apparemment il a beaucoup travaillé par rapport à
+1	apparemment	apparemment	ADV	ADV	_	5	dep	_	_	631.539978	631.780029	DOM
+2	il	il	CLS	CLS	_	5	subj	_	_	631.940002	631.989990	DOM
+3	a	avoir	VRB	VRB	_	5	aux	_	_	632.000000	632.020020	DOM
+4	beaucoup	beaucoup	ADV	ADV	_	5	dep	_	_	632.090027	632.200012	DOM
+5	travaillé	travailler	VPP	VPP	_	0	root	_	_	632.489990	632.770020	DOM
+6	par	par	PRE	PRE	_	5	dep	_	_	632.840027	633.000000	DOM
+7	rapport	rapport	NOM	NOM	_	6	dep	_	_	633.049988	633.280029	DOM
+8	à	à	PRE	PRE	_	7	dep	_	_	633.289978	633.309998	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-196
+# text = celui-là est-ce qu'il est
+1	celui-là	celui-là	PRO	PRO	_	2	subj	_	_	633.320007	633.559998	DOM
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	633.570007	633.690002	DOM
+3	qu'	que	CSU	CSU	_	2	dep	_	_	633.700012	633.719971	DOM
+4	il	il	CLS	CLS	_	5	subj	_	_	633.729980	633.789978	DOM
+5	est	être	VRB	VRB	_	3	dep	_	_	633.890015	633.950012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-197
+# text = oui celui-là il a souffert
+1	oui	oui	INT	INT	_	5	dm	_	_	632.869995	633.010010	PAT
+2	celui-là	celui-là	PRO	PRO	_	5	periph	_	_	633.159973	633.429993	PAT
+3	il	il	CLS	CLS	_	5	subj	_	_	633.440002	633.549988	PAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	633.559998	633.580017	PAT
+5	souffert	souffrir	VPP	VPP	_	0	root	_	_	633.590027	633.960022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-198
+# text = eh ben il a été gardé
+1	eh ben	eh ben	INT	INT	_	5	dm	_	_	634.270020	634.640015	PAT
+2	il	il	CLS	CLS	_	5	subj	_	_	634.650024	634.719971	PAT
+3	a	avoir	VRB	VRB	_	4	aux	_	_	634.799988	634.820007	PAT
+4	été	être	VPP	VPP	_	5	aux	_	_	634.830017	634.969971	PAT
+5	gardé	garder	VPP	VPP	_	0	root	_	_	634.979980	635.219971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-199
+# text = il s pourtant ils ils viennent de la même collection
+1	il	il	CLS	CLS	_	2	subj	_	_	636.619995	636.780029	PAT
+2	s	s	VRB	VRB	_	0	root	_	_	636.780029	636.780029	PAT
+3	pourtant	pourtant	ADV	ADV	_	2	dep	_	_	636.840027	637.179993	PAT
+4	ils	il	CLS	CLS	_	6	subj	_	_	637.190002	637.260010	PAT
+5	ils	il	CLS	CLS	_	4	para	_	_	637.340027	637.390015	PAT
+6	viennent	venir	VRB	VRB	_	2	para	_	_	637.400024	637.640015	PAT
+7	de	de	PRE	PRE	_	6	dep	_	_	637.650024	637.669983	PAT
+8	la	le	DET	DET	_	10	spe	_	_	637.679993	637.789978	PAT
+9	même	même	ADJ	ADJ	_	10	dep	_	_	637.799988	637.969971	PAT
+10	collection	collection	NOM	NOM	_	7	dep	_	_	637.979980	638.479980	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-200
+# text = la co~ la m-~ collection de madame Avidgor
+1	la	le	DET	DET	_	2	spe	_	_	639.260010	639.320007	PAT
+2	co~	co~	NOM	NOM	_	0	root	_	_	639.400024	639.580017	PAT
+3	la	le	DET	DET	_	4	spe	_	_	639.630005	639.710022	PAT
+4	m-~	m-~	NOM	NOM	_	2	para	_	_	639.719971	639.820007	PAT
+5	collection	collection	NOM	NOM	_	4	dep	_	_	639.830017	640.190002	PAT
+6	de	de	PRE	PRE	_	5	dep	_	_	640.200012	640.219971	PAT
+7	madame	Monsieur	NOM	NOM	_	6	dep	_	_	640.229980	640.429993	PAT
+8	Avidgor	Avidgor	NOM	NOM	_	7	dep	_	_	640.440002	640.719971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-201
+# text = alors elle-même elle avait hérité des tableaux de son père et de son grand-père
+1	alors	alors	ADV	ADV	_	5	periph	_	_	640.869995	641.109985	PAT
+2	elle-même	moi-même	PRO	PRO	_	5	periph	_	_	641.119995	641.369995	PAT
+3	elle	il	CLS	CLS	_	5	subj	_	_	641.380005	641.549988	PAT
+4	avait	avoir	VRB	VRB	_	5	aux	_	_	641.559998	641.640015	PAT
+5	hérité	hériter	VPP	VPP	_	0	root	_	_	641.690002	642.260010	PAT
+6	des	de	PRE	PRE	_	5	dep	_	_	642.270020	642.400024	PAT
+7	tableaux	tableau	NOM	NOM	_	6	dep	_	_	642.409973	642.650024	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	642.659973	642.780029	PAT
+9	son	son	DET	DET	_	10	spe	_	_	642.789978	642.969971	PAT
+10	père	père	NOM	NOM	_	8	dep	_	_	643.070007	643.219971	PAT
+11	et	et	COO	COO	_	12	mark	_	_	643.679993	643.710022	PAT
+12	de	de	PRE	PRE	_	6	para	_	_	643.719971	643.739990	PAT
+13	son	son	DET	DET	_	14	spe	_	_	643.820007	644.000000	PAT
+14	grand-père	grand-père	NOM	NOM	_	12	dep	_	_	644.010010	644.669983	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-202
+# text = parce que on sait que c'est des collectionneurs depuis au moins trois quatre générations hein c'est elle qui nous l'a dit parce que mon conservateur
+1	parce que	parce que	CSU	CSU	_	17	periph	_	_	644.799988	645.020020	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	645.179993	645.250000	PAT
+3	sait	savoir	VRB	VRB	_	1	dep	_	_	645.260010	645.479980	PAT
+4	que	que	CSU	CSU	_	3	dep	_	_	645.489990	645.510010	PAT
+5	c'	ce	CLS	CLS	_	6	subj	_	_	645.520020	645.570007	PAT
+6	est	être	VRB	VRB	_	4	dep	_	_	645.580017	645.619995	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	645.679993	645.859985	PAT
+8	collectionneurs	collectionneur	NOM	NOM	_	7	dep	_	_	645.869995	646.400024	PAT
+9	depuis	depuis	PRE	PRE	_	6	dep	_	_	646.450012	646.679993	PAT
+10	au	à+le	PRE	PRE	_	9	para	_	_	646.690002	646.750000	PAT
+11	moins	moins	ADV	ADV	_	10	dep	_	_	646.760010	647.039978	PAT
+12	trois	trois	NUM	NUM	_	14	spe	_	_	647.109985	647.349976	PAT
+13	quatre	quatre	NUM	NUM	_	12	dep	_	_	647.419983	647.609985	PAT
+14	générations	génération	NOM	NOM	_	10	dep	_	_	647.619995	648.130005	PAT
+15	hein	hein	INT	INT	_	14	dm	_	_	648.510010	648.570007	PAT
+16	c'	ce	CLS	CLS	_	17	subj	_	_	648.580017	648.640015	PAT
+17	est	être	VRB	VRB	_	0	root	_	_	648.650024	648.700012	PAT
+18	elle	moi	PRO	PRO	_	17	dep	_	_	648.739990	648.900024	PAT
+19	qui	qui	PRQ	PRQ	_	23	subj	_	_	648.909973	649.049988	PAT
+20	nous	nous	CLI	CLI	_	23	dep	_	_	649.059998	649.109985	PAT
+21	l'	le	CLI	CLI	_	23	dep	_	_	649.119995	649.150024	PAT
+22	a	avoir	VRB	VRB	_	23	aux	_	_	649.159973	649.210022	PAT
+23	dit	dire	VPP	VPP	_	18	dep	_	_	649.219971	649.500000	PAT
+24	parce que	parce que	CSU	CSU	_	23	dep	_	_	649.659973	649.869995	PAT
+25	mon	son	DET	DET	_	26	spe	_	_	649.880005	650.039978	PAT
+26	conservateur	conservateur	NOM	NOM	_	24	dep	_	_	650.049988	650.750000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-203
+# text = qui a eu ce legs
+1	qui	qui	PRQ	PRQ	_	3	subj	_	_	651.250000	651.299988	PAT
+2	a	avoir	VRB	VRB	_	3	aux	_	_	651.309998	651.340027	PAT
+3	eu	avoir	VPP	VPP	_	0	root	_	_	651.729980	651.830017	PAT
+4	ce	ce	DET	DET	_	5	spe	_	_	651.840027	652.440002	PAT
+5	legs	legs	NOM	NOM	_	3	dep	_	_	652.450012	652.530029	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-204
+# text = était ami avec elle avant
+1	était	être	VRB	VRB	_	0	root	_	_	652.840027	653.080017	PAT
+2	ami	ami	ADJ	ADJ	_	1	dep	_	_	653.090027	653.650024	PAT
+3	avec	avec	PRE	PRE	_	1	dep	_	_	653.659973	653.880005	PAT
+4	elle	moi	PRO	PRO	_	3	dep	_	_	653.940002	654.179993	PAT
+5	avant	avant	PRE	PRE	_	1	dep	_	_	654.510010	654.669983	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-205
+# text = donc elle meurt en quatre-vingt-quatorze
+1	donc	donc	ADV	ADV	_	3	periph	_	_	654.679993	654.780029	PAT
+2	elle	il	CLS	CLS	_	3	subj	_	_	655.260010	655.309998	PAT
+3	meurt	mourir	VRB	VRB	_	0	root	_	_	655.320007	655.539978	PAT
+4	en	en	PRE	PRE	_	3	dep	_	_	655.549988	655.630005	PAT
+5	quatre-vingt-quatorze	quatre-vingt-quatorze	NUM	NUM	_	4	dep	_	_	655.640015	656.559998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-206
+# text = on en hérite en quatre-vingt-dix-huit
+1	on	on	CLS	CLS	_	3	subj	_	_	657.000000	657.049988	PAT
+2	en	en	CLI	CLI	_	3	dep	_	_	657.200012	657.400024	PAT
+3	hérite	hériter	VRB	VRB	_	0	root	_	_	657.409973	657.619995	PAT
+4	en	en	PRE	PRE	_	3	dep	_	_	657.630005	657.650024	PAT
+5	quatre-vingt-dix-huit	quatre-vingt-dix-huit	NUM	NUM	_	4	dep	_	_	657.710022	658.539978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-207
+# text = voulez mieux
+1	voulez	vouloir	VRB	VRB	_	0	root	_	_	659.159973	659.450012	PAT
+2	mieux	mieux	ADV	ADV	_	1	dep	_	_	659.460022	659.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-208
+# text = mais on l'a
+1	mais	mais	COO	COO	_	4	mark	_	_	659.690002	659.840027	PAT
+2	on	on	CLS	CLS	_	4	subj	_	_	659.849976	660.260010	PAT
+3	l'	le	CLI	CLI	_	4	dep	_	_	660.270020	660.289978	PAT
+4	a	avoir	VRB	VRB	_	0	root	_	_	660.299988	660.320007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-209
+# text = elle elle
+1	elle	il	CLS	CLS	_	0	root	_	_	660.330017	660.380005	PAT
+2	elle	il	CLS	CLS	_	1	para	_	_	660.390015	660.440002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-210
+# text = mon conservateur
+1	mon	son	DET	DET	_	2	spe	_	_	660.789978	660.840027	PAT
+2	conservateur	conservateur	NOM	NOM	_	0	root	_	_	660.849976	661.520020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-211
+# text = le la connaissait
+1	le	le	DET	DET	_	3	spe	_	_	661.530029	661.580017	PAT
+2	la	le	DET	DET	_	1	para	_	_	661.590027	661.640015	PAT
+3	connaissait	connaître	VRB	VRB	_	0	root	_	_	661.739990	662.250000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-212
+# text = donc c'est elle-même qui nous avait dit que c'était déjà dans la collection de son père celui-là ce panneau de bois a dû être gardé dans une pièce plus humide
+1	donc	donc	ADV	ADV	_	3	periph	_	_	662.679993	662.830017	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	662.950012	662.969971	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	662.979980	663.200012	PAT
+4	elle-même	moi-même	PRO	PRO	_	3	dep	_	_	663.210022	663.469971	PAT
+5	qui	qui	PRQ	PRQ	_	8	subj	_	_	663.539978	663.590027	PAT
+6	nous	nous	CLI	CLI	_	8	dep	_	_	663.700012	663.840027	PAT
+7	avait	avoir	VRB	VRB	_	8	aux	_	_	663.849976	663.969971	PAT
+8	dit	dire	VPP	VPP	_	4	dep	_	_	664.159973	664.270020	PAT
+9	que	que	CSU	CSU	_	8	dep	_	_	664.380005	664.409973	PAT
+10	c'	ce	CLS	CLS	_	11	subj	_	_	664.619995	664.640015	PAT
+11	était	être	VRB	VRB	_	9	dep	_	_	664.739990	664.880005	PAT
+12	déjà	déjà	ADV	ADV	_	11	dep	_	_	664.890015	665.159973	PAT
+13	dans	dans	PRE	PRE	_	11	dep	_	_	665.219971	665.270020	PAT
+14	la	le	DET	DET	_	15	spe	_	_	665.280029	665.369995	PAT
+15	collection	collection	NOM	NOM	_	13	dep	_	_	665.500000	665.789978	PAT
+16	de	de	PRE	PRE	_	15	dep	_	_	665.869995	665.890015	PAT
+17	son	son	DET	DET	_	18	spe	_	_	665.979980	666.059998	PAT
+18	père	père	NOM	NOM	_	16	dep	_	_	666.130005	666.320007	PAT
+19	celui-là	celui-là	PRO	PRO	_	8	periph	_	_	666.650024	667.380005	PAT
+20	ce	ce	DET	DET	_	21	spe	_	_	667.609985	667.659973	PAT
+21	panneau	panneau	NOM	NOM	_	25	subj	_	_	667.820007	667.960022	PAT
+22	de	de	PRE	PRE	_	21	dep	_	_	667.969971	667.989990	PAT
+23	bois	bois	NOM	NOM	_	22	dep	_	_	668.000000	668.159973	PAT
+24	a	avoir	VRB	VRB	_	25	aux	_	_	668.530029	668.549988	PAT
+25	dû	devoir	VPP	VPP	_	8	para	_	_	668.609985	668.729980	PAT
+26	être	être	VNF	VNF	_	27	aux	_	_	668.739990	669.099976	PAT
+27	gardé	garder	VPP	VPP	_	25	para	_	_	669.229980	669.489990	PAT
+28	dans	dans	PRE	PRE	_	27	dep	_	_	669.640015	669.880005	PAT
+29	une	un	DET	DET	_	30	spe	_	_	669.890015	669.960022	PAT
+30	pièce	pièce	NOM	NOM	_	28	dep	_	_	670.030029	670.239990	PAT
+31	plus	plus	ADN	ADN	_	32	dep	_	_	670.359985	670.590027	PAT
+32	humide	humide	ADJ	ADJ	_	30	dep	_	_	670.599976	671.070007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-213
+# text = et il s'est déformé par contre beaucoup de gens
+1	et	et	COO	COO	_	5	mark	_	_	672.080017	672.109985	PAT
+2	il	il	CLS	CLS	_	5	subj	_	_	672.119995	672.409973	PAT
+3	s'	se	CLI	CLI	_	5	dep	_	_	672.419983	672.440002	PAT
+4	est	être	VRB	VRB	_	5	aux	_	_	672.450012	672.909973	PAT
+5	déformé	déformer	VPP	VPP	_	0	root	_	_	673.250000	673.710022	PAT
+6	par	par	PRE	PRE	_	5	dep	_	_	674.210022	674.409973	PAT
+7	contre	contre	PRE	PRE	_	6	dep	_	_	674.419983	674.700012	PAT
+8	beaucoup	beaucoup	PRO	PRO	_	7	dep	_	_	675.280029	675.539978	PAT
+9	de	de	PRE	PRE	_	8	dep	_	_	675.549988	675.640015	PAT
+10	gens	gens	NOM	NOM	_	9	dep	_	_	675.650024	675.809998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-214
+# text = nous disent nous sommes gênés me me disent nous sommes gênés par la vitre
+1	nous	nous	CLS	CLS	_	2	subj	_	_	675.820007	675.950012	PAT
+2	disent	dire	VRB	VRB	_	0	root	_	_	675.960022	676.250000	PAT
+3	nous	nous	CLS	CLS	_	5	subj	_	_	676.320007	676.450012	PAT
+4	sommes	être	VRB	VRB	_	5	aux	_	_	676.460022	676.710022	PAT
+5	gênés	gêner	VPP	VPP	_	2	dep	_	_	676.719971	677.200012	PAT
+6	me	me	CLI	CLI	_	8	dep	_	_	677.210022	677.320007	PAT
+7	me	me	CLI	CLI	_	8	dep	_	_	677.330017	677.599976	PAT
+8	disent	dire	VRB	VRB	_	5	para	_	_	677.719971	677.940002	PAT
+9	nous	nous	CLS	CLS	_	11	subj	_	_	678.150024	678.210022	PAT
+10	sommes	être	VRB	VRB	_	11	aux	_	_	678.219971	678.299988	PAT
+11	gênés	gêner	VPP	VPP	_	8	dep	_	_	678.590027	678.869995	PAT
+12	par	par	PRE	PRE	_	11	dep	_	_	678.880005	678.969971	PAT
+13	la	le	DET	DET	_	14	spe	_	_	678.979980	679.140015	PAT
+14	vitre	vitre	NOM	NOM	_	12	dep	_	_	679.150024	679.270020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-215
+# text = alors je dis nous avons été obligés de les vitrer parce qu'elles sont très fragiles
+1	alors	alors	ADV	ADV	_	3	periph	_	_	680.119995	680.260010	PAT
+2	je	je	CLS	CLS	_	3	subj	_	_	680.270020	680.419983	PAT
+3	dis	dire	VRB	VRB	_	0	root	_	_	680.479980	680.590027	PAT
+4	nous	nous	CLS	CLS	_	7	subj	_	_	680.599976	680.789978	PAT
+5	avons	avoir	VRB	VRB	_	6	aux	_	_	680.799988	680.989990	PAT
+6	été	être	VPP	VPP	_	7	aux	_	_	681.000000	681.169983	PAT
+7	obligés	obliger	VPP	VPP	_	3	dep	_	_	681.179993	681.630005	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	681.640015	681.710022	PAT
+9	les	le	CLI	CLI	_	10	dep	_	_	681.719971	681.830017	PAT
+10	vitrer	vitrer	VNF	VNF	_	8	dep	_	_	681.840027	682.289978	PAT
+11	parce qu'	parce que	CSU	CSU	_	10	dep	_	_	682.599976	682.820007	PAT
+12	elles	il	CLS	CLS	_	13	subj	_	_	682.830017	682.880005	PAT
+13	sont	être	VRB	VRB	_	11	dep	_	_	682.890015	683.080017	PAT
+14	très	très	ADV	ADV	_	15	dep	_	_	683.219971	683.349976	PAT
+15	fragiles	fragile	ADJ	ADJ	_	13	dep	_	_	683.359985	683.799988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-216
+# text = si
+1	si	si	CSU	CSU	_	0	root	_	_	684.140015	684.320007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-217
+# text = on ne le vitre pas celui-là
+1	on	on	CLS	CLS	_	4	subj	_	_	684.330017	684.409973	PAT
+2	ne	ne	CLN	CLN	_	4	dep	_	_	684.419983	684.559998	PAT
+3	le	le	CLI	CLI	_	4	dep	_	_	684.570007	684.830017	PAT
+4	vitre	vitre	NOM	NOM	_	0	root	_	_	684.840027	685.070007	PAT
+5	pas	pas	ADN	ADN	_	6	dep	_	_	685.119995	685.289978	PAT
+6	celui-là	celui-là	PRO	PRO	_	4	para	_	_	685.340027	685.799988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-218
+# text = le fait qu'il soit vitré
+1	le	le	DET	DET	_	2	spe	_	_	686.340027	686.359985	PAT
+2	fait	fait	NOM	NOM	_	0	root	_	_	686.450012	686.539978	PAT
+3	qu'	que	PRQ	PRQ	_	6	dep	_	_	686.549988	686.570007	PAT
+4	il	il	CLS	CLS	_	6	subj	_	_	686.580017	686.690002	PAT
+5	soit	être	VRB	VRB	_	6	aux	_	_	686.700012	686.890015	PAT
+6	vitré	vitrer	VPP	VPP	_	2	dep	_	_	687.030029	687.539978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-219
+# text = il va encore se déformer
+1	il	il	CLS	CLS	_	2	subj	_	_	688.080017	688.130005	PAT
+2	va	aller	VRB	VRB	_	0	root	_	_	688.140015	688.419983	PAT
+3	encore	encore	ADV	ADV	_	2	dep	_	_	688.429993	688.669983	PAT
+4	se	se	CLI	CLI	_	5	dep	_	_	688.679993	688.770020	PAT
+5	déformer	déformer	VNF	VNF	_	2	dep	_	_	688.849976	689.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-220
+# text = a plus le fait d'être vitré et d'être euh ca-~ en-~ encadré
+1	a	avoir	VRB	VRB	_	0	root	_	_	690.049988	690.130005	PAT
+2	plus	plus	ADN	ADN	_	1	dep	_	_	690.349976	690.799988	PAT
+3	le	le	DET	DET	_	4	spe	_	_	691.210022	691.299988	PAT
+4	fait	fait	NOM	NOM	_	1	dep	_	_	691.309998	691.630005	PAT
+5	d'	de	PRE	PRE	_	4	dep	_	_	691.640015	691.659973	PAT
+6	être	être	VNF	VNF	_	7	aux	_	_	691.669983	691.859985	PAT
+7	vitré	vitrer	VPP	VPP	_	5	dep	_	_	691.869995	692.559998	PAT
+8	et	et	COO	COO	_	9	mark	_	_	692.619995	692.669983	PAT
+9	d'	de	PRE	PRE	_	5	para	_	_	692.679993	692.770020	PAT
+10	être	être	VNF	VNF	_	9	dep	_	_	692.869995	693.380005	PAT
+11	euh	euh	INT	INT	_	10	dm	_	_	693.469971	693.510010	PAT
+12	ca-~	ca-~	COO	COO	_	14	mark	_	_	693.859985	693.960022	PAT
+13	en-~	en-~	ADV	ADV	_	14	dep	_	_	693.969971	694.669983	PAT
+14	encadré	encadrer	VPP	VPP	_	10	dep	_	_	694.679993	695.190002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-221
+# text = va le va le maintenir un peu comme dans une gaine
+1	va	aller	VRB	VRB	_	0	root	_	_	695.510010	695.719971	PAT
+2	le	le	DET	DET	_	3	spe	_	_	695.869995	696.030029	PAT
+3	va	aller	VRB	VRB	_	1	para	_	_	696.820007	697.020020	PAT
+4	le	le	CLI	CLI	_	5	dep	_	_	697.030029	697.059998	PAT
+5	maintenir	maintenir	VNF	VNF	_	3	dep	_	_	697.239990	697.679993	PAT
+6	un peu	un peu	ADV	ADV	_	5	dep	_	_	697.690002	697.880005	PAT
+7	comme	comme	PRE	PRE	_	5	dep	_	_	697.890015	698.049988	PAT
+8	dans	dans	PRE	PRE	_	7	para	_	_	698.059998	698.250000	PAT
+9	une	un	DET	DET	_	10	spe	_	_	698.260010	698.349976	PAT
+10	gaine	gaine	NOM	NOM	_	8	dep	_	_	698.429993	698.789978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-222
+# text = là il est un peu comme dans une gaine
+1	là	là	ADV	ADV	_	3	periph	_	_	698.940002	699.099976	PAT
+2	il	il	CLS	CLS	_	3	subj	_	_	699.109985	699.260010	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	699.270020	699.320007	PAT
+4	un peu	un peu	ADV	ADV	_	3	dep	_	_	699.330017	699.570007	PAT
+5	comme	comme	PRE	PRE	_	3	dep	_	_	699.580017	699.799988	PAT
+6	dans	dans	PRE	PRE	_	5	dep	_	_	699.809998	699.969971	PAT
+7	une	un	DET	DET	_	8	spe	_	_	700.020020	700.159973	PAT
+8	gaine	gaine	NOM	NOM	_	6	dep	_	_	700.169983	700.489990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-223
+# text = ça le maintient
+1	ça	ça	PRO	PRO	_	3	subj	_	_	696.210022	696.299988	DOM
+2	le	le	CLI	CLI	_	3	dep	_	_	696.309998	696.419983	DOM
+3	maintient	maintenir	VRB	VRB	_	0	root	_	_	696.429993	696.640015	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-224
+# text = hein et c'est vrai que celui-là énormément souffert
+1	hein	hein	INT	INT	_	4	dm	_	_	700.799988	700.820007	PAT
+2	et	et	COO	COO	_	4	mark	_	_	701.150024	701.250000	PAT
+3	c'	ce	CLS	CLS	_	4	subj	_	_	701.260010	701.289978	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	701.299988	701.380005	PAT
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	701.510010	701.820007	PAT
+6	que	que	CSU	CSU	_	5	dep	_	_	701.830017	701.849976	PAT
+7	celui-là	celui-là	PRO	PRO	_	9	subj	_	_	701.859985	702.409973	PAT
+8	énormément	énormément	ADV	ADV	_	9	dep	_	_	702.419983	702.710022	PAT
+9	souffert	souffrir	VPP	VPP	_	6	dep	_	_	702.960022	703.210022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-225
+# text = ça se voit bien comme ça
+1	ça	ça	PRO	PRO	_	3	subj	_	_	703.539978	703.650024	PAT
+2	se	se	CLI	CLI	_	3	dep	_	_	703.659973	703.679993	PAT
+3	voit	voir	VRB	VRB	_	0	root	_	_	703.690002	704.140015	PAT
+4	bien	bien	ADV	ADV	_	3	dep	_	_	704.150024	704.229980	PAT
+5	comme	comme	PRE	PRE	_	3	dep	_	_	704.239990	704.320007	PAT
+6	ça	ça	PRO	PRO	_	5	dep	_	_	704.330017	704.409973	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-226
+# text = tenez hein ça se voit bien il
+1	tenez	(se) tenir	VRB	VRB	_	0	root	_	_	704.679993	704.780029	PAT
+2	hein	hein	INT	INT	_	1	dm	_	_	704.840027	705.049988	PAT
+3	ça	ça	PRO	PRO	_	5	subj	_	_	705.059998	705.169983	PAT
+4	se	se	CLI	CLI	_	5	dep	_	_	705.320007	705.359985	PAT
+5	voit	voir	VRB	VRB	_	1	para	_	_	705.369995	705.830017	PAT
+6	bien	bien	ADV	ADV	_	5	dep	_	_	705.890015	706.030029	PAT
+7	il	il	CLS	CLS	_	6	disflink	_	_	706.039978	706.280029	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-227
+# text = et celui là il est pas craquelé ni rien
+1	et	et	COO	COO	_	7	mark	_	_	704.840027	705.080017	DOM
+2	celui	celui	PRO	PRO	_	7	periph	_	_	705.750000	706.190002	DOM
+3	là	là	ADV	ADV	_	2	dep	_	_	706.200012	706.250000	DOM
+4	il	il	CLS	CLS	_	7	subj	_	_	706.359985	706.580017	DOM
+5	est	être	VRB	VRB	_	7	aux	_	_	706.590027	706.609985	DOM
+6	pas	pas	ADN	ADN	_	7	dep	_	_	706.619995	706.669983	DOM
+7	craquelé	craqueler	VPP	VPP	_	0	root	_	_	706.679993	707.010010	DOM
+8	ni	ni	COO	COO	_	9	mark	_	_	707.020020	707.080017	DOM
+9	rien	rien	PRO	PRO	_	7	para	_	_	707.090027	707.210022	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-228
+# text = alors on pourrait a~ s'attendre à ce que
+1	alors	alors	ADV	ADV	_	3	periph	_	_	707.349976	707.460022	DOM
+2	on	on	CLS	CLS	_	3	subj	_	_	707.640015	707.669983	DOM
+3	pourrait	pouvoir	VRB	VRB	_	0	root	_	_	707.880005	708.039978	DOM
+4	a~	a~	X	X	_	6	dep	_	_	708.049988	708.070007	DOM
+5	s'	se	CLI	CLI	_	6	dep	_	_	708.119995	708.229980	DOM
+6	attendre	attendre	VNF	VNF	_	3	dep	_	_	708.380005	708.530029	DOM
+7	à	à	PRE	PRE	_	6	dep	_	_	708.659973	708.679993	DOM
+8	ce	ce	PRO	PRO	_	7	dep	_	_	708.690002	708.739990	DOM
+9	que	que	PRQ	PRQ	_	8	disflink	_	_	708.750000	708.770020	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-229
+# text = et oui il a résisté
+1	et	et	COO	COO	_	5	mark	_	_	709.150024	709.330017	PAT
+2	oui	oui	INT	INT	_	1	dm	_	_	709.340027	709.460022	PAT
+3	il	il	CLS	CLS	_	5	subj	_	_	709.469971	709.630005	PAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	709.640015	709.659973	PAT
+5	résisté	résister	VPP	VPP	_	0	root	_	_	709.830017	710.299988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-230
+# text = là on l'a traité quand euh on a eu le legs
+1	là	là	ADV	ADV	_	5	periph	_	_	710.820007	710.919983	PAT
+2	on	on	CLS	CLS	_	5	subj	_	_	710.929993	711.179993	PAT
+3	l'	le	CLI	CLI	_	5	dep	_	_	711.190002	711.210022	PAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	711.260010	711.280029	PAT
+5	traité	traiter	VPP	VPP	_	0	root	_	_	711.469971	711.619995	PAT
+6	quand	quand	CSU	CSU	_	5	dep	_	_	712.710022	712.770020	PAT
+7	euh	euh	INT	INT	_	6	dm	_	_	712.830017	712.849976	PAT
+8	on	on	CLS	CLS	_	10	subj	_	_	712.909973	712.929993	PAT
+9	a	avoir	VRB	VRB	_	10	aux	_	_	712.940002	712.960022	PAT
+10	eu	avoir	VPP	VPP	_	6	dep	_	_	712.969971	713.830017	PAT
+11	le	le	DET	DET	_	12	spe	_	_	713.840027	713.969971	PAT
+12	legs	legs	NOM	NOM	_	10	dep	_	_	713.979980	714.309998	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-231
+# text = il a été traité comme là aussi il a été nettoyé
+1	il	il	CLS	CLS	_	4	subj	_	_	714.609985	714.729980	PAT
+2	a	avoir	VRB	VRB	_	3	aux	_	_	714.739990	714.770020	PAT
+3	été	être	VPP	VPP	_	4	aux	_	_	714.780029	715.030029	PAT
+4	traité	traiter	VPP	VPP	_	0	root	_	_	715.080017	715.289978	PAT
+5	comme	comme	CSU	CSU	_	4	dep	_	_	715.830017	715.989990	PAT
+6	là	là	ADV	ADV	_	11	periph	_	_	716.460022	716.559998	PAT
+7	aussi	aussi	ADV	ADV	_	11	dep	_	_	716.739990	716.820007	PAT
+8	il	il	CLS	CLS	_	11	subj	_	_	717.359985	717.409973	PAT
+9	a	avoir	VRB	VRB	_	10	aux	_	_	717.419983	717.440002	PAT
+10	été	être	VPP	VPP	_	11	aux	_	_	717.450012	717.869995	PAT
+11	nettoyé	nettoyer	VPP	VPP	_	5	dep	_	_	717.880005	718.369995	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-232
+# text = c'est pour ça que vous voyez le rouge
+1	c'	ce	CLS	CLS	_	2	subj	_	_	718.710022	718.770020	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	718.780029	718.809998	PAT
+3	pour	pour	PRE	PRE	_	2	dep	_	_	718.820007	718.960022	PAT
+4	ça	ça	PRO	PRO	_	3	dep	_	_	719.039978	719.219971	PAT
+5	que	que	CSU	CSU	_	2	dep	_	_	719.229980	719.320007	PAT
+6	vous	vous	CLS	CLS	_	7	subj	_	_	719.840027	719.890015	PAT
+7	voyez	voir	VRB	VRB	_	5	dep	_	_	719.900024	720.140015	PAT
+8	le	le	DET	DET	_	9	spe	_	_	720.150024	720.250000	PAT
+9	rouge	rouge	NOM	NOM	_	7	dep	_	_	720.260010	720.840027	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-233
+# text = le blanc
+1	le	le	DET	DET	_	2	spe	_	_	721.190002	721.260010	PAT
+2	blanc	blanc	ADJ	ADJ	_	0	root	_	_	721.330017	721.780029	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-234
+# text = le rose est lumineux c'est parce que justement il a été traité
+1	le	le	DET	DET	_	2	spe	_	_	722.039978	722.059998	PAT
+2	rose	rose	NOM	NOM	_	3	subj	_	_	722.070007	722.530029	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	722.539978	722.599976	PAT
+4	lumineux	lumineux	ADJ	ADJ	_	3	dep	_	_	722.609985	723.700012	PAT
+5	c'	ce	CLS	CLS	_	6	subj	_	_	723.909973	723.929993	PAT
+6	est	être	VRB	VRB	_	3	para	_	_	723.940002	723.989990	PAT
+7	parce que	parce que	CSU	CSU	_	6	dep	_	_	724.000000	724.530029	PAT
+8	justement	justement	ADV	ADV	_	12	periph	_	_	724.539978	724.789978	PAT
+9	il	il	CLS	CLS	_	12	subj	_	_	725.150024	725.200012	PAT
+10	a	avoir	VRB	VRB	_	11	aux	_	_	725.210022	725.229980	PAT
+11	été	être	VPP	VPP	_	12	aux	_	_	725.270020	725.400024	PAT
+12	traité	traiter	VPP	VPP	_	7	dep	_	_	725.510010	725.919983	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-235
+# text = mais traité on peut pas parler de restauration
+1	mais	mais	COO	COO	_	4	mark	_	_	726.229980	726.380005	PAT
+2	traité	traité	NOM	NOM	_	4	periph	_	_	726.390015	726.849976	PAT
+3	on	on	CLS	CLS	_	4	subj	_	_	727.059998	727.109985	PAT
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	727.119995	727.219971	PAT
+5	pas	pas	ADN	ADN	_	4	dep	_	_	727.229980	727.369995	PAT
+6	parler	parler	VNF	VNF	_	4	dep	_	_	727.380005	727.859985	PAT
+7	de	de	PRE	PRE	_	6	dep	_	_	727.869995	728.010010	PAT
+8	restauration	restauration	NOM	NOM	_	7	dep	_	_	728.020020	728.679993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-236
+# text = mais d'un nettoyage un nettoyage déjà assez assez important mais un un bon nettoyage voilà alors parlons des tableaux de madame Avidgor
+1	mais	mais	COO	COO	_	6	mark	_	_	728.960022	729.070007	PAT
+2	d'	de	PRE	PRE	_	6	periph	_	_	729.080017	729.150024	PAT
+3	un	un	DET	DET	_	4	spe	_	_	729.159973	729.270020	PAT
+4	nettoyage	nettoyage	NOM	NOM	_	2	dep	_	_	729.280029	729.989990	PAT
+5	un	un	DET	DET	_	6	spe	_	_	730.690002	730.789978	PAT
+6	nettoyage	nettoyage	NOM	NOM	_	18	subj	_	_	730.799988	731.340027	PAT
+7	déjà	déjà	ADV	ADV	_	10	dep	_	_	731.390015	731.659973	PAT
+8	assez	assez	ADV	ADV	_	9	dep	_	_	732.020020	732.390015	PAT
+9	assez	assez	ADV	ADV	_	10	dep	_	_	732.599976	732.690002	PAT
+10	important	important	ADJ	ADJ	_	6	dep	_	_	733.169983	733.359985	PAT
+11	mais	mais	COO	COO	_	15	mark	_	_	733.369995	733.650024	PAT
+12	un	un	DET	DET	_	15	spe	_	_	733.659973	733.690002	PAT
+13	un	un	DET	DET	_	12	para	_	_	733.739990	733.789978	PAT
+14	bon	bon	ADJ	ADJ	_	15	dep	_	_	733.890015	733.960022	PAT
+15	nettoyage	nettoyage	NOM	NOM	_	6	para	_	_	733.969971	734.369995	PAT
+16	voilà	voilà	INT	INT	_	15	dm	_	_	734.780029	734.940002	PAT
+17	alors	alors	ADV	ADV	_	18	periph	_	_	735.309998	735.479980	PAT
+18	parlons	parler	VRB	VRB	_	0	root	_	_	735.840027	736.119995	PAT
+19	des	de	PRE	PRE	_	18	dep	_	_	736.130005	736.250000	PAT
+20	tableaux	tableau	NOM	NOM	_	19	dep	_	_	736.260010	736.500000	PAT
+21	de	de	PRE	PRE	_	20	dep	_	_	736.510010	736.530029	PAT
+22	madame	Monsieur	NOM	NOM	_	21	dep	_	_	736.539978	736.789978	PAT
+23	Avidgor	Avidgor	NOM	NOM	_	22	dep	_	_	736.830017	737.159973	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-237
+# text = je vais pas
+1	je	je	CLS	CLS	_	2	subj	_	_	737.229980	737.250000	PAT
+2	vais	aller	VRB	VRB	_	0	root	_	_	737.260010	737.380005	PAT
+3	pas	pas	ADN	ADN	_	2	dep	_	_	737.450012	737.539978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-238
+# text = vous tous vous les commenter
+1	vous	vous	CLS	CLS	_	0	root	_	_	737.549988	737.690002	PAT
+2	tous	tout	PRO	PRO	_	5	dep	_	_	737.700012	737.760010	PAT
+3	vous	vous	CLS	CLS	_	5	subj	_	_	737.809998	737.919983	PAT
+4	les	le	CLI	CLI	_	5	dep	_	_	738.010010	738.080017	PAT
+5	commenter	commenter	VNF	VNF	_	1	dep	_	_	738.130005	738.679993	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-239
+# text = ça c'est les deux pièces maîtresses de de ce legs
+1	ça	ça	PRO	PRO	_	3	periph	_	_	738.830017	739.000000	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	739.299988	739.330017	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	739.340027	739.359985	PAT
+4	les	le	DET	DET	_	6	spe	_	_	739.369995	739.510010	PAT
+5	deux	deux	NUM	NUM	_	6	dep	_	_	739.520020	739.659973	PAT
+6	pièces	pièce	NOM	NOM	_	3	dep	_	_	739.750000	740.090027	PAT
+7	maîtresses	maître	NOM	NOM	_	6	dep	_	_	740.099976	740.469971	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	740.760010	741.039978	PAT
+9	de	de	PRE	PRE	_	8	para	_	_	741.049988	741.070007	PAT
+10	ce	ce	DET	DET	_	11	spe	_	_	741.080017	741.210022	PAT
+11	legs	legs	NOM	NOM	_	9	dep	_	_	741.219971	741.450012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-240
+# text = elle nous a donné ça ça
+1	elle	il	CLS	CLS	_	4	subj	_	_	741.900024	741.950012	PAT
+2	nous	nous	CLI	CLI	_	4	dep	_	_	741.960022	742.030029	PAT
+3	a	avoir	VRB	VRB	_	4	aux	_	_	742.169983	742.190002	PAT
+4	donné	donner	VPP	VPP	_	0	root	_	_	742.359985	742.559998	PAT
+5	ça	ça	PRO	PRO	_	4	dep	_	_	743.200012	743.299988	PAT
+6	ça	ça	PRO	PRO	_	4	dep	_	_	743.880005	743.960022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-241
+# text = ça ça et le grand Bloemaert
+1	ça	ça	PRO	PRO	_	2	subj	_	_	744.809998	744.940002	PAT
+2	ça	ça	PRO	PRO	_	0	root	_	_	745.580017	745.750000	PAT
+3	et	et	COO	COO	_	6	mark	_	_	746.409973	746.679993	PAT
+4	le	le	DET	DET	_	6	spe	_	_	746.690002	746.820007	PAT
+5	grand	grand	ADJ	ADJ	_	6	dep	_	_	746.830017	747.130005	PAT
+6	Bloemaert	Bloemaert	NOM	NOM	_	2	para	_	_	747.140015	747.580017	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-242
+# text = donc j je veux dire
+1	donc	donc	ADV	ADV	_	4	periph	_	_	748.239990	748.380005	PAT
+2	j	j	CLS	CLS	_	4	periph	_	_	748.390015	748.570007	PAT
+3	je	je	CLS	CLS	_	4	subj	_	_	748.820007	748.890015	PAT
+4	veux	vouloir	VRB	VRB	_	0	root	_	_	748.900024	748.969971	PAT
+5	dire	dire	VNF	VNF	_	4	dep	_	_	749.020020	749.109985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-243
+# text = ah oui
+1	ah	ah	INT	INT	_	0	root	_	_	748.710022	748.729980	DOM
+2	oui	oui	INT	INT	_	1	dm	_	_	748.820007	749.099976	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-244
+# text = c'est quand
+1	c'	ce	CLS	CLS	_	2	subj	_	_	749.840027	749.869995	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	749.880005	750.010010	PAT
+3	quand	quand	CSU	CSU	_	2	dep	_	_	750.020020	750.070007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-245
+# text = même
+1	même	même	ADV	ADV	_	0	root	_	_	750.080017	750.260010	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-246
+# text = un legs de de la peinture flamande du dix-septième siècle
+1	un	un	DET	DET	_	2	spe	_	_	750.270020	750.440002	PAT
+2	legs	legs	NOM	NOM	_	0	root	_	_	750.549988	750.969971	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	751.150024	751.830017	PAT
+4	de	de	PRE	PRE	_	3	para	_	_	751.890015	751.909973	PAT
+5	la	le	DET	DET	_	6	spe	_	_	752.169983	752.380005	PAT
+6	peinture	peinture	NOM	NOM	_	4	dep	_	_	752.429993	752.719971	PAT
+7	flamande	flamand	ADJ	ADJ	_	6	dep	_	_	752.729980	753.229980	PAT
+8	du	de+le	PRE	PRE	_	6	dep	_	_	753.239990	753.260010	PAT
+9	dix-septième	dix-septième	ADJ	ADJ	_	10	dep	_	_	753.359985	753.710022	PAT
+10	siècle	siècle	NOM	NOM	_	8	dep	_	_	753.719971	753.900024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-247
+# text = or c'était notre point faible jusqu'à maintenant
+1	or	or	COO	COO	_	3	mark	_	_	754.340027	754.390015	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	754.489990	754.559998	PAT
+3	était	être	VRB	VRB	_	0	root	_	_	754.659973	754.739990	PAT
+4	notre	son	DET	DET	_	5	spe	_	_	754.750000	754.979980	PAT
+5	point	point	NOM	NOM	_	3	dep	_	_	755.090027	755.210022	PAT
+6	faible	faible	ADJ	ADJ	_	5	dep	_	_	755.349976	755.659973	PAT
+7	jusqu'	jusque	PRE	PRE	_	3	dep	_	_	755.919983	756.070007	PAT
+8	à	à	PRE	PRE	_	7	dep	_	_	756.080017	756.109985	PAT
+9	maintenant	maintenant	ADV	ADV	_	8	dep	_	_	756.369995	756.549988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-248
+# text = nous avions de la peinture italienne
+1	nous	nous	CLS	CLS	_	2	subj	_	_	756.859985	757.080017	PAT
+2	avions	avoir	VRB	VRB	_	0	root	_	_	757.090027	757.229980	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	757.239990	757.260010	PAT
+4	la	le	DET	DET	_	5	spe	_	_	757.369995	757.419983	PAT
+5	peinture	peinture	NOM	NOM	_	3	dep	_	_	757.510010	757.770020	PAT
+6	italienne	italien	ADJ	ADJ	_	5	dep	_	_	757.780029	758.200012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-249
+# text = nous avions de la peinture française du dix-septième
+1	nous	nous	CLS	CLS	_	2	subj	_	_	758.809998	758.869995	PAT
+2	avions	avoir	VRB	VRB	_	0	root	_	_	758.909973	759.049988	PAT
+3	de	de	PRE	PRE	_	2	dep	_	_	759.059998	759.080017	PAT
+4	la	le	DET	DET	_	5	spe	_	_	759.090027	759.140015	PAT
+5	peinture	peinture	NOM	NOM	_	3	dep	_	_	759.200012	759.429993	PAT
+6	française	français	ADJ	ADJ	_	5	dep	_	_	759.580017	760.059998	PAT
+7	du	de+le	PRE	PRE	_	5	dep	_	_	760.070007	760.130005	PAT
+8	dix-septième	dix-septième	ADJ	ADJ	_	7	dep	_	_	760.140015	760.650024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-250
+# text = mais nous n'avions pas de peinture flamande
+1	mais	mais	COO	COO	_	4	mark	_	_	760.739990	760.739990	PAT
+2	nous	nous	CLS	CLS	_	4	subj	_	_	760.960022	761.130005	PAT
+3	n'	ne	CLN	CLN	_	4	dep	_	_	761.140015	761.159973	PAT
+4	avions	avoir	VRB	VRB	_	0	root	_	_	761.169983	761.380005	PAT
+5	pas	pas	ADN	ADN	_	4	dep	_	_	761.450012	761.500000	PAT
+6	de	de	PRE	PRE	_	4	dep	_	_	761.510010	761.530029	PAT
+7	peinture	peinture	NOM	NOM	_	6	dep	_	_	761.640015	761.859985	PAT
+8	flamande	flamand	ADJ	ADJ	_	7	dep	_	_	761.979980	762.150024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-251
+# text = ou on avait deux toiles
+1	ou	ou	COO	COO	_	3	mark	_	_	762.359985	762.530029	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	763.049988	763.099976	PAT
+3	avait	avoir	VRB	VRB	_	0	root	_	_	763.109985	763.250000	PAT
+4	deux	deux	NUM	NUM	_	5	spe	_	_	763.260010	763.419983	PAT
+5	toiles	toile	NOM	NOM	_	3	dep	_	_	763.559998	763.669983	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-252
+# text = alors voilà
+1	alors	alors	ADV	ADV	_	0	root	_	_	765.210022	765.390015	PAT
+2	voilà	voilà	INT	INT	_	1	dm	_	_	765.400024	765.650024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-253
+# text = la deuxième oeuvre maîtresse de la collection de madame
+1	la	le	DET	DET	_	3	spe	_	_	766.020020	766.080017	PAT
+2	deuxième	deuxième	ADJ	ADJ	_	3	dep	_	_	766.159973	766.539978	PAT
+3	oeuvre	oeuvre	NOM	NOM	_	0	root	_	_	766.549988	766.820007	PAT
+4	maîtresse	maître	NOM	NOM	_	3	dep	_	_	766.830017	767.500000	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	767.700012	767.789978	PAT
+6	la	le	DET	DET	_	7	spe	_	_	767.799988	767.859985	PAT
+7	collection	collection	NOM	NOM	_	5	dep	_	_	767.960022	768.390015	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	768.400024	768.419983	PAT
+9	madame	Monsieur	NOM	NOM	_	8	dep	_	_	768.429993	768.619995	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-254
+# text = Avidgor c'est ce très beau tableau de Bloemaert
+1	Avidgor	Avidgor	NOM	NOM	_	3	periph	_	_	769.039978	769.349976	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	769.669983	769.719971	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	769.729980	769.760010	PAT
+4	ce	ce	DET	DET	_	7	spe	_	_	769.770020	769.919983	PAT
+5	très	très	ADV	ADV	_	6	dep	_	_	769.929993	770.190002	PAT
+6	beau	beau	ADJ	ADJ	_	7	dep	_	_	770.200012	770.289978	PAT
+7	tableau	tableau	NOM	NOM	_	3	dep	_	_	770.390015	770.679993	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	770.690002	770.830017	PAT
+9	Bloemaert	Bloemaert	NOM	NOM	_	8	dep	_	_	770.880005	771.219971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-255
+# text = alors Bloemaert il est très connu
+1	alors	alors	ADV	ADV	_	4	periph	_	_	771.919983	772.059998	PAT
+2	Bloemaert	Bloemaert	NOM	NOM	_	4	periph	_	_	772.109985	772.469971	PAT
+3	il	il	CLS	CLS	_	4	subj	_	_	772.510010	772.580017	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	772.590027	772.630005	PAT
+5	très	très	ADV	ADV	_	6	dep	_	_	772.700012	772.940002	PAT
+6	connu	connaître	VPP	VPP	_	4	dep	_	_	772.989990	773.289978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-256
+# text = et c'est un peintre flamand
+1	et	et	COO	COO	_	3	mark	_	_	773.710022	773.789978	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	773.869995	773.940002	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	773.950012	774.070007	PAT
+4	un	un	DET	DET	_	5	spe	_	_	774.080017	774.150024	PAT
+5	peintre	peintre	NOM	NOM	_	3	dep	_	_	774.219971	774.460022	PAT
+6	flamand	flamand	ADJ	ADJ	_	5	dep	_	_	774.510010	775.099976	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-257
+# text = mais qui a aussi travaillé en Italie
+1	mais	mais	COO	COO	_	5	mark	_	_	775.309998	775.380005	PAT
+2	qui	qui	PRQ	PRQ	_	5	subj	_	_	775.390015	775.520020	PAT
+3	a	avoir	VRB	VRB	_	5	aux	_	_	775.530029	775.580017	PAT
+4	aussi	aussi	ADV	ADV	_	5	dep	_	_	775.630005	775.929993	PAT
+5	travaillé	travailler	VPP	VPP	_	0	root	_	_	775.940002	776.530029	PAT
+6	en	en	PRE	PRE	_	5	dep	_	_	776.539978	776.750000	PAT
+7	Italie	Italie	NOM	NOM	_	6	dep	_	_	776.760010	776.969971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-258
+# text = parce qu'
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	777.409973	777.599976	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-259
+# text = à cette époque-là
+1	à	à	PRE	PRE	_	0	root	_	_	777.799988	777.820007	PAT
+2	cette	ce	DET	DET	_	3	spe	_	_	777.830017	777.979980	PAT
+3	époque-là	époque-là	NOM	NOM	_	1	dep	_	_	777.989990	778.390015	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-260
+# text = nous aujourd' hui les peintres on les classe peintres italiens cla~ peintres français
+1	nous	moi	PRO	PRO	_	7	periph	_	_	778.789978	778.950012	PAT
+2	aujourd' hui	aujourd'hui	ADV	ADV	_	7	periph	_	_	778.960022	779.559998	PAT
+3	les	le	DET	DET	_	4	spe	_	_	779.570007	779.619995	PAT
+4	peintres	peintre	NOM	NOM	_	7	periph	_	_	779.630005	779.760010	PAT
+5	on	on	CLS	CLS	_	7	subj	_	_	779.900024	779.919983	PAT
+6	les	le	CLI	CLI	_	7	dep	_	_	779.929993	780.010010	PAT
+7	classe	classer	VRB	VRB	_	0	root	_	_	780.059998	780.320007	PAT
+8	peintres	peintre	NOM	NOM	_	7	dep	_	_	780.869995	781.059998	PAT
+9	italiens	italien	ADJ	ADJ	_	8	dep	_	_	781.070007	781.349976	PAT
+10	cla~	cla~	ADJ	ADJ	_	8	dep	_	_	781.359985	781.440002	PAT
+11	peintres	peintre	NOM	NOM	_	8	para	_	_	781.580017	781.710022	PAT
+12	français	français	ADJ	ADJ	_	11	dep	_	_	782.090027	782.299988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-261
+# text = mais à cette époque-là ils étaient des grands Européens
+1	mais	mais	COO	COO	_	6	mark	_	_	782.619995	782.690002	PAT
+2	à	à	PRE	PRE	_	6	periph	_	_	782.700012	782.729980	PAT
+3	cette	ce	DET	DET	_	4	spe	_	_	782.780029	782.909973	PAT
+4	époque-là	époque-là	NOM	NOM	_	2	dep	_	_	782.919983	783.479980	PAT
+5	ils	il	CLS	CLS	_	6	subj	_	_	783.489990	783.549988	PAT
+6	étaient	être	VRB	VRB	_	0	root	_	_	783.559998	783.690002	PAT
+7	des	de	PRE	PRE	_	6	dep	_	_	783.700012	783.890015	PAT
+8	grands	grand	ADJ	ADJ	_	9	dep	_	_	783.900024	784.200012	PAT
+9	Européens	européen	NOM	NOM	_	7	dep	_	_	784.210022	784.750000	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-262
+# text = ils voyageaient beaucoup j'allais pas dire qu'ils voyageaient plus que nous mais ils voyageaient au moins autant que nous hein
+1	ils	il	CLS	CLS	_	2	subj	_	_	784.969971	785.020020	PAT
+2	voyageaient	voyager	VRB	VRB	_	0	root	_	_	785.030029	785.440002	PAT
+3	beaucoup	beaucoup	ADV	ADV	_	5	periph	_	_	785.609985	785.770020	PAT
+4	j'	je	CLS	CLS	_	5	subj	_	_	786.059998	786.109985	PAT
+5	allais	aller	VRB	VRB	_	2	para	_	_	786.119995	786.219971	PAT
+6	pas	pas	ADN	ADN	_	5	dep	_	_	786.229980	786.330017	PAT
+7	dire	dire	VNF	VNF	_	5	dep	_	_	786.340027	786.510010	PAT
+8	qu'	que	CSU	CSU	_	7	dep	_	_	786.520020	786.549988	PAT
+9	ils	il	CLS	CLS	_	10	subj	_	_	786.559998	786.609985	PAT
+10	voyageaient	voyager	VRB	VRB	_	8	dep	_	_	786.619995	787.020020	PAT
+11	plus	plus	ADN	ADN	_	10	dep	_	_	787.080017	787.289978	PAT
+12	que	que	CSU	CSU	_	10	dep	_	_	787.299988	787.359985	PAT
+13	nous	nous	CLS	CLS	_	16	subj	_	_	787.369995	787.539978	PAT
+14	mais	mais	COO	COO	_	16	mark	_	_	787.549988	787.830017	PAT
+15	ils	il	CLS	CLS	_	16	subj	_	_	787.940002	787.989990	PAT
+16	voyageaient	voyager	VRB	VRB	_	12	dep	_	_	788.070007	788.619995	PAT
+17	au	à+le	PRE	PRE	_	16	dep	_	_	788.679993	788.710022	PAT
+18	moins	moins	ADV	ADV	_	17	dep	_	_	788.719971	789.210022	PAT
+19	autant	autant	ADV	ADV	_	16	dep	_	_	789.219971	789.429993	PAT
+20	que	que	CSU	CSU	_	19	dep	_	_	789.619995	789.640015	PAT
+21	nous	moi	PRO	PRO	_	20	dep	_	_	789.650024	789.739990	PAT
+22	hein	hein	INT	INT	_	21	dm	_	_	789.950012	789.969971	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-263
+# text = et donc ce peintre-là eh ben il a beaucoup regardé la peinture italienne et beaucoup été influencé par la peinture italienne
+1	et	et	COO	COO	_	9	mark	_	_	790.630005	790.719971	PAT
+2	donc	donc	ADV	ADV	_	9	periph	_	_	790.729980	790.960022	PAT
+3	ce	ce	DET	DET	_	4	spe	_	_	790.969971	791.119995	PAT
+4	peintre-là	peintre-là	NOM	NOM	_	9	periph	_	_	791.239990	791.880005	PAT
+5	eh ben	eh ben	INT	INT	_	4	dm	_	_	792.340027	792.469971	PAT
+6	il	il	CLS	CLS	_	9	subj	_	_	792.479980	792.679993	PAT
+7	a	avoir	VRB	VRB	_	9	aux	_	_	792.690002	792.710022	PAT
+8	beaucoup	beaucoup	ADV	ADV	_	9	dep	_	_	793.260010	793.729980	PAT
+9	regardé	regarder	VPP	VPP	_	0	root	_	_	793.739990	793.969971	PAT
+10	la	le	DET	DET	_	11	spe	_	_	793.979980	794.059998	PAT
+11	peinture	peinture	NOM	NOM	_	9	dep	_	_	794.159973	794.400024	PAT
+12	italienne	italien	ADJ	ADJ	_	11	dep	_	_	794.409973	794.909973	PAT
+13	et	et	COO	COO	_	16	mark	_	_	795.210022	795.229980	PAT
+14	beaucoup	beaucoup	ADV	ADV	_	15	dep	_	_	795.309998	795.599976	PAT
+15	été	être	VPP	VPP	_	16	aux	_	_	795.609985	795.840027	PAT
+16	influencé	influencer	VPP	VPP	_	11	dep	_	_	795.849976	796.460022	PAT
+17	par	par	PRE	PRE	_	16	dep	_	_	796.960022	797.179993	PAT
+18	la	le	DET	DET	_	19	spe	_	_	797.190002	797.280029	PAT
+19	peinture	peinture	NOM	NOM	_	17	dep	_	_	797.289978	797.669983	PAT
+20	italienne	italien	ADJ	ADJ	_	19	dep	_	_	797.679993	798.140015	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-264
+# text = et par le grand Caravaggio regardez
+1	et	et	COO	COO	_	6	mark	_	_	798.479980	798.549988	PAT
+2	par	par	PRE	PRE	_	6	periph	_	_	798.559998	798.710022	PAT
+3	le	le	DET	DET	_	5	spe	_	_	798.869995	798.929993	PAT
+4	grand	grand	ADJ	ADJ	_	5	dep	_	_	798.979980	799.080017	PAT
+5	Caravaggio	Caravaggio	NOM	NOM	_	2	dep	_	_	799.409973	799.770020	PAT
+6	regardez	regarder	VRB	VRB	_	0	root	_	_	800.400024	801.020020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-265
+# text = regardez le regardez l'homme
+1	regardez	regarder	VRB	VRB	_	3	aux	_	_	801.159973	801.679993	PAT
+2	le	le	CLI	CLI	_	3	dep	_	_	801.690002	802.039978	PAT
+3	regardez	regarder	VRB	VRB	_	0	root	_	_	802.940002	803.179993	PAT
+4	l'	le	DET	DET	_	5	spe	_	_	803.190002	803.280029	PAT
+5	homme	homme	NOM	NOM	_	3	dep	_	_	803.289978	803.630005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-266
+# text = regardez l'homme le béret
+1	regardez	regarder	VRB	VRB	_	0	root	_	_	804.000000	804.349976	PAT
+2	l'	le	DET	DET	_	3	spe	_	_	804.359985	804.440002	PAT
+3	homme	homme	NOM	NOM	_	1	dep	_	_	804.450012	804.609985	PAT
+4	le	le	DET	DET	_	5	spe	_	_	805.030029	805.179993	PAT
+5	béret	béret	NOM	NOM	_	1	dep	_	_	805.190002	805.609985	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-267
+# text = comment il le porte la plume regardez la manière du la le dos le dos de l'homme
+1	comment	comment	PRQ	PRQ	_	7	dep	_	_	805.890015	806.109985	PAT
+2	il	il	CLS	CLS	_	7	subj	_	_	806.119995	806.200012	PAT
+3	le	le	DET	DET	_	4	spe	_	_	806.250000	806.330017	PAT
+4	porte	porte	NOM	NOM	_	7	subj	_	_	806.419983	806.780029	PAT
+5	la	le	DET	DET	_	6	spe	_	_	806.830017	806.929993	PAT
+6	plume	plume	NOM	NOM	_	4	para	_	_	807.039978	807.530029	PAT
+7	regardez	regarder	VRB	VRB	_	0	root	_	_	808.150024	808.320007	PAT
+8	la	le	DET	DET	_	9	spe	_	_	808.909973	809.010010	PAT
+9	manière	manière	NOM	NOM	_	7	dep	_	_	809.020020	809.270020	PAT
+10	du	de+le	PRE	PRE	_	9	dep	_	_	809.919983	810.059998	PAT
+11	la	le	DET	DET	_	13	spe	_	_	810.340027	810.780029	PAT
+12	le	le	DET	DET	_	11	para	_	_	810.820007	811.000000	PAT
+13	dos	dos	NOM	NOM	_	10	dep	_	_	811.010010	811.229980	PAT
+14	le	le	DET	DET	_	15	spe	_	_	811.419983	811.539978	PAT
+15	dos	dos	NOM	NOM	_	9	para	_	_	811.549988	811.679993	PAT
+16	de	de	PRE	PRE	_	15	dep	_	_	811.690002	811.770020	PAT
+17	l'	le	DET	DET	_	18	spe	_	_	811.780029	811.950012	PAT
+18	homme	homme	NOM	NOM	_	16	dep	_	_	811.960022	812.380005	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-268
+# text = ça c'est tout à fait d'inspiration italienne du dix-septième siècle
+1	ça	ça	PRO	PRO	_	3	periph	_	_	812.789978	812.950012	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	813.020020	813.070007	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	813.080017	813.119995	PAT
+4	tout à fait	tout à fait	ADV	ADV	_	3	dep	_	_	813.229980	813.849976	PAT
+5	d'	de	PRE	PRE	_	3	dep	_	_	814.150024	814.219971	PAT
+6	inspiration	inspiration	NOM	NOM	_	5	dep	_	_	814.229980	815.309998	PAT
+7	italienne	italien	ADJ	ADJ	_	6	dep	_	_	815.700012	816.500000	PAT
+8	du	de+le	PRE	PRE	_	5	para	_	_	816.559998	816.719971	PAT
+9	dix-septième	dix-septième	ADJ	ADJ	_	10	dep	_	_	816.729980	817.390015	PAT
+10	siècle	siècle	NOM	NOM	_	8	dep	_	_	817.400024	817.739990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-269
+# text = et par contre
+1	et	et	COO	COO	_	2	mark	_	_	818.719971	819.020020	PAT
+2	par	par	PRE	PRE	_	0	root	_	_	819.130005	819.640015	PAT
+3	contre	contre	PRE	PRE	_	2	dep	_	_	819.650024	819.770020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-270
+# text = si vous regardez la femme alors après lui s'appelle Médor
+1	si	si	CSU	CSU	_	10	periph	_	_	820.179993	820.229980	PAT
+2	vous	vous	CLS	CLS	_	3	subj	_	_	820.239990	820.450012	PAT
+3	regardez	regarder	VRB	VRB	_	1	dep	_	_	820.460022	820.739990	PAT
+4	la	le	DET	DET	_	5	spe	_	_	820.750000	820.869995	PAT
+5	femme	femme	NOM	NOM	_	3	dep	_	_	820.880005	821.340027	PAT
+6	alors	alors	ADV	ADV	_	10	periph	_	_	821.349976	821.539978	PAT
+7	après	après	PRE	PRE	_	10	periph	_	_	821.590027	821.789978	PAT
+8	lui	moi	PRO	PRO	_	10	subj	_	_	822.429993	822.700012	PAT
+9	s'	se	CLI	CLI	_	10	dep	_	_	822.710022	822.789978	PAT
+10	appelle	appeler	VRB	VRB	_	0	root	_	_	822.799988	823.130005	PAT
+11	Médor	Médor	NOM	NOM	_	10	dep	_	_	823.140015	823.710022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-271
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	802.419983	802.469971	DOM
+
+# sent_id = cefc-coralrom-fnatpe02-272
+# text = et elle Angélique c'est une grande scène d'amour
+1	et	et	COO	COO	_	5	mark	_	_	825.150024	825.400024	PAT
+2	elle	il	CLS	CLS	_	5	subj	_	_	825.409973	825.510010	PAT
+3	Angélique	angélique	NOM	NOM	_	5	periph	_	_	825.520020	825.880005	PAT
+4	c'	ce	CLS	CLS	_	5	subj	_	_	826.330017	826.380005	PAT
+5	est	être	VRB	VRB	_	0	root	_	_	826.390015	826.409973	PAT
+6	une	un	DET	DET	_	8	spe	_	_	826.469971	826.570007	PAT
+7	grande	grand	ADJ	ADJ	_	8	dep	_	_	826.580017	826.840027	PAT
+8	scène	scène	NOM	NOM	_	5	dep	_	_	826.849976	827.109985	PAT
+9	d'	de	PRE	PRE	_	8	dep	_	_	827.119995	827.150024	PAT
+10	amour	amour	NOM	NOM	_	9	dep	_	_	827.159973	827.700012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-273
+# text = ils écrivent leur leur nom sur le tronc d'arbre
+1	ils	il	CLS	CLS	_	2	subj	_	_	828.159973	828.270020	PAT
+2	écrivent	écrire	VRB	VRB	_	0	root	_	_	828.280029	828.580017	PAT
+3	leur	son	DET	DET	_	5	spe	_	_	828.590027	828.719971	PAT
+4	leur	son	DET	DET	_	3	para	_	_	829.690002	829.919983	PAT
+5	nom	nom	NOM	NOM	_	2	dep	_	_	829.929993	830.200012	PAT
+6	sur	sur	PRE	PRE	_	5	dep	_	_	830.210022	830.390015	PAT
+7	le	le	DET	DET	_	8	spe	_	_	830.450012	830.580017	PAT
+8	tronc	tronc	NOM	NOM	_	6	dep	_	_	830.590027	830.679993	PAT
+9	d'	de	PRE	PRE	_	8	dep	_	_	830.830017	830.919983	PAT
+10	arbre	arbre	NOM	NOM	_	9	dep	_	_	830.929993	831.320007	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-274
+# text = donc et la lumière est extrêmement flamande ici cette tonalité de ciel cette lumière un peu blafarde
+1	donc	donc	ADV	ADV	_	5	periph	_	_	831.739990	831.979980	PAT
+2	et	et	COO	COO	_	5	mark	_	_	832.049988	832.119995	PAT
+3	la	le	DET	DET	_	4	spe	_	_	832.169983	832.219971	PAT
+4	lumière	lumière	NOM	NOM	_	5	subj	_	_	832.229980	833.080017	PAT
+5	est	être	VRB	VRB	_	0	root	_	_	833.140015	833.159973	PAT
+6	extrêmement	extrêmement	ADV	ADV	_	7	dep	_	_	833.200012	833.690002	PAT
+7	flamande	flamand	ADJ	ADJ	_	5	dep	_	_	833.770020	834.330017	PAT
+8	ici	ici	ADV	ADV	_	5	dep	_	_	834.700012	835.260010	PAT
+9	cette	ce	DET	DET	_	10	spe	_	_	835.969971	836.210022	PAT
+10	tonalité	tonalité	NOM	NOM	_	5	dep	_	_	836.250000	836.950012	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	836.960022	837.000000	PAT
+12	ciel	ciel	NOM	NOM	_	11	dep	_	_	837.010010	837.359985	PAT
+13	cette	ce	DET	DET	_	14	spe	_	_	837.820007	837.900024	PAT
+14	lumière	lumière	NOM	NOM	_	10	para	_	_	838.020020	838.369995	PAT
+15	un peu	un peu	ADV	ADV	_	16	dep	_	_	838.380005	838.679993	PAT
+16	blafarde	blafard	ADJ	ADJ	_	14	dep	_	_	838.690002	839.229980	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-275
+# text = c'est une lumière flamande par contre
+1	c'	ce	CLS	CLS	_	2	subj	_	_	839.609985	839.760010	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	839.770020	839.880005	PAT
+3	une	un	DET	DET	_	4	spe	_	_	839.979980	840.229980	PAT
+4	lumière	lumière	NOM	NOM	_	2	dep	_	_	840.239990	840.559998	PAT
+5	flamande	flamand	ADJ	ADJ	_	4	dep	_	_	840.650024	841.140015	PAT
+6	par	par	PRE	PRE	_	2	dep	_	_	841.609985	841.710022	PAT
+7	contre	contre	PRE	PRE	_	6	para	_	_	842.099976	842.460022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-276
+# text = elle elle est peinte comme euh euh les les peintres de la Renaissance française de Fontainebleau ce qu'on appelle les la peinture maniériste hein des des peintres de Fontainebleau les peintres français ou italiens que François Ier a fait venir pour pour décorer les les grands châteaux de de la Loire eh ben
+1	elle	il	CLS	CLS	_	3	subj	_	_	842.469971	842.520020	PAT
+2	elle	il	CLS	CLS	_	1	para	_	_	842.640015	842.890015	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	842.900024	842.979980	PAT
+4	peinte	peindre	ADJ	ADJ	_	3	dep	_	_	843.090027	843.239990	PAT
+5	comme	comme	PRE	PRE	_	4	dep	_	_	843.700012	843.960022	PAT
+6	euh	euh	INT	INT	_	5	dm	_	_	843.969971	844.070007	PAT
+7	euh	euh	INT	INT	_	6	dm	_	_	844.390015	844.520020	PAT
+8	les	le	DET	DET	_	10	spe	_	_	844.530029	844.739990	PAT
+9	les	le	DET	DET	_	8	para	_	_	844.750000	845.299988	PAT
+10	peintres	peintre	NOM	NOM	_	5	dep	_	_	845.369995	845.729980	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	845.739990	845.789978	PAT
+12	la	le	DET	DET	_	13	spe	_	_	845.799988	845.890015	PAT
+13	Renaissance	renaissance	NOM	NOM	_	11	dep	_	_	845.900024	846.539978	PAT
+14	française	français	ADJ	ADJ	_	13	dep	_	_	846.549988	847.229980	PAT
+15	de	de	PRE	PRE	_	13	dep	_	_	847.479980	847.549988	PAT
+16	Fontainebleau	Fontainebleau	NOM	NOM	_	15	dep	_	_	847.559998	848.169983	PAT
+17	ce	ce	PRO	PRO	_	3	dep	_	_	848.340027	848.390015	PAT
+18	qu'	que	PRQ	PRQ	_	20	dep	_	_	848.400024	848.419983	PAT
+19	on	on	CLS	CLS	_	20	subj	_	_	848.429993	848.500000	PAT
+20	appelle	appeler	VRB	VRB	_	17	dep	_	_	848.510010	848.799988	PAT
+21	les	le	DET	DET	_	23	spe	_	_	848.809998	848.849976	PAT
+22	la	le	DET	DET	_	21	para	_	_	849.250000	849.320007	PAT
+23	peinture	peinture	NOM	NOM	_	20	dep	_	_	849.440002	849.770020	PAT
+24	maniériste	maniériste	ADJ	ADJ	_	23	dep	_	_	849.869995	850.840027	PAT
+25	hein	hein	INT	INT	_	24	dm	_	_	851.200012	851.369995	PAT
+26	des	de	PRE	PRE	_	23	dep	_	_	851.380005	851.549988	PAT
+27	des	de	PRE	PRE	_	26	para	_	_	851.559998	851.700012	PAT
+28	peintres	peintre	NOM	NOM	_	27	dep	_	_	851.799988	852.090027	PAT
+29	de	de	PRE	PRE	_	28	dep	_	_	852.099976	852.159973	PAT
+30	Fontainebleau	Fontainebleau	NOM	NOM	_	29	dep	_	_	852.169983	852.830017	PAT
+31	les	le	DET	DET	_	32	spe	_	_	853.229980	853.299988	PAT
+32	peintres	peintre	NOM	NOM	_	28	para	_	_	853.309998	853.489990	PAT
+33	français	français	ADJ	ADJ	_	32	dep	_	_	853.650024	854.049988	PAT
+34	ou	ou	COO	COO	_	35	mark	_	_	854.309998	854.429993	PAT
+35	italiens	italien	NOM	NOM	_	32	para	_	_	854.440002	855.049988	PAT
+36	que	que	CSU	CSU	_	35	dep	_	_	855.289978	855.390015	PAT
+37	François	François	NOM	NOM	_	40	subj	_	_	855.400024	855.710022	PAT
+38	Ier	Ier	NOM	NOM	_	37	dep	_	_	855.780029	856.070007	PAT
+39	a	avoir	VRB	VRB	_	40	aux	_	_	856.080017	856.109985	PAT
+40	fait	faire	VPP	VPP	_	36	dep	_	_	856.210022	856.309998	PAT
+41	venir	venir	VNF	VNF	_	40	dep	_	_	856.320007	856.789978	PAT
+42	pour	pour	PRE	PRE	_	41	dep	_	_	857.119995	857.400024	PAT
+43	pour	pour	PRE	PRE	_	42	para	_	_	857.760010	857.929993	PAT
+44	décorer	décorer	VNF	VNF	_	43	dep	_	_	857.979980	858.940002	PAT
+45	les	le	DET	DET	_	48	spe	_	_	859.030029	859.140015	PAT
+46	les	le	DET	DET	_	45	para	_	_	859.239990	859.359985	PAT
+47	grands	grand	ADJ	ADJ	_	48	dep	_	_	859.929993	860.150024	PAT
+48	châteaux	château	NOM	NOM	_	44	dep	_	_	860.159973	860.289978	PAT
+49	de	de	PRE	PRE	_	48	dep	_	_	860.330017	860.349976	PAT
+50	de	de	PRE	PRE	_	49	para	_	_	860.419983	860.520020	PAT
+51	la	le	DET	DET	_	52	spe	_	_	860.530029	860.619995	PAT
+52	Loire	Loire	NOM	NOM	_	50	dep	_	_	860.630005	860.950012	PAT
+53	eh ben	eh ben	INT	INT	_	52	dm	_	_	861.349976	861.530029	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-277
+# text = elle le nacré de la peau regardez regardez les perles qu'elle porte
+1	elle	il	CLS	CLS	_	7	subj	_	_	861.880005	862.159973	PAT
+2	le	le	DET	DET	_	3	spe	_	_	862.979980	863.070007	PAT
+3	nacré	nacré	NOM	NOM	_	7	subj	_	_	863.080017	863.369995	PAT
+4	de	de	PRE	PRE	_	3	dep	_	_	863.690002	864.059998	PAT
+5	la	le	DET	DET	_	6	spe	_	_	864.070007	864.119995	PAT
+6	peau	peau	NOM	NOM	_	4	dep	_	_	864.250000	864.320007	PAT
+7	regardez	regarder	VRB	VRB	_	0	root	_	_	864.330017	864.609985	PAT
+8	regardez	regarder	VRB	VRB	_	7	para	_	_	864.989990	865.520020	PAT
+9	les	le	DET	DET	_	10	spe	_	_	865.530029	865.719971	PAT
+10	perles	perle	NOM	NOM	_	8	dep	_	_	865.729980	865.969971	PAT
+11	qu'	que	PRQ	PRQ	_	13	dep	_	_	865.979980	866.020020	PAT
+12	elle	il	CLS	CLS	_	13	subj	_	_	866.080017	866.130005	PAT
+13	porte	porter	VRB	VRB	_	10	dep	_	_	866.260010	866.510010	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-278
+# text = et regardez sa poitrine
+1	et	et	COO	COO	_	2	mark	_	_	867.000000	867.030029	PAT
+2	regardez	regarder	VRB	VRB	_	0	root	_	_	867.039978	867.270020	PAT
+3	sa	son	DET	DET	_	4	spe	_	_	867.469971	867.590027	PAT
+4	poitrine	poitrine	NOM	NOM	_	2	dep	_	_	867.669983	868.049988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-279
+# text = c'est tout à fait le nacré des portraits de cette peinture de de Fontainebleau de la fin du seizième siècle fin seizième début dix-septième
+1	c'	ce	CLS	CLS	_	2	subj	_	_	869.080017	869.219971	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	869.229980	869.309998	PAT
+3	tout à fait	tout à fait	ADV	ADV	_	2	dep	_	_	869.390015	870.280029	PAT
+4	le	le	DET	DET	_	5	spe	_	_	870.659973	870.679993	PAT
+5	nacré	nacré	NOM	NOM	_	2	dep	_	_	870.789978	871.250000	PAT
+6	des	de	PRE	PRE	_	5	dep	_	_	872.080017	872.260010	PAT
+7	portraits	portrait	NOM	NOM	_	6	dep	_	_	872.890015	873.369995	PAT
+8	de	de	PRE	PRE	_	7	dep	_	_	873.909973	874.010010	PAT
+9	cette	ce	DET	DET	_	10	spe	_	_	874.020020	874.260010	PAT
+10	peinture	peinture	NOM	NOM	_	8	dep	_	_	874.469971	874.869995	PAT
+11	de	de	PRE	PRE	_	10	dep	_	_	874.979980	875.200012	PAT
+12	de	de	PRE	PRE	_	11	para	_	_	875.210022	875.280029	PAT
+13	Fontainebleau	Fontainebleau	NOM	NOM	_	12	dep	_	_	875.520020	875.969971	PAT
+14	de	de	PRE	PRE	_	13	dep	_	_	876.369995	876.450012	PAT
+15	la	le	DET	DET	_	16	spe	_	_	876.460022	876.549988	PAT
+16	fin	fin	NOM	NOM	_	14	dep	_	_	876.559998	876.869995	PAT
+17	du	de+le	PRE	PRE	_	16	dep	_	_	876.880005	876.940002	PAT
+18	seizième	seizième	ADJ	ADJ	_	19	dep	_	_	876.950012	877.500000	PAT
+19	siècle	siècle	NOM	NOM	_	17	dep	_	_	877.510010	877.690002	PAT
+20	fin	fin	NOM	NOM	_	19	para	_	_	877.960022	878.210022	PAT
+21	seizième	seizième	ADJ	ADJ	_	20	dep	_	_	878.549988	878.849976	PAT
+22	début	début	NOM	NOM	_	20	para	_	_	878.919983	879.090027	PAT
+23	dix-septième	dix-septième	ADJ	ADJ	_	22	dep	_	_	879.099976	879.520020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-280
+# text = voyez donc on voit un peintre énormément influencé par différentes sources
+1	voyez	voir	VRB	VRB	_	4	dm	_	_	880.419983	880.630005	PAT
+2	donc	donc	ADV	ADV	_	4	periph	_	_	880.640015	880.869995	PAT
+3	on	on	CLS	CLS	_	4	subj	_	_	881.109985	881.190002	PAT
+4	voit	voir	VRB	VRB	_	0	root	_	_	881.200012	881.369995	PAT
+5	un	un	DET	DET	_	6	spe	_	_	881.380005	881.630005	PAT
+6	peintre	peintre	NOM	NOM	_	4	dep	_	_	881.640015	881.909973	PAT
+7	énormément	énormément	ADV	ADV	_	8	dep	_	_	882.340027	882.890015	PAT
+8	influencé	influencer	VPP	VPP	_	6	dep	_	_	882.900024	883.710022	PAT
+9	par	par	PRE	PRE	_	8	dep	_	_	883.979980	884.080017	PAT
+10	différentes	différent	ADJ	ADJ	_	11	dep	_	_	884.239990	885.299988	PAT
+11	sources	source	NOM	NOM	_	9	dep	_	_	885.309998	885.739990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-281
+# text = et on peut dire aussi que c'est une peinture baroque
+1	et	et	COO	COO	_	3	mark	_	_	886.130005	886.179993	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	886.190002	886.239990	PAT
+3	peut	pouvoir	VRB	VRB	_	0	root	_	_	886.250000	886.320007	PAT
+4	dire	dire	VNF	VNF	_	3	dep	_	_	886.380005	886.479980	PAT
+5	aussi	aussi	ADV	ADV	_	4	dep	_	_	886.640015	886.809998	PAT
+6	que	que	CSU	CSU	_	4	dep	_	_	886.820007	886.900024	PAT
+7	c'	ce	CLS	CLS	_	8	subj	_	_	886.909973	886.940002	PAT
+8	est	être	VRB	VRB	_	6	dep	_	_	887.000000	887.039978	PAT
+9	une	un	DET	DET	_	10	spe	_	_	887.130005	887.200012	PAT
+10	peinture	peinture	NOM	NOM	_	8	dep	_	_	887.270020	887.700012	PAT
+11	baroque	baroque	ADJ	ADJ	_	10	dep	_	_	888.049988	888.549988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-282
+# text = regardez le très beau drapé baroque qui va ceinturer
+1	regardez	regarder	VRB	VRB	_	0	root	_	_	889.309998	889.750000	PAT
+2	le	le	DET	DET	_	5	spe	_	_	889.760010	890.090027	PAT
+3	très	très	ADV	ADV	_	4	dep	_	_	890.099976	890.179993	PAT
+4	beau	beau	ADJ	ADJ	_	5	dep	_	_	890.190002	890.239990	PAT
+5	drapé	drapé	NOM	NOM	_	1	dep	_	_	890.250000	890.390015	PAT
+6	baroque	baroque	ADJ	ADJ	_	5	dep	_	_	891.179993	891.580017	PAT
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	892.330017	892.400024	PAT
+8	va	aller	VRB	VRB	_	5	dep	_	_	892.409973	892.489990	PAT
+9	ceinturer	ceinturer	VNF	VNF	_	8	dep	_	_	892.500000	893.450012	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-283
+# text = la hum les hanches de Médor ou la très belle jupe plissée d'Angélique
+1	la	le	DET	DET	_	4	spe	_	_	893.919983	894.200012	PAT
+2	hum	hum	INT	INT	_	1	dm	_	_	894.210022	894.429993	PAT
+3	les	le	DET	DET	_	1	para	_	_	894.880005	895.109985	PAT
+4	hanches	hanche	NOM	NOM	_	0	root	_	_	895.119995	895.510010	PAT
+5	de	de	PRE	PRE	_	4	dep	_	_	895.780029	895.869995	PAT
+6	Médor	Médor	NOM	NOM	_	5	dep	_	_	895.880005	896.489990	PAT
+7	ou	ou	COO	COO	_	11	mark	_	_	896.650024	896.710022	PAT
+8	la	le	DET	DET	_	11	spe	_	_	897.049988	897.210022	PAT
+9	très	très	ADV	ADV	_	10	dep	_	_	897.219971	897.710022	PAT
+10	belle	beau	ADJ	ADJ	_	11	dep	_	_	897.719971	897.900024	PAT
+11	jupe	jupe	NOM	NOM	_	6	para	_	_	897.909973	897.989990	PAT
+12	plissée	plisser	VPP	VPP	_	11	dep	_	_	898.159973	898.950012	PAT
+13	d'	de	PRE	PRE	_	12	dep	_	_	899.349976	899.450012	PAT
+14	Angélique	angélique	NOM	NOM	_	13	dep	_	_	899.460022	899.940002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-284
+# text = ça c'est typiquement baroque
+1	ça	ça	PRO	PRO	_	3	periph	_	_	900.119995	900.320007	PAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	900.330017	900.349976	PAT
+3	est	être	VRB	VRB	_	0	root	_	_	900.359985	900.440002	PAT
+4	typiquement	typiquement	ADV	ADV	_	5	dep	_	_	900.739990	901.059998	PAT
+5	baroque	baroque	ADJ	ADJ	_	3	dep	_	_	901.070007	901.440002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-285
+# text = quand on parle d'une peinture baroque c'est que souvent il y a le baroque
+1	quand	quand	CSU	CSU	_	9	periph	_	_	901.979980	902.080017	PAT
+2	on	on	CLS	CLS	_	3	subj	_	_	902.179993	902.270020	PAT
+3	parle	parler	VRB	VRB	_	1	dep	_	_	902.309998	902.590027	PAT
+4	d'	de	PRE	PRE	_	3	dep	_	_	902.820007	902.849976	PAT
+5	une	un	DET	DET	_	6	spe	_	_	902.859985	902.940002	PAT
+6	peinture	peinture	NOM	NOM	_	4	dep	_	_	902.950012	903.130005	PAT
+7	baroque	baroque	ADJ	ADJ	_	6	dep	_	_	903.190002	903.559998	PAT
+8	c'	ce	CLS	CLS	_	9	subj	_	_	903.859985	903.950012	PAT
+9	est	être	VRB	VRB	_	0	root	_	_	903.960022	904.020020	PAT
+10	que	que	CSU	CSU	_	9	dep	_	_	904.030029	904.080017	PAT
+11	souvent	souvent	ADV	ADV	_	14	periph	_	_	904.150024	904.700012	PAT
+12	il	il	CLS	CLS	_	14	subj	_	_	904.880005	904.929993	PAT
+13	y	y	CLI	CLI	_	14	dep	_	_	904.989990	905.059998	PAT
+14	a	avoir	VRB	VRB	_	10	dep	_	_	905.070007	905.119995	PAT
+15	le	le	DET	DET	_	16	spe	_	_	905.369995	905.440002	PAT
+16	baroque	baroque	NOM	NOM	_	14	dep	_	_	905.450012	905.739990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-286
+# text = c'est très expressif le baroque
+1	c'	ce	CLS	CLS	_	2	subj	_	_	905.780029	905.830017	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	905.840027	905.859985	PAT
+3	très	très	ADV	ADV	_	4	dep	_	_	905.940002	906.150024	PAT
+4	expressif	expressif	ADJ	ADJ	_	2	dep	_	_	906.159973	906.890015	PAT
+5	le	le	DET	DET	_	6	spe	_	_	907.169983	907.210022	PAT
+6	baroque	baroque	NOM	NOM	_	2	dep	_	_	907.219971	907.590027	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-287
+# text = c'est très mouvant
+1	c'	ce	CLS	CLS	_	2	subj	_	_	907.679993	907.710022	PAT
+2	est	être	VRB	VRB	_	0	root	_	_	907.719971	907.789978	PAT
+3	très	très	ADV	ADV	_	4	dep	_	_	907.799988	908.140015	PAT
+4	mouvant	mouvant	ADJ	ADJ	_	2	dep	_	_	908.429993	909.039978	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-288
+# text = donc le fait d'un plissé le fait d'un drapé c'est euh de par son essence de par sa ligne de par le le rapport des couleurs
+1	donc	donc	ADV	ADV	_	13	periph	_	_	909.299988	909.530029	PAT
+2	le	le	DET	DET	_	3	spe	_	_	909.690002	909.830017	PAT
+3	fait	fait	NOM	NOM	_	13	periph	_	_	909.840027	910.039978	PAT
+4	d'	de	PRE	PRE	_	3	dep	_	_	910.049988	910.070007	PAT
+5	un	un	DET	DET	_	6	spe	_	_	910.080017	910.169983	PAT
+6	plissé	plissé	NOM	NOM	_	4	dep	_	_	910.179993	910.820007	PAT
+7	le	le	DET	DET	_	8	spe	_	_	910.830017	910.919983	PAT
+8	fait	fait	NOM	NOM	_	3	para	_	_	910.929993	911.130005	PAT
+9	d'	de	PRE	PRE	_	8	dep	_	_	911.140015	911.190002	PAT
+10	un	un	DET	DET	_	11	spe	_	_	911.200012	911.320007	PAT
+11	drapé	drapé	NOM	NOM	_	9	dep	_	_	911.400024	911.799988	PAT
+12	c'	ce	CLS	CLS	_	13	subj	_	_	912.080017	912.179993	PAT
+13	est	être	VRB	VRB	_	0	root	_	_	912.190002	912.349976	PAT
+14	euh	euh	INT	INT	_	13	dm	_	_	913.020020	913.549988	PAT
+15	de	de	PRE	PRE	_	13	dep	_	_	913.719971	913.840027	PAT
+16	par	par	PRE	PRE	_	15	para	_	_	913.890015	914.099976	PAT
+17	son	son	DET	DET	_	18	spe	_	_	914.109985	914.260010	PAT
+18	essence	essence	NOM	NOM	_	16	dep	_	_	914.270020	914.809998	PAT
+19	de	de	PRE	PRE	_	18	dep	_	_	915.200012	915.280029	PAT
+20	par	par	PRE	PRE	_	19	para	_	_	915.359985	915.590027	PAT
+21	sa	son	DET	DET	_	22	spe	_	_	915.599976	915.780029	PAT
+22	ligne	ligne	NOM	NOM	_	20	dep	_	_	915.849976	916.169983	PAT
+23	de	de	PRE	PRE	_	22	dep	_	_	916.460022	916.570007	PAT
+24	par	par	PRE	PRE	_	23	para	_	_	916.659973	916.919983	PAT
+25	le	le	DET	DET	_	27	spe	_	_	916.929993	917.130005	PAT
+26	le	le	DET	DET	_	25	para	_	_	917.140015	917.280029	PAT
+27	rapport	rapport	NOM	NOM	_	24	dep	_	_	917.289978	917.599976	PAT
+28	des	de	PRE	PRE	_	27	dep	_	_	917.609985	917.760010	PAT
+29	couleurs	couleur	NOM	NOM	_	28	dep	_	_	917.770020	918.270020	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-289
+# text = regardez ce jaune flamboyant
+1	regardez	regarder	VRB	VRB	_	0	root	_	_	918.530029	919.020020	PAT
+2	ce	ce	DET	DET	_	3	spe	_	_	919.030029	919.059998	PAT
+3	jaune	jaune	NOM	NOM	_	1	dep	_	_	919.119995	919.619995	PAT
+4	flamboyant	flamboyant	ADJ	ADJ	_	3	dep	_	_	919.760010	920.460022	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-290
+# text = ce rouge éclatant ça c'est typiquement baroque
+1	ce	ce	DET	DET	_	2	spe	_	_	920.840027	921.010010	PAT
+2	rouge	rouge	NOM	NOM	_	6	periph	_	_	921.309998	921.469971	PAT
+3	éclatant	éclatant	ADJ	ADJ	_	2	dep	_	_	921.799988	922.469971	PAT
+4	ça	ça	PRO	PRO	_	6	periph	_	_	923.059998	923.289978	PAT
+5	c'	ce	CLS	CLS	_	6	subj	_	_	923.299988	923.320007	PAT
+6	est	être	VRB	VRB	_	0	root	_	_	923.400024	923.479980	PAT
+7	typiquement	typiquement	ADV	ADV	_	8	dep	_	_	923.539978	924.150024	PAT
+8	baroque	baroque	ADJ	ADJ	_	6	dep	_	_	924.400024	924.739990	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-291
+# text = là aussi c'est baroque
+1	là	là	ADV	ADV	_	4	periph	_	_	925.549988	925.619995	PAT
+2	aussi	aussi	ADV	ADV	_	4	periph	_	_	925.630005	925.750000	PAT
+3	c'	ce	CLS	CLS	_	4	subj	_	_	926.010010	926.030029	PAT
+4	est	être	VRB	VRB	_	0	root	_	_	926.039978	926.119995	PAT
+5	baroque	baroque	ADJ	ADJ	_	4	dep	_	_	926.130005	926.400024	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-292
+# text = mais pour d'autres raisons vous verrez hein donc on est tout à fait
+1	mais	mais	COO	COO	_	7	mark	_	_	926.859985	926.940002	PAT
+2	pour	pour	PRE	PRE	_	7	periph	_	_	926.950012	927.090027	PAT
+3	d'	de	PRE	PRE	_	2	dep	_	_	927.099976	927.169983	PAT
+4	autres	autre	ADJ	ADJ	_	5	dep	_	_	927.179993	927.429993	PAT
+5	raisons	raison	NOM	NOM	_	3	dep	_	_	927.440002	927.719971	PAT
+6	vous	vous	CLS	CLS	_	7	subj	_	_	927.859985	927.929993	PAT
+7	verrez	voir	VRB	VRB	_	11	dm	_	_	927.940002	928.260010	PAT
+8	hein	hein	INT	INT	_	7	dm	_	_	928.559998	928.690002	PAT
+9	donc	donc	ADV	ADV	_	11	periph	_	_	929.020020	929.150024	PAT
+10	on	on	CLS	CLS	_	11	subj	_	_	929.479980	929.880005	PAT
+11	est	être	VRB	VRB	_	0	root	_	_	929.890015	929.909973	PAT
+12	tout à fait	tout à fait	ADV	ADV	_	11	dep	_	_	929.919983	930.549988	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-293
+# text = et le baroque il est allé partout il est parti d'Italie il est passé par la France
+1	et	et	COO	COO	_	6	mark	_	_	930.809998	930.869995	PAT
+2	le	le	DET	DET	_	3	spe	_	_	930.880005	931.020020	PAT
+3	baroque	baroque	NOM	NOM	_	6	periph	_	_	931.030029	931.479980	PAT
+4	il	il	CLS	CLS	_	6	subj	_	_	931.489990	931.559998	PAT
+5	est	être	VRB	VRB	_	6	aux	_	_	931.570007	931.599976	PAT
+6	allé	aller	VPP	VPP	_	0	root	_	_	931.700012	931.859985	PAT
+7	partout	partout	ADV	ADV	_	6	dep	_	_	931.869995	932.039978	PAT
+8	il	il	CLS	CLS	_	10	subj	_	_	932.859985	933.080017	PAT
+9	est	être	VRB	VRB	_	10	aux	_	_	933.140015	933.159973	PAT
+10	parti	partir	VPP	VPP	_	6	para	_	_	933.169983	933.450012	PAT
+11	d'	de	PRE	PRE	_	10	dep	_	_	933.460022	933.520020	PAT
+12	Italie	Italie	NOM	NOM	_	11	dep	_	_	933.530029	934.070007	PAT
+13	il	il	CLS	CLS	_	15	subj	_	_	934.210022	934.429993	PAT
+14	est	être	VRB	VRB	_	15	aux	_	_	934.440002	934.510010	PAT
+15	passé	passer	VPP	VPP	_	6	para	_	_	934.570007	934.840027	PAT
+16	par	par	PRE	PRE	_	15	dep	_	_	934.849976	935.010010	PAT
+17	la	le	DET	DET	_	18	spe	_	_	935.020020	935.090027	PAT
+18	France	France	NOM	NOM	_	16	dep	_	_	935.099976	935.440002	PAT
+
+# sent_id = cefc-coralrom-fnatpe02-294
+# text = mais il est allé un peu partout voilà
+1	mais	mais	COO	COO	_	4	mark	_	_	935.700012	935.780029	PAT
+2	il	il	CLS	CLS	_	4	subj	_	_	935.789978	936.080017	PAT
+3	est	être	VRB	VRB	_	4	aux	_	_	936.090027	936.130005	PAT
+4	allé	aller	VPP	VPP	_	0	root	_	_	936.140015	936.280029	PAT
+5	un peu	un peu	ADV	ADV	_	4	dep	_	_	936.289978	936.530029	PAT
+6	partout	partout	ADV	ADV	_	4	dep	_	_	936.539978	936.820007	PAT
+7	voilà	voilà	INT	INT	_	6	dm	_	_	937.440002	937.630005	PAT
+

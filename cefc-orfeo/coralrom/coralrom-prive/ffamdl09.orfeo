@@ -1,0 +1,1913 @@
+# sent_id = cefc-coralrom-ffamdl09-1
+# text = euh je voudrais d'abord savoir quel métier
+1	euh	euh	INT	INT	_	3	dm	_	_	0.100000	0.180000	STE
+2	je	je	CLS	CLS	_	3	subj	_	_	0.230000	0.260000	STE
+3	voudrais	vouloir	VRB	VRB	_	0	root	_	_	0.410000	0.830000	STE
+4	d'	de	PRE	PRE	_	3	dep	_	_	0.840000	0.880000	STE
+5	abord	abord	NOM	NOM	_	4	dep	_	_	1.030000	1.280000	STE
+6	savoir	savoir	VNF	VNF	_	3	dep	_	_	1.370000	1.850000	STE
+7	quel	quel	PRQ	PRQ	_	8	dep	_	_	1.950000	2.090000	STE
+8	métier	métier	NOM	NOM	_	6	dep	_	_	2.100000	2.350000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-2
+# text = tu exerces actuellement
+1	tu	tu	CLS	CLS	_	2	subj	_	_	2.420000	2.610000	STE
+2	exerces	exercer	VRB	VRB	_	0	root	_	_	2.620000	2.880000	STE
+3	actuellement	actuellement	ADV	ADV	_	2	dep	_	_	2.890000	3.440000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-3
+# text = je suis infirmière en secteur psychiatrique
+1	je	je	CLS	CLS	_	2	subj	_	_	4.450000	4.540000	INF
+2	suis	être	VRB	VRB	_	0	root	_	_	4.550000	4.890000	INF
+3	infirmière	infirmier	ADJ	ADJ	_	2	dep	_	_	5.080000	5.630000	INF
+4	en	en	PRE	PRE	_	2	dep	_	_	5.640000	5.690000	INF
+5	secteur	secteur	NOM	NOM	_	4	dep	_	_	5.700000	6.040000	INF
+6	psychiatrique	psychiatrique	ADJ	ADJ	_	5	dep	_	_	6.100000	6.510000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-4
+# text = à quel hôpital exerces-tu
+1	à	à	PRE	PRE	_	0	root	_	_	8.120000	8.160000	STE
+2	quel	quel	PRQ	PRQ	_	3	dep	_	_	8.170000	8.370000	STE
+3	hôpital	hôpital	NOM	NOM	_	1	dep	_	_	8.380000	8.740000	STE
+4	exerces-tu	exerces-tu	ADJ	ADJ	_	3	dep	_	_	8.750000	9.380000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-5
+# text = à l'hôpital du NNAAMMEE à NNAAMMEE
+1	à	à	PRE	PRE	_	0	root	_	_	10.040000	10.090000	INF
+2	l'	le	DET	DET	_	3	spe	_	_	10.100000	10.180000	INF
+3	hôpital	hôpital	NOM	NOM	_	1	dep	_	_	10.190000	10.540000	INF
+4	du	de+le	PRE	PRE	_	3	dep	_	_	10.550000	10.600000	INF
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	10.610000	11.150000	INF
+6	à	à	PRE	PRE	_	3	dep	_	_	11.160000	11.200000	INF
+7	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	11.400000	11.600000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-6
+# text = euh j'aimerais aussi savoir quelles études
+1	euh	euh	INT	INT	_	3	dm	_	_	12.920000	13.070000	STE
+2	j'	je	CLS	CLS	_	3	subj	_	_	13.080000	13.150000	STE
+3	aimerais	aimer	VRB	VRB	_	0	root	_	_	13.160000	13.480000	STE
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	13.490000	13.790000	STE
+5	savoir	savoir	VNF	VNF	_	3	dep	_	_	13.800000	14.310000	STE
+6	quelles	quel	PRQ	PRQ	_	7	dep	_	_	14.840000	15.040000	STE
+7	études	étude	NOM	NOM	_	5	dep	_	_	15.050000	15.470000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-7
+# text = tu as suivies euh pour aboutir à ton métier
+1	tu	tu	CLS	CLS	_	3	subj	_	_	15.480000	15.640000	STE
+2	as	avoir	VRB	VRB	_	3	aux	_	_	15.650000	15.720000	STE
+3	suivies	suivre	VPP	VPP	_	0	root	_	_	15.730000	16.270000	STE
+4	euh	euh	INT	INT	_	3	dm	_	_	16.280001	16.379999	STE
+5	pour	pour	PRE	PRE	_	3	dep	_	_	16.500000	16.660000	STE
+6	aboutir	aboutir	VNF	VNF	_	5	dep	_	_	16.670000	17.049999	STE
+7	à	à	PRE	PRE	_	6	dep	_	_	17.059999	17.100000	STE
+8	ton	son	DET	DET	_	9	spe	_	_	17.160000	17.240000	STE
+9	métier	métier	NOM	NOM	_	7	dep	_	_	17.250000	17.680000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-8
+# text = eh bien j'ai eu obtenu mon diplôme
+1	eh bien	eh bien	INT	INT	_	5	dm	_	_	19.059999	19.379999	INF
+2	j'	je	CLS	CLS	_	5	subj	_	_	19.389999	19.520000	INF
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	19.530001	19.549999	INF
+4	eu	avoir	VPP	VPP	_	5	aux	_	_	19.559999	19.920000	INF
+5	obtenu	obtenir	VPP	VPP	_	0	root	_	_	19.930000	20.100000	INF
+6	mon	son	DET	DET	_	7	spe	_	_	20.110001	20.440001	INF
+7	diplôme	diplôme	NOM	NOM	_	5	dep	_	_	20.450001	21.049999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-9
+# text = il y a vingt ans
+1	il	il	CLS	CLS	_	3	subj	_	_	21.110001	21.160000	INF
+2	y	y	CLI	CLI	_	3	dep	_	_	21.170000	21.190001	INF
+3	a	avoir	VRB	VRB	_	0	root	_	_	21.200001	21.280001	INF
+4	vingt	vingt	NUM	NUM	_	5	spe	_	_	21.290001	21.469999	INF
+5	ans	an	NOM	NOM	_	3	dep	_	_	21.639999	21.879999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-10
+# text = donc les conditions n'étaient pas vraiment les mêmes que maintenant déjà les études étaient sur deux ans au lieu de trois ans actuellement
+1	donc	donc	ADV	ADV	_	5	periph	_	_	22.200001	22.420000	INF
+2	les	le	DET	DET	_	3	spe	_	_	22.490000	22.650000	INF
+3	conditions	condition	NOM	NOM	_	5	subj	_	_	22.770000	23.219999	INF
+4	n'	ne	CLN	CLN	_	5	dep	_	_	23.230000	23.280001	INF
+5	étaient	être	VRB	VRB	_	0	root	_	_	23.290001	23.469999	INF
+6	pas	pas	ADN	ADN	_	5	dep	_	_	23.480000	23.620001	INF
+7	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	23.629999	23.969999	INF
+8	les	le	DET	DET	_	9	spe	_	_	23.980000	24.070000	INF
+9	mêmes	même	ADJ	ADJ	_	5	dep	_	_	24.080000	24.330000	INF
+10	que	que	CSU	CSU	_	9	dep	_	_	24.370001	24.440001	INF
+11	maintenant	maintenant	ADV	ADV	_	15	periph	_	_	24.450001	24.879999	INF
+12	déjà	déjà	ADV	ADV	_	15	periph	_	_	25.549999	25.850000	INF
+13	les	le	DET	DET	_	14	spe	_	_	25.860001	26.020000	INF
+14	études	étude	NOM	NOM	_	15	subj	_	_	26.030001	26.360001	INF
+15	étaient	être	VRB	VRB	_	10	dep	_	_	26.370001	26.680000	INF
+16	sur	sur	PRE	PRE	_	15	dep	_	_	26.690001	26.889999	INF
+17	deux	deux	NUM	NUM	_	18	spe	_	_	26.900000	27.100000	INF
+18	ans	an	NOM	NOM	_	16	dep	_	_	27.160000	27.299999	INF
+19	au lieu	au lieu	ADV	ADV	_	15	dep	_	_	27.340000	27.510000	INF
+20	de	de	PRE	PRE	_	15	dep	_	_	27.520000	27.639999	INF
+21	trois	trois	NUM	NUM	_	22	spe	_	_	27.730000	27.920000	INF
+22	ans	an	NOM	NOM	_	20	dep	_	_	27.969999	28.020000	INF
+23	actuellement	actuellement	ADV	ADV	_	15	dep	_	_	28.030001	28.570000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-11
+# text = donc j'ai passé euh un petit concours pour rentrer à l'école d'infirmières de l'hôpital psychiatrique de NNAAMMEE où j'habitais
+1	donc	donc	ADV	ADV	_	4	periph	_	_	29.240000	29.360001	INF
+2	j'	je	CLS	CLS	_	4	subj	_	_	29.370001	29.459999	INF
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	29.469999	29.520000	INF
+4	passé	passer	VPP	VPP	_	0	root	_	_	29.580000	30.080000	INF
+5	euh	euh	INT	INT	_	4	dm	_	_	30.090000	30.129999	INF
+6	un	un	DET	DET	_	8	spe	_	_	30.139999	30.290001	INF
+7	petit	petit	ADJ	ADJ	_	8	dep	_	_	30.299999	30.400000	INF
+8	concours	concours	NOM	NOM	_	4	dep	_	_	30.490000	30.920000	INF
+9	pour	pour	PRE	PRE	_	4	dep	_	_	31.049999	31.170000	INF
+10	rentrer	rentrer	VNF	VNF	_	9	dep	_	_	31.180000	31.370001	INF
+11	à	à	PRE	PRE	_	10	dep	_	_	31.379999	31.400000	INF
+12	l'	le	DET	DET	_	13	spe	_	_	31.410000	31.450001	INF
+13	école	école	NOM	NOM	_	11	dep	_	_	31.459999	31.690001	INF
+14	d'	de	PRE	PRE	_	13	dep	_	_	31.700001	31.750000	INF
+15	infirmières	infirmier	NOM	NOM	_	14	dep	_	_	31.760000	32.330002	INF
+16	de	de	PRE	PRE	_	15	dep	_	_	32.380001	32.509998	INF
+17	l'	le	DET	DET	_	18	spe	_	_	32.639999	32.660000	INF
+18	hôpital	hôpital	NOM	NOM	_	16	dep	_	_	32.669998	32.880001	INF
+19	psychiatrique	psychiatrique	ADJ	ADJ	_	18	dep	_	_	33.139999	33.490002	INF
+20	de	de	PRE	PRE	_	18	dep	_	_	34.090000	34.320000	INF
+21	NNAAMMEE	NOM	NOM	NOM	_	20	dep	_	_	34.410000	34.599998	INF
+22	où	où	PRQ	PRQ	_	24	dep	_	_	34.610001	34.709999	INF
+23	j'	je	CLS	CLS	_	24	subj	_	_	34.720001	34.740002	INF
+24	habitais	habiter	VRB	VRB	_	21	dep	_	_	34.820000	35.150002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-12
+# text = j'ai été reçue et j'ai suivi les cours sur deux ans
+1	j'	je	CLS	CLS	_	4	subj	_	_	36.209999	36.230000	INF
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	36.240002	36.340000	INF
+3	été	être	VPP	VPP	_	4	aux	_	_	36.400002	36.490002	INF
+4	reçue	recevoir	VPP	VPP	_	0	root	_	_	36.500000	36.680000	INF
+5	et	et	COO	COO	_	8	mark	_	_	36.830002	37.049999	INF
+6	j'	je	CLS	CLS	_	8	subj	_	_	37.060001	37.180000	INF
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	37.189999	37.490002	INF
+8	suivi	suivre	VPP	VPP	_	4	para	_	_	37.820000	38.070000	INF
+9	les	le	DET	DET	_	10	spe	_	_	38.119999	38.189999	INF
+10	cours	cour	NOM	NOM	_	8	dep	_	_	38.299999	38.549999	INF
+11	sur	sur	PRE	PRE	_	8	dep	_	_	38.680000	38.759998	INF
+12	deux	deux	NUM	NUM	_	13	spe	_	_	38.770000	38.900002	INF
+13	ans	an	NOM	NOM	_	11	dep	_	_	38.910000	38.930000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-13
+# text = j'aimerais maintenant que tu me parles plus précisément du travail que tu effectues au sein
+1	j'	je	CLS	CLS	_	2	subj	_	_	40.970001	41.040001	STE
+2	aimerais	aimer	VRB	VRB	_	0	root	_	_	41.049999	41.419998	STE
+3	maintenant	maintenant	ADV	ADV	_	2	dep	_	_	41.430000	41.849998	STE
+4	que	que	CSU	CSU	_	2	dep	_	_	41.959999	42.000000	STE
+5	tu	tu	CLS	CLS	_	7	subj	_	_	42.119999	42.180000	STE
+6	me	me	CLI	CLI	_	7	dep	_	_	42.189999	42.320000	STE
+7	parles	parler	VRB	VRB	_	4	dep	_	_	42.430000	42.830002	STE
+8	plus	plus	ADN	ADN	_	7	dep	_	_	42.950001	43.090000	STE
+9	précisément	précisément	ADV	ADV	_	7	dep	_	_	43.099998	43.750000	STE
+10	du	de+le	PRE	PRE	_	7	dep	_	_	43.759998	43.830002	STE
+11	travail	travail	NOM	NOM	_	10	dep	_	_	43.950001	44.259998	STE
+12	que	que	CSU	CSU	_	11	dep	_	_	44.330002	44.410000	STE
+13	tu	tu	CLS	CLS	_	14	subj	_	_	44.450001	44.540001	STE
+14	effectues	effectuer	VRB	VRB	_	12	dep	_	_	44.549999	45.049999	STE
+15	au	à+le	PRE	PRE	_	14	dep	_	_	45.090000	45.110001	STE
+16	sein	sein	NOM	NOM	_	15	dep	_	_	45.180000	45.369999	STE
+
+# sent_id = cefc-coralrom-ffamdl09-14
+# text = même de l'hôpital
+1	même	même	ADV	ADV	_	2	dep	_	_	45.380001	45.730000	STE
+2	de	de	PRE	PRE	_	0	root	_	_	45.740002	45.770000	STE
+3	l'	le	DET	DET	_	4	spe	_	_	45.779999	45.799999	STE
+4	hôpital	hôpital	NOM	NOM	_	2	dep	_	_	45.810001	46.230000	STE
+
+# sent_id = cefc-coralrom-ffamdl09-15
+# text = eh bien alors euh je je vais t'expliquer un petit peu notre façon de travailler
+1	eh bien	eh bien	INT	INT	_	6	dm	_	_	47.590000	47.849998	INF
+2	alors	alors	ADV	ADV	_	6	periph	_	_	47.860001	48.080002	INF
+3	euh	euh	INT	INT	_	2	dm	_	_	48.090000	48.110001	INF
+4	je	je	CLS	CLS	_	6	subj	_	_	48.119999	48.529999	INF
+5	je	je	CLS	CLS	_	4	para	_	_	48.540001	48.759998	INF
+6	vais	aller	VRB	VRB	_	0	root	_	_	48.770000	48.959999	INF
+7	t'	te	CLI	CLI	_	8	dep	_	_	48.970001	49.000000	INF
+8	expliquer	expliquer	VNF	VNF	_	6	dep	_	_	49.009998	49.459999	INF
+9	un	un	DET	DET	_	11	spe	_	_	49.470001	49.560001	INF
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	49.570000	49.700001	INF
+11	peu	peu	NOM	NOM	_	8	dep	_	_	49.779999	49.849998	INF
+12	notre	son	DET	DET	_	13	spe	_	_	49.860001	50.220001	INF
+13	façon	façon	NOM	NOM	_	11	para	_	_	50.230000	50.590000	INF
+14	de	de	PRE	PRE	_	13	dep	_	_	50.599998	50.639999	INF
+15	travailler	travailler	VNF	VNF	_	14	dep	_	_	50.689999	51.160000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-16
+# text = je peux dire déjà que nous sommes divisés en deux secteurs euh géographiquement
+1	je	je	CLS	CLS	_	2	subj	_	_	52.110001	52.130001	INF
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	52.180000	52.259998	INF
+3	dire	dire	VNF	VNF	_	2	dep	_	_	52.270000	52.470001	INF
+4	déjà	déjà	ADV	ADV	_	3	dep	_	_	52.480000	52.820000	INF
+5	que	que	CSU	CSU	_	3	dep	_	_	52.950001	53.009998	INF
+6	nous	nous	CLS	CLS	_	8	subj	_	_	53.020000	53.189999	INF
+7	sommes	être	VRB	VRB	_	8	aux	_	_	53.200001	53.389999	INF
+8	divisés	diviser	VPP	VPP	_	5	dep	_	_	53.400002	53.810001	INF
+9	en	en	PRE	PRE	_	8	dep	_	_	53.820000	53.939999	INF
+10	deux	deux	NUM	NUM	_	11	spe	_	_	53.950001	54.080002	INF
+11	secteurs	secteur	NOM	NOM	_	9	dep	_	_	54.090000	54.799999	INF
+12	euh	euh	INT	INT	_	11	dm	_	_	54.810001	55.009998	INF
+13	géographiquement	géographiquement	ADV	ADV	_	8	dep	_	_	55.200001	55.880001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-17
+# text = secteur dix-neuf qui s'occupe de NNAAMMEE NNAAMMEE NNAAMMEE
+1	secteur	secteur	NOM	NOM	_	0	root	_	_	56.669998	56.939999	INF
+2	dix-neuf	dix-neuf	NUM	NUM	_	1	dep	_	_	56.950001	58.320000	INF
+3	qui	qui	PRQ	PRQ	_	5	dep	_	_	58.330002	58.380001	INF
+4	s'	se	CLI	CLI	_	5	dep	_	_	58.490002	58.520000	INF
+5	occupe	occuper	VRB	VRB	_	2	dep	_	_	58.529999	58.639999	INF
+6	de	de	PRE	PRE	_	5	dep	_	_	58.820000	59.060001	INF
+7	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	59.770000	60.040001	INF
+8	NNAAMMEE	NOM	NOM	NOM	_	7	dep	_	_	60.400002	60.680000	INF
+9	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	60.939999	61.110001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-18
+# text = et le secteur vingt qui s'occupe de toute la NNAAMMEE NNAAMMEE NNAAMMEE NNAAMMEE NNAAMMEE NNAAMMEE
+1	et	et	COO	COO	_	7	mark	_	_	62.290001	62.349998	INF
+2	le	le	DET	DET	_	3	spe	_	_	62.360001	62.450001	INF
+3	secteur	secteur	NOM	NOM	_	7	subj	_	_	62.459999	62.930000	INF
+4	vingt	vingt	NUM	NUM	_	3	dep	_	_	62.939999	63.250000	INF
+5	qui	qui	PRQ	PRQ	_	7	dep	_	_	63.529999	63.619999	INF
+6	s'	se	CLI	CLI	_	7	dep	_	_	63.630001	63.740002	INF
+7	occupe	occuper	VRB	VRB	_	0	root	_	_	63.750000	64.010002	INF
+8	de	de	PRE	PRE	_	7	dep	_	_	64.019997	64.129997	INF
+9	toute	tout	ADJ	ADJ	_	11	dep	_	_	64.209999	64.309998	INF
+10	la	le	DET	DET	_	11	spe	_	_	64.320000	64.419998	INF
+11	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	64.550003	65.019997	INF
+12	NNAAMMEE	NOM	NOM	NOM	_	11	dep	_	_	65.059998	65.349998	INF
+13	NNAAMMEE	NOM	NOM	NOM	_	12	dep	_	_	65.589996	65.910004	INF
+14	NNAAMMEE	NOM	NOM	NOM	_	13	dep	_	_	65.919998	66.320000	INF
+15	NNAAMMEE	NOM	NOM	NOM	_	14	dep	_	_	66.330002	66.529999	INF
+16	NNAAMMEE	NOM	NOM	NOM	_	15	dep	_	_	67.050003	67.309998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-19
+# text = et puis bon euh ça c'est pour euh les la division géographique hein
+1	et puis	et puis	COO	COO	_	6	mark	_	_	70.709999	71.150002	INF
+2	bon	bon	INT	INT	_	1	dm	_	_	71.160004	71.739998	INF
+3	euh	euh	INT	INT	_	2	dm	_	_	71.750000	71.769997	INF
+4	ça	ça	PRO	PRO	_	6	periph	_	_	71.779999	71.910004	INF
+5	c'	ce	CLS	CLS	_	6	subj	_	_	71.919998	72.019997	INF
+6	est	être	VRB	VRB	_	0	root	_	_	72.029999	72.059998	INF
+7	pour	pour	PRE	PRE	_	6	dep	_	_	72.139999	72.309998	INF
+8	euh	euh	INT	INT	_	7	dm	_	_	72.320000	72.389999	INF
+9	les	le	DET	DET	_	11	spe	_	_	72.400002	72.480003	INF
+10	la	le	DET	DET	_	9	para	_	_	72.489998	72.650002	INF
+11	division	division	NOM	NOM	_	7	dep	_	_	72.660004	73.059998	INF
+12	géographique	géographique	ADJ	ADJ	_	11	dep	_	_	73.070000	73.709999	INF
+13	hein	hein	INT	INT	_	12	dm	_	_	73.849998	73.959999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-20
+# text = et dans l'hôpital lui-même nous avons trois services deux services libres l'est un et l'est deux et un service fermé où je travaille actuellement
+1	et	et	COO	COO	_	7	mark	_	_	74.519997	74.620003	INF
+2	dans	dans	PRE	PRE	_	7	periph	_	_	74.629997	74.800003	INF
+3	l'	le	DET	DET	_	4	spe	_	_	74.809998	74.830002	INF
+4	hôpital	hôpital	NOM	NOM	_	2	dep	_	_	74.879997	75.330002	INF
+5	lui-même	moi-même	PRO	PRO	_	7	periph	_	_	75.339996	75.949997	INF
+6	nous	nous	CLS	CLS	_	7	subj	_	_	76.349998	76.459999	INF
+7	avons	avoir	VRB	VRB	_	0	root	_	_	76.470001	76.629997	INF
+8	trois	trois	NUM	NUM	_	9	spe	_	_	76.690002	76.809998	INF
+9	services	service	NOM	NOM	_	7	dep	_	_	76.820000	77.339996	INF
+10	deux	deux	NUM	NUM	_	11	spe	_	_	77.879997	78.120003	INF
+11	services	service	NOM	NOM	_	7	dep	_	_	78.129997	78.860001	INF
+12	libres	libre	ADJ	ADJ	_	11	dep	_	_	78.949997	79.230003	INF
+13	l'	le	DET	DET	_	14	spe	_	_	79.440002	79.540001	INF
+14	est	est	NOM	NOM	_	11	para	_	_	79.550003	79.790001	INF
+15	un	un	DET	DET	_	14	dep	_	_	79.800003	80.230003	INF
+16	et	et	COO	COO	_	18	mark	_	_	80.400002	80.440002	INF
+17	l'	le	DET	DET	_	18	spe	_	_	80.449997	80.470001	INF
+18	est	est	NOM	NOM	_	14	para	_	_	80.570000	80.599998	INF
+19	deux	deux	NUM	NUM	_	18	dep	_	_	80.610001	80.709999	INF
+20	et	et	COO	COO	_	22	mark	_	_	81.540001	81.589996	INF
+21	un	un	DET	DET	_	22	spe	_	_	81.599998	81.669998	INF
+22	service	service	NOM	NOM	_	14	para	_	_	81.680000	82.050003	INF
+23	fermé	fermé	ADJ	ADJ	_	22	dep	_	_	82.059998	82.540001	INF
+24	où	où	PRQ	PRQ	_	26	dep	_	_	82.650002	82.699997	INF
+25	je	je	CLS	CLS	_	26	subj	_	_	82.709999	82.790001	INF
+26	travaille	travailler	VRB	VRB	_	22	dep	_	_	82.879997	83.180000	INF
+27	actuellement	actuellement	ADV	ADV	_	26	dep	_	_	83.309998	83.709999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-21
+# text = alors euh le service fermé s'occupe de des personnes qui ont bien besoin d'être recadrées
+1	alors	alors	ADV	ADV	_	5	periph	_	_	84.870003	85.029999	INF
+2	euh	euh	INT	INT	_	1	dm	_	_	85.040001	85.070000	INF
+3	le	le	DET	DET	_	4	spe	_	_	85.080002	85.099998	INF
+4	service	service	NOM	NOM	_	5	subj	_	_	85.110001	85.610001	INF
+5	fermé	fermer	VPP	VPP	_	0	root	_	_	85.669998	86.129997	INF
+6	s'	se	CLI	CLI	_	7	dep	_	_	86.290001	86.330002	INF
+7	occupe	occuper	VRB	VRB	_	5	dep	_	_	86.339996	86.980003	INF
+8	de	de	PRE	PRE	_	7	dep	_	_	87.029999	87.610001	INF
+9	des	de	PRE	PRE	_	8	para	_	_	87.970001	88.050003	INF
+10	personnes	personne	NOM	NOM	_	9	dep	_	_	88.059998	88.400002	INF
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	88.410004	88.459999	INF
+12	ont	avoir	VRB	VRB	_	10	dep	_	_	88.570000	88.690002	INF
+13	bien	bien	ADV	ADV	_	12	dep	_	_	88.769997	88.910004	INF
+14	besoin	besoin	NOM	NOM	_	12	dep	_	_	88.919998	89.239998	INF
+15	d'	de	PRE	PRE	_	14	dep	_	_	89.250000	89.269997	INF
+16	être	être	VNF	VNF	_	17	aux	_	_	89.279999	89.379997	INF
+17	recadrées	recadrer	VPP	VPP	_	15	dep	_	_	89.500000	90.309998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-22
+# text = c'était des malades qui étaient en service libre
+1	c'	ce	CLS	CLS	_	2	subj	_	_	91.300003	91.330002	INF
+2	était	être	VRB	VRB	_	0	root	_	_	91.339996	91.489998	INF
+3	des	de	PRE	PRE	_	2	dep	_	_	91.500000	91.550003	INF
+4	malades	malade	NOM	NOM	_	3	dep	_	_	91.559998	92.019997	INF
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	92.110001	92.160004	INF
+6	étaient	être	VRB	VRB	_	4	dep	_	_	92.169998	92.309998	INF
+7	en	en	PRE	PRE	_	6	dep	_	_	92.320000	92.430000	INF
+8	service	service	NOM	NOM	_	7	dep	_	_	92.440002	92.879997	INF
+9	libre	libre	ADJ	ADJ	_	8	dep	_	_	93.050003	93.330002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-23
+# text = et qui ont eu quelques problèmes parce que ils ont fugué
+1	et	et	COO	COO	_	4	mark	_	_	93.739998	93.790001	INF
+2	qui	qui	PRQ	PRQ	_	4	subj	_	_	93.889999	93.989998	INF
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	94.000000	94.199997	INF
+4	eu	avoir	VPP	VPP	_	0	root	_	_	94.209999	94.239998	INF
+5	quelques	quelque	ADJ	ADJ	_	6	spe	_	_	94.309998	94.570000	INF
+6	problèmes	problème	NOM	NOM	_	4	dep	_	_	94.650002	95.230003	INF
+7	parce que	parce que	CSU	CSU	_	4	dep	_	_	95.239998	95.610001	INF
+8	ils	il	CLS	CLS	_	10	subj	_	_	95.620003	95.699997	INF
+9	ont	avoir	VRB	VRB	_	10	aux	_	_	95.709999	95.760002	INF
+10	fugué	fuguer	VPP	VPP	_	7	dep	_	_	95.769997	96.459999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-24
+# text = ou ils ont eu des des contacts un petit peu agressifs avec les autres malades ou même envers le personnel soignant
+1	ou	ou	COO	COO	_	4	mark	_	_	97.080002	97.150002	INF
+2	ils	il	CLS	CLS	_	4	subj	_	_	97.160004	97.209999	INF
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	97.220001	97.309998	INF
+4	eu	avoir	VPP	VPP	_	0	root	_	_	97.320000	97.339996	INF
+5	des	de	PRE	PRE	_	4	dep	_	_	97.349998	97.489998	INF
+6	des	de	PRE	PRE	_	5	para	_	_	97.570000	97.639999	INF
+7	contacts	contact	NOM	NOM	_	6	dep	_	_	97.720001	98.089996	INF
+8	un	un	DET	DET	_	10	spe	_	_	98.099998	98.180000	INF
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	98.190002	98.309998	INF
+10	peu	peu	NOM	NOM	_	7	para	_	_	98.400002	98.449997	INF
+11	agressifs	agressif	ADJ	ADJ	_	10	dep	_	_	98.459999	98.940002	INF
+12	avec	avec	PRE	PRE	_	4	dep	_	_	98.949997	99.139999	INF
+13	les	le	DET	DET	_	15	spe	_	_	99.209999	99.360001	INF
+14	autres	autre	ADJ	ADJ	_	15	dep	_	_	99.370003	99.470001	INF
+15	malades	malade	NOM	NOM	_	12	dep	_	_	99.519997	99.879997	INF
+16	ou	ou	COO	COO	_	18	mark	_	_	99.959999	100.040001	INF
+17	même	même	ADV	ADV	_	18	dep	_	_	100.050003	100.379997	INF
+18	envers	envers	PRE	PRE	_	12	para	_	_	100.389999	100.669998	INF
+19	le	le	DET	DET	_	20	spe	_	_	100.769997	100.820000	INF
+20	personnel	personnel	NOM	NOM	_	18	dep	_	_	100.900002	101.260002	INF
+21	soignant	soignant	ADJ	ADJ	_	20	dep	_	_	101.269997	101.660004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-25
+# text = donc ils sont en service fermé pour euh retrouver un petit peu leurs limites
+1	donc	donc	ADV	ADV	_	3	periph	_	_	102.489998	102.660004	INF
+2	ils	il	CLS	CLS	_	3	subj	_	_	102.760002	102.879997	INF
+3	sont	être	VRB	VRB	_	0	root	_	_	102.930000	102.989998	INF
+4	en	en	PRE	PRE	_	3	dep	_	_	103.000000	103.139999	INF
+5	service	service	NOM	NOM	_	4	dep	_	_	103.150002	103.510002	INF
+6	fermé	fermer	VPP	VPP	_	5	dep	_	_	103.519997	103.900002	INF
+7	pour	pour	PRE	PRE	_	3	dep	_	_	104.800003	104.889999	INF
+8	euh	euh	INT	INT	_	7	dm	_	_	104.900002	104.919998	INF
+9	retrouver	retrouver	VNF	VNF	_	7	dep	_	_	104.930000	105.879997	INF
+10	un	un	DET	DET	_	12	spe	_	_	105.889999	106.010002	INF
+11	petit	petit	ADJ	ADJ	_	12	dep	_	_	106.019997	106.139999	INF
+12	peu	peu	NOM	NOM	_	9	dep	_	_	106.190002	106.290001	INF
+13	leurs	son	DET	DET	_	14	spe	_	_	106.300003	106.430000	INF
+14	limites	limite	NOM	NOM	_	12	para	_	_	106.440002	106.839996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-26
+# text = parce qu'ils sont un petit peu éparpillés ce qu'on appelle s éparpillé en s terme s psychiatrique ils savent plus très bien
+1	parce qu'	parce que	CSU	CSU	_	20	periph	_	_	107.040001	107.180000	INF
+2	ils	il	CLS	CLS	_	3	subj	_	_	107.190002	107.239998	INF
+3	sont	être	VRB	VRB	_	1	dep	_	_	107.250000	107.330002	INF
+4	un	un	DET	DET	_	6	spe	_	_	107.339996	107.410004	INF
+5	petit	petit	ADJ	ADJ	_	6	dep	_	_	107.419998	107.559998	INF
+6	peu	peu	ADV	ADV	_	7	dep	_	_	107.669998	107.730003	INF
+7	éparpillés	éparpiller	ADJ	ADJ	_	3	dep	_	_	107.739998	108.410004	INF
+8	ce	ce	PRO	PRO	_	3	dep	_	_	108.419998	108.449997	INF
+9	qu'	que	PRQ	PRQ	_	11	dep	_	_	108.459999	108.480003	INF
+10	on	on	CLS	CLS	_	11	subj	_	_	108.540001	108.660004	INF
+11	appelle	appeler	VRB	VRB	_	8	dep	_	_	108.669998	108.830002	INF
+12	s	s	X	X	_	13	dep	_	_	108.830002	108.830002	INF
+13	éparpillé	éparpiller	VPP	VPP	_	11	dep	_	_	108.839996	109.349998	INF
+14	en	en	PRE	PRE	_	13	dep	_	_	109.360001	109.400002	INF
+15	s	s	NOM	NOM	_	14	dep	_	_	109.400002	109.400002	INF
+16	terme	terme	NOM	NOM	_	15	dep	_	_	109.480003	109.650002	INF
+17	s	s	X	X	_	16	disflink	_	_	109.650002	109.650002	INF
+18	psychiatrique	psychiatrique	ADJ	ADJ	_	16	dep	_	_	109.730003	110.250000	INF
+19	ils	il	CLS	CLS	_	20	subj	_	_	110.720001	110.769997	INF
+20	savent	savoir	VRB	VRB	_	0	root	_	_	110.779999	110.889999	INF
+21	plus	plus	ADN	ADN	_	23	dep	_	_	111.040001	111.120003	INF
+22	très	très	ADV	ADV	_	23	dep	_	_	111.279999	111.470001	INF
+23	bien	bien	ADV	ADV	_	20	dep	_	_	111.480003	111.839996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-27
+# text = leurs repères on les met en services euh
+1	leurs	son	DET	DET	_	2	spe	_	_	111.849998	112.019997	INF
+2	repères	repère	NOM	NOM	_	5	periph	_	_	112.059998	112.500000	INF
+3	on	on	CLS	CLS	_	5	subj	_	_	113.000000	113.040001	INF
+4	les	le	CLI	CLI	_	5	dep	_	_	113.050003	113.120003	INF
+5	met	mettre	VRB	VRB	_	0	root	_	_	113.129997	113.279999	INF
+6	en	en	PRE	PRE	_	5	dep	_	_	113.290001	113.349998	INF
+7	services	service	NOM	NOM	_	6	dep	_	_	113.360001	114.070000	INF
+8	euh	euh	INT	INT	_	7	dm	_	_	114.080002	114.099998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-28
+# text = fermés pour justement essayer de les remettre un petit peu dans les rails
+1	fermés	fermer	VPP	VPP	_	0	root	_	_	114.330002	114.510002	INF
+2	pour	pour	PRE	PRE	_	1	dep	_	_	114.589996	114.739998	INF
+3	justement	justement	ADV	ADV	_	4	dep	_	_	114.870003	115.139999	INF
+4	essayer	essayer	VNF	VNF	_	2	dep	_	_	115.150002	115.480003	INF
+5	de	de	PRE	PRE	_	4	dep	_	_	115.489998	115.519997	INF
+6	les	le	CLI	CLI	_	7	dep	_	_	115.529999	115.620003	INF
+7	remettre	remettre	VNF	VNF	_	5	dep	_	_	115.629997	115.860001	INF
+8	un	un	DET	DET	_	10	spe	_	_	115.870003	115.900002	INF
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	115.910004	116.050003	INF
+10	peu	peu	NOM	NOM	_	7	dep	_	_	116.059998	116.110001	INF
+11	dans	dans	PRE	PRE	_	7	dep	_	_	116.120003	116.279999	INF
+12	les	le	DET	DET	_	13	spe	_	_	116.680000	116.769997	INF
+13	rails	rail	NOM	NOM	_	11	dep	_	_	116.919998	117.000000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-29
+# text = j'aimerais savoir euh si les malades euh qui sortent de l'hôpital ont encore des liens avec les services médicaux
+1	j'	je	CLS	CLS	_	2	subj	_	_	119.059998	119.120003	STE
+2	aimerais	aimer	VRB	VRB	_	0	root	_	_	119.129997	119.379997	STE
+3	savoir	savoir	VNF	VNF	_	2	dep	_	_	119.389999	120.000000	STE
+4	euh	euh	INT	INT	_	3	dm	_	_	120.010002	120.040001	STE
+5	si	si	CSU	CSU	_	3	dep	_	_	120.150002	120.309998	STE
+6	les	le	DET	DET	_	7	spe	_	_	120.320000	120.389999	STE
+7	malades	malade	NOM	NOM	_	14	subj	_	_	120.400002	121.309998	STE
+8	euh	euh	INT	INT	_	7	dm	_	_	121.320000	121.339996	STE
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	121.919998	122.019997	STE
+10	sortent	sortir	VRB	VRB	_	7	dep	_	_	122.029999	122.419998	STE
+11	de	de	PRE	PRE	_	10	dep	_	_	122.430000	122.529999	STE
+12	l'	le	DET	DET	_	13	spe	_	_	122.540001	122.559998	STE
+13	hôpital	hôpital	NOM	NOM	_	11	dep	_	_	122.570000	123.099998	STE
+14	ont	avoir	VRB	VRB	_	5	dep	_	_	123.540001	123.589996	STE
+15	encore	encore	ADV	ADV	_	14	dep	_	_	123.599998	124.150002	STE
+16	des	de	PRE	PRE	_	14	dep	_	_	124.160004	124.339996	STE
+17	liens	lien	NOM	NOM	_	16	dep	_	_	124.349998	124.639999	STE
+18	avec	avec	PRE	PRE	_	14	dep	_	_	124.650002	124.800003	STE
+19	les	le	DET	DET	_	20	spe	_	_	124.809998	124.879997	STE
+20	services	service	NOM	NOM	_	18	dep	_	_	124.889999	125.349998	STE
+21	médicaux	médical	ADJ	ADJ	_	20	dep	_	_	125.360001	125.870003	STE
+
+# sent_id = cefc-coralrom-ffamdl09-30
+# text = ah oui oui euh on a une autre façon de travailler
+1	ah	ah	INT	INT	_	6	dm	_	_	126.860001	126.949997	INF
+2	oui	oui	INT	INT	_	1	dm	_	_	126.959999	127.209999	INF
+3	oui	oui	INT	INT	_	2	para	_	_	127.220001	127.290001	INF
+4	euh	euh	INT	INT	_	3	dm	_	_	127.730003	127.919998	INF
+5	on	on	CLS	CLS	_	6	subj	_	_	127.930000	128.279999	INF
+6	a	avoir	VRB	VRB	_	0	root	_	_	128.289993	128.320007	INF
+7	une	un	DET	DET	_	9	spe	_	_	128.330002	128.419998	INF
+8	autre	autre	ADJ	ADJ	_	9	dep	_	_	128.429993	128.509995	INF
+9	façon	façon	NOM	NOM	_	6	dep	_	_	128.619995	128.929993	INF
+10	de	de	PRE	PRE	_	9	dep	_	_	128.940002	128.960007	INF
+11	travailler	travailler	VNF	VNF	_	10	dep	_	_	129.070007	129.539993	INF
+
+# sent_id = cefc-coralrom-ffamdl09-31
+# text = c'est de l'extra-hospitalier
+1	c'	ce	CLS	CLS	_	2	subj	_	_	129.550003	129.690002	INF
+2	est	être	VRB	VRB	_	0	root	_	_	129.699997	129.800003	INF
+3	de	de	PRE	PRE	_	2	dep	_	_	129.809998	129.869995	INF
+4	l'	le	DET	DET	_	5	spe	_	_	129.880005	129.899994	INF
+5	extra-hospitalier	extra-hospitalier	NOM	NOM	_	3	dep	_	_	129.910004	130.869995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-32
+# text = alors nous avons à l'extérieur les D H M
+1	alors	alors	ADV	ADV	_	3	periph	_	_	131.669998	131.899994	INF
+2	nous	nous	CLS	CLS	_	3	subj	_	_	131.910004	132.130005	INF
+3	avons	avoir	VRB	VRB	_	0	root	_	_	132.139999	132.460007	INF
+4	à	à	PRE	PRE	_	3	dep	_	_	132.470001	132.509995	INF
+5	l'	le	DET	DET	_	6	spe	_	_	132.520004	132.550003	INF
+6	extérieur	extérieur	NOM	NOM	_	4	dep	_	_	132.559998	133.080002	INF
+7	les	le	DET	DET	_	8	spe	_	_	133.089996	133.240005	INF
+8	D	D	NOM	NOM	_	6	para	_	_	133.320007	133.520004	INF
+9	H	H	NOM	NOM	_	8	dep	_	_	133.740005	134.009995	INF
+10	M	Monsieur	NOM	NOM	_	9	dep	_	_	134.020004	134.179993	INF
+
+# sent_id = cefc-coralrom-ffamdl09-33
+# text = alors c'est-à-dire dispensaires d'hygiène mentale
+1	alors	alors	ADV	ADV	_	3	periph	_	_	135.130005	135.369995	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	135.380005	135.410004	INF
+3	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	135.419998	135.770004	INF
+4	dispensaires	dispensaire	NOM	NOM	_	3	dep	_	_	135.779999	136.500000	INF
+5	d'	de	PRE	PRE	_	4	dep	_	_	136.800003	136.820007	INF
+6	hygiène	hygiène	NOM	NOM	_	5	dep	_	_	136.860001	137.309998	INF
+7	mentale	mental	ADJ	ADJ	_	6	dep	_	_	137.320007	137.850006	INF
+
+# sent_id = cefc-coralrom-ffamdl09-34
+# text = là en principe ce sont des malades qui sont sortis euh
+1	là	là	ADV	ADV	_	5	periph	_	_	139.000000	139.139999	INF
+2	en	en	PRE	PRE	_	5	periph	_	_	139.149994	139.220001	INF
+3	principe	principe	NOM	NOM	_	2	dep	_	_	139.229996	139.669998	INF
+4	ce	ce	CLS	CLS	_	5	subj	_	_	139.820007	139.929993	INF
+5	sont	être	VRB	VRB	_	0	root	_	_	139.940002	140.009995	INF
+6	des	de	PRE	PRE	_	5	dep	_	_	140.020004	140.139999	INF
+7	malades	malade	NOM	NOM	_	6	dep	_	_	140.149994	140.419998	INF
+8	qui	qui	PRQ	PRQ	_	10	subj	_	_	140.490005	140.570007	INF
+9	sont	être	VRB	VRB	_	10	aux	_	_	140.580002	140.750000	INF
+10	sortis	sortir	VPP	VPP	_	7	dep	_	_	140.759995	141.169998	INF
+11	euh	euh	INT	INT	_	10	dm	_	_	141.179993	141.199997	INF
+
+# sent_id = cefc-coralrom-ffamdl09-35
+# text = il y a un petit moment
+1	il	il	CLS	CLS	_	3	subj	_	_	141.210007	141.259995	INF
+2	y	y	CLI	CLI	_	3	dep	_	_	141.270004	141.309998	INF
+3	a	avoir	VRB	VRB	_	0	root	_	_	141.320007	141.339996	INF
+4	un	un	DET	DET	_	6	spe	_	_	141.350006	141.369995	INF
+5	petit	petit	ADJ	ADJ	_	6	dep	_	_	141.380005	142.169998	INF
+6	moment	moment	NOM	NOM	_	3	dep	_	_	142.529999	142.949997	INF
+
+# sent_id = cefc-coralrom-ffamdl09-36
+# text = mais qui ont bon des difficultés avec les parents parce que les parents ne s'en oc-~ ne s'en occupent pas très bien ils ont pas trop de famille
+1	mais	mais	COO	COO	_	3	mark	_	_	143.490005	143.619995	INF
+2	qui	qui	PRQ	PRQ	_	3	dep	_	_	143.889999	144.089996	INF
+3	ont	avoir	VRB	VRB	_	0	root	_	_	144.100006	144.619995	INF
+4	bon	bon	INT	INT	_	3	dm	_	_	144.660004	145.130005	INF
+5	des	de	PRE	PRE	_	3	dep	_	_	145.419998	145.539993	INF
+6	difficultés	difficulté	NOM	NOM	_	5	dep	_	_	145.550003	146.059998	INF
+7	avec	avec	PRE	PRE	_	3	dep	_	_	146.070007	146.240005	INF
+8	les	le	DET	DET	_	9	spe	_	_	146.250000	146.369995	INF
+9	parents	parent	NOM	NOM	_	7	dep	_	_	146.380005	146.550003	INF
+10	parce que	parce que	CSU	CSU	_	3	dep	_	_	147.350006	147.600006	INF
+11	les	le	DET	DET	_	12	spe	_	_	147.610001	147.720001	INF
+12	parents	parent	NOM	NOM	_	16	subj	_	_	147.729996	148.000000	INF
+13	ne	ne	CLN	CLN	_	16	dep	_	_	148.009995	148.070007	INF
+14	s'	se	CLI	CLI	_	16	dep	_	_	148.110001	148.220001	INF
+15	en	en	CLI	CLI	_	16	dep	_	_	148.229996	148.330002	INF
+16	oc-~	oc-~	VRB	VRB	_	10	dep	_	_	148.339996	148.399994	INF
+17	ne	ne	CLN	CLN	_	20	dep	_	_	148.410004	148.470001	INF
+18	s'	se	CLI	CLI	_	20	dep	_	_	148.550003	148.630005	INF
+19	en	en	CLI	CLI	_	20	dep	_	_	148.639999	148.710007	INF
+20	occupent	occuper	VRB	VRB	_	16	dep	_	_	148.720001	148.889999	INF
+21	pas	pas	ADN	ADN	_	20	dep	_	_	148.949997	149.050003	INF
+22	très	très	ADV	ADV	_	23	dep	_	_	149.199997	149.419998	INF
+23	bien	bien	ADV	ADV	_	20	dep	_	_	149.429993	149.550003	INF
+24	ils	il	CLS	CLS	_	25	subj	_	_	149.559998	149.630005	INF
+25	ont	avoir	VRB	VRB	_	3	para	_	_	149.639999	149.820007	INF
+26	pas	pas	ADN	ADN	_	25	dep	_	_	149.830002	149.960007	INF
+27	trop	trop	ADV	ADV	_	25	dep	_	_	149.970001	150.059998	INF
+28	de	de	PRE	PRE	_	27	dep	_	_	150.210007	150.240005	INF
+29	famille	famille	NOM	NOM	_	28	dep	_	_	150.250000	150.740005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-37
+# text = alors euh chaque jour ils vont dans les dispensaires où une infirmière est détachée à la journée
+1	alors	alors	ADV	ADV	_	6	periph	_	_	151.410004	151.679993	INF
+2	euh	euh	INT	INT	_	1	dm	_	_	151.690002	151.729996	INF
+3	chaque	chaque	DET	DET	_	4	spe	_	_	151.740005	152.080002	INF
+4	jour	jour	NOM	NOM	_	6	periph	_	_	152.089996	152.440002	INF
+5	ils	il	CLS	CLS	_	6	subj	_	_	152.449997	152.500000	INF
+6	vont	aller	VRB	VRB	_	0	root	_	_	152.509995	152.679993	INF
+7	dans	dans	PRE	PRE	_	6	dep	_	_	152.690002	152.800003	INF
+8	les	le	DET	DET	_	9	spe	_	_	152.809998	152.899994	INF
+9	dispensaires	dispensaire	NOM	NOM	_	7	dep	_	_	152.910004	153.589996	INF
+10	où	où	PRQ	PRQ	_	14	dep	_	_	154.250000	154.279999	INF
+11	une	un	DET	DET	_	12	spe	_	_	154.289993	154.509995	INF
+12	infirmière	infirmier	NOM	NOM	_	14	subj	_	_	154.520004	155.179993	INF
+13	est	être	VRB	VRB	_	14	aux	_	_	155.229996	155.309998	INF
+14	détachée	détacher	VPP	VPP	_	9	dep	_	_	155.320007	155.899994	INF
+15	à	à	PRE	PRE	_	14	dep	_	_	155.910004	155.940002	INF
+16	la	le	DET	DET	_	17	spe	_	_	155.949997	156.059998	INF
+17	journée	journée	NOM	NOM	_	15	dep	_	_	156.070007	156.539993	INF
+
+# sent_id = cefc-coralrom-ffamdl09-38
+# text = c'est-à-dire neuf heures dix-sept heures
+1	c'	ce	CLS	CLS	_	2	subj	_	_	156.550003	156.630005	INF
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	156.639999	157.020004	INF
+3	neuf	neuf	NUM	NUM	_	4	spe	_	_	157.029999	157.250000	INF
+4	heures	heure	NOM	NOM	_	2	dep	_	_	157.259995	157.350006	INF
+5	dix-sept	dix-sept	NUM	NUM	_	6	spe	_	_	157.399994	157.660004	INF
+6	heures	heure	NOM	NOM	_	4	para	_	_	157.759995	157.919998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-39
+# text = chaque infirmière fait une activité selon ce qu'elle aime le plus
+1	chaque	chaque	DET	DET	_	2	spe	_	_	158.880005	159.110001	INF
+2	infirmière	infirmier	NOM	NOM	_	3	subj	_	_	159.119995	159.729996	INF
+3	fait	faire	VPP	VPP	_	0	root	_	_	159.740005	159.940002	INF
+4	une	un	DET	DET	_	5	spe	_	_	159.949997	160.050003	INF
+5	activité	activité	NOM	NOM	_	3	dep	_	_	160.059998	160.630005	INF
+6	selon	selon	PRE	PRE	_	3	dep	_	_	160.639999	160.889999	INF
+7	ce	ce	PRO	PRO	_	6	dep	_	_	160.960007	160.990005	INF
+8	qu'	que	PRQ	PRQ	_	10	dep	_	_	161.000000	161.029999	INF
+9	elle	il	CLS	CLS	_	10	subj	_	_	161.039993	161.149994	INF
+10	aime	aimer	VRB	VRB	_	7	dep	_	_	161.160004	161.360001	INF
+11	le	le	DET	DET	_	12	spe	_	_	161.479996	161.500000	INF
+12	plus	plus	NOM	NOM	_	10	dep	_	_	161.509995	161.740005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-40
+# text = alors c'est-à-dire bon la pâtisserie cuisine poterie yoga
+1	alors	alors	ADV	ADV	_	3	periph	_	_	161.880005	162.050003	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	162.110001	162.169998	INF
+3	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	162.179993	162.720001	INF
+4	bon	bon	ADJ	ADJ	_	6	dep	_	_	162.800003	162.960007	INF
+5	la	le	DET	DET	_	6	spe	_	_	163.440002	163.490005	INF
+6	pâtisserie	pâtisserie	NOM	NOM	_	3	dep	_	_	163.550003	164.449997	INF
+7	cuisine	cuisine	NOM	NOM	_	6	dep	_	_	164.630005	165.309998	INF
+8	poterie	poterie	NOM	NOM	_	7	para	_	_	165.960007	166.449997	INF
+9	yoga	yoga	NOM	NOM	_	8	dep	_	_	166.460007	167.119995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-41
+# text = relaxation même vidéo
+1	relaxation	relaxation	NOM	NOM	_	0	root	_	_	167.839996	168.869995	INF
+2	même	même	ADJ	ADJ	_	3	dep	_	_	168.880005	169.520004	INF
+3	vidéo	vidéo	NOM	NOM	_	1	dep	_	_	169.600006	169.839996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-42
+# text = aussi alors l'infirmière arrive euh à neuf heures
+1	aussi	aussi	ADV	ADV	_	5	periph	_	_	169.919998	170.350006	INF
+2	alors	alors	ADV	ADV	_	5	periph	_	_	171.410004	171.520004	INF
+3	l'	le	DET	DET	_	4	spe	_	_	171.529999	171.550003	INF
+4	infirmière	infirmier	NOM	NOM	_	5	subj	_	_	171.559998	172.190002	INF
+5	arrive	arriver	VRB	VRB	_	0	root	_	_	172.199997	172.529999	INF
+6	euh	euh	INT	INT	_	5	dm	_	_	172.539993	172.559998	INF
+7	à	à	PRE	PRE	_	5	dep	_	_	172.570007	172.600006	INF
+8	neuf	neuf	NUM	NUM	_	9	spe	_	_	172.610001	172.889999	INF
+9	heures	heure	NOM	NOM	_	7	dep	_	_	172.899994	173.169998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-43
+# text = elle accueille tous les malades qui sont désireux de participer à l'activité choisie pour la journée
+1	elle	il	CLS	CLS	_	2	subj	_	_	173.550003	173.649994	INF
+2	accueille	accueillir	VRB	VRB	_	0	root	_	_	173.660004	174.229996	INF
+3	tous	tout	ADJ	ADJ	_	5	dep	_	_	174.289993	174.350006	INF
+4	les	le	DET	DET	_	5	spe	_	_	174.360001	174.429993	INF
+5	malades	malade	NOM	NOM	_	2	dep	_	_	174.440002	174.740005	INF
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	174.820007	174.869995	INF
+7	sont	être	VRB	VRB	_	5	dep	_	_	174.880005	175.029999	INF
+8	désireux	désireux	ADJ	ADJ	_	7	dep	_	_	175.039993	175.320007	INF
+9	de	de	PRE	PRE	_	8	dep	_	_	175.330002	175.619995	INF
+10	participer	participer	VNF	VNF	_	9	dep	_	_	175.690002	176.220001	INF
+11	à	à	PRE	PRE	_	10	dep	_	_	176.229996	176.250000	INF
+12	l'	le	DET	DET	_	13	spe	_	_	176.259995	176.279999	INF
+13	activité	activité	NOM	NOM	_	11	dep	_	_	176.289993	176.899994	INF
+14	choisie	choisir	VPP	VPP	_	13	dep	_	_	176.910004	177.399994	INF
+15	pour	pour	PRE	PRE	_	10	dep	_	_	177.570007	177.660004	INF
+16	la	le	DET	DET	_	17	spe	_	_	177.669998	177.729996	INF
+17	journée	journée	NOM	NOM	_	15	dep	_	_	177.740005	178.119995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-44
+# text = on les prend charge
+1	on	on	CLS	CLS	_	3	subj	_	_	179.149994	179.199997	INF
+2	les	le	CLI	CLI	_	3	dep	_	_	179.210007	179.309998	INF
+3	prend	prendre	VRB	VRB	_	0	root	_	_	179.389999	179.559998	INF
+4	charge	charge	NOM	NOM	_	3	dep	_	_	179.570007	179.940002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-45
+# text = et en principe bon ben ils mangent avec nous si on fait l'atelier cuisine
+1	et	et	COO	COO	_	6	mark	_	_	181.080002	181.740005	INF
+2	en	en	PRE	PRE	_	6	periph	_	_	181.850006	181.929993	INF
+3	principe	principe	NOM	NOM	_	2	dep	_	_	181.979996	182.419998	INF
+4	bon ben	bon ben	INT	INT	_	3	dm	_	_	182.470001	182.750000	INF
+5	ils	il	CLS	CLS	_	6	subj	_	_	182.759995	182.809998	INF
+6	mangent	manger	VRB	VRB	_	0	root	_	_	182.820007	183.009995	INF
+7	avec	avec	PRE	PRE	_	6	dep	_	_	183.020004	183.160004	INF
+8	nous	moi	PRO	PRO	_	7	dep	_	_	183.259995	183.410004	INF
+9	si	si	CSU	CSU	_	6	dep	_	_	183.419998	183.520004	INF
+10	on	on	CLS	CLS	_	11	subj	_	_	183.529999	183.559998	INF
+11	fait	faire	VRB	VRB	_	9	dep	_	_	183.570007	183.710007	INF
+12	l'	le	DET	DET	_	13	spe	_	_	183.720001	183.750000	INF
+13	atelier	atelier	NOM	NOM	_	11	dep	_	_	183.759995	184.059998	INF
+14	cuisine	cuisine	NOM	NOM	_	13	dep	_	_	184.190002	184.649994	INF
+
+# sent_id = cefc-coralrom-ffamdl09-46
+# text = autrement ils viennent que
+1	autrement	autrement	ADV	ADV	_	3	periph	_	_	185.550003	186.110001	INF
+2	ils	il	CLS	CLS	_	3	subj	_	_	186.119995	186.179993	INF
+3	viennent	venir	VRB	VRB	_	0	root	_	_	186.190002	186.460007	INF
+4	que	que	CSU	CSU	_	3	dep	_	_	186.520004	186.589996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-47
+# text = l'après-midi pour les autres activités vidéo relaxation
+1	l'	le	DET	DET	_	2	spe	_	_	186.600006	186.660004	INF
+2	après-midi	après-midi	NOM	NOM	_	0	root	_	_	186.669998	187.080002	INF
+3	pour	pour	PRE	PRE	_	2	dep	_	_	187.169998	187.399994	INF
+4	les	le	DET	DET	_	6	spe	_	_	187.539993	187.669998	INF
+5	autres	autre	ADJ	ADJ	_	6	dep	_	_	187.679993	187.820007	INF
+6	activités	activité	NOM	NOM	_	3	dep	_	_	187.830002	188.600006	INF
+7	vidéo	vidéo	NOM	NOM	_	6	dep	_	_	188.610001	188.800003	INF
+8	relaxation	relaxation	NOM	NOM	_	7	dep	_	_	188.809998	190.110001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-48
+# text = et à dix-sept heures ils repartent chez eux
+1	et	et	COO	COO	_	6	mark	_	_	190.910004	190.940002	INF
+2	à	à	PRE	PRE	_	6	periph	_	_	190.949997	191.009995	INF
+3	dix-sept	dix-sept	NUM	NUM	_	4	spe	_	_	191.020004	191.339996	INF
+4	heures	heure	NOM	NOM	_	2	dep	_	_	191.410004	191.600006	INF
+5	ils	il	CLS	CLS	_	6	subj	_	_	191.649994	191.710007	INF
+6	repartent	repartir	VRB	VRB	_	0	root	_	_	191.720001	191.960007	INF
+7	chez	chez	PRE	PRE	_	6	dep	_	_	192.039993	192.380005	INF
+8	eux	moi	PRO	PRO	_	7	dep	_	_	192.389999	192.470001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-49
+# text = c'est une façon un petit peu de garder le lien
+1	c'	ce	CLS	CLS	_	2	subj	_	_	192.970001	193.029999	INF
+2	est	être	VRB	VRB	_	0	root	_	_	193.039993	193.139999	INF
+3	une	un	DET	DET	_	4	spe	_	_	193.149994	193.270004	INF
+4	façon	façon	NOM	NOM	_	2	dep	_	_	193.279999	193.750000	INF
+5	un	un	DET	DET	_	7	spe	_	_	193.759995	193.800003	INF
+6	petit	petit	ADJ	ADJ	_	7	dep	_	_	193.809998	193.979996	INF
+7	peu	peu	NOM	NOM	_	4	para	_	_	194.110001	194.190002	INF
+8	de	de	PRE	PRE	_	7	dep	_	_	194.199997	194.639999	INF
+9	garder	garder	VNF	VNF	_	8	dep	_	_	194.649994	194.979996	INF
+10	le	le	DET	DET	_	11	spe	_	_	194.990005	195.130005	INF
+11	lien	lien	NOM	NOM	_	9	dep	_	_	195.220001	195.449997	INF
+
+# sent_id = cefc-coralrom-ffamdl09-50
+# text = quand
+1	quand	quand	PRQ	PRQ	_	0	root	_	_	195.649994	195.740005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-51
+# text = même
+1	même	même	ADV	ADV	_	0	root	_	_	195.750000	196.139999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-52
+# text = avec euh l'extérieur
+1	avec	avec	PRE	PRE	_	0	root	_	_	196.360001	196.660004	INF
+2	euh	euh	INT	INT	_	1	dm	_	_	196.669998	196.919998	INF
+3	l'	le	DET	DET	_	4	spe	_	_	196.929993	196.960007	INF
+4	extérieur	extérieur	NOM	NOM	_	1	dep	_	_	196.970001	197.610001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-53
+# text = parce que ils ont
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	198.309998	198.509995	INF
+2	ils	il	CLS	CLS	_	3	subj	_	_	198.520004	198.770004	INF
+3	ont	avoir	VRB	VRB	_	1	dep	_	_	198.779999	198.880005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-54
+# text = quand même des difficultés au sein de leur famille donc il faut pas les laisser seuls euh dans la nature comme ça hein
+1	quand	quand	CSU	CSU	_	12	periph	_	_	198.929993	199.009995	INF
+2	même	même	ADV	ADV	_	1	dep	_	_	199.020004	199.179993	INF
+3	des	de	PRE	PRE	_	12	periph	_	_	199.190002	199.240005	INF
+4	difficultés	difficulté	NOM	NOM	_	3	dep	_	_	199.289993	200.300003	INF
+5	au	à+le	PRE	PRE	_	12	periph	_	_	200.339996	200.360001	INF
+6	sein	sein	NOM	NOM	_	5	dep	_	_	200.369995	200.600006	INF
+7	de	de	PRE	PRE	_	6	dep	_	_	200.610001	200.630005	INF
+8	leur	son	DET	DET	_	9	spe	_	_	200.639999	200.729996	INF
+9	famille	famille	NOM	NOM	_	7	dep	_	_	200.830002	201.050003	INF
+10	donc	donc	ADV	ADV	_	12	periph	_	_	201.839996	201.940002	INF
+11	il	il	CLS	CLS	_	12	subj	_	_	202.020004	202.070007	INF
+12	faut	faillir	VRB	VRB	_	0	root	_	_	202.080002	202.149994	INF
+13	pas	pas	ADN	ADN	_	12	dep	_	_	202.199997	202.300003	INF
+14	les	le	CLI	CLI	_	15	dep	_	_	202.309998	202.419998	INF
+15	laisser	laisser	VNF	VNF	_	12	dep	_	_	202.460007	202.690002	INF
+16	seuls	seul	ADJ	ADJ	_	15	dep	_	_	202.699997	203.080002	INF
+17	euh	euh	INT	INT	_	16	dm	_	_	203.089996	203.440002	INF
+18	dans	dans	PRE	PRE	_	15	dep	_	_	204.070007	204.210007	INF
+19	la	le	DET	DET	_	20	spe	_	_	204.220001	204.289993	INF
+20	nature	nature	NOM	NOM	_	18	dep	_	_	204.300003	204.550003	INF
+21	comme	comme	PRE	PRE	_	15	dep	_	_	204.789993	204.940002	INF
+22	ça	ça	PRO	PRO	_	21	dep	_	_	204.949997	205.089996	INF
+23	hein	hein	INT	INT	_	22	dm	_	_	205.389999	205.419998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-55
+# text = alors on s'en occupe à la journée
+1	alors	alors	ADV	ADV	_	5	periph	_	_	205.429993	205.550003	INF
+2	on	on	CLS	CLS	_	5	subj	_	_	205.559998	205.600006	INF
+3	s'	se	CLI	CLI	_	5	dep	_	_	205.610001	205.710007	INF
+4	en	en	CLI	CLI	_	5	dep	_	_	205.720001	205.809998	INF
+5	occupe	occuper	VRB	VRB	_	0	root	_	_	205.820007	206.070007	INF
+6	à	à	PRE	PRE	_	5	dep	_	_	206.080002	206.130005	INF
+7	la	le	DET	DET	_	8	spe	_	_	206.139999	206.240005	INF
+8	journée	journée	NOM	NOM	_	6	dep	_	_	206.250000	206.610001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-56
+# text = d'accord je voudrais savoir euh si dans ton métier il y a des cas qui t'ont euh plus ou moins touchée moralement
+1	d'	de	PRE	PRE	_	4	periph	_	_	207.830002	207.860001	STE
+2	accord	accord	NOM	NOM	_	1	dep	_	_	207.869995	208.300003	STE
+3	je	je	CLS	CLS	_	4	subj	_	_	209.179993	209.199997	STE
+4	voudrais	vouloir	VRB	VRB	_	0	root	_	_	209.210007	209.470001	STE
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	209.539993	210.059998	STE
+6	euh	euh	INT	INT	_	5	dm	_	_	210.070007	210.309998	STE
+7	si	si	CSU	CSU	_	5	dep	_	_	210.580002	211.259995	STE
+8	dans	dans	PRE	PRE	_	13	periph	_	_	211.690002	211.809998	STE
+9	ton	son	DET	DET	_	10	spe	_	_	211.820007	212.059998	STE
+10	métier	métier	NOM	NOM	_	8	dep	_	_	212.070007	212.429993	STE
+11	il	il	CLS	CLS	_	13	subj	_	_	213.259995	213.410004	STE
+12	y	y	CLI	CLI	_	13	dep	_	_	213.419998	213.440002	STE
+13	a	avoir	VRB	VRB	_	7	dep	_	_	213.449997	213.529999	STE
+14	des	de	PRE	PRE	_	13	dep	_	_	213.539993	213.720001	STE
+15	cas	cas	NOM	NOM	_	14	dep	_	_	213.809998	214.020004	STE
+16	qui	qui	PRQ	PRQ	_	18	dep	_	_	214.130005	214.210007	STE
+17	t'	te	CLI	CLI	_	18	dep	_	_	214.330002	214.380005	STE
+18	ont	avoir	VRB	VRB	_	7	dep	_	_	214.389999	214.679993	STE
+19	euh	euh	INT	INT	_	18	dm	_	_	214.690002	214.830002	STE
+20	plus ou moins	plus ou moins	ADV	ADV	_	21	dep	_	_	215.059998	215.509995	STE
+21	touchée	toucher	VPP	VPP	_	18	dep	_	_	215.520004	215.880005	STE
+22	moralement	moralement	ADV	ADV	_	21	dep	_	_	215.889999	216.419998	STE
+
+# sent_id = cefc-coralrom-ffamdl09-57
+# text = oui c'est sûr que bon on est beaucoup touché quand on voit arriver tous ces jeunes tous ces jeunes qui ont des pathologies assez lourdes comme la schizophrénie
+1	oui	oui	INT	INT	_	3	dm	_	_	217.929993	218.520004	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	218.529999	218.619995	INF
+3	est	être	VRB	VRB	_	0	root	_	_	218.630005	218.649994	INF
+4	sûr	sûr	ADJ	ADJ	_	3	dep	_	_	218.660004	218.970001	INF
+5	que	que	CSU	CSU	_	4	dep	_	_	218.979996	219.000000	INF
+6	bon	bon	INT	INT	_	5	dm	_	_	219.179993	219.589996	INF
+7	on	on	CLS	CLS	_	10	subj	_	_	219.880005	219.990005	INF
+8	est	être	VRB	VRB	_	10	aux	_	_	220.000000	220.110001	INF
+9	beaucoup	beaucoup	ADV	ADV	_	10	dep	_	_	220.119995	220.339996	INF
+10	touché	toucher	VPP	VPP	_	5	dep	_	_	220.350006	220.639999	INF
+11	quand	quand	CSU	CSU	_	10	dep	_	_	220.649994	220.729996	INF
+12	on	on	CLS	CLS	_	13	subj	_	_	220.820007	220.850006	INF
+13	voit	voir	VRB	VRB	_	11	dep	_	_	220.860001	221.020004	INF
+14	arriver	arriver	VNF	VNF	_	13	dep	_	_	221.029999	221.149994	INF
+15	tous	tout	ADJ	ADJ	_	17	dep	_	_	221.229996	221.350006	INF
+16	ces	ce	DET	DET	_	17	spe	_	_	221.529999	221.619995	INF
+17	jeunes	jeune	NOM	NOM	_	14	dep	_	_	221.630005	221.899994	INF
+18	tous	tout	ADJ	ADJ	_	20	dep	_	_	222.320007	222.369995	INF
+19	ces	ce	DET	DET	_	20	spe	_	_	222.380005	222.490005	INF
+20	jeunes	jeune	NOM	NOM	_	17	para	_	_	222.500000	222.830002	INF
+21	qui	qui	PRQ	PRQ	_	22	subj	_	_	222.929993	222.979996	INF
+22	ont	avoir	VRB	VRB	_	20	dep	_	_	222.990005	223.020004	INF
+23	des	de	PRE	PRE	_	22	dep	_	_	223.029999	223.119995	INF
+24	pathologies	pathologie	NOM	NOM	_	23	dep	_	_	223.300003	223.660004	INF
+25	assez	assez	ADV	ADV	_	26	dep	_	_	223.669998	223.880005	INF
+26	lourdes	lourd	ADJ	ADJ	_	24	dep	_	_	224.089996	224.199997	INF
+27	comme	comme	PRE	PRE	_	22	dep	_	_	224.350006	224.429993	INF
+28	la	le	DET	DET	_	29	spe	_	_	224.440002	224.490005	INF
+29	schizophrénie	schizophrénie	NOM	NOM	_	27	dep	_	_	224.500000	225.220001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-58
+# text = parce que ça c'est vraiment
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	226.100006	226.240005	INF
+2	ça	ça	PRO	PRO	_	4	periph	_	_	226.250000	226.309998	INF
+3	c'	ce	CLS	CLS	_	4	subj	_	_	226.320007	226.410004	INF
+4	est	être	VRB	VRB	_	1	dep	_	_	226.419998	226.470001	INF
+5	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	226.479996	226.740005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-59
+# text = quand même quelque chose de très sérieux hein
+1	quand	quand	CSU	CSU	_	0	root	_	_	226.820007	226.869995	INF
+2	même	même	ADV	ADV	_	3	dep	_	_	226.880005	227.029999	INF
+3	quelque chose	quelque chose	PRO	PRO	_	1	dep	_	_	227.039993	227.369995	INF
+4	de	de	PRE	PRE	_	3	dep	_	_	227.380005	227.529999	INF
+5	très	très	ADV	ADV	_	6	dep	_	_	227.649994	227.729996	INF
+6	sérieux	sérieux	ADJ	ADJ	_	4	dep	_	_	227.740005	228.210007	INF
+7	hein	hein	INT	INT	_	6	dm	_	_	228.360001	228.380005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-60
+# text = vivre avec c'est difficile
+1	vivre	vivre	VNF	VNF	_	4	periph	_	_	229.610001	229.860001	INF
+2	avec	avec	PRE	PRE	_	1	dep	_	_	229.869995	230.229996	INF
+3	c'	ce	CLS	CLS	_	4	subj	_	_	230.419998	230.600006	INF
+4	est	être	VRB	VRB	_	0	root	_	_	230.610001	230.649994	INF
+5	difficile	difficile	ADJ	ADJ	_	4	dep	_	_	230.660004	231.190002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-61
+# text = et qu'est-ce
+1	et	et	COO	COO	_	2	mark	_	_	232.199997	232.229996	STE
+2	qu'	que	CSU	CSU	_	0	root	_	_	232.240005	232.300003	STE
+3	est-ce	est-ce	NOM	NOM	_	2	dep	_	_	232.309998	232.429993	STE
+
+# sent_id = cefc-coralrom-ffamdl09-62
+# text = qu~ qu'est-ce que
+1	qu~	qu~	PRQ	PRQ	_	0	root	_	_	232.440002	232.460007	STE
+2	qu'	que	PRQ	PRQ	_	3	dep	_	_	232.720001	232.740005	STE
+3	est-ce	est-ce	VRB	VRB	_	1	dep	_	_	232.750000	232.899994	STE
+4	que	que	CSU	CSU	_	3	dep	_	_	232.910004	232.929993	STE
+
+# sent_id = cefc-coralrom-ffamdl09-63
+# text = la schizophrénie réellement
+1	la	le	DET	DET	_	2	spe	_	_	232.940002	233.179993	STE
+2	schizophrénie	schizophrénie	NOM	NOM	_	0	root	_	_	233.190002	233.970001	STE
+3	réellement	réellement	ADV	ADV	_	2	dep	_	_	234.020004	234.389999	STE
+
+# sent_id = cefc-coralrom-ffamdl09-64
+# text = ben on peut dire que c'est vraiment hein
+1	ben	ben	INT	INT	_	3	dm	_	_	235.529999	235.610001	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	235.660004	235.679993	INF
+3	peut	pouvoir	VRB	VRB	_	0	root	_	_	235.779999	235.850006	INF
+4	dire	dire	VNF	VNF	_	3	dep	_	_	235.860001	236.059998	INF
+5	que	que	CSU	CSU	_	4	dep	_	_	236.179993	236.199997	INF
+6	c'	ce	CLS	CLS	_	7	subj	_	_	236.210007	236.289993	INF
+7	est	être	VRB	VRB	_	5	dep	_	_	236.300003	236.330002	INF
+8	vraiment	vraiment	ADV	ADV	_	7	dep	_	_	236.339996	237.029999	INF
+9	hein	hein	INT	INT	_	8	dm	_	_	237.119995	237.139999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-65
+# text = se c'est un monde à part
+1	se	se	CLI	CLI	_	3	dep	_	_	237.330002	237.330002	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	237.630005	237.649994	INF
+3	est	être	VRB	VRB	_	0	root	_	_	237.660004	237.729996	INF
+4	un	un	DET	DET	_	5	spe	_	_	237.979996	238.039993	INF
+5	monde	monde	NOM	NOM	_	3	dep	_	_	238.050003	238.210007	INF
+6	à	à	PRE	PRE	_	5	dep	_	_	238.220001	238.300003	INF
+7	part	part	NOM	NOM	_	6	dep	_	_	238.389999	238.470001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-66
+# text = ils vivent dans leur monde
+1	ils	il	CLS	CLS	_	2	subj	_	_	238.600006	238.669998	INF
+2	vivent	vivre	VRB	VRB	_	0	root	_	_	238.710007	238.899994	INF
+3	dans	dans	PRE	PRE	_	2	dep	_	_	238.910004	239.009995	INF
+4	leur	son	DET	DET	_	5	spe	_	_	239.020004	239.130005	INF
+5	monde	monde	NOM	NOM	_	3	dep	_	_	239.139999	239.449997	INF
+
+# sent_id = cefc-coralrom-ffamdl09-67
+# text = ils sont coupés de la réalité dissocié
+1	ils	il	CLS	CLS	_	3	subj	_	_	239.649994	239.699997	INF
+2	sont	être	VRB	VRB	_	3	aux	_	_	239.809998	239.949997	INF
+3	coupés	couper	VPP	VPP	_	0	root	_	_	240.110001	240.339996	INF
+4	de	de	PRE	PRE	_	3	dep	_	_	240.350006	240.369995	INF
+5	la	le	DET	DET	_	6	spe	_	_	240.380005	240.449997	INF
+6	réalité	réalité	NOM	NOM	_	4	dep	_	_	240.460007	241.050003	INF
+7	dissocié	dissocier	VPP	VPP	_	6	dep	_	_	241.910004	242.410004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-68
+# text = enfin bon c'est difficile à expliquer en s terme s psychiatrique quoi
+1	enfin	enfin	ADV	ADV	_	4	periph	_	_	242.509995	242.820007	INF
+2	bon	bon	INT	INT	_	1	dm	_	_	242.830002	242.949997	INF
+3	c'	ce	CLS	CLS	_	4	subj	_	_	243.009995	243.050003	INF
+4	est	être	VRB	VRB	_	0	root	_	_	243.059998	243.100006	INF
+5	difficile	difficile	ADJ	ADJ	_	4	dep	_	_	243.110001	243.449997	INF
+6	à	à	PRE	PRE	_	5	dep	_	_	243.460007	243.479996	INF
+7	expliquer	expliquer	VNF	VNF	_	6	dep	_	_	243.490005	243.899994	INF
+8	en	en	PRE	PRE	_	7	dep	_	_	243.910004	243.960007	INF
+9	s	s	NOM	NOM	_	8	dep	_	_	243.960007	243.960007	INF
+10	terme	terme	NOM	NOM	_	9	dep	_	_	244.029999	244.149994	INF
+11	s	s	X	X	_	10	disflink	_	_	244.149994	244.149994	INF
+12	psychiatrique	psychiatrique	ADJ	ADJ	_	10	dep	_	_	244.190002	244.679993	INF
+13	quoi	quoi	INT	INT	_	12	dm	_	_	244.820007	244.960007	INF
+
+# sent_id = cefc-coralrom-ffamdl09-69
+# text = il faut
+1	il	il	CLS	CLS	_	2	subj	_	_	244.970001	245.110001	INF
+2	faut	faillir	VRB	VRB	_	0	root	_	_	245.119995	245.190002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-70
+# text = s'y connaître un petit peu
+1	s'	si	CSU	CSU	_	0	root	_	_	245.339996	245.399994	INF
+2	y	y	CLI	CLI	_	3	dep	_	_	245.410004	245.429993	INF
+3	connaître	connaître	VNF	VNF	_	1	dep	_	_	245.490005	245.789993	INF
+4	un	un	DET	DET	_	6	spe	_	_	245.800003	245.850006	INF
+5	petit	petit	ADJ	ADJ	_	6	dep	_	_	245.860001	246.000000	INF
+6	peu	peu	NOM	NOM	_	3	dep	_	_	246.059998	246.139999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-71
+# text = quand même
+1	quand	quand	PRQ	PRQ	_	0	root	_	_	246.210007	246.270004	INF
+2	même	même	ADV	ADV	_	1	morph	_	_	246.279999	246.529999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-72
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	244.839996	245.089996	STE
+
+# sent_id = cefc-coralrom-ffamdl09-73
+# text = mais c'est une pathologie quand même très sérieuse
+1	mais	mais	COO	COO	_	3	mark	_	_	247.320007	247.389999	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	247.399994	247.490005	INF
+3	est	être	VRB	VRB	_	0	root	_	_	247.500000	247.529999	INF
+4	une	un	DET	DET	_	5	spe	_	_	247.600006	247.919998	INF
+5	pathologie	pathologie	NOM	NOM	_	3	dep	_	_	247.979996	248.449997	INF
+6	quand	quand	PRQ	PRQ	_	9	subj	_	_	248.460007	248.550003	INF
+7	même	même	ADV	ADV	_	9	dep	_	_	248.559998	248.660004	INF
+8	très	très	ADV	ADV	_	9	dep	_	_	248.789993	248.869995	INF
+9	sérieuse	sérieux	ADJ	ADJ	_	5	dep	_	_	248.880005	249.119995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-74
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	249.589996	249.649994	STE
+2	hum	hum	INT	INT	_	1	dm	_	_	249.660004	249.729996	STE
+
+# sent_id = cefc-coralrom-ffamdl09-75
+# text = hein et pour ce qui est aussi de l'extérieur là euh j'ai parlé
+1	hein	hein	INT	INT	_	15	dm	_	_	249.610001	249.729996	INF
+2	et	et	COO	COO	_	15	mark	_	_	250.860001	251.380005	INF
+3	pour	pour	PRE	PRE	_	15	periph	_	_	251.479996	251.600006	INF
+4	ce	ce	PRO	PRO	_	3	dep	_	_	251.610001	251.690002	INF
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	251.750000	251.809998	INF
+6	est	être	VRB	VRB	_	4	dep	_	_	251.820007	251.839996	INF
+7	aussi	aussi	ADV	ADV	_	6	dep	_	_	251.850006	252.300003	INF
+8	de	de	PRE	PRE	_	6	dep	_	_	252.350006	252.720001	INF
+9	l'	le	DET	DET	_	10	spe	_	_	252.729996	252.750000	INF
+10	extérieur	extérieur	NOM	NOM	_	8	dep	_	_	252.759995	253.279999	INF
+11	là	là	ADV	ADV	_	10	dep	_	_	253.289993	253.490005	INF
+12	euh	euh	INT	INT	_	11	dm	_	_	253.500000	253.669998	INF
+13	j'	je	CLS	CLS	_	15	subj	_	_	253.710007	253.809998	INF
+14	ai	avoir	VRB	VRB	_	15	aux	_	_	253.820007	253.869995	INF
+15	parlé	parler	VPP	VPP	_	0	root	_	_	253.880005	254.139999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-76
+# text = tout à l'heure des dispensaires d'hygiène mentale
+1	tout	tout	PRO	PRO	_	0	root	_	_	254.300003	254.350006	INF
+2	à	à	PRE	PRE	_	1	dep	_	_	254.360001	254.410004	INF
+3	l'	le	DET	DET	_	4	spe	_	_	254.419998	254.479996	INF
+4	heure	heure	NOM	NOM	_	2	dep	_	_	254.490005	254.580002	INF
+5	des	de	PRE	PRE	_	4	dep	_	_	254.589996	254.639999	INF
+6	dispensaires	dispensaire	NOM	NOM	_	5	dep	_	_	254.649994	255.289993	INF
+7	d'	de	PRE	PRE	_	6	dep	_	_	255.350006	255.369995	INF
+8	hygiène	hygiène	NOM	NOM	_	7	dep	_	_	255.380005	255.710007	INF
+9	mentale	mental	ADJ	ADJ	_	8	dep	_	_	255.750000	256.200012	INF
+
+# sent_id = cefc-coralrom-ffamdl09-77
+# text = mais il y a aussi une autre façon de travailler
+1	mais	mais	COO	COO	_	4	mark	_	_	256.920013	257.019989	INF
+2	il	il	CLS	CLS	_	4	subj	_	_	257.029999	257.089996	INF
+3	y	y	CLI	CLI	_	4	dep	_	_	257.100006	257.130005	INF
+4	a	avoir	VRB	VRB	_	0	root	_	_	257.140015	257.160004	INF
+5	aussi	aussi	ADV	ADV	_	4	dep	_	_	257.170013	257.369995	INF
+6	une	un	DET	DET	_	8	spe	_	_	257.380005	257.440002	INF
+7	autre	autre	ADJ	ADJ	_	8	dep	_	_	257.450012	257.540009	INF
+8	façon	façon	NOM	NOM	_	4	dep	_	_	257.600006	257.839996	INF
+9	de	de	PRE	PRE	_	8	dep	_	_	257.880005	257.899994	INF
+10	travailler	travailler	VNF	VNF	_	9	dep	_	_	257.910004	258.489990	INF
+
+# sent_id = cefc-coralrom-ffamdl09-78
+# text = c'est ce qu'on appelle la V A D
+1	c'	ce	CLS	CLS	_	2	subj	_	_	258.559998	258.579987	INF
+2	est	être	VRB	VRB	_	0	root	_	_	258.589996	258.609985	INF
+3	ce	ce	PRO	PRO	_	2	dep	_	_	258.619995	258.690002	INF
+4	qu'	que	PRQ	PRQ	_	6	dep	_	_	258.739990	258.769989	INF
+5	on	on	CLS	CLS	_	6	subj	_	_	258.779999	258.859985	INF
+6	appelle	appeler	VRB	VRB	_	3	dep	_	_	258.869995	259.149994	INF
+7	la	le	DET	DET	_	8	spe	_	_	259.160004	259.190002	INF
+8	V	V	NOM	NOM	_	6	dep	_	_	259.200012	259.380005	INF
+9	A	A	DET	DET	_	10	spe	_	_	259.390015	259.440002	INF
+10	D	D	NOM	NOM	_	8	para	_	_	259.450012	259.660004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-79
+# text = c'est la visite à domicile
+1	c'	ce	CLS	CLS	_	2	subj	_	_	260.709991	260.750000	INF
+2	est	être	VRB	VRB	_	0	root	_	_	260.760010	260.890015	INF
+3	la	le	DET	DET	_	4	spe	_	_	260.899994	260.980011	INF
+4	visite	visite	NOM	NOM	_	2	dep	_	_	260.989990	261.279999	INF
+5	à	à	PRE	PRE	_	4	dep	_	_	261.359985	261.399994	INF
+6	domicile	domicile	NOM	NOM	_	5	dep	_	_	261.410004	261.910004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-80
+# text = alors là on suit ces malades une fois qu'ils sont sortis pour justement encore garder le lien avec l'extérieur
+1	alors	alors	ADV	ADV	_	4	periph	_	_	262.809998	263.000000	INF
+2	là	là	ADV	ADV	_	4	periph	_	_	263.010010	263.119995	INF
+3	on	on	CLS	CLS	_	4	subj	_	_	263.130005	263.279999	INF
+4	suit	suivre	VRB	VRB	_	0	root	_	_	263.290009	263.529999	INF
+5	ces	ce	DET	DET	_	6	spe	_	_	263.540009	263.730011	INF
+6	malades	malade	NOM	NOM	_	4	dep	_	_	263.739990	264.190002	INF
+7	une	un	DET	DET	_	8	spe	_	_	264.269989	264.480011	INF
+8	fois	foi	NOM	NOM	_	6	para	_	_	264.609985	264.940002	INF
+9	qu'	que	PRQ	PRQ	_	12	dep	_	_	264.950012	264.980011	INF
+10	ils	il	CLS	CLS	_	12	subj	_	_	264.989990	265.040009	INF
+11	sont	être	VRB	VRB	_	12	aux	_	_	265.049988	265.109985	INF
+12	sortis	sortir	VPP	VPP	_	8	dep	_	_	265.269989	265.459991	INF
+13	pour	pour	PRE	PRE	_	12	dep	_	_	265.929993	266.059998	INF
+14	justement	justement	ADV	ADV	_	16	dep	_	_	266.070007	266.570007	INF
+15	encore	encore	ADV	ADV	_	16	dep	_	_	266.579987	266.799988	INF
+16	garder	garder	VNF	VNF	_	13	dep	_	_	266.809998	267.119995	INF
+17	le	le	DET	DET	_	18	spe	_	_	267.130005	267.279999	INF
+18	lien	lien	NOM	NOM	_	16	dep	_	_	267.290009	267.470001	INF
+19	avec	avec	PRE	PRE	_	16	dep	_	_	267.559998	267.709991	INF
+20	l'	le	DET	DET	_	21	spe	_	_	267.799988	267.839996	INF
+21	extérieur	extérieur	NOM	NOM	_	19	dep	_	_	267.989990	268.410004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-81
+# text = on leur rend visite
+1	on	on	CLS	CLS	_	3	subj	_	_	269.329987	269.410004	INF
+2	leur	lui	CLI	CLI	_	3	dep	_	_	269.420013	269.559998	INF
+3	rend	rendre	VRB	VRB	_	0	root	_	_	269.609985	269.709991	INF
+4	visite	visite	NOM	NOM	_	3	dep	_	_	269.720001	270.299988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-82
+# text = euh on les aide euh dans leurs démarches s'ils en ont à faire quoi pour les point de vue administratifs
+1	euh	euh	INT	INT	_	4	dm	_	_	270.519989	270.579987	INF
+2	on	on	CLS	CLS	_	4	subj	_	_	270.589996	271.079987	INF
+3	les	le	CLI	CLI	_	4	dep	_	_	271.149994	271.239990	INF
+4	aide	aider	VRB	VRB	_	0	root	_	_	271.250000	271.839996	INF
+5	euh	euh	INT	INT	_	4	dm	_	_	271.850006	271.869995	INF
+6	dans	dans	PRE	PRE	_	4	dep	_	_	271.929993	272.029999	INF
+7	leurs	son	DET	DET	_	8	spe	_	_	272.070007	272.179993	INF
+8	démarches	démarche	NOM	NOM	_	6	dep	_	_	272.239990	272.540009	INF
+9	s'	si	CSU	CSU	_	4	dep	_	_	272.549988	272.640015	INF
+10	ils	il	CLS	CLS	_	12	subj	_	_	272.649994	272.799988	INF
+11	en	en	CLI	CLI	_	12	dep	_	_	273.019989	273.049988	INF
+12	ont	avoir	VRB	VRB	_	9	dep	_	_	273.059998	273.119995	INF
+13	à	à	PRE	PRE	_	12	dep	_	_	273.130005	273.179993	INF
+14	faire	faire	VNF	VNF	_	13	dep	_	_	273.190002	273.470001	INF
+15	quoi	quoi	INT	INT	_	14	dm	_	_	273.600006	273.679993	INF
+16	pour	pour	PRE	PRE	_	14	dep	_	_	273.799988	273.920013	INF
+17	les	le	DET	DET	_	18	spe	_	_	273.929993	274.250000	INF
+18	point	point	NOM	NOM	_	16	dep	_	_	274.420013	274.500000	INF
+19	de	de	PRE	PRE	_	18	dep	_	_	274.510010	274.529999	INF
+20	vue	vue	NOM	NOM	_	19	dep	_	_	274.540009	274.649994	INF
+21	administratifs	administratif	ADJ	ADJ	_	20	dep	_	_	274.660004	275.350006	INF
+
+# sent_id = cefc-coralrom-ffamdl09-83
+# text = et puis on sort avec eux
+1	et puis	et puis	COO	COO	_	3	mark	_	_	276.679993	277.109985	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	277.119995	277.399994	INF
+3	sort	sortir	VRB	VRB	_	0	root	_	_	277.410004	277.649994	INF
+4	avec	avec	PRE	PRE	_	3	dep	_	_	277.660004	277.850006	INF
+5	eux	moi	PRO	PRO	_	4	dep	_	_	277.940002	277.989990	INF
+
+# sent_id = cefc-coralrom-ffamdl09-84
+# text = on va
+1	on	on	CLS	CLS	_	2	subj	_	_	278.000000	278.279999	INF
+2	va	aller	VRB	VRB	_	0	root	_	_	278.290009	278.399994	INF
+
+# sent_id = cefc-coralrom-ffamdl09-85
+# text = même euh même au restaurant on va boi-~ prendre un petit café
+1	même	même	ADV	ADV	_	7	periph	_	_	278.410004	279.040009	INF
+2	euh	euh	INT	INT	_	1	dm	_	_	279.049988	279.070007	INF
+3	même	même	ADV	ADV	_	1	para	_	_	279.079987	279.220001	INF
+4	au	à+le	PRE	PRE	_	7	periph	_	_	279.230011	279.250000	INF
+5	restaurant	restaurant	NOM	NOM	_	4	dep	_	_	279.309998	279.929993	INF
+6	on	on	CLS	CLS	_	7	subj	_	_	279.940002	279.980011	INF
+7	va	aller	VRB	VRB	_	0	root	_	_	279.989990	280.119995	INF
+8	boi-~	boi-~	VRB	VRB	_	7	para	_	_	280.130005	280.279999	INF
+9	prendre	prendre	VNF	VNF	_	8	dep	_	_	280.290009	280.820007	INF
+10	un	un	DET	DET	_	12	spe	_	_	281.160004	281.179993	INF
+11	petit	petit	ADJ	ADJ	_	12	dep	_	_	281.190002	281.279999	INF
+12	café	café	NOM	NOM	_	9	dep	_	_	281.290009	281.709991	INF
+
+# sent_id = cefc-coralrom-ffamdl09-86
+# text = c'est une façon
+1	c'	ce	CLS	CLS	_	2	subj	_	_	283.070007	283.100006	INF
+2	est	être	VRB	VRB	_	0	root	_	_	283.109985	283.140015	INF
+3	une	un	DET	DET	_	4	spe	_	_	283.239990	283.329987	INF
+4	façon	façon	NOM	NOM	_	2	dep	_	_	283.339996	283.670013	INF
+
+# sent_id = cefc-coralrom-ffamdl09-87
+# text = disons c'est un support quoi en fait le le le resto le café
+1	disons	dire	VRB	VRB	_	3	periph	_	_	283.679993	284.000000	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	284.010010	284.089996	INF
+3	est	être	VRB	VRB	_	0	root	_	_	284.100006	284.140015	INF
+4	un	un	DET	DET	_	5	spe	_	_	284.200012	284.260010	INF
+5	support	support	NOM	NOM	_	3	dep	_	_	284.269989	284.709991	INF
+6	quoi	quoi	INT	INT	_	5	dm	_	_	284.869995	284.959991	INF
+7	en	en	PRE	PRE	_	3	dep	_	_	284.970001	285.019989	INF
+8	fait	faire	VRB	VRB	_	7	disflink	_	_	285.109985	285.269989	INF
+9	le	le	DET	DET	_	8	disflink	_	_	285.369995	285.519989	INF
+10	le	le	DET	DET	_	9	para	_	_	285.529999	285.820007	INF
+11	le	le	DET	DET	_	10	para	_	_	285.829987	285.859985	INF
+12	resto	restaurant	NOM	NOM	_	7	dep	_	_	285.869995	286.230011	INF
+13	le	le	DET	DET	_	14	spe	_	_	286.239990	286.380005	INF
+14	café	café	NOM	NOM	_	12	para	_	_	286.440002	286.649994	INF
+
+# sent_id = cefc-coralrom-ffamdl09-88
+# text = c'est le support c'est pour euh continuer à discuter avec eux pour voir s'ils se sont bien intégrés à l'extérieur
+1	c'	ce	CLS	CLS	_	2	subj	_	_	286.660004	286.760010	INF
+2	est	être	VRB	VRB	_	0	root	_	_	286.769989	286.799988	INF
+3	le	le	DET	DET	_	4	spe	_	_	286.809998	286.829987	INF
+4	support	support	NOM	NOM	_	2	dep	_	_	286.920013	287.209991	INF
+5	c'	ce	CLS	CLS	_	6	subj	_	_	288.160004	288.190002	INF
+6	est	être	VRB	VRB	_	2	para	_	_	288.200012	288.220001	INF
+7	pour	pour	PRE	PRE	_	6	dep	_	_	288.309998	288.660004	INF
+8	euh	euh	INT	INT	_	7	dm	_	_	288.670013	288.829987	INF
+9	continuer	continuer	VNF	VNF	_	7	dep	_	_	288.929993	289.369995	INF
+10	à	à	PRE	PRE	_	9	dep	_	_	289.380005	289.420013	INF
+11	discuter	discuter	VNF	VNF	_	10	dep	_	_	289.480011	289.820007	INF
+12	avec	avec	PRE	PRE	_	11	dep	_	_	289.829987	289.980011	INF
+13	eux	moi	PRO	PRO	_	12	dep	_	_	290.160004	290.339996	INF
+14	pour	pour	PRE	PRE	_	9	dep	_	_	290.420013	290.500000	INF
+15	voir	voir	VNF	VNF	_	14	dep	_	_	290.510010	290.690002	INF
+16	s'	si	CSU	CSU	_	15	dep	_	_	290.700012	290.779999	INF
+17	ils	il	CLS	CLS	_	21	subj	_	_	290.790009	290.940002	INF
+18	se	se	CLI	CLI	_	21	dep	_	_	290.950012	291.250000	INF
+19	sont	être	VRB	VRB	_	21	aux	_	_	291.260010	291.429993	INF
+20	bien	bien	ADV	ADV	_	21	dep	_	_	291.500000	291.579987	INF
+21	intégrés	intégrer	VPP	VPP	_	16	dep	_	_	291.700012	291.869995	INF
+22	à	à	PRE	PRE	_	21	dep	_	_	291.880005	291.899994	INF
+23	l'	le	DET	DET	_	24	spe	_	_	291.910004	291.929993	INF
+24	extérieur	extérieur	NOM	NOM	_	22	dep	_	_	291.940002	292.390015	INF
+
+# sent_id = cefc-coralrom-ffamdl09-89
+# text = alors euh outre les les schizophrènes est-ce qu'il y a euh d'autres malades en fait
+1	alors	alors	ADV	ADV	_	7	periph	_	_	294.200012	294.450012	STE
+2	euh	euh	INT	INT	_	1	dm	_	_	294.459991	294.579987	STE
+3	outre	outre	INT	INT	_	2	dm	_	_	294.630005	295.190002	STE
+4	les	le	DET	DET	_	6	spe	_	_	295.200012	295.250000	STE
+5	les	le	DET	DET	_	4	para	_	_	295.260010	295.350006	STE
+6	schizophrènes	schizophrène	NOM	NOM	_	7	subj	_	_	295.500000	295.929993	STE
+7	est-ce	est-ce	VRB	VRB	_	0	root	_	_	295.940002	296.250000	STE
+8	qu'	que	CSU	CSU	_	7	dep	_	_	296.260010	296.279999	STE
+9	il	il	CLS	CLS	_	11	subj	_	_	296.450012	296.500000	STE
+10	y	y	CLI	CLI	_	11	dep	_	_	296.510010	296.529999	STE
+11	a	avoir	VRB	VRB	_	8	dep	_	_	296.540009	296.920013	STE
+12	euh	euh	INT	INT	_	11	dm	_	_	296.929993	297.100006	STE
+13	d'	de	PRE	PRE	_	11	dep	_	_	297.529999	297.589996	STE
+14	autres	autre	ADJ	ADJ	_	15	dep	_	_	297.600006	297.880005	STE
+15	malades	malade	NOM	NOM	_	13	dep	_	_	297.890015	298.279999	STE
+16	en	en	PRE	PRE	_	11	dep	_	_	298.290009	298.380005	STE
+17	fait	fait	NOM	NOM	_	16	dep	_	_	298.390015	298.619995	STE
+
+# sent_id = cefc-coralrom-ffamdl09-90
+# text = ah ben nous avons beaucoup de jeunes aussi des toxicos
+1	ah ben	ah ben	INT	INT	_	3	dm	_	_	300.440002	300.679993	INF
+2	nous	nous	CLS	CLS	_	3	subj	_	_	300.690002	300.839996	INF
+3	avons	avoir	VRB	VRB	_	0	root	_	_	300.850006	301.170013	INF
+4	beaucoup	beaucoup	ADV	ADV	_	3	dep	_	_	301.279999	301.670013	INF
+5	de	de	PRE	PRE	_	3	dep	_	_	301.679993	301.829987	INF
+6	jeunes	jeune	NOM	NOM	_	5	dep	_	_	301.839996	302.250000	INF
+7	aussi	aussi	ADV	ADV	_	3	dep	_	_	302.299988	302.559998	INF
+8	des	de	PRE	PRE	_	3	dep	_	_	302.570007	302.679993	INF
+9	toxicos	toxicos	NOM	NOM	_	8	dep	_	_	303.100006	303.329987	INF
+
+# sent_id = cefc-coralrom-ffamdl09-91
+# text = alors là c'est difficile parce que bon ils arrivent toujours plus ou moins bon pratiquement tous en fait hein avec euh une séropositivité puis même des sidas déclarés et en psychiatrie euh pour soigner des sidas déclarés
+1	alors	alors	ADV	ADV	_	4	periph	_	_	304.350006	304.679993	INF
+2	là	là	ADV	ADV	_	4	periph	_	_	304.690002	304.790009	INF
+3	c'	ce	CLS	CLS	_	4	subj	_	_	305.040009	305.140015	INF
+4	est	être	VRB	VRB	_	0	root	_	_	305.149994	305.170013	INF
+5	difficile	difficile	ADJ	ADJ	_	4	dep	_	_	305.179993	305.739990	INF
+6	parce que	parce que	CSU	CSU	_	4	dep	_	_	305.799988	306.179993	INF
+7	bon	bon	INT	INT	_	6	dm	_	_	306.260010	306.549988	INF
+8	ils	il	CLS	CLS	_	9	subj	_	_	306.559998	306.670013	INF
+9	arrivent	arriver	VRB	VRB	_	6	dep	_	_	306.679993	307.160004	INF
+10	toujours	toujours	ADV	ADV	_	9	dep	_	_	307.329987	307.910004	INF
+11	plus ou moins	plus ou moins	ADV	ADV	_	9	dep	_	_	308.089996	308.880005	INF
+12	bon	bon	INT	INT	_	11	dm	_	_	309.230011	309.320007	INF
+13	pratiquement	pratiquement	ADV	ADV	_	14	dep	_	_	309.489990	309.899994	INF
+14	tous	tout	ADJ	ADJ	_	9	dep	_	_	309.989990	310.079987	INF
+15	en	en	PRE	PRE	_	9	dep	_	_	310.179993	310.239990	INF
+16	fait	fait	NOM	NOM	_	15	dep	_	_	310.250000	310.429993	INF
+17	hein	hein	INT	INT	_	16	dm	_	_	310.579987	310.660004	INF
+18	avec	avec	PRE	PRE	_	9	dep	_	_	311.489990	311.660004	INF
+19	euh	euh	INT	INT	_	18	dm	_	_	311.730011	311.750000	INF
+20	une	un	DET	DET	_	21	spe	_	_	311.760010	312.359985	INF
+21	séropositivité	séropositivité	NOM	NOM	_	18	dep	_	_	312.369995	313.059998	INF
+22	puis	puis	COO	COO	_	24	mark	_	_	313.290009	313.570007	INF
+23	même	même	ADV	ADV	_	24	dep	_	_	313.709991	314.010010	INF
+24	des	de	PRE	PRE	_	18	para	_	_	314.019989	314.079987	INF
+25	sidas	sida	NOM	NOM	_	24	dep	_	_	314.089996	314.369995	INF
+26	déclarés	déclaré	ADJ	ADJ	_	25	dep	_	_	314.380005	314.760010	INF
+27	et	et	COO	COO	_	28	mark	_	_	316.630005	316.750000	INF
+28	en	en	PRE	PRE	_	24	para	_	_	316.760010	316.989990	INF
+29	psychiatrie	psychiatrie	NOM	NOM	_	28	dep	_	_	317.000000	317.510010	INF
+30	euh	euh	INT	INT	_	29	dm	_	_	317.559998	318.040009	INF
+31	pour	pour	PRE	PRE	_	9	dep	_	_	318.140015	318.230011	INF
+32	soigner	soigner	VNF	VNF	_	31	dep	_	_	318.309998	318.570007	INF
+33	des	de	PRE	PRE	_	32	dep	_	_	318.579987	318.679993	INF
+34	sidas	sida	NOM	NOM	_	33	dep	_	_	318.690002	318.980011	INF
+35	déclarés	déclaré	ADJ	ADJ	_	34	dep	_	_	318.989990	319.429993	INF
+
+# sent_id = cefc-coralrom-ffamdl09-92
+# text = c'est difficile
+1	c'	ce	CLS	CLS	_	2	subj	_	_	319.440002	319.489990	INF
+2	est	être	VRB	VRB	_	0	root	_	_	319.500000	319.519989	INF
+3	difficile	difficile	ADJ	ADJ	_	2	dep	_	_	319.570007	320.000000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-93
+# text = on n'a pas les structures euh
+1	on	on	CLS	CLS	_	3	subj	_	_	320.010010	320.190002	INF
+2	n'	ne	CLN	CLN	_	3	dep	_	_	320.190002	320.190002	INF
+3	a	avoir	VRB	VRB	_	0	root	_	_	320.250000	320.269989	INF
+4	pas	pas	ADN	ADN	_	3	dep	_	_	320.279999	320.350006	INF
+5	les	le	DET	DET	_	6	spe	_	_	320.609985	320.660004	INF
+6	structures	structure	NOM	NOM	_	3	dep	_	_	320.809998	321.269989	INF
+7	euh	euh	INT	INT	_	6	dm	_	_	321.279999	321.309998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-94
+# text = tout le matériel bon il faut déjà
+1	tout	tout	ADJ	ADJ	_	3	dep	_	_	322.339996	322.570007	INF
+2	le	le	DET	DET	_	3	spe	_	_	322.670013	322.760010	INF
+3	matériel	matériel	NOM	NOM	_	6	periph	_	_	322.899994	323.230011	INF
+4	bon	bon	INT	INT	_	3	dm	_	_	323.489990	323.730011	INF
+5	il	il	CLS	CLS	_	6	subj	_	_	323.739990	323.799988	INF
+6	faut	faillir	VRB	VRB	_	0	root	_	_	323.809998	324.040009	INF
+7	déjà	déjà	ADV	ADV	_	6	dep	_	_	324.049988	324.369995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-95
+# text = bon les accueillir pour leur toxicomanie donc les isoler première façon de travailler
+1	bon	bon	INT	INT	_	3	dm	_	_	324.380005	324.570007	INF
+2	les	le	CLI	CLI	_	3	dep	_	_	324.579987	324.750000	INF
+3	accueillir	accueillir	VNF	VNF	_	0	root	_	_	324.760010	325.269989	INF
+4	pour	pour	PRE	PRE	_	3	dep	_	_	326.010010	326.100006	INF
+5	leur	son	DET	DET	_	6	spe	_	_	326.109985	326.209991	INF
+6	toxicomanie	toxicomanie	NOM	NOM	_	4	dep	_	_	326.260010	327.059998	INF
+7	donc	donc	ADV	ADV	_	9	dep	_	_	327.070007	327.179993	INF
+8	les	le	CLI	CLI	_	9	dep	_	_	327.279999	327.429993	INF
+9	isoler	isoler	VNF	VNF	_	3	para	_	_	327.440002	327.839996	INF
+10	première	premier	ADJ	ADJ	_	9	dep	_	_	328.500000	328.709991	INF
+11	façon	façon	NOM	NOM	_	10	dep	_	_	328.720001	329.000000	INF
+12	de	de	PRE	PRE	_	11	dep	_	_	329.010010	329.029999	INF
+13	travailler	travailler	VNF	VNF	_	12	dep	_	_	329.119995	329.549988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-96
+# text = et puis après quand vraiment euh on a des gros gros problèmes cliniques par rapport à leur sida on est bien obligé de les diriger à ce moment-là sur l'hôpital général en médecine
+1	et puis	et puis	COO	COO	_	21	mark	_	_	330.299988	330.470001	INF
+2	après	après	PRE	PRE	_	21	periph	_	_	330.480011	330.730011	INF
+3	quand	quand	CSU	CSU	_	21	periph	_	_	330.790009	330.869995	INF
+4	vraiment	vraiment	ADV	ADV	_	7	periph	_	_	330.880005	331.399994	INF
+5	euh	euh	INT	INT	_	4	dm	_	_	331.410004	331.670013	INF
+6	on	on	CLS	CLS	_	7	subj	_	_	332.369995	332.500000	INF
+7	a	avoir	VRB	VRB	_	3	dep	_	_	332.510010	332.559998	INF
+8	des	de	PRE	PRE	_	7	dep	_	_	332.609985	332.690002	INF
+9	gros	gros	NOM	NOM	_	8	dep	_	_	332.790009	332.929993	INF
+10	gros	gros	ADJ	ADJ	_	11	dep	_	_	333.029999	333.160004	INF
+11	problèmes	problème	NOM	NOM	_	8	dep	_	_	333.250000	333.790009	INF
+12	cliniques	clinique	ADJ	ADJ	_	11	dep	_	_	333.980011	334.269989	INF
+13	par	par	PRE	PRE	_	11	dep	_	_	334.450012	334.579987	INF
+14	rapport	rapport	NOM	NOM	_	13	dep	_	_	334.589996	334.760010	INF
+15	à	à	PRE	PRE	_	14	dep	_	_	334.769989	334.799988	INF
+16	leur	son	DET	DET	_	17	spe	_	_	334.809998	334.890015	INF
+17	sida	sida	NOM	NOM	_	15	dep	_	_	334.970001	335.290009	INF
+18	on	on	CLS	CLS	_	21	subj	_	_	335.989990	336.029999	INF
+19	est	être	VRB	VRB	_	21	aux	_	_	336.040009	336.070007	INF
+20	bien	bien	ADV	ADV	_	21	dep	_	_	336.079987	336.269989	INF
+21	obligé	obliger	VPP	VPP	_	0	root	_	_	336.279999	336.600006	INF
+22	de	de	PRE	PRE	_	21	dep	_	_	336.609985	336.630005	INF
+23	les	le	CLI	CLI	_	24	dep	_	_	336.640015	336.750000	INF
+24	diriger	diriger	VNF	VNF	_	22	dep	_	_	336.760010	337.239990	INF
+25	à	à	PRE	PRE	_	24	dep	_	_	337.250000	337.269989	INF
+26	ce	ce	DET	DET	_	27	spe	_	_	337.279999	337.369995	INF
+27	moment-là	moment-là	NOM	NOM	_	25	dep	_	_	337.429993	337.769989	INF
+28	sur	sur	PRE	PRE	_	24	dep	_	_	337.779999	338.010010	INF
+29	l'	le	DET	DET	_	30	spe	_	_	338.089996	338.109985	INF
+30	hôpital	hôpital	NOM	NOM	_	28	dep	_	_	338.119995	338.350006	INF
+31	général	général	ADJ	ADJ	_	30	dep	_	_	338.359985	338.660004	INF
+32	en	en	PRE	PRE	_	24	dep	_	_	338.670013	338.760010	INF
+33	médecine	médecine	NOM	NOM	_	32	dep	_	_	339.040009	339.440002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-97
+# text = hum d'accord
+1	hum	hum	INT	INT	_	2	dm	_	_	340.459991	340.619995	STE
+2	d'	de	PRE	PRE	_	0	root	_	_	340.679993	340.700012	STE
+3	accord	accord	NOM	NOM	_	2	dep	_	_	340.809998	340.959991	STE
+
+# sent_id = cefc-coralrom-ffamdl09-98
+# text = et est-ce que tu t'es vraiment occupée d'un cas en particulier
+1	et	et	COO	COO	_	2	mark	_	_	341.880005	342.079987	STE
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	342.089996	342.209991	STE
+3	que	que	CSU	CSU	_	2	dep	_	_	342.220001	342.299988	STE
+4	tu	tu	CLS	CLS	_	8	subj	_	_	342.359985	342.420013	STE
+5	t'	te	CLI	CLI	_	8	dep	_	_	342.429993	342.480011	STE
+6	es	être	VRB	VRB	_	8	aux	_	_	342.489990	342.579987	STE
+7	vraiment	vraiment	ADV	ADV	_	8	dep	_	_	342.589996	342.890015	STE
+8	occupée	occuper	VPP	VPP	_	3	dep	_	_	342.899994	343.470001	STE
+9	d'	de	PRE	PRE	_	8	dep	_	_	343.690002	343.760010	STE
+10	un	un	DET	DET	_	11	spe	_	_	343.869995	344.220001	STE
+11	cas	cas	NOM	NOM	_	9	dep	_	_	344.260010	344.309998	STE
+12	en	en	PRE	PRE	_	11	dep	_	_	344.320007	344.390015	STE
+13	particulier	particulier	NOM	NOM	_	12	dep	_	_	344.399994	345.149994	STE
+
+# sent_id = cefc-coralrom-ffamdl09-99
+# text = eh bien oui justement dernièrement on a un jeune là de vingt-trois ans qui est arrivé
+1	eh bien	eh bien	INT	INT	_	6	dm	_	_	346.519989	346.709991	INF
+2	oui	oui	INT	INT	_	1	dm	_	_	346.720001	347.070007	INF
+3	justement	justement	ADV	ADV	_	6	periph	_	_	347.079987	347.570007	INF
+4	dernièrement	dernièrement	ADV	ADV	_	6	periph	_	_	347.579987	348.029999	INF
+5	on	on	CLS	CLS	_	6	subj	_	_	348.040009	348.079987	INF
+6	a	avoir	VRB	VRB	_	0	root	_	_	348.089996	348.109985	INF
+7	un	un	DET	DET	_	8	spe	_	_	348.119995	348.260010	INF
+8	jeune	jeune	NOM	NOM	_	6	dep	_	_	348.500000	348.869995	INF
+9	là	là	ADV	ADV	_	8	dep	_	_	348.880005	348.950012	INF
+10	de	de	PRE	PRE	_	8	dep	_	_	348.959991	349.029999	INF
+11	vingt-trois	vingt-trois	NUM	NUM	_	12	spe	_	_	349.040009	349.519989	INF
+12	ans	an	NOM	NOM	_	10	dep	_	_	349.529999	349.649994	INF
+13	qui	qui	PRQ	PRQ	_	15	dep	_	_	349.739990	349.790009	INF
+14	est	être	VRB	VRB	_	15	aux	_	_	349.799988	349.820007	INF
+15	arrivé	arriver	VPP	VPP	_	12	dep	_	_	349.929993	350.309998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-100
+# text = ah
+1	ah	ah	INT	INT	_	0	root	_	_	352.000000	352.049988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-101
+# text = avec un sida bien avancé
+1	avec	avec	PRE	PRE	_	0	root	_	_	352.059998	352.230011	INF
+2	un	un	DET	DET	_	3	spe	_	_	352.350006	352.459991	INF
+3	sida	sida	NOM	NOM	_	1	dep	_	_	352.510010	352.760010	INF
+4	bien	bien	ADV	ADV	_	5	dep	_	_	352.769989	352.950012	INF
+5	avancé	avancer	VPP	VPP	_	3	dep	_	_	352.959991	353.470001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-102
+# text = la mère pouvait plus le supporter
+1	la	le	DET	DET	_	2	spe	_	_	354.510010	354.690002	INF
+2	mère	mère	NOM	NOM	_	3	subj	_	_	354.700012	354.970001	INF
+3	pouvait	pouvoir	VRB	VRB	_	0	root	_	_	355.130005	355.309998	INF
+4	plus	plus	ADN	ADN	_	3	dep	_	_	355.410004	355.489990	INF
+5	le	le	CLI	CLI	_	6	dep	_	_	355.500000	355.519989	INF
+6	supporter	supporter	VNF	VNF	_	3	dep	_	_	355.529999	355.940002	INF
+
+# sent_id = cefc-coralrom-ffamdl09-103
+# text = c'était trop dur pour elle parce que bon évidemment comme tous les toxicos euh on peut pas dire qu'on braque la mère
+1	c'	ce	CLS	CLS	_	2	subj	_	_	356.029999	356.070007	INF
+2	était	être	VRB	VRB	_	0	root	_	_	356.079987	356.309998	INF
+3	trop	trop	ADV	ADV	_	4	dep	_	_	356.540009	356.640015	INF
+4	dur	dur	ADJ	ADJ	_	2	dep	_	_	356.649994	356.779999	INF
+5	pour	pour	PRE	PRE	_	2	dep	_	_	356.890015	357.070007	INF
+6	elle	moi	PRO	PRO	_	5	dep	_	_	357.079987	357.200012	INF
+7	parce que	parce que	CSU	CSU	_	2	dep	_	_	357.209991	357.500000	INF
+8	bon	bon	INT	INT	_	7	dm	_	_	357.510010	357.579987	INF
+9	évidemment	évidemment	ADV	ADV	_	16	periph	_	_	358.239990	358.529999	INF
+10	comme	comme	PRE	PRE	_	16	periph	_	_	358.600006	358.690002	INF
+11	tous	tout	ADJ	ADJ	_	13	dep	_	_	358.700012	358.790009	INF
+12	les	le	DET	DET	_	13	spe	_	_	358.799988	358.850006	INF
+13	toxicos	toxicos	NOM	NOM	_	10	dep	_	_	358.859985	359.190002	INF
+14	euh	euh	INT	INT	_	13	dm	_	_	359.410004	359.869995	INF
+15	on	on	CLS	CLS	_	16	subj	_	_	360.910004	360.959991	INF
+16	peut	pouvoir	VRB	VRB	_	7	dep	_	_	360.970001	361.070007	INF
+17	pas	pas	ADN	ADN	_	16	dep	_	_	361.079987	361.190002	INF
+18	dire	dire	VNF	VNF	_	16	dep	_	_	361.200012	361.320007	INF
+19	qu'	que	CSU	CSU	_	18	dep	_	_	361.329987	361.350006	INF
+20	on	on	CLS	CLS	_	21	subj	_	_	361.359985	361.470001	INF
+21	braque	braque	ADJ	ADJ	_	19	dep	_	_	361.480011	361.739990	INF
+22	la	le	DET	DET	_	23	spe	_	_	361.750000	361.859985	INF
+23	mère	mère	NOM	NOM	_	18	dep	_	_	361.869995	362.109985	INF
+
+# sent_id = cefc-coralrom-ffamdl09-104
+# text = mais presque on vole
+1	mais	mais	COO	COO	_	4	mark	_	_	362.119995	362.260010	INF
+2	presque	presque	ADV	ADV	_	4	periph	_	_	362.299988	362.660004	INF
+3	on	on	CLS	CLS	_	4	subj	_	_	363.190002	363.290009	INF
+4	vole	voler	VRB	VRB	_	0	root	_	_	363.299988	363.630005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-105
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	363.160004	363.299988	STE
+2	hum	hum	INT	INT	_	1	dm	_	_	363.350006	363.630005	STE
+
+# sent_id = cefc-coralrom-ffamdl09-106
+# text = on fait beaucoup de bêtises pour se procurer l'argent et la dose
+1	on	on	CLS	CLS	_	2	subj	_	_	364.649994	364.679993	INF
+2	fait	faire	VRB	VRB	_	0	root	_	_	364.739990	364.829987	INF
+3	beaucoup	beaucoup	PRO	PRO	_	2	dep	_	_	364.839996	365.089996	INF
+4	de	de	PRE	PRE	_	3	dep	_	_	365.100006	365.119995	INF
+5	bêtises	bêtise	NOM	NOM	_	4	dep	_	_	365.130005	365.429993	INF
+6	pour	pour	PRE	PRE	_	2	dep	_	_	365.489990	365.709991	INF
+7	se	se	CLI	CLI	_	8	dep	_	_	365.720001	365.850006	INF
+8	procurer	procurer	VNF	VNF	_	6	dep	_	_	365.899994	366.290009	INF
+9	l'	le	DET	DET	_	10	spe	_	_	366.299988	366.350006	INF
+10	argent	argent	NOM	NOM	_	8	dep	_	_	366.359985	366.839996	INF
+11	et	et	COO	COO	_	13	mark	_	_	366.850006	366.929993	INF
+12	la	le	DET	DET	_	13	spe	_	_	366.940002	367.049988	INF
+13	dose	dose	NOM	NOM	_	10	para	_	_	367.059998	367.279999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-107
+# text = donc la mère n'en pouvait plus
+1	donc	donc	ADV	ADV	_	6	periph	_	_	368.339996	368.559998	INF
+2	la	le	DET	DET	_	3	spe	_	_	368.570007	368.619995	INF
+3	mère	mère	NOM	NOM	_	6	subj	_	_	368.630005	368.779999	INF
+4	n'	ne	CLN	CLN	_	6	dep	_	_	368.790009	368.820007	INF
+5	en	en	CLI	CLI	_	6	dep	_	_	368.829987	368.859985	INF
+6	pouvait	pouvoir	VRB	VRB	_	0	root	_	_	368.950012	369.170013	INF
+7	plus	plus	ADN	ADN	_	6	dep	_	_	369.299988	369.450012	INF
+
+# sent_id = cefc-coralrom-ffamdl09-108
+# text = elle nous a demandé de l'hospitaliser
+1	elle	il	CLS	CLS	_	4	subj	_	_	369.519989	369.989990	INF
+2	nous	nous	CLI	CLI	_	4	dep	_	_	370.029999	370.179993	INF
+3	a	avoir	VRB	VRB	_	4	aux	_	_	370.190002	370.230011	INF
+4	demandé	demander	VPP	VPP	_	0	root	_	_	370.279999	370.619995	INF
+5	de	de	PRE	PRE	_	4	dep	_	_	370.690002	370.959991	INF
+6	l'	le	CLI	CLI	_	7	dep	_	_	370.970001	370.989990	INF
+7	hospitaliser	hospitaliser	VNF	VNF	_	5	dep	_	_	371.040009	371.720001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-109
+# text = et puis vu
+1	et puis	et puis	COO	COO	_	2	mark	_	_	373.140015	373.290009	INF
+2	vu	voir	VPP	VPP	_	0	root	_	_	373.299988	373.459991	INF
+
+# sent_id = cefc-coralrom-ffamdl09-110
+# text = sa son sida bien avancé
+1	sa	son	DET	DET	_	3	spe	_	_	374.000000	374.660004	INF
+2	son	son	DET	DET	_	1	para	_	_	374.989990	375.140015	INF
+3	sida	sida	NOM	NOM	_	5	subj	_	_	375.220001	375.429993	INF
+4	bien	bien	ADV	ADV	_	5	dep	_	_	375.440002	375.649994	INF
+5	avancé	avancer	VPP	VPP	_	0	root	_	_	375.660004	376.209991	INF
+
+# sent_id = cefc-coralrom-ffamdl09-111
+# text = on a préféré après le diriger en secteur euh médecine
+1	on	on	CLS	CLS	_	3	subj	_	_	377.119995	377.200012	INF
+2	a	avoir	VRB	VRB	_	3	aux	_	_	377.209991	377.230011	INF
+3	préféré	préférer	VPP	VPP	_	0	root	_	_	377.290009	377.760010	INF
+4	après	après	PRE	PRE	_	3	dep	_	_	377.769989	378.059998	INF
+5	le	le	CLI	CLI	_	6	dep	_	_	378.070007	378.130005	INF
+6	diriger	diriger	VNF	VNF	_	4	dep	_	_	378.200012	378.420013	INF
+7	en	en	PRE	PRE	_	6	dep	_	_	378.549988	378.750000	INF
+8	secteur	secteur	NOM	NOM	_	7	dep	_	_	378.899994	379.299988	INF
+9	euh	euh	INT	INT	_	8	dm	_	_	379.309998	379.329987	INF
+10	médecine	médecine	NOM	NOM	_	6	dep	_	_	379.429993	379.779999	INF
+
+# sent_id = cefc-coralrom-ffamdl09-112
+# text = parce qu'on ne pou~ pouvait rien
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	380.260010	380.489990	INF
+2	on	on	CLS	CLS	_	4	subj	_	_	380.500000	380.540009	INF
+3	ne	ne	CLN	CLN	_	4	dep	_	_	380.549988	380.609985	INF
+4	pou~	pou~	VRB	VRB	_	1	dep	_	_	380.779999	380.859985	INF
+5	pouvait	pouvoir	VRB	VRB	_	4	dep	_	_	380.980011	381.130005	INF
+6	rien	rien	PRO	PRO	_	4	dep	_	_	381.140015	381.239990	INF
+
+# sent_id = cefc-coralrom-ffamdl09-113
+# text = plus rien faire pour lui
+1	plus	plus	ADN	ADN	_	2	dep	_	_	381.640015	381.720001	INF
+2	rien	rien	PRO	PRO	_	0	root	_	_	381.730011	381.859985	INF
+3	faire	faire	VNF	VNF	_	2	dep	_	_	381.869995	382.079987	INF
+4	pour	pour	PRE	PRE	_	3	dep	_	_	382.170013	382.269989	INF
+5	lui	moi	PRO	PRO	_	4	dep	_	_	382.279999	382.410004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-114
+# text = et c'est dur
+1	et	et	COO	COO	_	3	mark	_	_	383.640015	383.660004	STE
+2	c'	ce	CLS	CLS	_	3	subj	_	_	383.670013	383.760010	STE
+3	est	être	VRB	VRB	_	0	root	_	_	383.769989	383.880005	STE
+4	dur	dur	ADJ	ADJ	_	3	dep	_	_	383.890015	384.079987	STE
+
+# sent_id = cefc-coralrom-ffamdl09-115
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	384.089996	384.390015	STE
+
+# sent_id = cefc-coralrom-ffamdl09-116
+# text = aussi moralement
+1	aussi	aussi	ADV	ADV	_	2	dep	_	_	384.399994	384.670013	STE
+2	moralement	moralement	ADV	ADV	_	0	root	_	_	384.679993	385.140015	STE
+
+# sent_id = cefc-coralrom-ffamdl09-117
+# text = alors pour les pour le personnel
+1	alors	alors	ADV	ADV	_	2	periph	_	_	385.149994	385.399994	STE
+2	pour	pour	PRE	PRE	_	0	root	_	_	385.570007	385.660004	STE
+3	les	le	DET	DET	_	2	disflink	_	_	385.670013	385.809998	STE
+4	pour	pour	PRE	PRE	_	2	para	_	_	386.019989	386.100006	STE
+5	le	le	DET	DET	_	6	spe	_	_	386.109985	386.130005	STE
+6	personnel	personnel	NOM	NOM	_	4	dep	_	_	386.179993	386.679993	STE
+
+# sent_id = cefc-coralrom-ffamdl09-118
+# text = pour le personnel bien sûr c'est dur
+1	pour	pour	PRE	PRE	_	7	periph	_	_	387.149994	387.230011	INF
+2	le	le	DET	DET	_	3	spe	_	_	387.239990	387.329987	INF
+3	personnel	personnel	NOM	NOM	_	1	dep	_	_	387.339996	387.790009	INF
+4	bien	bien	ADV	ADV	_	7	periph	_	_	387.799988	387.899994	INF
+5	sûr	sûr	ADJ	ADJ	_	4	morph	_	_	387.910004	388.109985	INF
+6	c'	ce	CLS	CLS	_	7	subj	_	_	388.119995	388.209991	INF
+7	est	être	VRB	VRB	_	0	root	_	_	388.220001	388.269989	INF
+8	dur	dur	ADJ	ADJ	_	7	dep	_	_	388.320007	388.399994	INF
+
+# sent_id = cefc-coralrom-ffamdl09-119
+# text = alors là tous ces jeunes qui nous arrivent on les aide au maximum
+1	alors	alors	ADV	ADV	_	8	periph	_	_	388.410004	388.579987	INF
+2	là	là	ADV	ADV	_	5	periph	_	_	388.589996	388.660004	INF
+3	tous	tout	ADJ	ADJ	_	5	dep	_	_	388.850006	388.899994	INF
+4	ces	ce	DET	DET	_	5	spe	_	_	389.209991	389.410004	INF
+5	jeunes	jeune	NOM	NOM	_	8	subj	_	_	389.420013	389.769989	INF
+6	qui	qui	PRQ	PRQ	_	8	dep	_	_	389.839996	389.899994	INF
+7	nous	nous	CLI	CLI	_	8	dep	_	_	389.910004	390.029999	INF
+8	arrivent	arriver	VRB	VRB	_	0	root	_	_	390.119995	390.480011	INF
+9	on	on	CLS	CLS	_	11	subj	_	_	391.480011	391.540009	INF
+10	les	le	CLI	CLI	_	11	dep	_	_	391.549988	391.760010	INF
+11	aide	aider	VRB	VRB	_	8	para	_	_	391.769989	391.850006	INF
+12	au	à+le	PRE	PRE	_	11	dep	_	_	391.859985	391.920013	INF
+13	maximum	maximum	NOM	NOM	_	12	dep	_	_	391.929993	392.589996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-120
+# text = on sait bien souvent
+1	on	on	CLS	CLS	_	2	subj	_	_	393.260010	393.339996	INF
+2	sait	savoir	VRB	VRB	_	0	root	_	_	393.390015	393.750000	INF
+3	bien	bien	ADV	ADV	_	2	dep	_	_	393.910004	394.100006	INF
+4	souvent	souvent	ADV	ADV	_	2	dep	_	_	394.109985	394.470001	INF
+
+# sent_id = cefc-coralrom-ffamdl09-121
+# text = on sait que bon même s'ils ont pas le sida les toxicos qui nous arrivent
+1	on	on	CLS	CLS	_	2	subj	_	_	394.480011	394.559998	INF
+2	sait	savoir	VRB	VRB	_	0	root	_	_	394.570007	394.739990	INF
+3	que	que	CSU	CSU	_	2	dep	_	_	394.799988	394.940002	INF
+4	bon	bon	INT	INT	_	3	dm	_	_	394.950012	395.070007	INF
+5	même	même	ADV	ADV	_	6	dep	_	_	395.190002	395.339996	INF
+6	s'	si	CSU	CSU	_	3	dep	_	_	395.350006	395.440002	INF
+7	ils	il	CLS	CLS	_	8	subj	_	_	395.450012	395.529999	INF
+8	ont	avoir	VRB	VRB	_	6	dep	_	_	395.540009	395.609985	INF
+9	pas	pas	ADN	ADN	_	8	dep	_	_	395.619995	395.700012	INF
+10	le	le	DET	DET	_	11	spe	_	_	395.709991	395.730011	INF
+11	sida	sida	NOM	NOM	_	8	dep	_	_	395.739990	396.089996	INF
+12	les	le	DET	DET	_	13	spe	_	_	396.480011	396.559998	INF
+13	toxicos	toxicos	NOM	NOM	_	11	para	_	_	396.570007	397.010010	INF
+14	qui	qui	PRQ	PRQ	_	16	dep	_	_	397.059998	397.149994	INF
+15	nous	nous	CLI	CLI	_	16	dep	_	_	397.160004	397.320007	INF
+16	arrivent	arriver	VRB	VRB	_	13	dep	_	_	397.329987	397.549988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-122
+# text = on fait le maximum pour eux
+1	on	on	CLS	CLS	_	2	subj	_	_	397.559998	397.579987	INF
+2	fait	faire	VRB	VRB	_	0	root	_	_	397.760010	397.859985	INF
+3	le	le	DET	DET	_	4	spe	_	_	397.869995	397.890015	INF
+4	maximum	maximum	NOM	NOM	_	2	dep	_	_	397.899994	398.309998	INF
+5	pour	pour	PRE	PRE	_	2	dep	_	_	398.380005	398.480011	INF
+6	eux	moi	PRO	PRO	_	5	dep	_	_	398.570007	398.630005	INF
+
+# sent_id = cefc-coralrom-ffamdl09-123
+# text = nof~
+1	nof~	nof~	NOM	NOM	_	0	root	_	_	399.359985	399.589996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-124
+# text = dans notre fort intérieur on sait quand même qu'
+1	dans	dans	PRE	PRE	_	6	periph	_	_	399.809998	399.859985	INF
+2	notre	son	DET	DET	_	3	spe	_	_	399.869995	400.029999	INF
+3	fort	fort	NOM	NOM	_	1	dep	_	_	400.089996	400.339996	INF
+4	intérieur	intérieur	ADJ	ADJ	_	3	dep	_	_	400.350006	400.839996	INF
+5	on	on	CLS	CLS	_	6	subj	_	_	401.920013	401.980011	INF
+6	sait	savoir	VRB	VRB	_	0	root	_	_	401.989990	402.130005	INF
+7	quand	quand	CSU	CSU	_	6	dep	_	_	402.140015	402.299988	INF
+8	même	même	ADV	ADV	_	7	morph	_	_	402.309998	402.529999	INF
+9	qu'	que	CSU	CSU	_	7	para	_	_	402.540009	402.579987	INF
+
+# sent_id = cefc-coralrom-ffamdl09-125
+# text = à la sortie à nouveau
+1	à	à	PRE	PRE	_	0	root	_	_	402.589996	402.690002	INF
+2	la	le	DET	DET	_	3	spe	_	_	402.700012	402.779999	INF
+3	sortie	sortie	NOM	NOM	_	1	dep	_	_	402.790009	403.910004	INF
+4	à	à	PRE	PRE	_	1	para	_	_	403.920013	404.049988	INF
+5	nouveau	nouveau	ADJ	ADJ	_	4	dep	_	_	404.059998	404.359985	INF
+
+# sent_id = cefc-coralrom-ffamdl09-126
+# text = l'engrenage hein
+1	l'	le	DET	DET	_	2	spe	_	_	404.369995	404.390015	INF
+2	engrenage	engrenage	NOM	NOM	_	0	root	_	_	404.399994	404.670013	INF
+3	hein	hein	INT	INT	_	2	dm	_	_	404.679993	404.760010	INF
+
+# sent_id = cefc-coralrom-ffamdl09-127
+# text = parce que s'ils sont pas vraiment désireux de sortir de ce milieu ça devient difficile
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	404.859985	405.059998	INF
+2	s'	si	CSU	CSU	_	14	periph	_	_	405.220001	405.320007	INF
+3	ils	il	CLS	CLS	_	4	subj	_	_	405.369995	405.420013	INF
+4	sont	être	VRB	VRB	_	2	dep	_	_	405.429993	405.720001	INF
+5	pas	pas	ADN	ADN	_	4	dep	_	_	405.880005	406.130005	INF
+6	vraiment	vraiment	ADV	ADV	_	7	dep	_	_	406.140015	406.500000	INF
+7	désireux	désireux	ADJ	ADJ	_	4	dep	_	_	406.640015	407.040009	INF
+8	de	de	PRE	PRE	_	7	dep	_	_	407.049988	407.529999	INF
+9	sortir	sortir	VNF	VNF	_	8	dep	_	_	407.959991	408.290009	INF
+10	de	de	PRE	PRE	_	9	dep	_	_	408.299988	408.369995	INF
+11	ce	ce	DET	DET	_	12	spe	_	_	408.380005	408.500000	INF
+12	milieu	milieu	NOM	NOM	_	10	dep	_	_	408.510010	408.829987	INF
+13	ça	ça	PRO	PRO	_	14	subj	_	_	409.459991	409.510010	INF
+14	devient	devenir	VRB	VRB	_	1	dep	_	_	409.519989	409.630005	INF
+15	difficile	difficile	ADJ	ADJ	_	14	dep	_	_	409.640015	409.910004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-128
+# text = et maintenant euh outre la relation s malade personnel j'aimerais savoir si il y a une bonne relation entre les docteurs et le personnel hospitalier
+1	et	et	COO	COO	_	11	mark	_	_	411.320007	411.350006	STE
+2	maintenant	maintenant	ADV	ADV	_	11	periph	_	_	411.359985	412.019989	STE
+3	euh	euh	INT	INT	_	2	dm	_	_	412.029999	412.109985	STE
+4	outre	outre	PRE	PRE	_	11	periph	_	_	412.179993	412.600006	STE
+5	la	le	DET	DET	_	6	spe	_	_	412.609985	412.700012	STE
+6	relation	relation	NOM	NOM	_	4	dep	_	_	412.709991	413.239990	STE
+7	s	s	X	X	_	6	disflink	_	_	413.239990	413.239990	STE
+8	malade	malade	ADJ	ADJ	_	6	dep	_	_	413.250000	413.549988	STE
+9	personnel	personnel	ADJ	ADJ	_	8	para	_	_	413.660004	414.260010	STE
+10	j'	je	CLS	CLS	_	11	subj	_	_	414.709991	414.779999	STE
+11	aimerais	aimer	VRB	VRB	_	0	root	_	_	414.790009	414.959991	STE
+12	savoir	savoir	VNF	VNF	_	11	dep	_	_	415.019989	415.359985	STE
+13	si	si	CSU	CSU	_	12	dep	_	_	415.519989	415.920013	STE
+14	il	il	CLS	CLS	_	16	subj	_	_	416.269989	416.350006	STE
+15	y	y	CLI	CLI	_	16	dep	_	_	416.359985	416.420013	STE
+16	a	avoir	VRB	VRB	_	13	dep	_	_	416.429993	416.500000	STE
+17	une	un	DET	DET	_	19	spe	_	_	416.510010	416.799988	STE
+18	bonne	bon	ADJ	ADJ	_	19	dep	_	_	416.809998	416.920013	STE
+19	relation	relation	NOM	NOM	_	16	dep	_	_	416.929993	417.429993	STE
+20	entre	entre	PRE	PRE	_	19	dep	_	_	417.440002	417.630005	STE
+21	les	le	DET	DET	_	22	spe	_	_	417.640015	417.750000	STE
+22	docteurs	docteur	NOM	NOM	_	20	dep	_	_	417.760010	418.140015	STE
+23	et	et	COO	COO	_	25	mark	_	_	418.149994	418.200012	STE
+24	le	le	DET	DET	_	25	spe	_	_	418.209991	418.290009	STE
+25	personnel	personnel	NOM	NOM	_	19	para	_	_	418.299988	418.760010	STE
+26	hospitalier	hospitalier	ADJ	ADJ	_	25	dep	_	_	418.769989	419.390015	STE
+
+# sent_id = cefc-coralrom-ffamdl09-129
+# text = ah oui en psychiatrie je veux dire
+1	ah	ah	INT	INT	_	6	dm	_	_	420.420013	420.450012	INF
+2	oui	oui	INT	INT	_	1	dm	_	_	420.459991	420.929993	INF
+3	en	en	PRE	PRE	_	6	periph	_	_	420.940002	420.989990	INF
+4	psychiatrie	psychiatrie	NOM	NOM	_	3	dep	_	_	421.059998	421.589996	INF
+5	je	je	CLS	CLS	_	6	subj	_	_	421.600006	421.649994	INF
+6	veux	vouloir	VRB	VRB	_	0	root	_	_	421.660004	421.730011	INF
+7	dire	dire	VNF	VNF	_	6	dep	_	_	421.739990	421.850006	INF
+
+# sent_id = cefc-coralrom-ffamdl09-130
+# text = c'est quand même assez privilégié hein la relation médecin infirmière
+1	c'	ce	CLS	CLS	_	2	subj	_	_	421.859985	421.940002	INF
+2	est	être	VRB	VRB	_	0	root	_	_	421.950012	421.980011	INF
+3	quand	quand	CSU	CSU	_	2	dep	_	_	422.049988	422.100006	INF
+4	même	même	ADV	ADV	_	6	dep	_	_	422.109985	422.299988	INF
+5	assez	assez	ADV	ADV	_	6	dep	_	_	422.309998	422.489990	INF
+6	privilégié	privilégier	VPP	VPP	_	3	dep	_	_	422.549988	423.350006	INF
+7	hein	hein	INT	INT	_	6	dm	_	_	423.359985	423.500000	INF
+8	la	le	DET	DET	_	9	spe	_	_	423.510010	423.589996	INF
+9	relation	relation	NOM	NOM	_	6	dep	_	_	423.600006	424.410004	INF
+10	médecin	médecin	NOM	NOM	_	9	dep	_	_	424.839996	425.250000	INF
+11	infirmière	infirmier	ADJ	ADJ	_	10	dep	_	_	425.260010	425.790009	INF
+
+# sent_id = cefc-coralrom-ffamdl09-131
+# text = bon déjà on a deux deux réunions par semaine où on parle de chaque cas de malade
+1	bon	bon	INT	INT	_	4	dm	_	_	426.380005	426.500000	INF
+2	déjà	déjà	ADV	ADV	_	4	periph	_	_	426.510010	426.670013	INF
+3	on	on	CLS	CLS	_	4	subj	_	_	426.679993	426.959991	INF
+4	a	avoir	VRB	VRB	_	0	root	_	_	427.059998	427.089996	INF
+5	deux	deux	NUM	NUM	_	7	spe	_	_	427.100006	427.440002	INF
+6	deux	deux	NUM	NUM	_	7	spe	_	_	427.690002	427.829987	INF
+7	réunions	réunion	NOM	NOM	_	4	dep	_	_	427.869995	428.190002	INF
+8	par	par	PRE	PRE	_	7	dep	_	_	428.239990	428.350006	INF
+9	semaine	semaine	NOM	NOM	_	8	dep	_	_	428.359985	428.720001	INF
+10	où	où	PRQ	PRQ	_	12	dep	_	_	429.630005	429.679993	INF
+11	on	on	CLS	CLS	_	12	subj	_	_	429.690002	430.040009	INF
+12	parle	parler	VRB	VRB	_	7	dep	_	_	430.179993	430.399994	INF
+13	de	de	PRE	PRE	_	12	dep	_	_	430.410004	430.480011	INF
+14	chaque	chaque	DET	DET	_	15	spe	_	_	430.489990	430.829987	INF
+15	cas	cas	NOM	NOM	_	13	dep	_	_	430.980011	431.130005	INF
+16	de	de	PRE	PRE	_	15	dep	_	_	431.140015	431.239990	INF
+17	malade	malade	NOM	NOM	_	16	dep	_	_	431.250000	431.750000	INF
+
+# sent_id = cefc-coralrom-ffamdl09-132
+# text = chaque malade est étudié cas par cas
+1	chaque	chaque	DET	DET	_	2	spe	_	_	432.190002	432.339996	INF
+2	malade	malade	NOM	NOM	_	4	subj	_	_	432.390015	432.649994	INF
+3	est	être	VRB	VRB	_	4	aux	_	_	432.660004	432.700012	INF
+4	étudié	étudier	VPP	VPP	_	0	root	_	_	432.799988	433.149994	INF
+5	cas	cas	NOM	NOM	_	4	dep	_	_	433.220001	433.299988	INF
+6	par	par	PRE	PRE	_	5	dep	_	_	433.309998	433.459991	INF
+7	cas	cas	NOM	NOM	_	6	dep	_	_	433.630005	433.760010	INF
+
+# sent_id = cefc-coralrom-ffamdl09-133
+# text = et là les médecins euh exceptionnellement privilégiés je veux dire le moment vraiment privilégié
+1	et	et	COO	COO	_	7	mark	_	_	434.640015	434.679993	INF
+2	là	là	ADV	ADV	_	7	periph	_	_	434.690002	434.940002	INF
+3	les	le	DET	DET	_	4	spe	_	_	434.950012	435.079987	INF
+4	médecins	médecin	NOM	NOM	_	7	subj	_	_	435.089996	435.649994	INF
+5	euh	euh	INT	INT	_	4	dm	_	_	435.660004	436.130005	INF
+6	exceptionnellement	exceptionnellement	ADV	ADV	_	7	dep	_	_	437.140015	438.239990	INF
+7	privilégiés	privilégier	VPP	VPP	_	0	root	_	_	438.299988	439.350006	INF
+8	je	je	CLS	CLS	_	9	subj	_	_	439.359985	439.470001	INF
+9	veux	vouloir	VRB	VRB	_	7	dm	_	_	439.480011	439.649994	INF
+10	dire	dire	VNF	VNF	_	9	dep	_	_	439.660004	439.769989	INF
+11	le	le	DET	DET	_	12	spe	_	_	439.779999	439.899994	INF
+12	moment	moment	NOM	NOM	_	10	dep	_	_	439.910004	440.170013	INF
+13	vraiment	vraiment	ADV	ADV	_	14	dep	_	_	440.179993	440.369995	INF
+14	privilégié	privilégier	VPP	VPP	_	12	dep	_	_	440.459991	440.980011	INF
+
+# sent_id = cefc-coralrom-ffamdl09-134
+# text = c'est qu'ils nous écoutent bien
+1	c'	ce	CLS	CLS	_	2	subj	_	_	441.410004	441.440002	INF
+2	est	être	VRB	VRB	_	0	root	_	_	441.450012	441.480011	INF
+3	qu'	que	CSU	CSU	_	2	dep	_	_	441.489990	441.519989	INF
+4	ils	il	CLS	CLS	_	6	subj	_	_	441.529999	441.619995	INF
+5	nous	nous	CLI	CLI	_	6	dep	_	_	441.630005	441.760010	INF
+6	écoutent	écouter	VRB	VRB	_	3	dep	_	_	441.769989	442.220001	INF
+7	bien	bien	ADV	ADV	_	6	dep	_	_	442.290009	442.480011	INF
+
+# sent_id = cefc-coralrom-ffamdl09-135
+# text = c'est pas toujours le cas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	443.309998	443.359985	INF
+2	est	être	VRB	VRB	_	0	root	_	_	443.369995	443.420013	INF
+3	pas	pas	ADN	ADN	_	2	dep	_	_	443.549988	443.720001	INF
+4	toujours	toujours	ADV	ADV	_	2	dep	_	_	443.730011	443.910004	INF
+5	le	le	DET	DET	_	6	spe	_	_	443.920013	444.149994	INF
+6	cas	cas	NOM	NOM	_	2	dep	_	_	444.160004	444.339996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-136
+# text = je pense en médecine générale hein
+1	je	je	CLS	CLS	_	2	subj	_	_	444.350006	444.480011	INF
+2	pense	penser	VRB	VRB	_	0	root	_	_	444.579987	444.899994	INF
+3	en	en	PRE	PRE	_	2	dep	_	_	445.010010	445.640015	INF
+4	médecine	médecine	NOM	NOM	_	3	dep	_	_	445.649994	446.040009	INF
+5	générale	général	ADJ	ADJ	_	4	dep	_	_	446.049988	446.779999	INF
+6	hein	hein	INT	INT	_	5	dm	_	_	446.790009	446.809998	INF
+
+# sent_id = cefc-coralrom-ffamdl09-137
+# text = alors on confronte nos idées parce que les médecins c'est vrai que bon s il nt arrive le matin
+1	alors	alors	ADV	ADV	_	3	periph	_	_	447.809998	448.010010	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	448.019989	448.109985	INF
+3	confronte	confronter	VRB	VRB	_	0	root	_	_	448.119995	448.630005	INF
+4	nos	son	DET	DET	_	5	spe	_	_	448.640015	448.869995	INF
+5	idées	idée	NOM	NOM	_	3	dep	_	_	448.880005	449.239990	INF
+6	parce que	parce que	CSU	CSU	_	3	dep	_	_	449.250000	449.529999	INF
+7	les	le	DET	DET	_	8	spe	_	_	449.540009	449.619995	INF
+8	médecins	médecin	NOM	NOM	_	10	periph	_	_	449.630005	450.170013	INF
+9	c'	ce	CLS	CLS	_	10	subj	_	_	450.250000	450.339996	INF
+10	est	être	VRB	VRB	_	6	dep	_	_	450.350006	450.390015	INF
+11	vrai	vrai	ADJ	ADJ	_	10	dep	_	_	450.399994	450.579987	INF
+12	que	que	CSU	CSU	_	11	dep	_	_	450.589996	450.609985	INF
+13	bon	bon	INT	INT	_	12	dm	_	_	450.649994	450.799988	INF
+14	s	s	NOM	NOM	_	16	periph	_	_	450.799988	450.799988	INF
+15	il	il	CLS	CLS	_	16	subj	_	_	450.920013	451.040009	INF
+16	nt	nt	VRB	VRB	_	12	dep	_	_	451.040009	451.040009	INF
+17	arrive	arriver	VRB	VRB	_	16	para	_	_	451.049988	451.329987	INF
+18	le	le	DET	DET	_	19	spe	_	_	451.339996	451.429993	INF
+19	matin	matin	NOM	NOM	_	17	dep	_	_	451.440002	451.920013	INF
+
+# sent_id = cefc-coralrom-ffamdl09-138
+# text = il s nt passe une demi-heure avec le malade
+1	il	il	CLS	CLS	_	2	subj	_	_	452.489990	452.540009	INF
+2	s	s	VRB	VRB	_	0	root	_	_	452.540009	452.540009	INF
+3	nt	nt	CLS	CLS	_	4	subj	_	_	452.540009	452.540009	INF
+4	passe	passer	VRB	VRB	_	2	para	_	_	452.589996	452.820007	INF
+5	une	un	DET	DET	_	6	spe	_	_	452.829987	452.950012	INF
+6	demi-heure	demi-heure	NOM	NOM	_	4	dep	_	_	452.959991	453.369995	INF
+7	avec	avec	PRE	PRE	_	4	dep	_	_	453.380005	453.619995	INF
+8	le	le	DET	DET	_	9	spe	_	_	453.670013	453.750000	INF
+9	malade	malade	NOM	NOM	_	7	dep	_	_	453.760010	454.100006	INF
+
+# sent_id = cefc-coralrom-ffamdl09-139
+# text = donc c~ c'est un contact bon valable aussi attention
+1	donc	donc	ADV	ADV	_	4	periph	_	_	455.059998	455.230011	INF
+2	c~	c~	X	X	_	1	disflink	_	_	455.290009	455.489990	INF
+3	c'	ce	CLS	CLS	_	4	subj	_	_	455.589996	455.609985	INF
+4	est	être	VRB	VRB	_	0	root	_	_	455.619995	455.640015	INF
+5	un	un	DET	DET	_	6	spe	_	_	455.649994	455.690002	INF
+6	contact	contact	NOM	NOM	_	4	dep	_	_	455.760010	456.309998	INF
+7	bon	bon	INT	INT	_	6	dm	_	_	456.320007	456.450012	INF
+8	valable	valable	ADJ	ADJ	_	6	dep	_	_	456.579987	456.899994	INF
+9	aussi	aussi	ADV	ADV	_	4	dep	_	_	456.910004	457.130005	INF
+10	attention	attention	NOM	NOM	_	4	dep	_	_	457.140015	457.519989	INF
+
+# sent_id = cefc-coralrom-ffamdl09-140
+# text = je c'est pas une critique hein
+1	je	je	CLS	CLS	_	3	subj	_	_	457.529999	457.989990	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	458.000000	458.079987	INF
+3	est	être	VRB	VRB	_	0	root	_	_	458.089996	458.140015	INF
+4	pas	pas	ADN	ADN	_	3	dep	_	_	458.149994	458.239990	INF
+5	une	un	DET	DET	_	6	spe	_	_	458.250000	458.299988	INF
+6	critique	critique	NOM	NOM	_	3	dep	_	_	458.410004	458.869995	INF
+7	hein	hein	INT	INT	_	6	dm	_	_	458.880005	459.010010	INF
+
+# sent_id = cefc-coralrom-ffamdl09-141
+# text = mais c'est court
+1	mais	mais	COO	COO	_	3	mark	_	_	459.559998	459.630005	INF
+2	c'	ce	CLS	CLS	_	3	subj	_	_	459.640015	459.720001	INF
+3	est	être	VRB	VRB	_	0	root	_	_	459.730011	459.779999	INF
+4	court	court	ADJ	ADJ	_	3	dep	_	_	459.859985	460.089996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-142
+# text = nous on passe huit heures avec eux
+1	nous	moi	PRO	PRO	_	3	periph	_	_	460.690002	460.809998	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	460.820007	460.880005	INF
+3	passe	passer	VRB	VRB	_	0	root	_	_	460.890015	461.079987	INF
+4	huit	huit	NUM	NUM	_	5	spe	_	_	461.089996	461.279999	INF
+5	heures	heure	NOM	NOM	_	3	dep	_	_	461.290009	461.440002	INF
+6	avec	avec	PRE	PRE	_	5	dep	_	_	461.450012	461.630005	INF
+7	eux	moi	PRO	PRO	_	6	dep	_	_	461.739990	461.869995	INF
+
+# sent_id = cefc-coralrom-ffamdl09-143
+# text = donc déjà il y a une différence de relation hein
+1	donc	donc	ADV	ADV	_	5	periph	_	_	462.209991	462.359985	INF
+2	déjà	déjà	ADV	ADV	_	5	periph	_	_	462.410004	462.649994	INF
+3	il	il	CLS	CLS	_	5	subj	_	_	462.660004	462.730011	INF
+4	y	y	CLI	CLI	_	5	dep	_	_	462.739990	462.760010	INF
+5	a	avoir	VRB	VRB	_	0	root	_	_	462.769989	462.799988	INF
+6	une	un	DET	DET	_	7	spe	_	_	462.809998	462.890015	INF
+7	différence	différence	NOM	NOM	_	5	dep	_	_	462.899994	463.640015	INF
+8	de	de	PRE	PRE	_	7	dep	_	_	463.649994	463.799988	INF
+9	relation	relation	NOM	NOM	_	8	dep	_	_	463.809998	464.399994	INF
+10	hein	hein	INT	INT	_	9	dm	_	_	464.440002	464.549988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-144
+# text = alors on compare les deux
+1	alors	alors	ADV	ADV	_	3	periph	_	_	465.130005	465.390015	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	465.399994	465.450012	INF
+3	compare	comparer	VRB	VRB	_	0	root	_	_	465.500000	465.760010	INF
+4	les	le	DET	DET	_	5	spe	_	_	465.769989	465.929993	INF
+5	deux	deux	NUM	NUM	_	3	dep	_	_	466.010010	466.260010	INF
+
+# sent_id = cefc-coralrom-ffamdl09-145
+# text = quelquefois on arrive euh à des résultats différents
+1	quelquefois	quelquefois	ADV	ADV	_	3	periph	_	_	466.899994	467.390015	INF
+2	on	on	CLS	CLS	_	3	subj	_	_	467.399994	467.459991	INF
+3	arrive	arriver	VRB	VRB	_	0	root	_	_	467.470001	468.279999	INF
+4	euh	euh	INT	INT	_	3	dm	_	_	468.290009	468.309998	INF
+5	à	à	PRE	PRE	_	3	dep	_	_	468.320007	468.359985	INF
+6	des	de	PRE	PRE	_	5	dep	_	_	468.420013	468.480011	INF
+7	résultats	résultat	NOM	NOM	_	6	dep	_	_	468.489990	468.920013	INF
+8	différents	différent	ADJ	ADJ	_	7	dep	_	_	468.959991	469.450012	INF
+
+# sent_id = cefc-coralrom-ffamdl09-146
+# text = on en discute
+1	on	on	CLS	CLS	_	3	subj	_	_	469.920013	470.109985	INF
+2	en	en	CLI	CLI	_	3	dep	_	_	470.119995	470.239990	INF
+3	discute	discuter	VRB	VRB	_	0	root	_	_	470.250000	470.839996	INF
+
+# sent_id = cefc-coralrom-ffamdl09-147
+# text = et on en général on arrive toujours à une bonne conclusion
+1	et	et	COO	COO	_	6	mark	_	_	471.010010	471.320007	INF
+2	on	on	CLS	CLS	_	6	subj	_	_	471.359985	471.480011	INF
+3	en	en	PRE	PRE	_	6	periph	_	_	471.679993	471.750000	INF
+4	général	général	NOM	NOM	_	3	dep	_	_	471.760010	472.209991	INF
+5	on	on	CLS	CLS	_	6	subj	_	_	472.220001	472.269989	INF
+6	arrive	arriver	VRB	VRB	_	0	root	_	_	472.279999	472.470001	INF
+7	toujours	toujours	ADV	ADV	_	6	dep	_	_	472.529999	472.720001	INF
+8	à	à	PRE	PRE	_	6	dep	_	_	472.730011	472.760010	INF
+9	une	un	DET	DET	_	11	spe	_	_	472.769989	472.929993	INF
+10	bonne	bon	ADJ	ADJ	_	11	dep	_	_	472.940002	473.079987	INF
+11	conclusion	conclusion	NOM	NOM	_	8	dep	_	_	473.149994	473.660004	INF
+
+# sent_id = cefc-coralrom-ffamdl09-148
+# text = la mieux pour le malade hein
+1	la	le	DET	DET	_	2	spe	_	_	474.140015	474.239990	INF
+2	mieux	mieux	NOM	NOM	_	0	root	_	_	474.299988	474.470001	INF
+3	pour	pour	PRE	PRE	_	2	dep	_	_	474.510010	474.630005	INF
+4	le	le	DET	DET	_	5	spe	_	_	474.640015	474.809998	INF
+5	malade	malade	NOM	NOM	_	3	dep	_	_	474.820007	475.019989	INF
+6	hein	hein	INT	INT	_	5	dm	_	_	475.029999	475.049988	INF
+
+# sent_id = cefc-coralrom-ffamdl09-149
+# text = oui d'accord ben je te remercie d'avoir répondu à toutes ces questions
+1	oui	oui	INT	INT	_	7	dm	_	_	476.019989	476.070007	STE
+2	d'	de	PRE	PRE	_	7	periph	_	_	476.079987	476.109985	STE
+3	accord	accord	NOM	NOM	_	2	dep	_	_	476.119995	476.230011	STE
+4	ben	ben	INT	INT	_	7	dm	_	_	477.070007	477.350006	STE
+5	je	je	CLS	CLS	_	7	subj	_	_	477.359985	477.410004	STE
+6	te	te	CLI	CLI	_	7	dep	_	_	477.420013	477.559998	STE
+7	remercie	remercier	VRB	VRB	_	0	root	_	_	477.570007	477.989990	STE
+8	d'	de	PRE	PRE	_	7	dep	_	_	478.000000	478.040009	STE
+9	avoir	avoir	VNF	VNF	_	8	dep	_	_	478.049988	478.350006	STE
+10	répondu	répondre	VPP	VPP	_	9	dep	_	_	478.630005	479.029999	STE
+11	à	à	PRE	PRE	_	9	dep	_	_	479.040009	479.079987	STE
+12	toutes	tout	ADJ	ADJ	_	14	dep	_	_	479.140015	479.239990	STE
+13	ces	ce	DET	DET	_	14	spe	_	_	479.250000	479.480011	STE
+14	questions	question	NOM	NOM	_	11	dep	_	_	479.489990	479.850006	STE
+
+# sent_id = cefc-coralrom-ffamdl09-150
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	481.480011	481.839996	STE
+

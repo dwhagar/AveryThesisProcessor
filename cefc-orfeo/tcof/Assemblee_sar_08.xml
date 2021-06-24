@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Assemblee_sar_08
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Virginie André
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     2517
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     beaucoup de bruit de fond pas moment
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Assemblee_sar_08
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:15:59" type="audio">
+      <date>
+       00/12/2008
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Il s'agit d'une assemblée générale d'un club de pétanque. Il y sera présentés le bilan des manifestations de l'année menées par le club, les projets des années à venir et les résultats sportifs avec remises de prix aux joueurs du club.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="réunion"/>
+    <catRef corresp="secteur" target="professionnel"/>
+    <catRef corresp="milieu" target="associatif"/>
+    <catRef corresp="channel" target="en_public"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine, Saint Mihiel
+       </placeName>
+      </birth>
+      <occupation>
+       commercial
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       lycée
+      </education>
+      <birth>
+       <placeName>
+        France, Franche-Comté, Pontarlier
+       </placeName>
+      </birth>
+      <occupation>
+       sans emploi
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L3">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine, Saint Mihiel
+       </placeName>
+      </birth>
+      <occupation>
+       enseignant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L4">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       lycée
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine, Saint Mihiel
+       </placeName>
+      </birth>
+      <occupation>
+       agent de liaison
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L5">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine, Saint Mihiel
+       </placeName>
+      </birth>
+      <occupation>
+       service après vente
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="LX">
+      <sex>
+       inconnu
+      </sex>
+      <age>
+       inconnu
+      </age>
+      <education>
+       inconnu
+      </education>
+      <birth>
+       <placeName>
+        inconnu
+       </placeName>
+      </birth>
+      <occupation>
+       inconnu
+      </occupation>
+      <langKnowledge>
+       <langKnown level="inconnu">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

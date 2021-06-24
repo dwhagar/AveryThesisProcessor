@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Dav_gan_06
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Virginie André
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     1818
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     son pas clair, grésillement, ondulation des voix
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Dav_gan_06
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:10:10" type="audio">
+      <date>
+       05/12/2006
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Deux amis étudiants discutent. Au départ, ils se remémorent le concert de Diam's (une
+          chanteuse de rap) auquel ils ont assisté avec un grand plaisir. Ensuite, ils parlent d'un
+          week-end entre amis, puis des projets d'études de chacun. La conversation glisse ensuite
+          sur le thème du passage du code (permis) par la jeune femme et dévie, encore une fois,
+          vers les cadeaux d'anniversaire du jeune homme.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="conversation"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       M
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       étudiant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       étudiant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

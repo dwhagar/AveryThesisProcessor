@@ -1,0 +1,2201 @@
+# sent_id = cefc-crfp-PUB-PAU-1-1
+# text = pas besoin d'enregistrer l'accent des indigènes dont je suis hein
+1	pas	pas	ADN	ADN	_	2	dep	_	_	0.320000	0.510000	L1
+2	besoin	besoin	NOM	NOM	_	0	root	_	_	0.520000	1.290000	L1
+3	d'	de	PRE	PRE	_	2	dep	_	_	4.840000	4.890000	L1
+4	enregistrer	enregistrer	VNF	VNF	_	3	dep	_	_	4.900000	6.070000	L1
+5	l'	le	DET	DET	_	6	spe	_	_	6.720000	6.870000	L1
+6	accent	accent	NOM	NOM	_	4	dep	_	_	6.880000	7.660000	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	7.670000	8.010000	L1
+8	indigènes	indigène	NOM	NOM	_	7	dep	_	_	8.020000	8.810000	L1
+9	dont	dont	PRQ	PRQ	_	11	dep	_	_	9.450000	9.650000	L1
+10	je	je	CLS	CLS	_	11	subj	_	_	9.660000	9.840000	L1
+11	suis	être	VRB	VRB	_	6	dep	_	_	9.850000	10.300000	L1
+12	hein	hein	INT	INT	_	11	dm	_	_	11.350000	11.750000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-2
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	12.290000	12.760000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-3
+# text = et en français alors euh je vais être amené à
+1	et	et	COO	COO	_	7	mark	_	_	12.770000	12.970000	L1
+2	en	en	PRE	PRE	_	7	periph	_	_	12.980000	13.110000	L1
+3	français	français	NOM	NOM	_	2	dep	_	_	13.120000	13.660000	L1
+4	alors	alors	ADV	ADV	_	7	periph	_	_	13.950000	14.330000	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	14.420000	14.550000	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	14.560000	14.750000	L1
+7	vais	aller	VRB	VRB	_	0	root	_	_	14.760000	14.970000	L1
+8	être	être	VNF	VNF	_	9	aux	_	_	14.980000	15.120000	L1
+9	amené	amener	VPP	VPP	_	7	dep	_	_	15.130000	15.610000	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	15.620000	15.780000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-4
+# text = vous n'enregistrez pas encore
+1	vous	vous	CLS	CLS	_	3	subj	_	_	16.469999	16.709999	L1
+2	n'	ne	CLN	CLN	_	3	dep	_	_	16.719999	16.770000	L1
+3	enregistrez	enregistrer	VRB	VRB	_	0	root	_	_	16.780001	17.160000	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	17.170000	17.280001	L1
+5	encore	encore	ADV	ADV	_	3	dep	_	_	17.290001	17.600000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-5
+# text = ah bon ben je vais être amené à transformer un peu euh le l'ordre de mon cours
+1	ah bon	ah bon	INT	INT	_	4	dm	_	_	19.049999	19.400000	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	19.410000	19.510000	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	19.969999	20.120001	L1
+4	vais	aller	VRB	VRB	_	0	root	_	_	20.129999	20.549999	L1
+5	être	être	VNF	VNF	_	6	aux	_	_	20.559999	20.620001	L1
+6	amené	amener	VPP	VPP	_	4	dep	_	_	20.629999	20.959999	L1
+7	à	à	PRE	PRE	_	6	dep	_	_	20.969999	21.250000	L1
+8	transformer	se transformer	VNF	VNF	_	7	dep	_	_	21.370001	22.110001	L1
+9	un peu	un peu	ADV	ADV	_	8	dep	_	_	22.120001	22.450001	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	22.879999	23.170000	L1
+11	le	le	DET	DET	_	13	spe	_	_	23.180000	23.870001	L1
+12	l'	le	DET	DET	_	11	para	_	_	24.260000	24.360001	L1
+13	ordre	ordre	NOM	NOM	_	8	dep	_	_	24.370001	24.540001	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	24.549999	24.570000	L1
+15	mon	son	DET	DET	_	16	spe	_	_	24.580000	24.709999	L1
+16	cours	cour	NOM	NOM	_	14	dep	_	_	24.750000	25.090000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-6
+# text = c' est-à-dire que le travail que j'ai commencé la semaine dernière hein sur le Dramatis personae que je vous faisais en Espagnol
+1	c' est-à-dire que	c' est-à-dire que	VRB	VRB	_	0	root	_	_	25.600000	26.549999	L1
+2	le	le	DET	DET	_	3	spe	_	_	26.559999	26.750000	L1
+3	travail	travail	NOM	NOM	_	1	dep	_	_	26.760000	27.170000	L1
+4	que	que	PRQ	PRQ	_	7	dep	_	_	27.240000	27.480000	L1
+5	j'	je	CLS	CLS	_	7	subj	_	_	27.490000	27.590000	L1
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	27.600000	27.660000	L1
+7	commencé	commencer	VPP	VPP	_	3	dep	_	_	27.670000	28.129999	L1
+8	la	le	DET	DET	_	9	spe	_	_	28.139999	28.209999	L1
+9	semaine	semaine	NOM	NOM	_	7	dep	_	_	28.219999	28.430000	L1
+10	dernière	dernier	ADJ	ADJ	_	9	dep	_	_	28.440001	28.889999	L1
+11	hein	hein	INT	INT	_	10	dm	_	_	29.410000	29.530001	L1
+12	sur	sur	PRE	PRE	_	7	dep	_	_	29.540001	29.750000	L1
+13	le	le	DET	DET	_	14	spe	_	_	29.760000	29.870001	L1
+14	Dramatis	Dramatis	NOM	NOM	_	12	dep	_	_	29.879999	30.400000	L1
+15	personae	personae	ADV	ADV	_	7	dep	_	_	30.410000	31.070000	L1
+16	que	que	CSU	CSU	_	7	dep	_	_	31.080000	31.110001	L1
+17	je	je	CLS	CLS	_	19	subj	_	_	31.120001	31.139999	L1
+18	vous	vous	CLI	CLI	_	19	dep	_	_	31.150000	31.400000	L1
+19	faisais	faire	VRB	VRB	_	16	dep	_	_	31.410000	31.620001	L1
+20	en	en	PRE	PRE	_	19	dep	_	_	31.629999	31.740000	L1
+21	Espagnol	espagnol	NOM	NOM	_	20	dep	_	_	31.750000	32.349998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-7
+# text = nous allons le laisser de côté
+1	nous	nous	CLS	CLS	_	2	subj	_	_	35.099998	35.310001	L1
+2	allons	aller	VRB	VRB	_	0	root	_	_	35.320000	35.540001	L1
+3	le	le	CLI	CLI	_	4	dep	_	_	35.549999	35.599998	L1
+4	laisser	laisser	VNF	VNF	_	2	dep	_	_	35.610001	35.919998	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	35.930000	36.040001	L1
+6	côté	côté	NOM	NOM	_	5	dep	_	_	36.049999	36.700001	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-8
+# text = et je vais vous parler
+1	et	et	COO	COO	_	3	mark	_	_	37.430000	37.610001	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	37.619999	37.860001	L1
+3	vais	aller	VRB	VRB	_	0	root	_	_	37.869999	37.980000	L1
+4	vous	vous	CLI	CLI	_	5	dep	_	_	37.990002	38.160000	L1
+5	parler	parler	VNF	VNF	_	3	dep	_	_	38.169998	38.730000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-9
+# text = donc du dernier thème introductif à l'étude euh de notre pièce c'est-à-dire je voudrais vous dire
+1	donc	donc	ADV	ADV	_	14	periph	_	_	38.740002	39.330002	L1
+2	du	de+le	PRE	PRE	_	14	periph	_	_	40.529999	40.770000	L1
+3	dernier	dernier	ADJ	ADJ	_	4	dep	_	_	40.959999	41.750000	L1
+4	thème	thème	NOM	NOM	_	2	dep	_	_	42.139999	42.650002	L1
+5	introductif	introductif	ADJ	ADJ	_	4	dep	_	_	44.250000	45.580002	L1
+6	à	à	PRE	PRE	_	14	periph	_	_	46.360001	46.520000	L1
+7	l'	le	DET	DET	_	8	spe	_	_	46.529999	46.619999	L1
+8	étude	étude	NOM	NOM	_	6	dep	_	_	46.630001	47.299999	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	47.639999	47.830002	L1
+10	de	de	PRE	PRE	_	8	dep	_	_	47.840000	48.330002	L1
+11	notre	son	DET	DET	_	12	spe	_	_	48.340000	48.700001	L1
+12	pièce	pièce	NOM	NOM	_	10	dep	_	_	48.709999	49.340000	L1
+13	c'	ce	CLS	CLS	_	14	subj	_	_	50.259998	50.360001	L1
+14	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	50.369999	51.349998	L1
+15	je	je	CLS	CLS	_	16	subj	_	_	51.779999	52.060001	L1
+16	voudrais	vouloir	VRB	VRB	_	14	para	_	_	52.070000	52.470001	L1
+17	vous	vous	CLI	CLI	_	18	dep	_	_	52.480000	52.619999	L1
+18	dire	dire	VNF	VNF	_	16	dep	_	_	52.630001	52.930000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-10
+# text = donc en français aujourd' hui quelques mots
+1	donc	donc	ADV	ADV	_	6	periph	_	_	52.939999	53.240002	L1
+2	en	en	PRE	PRE	_	6	periph	_	_	53.250000	53.410000	L1
+3	français	français	NOM	NOM	_	2	dep	_	_	53.419998	54.209999	L1
+4	aujourd' hui	aujourd'hui	ADV	ADV	_	5	dep	_	_	55.090000	55.959999	L1
+5	quelques	quelque	ADJ	ADJ	_	6	dep	_	_	56.029999	56.500000	L1
+6	mots	mot	NOM	NOM	_	0	root	_	_	56.509998	57.119999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-11
+# text = relatifs au thème de la femme
+1	relatifs	relatif	NOM	NOM	_	0	root	_	_	59.570000	60.810001	L1
+2	au	à+le	PRE	PRE	_	1	dep	_	_	61.509998	61.750000	L1
+3	thème	thème	NOM	NOM	_	2	dep	_	_	61.820000	62.459999	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	62.900002	63.470001	L1
+5	la	le	DET	DET	_	6	spe	_	_	63.520000	63.779999	L1
+6	femme	femme	NOM	NOM	_	4	dep	_	_	63.790001	64.529999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-12
+# text = dans le théâtre lopesque ce qui nous conduit à tout naturellement bien sûr à étudier ultérieurement le personnage féminin de notre comedia je parle
+1	dans	dans	PRE	PRE	_	24	periph	_	_	65.400002	66.050003	L1
+2	le	le	DET	DET	_	3	spe	_	_	66.059998	66.290001	L1
+3	théâtre	théâtre	NOM	NOM	_	1	dep	_	_	66.300003	66.870003	L1
+4	lopesque	lopesque	ADJ	ADJ	_	3	dep	_	_	66.879997	67.650002	L1
+5	ce	ce	PRO	PRO	_	24	periph	_	_	68.580002	68.720001	L1
+6	qui	qui	PRQ	PRQ	_	8	dep	_	_	68.730003	68.889999	L1
+7	nous	nous	CLI	CLI	_	8	dep	_	_	68.900002	69.040001	L1
+8	conduit	conduire	VPP	VPP	_	5	dep	_	_	69.050003	69.480003	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	69.489998	69.779999	L1
+10	tout	tout	PRO	PRO	_	14	dep	_	_	69.790001	69.900002	L1
+11	naturellement	naturellement	ADV	ADV	_	12	dep	_	_	69.910004	70.610001	L1
+12	bien	bien	ADV	ADV	_	10	dep	_	_	70.620003	70.879997	L1
+13	sûr	sûr	ADJ	ADJ	_	12	morph	_	_	70.889999	71.360001	L1
+14	à	à	PRE	PRE	_	9	para	_	_	72.559998	72.940002	L1
+15	étudier	étudier	VNF	VNF	_	14	dep	_	_	73.169998	74.050003	L1
+16	ultérieurement	ultérieurement	ADV	ADV	_	15	dep	_	_	74.110001	75.279999	L1
+17	le	le	DET	DET	_	18	spe	_	_	75.779999	76.040001	L1
+18	personnage	personnage	NOM	NOM	_	15	dep	_	_	76.050003	76.779999	L1
+19	féminin	féminin	ADJ	ADJ	_	18	dep	_	_	76.910004	77.739998	L1
+20	de	de	PRE	PRE	_	18	dep	_	_	77.820000	78.010002	L1
+21	notre	son	DET	DET	_	22	spe	_	_	78.019997	78.540001	L1
+22	comedia	comedia	NOM	NOM	_	20	dep	_	_	78.820000	79.370003	L1
+23	je	je	CLS	CLS	_	24	subj	_	_	79.529999	79.669998	L1
+24	parle	parler	VRB	VRB	_	0	root	_	_	79.680000	80.000000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-13
+# text = ça va je parle pas trop fort bien
+1	ça	ça	PRO	PRO	_	2	subj	_	_	80.010002	80.180000	L1
+2	va	aller	VRB	VRB	_	0	root	_	_	80.190002	80.309998	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	80.320000	80.430000	L1
+4	parle	parler	VRB	VRB	_	2	para	_	_	80.440002	80.699997	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	80.709999	80.839996	L1
+6	trop	trop	ADV	ADV	_	7	dep	_	_	80.900002	81.029999	L1
+7	fort	fort	ADJ	ADJ	_	4	dep	_	_	81.040001	81.389999	L1
+8	bien	bien	ADV	ADV	_	4	dep	_	_	82.550003	82.879997	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-14
+# text = donc si vous voulez euh aujourd' hui laissons de côté le Dramatis personae
+1	donc	donc	ADV	ADV	_	7	periph	_	_	83.629997	83.930000	L1
+2	si	si	CSU	CSU	_	7	periph	_	_	83.940002	84.080002	L1
+3	vous	vous	CLS	CLS	_	4	subj	_	_	84.089996	84.139999	L1
+4	voulez	vouloir	VRB	VRB	_	2	dep	_	_	84.150002	84.820000	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	85.050003	85.269997	L1
+6	aujourd' hui	aujourd'hui	ADV	ADV	_	7	dep	_	_	85.279999	86.089996	L1
+7	laissons	laisser	VRB	VRB	_	0	root	_	_	86.099998	86.599998	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	86.610001	86.690002	L1
+9	côté	côté	NOM	NOM	_	8	dep	_	_	86.699997	87.169998	L1
+10	le	le	DET	DET	_	11	spe	_	_	87.180000	87.290001	L1
+11	Dramatis	Dramatis	NOM	NOM	_	7	dep	_	_	87.300003	87.809998	L1
+12	personae	personae	NOM	NOM	_	11	dep	_	_	87.820000	88.550003	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-15
+# text = nous y reviendrons ultérieurement
+1	nous	moi	PRO	PRO	_	3	subj	_	_	88.900002	89.169998	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	89.180000	89.209999	L1
+3	reviendrons	revenir	VRB	VRB	_	0	root	_	_	89.220001	89.940002	L1
+4	ultérieurement	ultérieurement	ADV	ADV	_	3	dep	_	_	90.029999	91.010002	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-16
+# text = je vais donc vous parler du thème de la femme dans la production euh dramatique lopesque la come~ la comedia qui va faire euh l'objet de notre étude cette année le Chien du Jardinier a été pendant longtemps
+1	je	je	CLS	CLS	_	2	subj	_	_	91.620003	91.910004	L1
+2	vais	aller	VRB	VRB	_	0	root	_	_	91.919998	91.989998	L1
+3	donc	donc	ADV	ADV	_	5	periph	_	_	92.000000	92.250000	L1
+4	vous	vous	CLI	CLI	_	5	dep	_	_	92.260002	92.370003	L1
+5	parler	parler	VNF	VNF	_	2	dep	_	_	92.379997	93.160004	L1
+6	du	de+le	PRE	PRE	_	5	dep	_	_	93.309998	93.500000	L1
+7	thème	thème	NOM	NOM	_	6	dep	_	_	93.610001	93.970001	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	93.980003	94.099998	L1
+9	la	le	DET	DET	_	10	spe	_	_	94.110001	94.209999	L1
+10	femme	femme	NOM	NOM	_	8	dep	_	_	94.220001	94.690002	L1
+11	dans	dans	PRE	PRE	_	5	dep	_	_	95.029999	95.379997	L1
+12	la	le	DET	DET	_	13	spe	_	_	95.389999	95.570000	L1
+13	production	production	NOM	NOM	_	11	dep	_	_	95.580002	96.510002	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	96.519997	96.610001	L1
+15	dramatique	dramatique	ADJ	ADJ	_	13	dep	_	_	96.620003	97.269997	L1
+16	lopesque	lopesque	CSU	CSU	_	2	dep	_	_	97.279999	97.820000	L1
+17	la	le	DET	DET	_	18	spe	_	_	99.470001	99.639999	L1
+18	come~	come~	NOM	NOM	_	37	subj	_	_	99.650002	100.050003	L1
+19	la	le	DET	DET	_	20	spe	_	_	100.120003	100.480003	L1
+20	comedia	comedia	NOM	NOM	_	18	para	_	_	100.489998	101.040001	L1
+21	qui	qui	PRQ	PRQ	_	22	subj	_	_	101.050003	101.239998	L1
+22	va	aller	VRB	VRB	_	20	dep	_	_	101.250000	101.360001	L1
+23	faire	faire	VNF	VNF	_	22	dep	_	_	101.370003	101.940002	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	101.980003	102.089996	L1
+25	l'	le	DET	DET	_	26	spe	_	_	102.099998	102.199997	L1
+26	objet	objet	NOM	NOM	_	23	dep	_	_	102.209999	102.570000	L1
+27	de	de	PRE	PRE	_	26	dep	_	_	102.580002	102.669998	L1
+28	notre	son	DET	DET	_	29	spe	_	_	102.680000	102.940002	L1
+29	étude	étude	NOM	NOM	_	27	dep	_	_	102.949997	103.290001	L1
+30	cette	ce	DET	DET	_	31	spe	_	_	103.300003	103.550003	L1
+31	année	année	NOM	NOM	_	26	para	_	_	103.559998	103.830002	L1
+32	le	le	DET	DET	_	33	spe	_	_	103.839996	103.959999	L1
+33	Chien	chien	NOM	NOM	_	31	para	_	_	103.970001	104.290001	L1
+34	du	de+le	PRE	PRE	_	33	dep	_	_	104.300003	104.400002	L1
+35	Jardinier	jardinier	NOM	NOM	_	34	dep	_	_	104.410004	104.989998	L1
+36	a	avoir	VRB	VRB	_	37	aux	_	_	105.980003	106.169998	L1
+37	été	être	VPP	VPP	_	16	dep	_	_	106.180000	106.860001	L1
+38	pendant	pendant	PRE	PRE	_	37	dep	_	_	106.870003	107.139999	L1
+39	longtemps	longtemps	ADV	ADV	_	38	dep	_	_	107.150002	107.519997	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-17
+# text = je crois
+1	je	je	CLS	CLS	_	2	subj	_	_	107.529999	107.629997	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	107.639999	107.849998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-18
+# text = vous l'avoir déjà dit cela a été connue sous le titre la Condesa de Belflor
+1	vous	vous	CLS	CLS	_	5	subj	_	_	107.860001	107.949997	L1
+2	l'	le	CLI	CLI	_	3	dep	_	_	107.959999	108.000000	L1
+3	avoir	avoir	VNF	VNF	_	5	aux	_	_	108.010002	108.199997	L1
+4	déjà	déjà	ADV	ADV	_	5	dep	_	_	108.209999	108.459999	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	108.470001	108.599998	L1
+6	cela	cela	PRO	PRO	_	9	subj	_	_	108.610001	108.980003	L1
+7	a	avoir	VRB	VRB	_	8	aux	_	_	109.300003	109.440002	L1
+8	été	être	VPP	VPP	_	9	aux	_	_	109.449997	109.709999	L1
+9	connue	connaître	VPP	VPP	_	5	para	_	_	109.720001	110.459999	L1
+10	sous	sous	PRE	PRE	_	9	dep	_	_	110.989998	111.169998	L1
+11	le	le	DET	DET	_	12	spe	_	_	111.239998	111.370003	L1
+12	titre	titre	NOM	NOM	_	10	dep	_	_	111.379997	111.959999	L1
+13	la	le	DET	DET	_	14	spe	_	_	112.050003	112.339996	L1
+14	Condesa	Condesa	NOM	NOM	_	9	dep	_	_	112.349998	113.269997	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	113.279999	113.570000	L1
+16	Belflor	Belflor	NOM	NOM	_	15	dep	_	_	113.690002	114.419998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-19
+# text = ce titre la Condesa de Belflor me paraît significatif
+1	ce	ce	DET	DET	_	2	spe	_	_	115.900002	116.129997	L1
+2	titre	titre	NOM	NOM	_	8	subj	_	_	116.139999	116.639999	L1
+3	la	le	DET	DET	_	4	spe	_	_	116.650002	116.870003	L1
+4	Condesa	Condesa	NOM	NOM	_	2	para	_	_	116.879997	117.440002	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	117.449997	117.550003	L1
+6	Belflor	Belflor	NOM	NOM	_	5	dep	_	_	117.559998	118.300003	L1
+7	me	me	CLI	CLI	_	8	dep	_	_	118.699997	118.879997	L1
+8	paraît	paraître	VRB	VRB	_	0	root	_	_	118.889999	119.540001	L1
+9	significatif	significatif	ADJ	ADJ	_	8	dep	_	_	119.550003	120.559998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-20
+# text = en effet il suffit déjà à nous montrer que le personnage principal de la pièce va être un personnage féminin
+1	en	en	PRE	PRE	_	4	periph	_	_	121.580002	121.750000	L1
+2	effet	effet	NOM	NOM	_	1	dep	_	_	121.760002	121.980003	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	122.120003	122.459999	L1
+4	suffit	suffire	VRB	VRB	_	0	root	_	_	122.470001	123.360001	L1
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	123.370003	124.010002	L1
+6	à	à	PRE	PRE	_	4	dep	_	_	124.110001	124.620003	L1
+7	nous	nous	CLI	CLI	_	8	dep	_	_	124.629997	124.790001	L1
+8	montrer	montrer	VNF	VNF	_	6	dep	_	_	124.800003	125.709999	L1
+9	que	que	CSU	CSU	_	4	dep	_	_	126.559998	126.930000	L1
+10	le	le	DET	DET	_	11	spe	_	_	127.089996	127.309998	L1
+11	personnage	personnage	NOM	NOM	_	16	subj	_	_	127.320000	127.940002	L1
+12	principal	principal	ADJ	ADJ	_	11	dep	_	_	127.949997	128.639999	L1
+13	de	de	PRE	PRE	_	11	dep	_	_	128.649994	128.750000	L1
+14	la	le	DET	DET	_	15	spe	_	_	128.759995	128.869995	L1
+15	pièce	pièce	NOM	NOM	_	13	dep	_	_	128.880005	129.419998	L1
+16	va	aller	VRB	VRB	_	9	dep	_	_	130.619995	130.839996	L1
+17	être	être	VNF	VNF	_	16	dep	_	_	130.850006	131.059998	L1
+18	un	un	DET	DET	_	19	spe	_	_	131.070007	131.199997	L1
+19	personnage	personnage	NOM	NOM	_	17	dep	_	_	131.210007	131.919998	L1
+20	féminin	féminin	ADJ	ADJ	_	19	dep	_	_	132.210007	132.729996	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-21
+# text = la Condesa de Belflor
+1	la	le	DET	DET	_	2	spe	_	_	133.009995	133.130005	L1
+2	Condesa	Condesa	NOM	NOM	_	0	root	_	_	133.139999	133.779999	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	133.789993	133.889999	L1
+4	Belflor	Belflor	NOM	NOM	_	3	dep	_	_	133.899994	134.309998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-22
+# text = ce titre nous montre d'ores
+1	ce	ce	DET	DET	_	2	spe	_	_	134.750000	134.929993	L1
+2	titre	titre	NOM	NOM	_	4	periph	_	_	134.940002	135.380005	L1
+3	nous	nous	CLS	CLS	_	4	subj	_	_	135.809998	136.059998	L1
+4	montre	montrer	VRB	VRB	_	0	root	_	_	136.070007	136.339996	L1
+5	d'	de	PRE	PRE	_	4	dep	_	_	136.350006	136.410004	L1
+6	ores	ores	ADV	ADV	_	5	dep	_	_	136.419998	136.619995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-23
+# text = et déjà n'est-ce pas que nous allons avoir à faire à comme personnage comme protagoniste principal à une femme en effet Diane la comtesse de Belflor
+1	et	et	COO	COO	_	4	mark	_	_	136.630005	136.669998	L1
+2	déjà	déjà	ADV	ADV	_	4	periph	_	_	136.679993	137.229996	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	137.240005	137.259995	L1
+4	est-ce	est-ce	VRB	VRB	_	0	root	_	_	137.270004	137.380005	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	137.440002	137.630005	L1
+6	que	que	CSU	CSU	_	4	dep	_	_	137.639999	137.779999	L1
+7	nous	nous	CLS	CLS	_	8	subj	_	_	137.789993	137.960007	L1
+8	allons	aller	VRB	VRB	_	6	dep	_	_	137.970001	138.179993	L1
+9	avoir	avoir	VNF	VNF	_	8	dep	_	_	138.190002	138.589996	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	138.600006	138.619995	L1
+11	faire	faire	VNF	VNF	_	10	dep	_	_	138.630005	138.880005	L1
+12	à	à	PRE	PRE	_	11	dep	_	_	139.419998	139.729996	L1
+13	comme	comme	PRE	PRE	_	12	para	_	_	140.009995	140.199997	L1
+14	personnage	personnage	NOM	NOM	_	13	dep	_	_	140.210007	140.820007	L1
+15	comme	comme	PRE	PRE	_	14	dep	_	_	140.830002	141.020004	L1
+16	protagoniste	protagoniste	NOM	NOM	_	15	dep	_	_	141.029999	141.979996	L1
+17	principal	principal	ADJ	ADJ	_	16	dep	_	_	142.240005	142.889999	L1
+18	à	à	PRE	PRE	_	12	para	_	_	142.979996	143.130005	L1
+19	une	un	DET	DET	_	20	spe	_	_	143.139999	143.330002	L1
+20	femme	femme	NOM	NOM	_	18	dep	_	_	143.339996	143.600006	L1
+21	en	en	PRE	PRE	_	11	dep	_	_	143.839996	143.990005	L1
+22	effet	effet	NOM	NOM	_	21	dep	_	_	144.000000	144.330002	L1
+23	Diane	Diane	NOM	NOM	_	22	dep	_	_	144.729996	145.350006	L1
+24	la	le	DET	DET	_	25	spe	_	_	146.669998	147.029999	L1
+25	comtesse	comte	NOM	NOM	_	9	dep	_	_	147.039993	147.559998	L1
+26	de	de	PRE	PRE	_	25	dep	_	_	147.570007	147.690002	L1
+27	Belflor	Belflor	NOM	NOM	_	26	dep	_	_	147.699997	148.440002	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-24
+# text = est vous l'avez déjà
+1	est	être	VRB	VRB	_	0	root	_	_	148.550003	148.830002	L1
+2	vous	vous	CLS	CLS	_	4	subj	_	_	149.029999	149.160004	L1
+3	l'	le	CLI	CLI	_	4	dep	_	_	149.169998	149.240005	L1
+4	avez	avoir	VRB	VRB	_	1	para	_	_	149.250000	149.429993	L1
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	149.440002	149.880005	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-25
+# text = je l'espère vous êtes rendus compte en lisant la pièce
+1	je	je	CLS	CLS	_	3	subj	_	_	150.009995	150.119995	L1
+2	l'	le	CLI	CLI	_	3	dep	_	_	150.130005	150.160004	L1
+3	espère	espérer	VRB	VRB	_	0	root	_	_	150.169998	150.649994	L1
+4	vous	vous	CLS	CLS	_	6	subj	_	_	151.479996	151.639999	L1
+5	êtes	être	VRB	VRB	_	6	aux	_	_	151.649994	151.800003	L1
+6	rendus	rendre	VPP	VPP	_	3	dep	_	_	151.809998	152.050003	L1
+7	compte	compte	NOM	NOM	_	6	dep	_	_	152.059998	152.330002	L1
+8	en	en	PRE	PRE	_	6	dep	_	_	152.339996	152.410004	L1
+9	lisant	lire	VPR	VPR	_	8	dep	_	_	152.419998	152.660004	L1
+10	la	le	DET	DET	_	11	spe	_	_	152.669998	152.759995	L1
+11	pièce	pièce	NOM	NOM	_	9	dep	_	_	152.770004	153.210007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-26
+# text = Diane est le personnage principal de la pièce
+1	Diane	Diane	NOM	NOM	_	2	subj	_	_	153.740005	154.389999	L1
+2	est	être	VRB	VRB	_	0	root	_	_	154.399994	154.539993	L1
+3	le	le	DET	DET	_	4	spe	_	_	154.550003	154.740005	L1
+4	personnage	personnage	NOM	NOM	_	2	dep	_	_	154.750000	155.550003	L1
+5	principal	principal	ADJ	ADJ	_	4	dep	_	_	155.559998	156.289993	L1
+6	de	de	PRE	PRE	_	4	dep	_	_	156.300003	156.419998	L1
+7	la	le	DET	DET	_	8	spe	_	_	156.429993	156.539993	L1
+8	pièce	pièce	NOM	NOM	_	6	dep	_	_	156.550003	157.119995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-27
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	158.389999	158.649994	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-28
+# text = auprès d'elle les autres personnages
+1	auprès d'	auprès de	PRE	PRE	_	0	root	_	_	158.660004	158.929993	L1
+2	elle	il	CLS	CLS	_	5	subj	_	_	158.940002	159.289993	L1
+3	les	le	DET	DET	_	5	spe	_	_	160.169998	160.410004	L1
+4	autres	autre	ADJ	ADJ	_	5	dep	_	_	160.419998	160.669998	L1
+5	personnages	personnage	NOM	NOM	_	1	dep	_	_	160.679993	161.470001	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-29
+# text = et en particulier
+1	et	et	COO	COO	_	2	mark	_	_	162.470001	162.509995	L1
+2	en	en	PRE	PRE	_	0	root	_	_	162.520004	162.660004	L1
+3	particulier	particulier	NOM	NOM	_	2	dep	_	_	162.669998	163.309998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-30
+# text = les personnages masculins
+1	les	le	DET	DET	_	2	spe	_	_	163.320007	163.449997	L1
+2	personnages	personnage	NOM	NOM	_	0	root	_	_	163.460007	163.960007	L1
+3	masculins	masculin	ADJ	ADJ	_	2	dep	_	_	163.970001	164.910004	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-31
+# text = paraissent pour le moins falots
+1	paraissent	paraître	VRB	VRB	_	0	root	_	_	166.259995	167.050003	L1
+2	pour	pour	PRE	PRE	_	1	dep	_	_	167.059998	167.240005	L1
+3	le	le	DET	DET	_	4	spe	_	_	167.250000	167.369995	L1
+4	moins	moins	NOM	NOM	_	2	dep	_	_	167.380005	167.899994	L1
+5	falots	falot	ADJ	ADJ	_	4	dep	_	_	168.089996	168.660004	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-32
+# text = c'est le moins que l'on puisse dire cette importance du personnage féminin dans le Chien du Jardinier
+1	c'	ce	CLS	CLS	_	2	subj	_	_	169.229996	169.350006	L1
+2	est	être	VRB	VRB	_	0	root	_	_	169.360001	169.419998	L1
+3	le	le	DET	DET	_	4	spe	_	_	169.429993	169.500000	L1
+4	moins	moins	NOM	NOM	_	2	dep	_	_	169.509995	169.789993	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	169.800003	169.869995	L1
+6	l'	le	DET	DET	_	8	dep	_	_	169.880005	169.949997	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	169.960007	170.070007	L1
+8	puisse	pouvoir	VRB	VRB	_	5	dep	_	_	170.080002	170.429993	L1
+9	dire	dire	VNF	VNF	_	8	dep	_	_	170.440002	170.770004	L1
+10	cette	ce	DET	DET	_	11	spe	_	_	172.380005	173.119995	L1
+11	importance	importance	NOM	NOM	_	9	dep	_	_	173.479996	174.179993	L1
+12	du	de+le	PRE	PRE	_	11	dep	_	_	174.190002	174.330002	L1
+13	personnage	personnage	NOM	NOM	_	12	dep	_	_	174.339996	175.130005	L1
+14	féminin	féminin	ADJ	ADJ	_	13	dep	_	_	175.139999	175.889999	L1
+15	dans	dans	PRE	PRE	_	9	dep	_	_	176.309998	176.699997	L1
+16	le	le	DET	DET	_	17	spe	_	_	176.710007	176.850006	L1
+17	Chien	chien	NOM	NOM	_	15	dep	_	_	176.860001	177.149994	L1
+18	du	de+le	PRE	PRE	_	17	dep	_	_	177.160004	177.229996	L1
+19	Jardinier	jardinier	NOM	NOM	_	18	dep	_	_	177.240005	178.089996	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-33
+# text = constitue un trait original de la pièce un trait original parce que l'importance du personnage féminin dans cette pièce contraste avec ce que nous disions la semaine dernière
+1	constitue	constituer	VRB	VRB	_	0	root	_	_	178.440002	179.270004	L1
+2	un	un	DET	DET	_	3	spe	_	_	179.380005	179.639999	L1
+3	trait	trait	NOM	NOM	_	1	dep	_	_	179.649994	180.360001	L1
+4	original	original	ADJ	ADJ	_	3	dep	_	_	181.190002	181.929993	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	182.199997	182.419998	L1
+6	la	le	DET	DET	_	7	spe	_	_	182.429993	182.610001	L1
+7	pièce	pièce	NOM	NOM	_	5	dep	_	_	182.619995	183.279999	L1
+8	un	un	DET	DET	_	9	spe	_	_	184.809998	185.009995	L1
+9	trait	trait	NOM	NOM	_	3	para	_	_	185.020004	185.139999	L1
+10	original	original	ADJ	ADJ	_	9	dep	_	_	185.210007	185.839996	L1
+11	parce que	parce que	CSU	CSU	_	1	dep	_	_	185.850006	186.889999	L1
+12	l'	le	DET	DET	_	13	spe	_	_	188.169998	188.259995	L1
+13	importance	importance	NOM	NOM	_	20	subj	_	_	188.270004	189.270004	L1
+14	du	de+le	PRE	PRE	_	13	dep	_	_	189.279999	189.419998	L1
+15	personnage	personnage	NOM	NOM	_	14	dep	_	_	189.429993	190.130005	L1
+16	féminin	féminin	ADJ	ADJ	_	15	dep	_	_	190.139999	190.699997	L1
+17	dans	dans	PRE	PRE	_	13	dep	_	_	190.710007	190.820007	L1
+18	cette	ce	DET	DET	_	19	spe	_	_	190.830002	191.100006	L1
+19	pièce	pièce	NOM	NOM	_	17	dep	_	_	191.110001	191.539993	L1
+20	contraste	contraster	VRB	VRB	_	11	dep	_	_	191.550003	192.449997	L1
+21	avec	avec	PRE	PRE	_	20	dep	_	_	193.429993	194.149994	L1
+22	ce	ce	PRO	PRO	_	21	dep	_	_	194.369995	194.699997	L1
+23	que	que	PRQ	PRQ	_	25	dep	_	_	194.710007	194.839996	L1
+24	nous	nous	CLS	CLS	_	25	subj	_	_	194.850006	195.000000	L1
+25	disions	dire	VRB	VRB	_	22	dep	_	_	195.009995	195.399994	L1
+26	la	le	DET	DET	_	27	spe	_	_	195.410004	195.509995	L1
+27	semaine	semaine	NOM	NOM	_	25	dep	_	_	195.520004	195.789993	L1
+28	dernière	dernier	ADJ	ADJ	_	27	dep	_	_	195.800003	196.339996	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-34
+# text = c'est-à-dire contraste avec la structure stéréotypée de la comedia nueva hein rappelez-vous
+1	c'	ce	CLS	CLS	_	2	subj	_	_	197.130005	197.210007	L1
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	197.220001	197.619995	L1
+3	contraste	contraste	NOM	NOM	_	2	dep	_	_	197.630005	198.199997	L1
+4	avec	avec	PRE	PRE	_	2	dep	_	_	198.210007	198.479996	L1
+5	la	le	DET	DET	_	6	spe	_	_	198.490005	198.720001	L1
+6	structure	structure	NOM	NOM	_	4	dep	_	_	198.729996	199.660004	L1
+7	stéréotypée	stéréotyper	ADJ	ADJ	_	6	dep	_	_	200.699997	202.080002	L1
+8	de	de	PRE	PRE	_	2	dep	_	_	203.039993	203.199997	L1
+9	la	le	DET	DET	_	10	spe	_	_	203.210007	203.380005	L1
+10	comedia	comedia	NOM	NOM	_	8	dep	_	_	203.389999	203.990005	L1
+11	nueva	nueva	ADJ	ADJ	_	10	dep	_	_	204.000000	204.820007	L1
+12	hein	hein	INT	INT	_	11	dm	_	_	205.399994	205.490005	L1
+13	rappelez-vous	rappelez-vous	VPP	VPP	_	10	dep	_	_	205.500000	206.020004	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-35
+# text = ce que je vous en ai dit la comedia nueva se qui se caractérise entre autre par une schématisation des personnages c'était ce que j'étais en train de vous montrer la semaine dernière
+1	ce	ce	PRO	PRO	_	23	periph	_	_	206.029999	206.149994	L1
+2	que	que	PRQ	PRQ	_	7	dep	_	_	206.160004	206.270004	L1
+3	je	je	CLS	CLS	_	7	subj	_	_	206.279999	206.350006	L1
+4	vous	vous	CLI	CLI	_	7	dep	_	_	206.360001	206.580002	L1
+5	en	en	CLI	CLI	_	7	dep	_	_	206.589996	206.679993	L1
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	206.690002	206.779999	L1
+7	dit	dire	VPP	VPP	_	1	dep	_	_	206.789993	207.080002	L1
+8	la	le	DET	DET	_	9	spe	_	_	207.089996	207.179993	L1
+9	comedia	comedia	NOM	NOM	_	7	dep	_	_	207.220001	207.630005	L1
+10	nueva	nueva	NUM	NUM	_	9	dep	_	_	207.639999	208.149994	L1
+11	se	se	CLI	CLI	_	14	dep	_	_	208.419998	208.529999	L1
+12	qui	qui	PRQ	PRQ	_	14	dep	_	_	208.770004	209.059998	L1
+13	se	se	CLI	CLI	_	14	dep	_	_	209.070007	209.559998	L1
+14	caractérise	caractériser	VRB	VRB	_	7	dep	_	_	209.720001	210.929993	L1
+15	entre	entre	PRE	PRE	_	7	dep	_	_	212.380005	212.740005	L1
+16	autre	autre	NOM	NOM	_	15	dep	_	_	212.820007	213.199997	L1
+17	par	par	PRE	PRE	_	7	dep	_	_	214.229996	214.720001	L1
+18	une	un	DET	DET	_	19	spe	_	_	214.729996	215.110001	L1
+19	schématisation	schématisation	NOM	NOM	_	17	dep	_	_	215.119995	216.699997	L1
+20	des	de	PRE	PRE	_	19	dep	_	_	217.039993	217.339996	L1
+21	personnages	personnage	NOM	NOM	_	20	dep	_	_	217.350006	218.029999	L1
+22	c'	ce	CLS	CLS	_	23	subj	_	_	218.240005	218.330002	L1
+23	était	être	VRB	VRB	_	0	root	_	_	218.339996	218.580002	L1
+24	ce	ce	PRO	PRO	_	23	dep	_	_	218.589996	218.720001	L1
+25	que	que	PRQ	PRQ	_	27	dep	_	_	218.729996	218.820007	L1
+26	j'	je	CLS	CLS	_	27	subj	_	_	218.830002	218.919998	L1
+27	étais	être	VRB	VRB	_	24	dep	_	_	218.929993	219.330002	L1
+28	en	en	PRE	PRE	_	27	dep	_	_	219.529999	219.720001	L1
+29	train	train	NOM	NOM	_	28	dep	_	_	219.729996	220.009995	L1
+30	de	de	PRE	PRE	_	29	dep	_	_	220.020004	220.389999	L1
+31	vous	vous	CLI	CLI	_	32	dep	_	_	220.399994	220.589996	L1
+32	montrer	montrer	VNF	VNF	_	30	dep	_	_	220.600006	220.979996	L1
+33	la	le	DET	DET	_	34	spe	_	_	220.990005	221.080002	L1
+34	semaine	semaine	NOM	NOM	_	32	dep	_	_	221.089996	221.410004	L1
+35	dernière	dernier	ADJ	ADJ	_	34	dep	_	_	221.419998	221.779999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-36
+# text = l'étude analytique puis synthétique de la pièce
+1	l'	le	DET	DET	_	2	spe	_	_	223.610001	223.699997	L1
+2	étude	étude	NOM	NOM	_	0	root	_	_	223.770004	224.449997	L1
+3	analytique	analytique	ADJ	ADJ	_	2	dep	_	_	225.089996	226.000000	L1
+4	puis	puis	COO	COO	_	5	mark	_	_	226.600006	227.059998	L1
+5	synthétique	synthétique	ADJ	ADJ	_	3	para	_	_	227.070007	227.949997	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	227.960007	228.050003	L1
+7	la	le	DET	DET	_	8	spe	_	_	228.059998	228.229996	L1
+8	pièce	pièce	NOM	NOM	_	6	dep	_	_	228.240005	228.860001	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-37
+# text = que nous allons faire
+1	que	que	PRQ	PRQ	_	3	dep	_	_	229.610001	229.740005	L1
+2	nous	nous	CLS	CLS	_	3	subj	_	_	229.750000	229.940002	L1
+3	allons	aller	VRB	VRB	_	0	root	_	_	229.949997	230.210007	L1
+4	faire	faire	VNF	VNF	_	3	dep	_	_	230.220001	230.740005	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-38
+# text = prochainement va nous permettre de mettre l'accent sur ce trait original l'importance de la femme
+1	prochainement	prochainement	ADV	ADV	_	2	dep	_	_	231.820007	232.809998	L1
+2	va	aller	VRB	VRB	_	0	root	_	_	232.820007	233.039993	L1
+3	nous	nous	CLI	CLI	_	4	dep	_	_	233.050003	233.160004	L1
+4	permettre	permettre	VNF	VNF	_	2	dep	_	_	233.169998	233.820007	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	234.800003	234.990005	L1
+6	mettre	mettre	VNF	VNF	_	5	dep	_	_	235.000000	235.320007	L1
+7	l'	le	DET	DET	_	8	spe	_	_	235.330002	235.369995	L1
+8	accent	accent	NOM	NOM	_	6	dep	_	_	235.380005	236.009995	L1
+9	sur	sur	PRE	PRE	_	6	dep	_	_	236.020004	236.210007	L1
+10	ce	ce	DET	DET	_	11	spe	_	_	236.220001	236.369995	L1
+11	trait	trait	NOM	NOM	_	9	dep	_	_	236.380005	236.539993	L1
+12	original	original	ADJ	ADJ	_	11	dep	_	_	236.550003	237.210007	L1
+13	l'	le	DET	DET	_	14	spe	_	_	237.649994	237.699997	L1
+14	importance	importance	NOM	NOM	_	6	dep	_	_	237.710007	238.339996	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	238.350006	238.429993	L1
+16	la	le	DET	DET	_	17	spe	_	_	238.440002	238.539993	L1
+17	femme	femme	NOM	NOM	_	15	dep	_	_	238.600006	238.970001	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-39
+# text = mais pour bien en comprendre le sens pour bien comprendre la portée de ce trait il est bon me semble-t-il que je vous dise d'abord quelques mots que je me penche que nous nous penchions ensemble sur le problème que pose dans la comedia lopesque en général et pas exclusivement dans le Chien du Jardinier
+1	mais	mais	COO	COO	_	17	mark	_	_	240.610001	240.850006	L1
+2	pour	pour	PRE	PRE	_	17	periph	_	_	240.860001	241.199997	L1
+3	bien	bien	ADV	ADV	_	4	dep	_	_	241.529999	242.080002	L1
+4	en	en	PRE	PRE	_	17	periph	_	_	242.089996	242.130005	L1
+5	comprendre	comprendre	VNF	VNF	_	4	dep	_	_	242.139999	242.839996	L1
+6	le	le	DET	DET	_	7	spe	_	_	242.850006	242.970001	L1
+7	sens	sens	NOM	NOM	_	5	dep	_	_	242.979996	243.490005	L1
+8	pour	pour	PRE	PRE	_	5	dep	_	_	243.500000	243.690002	L1
+9	bien	bien	ADV	ADV	_	10	dep	_	_	243.699997	243.880005	L1
+10	comprendre	comprendre	VNF	VNF	_	8	dep	_	_	243.889999	244.339996	L1
+11	la	le	DET	DET	_	12	spe	_	_	244.350006	244.460007	L1
+12	portée	portée	NOM	NOM	_	10	dep	_	_	244.470001	245.339996	L1
+13	de	de	PRE	PRE	_	5	dep	_	_	245.929993	246.059998	L1
+14	ce	ce	DET	DET	_	15	spe	_	_	246.070007	246.300003	L1
+15	trait	trait	NOM	NOM	_	13	dep	_	_	246.309998	246.809998	L1
+16	il	il	CLS	CLS	_	17	subj	_	_	247.320007	247.509995	L1
+17	est	être	VRB	VRB	_	0	root	_	_	247.520004	247.570007	L1
+18	bon	bon	INT	INT	_	17	dm	_	_	247.580002	247.800003	L1
+19	me	me	CLI	CLI	_	20	dep	_	_	247.809998	247.889999	L1
+20	semble-t-il	semble-t-il	VRB	VRB	_	17	para	_	_	247.899994	248.559998	L1
+21	que	que	CSU	CSU	_	20	dep	_	_	248.570007	248.649994	L1
+22	je	je	CLS	CLS	_	24	subj	_	_	248.660004	248.779999	L1
+23	vous	vous	CLI	CLI	_	24	dep	_	_	248.789993	248.929993	L1
+24	dise	dire	VRB	VRB	_	21	dep	_	_	248.940002	249.259995	L1
+25	d'	de	PRE	PRE	_	24	dep	_	_	249.270004	249.320007	L1
+26	abord	abord	NOM	NOM	_	25	dep	_	_	249.330002	249.699997	L1
+27	quelques	quelque	ADJ	ADJ	_	28	dep	_	_	249.710007	250.119995	L1
+28	mots	mot	NOM	NOM	_	25	dep	_	_	250.130005	250.529999	L1
+29	que	que	PRQ	PRQ	_	32	dep	_	_	253.300003	253.399994	L1
+30	je	je	CLS	CLS	_	32	subj	_	_	253.460007	253.570007	L1
+31	me	me	CLI	CLI	_	32	dep	_	_	253.580002	253.770004	L1
+32	penche	pencher	VRB	VRB	_	28	dep	_	_	253.779999	254.149994	L1
+33	que	que	CSU	CSU	_	32	dep	_	_	254.160004	254.190002	L1
+34	nous	nous	CLS	CLS	_	36	subj	_	_	254.199997	254.259995	L1
+35	nous	nous	CLI	CLI	_	36	dep	_	_	254.270004	254.380005	L1
+36	penchions	pencher	VRB	VRB	_	33	dep	_	_	254.389999	254.750000	L1
+37	ensemble	ensemble	ADV	ADV	_	36	dep	_	_	254.759995	255.300003	L1
+38	sur	sur	PRE	PRE	_	36	dep	_	_	255.309998	255.720001	L1
+39	le	le	DET	DET	_	40	spe	_	_	255.820007	256.100006	L1
+40	problème	problème	NOM	NOM	_	38	dep	_	_	256.109985	256.910004	L1
+41	que	que	PRQ	PRQ	_	42	dep	_	_	257.059998	257.200012	L1
+42	pose	poser	VRB	VRB	_	40	dep	_	_	257.209991	257.809998	L1
+43	dans	dans	PRE	PRE	_	42	dep	_	_	258.790009	259.230011	L1
+44	la	le	DET	DET	_	45	spe	_	_	259.239990	259.399994	L1
+45	comedia	comedia	NOM	NOM	_	43	dep	_	_	259.410004	259.959991	L1
+46	lopesque	lopesque	ADV	ADV	_	42	dep	_	_	259.970001	260.779999	L1
+47	en	en	PRE	PRE	_	42	dep	_	_	260.890015	261.040009	L1
+48	général	général	NOM	NOM	_	47	dep	_	_	261.049988	261.549988	L1
+49	et	et	COO	COO	_	51	mark	_	_	261.559998	261.630005	L1
+50	pas	pas	ADN	ADN	_	51	dep	_	_	261.640015	261.779999	L1
+51	exclusivement	exclusivement	ADV	ADV	_	42	dep	_	_	261.790009	262.679993	L1
+52	dans	dans	PRE	PRE	_	42	dep	_	_	263.019989	263.309998	L1
+53	le	le	DET	DET	_	54	spe	_	_	263.320007	263.410004	L1
+54	Chien	chien	NOM	NOM	_	52	dep	_	_	263.420013	263.720001	L1
+55	du	de+le	PRE	PRE	_	54	dep	_	_	263.730011	263.829987	L1
+56	Jardinier	jardinier	NOM	NOM	_	55	dep	_	_	263.839996	264.500000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-40
+# text = le personnage féminin
+1	le	le	DET	DET	_	2	spe	_	_	264.779999	264.970001	L1
+2	personnage	personnage	NOM	NOM	_	0	root	_	_	264.980011	265.880005	L1
+3	féminin	féminin	ADJ	ADJ	_	2	dep	_	_	266.429993	266.950012	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-41
+# text = quand on considère dans sa globalité
+1	quand	quand	CSU	CSU	_	0	root	_	_	269.079987	269.350006	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	269.359985	269.390015	L1
+3	considère	considérer	VRB	VRB	_	1	dep	_	_	269.399994	270.000000	L1
+4	dans	dans	PRE	PRE	_	3	dep	_	_	270.010010	270.220001	L1
+5	sa	son	DET	DET	_	6	spe	_	_	270.230011	270.470001	L1
+6	globalité	globalité	NOM	NOM	_	4	dep	_	_	270.480011	271.410004	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-42
+# text = euh le théâtre de Lope De Vega hein
+1	euh	euh	INT	INT	_	3	dm	_	_	273.079987	273.190002	L1
+2	le	le	DET	DET	_	3	spe	_	_	273.200012	273.679993	L1
+3	théâtre	théâtre	NOM	NOM	_	0	root	_	_	273.690002	274.470001	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	275.140015	275.399994	L1
+5	Lope	Lope	NOM	NOM	_	4	dep	_	_	275.410004	275.630005	L1
+6	De	De	DET	DET	_	7	spe	_	_	275.679993	275.769989	L1
+7	Vega	Vega	NOM	NOM	_	3	para	_	_	275.779999	276.320007	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	277.369995	277.549988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-43
+# text = je vous ai parlé n'est-ce pas de la quantité impressionnante de pièces qu'il a écrites
+1	je	je	CLS	CLS	_	4	subj	_	_	277.559998	277.690002	L1
+2	vous	vous	CLI	CLI	_	4	dep	_	_	277.700012	277.910004	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	277.920013	278.000000	L1
+4	parlé	parler	VPP	VPP	_	0	root	_	_	278.010010	278.450012	L1
+5	n'	ne	CLN	CLN	_	6	dep	_	_	278.459991	278.500000	L1
+6	est-ce	est-ce	VRB	VRB	_	4	dep	_	_	278.510010	278.619995	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	278.630005	278.920013	L1
+8	de	de	PRE	PRE	_	4	dep	_	_	280.529999	281.070007	L1
+9	la	le	DET	DET	_	10	spe	_	_	282.459991	283.519989	L1
+10	quantité	quantité	NOM	NOM	_	8	dep	_	_	283.559998	284.029999	L1
+11	impressionnante	impressionnant	ADJ	ADJ	_	10	dep	_	_	284.079987	285.209991	L1
+12	de	de	PRE	PRE	_	10	dep	_	_	285.220001	285.359985	L1
+13	pièces	pièce	NOM	NOM	_	12	dep	_	_	285.369995	285.850006	L1
+14	qu'	que	PRQ	PRQ	_	17	dep	_	_	285.859985	285.959991	L1
+15	il	il	CLS	CLS	_	17	subj	_	_	285.970001	286.089996	L1
+16	a	avoir	VRB	VRB	_	17	aux	_	_	286.100006	286.170013	L1
+17	écrites	écrire	VPP	VPP	_	13	dep	_	_	286.179993	286.779999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-44
+# text = eh bien si on considère cette production dramatique impressionnante on constate que le théâtre lopesque traduit un grosso modo bien évidemment traduit un préjugé favorable
+1	eh bien	eh bien	INT	INT	_	10	dm	_	_	287.410004	287.619995	L1
+2	si	si	CSU	CSU	_	10	periph	_	_	287.630005	287.779999	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	287.790009	287.880005	L1
+4	considère	considérer	VRB	VRB	_	2	dep	_	_	287.890015	288.670013	L1
+5	cette	ce	DET	DET	_	6	spe	_	_	288.820007	289.140015	L1
+6	production	production	NOM	NOM	_	4	dep	_	_	289.149994	289.619995	L1
+7	dramatique	dramatique	ADJ	ADJ	_	6	dep	_	_	289.630005	290.140015	L1
+8	impressionnante	impressionnant	ADJ	ADJ	_	6	dep	_	_	290.149994	290.779999	L1
+9	on	on	CLS	CLS	_	10	subj	_	_	290.790009	290.890015	L1
+10	constate	constater	VRB	VRB	_	0	root	_	_	290.899994	291.570007	L1
+11	que	que	CSU	CSU	_	10	dep	_	_	292.190002	292.429993	L1
+12	le	le	DET	DET	_	13	spe	_	_	292.440002	292.579987	L1
+13	théâtre	théâtre	NOM	NOM	_	15	subj	_	_	292.589996	293.040009	L1
+14	lopesque	lopesque	ADV	ADV	_	15	dep	_	_	293.049988	293.809998	L1
+15	traduit	se traduire	VPP	VPP	_	11	dep	_	_	295.100006	295.790009	L1
+16	un	un	DET	DET	_	15	disflink	_	_	297.260010	297.640015	L1
+17	grosso modo	grosso modo	ADV	ADV	_	20	periph	_	_	298.029999	298.779999	L1
+18	bien	bien	ADV	ADV	_	20	periph	_	_	298.790009	299.029999	L1
+19	évidemment	évidemment	ADV	ADV	_	20	dep	_	_	299.040009	299.579987	L1
+20	traduit	se traduire	VPP	VPP	_	15	para	_	_	300.070007	300.790009	L1
+21	un	un	DET	DET	_	22	spe	_	_	300.799988	301.100006	L1
+22	préjugé	préjugé	NOM	NOM	_	20	dep	_	_	301.109985	302.440002	L1
+23	favorable	favorable	ADJ	ADJ	_	22	dep	_	_	302.929993	304.019989	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-45
+# text = même souvent très favorable
+1	même	même	ADV	ADV	_	2	dep	_	_	304.359985	304.880005	L1
+2	souvent	souvent	ADV	ADV	_	0	root	_	_	305.119995	305.799988	L1
+3	très	très	ADV	ADV	_	4	dep	_	_	305.809998	306.269989	L1
+4	favorable	favorable	ADJ	ADJ	_	2	dep	_	_	306.279999	307.140015	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-46
+# text = à l'égard de la femme
+1	à	à	PRE	PRE	_	0	root	_	_	308.329987	308.459991	L1
+2	l'	le	DET	DET	_	3	spe	_	_	308.470001	308.529999	L1
+3	égard	égard	NOM	NOM	_	1	dep	_	_	308.540009	309.059998	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	309.339996	309.559998	L1
+5	la	le	DET	DET	_	6	spe	_	_	309.570007	309.679993	L1
+6	femme	femme	NOM	NOM	_	4	dep	_	_	309.690002	309.959991	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-47
+# text = à la fin du seizième siècle
+1	à	à	PRE	PRE	_	0	root	_	_	313.570007	313.799988	L1
+2	la	le	DET	DET	_	3	spe	_	_	313.809998	313.880005	L1
+3	fin	fin	NOM	NOM	_	1	dep	_	_	313.940002	314.489990	L1
+4	du	de+le	PRE	PRE	_	3	dep	_	_	314.500000	314.640015	L1
+5	seizième	seizième	ADJ	ADJ	_	6	dep	_	_	314.649994	315.140015	L1
+6	siècle	siècle	NOM	NOM	_	4	dep	_	_	315.149994	315.859985	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-48
+# text = époque à laquelle Lope De Vega commence à écrire
+1	époque	époque	NOM	NOM	_	7	periph	_	_	317.290009	317.700012	L1
+2	à	à	PRE	PRE	_	7	periph	_	_	317.709991	317.730011	L1
+3	laquelle	lequel	PRQ	PRQ	_	2	dep	_	_	317.739990	318.339996	L1
+4	Lope	Lope	NOM	NOM	_	2	dep	_	_	318.350006	318.540009	L1
+5	De	De	DET	DET	_	6	spe	_	_	318.549988	318.670013	L1
+6	Vega	Vega	NOM	NOM	_	7	subj	_	_	318.679993	318.940002	L1
+7	commence	commencer	VRB	VRB	_	0	root	_	_	318.950012	319.390015	L1
+8	à	à	PRE	PRE	_	7	dep	_	_	319.399994	319.459991	L1
+9	écrire	écrire	VNF	VNF	_	8	dep	_	_	319.470001	320.049988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-49
+# text = et au début du dix-septième siècle qui est la période de la pièce que nous allons étudier
+1	et	et	COO	COO	_	8	mark	_	_	321.130005	321.220001	L1
+2	au	à+le	PRE	PRE	_	8	periph	_	_	321.230011	321.359985	L1
+3	début	début	NOM	NOM	_	2	dep	_	_	321.369995	321.709991	L1
+4	du	de+le	PRE	PRE	_	3	dep	_	_	321.720001	321.859985	L1
+5	dix-septième	dix-septième	ADJ	ADJ	_	6	dep	_	_	321.869995	322.519989	L1
+6	siècle	siècle	NOM	NOM	_	4	dep	_	_	322.529999	323.010010	L1
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	323.769989	323.980011	L1
+8	est	être	VRB	VRB	_	0	root	_	_	323.989990	324.269989	L1
+9	la	le	DET	DET	_	10	spe	_	_	324.760010	324.929993	L1
+10	période	période	NOM	NOM	_	8	dep	_	_	324.940002	325.470001	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	325.480011	325.579987	L1
+12	la	le	DET	DET	_	13	spe	_	_	325.589996	325.730011	L1
+13	pièce	pièce	NOM	NOM	_	11	dep	_	_	325.739990	326.140015	L1
+14	que	que	PRQ	PRQ	_	16	dep	_	_	326.149994	326.269989	L1
+15	nous	nous	CLS	CLS	_	16	subj	_	_	326.279999	326.470001	L1
+16	allons	aller	VRB	VRB	_	13	dep	_	_	326.480011	326.709991	L1
+17	étudier	étudier	VNF	VNF	_	16	dep	_	_	326.720001	327.519989	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-50
+# text = eh bien il y avait en Espagne un débat
+1	eh bien	eh bien	INT	INT	_	4	dm	_	_	328.959991	329.570007	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	330.109985	330.290009	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	330.299988	330.350006	L1
+4	avait	avoir	VRB	VRB	_	0	root	_	_	330.359985	330.660004	L1
+5	en	en	PRE	PRE	_	4	dep	_	_	330.670013	330.769989	L1
+6	Espagne	Espagne	NOM	NOM	_	5	dep	_	_	330.779999	331.540009	L1
+7	un	un	DET	DET	_	8	spe	_	_	331.630005	331.920013	L1
+8	débat	débat	NOM	NOM	_	6	para	_	_	331.929993	332.700012	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-51
+# text = un débat à la mode
+1	un	un	DET	DET	_	2	spe	_	_	334.160004	334.220001	L1
+2	débat	débat	NOM	NOM	_	0	root	_	_	334.230011	335.079987	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	335.269989	335.359985	L1
+4	la	le	DET	DET	_	5	spe	_	_	335.369995	335.500000	L1
+5	mode	mode	NOM	NOM	_	3	dep	_	_	335.510010	335.920013	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-52
+# text = un débat en vogue un débat sur les vertus et les défauts de la femme
+1	un	un	DET	DET	_	2	spe	_	_	335.929993	336.059998	L1
+2	débat	débat	NOM	NOM	_	0	root	_	_	336.070007	336.540009	L1
+3	en	en	PRE	PRE	_	2	dep	_	_	336.549988	336.709991	L1
+4	vogue	vogue	NOM	NOM	_	3	dep	_	_	336.720001	337.290009	L1
+5	un	un	DET	DET	_	6	spe	_	_	338.769989	338.989990	L1
+6	débat	débat	NOM	NOM	_	2	para	_	_	339.000000	339.750000	L1
+7	sur	sur	PRE	PRE	_	6	dep	_	_	340.000000	340.720001	L1
+8	les	le	DET	DET	_	9	spe	_	_	341.350006	341.540009	L1
+9	vertus	vertu	NOM	NOM	_	7	dep	_	_	341.649994	342.649994	L1
+10	et	et	COO	COO	_	12	mark	_	_	343.510010	343.649994	L1
+11	les	le	DET	DET	_	12	spe	_	_	343.660004	344.209991	L1
+12	défauts	défaut	NOM	NOM	_	2	para	_	_	344.220001	345.200012	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	346.230011	346.880005	L1
+14	la	le	DET	DET	_	15	spe	_	_	346.929993	347.160004	L1
+15	femme	femme	NOM	NOM	_	13	dep	_	_	347.170013	347.459991	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-53
+# text = ce débat sur les vertus et les défauts de la femme n'était pas particulièrement nouveau
+1	ce	ce	DET	DET	_	2	spe	_	_	348.679993	348.899994	L1
+2	débat	débat	NOM	NOM	_	13	subj	_	_	348.959991	349.299988	L1
+3	sur	sur	PRE	PRE	_	2	dep	_	_	349.309998	349.640015	L1
+4	les	le	DET	DET	_	5	spe	_	_	349.649994	349.820007	L1
+5	vertus	vertu	NOM	NOM	_	3	dep	_	_	349.829987	350.119995	L1
+6	et	et	COO	COO	_	8	mark	_	_	350.130005	350.149994	L1
+7	les	le	DET	DET	_	8	spe	_	_	350.160004	350.369995	L1
+8	défauts	défaut	NOM	NOM	_	5	para	_	_	350.380005	350.790009	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	350.799988	350.850006	L1
+10	la	le	DET	DET	_	11	spe	_	_	350.859985	350.970001	L1
+11	femme	femme	NOM	NOM	_	9	dep	_	_	350.980011	351.320007	L1
+12	n'	ne	CLN	CLN	_	13	dep	_	_	351.760010	351.929993	L1
+13	était	être	VRB	VRB	_	0	root	_	_	351.940002	352.160004	L1
+14	pas	pas	ADN	ADN	_	13	dep	_	_	352.170013	352.369995	L1
+15	particulièrement	particulièrement	ADV	ADV	_	16	dep	_	_	352.380005	353.290009	L1
+16	nouveau	nouveau	ADJ	ADJ	_	13	dep	_	_	353.299988	353.750000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-54
+# text = ce débat n'est-ce pas
+1	ce	ce	DET	DET	_	2	spe	_	_	353.760010	354.100006	L1
+2	débat	débat	NOM	NOM	_	4	subj	_	_	354.109985	354.649994	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	354.709991	354.730011	L1
+4	est-ce	est-ce	VRB	VRB	_	0	root	_	_	354.739990	354.809998	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	354.820007	354.929993	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-55
+# text = on le trouve déjà dans l'Antiquité gréco-latine
+1	on	on	CLS	CLS	_	3	subj	_	_	354.940002	355.079987	L1
+2	le	le	CLI	CLI	_	3	dep	_	_	355.089996	355.209991	L1
+3	trouve	trouver	VRB	VRB	_	0	root	_	_	355.220001	355.570007	L1
+4	déjà	déjà	ADV	ADV	_	3	dep	_	_	355.579987	356.019989	L1
+5	dans	dans	PRE	PRE	_	3	dep	_	_	356.309998	356.570007	L1
+6	l'	le	DET	DET	_	7	spe	_	_	356.579987	356.679993	L1
+7	Antiquité	antiquité	NOM	NOM	_	5	dep	_	_	356.690002	357.609985	L1
+8	gréco-latine	gréco-latin	ADJ	ADJ	_	7	dep	_	_	357.619995	358.600006	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-56
+# text = vous l'avez également au Moyen-Age
+1	vous	vous	CLS	CLS	_	3	subj	_	_	358.609985	358.739990	L1
+2	l'	le	CLI	CLI	_	3	dep	_	_	358.750000	358.850006	L1
+3	avez	avoir	VRB	VRB	_	0	root	_	_	358.859985	359.200012	L1
+4	également	également	ADV	ADV	_	3	dep	_	_	359.209991	359.820007	L1
+5	au	à+le	PRE	PRE	_	3	dep	_	_	360.130005	360.260010	L1
+6	Moyen-Age	Moyen-Age	NOM	NOM	_	5	dep	_	_	360.269989	361.109985	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-57
+# text = et hélas je crois pour vous
+1	et	et	COO	COO	_	4	mark	_	_	361.119995	361.450012	L1
+2	hélas	hélas	INT	INT	_	1	dm	_	_	361.500000	362.000000	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	362.070007	362.190002	L1
+4	crois	croire	VRB	VRB	_	0	root	_	_	362.200012	362.420013	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	362.429993	362.679993	L1
+6	vous	moi	PRO	PRO	_	5	dep	_	_	362.690002	362.809998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-58
+# text = mesdemoiselles cette question se pose encore aujourd' hui
+1	mesdemoiselles	mademoiselle	NOM	NOM	_	5	subj	_	_	362.820007	363.440002	L1
+2	cette	ce	DET	DET	_	3	spe	_	_	363.769989	364.109985	L1
+3	question	question	NOM	NOM	_	1	para	_	_	364.119995	364.589996	L1
+4	se	se	CLI	CLI	_	5	dep	_	_	364.600006	364.750000	L1
+5	pose	poser	VRB	VRB	_	0	root	_	_	364.760010	365.149994	L1
+6	encore	encore	ADV	ADV	_	5	dep	_	_	365.160004	365.690002	L1
+7	aujourd' hui	aujourd'hui	ADV	ADV	_	5	dep	_	_	366.200012	367.149994	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-59
+# text = et il faut reconnaître que dans ce débat Lope De Vega adopte dans son théâtre
+1	et	et	COO	COO	_	3	mark	_	_	369.420013	369.450012	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	369.609985	369.850006	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	369.920013	369.980011	L1
+4	reconnaître	reconnaître	VNF	VNF	_	3	dep	_	_	369.989990	371.100006	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	371.109985	371.279999	L1
+6	dans	dans	PRE	PRE	_	12	periph	_	_	371.290009	371.600006	L1
+7	ce	ce	DET	DET	_	8	spe	_	_	371.609985	371.820007	L1
+8	débat	débat	NOM	NOM	_	6	dep	_	_	371.829987	372.500000	L1
+9	Lope	Lope	NOM	NOM	_	6	dep	_	_	374.170013	374.459991	L1
+10	De	De	DET	DET	_	11	spe	_	_	374.470001	374.489990	L1
+11	Vega	Vega	NOM	NOM	_	12	subj	_	_	374.500000	375.450012	L1
+12	adopte	adopter	VRB	VRB	_	5	dep	_	_	377.140015	378.089996	L1
+13	dans	dans	PRE	PRE	_	12	dep	_	_	378.839996	379.079987	L1
+14	son	son	DET	DET	_	15	spe	_	_	379.089996	379.380005	L1
+15	théâtre	théâtre	NOM	NOM	_	13	dep	_	_	379.390015	380.119995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-60
+# text = il aborde ce débat
+1	il	il	CLS	CLS	_	2	subj	_	_	380.529999	380.760010	L1
+2	aborde	aborder	VRB	VRB	_	0	root	_	_	380.769989	381.299988	L1
+3	ce	ce	DET	DET	_	4	spe	_	_	381.309998	381.559998	L1
+4	débat	débat	NOM	NOM	_	2	dep	_	_	381.670013	382.510010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-61
+# text = et il adopte une position très originale pour son époque
+1	et	et	COO	COO	_	3	mark	_	_	382.519989	382.670013	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	382.679993	382.809998	L1
+3	adopte	adopter	VRB	VRB	_	0	root	_	_	382.820007	383.390015	L1
+4	une	un	DET	DET	_	5	spe	_	_	383.820007	384.260010	L1
+5	position	position	NOM	NOM	_	3	dep	_	_	384.709991	385.649994	L1
+6	très	très	ADV	ADV	_	7	dep	_	_	385.910004	386.410004	L1
+7	originale	original	ADJ	ADJ	_	5	dep	_	_	386.420013	387.290009	L1
+8	pour	pour	PRE	PRE	_	3	dep	_	_	388.070007	388.269989	L1
+9	son	son	DET	DET	_	10	spe	_	_	388.279999	388.529999	L1
+10	époque	époque	NOM	NOM	_	8	dep	_	_	388.540009	389.010010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-62
+# text = pourquoi originale
+1	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	390.589996	390.869995	L1
+2	originale	original	ADJ	ADJ	_	0	root	_	_	391.010010	392.049988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-63
+# text = eh bien tout simplement parce que la position de Lope De Vega l'égard de la femme est une position très favorable
+1	eh bien	eh bien	INT	INT	_	3	dm	_	_	393.070007	393.290009	L1
+2	tout	tout	ADV	ADV	_	3	dep	_	_	393.299988	393.390015	L1
+3	simplement	simplement	ADV	ADV	_	4	dep	_	_	393.399994	394.190002	L1
+4	parce que	parce que	CSU	CSU	_	0	root	_	_	394.869995	395.209991	L1
+5	la	le	DET	DET	_	6	spe	_	_	395.220001	395.299988	L1
+6	position	position	NOM	NOM	_	16	subj	_	_	395.309998	396.089996	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	396.220001	396.329987	L1
+8	Lope	Lope	NOM	NOM	_	7	dep	_	_	396.339996	396.609985	L1
+9	De	De	DET	DET	_	10	spe	_	_	396.619995	396.760010	L1
+10	Vega	Vega	NOM	NOM	_	6	para	_	_	396.769989	397.459991	L1
+11	l'	le	DET	DET	_	12	spe	_	_	397.470001	397.529999	L1
+12	égard	égard	NOM	NOM	_	10	para	_	_	397.540009	397.760010	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	397.769989	397.820007	L1
+14	la	le	DET	DET	_	15	spe	_	_	397.869995	397.950012	L1
+15	femme	femme	NOM	NOM	_	13	dep	_	_	397.959991	398.320007	L1
+16	est	être	VRB	VRB	_	4	dep	_	_	398.510010	398.670013	L1
+17	une	un	DET	DET	_	18	spe	_	_	398.679993	398.790009	L1
+18	position	position	NOM	NOM	_	16	dep	_	_	398.799988	399.450012	L1
+19	très	très	ADV	ADV	_	20	dep	_	_	399.690002	400.040009	L1
+20	favorable	favorable	ADJ	ADJ	_	18	dep	_	_	400.269989	401.420013	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-64
+# text = c-~ ce qui ne veut pas dire que l'on ne trouve pas et vous l'avez constaté j'espère en lisant le Chien du Jardinier n'est-ce pas que l'on ne trouve pas dans son théâtre des arguments misogynes hein des arguments anti-féministes
+1	c-~	c-~	NOM	NOM	_	28	periph	_	_	405.329987	405.510010	L1
+2	ce	ce	PRO	PRO	_	28	periph	_	_	405.519989	405.690002	L1
+3	qui	qui	PRQ	PRQ	_	5	subj	_	_	405.700012	406.140015	L1
+4	ne	ne	CLN	CLN	_	5	dep	_	_	406.149994	406.339996	L1
+5	veut	vouloir	VRB	VRB	_	2	dep	_	_	406.350006	406.489990	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	406.500000	406.679993	L1
+7	dire	dire	VNF	VNF	_	5	dep	_	_	406.690002	407.350006	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	407.959991	408.350006	L1
+9	l'	le	DET	DET	_	12	spe	_	_	408.359985	408.549988	L1
+10	on	on	CLS	CLS	_	12	subj	_	_	408.559998	408.649994	L1
+11	ne	ne	CLN	CLN	_	12	dep	_	_	408.660004	408.809998	L1
+12	trouve	trouver	VRB	VRB	_	8	dep	_	_	408.820007	409.140015	L1
+13	pas	pas	ADN	ADN	_	12	dep	_	_	409.149994	409.320007	L1
+14	et	et	COO	COO	_	18	mark	_	_	409.329987	409.429993	L1
+15	vous	vous	CLS	CLS	_	18	subj	_	_	409.440002	409.549988	L1
+16	l'	le	CLI	CLI	_	18	dep	_	_	409.559998	409.600006	L1
+17	avez	avoir	VRB	VRB	_	18	aux	_	_	409.609985	409.760010	L1
+18	constaté	constater	VPP	VPP	_	28	periph	_	_	409.769989	410.290009	L1
+19	j'	je	CLS	CLS	_	20	subj	_	_	410.299988	410.410004	L1
+20	espère	espérer	VRB	VRB	_	18	dm	_	_	410.420013	410.829987	L1
+21	en	en	PRE	PRE	_	18	dep	_	_	410.839996	410.899994	L1
+22	lisant	lire	VPR	VPR	_	21	dep	_	_	410.910004	411.480011	L1
+23	le	le	DET	DET	_	24	spe	_	_	411.489990	411.619995	L1
+24	Chien	chien	NOM	NOM	_	22	dep	_	_	411.630005	411.970001	L1
+25	du	de+le	PRE	PRE	_	24	dep	_	_	411.980011	412.119995	L1
+26	Jardinier	jardinier	NOM	NOM	_	25	dep	_	_	412.130005	412.859985	L1
+27	n'	ne	CLN	CLN	_	28	dep	_	_	413.179993	413.220001	L1
+28	est-ce	est-ce	VRB	VRB	_	0	root	_	_	413.230011	413.309998	L1
+29	pas	pas	ADN	ADN	_	28	dep	_	_	413.320007	413.619995	L1
+30	que	que	CSU	CSU	_	28	dep	_	_	413.630005	413.679993	L1
+31	l'	le	DET	DET	_	34	spe	_	_	413.690002	413.820007	L1
+32	on	on	CLS	CLS	_	34	subj	_	_	413.829987	413.850006	L1
+33	ne	ne	CLN	CLN	_	34	dep	_	_	413.859985	413.890015	L1
+34	trouve	trouver	VRB	VRB	_	30	dep	_	_	413.899994	414.010010	L1
+35	pas	pas	ADN	ADN	_	34	dep	_	_	414.019989	414.070007	L1
+36	dans	dans	PRE	PRE	_	34	dep	_	_	414.079987	414.250000	L1
+37	son	son	DET	DET	_	38	spe	_	_	414.260010	414.450012	L1
+38	théâtre	théâtre	NOM	NOM	_	36	dep	_	_	414.459991	414.970001	L1
+39	des	de	PRE	PRE	_	38	dep	_	_	415.390015	415.850006	L1
+40	arguments	argument	NOM	NOM	_	39	dep	_	_	415.859985	416.510010	L1
+41	misogynes	misogyne	ADJ	ADJ	_	40	dep	_	_	416.640015	417.859985	L1
+42	hein	hein	INT	INT	_	41	dm	_	_	418.600006	418.779999	L1
+43	des	de	PRE	PRE	_	39	para	_	_	418.989990	419.260010	L1
+44	arguments	argument	NOM	NOM	_	43	dep	_	_	419.269989	419.980011	L1
+45	anti-féministes	anti-féministes	NOM	NOM	_	44	dep	_	_	420.179993	421.799988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-65
+# text = vous les avez certainement observés en effet Lope favorable à la femme
+1	vous	vous	CLS	CLS	_	5	subj	_	_	421.809998	421.950012	L1
+2	les	le	CLI	CLI	_	5	dep	_	_	421.959991	422.160004	L1
+3	avez	avoir	VRB	VRB	_	5	aux	_	_	422.170013	422.649994	L1
+4	certainement	certainement	ADV	ADV	_	5	dep	_	_	422.929993	423.799988	L1
+5	observés	observer	VPP	VPP	_	0	root	_	_	423.980011	424.440002	L1
+6	en	en	PRE	PRE	_	5	dep	_	_	425.420013	425.559998	L1
+7	effet	effet	NOM	NOM	_	6	dep	_	_	425.570007	426.010010	L1
+8	Lope	Lope	NOM	NOM	_	7	dep	_	_	426.079987	426.589996	L1
+9	favorable	favorable	ADJ	ADJ	_	8	dep	_	_	427.350006	428.029999	L1
+10	à	à	PRE	PRE	_	5	dep	_	_	428.040009	428.089996	L1
+11	la	le	DET	DET	_	12	spe	_	_	428.100006	428.209991	L1
+12	femme	femme	NOM	NOM	_	10	dep	_	_	428.220001	428.829987	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-66
+# text = Lope dans son théâtre n'abandonne pas n'abandonne pas l'attitude satirique l'attitude traditionnellement hostile à la femme
+1	Lope	Lope	NOM	NOM	_	6	periph	_	_	430.630005	431.000000	L1
+2	dans	dans	PRE	PRE	_	6	periph	_	_	431.010010	431.140015	L1
+3	son	son	DET	DET	_	4	spe	_	_	431.149994	431.369995	L1
+4	théâtre	théâtre	NOM	NOM	_	2	dep	_	_	431.380005	432.109985	L1
+5	n'	ne	CLN	CLN	_	6	dep	_	_	432.239990	432.359985	L1
+6	abandonne	abandonner	VRB	VRB	_	0	root	_	_	432.489990	433.269989	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	433.279999	433.640015	L1
+8	n'	ne	CLN	CLN	_	9	dep	_	_	434.690002	434.779999	L1
+9	abandonne	abandonner	VRB	VRB	_	6	para	_	_	434.790009	435.329987	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	435.339996	435.820007	L1
+11	l'	le	DET	DET	_	12	spe	_	_	436.029999	436.200012	L1
+12	attitude	attitude	NOM	NOM	_	9	dep	_	_	436.209991	437.140015	L1
+13	satirique	satirique	ADJ	ADJ	_	12	dep	_	_	437.209991	438.339996	L1
+14	l'	le	DET	DET	_	15	spe	_	_	439.989990	440.089996	L1
+15	attitude	attitude	NOM	NOM	_	12	para	_	_	440.130005	441.250000	L1
+16	traditionnellement	traditionnellement	ADV	ADV	_	17	dep	_	_	442.700012	444.309998	L1
+17	hostile	hostile	ADJ	ADJ	_	15	dep	_	_	444.320007	445.140015	L1
+18	à	à	PRE	PRE	_	9	dep	_	_	445.559998	445.679993	L1
+19	la	le	DET	DET	_	20	spe	_	_	445.690002	445.799988	L1
+20	femme	femme	NOM	NOM	_	18	dep	_	_	445.809998	446.420013	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-67
+# text = que vous trouvez par exemple dans la littérature latine hein
+1	que	que	CSU	CSU	_	3	dep	_	_	447.739990	447.880005	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	447.940002	448.119995	L1
+3	trouvez	trouver	VRB	VRB	_	0	root	_	_	448.130005	448.690002	L1
+4	par	par	PRE	PRE	_	3	dep	_	_	448.700012	448.869995	L1
+5	exemple	exemple	NOM	NOM	_	4	dep	_	_	448.880005	449.309998	L1
+6	dans	dans	PRE	PRE	_	3	dep	_	_	449.320007	449.399994	L1
+7	la	le	DET	DET	_	8	spe	_	_	449.410004	449.459991	L1
+8	littérature	littérature	NOM	NOM	_	6	dep	_	_	449.470001	450.079987	L1
+9	latine	latin	ADJ	ADJ	_	8	dep	_	_	450.089996	450.630005	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	451.299988	451.760010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-68
+# text = si chez Juvénal vous avez peut-être entendu parler de Juvénal n'est-ce pas qui a une vision des femmes pour le moins euh sévère
+1	si	si	CSU	CSU	_	12	periph	_	_	452.040009	452.329987	L1
+2	chez	chez	PRE	PRE	_	5	periph	_	_	452.339996	452.519989	L1
+3	Juvénal	Juvénal	NOM	NOM	_	2	dep	_	_	452.529999	453.140015	L1
+4	vous	vous	CLS	CLS	_	5	subj	_	_	453.149994	453.320007	L1
+5	avez	avoir	VRB	VRB	_	1	dep	_	_	453.329987	453.459991	L1
+6	peut-être	peut-être	ADV	ADV	_	7	dep	_	_	453.470001	453.760010	L1
+7	entendu	entendre	VPP	VPP	_	5	dep	_	_	453.769989	454.170013	L1
+8	parler	parler	VNF	VNF	_	7	dep	_	_	454.179993	454.559998	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	454.570007	454.700012	L1
+10	Juvénal	Juvénal	NOM	NOM	_	9	dep	_	_	454.709991	455.380005	L1
+11	n'	ne	CLN	CLN	_	12	dep	_	_	455.390015	455.459991	L1
+12	est-ce	est-ce	VRB	VRB	_	0	root	_	_	455.470001	455.549988	L1
+13	pas	pas	ADN	ADN	_	12	dep	_	_	455.559998	455.880005	L1
+14	qui	qui	PRQ	PRQ	_	15	dep	_	_	456.149994	456.279999	L1
+15	a	avoir	VRB	VRB	_	12	dep	_	_	456.290009	456.320007	L1
+16	une	un	DET	DET	_	17	spe	_	_	456.329987	456.480011	L1
+17	vision	vision	NOM	NOM	_	15	dep	_	_	456.489990	457.000000	L1
+18	des	de	PRE	PRE	_	17	dep	_	_	457.010010	457.160004	L1
+19	femmes	femme	NOM	NOM	_	18	dep	_	_	457.170013	457.510010	L1
+20	pour	pour	PRE	PRE	_	15	dep	_	_	458.010010	458.239990	L1
+21	le	le	DET	DET	_	22	spe	_	_	458.250000	458.390015	L1
+22	moins	moins	NOM	NOM	_	20	dep	_	_	458.399994	458.880005	L1
+23	euh	euh	INT	INT	_	22	dm	_	_	458.989990	459.220001	L1
+24	sévère	sévère	ADJ	ADJ	_	22	dep	_	_	459.230011	459.869995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-69
+# text = et vous avez dans l'Espagne du siècle d'or hein l'auteur à mes yeux le plus original le plus
+1	et	et	COO	COO	_	3	mark	_	_	459.940002	460.029999	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	460.040009	460.279999	L1
+3	avez	avoir	VRB	VRB	_	0	root	_	_	460.290009	460.950012	L1
+4	dans	dans	PRE	PRE	_	3	dep	_	_	461.290009	461.549988	L1
+5	l'	le	DET	DET	_	6	spe	_	_	461.559998	461.600006	L1
+6	Espagne	Espagne	NOM	NOM	_	4	dep	_	_	461.609985	462.140015	L1
+7	du	de+le	PRE	PRE	_	6	dep	_	_	462.149994	462.220001	L1
+8	siècle	siècle	NOM	NOM	_	7	dep	_	_	462.230011	462.640015	L1
+9	d'	de	PRE	PRE	_	8	dep	_	_	462.649994	462.700012	L1
+10	or	or	NOM	NOM	_	9	dep	_	_	462.709991	463.200012	L1
+11	hein	hein	INT	INT	_	10	dm	_	_	463.519989	463.769989	L1
+12	l'	le	DET	DET	_	13	spe	_	_	463.779999	464.089996	L1
+13	auteur	auteur	NOM	NOM	_	7	para	_	_	464.100006	464.640015	L1
+14	à	à	PRE	PRE	_	13	dep	_	_	464.649994	464.730011	L1
+15	mes	son	DET	DET	_	16	spe	_	_	464.739990	464.970001	L1
+16	yeux	oeil	NOM	NOM	_	14	dep	_	_	464.980011	465.109985	L1
+17	le	le	DET	DET	_	18	spe	_	_	465.119995	465.220001	L1
+18	plus	plus	NOM	NOM	_	16	para	_	_	465.269989	465.649994	L1
+19	original	original	ADJ	ADJ	_	18	dep	_	_	465.660004	466.329987	L1
+20	le	le	DET	DET	_	21	spe	_	_	466.339996	466.470001	L1
+21	plus	plus	ADN	ADN	_	18	para	_	_	466.480011	466.829987	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-70
+# text = anti-féministe
+1	anti-féministe	anti-féministe	ADV	ADV	_	0	root	_	_	467.380005	468.299988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-71
+# text = le plus misogyne de toute littérature qui est Quevedo hein
+1	le	le	DET	DET	_	2	spe	_	_	468.459991	468.600006	L1
+2	plus	plus	NOM	NOM	_	0	root	_	_	468.609985	468.760010	L1
+3	misogyne	misogyne	ADJ	ADJ	_	2	dep	_	_	468.769989	469.429993	L1
+4	de	de	PRE	PRE	_	2	dep	_	_	469.619995	469.790009	L1
+5	toute	tout	ADJ	ADJ	_	6	dep	_	_	469.799988	470.119995	L1
+6	littérature	littérature	NOM	NOM	_	4	dep	_	_	470.130005	470.820007	L1
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	470.829987	470.989990	L1
+8	est	être	VRB	VRB	_	6	dep	_	_	471.000000	471.079987	L1
+9	Quevedo	Quevedo	NOM	NOM	_	8	dep	_	_	471.089996	471.579987	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	472.230011	472.459991	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-72
+# text = Quevedo comme je vous l'ai dit n'est-ce pas n'aimait pas particulièrement les femmes
+1	Quevedo	Quevedo	NOM	NOM	_	9	periph	_	_	472.890015	473.299988	L1
+2	comme	comme	CSU	CSU	_	1	dep	_	_	473.309998	473.540009	L1
+3	je	je	CLS	CLS	_	7	subj	_	_	473.549988	473.600006	L1
+4	vous	vous	CLI	CLI	_	7	dep	_	_	473.609985	473.769989	L1
+5	l'	le	CLI	CLI	_	7	dep	_	_	473.779999	473.839996	L1
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	473.850006	473.920013	L1
+7	dit	dire	VPP	VPP	_	2	dep	_	_	473.929993	474.070007	L1
+8	n'	ne	CLN	CLN	_	9	dep	_	_	474.079987	474.140015	L1
+9	est-ce	est-ce	VRB	VRB	_	0	root	_	_	474.149994	474.299988	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	474.309998	474.429993	L1
+11	n'	ne	CLN	CLN	_	12	dep	_	_	474.440002	474.480011	L1
+12	aimait	aimer	VRB	VRB	_	9	dep	_	_	474.489990	474.660004	L1
+13	pas	pas	ADN	ADN	_	12	dep	_	_	474.670013	474.799988	L1
+14	particulièrement	particulièrement	ADV	ADV	_	12	dep	_	_	474.809998	475.339996	L1
+15	les	le	DET	DET	_	16	spe	_	_	475.350006	475.440002	L1
+16	femmes	femme	NOM	NOM	_	12	dep	_	_	475.450012	475.760010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-73
+# text = il s'est marié très tard
+1	il	il	CLS	CLS	_	4	subj	_	_	475.769989	475.869995	L1
+2	s'	se	CLI	CLI	_	4	dep	_	_	475.880005	475.950012	L1
+3	est	être	VRB	VRB	_	4	aux	_	_	475.959991	476.000000	L1
+4	marié	marier	VPP	VPP	_	0	root	_	_	476.010010	476.339996	L1
+5	très	très	ADV	ADV	_	6	dep	_	_	476.350006	476.519989	L1
+6	tard	tard	ADV	ADV	_	4	dep	_	_	476.529999	476.880005	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-74
+# text = il a attendu beaucoup n'est-ce pas hein
+1	il	il	CLS	CLS	_	3	subj	_	_	476.890015	476.970001	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	476.980011	477.049988	L1
+3	attendu	attendre	VPP	VPP	_	6	periph	_	_	477.059998	477.339996	L1
+4	beaucoup	beaucoup	ADV	ADV	_	6	periph	_	_	477.350006	477.769989	L1
+5	n'	ne	CLN	CLN	_	6	dep	_	_	477.779999	477.829987	L1
+6	est-ce	est-ce	VRB	VRB	_	0	root	_	_	477.839996	477.940002	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	477.950012	478.149994	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	478.549988	478.660004	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-75
+# text = je crois qu'il s'est marié vers quarante ans
+1	je	je	CLS	CLS	_	2	subj	_	_	478.670013	478.690002	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	478.700012	478.820007	L1
+3	qu'	que	CSU	CSU	_	2	dep	_	_	478.829987	478.850006	L1
+4	il	il	CLS	CLS	_	7	subj	_	_	478.859985	478.910004	L1
+5	s'	se	CLI	CLI	_	7	dep	_	_	478.920013	478.970001	L1
+6	est	être	VRB	VRB	_	7	aux	_	_	478.980011	479.010010	L1
+7	marié	marier	VPP	VPP	_	3	dep	_	_	479.019989	479.299988	L1
+8	vers	vers	PRE	PRE	_	7	dep	_	_	479.309998	479.519989	L1
+9	quarante	quarante	NUM	NUM	_	10	spe	_	_	479.529999	479.950012	L1
+10	ans	an	NOM	NOM	_	8	dep	_	_	479.959991	480.119995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-76
+# text = et euh euh sa femme je crois qu'il a con-~
+1	et	et	COO	COO	_	7	mark	_	_	480.470001	480.670013	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	480.679993	480.829987	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	481.089996	481.299988	L1
+4	sa	son	DET	DET	_	5	spe	_	_	481.309998	481.459991	L1
+5	femme	femme	NOM	NOM	_	7	periph	_	_	481.470001	481.790009	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	481.799988	481.920013	L1
+7	crois	croire	VRB	VRB	_	0	root	_	_	481.929993	482.049988	L1
+8	qu'	que	CSU	CSU	_	7	dep	_	_	482.059998	482.140015	L1
+9	il	il	CLS	CLS	_	10	subj	_	_	482.149994	482.320007	L1
+10	a	avoir	VRB	VRB	_	8	dep	_	_	482.329987	482.390015	L1
+11	con-~	con-~	NOM	NOM	_	10	dep	_	_	482.399994	482.570007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-77
+# text = il a il a gardée une huitaine de jours
+1	il	il	CLS	CLS	_	2	subj	_	_	482.579987	482.820007	L1
+2	a	avoir	VRB	VRB	_	0	root	_	_	482.829987	482.880005	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	483.230011	483.329987	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	483.339996	483.380005	L1
+5	gardée	garder	VPP	VPP	_	2	para	_	_	483.390015	483.839996	L1
+6	une	un	DET	DET	_	7	spe	_	_	483.850006	484.029999	L1
+7	huitaine	huitaine	NOM	NOM	_	5	dep	_	_	484.040009	484.489990	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	484.500000	484.630005	L1
+9	jours	jour	NOM	NOM	_	8	dep	_	_	484.640015	484.890015	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-78
+# text = il n'a pas pu la supporter davantage n'est-ce pas
+1	il	il	CLS	CLS	_	5	subj	_	_	484.989990	485.059998	L1
+2	n'	ne	CLN	CLN	_	5	dep	_	_	485.070007	485.130005	L1
+3	a	avoir	VRB	VRB	_	5	aux	_	_	485.140015	485.170013	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	485.179993	485.380005	L1
+5	pu	pouvoir	VPP	VPP	_	10	periph	_	_	485.390015	485.459991	L1
+6	la	le	CLI	CLI	_	7	dep	_	_	485.470001	485.549988	L1
+7	supporter	supporter	VNF	VNF	_	5	dep	_	_	485.559998	485.980011	L1
+8	davantage	davantage	ADV	ADV	_	7	dep	_	_	485.989990	486.609985	L1
+9	n'	ne	CLN	CLN	_	10	dep	_	_	486.619995	486.640015	L1
+10	est-ce	est-ce	VRB	VRB	_	0	root	_	_	486.649994	486.829987	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	486.839996	487.230011	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-79
+# text = et euh toute sa littérature n'est-ce pas
+1	et	et	COO	COO	_	7	mark	_	_	487.239990	487.440002	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	487.450012	487.480011	L1
+3	toute	tout	ADJ	ADJ	_	5	dep	_	_	487.489990	487.809998	L1
+4	sa	son	DET	DET	_	5	spe	_	_	487.820007	488.200012	L1
+5	littérature	littérature	NOM	NOM	_	7	periph	_	_	488.420013	489.290009	L1
+6	n'	ne	CLN	CLN	_	7	dep	_	_	489.299988	489.380005	L1
+7	est-ce	est-ce	VRB	VRB	_	0	root	_	_	489.390015	490.010010	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	490.019989	490.279999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-80
+# text = est une littérature hostile bien sûr à la femme en revanche Lope est favorable
+1	est	être	VRB	VRB	_	0	root	_	_	490.489990	490.619995	L1
+2	une	un	DET	DET	_	3	spe	_	_	490.630005	490.790009	L1
+3	littérature	littérature	NOM	NOM	_	1	dep	_	_	490.799988	491.329987	L1
+4	hostile	hostile	ADJ	ADJ	_	3	dep	_	_	491.420013	492.010010	L1
+5	bien	bien	ADV	ADV	_	13	periph	_	_	492.019989	492.209991	L1
+6	sûr	sûr	ADJ	ADJ	_	5	morph	_	_	492.220001	492.429993	L1
+7	à	à	PRE	PRE	_	13	periph	_	_	492.440002	492.510010	L1
+8	la	le	DET	DET	_	9	spe	_	_	492.519989	492.600006	L1
+9	femme	femme	NOM	NOM	_	7	dep	_	_	492.609985	492.839996	L1
+10	en	en	PRE	PRE	_	13	periph	_	_	493.760010	493.829987	L1
+11	revanche	revanche	NOM	NOM	_	10	dep	_	_	493.839996	494.339996	L1
+12	Lope	Lope	NOM	NOM	_	13	subj	_	_	494.700012	495.279999	L1
+13	est	être	VRB	VRB	_	4	dep	_	_	495.850006	495.989990	L1
+14	favorable	favorable	ADJ	ADJ	_	13	dep	_	_	496.000000	496.480011	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-81
+# text = mais il n'abandonne pas les traits satiriques hein
+1	mais	mais	COO	COO	_	4	mark	_	_	496.489990	496.899994	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	497.019989	497.119995	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	497.130005	497.190002	L1
+4	abandonne	abandonner	VRB	VRB	_	0	root	_	_	497.200012	497.649994	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	497.660004	497.850006	L1
+6	les	le	DET	DET	_	7	spe	_	_	497.859985	498.000000	L1
+7	traits	trait	NOM	NOM	_	4	dep	_	_	498.010010	498.190002	L1
+8	satiriques	satirique	ADJ	ADJ	_	7	dep	_	_	498.200012	499.019989	L1
+9	hein	hein	INT	INT	_	8	dm	_	_	499.420013	499.779999	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-82
+# text = en effet s'il recourt comme d'autres à son époque à des traits satiriques il faut observer que dans son théâtre et vous l'avez dans le Chien du Jardinier les traits satiriques décochés contre les femmes qui les décoche par qui sont-ils décochés eh bien les sait-~ traits satiriques sont décochés par les graciosos
+1	en	en	PRE	PRE	_	17	periph	_	_	500.470001	500.630005	L1
+2	effet	effet	NOM	NOM	_	1	dep	_	_	500.640015	501.320007	L1
+3	s'	si	CSU	CSU	_	17	periph	_	_	502.170013	502.410004	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	502.420013	503.040009	L1
+5	recourt	recourir	VRB	VRB	_	3	dep	_	_	503.760010	504.359985	L1
+6	comme	comme	PRE	PRE	_	5	dep	_	_	504.369995	504.600006	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	504.609985	504.660004	L1
+8	autres	autre	ADJ	ADJ	_	7	dep	_	_	504.730011	505.170013	L1
+9	à	à	PRE	PRE	_	5	dep	_	_	506.410004	506.500000	L1
+10	son	son	DET	DET	_	11	spe	_	_	506.510010	506.700012	L1
+11	époque	époque	NOM	NOM	_	9	dep	_	_	506.709991	507.329987	L1
+12	à	à	PRE	PRE	_	9	para	_	_	508.279999	508.429993	L1
+13	des	de	PRE	PRE	_	12	dep	_	_	508.440002	508.630005	L1
+14	traits	trait	NOM	NOM	_	13	dep	_	_	508.640015	509.019989	L1
+15	satiriques	satirique	ADJ	ADJ	_	14	dep	_	_	509.029999	509.940002	L1
+16	il	il	CLS	CLS	_	17	subj	_	_	510.220001	510.420013	L1
+17	faut	faillir	VRB	VRB	_	0	root	_	_	510.429993	510.910004	L1
+18	observer	observer	VNF	VNF	_	17	dep	_	_	510.920013	511.649994	L1
+19	que	que	CSU	CSU	_	18	dep	_	_	511.660004	511.820007	L1
+20	dans	dans	PRE	PRE	_	26	periph	_	_	511.829987	511.989990	L1
+21	son	son	DET	DET	_	22	spe	_	_	512.000000	512.159973	L1
+22	théâtre	théâtre	NOM	NOM	_	20	dep	_	_	512.229980	512.530029	L1
+23	et	et	COO	COO	_	26	mark	_	_	512.539978	512.580017	L1
+24	vous	vous	CLS	CLS	_	26	subj	_	_	512.590027	512.700012	L1
+25	l'	le	CLI	CLI	_	26	dep	_	_	512.710022	512.770020	L1
+26	avez	avoir	VRB	VRB	_	19	dep	_	_	512.780029	512.919983	L1
+27	dans	dans	PRE	PRE	_	26	dep	_	_	512.929993	513.159973	L1
+28	le	le	DET	DET	_	29	spe	_	_	513.219971	513.409973	L1
+29	Chien	chien	NOM	NOM	_	27	dep	_	_	513.419983	513.710022	L1
+30	du	de+le	PRE	PRE	_	29	dep	_	_	513.719971	513.840027	L1
+31	Jardinier	jardinier	NOM	NOM	_	30	dep	_	_	513.849976	514.450012	L1
+32	les	le	DET	DET	_	33	spe	_	_	515.049988	515.280029	L1
+33	traits	trait	NOM	NOM	_	29	para	_	_	515.289978	515.469971	L1
+34	satiriques	satirique	ADJ	ADJ	_	33	dep	_	_	515.479980	516.429993	L1
+35	décochés	décocher	VPP	VPP	_	33	dep	_	_	517.229980	517.989990	L1
+36	contre	contre	PRE	PRE	_	35	dep	_	_	518.000000	518.270020	L1
+37	les	le	DET	DET	_	38	spe	_	_	518.280029	518.429993	L1
+38	femmes	femme	NOM	NOM	_	36	dep	_	_	518.440002	518.809998	L1
+39	qui	qui	PRQ	PRQ	_	41	dep	_	_	519.900024	520.270020	L1
+40	les	le	CLI	CLI	_	41	dep	_	_	520.280029	520.559998	L1
+41	décoche	décocher	VRB	VRB	_	35	para	_	_	520.570007	521.190002	L1
+42	par	par	PRE	PRE	_	41	dep	_	_	522.200012	522.429993	L1
+43	qui	qui	PRQ	PRQ	_	45	subj	_	_	522.440002	522.650024	L1
+44	sont-ils	sont-ils	VRB	VRB	_	45	aux	_	_	522.659973	523.239990	L1
+45	décochés	décocher	VPP	VPP	_	42	dep	_	_	523.250000	523.820007	L1
+46	eh bien	eh bien	INT	INT	_	45	dm	_	_	524.510010	524.869995	L1
+47	les	le	DET	DET	_	48	spe	_	_	524.880005	525.039978	L1
+48	sait-~	sait-~	NOM	NOM	_	45	dep	_	_	525.049988	525.520020	L1
+49	traits	traire	ADJ	ADJ	_	48	dep	_	_	525.530029	525.710022	L1
+50	satiriques	satirique	ADJ	ADJ	_	48	dep	_	_	525.719971	526.510010	L1
+51	sont	être	VRB	VRB	_	52	aux	_	_	527.280029	527.700012	L1
+52	décochés	décocher	VPP	VPP	_	41	dep	_	_	527.710022	528.479980	L1
+53	par	par	PRE	PRE	_	52	dep	_	_	528.520020	529.030029	L1
+54	les	le	DET	DET	_	55	spe	_	_	529.159973	529.669983	L1
+55	graciosos	graciosos	NOM	NOM	_	53	dep	_	_	529.820007	530.549988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-83
+# text = c'est-à-dire par les personnages comiques
+1	c'	ce	CLS	CLS	_	2	subj	_	_	532.000000	532.119995	L1
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	532.130005	532.570007	L1
+3	par	par	PRE	PRE	_	2	dep	_	_	532.580017	532.770020	L1
+4	les	le	DET	DET	_	5	spe	_	_	532.780029	532.869995	L1
+5	personnages	personnage	NOM	NOM	_	3	dep	_	_	532.929993	533.710022	L1
+6	comiques	comique	ADJ	ADJ	_	5	dep	_	_	534.190002	534.799988	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-84
+# text = j'insiste là-dessus hein dans le théâtre lopesque
+1	j'	je	CLS	CLS	_	2	subj	_	_	537.549988	537.630005	L1
+2	insiste	insister	VRB	VRB	_	0	root	_	_	537.640015	538.099976	L1
+3	là-dessus	là-dessus	ADV	ADV	_	2	dep	_	_	538.109985	538.609985	L1
+4	hein	hein	INT	INT	_	3	dm	_	_	539.039978	539.179993	L1
+5	dans	dans	PRE	PRE	_	2	dep	_	_	539.190002	539.340027	L1
+6	le	le	DET	DET	_	7	spe	_	_	539.349976	539.530029	L1
+7	théâtre	théâtre	NOM	NOM	_	5	dep	_	_	539.539978	539.849976	L1
+8	lopesque	lopesque	ADJ	ADJ	_	7	dep	_	_	539.859985	540.320007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-85
+# text = et nous allons le voir dans le Chien du Jardinier le personnage qui exprime des jugements négatifs vis-à-vis de la femme
+1	et	et	COO	COO	_	3	mark	_	_	540.330017	540.400024	L1
+2	nous	nous	CLS	CLS	_	3	subj	_	_	540.409973	540.559998	L1
+3	allons	aller	VRB	VRB	_	0	root	_	_	540.570007	540.750000	L1
+4	le	le	CLI	CLI	_	5	dep	_	_	540.760010	540.830017	L1
+5	voir	voir	VNF	VNF	_	3	dep	_	_	540.840027	541.030029	L1
+6	dans	dans	PRE	PRE	_	5	dep	_	_	541.039978	541.130005	L1
+7	le	le	DET	DET	_	8	spe	_	_	541.140015	541.200012	L1
+8	Chien	chien	NOM	NOM	_	6	dep	_	_	541.210022	541.460022	L1
+9	du	de+le	PRE	PRE	_	8	dep	_	_	541.469971	541.539978	L1
+10	Jardinier	jardinier	NOM	NOM	_	9	dep	_	_	541.549988	542.020020	L1
+11	le	le	DET	DET	_	12	spe	_	_	542.679993	542.869995	L1
+12	personnage	personnage	NOM	NOM	_	5	dep	_	_	542.880005	543.539978	L1
+13	qui	qui	PRQ	PRQ	_	14	dep	_	_	544.530029	544.750000	L1
+14	exprime	exprimer	VRB	VRB	_	12	dep	_	_	544.760010	545.599976	L1
+15	des	de	PRE	PRE	_	12	dep	_	_	546.989990	547.130005	L1
+16	jugements	jugement	NOM	NOM	_	15	dep	_	_	547.260010	548.080017	L1
+17	négatifs	négatif	ADJ	ADJ	_	16	dep	_	_	548.090027	548.960022	L1
+18	vis-à-vis de	vis-à-vis de	PRE	PRE	_	5	dep	_	_	550.250000	551.340027	L1
+19	la	le	DET	DET	_	20	spe	_	_	551.349976	551.520020	L1
+20	femme	femme	NOM	NOM	_	18	dep	_	_	551.530029	551.760010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-86
+# text = le personnage qui exprime le point de vue défavorable à la femme qui est-il c'est le gracioso c'est la figura del donaire
+1	le	le	DET	DET	_	2	spe	_	_	552.830017	553.020020	L1
+2	personnage	personnage	NOM	NOM	_	16	periph	_	_	553.030029	553.640015	L1
+3	qui	qui	PRQ	PRQ	_	4	subj	_	_	553.650024	553.809998	L1
+4	exprime	exprimer	VRB	VRB	_	2	dep	_	_	553.820007	554.559998	L1
+5	le	le	DET	DET	_	6	spe	_	_	554.570007	554.820007	L1
+6	point	point	NOM	NOM	_	4	dep	_	_	554.830017	555.090027	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	555.099976	555.229980	L1
+8	vue	vue	NOM	NOM	_	7	dep	_	_	555.239990	555.590027	L1
+9	défavorable	défavorable	ADJ	ADJ	_	8	dep	_	_	555.820007	556.960022	L1
+10	à	à	PRE	PRE	_	4	dep	_	_	557.520020	557.619995	L1
+11	la	le	DET	DET	_	12	spe	_	_	557.630005	557.760010	L1
+12	femme	femme	NOM	NOM	_	10	dep	_	_	557.770020	558.150024	L1
+13	qui	qui	PRQ	PRQ	_	14	dep	_	_	558.409973	558.570007	L1
+14	est-il	est-il	VRB	VRB	_	4	para	_	_	558.580017	559.000000	L1
+15	c'	ce	CLS	CLS	_	16	subj	_	_	559.719971	559.919983	L1
+16	est	être	VRB	VRB	_	0	root	_	_	560.010010	560.190002	L1
+17	le	le	DET	DET	_	18	spe	_	_	560.409973	560.619995	L1
+18	gracioso	gracioso	NOM	NOM	_	16	dep	_	_	560.700012	561.309998	L1
+19	c'	ce	CLS	CLS	_	20	subj	_	_	561.669983	561.859985	L1
+20	est	être	VRB	VRB	_	16	para	_	_	561.960022	562.090027	L1
+21	la	le	DET	DET	_	22	spe	_	_	562.099976	562.299988	L1
+22	figura	figura	NOM	NOM	_	20	dep	_	_	562.309998	562.940002	L1
+23	del	del	PRE	PRE	_	22	dep	_	_	563.030029	563.280029	L1
+24	donaire	donaire	NOM	NOM	_	23	dep	_	_	563.289978	563.840027	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-87
+# text = c'est-à-dire un personnage
+1	c'	ce	CLS	CLS	_	2	subj	_	_	564.219971	564.349976	L1
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	564.419983	565.020020	L1
+3	un	un	DET	DET	_	4	spe	_	_	565.510010	565.890015	L1
+4	personnage	personnage	NOM	NOM	_	2	dep	_	_	566.080017	566.830017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-88
+# text = j'y reviendrai lorsqu'on va reparler du Dramatis personae un personnage exclusivement théâtral
+1	j'	je	CLS	CLS	_	3	subj	_	_	567.080017	567.219971	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	567.229980	567.270020	L1
+3	reviendrai	revenir	VRB	VRB	_	0	root	_	_	567.280029	567.710022	L1
+4	lorsqu'	lorsque	CSU	CSU	_	3	dep	_	_	567.719971	567.960022	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	567.969971	568.030029	L1
+6	va	aller	VRB	VRB	_	4	dep	_	_	568.039978	568.130005	L1
+7	reparler	reparler	VNF	VNF	_	6	dep	_	_	568.140015	568.789978	L1
+8	du	de+le	PRE	PRE	_	7	dep	_	_	568.940002	569.090027	L1
+9	Dramatis	Dramatis	NOM	NOM	_	8	dep	_	_	569.099976	569.580017	L1
+10	personae	personae	ADJ	ADJ	_	9	dep	_	_	569.590027	570.200012	L1
+11	un	un	DET	DET	_	12	spe	_	_	570.580017	570.890015	L1
+12	personnage	personnage	NOM	NOM	_	9	para	_	_	571.010010	571.739990	L1
+13	exclusivement	exclusivement	ADV	ADV	_	14	dep	_	_	572.570007	573.489990	L1
+14	théâtral	théâtral	ADJ	ADJ	_	12	dep	_	_	573.630005	574.289978	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-89
+# text = et quand le gracioso se livre à ce travail de satire de la femme
+1	et	et	COO	COO	_	6	mark	_	_	576.799988	577.059998	L1
+2	quand	quand	CSU	CSU	_	6	periph	_	_	577.070007	577.479980	L1
+3	le	le	DET	DET	_	4	spe	_	_	578.440002	578.909973	L1
+4	gracioso	gracioso	NOM	NOM	_	2	dep	_	_	578.919983	579.890015	L1
+5	se	se	CLI	CLI	_	6	dep	_	_	581.479980	581.549988	L1
+6	livre	livre	NOM	NOM	_	0	root	_	_	581.760010	582.349976	L1
+7	à	à	PRE	PRE	_	6	dep	_	_	583.619995	583.900024	L1
+8	ce	ce	DET	DET	_	9	spe	_	_	583.909973	584.229980	L1
+9	travail	travail	NOM	NOM	_	7	dep	_	_	584.239990	584.929993	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	585.750000	585.979980	L1
+11	satire	satire	NOM	NOM	_	10	dep	_	_	585.989990	586.799988	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	586.809998	586.849976	L1
+13	la	le	DET	DET	_	14	spe	_	_	586.859985	587.020020	L1
+14	femme	femme	NOM	NOM	_	12	dep	_	_	587.030029	587.359985	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-90
+# text = quand il se livre
+1	quand	quand	CSU	CSU	_	0	root	_	_	588.700012	589.020020	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	589.030029	589.200012	L1
+3	se	se	CLI	CLI	_	4	dep	_	_	589.210022	589.390015	L1
+4	livre	livre	NOM	NOM	_	1	dep	_	_	589.400024	590.000000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-91
+# text = à ce travail de dépoétisation de la femme
+1	à	à	PRE	PRE	_	0	root	_	_	590.929993	591.059998	L1
+2	ce	ce	DET	DET	_	3	spe	_	_	591.070007	591.219971	L1
+3	travail	travail	NOM	NOM	_	1	dep	_	_	591.229980	591.729980	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	591.739990	592.000000	L1
+5	dépoétisation	dépoétisation	NOM	NOM	_	4	dep	_	_	592.010010	594.340027	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	595.640015	595.799988	L1
+7	la	le	DET	DET	_	8	spe	_	_	595.809998	595.940002	L1
+8	femme	femme	NOM	NOM	_	6	dep	_	_	595.950012	596.679993	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-92
+# text = eh bien cela ne correspond pas à une position du dramaturge en l'occurrence de Lope
+1	eh bien	eh bien	INT	INT	_	4	dm	_	_	597.890015	598.599976	L1
+2	cela	cela	PRO	PRO	_	4	subj	_	_	598.659973	599.530029	L1
+3	ne	ne	CLN	CLN	_	4	dep	_	_	600.340027	600.450012	L1
+4	correspond	correspondre	VRB	VRB	_	0	root	_	_	600.460022	601.049988	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	601.059998	601.460022	L1
+6	à	à	PRE	PRE	_	4	dep	_	_	602.820007	603.289978	L1
+7	une	un	DET	DET	_	8	spe	_	_	603.950012	604.340027	L1
+8	position	position	NOM	NOM	_	6	dep	_	_	604.349976	605.330017	L1
+9	du	de+le	PRE	PRE	_	8	dep	_	_	605.409973	605.719971	L1
+10	dramaturge	dramaturge	NOM	NOM	_	9	dep	_	_	605.729980	606.650024	L1
+11	en	en	PRE	PRE	_	4	dep	_	_	607.419983	607.520020	L1
+12	l'	le	DET	DET	_	13	spe	_	_	607.570007	607.590027	L1
+13	occurrence	occurrence	NOM	NOM	_	11	dep	_	_	607.599976	608.159973	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	608.169983	608.260010	L1
+15	Lope	Lope	NOM	NOM	_	14	dep	_	_	608.270020	608.679993	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-93
+# text = cela répond avant tout à une exigence théâtrale
+1	cela	cela	PRO	PRO	_	2	subj	_	_	608.849976	609.270020	L1
+2	répond	répondre	VRB	VRB	_	0	root	_	_	609.280029	609.950012	L1
+3	avant	avant	PRE	PRE	_	2	dep	_	_	609.960022	610.419983	L1
+4	tout	tout	PRO	PRO	_	3	dep	_	_	610.429993	610.580017	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	610.669983	610.799988	L1
+6	une	un	DET	DET	_	7	spe	_	_	610.809998	611.049988	L1
+7	exigence	exigence	NOM	NOM	_	5	dep	_	_	611.229980	612.250000	L1
+8	théâtrale	théâtral	ADJ	ADJ	_	7	dep	_	_	612.260010	612.770020	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-94
+# text = je m'explique face à la conception de la femme qu'a le Galàn qu'a le jeune premier une conception poétique hein
+1	je	je	CLS	CLS	_	3	subj	_	_	615.020020	615.270020	L1
+2	m'	me	CLI	CLI	_	3	dep	_	_	615.280029	615.309998	L1
+3	explique	expliquer	VRB	VRB	_	0	root	_	_	615.320007	616.159973	L1
+4	face	face	NOM	NOM	_	3	dep	_	_	618.000000	618.710022	L1
+5	à	à	PRE	PRE	_	3	dep	_	_	619.969971	620.400024	L1
+6	la	le	DET	DET	_	7	spe	_	_	620.409973	620.820007	L1
+7	conception	conception	NOM	NOM	_	5	dep	_	_	620.909973	621.969971	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	623.229980	623.369995	L1
+9	la	le	DET	DET	_	10	spe	_	_	623.440002	623.549988	L1
+10	femme	femme	NOM	NOM	_	8	dep	_	_	623.559998	624.030029	L1
+11	qu'	que	PRQ	PRQ	_	12	dep	_	_	625.359985	625.450012	L1
+12	a	avoir	VRB	VRB	_	7	dep	_	_	625.460022	625.809998	L1
+13	le	le	DET	DET	_	14	spe	_	_	625.820007	626.330017	L1
+14	Galàn	Galàn	NOM	NOM	_	12	dep	_	_	626.340027	627.140015	L1
+15	qu'	que	PRQ	PRQ	_	16	dep	_	_	628.750000	628.849976	L1
+16	a	avoir	VRB	VRB	_	14	dep	_	_	628.859985	629.090027	L1
+17	le	le	DET	DET	_	18	spe	_	_	629.099976	629.309998	L1
+18	jeune	jeune	NOM	NOM	_	16	dep	_	_	629.320007	629.669983	L1
+19	premier	premier	ADJ	ADJ	_	18	dep	_	_	629.679993	630.289978	L1
+20	une	un	DET	DET	_	21	spe	_	_	631.369995	631.789978	L1
+21	conception	conception	NOM	NOM	_	16	dep	_	_	631.799988	632.869995	L1
+22	poétique	poétique	ADJ	ADJ	_	21	dep	_	_	633.190002	634.330017	L1
+23	hein	hein	INT	INT	_	22	dm	_	_	634.599976	635.010010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-95
+# text = tr~ euh Teodoro va dire dans notre pièce à propos des femmes son todas cristalinas hein face à la conception poétique
+1	tr~	tr~	X	X	_	4	periph	_	_	635.369995	635.619995	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	635.690002	636.210022	L1
+3	Teodoro	Teodoro	NOM	NOM	_	4	subj	_	_	636.219971	637.049988	L1
+4	va	aller	VRB	VRB	_	0	root	_	_	637.239990	637.440002	L1
+5	dire	dire	VNF	VNF	_	4	dep	_	_	637.450012	637.799988	L1
+6	dans	dans	PRE	PRE	_	5	dep	_	_	637.809998	638.179993	L1
+7	notre	son	DET	DET	_	8	spe	_	_	638.549988	638.989990	L1
+8	pièce	pièce	NOM	NOM	_	6	dep	_	_	639.000000	639.390015	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	639.400024	639.630005	L1
+10	propos	propos	NOM	NOM	_	9	dep	_	_	639.640015	639.940002	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	639.950012	640.049988	L1
+12	femmes	femme	NOM	NOM	_	11	dep	_	_	640.059998	640.380005	L1
+13	son	son	DET	DET	_	14	spe	_	_	640.460022	640.859985	L1
+14	todas	todas	NOM	NOM	_	8	para	_	_	640.869995	641.440002	L1
+15	cristalinas	cristalinas	ADJ	ADJ	_	14	dep	_	_	641.780029	642.609985	L1
+16	hein	hein	INT	INT	_	15	dm	_	_	643.640015	643.900024	L1
+17	face	face	NOM	NOM	_	14	para	_	_	644.039978	644.780029	L1
+18	à	à	PRE	PRE	_	17	dep	_	_	644.989990	645.210022	L1
+19	la	le	DET	DET	_	20	spe	_	_	645.219971	645.340027	L1
+20	conception	conception	NOM	NOM	_	18	dep	_	_	645.349976	646.119995	L1
+21	poétique	poétique	ADJ	ADJ	_	20	dep	_	_	646.130005	647.010010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-96
+# text = je dirais même poétisante de la femme exprimée par le Galàn
+1	je	je	CLS	CLS	_	2	subj	_	_	647.020020	647.150024	L1
+2	dirais	dire	VRB	VRB	_	0	root	_	_	647.159973	647.340027	L1
+3	même	même	ADV	ADV	_	4	dep	_	_	647.349976	647.570007	L1
+4	poétisante	poétisante	NOM	NOM	_	2	dep	_	_	647.580017	648.710022	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	649.429993	649.590027	L1
+6	la	le	DET	DET	_	7	spe	_	_	649.599976	649.780029	L1
+7	femme	femme	NOM	NOM	_	5	dep	_	_	649.789978	650.400024	L1
+8	exprimée	exprimer	VPP	VPP	_	7	dep	_	_	651.820007	652.780029	L1
+9	par	par	PRE	PRE	_	8	dep	_	_	652.849976	653.260010	L1
+10	le	le	DET	DET	_	11	spe	_	_	653.760010	654.020020	L1
+11	Galàn	Galàn	NOM	NOM	_	9	dep	_	_	654.030029	654.539978	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-97
+# text = le gracioso exprime en contrepoint
+1	le	le	DET	DET	_	2	spe	_	_	655.359985	655.460022	L1
+2	gracioso	gracioso	NOM	NOM	_	3	subj	_	_	655.739990	656.710022	L1
+3	exprime	exprimer	VRB	VRB	_	0	root	_	_	657.630005	658.619995	L1
+4	en	en	PRE	PRE	_	3	dep	_	_	659.619995	659.940002	L1
+5	contrepoint	contrepoint	NOM	NOM	_	4	dep	_	_	659.989990	661.330017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-98
+# text = il y a toujours ce contrepoint dont je vous ai parlé
+1	il	il	CLS	CLS	_	3	subj	_	_	661.580017	661.650024	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	661.659973	661.700012	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	661.710022	661.760010	L1
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	661.770020	662.159973	L1
+5	ce	ce	DET	DET	_	6	spe	_	_	662.169983	662.330017	L1
+6	contrepoint	contrepoint	NOM	NOM	_	3	dep	_	_	662.340027	663.059998	L1
+7	dont	dont	PRQ	PRQ	_	11	dep	_	_	663.070007	663.200012	L1
+8	je	je	CLS	CLS	_	11	subj	_	_	663.210022	663.320007	L1
+9	vous	vous	CLI	CLI	_	11	dep	_	_	663.330017	663.510010	L1
+10	ai	avoir	VRB	VRB	_	11	aux	_	_	663.520020	663.580017	L1
+11	parlé	parler	VPP	VPP	_	6	dep	_	_	663.590027	664.169983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-99
+# text = il exprime en quelque sorte un aspect d'un courant de pensée de son temps
+1	il	il	CLS	CLS	_	2	subj	_	_	664.599976	664.750000	L1
+2	exprime	exprimer	VRB	VRB	_	0	root	_	_	664.760010	665.349976	L1
+3	en quelque sorte	en quelque sorte	ADV	ADV	_	2	dep	_	_	666.880005	668.369995	L1
+4	un	un	DET	DET	_	5	spe	_	_	670.409973	670.630005	L1
+5	aspect	aspect	NOM	NOM	_	2	dep	_	_	670.640015	671.609985	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	672.590027	672.679993	L1
+7	un	un	DET	DET	_	8	spe	_	_	672.690002	673.049988	L1
+8	courant	courant	NOM	NOM	_	6	dep	_	_	673.059998	673.710022	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	673.719971	673.869995	L1
+10	pensée	pensée	NOM	NOM	_	9	dep	_	_	673.880005	674.450012	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	674.460022	674.590027	L1
+12	son	son	DET	DET	_	13	spe	_	_	674.599976	674.890015	L1
+13	temps	temps	NOM	NOM	_	11	dep	_	_	674.900024	675.179993	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-100
+# text = il faut donc voir dans cette satire de la femme par le gracioso le résultat non pas d'une position du dramaturge mais le résultat d'une sorte de loi structurelle de la comedia
+1	il	il	CLS	CLS	_	2	subj	_	_	677.409973	677.469971	L1
+2	faut	faillir	VRB	VRB	_	0	root	_	_	677.479980	677.989990	L1
+3	donc	donc	ADV	ADV	_	2	dep	_	_	678.000000	678.130005	L1
+4	voir	voir	VNF	VNF	_	2	dep	_	_	678.140015	678.729980	L1
+5	dans	dans	PRE	PRE	_	4	dep	_	_	679.059998	679.349976	L1
+6	cette	ce	DET	DET	_	7	spe	_	_	679.359985	679.669983	L1
+7	satire	satire	NOM	NOM	_	5	dep	_	_	679.679993	680.190002	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	680.200012	680.289978	L1
+9	la	le	DET	DET	_	10	spe	_	_	680.299988	680.400024	L1
+10	femme	femme	NOM	NOM	_	8	dep	_	_	680.409973	680.820007	L1
+11	par	par	PRE	PRE	_	4	dep	_	_	681.710022	681.919983	L1
+12	le	le	DET	DET	_	13	spe	_	_	681.929993	682.039978	L1
+13	gracioso	gracioso	NOM	NOM	_	11	dep	_	_	682.049988	683.020020	L1
+14	le	le	DET	DET	_	15	spe	_	_	683.940002	684.340027	L1
+15	résultat	résultat	NOM	NOM	_	4	dep	_	_	684.349976	685.609985	L1
+16	non	non	INT	INT	_	15	dm	_	_	685.940002	686.369995	L1
+17	pas	pas	ADN	ADN	_	15	para	_	_	686.380005	686.820007	L1
+18	d'	de	PRE	PRE	_	15	dep	_	_	688.429993	688.640015	L1
+19	une	un	DET	DET	_	20	spe	_	_	688.989990	689.179993	L1
+20	position	position	NOM	NOM	_	18	dep	_	_	689.909973	690.969971	L1
+21	du	de+le	PRE	PRE	_	20	dep	_	_	691.070007	691.270020	L1
+22	dramaturge	dramaturge	NOM	NOM	_	21	dep	_	_	691.280029	692.059998	L1
+23	mais	mais	COO	COO	_	25	mark	_	_	692.070007	692.219971	L1
+24	le	le	DET	DET	_	25	spe	_	_	692.229980	692.340027	L1
+25	résultat	résultat	NOM	NOM	_	15	para	_	_	692.349976	693.150024	L1
+26	d'	de	PRE	PRE	_	25	dep	_	_	693.539978	693.719971	L1
+27	une	un	DET	DET	_	28	spe	_	_	693.729980	694.159973	L1
+28	sorte	sorte	NOM	NOM	_	26	dep	_	_	694.210022	695.109985	L1
+29	de	de	PRE	PRE	_	28	dep	_	_	695.539978	695.989990	L1
+30	loi	loi	NOM	NOM	_	29	dep	_	_	696.000000	696.650024	L1
+31	structurelle	structurel	ADJ	ADJ	_	30	dep	_	_	696.739990	698.219971	L1
+32	de	de	PRE	PRE	_	29	para	_	_	698.960022	699.400024	L1
+33	la	le	DET	DET	_	34	spe	_	_	699.409973	699.919983	L1
+34	comedia	comedia	NOM	NOM	_	32	dep	_	_	700.349976	701.039978	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-101
+# text = c' est-à-dire que le gracioso
+1	c' est-à-dire que	c' est-à-dire que	VRB	VRB	_	0	root	_	_	702.669983	703.710022	L1
+2	le	le	DET	DET	_	3	spe	_	_	703.719971	703.919983	L1
+3	gracioso	gracioso	ADJ	ADJ	_	1	dep	_	_	703.929993	705.239990	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-102
+# text = doit compléter et compléter a contrario
+1	doit	devoir	VRB	VRB	_	0	root	_	_	706.849976	707.609985	L1
+2	compléter	compléter	VNF	VNF	_	1	dep	_	_	707.679993	708.900024	L1
+3	et	et	COO	COO	_	4	mark	_	_	709.520020	709.580017	L1
+4	compléter	compléter	VNF	VNF	_	2	para	_	_	709.590027	710.280029	L1
+5	a contrario	a contrario	ADV	ADV	_	4	dep	_	_	710.289978	711.570007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-103
+# text = il prend le contre-pied le gracioso
+1	il	il	CLS	CLS	_	2	subj	_	_	712.299988	712.479980	L1
+2	prend	prendre	VRB	VRB	_	0	root	_	_	712.489990	712.700012	L1
+3	le	le	DET	DET	_	4	spe	_	_	712.710022	712.840027	L1
+4	contre-pied	contre-pied	NOM	NOM	_	2	dep	_	_	712.849976	713.619995	L1
+5	le	le	DET	DET	_	6	spe	_	_	713.799988	713.950012	L1
+6	gracioso	gracioso	NOM	NOM	_	4	para	_	_	713.960022	714.559998	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-104
+# text = et il doit compléter a contrario la vision du monde une vision qui est proposée par le personnage poétique qu'est le galant
+1	et	et	COO	COO	_	3	mark	_	_	714.919983	714.950012	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	714.960022	715.099976	L1
+3	doit	devoir	VRB	VRB	_	0	root	_	_	715.109985	715.419983	L1
+4	compléter	compléter	VNF	VNF	_	3	dep	_	_	715.469971	716.130005	L1
+5	a contrario	a contrario	ADV	ADV	_	4	dep	_	_	716.140015	717.210022	L1
+6	la	le	DET	DET	_	7	spe	_	_	717.710022	718.020020	L1
+7	vision	vision	NOM	NOM	_	4	dep	_	_	718.030029	718.719971	L1
+8	du	de+le	PRE	PRE	_	7	dep	_	_	718.729980	718.880005	L1
+9	monde	monde	NOM	NOM	_	8	dep	_	_	718.890015	719.590027	L1
+10	une	un	DET	DET	_	11	spe	_	_	722.520020	722.659973	L1
+11	vision	vision	NOM	NOM	_	7	para	_	_	722.669983	723.289978	L1
+12	qui	qui	PRQ	PRQ	_	14	dep	_	_	723.299988	723.419983	L1
+13	est	être	VRB	VRB	_	14	aux	_	_	723.429993	723.590027	L1
+14	proposée	proposer	VPP	VPP	_	11	dep	_	_	723.599976	724.669983	L1
+15	par	par	PRE	PRE	_	14	dep	_	_	725.219971	725.679993	L1
+16	le	le	DET	DET	_	17	spe	_	_	725.690002	726.099976	L1
+17	personnage	personnage	NOM	NOM	_	15	dep	_	_	726.109985	727.099976	L1
+18	poétique	poétique	ADJ	ADJ	_	17	dep	_	_	727.400024	728.229980	L1
+19	qu'	que	PRQ	PRQ	_	20	dep	_	_	728.320007	728.419983	L1
+20	est	être	VRB	VRB	_	17	dep	_	_	728.429993	728.700012	L1
+21	le	le	DET	DET	_	22	spe	_	_	728.710022	729.000000	L1
+22	galant	galant	NOM	NOM	_	20	dep	_	_	729.010010	729.570007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-105
+# text = vous avez d'un côté le personnage poétique qui est le galant de l'autre côté le personnage prosaïque hein haras de ti-~ de tierra pedestre hein qui est le euh le gracioso hein dans la comedia
+1	vous	vous	CLS	CLS	_	2	subj	_	_	729.900024	730.099976	L1
+2	avez	avoir	VRB	VRB	_	0	root	_	_	730.109985	730.299988	L1
+3	d'	de	PRE	PRE	_	2	dep	_	_	730.309998	730.359985	L1
+4	un	un	DET	DET	_	5	spe	_	_	730.369995	730.489990	L1
+5	côté	côté	NOM	NOM	_	3	dep	_	_	730.500000	730.739990	L1
+6	le	le	DET	DET	_	7	spe	_	_	730.750000	730.869995	L1
+7	personnage	personnage	NOM	NOM	_	2	dep	_	_	730.880005	731.479980	L1
+8	poétique	poétique	ADJ	ADJ	_	7	dep	_	_	731.570007	732.239990	L1
+9	qui	qui	PRQ	PRQ	_	10	dep	_	_	732.549988	732.719971	L1
+10	est	être	VRB	VRB	_	7	dep	_	_	732.729980	732.809998	L1
+11	le	le	DET	DET	_	12	spe	_	_	732.820007	732.940002	L1
+12	galant	galant	NOM	NOM	_	10	dep	_	_	732.950012	733.489990	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	733.900024	733.940002	L1
+14	l'	le	DET	DET	_	16	spe	_	_	733.950012	733.969971	L1
+15	autre	autre	ADJ	ADJ	_	16	dep	_	_	733.979980	734.169983	L1
+16	côté	côté	NOM	NOM	_	13	dep	_	_	734.179993	734.429993	L1
+17	le	le	DET	DET	_	18	spe	_	_	734.440002	734.570007	L1
+18	personnage	personnage	NOM	NOM	_	12	para	_	_	734.580017	735.099976	L1
+19	prosaïque	prosaïque	ADJ	ADJ	_	18	dep	_	_	735.210022	736.099976	L1
+20	hein	hein	INT	INT	_	19	dm	_	_	736.869995	737.179993	L1
+21	haras	haras	NOM	NOM	_	18	para	_	_	737.320007	737.659973	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	737.669983	737.760010	L1
+23	ti-~	ti-~	NOM	NOM	_	22	dep	_	_	737.770020	738.080017	L1
+24	de	de	PRE	PRE	_	23	dep	_	_	738.190002	738.500000	L1
+25	tierra	tierra	NOM	NOM	_	24	dep	_	_	738.510010	738.890015	L1
+26	pedestre	pedestre	ADV	ADV	_	18	dep	_	_	738.900024	739.520020	L1
+27	hein	hein	INT	INT	_	26	dm	_	_	739.900024	740.099976	L1
+28	qui	qui	PRQ	PRQ	_	29	subj	_	_	740.109985	740.340027	L1
+29	est	être	VRB	VRB	_	18	dep	_	_	740.349976	740.700012	L1
+30	le	le	DET	DET	_	33	spe	_	_	740.710022	741.059998	L1
+31	euh	euh	INT	INT	_	30	dm	_	_	741.099976	741.640015	L1
+32	le	le	DET	DET	_	30	para	_	_	743.150024	743.340027	L1
+33	gracioso	gracioso	NOM	NOM	_	29	dep	_	_	743.349976	743.940002	L1
+34	hein	hein	INT	INT	_	33	dm	_	_	744.070007	744.179993	L1
+35	dans	dans	PRE	PRE	_	29	dep	_	_	744.190002	744.309998	L1
+36	la	le	DET	DET	_	37	spe	_	_	744.320007	744.429993	L1
+37	comedia	comedia	NOM	NOM	_	35	dep	_	_	744.440002	744.900024	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-106
+# text = n'oubliez jamais qu'il y a toujours deux niveaux
+1	n'	ne	CLN	CLN	_	2	dep	_	_	744.909973	744.979980	L1
+2	oubliez	oublier	VRB	VRB	_	0	root	_	_	744.989990	745.239990	L1
+3	jamais	jamais	ADN	ADN	_	2	dep	_	_	745.250000	745.530029	L1
+4	qu'	que	CSU	CSU	_	2	dep	_	_	745.539978	745.599976	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	745.609985	745.710022	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	745.719971	745.739990	L1
+7	a	avoir	VRB	VRB	_	4	dep	_	_	745.750000	745.830017	L1
+8	toujours	toujours	ADV	ADV	_	7	dep	_	_	745.840027	746.400024	L1
+9	deux	deux	NUM	NUM	_	10	spe	_	_	746.599976	747.090027	L1
+10	niveaux	niveau	NOM	NOM	_	7	dep	_	_	747.099976	747.650024	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-107
+# text = vous avez le niveau de la grandeur une grandeur qui peut être même tragique
+1	vous	vous	CLS	CLS	_	2	subj	_	_	748.989990	749.179993	L1
+2	avez	avoir	VRB	VRB	_	0	root	_	_	749.190002	749.409973	L1
+3	le	le	DET	DET	_	4	spe	_	_	749.419983	749.500000	L1
+4	niveau	niveau	NOM	NOM	_	2	dep	_	_	749.510010	749.799988	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	749.809998	749.880005	L1
+6	la	le	DET	DET	_	7	spe	_	_	749.890015	750.039978	L1
+7	grandeur	grandeur	NOM	NOM	_	5	dep	_	_	750.049988	750.830017	L1
+8	une	un	DET	DET	_	9	spe	_	_	752.049988	752.229980	L1
+9	grandeur	grandeur	NOM	NOM	_	4	para	_	_	752.239990	752.619995	L1
+10	qui	qui	PRQ	PRQ	_	11	subj	_	_	752.630005	752.710022	L1
+11	peut	pouvoir	VRB	VRB	_	9	dep	_	_	752.719971	752.849976	L1
+12	être	être	VNF	VNF	_	11	dep	_	_	752.859985	753.109985	L1
+13	même	même	ADV	ADV	_	14	dep	_	_	753.119995	753.340027	L1
+14	tragique	tragique	ADJ	ADJ	_	12	dep	_	_	753.349976	754.080017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-108
+# text = et vous avez le niveau du comique hein qui peut être ridicule hein
+1	et	et	COO	COO	_	3	mark	_	_	754.440002	754.640015	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	754.650024	754.859985	L1
+3	avez	avoir	VRB	VRB	_	0	root	_	_	754.869995	755.369995	L1
+4	le	le	DET	DET	_	5	spe	_	_	755.429993	755.700012	L1
+5	niveau	niveau	NOM	NOM	_	3	dep	_	_	755.710022	756.309998	L1
+6	du	de+le	PRE	PRE	_	5	dep	_	_	756.530029	756.780029	L1
+7	comique	comique	NOM	NOM	_	6	dep	_	_	756.789978	757.659973	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	758.260010	758.599976	L1
+9	qui	qui	PRQ	PRQ	_	10	dep	_	_	758.609985	758.780029	L1
+10	peut	pouvoir	VRB	VRB	_	5	dep	_	_	758.789978	759.049988	L1
+11	être	être	VNF	VNF	_	10	dep	_	_	759.059998	759.590027	L1
+12	ridicule	ridicule	ADJ	ADJ	_	11	dep	_	_	759.770020	760.469971	L1
+13	hein	hein	INT	INT	_	12	dm	_	_	760.809998	761.080017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-109
+# text = il y a
+1	il	il	CLS	CLS	_	3	subj	_	_	761.179993	761.229980	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	761.239990	761.520020	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	761.530029	761.669983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-110
+# text = si vous voulez toujours un cloisonnement il y a un cloisonnement social entre le maître et son valet
+1	si	si	CSU	CSU	_	9	periph	_	_	761.679993	761.849976	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	761.859985	762.020020	L1
+3	voulez	vouloir	VRB	VRB	_	1	dep	_	_	762.030029	762.440002	L1
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	762.450012	763.140015	L1
+5	un	un	DET	DET	_	6	spe	_	_	764.000000	764.340027	L1
+6	cloisonnement	cloisonnement	NOM	NOM	_	9	periph	_	_	764.349976	765.400024	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	765.409973	765.460022	L1
+8	y	y	CLI	CLI	_	9	dep	_	_	765.469971	765.510010	L1
+9	a	avoir	VRB	VRB	_	0	root	_	_	765.520020	765.549988	L1
+10	un	un	DET	DET	_	11	spe	_	_	765.559998	765.609985	L1
+11	cloisonnement	cloisonnement	NOM	NOM	_	9	dep	_	_	765.619995	766.059998	L1
+12	social	social	ADJ	ADJ	_	11	dep	_	_	766.070007	766.580017	L1
+13	entre	entre	PRE	PRE	_	9	dep	_	_	766.789978	767.349976	L1
+14	le	le	DET	DET	_	15	spe	_	_	767.580017	767.679993	L1
+15	maître	maître	NOM	NOM	_	13	dep	_	_	767.690002	768.090027	L1
+16	et	et	COO	COO	_	18	mark	_	_	768.099976	768.150024	L1
+17	son	son	DET	DET	_	18	spe	_	_	768.159973	768.429993	L1
+18	valet	valet	NOM	NOM	_	15	para	_	_	768.440002	768.919983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-111
+# text = eh bien ce cloisonnement social s'accompagne d'un cloisonnement esthétique
+1	eh bien	eh bien	INT	INT	_	6	dm	_	_	769.630005	770.000000	L1
+2	ce	ce	DET	DET	_	3	spe	_	_	770.080017	770.330017	L1
+3	cloisonnement	cloisonnement	NOM	NOM	_	6	periph	_	_	770.340027	770.909973	L1
+4	social	social	ADJ	ADJ	_	6	subj	_	_	770.919983	771.679993	L1
+5	s'	se	CLI	CLI	_	6	dep	_	_	772.219971	772.320007	L1
+6	accompagne	accompagner	VRB	VRB	_	0	root	_	_	772.330017	772.900024	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	772.909973	773.000000	L1
+8	un	un	DET	DET	_	9	spe	_	_	773.010010	773.150024	L1
+9	cloisonnement	cloisonnement	NOM	NOM	_	7	dep	_	_	773.159973	773.750000	L1
+10	esthétique	esthétique	ADJ	ADJ	_	9	dep	_	_	773.849976	774.669983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-112
+# text = il y a d'une part la vision idéalisée du monde de la part du gracioso
+1	il	il	CLS	CLS	_	3	subj	_	_	776.349976	776.590027	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	776.599976	776.669983	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	776.679993	777.030029	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	777.270020	777.500000	L1
+5	une	un	DET	DET	_	6	spe	_	_	777.510010	777.760010	L1
+6	part	part	NOM	NOM	_	4	dep	_	_	777.770020	778.159973	L1
+7	la	le	DET	DET	_	8	spe	_	_	778.739990	778.989990	L1
+8	vision	vision	NOM	NOM	_	3	dep	_	_	779.000000	779.409973	L1
+9	idéalisée	idéaliser	ADJ	ADJ	_	8	dep	_	_	779.419983	780.080017	L1
+10	du	de+le	PRE	PRE	_	8	dep	_	_	780.090027	780.210022	L1
+11	monde	monde	NOM	NOM	_	10	dep	_	_	780.219971	780.729980	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	782.090027	782.280029	L1
+13	la	le	DET	DET	_	14	spe	_	_	782.289978	782.489990	L1
+14	part	part	NOM	NOM	_	12	dep	_	_	782.500000	782.989990	L1
+15	du	de+le	PRE	PRE	_	14	dep	_	_	783.239990	783.650024	L1
+16	gracioso	gracioso	NOM	NOM	_	15	dep	_	_	783.659973	784.359985	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-113
+# text = donc une vision idéalisée de la femme de la part du du gracioso que dis-je de la part du Galàn et de l'autre vous avez le contrepoint comique hein exprimé par le gracioso
+1	donc	donc	ADV	ADV	_	26	periph	_	_	784.369995	784.659973	L1
+2	une	un	DET	DET	_	3	spe	_	_	784.909973	785.140015	L1
+3	vision	vision	NOM	NOM	_	26	periph	_	_	785.150024	785.520020	L1
+4	idéalisée	idéaliser	ADJ	ADJ	_	3	dep	_	_	785.530029	786.039978	L1
+5	de	de	PRE	PRE	_	3	dep	_	_	786.049988	786.070007	L1
+6	la	le	DET	DET	_	7	spe	_	_	786.080017	786.210022	L1
+7	femme	femme	NOM	NOM	_	5	dep	_	_	786.219971	786.650024	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	787.270020	787.409973	L1
+9	la	le	DET	DET	_	10	spe	_	_	787.419983	787.590027	L1
+10	part	part	NOM	NOM	_	8	dep	_	_	787.599976	787.760010	L1
+11	du	de+le	PRE	PRE	_	10	dep	_	_	787.770020	787.979980	L1
+12	du	de+le	PRE	PRE	_	11	para	_	_	787.989990	788.099976	L1
+13	gracioso	gracioso	NOM	NOM	_	12	dep	_	_	788.109985	788.580017	L1
+14	que	que	PRQ	PRQ	_	15	dep	_	_	788.590027	788.700012	L1
+15	dis-je	dis-je	VRB	VRB	_	13	dep	_	_	788.710022	788.989990	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	789.000000	789.059998	L1
+17	la	le	DET	DET	_	18	spe	_	_	789.070007	789.190002	L1
+18	part	part	NOM	NOM	_	16	dep	_	_	789.200012	789.349976	L1
+19	du	de+le	PRE	PRE	_	18	dep	_	_	789.359985	789.429993	L1
+20	Galàn	Galàn	NOM	NOM	_	19	dep	_	_	789.440002	789.820007	L1
+21	et	et	COO	COO	_	22	mark	_	_	790.799988	790.979980	L1
+22	de	de	PRE	PRE	_	16	para	_	_	790.989990	791.109985	L1
+23	l'	le	DET	DET	_	24	spe	_	_	791.119995	791.190002	L1
+24	autre	autre	NOM	NOM	_	22	dep	_	_	791.200012	791.599976	L1
+25	vous	vous	CLS	CLS	_	26	subj	_	_	792.159973	792.340027	L1
+26	avez	avoir	VRB	VRB	_	0	root	_	_	792.349976	792.580017	L1
+27	le	le	DET	DET	_	28	spe	_	_	792.590027	792.630005	L1
+28	contrepoint	contrepoint	NOM	NOM	_	26	dep	_	_	792.640015	793.440002	L1
+29	comique	comique	ADJ	ADJ	_	28	dep	_	_	793.450012	794.000000	L1
+30	hein	hein	INT	INT	_	29	dm	_	_	794.700012	795.049988	L1
+31	exprimé	exprimer	VPP	VPP	_	28	dep	_	_	797.559998	798.159973	L1
+32	par	par	PRE	PRE	_	31	dep	_	_	798.169983	798.369995	L1
+33	le	le	DET	DET	_	34	spe	_	_	798.380005	798.479980	L1
+34	gracioso	gracioso	NOM	NOM	_	32	dep	_	_	798.489990	799.130005	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-114
+# text = donc le rôle je dis bien le rôle voilà
+1	donc	donc	ADV	ADV	_	5	periph	_	_	799.239990	799.640015	L1
+2	le	le	DET	DET	_	3	spe	_	_	799.650024	799.869995	L1
+3	rôle	rôle	NOM	NOM	_	5	periph	_	_	800.239990	800.510010	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	800.619995	800.750000	L1
+5	dis	dire	VRB	VRB	_	0	root	_	_	800.760010	800.859985	L1
+6	bien	bien	ADV	ADV	_	5	dep	_	_	800.869995	801.010010	L1
+7	le	le	DET	DET	_	8	spe	_	_	801.020020	801.219971	L1
+8	rôle	rôle	NOM	NOM	_	5	dep	_	_	801.229980	801.659973	L1
+9	voilà	voilà	INT	INT	_	8	dm	_	_	801.909973	802.080017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-115
+# text = pourquoi je vous ai parlé de lois structurelles de la comedia hein le rôle du gracioso qui a une vision terre à terre du monde une vision prosaïque du monde
+1	pourquoi	pourquoi	PRQ	PRQ	_	5	dep	_	_	802.090027	802.400024	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	802.409973	802.510010	L1
+3	vous	vous	CLI	CLI	_	5	dep	_	_	802.520020	802.669983	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	802.679993	802.710022	L1
+5	parlé	parler	VPP	VPP	_	0	root	_	_	802.719971	803.049988	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	803.059998	803.140015	L1
+7	lois	loi	NOM	NOM	_	6	dep	_	_	803.150024	803.400024	L1
+8	structurelles	structurel	ADJ	ADJ	_	7	dep	_	_	803.409973	804.119995	L1
+9	de	de	PRE	PRE	_	7	dep	_	_	804.130005	804.229980	L1
+10	la	le	DET	DET	_	11	spe	_	_	804.239990	804.309998	L1
+11	comedia	comedia	NOM	NOM	_	9	dep	_	_	804.320007	804.840027	L1
+12	hein	hein	INT	INT	_	11	dm	_	_	805.150024	805.210022	L1
+13	le	le	DET	DET	_	14	spe	_	_	805.219971	805.359985	L1
+14	rôle	rôle	NOM	NOM	_	11	para	_	_	805.369995	805.710022	L1
+15	du	de+le	PRE	PRE	_	14	dep	_	_	805.719971	805.830017	L1
+16	gracioso	gracioso	NOM	NOM	_	15	dep	_	_	805.840027	806.630005	L1
+17	qui	qui	PRQ	PRQ	_	18	dep	_	_	807.109985	807.200012	L1
+18	a	avoir	VRB	VRB	_	14	dep	_	_	807.210022	807.250000	L1
+19	une	un	DET	DET	_	20	spe	_	_	807.260010	807.530029	L1
+20	vision	vision	NOM	NOM	_	18	dep	_	_	807.539978	808.140015	L1
+21	terre à terre	terre à terre	ADJ	ADJ	_	20	dep	_	_	808.150024	809.090027	L1
+22	du	de+le	PRE	PRE	_	20	dep	_	_	809.099976	809.200012	L1
+23	monde	monde	NOM	NOM	_	22	dep	_	_	809.210022	809.750000	L1
+24	une	un	DET	DET	_	25	spe	_	_	810.400024	810.619995	L1
+25	vision	vision	NOM	NOM	_	20	para	_	_	810.630005	811.020020	L1
+26	prosaïque	prosaïque	ADJ	ADJ	_	25	dep	_	_	811.030029	811.650024	L1
+27	du	de+le	PRE	PRE	_	26	dep	_	_	811.659973	811.770020	L1
+28	monde	monde	NOM	NOM	_	27	dep	_	_	811.780029	812.169983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-116
+# text = eh bien son rôle consiste à dépoétiser
+1	eh bien	eh bien	INT	INT	_	4	dm	_	_	812.409973	812.679993	L1
+2	son	son	DET	DET	_	3	spe	_	_	812.690002	812.979980	L1
+3	rôle	rôle	NOM	NOM	_	4	subj	_	_	812.989990	813.229980	L1
+4	consiste	consister	VRB	VRB	_	0	root	_	_	813.239990	813.780029	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	813.789978	814.140015	L1
+6	dépoétiser	dépoétiser	VNF	VNF	_	5	dep	_	_	814.570007	816.859985	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-117
+# text = et face à l'amoureux
+1	et	et	COO	COO	_	2	mark	_	_	819.440002	819.570007	L1
+2	face	face	NOM	NOM	_	0	root	_	_	819.690002	820.299988	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	820.690002	820.820007	L1
+4	l'	le	DET	DET	_	5	spe	_	_	820.830017	820.909973	L1
+5	amoureux	amoureux	NOM	NOM	_	3	dep	_	_	820.919983	821.760010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-118
+# text = au Galàn qui poétise
+1	au	à+le	PRE	PRE	_	0	root	_	_	822.349976	822.460022	L1
+2	Galàn	Galàn	NOM	NOM	_	1	dep	_	_	822.469971	823.039978	L1
+3	qui	qui	PRQ	PRQ	_	4	dep	_	_	823.679993	823.979980	L1
+4	poétise	poétiser	VRB	VRB	_	2	dep	_	_	823.989990	825.070007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-119
+# text = eh bien il faut quelqu' un hein qui est euh qui est dans les nuages
+1	eh bien	eh bien	INT	INT	_	3	dm	_	_	825.869995	826.369995	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	826.469971	826.650024	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	826.659973	826.919983	L1
+4	quelqu' un	quelqu'un	PRO	PRO	_	3	dep	_	_	826.929993	827.599976	L1
+5	hein	hein	INT	INT	_	4	dm	_	_	827.780029	827.909973	L1
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	827.919983	828.309998	L1
+7	est	être	VRB	VRB	_	4	dep	_	_	828.369995	828.919983	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	829.289978	829.380005	L1
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	829.390015	829.770020	L1
+10	est	être	VRB	VRB	_	7	para	_	_	829.780029	830.250000	L1
+11	dans	dans	PRE	PRE	_	10	dep	_	_	830.260010	830.419983	L1
+12	les	le	DET	DET	_	13	spe	_	_	830.429993	830.539978	L1
+13	nuages	nuage	NOM	NOM	_	11	dep	_	_	830.549988	831.080017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-120
+# text = eh bien il faut quelqu' un qui ait les pieds sur terre hein qui reste en contact avec les euh euh euh réalités de l'existence
+1	eh bien	eh bien	INT	INT	_	3	dm	_	_	831.460022	831.659973	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	831.669983	831.789978	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	831.799988	831.900024	L1
+4	quelqu' un	quelqu'un	PRO	PRO	_	3	dep	_	_	831.909973	832.359985	L1
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	832.369995	832.580017	L1
+6	ait	avoir	VRB	VRB	_	4	dep	_	_	832.590027	832.609985	L1
+7	les	le	DET	DET	_	8	spe	_	_	832.619995	832.750000	L1
+8	pieds	pied	NOM	NOM	_	6	dep	_	_	832.760010	833.010010	L1
+9	sur	sur	PRE	PRE	_	8	dep	_	_	833.020020	833.179993	L1
+10	terre	terre	NOM	NOM	_	9	dep	_	_	833.190002	833.630005	L1
+11	hein	hein	INT	INT	_	10	dm	_	_	833.969971	834.049988	L1
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	834.059998	834.369995	L1
+13	reste	rester	VRB	VRB	_	8	dep	_	_	834.380005	834.650024	L1
+14	en	en	PRE	PRE	_	13	dep	_	_	834.659973	834.780029	L1
+15	contact	contact	NOM	NOM	_	14	dep	_	_	834.789978	835.539978	L1
+16	avec	avec	PRE	PRE	_	13	dep	_	_	835.650024	836.020020	L1
+17	les	le	DET	DET	_	21	spe	_	_	836.080017	836.630005	L1
+18	euh	euh	INT	INT	_	17	dm	_	_	836.640015	836.770020	L1
+19	euh	euh	INT	INT	_	18	dm	_	_	836.830017	837.140015	L1
+20	euh	euh	INT	INT	_	19	dm	_	_	837.179993	837.330017	L1
+21	réalités	réalité	NOM	NOM	_	16	dep	_	_	837.340027	838.229980	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	838.489990	838.780029	L1
+23	l'	le	DET	DET	_	24	spe	_	_	838.789978	838.890015	L1
+24	existence	existence	NOM	NOM	_	22	dep	_	_	838.900024	839.570007	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-121
+# text = et c'est le gracioso
+1	et	et	COO	COO	_	3	mark	_	_	839.869995	840.070007	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	840.080017	840.210022	L1
+3	est	être	VRB	VRB	_	0	root	_	_	840.219971	840.479980	L1
+4	le	le	DET	DET	_	5	spe	_	_	840.549988	840.849976	L1
+5	gracioso	gracioso	NOM	NOM	_	3	dep	_	_	840.950012	841.330017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-122
+# text = je vous fais observer puisque cela fait partie n'est-ce pas je crois de votre euh de votre programme hein que vous avez cela dans la Celestine hein dans la Celestine
+1	je	je	CLS	CLS	_	3	subj	_	_	842.169983	842.250000	L1
+2	vous	vous	CLI	CLI	_	3	dep	_	_	842.260010	842.359985	L1
+3	fais	faire	VRB	VRB	_	0	root	_	_	842.369995	842.450012	L1
+4	observer	observer	VNF	VNF	_	3	dep	_	_	842.520020	843.169983	L1
+5	puisque	puisque	CSU	CSU	_	3	periph	_	_	843.179993	843.489990	L1
+6	cela	cela	PRO	PRO	_	8	subj	_	_	843.500000	843.739990	L1
+7	fait	faire	VRB	VRB	_	8	aux	_	_	843.750000	843.849976	L1
+8	partie	partir	VPP	VPP	_	5	dep	_	_	843.859985	844.349976	L1
+9	n'	ne	CLN	CLN	_	10	dep	_	_	844.390015	844.409973	L1
+10	est-ce	est-ce	VRB	VRB	_	3	para	_	_	844.419983	844.500000	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	844.510010	844.739990	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	844.750000	844.840027	L1
+13	crois	croire	VRB	VRB	_	10	para	_	_	844.849976	845.099976	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	845.109985	845.190002	L1
+15	votre	son	DET	DET	_	14	dep	_	_	845.200012	845.549988	L1
+16	euh	euh	INT	INT	_	15	dm	_	_	845.650024	846.090027	L1
+17	de	de	PRE	PRE	_	14	para	_	_	846.099976	846.429993	L1
+18	votre	son	DET	DET	_	19	spe	_	_	846.440002	846.969971	L1
+19	programme	programme	NOM	NOM	_	17	dep	_	_	847.650024	848.419983	L1
+20	hein	hein	INT	INT	_	19	dm	_	_	848.890015	849.140015	L1
+21	que	que	CSU	CSU	_	13	dep	_	_	849.150024	849.570007	L1
+22	vous	vous	CLS	CLS	_	23	subj	_	_	850.250000	850.559998	L1
+23	avez	avoir	VRB	VRB	_	21	dep	_	_	850.570007	851.059998	L1
+24	cela	cela	PRO	PRO	_	23	dep	_	_	851.070007	851.500000	L1
+25	dans	dans	PRE	PRE	_	23	dep	_	_	851.539978	851.830017	L1
+26	la	le	DET	DET	_	27	spe	_	_	851.929993	852.390015	L1
+27	Celestine	Celestine	NOM	NOM	_	25	dep	_	_	852.479980	853.150024	L1
+28	hein	hein	INT	INT	_	27	dm	_	_	853.599976	853.809998	L1
+29	dans	dans	PRE	PRE	_	25	para	_	_	853.820007	854.010010	L1
+30	la	le	DET	DET	_	31	spe	_	_	854.020020	854.140015	L1
+31	Celestine	Celestine	NOM	NOM	_	29	dep	_	_	854.150024	854.789978	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-123
+# text = n'est-ce pas hein cette fonction dépoétisante hein
+1	n'	ne	CLN	CLN	_	2	dep	_	_	854.799988	854.830017	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	854.840027	854.950012	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	854.960022	855.299988	L1
+4	hein	hein	INT	INT	_	3	dm	_	_	855.520020	855.619995	L1
+5	cette	ce	DET	DET	_	6	spe	_	_	855.630005	855.859985	L1
+6	fonction	fonction	NOM	NOM	_	2	dep	_	_	855.869995	856.419983	L1
+7	dépoétisante	dépoétisante	ADJ	ADJ	_	6	dep	_	_	856.570007	857.880005	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	858.080017	858.219971	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-124
+# text = vous avez d'un côté Calixto et de l'autre côté le monde des maîtres et de l'autre côté
+1	vous	vous	CLS	CLS	_	2	subj	_	_	858.229980	858.429993	L1
+2	avez	avoir	VRB	VRB	_	0	root	_	_	858.440002	858.590027	L1
+3	d'	de	PRE	PRE	_	2	dep	_	_	858.599976	858.640015	L1
+4	un	un	DET	DET	_	5	spe	_	_	858.650024	858.770020	L1
+5	côté	côté	NOM	NOM	_	3	dep	_	_	858.780029	859.359985	L1
+6	Calixto	Calixto	NOM	NOM	_	5	dep	_	_	859.369995	860.080017	L1
+7	et	et	COO	COO	_	8	mark	_	_	860.349976	860.539978	L1
+8	de	de	PRE	PRE	_	3	para	_	_	860.549988	860.599976	L1
+9	l'	le	DET	DET	_	11	spe	_	_	860.609985	860.630005	L1
+10	autre	autre	ADJ	ADJ	_	11	dep	_	_	860.640015	860.859985	L1
+11	côté	côté	NOM	NOM	_	8	dep	_	_	860.869995	861.140015	L1
+12	le	le	DET	DET	_	13	spe	_	_	861.150024	861.250000	L1
+13	monde	monde	NOM	NOM	_	8	dep	_	_	861.260010	861.489990	L1
+14	des	de	PRE	PRE	_	13	dep	_	_	861.500000	861.580017	L1
+15	maîtres	maître	NOM	NOM	_	14	dep	_	_	861.590027	861.900024	L1
+16	et	et	COO	COO	_	17	mark	_	_	861.909973	861.929993	L1
+17	de	de	PRE	PRE	_	14	para	_	_	861.940002	861.960022	L1
+18	l'	le	DET	DET	_	20	spe	_	_	862.140015	862.190002	L1
+19	autre	autre	ADJ	ADJ	_	20	dep	_	_	862.200012	862.359985	L1
+20	côté	côté	NOM	NOM	_	17	dep	_	_	862.369995	862.599976	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-125
+# text = vous avez le monde des valets n'est-ce pas qui dépoétise
+1	vous	vous	CLS	CLS	_	2	subj	_	_	862.609985	862.780029	L1
+2	avez	avoir	VRB	VRB	_	0	root	_	_	862.789978	862.909973	L1
+3	le	le	DET	DET	_	4	spe	_	_	862.919983	863.000000	L1
+4	monde	monde	NOM	NOM	_	2	dep	_	_	863.010010	863.359985	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	863.530029	863.789978	L1
+6	valets	valet	NOM	NOM	_	5	dep	_	_	863.799988	864.330017	L1
+7	n'	ne	CLN	CLN	_	8	dep	_	_	864.479980	864.500000	L1
+8	est-ce	est-ce	VRB	VRB	_	2	para	_	_	864.510010	864.570007	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	864.580017	864.760010	L1
+10	qui	qui	PRQ	PRQ	_	11	dep	_	_	864.840027	865.010010	L1
+11	dépoétise	dépoétiser	VRB	VRB	_	8	para	_	_	865.049988	865.940002	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-126
+# text = n'est-ce pas euh cette vision euh de la femme et du monde qu'a Calixto aussi conséquence de ceci
+1	n'	ne	CLN	CLN	_	2	dep	_	_	865.950012	865.989990	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	866.000000	866.130005	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	866.140015	866.400024	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	866.679993	866.840027	L1
+5	cette	ce	DET	DET	_	6	spe	_	_	866.849976	867.130005	L1
+6	vision	vision	NOM	NOM	_	2	dep	_	_	867.140015	867.739990	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	867.960022	868.049988	L1
+8	de	de	PRE	PRE	_	6	dep	_	_	868.059998	868.169983	L1
+9	la	le	DET	DET	_	10	spe	_	_	868.179993	868.270020	L1
+10	femme	femme	NOM	NOM	_	8	dep	_	_	868.280029	868.729980	L1
+11	et	et	COO	COO	_	12	mark	_	_	868.789978	868.849976	L1
+12	du	de+le	PRE	PRE	_	8	para	_	_	868.859985	868.969971	L1
+13	monde	monde	NOM	NOM	_	12	dep	_	_	868.979980	869.330017	L1
+14	qu'	que	PRQ	PRQ	_	15	dep	_	_	869.340027	869.450012	L1
+15	a	avoir	VRB	VRB	_	13	dep	_	_	869.460022	869.789978	L1
+16	Calixto	Calixto	NOM	NOM	_	15	dep	_	_	869.799988	870.270020	L1
+17	aussi	aussi	ADV	ADV	_	15	dep	_	_	872.229980	872.780029	L1
+18	conséquence	conséquence	NOM	NOM	_	15	dep	_	_	872.859985	873.539978	L1
+19	de	de	PRE	PRE	_	18	dep	_	_	873.549988	873.669983	L1
+20	ceci	ceci	PRO	PRO	_	19	dep	_	_	873.679993	874.099976	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-127
+# text = n'est-ce pas pouvons-nous dire me semble-t-il que la critique
+1	n'	ne	CLN	CLN	_	2	dep	_	_	874.109985	874.150024	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	874.159973	874.349976	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	874.359985	874.770020	L1
+4	pouvons-nous	pouvons-nous	CLI	CLI	_	5	dep	_	_	875.179993	875.659973	L1
+5	dire	dire	VNF	VNF	_	2	dep	_	_	875.669983	875.950012	L1
+6	me	me	CLI	CLI	_	7	dep	_	_	875.960022	876.109985	L1
+7	semble-t-il	semble-t-il	ADJ	ADJ	_	5	dep	_	_	876.119995	876.960022	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	876.969971	877.289978	L1
+9	la	le	DET	DET	_	10	spe	_	_	877.299988	877.450012	L1
+10	critique	critique	NOM	NOM	_	8	dep	_	_	877.460022	878.400024	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-128
+# text = car elle y est la critique de la femme dans le théâtre lopesque
+1	car	car	COO	COO	_	4	mark	_	_	879.609985	879.859985	L1
+2	elle	il	CLS	CLS	_	4	subj	_	_	879.869995	880.059998	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	880.070007	880.090027	L1
+4	est	être	VRB	VRB	_	0	root	_	_	880.179993	880.460022	L1
+5	la	le	DET	DET	_	6	spe	_	_	881.159973	881.330017	L1
+6	critique	critique	NOM	NOM	_	4	dep	_	_	881.340027	881.760010	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	881.770020	881.840027	L1
+8	la	le	DET	DET	_	9	spe	_	_	881.849976	882.010010	L1
+9	femme	femme	NOM	NOM	_	7	dep	_	_	882.020020	882.429993	L1
+10	dans	dans	PRE	PRE	_	4	dep	_	_	882.440002	882.549988	L1
+11	le	le	DET	DET	_	12	spe	_	_	882.559998	882.700012	L1
+12	théâtre	théâtre	NOM	NOM	_	10	dep	_	_	882.710022	883.049988	L1
+13	lopesque	lopesque	ADJ	ADJ	_	12	dep	_	_	883.059998	883.830017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-129
+# text = est due
+1	est	être	VRB	VRB	_	2	aux	_	_	885.830017	885.909973	L1
+2	due	devoir	VPP	VPP	_	0	root	_	_	886.030029	886.369995	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-130
+# text = non pas à sa propre conception de la femme il aurait mauvaise grâce je vous fais l'économie
+1	non	non	INT	INT	_	11	dm	_	_	886.830017	887.609985	L1
+2	pas	pas	ADN	ADN	_	3	dep	_	_	887.619995	888.059998	L1
+3	à	à	PRE	PRE	_	11	periph	_	_	889.880005	890.010010	L1
+4	sa	son	DET	DET	_	6	spe	_	_	890.020020	890.460022	L1
+5	propre	propre	ADJ	ADJ	_	6	dep	_	_	890.549988	890.809998	L1
+6	conception	conception	NOM	NOM	_	3	dep	_	_	890.820007	891.530029	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	891.539978	891.599976	L1
+8	la	le	DET	DET	_	9	spe	_	_	891.609985	891.729980	L1
+9	femme	femme	NOM	NOM	_	7	dep	_	_	891.739990	892.320007	L1
+10	il	il	CLS	CLS	_	11	subj	_	_	892.549988	892.780029	L1
+11	aurait	avoir	VRB	VRB	_	0	root	_	_	892.789978	892.900024	L1
+12	mauvaise	mauvais	ADJ	ADJ	_	13	dep	_	_	892.909973	893.280029	L1
+13	grâce	grâce	NOM	NOM	_	11	dep	_	_	893.289978	893.619995	L1
+14	je	je	CLS	CLS	_	16	subj	_	_	893.630005	893.650024	L1
+15	vous	vous	CLI	CLI	_	16	dep	_	_	893.659973	893.869995	L1
+16	fais	faire	VRB	VRB	_	11	para	_	_	893.880005	893.989990	L1
+17	l'	le	DET	DET	_	18	spe	_	_	894.000000	894.030029	L1
+18	économie	économie	NOM	NOM	_	16	dep	_	_	894.039978	894.580017	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-131
+# text = n'est-ce pas de la vie sentimentale de Lope hein
+1	n'	ne	CLN	CLN	_	2	dep	_	_	894.770020	894.840027	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	894.849976	894.979980	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	894.989990	895.210022	L1
+4	de	de	PRE	PRE	_	2	dep	_	_	895.460022	895.659973	L1
+5	la	le	DET	DET	_	6	spe	_	_	895.669983	896.090027	L1
+6	vie	vie	NOM	NOM	_	4	dep	_	_	896.099976	896.250000	L1
+7	sentimentale	sentimental	ADJ	ADJ	_	6	dep	_	_	896.260010	897.010010	L1
+8	de	de	PRE	PRE	_	6	dep	_	_	897.020020	897.099976	L1
+9	Lope	Lope	NOM	NOM	_	8	dep	_	_	897.109985	897.349976	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	897.840027	898.169983	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-132
+# text = il a eu il a aimé
+1	il	il	CLS	CLS	_	3	subj	_	_	899.609985	899.809998	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	899.820007	899.929993	L1
+3	eu	avoir	VPP	VPP	_	0	root	_	_	900.039978	900.549988	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	900.559998	900.640015	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	900.650024	900.780029	L1
+6	aimé	aimer	VPP	VPP	_	3	para	_	_	900.849976	901.280029	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-133
+# text = il a fréquenté des femmes n'est-ce pas
+1	il	il	CLS	CLS	_	3	subj	_	_	901.289978	901.409973	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	901.419983	901.570007	L1
+3	fréquenté	fréquenter	VPP	VPP	_	7	periph	_	_	901.580017	902.010010	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	902.020020	902.530029	L1
+5	femmes	femme	NOM	NOM	_	4	dep	_	_	902.539978	903.010010	L1
+6	n'	ne	CLN	CLN	_	7	dep	_	_	903.020020	903.109985	L1
+7	est-ce	est-ce	VRB	VRB	_	0	root	_	_	903.119995	903.190002	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	903.200012	903.340027	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-134
+# text = c'est de lui qui disait
+1	c'	ce	CLS	CLS	_	2	subj	_	_	903.349976	903.440002	L1
+2	est	être	VRB	VRB	_	0	root	_	_	903.450012	903.500000	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	903.510010	903.590027	L1
+4	lui	moi	PRO	PRO	_	3	dep	_	_	903.599976	903.780029	L1
+5	qui	qui	PRQ	PRQ	_	6	dep	_	_	903.789978	903.909973	L1
+6	disait	dire	VRB	VRB	_	4	dep	_	_	903.919983	904.260010	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-135
+# text = n'est-ce pas que euh pour guérir de l'amour d'une femme
+1	n'	ne	CLN	CLN	_	2	dep	_	_	904.270020	904.380005	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	904.390015	904.440002	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	904.450012	904.580017	L1
+4	que	que	CSU	CSU	_	2	dep	_	_	904.590027	904.789978	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	905.150024	905.429993	L1
+6	pour	pour	PRE	PRE	_	2	dep	_	_	905.440002	905.679993	L1
+7	guérir	guérir	VNF	VNF	_	6	dep	_	_	905.690002	906.130005	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	906.140015	906.309998	L1
+9	l'	le	DET	DET	_	10	spe	_	_	906.320007	906.359985	L1
+10	amour	amour	NOM	NOM	_	8	dep	_	_	906.369995	906.640015	L1
+11	d'	de	PRE	PRE	_	10	dep	_	_	906.650024	906.700012	L1
+12	une	un	DET	DET	_	13	spe	_	_	906.710022	906.890015	L1
+13	femme	femme	NOM	NOM	_	11	dep	_	_	906.900024	907.250000	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-136
+# text = eh bien rien ne vaut l'amour d'une autre femme
+1	eh bien	eh bien	INT	INT	_	4	dm	_	_	907.260010	907.510010	L1
+2	rien	rien	PRO	PRO	_	4	subj	_	_	907.520020	907.739990	L1
+3	ne	ne	CLN	CLN	_	4	dep	_	_	907.750000	907.859985	L1
+4	vaut	valoir	VRB	VRB	_	0	root	_	_	907.869995	908.130005	L1
+5	l'	le	DET	DET	_	6	spe	_	_	908.140015	908.179993	L1
+6	amour	amour	NOM	NOM	_	4	dep	_	_	908.190002	908.570007	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	908.869995	908.960022	L1
+8	une	un	DET	DET	_	10	spe	_	_	908.969971	909.109985	L1
+9	autre	autre	ADJ	ADJ	_	10	dep	_	_	909.169983	909.340027	L1
+10	femme	femme	NOM	NOM	_	7	dep	_	_	909.349976	909.700012	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-137
+# text = et il a mis cela en application
+1	et	et	COO	COO	_	4	mark	_	_	909.820007	910.049988	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	910.380005	910.549988	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	910.559998	910.630005	L1
+4	mis	mettre	VPP	VPP	_	0	root	_	_	910.640015	910.799988	L1
+5	cela	cela	PRO	PRO	_	4	dep	_	_	910.809998	911.229980	L1
+6	en	en	PRE	PRE	_	4	dep	_	_	911.799988	912.010010	L1
+7	application	application	NOM	NOM	_	6	dep	_	_	912.020020	912.659973	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-138
+# text = donc euh la critique de la femme que nous trouvons dans son théâtre n'est pas due à sa conception de la femme mais à une fonction purement théâtrale du personnage qui formule cette critique
+1	donc	donc	ADV	ADV	_	17	periph	_	_	912.919983	913.320007	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	913.330017	913.690002	L1
+3	la	le	DET	DET	_	4	spe	_	_	914.489990	914.570007	L1
+4	critique	critique	NOM	NOM	_	17	subj	_	_	914.580017	914.960022	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	914.969971	915.030029	L1
+6	la	le	DET	DET	_	7	spe	_	_	915.039978	915.219971	L1
+7	femme	femme	NOM	NOM	_	5	dep	_	_	915.260010	915.479980	L1
+8	que	que	PRQ	PRQ	_	10	dep	_	_	915.489990	915.590027	L1
+9	nous	nous	CLS	CLS	_	10	subj	_	_	915.599976	915.690002	L1
+10	trouvons	trouver	VRB	VRB	_	7	dep	_	_	915.700012	915.979980	L1
+11	dans	dans	PRE	PRE	_	10	dep	_	_	915.989990	916.109985	L1
+12	son	son	DET	DET	_	13	spe	_	_	916.119995	916.250000	L1
+13	théâtre	théâtre	NOM	NOM	_	11	dep	_	_	916.260010	916.690002	L1
+14	n'	ne	CLN	CLN	_	17	dep	_	_	916.700012	916.750000	L1
+15	est	être	VRB	VRB	_	17	aux	_	_	916.760010	916.820007	L1
+16	pas	pas	ADN	ADN	_	17	dep	_	_	916.830017	917.030029	L1
+17	due	devoir	VPP	VPP	_	0	root	_	_	917.039978	917.380005	L1
+18	à	à	PRE	PRE	_	17	dep	_	_	917.510010	917.650024	L1
+19	sa	son	DET	DET	_	20	spe	_	_	917.659973	917.809998	L1
+20	conception	conception	NOM	NOM	_	18	dep	_	_	917.890015	918.570007	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	918.580017	918.640015	L1
+22	la	le	DET	DET	_	23	spe	_	_	918.650024	918.799988	L1
+23	femme	femme	NOM	NOM	_	21	dep	_	_	918.809998	919.190002	L1
+24	mais	mais	COO	COO	_	25	mark	_	_	919.469971	919.840027	L1
+25	à	à	PRE	PRE	_	18	para	_	_	920.059998	920.340027	L1
+26	une	un	DET	DET	_	27	spe	_	_	920.530029	920.830017	L1
+27	fonction	fonction	NOM	NOM	_	25	dep	_	_	920.840027	922.080017	L1
+28	purement	purement	ADV	ADV	_	29	dep	_	_	922.380005	923.150024	L1
+29	théâtrale	théâtral	ADJ	ADJ	_	27	dep	_	_	923.309998	924.140015	L1
+30	du	de+le	PRE	PRE	_	27	dep	_	_	924.750000	924.979980	L1
+31	personnage	personnage	NOM	NOM	_	30	dep	_	_	924.989990	925.669983	L1
+32	qui	qui	PRQ	PRQ	_	33	dep	_	_	925.679993	925.780029	L1
+33	formule	formule	NOM	NOM	_	31	para	_	_	925.789978	926.260010	L1
+34	cette	ce	DET	DET	_	35	spe	_	_	926.270020	926.489990	L1
+35	critique	critique	NOM	NOM	_	33	para	_	_	926.500000	926.950012	L1
+
+# sent_id = cefc-crfp-PUB-PAU-1-139
+# text = c'est-à-dire le gracioso
+1	c'	ce	CLS	CLS	_	2	subj	_	_	927.140015	927.250000	L1
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	927.260010	927.580017	L1
+3	le	le	DET	DET	_	4	spe	_	_	927.590027	927.650024	L1
+4	gracioso	gracioso	NOM	NOM	_	2	dep	_	_	927.659973	928.280029	L1
+

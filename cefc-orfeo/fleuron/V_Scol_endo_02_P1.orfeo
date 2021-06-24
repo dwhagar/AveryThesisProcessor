@@ -1,0 +1,212 @@
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-1
+# text = oui bonjour
+1	oui	oui	INT	INT	_	0	root	_	_	1.180000	1.270000	A
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1.500000	1.980000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-2
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	2.130000	2.450000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-3
+# text = en fait
+1	en	en	PRE	PRE	_	0	root	_	_	2.510000	2.650000	E
+2	fait	fait	NOM	NOM	_	1	dep	_	_	2.930000	3.310000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-4
+# text = euh je viens pour euh ma carte étudiante
+1	euh	euh	INT	INT	_	3	dm	_	_	3.570000	3.900000	E
+2	je	je	CLS	CLS	_	3	subj	_	_	3.910000	4.040000	E
+3	viens	venir	VRB	VRB	_	0	root	_	_	4.050000	4.310000	E
+4	pour	pour	PRE	PRE	_	3	dep	_	_	4.440000	4.720000	E
+5	euh	euh	INT	INT	_	4	dm	_	_	4.730000	4.790000	E
+6	ma	son	DET	DET	_	7	spe	_	_	4.940000	5.000000	E
+7	carte	carte	NOM	NOM	_	4	dep	_	_	5.010000	5.190000	E
+8	étudiante	étudiant	ADJ	ADJ	_	7	dep	_	_	5.270000	5.640000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-5
+# text = alors c'est la cellule web
+1	alors	alors	ADV	ADV	_	3	periph	_	_	6.480000	6.680000	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	6.760000	6.900000	A
+3	est	être	VRB	VRB	_	0	root	_	_	6.910000	7.060000	A
+4	la	le	DET	DET	_	5	spe	_	_	7.070000	7.180000	A
+5	cellule	cellule	NOM	NOM	_	3	dep	_	_	7.190000	7.610000	A
+6	web	web	NOM	NOM	_	5	dep	_	_	7.620000	8.140000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-6
+# text = et c'est en G
+1	et	et	COO	COO	_	3	mark	_	_	8.220000	8.240000	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	8.250000	8.270000	A
+3	est	être	VRB	VRB	_	0	root	_	_	8.280000	8.300000	A
+4	en	en	PRE	PRE	_	3	dep	_	_	8.310000	8.420000	A
+5	G	G	NOM	NOM	_	4	dep	_	_	8.430000	8.480000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-7
+# text = zéro huit
+1	zéro	zéro	NUM	NUM	_	0	root	_	_	8.490000	8.640000	A
+2	huit	huit	NUM	NUM	_	1	dep	_	_	8.650000	8.740000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-8
+# text = ce n'est pas ici
+1	ce	ce	CLS	CLS	_	3	subj	_	_	8.750000	8.770000	A
+2	n'	ne	CLN	CLN	_	3	dep	_	_	8.780000	8.800000	A
+3	est	être	VRB	VRB	_	0	root	_	_	8.810000	8.830000	A
+4	pas	pas	ADN	ADN	_	3	dep	_	_	8.840000	8.890000	A
+5	ici	ici	ADV	ADV	_	3	dep	_	_	8.900000	8.980000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-9
+# text = et où est-ce que je peux trouver parce que je sais pas du tout
+1	et	et	COO	COO	_	3	mark	_	_	9.230000	9.270000	E
+2	où	où	PRQ	PRQ	_	3	dep	_	_	9.330000	9.350000	E
+3	est-ce	est-ce	VRB	VRB	_	0	root	_	_	9.360000	10.400000	E
+4	que	que	CSU	CSU	_	3	dep	_	_	10.470000	10.540000	E
+5	je	je	CLS	CLS	_	6	subj	_	_	10.550000	10.600000	E
+6	peux	pouvoir	VRB	VRB	_	4	dep	_	_	10.610000	10.690000	E
+7	trouver	se trouver	VNF	VNF	_	6	dep	_	_	10.750000	10.930000	E
+8	parce que	parce que	CSU	CSU	_	7	dep	_	_	10.940000	11.170000	E
+9	je	je	CLS	CLS	_	10	subj	_	_	11.180000	11.200000	E
+10	sais	savoir	VRB	VRB	_	8	dep	_	_	11.210000	11.300000	E
+11	pas du tout	pas du tout	ADN	ADN	_	10	dep	_	_	11.380000	11.630000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-10
+# text = je viens pas d'ici
+1	je	je	CLS	CLS	_	2	subj	_	_	11.730000	11.910000	E
+2	viens	venir	VRB	VRB	_	0	root	_	_	11.920000	12.050000	E
+3	pas	pas	ADN	ADN	_	2	dep	_	_	12.060000	12.160000	E
+4	d'	de	PRE	PRE	_	2	dep	_	_	12.170000	12.200000	E
+5	ici	ici	ADV	ADV	_	4	dep	_	_	12.210000	12.310000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-11
+# text = d'accord alors donc vous ressortez du bâtiment là
+1	d'	de	PRE	PRE	_	6	periph	_	_	12.510000	12.590000	A
+2	accord	accord	NOM	NOM	_	1	dep	_	_	12.600000	12.730000	A
+3	alors	alors	ADV	ADV	_	6	periph	_	_	12.740000	12.910000	A
+4	donc	donc	ADV	ADV	_	6	periph	_	_	12.990000	13.130000	A
+5	vous	vous	CLS	CLS	_	6	subj	_	_	13.140000	13.320000	A
+6	ressortez	ressortir	VRB	VRB	_	0	root	_	_	13.330000	13.670000	A
+7	du	de+le	PRE	PRE	_	6	dep	_	_	13.680000	13.740000	A
+8	bâtiment	bâtiment	NOM	NOM	_	7	dep	_	_	13.750000	13.980000	A
+9	là	là	ADV	ADV	_	6	dep	_	_	14.040000	14.190000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-12
+# text = vous prenez cette porte
+1	vous	vous	CLS	CLS	_	2	subj	_	_	14.200000	14.640000	A
+2	prenez	prendre	VRB	VRB	_	0	root	_	_	15.260000	15.520000	A
+3	cette	ce	DET	DET	_	4	spe	_	_	15.530000	15.700000	A
+4	porte	porte	NOM	NOM	_	2	dep	_	_	15.770000	16.000000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-13
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	16.190001	16.480000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-14
+# text = vous longez le bâtiment qui se situe euh juste qui est accolé
+1	vous	vous	CLS	CLS	_	2	subj	_	_	16.760000	17.000000	A
+2	longez	longer	VRB	VRB	_	0	root	_	_	17.010000	17.389999	A
+3	le	le	DET	DET	_	4	spe	_	_	17.400000	17.500000	A
+4	bâtiment	bâtiment	NOM	NOM	_	2	dep	_	_	17.510000	17.879999	A
+5	qui	qui	PRQ	PRQ	_	7	dep	_	_	17.889999	18.139999	A
+6	se	se	CLI	CLI	_	7	dep	_	_	18.150000	18.200001	A
+7	situe	situer	VRB	VRB	_	4	dep	_	_	18.209999	18.469999	A
+8	euh	euh	INT	INT	_	7	dm	_	_	18.480000	18.600000	A
+9	juste	juste	ADV	ADV	_	12	dep	_	_	18.610001	18.889999	A
+10	qui	qui	PRQ	PRQ	_	12	subj	_	_	18.900000	18.959999	A
+11	est	être	VRB	VRB	_	12	aux	_	_	18.969999	19.000000	A
+12	accolé	accoler	VPP	VPP	_	7	dep	_	_	19.010000	19.540001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-15
+# text = vous tournez sur votre gauche
+1	vous	vous	CLS	CLS	_	2	subj	_	_	19.969999	20.030001	A
+2	tournez	tourner	VRB	VRB	_	0	root	_	_	20.040001	20.209999	A
+3	sur	sur	PRE	PRE	_	2	dep	_	_	20.219999	20.360001	A
+4	votre	son	DET	DET	_	5	spe	_	_	20.370001	20.610001	A
+5	gauche	gauche	NOM	NOM	_	3	dep	_	_	20.620001	20.950001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-16
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	19.770000	19.900000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-17
+# text = après c'est encore à gauche d'accord
+1	après	après	ADV	ADV	_	3	periph	_	_	22.139999	22.469999	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	22.480000	22.530001	A
+3	est	être	VRB	VRB	_	0	root	_	_	22.540001	22.559999	A
+4	encore	encore	ADV	ADV	_	3	dep	_	_	22.570000	22.799999	A
+5	à	à	PRE	PRE	_	3	dep	_	_	22.809999	22.879999	A
+6	gauche	gauche	NOM	NOM	_	5	dep	_	_	22.889999	22.980000	A
+7	d'	de	PRE	PRE	_	6	dep	_	_	23.070000	23.139999	A
+8	accord	accord	NOM	NOM	_	7	dep	_	_	23.260000	23.610001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-18
+# text = et là c'est indiqué c'est les bâtiments
+1	et	et	COO	COO	_	4	mark	_	_	24.040001	24.059999	A
+2	là	là	ADV	ADV	_	4	periph	_	_	24.070000	24.209999	A
+3	c'	ce	CLS	CLS	_	4	subj	_	_	24.219999	24.240000	A
+4	est	être	VRB	VRB	_	0	root	_	_	24.580000	24.700001	A
+5	indiqué	indiquer	VPP	VPP	_	4	dep	_	_	24.709999	24.980000	A
+6	c'	ce	CLS	CLS	_	7	subj	_	_	25.040001	25.100000	A
+7	est	être	VRB	VRB	_	4	para	_	_	25.110001	25.240000	A
+8	les	le	DET	DET	_	9	spe	_	_	25.250000	26.280001	A
+9	bâtiments	bâtiment	NOM	NOM	_	7	dep	_	_	26.290001	26.980000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-19
+# text = enfin c'est le l'amphi G neuf G dix
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	27.040001	27.160000	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	27.200001	27.250000	A
+3	est	être	VRB	VRB	_	0	root	_	_	27.260000	27.320000	A
+4	le	le	DET	DET	_	6	spe	_	_	27.330000	27.510000	A
+5	l'	le	DET	DET	_	4	para	_	_	27.520000	27.570000	A
+6	amphi	amphi	NOM	NOM	_	3	dep	_	_	27.580000	28.049999	A
+7	G	G	NOM	NOM	_	6	dep	_	_	28.059999	28.219999	A
+8	neuf	neuf	NUM	NUM	_	9	spe	_	_	28.230000	28.559999	A
+9	G	G	NOM	NOM	_	7	para	_	_	28.570000	28.700001	A
+10	dix	dix	NUM	NUM	_	9	dep	_	_	28.709999	28.980000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-20
+# text = et là vous avez la cellule web G zéro
+1	et	et	COO	COO	_	4	mark	_	_	29.040001	29.080000	A
+2	là	là	ADV	ADV	_	4	periph	_	_	29.090000	29.170000	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	29.180000	29.340000	A
+4	avez	avoir	VRB	VRB	_	0	root	_	_	29.350000	29.530001	A
+5	la	le	DET	DET	_	6	spe	_	_	29.540001	29.670000	A
+6	cellule	cellule	NOM	NOM	_	4	dep	_	_	29.750000	29.980000	A
+7	web	web	NOM	NOM	_	6	dep	_	_	29.990000	30.200001	A
+8	G	G	PRE	PRE	_	7	dep	_	_	30.209999	30.340000	A
+9	zéro	zéro	NOM	NOM	_	8	dep	_	_	30.350000	30.639999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-21
+# text = huit O d'accord
+1	huit	huit	NUM	NUM	_	2	spe	_	_	30.650000	30.770000	A
+2	O	O	NOM	NOM	_	0	root	_	_	23.990000	23.990000	E
+3	d'	de	PRE	PRE	_	2	dep	_	_	31.110001	31.209999	E
+4	accord	accord	NOM	NOM	_	3	dep	_	_	31.219999	31.469999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-22
+# text = donc vous pourrez aller retirer votre carte là-bas
+1	donc	donc	ADV	ADV	_	3	periph	_	_	31.770000	31.850000	A
+2	vous	vous	CLS	CLS	_	3	subj	_	_	31.920000	31.969999	A
+3	pourrez	pouvoir	VRB	VRB	_	0	root	_	_	31.980000	32.160000	A
+4	aller	aller	VNF	VNF	_	3	dep	_	_	32.169998	32.290001	A
+5	retirer	retirer	VNF	VNF	_	4	dep	_	_	32.299999	32.599998	A
+6	votre	son	DET	DET	_	7	spe	_	_	32.610001	32.730000	A
+7	carte	carte	NOM	NOM	_	5	dep	_	_	32.740002	32.849998	A
+8	là-bas	là-bas	ADV	ADV	_	5	dep	_	_	32.860001	32.970001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-23
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	33.080002	33.099998	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	33.110001	33.529999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-24
+# text = merci beaucoup
+1	merci	merci	NOM	NOM	_	0	root	_	_	34.320000	34.860001	E
+2	beaucoup	beaucoup	ADV	ADV	_	1	dep	_	_	34.900002	35.060001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_02_P1-25
+# text = au revoir je vous en prie au revoir
+1	au revoir	au revoir	INT	INT	_	5	dm	_	_	35.840000	36.320000	A
+2	je	je	CLS	CLS	_	5	subj	_	_	35.119999	35.139999	A
+3	vous	vous	CLI	CLI	_	5	dep	_	_	35.150002	35.200001	A
+4	en	en	CLI	CLI	_	5	dep	_	_	35.209999	35.250000	A
+5	prie	prier	VRB	VRB	_	0	root	_	_	35.259998	35.520000	A
+6	au revoir	au revoir	INT	INT	_	5	dm	_	_	35.529999	35.779999	A
+

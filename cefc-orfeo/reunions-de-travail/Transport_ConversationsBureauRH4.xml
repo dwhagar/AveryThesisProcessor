@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Transport_ConversationsBureauRH4 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Magali Husianycia </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 1361 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"> son bas et pas clair </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> Transport_ConversationsBureauRH4 </name> du corpus/projet <name>
+            Réunions de travail </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:06:42" type="audio">
+            <date> 12/02/2007 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> Nous sommes lundi matin. Aujourd'hui, les employés de l'entreprise doivent élire les
+          représentants syndicaux. L'organisation de cette journée de votes devait être dirigée par
+          la Responsable des Ressources Humaines. Cependant, celle-ci a appris le vendredi précédent
+          son licenciement et devait recevoir sa lettre recommandée d'ici quelques jours. Ses
+          collègues, avec qui elle ne s'entendait pas, doivent s'occuper des élections à sa place et
+          font quelques prédictions sur son absence de ce matin. Interactions dans l'open space du
+          service des Ressources humaines : les employés parlent de leur supérieurs et de la
+          préparation des élections au sein de la boîte </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="conversation"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="theme" target="transport"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="L4">
+            <sex> M </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> employé de délégué du personnel et du comité d'entreprise </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="L9">
+            <sex> M </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> technicien de paie </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="L10">
+            <sex> F </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> assistant des ressources humaines </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="L15">
+            <sex> M </sex>
+            <age> inconnu </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> inconnu </placeName>
+            </birth>
+            <occupation> employé </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

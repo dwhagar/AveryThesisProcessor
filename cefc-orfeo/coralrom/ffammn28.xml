@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ffammn28 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Cresti </name>
+          <name> Moneglia </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 1507 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> ffammn28 </name> du corpus/projet <name> CORALROM </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #NULL #script Daniel Hirst" dur="00:08:50" type="audio">
+            <date> 20/03/1994 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> l'évolution de la carrière professionnelle et le rôle d'un directeur d'une maison pour
+          tous. Corpus lié à ffammn27. </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="entretien"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, PACA, Marseille </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="DAV">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> France, PACA, Marseille </placeName>
+            </birth>
+            <occupation> étudiant </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="BEN">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> inconnu </education>
+            <birth>
+              <placeName> France, PACA, Marseille </placeName>
+            </birth>
+            <occupation> gestionnaire d'une maison pour tous </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

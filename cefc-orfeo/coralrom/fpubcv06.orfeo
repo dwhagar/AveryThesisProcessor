@@ -1,0 +1,525 @@
+# sent_id = cefc-coralrom-fpubcv06-1
+# text = nous allons commencer la leçon de lecture
+1	nous	nous	CLS	CLS	_	2	subj	_	_	0.380000	0.430000	CHR
+2	allons	aller	VRB	VRB	_	0	root	_	_	0.590000	0.840000	CHR
+3	commencer	commencer	VNF	VNF	_	2	dep	_	_	1.370000	1.620000	CHR
+4	la	le	DET	DET	_	5	spe	_	_	1.630000	1.680000	CHR
+5	leçon	leçon	NOM	NOM	_	3	dep	_	_	1.740000	1.950000	CHR
+6	de	de	PRE	PRE	_	5	dep	_	_	1.960000	2.060000	CHR
+7	lecture	lecture	NOM	NOM	_	6	dep	_	_	2.070000	2.500000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-2
+# text = je vous ai mis la grande feuille de lecture au tableau
+1	je	je	CLS	CLS	_	4	subj	_	_	3.380000	3.530000	CHR
+2	vous	vous	CLI	CLI	_	4	dep	_	_	3.540000	3.700000	CHR
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	3.790000	3.850000	CHR
+4	mis	mettre	VPP	VPP	_	0	root	_	_	3.860000	4.030000	CHR
+5	la	le	DET	DET	_	7	spe	_	_	4.040000	4.180000	CHR
+6	grande	grand	ADJ	ADJ	_	7	dep	_	_	4.380000	4.660000	CHR
+7	feuille	feuille	NOM	NOM	_	4	dep	_	_	5.110000	5.500000	CHR
+8	de	de	PRE	PRE	_	7	dep	_	_	5.510000	5.530000	CHR
+9	lecture	lecture	NOM	NOM	_	8	dep	_	_	5.540000	6.060000	CHR
+10	au	à+le	PRE	PRE	_	4	dep	_	_	6.230000	6.260000	CHR
+11	tableau	tableau	NOM	NOM	_	10	dep	_	_	6.360000	6.720000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-3
+# text = qui veut dire quelque chose sur cette grande feuille
+1	qui	qui	PRQ	PRQ	_	2	subj	_	_	8.010000	8.080000	CHR
+2	veut	vouloir	VRB	VRB	_	0	root	_	_	9.350000	9.550000	CHR
+3	dire	dire	VNF	VNF	_	2	dep	_	_	9.600000	9.810000	CHR
+4	quelque chose	quelque chose	PRO	PRO	_	3	dep	_	_	9.900000	10.170000	CHR
+5	sur	sur	PRE	PRE	_	3	dep	_	_	10.300000	10.380000	CHR
+6	cette	ce	DET	DET	_	8	spe	_	_	10.740000	10.820000	CHR
+7	grande	grand	ADJ	ADJ	_	8	dep	_	_	10.830000	11.150000	CHR
+8	feuille	feuille	NOM	NOM	_	5	dep	_	_	11.160000	11.560000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-4
+# text = Gaëlle
+1	Gaëlle	Gaëlle	NOM	NOM	_	0	root	_	_	14.160000	14.710000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-5
+# text = il y a euh une liste
+1	il	il	CLS	CLS	_	3	subj	_	_	15.000000	15.050000	GAE
+2	y	y	CLI	CLI	_	3	dep	_	_	15.090000	15.110000	GAE
+3	a	avoir	VRB	VRB	_	0	root	_	_	15.120000	15.140000	GAE
+4	euh	euh	INT	INT	_	3	dm	_	_	15.310000	15.330000	GAE
+5	une	un	DET	DET	_	6	spe	_	_	16.660000	16.709999	GAE
+6	liste	liste	NOM	NOM	_	3	dep	_	_	16.750000	16.860001	GAE
+
+# sent_id = cefc-coralrom-fpubcv06-6
+# text = et il y a aussi un texte
+1	et	et	COO	COO	_	4	mark	_	_	19.059999	19.080000	GAE
+2	il	il	CLS	CLS	_	4	subj	_	_	19.090000	19.139999	GAE
+3	y	y	CLI	CLI	_	4	dep	_	_	20.379999	20.400000	GAE
+4	a	avoir	VRB	VRB	_	0	root	_	_	20.590000	20.650000	GAE
+5	aussi	aussi	ADV	ADV	_	4	dep	_	_	20.730000	20.809999	GAE
+6	un	un	DET	DET	_	7	spe	_	_	20.820000	20.900000	GAE
+7	texte	texte	NOM	NOM	_	4	dep	_	_	21.900000	22.040001	GAE
+
+# sent_id = cefc-coralrom-fpubcv06-7
+# text = en bas
+1	en bas	en bas	ADV	ADV	_	0	root	_	_	22.590000	22.680000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-8
+# text = Nicolas on dirait que c'est une fiche de bricolage
+1	Nicolas	Nicolas	NOM	NOM	_	3	periph	_	_	24.020000	24.559999	NIC
+2	on	on	CLS	CLS	_	3	subj	_	_	25.150000	25.170000	NIC
+3	dirait	dire	VRB	VRB	_	0	root	_	_	25.230000	25.469999	NIC
+4	que	que	CSU	CSU	_	3	dep	_	_	25.480000	25.500000	NIC
+5	c'	ce	CLS	CLS	_	6	subj	_	_	25.510000	25.530001	NIC
+6	est	être	VRB	VRB	_	4	dep	_	_	25.540001	25.570000	NIC
+7	une	un	DET	DET	_	8	spe	_	_	25.670000	25.860001	NIC
+8	fiche	fiche	NOM	NOM	_	6	dep	_	_	25.870001	26.270000	NIC
+9	de	de	PRE	PRE	_	8	dep	_	_	26.400000	26.559999	NIC
+10	bricolage	bricolage	NOM	NOM	_	9	dep	_	_	26.600000	26.830000	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-9
+# text = parce que je vois des dessins
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	28.080000	28.420000	NIC
+2	je	je	CLS	CLS	_	3	subj	_	_	28.430000	28.450001	NIC
+3	vois	voir	VRB	VRB	_	1	dep	_	_	28.530001	28.620001	NIC
+4	des	de	PRE	PRE	_	3	dep	_	_	28.629999	28.690001	NIC
+5	dessins	dessin	NOM	NOM	_	4	dep	_	_	28.799999	28.980000	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-10
+# text = donc c'est peut-être une fiche de bricolage
+1	donc	donc	ADV	ADV	_	3	periph	_	_	29.500000	29.690001	NIC
+2	c'	ce	CLS	CLS	_	3	subj	_	_	29.700001	29.840000	NIC
+3	est	être	VRB	VRB	_	0	root	_	_	29.850000	29.870001	NIC
+4	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	30.200001	30.549999	NIC
+5	une	un	DET	DET	_	6	spe	_	_	30.650000	30.700001	NIC
+6	fiche	fiche	NOM	NOM	_	3	dep	_	_	30.770000	30.889999	NIC
+7	de	de	PRE	PRE	_	6	dep	_	_	31.010000	31.120001	NIC
+8	bricolage	bricolage	NOM	NOM	_	7	dep	_	_	31.680000	32.099998	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-11
+# text = c'est bien
+1	c'	ce	CLS	CLS	_	2	subj	_	_	33.070000	33.090000	CHR
+2	est	être	VRB	VRB	_	0	root	_	_	33.360001	33.740002	CHR
+3	bien	bien	ADV	ADV	_	2	dep	_	_	33.750000	33.830002	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-12
+# text = alors je vais vous distribuer à chacun votre lecture les élèves de service dans chaque groupe
+1	alors	alors	ADV	ADV	_	3	periph	_	_	34.040001	34.259998	CHR
+2	je	je	CLS	CLS	_	3	subj	_	_	34.270000	34.380001	CHR
+3	vais	aller	VRB	VRB	_	0	root	_	_	34.389999	34.509998	CHR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	34.520000	34.590000	CHR
+5	distribuer	distribuer	VNF	VNF	_	3	dep	_	_	34.660000	35.570000	CHR
+6	à	à	PRE	PRE	_	5	dep	_	_	35.580002	35.650002	CHR
+7	chacun	chacun	PRO	PRO	_	6	dep	_	_	35.660000	36.209999	CHR
+8	votre	son	DET	DET	_	9	spe	_	_	36.259998	36.470001	CHR
+9	lecture	lecture	NOM	NOM	_	5	dep	_	_	36.529999	37.070000	CHR
+10	les	le	DET	DET	_	11	spe	_	_	37.080002	37.360001	CHR
+11	élèves	élève	NOM	NOM	_	9	para	_	_	37.369999	37.939999	CHR
+12	de	de	PRE	PRE	_	11	dep	_	_	37.950001	37.970001	CHR
+13	service	service	NOM	NOM	_	12	dep	_	_	37.980000	38.980000	CHR
+14	dans	dans	PRE	PRE	_	5	dep	_	_	39.310001	39.610001	CHR
+15	chaque	chaque	DET	DET	_	16	spe	_	_	39.619999	40.070000	CHR
+16	groupe	groupe	NOM	NOM	_	14	dep	_	_	40.130001	40.500000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-13
+# text = vous venez chercher vos feuilles pour vos camarades
+1	vous	vous	CLS	CLS	_	2	subj	_	_	40.730000	40.779999	CHR
+2	venez	venir	VRB	VRB	_	0	root	_	_	41.160000	41.250000	CHR
+3	chercher	chercher	VNF	VNF	_	2	dep	_	_	41.259998	41.939999	CHR
+4	vos	son	DET	DET	_	5	spe	_	_	42.680000	42.910000	CHR
+5	feuilles	feuille	NOM	NOM	_	3	dep	_	_	42.990002	43.299999	CHR
+6	pour	pour	PRE	PRE	_	3	dep	_	_	43.310001	43.570000	CHR
+7	vos	son	DET	DET	_	8	spe	_	_	43.580002	43.630001	CHR
+8	camarades	camarade	NOM	NOM	_	6	dep	_	_	43.639999	44.419998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-14
+# text = et vous en prenez même pour les élèves qui sont en
+1	et	et	COO	COO	_	4	mark	_	_	44.860001	44.910000	CHR
+2	vous	vous	CLS	CLS	_	4	subj	_	_	44.919998	45.090000	CHR
+3	en	en	CLI	CLI	_	4	dep	_	_	45.099998	45.139999	CHR
+4	prenez	prendre	VRB	VRB	_	0	root	_	_	45.290001	45.610001	CHR
+5	même	même	ADV	ADV	_	4	dep	_	_	45.619999	46.029999	CHR
+6	pour	pour	PRE	PRE	_	4	dep	_	_	46.040001	46.180000	CHR
+7	les	le	DET	DET	_	8	spe	_	_	46.189999	46.419998	CHR
+8	élèves	élève	NOM	NOM	_	6	dep	_	_	46.430000	46.830002	CHR
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	46.840000	46.910000	CHR
+10	sont	être	VRB	VRB	_	8	dep	_	_	46.919998	47.160000	CHR
+11	en	en	PRE	PRE	_	10	dep	_	_	47.169998	47.430000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-15
+# text = plus maîtresse je sais comment ça s'appelle
+1	plus	plus	ADN	ADN	_	2	dep	_	_	47.439999	47.730000	ELA
+2	maîtresse	maître	NOM	NOM	_	4	periph	_	_	49.959999	50.230000	ELA
+3	je	je	CLS	CLS	_	4	subj	_	_	50.240002	50.380001	ELA
+4	sais	savoir	VRB	VRB	_	0	root	_	_	50.389999	50.439999	ELA
+5	comment	comment	PRQ	PRQ	_	8	dep	_	_	50.959999	51.259998	ELA
+6	ça	ça	PRO	PRO	_	8	subj	_	_	51.330002	51.400002	ELA
+7	s'	se	CLI	CLI	_	8	dep	_	_	51.540001	51.580002	ELA
+8	appelle	appeler	VRB	VRB	_	4	dep	_	_	52.099998	52.549999	ELA
+
+# sent_id = cefc-coralrom-fpubcv06-16
+# text = tiens
+1	tiens	(se) tenir	VRB	VRB	_	0	root	_	_	56.450001	56.820000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-17
+# text = Laura tu en veux
+1	Laura	Laura	NOM	NOM	_	4	periph	_	_	59.270000	59.639999	CHR
+2	tu	tu	CLS	CLS	_	4	subj	_	_	59.650002	59.700001	CHR
+3	en	en	CLI	CLI	_	4	dep	_	_	59.709999	59.810001	CHR
+4	veux	vouloir	VRB	VRB	_	0	root	_	_	59.820000	59.910000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-18
+# text = combien
+1	combien	combien	PRQ	PRQ	_	0	root	_	_	59.919998	60.490002	LAU
+
+# sent_id = cefc-coralrom-fpubcv06-19
+# text = six
+1	six	six	NUM	NUM	_	0	root	_	_	60.889999	61.180000	LAU
+
+# sent_id = cefc-coralrom-fpubcv06-20
+# text = six
+1	six	six	NUM	NUM	_	0	root	_	_	62.090000	62.389999	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-21
+# text = tiens toi tu en veux combien six
+1	tiens	(se) tenir	VRB	VRB	_	5	periph	_	_	63.439999	63.860001	CHR
+2	toi	moi	PRO	PRO	_	5	periph	_	_	64.820000	64.930000	CHR
+3	tu	tu	CLS	CLS	_	5	subj	_	_	65.099998	65.160004	CHR
+4	en	en	CLI	CLI	_	5	dep	_	_	65.660004	65.730003	CHR
+5	veux	vouloir	VRB	VRB	_	0	root	_	_	65.739998	66.019997	CHR
+6	combien	combien	PRQ	PRQ	_	5	dep	_	_	66.029999	66.589996	CHR
+7	six	six	NUM	NUM	_	5	dep	_	_	66.900002	67.190002	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-22
+# text = sept
+1	sept	sept	NUM	NUM	_	0	root	_	_	68.730003	68.849998	ELA
+
+# sent_id = cefc-coralrom-fpubcv06-23
+# text = s'il te plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	76.620003	76.639999	ELA
+2	il	il	CLS	CLS	_	4	subj	_	_	76.650002	76.699997	ELA
+3	te	te	CLI	CLI	_	4	dep	_	_	76.709999	76.730003	ELA
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	76.800003	76.879997	ELA
+
+# sent_id = cefc-coralrom-fpubcv06-24
+# text = tu en veux
+1	tu	tu	CLS	CLS	_	3	subj	_	_	77.000000	77.050003	CHR
+2	en	en	CLI	CLI	_	3	dep	_	_	77.059998	77.089996	CHR
+3	veux	vouloir	VRB	VRB	_	0	root	_	_	77.099998	77.269997	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-25
+# text = sept un deux
+1	sept	sept	NUM	NUM	_	0	root	_	_	77.339996	77.629997	CHR
+2	un	un	DET	DET	_	3	spe	_	_	78.199997	78.459999	CHR
+3	deux	deux	NUM	NUM	_	1	dep	_	_	78.470001	78.660004	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-26
+# text = trois quatre cinq six sept c'est bon
+1	trois	trois	NUM	NUM	_	7	periph	_	_	79.459999	79.690002	CHR
+2	quatre	quatre	NUM	NUM	_	1	dep	_	_	80.139999	80.320000	CHR
+3	cinq	cinq	NUM	NUM	_	1	para	_	_	80.860001	81.019997	CHR
+4	six	six	NUM	NUM	_	3	para	_	_	82.449997	82.580002	CHR
+5	sept	sept	NUM	NUM	_	4	dep	_	_	82.849998	83.129997	CHR
+6	c'	ce	CLS	CLS	_	7	subj	_	_	83.580002	83.610001	CHR
+7	est	être	VRB	VRB	_	0	root	_	_	83.620003	83.639999	CHR
+8	bon	bon	ADJ	ADJ	_	7	dep	_	_	83.650002	84.099998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-27
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	85.989998	86.129997	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-28
+# text = vous
+1	vous	vous	CLS	CLS	_	0	root	_	_	86.139999	86.339996	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-29
+# text = un deux
+1	un	un	DET	DET	_	2	spe	_	_	86.400002	86.480003	CHR
+2	deux	deux	NUM	NUM	_	0	root	_	_	86.489998	86.779999	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-30
+# text = trois quatre
+1	trois	trois	NUM	NUM	_	0	root	_	_	87.360001	87.489998	CHR
+2	quatre	quatre	NUM	NUM	_	1	dep	_	_	87.500000	87.820000	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-31
+# text = ça y est tout le monde
+1	ça	ça	PRO	PRO	_	3	subj	_	_	101.910004	102.040001	CHR
+2	y	y	CLI	CLI	_	3	dep	_	_	102.050003	102.070000	CHR
+3	est	être	VRB	VRB	_	0	root	_	_	102.080002	102.349998	CHR
+4	tout le monde	tout le monde	PRO	PRO	_	3	dep	_	_	102.360001	102.800003	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-32
+# text = a sa feuille
+1	a	avoir	VRB	VRB	_	0	root	_	_	102.809998	102.860001	CHR
+2	sa	son	DET	DET	_	3	spe	_	_	103.000000	103.080002	CHR
+3	feuille	feuille	NOM	NOM	_	1	dep	_	_	103.089996	103.309998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-33
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	103.699997	103.830002	XYZ
+
+# sent_id = cefc-coralrom-fpubcv06-34
+# text = qui peut me dire ce qu'on fait
+1	qui	qui	PRQ	PRQ	_	2	subj	_	_	111.900002	112.209999	CHR
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	112.220001	112.320000	CHR
+3	me	me	CLI	CLI	_	4	dep	_	_	112.330002	112.589996	CHR
+4	dire	dire	VNF	VNF	_	2	dep	_	_	112.599998	113.150002	CHR
+5	ce	ce	PRO	PRO	_	4	dep	_	_	113.370003	113.410004	CHR
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	113.889999	113.930000	CHR
+7	on	on	CLS	CLS	_	8	subj	_	_	113.940002	114.169998	CHR
+8	fait	faire	VRB	VRB	_	5	dep	_	_	114.300003	114.660004	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-35
+# text = quand on a sa feuille de lecture qui peut le rappeler
+1	quand	quand	CSU	CSU	_	0	root	_	_	116.320000	116.370003	CHR
+2	on	on	CLS	CLS	_	3	subj	_	_	116.379997	116.400002	CHR
+3	a	avoir	VRB	VRB	_	1	dep	_	_	116.610001	116.830002	CHR
+4	sa	son	DET	DET	_	5	spe	_	_	116.839996	116.930000	CHR
+5	feuille	feuille	NOM	NOM	_	3	dep	_	_	116.940002	117.379997	CHR
+6	de	de	PRE	PRE	_	5	dep	_	_	117.389999	117.410004	CHR
+7	lecture	lecture	NOM	NOM	_	6	dep	_	_	117.419998	118.430000	CHR
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	118.800003	119.010002	CHR
+9	peut	pouvoir	VRB	VRB	_	5	dep	_	_	119.019997	119.099998	CHR
+10	le	le	CLI	CLI	_	11	dep	_	_	119.110001	119.169998	CHR
+11	rappeler	rappeler	VNF	VNF	_	9	dep	_	_	119.180000	119.870003	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-36
+# text = euh oui
+1	euh	euh	INT	INT	_	0	root	_	_	126.059998	126.820000	CHR
+2	oui	oui	INT	INT	_	1	dm	_	_	126.830002	126.989998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-37
+# text = dis-moi
+1	dis-moi	dis-moi	ADV	ADV	_	0	root	_	_	127.000000	127.279999	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-38
+# text = ton prénom
+1	ton	son	DET	DET	_	2	spe	_	_	127.290001	127.449997	CHR
+2	prénom	prénom	NOM	NOM	_	0	root	_	_	127.459999	127.690002	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-39
+# text = on regarde Nicolas
+1	on	on	CLS	CLS	_	2	subj	_	_	127.779999	127.889999	NIC
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	128.039993	128.220001	NIC
+3	Nicolas	Nicolas	NOM	NOM	_	2	dep	_	_	128.229996	128.410004	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-40
+# text = on regarde le dessin
+1	on	on	CLS	CLS	_	2	subj	_	_	129.660004	129.729996	NIC
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	129.949997	130.089996	NIC
+3	le	le	DET	DET	_	4	spe	_	_	130.789993	130.809998	NIC
+4	dessin	dessin	NOM	NOM	_	2	dep	_	_	130.820007	130.960007	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-41
+# text = je n'ai pas
+1	je	je	CLS	CLS	_	3	subj	_	_	131.440002	131.520004	CHR
+2	n'	ne	CLN	CLN	_	3	dep	_	_	131.529999	131.550003	CHR
+3	ai	avoir	VRB	VRB	_	0	root	_	_	131.559998	131.759995	CHR
+4	pas	pas	ADN	ADN	_	3	dep	_	_	131.770004	131.960007	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-42
+# text = je n'entends pas bien
+1	je	je	CLS	CLS	_	3	subj	_	_	131.970001	132.149994	CHR
+2	n'	ne	CLN	CLN	_	3	dep	_	_	132.160004	132.190002	CHR
+3	entends	entendre	VRB	VRB	_	0	root	_	_	132.199997	132.509995	CHR
+4	pas	pas	ADN	ADN	_	3	dep	_	_	132.520004	132.690002	CHR
+5	bien	bien	ADV	ADV	_	3	dep	_	_	132.699997	132.789993	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-43
+# text = dis-le plus fort
+1	dis-le	dis-le	VRB	VRB	_	0	root	_	_	132.860001	133.199997	CHR
+2	plus	plus	ADN	ADN	_	3	dep	_	_	133.210007	133.410004	CHR
+3	fort	fort	ADJ	ADJ	_	1	dep	_	_	133.419998	133.740005	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-44
+# text = on regarde le dessin
+1	on	on	CLS	CLS	_	2	subj	_	_	134.619995	134.669998	NIC
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	134.759995	134.910004	NIC
+3	le	le	DET	DET	_	4	spe	_	_	135.199997	135.220001	NIC
+4	dessin	dessin	NOM	NOM	_	2	dep	_	_	135.300003	135.679993	NIC
+
+# sent_id = cefc-coralrom-fpubcv06-45
+# text = euh oui qui veut dire autre chose
+1	euh	euh	INT	INT	_	4	dm	_	_	136.399994	136.820007	CHR
+2	oui	oui	INT	INT	_	1	dm	_	_	136.830002	137.080002	CHR
+3	qui	qui	PRQ	PRQ	_	4	subj	_	_	137.139999	137.419998	CHR
+4	veut	vouloir	VRB	VRB	_	0	root	_	_	137.429993	137.479996	CHR
+5	dire	dire	VNF	VNF	_	4	dep	_	_	137.490005	137.630005	CHR
+6	autre	autre	ADJ	ADJ	_	7	dep	_	_	137.639999	138.160004	CHR
+7	chose	chose	NOM	NOM	_	5	dep	_	_	138.289993	138.589996	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-46
+# text = Nicolas on regarde la ponctuation
+1	Nicolas	Nicolas	NOM	NOM	_	3	periph	_	_	139.190002	139.809998	GAE
+2	on	on	CLS	CLS	_	3	subj	_	_	140.830002	140.990005	GAE
+3	regarde	regarder	VRB	VRB	_	0	root	_	_	141.259995	141.570007	GAE
+4	la	le	DET	DET	_	5	spe	_	_	141.630005	141.699997	GAE
+5	ponctuation	ponctuation	NOM	NOM	_	3	dep	_	_	141.809998	142.199997	GAE
+
+# sent_id = cefc-coralrom-fpubcv06-47
+# text = autre chose Elamine
+1	autre	autre	ADJ	ADJ	_	2	dep	_	_	145.039993	145.229996	CHR
+2	chose	chose	NOM	NOM	_	0	root	_	_	145.240005	146.199997	CHR
+3	Elamine	Elamine	NOM	NOM	_	2	dep	_	_	146.919998	147.589996	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-48
+# text = on regarde le bloc du texte
+1	on	on	CLS	CLS	_	2	subj	_	_	147.649994	147.669998	ELA
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	147.679993	147.820007	ELA
+3	le	le	DET	DET	_	4	spe	_	_	147.979996	148.000000	ELA
+4	bloc	bloc	NOM	NOM	_	2	dep	_	_	148.009995	148.139999	ELA
+5	du	de+le	PRE	PRE	_	4	dep	_	_	148.600006	148.710007	ELA
+6	texte	texte	NOM	NOM	_	5	dep	_	_	148.850006	148.990005	ELA
+
+# sent_id = cefc-coralrom-fpubcv06-49
+# text = bien redis-le fort Elamine
+1	bien	bien	ADV	ADV	_	2	dep	_	_	151.089996	151.750000	CHR
+2	redis-le	redis-le	VPP	VPP	_	0	root	_	_	151.850006	152.320007	CHR
+3	fort	fort	ADJ	ADJ	_	4	dep	_	_	152.330002	152.520004	CHR
+4	Elamine	Elamine	NOM	NOM	_	2	dep	_	_	152.619995	153.050003	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-50
+# text = on regarde le bloc du texte
+1	on	on	CLS	CLS	_	2	subj	_	_	153.199997	153.289993	ELA
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	153.399994	153.580002	ELA
+3	le	le	DET	DET	_	4	spe	_	_	153.589996	153.619995	ELA
+4	bloc	bloc	NOM	NOM	_	2	dep	_	_	154.320007	154.559998	ELA
+5	du	de+le	PRE	PRE	_	4	dep	_	_	154.710007	154.759995	ELA
+6	texte	texte	NOM	NOM	_	5	dep	_	_	154.770004	154.929993	ELA
+
+# sent_id = cefc-coralrom-fpubcv06-51
+# text = on regarde tous les renseignements que nous apporte
+1	on	on	CLS	CLS	_	2	subj	_	_	155.580002	155.880005	CHR
+2	regarde	regarder	VRB	VRB	_	0	root	_	_	155.889999	156.559998	CHR
+3	tous	tout	ADJ	ADJ	_	5	dep	_	_	156.880005	157.039993	CHR
+4	les	le	DET	DET	_	5	spe	_	_	157.050003	157.229996	CHR
+5	renseignements	renseignement	NOM	NOM	_	2	dep	_	_	157.240005	158.160004	CHR
+6	que	que	PRQ	PRQ	_	8	dep	_	_	158.580002	158.729996	CHR
+7	nous	nous	CLS	CLS	_	8	subj	_	_	158.850006	158.970001	CHR
+8	apporte	apporter	VRB	VRB	_	5	dep	_	_	158.979996	159.880005	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-52
+# text = les le
+1	les	le	DET	DET	_	0	root	_	_	161.050003	161.399994	CHR
+2	le	le	DET	DET	_	1	para	_	_	161.610001	162.039993	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-53
+# text = ou les blocs du texte
+1	ou	ou	COO	COO	_	3	mark	_	_	162.050003	162.110001	CHR
+2	les	le	DET	DET	_	3	spe	_	_	162.119995	162.419998	CHR
+3	blocs	bloc	NOM	NOM	_	0	root	_	_	162.429993	162.759995	CHR
+4	du	de+le	PRE	PRE	_	3	dep	_	_	162.770004	162.960007	CHR
+5	texte	texte	NOM	NOM	_	4	dep	_	_	162.970001	163.220001	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-54
+# text = très bien
+1	très	très	ADV	ADV	_	2	dep	_	_	163.660004	163.809998	CHR
+2	bien	bien	ADV	ADV	_	0	root	_	_	163.880005	164.059998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-55
+# text = Florence
+1	Florence	Florence	NOM	NOM	_	0	root	_	_	165.309998	166.179993	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-56
+# text = quand on lit on lit dans sa tête quand on lit on lit dans sa tête très bien mais est-ce que d'abord on lit
+1	quand	quand	CSU	CSU	_	20	periph	_	_	166.259995	166.309998	FLO
+2	on	on	CLS	CLS	_	3	subj	_	_	166.399994	166.419998	FLO
+3	lit	lire	VRB	VRB	_	1	dep	_	_	166.589996	166.649994	FLO
+4	on	on	CLS	CLS	_	5	subj	_	_	166.919998	166.940002	FLO
+5	lit	lire	VRB	VRB	_	3	para	_	_	166.949997	167.000000	FLO
+6	dans	dans	PRE	PRE	_	5	dep	_	_	167.199997	167.309998	FLO
+7	sa	son	DET	DET	_	8	spe	_	_	167.429993	167.479996	FLO
+8	tête	tête	NOM	NOM	_	6	dep	_	_	167.490005	167.570007	CHR
+9	quand	quand	CSU	CSU	_	1	para	_	_	169.119995	169.240005	CHR
+10	on	on	CLS	CLS	_	11	subj	_	_	169.380005	169.470001	CHR
+11	lit	lire	VRB	VRB	_	9	dep	_	_	169.479996	169.880005	CHR
+12	on	on	CLS	CLS	_	13	subj	_	_	169.889999	169.970001	CHR
+13	lit	lire	VRB	VRB	_	11	para	_	_	170.070007	170.229996	CHR
+14	dans	dans	PRE	PRE	_	13	dep	_	_	170.240005	170.289993	CHR
+15	sa	son	DET	DET	_	16	spe	_	_	170.300003	170.710007	CHR
+16	tête	tête	NOM	NOM	_	14	dep	_	_	170.789993	171.139999	CHR
+17	très	très	ADV	ADV	_	18	dep	_	_	171.279999	171.610001	CHR
+18	bien	bien	ADV	ADV	_	13	dep	_	_	171.619995	171.899994	CHR
+19	mais	mais	COO	COO	_	20	mark	_	_	172.270004	172.350006	CHR
+20	est-ce	est-ce	VRB	VRB	_	0	root	_	_	172.360001	172.699997	CHR
+21	que	que	CSU	CSU	_	20	dep	_	_	172.710007	172.800003	CHR
+22	d'	de	PRE	PRE	_	25	periph	_	_	172.809998	172.850006	CHR
+23	abord	abord	NOM	NOM	_	22	dep	_	_	172.860001	173.100006	CHR
+24	on	on	CLS	CLS	_	25	subj	_	_	173.110001	173.300003	CHR
+25	lit	lire	VRB	VRB	_	21	dep	_	_	173.479996	173.869995	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-57
+# text = est-ce que d'abord on lit Florence non
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	174.889999	175.020004	CHR
+2	que	que	CSU	CSU	_	1	dep	_	_	175.029999	175.149994	CHR
+3	d'	de	PRE	PRE	_	6	periph	_	_	175.160004	175.190002	CHR
+4	abord	abord	NOM	NOM	_	3	dep	_	_	175.199997	175.619995	CHR
+5	on	on	CLS	CLS	_	6	subj	_	_	175.630005	175.649994	CHR
+6	lit	lire	VRB	VRB	_	2	dep	_	_	175.710007	175.860001	CHR
+7	Florence	Florence	NOM	NOM	_	6	dep	_	_	175.869995	176.570007	CHR
+8	non	non	INT	INT	_	7	dm	_	_	177.199997	177.369995	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-58
+# text = d'abord on regarde tous les renseignements que nous donnent
+1	d'	de	PRE	PRE	_	4	periph	_	_	177.509995	177.559998	CHR
+2	abord	abord	NOM	NOM	_	1	dep	_	_	177.570007	177.759995	CHR
+3	on	on	CLS	CLS	_	4	subj	_	_	177.770004	178.179993	CHR
+4	regarde	regarder	VRB	VRB	_	0	root	_	_	178.190002	178.460007	CHR
+5	tous	tout	ADJ	ADJ	_	7	dep	_	_	178.710007	178.839996	CHR
+6	les	le	DET	DET	_	7	spe	_	_	178.850006	179.529999	CHR
+7	renseignements	renseignement	NOM	NOM	_	4	dep	_	_	179.539993	179.740005	CHR
+8	que	que	PRQ	PRQ	_	10	dep	_	_	179.750000	179.779999	CHR
+9	nous	nous	CLS	CLS	_	10	subj	_	_	179.789993	179.960007	CHR
+10	donnent	donner	VRB	VRB	_	7	dep	_	_	179.970001	180.679993	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-59
+# text = la ponctuation
+1	la	le	DET	DET	_	2	spe	_	_	181.029999	181.130005	FLO
+2	ponctuation	ponctuation	NOM	NOM	_	0	root	_	_	181.550003	181.899994	FLO
+
+# sent_id = cefc-coralrom-fpubcv06-60
+# text = l'illustration l'illustration
+1	l'	le	DET	DET	_	2	spe	_	_	183.820007	184.330002	CHR
+2	illustration	illustration	NOM	NOM	_	0	root	_	_	184.509995	186.020004	CHR
+3	l'	le	DET	DET	_	4	spe	_	_	183.820007	184.330002	FLO
+4	illustration	illustration	NOM	NOM	_	2	para	_	_	184.509995	186.020004	FLO
+
+# sent_id = cefc-coralrom-fpubcv06-61
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	188.990005	189.279999	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-62
+# text = le bloc du texte
+1	le	le	DET	DET	_	2	spe	_	_	189.289993	189.309998	CHR
+2	bloc	bloc	NOM	NOM	_	0	root	_	_	189.320007	189.529999	CHR
+3	du	de+le	PRE	PRE	_	2	dep	_	_	189.539993	189.750000	CHR
+4	texte	texte	NOM	NOM	_	3	dep	_	_	189.759995	190.229996	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-63
+# text = très bien alors vous faites ça
+1	très	très	ADV	ADV	_	2	dep	_	_	191.449997	191.600006	CHR
+2	bien	bien	ADV	ADV	_	3	dep	_	_	191.610001	192.059998	CHR
+3	alors	alors	ADV	ADV	_	5	periph	_	_	192.139999	192.419998	CHR
+4	vous	vous	CLS	CLS	_	5	subj	_	_	194.059998	194.110001	CHR
+5	faites	faire	VRB	VRB	_	0	root	_	_	194.630005	194.820007	CHR
+6	ça	ça	PRO	PRO	_	5	dep	_	_	194.949997	195.809998	CHR
+
+# sent_id = cefc-coralrom-fpubcv06-64
+# text = on surligne
+1	on	on	CLS	CLS	_	2	subj	_	_	196.690002	196.869995	GAE
+2	surligne	surligne	VRB	VRB	_	0	root	_	_	197.000000	197.690002	GAE
+
+# sent_id = cefc-coralrom-fpubcv06-65
+# text = et quand on a bien regardé on surligne tout ce qu'on sait lire
+1	et	et	COO	COO	_	8	mark	_	_	198.250000	198.360001	CHR
+2	quand	quand	CSU	CSU	_	8	periph	_	_	198.600006	198.649994	CHR
+3	on	on	CLS	CLS	_	6	subj	_	_	198.880005	199.020004	CHR
+4	a	avoir	VRB	VRB	_	6	aux	_	_	199.029999	199.520004	CHR
+5	bien	bien	ADV	ADV	_	6	dep	_	_	199.529999	199.740005	CHR
+6	regardé	regarder	VPP	VPP	_	2	dep	_	_	199.750000	200.630005	CHR
+7	on	on	CLS	CLS	_	8	subj	_	_	201.679993	202.009995	CHR
+8	surligne	surligne	VRB	VRB	_	0	root	_	_	202.020004	202.940002	CHR
+9	tout	tout	ADJ	ADJ	_	10	dep	_	_	202.949997	203.250000	CHR
+10	ce	ce	PRO	PRO	_	8	dep	_	_	203.259995	203.380005	CHR
+11	qu'	que	PRQ	PRQ	_	13	dep	_	_	203.389999	203.410004	CHR
+12	on	on	CLS	CLS	_	13	subj	_	_	203.419998	203.630005	CHR
+13	sait	savoir	VRB	VRB	_	10	dep	_	_	203.639999	203.839996	CHR
+14	lire	lire	VNF	VNF	_	13	dep	_	_	203.850006	204.089996	CHR
+

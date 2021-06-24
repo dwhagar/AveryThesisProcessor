@@ -1,0 +1,2078 @@
+# sent_id = cefc-coralrom-fpubdl02-1
+# text = euh bonjour
+1	euh	euh	INT	INT	_	0	root	_	_	0.140000	0.190000	UBR
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	0.790000	1.320000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-2
+# text = Monsieur NNAAMMEE NNAAMMEE NNAAMMEE de la S N C La Viste
+1	Monsieur	Monsieur	NOM	NOM	_	0	root	_	_	1.330000	1.490000	UBR
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	1.570000	1.790000	UBR
+3	NNAAMMEE	NOM	NOM	NOM	_	2	dep	_	_	1.970000	2.320000	UBR
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	2.400000	2.610000	UBR
+5	de	de	PRE	PRE	_	4	dep	_	_	2.620000	2.690000	UBR
+6	la	le	DET	DET	_	7	spe	_	_	2.700000	2.820000	UBR
+7	S	S	NOM	NOM	_	5	dep	_	_	2.830000	2.940000	UBR
+8	N	N	NOM	NOM	_	7	dep	_	_	2.950000	3.030000	UBR
+9	C	C	NOM	NOM	_	8	dep	_	_	3.040000	3.190000	UBR
+10	La	le	DET	DET	_	11	spe	_	_	3.200000	3.290000	UBR
+11	Viste	Viste	NOM	NOM	_	8	para	_	_	3.300000	3.690000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-3
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	4.250000	4.730000	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-4
+# text = euh j'ai pris rendez-vous avec vous pour vous présenter le Muséoscope du lac de Serre Ponçon
+1	euh	euh	INT	INT	_	4	dm	_	_	5.560000	5.650000	UBR
+2	j'	je	CLS	CLS	_	4	subj	_	_	5.810000	5.930000	UBR
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	5.940000	5.960000	UBR
+4	pris	-	VPP	VPP	_	0	root	_	_	5.970000	6.120000	UBR
+5	rendez-vous	rendez-vous	NOM	NOM	_	4	dep	_	_	6.130000	6.410000	UBR
+6	avec	avec	PRE	PRE	_	5	dep	_	_	6.420000	6.620000	UBR
+7	vous	moi	PRO	PRO	_	6	dep	_	_	6.630000	6.800000	UBR
+8	pour	pour	PRE	PRE	_	4	dep	_	_	6.810000	6.950000	UBR
+9	vous	vous	CLI	CLI	_	10	dep	_	_	6.960000	7.100000	UBR
+10	présenter	présenter	VNF	VNF	_	8	dep	_	_	7.110000	7.600000	UBR
+11	le	le	DET	DET	_	12	spe	_	_	7.610000	7.920000	UBR
+12	Muséoscope	Muséoscope	NOM	NOM	_	10	dep	_	_	7.990000	8.470000	UBR
+13	du	de+le	PRE	PRE	_	12	dep	_	_	8.530000	8.620000	UBR
+14	lac	lac	NOM	NOM	_	13	dep	_	_	8.630000	8.770000	UBR
+15	de	de	PRE	PRE	_	14	dep	_	_	8.780000	8.860000	UBR
+16	Serre	serre	NOM	NOM	_	15	dep	_	_	8.870000	9.040000	UBR
+17	Ponçon	Ponçon	NOM	NOM	_	16	dep	_	_	9.050000	9.430000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-5
+# text = alors comme vous me l'avez dit au téléphone l'autre jour euh vous avez une clientèle par s cycle de huit jours avec euh un programme bien planifié sur la semaine
+1	alors	alors	ADV	ADV	_	15	periph	_	_	10.050000	10.350000	UBR
+2	comme	comme	CSU	CSU	_	15	periph	_	_	10.390000	10.530000	UBR
+3	vous	vous	CLS	CLS	_	7	subj	_	_	10.540000	10.650000	UBR
+4	me	me	CLI	CLI	_	7	dep	_	_	10.660000	10.720000	UBR
+5	l'	le	CLI	CLI	_	7	dep	_	_	10.730000	10.750000	UBR
+6	avez	avoir	VRB	VRB	_	7	aux	_	_	10.760000	10.970000	UBR
+7	dit	dire	VPP	VPP	_	2	dep	_	_	10.980000	11.290000	UBR
+8	au	à+le	PRE	PRE	_	7	dep	_	_	11.300000	11.510000	UBR
+9	téléphone	téléphone	NOM	NOM	_	8	dep	_	_	11.520000	12.040000	UBR
+10	l'	le	DET	DET	_	12	spe	_	_	12.050000	12.080000	UBR
+11	autre	autre	ADJ	ADJ	_	12	dep	_	_	12.090000	12.170000	UBR
+12	jour	jour	NOM	NOM	_	8	dep	_	_	12.180000	12.370000	UBR
+13	euh	euh	INT	INT	_	12	dm	_	_	12.970000	13.150000	UBR
+14	vous	vous	CLS	CLS	_	15	subj	_	_	13.160000	13.350000	UBR
+15	avez	avoir	VRB	VRB	_	0	root	_	_	13.360000	13.530000	UBR
+16	une	un	DET	DET	_	17	spe	_	_	13.540000	13.640000	UBR
+17	clientèle	clientèle	NOM	NOM	_	15	dep	_	_	13.650000	14.110000	UBR
+18	par	par	PRE	PRE	_	17	dep	_	_	14.190000	14.310000	UBR
+19	s	s	NOM	NOM	_	18	dep	_	_	14.310000	14.310000	UBR
+20	cycle	cycle	NOM	NOM	_	19	dep	_	_	14.350000	14.690000	UBR
+21	de	de	PRE	PRE	_	20	dep	_	_	14.700000	14.750000	UBR
+22	huit	huit	NUM	NUM	_	23	spe	_	_	14.760000	14.860000	UBR
+23	jours	jour	NOM	NOM	_	21	dep	_	_	14.870000	15.210000	UBR
+24	avec	avec	PRE	PRE	_	15	dep	_	_	15.600000	15.930000	UBR
+25	euh	euh	INT	INT	_	24	dm	_	_	15.940000	15.960000	UBR
+26	un	un	DET	DET	_	27	spe	_	_	15.970000	16.299999	UBR
+27	programme	programme	NOM	NOM	_	24	dep	_	_	16.360001	16.969999	UBR
+28	bien	bien	ADV	ADV	_	29	dep	_	_	17.010000	17.219999	UBR
+29	planifié	planifier	VPP	VPP	_	27	dep	_	_	17.230000	17.650000	UBR
+30	sur	sur	PRE	PRE	_	29	dep	_	_	17.660000	17.830000	UBR
+31	la	le	DET	DET	_	32	spe	_	_	17.840000	17.910000	UBR
+32	semaine	semaine	NOM	NOM	_	30	dep	_	_	18.120001	18.270000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-6
+# text = oui c'est exact
+1	oui	oui	INT	INT	_	3	dm	_	_	18.930000	19.059999	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	19.070000	19.170000	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	19.180000	19.309999	PEL
+4	exact	exact	ADJ	ADJ	_	3	dep	_	_	19.320000	19.620001	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-7
+# text = euh j'imagine que vos clients aiment découvrir des sites nouveaux durant leur séjour
+1	euh	euh	INT	INT	_	3	dm	_	_	21.010000	21.219999	UBR
+2	j'	je	CLS	CLS	_	3	subj	_	_	21.230000	21.350000	UBR
+3	imagine	imaginer	VRB	VRB	_	0	root	_	_	21.360001	21.760000	UBR
+4	que	que	CSU	CSU	_	3	dep	_	_	21.770000	22.170000	UBR
+5	vos	son	DET	DET	_	6	spe	_	_	22.180000	22.340000	UBR
+6	clients	client	NOM	NOM	_	7	subj	_	_	22.350000	22.740000	UBR
+7	aiment	aimer	VRB	VRB	_	4	dep	_	_	22.750000	23.080000	UBR
+8	découvrir	découvrir	VNF	VNF	_	7	dep	_	_	23.090000	23.520000	UBR
+9	des	de	PRE	PRE	_	8	dep	_	_	23.559999	23.639999	UBR
+10	sites	site	NOM	NOM	_	9	dep	_	_	23.650000	23.860001	UBR
+11	nouveaux	nouveau	ADJ	ADJ	_	10	dep	_	_	23.920000	24.270000	UBR
+12	durant	durant	ADJ	ADJ	_	10	dep	_	_	24.280001	24.500000	UBR
+13	leur	son	DET	DET	_	14	spe	_	_	24.510000	24.610001	UBR
+14	séjour	séjour	NOM	NOM	_	8	dep	_	_	24.620001	25.010000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-8
+# text = il est évident que nous devons innover dans notre animation
+1	il	il	CLS	CLS	_	2	subj	_	_	26.190001	26.330000	PEL
+2	est	être	VRB	VRB	_	0	root	_	_	26.340000	26.530001	PEL
+3	évident	évident	ADJ	ADJ	_	2	dep	_	_	26.540001	26.860001	PEL
+4	que	que	CSU	CSU	_	2	dep	_	_	26.910000	27.000000	PEL
+5	nous	nous	CLS	CLS	_	6	subj	_	_	27.010000	27.110001	PEL
+6	devons	devoir	VRB	VRB	_	4	dep	_	_	27.120001	27.459999	PEL
+7	innover	innover	VNF	VNF	_	6	dep	_	_	27.469999	28.020000	PEL
+8	dans	dans	PRE	PRE	_	7	dep	_	_	28.030001	28.180000	PEL
+9	notre	son	DET	DET	_	10	spe	_	_	28.190001	28.799999	PEL
+10	animation	animation	NOM	NOM	_	8	dep	_	_	28.809999	29.469999	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-9
+# text = mais nous sommes tenus par un budget de plus en plus qui est de plus en plus restreint
+1	mais	mais	COO	COO	_	4	mark	_	_	29.930000	30.000000	PEL
+2	nous	nous	CLS	CLS	_	4	subj	_	_	30.010000	30.120001	PEL
+3	sommes	être	VRB	VRB	_	4	aux	_	_	30.129999	30.410000	PEL
+4	tenus	(se) tenir	VPP	VPP	_	0	root	_	_	30.420000	30.709999	PEL
+5	par	par	PRE	PRE	_	4	dep	_	_	30.719999	30.969999	PEL
+6	un	un	DET	DET	_	7	spe	_	_	30.980000	31.180000	PEL
+7	budget	budget	NOM	NOM	_	5	dep	_	_	31.190001	31.620001	PEL
+8	de	de	PRE	PRE	_	7	dep	_	_	31.629999	31.730000	PEL
+9	plus	plus	ADN	ADN	_	8	dep	_	_	31.740000	31.950001	PEL
+10	en	en	PRE	PRE	_	7	dep	_	_	31.959999	32.060001	PEL
+11	plus	plus	ADN	ADN	_	10	dep	_	_	32.070000	32.419998	PEL
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	32.490002	32.549999	PEL
+13	est	être	VRB	VRB	_	7	dep	_	_	32.560001	32.580002	PEL
+14	de	de	PRE	PRE	_	13	dep	_	_	32.590000	32.610001	PEL
+15	plus	plus	ADN	ADN	_	14	dep	_	_	32.619999	32.820000	PEL
+16	en	en	PRE	PRE	_	13	dep	_	_	32.830002	32.900002	PEL
+17	plus	plus	ADN	ADN	_	16	dep	_	_	32.910000	33.070000	PEL
+18	restreint	restreindre	VPP	VPP	_	13	dep	_	_	33.080002	33.590000	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-10
+# text = alors euh il faut voir
+1	alors	alors	ADV	ADV	_	4	periph	_	_	34.310001	34.650002	PEL
+2	euh	euh	INT	INT	_	1	dm	_	_	34.660000	34.830002	PEL
+3	il	il	CLS	CLS	_	4	subj	_	_	34.840000	34.939999	PEL
+4	faut	faillir	VRB	VRB	_	0	root	_	_	34.950001	35.110001	PEL
+5	voir	voir	VNF	VNF	_	4	dep	_	_	35.119999	35.389999	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-11
+# text = c'est pour cela que je suis venue vous présenter le Muséoscope qui est un nouvel établissement destiné à votre clientèle
+1	c'	ce	CLS	CLS	_	2	subj	_	_	35.930000	35.990002	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	36.669998	36.939999	UBR
+3	pour	pour	PRE	PRE	_	2	dep	_	_	36.950001	37.080002	UBR
+4	cela	cela	PRO	PRO	_	3	dep	_	_	37.090000	37.310001	UBR
+5	que	que	PRQ	PRQ	_	8	dep	_	_	37.320000	37.570000	UBR
+6	je	je	CLS	CLS	_	8	subj	_	_	37.580002	37.730000	UBR
+7	suis	être	VRB	VRB	_	8	aux	_	_	37.740002	37.889999	UBR
+8	venue	venir	VPP	VPP	_	4	dep	_	_	37.900002	38.169998	UBR
+9	vous	vous	CLI	CLI	_	10	dep	_	_	38.180000	38.270000	UBR
+10	présenter	présenter	VNF	VNF	_	8	dep	_	_	38.279999	38.799999	UBR
+11	le	le	DET	DET	_	12	spe	_	_	38.810001	39.080002	UBR
+12	Muséoscope	Muséoscope	NOM	NOM	_	10	dep	_	_	39.090000	39.849998	UBR
+13	qui	qui	PRQ	PRQ	_	14	subj	_	_	40.349998	40.419998	UBR
+14	est	être	VRB	VRB	_	12	dep	_	_	40.430000	40.560001	UBR
+15	un	un	DET	DET	_	18	spe	_	_	40.570000	40.950001	UBR
+16	nouvel	nouveau	ADJ	ADJ	_	18	dep	_	_	40.959999	41.180000	UBR
+17	établissement	établissement	ADV	ADV	_	18	dep	_	_	41.189999	41.790001	UBR
+18	destiné	destiner	VPP	VPP	_	14	dep	_	_	41.799999	42.230000	UBR
+19	à	à	PRE	PRE	_	18	dep	_	_	42.240002	42.270000	UBR
+20	votre	son	DET	DET	_	21	spe	_	_	42.279999	42.520000	UBR
+21	clientèle	clientèle	NOM	NOM	_	19	dep	_	_	42.529999	43.009998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-12
+# text = alors je vous ai apporté la la plaquette euh je vais vous commenter le le déroulement d'une visite qui dure à peu près une heure trente hein
+1	alors	alors	ADV	ADV	_	5	periph	_	_	43.500000	43.779999	UBR
+2	je	je	CLS	CLS	_	5	subj	_	_	43.790001	43.919998	UBR
+3	vous	vous	CLI	CLI	_	5	dep	_	_	43.930000	44.060001	UBR
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	44.070000	44.090000	UBR
+5	apporté	apporter	VPP	VPP	_	11	periph	_	_	44.099998	44.490002	UBR
+6	la	le	DET	DET	_	8	spe	_	_	44.500000	44.730000	UBR
+7	la	le	DET	DET	_	6	para	_	_	44.740002	44.849998	UBR
+8	plaquette	plaquette	NOM	NOM	_	5	dep	_	_	44.860001	45.450001	UBR
+9	euh	euh	INT	INT	_	8	dm	_	_	46.070000	46.090000	UBR
+10	je	je	CLS	CLS	_	11	subj	_	_	46.169998	46.689999	UBR
+11	vais	aller	VRB	VRB	_	0	root	_	_	46.700001	46.889999	UBR
+12	vous	vous	CLI	CLI	_	13	dep	_	_	46.900002	47.000000	UBR
+13	commenter	commenter	VNF	VNF	_	11	dep	_	_	47.009998	47.509998	UBR
+14	le	le	DET	DET	_	16	spe	_	_	47.520000	47.840000	UBR
+15	le	le	DET	DET	_	14	para	_	_	47.849998	47.930000	UBR
+16	déroulement	déroulement	NOM	NOM	_	13	dep	_	_	47.939999	48.459999	UBR
+17	d'	de	PRE	PRE	_	16	dep	_	_	48.470001	48.529999	UBR
+18	une	un	DET	DET	_	19	spe	_	_	48.540001	48.669998	UBR
+19	visite	visite	NOM	NOM	_	17	dep	_	_	48.680000	49.070000	UBR
+20	qui	qui	PRQ	PRQ	_	21	dep	_	_	49.080002	49.180000	UBR
+21	dure	dure	NOM	NOM	_	19	dep	_	_	49.189999	49.400002	UBR
+22	à	à	PRE	PRE	_	21	dep	_	_	49.410000	49.439999	UBR
+23	peu	peu	ADV	ADV	_	24	dep	_	_	49.450001	49.560001	UBR
+24	près	près	ADV	ADV	_	22	dep	_	_	49.570000	49.820000	UBR
+25	une	un	DET	DET	_	26	spe	_	_	49.830002	49.980000	UBR
+26	heure	heure	NOM	NOM	_	21	para	_	_	49.990002	50.119999	UBR
+27	trente	trente	NUM	NUM	_	26	dep	_	_	50.209999	50.410000	UBR
+28	hein	hein	INT	INT	_	27	dm	_	_	50.509998	50.570000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-13
+# text = tout d'abord euh
+1	tout	tout	PRO	PRO	_	2	dep	_	_	51.919998	52.360001	UBR
+2	d'	de	PRE	PRE	_	0	root	_	_	52.369999	52.419998	UBR
+3	abord	abord	NOM	NOM	_	2	dep	_	_	52.430000	52.849998	UBR
+4	euh	euh	INT	INT	_	3	dm	_	_	52.860001	53.139999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-14
+# text = le Muséoscope se situe au belvédère de Serre Ponçon
+1	le	le	DET	DET	_	2	spe	_	_	53.680000	53.950001	UBR
+2	Muséoscope	Muséoscope	NOM	NOM	_	4	subj	_	_	53.959999	54.709999	UBR
+3	se	se	CLI	CLI	_	4	dep	_	_	54.720001	54.860001	UBR
+4	situe	situer	VRB	VRB	_	0	root	_	_	54.869999	55.259998	UBR
+5	au	à+le	PRE	PRE	_	4	dep	_	_	55.270000	55.660000	UBR
+6	belvédère	belvédère	NOM	NOM	_	5	dep	_	_	55.669998	56.099998	UBR
+7	de	de	PRE	PRE	_	6	dep	_	_	56.110001	56.169998	UBR
+8	Serre	serre	NOM	NOM	_	7	dep	_	_	56.180000	56.360001	UBR
+9	Ponçon	Ponçon	NOM	NOM	_	8	dep	_	_	56.369999	56.810001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-15
+# text = euh il surplombe le barrage de Serre Ponçon
+1	euh	euh	INT	INT	_	3	dm	_	_	57.590000	58.000000	UBR
+2	il	il	CLS	CLS	_	3	subj	_	_	58.009998	58.169998	UBR
+3	surplombe	surplomber	VRB	VRB	_	0	root	_	_	58.180000	58.880001	UBR
+4	le	le	DET	DET	_	5	spe	_	_	58.889999	59.009998	UBR
+5	barrage	barrage	NOM	NOM	_	3	dep	_	_	59.020000	59.259998	UBR
+6	de	de	PRE	PRE	_	5	dep	_	_	59.270000	59.290001	UBR
+7	Serre	serre	NOM	NOM	_	6	dep	_	_	59.299999	59.419998	UBR
+8	Ponçon	Ponçon	NOM	NOM	_	7	dep	_	_	59.430000	59.770000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-16
+# text = donc euh le Muséoscope retrace la vie autour de de Serre Ponçon
+1	donc	donc	ADV	ADV	_	5	periph	_	_	59.779999	59.939999	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	60.200001	60.220001	UBR
+3	le	le	DET	DET	_	4	spe	_	_	60.549999	61.000000	UBR
+4	Muséoscope	Muséoscope	NOM	NOM	_	5	subj	_	_	61.009998	61.869999	UBR
+5	retrace	retracer	VRB	VRB	_	0	root	_	_	61.880001	62.369999	UBR
+6	la	le	DET	DET	_	7	spe	_	_	62.380001	62.480000	UBR
+7	vie	vie	NOM	NOM	_	5	dep	_	_	62.490002	62.619999	UBR
+8	autour	autour	ADV	ADV	_	5	dep	_	_	62.630001	62.910000	UBR
+9	de	de	PRE	PRE	_	8	dep	_	_	62.919998	63.189999	UBR
+10	de	de	PRE	PRE	_	9	para	_	_	63.200001	63.290001	UBR
+11	Serre	serre	NOM	NOM	_	10	dep	_	_	63.299999	63.459999	UBR
+12	Ponçon	Ponçon	NOM	NOM	_	11	dep	_	_	63.470001	63.959999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-17
+# text = avant pendant et après la construction du barrage
+1	avant	avant	PRE	PRE	_	0	root	_	_	64.320000	64.720001	UBR
+2	pendant	pendant	PRE	PRE	_	1	dep	_	_	64.989998	65.400002	UBR
+3	et	et	COO	COO	_	4	mark	_	_	65.540001	65.629997	UBR
+4	après	après	PRE	PRE	_	2	para	_	_	65.639999	65.879997	UBR
+5	la	le	DET	DET	_	6	spe	_	_	65.889999	65.980003	UBR
+6	construction	construction	NOM	NOM	_	4	dep	_	_	65.989998	66.480003	UBR
+7	du	de+le	PRE	PRE	_	6	dep	_	_	66.489998	66.620003	UBR
+8	barrage	barrage	NOM	NOM	_	7	dep	_	_	66.629997	67.059998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-18
+# text = euh j'imagine que vous avez déjà entendu parler du lac de Serre Ponçon
+1	euh	euh	INT	INT	_	3	dm	_	_	67.879997	68.050003	UBR
+2	j'	je	CLS	CLS	_	3	subj	_	_	68.059998	68.169998	UBR
+3	imagine	imaginer	VRB	VRB	_	0	root	_	_	68.180000	68.669998	UBR
+4	que	que	CSU	CSU	_	3	dep	_	_	68.760002	68.919998	UBR
+5	vous	vous	CLS	CLS	_	8	subj	_	_	68.930000	69.110001	UBR
+6	avez	avoir	VRB	VRB	_	8	aux	_	_	69.120003	69.239998	UBR
+7	déjà	déjà	ADV	ADV	_	8	dep	_	_	69.250000	69.500000	UBR
+8	entendu	entendre	VPP	VPP	_	4	dep	_	_	69.510002	69.820000	UBR
+9	parler	parler	VNF	VNF	_	8	dep	_	_	69.830002	70.059998	UBR
+10	du	de+le	PRE	PRE	_	9	dep	_	_	70.070000	70.169998	UBR
+11	lac	lac	NOM	NOM	_	10	dep	_	_	70.180000	70.320000	UBR
+12	de	de	PRE	PRE	_	11	dep	_	_	70.330002	70.389999	UBR
+13	Serre	serre	NOM	NOM	_	12	dep	_	_	70.400002	70.570000	UBR
+14	Ponçon	Ponçon	NOM	NOM	_	13	dep	_	_	70.580002	70.989998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-19
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	71.430000	71.510002	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	71.519997	71.559998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-20
+# text = la la plus grande retenue artificielle d'Europe
+1	la	le	DET	DET	_	3	spe	_	_	71.570000	71.769997	UBR
+2	la	le	DET	DET	_	1	para	_	_	71.779999	71.879997	UBR
+3	plus	plus	NOM	NOM	_	0	root	_	_	71.889999	72.000000	UBR
+4	grande	grand	ADJ	ADJ	_	3	dep	_	_	72.010002	72.300003	UBR
+5	retenue	retenue	NOM	NOM	_	3	para	_	_	72.309998	72.589996	UBR
+6	artificielle	artificiel	ADJ	ADJ	_	5	dep	_	_	72.599998	73.150002	UBR
+7	d'	de	PRE	PRE	_	5	dep	_	_	73.160004	73.190002	UBR
+8	Europe	Europe	NOM	NOM	_	7	dep	_	_	73.199997	73.570000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-21
+# text = allez-y alors euh la construction du barrage a été un moment important dans la vie des Hautes Alpes et même de la région euh sur le plan économique et touristique euh
+1	allez-y	allez-y	ADV	ADV	_	9	periph	_	_	74.750000	75.150002	PEL
+2	alors	alors	ADV	ADV	_	9	periph	_	_	76.370003	76.779999	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	76.790001	76.820000	UBR
+4	la	le	DET	DET	_	5	spe	_	_	76.830002	77.209999	UBR
+5	construction	construction	NOM	NOM	_	9	subj	_	_	77.220001	77.769997	UBR
+6	du	de+le	PRE	PRE	_	5	dep	_	_	77.779999	77.879997	UBR
+7	barrage	barrage	NOM	NOM	_	6	dep	_	_	77.889999	78.290001	UBR
+8	a	avoir	VRB	VRB	_	9	aux	_	_	78.300003	78.470001	UBR
+9	été	être	VPP	VPP	_	0	root	_	_	78.480003	78.709999	UBR
+10	un	un	DET	DET	_	11	spe	_	_	78.720001	78.769997	UBR
+11	moment	moment	NOM	NOM	_	9	dep	_	_	78.779999	79.019997	UBR
+12	important	important	ADJ	ADJ	_	11	dep	_	_	79.029999	79.480003	UBR
+13	dans	dans	PRE	PRE	_	9	dep	_	_	79.540001	79.989998	UBR
+14	la	le	DET	DET	_	15	spe	_	_	80.000000	80.129997	UBR
+15	vie	vie	NOM	NOM	_	13	dep	_	_	80.139999	80.279999	UBR
+16	des	de	PRE	PRE	_	15	dep	_	_	80.290001	80.379997	UBR
+17	Hautes	haute	NOM	NOM	_	16	dep	_	_	80.389999	80.599998	UBR
+18	Alpes	Alpes	NOM	NOM	_	17	dep	_	_	80.610001	80.779999	UBR
+19	et	et	COO	COO	_	21	mark	_	_	80.790001	80.930000	UBR
+20	même	même	ADV	ADV	_	21	dep	_	_	80.940002	81.070000	UBR
+21	de	de	PRE	PRE	_	9	dep	_	_	81.080002	81.160004	UBR
+22	la	le	DET	DET	_	23	spe	_	_	81.169998	81.260002	UBR
+23	région	région	NOM	NOM	_	21	dep	_	_	81.269997	81.589996	UBR
+24	euh	euh	INT	INT	_	23	dm	_	_	82.139999	82.279999	UBR
+25	sur	sur	PRE	PRE	_	9	dep	_	_	82.290001	82.449997	UBR
+26	le	le	DET	DET	_	27	spe	_	_	82.459999	82.559998	UBR
+27	plan	plan	NOM	NOM	_	25	dep	_	_	82.570000	82.769997	UBR
+28	économique	économique	ADJ	ADJ	_	27	dep	_	_	82.839996	83.370003	UBR
+29	et	et	COO	COO	_	30	mark	_	_	83.379997	83.500000	UBR
+30	touristique	touristique	ADJ	ADJ	_	28	para	_	_	83.510002	84.080002	UBR
+31	euh	euh	INT	INT	_	30	dm	_	_	84.750000	84.930000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-22
+# text = je vais vous expliquer
+1	je	je	CLS	CLS	_	2	subj	_	_	84.940002	85.070000	UBR
+2	vais	aller	VRB	VRB	_	0	root	_	_	85.080002	85.169998	UBR
+3	vous	vous	CLI	CLI	_	4	dep	_	_	85.180000	85.320000	UBR
+4	expliquer	expliquer	VNF	VNF	_	2	dep	_	_	85.330002	85.730003	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-23
+# text = donc le le circuit
+1	donc	donc	ADV	ADV	_	4	periph	_	_	85.739998	85.970001	UBR
+2	le	le	DET	DET	_	4	spe	_	_	85.980003	86.260002	UBR
+3	le	le	DET	DET	_	2	para	_	_	86.269997	86.400002	UBR
+4	circuit	circuit	NOM	NOM	_	0	root	_	_	86.410004	86.809998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-24
+# text = alors tout d'abord on rentre dans dans la salle de deux cents mètres carrés qui est la la salle des maquettes euh
+1	alors	alors	ADV	ADV	_	6	periph	_	_	87.660004	87.839996	UBR
+2	tout	tout	ADJ	ADJ	_	3	dep	_	_	87.849998	87.959999	UBR
+3	d'	de	PRE	PRE	_	6	periph	_	_	87.970001	88.000000	UBR
+4	abord	abord	NOM	NOM	_	3	dep	_	_	88.010002	88.190002	UBR
+5	on	on	CLS	CLS	_	6	subj	_	_	88.199997	88.250000	UBR
+6	rentre	rentrer	VRB	VRB	_	0	root	_	_	88.260002	88.660004	UBR
+7	dans	dans	PRE	PRE	_	6	dep	_	_	88.669998	88.800003	UBR
+8	dans	dans	PRE	PRE	_	7	para	_	_	88.839996	88.900002	UBR
+9	la	le	DET	DET	_	10	spe	_	_	88.910004	89.389999	UBR
+10	salle	salle	NOM	NOM	_	8	dep	_	_	89.750000	90.139999	UBR
+11	de	de	PRE	PRE	_	10	dep	_	_	90.470001	90.720001	UBR
+12	deux	deux	NUM	NUM	_	14	spe	_	_	90.730003	90.919998	UBR
+13	cents	cents	NUM	NUM	_	12	dep	_	_	90.930000	91.080002	UBR
+14	mètres	mètre	NOM	NOM	_	11	dep	_	_	91.089996	91.239998	UBR
+15	carrés	carré	ADJ	ADJ	_	14	dep	_	_	91.250000	91.580002	UBR
+16	qui	qui	PRQ	PRQ	_	17	dep	_	_	91.919998	92.019997	UBR
+17	est	être	VRB	VRB	_	14	dep	_	_	92.029999	92.050003	UBR
+18	la	le	DET	DET	_	20	spe	_	_	92.059998	92.360001	UBR
+19	la	le	DET	DET	_	18	para	_	_	92.370003	92.470001	UBR
+20	salle	salle	NOM	NOM	_	17	dep	_	_	92.480003	92.639999	UBR
+21	des	de	PRE	PRE	_	20	dep	_	_	92.650002	92.730003	UBR
+22	maquettes	maquette	NOM	NOM	_	21	dep	_	_	92.739998	93.139999	UBR
+23	euh	euh	INT	INT	_	22	dm	_	_	93.800003	93.820000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-25
+# text = ces maquettes représentent les anciens villages engloutis lors de la construction du barrage
+1	ces	ce	DET	DET	_	2	spe	_	_	93.830002	94.260002	UBR
+2	maquettes	maquette	NOM	NOM	_	3	subj	_	_	94.269997	94.660004	UBR
+3	représentent	représenter	VRB	VRB	_	0	root	_	_	94.669998	95.339996	UBR
+4	les	le	DET	DET	_	5	spe	_	_	95.349998	95.519997	UBR
+5	anciens	ancien	NOM	NOM	_	3	dep	_	_	95.529999	95.779999	UBR
+6	villages	village	NOM	NOM	_	5	dep	_	_	95.790001	96.180000	UBR
+7	engloutis	engloutir	VPP	VPP	_	6	dep	_	_	96.190002	96.750000	UBR
+8	lors de	lors de	PRE	PRE	_	3	dep	_	_	97.089996	97.290001	UBR
+9	la	le	DET	DET	_	10	spe	_	_	97.300003	97.419998	UBR
+10	construction	construction	NOM	NOM	_	8	dep	_	_	97.430000	97.919998	UBR
+11	du	de+le	PRE	PRE	_	10	dep	_	_	97.930000	98.059998	UBR
+12	barrage	barrage	NOM	NOM	_	11	dep	_	_	98.070000	98.550003	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-26
+# text = alors vous avez le vieux Savines Ubaye et l'Ile de Rousset
+1	alors	alors	ADV	ADV	_	3	periph	_	_	98.949997	99.070000	UBR
+2	vous	vous	CLS	CLS	_	3	subj	_	_	99.080002	99.190002	UBR
+3	avez	avoir	VRB	VRB	_	0	root	_	_	99.199997	99.309998	UBR
+4	le	le	DET	DET	_	5	spe	_	_	99.320000	99.389999	UBR
+5	vieux	vieux	NOM	NOM	_	3	dep	_	_	99.400002	99.529999	UBR
+6	Savines	Savines	NOM	NOM	_	5	dep	_	_	99.540001	100.150002	UBR
+7	Ubaye	Ubaye	NOM	NOM	_	6	dep	_	_	100.480003	100.949997	UBR
+8	et	et	COO	COO	_	10	mark	_	_	101.059998	101.129997	UBR
+9	l'	le	DET	DET	_	10	spe	_	_	101.139999	101.160004	UBR
+10	Ile	Ile	NOM	NOM	_	7	para	_	_	101.169998	101.239998	UBR
+11	de	de	PRE	PRE	_	10	dep	_	_	101.250000	101.300003	UBR
+12	Rousset	Rousset	NOM	NOM	_	11	dep	_	_	101.309998	101.660004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-27
+# text = on les a reproduits euh tels qu'ils étaient réellement hein euh on a matérialisé donc la la vallée de la Durance et la vallée de l'Ubaye
+1	on	on	CLS	CLS	_	4	subj	_	_	102.550003	102.889999	UBR
+2	les	le	CLI	CLI	_	4	dep	_	_	102.900002	103.029999	UBR
+3	a	avoir	VRB	VRB	_	4	aux	_	_	103.040001	103.080002	UBR
+4	reproduits	reproduire	VPP	VPP	_	0	root	_	_	103.089996	103.669998	UBR
+5	euh	euh	INT	INT	_	4	dm	_	_	103.680000	103.870003	UBR
+6	tels	tel	PRO	PRO	_	15	periph	_	_	103.879997	104.070000	UBR
+7	qu'	que	PRQ	PRQ	_	9	dep	_	_	104.080002	104.120003	UBR
+8	ils	il	CLS	CLS	_	9	subj	_	_	104.129997	104.250000	UBR
+9	étaient	être	VRB	VRB	_	6	dep	_	_	104.260002	104.440002	UBR
+10	réellement	réellement	ADV	ADV	_	9	dep	_	_	104.449997	104.879997	UBR
+11	hein	hein	INT	INT	_	10	dm	_	_	104.889999	104.989998	UBR
+12	euh	euh	INT	INT	_	11	dm	_	_	105.669998	105.910004	UBR
+13	on	on	CLS	CLS	_	15	subj	_	_	105.919998	106.050003	UBR
+14	a	avoir	VRB	VRB	_	15	aux	_	_	106.059998	106.099998	UBR
+15	matérialisé	matérialiser	VPP	VPP	_	4	para	_	_	106.110001	106.750000	UBR
+16	donc	donc	ADV	ADV	_	15	dep	_	_	106.760002	107.010002	UBR
+17	la	le	DET	DET	_	19	spe	_	_	107.019997	107.220001	UBR
+18	la	le	DET	DET	_	17	para	_	_	107.230003	107.330002	UBR
+19	vallée	vallée	NOM	NOM	_	15	dep	_	_	107.339996	107.559998	UBR
+20	de	de	PRE	PRE	_	19	dep	_	_	107.570000	107.589996	UBR
+21	la	le	DET	DET	_	22	spe	_	_	107.599998	107.669998	UBR
+22	Durance	Durance	NOM	NOM	_	20	dep	_	_	107.680000	108.000000	UBR
+23	et	et	COO	COO	_	25	mark	_	_	108.260002	108.309998	UBR
+24	la	le	DET	DET	_	25	spe	_	_	108.320000	108.389999	UBR
+25	vallée	vallée	NOM	NOM	_	15	para	_	_	108.400002	108.559998	UBR
+26	de	de	PRE	PRE	_	25	dep	_	_	108.570000	108.589996	UBR
+27	l'	le	DET	DET	_	28	spe	_	_	108.599998	108.650002	UBR
+28	Ubaye	Ubaye	NOM	NOM	_	26	dep	_	_	108.660004	108.970001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-28
+# text = voilà donc ça c'était pour la la salle des maquettes au bout d'une dizaine de minutes euh
+1	voilà	voilà	INT	INT	_	5	dm	_	_	110.059998	110.470001	UBR
+2	donc	donc	ADV	ADV	_	5	periph	_	_	110.480003	110.650002	UBR
+3	ça	ça	PRO	PRO	_	5	periph	_	_	110.660004	110.750000	UBR
+4	c'	ce	CLS	CLS	_	5	subj	_	_	110.760002	110.839996	UBR
+5	était	être	VRB	VRB	_	0	root	_	_	110.849998	111.000000	UBR
+6	pour	pour	PRE	PRE	_	5	dep	_	_	111.010002	111.139999	UBR
+7	la	le	DET	DET	_	9	spe	_	_	111.150002	111.309998	UBR
+8	la	le	DET	DET	_	7	para	_	_	111.320000	111.400002	UBR
+9	salle	salle	NOM	NOM	_	6	dep	_	_	111.410004	111.580002	UBR
+10	des	de	PRE	PRE	_	9	dep	_	_	111.589996	111.660004	UBR
+11	maquettes	maquette	NOM	NOM	_	10	dep	_	_	111.669998	112.099998	UBR
+12	au	à+le	PRE	PRE	_	9	dep	_	_	112.489998	112.570000	UBR
+13	bout	bout	NOM	NOM	_	12	dep	_	_	112.580002	112.730003	UBR
+14	d'	de	PRE	PRE	_	13	dep	_	_	112.739998	112.779999	UBR
+15	une	un	DET	DET	_	16	spe	_	_	112.790001	112.919998	UBR
+16	dizaine	dizaine	NOM	NOM	_	14	dep	_	_	112.930000	113.269997	UBR
+17	de	de	PRE	PRE	_	16	dep	_	_	113.279999	113.300003	UBR
+18	minutes	minute	NOM	NOM	_	17	dep	_	_	113.309998	113.589996	UBR
+19	euh	euh	INT	INT	_	18	dm	_	_	114.080002	114.279999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-29
+# text = nous rentrons dans la salle deux qui est la salle de projection Durance d'une capacité de cent places
+1	nous	nous	CLS	CLS	_	2	subj	_	_	114.290001	114.379997	UBR
+2	rentrons	rentrer	VRB	VRB	_	0	root	_	_	114.389999	114.690002	UBR
+3	dans	dans	PRE	PRE	_	2	dep	_	_	114.699997	114.760002	UBR
+4	la	le	DET	DET	_	5	spe	_	_	114.769997	114.879997	UBR
+5	salle	salle	NOM	NOM	_	3	dep	_	_	114.889999	115.099998	UBR
+6	deux	deux	NUM	NUM	_	5	dep	_	_	115.190002	115.389999	UBR
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	115.699997	115.809998	UBR
+8	est	être	VRB	VRB	_	5	dep	_	_	115.820000	115.839996	UBR
+9	la	le	DET	DET	_	10	spe	_	_	115.849998	115.940002	UBR
+10	salle	salle	NOM	NOM	_	8	dep	_	_	115.949997	116.220001	UBR
+11	de	de	PRE	PRE	_	10	dep	_	_	116.230003	116.260002	UBR
+12	projection	projection	NOM	NOM	_	11	dep	_	_	116.269997	116.709999	UBR
+13	Durance	Durance	NOM	NOM	_	12	dep	_	_	116.720001	117.239998	UBR
+14	d'	de	PRE	PRE	_	13	dep	_	_	117.629997	117.660004	UBR
+15	une	un	DET	DET	_	16	spe	_	_	117.669998	117.769997	UBR
+16	capacité	capacité	NOM	NOM	_	14	dep	_	_	117.779999	118.349998	UBR
+17	de	de	PRE	PRE	_	16	dep	_	_	118.360001	118.459999	UBR
+18	cent	cent	NUM	NUM	_	19	spe	_	_	118.470001	118.690002	UBR
+19	places	place	NOM	NOM	_	17	dep	_	_	118.730003	119.160004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-30
+# text = c'est quand même pas mal hein un film euh d'une douzaine de minutes
+1	c'	ce	CLS	CLS	_	2	subj	_	_	119.660004	119.750000	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	120.160004	120.209999	UBR
+3	quand	quand	CSU	CSU	_	2	dep	_	_	120.220001	120.360001	UBR
+4	même	même	ADV	ADV	_	5	dep	_	_	120.370003	120.449997	UBR
+5	pas	pas	ADN	ADN	_	6	dep	_	_	120.459999	120.529999	UBR
+6	mal	mal	ADV	ADV	_	3	dep	_	_	120.540001	120.750000	UBR
+7	hein	hein	INT	INT	_	6	dm	_	_	120.760002	120.870003	UBR
+8	un	un	DET	DET	_	9	spe	_	_	121.160004	121.180000	UBR
+9	film	film	NOM	NOM	_	2	dep	_	_	121.260002	121.379997	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	121.389999	121.639999	UBR
+11	d'	de	PRE	PRE	_	9	dep	_	_	121.750000	121.849998	UBR
+12	une	un	DET	DET	_	13	spe	_	_	121.940002	122.489998	UBR
+13	douzaine	douzaine	NOM	NOM	_	11	dep	_	_	122.610001	122.989998	UBR
+14	de	de	PRE	PRE	_	13	dep	_	_	123.000000	123.080002	UBR
+15	minutes	minute	NOM	NOM	_	14	dep	_	_	123.089996	123.510002	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-31
+# text = vous fait revivre euh le le témoignage euh de personnes qui ont quitté leur maison avec des images inédites sur la construction du barrage euh la Durance en crue et la sécheresse du Val de Durance
+1	vous	vous	CLS	CLS	_	2	subj	_	_	123.519997	123.620003	UBR
+2	fait	faire	VRB	VRB	_	0	root	_	_	123.629997	123.769997	UBR
+3	revivre	revivre	VNF	VNF	_	2	dep	_	_	123.779999	124.160004	UBR
+4	euh	euh	INT	INT	_	3	dm	_	_	124.169998	124.190002	UBR
+5	le	le	DET	DET	_	7	spe	_	_	124.199997	124.480003	UBR
+6	le	le	DET	DET	_	5	para	_	_	124.489998	124.589996	UBR
+7	témoignage	témoignage	NOM	NOM	_	3	dep	_	_	124.599998	125.500000	UBR
+8	euh	euh	INT	INT	_	7	dm	_	_	125.510002	125.529999	UBR
+9	de	de	PRE	PRE	_	7	dep	_	_	125.870003	125.959999	UBR
+10	personnes	personne	NOM	NOM	_	9	dep	_	_	125.970001	126.419998	UBR
+11	qui	qui	PRQ	PRQ	_	13	subj	_	_	126.430000	126.550003	UBR
+12	ont	avoir	VRB	VRB	_	13	aux	_	_	126.559998	126.660004	UBR
+13	quitté	quitter	VPP	VPP	_	10	dep	_	_	126.669998	126.930000	UBR
+14	leur	son	DET	DET	_	15	spe	_	_	126.940002	127.080002	UBR
+15	maison	maison	NOM	NOM	_	13	dep	_	_	127.089996	127.449997	UBR
+16	avec	avec	PRE	PRE	_	13	dep	_	_	127.889999	128.149994	UBR
+17	des	de	PRE	PRE	_	16	dep	_	_	128.160004	128.360001	UBR
+18	images	image	NOM	NOM	_	17	dep	_	_	128.369995	128.600006	UBR
+19	inédites	inédit	ADJ	ADJ	_	18	dep	_	_	128.699997	129.250000	UBR
+20	sur	sur	PRE	PRE	_	13	dep	_	_	129.259995	129.410004	UBR
+21	la	le	DET	DET	_	22	spe	_	_	129.419998	129.529999	UBR
+22	construction	construction	NOM	NOM	_	20	dep	_	_	129.539993	130.009995	UBR
+23	du	de+le	PRE	PRE	_	22	dep	_	_	130.020004	130.119995	UBR
+24	barrage	barrage	NOM	NOM	_	23	dep	_	_	130.130005	130.589996	UBR
+25	euh	euh	INT	INT	_	24	dm	_	_	130.990005	131.009995	UBR
+26	la	le	DET	DET	_	27	spe	_	_	131.309998	131.729996	UBR
+27	Durance	Durance	NOM	NOM	_	10	para	_	_	131.740005	132.039993	UBR
+28	en	en	PRE	PRE	_	27	dep	_	_	132.080002	132.179993	UBR
+29	crue	crue	NOM	NOM	_	28	dep	_	_	132.279999	132.419998	UBR
+30	et	et	COO	COO	_	32	mark	_	_	132.580002	132.639999	UBR
+31	la	le	DET	DET	_	32	spe	_	_	132.649994	132.720001	UBR
+32	sécheresse	sécheresse	NOM	NOM	_	27	para	_	_	132.729996	133.190002	UBR
+33	du	de+le	PRE	PRE	_	32	dep	_	_	133.380005	133.500000	UBR
+34	Val	Val	NOM	NOM	_	33	dep	_	_	133.509995	133.649994	UBR
+35	de	de	PRE	PRE	_	34	dep	_	_	133.660004	133.750000	UBR
+36	Durance	Durance	NOM	NOM	_	35	dep	_	_	133.759995	133.990005	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-32
+# text = ce
+1	ce	ce	DET	DET	_	0	root	_	_	135.389999	135.639999	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-33
+# text = doit
+1	doit	devoir	VRB	VRB	_	0	root	_	_	135.649994	135.750000	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-34
+# text = être intéressant
+1	être	être	VNF	VNF	_	0	root	_	_	135.759995	135.850006	PEL
+2	intéressant	intéressant	ADJ	ADJ	_	1	dep	_	_	135.860001	136.279999	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-35
+# text = euh oui hein à la fin de ce film euh
+1	euh	euh	INT	INT	_	4	dm	_	_	137.119995	137.139999	UBR
+2	oui	oui	INT	INT	_	1	dm	_	_	137.149994	137.309998	UBR
+3	hein	hein	INT	INT	_	2	dm	_	_	137.559998	137.899994	UBR
+4	à	à	PRE	PRE	_	0	root	_	_	138.490005	138.559998	UBR
+5	la	le	DET	DET	_	6	spe	_	_	138.570007	138.669998	UBR
+6	fin	fin	NOM	NOM	_	4	dep	_	_	138.679993	138.860001	UBR
+7	de	de	PRE	PRE	_	6	dep	_	_	138.869995	138.929993	UBR
+8	ce	ce	DET	DET	_	9	spe	_	_	138.940002	139.089996	UBR
+9	film	film	NOM	NOM	_	7	dep	_	_	139.100006	139.529999	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	139.949997	139.970001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-36
+# text = on écoute euh
+1	on	on	CLS	CLS	_	2	subj	_	_	140.020004	140.520004	UBR
+2	écoute	écouter	VRB	VRB	_	0	root	_	_	140.529999	140.800003	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	140.809998	140.839996	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-37
+# text = on on accède à une passerelle qui qui surplombe la salle des maquettes
+1	on	on	CLS	CLS	_	3	subj	_	_	140.889999	141.330002	UBR
+2	on	on	CLS	CLS	_	1	para	_	_	141.339996	141.389999	UBR
+3	accède	accéder	VRB	VRB	_	0	root	_	_	141.399994	141.750000	UBR
+4	à	à	PRE	PRE	_	3	dep	_	_	141.759995	142.199997	UBR
+5	une	un	DET	DET	_	6	spe	_	_	142.210007	142.330002	UBR
+6	passerelle	passerelle	NOM	NOM	_	4	dep	_	_	142.339996	142.809998	UBR
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	142.820007	143.199997	UBR
+8	qui	qui	PRQ	PRQ	_	7	para	_	_	143.270004	143.369995	UBR
+9	surplombe	surplomber	VRB	VRB	_	6	dep	_	_	143.380005	143.820007	UBR
+10	la	le	DET	DET	_	11	spe	_	_	143.830002	143.949997	UBR
+11	salle	salle	NOM	NOM	_	9	dep	_	_	144.039993	144.149994	UBR
+12	des	de	PRE	PRE	_	11	dep	_	_	144.160004	144.270004	UBR
+13	maquettes	maquette	NOM	NOM	_	12	dep	_	_	144.279999	144.600006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-38
+# text = alors euh on assiste à la donc sur cette passerelle à la simulation de l'inondation des villages par des systèmes lasers et des jeux de s lumière
+1	alors	alors	ADV	ADV	_	4	periph	_	_	145.720001	146.039993	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	146.050003	146.070007	UBR
+3	on	on	CLS	CLS	_	4	subj	_	_	146.240005	146.369995	UBR
+4	assiste	assister	VRB	VRB	_	0	root	_	_	146.380005	147.220001	UBR
+5	à	à	PRE	PRE	_	4	dep	_	_	147.229996	147.250000	UBR
+6	la	le	DET	DET	_	5	dep	_	_	147.259995	147.449997	UBR
+7	donc	donc	ADV	ADV	_	8	dep	_	_	147.460007	147.610001	UBR
+8	sur	sur	PRE	PRE	_	4	dep	_	_	147.619995	147.699997	UBR
+9	cette	ce	DET	DET	_	10	spe	_	_	147.710007	147.869995	UBR
+10	passerelle	passerelle	NOM	NOM	_	8	dep	_	_	147.880005	148.250000	UBR
+11	à	à	PRE	PRE	_	4	dep	_	_	148.720001	148.809998	UBR
+12	la	le	DET	DET	_	13	spe	_	_	148.820007	148.940002	UBR
+13	simulation	simulation	NOM	NOM	_	11	dep	_	_	148.949997	149.550003	UBR
+14	de	de	PRE	PRE	_	13	dep	_	_	149.559998	149.669998	UBR
+15	l'	le	DET	DET	_	16	spe	_	_	149.679993	149.699997	UBR
+16	inondation	inondation	NOM	NOM	_	14	dep	_	_	149.710007	150.229996	UBR
+17	des	de	PRE	PRE	_	16	dep	_	_	150.240005	150.380005	UBR
+18	villages	village	NOM	NOM	_	17	dep	_	_	150.389999	150.789993	UBR
+19	par	par	PRE	PRE	_	4	dep	_	_	151.160004	151.289993	UBR
+20	des	de	PRE	PRE	_	19	dep	_	_	151.300003	151.350006	UBR
+21	systèmes	système	NOM	NOM	_	20	dep	_	_	151.360001	151.789993	UBR
+22	lasers	laser	NOM	NOM	_	21	dep	_	_	151.800003	152.130005	UBR
+23	et	et	COO	COO	_	24	mark	_	_	152.229996	152.279999	UBR
+24	des	de	PRE	PRE	_	20	para	_	_	152.320007	152.429993	UBR
+25	jeux	jeu	NOM	NOM	_	24	dep	_	_	152.440002	152.630005	UBR
+26	de	de	PRE	PRE	_	25	dep	_	_	152.639999	152.669998	UBR
+27	s	s	NOM	NOM	_	26	dep	_	_	152.669998	152.669998	UBR
+28	lumière	lumière	NOM	NOM	_	25	dep	_	_	152.679993	153.029999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-39
+# text = en fait c'est c'est une mise en scène sonore et visuelle
+1	en	en	PRE	PRE	_	4	periph	_	_	153.279999	153.350006	UBR
+2	fait	fait	NOM	NOM	_	1	dep	_	_	153.360001	153.509995	UBR
+3	c'	ce	CLS	CLS	_	4	subj	_	_	153.520004	153.570007	UBR
+4	est	être	VRB	VRB	_	0	root	_	_	153.580002	153.750000	UBR
+5	c'	ce	CLS	CLS	_	6	subj	_	_	153.759995	153.820007	UBR
+6	est	être	VRB	VRB	_	4	para	_	_	153.830002	153.889999	UBR
+7	une	un	DET	DET	_	8	spe	_	_	153.899994	154.029999	UBR
+8	mise	mise	NOM	NOM	_	6	dep	_	_	154.080002	154.250000	UBR
+9	en	en	PRE	PRE	_	8	dep	_	_	154.259995	154.369995	UBR
+10	scène	scène	NOM	NOM	_	9	dep	_	_	154.440002	154.820007	UBR
+11	sonore	sonore	ADJ	ADJ	_	10	dep	_	_	154.830002	155.330002	UBR
+12	et	et	COO	COO	_	13	mark	_	_	155.339996	155.360001	UBR
+13	visuelle	visuel	ADJ	ADJ	_	11	para	_	_	155.369995	155.729996	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-40
+# text = oh c'est pas mal ça
+1	oh	oh	INT	INT	_	3	dm	_	_	156.720001	156.899994	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	156.910004	157.009995	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	157.020004	157.059998	PEL
+4	pas	pas	ADN	ADN	_	3	dep	_	_	157.070007	157.199997	PEL
+5	mal	mal	ADV	ADV	_	3	dep	_	_	157.210007	157.410004	PEL
+6	ça	ça	PRO	PRO	_	3	periph	_	_	157.419998	157.589996	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-41
+# text = oui euh on arrive ensuite dans la la troisième salle Ubaye d'une capacité de cent places
+1	oui	oui	INT	INT	_	4	dm	_	_	158.570007	158.679993	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	158.740005	158.770004	UBR
+3	on	on	CLS	CLS	_	4	subj	_	_	158.820007	159.509995	UBR
+4	arrive	arriver	VRB	VRB	_	0	root	_	_	159.520004	160.309998	UBR
+5	ensuite	ensuite	ADV	ADV	_	4	dep	_	_	160.320007	160.830002	UBR
+6	dans	dans	PRE	PRE	_	4	dep	_	_	160.839996	160.970001	UBR
+7	la	le	DET	DET	_	10	spe	_	_	160.979996	161.259995	UBR
+8	la	le	DET	DET	_	7	para	_	_	161.270004	161.339996	UBR
+9	troisième	troisième	ADJ	ADJ	_	10	dep	_	_	161.350006	161.679993	UBR
+10	salle	salle	NOM	NOM	_	6	dep	_	_	161.690002	162.029999	UBR
+11	Ubaye	Ubaye	NOM	NOM	_	10	dep	_	_	162.100006	162.500000	UBR
+12	d'	de	PRE	PRE	_	11	dep	_	_	163.039993	163.110001	UBR
+13	une	un	DET	DET	_	14	spe	_	_	163.119995	163.240005	UBR
+14	capacité	capacité	NOM	NOM	_	12	dep	_	_	163.250000	163.820007	UBR
+15	de	de	PRE	PRE	_	14	dep	_	_	163.830002	163.910004	UBR
+16	cent	cent	NUM	NUM	_	17	spe	_	_	163.919998	164.139999	UBR
+17	places	place	NOM	NOM	_	15	dep	_	_	164.149994	164.589996	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-42
+# text = alors là on vous montre à travers un film grand écran d'une douzaine de minutes tout ce qu'a apporté le barrage de Serre Ponçon aussi bien sur le plan économique
+1	alors	alors	ADV	ADV	_	5	periph	_	_	165.259995	165.470001	UBR
+2	là	là	ADV	ADV	_	5	periph	_	_	165.479996	165.729996	UBR
+3	on	on	CLS	CLS	_	5	subj	_	_	165.740005	165.839996	UBR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	165.850006	165.949997	UBR
+5	montre	montrer	VRB	VRB	_	0	root	_	_	165.960007	166.380005	UBR
+6	à travers	à travers	PRE	PRE	_	5	dep	_	_	166.389999	166.789993	UBR
+7	un	un	DET	DET	_	8	spe	_	_	166.800003	166.869995	UBR
+8	film	film	NOM	NOM	_	6	dep	_	_	166.880005	167.190002	UBR
+9	grand	grand	ADJ	ADJ	_	8	dep	_	_	167.199997	167.470001	UBR
+10	écran	écran	NOM	NOM	_	8	para	_	_	167.479996	167.839996	UBR
+11	d'	de	PRE	PRE	_	10	dep	_	_	167.850006	167.899994	UBR
+12	une	un	DET	DET	_	13	spe	_	_	167.910004	168.149994	UBR
+13	douzaine	douzaine	NOM	NOM	_	11	dep	_	_	168.330002	168.649994	UBR
+14	de	de	PRE	PRE	_	13	dep	_	_	168.660004	168.750000	UBR
+15	minutes	minute	NOM	NOM	_	14	dep	_	_	168.759995	169.220001	UBR
+16	tout	tout	ADJ	ADJ	_	17	dep	_	_	169.619995	169.800003	UBR
+17	ce	ce	PRO	PRO	_	15	para	_	_	169.809998	169.830002	UBR
+18	qu'	que	PRQ	PRQ	_	20	dep	_	_	169.839996	169.889999	UBR
+19	a	avoir	VRB	VRB	_	20	aux	_	_	169.899994	170.029999	UBR
+20	apporté	apporter	VPP	VPP	_	17	dep	_	_	170.039993	170.330002	UBR
+21	le	le	DET	DET	_	22	spe	_	_	170.339996	170.410004	UBR
+22	barrage	barrage	NOM	NOM	_	20	dep	_	_	170.419998	170.710007	UBR
+23	de	de	PRE	PRE	_	22	dep	_	_	170.720001	170.740005	UBR
+24	Serre	serre	NOM	NOM	_	23	dep	_	_	170.750000	170.910004	UBR
+25	Ponçon	Ponçon	NOM	NOM	_	24	dep	_	_	170.919998	171.330002	UBR
+26	aussi	aussi	ADV	ADV	_	27	dep	_	_	171.940002	172.179993	UBR
+27	bien	bien	ADV	ADV	_	5	dep	_	_	172.190002	172.330002	UBR
+28	sur	sur	PRE	PRE	_	5	dep	_	_	172.339996	172.470001	UBR
+29	le	le	DET	DET	_	30	spe	_	_	172.479996	172.570007	UBR
+30	plan	plan	NOM	NOM	_	28	dep	_	_	172.580002	172.850006	UBR
+31	économique	économique	ADJ	ADJ	_	30	dep	_	_	172.860001	173.529999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-43
+# text = que touristique
+1	que	que	CSU	CSU	_	2	dep	_	_	173.820007	173.919998	UBR
+2	touristique	touristique	ADJ	ADJ	_	0	root	_	_	173.929993	174.419998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-44
+# text = alors euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	175.080002	175.259995	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	175.270004	175.289993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-45
+# text = l'arrosage du Val de Durance la production E D F
+1	l'	le	DET	DET	_	2	spe	_	_	175.300003	175.339996	UBR
+2	arrosage	arrosage	NOM	NOM	_	0	root	_	_	175.350006	176.210007	UBR
+3	du	de+le	PRE	PRE	_	2	dep	_	_	176.250000	176.330002	UBR
+4	Val	Val	NOM	NOM	_	3	dep	_	_	176.339996	176.490005	UBR
+5	de	de	PRE	PRE	_	4	dep	_	_	176.500000	176.589996	UBR
+6	Durance	Durance	NOM	NOM	_	5	dep	_	_	176.600006	177.339996	UBR
+7	la	le	DET	DET	_	8	spe	_	_	177.350006	177.440002	UBR
+8	production	production	NOM	NOM	_	4	para	_	_	177.449997	177.960007	UBR
+9	E	E	PRE	PRE	_	8	dep	_	_	177.970001	178.000000	UBR
+10	D	D	NOM	NOM	_	9	dep	_	_	178.059998	178.229996	UBR
+11	F	F	NOM	NOM	_	10	dep	_	_	178.240005	178.460007	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-46
+# text = tous les sports pratiqués dans la région
+1	tous	tout	ADJ	ADJ	_	3	dep	_	_	178.979996	179.119995	UBR
+2	les	le	DET	DET	_	3	spe	_	_	179.130005	179.289993	UBR
+3	sports	sport	NOM	NOM	_	0	root	_	_	179.300003	179.490005	UBR
+4	pratiqués	pratiquer	VPP	VPP	_	3	dep	_	_	179.500000	179.970001	UBR
+5	dans	dans	PRE	PRE	_	4	dep	_	_	179.979996	180.089996	UBR
+6	la	le	DET	DET	_	7	spe	_	_	180.100006	180.169998	UBR
+7	région	région	NOM	NOM	_	5	dep	_	_	180.179993	180.600006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-47
+# text = aussi bien
+1	aussi	aussi	ADV	ADV	_	2	dep	_	_	180.639999	180.860001	UBR
+2	bien	bien	ADV	ADV	_	0	root	_	_	180.869995	181.059998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-48
+# text = en hiver
+1	en	en	PRE	PRE	_	0	root	_	_	181.070007	181.169998	UBR
+2	hiver	hiver	NOM	NOM	_	1	dep	_	_	181.179993	181.350006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-49
+# text = qu'en été
+1	qu'	que	PRQ	PRQ	_	0	root	_	_	181.419998	181.449997	UBR
+2	en	en	PRE	PRE	_	1	dep	_	_	181.460007	181.559998	UBR
+3	été	été	NOM	NOM	_	2	dep	_	_	181.570007	181.830002	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-50
+# text = voilà euh donc euh pour la salle de projection euh Ubaye
+1	voilà	voilà	INT	INT	_	5	dm	_	_	182.979996	183.289993	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	183.639999	183.660004	UBR
+3	donc	donc	ADV	ADV	_	2	dm	_	_	183.960007	184.240005	UBR
+4	euh	euh	INT	INT	_	3	dm	_	_	184.250000	184.330002	UBR
+5	pour	pour	PRE	PRE	_	0	root	_	_	184.339996	184.479996	UBR
+6	la	le	DET	DET	_	7	spe	_	_	184.490005	184.729996	UBR
+7	salle	salle	NOM	NOM	_	5	dep	_	_	184.740005	184.899994	UBR
+8	de	de	PRE	PRE	_	7	dep	_	_	184.910004	184.979996	UBR
+9	projection	projection	NOM	NOM	_	8	dep	_	_	184.990005	185.720001	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	185.860001	185.880005	UBR
+11	Ubaye	Ubaye	NOM	NOM	_	7	dep	_	_	186.429993	186.770004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-51
+# text = on débouche enfin sur une salle panoramique avec deux hublots comme vous le voyez sur le plan là
+1	on	on	CLS	CLS	_	2	subj	_	_	187.509995	187.619995	UBR
+2	débouche	déboucher	VRB	VRB	_	0	root	_	_	187.630005	188.380005	UBR
+3	enfin	enfin	ADV	ADV	_	2	dep	_	_	188.389999	188.740005	UBR
+4	sur	sur	PRE	PRE	_	2	dep	_	_	188.750000	189.050003	UBR
+5	une	un	DET	DET	_	6	spe	_	_	189.059998	189.399994	UBR
+6	salle	salle	NOM	NOM	_	4	dep	_	_	189.410004	189.600006	UBR
+7	panoramique	panoramique	NOM	NOM	_	6	dep	_	_	189.610001	190.289993	UBR
+8	avec	avec	PRE	PRE	_	2	dep	_	_	190.750000	190.949997	UBR
+9	deux	deux	NUM	NUM	_	10	spe	_	_	191.000000	191.139999	UBR
+10	hublots	hublot	NOM	NOM	_	8	dep	_	_	191.149994	191.520004	UBR
+11	comme	comme	PRE	PRE	_	2	dep	_	_	191.759995	191.899994	UBR
+12	vous	moi	PRO	PRO	_	11	dep	_	_	191.910004	192.000000	UBR
+13	le	le	CLI	CLI	_	14	dep	_	_	192.009995	192.029999	UBR
+14	voyez	voir	VRB	VRB	_	12	dep	_	_	192.039993	192.270004	UBR
+15	sur	sur	PRE	PRE	_	14	dep	_	_	192.279999	192.429993	UBR
+16	le	le	DET	DET	_	17	spe	_	_	192.440002	192.520004	UBR
+17	plan	plan	NOM	NOM	_	15	dep	_	_	192.529999	192.809998	UBR
+18	là	là	ADV	ADV	_	17	dep	_	_	192.820007	192.970001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-52
+# text = alors euh vos clients euh pourront euh à cet endroit admirer la vue sur le lac et le barrage
+1	alors	alors	ADV	ADV	_	6	periph	_	_	193.649994	193.990005	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	194.000000	194.100006	UBR
+3	vos	son	DET	DET	_	4	spe	_	_	194.110001	194.250000	UBR
+4	clients	client	NOM	NOM	_	6	subj	_	_	194.259995	194.710007	UBR
+5	euh	euh	INT	INT	_	4	dm	_	_	194.720001	194.919998	UBR
+6	pourront	pouvoir	VRB	VRB	_	0	root	_	_	194.929993	195.630005	UBR
+7	euh	euh	INT	INT	_	6	dm	_	_	195.679993	195.699997	UBR
+8	à	à	PRE	PRE	_	6	dep	_	_	195.860001	195.889999	UBR
+9	cet	ce	DET	DET	_	10	spe	_	_	195.899994	196.110001	UBR
+10	endroit	endroit	NOM	NOM	_	8	dep	_	_	196.119995	196.479996	UBR
+11	admirer	admirer	VNF	VNF	_	8	dep	_	_	196.520004	196.919998	UBR
+12	la	le	DET	DET	_	13	spe	_	_	196.929993	197.020004	UBR
+13	vue	vue	NOM	NOM	_	11	dep	_	_	197.029999	197.160004	UBR
+14	sur	sur	PRE	PRE	_	11	dep	_	_	197.169998	197.320007	UBR
+15	le	le	DET	DET	_	16	spe	_	_	197.330002	197.419998	UBR
+16	lac	lac	NOM	NOM	_	14	dep	_	_	197.429993	197.660004	UBR
+17	et	et	COO	COO	_	19	mark	_	_	197.669998	197.710007	UBR
+18	le	le	DET	DET	_	19	spe	_	_	197.720001	197.789993	UBR
+19	barrage	barrage	NOM	NOM	_	16	para	_	_	197.800003	198.220001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-53
+# text = parce que n'oubliez pas que le le Muséoscope surplombe le lac de Serre Ponçon hein
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	198.800003	199.100006	UBR
+2	n'	ne	CLN	CLN	_	3	dep	_	_	199.110001	199.139999	UBR
+3	oubliez	oublier	VRB	VRB	_	1	dep	_	_	199.149994	199.399994	UBR
+4	pas	pas	ADN	ADN	_	3	dep	_	_	199.410004	199.539993	UBR
+5	que	que	CSU	CSU	_	3	dep	_	_	199.550003	199.639999	UBR
+6	le	le	DET	DET	_	8	spe	_	_	199.649994	199.860001	UBR
+7	le	le	DET	DET	_	6	para	_	_	199.869995	199.940002	UBR
+8	Muséoscope	Muséoscope	NOM	NOM	_	9	subj	_	_	199.949997	200.470001	UBR
+9	surplombe	surplomber	VRB	VRB	_	5	dep	_	_	200.580002	201.080002	UBR
+10	le	le	DET	DET	_	11	spe	_	_	201.089996	201.149994	UBR
+11	lac	lac	NOM	NOM	_	9	dep	_	_	201.160004	201.270004	UBR
+12	de	de	PRE	PRE	_	11	dep	_	_	201.279999	201.339996	UBR
+13	Serre	serre	NOM	NOM	_	12	dep	_	_	201.350006	201.490005	UBR
+14	Ponçon	Ponçon	NOM	NOM	_	13	dep	_	_	201.500000	201.889999	UBR
+15	hein	hein	INT	INT	_	14	dm	_	_	201.899994	201.919998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-54
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	202.380005	202.429993	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-55
+# text = euh après on on retraverse la la salle des maquettes
+1	euh	euh	INT	INT	_	5	dm	_	_	202.490005	202.509995	UBR
+2	après	après	ADV	ADV	_	5	periph	_	_	203.080002	203.800003	UBR
+3	on	on	CLS	CLS	_	5	subj	_	_	203.809998	204.229996	UBR
+4	on	on	CLS	CLS	_	3	para	_	_	204.279999	204.360001	UBR
+5	retraverse	retraverser	VRB	VRB	_	0	root	_	_	204.369995	204.899994	UBR
+6	la	le	DET	DET	_	8	spe	_	_	204.910004	205.179993	UBR
+7	la	le	DET	DET	_	6	para	_	_	205.190002	205.289993	UBR
+8	salle	salle	NOM	NOM	_	5	dep	_	_	205.300003	205.509995	UBR
+9	des	de	PRE	PRE	_	8	dep	_	_	205.520004	205.619995	UBR
+10	maquettes	maquette	NOM	NOM	_	9	dep	_	_	205.630005	206.169998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-56
+# text = et on accède à la boutique librairie
+1	et	et	COO	COO	_	3	mark	_	_	206.899994	206.970001	UBR
+2	on	on	CLS	CLS	_	3	subj	_	_	206.979996	207.089996	UBR
+3	accède	accéder	VRB	VRB	_	0	root	_	_	207.100006	207.479996	UBR
+4	à	à	PRE	PRE	_	3	dep	_	_	207.490005	207.630005	UBR
+5	la	le	DET	DET	_	6	spe	_	_	207.639999	207.750000	UBR
+6	boutique	boutique	NOM	NOM	_	4	dep	_	_	207.759995	208.050003	UBR
+7	librairie	librairie	NOM	NOM	_	6	dep	_	_	208.059998	208.399994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-57
+# text = euh des sanitaires sont mis à disposition des clients
+1	euh	euh	INT	INT	_	5	dm	_	_	209.690002	209.970001	UBR
+2	des	de	PRE	PRE	_	5	periph	_	_	209.979996	210.089996	UBR
+3	sanitaires	sanitaire	NOM	NOM	_	2	dep	_	_	210.100006	210.529999	UBR
+4	sont	être	VRB	VRB	_	5	aux	_	_	210.539993	210.770004	UBR
+5	mis	mettre	VPP	VPP	_	0	root	_	_	210.779999	210.880005	UBR
+6	à	à	PRE	PRE	_	5	dep	_	_	210.889999	211.389999	UBR
+7	disposition	disposition	NOM	NOM	_	6	dep	_	_	211.399994	212.009995	UBR
+8	des	de	PRE	PRE	_	7	dep	_	_	212.020004	212.130005	UBR
+9	clients	client	NOM	NOM	_	8	dep	_	_	212.139999	212.460007	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-58
+# text = voilà ça vous plaît
+1	voilà	voilà	INT	INT	_	4	dm	_	_	213.050003	213.279999	UBR
+2	ça	ça	PRO	PRO	_	4	subj	_	_	213.559998	213.639999	UBR
+3	vous	vous	CLI	CLI	_	4	dep	_	_	213.649994	213.759995	UBR
+4	plaît	plaire	VRB	VRB	_	0	root	_	_	213.770004	213.990005	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-59
+# text = oui c'est assez complet
+1	oui	oui	INT	INT	_	3	dm	_	_	215.100006	215.339996	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	215.350006	215.369995	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	215.380005	215.539993	PEL
+4	assez	assez	ADV	ADV	_	5	dep	_	_	215.550003	215.759995	PEL
+5	complet	complet	ADJ	ADJ	_	3	dep	_	_	215.770004	216.119995	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-60
+# text = mais je peux vous faire une remarque là
+1	mais	mais	COO	COO	_	3	mark	_	_	216.750000	216.990005	PEL
+2	je	je	CLS	CLS	_	3	subj	_	_	217.000000	217.059998	PEL
+3	peux	pouvoir	VRB	VRB	_	0	root	_	_	217.139999	217.229996	PEL
+4	vous	vous	CLI	CLI	_	5	dep	_	_	217.240005	217.339996	PEL
+5	faire	faire	VNF	VNF	_	3	dep	_	_	217.350006	217.529999	PEL
+6	une	un	DET	DET	_	7	spe	_	_	217.539993	217.589996	PEL
+7	remarque	remarque	NOM	NOM	_	5	dep	_	_	217.600006	217.889999	PEL
+8	là	là	ADV	ADV	_	5	dep	_	_	217.970001	218.089996	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-61
+# text = on n'a pas parlé des parkings parce que vous savez on a des cars de cinquante places
+1	on	on	CLS	CLS	_	5	subj	_	_	218.100006	218.270004	PEL
+2	n'	ne	CLN	CLN	_	5	dep	_	_	218.270004	218.270004	PEL
+3	a	avoir	VRB	VRB	_	5	aux	_	_	218.279999	218.309998	PEL
+4	pas	pas	ADN	ADN	_	5	dep	_	_	218.320007	218.460007	PEL
+5	parlé	parler	VPP	VPP	_	12	periph	_	_	218.470001	218.710007	PEL
+6	des	de	PRE	PRE	_	5	dep	_	_	218.720001	218.839996	PEL
+7	parkings	parking	NOM	NOM	_	6	dep	_	_	218.880005	219.330002	PEL
+8	parce que	parce que	CSU	CSU	_	5	dep	_	_	219.339996	219.570007	PEL
+9	vous	vous	CLS	CLS	_	10	subj	_	_	219.580002	219.639999	PEL
+10	savez	savoir	VRB	VRB	_	8	dep	_	_	219.649994	219.929993	PEL
+11	on	on	CLS	CLS	_	12	subj	_	_	219.940002	220.039993	PEL
+12	a	avoir	VRB	VRB	_	0	root	_	_	220.050003	220.110001	PEL
+13	des	de	PRE	PRE	_	12	dep	_	_	220.119995	220.360001	PEL
+14	cars	car	NOM	NOM	_	13	dep	_	_	220.460007	220.690002	PEL
+15	de	de	PRE	PRE	_	14	dep	_	_	220.699997	221.080002	PEL
+16	cinquante	cinquante	NUM	NUM	_	17	spe	_	_	221.210007	221.600006	PEL
+17	places	place	NOM	NOM	_	15	dep	_	_	221.750000	222.149994	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-62
+# text = et il faut quand même y penser
+1	et	et	COO	COO	_	3	mark	_	_	222.160004	222.210007	PEL
+2	il	il	CLS	CLS	_	3	subj	_	_	222.220001	222.289993	PEL
+3	faut	faillir	VRB	VRB	_	0	root	_	_	222.399994	222.559998	PEL
+4	quand	quand	CSU	CSU	_	3	dep	_	_	222.570007	222.660004	PEL
+5	même	même	ADV	ADV	_	7	dep	_	_	222.669998	222.860001	PEL
+6	y	y	CLI	CLI	_	7	dep	_	_	222.869995	222.899994	PEL
+7	penser	penser	VNF	VNF	_	4	dep	_	_	222.970001	223.289993	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-63
+# text = ah c'est prévu hein vous avez un parking euh réservé aux cars à trente mètres à l'est du musée
+1	ah	ah	INT	INT	_	4	dm	_	_	224.619995	224.740005	UBR
+2	c'	ce	CLS	CLS	_	4	subj	_	_	224.789993	224.820007	UBR
+3	est	être	VRB	VRB	_	4	aux	_	_	224.830002	224.889999	UBR
+4	prévu	prévoir	VPP	VPP	_	7	periph	_	_	224.899994	225.289993	UBR
+5	hein	hein	INT	INT	_	4	dm	_	_	225.300003	225.460007	UBR
+6	vous	vous	CLS	CLS	_	7	subj	_	_	225.470001	225.600006	UBR
+7	avez	avoir	VRB	VRB	_	0	root	_	_	225.610001	225.740005	UBR
+8	un	un	DET	DET	_	9	spe	_	_	225.750000	225.830002	UBR
+9	parking	parking	NOM	NOM	_	7	dep	_	_	225.839996	226.270004	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	226.279999	226.460007	UBR
+11	réservé	réserver	VPP	VPP	_	9	dep	_	_	226.470001	227.029999	UBR
+12	aux	à+le	PRE	PRE	_	11	dep	_	_	227.039993	227.429993	UBR
+13	cars	car	NOM	NOM	_	12	dep	_	_	227.500000	227.770004	UBR
+14	à	à	PRE	PRE	_	11	dep	_	_	227.779999	227.820007	UBR
+15	trente	trente	NUM	NUM	_	16	spe	_	_	227.830002	228.050003	UBR
+16	mètres	mètre	NOM	NOM	_	14	dep	_	_	228.100006	228.600006	UBR
+17	à	à	PRE	PRE	_	14	para	_	_	228.649994	228.720001	UBR
+18	l'	le	DET	DET	_	19	spe	_	_	228.729996	228.770004	UBR
+19	est	est	NOM	NOM	_	17	dep	_	_	228.779999	229.009995	UBR
+20	du	de+le	PRE	PRE	_	19	dep	_	_	229.020004	229.119995	UBR
+21	musée	musée	NOM	NOM	_	20	dep	_	_	229.130005	229.429993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-64
+# text = et les handicapés c'est prévu aussi hein
+1	et	et	COO	COO	_	6	mark	_	_	230.059998	230.080002	PEL
+2	les	le	DET	DET	_	3	spe	_	_	230.470001	230.710007	PEL
+3	handicapés	handicapé	NOM	NOM	_	6	periph	_	_	230.720001	231.279999	PEL
+4	c'	ce	CLS	CLS	_	6	subj	_	_	232.479996	232.559998	UBR
+5	est	être	VRB	VRB	_	6	aux	_	_	232.570007	232.600006	UBR
+6	prévu	prévoir	VPP	VPP	_	0	root	_	_	232.610001	232.869995	UBR
+7	aussi	aussi	ADV	ADV	_	6	dep	_	_	232.880005	233.210007	UBR
+8	hein	hein	INT	INT	_	7	dm	_	_	233.220001	233.649994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-65
+# text = ça ne pose aucun problème tout est prévu pour permettre aux personnes handicapées de suivre la la visite hein
+1	ça	ça	PRO	PRO	_	3	subj	_	_	233.660004	233.809998	UBR
+2	ne	ne	CLN	CLN	_	3	dep	_	_	233.820007	233.850006	UBR
+3	pose	poser	VRB	VRB	_	0	root	_	_	233.860001	234.089996	UBR
+4	aucun	aucun	PRO	PRO	_	5	spe	_	_	234.100006	234.360001	UBR
+5	problème	problème	NOM	NOM	_	3	dep	_	_	234.369995	234.710007	UBR
+6	tout	tout	ADJ	ADJ	_	8	dep	_	_	235.100006	235.300003	UBR
+7	est	être	VRB	VRB	_	8	aux	_	_	235.309998	235.369995	UBR
+8	prévu	prévoir	VPP	VPP	_	5	dep	_	_	235.380005	235.660004	UBR
+9	pour	pour	PRE	PRE	_	8	dep	_	_	235.669998	235.809998	UBR
+10	permettre	permettre	VNF	VNF	_	9	dep	_	_	235.820007	236.339996	UBR
+11	aux	à+le	PRE	PRE	_	10	dep	_	_	236.350006	236.509995	UBR
+12	personnes	personne	NOM	NOM	_	11	dep	_	_	236.520004	236.869995	UBR
+13	handicapées	handicapé	ADJ	ADJ	_	12	dep	_	_	236.880005	237.389999	UBR
+14	de	de	PRE	PRE	_	12	dep	_	_	237.399994	237.479996	UBR
+15	suivre	suivre	VNF	VNF	_	14	dep	_	_	237.490005	237.830002	UBR
+16	la	le	DET	DET	_	18	spe	_	_	237.839996	238.100006	UBR
+17	la	le	DET	DET	_	16	para	_	_	238.110001	238.220001	UBR
+18	visite	visite	NOM	NOM	_	15	dep	_	_	238.229996	238.619995	UBR
+19	hein	hein	INT	INT	_	18	dm	_	_	238.630005	238.649994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-66
+# text = vous avez des des pentes euh
+1	vous	vous	CLS	CLS	_	2	subj	_	_	238.720001	238.869995	UBR
+2	avez	avoir	VRB	VRB	_	0	root	_	_	238.880005	239.020004	UBR
+3	des	de	PRE	PRE	_	2	dep	_	_	239.089996	239.339996	UBR
+4	des	de	PRE	PRE	_	3	para	_	_	239.399994	239.470001	UBR
+5	pentes	pente	NOM	NOM	_	4	dep	_	_	239.550003	239.779999	UBR
+6	euh	euh	INT	INT	_	5	dm	_	_	240.000000	240.039993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-67
+# text = euh exprès euh je vous présente maintenant les accès au Muséoscope
+1	euh	euh	INT	INT	_	6	dm	_	_	240.740005	241.179993	UBR
+2	exprès	exprès	ADV	ADV	_	6	periph	_	_	241.190002	241.490005	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	242.029999	242.059998	UBR
+4	je	je	CLS	CLS	_	6	subj	_	_	242.369995	242.389999	UBR
+5	vous	vous	CLI	CLI	_	6	dep	_	_	242.970001	243.270004	UBR
+6	présente	présenter	VRB	VRB	_	0	root	_	_	243.360001	243.800003	UBR
+7	maintenant	maintenant	ADV	ADV	_	6	dep	_	_	243.809998	244.750000	UBR
+8	les	le	DET	DET	_	9	spe	_	_	244.759995	244.919998	UBR
+9	accès	accès	NOM	NOM	_	6	dep	_	_	244.929993	245.229996	UBR
+10	au	à+le	PRE	PRE	_	9	dep	_	_	245.240005	245.350006	UBR
+11	Muséoscope	Muséoscope	NOM	NOM	_	10	dep	_	_	245.410004	245.940002	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-68
+# text = alors comme c'est marqué sur la plaquette vous y arrivez par Chorges ou par Espinasses
+1	alors	alors	ADV	ADV	_	11	periph	_	_	246.619995	246.860001	UBR
+2	comme	comme	CSU	CSU	_	11	periph	_	_	246.919998	247.089996	UBR
+3	c'	ce	CLS	CLS	_	5	subj	_	_	247.100006	247.190002	UBR
+4	est	être	VRB	VRB	_	5	aux	_	_	247.199997	247.240005	UBR
+5	marqué	marquer	VPP	VPP	_	2	dep	_	_	247.250000	247.520004	UBR
+6	sur	sur	PRE	PRE	_	5	dep	_	_	247.529999	247.699997	UBR
+7	la	le	DET	DET	_	8	spe	_	_	247.710007	247.800003	UBR
+8	plaquette	plaquette	NOM	NOM	_	6	dep	_	_	247.809998	248.220001	UBR
+9	vous	vous	CLS	CLS	_	11	subj	_	_	248.869995	249.100006	UBR
+10	y	y	CLI	CLI	_	11	dep	_	_	249.110001	249.149994	UBR
+11	arrivez	arriver	VRB	VRB	_	0	root	_	_	249.160004	249.490005	UBR
+12	par	par	PRE	PRE	_	11	dep	_	_	249.500000	249.660004	UBR
+13	Chorges	Chorges	NOM	NOM	_	12	dep	_	_	249.669998	250.089996	UBR
+14	ou	ou	COO	COO	_	15	mark	_	_	250.460007	250.550003	UBR
+15	par	par	PRE	PRE	_	12	para	_	_	250.559998	250.759995	UBR
+16	Espinasses	Espinasses	NOM	NOM	_	15	dep	_	_	250.770004	251.229996	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-69
+# text = bon vous en l'occurrence je pense que ce sera plutôt par euh par euh par Chorges puisque vous arrivez de Briançon
+1	bon	bon	INT	INT	_	7	dm	_	_	251.820007	251.990005	UBR
+2	vous	vous	CLS	CLS	_	7	periph	_	_	252.000000	252.119995	UBR
+3	en	en	PRE	PRE	_	7	periph	_	_	252.130005	252.190002	UBR
+4	l'	le	DET	DET	_	5	spe	_	_	252.199997	252.220001	UBR
+5	occurrence	occurrence	NOM	NOM	_	3	dep	_	_	252.229996	252.619995	UBR
+6	je	je	CLS	CLS	_	7	subj	_	_	252.630005	252.649994	UBR
+7	pense	penser	VRB	VRB	_	0	root	_	_	252.660004	252.850006	UBR
+8	que	que	CSU	CSU	_	7	dep	_	_	252.860001	252.919998	UBR
+9	ce	ce	CLS	CLS	_	10	subj	_	_	252.929993	253.029999	UBR
+10	sera	être	VRB	VRB	_	8	dep	_	_	253.039993	253.179993	UBR
+11	plutôt	plutôt	ADV	ADV	_	10	dep	_	_	253.190002	253.429993	UBR
+12	par	par	PRE	PRE	_	10	dep	_	_	253.440002	253.809998	UBR
+13	euh	euh	INT	INT	_	12	dm	_	_	253.820007	253.839996	UBR
+14	par	par	PRE	PRE	_	12	para	_	_	253.899994	254.139999	UBR
+15	euh	euh	INT	INT	_	14	dm	_	_	254.149994	254.380005	UBR
+16	par	par	PRE	PRE	_	14	para	_	_	254.889999	255.009995	UBR
+17	Chorges	Chorges	NOM	NOM	_	16	dep	_	_	255.020004	255.279999	UBR
+18	puisque	puisque	CSU	CSU	_	7	periph	_	_	255.289993	255.500000	UBR
+19	vous	vous	CLS	CLS	_	20	subj	_	_	255.509995	255.639999	UBR
+20	arrivez	arriver	VRB	VRB	_	18	dep	_	_	255.649994	255.880005	UBR
+21	de	de	PRE	PRE	_	20	dep	_	_	255.889999	255.960007	UBR
+22	Briançon	Briançon	NOM	NOM	_	21	dep	_	_	255.970001	256.410004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-70
+# text = oui mais je connais le col Lebraut
+1	oui	oui	INT	INT	_	4	dm	_	_	257.019989	257.109985	PEL
+2	mais	mais	COO	COO	_	4	mark	_	_	257.410004	257.820007	PEL
+3	je	je	CLS	CLS	_	4	subj	_	_	257.829987	257.980011	PEL
+4	connais	connaître	VRB	VRB	_	0	root	_	_	257.989990	258.220001	PEL
+5	le	le	DET	DET	_	6	spe	_	_	258.230011	258.320007	PEL
+6	col	col	NOM	NOM	_	4	dep	_	_	258.329987	258.559998	PEL
+7	Lebraut	Lebraut	NOM	NOM	_	6	dep	_	_	258.570007	258.980011	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-71
+# text = et c'est une roul~ une route qui est pas facile hein
+1	et	et	COO	COO	_	3	mark	_	_	258.989990	259.029999	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	259.040009	259.149994	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	259.160004	259.209991	PEL
+4	une	un	DET	DET	_	5	spe	_	_	259.309998	259.440002	PEL
+5	roul~	roul~	NOM	NOM	_	3	dep	_	_	259.450012	259.720001	PEL
+6	une	un	DET	DET	_	7	spe	_	_	259.950012	260.100006	PEL
+7	route	route	NOM	NOM	_	5	para	_	_	260.109985	260.329987	PEL
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	260.339996	260.390015	PEL
+9	est	être	VRB	VRB	_	7	dep	_	_	260.470001	260.519989	PEL
+10	pas	pas	ADN	ADN	_	9	dep	_	_	260.529999	260.670013	PEL
+11	facile	facile	ADJ	ADJ	_	9	dep	_	_	260.679993	261.089996	PEL
+12	hein	hein	INT	INT	_	11	dm	_	_	261.100006	261.160004	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-72
+# text = alors euh si vous connaissez le le col Lebraut vous avez dû voir que euh beaucoup de cars passent par le belvédère
+1	alors	alors	ADV	ADV	_	12	periph	_	_	262.720001	263.089996	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	263.100006	263.130005	UBR
+3	si	si	CSU	CSU	_	12	periph	_	_	263.140015	263.279999	UBR
+4	vous	vous	CLS	CLS	_	5	subj	_	_	263.290009	263.380005	UBR
+5	connaissez	connaître	VRB	VRB	_	3	dep	_	_	263.390015	263.790009	UBR
+6	le	le	DET	DET	_	8	spe	_	_	263.799988	264.140015	UBR
+7	le	le	DET	DET	_	6	para	_	_	264.149994	264.260010	UBR
+8	col	col	NOM	NOM	_	5	dep	_	_	264.269989	264.500000	UBR
+9	Lebraut	Lebraut	NOM	NOM	_	8	dep	_	_	264.510010	264.679993	UBR
+10	vous	vous	CLS	CLS	_	12	subj	_	_	264.690002	265.000000	UBR
+11	avez	avoir	VRB	VRB	_	12	aux	_	_	265.010010	265.149994	UBR
+12	dû	devoir	VPP	VPP	_	0	root	_	_	265.160004	265.230011	UBR
+13	voir	voir	VNF	VNF	_	12	dep	_	_	265.239990	265.470001	UBR
+14	que	que	CSU	CSU	_	13	dep	_	_	265.570007	265.850006	UBR
+15	euh	euh	INT	INT	_	14	dm	_	_	265.859985	265.890015	UBR
+16	beaucoup	beaucoup	ADV	ADV	_	19	periph	_	_	265.970001	266.190002	UBR
+17	de	de	PRE	PRE	_	16	dep	_	_	266.200012	266.220001	UBR
+18	cars	car	NOM	NOM	_	17	dep	_	_	266.329987	266.709991	UBR
+19	passent	passer	VRB	VRB	_	14	dep	_	_	266.750000	266.940002	UBR
+20	par	par	PRE	PRE	_	19	dep	_	_	266.950012	267.089996	UBR
+21	le	le	DET	DET	_	22	spe	_	_	267.100006	267.190002	UBR
+22	belvédère	belvédère	NOM	NOM	_	20	dep	_	_	267.200012	267.709991	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-73
+# text = et par le col Lebraut en effet euh il faut pas oublier que le le barrage Serre Ponçon c'est quand
+1	et	et	COO	COO	_	10	mark	_	_	268.299988	268.640015	UBR
+2	par	par	PRE	PRE	_	10	periph	_	_	268.649994	268.779999	UBR
+3	le	le	DET	DET	_	4	spe	_	_	268.790009	268.869995	UBR
+4	col	col	NOM	NOM	_	2	dep	_	_	268.880005	269.079987	UBR
+5	Lebraut	Lebraut	NOM	NOM	_	4	dep	_	_	269.089996	269.440002	UBR
+6	en	en	PRE	PRE	_	10	periph	_	_	269.720001	269.820007	UBR
+7	effet	effet	NOM	NOM	_	6	dep	_	_	269.829987	270.109985	UBR
+8	euh	euh	INT	INT	_	7	dm	_	_	270.119995	270.140015	UBR
+9	il	il	CLS	CLS	_	10	subj	_	_	270.149994	270.200012	UBR
+10	faut	faillir	VRB	VRB	_	0	root	_	_	270.209991	270.309998	UBR
+11	pas	pas	ADN	ADN	_	10	dep	_	_	270.359985	270.440002	UBR
+12	oublier	oublier	VNF	VNF	_	10	dep	_	_	270.450012	270.640015	UBR
+13	que	que	CSU	CSU	_	12	dep	_	_	270.649994	270.760010	UBR
+14	le	le	DET	DET	_	16	spe	_	_	270.769989	270.950012	UBR
+15	le	le	DET	DET	_	14	para	_	_	270.959991	271.029999	UBR
+16	barrage	barrage	NOM	NOM	_	20	periph	_	_	271.040009	271.329987	UBR
+17	Serre	serre	NOM	NOM	_	16	dep	_	_	271.339996	271.510010	UBR
+18	Ponçon	Ponçon	NOM	NOM	_	17	dep	_	_	271.519989	271.869995	UBR
+19	c'	ce	CLS	CLS	_	20	subj	_	_	271.880005	271.959991	UBR
+20	est	être	VRB	VRB	_	13	dep	_	_	271.970001	272.019989	UBR
+21	quand	quand	CSU	CSU	_	20	dep	_	_	272.029999	272.250000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-74
+# text = même euh
+1	même	même	ADV	ADV	_	0	root	_	_	272.260010	272.570007	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	272.579987	272.600006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-75
+# text = un des sites
+1	un	un	PRO	PRO	_	0	root	_	_	272.929993	273.029999	UBR
+2	des	de	PRE	PRE	_	1	dep	_	_	273.040009	273.149994	UBR
+3	sites	site	NOM	NOM	_	2	dep	_	_	273.160004	273.399994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-76
+# text = les les les plus visités du département hein
+1	les	le	DET	DET	_	5	spe	_	_	273.410004	273.679993	UBR
+2	les	le	DET	DET	_	1	para	_	_	273.690002	273.989990	UBR
+3	les	le	DET	DET	_	2	para	_	_	274.000000	274.100006	UBR
+4	plus	plus	ADN	ADN	_	5	dep	_	_	274.109985	274.220001	UBR
+5	visités	visiter	ADJ	ADJ	_	0	root	_	_	274.230011	274.570007	UBR
+6	du	de+le	PRE	PRE	_	5	dep	_	_	274.579987	274.670013	UBR
+7	département	département	NOM	NOM	_	6	dep	_	_	274.679993	275.290009	UBR
+8	hein	hein	INT	INT	_	7	dm	_	_	275.299988	275.399994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-77
+# text = c'est le le deuxième site
+1	c'	ce	CLS	CLS	_	2	subj	_	_	275.410004	275.510010	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	275.519989	275.559998	UBR
+3	le	le	DET	DET	_	6	spe	_	_	275.570007	275.890015	UBR
+4	le	le	DET	DET	_	3	para	_	_	275.899994	275.980011	UBR
+5	deuxième	deuxième	ADJ	ADJ	_	6	dep	_	_	275.989990	276.269989	UBR
+6	site	site	NOM	NOM	_	2	dep	_	_	276.279999	276.459991	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-78
+# text = après notre Dame du Laus
+1	après	après	PRE	PRE	_	0	root	_	_	276.470001	276.679993	UBR
+2	notre	son	DET	DET	_	3	spe	_	_	276.739990	276.880005	UBR
+3	Dame	dame	NOM	NOM	_	1	dep	_	_	276.890015	277.059998	UBR
+4	du	de+le	PRE	PRE	_	3	dep	_	_	277.070007	277.239990	UBR
+5	Laus	Laus	NOM	NOM	_	4	dep	_	_	277.250000	277.369995	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-79
+# text = oui c'est vrai
+1	oui	oui	INT	INT	_	3	dm	_	_	277.619995	277.670013	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	277.709991	277.750000	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	277.760010	277.839996	PEL
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	277.929993	278.179993	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-80
+# text = et quel est le prix d'entrée
+1	et	et	COO	COO	_	3	mark	_	_	278.769989	278.850006	PEL
+2	quel	quel	PRQ	PRQ	_	3	dep	_	_	278.859985	279.019989	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	279.029999	279.230011	PEL
+4	le	le	DET	DET	_	5	spe	_	_	279.239990	279.359985	PEL
+5	prix	prix	NOM	NOM	_	3	dep	_	_	279.369995	279.540009	PEL
+6	d'	de	PRE	PRE	_	5	dep	_	_	279.549988	279.589996	PEL
+7	entrée	entrée	NOM	NOM	_	6	dep	_	_	279.600006	279.989990	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-81
+# text = alors c'est quarante-quatre francs par adulte et vingt-cinq francs pour euh les enfants de moins de douze ans pour les groupes et les cars
+1	alors	alors	ADV	ADV	_	3	periph	_	_	281.579987	281.769989	UBR
+2	c'	ce	CLS	CLS	_	3	subj	_	_	281.779999	281.850006	UBR
+3	est	être	VRB	VRB	_	0	root	_	_	281.859985	281.910004	UBR
+4	quarante-quatre	quarante-quatre	NUM	NUM	_	5	spe	_	_	281.920013	282.390015	UBR
+5	francs	franc	NOM	NOM	_	3	dep	_	_	282.399994	282.549988	UBR
+6	par	par	PRE	PRE	_	5	dep	_	_	282.559998	282.700012	UBR
+7	adulte	adulte	NOM	NOM	_	6	dep	_	_	282.709991	283.149994	UBR
+8	et	et	COO	COO	_	10	mark	_	_	283.220001	283.290009	UBR
+9	vingt-cinq	vingt-cinq	NUM	NUM	_	10	spe	_	_	283.299988	283.649994	UBR
+10	francs	franc	NOM	NOM	_	5	para	_	_	283.660004	283.929993	UBR
+11	pour	pour	PRE	PRE	_	10	dep	_	_	283.940002	284.279999	UBR
+12	euh	euh	INT	INT	_	11	dm	_	_	284.290009	284.420013	UBR
+13	les	le	DET	DET	_	14	spe	_	_	284.429993	284.600006	UBR
+14	enfants	enfant	NOM	NOM	_	11	dep	_	_	284.609985	284.850006	UBR
+15	de	de	PRE	PRE	_	14	dep	_	_	284.859985	284.970001	UBR
+16	moins	moins	ADV	ADV	_	15	dep	_	_	284.980011	285.130005	UBR
+17	de	de	PRE	PRE	_	15	para	_	_	285.140015	285.260010	UBR
+18	douze	douze	NUM	NUM	_	19	spe	_	_	285.269989	285.489990	UBR
+19	ans	an	NOM	NOM	_	17	dep	_	_	285.500000	285.559998	UBR
+20	pour	pour	PRE	PRE	_	11	para	_	_	286.119995	286.269989	UBR
+21	les	le	DET	DET	_	22	spe	_	_	286.279999	286.369995	UBR
+22	groupes	groupe	NOM	NOM	_	20	dep	_	_	286.380005	286.630005	UBR
+23	et	et	COO	COO	_	25	mark	_	_	286.640015	286.660004	UBR
+24	les	le	DET	DET	_	25	spe	_	_	286.670013	286.809998	UBR
+25	cars	car	NOM	NOM	_	10	para	_	_	286.820007	287.019989	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-82
+# text = c'est seulement trente huit francs
+1	c'	ce	CLS	CLS	_	2	subj	_	_	287.029999	287.089996	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	287.100006	287.140015	UBR
+3	seulement	seulement	ADV	ADV	_	2	dep	_	_	287.149994	287.429993	UBR
+4	trente	trente	NUM	NUM	_	6	spe	_	_	287.440002	287.660004	UBR
+5	huit	huit	NUM	NUM	_	4	dep	_	_	287.670013	287.820007	UBR
+6	francs	franc	NOM	NOM	_	2	dep	_	_	287.829987	288.010010	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-83
+# text = oui c'est assez cher
+1	oui	oui	INT	INT	_	3	dm	_	_	288.929993	289.040009	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	289.339996	289.390015	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	289.529999	290.000000	PEL
+4	assez	assez	ADV	ADV	_	5	dep	_	_	290.010010	290.239990	PEL
+5	cher	cher	ADJ	ADJ	_	3	dep	_	_	290.250000	290.519989	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-84
+# text = et nous sommes obligés d'inclure le prix dans notre produit de la journée
+1	et	et	COO	COO	_	4	mark	_	_	290.679993	290.869995	PEL
+2	nous	nous	CLS	CLS	_	4	subj	_	_	290.880005	290.980011	PEL
+3	sommes	être	VRB	VRB	_	4	aux	_	_	290.989990	291.220001	PEL
+4	obligés	obliger	VPP	VPP	_	0	root	_	_	291.230011	291.619995	PEL
+5	d'	de	PRE	PRE	_	4	dep	_	_	291.630005	291.670013	PEL
+6	inclure	inclure	VNF	VNF	_	5	dep	_	_	291.679993	292.100006	PEL
+7	le	le	DET	DET	_	8	spe	_	_	292.109985	292.220001	PEL
+8	prix	prix	NOM	NOM	_	6	dep	_	_	292.230011	292.450012	PEL
+9	dans	dans	PRE	PRE	_	6	dep	_	_	292.459991	292.690002	PEL
+10	notre	son	DET	DET	_	11	spe	_	_	293.149994	293.500000	PEL
+11	produit	produit	NOM	NOM	_	9	dep	_	_	293.589996	293.989990	PEL
+12	de	de	PRE	PRE	_	11	dep	_	_	294.000000	294.149994	PEL
+13	la	le	DET	DET	_	14	spe	_	_	294.160004	294.260010	PEL
+14	journée	journée	NOM	NOM	_	12	dep	_	_	294.309998	294.690002	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-85
+# text = euh est-ce que on peut voir autre chose
+1	euh	euh	INT	INT	_	2	dm	_	_	295.420013	295.570007	PEL
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	295.980011	296.320007	PEL
+3	que	que	CSU	CSU	_	2	dep	_	_	296.380005	296.589996	PEL
+4	on	on	CLS	CLS	_	5	subj	_	_	296.600006	296.730011	PEL
+5	peut	pouvoir	VRB	VRB	_	3	dep	_	_	296.739990	296.869995	PEL
+6	voir	voir	VNF	VNF	_	5	dep	_	_	296.880005	297.100006	PEL
+7	autre	autre	ADJ	ADJ	_	8	dep	_	_	297.109985	297.190002	PEL
+8	chose	chose	NOM	NOM	_	6	dep	_	_	297.200012	297.489990	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-86
+# text = je vous comprends hein
+1	je	je	CLS	CLS	_	3	subj	_	_	298.559998	298.690002	UBR
+2	vous	vous	CLI	CLI	_	3	dep	_	_	298.700012	298.760010	UBR
+3	comprends	comprendre	VRB	VRB	_	0	root	_	_	298.769989	299.290009	UBR
+4	hein	hein	INT	INT	_	3	dm	_	_	299.299988	299.459991	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-87
+# text = d'ailleurs on a pensé aux hôteliers hein
+1	d'	de	PRE	PRE	_	5	periph	_	_	299.589996	299.630005	UBR
+2	ailleurs	ailleurs	ADV	ADV	_	1	morph	_	_	299.640015	299.880005	UBR
+3	on	on	CLS	CLS	_	5	subj	_	_	299.890015	299.959991	UBR
+4	a	avoir	VRB	VRB	_	5	aux	_	_	299.970001	300.049988	UBR
+5	pensé	penser	VPP	VPP	_	0	root	_	_	300.059998	300.390015	UBR
+6	aux	à+le	PRE	PRE	_	5	dep	_	_	300.399994	300.760010	UBR
+7	hôteliers	hôtelier	NOM	NOM	_	6	dep	_	_	300.799988	301.279999	UBR
+8	hein	hein	INT	INT	_	7	dm	_	_	301.290009	301.350006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-88
+# text = on vous a pas oublié et spécialement pour vous euh
+1	on	on	CLS	CLS	_	5	subj	_	_	301.359985	301.380005	UBR
+2	vous	vous	CLI	CLI	_	5	dep	_	_	301.390015	301.510010	UBR
+3	a	avoir	VRB	VRB	_	5	aux	_	_	301.519989	301.559998	UBR
+4	pas	pas	ADN	ADN	_	5	dep	_	_	301.570007	301.670013	UBR
+5	oublié	oublier	VPP	VPP	_	0	root	_	_	301.679993	301.989990	UBR
+6	et	et	COO	COO	_	7	mark	_	_	302.329987	302.380005	UBR
+7	spécialement	spécialement	ADV	ADV	_	5	dep	_	_	302.390015	302.890015	UBR
+8	pour	pour	PRE	PRE	_	5	dep	_	_	302.899994	303.059998	UBR
+9	vous	moi	PRO	PRO	_	8	dep	_	_	303.070007	303.269989	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	303.279999	303.320007	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-89
+# text = ce sera trente-cinq francs par personne euh l'accompagnateur et le chauffeur ne payent pas l'entrée hein
+1	ce	ce	CLS	CLS	_	2	subj	_	_	303.359985	303.720001	UBR
+2	sera	être	VRB	VRB	_	0	root	_	_	303.859985	304.070007	UBR
+3	trente-cinq	trente-cinq	NUM	NUM	_	4	spe	_	_	304.160004	304.440002	UBR
+4	francs	franc	NOM	NOM	_	2	dep	_	_	304.450012	304.679993	UBR
+5	par	par	PRE	PRE	_	4	dep	_	_	304.690002	304.779999	UBR
+6	personne	personne	PRO	PRO	_	5	dep	_	_	304.790009	305.179993	UBR
+7	euh	euh	INT	INT	_	6	dm	_	_	305.850006	306.119995	UBR
+8	l'	le	DET	DET	_	9	spe	_	_	306.130005	306.190002	UBR
+9	accompagnateur	accompagnateur	NOM	NOM	_	4	para	_	_	306.200012	306.970001	UBR
+10	et	et	COO	COO	_	12	mark	_	_	306.980011	307.010010	UBR
+11	le	le	DET	DET	_	12	spe	_	_	307.019989	307.119995	UBR
+12	chauffeur	chauffeur	NOM	NOM	_	9	para	_	_	307.130005	307.579987	UBR
+13	ne	ne	CLN	CLN	_	14	dep	_	_	307.589996	307.709991	UBR
+14	payent	payer	VRB	VRB	_	4	dep	_	_	307.720001	307.869995	UBR
+15	pas	pas	ADN	ADN	_	14	dep	_	_	307.880005	308.000000	UBR
+16	l'	le	DET	DET	_	17	spe	_	_	308.010010	308.029999	UBR
+17	entrée	entrée	NOM	NOM	_	14	dep	_	_	308.040009	308.369995	UBR
+18	hein	hein	INT	INT	_	17	dm	_	_	308.380005	308.410004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-90
+# text = on comprend très bien que vous avez un produit d'une journée
+1	on	on	CLS	CLS	_	2	subj	_	_	308.470001	308.489990	UBR
+2	comprend	comprendre	VRB	VRB	_	0	root	_	_	308.500000	308.779999	UBR
+3	très	très	ADV	ADV	_	4	dep	_	_	308.790009	308.929993	UBR
+4	bien	bien	ADV	ADV	_	2	dep	_	_	308.940002	309.109985	UBR
+5	que	que	CSU	CSU	_	2	dep	_	_	309.119995	309.209991	UBR
+6	vous	vous	CLS	CLS	_	7	subj	_	_	309.220001	309.390015	UBR
+7	avez	avoir	VRB	VRB	_	5	dep	_	_	309.399994	309.540009	UBR
+8	un	un	DET	DET	_	9	spe	_	_	309.549988	309.609985	UBR
+9	produit	produit	NOM	NOM	_	7	dep	_	_	309.709991	309.959991	UBR
+10	d'	de	PRE	PRE	_	9	dep	_	_	309.970001	310.000000	UBR
+11	une	un	DET	DET	_	12	spe	_	_	310.010010	310.119995	UBR
+12	journée	journée	NOM	NOM	_	10	dep	_	_	310.130005	310.700012	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-91
+# text = euh on a essayé justement de s'adapter à à euh vos besoins
+1	euh	euh	INT	INT	_	4	dm	_	_	311.679993	311.709991	UBR
+2	on	on	CLS	CLS	_	4	subj	_	_	311.720001	312.160004	UBR
+3	a	avoir	VRB	VRB	_	4	aux	_	_	312.170013	312.200012	UBR
+4	essayé	essayer	VPP	VPP	_	0	root	_	_	312.209991	312.489990	UBR
+5	justement	justement	ADV	ADV	_	4	dep	_	_	312.500000	312.839996	UBR
+6	de	de	PRE	PRE	_	4	dep	_	_	312.850006	312.890015	UBR
+7	s'	se	CLI	CLI	_	8	dep	_	_	312.899994	313.029999	UBR
+8	adapter	adapter	VNF	VNF	_	6	dep	_	_	313.040009	313.839996	UBR
+9	à	à	PRE	PRE	_	8	dep	_	_	313.850006	313.869995	UBR
+10	à	à	PRE	PRE	_	9	para	_	_	314.579987	314.609985	UBR
+11	euh	euh	INT	INT	_	10	dm	_	_	314.859985	314.880005	UBR
+12	vos	son	DET	DET	_	13	spe	_	_	315.359985	315.579987	UBR
+13	besoins	besoin	NOM	NOM	_	10	dep	_	_	315.589996	315.910004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-92
+# text = oui euh vous comprenez que nous on peut pas partir de Briançon pour partir euh à Serre Ponçon
+1	oui	oui	INT	INT	_	4	dm	_	_	317.619995	317.850006	PEL
+2	euh	euh	INT	INT	_	1	dm	_	_	317.859985	318.260010	PEL
+3	vous	vous	CLS	CLS	_	4	subj	_	_	318.269989	318.399994	PEL
+4	comprenez	comprendre	VRB	VRB	_	0	root	_	_	318.410004	318.890015	PEL
+5	que	que	CSU	CSU	_	4	dep	_	_	318.899994	319.070007	PEL
+6	nous	moi	PRO	PRO	_	8	periph	_	_	319.079987	319.179993	PEL
+7	on	on	CLS	CLS	_	8	subj	_	_	319.190002	319.250000	PEL
+8	peut	pouvoir	VRB	VRB	_	5	dep	_	_	319.299988	319.420013	PEL
+9	pas	pas	ADN	ADN	_	8	dep	_	_	319.429993	319.570007	PEL
+10	partir	partir	VNF	VNF	_	8	dep	_	_	319.579987	319.920013	PEL
+11	de	de	PRE	PRE	_	10	dep	_	_	319.970001	320.079987	PEL
+12	Briançon	Briançon	NOM	NOM	_	11	dep	_	_	320.089996	320.670013	PEL
+13	pour	pour	PRE	PRE	_	10	dep	_	_	320.679993	320.799988	PEL
+14	partir	partir	VNF	VNF	_	13	dep	_	_	320.809998	321.390015	PEL
+15	euh	euh	INT	INT	_	14	dm	_	_	321.399994	321.500000	PEL
+16	à	à	PRE	PRE	_	14	dep	_	_	321.869995	321.940002	PEL
+17	Serre	serre	NOM	NOM	_	16	dep	_	_	321.950012	322.149994	PEL
+18	Ponçon	Ponçon	NOM	NOM	_	17	dep	_	_	322.160004	322.640015	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-93
+# text = il faut qu'on fasse un circuit d'une journée
+1	il	il	CLS	CLS	_	2	subj	_	_	322.649994	322.750000	PEL
+2	faut	faillir	VRB	VRB	_	0	root	_	_	322.760010	322.890015	PEL
+3	qu'	que	CSU	CSU	_	2	dep	_	_	322.899994	322.980011	PEL
+4	on	on	CLS	CLS	_	5	subj	_	_	322.989990	323.070007	PEL
+5	fasse	faire	VRB	VRB	_	3	dep	_	_	323.079987	323.329987	PEL
+6	un	un	DET	DET	_	7	spe	_	_	323.339996	323.429993	PEL
+7	circuit	circuit	NOM	NOM	_	5	dep	_	_	323.440002	323.769989	PEL
+8	d'	de	PRE	PRE	_	7	dep	_	_	323.779999	323.799988	PEL
+9	une	un	DET	DET	_	10	spe	_	_	323.809998	324.019989	PEL
+10	journée	journée	NOM	NOM	_	8	dep	_	_	324.029999	324.369995	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-94
+# text = est-ce que vous pourriez nous organiser une journée euh complète
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	324.380005	324.470001	PEL
+2	que	que	CSU	CSU	_	1	dep	_	_	324.480011	324.510010	PEL
+3	vous	vous	CLS	CLS	_	4	subj	_	_	324.519989	324.609985	PEL
+4	pourriez	pouvoir	VRB	VRB	_	2	dep	_	_	324.619995	325.000000	PEL
+5	nous	nous	CLI	CLI	_	6	dep	_	_	325.010010	325.100006	PEL
+6	organiser	organiser	VNF	VNF	_	4	dep	_	_	325.109985	325.760010	PEL
+7	une	un	DET	DET	_	8	spe	_	_	326.399994	326.619995	PEL
+8	journée	journée	NOM	NOM	_	6	dep	_	_	326.630005	327.130005	PEL
+9	euh	euh	INT	INT	_	8	dm	_	_	327.140015	327.429993	PEL
+10	complète	complet	ADJ	ADJ	_	8	dep	_	_	327.980011	328.350006	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-95
+# text = alors justement on peut vous proposer un circuit à la journée
+1	alors	alors	ADV	ADV	_	4	periph	_	_	329.570007	329.730011	UBR
+2	justement	justement	ADV	ADV	_	4	periph	_	_	329.739990	330.429993	UBR
+3	on	on	CLS	CLS	_	4	subj	_	_	330.440002	330.500000	UBR
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	330.510010	330.619995	UBR
+5	vous	vous	CLI	CLI	_	6	dep	_	_	330.630005	330.750000	UBR
+6	proposer	proposer	VNF	VNF	_	4	dep	_	_	330.760010	331.179993	UBR
+7	un	un	DET	DET	_	8	spe	_	_	331.190002	331.579987	UBR
+8	circuit	circuit	NOM	NOM	_	6	dep	_	_	331.589996	331.929993	UBR
+9	à	à	PRE	PRE	_	6	dep	_	_	331.940002	331.970001	UBR
+10	la	le	DET	DET	_	11	spe	_	_	331.980011	332.089996	UBR
+11	journée	journée	NOM	NOM	_	9	dep	_	_	332.100006	332.420013	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-96
+# text = alors vous euh on peut imaginer que vous partez à neuf heures de Briançon par exemple à onze heures
+1	alors	alors	ADV	ADV	_	5	periph	_	_	333.029999	333.200012	UBR
+2	vous	vous	CLS	CLS	_	5	periph	_	_	333.209991	333.399994	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	333.410004	333.450012	UBR
+4	on	on	CLS	CLS	_	5	subj	_	_	333.459991	333.709991	UBR
+5	peut	pouvoir	VRB	VRB	_	0	root	_	_	333.799988	333.850006	UBR
+6	imaginer	imaginer	VNF	VNF	_	5	dep	_	_	333.859985	334.290009	UBR
+7	que	que	CSU	CSU	_	6	dep	_	_	334.299988	334.470001	UBR
+8	vous	vous	CLS	CLS	_	9	subj	_	_	334.480011	334.549988	UBR
+9	partez	partir	VRB	VRB	_	7	dep	_	_	334.559998	334.920013	UBR
+10	à	à	PRE	PRE	_	9	dep	_	_	334.929993	335.200012	UBR
+11	neuf	neuf	NUM	NUM	_	12	spe	_	_	335.209991	335.399994	UBR
+12	heures	heure	NOM	NOM	_	10	dep	_	_	335.410004	335.500000	UBR
+13	de	de	PRE	PRE	_	12	dep	_	_	335.510010	335.579987	UBR
+14	Briançon	Briançon	NOM	NOM	_	13	dep	_	_	335.589996	336.049988	UBR
+15	par	par	PRE	PRE	_	12	dep	_	_	336.059998	336.170013	UBR
+16	exemple	exemple	NOM	NOM	_	15	dep	_	_	336.179993	336.609985	UBR
+17	à	à	PRE	PRE	_	9	dep	_	_	337.269989	337.410004	UBR
+18	onze	onze	NUM	NUM	_	19	spe	_	_	337.420013	337.630005	UBR
+19	heures	heure	NOM	NOM	_	17	dep	_	_	337.640015	337.950012	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-97
+# text = vous visitez le Muséoscope jusqu'à environ midi trente
+1	vous	vous	CLS	CLS	_	2	subj	_	_	338.149994	338.209991	UBR
+2	visitez	visiter	VRB	VRB	_	0	root	_	_	338.269989	338.839996	UBR
+3	le	le	DET	DET	_	4	spe	_	_	338.850006	338.940002	UBR
+4	Muséoscope	Muséoscope	NOM	NOM	_	2	dep	_	_	338.950012	339.720001	UBR
+5	jusqu'	jusque	PRE	PRE	_	2	dep	_	_	340.209991	340.510010	UBR
+6	à	à	PRE	PRE	_	5	dep	_	_	340.519989	340.589996	UBR
+7	environ	environ	ADV	ADV	_	6	dep	_	_	340.600006	340.920013	UBR
+8	midi	midi	NOM	NOM	_	6	dep	_	_	340.929993	341.200012	UBR
+9	trente	trente	NUM	NUM	_	8	dep	_	_	341.339996	341.679993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-98
+# text = ensuite euh vous vous pouvez manger au restaurant euh le Belvédère qui se situe juste à côté du Muséoscope hein
+1	ensuite	ensuite	ADV	ADV	_	5	periph	_	_	342.260010	342.880005	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	342.890015	342.910004	UBR
+3	vous	vous	CLS	CLS	_	5	subj	_	_	343.369995	343.899994	UBR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	343.910004	344.339996	UBR
+5	pouvez	pouvoir	VRB	VRB	_	0	root	_	_	344.350006	344.660004	UBR
+6	manger	manger	VNF	VNF	_	5	dep	_	_	344.670013	345.010010	UBR
+7	au	à+le	PRE	PRE	_	6	dep	_	_	345.019989	345.049988	UBR
+8	restaurant	restaurant	NOM	NOM	_	7	dep	_	_	345.059998	345.660004	UBR
+9	euh	euh	INT	INT	_	8	dm	_	_	345.670013	345.700012	UBR
+10	le	le	DET	DET	_	11	spe	_	_	345.709991	345.859985	UBR
+11	Belvédère	belvédère	NOM	NOM	_	6	dep	_	_	345.869995	346.380005	UBR
+12	qui	qui	PRQ	PRQ	_	14	subj	_	_	346.390015	346.480011	UBR
+13	se	se	CLI	CLI	_	14	dep	_	_	346.489990	346.739990	UBR
+14	situe	situer	VRB	VRB	_	11	dep	_	_	346.750000	347.119995	UBR
+15	juste	juste	ADV	ADV	_	14	dep	_	_	347.130005	347.380005	UBR
+16	à	à	PRE	PRE	_	14	dep	_	_	347.390015	347.450012	UBR
+17	côté	côté	NOM	NOM	_	16	dep	_	_	347.459991	347.709991	UBR
+18	du	de+le	PRE	PRE	_	17	dep	_	_	347.720001	347.779999	UBR
+19	Muséoscope	Muséoscope	NOM	NOM	_	18	dep	_	_	347.829987	348.399994	UBR
+20	hein	hein	INT	INT	_	19	dm	_	_	348.410004	348.730011	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-99
+# text = vous
+1	vous	vous	CLS	CLS	_	0	root	_	_	348.739990	348.859985	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-100
+# text = n'
+1	n'	ne	CLN	CLN	_	0	root	_	_	348.869995	348.899994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-101
+# text = avez même pas besoin de reprendre le car pour y aller
+1	avez	avoir	VRB	VRB	_	0	root	_	_	348.910004	348.989990	UBR
+2	même	même	ADV	ADV	_	3	dep	_	_	349.000000	349.100006	UBR
+3	pas	pas	ADN	ADN	_	1	dep	_	_	349.109985	349.220001	UBR
+4	besoin	besoin	NOM	NOM	_	1	dep	_	_	349.230011	349.399994	UBR
+5	de	de	PRE	PRE	_	4	dep	_	_	349.410004	349.450012	UBR
+6	reprendre	reprendre	VNF	VNF	_	5	dep	_	_	349.459991	349.829987	UBR
+7	le	le	DET	DET	_	8	spe	_	_	349.839996	349.859985	UBR
+8	car	car	NOM	NOM	_	6	dep	_	_	349.869995	350.070007	UBR
+9	pour	pour	PRE	PRE	_	6	dep	_	_	350.079987	350.200012	UBR
+10	y	y	CLI	CLI	_	11	dep	_	_	350.209991	350.309998	UBR
+11	aller	aller	VNF	VNF	_	9	dep	_	_	350.320007	350.500000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-102
+# text = c'est c'est pas mal euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	350.510010	350.649994	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	350.660004	350.750000	UBR
+3	c'	ce	CLS	CLS	_	4	subj	_	_	350.760010	350.869995	UBR
+4	est	être	VRB	VRB	_	2	para	_	_	350.880005	350.920013	UBR
+5	pas	pas	ADN	ADN	_	4	dep	_	_	350.929993	351.049988	UBR
+6	mal	mal	ADV	ADV	_	4	dep	_	_	351.059998	351.309998	UBR
+7	euh	euh	INT	INT	_	6	dm	_	_	352.149994	352.720001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-103
+# text = et en plus le restaurant a une terrasse panoramique
+1	et	et	COO	COO	_	6	mark	_	_	352.730011	352.820007	UBR
+2	en	en	PRE	PRE	_	6	periph	_	_	352.829987	352.929993	UBR
+3	plus	plus	ADN	ADN	_	2	dep	_	_	352.940002	353.230011	UBR
+4	le	le	DET	DET	_	5	spe	_	_	353.239990	353.429993	UBR
+5	restaurant	restaurant	NOM	NOM	_	6	subj	_	_	353.440002	353.890015	UBR
+6	a	avoir	VRB	VRB	_	0	root	_	_	353.899994	353.970001	UBR
+7	une	un	DET	DET	_	8	spe	_	_	353.980011	354.040009	UBR
+8	terrasse	terrasse	NOM	NOM	_	6	dep	_	_	354.079987	354.559998	UBR
+9	panoramique	panoramique	NOM	NOM	_	8	dep	_	_	354.570007	355.119995	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-104
+# text = je vous garantis c'est c'est un site vraiment exceptionnel à quatorze heures embarquement à la plage de Rousset pour le tour du lac à bord du bateau le Serre Ponçon
+1	je	je	CLS	CLS	_	3	subj	_	_	355.130005	355.220001	UBR
+2	vous	vous	CLI	CLI	_	3	dep	_	_	355.230011	355.320007	UBR
+3	garantis	garantir	VRB	VRB	_	0	root	_	_	355.329987	355.630005	UBR
+4	c'	ce	CLS	CLS	_	5	subj	_	_	355.640015	355.899994	UBR
+5	est	être	VRB	VRB	_	3	dep	_	_	355.910004	356.190002	UBR
+6	c'	ce	CLS	CLS	_	7	subj	_	_	356.489990	356.529999	UBR
+7	est	être	VRB	VRB	_	5	para	_	_	356.540009	356.630005	UBR
+8	un	un	DET	DET	_	9	spe	_	_	356.640015	356.760010	UBR
+9	site	site	NOM	NOM	_	7	dep	_	_	356.769989	356.950012	UBR
+10	vraiment	vraiment	ADV	ADV	_	11	dep	_	_	356.959991	357.220001	UBR
+11	exceptionnel	exceptionnel	ADJ	ADJ	_	9	dep	_	_	357.230011	357.769989	UBR
+12	à	à	PRE	PRE	_	7	dep	_	_	358.190002	358.279999	UBR
+13	quatorze	quatorze	NUM	NUM	_	14	spe	_	_	358.290009	358.700012	UBR
+14	heures	heure	NOM	NOM	_	12	dep	_	_	358.709991	358.950012	UBR
+15	embarquement	embarquement	NOM	NOM	_	14	dep	_	_	359.269989	360.010010	UBR
+16	à	à	PRE	PRE	_	12	para	_	_	360.019989	360.209991	UBR
+17	la	le	DET	DET	_	18	spe	_	_	360.220001	360.309998	UBR
+18	plage	plage	NOM	NOM	_	16	dep	_	_	360.320007	360.529999	UBR
+19	de	de	PRE	PRE	_	18	dep	_	_	360.540009	360.640015	UBR
+20	Rousset	Rousset	NOM	NOM	_	19	dep	_	_	360.649994	361.010010	UBR
+21	pour	pour	PRE	PRE	_	7	dep	_	_	361.489990	361.619995	UBR
+22	le	le	DET	DET	_	23	spe	_	_	361.630005	361.720001	UBR
+23	tour	tour	NOM	NOM	_	21	dep	_	_	361.730011	361.890015	UBR
+24	du	de+le	PRE	PRE	_	23	dep	_	_	361.899994	362.019989	UBR
+25	lac	lac	NOM	NOM	_	24	dep	_	_	362.029999	362.609985	UBR
+26	à	à	PRE	PRE	_	23	dep	_	_	362.619995	362.709991	UBR
+27	bord	bord	NOM	NOM	_	26	dep	_	_	362.720001	362.890015	UBR
+28	du	de+le	PRE	PRE	_	27	dep	_	_	362.899994	363.000000	UBR
+29	bateau	bateau	NOM	NOM	_	28	dep	_	_	363.010010	363.299988	UBR
+30	le	le	DET	DET	_	31	spe	_	_	363.309998	363.339996	UBR
+31	Serre	serre	NOM	NOM	_	27	para	_	_	363.350006	363.529999	UBR
+32	Ponçon	Ponçon	NOM	NOM	_	31	dep	_	_	363.540009	363.890015	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-105
+# text = on pou~ on travaille en avec le monsieur qui s'en occupe à seize heures
+1	on	on	CLS	CLS	_	2	subj	_	_	363.950012	364.220001	UBR
+2	pou~	pou~	VRB	VRB	_	0	root	_	_	364.230011	364.339996	UBR
+3	on	on	CLS	CLS	_	4	subj	_	_	364.459991	364.619995	UBR
+4	travaille	travailler	VRB	VRB	_	2	para	_	_	364.660004	365.130005	UBR
+5	en	en	PRE	PRE	_	4	dep	_	_	365.140015	365.230011	UBR
+6	avec	avec	PRE	PRE	_	4	dep	_	_	365.750000	366.019989	UBR
+7	le	le	DET	DET	_	8	spe	_	_	366.029999	366.149994	UBR
+8	monsieur	Monsieur	NOM	NOM	_	6	dep	_	_	366.160004	366.519989	UBR
+9	qui	qui	PRQ	PRQ	_	12	dep	_	_	366.529999	366.790009	UBR
+10	s'	se	CLI	CLI	_	12	dep	_	_	366.799988	366.910004	UBR
+11	en	en	CLI	CLI	_	12	dep	_	_	366.920013	367.019989	UBR
+12	occupe	occuper	VRB	VRB	_	8	dep	_	_	367.029999	367.450012	UBR
+13	à	à	PRE	PRE	_	12	dep	_	_	368.100006	368.209991	UBR
+14	seize	seize	NUM	NUM	_	15	spe	_	_	368.250000	368.489990	UBR
+15	heures	heure	NOM	NOM	_	13	dep	_	_	368.500000	368.779999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-106
+# text = thé dansant au restaurant le Belvédère
+1	thé	thé	NOM	NOM	_	0	root	_	_	369.200012	369.299988	UBR
+2	dansant	danser	VPR	VPR	_	1	dep	_	_	369.309998	369.790009	UBR
+3	au	à+le	PRE	PRE	_	2	dep	_	_	369.799988	369.820007	UBR
+4	restaurant	restaurant	NOM	NOM	_	3	dep	_	_	369.829987	370.190002	UBR
+5	le	le	DET	DET	_	6	spe	_	_	370.200012	370.290009	UBR
+6	Belvédère	belvédère	NOM	NOM	_	2	dep	_	_	370.299988	370.829987	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-107
+# text = ça vous fait quand même une journée euh
+1	ça	ça	PRO	PRO	_	3	periph	_	_	372.059998	372.160004	UBR
+2	vous	vous	CLS	CLS	_	3	subj	_	_	372.170013	372.339996	UBR
+3	fait	faire	VRB	VRB	_	0	root	_	_	372.350006	372.420013	UBR
+4	quand	quand	CSU	CSU	_	3	dep	_	_	372.429993	372.579987	UBR
+5	même	même	ADV	ADV	_	4	morph	_	_	372.589996	372.670013	UBR
+6	une	un	DET	DET	_	7	spe	_	_	372.679993	372.799988	UBR
+7	journée	journée	NOM	NOM	_	3	dep	_	_	372.809998	373.709991	UBR
+8	euh	euh	INT	INT	_	7	dm	_	_	373.720001	373.739990	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-108
+# text = enfin je pense assez agréable à dix sept heures retour à Briançon
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	374.779999	374.950012	UBR
+2	je	je	CLS	CLS	_	3	subj	_	_	374.959991	375.070007	UBR
+3	pense	penser	VRB	VRB	_	0	root	_	_	375.079987	375.350006	UBR
+4	assez	assez	ADV	ADV	_	5	dep	_	_	375.359985	375.519989	UBR
+5	agréable	agréable	ADJ	ADJ	_	3	dep	_	_	375.529999	376.089996	UBR
+6	à	à	PRE	PRE	_	3	dep	_	_	376.440002	376.529999	UBR
+7	dix	dix	NUM	NUM	_	9	para	_	_	376.540009	376.750000	UBR
+8	sept	sept	NUM	NUM	_	9	spe	_	_	376.760010	376.950012	UBR
+9	heures	heure	NOM	NOM	_	6	dep	_	_	376.959991	377.209991	UBR
+10	retour	retour	NOM	NOM	_	9	dep	_	_	377.269989	377.869995	UBR
+11	à	à	PRE	PRE	_	10	dep	_	_	377.880005	377.929993	UBR
+12	Briançon	Briançon	NOM	NOM	_	11	dep	_	_	377.940002	378.519989	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-109
+# text = et vous êtes rentrés pour dix neuf heures ouais euh
+1	et	et	COO	COO	_	4	mark	_	_	378.929993	379.000000	UBR
+2	vous	vous	CLS	CLS	_	4	subj	_	_	379.010010	379.220001	UBR
+3	êtes	être	VRB	VRB	_	4	aux	_	_	379.230011	379.299988	UBR
+4	rentrés	rentrer	VPP	VPP	_	0	root	_	_	379.350006	379.720001	UBR
+5	pour	pour	PRE	PRE	_	4	dep	_	_	379.730011	379.839996	UBR
+6	dix	dix	NUM	NUM	_	8	spe	_	_	379.850006	380.049988	UBR
+7	neuf	neuf	NUM	NUM	_	8	spe	_	_	380.059998	380.200012	UBR
+8	heures	heure	NOM	NOM	_	5	dep	_	_	380.209991	380.369995	UBR
+9	ouais	ouais	INT	INT	_	8	dm	_	_	380.880005	381.179993	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	381.190002	381.320007	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-110
+# text = je pense dix-neuf heures ça
+1	je	je	CLS	CLS	_	2	subj	_	_	381.329987	381.440002	UBR
+2	pense	penser	VRB	VRB	_	0	root	_	_	381.450012	381.649994	UBR
+3	dix-neuf	dix-neuf	NUM	NUM	_	4	spe	_	_	381.700012	381.970001	UBR
+4	heures	heure	NOM	NOM	_	2	dep	_	_	381.980011	382.029999	UBR
+5	ça	ça	PRO	PRO	_	2	dep	_	_	382.109985	382.359985	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-111
+# text = ça doit être euh le temps qu'il faut euh
+1	ça	ça	PRO	PRO	_	2	subj	_	_	382.829987	382.890015	UBR
+2	doit	devoir	VRB	VRB	_	0	root	_	_	382.899994	383.130005	UBR
+3	être	être	VNF	VNF	_	2	dep	_	_	383.140015	383.480011	UBR
+4	euh	euh	INT	INT	_	3	dm	_	_	383.489990	383.510010	UBR
+5	le	le	DET	DET	_	6	spe	_	_	384.329987	384.410004	UBR
+6	temps	temps	NOM	NOM	_	3	dep	_	_	384.420013	384.589996	UBR
+7	qu'	que	PRQ	PRQ	_	9	dep	_	_	384.600006	384.670013	UBR
+8	il	il	CLS	CLS	_	9	subj	_	_	384.679993	384.790009	UBR
+9	faut	faillir	VRB	VRB	_	6	dep	_	_	384.799988	384.980011	UBR
+10	euh	euh	INT	INT	_	9	dm	_	_	385.429993	385.630005	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-112
+# text = je vous garantis que euh qu'avec ça vos clients auront passé une journée
+1	je	je	CLS	CLS	_	3	subj	_	_	385.640015	385.739990	UBR
+2	vous	vous	CLI	CLI	_	3	dep	_	_	385.750000	385.820007	UBR
+3	garantis	garantir	VRB	VRB	_	0	root	_	_	385.829987	386.250000	UBR
+4	que	que	CSU	CSU	_	3	dep	_	_	386.260010	386.640015	UBR
+5	euh	euh	INT	INT	_	4	dm	_	_	386.649994	386.720001	UBR
+6	qu'	que	CSU	CSU	_	4	para	_	_	386.779999	386.850006	UBR
+7	avec	avec	PRE	PRE	_	12	periph	_	_	386.859985	387.059998	UBR
+8	ça	ça	PRO	PRO	_	7	dep	_	_	387.070007	387.339996	UBR
+9	vos	son	DET	DET	_	10	spe	_	_	387.350006	387.540009	UBR
+10	clients	client	NOM	NOM	_	12	subj	_	_	387.549988	387.880005	UBR
+11	auront	avoir	VRB	VRB	_	12	aux	_	_	387.890015	388.059998	UBR
+12	passé	passer	VPP	VPP	_	6	dep	_	_	388.070007	388.459991	UBR
+13	une	un	DET	DET	_	14	spe	_	_	388.820007	388.950012	UBR
+14	journée	journée	NOM	NOM	_	12	dep	_	_	388.959991	389.309998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-113
+# text = mais alors vraiment mémorable hein
+1	mais	mais	COO	COO	_	4	mark	_	_	389.320007	389.380005	UBR
+2	alors	alors	ADV	ADV	_	4	dep	_	_	389.390015	389.559998	UBR
+3	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	389.570007	389.790009	UBR
+4	mémorable	mémorable	ADJ	ADJ	_	0	root	_	_	389.799988	390.309998	UBR
+5	hein	hein	INT	INT	_	4	dm	_	_	390.320007	390.440002	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-114
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	392.059998	392.130005	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-115
+# text = le prix euh le prix euh deux cents francs tout compris
+1	le	le	DET	DET	_	2	spe	_	_	392.140015	392.260010	PEL
+2	prix	prix	NOM	NOM	_	0	root	_	_	392.269989	392.450012	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	393.149994	393.170013	UBR
+4	le	le	DET	DET	_	5	spe	_	_	393.570007	394.100006	UBR
+5	prix	prix	NOM	NOM	_	2	para	_	_	394.109985	394.459991	UBR
+6	euh	euh	INT	INT	_	5	dm	_	_	394.470001	394.670013	UBR
+7	deux	deux	NUM	NUM	_	9	spe	_	_	394.679993	394.779999	UBR
+8	cents	cents	NUM	NUM	_	7	dep	_	_	394.790009	394.989990	UBR
+9	francs	franc	NOM	NOM	_	5	para	_	_	395.000000	395.170013	UBR
+10	tout	tout	ADV	ADV	_	11	dep	_	_	395.179993	395.290009	UBR
+11	compris	comprendre	VPP	VPP	_	9	dep	_	_	395.299988	395.630005	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-116
+# text = oui c'est cher euh
+1	oui	oui	INT	INT	_	3	dm	_	_	397.359985	397.510010	PEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	397.519989	397.640015	PEL
+3	est	être	VRB	VRB	_	0	root	_	_	397.649994	398.079987	PEL
+4	cher	cher	ADJ	ADJ	_	3	dep	_	_	398.089996	398.459991	PEL
+5	euh	euh	INT	INT	_	4	dm	_	_	398.880005	399.170013	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-117
+# text = je suis restaurateur
+1	je	je	CLS	CLS	_	2	subj	_	_	399.179993	399.339996	PEL
+2	suis	être	VRB	VRB	_	0	root	_	_	399.350006	399.510010	PEL
+3	restaurateur	restaurateur	NOM	NOM	_	2	dep	_	_	399.519989	400.130005	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-118
+# text = est-ce que je peux
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	400.190002	400.380005	PEL
+2	que	que	CSU	CSU	_	1	dep	_	_	400.470001	400.730011	PEL
+3	je	je	CLS	CLS	_	4	subj	_	_	400.739990	400.890015	PEL
+4	peux	pouvoir	VRB	VRB	_	2	dep	_	_	400.970001	401.079987	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-119
+# text = je peux faire des re-~ des repas froids moi
+1	je	je	CLS	CLS	_	2	subj	_	_	401.089996	401.230011	PEL
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	401.239990	401.390015	PEL
+3	faire	faire	VNF	VNF	_	2	dep	_	_	401.399994	401.609985	PEL
+4	des	de	PRE	PRE	_	3	dep	_	_	401.619995	401.730011	PEL
+5	re-~	re-~	NOM	NOM	_	4	dep	_	_	401.739990	401.869995	PEL
+6	des	de	PRE	PRE	_	5	dep	_	_	401.880005	402.000000	PEL
+7	repas	repas	NOM	NOM	_	6	dep	_	_	402.010010	402.220001	PEL
+8	froids	froid	ADJ	ADJ	_	7	dep	_	_	402.230011	402.540009	PEL
+9	moi	moi	PRO	PRO	_	3	periph	_	_	402.549988	402.679993	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-120
+# text = bien sûr euh je comprends
+1	bien	bien	ADV	ADV	_	5	periph	_	_	404.420013	404.609985	UBR
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	404.619995	404.929993	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	404.940002	405.040009	UBR
+4	je	je	CLS	CLS	_	5	subj	_	_	405.049988	405.209991	UBR
+5	comprends	comprendre	VRB	VRB	_	0	root	_	_	405.220001	405.619995	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-121
+# text = ben écoutez euh moi je pense que on peut on oui
+1	ben	ben	INT	INT	_	6	dm	_	_	406.299988	406.380005	UBR
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	406.390015	406.899994	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	406.910004	407.269989	UBR
+4	moi	moi	PRO	PRO	_	6	periph	_	_	408.010010	408.109985	UBR
+5	je	je	CLS	CLS	_	6	subj	_	_	408.119995	408.209991	UBR
+6	pense	penser	VRB	VRB	_	0	root	_	_	408.220001	408.450012	UBR
+7	que	que	CSU	CSU	_	6	dep	_	_	408.519989	408.929993	UBR
+8	on	on	CLS	CLS	_	9	subj	_	_	408.940002	409.070007	UBR
+9	peut	pouvoir	VRB	VRB	_	7	dep	_	_	409.079987	409.239990	UBR
+10	on	on	CLS	CLS	_	9	subj	_	_	409.250000	409.489990	UBR
+11	oui	oui	INT	INT	_	10	dm	_	_	409.500000	409.679993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-122
+# text = on peut éventuellement vous mettre une salle à disposition pour euh pour les repas froids euh
+1	on	on	CLS	CLS	_	2	subj	_	_	409.690002	409.799988	UBR
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	409.809998	409.950012	UBR
+3	éventuellement	éventuellement	ADV	ADV	_	2	dep	_	_	409.959991	410.630005	UBR
+4	vous	vous	CLI	CLI	_	5	dep	_	_	410.640015	410.700012	UBR
+5	mettre	mettre	VNF	VNF	_	2	dep	_	_	410.709991	411.029999	UBR
+6	une	un	DET	DET	_	7	spe	_	_	411.040009	411.279999	UBR
+7	salle	salle	NOM	NOM	_	5	dep	_	_	411.290009	411.489990	UBR
+8	à	à	PRE	PRE	_	7	dep	_	_	411.500000	411.549988	UBR
+9	disposition	disposition	NOM	NOM	_	8	dep	_	_	411.559998	412.220001	UBR
+10	pour	pour	PRE	PRE	_	5	dep	_	_	412.230011	412.489990	UBR
+11	euh	euh	INT	INT	_	10	dm	_	_	412.500000	412.619995	UBR
+12	pour	pour	PRE	PRE	_	10	para	_	_	412.630005	412.790009	UBR
+13	les	le	DET	DET	_	14	spe	_	_	412.799988	412.859985	UBR
+14	repas	repas	NOM	NOM	_	12	dep	_	_	412.869995	413.140015	UBR
+15	froids	froid	ADJ	ADJ	_	14	dep	_	_	413.149994	413.470001	UBR
+16	euh	euh	INT	INT	_	15	dm	_	_	413.920013	414.179993	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-123
+# text = si vous voulez
+1	si	si	CSU	CSU	_	0	root	_	_	414.190002	414.390015	UBR
+2	vous	vous	CLS	CLS	_	3	subj	_	_	414.399994	414.500000	UBR
+3	voulez	vouloir	VRB	VRB	_	1	dep	_	_	414.549988	414.760010	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-124
+# text = y a-t-il un bar pour les apéritifs
+1	y	y	CLI	CLI	_	2	dep	_	_	416.130005	416.290009	PEL
+2	a-t-il	a-t-il	VRB	VRB	_	0	root	_	_	416.299988	416.660004	PEL
+3	un	un	DET	DET	_	4	spe	_	_	416.670013	416.890015	PEL
+4	bar	bar	NOM	NOM	_	2	dep	_	_	416.899994	417.220001	PEL
+5	pour	pour	PRE	PRE	_	2	dep	_	_	417.920013	418.019989	PEL
+6	les	le	DET	DET	_	7	spe	_	_	418.029999	418.160004	PEL
+7	apéritifs	apéritif	ADJ	ADJ	_	5	dep	_	_	418.170013	418.739990	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-125
+# text = et les cafés
+1	et	et	COO	COO	_	3	mark	_	_	418.750000	418.779999	PEL
+2	les	le	DET	DET	_	3	spe	_	_	418.790009	418.869995	PEL
+3	cafés	café	NOM	NOM	_	0	root	_	_	418.880005	419.250000	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-126
+# text = bien sûr alors il faut enlever le prix du repas hein
+1	bien	bien	ADV	ADV	_	5	periph	_	_	420.619995	420.760010	UBR
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	420.769989	421.089996	UBR
+3	alors	alors	ADV	ADV	_	5	periph	_	_	421.100006	421.480011	UBR
+4	il	il	CLS	CLS	_	5	subj	_	_	421.489990	421.549988	UBR
+5	faut	faillir	VRB	VRB	_	0	root	_	_	421.559998	421.649994	UBR
+6	enlever	enlever	VNF	VNF	_	5	dep	_	_	421.660004	422.079987	UBR
+7	le	le	DET	DET	_	8	spe	_	_	422.089996	422.109985	UBR
+8	prix	prix	NOM	NOM	_	6	dep	_	_	422.119995	422.279999	UBR
+9	du	de+le	PRE	PRE	_	8	dep	_	_	422.290009	422.390015	UBR
+10	repas	repas	NOM	NOM	_	9	dep	_	_	422.399994	422.730011	UBR
+11	hein	hein	INT	INT	_	10	dm	_	_	422.739990	422.799988	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-127
+# text = ça fera cent dix francs
+1	ça	ça	PRO	PRO	_	2	subj	_	_	423.350006	423.489990	UBR
+2	fera	faire	VRB	VRB	_	0	root	_	_	423.500000	424.220001	UBR
+3	cent	cent	NUM	NUM	_	5	spe	_	_	424.950012	425.010010	UBR
+4	dix	dix	NUM	NUM	_	3	dep	_	_	425.019989	425.529999	UBR
+5	francs	franc	NOM	NOM	_	2	dep	_	_	425.709991	426.140015	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-128
+# text = ça vous va
+1	ça	ça	PRO	PRO	_	3	periph	_	_	426.149994	426.329987	UBR
+2	vous	vous	CLS	CLS	_	3	subj	_	_	426.339996	426.600006	UBR
+3	va	aller	VRB	VRB	_	0	root	_	_	426.609985	426.809998	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-129
+# text = ok je vais en parler à mon épouse
+1	ok	OK	INT	INT	_	3	dm	_	_	428.510010	428.820007	PEL
+2	je	je	CLS	CLS	_	3	subj	_	_	429.320007	429.450012	PEL
+3	vais	aller	VRB	VRB	_	0	root	_	_	429.459991	429.679993	PEL
+4	en	en	CLI	CLI	_	5	dep	_	_	429.690002	429.790009	PEL
+5	parler	parler	VNF	VNF	_	3	dep	_	_	429.799988	430.010010	PEL
+6	à	à	PRE	PRE	_	5	dep	_	_	430.019989	430.059998	PEL
+7	mon	son	DET	DET	_	8	spe	_	_	430.070007	430.230011	PEL
+8	épouse	épouse	NOM	NOM	_	6	dep	_	_	430.239990	430.709991	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-130
+# text = et je vous donnerai euh la réponse euh un peu plus tard
+1	et	et	COO	COO	_	4	mark	_	_	430.940002	431.010010	PEL
+2	je	je	CLS	CLS	_	4	subj	_	_	431.019989	431.170013	PEL
+3	vous	vous	CLI	CLI	_	4	dep	_	_	431.179993	431.579987	PEL
+4	donnerai	donner	VRB	VRB	_	0	root	_	_	431.589996	432.869995	PEL
+5	euh	euh	INT	INT	_	4	dm	_	_	432.880005	432.899994	PEL
+6	la	le	DET	DET	_	7	spe	_	_	432.910004	432.980011	PEL
+7	réponse	réponse	NOM	NOM	_	4	dep	_	_	432.989990	433.549988	PEL
+8	euh	euh	INT	INT	_	7	dm	_	_	433.559998	433.609985	PEL
+9	un peu	un peu	ADV	ADV	_	10	dep	_	_	433.619995	434.970001	PEL
+10	plus	plus	ADV	ADV	_	11	dep	_	_	434.980011	435.109985	PEL
+11	tard	tard	ADV	ADV	_	7	dep	_	_	435.119995	435.359985	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-131
+# text = écoutez euh
+1	écoutez	écouter	VRB	VRB	_	0	root	_	_	436.329987	436.750000	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	436.760010	436.790009	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-132
+# text = on si ça vous dérange pas je préférerais avoir la réponse aujourd' hui parce que vous comprenez
+1	on	on	CLS	CLS	_	8	subj	_	_	436.799988	437.079987	UBR
+2	si	si	CSU	CSU	_	8	periph	_	_	437.089996	437.250000	UBR
+3	ça	ça	PRO	PRO	_	5	periph	_	_	437.260010	437.390015	UBR
+4	vous	vous	CLS	CLS	_	5	subj	_	_	437.399994	437.500000	UBR
+5	dérange	déranger	VRB	VRB	_	2	dep	_	_	437.510010	437.820007	UBR
+6	pas	pas	ADN	ADN	_	5	dep	_	_	437.869995	438.299988	UBR
+7	je	je	CLS	CLS	_	8	subj	_	_	438.309998	438.459991	UBR
+8	préférerais	préférer	VRB	VRB	_	0	root	_	_	438.470001	438.880005	UBR
+9	avoir	avoir	VNF	VNF	_	8	dep	_	_	438.890015	439.089996	UBR
+10	la	le	DET	DET	_	11	spe	_	_	439.100006	439.170013	UBR
+11	réponse	réponse	NOM	NOM	_	9	dep	_	_	439.179993	439.450012	UBR
+12	aujourd' hui	aujourd'hui	ADV	ADV	_	9	dep	_	_	439.609985	440.170013	UBR
+13	parce que	parce que	CSU	CSU	_	9	dep	_	_	440.670013	440.809998	UBR
+14	vous	vous	CLS	CLS	_	15	subj	_	_	440.820007	440.899994	UBR
+15	comprenez	comprendre	VRB	VRB	_	13	dep	_	_	440.910004	441.399994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-133
+# text = j'ai j'ai besoin de planifier ma saison au fait
+1	j'	je	CLS	CLS	_	2	subj	_	_	441.410004	441.540009	UBR
+2	ai	avoir	VRB	VRB	_	0	root	_	_	441.549988	441.820007	UBR
+3	j'	je	CLS	CLS	_	4	subj	_	_	441.829987	441.920013	UBR
+4	ai	avoir	VRB	VRB	_	2	para	_	_	441.929993	441.980011	UBR
+5	besoin	besoin	NOM	NOM	_	4	dep	_	_	441.989990	442.230011	UBR
+6	de	de	PRE	PRE	_	5	dep	_	_	442.239990	442.329987	UBR
+7	planifier	planifier	VNF	VNF	_	6	dep	_	_	442.339996	442.739990	UBR
+8	ma	son	DET	DET	_	9	spe	_	_	442.750000	442.839996	UBR
+9	saison	saison	NOM	NOM	_	7	dep	_	_	442.850006	443.190002	UBR
+10	au fait	au fait	ADV	ADV	_	4	dep	_	_	443.480011	443.700012	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-134
+# text = on n'a pas parlé de la de la période
+1	on	on	CLS	CLS	_	5	subj	_	_	443.709991	443.769989	UBR
+2	n'	ne	CLN	CLN	_	5	dep	_	_	443.769989	443.769989	UBR
+3	a	avoir	VRB	VRB	_	5	aux	_	_	443.779999	443.839996	UBR
+4	pas	pas	ADN	ADN	_	5	dep	_	_	443.850006	443.940002	UBR
+5	parlé	parler	VPP	VPP	_	0	root	_	_	443.950012	444.170013	UBR
+6	de	de	PRE	PRE	_	5	dep	_	_	444.179993	444.200012	UBR
+7	la	le	DET	DET	_	6	dep	_	_	444.209991	444.609985	UBR
+8	de	de	PRE	PRE	_	6	para	_	_	444.839996	444.980011	UBR
+9	la	le	DET	DET	_	10	spe	_	_	444.989990	445.079987	UBR
+10	période	période	NOM	NOM	_	8	dep	_	_	445.089996	445.660004	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-135
+# text = euh ça serait pour s quelle s date exactement
+1	euh	euh	INT	INT	_	3	dm	_	_	446.209991	446.829987	UBR
+2	ça	ça	PRO	PRO	_	3	subj	_	_	447.179993	447.260010	UBR
+3	serait	être	VRB	VRB	_	0	root	_	_	447.269989	447.429993	UBR
+4	pour	pour	PRE	PRE	_	3	dep	_	_	447.440002	447.559998	UBR
+5	s	s	NOM	NOM	_	4	dep	_	_	447.559998	447.559998	UBR
+6	quelle	quel	PRQ	PRQ	_	7	dep	_	_	447.570007	447.799988	UBR
+7	s	s	VRB	VRB	_	3	para	_	_	447.799988	447.799988	UBR
+8	date	date	NOM	NOM	_	7	dep	_	_	447.809998	448.019989	UBR
+9	exactement	exactement	ADV	ADV	_	7	dep	_	_	448.029999	448.579987	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-136
+# text = j'ai beaucoup de de séjours en mai et en juin
+1	j'	je	CLS	CLS	_	2	subj	_	_	449.839996	449.940002	PEL
+2	ai	avoir	VRB	VRB	_	0	root	_	_	449.950012	450.000000	PEL
+3	beaucoup	beaucoup	PRO	PRO	_	2	dep	_	_	450.010010	450.290009	PEL
+4	de	de	PRE	PRE	_	3	dep	_	_	450.299988	450.809998	PEL
+5	de	de	PRE	PRE	_	4	para	_	_	450.880005	451.019989	PEL
+6	séjours	séjour	NOM	NOM	_	5	dep	_	_	451.029999	451.609985	PEL
+7	en	en	PRE	PRE	_	6	dep	_	_	451.619995	451.829987	PEL
+8	mai	mai	NOM	NOM	_	7	dep	_	_	451.839996	452.100006	PEL
+9	et	et	COO	COO	_	10	mark	_	_	452.109985	452.190002	PEL
+10	en	en	PRE	PRE	_	5	para	_	_	452.200012	452.220001	PEL
+11	juin	juin	NOM	NOM	_	10	dep	_	_	452.230011	452.540009	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-137
+# text = euh mai et juin oui eh ben c'est c'est parfait euh
+1	euh	euh	INT	INT	_	8	dm	_	_	453.570007	453.600006	UBR
+2	mai	mai	NOM	NOM	_	8	periph	_	_	454.130005	454.579987	UBR
+3	et	et	COO	COO	_	4	mark	_	_	454.660004	454.859985	UBR
+4	juin	juin	NOM	NOM	_	2	para	_	_	454.869995	455.369995	UBR
+5	oui	oui	INT	INT	_	4	dm	_	_	455.940002	456.119995	UBR
+6	eh ben	eh ben	INT	INT	_	5	dm	_	_	456.130005	456.500000	UBR
+7	c'	ce	CLS	CLS	_	8	subj	_	_	456.510010	456.640015	UBR
+8	est	être	VRB	VRB	_	0	root	_	_	456.649994	456.799988	UBR
+9	c'	ce	CLS	CLS	_	10	subj	_	_	456.809998	456.910004	UBR
+10	est	être	VRB	VRB	_	8	para	_	_	456.920013	456.950012	UBR
+11	parfait	parfait	ADJ	ADJ	_	10	dep	_	_	456.959991	457.440002	UBR
+12	euh	euh	INT	INT	_	11	dm	_	_	457.450012	457.970001	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-138
+# text = euh écoutez euh je pense que c'est c'est une date
+1	euh	euh	INT	INT	_	5	dm	_	_	458.839996	459.109985	UBR
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	459.119995	459.640015	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	459.649994	459.940002	UBR
+4	je	je	CLS	CLS	_	5	subj	_	_	461.209991	461.269989	UBR
+5	pense	penser	VRB	VRB	_	0	root	_	_	461.279999	461.489990	UBR
+6	que	que	CSU	CSU	_	5	dep	_	_	461.500000	461.579987	UBR
+7	c'	ce	CLS	CLS	_	8	subj	_	_	461.589996	461.709991	UBR
+8	est	être	VRB	VRB	_	6	dep	_	_	461.720001	462.029999	UBR
+9	c'	ce	CLS	CLS	_	10	subj	_	_	462.040009	462.190002	UBR
+10	est	être	VRB	VRB	_	8	para	_	_	462.200012	462.250000	UBR
+11	une	un	DET	DET	_	12	spe	_	_	462.260010	462.380005	UBR
+12	date	date	NOM	NOM	_	10	dep	_	_	462.390015	462.649994	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-139
+# text = enfin euh c'est c'est pas mal puisque en fait le le gros de notre saison à nous
+1	enfin	enfin	ADV	ADV	_	4	periph	_	_	462.769989	463.019989	UBR
+2	euh	euh	INT	INT	_	1	dm	_	_	463.029999	463.070007	UBR
+3	c'	ce	CLS	CLS	_	4	subj	_	_	463.079987	463.160004	UBR
+4	est	être	VRB	VRB	_	0	root	_	_	463.170013	463.369995	UBR
+5	c'	ce	CLS	CLS	_	6	subj	_	_	463.380005	463.489990	UBR
+6	est	être	VRB	VRB	_	4	para	_	_	463.500000	463.519989	UBR
+7	pas	pas	ADN	ADN	_	6	dep	_	_	463.529999	463.640015	UBR
+8	mal	mal	ADV	ADV	_	6	dep	_	_	463.649994	463.799988	UBR
+9	puisque	puisque	CSU	CSU	_	4	periph	_	_	463.809998	464.470001	UBR
+10	en	en	PRE	PRE	_	11	dep	_	_	464.480011	464.589996	UBR
+11	fait	faire	VRB	VRB	_	9	dep	_	_	464.640015	464.739990	UBR
+12	le	le	DET	DET	_	14	spe	_	_	464.829987	464.959991	UBR
+13	le	le	DET	DET	_	12	para	_	_	464.970001	465.070007	UBR
+14	gros	gros	NOM	NOM	_	11	dep	_	_	465.079987	465.279999	UBR
+15	de	de	PRE	PRE	_	14	dep	_	_	465.290009	465.320007	UBR
+16	notre	son	DET	DET	_	17	spe	_	_	465.329987	465.489990	UBR
+17	saison	saison	NOM	NOM	_	15	dep	_	_	465.500000	465.820007	UBR
+18	à	à	PRE	PRE	_	14	dep	_	_	465.829987	465.869995	UBR
+19	nous	moi	PRO	PRO	_	18	dep	_	_	465.880005	465.980011	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-140
+# text = c'est c'est juillet août
+1	c'	ce	CLS	CLS	_	2	subj	_	_	465.989990	466.109985	UBR
+2	est	être	VRB	VRB	_	0	root	_	_	466.119995	466.309998	UBR
+3	c'	ce	CLS	CLS	_	4	subj	_	_	466.320007	466.420013	UBR
+4	est	être	VRB	VRB	_	2	para	_	_	466.429993	466.470001	UBR
+5	juillet	juillet	NOM	NOM	_	4	dep	_	_	466.480011	466.820007	UBR
+6	août	août	NOM	NOM	_	5	dep	_	_	466.829987	467.029999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-141
+# text = donc à cette période là euh on a encore pas mal de pa~ de possibilités pour euh pour euh pour essayer de de caser des cars
+1	donc	donc	ADV	ADV	_	8	periph	_	_	467.109985	467.519989	UBR
+2	à	à	PRE	PRE	_	8	periph	_	_	467.529999	467.730011	UBR
+3	cette	ce	DET	DET	_	4	spe	_	_	467.739990	467.920013	UBR
+4	période	période	NOM	NOM	_	2	dep	_	_	467.980011	468.260010	UBR
+5	là	là	ADV	ADV	_	4	dep	_	_	468.269989	468.670013	UBR
+6	euh	euh	INT	INT	_	5	dm	_	_	468.679993	468.820007	UBR
+7	on	on	CLS	CLS	_	8	subj	_	_	469.350006	469.410004	UBR
+8	a	avoir	VRB	VRB	_	0	root	_	_	469.480011	469.540009	UBR
+9	encore	encore	ADV	ADV	_	8	dep	_	_	469.549988	469.820007	UBR
+10	pas	pas	ADN	ADN	_	11	dep	_	_	469.829987	469.940002	UBR
+11	mal	mal	ADV	ADV	_	8	dep	_	_	469.950012	470.079987	UBR
+12	de	de	PRE	PRE	_	8	dep	_	_	470.089996	470.179993	UBR
+13	pa~	pa~	NOM	NOM	_	12	dep	_	_	470.190002	470.320007	UBR
+14	de	de	PRE	PRE	_	13	dep	_	_	470.429993	470.609985	UBR
+15	possibilités	possibilité	NOM	NOM	_	14	dep	_	_	470.619995	471.200012	UBR
+16	pour	pour	PRE	PRE	_	8	dep	_	_	471.209991	471.589996	UBR
+17	euh	euh	INT	INT	_	16	dm	_	_	471.600006	471.630005	UBR
+18	pour	pour	PRE	PRE	_	16	para	_	_	472.410004	472.820007	UBR
+19	euh	euh	INT	INT	_	18	dm	_	_	472.829987	472.890015	UBR
+20	pour	pour	PRE	PRE	_	18	para	_	_	473.420013	473.589996	UBR
+21	essayer	essayer	VNF	VNF	_	20	dep	_	_	473.600006	474.049988	UBR
+22	de	de	PRE	PRE	_	21	dep	_	_	474.059998	474.239990	UBR
+23	de	de	PRE	PRE	_	22	para	_	_	474.250000	474.359985	UBR
+24	caser	caser	VNF	VNF	_	23	dep	_	_	474.369995	474.649994	UBR
+25	des	de	PRE	PRE	_	24	dep	_	_	474.660004	474.739990	UBR
+26	cars	car	NOM	NOM	_	25	dep	_	_	474.790009	475.040009	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-142
+# text = alors je peux pas vous donner la réponse aujourd' hui euh
+1	alors	alors	ADV	ADV	_	3	periph	_	_	477.130005	477.350006	PEL
+2	je	je	CLS	CLS	_	3	subj	_	_	477.359985	477.470001	PEL
+3	peux	pouvoir	VRB	VRB	_	0	root	_	_	477.480011	477.630005	PEL
+4	pas	pas	ADN	ADN	_	3	dep	_	_	477.640015	477.769989	PEL
+5	vous	vous	CLI	CLI	_	6	dep	_	_	477.779999	477.880005	PEL
+6	donner	donner	VNF	VNF	_	3	dep	_	_	477.890015	478.200012	PEL
+7	la	le	DET	DET	_	8	spe	_	_	478.209991	478.350006	PEL
+8	réponse	réponse	NOM	NOM	_	6	dep	_	_	478.359985	478.739990	PEL
+9	aujourd' hui	aujourd'hui	ADV	ADV	_	6	dep	_	_	478.750000	479.250000	PEL
+10	euh	euh	INT	INT	_	9	dm	_	_	479.410004	479.720001	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-143
+# text = vous me rappelez euh euh la semaine prochaine
+1	vous	vous	CLS	CLS	_	3	subj	_	_	480.779999	480.920013	PEL
+2	me	me	CLI	CLI	_	3	dep	_	_	480.929993	481.019989	PEL
+3	rappelez	rappeler	VRB	VRB	_	0	root	_	_	481.029999	481.540009	PEL
+4	euh	euh	INT	INT	_	3	dm	_	_	481.549988	481.880005	PEL
+5	euh	euh	INT	INT	_	4	dm	_	_	482.859985	482.880005	PEL
+6	la	le	DET	DET	_	7	spe	_	_	482.890015	482.940002	PEL
+7	semaine	semaine	NOM	NOM	_	3	dep	_	_	482.950012	483.170013	PEL
+8	prochaine	prochain	ADJ	ADJ	_	7	dep	_	_	483.179993	483.570007	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-144
+# text = ben écoutez moi je je préférerais vous rappeler euh mercredi ou jeudi
+1	ben	ben	INT	INT	_	6	dm	_	_	483.850006	484.029999	UBR
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	484.470001	484.899994	UBR
+3	moi	moi	PRO	PRO	_	6	periph	_	_	484.910004	485.070007	UBR
+4	je	je	CLS	CLS	_	6	subj	_	_	485.079987	485.350006	UBR
+5	je	je	CLS	CLS	_	4	para	_	_	485.359985	485.459991	UBR
+6	préférerais	préférer	VRB	VRB	_	0	root	_	_	485.519989	485.790009	UBR
+7	vous	vous	CLI	CLI	_	8	dep	_	_	485.799988	485.890015	UBR
+8	rappeler	rappeler	VNF	VNF	_	6	dep	_	_	485.899994	486.399994	UBR
+9	euh	euh	INT	INT	_	8	dm	_	_	486.410004	486.480011	UBR
+10	mercredi	mercredi	NOM	NOM	_	8	dep	_	_	486.489990	487.119995	UBR
+11	ou	ou	COO	COO	_	12	mark	_	_	487.130005	487.209991	UBR
+12	jeudi	jeudi	NOM	NOM	_	10	para	_	_	487.220001	487.459991	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-145
+# text = ben jeudi
+1	ben	ben	INT	INT	_	2	dm	_	_	488.519989	488.709991	PEL
+2	jeudi	jeudi	NOM	NOM	_	0	root	_	_	489.359985	489.820007	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-146
+# text = jeudi oui euh
+1	jeudi	jeudi	NOM	NOM	_	0	root	_	_	490.940002	491.160004	UBR
+2	oui	oui	INT	INT	_	1	dm	_	_	491.329987	491.549988	UBR
+3	euh	euh	INT	INT	_	2	dm	_	_	491.559998	492.029999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-147
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	492.040009	492.250000	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-148
+# text = jeudi quatorze heures ou plutôt seize heures
+1	jeudi	jeudi	NOM	NOM	_	0	root	_	_	492.260010	492.529999	UBR
+2	quatorze	quatorze	NUM	NUM	_	3	spe	_	_	492.540009	492.950012	UBR
+3	heures	heure	NOM	NOM	_	1	para	_	_	492.959991	493.029999	UBR
+4	ou	ou	COO	COO	_	7	mark	_	_	493.040009	493.149994	UBR
+5	plutôt	plutôt	ADV	ADV	_	7	periph	_	_	493.160004	493.420013	UBR
+6	seize	seize	NUM	NUM	_	7	spe	_	_	493.720001	493.970001	UBR
+7	heures	heure	NOM	NOM	_	3	para	_	_	493.980011	494.119995	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-149
+# text = à seize heures ça ira
+1	à	à	PRE	PRE	_	5	periph	_	_	495.000000	495.049988	PEL
+2	seize	seize	NUM	NUM	_	3	spe	_	_	495.059998	495.299988	PEL
+3	heures	heure	NOM	NOM	_	1	dep	_	_	495.309998	495.459991	PEL
+4	ça	ça	PRO	PRO	_	5	subj	_	_	495.470001	495.609985	PEL
+5	ira	aller	VRB	VRB	_	0	root	_	_	495.619995	495.779999	PEL
+
+# sent_id = cefc-coralrom-fpubdl02-150
+# text = bien très bien alors euh je vous remercie de de votre accueil
+1	bien	bien	ADV	ADV	_	3	dep	_	_	495.790009	495.920013	UBR
+2	très	très	ADV	ADV	_	3	dep	_	_	497.010010	497.109985	UBR
+3	bien	bien	ADV	ADV	_	8	periph	_	_	497.119995	497.359985	UBR
+4	alors	alors	ADV	ADV	_	8	periph	_	_	497.369995	497.750000	UBR
+5	euh	euh	INT	INT	_	4	dm	_	_	497.760010	497.920013	UBR
+6	je	je	CLS	CLS	_	8	subj	_	_	497.929993	498.059998	UBR
+7	vous	vous	CLI	CLI	_	8	dep	_	_	498.070007	498.230011	UBR
+8	remercie	remercier	VRB	VRB	_	0	root	_	_	498.239990	498.600006	UBR
+9	de	de	PRE	PRE	_	8	dep	_	_	498.609985	499.000000	UBR
+10	de	de	PRE	PRE	_	9	para	_	_	499.010010	499.089996	UBR
+11	votre	son	DET	DET	_	12	spe	_	_	499.100006	499.309998	UBR
+12	accueil	accueil	NOM	NOM	_	10	dep	_	_	499.320007	499.600006	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-151
+# text = monsieur NNAAMMEE
+1	monsieur	Monsieur	NOM	NOM	_	0	root	_	_	499.609985	499.869995	UBR
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	499.989990	500.480011	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-152
+# text = et je vous rappelle donc comme convenu jeudi à seize heures
+1	et	et	COO	COO	_	4	mark	_	_	500.489990	500.609985	UBR
+2	je	je	CLS	CLS	_	4	subj	_	_	501.049988	501.209991	UBR
+3	vous	vous	CLI	CLI	_	4	dep	_	_	501.220001	501.299988	UBR
+4	rappelle	rappeler	VRB	VRB	_	0	root	_	_	501.309998	501.640015	UBR
+5	donc	donc	ADV	ADV	_	4	dep	_	_	501.649994	501.869995	UBR
+6	comme	comme	PRE	PRE	_	4	dep	_	_	501.880005	502.010010	UBR
+7	convenu	convenir	VPP	VPP	_	6	dep	_	_	502.019989	502.829987	UBR
+8	jeudi	jeudi	NOM	NOM	_	7	dep	_	_	502.839996	503.130005	UBR
+9	à	à	PRE	PRE	_	7	dep	_	_	503.140015	503.230011	UBR
+10	seize	seize	NUM	NUM	_	11	spe	_	_	503.239990	503.470001	UBR
+11	heures	heure	NOM	NOM	_	9	dep	_	_	503.480011	503.589996	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-153
+# text = on a dit hein
+1	on	on	CLS	CLS	_	3	subj	_	_	503.600006	503.679993	UBR
+2	a	avoir	VRB	VRB	_	3	aux	_	_	503.690002	503.750000	UBR
+3	dit	dire	VPP	VPP	_	0	root	_	_	503.859985	503.929993	UBR
+4	hein	hein	INT	INT	_	3	dm	_	_	503.940002	504.029999	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-154
+# text = bon ben je vous remercie
+1	bon ben	bon ben	INT	INT	_	4	dm	_	_	504.380005	504.869995	UBR
+2	je	je	CLS	CLS	_	4	subj	_	_	504.880005	504.950012	UBR
+3	vous	vous	CLI	CLI	_	4	dep	_	_	504.959991	505.029999	UBR
+4	remercie	remercier	VRB	VRB	_	0	root	_	_	505.040009	505.420013	UBR
+
+# sent_id = cefc-coralrom-fpubdl02-155
+# text = au revoir au revoir
+1	au revoir	au revoir	INT	INT	_	2	dm	_	_	505.429993	505.720001	PEL
+2	au revoir	au revoir	VNF	VNF	_	0	root	_	_	505.970001	506.709991	PEL
+

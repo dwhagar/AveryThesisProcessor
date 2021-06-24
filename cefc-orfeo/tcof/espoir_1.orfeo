@@ -1,0 +1,1938 @@
+# sent_id = cefc-tcof-espoir_1-1
+# text = alors on va parler du soutien scolaire qu'est ce que tu penses du fait que ce soit le lundi
+1	alors	alors	ADV	ADV	_	3	periph	_	_	0.350000	0.470000	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	0.470000	0.500000	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	0.560000	0.630000	L1
+4	parler	parler	VNF	VNF	_	3	dep	_	_	0.630000	0.980000	L1
+5	du	de+le	PRE	PRE	_	4	dep	_	_	1.210000	1.290000	L1
+6	soutien	soutien	NOM	NOM	_	5	dep	_	_	1.380000	1.580000	L1
+7	scolaire	scolaire	ADJ	ADJ	_	6	dep	_	_	1.650000	2.020000	L1
+8	qu'	que	PRQ	PRQ	_	9	dep	_	_	2.470000	2.500000	L1
+9	est	être	VRB	VRB	_	4	dep	_	_	2.500000	2.540000	L1
+10	ce	ce	PRO	PRO	_	9	dep	_	_	2.540000	2.570000	L1
+11	que	que	PRQ	PRQ	_	13	dep	_	_	2.570000	2.600000	L1
+12	tu	tu	CLS	CLS	_	13	subj	_	_	2.600000	2.740000	L1
+13	penses	penser	VRB	VRB	_	10	dep	_	_	2.740000	2.910000	L1
+14	du	de+le	PRE	PRE	_	13	dep	_	_	2.960000	3.070000	L1
+15	fait	fait	NOM	NOM	_	14	dep	_	_	3.070000	3.290000	L1
+16	que	que	CSU	CSU	_	15	dep	_	_	3.290000	3.510000	L1
+17	ce	ce	CLS	CLS	_	18	subj	_	_	3.510000	3.780000	L1
+18	soit	être	VRB	VRB	_	16	dep	_	_	3.780000	4.050000	L1
+19	le	le	DET	DET	_	20	spe	_	_	4.090000	4.240000	L1
+20	lundi	lundi	NOM	NOM	_	18	dep	_	_	4.240000	4.510000	L1
+
+# sent_id = cefc-tcof-espoir_1-2
+# text = je sais pas je pense que c'est quand même mieux quand même
+1	je	je	CLS	CLS	_	2	subj	_	_	5.650000	5.780000	L2
+2	sais	savoir	VRB	VRB	_	5	parenth	_	_	5.780000	5.990000	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	5.990000	6.170000	L2
+4	je	je	CLS	CLS	_	5	subj	_	_	6.170000	6.240000	L2
+5	pense	penser	VRB	VRB	_	0	root	_	_	6.240000	6.450000	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	6.450000	7.020000	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	7.020000	7.130000	L2
+8	est	être	VRB	VRB	_	6	dep	_	_	7.130000	7.190000	L2
+9	quand	quand	CSU	CSU	_	8	dep	_	_	7.190000	7.340000	L2
+10	même	même	ADV	ADV	_	11	dep	_	_	7.340000	7.470000	L2
+11	mieux	mieux	ADV	ADV	_	9	dep	_	_	7.470000	7.560000	L2
+12	quand	quand	CSU	CSU	_	9	para	_	_	7.560000	7.710000	L2
+13	même	même	ADV	ADV	_	12	dep	_	_	7.710000	7.870000	L2
+
+# sent_id = cefc-tcof-espoir_1-3
+# text = le lundi
+1	le	le	DET	DET	_	2	spe	_	_	7.870000	7.930000	L2
+2	lundi	lundi	NOM	NOM	_	0	root	_	_	7.930000	8.350000	L2
+
+# sent_id = cefc-tcof-espoir_1-4
+# text = parce que le vendredi on avait déjà un gros sac pour euh pour repartir euh pour aller prendre le train
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	8.920000	9.530000	L2
+2	le	le	DET	DET	_	3	spe	_	_	9.530000	9.640000	L2
+3	vendredi	vendredi	NOM	NOM	_	5	periph	_	_	9.640000	10.050000	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	10.050000	10.190000	L2
+5	avait	avoir	VRB	VRB	_	1	dep	_	_	10.190000	10.350000	L2
+6	déjà	déjà	ADV	ADV	_	5	dep	_	_	10.350000	10.570000	L2
+7	un	un	DET	DET	_	9	spe	_	_	10.660000	11.060000	L2
+8	gros	gros	ADJ	ADJ	_	9	dep	_	_	11.060000	11.270000	L2
+9	sac	sac	NOM	NOM	_	5	dep	_	_	11.270000	11.700000	L2
+10	pour	pour	PRE	PRE	_	5	dep	_	_	11.750000	11.850000	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	11.850000	12.130000	L2
+12	pour	pour	PRE	PRE	_	10	para	_	_	12.130000	12.400000	L2
+13	repartir	repartir	VNF	VNF	_	12	dep	_	_	12.400000	12.930000	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	12.930000	13.040000	L2
+15	pour	pour	PRE	PRE	_	12	para	_	_	13.040000	13.170000	L2
+16	aller	aller	VNF	VNF	_	15	dep	_	_	13.170000	13.310000	L2
+17	prendre	prendre	VNF	VNF	_	16	dep	_	_	13.310000	13.480000	L2
+18	le	le	DET	DET	_	19	spe	_	_	13.480000	13.550000	L2
+19	train	train	NOM	NOM	_	17	dep	_	_	13.550000	13.820000	L2
+
+# sent_id = cefc-tcof-espoir_1-5
+# text = donc déjà c'était pas évident question de ça
+1	donc	donc	ADV	ADV	_	4	periph	_	_	14.000000	14.200000	L2
+2	déjà	déjà	ADV	ADV	_	4	periph	_	_	14.200000	14.390000	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	14.390000	14.450000	L2
+4	était	être	VRB	VRB	_	0	root	_	_	14.450000	14.610000	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	14.610000	14.740000	L2
+6	évident	évident	ADJ	ADJ	_	4	dep	_	_	14.740000	15.080000	L2
+7	question	question	NOM	NOM	_	4	dep	_	_	15.080000	15.400000	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	15.400000	15.440000	L2
+9	ça	ça	PRO	PRO	_	8	dep	_	_	15.440000	15.720000	L2
+
+# sent_id = cefc-tcof-espoir_1-6
+# text = et en plus euh on n'a pas les les sixièmes de la dernière fois
+1	et	et	COO	COO	_	7	mark	_	_	16.209999	16.340000	L2
+2	en	en	PRE	PRE	_	7	periph	_	_	16.340000	16.469999	L2
+3	plus	plus	ADN	ADN	_	2	dep	_	_	16.469999	16.889999	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	16.889999	16.930000	L2
+5	on	on	CLS	CLS	_	7	subj	_	_	17.180000	17.690001	L2
+6	n'	ne	CLN	CLN	_	7	dep	_	_	17.690001	17.690001	L2
+7	a	avoir	VRB	VRB	_	0	root	_	_	17.690001	17.809999	L2
+8	pas	pas	ADN	ADN	_	7	dep	_	_	17.809999	17.950001	L2
+9	les	le	DET	DET	_	11	spe	_	_	17.950001	18.360001	L2
+10	les	le	DET	DET	_	9	para	_	_	18.760000	18.870001	L2
+11	sixièmes	sixième	NOM	NOM	_	7	dep	_	_	18.870001	19.280001	L2
+12	de	de	PRE	PRE	_	11	dep	_	_	19.280001	19.330000	L2
+13	la	le	DET	DET	_	15	spe	_	_	19.330000	19.490000	L2
+14	dernière	dernier	ADJ	ADJ	_	15	dep	_	_	19.490000	19.760000	L2
+15	fois	foi	NOM	NOM	_	12	dep	_	_	19.760000	19.959999	L2
+
+# sent_id = cefc-tcof-espoir_1-7
+# text = donc on n'a pas affaire au à au fameux jeune homme assez pénible
+1	donc	donc	ADV	ADV	_	4	periph	_	_	20.010000	20.260000	L2
+2	on	on	CLS	CLS	_	4	subj	_	_	20.260000	20.340000	L2
+3	n'	ne	CLN	CLN	_	4	dep	_	_	20.340000	20.340000	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	20.340000	20.430000	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	20.430000	20.670000	L2
+6	affaire	affaire	NOM	NOM	_	4	dep	_	_	20.670000	21.100000	L2
+7	au	à+le	PRE	PRE	_	6	dep	_	_	21.100000	21.160000	L2
+8	à	à	PRE	PRE	_	7	para	_	_	21.740000	21.809999	L2
+9	au	à+le	PRE	PRE	_	8	para	_	_	21.809999	21.840000	L2
+10	fameux	fameux	ADJ	ADJ	_	11	dep	_	_	21.840000	22.240000	L2
+11	jeune	jeune	ADJ	ADJ	_	12	dep	_	_	22.240000	22.520000	L2
+12	homme	homme	NOM	NOM	_	9	dep	_	_	22.520000	22.700001	L2
+13	assez	assez	ADV	ADV	_	14	dep	_	_	22.920000	23.049999	L2
+14	pénible	pénible	ADJ	ADJ	_	12	dep	_	_	23.049999	23.469999	L2
+
+# sent_id = cefc-tcof-espoir_1-8
+# text = là tu te rappelles euh
+1	là	là	ADV	ADV	_	4	periph	_	_	23.469999	23.639999	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	23.740000	23.799999	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	23.799999	23.879999	L2
+4	rappelles	rappeler	VRB	VRB	_	0	root	_	_	23.879999	24.270000	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	24.400000	24.430000	L2
+
+# sent_id = cefc-tcof-espoir_1-9
+# text = hum je m'en souviens très bien
+1	hum	hum	INT	INT	_	5	dm	_	_	24.370001	24.430000	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	24.969999	25.350000	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	25.350000	25.410000	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	25.410000	25.469999	L1
+5	souviens	souviens	VRB	VRB	_	0	root	_	_	25.469999	25.830000	L1
+6	très	très	ADV	ADV	_	7	dep	_	_	25.879999	26.059999	L1
+7	bien	bien	ADV	ADV	_	5	dep	_	_	26.120001	26.260000	L1
+
+# sent_id = cefc-tcof-espoir_1-10
+# text = mais bon le problème c'est que les cinquièmes ils sont vraiment pas tenables en fait déjà
+1	mais	mais	COO	COO	_	6	mark	_	_	26.430000	26.549999	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	26.549999	26.670000	L1
+3	le	le	DET	DET	_	4	spe	_	_	26.670000	26.790001	L1
+4	problème	problème	NOM	NOM	_	6	periph	_	_	26.790001	27.190001	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	27.190001	27.219999	L1
+6	est	être	VRB	VRB	_	0	root	_	_	27.219999	27.360001	L1
+7	que	que	CSU	CSU	_	6	dep	_	_	27.360001	27.430000	L1
+8	les	le	DET	DET	_	9	spe	_	_	27.850000	27.940001	L1
+9	cinquièmes	cinquième	NOM	NOM	_	11	periph	_	_	27.940001	28.559999	L1
+10	ils	il	CLS	CLS	_	11	subj	_	_	29.270000	29.350000	L1
+11	sont	être	VRB	VRB	_	7	dep	_	_	29.350000	29.580000	L1
+12	vraiment	vraiment	ADV	ADV	_	11	dep	_	_	29.580000	30.200001	L1
+13	pas	pas	ADN	ADN	_	11	dep	_	_	30.370001	30.709999	L1
+14	tenables	tenable	ADJ	ADJ	_	11	dep	_	_	30.709999	31.170000	L1
+15	en	en	PRE	PRE	_	11	dep	_	_	31.170000	31.230000	L1
+16	fait	fait	NOM	NOM	_	15	dep	_	_	31.230000	31.370001	L1
+17	déjà	déjà	ADV	ADV	_	6	periph	_	_	31.370001	31.639999	L1
+
+# sent_id = cefc-tcof-espoir_1-11
+# text = ils sont plus vieux
+1	ils	il	CLS	CLS	_	2	subj	_	_	31.690001	31.799999	L1
+2	sont	être	VRB	VRB	_	0	root	_	_	31.799999	31.860001	L1
+3	plus	plus	ADN	ADN	_	4	dep	_	_	31.860001	31.969999	L1
+4	vieux	vieux	ADJ	ADJ	_	2	dep	_	_	31.969999	32.160000	L1
+
+# sent_id = cefc-tcof-espoir_1-12
+# text = donc ils ont encore moins envie d'écouter que les sixièmes
+1	donc	donc	ADV	ADV	_	3	periph	_	_	32.160000	32.369999	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	32.369999	32.529999	L1
+3	ont	avoir	VRB	VRB	_	0	root	_	_	32.529999	32.560001	L1
+4	encore	encore	ADV	ADV	_	3	dep	_	_	32.560001	32.860001	L1
+5	moins	moins	ADV	ADV	_	3	dep	_	_	32.860001	33.009998	L1
+6	envie	envie	NOM	NOM	_	3	dep	_	_	33.009998	33.169998	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	33.169998	33.240002	L1
+8	écouter	écouter	VNF	VNF	_	7	dep	_	_	33.240002	33.520000	L1
+9	que	que	CSU	CSU	_	8	dep	_	_	33.520000	33.549999	L1
+10	les	le	DET	DET	_	11	spe	_	_	33.549999	33.610001	L1
+11	sixièmes	sixième	NOM	NOM	_	9	dep	_	_	33.700001	34.040001	L1
+
+# sent_id = cefc-tcof-espoir_1-13
+# text = et en plus vu qu'ils sont là par contrainte ils ont vraiment pas envie de travailler
+1	et	et	COO	COO	_	4	mark	_	_	34.799999	34.830002	L1
+2	en	en	PRE	PRE	_	4	periph	_	_	34.889999	35.009998	L1
+3	plus	plus	ADN	ADN	_	4	dep	_	_	35.009998	35.270000	L1
+4	vu	voir	VPP	VPP	_	12	periph	_	_	35.270000	35.380001	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	35.380001	35.410000	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	35.410000	35.470001	L1
+7	sont	être	VRB	VRB	_	5	dep	_	_	35.470001	35.680000	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	35.680000	35.799999	L1
+9	par	par	PRE	PRE	_	7	dep	_	_	35.799999	36.029999	L1
+10	contrainte	contrainte	NOM	NOM	_	9	dep	_	_	36.029999	36.660000	L1
+11	ils	il	CLS	CLS	_	12	subj	_	_	37.360001	37.490002	L1
+12	ont	avoir	VRB	VRB	_	0	root	_	_	37.490002	37.549999	L1
+13	vraiment	vraiment	ADV	ADV	_	12	dep	_	_	37.549999	37.840000	L1
+14	pas	pas	ADN	ADN	_	12	dep	_	_	37.840000	37.900002	L1
+15	envie	envie	NOM	NOM	_	12	dep	_	_	37.900002	38.049999	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	38.049999	38.119999	L1
+17	travailler	travailler	VNF	VNF	_	16	dep	_	_	38.119999	38.509998	L1
+
+# sent_id = cefc-tcof-espoir_1-14
+# text = donc c'est compliqué de s'en occuper
+1	donc	donc	ADV	ADV	_	4	periph	_	_	38.639999	38.830002	L1
+2	c'	ce	CLS	CLS	_	4	subj	_	_	38.830002	38.860001	L1
+3	est	être	VRB	VRB	_	4	aux	_	_	38.860001	38.889999	L1
+4	compliqué	compliquer	VPP	VPP	_	0	root	_	_	38.889999	39.099998	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	39.099998	39.130001	L1
+6	s'	se	CLI	CLI	_	8	dep	_	_	39.130001	39.160000	L1
+7	en	en	CLI	CLI	_	8	dep	_	_	39.160000	39.189999	L1
+8	occuper	occuper	VNF	VNF	_	5	dep	_	_	39.189999	39.490002	L1
+
+# sent_id = cefc-tcof-espoir_1-15
+# text = hum c'est vrai c'est comme la la fille là euh que j'ai eu la semaine dernière
+1	hum	hum	INT	INT	_	3	dm	_	_	39.790001	39.889999	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	39.889999	40.020000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	40.020000	40.049999	L2
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	40.049999	40.270000	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	40.509998	40.570000	L2
+6	est	être	VRB	VRB	_	3	para	_	_	40.570000	40.630001	L2
+7	comme	comme	PRE	PRE	_	6	dep	_	_	40.630001	40.759998	L2
+8	la	le	DET	DET	_	10	spe	_	_	40.759998	40.930000	L2
+9	la	le	DET	DET	_	8	para	_	_	40.930000	41.169998	L2
+10	fille	fille	NOM	NOM	_	7	dep	_	_	41.169998	41.430000	L2
+11	là	là	ADV	ADV	_	10	dep	_	_	41.430000	41.830002	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	42.040001	42.070000	L2
+13	que	que	CSU	CSU	_	6	dep	_	_	42.160000	42.189999	L2
+14	j'	je	CLS	CLS	_	16	subj	_	_	42.189999	42.230000	L2
+15	ai	avoir	VRB	VRB	_	16	aux	_	_	42.230000	42.259998	L2
+16	eu	avoir	VPP	VPP	_	13	dep	_	_	42.259998	42.290001	L2
+17	la	le	DET	DET	_	18	spe	_	_	42.290001	42.349998	L2
+18	semaine	semaine	NOM	NOM	_	16	dep	_	_	42.349998	42.509998	L2
+19	dernière	dernier	ADJ	ADJ	_	18	dep	_	_	42.509998	42.930000	L2
+
+# sent_id = cefc-tcof-espoir_1-16
+# text = la dame qui est venue euh qui est venue m'aider enfin qui est venue juste me parler en fait d'elle
+1	la	le	DET	DET	_	2	spe	_	_	43.380001	43.500000	L2
+2	dame	dame	NOM	NOM	_	5	subj	_	_	43.500000	43.720001	L2
+3	qui	qui	PRQ	PRQ	_	5	subj	_	_	43.720001	43.880001	L2
+4	est	être	VRB	VRB	_	5	aux	_	_	43.980000	44.099998	L2
+5	venue	venir	VPP	VPP	_	0	root	_	_	44.099998	44.700001	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	44.700001	44.730000	L2
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	44.849998	44.970001	L2
+8	est	être	VRB	VRB	_	9	aux	_	_	44.970001	45.009998	L2
+9	venue	venir	VPP	VPP	_	5	para	_	_	45.009998	45.150002	L2
+10	m'	me	CLI	CLI	_	11	dep	_	_	45.150002	45.230000	L2
+11	aider	aider	VNF	VNF	_	9	dep	_	_	45.230000	45.439999	L2
+12	enfin	enfin	ADV	ADV	_	11	dm	_	_	45.439999	45.700001	L2
+13	qui	qui	PRQ	PRQ	_	15	subj	_	_	45.750000	45.810001	L2
+14	est	être	VRB	VRB	_	15	aux	_	_	45.810001	45.849998	L2
+15	venue	venir	VPP	VPP	_	11	para	_	_	45.849998	46.130001	L2
+16	juste	juste	ADV	ADV	_	15	dep	_	_	46.130001	46.470001	L2
+17	me	me	CLI	CLI	_	18	dep	_	_	46.470001	46.549999	L2
+18	parler	parler	VNF	VNF	_	15	dep	_	_	46.630001	46.900002	L2
+19	en	en	PRE	PRE	_	18	dep	_	_	46.900002	47.020000	L2
+20	fait	fait	NOM	NOM	_	19	dep	_	_	47.020000	47.110001	L2
+21	d'	de	PRE	PRE	_	20	dep	_	_	47.110001	47.250000	L2
+22	elle	moi	PRO	PRO	_	21	dep	_	_	47.349998	47.509998	L2
+
+# sent_id = cefc-tcof-espoir_1-17
+# text = elle m'a dit que c'était elle qui avait choisi de de revenir justement au soutien scolaire
+1	elle	il	CLS	CLS	_	4	subj	_	_	47.560001	47.619999	L2
+2	m'	me	CLI	CLI	_	4	dep	_	_	47.619999	47.650002	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	47.650002	47.680000	L2
+4	dit	dire	VPP	VPP	_	0	root	_	_	47.680000	47.740002	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	47.740002	47.770000	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	47.770000	47.799999	L2
+7	était	être	VRB	VRB	_	5	dep	_	_	47.799999	47.980000	L2
+8	elle	moi	PRO	PRO	_	7	dep	_	_	48.020000	48.110001	L2
+9	qui	qui	PRQ	PRQ	_	11	dep	_	_	48.110001	48.240002	L2
+10	avait	avoir	VRB	VRB	_	11	aux	_	_	48.240002	48.380001	L2
+11	choisi	choisir	VPP	VPP	_	8	dep	_	_	48.380001	48.740002	L2
+12	de	de	PRE	PRE	_	11	dep	_	_	48.740002	48.950001	L2
+13	de	de	PRE	PRE	_	12	para	_	_	49.220001	49.250000	L2
+14	revenir	revenir	VNF	VNF	_	13	dep	_	_	49.250000	49.619999	L2
+15	justement	justement	ADV	ADV	_	14	dep	_	_	49.619999	49.970001	L2
+16	au	à+le	PRE	PRE	_	14	dep	_	_	49.970001	50.020000	L2
+17	soutien	soutien	NOM	NOM	_	16	dep	_	_	50.020000	50.330002	L2
+18	scolaire	scolaire	ADJ	ADJ	_	17	dep	_	_	50.330002	50.750000	L2
+
+# sent_id = cefc-tcof-espoir_1-18
+# text = et euh moi je trouvais vraiment que ben elle était vraiment pas motivée
+1	et	et	COO	COO	_	5	mark	_	_	51.410000	51.599998	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	51.599998	51.630001	L2
+3	moi	moi	PRO	PRO	_	5	periph	_	_	51.750000	51.919998	L2
+4	je	je	CLS	CLS	_	5	subj	_	_	51.919998	51.990002	L2
+5	trouvais	trouver	VRB	VRB	_	0	root	_	_	51.990002	52.209999	L2
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	52.209999	52.549999	L2
+7	que	que	CSU	CSU	_	5	dep	_	_	52.549999	53.080002	L2
+8	ben	ben	INT	INT	_	7	dm	_	_	53.369999	53.439999	L2
+9	elle	il	CLS	CLS	_	10	subj	_	_	53.439999	53.520000	L2
+10	était	être	VRB	VRB	_	7	dep	_	_	53.520000	53.610001	L2
+11	vraiment	vraiment	ADV	ADV	_	13	dep	_	_	53.610001	53.759998	L2
+12	pas	pas	ADN	ADN	_	13	dep	_	_	53.759998	53.849998	L2
+13	motivée	motiver	VPP	VPP	_	10	dep	_	_	53.849998	54.310001	L2
+
+# sent_id = cefc-tcof-espoir_1-19
+# text = et c'était vraiment euh elle voulait pas faire son devoir
+1	et	et	COO	COO	_	3	mark	_	_	54.369999	54.400002	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	54.400002	54.430000	L2
+3	était	être	VRB	VRB	_	0	root	_	_	54.430000	54.520000	L2
+4	vraiment	vraiment	ADV	ADV	_	3	dep	_	_	54.520000	55.169998	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	55.349998	55.369999	L2
+6	elle	il	CLS	CLS	_	7	subj	_	_	55.369999	55.470001	L2
+7	voulait	vouloir	VRB	VRB	_	3	para	_	_	55.470001	55.660000	L2
+8	pas	pas	ADN	ADN	_	7	dep	_	_	55.660000	55.799999	L2
+9	faire	faire	VNF	VNF	_	7	dep	_	_	55.799999	55.939999	L2
+10	son	son	DET	DET	_	11	spe	_	_	55.939999	56.150002	L2
+11	devoir	devoir	NOM	NOM	_	9	dep	_	_	56.150002	56.680000	L2
+
+# sent_id = cefc-tcof-espoir_1-20
+# text = elle euh elle euh elle envoyait euh péter tout le monde euh
+1	elle	il	CLS	CLS	_	6	subj	_	_	56.740002	56.910000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	56.910000	56.939999	L2
+3	elle	il	CLS	CLS	_	1	para	_	_	57.860001	58.259998	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	58.259998	58.369999	L2
+5	elle	il	CLS	CLS	_	3	para	_	_	58.490002	58.639999	L2
+6	envoyait	envoyer	VRB	VRB	_	0	root	_	_	58.639999	59.099998	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	59.099998	59.209999	L2
+8	péter	péter	VNF	VNF	_	6	dep	_	_	59.209999	59.450001	L2
+9	tout le monde	tout le monde	PRO	PRO	_	8	dep	_	_	59.500000	60.189999	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	60.189999	60.230000	L2
+
+# sent_id = cefc-tcof-espoir_1-21
+# text = c'était vraiment euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	60.380001	60.410000	L2
+2	était	être	VRB	VRB	_	0	root	_	_	60.410000	60.500000	L2
+3	vraiment	vraiment	ADV	ADV	_	2	dep	_	_	60.500000	60.950001	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	60.950001	61.060001	L2
+
+# sent_id = cefc-tcof-espoir_1-22
+# text = ouais ouais ben moi c'est pareil en fait
+1	ouais	ouais	INT	INT	_	6	dm	_	_	61.730000	61.869999	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	62.130001	62.360001	L1
+3	ben	ben	INT	INT	_	2	dm	_	_	62.360001	62.549999	L1
+4	moi	moi	PRO	PRO	_	6	periph	_	_	62.549999	62.680000	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	62.680000	62.770000	L1
+6	est	être	VRB	VRB	_	0	root	_	_	62.770000	62.869999	L1
+7	pareil	pareil	ADJ	ADJ	_	6	dep	_	_	62.869999	63.150002	L1
+8	en	en	PRE	PRE	_	6	dep	_	_	63.150002	63.230000	L1
+9	fait	fait	NOM	NOM	_	8	dep	_	_	63.230000	63.430000	L1
+
+# sent_id = cefc-tcof-espoir_1-23
+# text = j'essayais de de m'occuper de d'une fille euh
+1	j'	je	CLS	CLS	_	2	subj	_	_	63.500000	63.529999	L1
+2	essayais	essayer	VRB	VRB	_	0	root	_	_	63.529999	63.860001	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	63.860001	64.110001	L1
+4	de	de	PRE	PRE	_	3	para	_	_	64.959999	65.330002	L1
+5	m'	me	CLI	CLI	_	6	dep	_	_	65.330002	65.449997	L1
+6	occuper	occuper	VNF	VNF	_	4	dep	_	_	65.449997	66.019997	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	66.089996	66.629997	L1
+8	d'	de	PRE	PRE	_	7	para	_	_	66.800003	66.830002	L1
+9	une	un	DET	DET	_	10	spe	_	_	66.830002	66.919998	L1
+10	fille	fille	NOM	NOM	_	8	dep	_	_	66.919998	67.230003	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	67.309998	67.449997	L1
+
+# sent_id = cefc-tcof-espoir_1-24
+# text = il y a deux semaines je crois
+1	il	il	CLS	CLS	_	3	subj	_	_	67.669998	67.750000	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	67.750000	67.779999	L1
+3	a	avoir	VRB	VRB	_	7	periph	_	_	67.779999	67.809998	L1
+4	deux	deux	NUM	NUM	_	5	spe	_	_	67.809998	67.870003	L1
+5	semaines	semaine	NOM	NOM	_	3	dep	_	_	67.870003	68.000000	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	68.000000	68.050003	L1
+7	crois	croire	VRB	VRB	_	0	root	_	_	68.050003	68.339996	L1
+
+# sent_id = cefc-tcof-espoir_1-25
+# text = et en fait à chaque fois que j'essayais de lui faire faire ses devoirs
+1	et	et	COO	COO	_	3	mark	_	_	68.779999	68.830002	L1
+2	en	en	PRE	PRE	_	3	periph	_	_	68.830002	69.010002	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	69.010002	69.190002	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	69.190002	69.279999	L1
+5	chaque	chaque	DET	DET	_	6	spe	_	_	69.279999	69.430000	L1
+6	fois	foi	NOM	NOM	_	4	dep	_	_	69.430000	69.519997	L1
+7	que	que	PRQ	PRQ	_	9	dep	_	_	69.519997	69.550003	L1
+8	j'	je	CLS	CLS	_	9	subj	_	_	69.550003	69.599998	L1
+9	essayais	essayer	VRB	VRB	_	6	dep	_	_	69.599998	69.839996	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	69.839996	69.870003	L1
+11	lui	lui	CLI	CLI	_	12	dep	_	_	69.870003	69.959999	L1
+12	faire	faire	VNF	VNF	_	10	dep	_	_	69.959999	70.110001	L1
+13	faire	faire	VNF	VNF	_	12	dep	_	_	70.110001	70.250000	L1
+14	ses	son	DET	DET	_	15	spe	_	_	70.250000	70.360001	L1
+15	devoirs	devoir	NOM	NOM	_	13	dep	_	_	70.360001	70.620003	L1
+
+# sent_id = cefc-tcof-espoir_1-26
+# text = elle me disait non non non
+1	elle	il	CLS	CLS	_	3	subj	_	_	70.669998	70.730003	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	70.730003	70.760002	L1
+3	disait	dire	VRB	VRB	_	0	root	_	_	70.760002	70.879997	L1
+4	non	non	INT	INT	_	3	dm	_	_	70.879997	71.019997	L1
+5	non	non	INT	INT	_	4	para	_	_	71.019997	71.180000	L1
+6	non	non	INT	INT	_	5	para	_	_	71.180000	71.500000	L1
+
+# sent_id = cefc-tcof-espoir_1-27
+# text = mais c'est bon
+1	mais	mais	COO	COO	_	3	mark	_	_	71.500000	71.709999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	71.709999	71.750000	L1
+3	est	être	VRB	VRB	_	0	root	_	_	71.750000	71.809998	L1
+4	bon	bon	ADJ	ADJ	_	3	dep	_	_	71.809998	72.080002	L1
+
+# sent_id = cefc-tcof-espoir_1-28
+# text = je le ferai après je le ferai après
+1	je	je	CLS	CLS	_	3	subj	_	_	72.080002	72.150002	L1
+2	le	le	CLI	CLI	_	3	dep	_	_	72.150002	72.260002	L1
+3	ferai	faire	VRB	VRB	_	0	root	_	_	72.260002	72.410004	L1
+4	après	après	PRE	PRE	_	3	dep	_	_	72.410004	72.610001	L1
+5	je	je	CLS	CLS	_	7	subj	_	_	72.610001	72.680000	L1
+6	le	le	CLI	CLI	_	7	dep	_	_	72.680000	72.739998	L1
+7	ferai	faire	VRB	VRB	_	3	para	_	_	72.739998	72.930000	L1
+8	après	après	PRE	PRE	_	7	dep	_	_	72.930000	73.120003	L1
+
+# sent_id = cefc-tcof-espoir_1-29
+# text = mais je lui ai dit je suis là pour ça
+1	mais	mais	COO	COO	_	5	mark	_	_	73.169998	73.239998	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	73.239998	73.269997	L1
+3	lui	lui	CLI	CLI	_	5	dep	_	_	73.269997	73.360001	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	73.360001	73.389999	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	73.389999	73.449997	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	73.449997	73.480003	L1
+7	suis	être	VRB	VRB	_	5	dep	_	_	73.480003	73.599998	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	73.599998	73.720001	L1
+9	pour	pour	PRE	PRE	_	7	dep	_	_	73.720001	73.900002	L1
+10	ça	ça	PRO	PRO	_	9	dep	_	_	73.900002	74.139999	L1
+
+# sent_id = cefc-tcof-espoir_1-30
+# text = elle me dit non c'est pas la peine puis à chaque fois elle jouait à à monter le rideau à baisser le rideau
+1	elle	il	CLS	CLS	_	3	subj	_	_	74.589996	74.650002	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	74.650002	74.769997	L1
+3	dit	dire	VRB	VRB	_	0	root	_	_	74.769997	74.910004	L1
+4	non	non	INT	INT	_	3	dm	_	_	74.910004	75.389999	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	75.389999	75.470001	L1
+6	est	être	VRB	VRB	_	3	dep	_	_	75.470001	75.540001	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	75.540001	75.650002	L1
+8	la	le	DET	DET	_	9	spe	_	_	75.650002	75.779999	L1
+9	peine	peine	NOM	NOM	_	6	dep	_	_	75.779999	76.059998	L1
+10	puis	puis	COO	COO	_	15	mark	_	_	76.059998	76.160004	L1
+11	à	à	PRE	PRE	_	15	periph	_	_	76.160004	76.199997	L1
+12	chaque	chaque	DET	DET	_	13	spe	_	_	76.199997	76.349998	L1
+13	fois	foi	NOM	NOM	_	11	dep	_	_	76.400002	76.519997	L1
+14	elle	il	CLS	CLS	_	15	subj	_	_	76.519997	76.580002	L1
+15	jouait	jouer	VRB	VRB	_	6	para	_	_	76.580002	76.940002	L1
+16	à	à	PRE	PRE	_	15	dep	_	_	77.099998	77.220001	L1
+17	à	à	PRE	PRE	_	16	para	_	_	77.269997	77.309998	L1
+18	monter	monter	VNF	VNF	_	17	dep	_	_	77.309998	77.470001	L1
+19	le	le	DET	DET	_	20	spe	_	_	77.470001	77.550003	L1
+20	rideau	rideau	NOM	NOM	_	18	dep	_	_	77.550003	77.879997	L1
+21	à	à	PRE	PRE	_	18	dep	_	_	77.879997	77.949997	L1
+22	baisser	baisser	VNF	VNF	_	21	dep	_	_	77.949997	78.209999	L1
+23	le	le	DET	DET	_	24	spe	_	_	78.209999	78.279999	L1
+24	rideau	rideau	NOM	NOM	_	22	dep	_	_	78.279999	78.459999	L1
+
+# sent_id = cefc-tcof-espoir_1-31
+# text = enfin c'était vraiment compliqué
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	78.459999	78.629997	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	78.680000	78.709999	L1
+3	était	être	VRB	VRB	_	0	root	_	_	78.709999	78.820000	L1
+4	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	78.820000	79.089996	L1
+5	compliqué	compliqué	ADJ	ADJ	_	3	dep	_	_	79.089996	79.550003	L1
+
+# sent_id = cefc-tcof-espoir_1-32
+# text = alors déjà on vient pour les aider
+1	alors	alors	ADV	ADV	_	4	periph	_	_	79.550003	79.709999	L1
+2	déjà	déjà	ADV	ADV	_	4	periph	_	_	80.570000	80.839996	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	80.839996	80.930000	L1
+4	vient	venir	VRB	VRB	_	0	root	_	_	80.930000	81.120003	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	81.120003	81.230003	L1
+6	les	le	CLI	CLI	_	7	dep	_	_	81.230003	81.349998	L1
+7	aider	aider	VNF	VNF	_	5	dep	_	_	81.349998	81.589996	L1
+
+# sent_id = cefc-tcof-espoir_1-33
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	81.589996	81.769997	L1
+
+# sent_id = cefc-tcof-espoir_1-34
+# text = si ils y mettent pas un peu du
+1	si	si	CSU	CSU	_	0	root	_	_	81.769997	81.919998	L1
+2	ils	il	CLS	CLS	_	4	subj	_	_	81.919998	82.000000	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	82.000000	82.040001	L1
+4	mettent	mettre	VRB	VRB	_	1	dep	_	_	82.040001	82.169998	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	82.230003	82.309998	L1
+6	un peu	un peu	ADV	ADV	_	4	dep	_	_	82.309998	82.709999	L1
+7	du	de+le	PRE	PRE	_	4	dep	_	_	82.709999	82.790001	L1
+
+# sent_id = cefc-tcof-espoir_1-35
+# text = leur euh
+1	leur	son	DET	DET	_	0	root	_	_	82.790001	83.300003	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	83.300003	83.339996	L1
+
+# sent_id = cefc-tcof-espoir_1-36
+# text = non non mais ils se rendent pas compte déjà un de la chance qu'ils ont
+1	non	non	INT	INT	_	6	dm	_	_	83.449997	83.510002	L2
+2	non	non	INT	INT	_	1	dm	_	_	83.510002	83.570000	L2
+3	mais	mais	COO	COO	_	6	mark	_	_	83.570000	83.639999	L2
+4	ils	il	CLS	CLS	_	6	subj	_	_	83.639999	83.730003	L2
+5	se	se	CLI	CLI	_	6	dep	_	_	83.730003	83.849998	L2
+6	rendent	rendre	VRB	VRB	_	0	root	_	_	83.849998	83.989998	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	83.989998	84.129997	L2
+8	compte	compte	NOM	NOM	_	6	dep	_	_	84.129997	84.330002	L2
+9	déjà	déjà	ADV	ADV	_	6	dep	_	_	84.330002	84.570000	L2
+10	un	un	DET	DET	_	6	dep	_	_	84.570000	84.660004	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	84.660004	84.750000	L2
+12	la	le	DET	DET	_	13	spe	_	_	84.750000	84.830002	L2
+13	chance	chance	NOM	NOM	_	11	dep	_	_	84.830002	85.059998	L2
+14	qu'	que	CSU	CSU	_	6	dep	_	_	85.059998	85.120003	L2
+15	ils	il	CLS	CLS	_	16	subj	_	_	85.120003	85.250000	L2
+16	ont	avoir	VRB	VRB	_	14	dep	_	_	85.250000	85.339996	L2
+
+# sent_id = cefc-tcof-espoir_1-37
+# text = et puis en plus euh ils trouvent toujours des excuses
+1	et puis	et puis	COO	COO	_	6	mark	_	_	85.379997	85.639999	L2
+2	en	en	PRE	PRE	_	6	periph	_	_	85.639999	85.730003	L2
+3	plus	plus	ADN	ADN	_	2	dep	_	_	85.839996	86.139999	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	86.209999	86.250000	L2
+5	ils	il	CLS	CLS	_	6	subj	_	_	86.730003	86.839996	L2
+6	trouvent	trouver	VRB	VRB	_	0	root	_	_	86.839996	87.000000	L2
+7	toujours	toujours	ADV	ADV	_	6	dep	_	_	87.000000	87.239998	L2
+8	des	de	PRE	PRE	_	6	dep	_	_	87.239998	87.339996	L2
+9	excuses	excuse	NOM	NOM	_	8	dep	_	_	87.339996	87.709999	L2
+
+# sent_id = cefc-tcof-espoir_1-38
+# text = c'est euh c'est vraiment euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	87.709999	87.809998	L2
+2	est	être	VRB	VRB	_	0	root	_	_	87.809998	87.930000	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	88.349998	88.459999	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	88.629997	88.669998	L2
+5	est	être	VRB	VRB	_	2	para	_	_	88.800003	88.820000	L2
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	88.820000	89.430000	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	89.430000	89.470001	L2
+
+# sent_id = cefc-tcof-espoir_1-39
+# text = tu as vu en plus ils ont
+1	tu	tu	CLS	CLS	_	3	subj	_	_	89.470001	89.639999	L2
+2	as	avoir	VRB	VRB	_	3	aux	_	_	89.709999	89.779999	L2
+3	vu	voir	VPP	VPP	_	7	periph	_	_	89.779999	89.910004	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	89.910004	90.000000	L2
+5	plus	plus	ADN	ADN	_	4	dep	_	_	90.000000	90.260002	L2
+6	ils	il	CLS	CLS	_	7	subj	_	_	90.320000	90.489998	L2
+7	ont	avoir	VRB	VRB	_	0	root	_	_	90.489998	90.730003	L2
+
+# sent_id = cefc-tcof-espoir_1-40
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	86.070000	86.160004	L1
+
+# sent_id = cefc-tcof-espoir_1-41
+# text = euh ils ont voulu jouer à plein de jeux la semaine dernière euh
+1	euh	euh	INT	INT	_	4	dm	_	_	91.589996	91.610001	L2
+2	ils	il	CLS	CLS	_	4	subj	_	_	91.769997	91.830002	L2
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	91.830002	91.860001	L2
+4	voulu	se vouloir	VPP	VPP	_	0	root	_	_	91.860001	92.000000	L2
+5	jouer	jouer	VNF	VNF	_	4	dep	_	_	92.000000	92.169998	L2
+6	à	à	PRE	PRE	_	5	dep	_	_	92.169998	92.269997	L2
+7	plein	plein	NOM	NOM	_	6	dep	_	_	92.269997	92.519997	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	92.519997	92.550003	L2
+9	jeux	jeu	NOM	NOM	_	8	dep	_	_	92.550003	92.639999	L2
+10	la	le	DET	DET	_	11	spe	_	_	92.639999	92.750000	L2
+11	semaine	semaine	NOM	NOM	_	4	dep	_	_	92.750000	92.940002	L2
+12	dernière	dernier	ADJ	ADJ	_	11	dep	_	_	92.940002	93.660004	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	93.660004	93.809998	L2
+
+# sent_id = cefc-tcof-espoir_1-42
+# text = il restait une demi heure
+1	il	il	CLS	CLS	_	2	subj	_	_	93.900002	93.989998	L2
+2	restait	rester	VRB	VRB	_	0	root	_	_	93.989998	94.239998	L2
+3	une	un	DET	DET	_	5	spe	_	_	94.239998	94.370003	L2
+4	demi	demi	ADJ	ADJ	_	5	dep	_	_	94.370003	94.629997	L2
+5	heure	heure	NOM	NOM	_	2	dep	_	_	94.629997	94.870003	L2
+
+# sent_id = cefc-tcof-espoir_1-43
+# text = et ils ont ils ont ils ont voulu
+1	et	et	COO	COO	_	3	mark	_	_	94.870003	94.949997	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	95.040001	95.110001	L2
+3	ont	avoir	VRB	VRB	_	0	root	_	_	95.110001	95.139999	L2
+4	ils	il	CLS	CLS	_	5	subj	_	_	95.190002	95.410004	L2
+5	ont	avoir	VRB	VRB	_	3	para	_	_	95.410004	95.449997	L2
+6	ils	il	CLS	CLS	_	8	subj	_	_	95.449997	95.570000	L2
+7	ont	avoir	VRB	VRB	_	8	aux	_	_	95.570000	95.620003	L2
+8	voulu	se vouloir	VPP	VPP	_	5	para	_	_	95.620003	95.889999	L2
+
+# sent_id = cefc-tcof-espoir_1-44
+# text = oui nous on en a fait quasiment qu'une demi heure
+1	oui	oui	INT	INT	_	6	dm	_	_	95.190002	95.250000	L1
+2	nous	moi	PRO	PRO	_	6	periph	_	_	95.250000	95.410004	L1
+3	on	on	CLS	CLS	_	6	subj	_	_	95.410004	95.440002	L1
+4	en	en	CLI	CLI	_	6	dep	_	_	95.440002	95.470001	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	95.470001	95.500000	L1
+6	fait	faire	VPP	VPP	_	0	root	_	_	95.500000	95.849998	L1
+7	quasiment	quasiment	ADV	ADV	_	6	dep	_	_	96.050003	96.260002	L1
+8	qu'	que	CSU	CSU	_	6	dep	_	_	96.260002	96.290001	L1
+9	une	un	DET	DET	_	11	spe	_	_	96.290001	96.379997	L1
+10	demi	demi	ADJ	ADJ	_	11	dep	_	_	96.379997	96.470001	L1
+11	heure	heure	NOM	NOM	_	8	dep	_	_	96.470001	96.529999	L1
+
+# sent_id = cefc-tcof-espoir_1-45
+# text = enfin on est déjà là qu'une heure c'est pas énorme quand même par semaine
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	96.529999	96.620003	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	96.620003	96.779999	L1
+3	est	être	VRB	VRB	_	0	root	_	_	96.779999	96.830002	L1
+4	déjà	déjà	ADV	ADV	_	3	dep	_	_	96.830002	96.970001	L1
+5	là	là	ADV	ADV	_	3	dep	_	_	96.970001	97.059998	L1
+6	qu'	que	CSU	CSU	_	5	dep	_	_	97.059998	97.150002	L1
+7	une	un	DET	DET	_	8	spe	_	_	97.150002	97.320000	L1
+8	heure	heure	NOM	NOM	_	10	periph	_	_	97.320000	97.419998	L1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	97.599998	97.629997	L1
+10	est	être	VRB	VRB	_	6	dep	_	_	97.629997	97.660004	L1
+11	pas	pas	ADN	ADN	_	10	dep	_	_	97.660004	97.760002	L1
+12	énorme	énorme	ADJ	ADJ	_	10	dep	_	_	97.760002	98.019997	L1
+13	quand	quand	CSU	CSU	_	3	dep	_	_	98.019997	98.120003	L1
+14	même	même	ADV	ADV	_	15	dep	_	_	98.120003	98.239998	L1
+15	par	par	PRE	PRE	_	13	dep	_	_	98.239998	98.400002	L1
+16	semaine	semaine	NOM	NOM	_	15	dep	_	_	98.400002	98.720001	L1
+
+# sent_id = cefc-tcof-espoir_1-46
+# text = et en plus euh ils s'arrêtent euh au bout d'une demi heure
+1	et	et	COO	COO	_	7	mark	_	_	99.370003	99.400002	L1
+2	en	en	PRE	PRE	_	7	periph	_	_	99.400002	99.550003	L1
+3	plus	plus	ADN	ADN	_	2	dep	_	_	99.550003	99.870003	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	99.870003	99.940002	L1
+5	ils	il	CLS	CLS	_	7	subj	_	_	100.370003	100.449997	L1
+6	s'	se	CLI	CLI	_	7	dep	_	_	100.449997	100.570000	L1
+7	arrêtent	arrêter	VRB	VRB	_	0	root	_	_	100.570000	101.000000	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	101.000000	101.029999	L1
+9	au	à+le	PRE	PRE	_	7	dep	_	_	101.029999	101.099998	L1
+10	bout	bout	NOM	NOM	_	9	dep	_	_	101.099998	101.239998	L1
+11	d'	de	PRE	PRE	_	10	dep	_	_	101.239998	101.320000	L1
+12	une	un	DET	DET	_	14	spe	_	_	101.320000	101.489998	L1
+13	demi	demi	ADJ	ADJ	_	14	dep	_	_	101.489998	101.669998	L1
+14	heure	heure	NOM	NOM	_	11	dep	_	_	101.669998	101.849998	L1
+
+# sent_id = cefc-tcof-espoir_1-47
+# text = ils veulent jouer à Puissance Quatre euh un espèce de jeu de pêche euh Cluedo et compagnie
+1	ils	il	CLS	CLS	_	2	subj	_	_	101.919998	101.980003	L1
+2	veulent	vouloir	VRB	VRB	_	0	root	_	_	101.980003	102.070000	L1
+3	jouer	jouer	VNF	VNF	_	2	dep	_	_	102.070000	102.410004	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	102.410004	102.540001	L1
+5	Puissance	puissance	NOM	NOM	_	4	dep	_	_	102.680000	103.150002	L1
+6	Quatre	quatre	NOM	NOM	_	5	dep	_	_	103.150002	103.620003	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	103.620003	103.660004	L1
+8	un	un	DET	DET	_	9	spe	_	_	103.660004	103.809998	L1
+9	espèce	espèce	NOM	NOM	_	5	para	_	_	104.449997	104.970001	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	105.029999	105.190002	L1
+11	jeu	jeu	NOM	NOM	_	10	dep	_	_	105.480003	105.709999	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	105.709999	105.870003	L1
+13	pêche	pêche	NOM	NOM	_	12	dep	_	_	105.870003	106.040001	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	106.040001	106.080002	L1
+15	Cluedo	Cluedo	NOM	NOM	_	13	para	_	_	106.080002	106.250000	L1
+16	et	et	COO	COO	_	17	mark	_	_	106.250000	106.290001	L1
+17	compagnie	compagnie	NOM	NOM	_	15	para	_	_	106.290001	106.680000	L1
+
+# sent_id = cefc-tcof-espoir_1-48
+# text = et il y avait pas moyen de les faire reprendre leurs cahiers
+1	et	et	COO	COO	_	4	mark	_	_	107.239998	107.279999	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	107.279999	107.379997	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	107.379997	107.410004	L1
+4	avait	avoir	VRB	VRB	_	0	root	_	_	107.410004	107.510002	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	107.510002	107.610001	L1
+6	moyen	moyen	NOM	NOM	_	4	dep	_	_	107.610001	107.860001	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	107.860001	107.889999	L1
+8	les	le	CLI	CLI	_	9	dep	_	_	107.889999	108.040001	L1
+9	faire	faire	VNF	VNF	_	7	dep	_	_	108.040001	108.330002	L1
+10	reprendre	reprendre	VNF	VNF	_	9	dep	_	_	108.330002	108.559998	L1
+11	leurs	son	DET	DET	_	12	spe	_	_	108.559998	108.660004	L1
+12	cahiers	cahier	NOM	NOM	_	10	dep	_	_	108.660004	108.889999	L1
+
+# sent_id = cefc-tcof-espoir_1-49
+# text = puis des fois ils veulent pas nous dire qu'ils ont des devoirs
+1	puis	puis	COO	COO	_	5	mark	_	_	109.089996	109.230003	L1
+2	des	de	PRE	PRE	_	5	periph	_	_	109.230003	109.370003	L1
+3	fois	foi	NOM	NOM	_	2	dep	_	_	109.370003	109.489998	L1
+4	ils	il	CLS	CLS	_	5	subj	_	_	109.489998	109.599998	L1
+5	veulent	vouloir	VRB	VRB	_	0	root	_	_	109.599998	109.730003	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	109.730003	109.849998	L1
+7	nous	nous	CLI	CLI	_	8	dep	_	_	109.849998	109.949997	L1
+8	dire	dire	VNF	VNF	_	5	dep	_	_	109.949997	110.120003	L1
+9	qu'	que	CSU	CSU	_	8	dep	_	_	110.120003	110.190002	L1
+10	ils	il	CLS	CLS	_	11	subj	_	_	110.190002	110.349998	L1
+11	ont	avoir	VRB	VRB	_	9	dep	_	_	110.349998	110.389999	L1
+12	des	de	PRE	PRE	_	11	dep	_	_	110.389999	110.510002	L1
+13	devoirs	devoir	NOM	NOM	_	12	dep	_	_	110.510002	110.820000	L1
+
+# sent_id = cefc-tcof-espoir_1-50
+# text = ils nous disent qu'ils ont rien
+1	ils	il	CLS	CLS	_	3	subj	_	_	110.919998	110.980003	L1
+2	nous	nous	CLI	CLI	_	3	dep	_	_	110.980003	111.040001	L1
+3	disent	dire	VRB	VRB	_	0	root	_	_	111.040001	111.129997	L1
+4	qu'	que	CSU	CSU	_	3	dep	_	_	111.129997	111.180000	L1
+5	ils	il	CLS	CLS	_	6	subj	_	_	111.180000	111.239998	L1
+6	ont	avoir	VRB	VRB	_	4	dep	_	_	111.239998	111.349998	L1
+7	rien	rien	PRO	PRO	_	6	dep	_	_	111.349998	111.570000	L1
+
+# sent_id = cefc-tcof-espoir_1-51
+# text = et en fait sss
+1	et	et	COO	COO	_	4	mark	_	_	111.570000	111.599998	L1
+2	en	en	PRE	PRE	_	4	periph	_	_	111.599998	111.730003	L1
+3	fait	fait	NOM	NOM	_	2	dep	_	_	111.769997	111.889999	L1
+4	sss	sss	ADV	ADV	_	0	root	_	_	112.330002	112.529999	L1
+
+# sent_id = cefc-tcof-espoir_1-52
+# text = donc euh c'est sûr c'est pas toujours facile
+1	donc	donc	ADV	ADV	_	4	periph	_	_	113.199997	113.330002	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	113.330002	113.489998	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	114.139999	114.190002	L1
+4	est	être	VRB	VRB	_	0	root	_	_	114.190002	114.260002	L1
+5	sûr	sûr	ADJ	ADJ	_	4	dep	_	_	114.260002	114.419998	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	114.419998	114.480003	L1
+7	est	être	VRB	VRB	_	4	para	_	_	114.589996	114.610001	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	114.610001	114.669998	L1
+9	toujours	toujours	ADV	ADV	_	10	dep	_	_	114.669998	114.849998	L1
+10	facile	facile	ADJ	ADJ	_	7	dep	_	_	114.849998	115.010002	L1
+
+# sent_id = cefc-tcof-espoir_1-53
+# text = hum ouais
+1	hum	hum	INT	INT	_	0	root	_	_	105.029999	105.290001	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	113.320000	113.620003	L2
+
+# sent_id = cefc-tcof-espoir_1-54
+# text = ouais en tout cas bon c'est vrai que on a bien fait de venir le lundi quand même parce que enfin pour plein d'autres choses
+1	ouais	ouais	INT	INT	_	5	dm	_	_	115.449997	115.580002	L2
+2	en tout cas	en tout cas	ADV	ADV	_	5	periph	_	_	115.639999	115.959999	L2
+3	bon	bon	INT	INT	_	2	dm	_	_	115.959999	116.120003	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	116.120003	116.190002	L2
+5	est	être	VRB	VRB	_	0	root	_	_	116.190002	116.260002	L2
+6	vrai	vrai	ADJ	ADJ	_	5	dep	_	_	116.260002	116.410004	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	116.410004	116.709999	L2
+8	on	on	CLS	CLS	_	11	subj	_	_	117.029999	117.059998	L2
+9	a	avoir	VRB	VRB	_	11	aux	_	_	117.059998	117.099998	L2
+10	bien	bien	ADV	ADV	_	11	dep	_	_	117.099998	117.220001	L2
+11	fait	faire	VPP	VPP	_	7	dep	_	_	117.220001	117.309998	L2
+12	de	de	PRE	PRE	_	11	dep	_	_	117.309998	117.360001	L2
+13	venir	venir	VNF	VNF	_	12	dep	_	_	117.360001	117.570000	L2
+14	le	le	DET	DET	_	15	spe	_	_	117.570000	117.660004	L2
+15	lundi	lundi	NOM	NOM	_	13	dep	_	_	117.660004	117.940002	L2
+16	quand	quand	PRQ	PRQ	_	5	dep	_	_	117.940002	118.110001	L2
+17	même	même	ADV	ADV	_	16	morph	_	_	118.110001	118.199997	L2
+18	parce que	parce que	CSU	CSU	_	5	dep	_	_	118.269997	118.680000	L2
+19	enfin	enfin	ADV	ADV	_	18	dm	_	_	118.930000	119.120003	L2
+20	pour	pour	PRE	PRE	_	18	dep	_	_	119.120003	119.290001	L2
+21	plein	plein	NOM	NOM	_	20	dep	_	_	119.290001	119.500000	L2
+22	d'	de	PRE	PRE	_	21	dep	_	_	119.500000	119.529999	L2
+23	autres	autre	ADJ	ADJ	_	24	dep	_	_	119.529999	119.629997	L2
+24	choses	chose	NOM	NOM	_	22	dep	_	_	119.629997	119.930000	L2
+
+# sent_id = cefc-tcof-espoir_1-55
+# text = mais en même temps euh le le le deuxième semestre on pourra rechoisir euh
+1	mais	mais	COO	COO	_	10	mark	_	_	119.930000	120.120003	L2
+2	en même temps	en même temps	ADV	ADV	_	10	periph	_	_	120.389999	120.870003	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	120.870003	120.900002	L2
+4	le	le	DET	DET	_	8	spe	_	_	120.900002	121.080002	L2
+5	le	le	DET	DET	_	4	para	_	_	121.080002	121.269997	L2
+6	le	le	DET	DET	_	5	para	_	_	121.269997	121.639999	L2
+7	deuxième	deuxième	ADJ	ADJ	_	8	dep	_	_	121.760002	122.099998	L2
+8	semestre	semestre	NOM	NOM	_	10	periph	_	_	122.099998	122.620003	L2
+9	on	on	CLS	CLS	_	10	subj	_	_	122.720001	122.750000	L2
+10	pourra	pouvoir	VRB	VRB	_	0	root	_	_	122.750000	122.870003	L2
+11	rechoisir	rechoisir	VPP	VPP	_	10	dep	_	_	122.870003	123.400002	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	123.400002	123.430000	L2
+
+# sent_id = cefc-tcof-espoir_1-56
+# text = peut être les les C M 2
+1	peut	pouvoir	VRB	VRB	_	0	root	_	_	123.860001	123.910004	L2
+2	être	être	VNF	VNF	_	1	dep	_	_	123.910004	124.180000	L2
+3	les	le	DET	DET	_	5	spe	_	_	124.180000	124.529999	L2
+4	les	le	DET	DET	_	3	para	_	_	124.529999	124.660004	L2
+5	C	C	NOM	NOM	_	2	dep	_	_	124.660004	124.790001	L2
+6	M	Monsieur	NOM	NOM	_	5	dep	_	_	124.790001	124.959999	L2
+7	2	2	X	X	_	5	dep	_	_	124.959999	125.139999	L2
+
+# sent_id = cefc-tcof-espoir_1-57
+# text = ouais espérons déjà qu'on aura une après midi de libre tout sûr
+1	ouais	ouais	INT	INT	_	2	dm	_	_	125.339996	125.540001	L1
+2	espérons	espérer	VRB	VRB	_	0	root	_	_	125.540001	125.970001	L1
+3	déjà	déjà	ADV	ADV	_	2	dep	_	_	125.970001	126.260002	L1
+4	qu'	que	CSU	CSU	_	2	dep	_	_	126.260002	126.300003	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	126.360001	126.470001	L1
+6	aura	avoir	VRB	VRB	_	4	dep	_	_	126.470001	126.889999	L1
+7	une	un	DET	DET	_	6	dep	_	_	126.959999	127.120003	L1
+8	après	après	PRE	PRE	_	6	dep	_	_	127.120003	127.370003	L1
+9	midi	midi	NOM	NOM	_	8	dep	_	_	127.370003	127.519997	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	127.519997	127.550003	L1
+11	libre	libre	ADJ	ADJ	_	10	dep	_	_	127.639999	127.790001	L1
+12	tout	tout	ADV	ADV	_	13	dep	_	_	127.830002	127.900002	L1
+13	sûr	sûr	ADJ	ADJ	_	9	dep	_	_	127.900002	128.210007	L1
+
+# sent_id = cefc-tcof-espoir_1-58
+# text = hum ouais
+1	hum	hum	INT	INT	_	0	root	_	_	128.500000	128.570007	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	129.100006	129.300003	L2
+
+# sent_id = cefc-tcof-espoir_1-59
+# text = bon si on a si on peut déjà refaire notre emploi du temps on essayera euh au mieux de faire ça
+1	bon	bon	INT	INT	_	15	dm	_	_	129.300003	129.429993	L2
+2	si	si	CSU	CSU	_	15	periph	_	_	129.429993	129.600006	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	129.600006	129.759995	L2
+4	a	avoir	VRB	VRB	_	2	dep	_	_	129.759995	130.100006	L2
+5	si	si	CSU	CSU	_	2	para	_	_	130.100006	130.259995	L2
+6	on	on	CLS	CLS	_	7	subj	_	_	130.259995	130.360001	L2
+7	peut	pouvoir	VRB	VRB	_	5	dep	_	_	130.360001	130.479996	L2
+8	déjà	déjà	ADV	ADV	_	7	dep	_	_	130.479996	130.679993	L2
+9	refaire	refaire	VNF	VNF	_	7	dep	_	_	130.679993	130.919998	L2
+10	notre	son	DET	DET	_	11	spe	_	_	130.919998	131.100006	L2
+11	emploi	emploi	NOM	NOM	_	9	dep	_	_	131.100006	131.250000	L2
+12	du	de+le	PRE	PRE	_	11	dep	_	_	131.250000	131.339996	L2
+13	temps	temps	NOM	NOM	_	12	dep	_	_	131.339996	131.539993	L2
+14	on	on	CLS	CLS	_	15	subj	_	_	131.589996	131.660004	L2
+15	essayera	essayer	VRB	VRB	_	0	root	_	_	131.660004	132.130005	L2
+16	euh	euh	INT	INT	_	15	dm	_	_	132.130005	132.169998	L2
+17	au	à+le	PRE	PRE	_	15	dep	_	_	132.360001	132.539993	L2
+18	mieux	mieux	ADV	ADV	_	17	dep	_	_	132.669998	132.759995	L2
+19	de	de	PRE	PRE	_	15	dep	_	_	132.759995	132.789993	L2
+20	faire	faire	VNF	VNF	_	19	dep	_	_	132.789993	132.919998	L2
+21	ça	ça	PRO	PRO	_	20	dep	_	_	132.919998	133.070007	L2
+
+# sent_id = cefc-tcof-espoir_1-60
+# text = quoi hum
+1	quoi	quoi	INT	INT	_	0	root	_	_	133.070007	133.240005	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	132.360001	132.550003	L1
+
+# sent_id = cefc-tcof-espoir_1-61
+# text = puis si on peut choisir la classe est vrai que ce serait plus facile avec des plus jeunes
+1	puis	puis	COO	COO	_	8	mark	_	_	133.589996	133.690002	L1
+2	si	si	CSU	CSU	_	8	periph	_	_	133.690002	133.830002	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	133.830002	133.899994	L1
+4	peut	pouvoir	VRB	VRB	_	2	dep	_	_	133.899994	134.009995	L1
+5	choisir	choisir	VNF	VNF	_	4	dep	_	_	134.009995	134.410004	L1
+6	la	le	DET	DET	_	7	spe	_	_	134.410004	134.490005	L1
+7	classe	classe	NOM	NOM	_	5	dep	_	_	134.490005	134.830002	L1
+8	est	être	VRB	VRB	_	0	root	_	_	134.830002	134.869995	L1
+9	vrai	vrai	ADJ	ADJ	_	8	dep	_	_	134.869995	135.000000	L1
+10	que	que	CSU	CSU	_	9	dep	_	_	135.000000	135.050003	L1
+11	ce	ce	CLS	CLS	_	12	subj	_	_	135.050003	135.179993	L1
+12	serait	être	VRB	VRB	_	10	dep	_	_	135.179993	135.360001	L1
+13	plus	plus	ADN	ADN	_	14	dep	_	_	135.360001	135.449997	L1
+14	facile	facile	ADJ	ADJ	_	12	dep	_	_	135.619995	135.889999	L1
+15	avec	avec	PRE	PRE	_	12	dep	_	_	135.889999	136.100006	L1
+16	des	de	PRE	PRE	_	15	dep	_	_	136.100006	136.179993	L1
+17	plus	plus	ADN	ADN	_	18	dep	_	_	136.300003	136.380005	L1
+18	jeunes	jeune	ADJ	ADJ	_	16	dep	_	_	136.380005	136.529999	L1
+
+# sent_id = cefc-tcof-espoir_1-62
+# text = hum mais en général les C M 2 il y a toujours plein de plein d'animateurs déjà
+1	hum	hum	INT	INT	_	11	dm	_	_	136.960007	137.179993	L2
+2	mais	mais	COO	COO	_	11	mark	_	_	137.309998	137.429993	L2
+3	en	en	PRE	PRE	_	11	periph	_	_	137.429993	137.490005	L2
+4	général	général	NOM	NOM	_	3	dep	_	_	137.490005	137.899994	L2
+5	les	le	DET	DET	_	6	spe	_	_	137.899994	137.960007	L2
+6	C	C	NOM	NOM	_	11	periph	_	_	137.960007	138.070007	L2
+7	M	Monsieur	NOM	NOM	_	6	dep	_	_	138.070007	138.259995	L2
+8	2	2	X	X	_	6	dep	_	_	138.259995	138.330002	L2
+9	il	il	CLS	CLS	_	11	subj	_	_	138.399994	138.460007	L2
+10	y	y	CLI	CLI	_	11	dep	_	_	138.460007	138.490005	L2
+11	a	avoir	VRB	VRB	_	0	root	_	_	138.490005	138.520004	L2
+12	toujours	toujours	ADV	ADV	_	11	dep	_	_	138.520004	138.690002	L2
+13	plein	plein	ADJ	ADJ	_	11	dep	_	_	138.690002	138.940002	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	138.940002	139.229996	L2
+15	plein	plein	NOM	NOM	_	14	dep	_	_	139.229996	139.380005	L2
+16	d'	de	PRE	PRE	_	15	dep	_	_	139.380005	139.410004	L2
+17	animateurs	animateur	NOM	NOM	_	16	dep	_	_	139.410004	139.889999	L2
+18	déjà	déjà	ADV	ADV	_	11	dep	_	_	139.889999	140.050003	L2
+
+# sent_id = cefc-tcof-espoir_1-63
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	140.919998	141.169998	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	141.169998	141.300003	L2
+
+# sent_id = cefc-tcof-espoir_1-64
+# text = mais ils préfèrent prendre des plus jeunes sûrement
+1	mais	mais	COO	COO	_	3	mark	_	_	141.000000	141.289993	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	141.389999	141.460007	L1
+3	préfèrent	préférer	VRB	VRB	_	0	root	_	_	141.460007	141.669998	L1
+4	prendre	prendre	VNF	VNF	_	3	dep	_	_	141.710007	141.860001	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	141.860001	141.979996	L1
+6	plus	plus	ADN	ADN	_	7	dep	_	_	141.979996	142.080002	L1
+7	jeunes	jeune	ADJ	ADJ	_	5	dep	_	_	142.080002	142.339996	L1
+8	sûrement	sûrement	ADV	ADV	_	4	dep	_	_	142.339996	142.639999	L1
+
+# sent_id = cefc-tcof-espoir_1-65
+# text = donc il faudrait peut être demander directement euh
+1	donc	donc	ADV	ADV	_	3	periph	_	_	142.710007	142.820007	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	142.820007	142.880005	L2
+3	faudrait	falloir	VRB	VRB	_	0	root	_	_	142.880005	143.029999	L2
+4	peut	pouvoir	VRB	VRB	_	3	para	_	_	143.029999	143.089996	L2
+5	être	être	VNF	VNF	_	4	dep	_	_	143.089996	143.220001	L2
+6	demander	demander	VNF	VNF	_	5	dep	_	_	143.220001	143.660004	L2
+7	directement	directement	ADV	ADV	_	6	dep	_	_	143.660004	144.470001	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	144.509995	144.529999	L2
+
+# sent_id = cefc-tcof-espoir_1-66
+# text = à NNAAMMEE assez tôt ouais
+1	à	à	PRE	PRE	_	4	periph	_	_	145.190002	145.220001	L1
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	145.220001	145.669998	L1
+3	assez	assez	ADV	ADV	_	4	dep	_	_	145.240005	145.600006	L2
+4	tôt	tôt	ADV	ADV	_	0	root	_	_	145.600006	145.750000	L2
+5	ouais	ouais	INT	INT	_	4	dm	_	_	146.070007	146.360001	L2
+
+# sent_id = cefc-tcof-espoir_1-67
+# text = ben on va peut être euh ben de toute façon
+1	ben	ben	INT	INT	_	3	dm	_	_	147.259995	147.350006	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	147.350006	147.429993	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	147.429993	147.529999	L1
+4	peut	pouvoir	VRB	VRB	_	3	para	_	_	147.529999	147.660004	L1
+5	être	être	VNF	VNF	_	4	dep	_	_	147.660004	147.919998	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	147.919998	147.949997	L1
+7	ben	ben	INT	INT	_	6	dm	_	_	147.949997	148.009995	L1
+8	de	de	PRE	PRE	_	5	dep	_	_	148.009995	148.050003	L1
+9	toute	tout	ADJ	ADJ	_	10	dep	_	_	148.160004	148.300003	L1
+10	façon	façon	NOM	NOM	_	8	dep	_	_	148.300003	148.690002	L1
+
+# sent_id = cefc-tcof-espoir_1-68
+# text = c'est bientôt la fin du semestre hein
+1	c'	ce	CLS	CLS	_	2	subj	_	_	148.770004	148.800003	L1
+2	est	être	VRB	VRB	_	0	root	_	_	148.800003	148.910004	L1
+3	bientôt	bientôt	ADV	ADV	_	2	dep	_	_	148.910004	149.059998	L1
+4	la	le	DET	DET	_	5	spe	_	_	149.059998	149.130005	L1
+5	fin	fin	NOM	NOM	_	2	dep	_	_	149.130005	149.190002	L1
+6	du	de+le	PRE	PRE	_	5	dep	_	_	149.190002	149.339996	L1
+7	semestre	semestre	NOM	NOM	_	6	dep	_	_	149.339996	149.809998	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	149.809998	149.880005	L1
+
+# sent_id = cefc-tcof-espoir_1-69
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	150.789993	151.050003	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	151.259995	151.330002	L1
+
+# sent_id = cefc-tcof-espoir_1-70
+# text = ouais dans un mois
+1	ouais	ouais	INT	INT	_	2	dm	_	_	151.029999	151.320007	L2
+2	dans	dans	PRE	PRE	_	0	root	_	_	151.399994	151.460007	L2
+3	un	un	DET	DET	_	4	spe	_	_	151.460007	151.570007	L2
+4	mois	moi	NOM	NOM	_	2	dep	_	_	151.570007	151.759995	L2
+
+# sent_id = cefc-tcof-espoir_1-71
+# text = ouais faudra pas tarder à demander
+1	ouais	ouais	INT	INT	_	2	dm	_	_	152.759995	152.910004	L1
+2	faudra	falloir	VRB	VRB	_	0	root	_	_	152.910004	153.100006	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	153.100006	153.220001	L1
+4	tarder	tarder	VNF	VNF	_	2	dep	_	_	153.220001	153.490005	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	153.490005	153.539993	L1
+6	demander	demander	VNF	VNF	_	5	dep	_	_	153.539993	153.949997	L1
+
+# sent_id = cefc-tcof-espoir_1-72
+# text = hum enfin bon on verra bien en tout cas euh oui
+1	hum	hum	INT	INT	_	5	dm	_	_	154.649994	154.839996	L2
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	155.509995	155.789993	L2
+3	bon	bon	INT	INT	_	2	dm	_	_	156.539993	156.610001	L2
+4	on	on	CLS	CLS	_	5	subj	_	_	156.660004	156.690002	L2
+5	verra	voir	VRB	VRB	_	0	root	_	_	156.729996	156.889999	L2
+6	bien	bien	ADV	ADV	_	5	dep	_	_	156.889999	157.020004	L2
+7	en tout cas	en tout cas	ADV	ADV	_	5	dep	_	_	157.020004	157.500000	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	157.539993	157.750000	L2
+9	oui	oui	INT	INT	_	8	dm	_	_	157.750000	157.889999	L2
+
+# sent_id = cefc-tcof-espoir_1-73
+# text = et donc lundi prochain on va euh
+1	et	et	COO	COO	_	6	mark	_	_	157.889999	157.960007	L2
+2	donc	donc	ADV	ADV	_	6	periph	_	_	157.960007	158.130005	L2
+3	lundi	lundi	NOM	NOM	_	6	periph	_	_	158.169998	158.429993	L2
+4	prochain	prochain	ADJ	ADJ	_	3	dep	_	_	158.429993	158.880005	L2
+5	on	on	CLS	CLS	_	6	subj	_	_	158.929993	158.960007	L2
+6	va	aller	VRB	VRB	_	0	root	_	_	158.960007	159.339996	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	159.339996	159.410004	L2
+
+# sent_id = cefc-tcof-espoir_1-74
+# text = donc on ira en ville en revenant comme ça
+1	donc	donc	ADV	ADV	_	3	periph	_	_	160.089996	160.279999	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	160.279999	160.410004	L2
+3	ira	aller	VRB	VRB	_	0	root	_	_	160.410004	160.539993	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	160.539993	160.669998	L2
+5	ville	ville	NOM	NOM	_	4	dep	_	_	160.669998	160.839996	L2
+6	en	en	PRE	PRE	_	4	para	_	_	160.839996	160.949997	L2
+7	revenant	revenir	VPR	VPR	_	6	dep	_	_	160.949997	161.259995	L2
+8	comme	comme	PRE	PRE	_	7	dep	_	_	161.580002	161.710007	L2
+9	ça	ça	PRO	PRO	_	8	dep	_	_	161.710007	161.779999	L2
+
+# sent_id = cefc-tcof-espoir_1-75
+# text = ça nous laissera un peu de temps si on rentre vers six heures
+1	ça	ça	PRO	PRO	_	3	subj	_	_	161.779999	161.839996	L2
+2	nous	nous	CLI	CLI	_	3	dep	_	_	161.839996	161.899994	L2
+3	laissera	laisser	VRB	VRB	_	0	root	_	_	161.899994	162.149994	L2
+4	un peu	un peu	ADV	ADV	_	3	dep	_	_	162.149994	162.309998	L2
+5	de	de	PRE	PRE	_	3	dep	_	_	162.389999	162.410004	L2
+6	temps	temps	NOM	NOM	_	5	dep	_	_	162.410004	162.539993	L2
+7	si	si	CSU	CSU	_	3	dep	_	_	162.539993	162.679993	L2
+8	on	on	CLS	CLS	_	9	subj	_	_	162.679993	162.800003	L2
+9	rentre	rentrer	VRB	VRB	_	7	dep	_	_	162.800003	162.949997	L2
+10	vers	vers	PRE	PRE	_	9	dep	_	_	162.949997	163.119995	L2
+11	six	six	NUM	NUM	_	12	spe	_	_	163.119995	163.320007	L2
+12	heures	heure	NOM	NOM	_	10	dep	_	_	163.320007	163.509995	L2
+
+# sent_id = cefc-tcof-espoir_1-76
+# text = un peu
+1	un peu	un peu	ADV	ADV	_	0	root	_	_	164.009995	164.279999	L1
+
+# sent_id = cefc-tcof-espoir_1-77
+# text = de temps ben oui
+1	de	de	PRE	PRE	_	0	root	_	_	164.279999	164.320007	L2
+2	temps	temps	NOM	NOM	_	1	dep	_	_	164.320007	164.529999	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	165.100006	165.339996	L2
+4	oui	oui	INT	INT	_	3	dm	_	_	165.339996	165.500000	L2
+
+# sent_id = cefc-tcof-espoir_1-78
+# text = pour euh aller faire quelques courses
+1	pour	pour	PRE	PRE	_	0	root	_	_	165.500000	165.720001	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	165.720001	165.949997	L2
+3	aller	aller	VNF	VNF	_	1	dep	_	_	166.110001	166.259995	L2
+4	faire	faire	VNF	VNF	_	3	dep	_	_	166.259995	166.449997	L2
+5	quelques	quelque	ADJ	ADJ	_	6	dep	_	_	166.449997	166.729996	L2
+6	courses	course	NOM	NOM	_	4	dep	_	_	166.729996	166.990005	L2
+
+# sent_id = cefc-tcof-espoir_1-79
+# text = et puis après on ira manger comme ça ensemble
+1	et puis	et puis	COO	COO	_	4	mark	_	_	167.039993	167.240005	L2
+2	après	après	PRE	PRE	_	4	periph	_	_	167.240005	167.470001	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	167.470001	167.589996	L2
+4	ira	aller	VRB	VRB	_	0	root	_	_	167.589996	167.750000	L2
+5	manger	manger	VNF	VNF	_	4	dep	_	_	167.750000	168.089996	L2
+6	comme	comme	PRE	PRE	_	5	dep	_	_	168.089996	168.270004	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	168.270004	168.380005	L2
+8	ensemble	ensemble	ADV	ADV	_	5	dep	_	_	168.429993	168.690002	L2
+
+# sent_id = cefc-tcof-espoir_1-80
+# text = ah oui c'est vrai
+1	ah	ah	INT	INT	_	4	dm	_	_	168.529999	168.630005	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	168.630005	168.789993	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	168.839996	168.889999	L1
+4	est	être	VRB	VRB	_	0	root	_	_	168.889999	168.929993	L1
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	168.929993	169.020004	L1
+
+# sent_id = cefc-tcof-espoir_1-81
+# text = on va la pizzeria
+1	on	on	CLS	CLS	_	2	subj	_	_	169.020004	169.050003	L1
+2	va	aller	VRB	VRB	_	0	root	_	_	169.050003	169.139999	L1
+3	la	le	DET	DET	_	4	spe	_	_	169.139999	169.229996	L1
+4	pizzeria	pizzeria	NOM	NOM	_	2	dep	_	_	169.339996	169.570007	L1
+
+# sent_id = cefc-tcof-espoir_1-82
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	169.929993	170.119995	L2
+
+# sent_id = cefc-tcof-espoir_1-83
+# text = ouais ça sera pas mal
+1	ouais	ouais	INT	INT	_	3	dm	_	_	170.759995	170.919998	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	170.990005	171.070007	L1
+3	sera	être	VRB	VRB	_	0	root	_	_	171.070007	171.169998	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	171.169998	171.300003	L1
+5	mal	mal	ADV	ADV	_	3	dep	_	_	171.300003	171.460007	L1
+
+# sent_id = cefc-tcof-espoir_1-84
+# text = mais c'est le seul bon côté
+1	mais	mais	COO	COO	_	3	mark	_	_	171.850006	171.940002	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	171.940002	171.970001	L1
+3	est	être	VRB	VRB	_	0	root	_	_	171.970001	172.039993	L1
+4	le	le	DET	DET	_	7	spe	_	_	172.039993	172.070007	L1
+5	seul	seul	ADJ	ADJ	_	7	dep	_	_	172.070007	172.270004	L1
+6	bon	bon	INT	INT	_	5	dm	_	_	172.270004	172.380005	L1
+7	côté	côté	NOM	NOM	_	3	dep	_	_	172.380005	172.699997	L1
+
+# sent_id = cefc-tcof-espoir_1-85
+# text = c'est que vu qu'on va là bas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	172.770004	172.800003	L1
+2	est	être	VRB	VRB	_	0	root	_	_	172.800003	172.839996	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	172.839996	173.089996	L1
+4	vu	voir	VPP	VPP	_	3	dep	_	_	173.089996	173.149994	L1
+5	qu'	que	CSU	CSU	_	3	para	_	_	173.149994	173.179993	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	173.179993	173.250000	L1
+7	va	aller	VRB	VRB	_	5	dep	_	_	173.250000	173.339996	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	173.339996	173.470001	L1
+9	bas	bas	ADV	ADV	_	8	dep	_	_	173.470001	173.570007	L1
+
+# sent_id = cefc-tcof-espoir_1-86
+# text = on prend deux bus
+1	on	on	CLS	CLS	_	2	subj	_	_	173.570007	173.740005	L1
+2	prend	prendre	VRB	VRB	_	0	root	_	_	173.740005	174.139999	L1
+3	deux	deux	NUM	NUM	_	4	spe	_	_	174.179993	174.270004	L1
+4	bus	bus	NOM	NOM	_	2	dep	_	_	174.270004	174.570007	L1
+
+# sent_id = cefc-tcof-espoir_1-87
+# text = donc quand on revient on est en ville
+1	donc	donc	ADV	ADV	_	6	periph	_	_	174.690002	174.839996	L1
+2	quand	quand	CSU	CSU	_	6	periph	_	_	174.839996	174.869995	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	174.869995	174.899994	L1
+4	revient	revenir	VRB	VRB	_	2	dep	_	_	174.899994	175.070007	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	175.070007	175.190002	L1
+6	est	être	VRB	VRB	_	0	root	_	_	175.190002	175.220001	L1
+7	en	en	PRE	PRE	_	6	dep	_	_	175.220001	175.309998	L1
+8	ville	ville	NOM	NOM	_	7	dep	_	_	175.309998	175.479996	L1
+
+# sent_id = cefc-tcof-espoir_1-88
+# text = on peut en profiter pour faire d'autres choses
+1	on	on	CLS	CLS	_	2	subj	_	_	176.369995	176.470001	L1
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	176.470001	176.580002	L1
+3	en	en	CLI	CLI	_	4	dep	_	_	176.580002	176.639999	L1
+4	profiter	profiter	VNF	VNF	_	2	dep	_	_	176.639999	177.149994	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	177.149994	177.279999	L1
+6	faire	faire	VNF	VNF	_	5	dep	_	_	177.279999	177.539993	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	177.539993	177.570007	L1
+8	autres	autre	ADJ	ADJ	_	9	dep	_	_	177.570007	177.770004	L1
+9	choses	chose	NOM	NOM	_	7	dep	_	_	177.770004	178.179993	L1
+
+# sent_id = cefc-tcof-espoir_1-89
+# text = comme ça je te ferai euh goûter mon fameux mon fameux restaurant
+1	comme	comme	PRE	PRE	_	5	periph	_	_	178.389999	178.559998	L2
+2	ça	ça	PRO	PRO	_	1	dep	_	_	178.559998	178.710007	L2
+3	je	je	CLS	CLS	_	5	subj	_	_	178.710007	178.820007	L2
+4	te	te	CLI	CLI	_	5	dep	_	_	178.820007	178.910004	L2
+5	ferai	faire	VRB	VRB	_	0	root	_	_	178.910004	179.289993	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	179.289993	179.320007	L2
+7	goûter	goûter	VNF	VNF	_	5	dep	_	_	179.899994	180.020004	L2
+8	mon	son	DET	DET	_	12	spe	_	_	180.020004	180.080002	L2
+9	fameux	fameux	ADJ	ADJ	_	8	disflink	_	_	180.080002	180.589996	L2
+10	mon	son	DET	DET	_	8	para	_	_	181.169998	181.330002	L2
+11	fameux	fameux	ADJ	ADJ	_	12	dep	_	_	181.330002	181.589996	L2
+12	restaurant	restaurant	NOM	NOM	_	7	dep	_	_	181.699997	182.190002	L2
+
+# sent_id = cefc-tcof-espoir_1-90
+# text = ta pizza oui ben
+1	ta	son	DET	DET	_	2	spe	_	_	181.259995	181.419998	L1
+2	pizza	pizza	NOM	NOM	_	0	root	_	_	181.419998	181.649994	L1
+3	oui	oui	INT	INT	_	2	dm	_	_	183.100006	183.160004	L1
+4	ben	ben	INT	INT	_	3	dm	_	_	183.160004	183.300003	L1
+
+# sent_id = cefc-tcof-espoir_1-91
+# text = déjà
+1	déjà	déjà	ADV	ADV	_	0	root	_	_	183.300003	183.529999	L1
+
+# sent_id = cefc-tcof-espoir_1-92
+# text = la semaine dernière euh
+1	la	le	DET	DET	_	2	spe	_	_	183.600006	183.649994	L1
+2	semaine	semaine	NOM	NOM	_	0	root	_	_	183.690002	183.809998	L1
+3	dernière	dernier	ADJ	ADJ	_	2	dep	_	_	183.809998	184.429993	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	184.429993	184.460007	L1
+
+# sent_id = cefc-tcof-espoir_1-93
+# text = enfin l'américain là
+1	enfin	enfin	ADV	ADV	_	3	dm	_	_	185.130005	185.350006	L1
+2	l'	le	DET	DET	_	3	spe	_	_	185.350006	185.380005	L1
+3	américain	américain	NOM	NOM	_	0	root	_	_	185.380005	186.050003	L1
+4	là	là	ADV	ADV	_	3	dep	_	_	186.050003	186.119995	L1
+
+# sent_id = cefc-tcof-espoir_1-94
+# text = chez le ke~ au kebab c'était pas mal
+1	chez	chez	PRE	PRE	_	7	periph	_	_	186.119995	186.460007	L1
+2	le	le	DET	DET	_	3	spe	_	_	186.649994	186.699997	L1
+3	ke~	ke~	NOM	NOM	_	1	dep	_	_	186.699997	186.850006	L1
+4	au	à+le	PRE	PRE	_	7	periph	_	_	186.850006	186.880005	L1
+5	kebab	kebab	NOM	NOM	_	4	dep	_	_	186.880005	187.059998	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	187.559998	187.589996	L1
+7	était	être	VRB	VRB	_	0	root	_	_	187.589996	187.740005	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	187.740005	187.869995	L1
+9	mal	mal	ADV	ADV	_	7	dep	_	_	187.869995	188.089996	L1
+
+# sent_id = cefc-tcof-espoir_1-95
+# text = c'est plutôt
+1	c'	ce	CLS	CLS	_	2	subj	_	_	188.460007	188.479996	L1
+2	est	être	VRB	VRB	_	0	root	_	_	188.729996	188.809998	L1
+3	plutôt	plutôt	ADV	ADV	_	2	dep	_	_	188.809998	189.110001	L1
+
+# sent_id = cefc-tcof-espoir_1-96
+# text = bon ça va
+1	bon	bon	INT	INT	_	3	dm	_	_	189.110001	189.369995	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	189.369995	189.500000	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	189.500000	189.649994	L1
+
+# sent_id = cefc-tcof-espoir_1-97
+# text = mais je t'avais dis
+1	mais	mais	COO	COO	_	4	mark	_	_	190.050003	190.139999	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	190.139999	190.229996	L2
+3	t'	te	CLI	CLI	_	4	dep	_	_	190.229996	190.279999	L2
+4	avais	avoir	VRB	VRB	_	0	root	_	_	190.279999	190.520004	L2
+5	dis	dire	VRB	VRB	_	4	dm	_	_	190.520004	190.740005	L2
+
+# sent_id = cefc-tcof-espoir_1-98
+# text = même si on a fait une rencontre impromptue euh
+1	même	même	ADV	ADV	_	2	dep	_	_	191.470001	191.559998	L1
+2	si	si	CSU	CSU	_	0	root	_	_	191.559998	191.619995	L1
+3	on	on	CLS	CLS	_	5	subj	_	_	191.619995	191.679993	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	191.679993	191.789993	L1
+5	fait	faire	VPP	VPP	_	2	dep	_	_	191.789993	191.889999	L1
+6	une	un	DET	DET	_	7	spe	_	_	191.889999	191.970001	L1
+7	rencontre	rencontre	NOM	NOM	_	5	dep	_	_	191.970001	192.559998	L1
+8	impromptue	impromptu	ADJ	ADJ	_	7	dep	_	_	192.559998	193.119995	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	193.119995	193.250000	L1
+
+# sent_id = cefc-tcof-espoir_1-99
+# text = j'ai trouvé que le repas était bon
+1	j'	je	CLS	CLS	_	3	subj	_	_	194.059998	194.089996	L1
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	194.089996	194.119995	L1
+3	trouvé	se trouver	VPP	VPP	_	0	root	_	_	194.119995	194.369995	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	194.369995	194.399994	L1
+5	le	le	DET	DET	_	6	spe	_	_	194.399994	194.529999	L1
+6	repas	repas	NOM	NOM	_	7	subj	_	_	194.529999	194.830002	L1
+7	était	être	VRB	VRB	_	4	dep	_	_	194.830002	195.139999	L1
+8	bon	bon	ADJ	ADJ	_	7	dep	_	_	195.139999	195.309998	L1
+
+# sent_id = cefc-tcof-espoir_1-100
+# text = enfin c'était ouais c'était pas mal
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	195.309998	195.410004	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	195.570007	195.589996	L1
+3	était	être	VRB	VRB	_	0	root	_	_	195.750000	196.050003	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	196.660004	196.779999	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	196.779999	196.809998	L1
+6	était	être	VRB	VRB	_	3	para	_	_	196.809998	196.979996	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	196.979996	197.089996	L1
+8	mal	mal	ADV	ADV	_	6	dep	_	_	197.089996	197.240005	L1
+
+# sent_id = cefc-tcof-espoir_1-101
+# text = mais bon les pizzas là c'est sûr au kebab
+1	mais	mais	COO	COO	_	7	mark	_	_	197.320007	197.410004	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	197.410004	197.509995	L1
+3	les	le	DET	DET	_	4	spe	_	_	197.509995	197.669998	L1
+4	pizzas	pizza	NOM	NOM	_	7	periph	_	_	197.669998	198.059998	L1
+5	là	là	ADV	ADV	_	4	dep	_	_	198.059998	198.250000	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	198.250000	198.300003	L1
+7	est	être	VRB	VRB	_	0	root	_	_	198.300003	198.330002	L1
+8	sûr	sûr	ADJ	ADJ	_	7	dep	_	_	198.330002	198.570007	L1
+9	au	à+le	PRE	PRE	_	7	dep	_	_	198.570007	198.699997	L1
+10	kebab	kebab	NOM	NOM	_	9	dep	_	_	198.699997	199.020004	L1
+
+# sent_id = cefc-tcof-espoir_1-102
+# text = je savais pas encore ce que c'était
+1	je	je	CLS	CLS	_	2	subj	_	_	199.179993	199.210007	L1
+2	savais	savoir	VRB	VRB	_	0	root	_	_	199.210007	199.330002	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	199.330002	199.389999	L1
+4	encore	encore	ADV	ADV	_	2	dep	_	_	199.389999	199.639999	L1
+5	ce	ce	PRO	PRO	_	2	dep	_	_	199.639999	199.710007	L1
+6	que	que	PRQ	PRQ	_	8	dep	_	_	199.710007	199.789993	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	199.839996	199.869995	L1
+8	était	être	VRB	VRB	_	5	dep	_	_	199.869995	200.070007	L1
+
+# sent_id = cefc-tcof-espoir_1-103
+# text = donc je goûtais pour la première fois alors que les pizzas je connais quand même
+1	donc	donc	ADV	ADV	_	3	periph	_	_	200.070007	200.220001	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	200.220001	200.360001	L1
+3	goûtais	goûter	VRB	VRB	_	0	root	_	_	200.410004	200.710007	L1
+4	pour	pour	PRE	PRE	_	3	dep	_	_	200.710007	200.800003	L1
+5	la	le	DET	DET	_	7	spe	_	_	200.800003	200.899994	L1
+6	première	premier	ADJ	ADJ	_	7	dep	_	_	200.899994	201.199997	L1
+7	fois	foi	NOM	NOM	_	4	dep	_	_	201.199997	201.429993	L1
+8	alors	alors	ADV	ADV	_	9	morph	_	_	201.479996	201.619995	L1
+9	que	que	CSU	CSU	_	3	dep	_	_	201.619995	201.649994	L1
+10	les	le	DET	DET	_	11	spe	_	_	201.649994	201.759995	L1
+11	pizzas	pizza	NOM	NOM	_	13	periph	_	_	201.759995	201.960007	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	201.960007	202.050003	L1
+13	connais	connaître	VRB	VRB	_	9	dep	_	_	202.050003	202.220001	L1
+14	quand	quand	CSU	CSU	_	13	dep	_	_	202.220001	202.300003	L1
+15	même	même	ADV	ADV	_	14	morph	_	_	202.429993	202.509995	L1
+
+# sent_id = cefc-tcof-espoir_1-104
+# text = donc je pourrai comparer
+1	donc	donc	ADV	ADV	_	3	periph	_	_	203.059998	203.179993	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	203.179993	203.210007	L1
+3	pourrai	pouvoir	VRB	VRB	_	0	root	_	_	203.210007	203.369995	L1
+4	comparer	comparer	VNF	VNF	_	3	dep	_	_	203.369995	203.809998	L1
+
+# sent_id = cefc-tcof-espoir_1-105
+# text = hum non mais elles sont vraiment bonnes
+1	hum	hum	INT	INT	_	5	dm	_	_	202.729996	202.929993	L2
+2	non	non	INT	INT	_	1	dm	_	_	203.860001	203.919998	L2
+3	mais	mais	COO	COO	_	5	mark	_	_	203.919998	204.009995	L2
+4	elles	il	CLS	CLS	_	5	subj	_	_	204.009995	204.039993	L2
+5	sont	être	VRB	VRB	_	0	root	_	_	204.039993	204.169998	L2
+6	vraiment	vraiment	ADV	ADV	_	7	dep	_	_	204.169998	204.470001	L2
+7	bonnes	bon	ADJ	ADJ	_	5	dep	_	_	204.470001	204.720001	L2
+
+# sent_id = cefc-tcof-espoir_1-106
+# text = franchement tu
+1	franchement	franchement	ADV	ADV	_	0	root	_	_	204.720001	205.179993	L2
+2	tu	tu	CLS	CLS	_	1	disflink	_	_	205.179993	205.570007	L2
+
+# sent_id = cefc-tcof-espoir_1-107
+# text = c'est quoi le nom du resto
+1	c'	ce	CLS	CLS	_	2	subj	_	_	205.639999	205.679993	L1
+2	est	être	VRB	VRB	_	0	root	_	_	205.679993	205.710007	L1
+3	quoi	quoi	PRQ	PRQ	_	2	dep	_	_	205.710007	205.800003	L1
+4	le	le	DET	DET	_	5	spe	_	_	205.800003	205.830002	L1
+5	nom	nom	NOM	NOM	_	2	dep	_	_	205.830002	205.899994	L1
+6	du	de+le	PRE	PRE	_	5	dep	_	_	205.899994	206.009995	L1
+7	resto	restaurant	NOM	NOM	_	6	dep	_	_	206.009995	206.309998	L1
+
+# sent_id = cefc-tcof-espoir_1-108
+# text = tu sais j'arrive pas retenir
+1	tu	tu	CLS	CLS	_	2	subj	_	_	206.309998	206.369995	L1
+2	sais	savoir	VRB	VRB	_	0	root	_	_	206.369995	206.509995	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	206.509995	206.539993	L1
+4	arrive	arriver	VRB	VRB	_	2	para	_	_	206.619995	206.729996	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	206.729996	206.889999	L1
+6	retenir	retenir	VNF	VNF	_	4	dep	_	_	206.889999	207.050003	L1
+
+# sent_id = cefc-tcof-espoir_1-109
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	207.270004	207.300003	L2
+
+# sent_id = cefc-tcof-espoir_1-110
+# text = le Novidin's
+1	le	le	DET	DET	_	2	spe	_	_	207.300003	207.520004	L2
+2	Novidin'	Novidin'	NOM	NOM	_	0	root	_	_	207.589996	208.070007	L2
+3	s	s	X	X	_	2	dep	_	_	208.070007	208.259995	L2
+
+# sent_id = cefc-tcof-espoir_1-111
+# text = ah oui voilà c'est ça près de Saint Séb'
+1	ah	ah	INT	INT	_	3	dm	_	_	208.589996	208.660004	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	208.660004	208.770004	L1
+3	voilà	voilà	INT	INT	_	0	root	_	_	208.770004	208.949997	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	208.949997	209.029999	L1
+5	est	être	VRB	VRB	_	3	dep	_	_	209.029999	209.070007	L1
+6	ça	ça	PRO	PRO	_	5	dep	_	_	209.070007	209.339996	L1
+7	près	près	ADV	ADV	_	5	dep	_	_	209.539993	209.809998	L1
+8	de	de	PRE	PRE	_	5	dep	_	_	209.860001	209.889999	L1
+9	Saint	saint	NOM	NOM	_	8	dep	_	_	209.889999	209.970001	L1
+10	Séb'	Séb'	NOM	NOM	_	9	dep	_	_	209.970001	210.220001	L1
+
+# sent_id = cefc-tcof-espoir_1-112
+# text = c'est euh ouais
+1	c'	ce	CLS	CLS	_	2	subj	_	_	209.389999	209.419998	L2
+2	est	être	VRB	VRB	_	0	root	_	_	209.419998	209.490005	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	209.539993	209.669998	L2
+4	ouais	ouais	INT	INT	_	3	dm	_	_	210.399994	210.600006	L2
+
+# sent_id = cefc-tcof-espoir_1-113
+# text = ouais ouais ben on verra ça la semaine prochaine de toute façon
+1	ouais	ouais	INT	INT	_	5	dm	_	_	211.130005	211.229996	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	211.779999	211.929993	L1
+3	ben	ben	INT	INT	_	2	dm	_	_	211.929993	212.029999	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	212.029999	212.100006	L1
+5	verra	voir	VRB	VRB	_	0	root	_	_	212.100006	212.300003	L1
+6	ça	ça	PRO	PRO	_	5	dep	_	_	212.300003	212.410004	L1
+7	la	le	DET	DET	_	8	spe	_	_	212.410004	212.470001	L1
+8	semaine	semaine	NOM	NOM	_	5	dep	_	_	212.470001	212.649994	L1
+9	prochaine	prochain	ADJ	ADJ	_	8	dep	_	_	212.649994	212.889999	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	212.889999	212.919998	L1
+11	toute	tout	ADJ	ADJ	_	12	dep	_	_	212.919998	213.029999	L1
+12	façon	façon	NOM	NOM	_	10	dep	_	_	213.160004	213.270004	L1
+
+# sent_id = cefc-tcof-espoir_1-114
+# text = hum ouais on verra
+1	hum	hum	INT	INT	_	4	dm	_	_	213.610001	213.820007	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	214.380005	214.639999	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	214.639999	214.740005	L2
+4	verra	voir	VRB	VRB	_	0	root	_	_	214.740005	215.050003	L2
+
+# sent_id = cefc-tcof-espoir_1-115
+# text = mais tu verras franchement j'ai des bons goûts tu euh
+1	mais	mais	COO	COO	_	3	mark	_	_	215.300003	215.389999	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	215.389999	215.520004	L2
+3	verras	voir	VRB	VRB	_	6	dm	_	_	215.520004	215.779999	L2
+4	franchement	franchement	ADV	ADV	_	6	periph	_	_	215.839996	216.139999	L2
+5	j'	je	CLS	CLS	_	6	subj	_	_	216.210007	216.240005	L2
+6	ai	avoir	VRB	VRB	_	0	root	_	_	216.240005	216.270004	L2
+7	des	de	PRE	PRE	_	6	dep	_	_	216.270004	216.429993	L2
+8	bons	bon	ADJ	ADJ	_	9	dep	_	_	216.429993	216.529999	L2
+9	goûts	goût	NOM	NOM	_	7	dep	_	_	216.529999	216.979996	L2
+10	tu	tu	CLS	CLS	_	9	disflink	_	_	216.979996	217.320007	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	217.320007	217.350006	L2
+
+# sent_id = cefc-tcof-espoir_1-116
+# text = tu vas tu vas super bien aimer
+1	tu	tu	CLS	CLS	_	2	subj	_	_	217.800003	217.940002	L2
+2	vas	aller	VRB	VRB	_	0	root	_	_	217.940002	218.179993	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	218.179993	218.320007	L2
+4	vas	aller	VRB	VRB	_	2	para	_	_	218.320007	218.419998	L2
+5	super	super	ADJ	ADJ	_	6	dep	_	_	218.419998	218.690002	L2
+6	bien	bien	ADV	ADV	_	4	dep	_	_	218.690002	219.009995	L2
+7	aimer	aimer	VNF	VNF	_	4	dep	_	_	219.009995	219.190002	L2
+
+# sent_id = cefc-tcof-espoir_1-117
+# text = c'est obligé
+1	c'	ce	CLS	CLS	_	2	subj	_	_	219.190002	219.320007	L2
+2	est	être	VRB	VRB	_	0	root	_	_	219.320007	219.410004	L2
+3	obligé	obliger	VPP	VPP	_	2	dep	_	_	219.410004	219.789993	L2
+
+# sent_id = cefc-tcof-espoir_1-118
+# text = ouais ben d'ici là de toute façon euh
+1	ouais	ouais	INT	INT	_	3	dm	_	_	221.440002	221.729996	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	222.020004	222.259995	L1
+3	d'	de	PRE	PRE	_	0	root	_	_	222.259995	222.289993	L1
+4	ici	ici	ADV	ADV	_	3	dep	_	_	222.289993	222.490005	L1
+5	là	là	ADV	ADV	_	4	dep	_	_	222.490005	222.570007	L1
+6	de	de	PRE	PRE	_	4	dep	_	_	222.570007	222.600006	L1
+7	toute	tout	ADJ	ADJ	_	8	dep	_	_	222.600006	222.690002	L1
+8	façon	façon	NOM	NOM	_	6	dep	_	_	222.690002	223.070007	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	223.149994	223.169998	L1
+
+# sent_id = cefc-tcof-espoir_1-119
+# text = oui bon a encore
+1	oui	oui	INT	INT	_	3	dm	_	_	224.369995	224.520004	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	224.600006	224.789993	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	224.789993	224.889999	L2
+4	encore	encore	ADV	ADV	_	3	dep	_	_	224.889999	225.179993	L2
+
+# sent_id = cefc-tcof-espoir_1-120
+# text = ben c'est dans quelques jours hein
+1	ben	ben	INT	INT	_	3	dm	_	_	225.179993	225.440002	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	225.440002	225.539993	L2
+3	est	être	VRB	VRB	_	0	root	_	_	225.539993	225.600006	L2
+4	dans	dans	PRE	PRE	_	3	dep	_	_	225.600006	225.720001	L2
+5	quelques	quelque	ADJ	ADJ	_	6	dep	_	_	225.720001	225.949997	L2
+6	jours	jour	NOM	NOM	_	4	dep	_	_	225.949997	226.139999	L2
+7	hein	hein	INT	INT	_	6	dm	_	_	226.139999	226.250000	L2
+
+# sent_id = cefc-tcof-espoir_1-121
+# text = la semaine prochaine
+1	la	le	DET	DET	_	2	spe	_	_	226.720001	226.830002	L1
+2	semaine	semaine	NOM	NOM	_	0	root	_	_	226.830002	227.050003	L1
+3	prochaine	prochain	ADJ	ADJ	_	2	dep	_	_	227.050003	227.460007	L1
+
+# sent_id = cefc-tcof-espoir_1-122
+# text = ouais mais on est déjà
+1	ouais	ouais	INT	INT	_	4	dm	_	_	228.199997	228.320007	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	228.320007	228.399994	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	228.399994	228.570007	L2
+4	est	être	VRB	VRB	_	0	root	_	_	228.570007	228.649994	L2
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	228.720001	228.899994	L2
+
+# sent_id = cefc-tcof-espoir_1-123
+# text = et alors demain tu crois qu'on pourra voir le film
+1	et	et	COO	COO	_	5	mark	_	_	228.740005	228.820007	L1
+2	alors	alors	ADV	ADV	_	5	periph	_	_	228.820007	228.960007	L1
+3	demain	demain	ADV	ADV	_	5	periph	_	_	229.009995	229.229996	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	229.229996	229.330002	L1
+5	crois	croire	VRB	VRB	_	0	root	_	_	229.330002	229.449997	L1
+6	qu'	que	CSU	CSU	_	5	dep	_	_	229.539993	229.559998	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	229.559998	229.699997	L1
+8	pourra	pouvoir	VRB	VRB	_	6	dep	_	_	229.699997	230.130005	L1
+9	voir	voir	VNF	VNF	_	8	dep	_	_	231.309998	231.479996	L1
+10	le	le	DET	DET	_	11	spe	_	_	231.479996	231.610001	L1
+11	film	film	NOM	NOM	_	9	dep	_	_	231.610001	231.860001	L1
+
+# sent_id = cefc-tcof-espoir_1-124
+# text = je sais pas il faudrait que il faudrait que j'aille voir
+1	je	je	CLS	CLS	_	2	subj	_	_	232.220001	232.339996	L2
+2	sais	savoir	VRB	VRB	_	5	dm	_	_	232.600006	232.929993	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	232.929993	233.199997	L2
+4	il	il	CLS	CLS	_	5	subj	_	_	233.240005	233.339996	L2
+5	faudrait	falloir	VRB	VRB	_	0	root	_	_	233.339996	233.679993	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	233.679993	233.750000	L2
+7	il	il	CLS	CLS	_	8	subj	_	_	233.750000	234.000000	L2
+8	faudrait	falloir	VRB	VRB	_	6	dep	_	_	234.039993	234.339996	L2
+9	que	que	CSU	CSU	_	8	dep	_	_	234.339996	234.369995	L2
+10	j'	je	CLS	CLS	_	11	subj	_	_	234.369995	234.460007	L2
+11	aille	ailler	VRB	VRB	_	9	dep	_	_	234.460007	234.580002	L2
+12	voir	voir	VNF	VNF	_	11	dep	_	_	234.580002	235.000000	L2
+
+# sent_id = cefc-tcof-espoir_1-125
+# text = donc s~ en fait si on y va
+1	donc	donc	ADV	ADV	_	4	periph	_	_	235.050003	235.139999	L1
+2	s~	s~	X	X	_	1	disflink	_	_	235.139999	235.220001	L1
+3	en	en	PRE	PRE	_	4	periph	_	_	235.220001	235.350006	L1
+4	fait	faire	VRB	VRB	_	0	root	_	_	235.350006	235.539993	L1
+5	si	si	CSU	CSU	_	4	dep	_	_	235.539993	235.619995	L1
+6	on	on	CLS	CLS	_	8	subj	_	_	235.619995	235.820007	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	235.820007	235.869995	L1
+8	va	aller	VRB	VRB	_	5	dep	_	_	235.869995	236.089996	L1
+
+# sent_id = cefc-tcof-espoir_1-126
+# text = tu es tu es sûre que tu pourras me ramener chez moi que ça te dérange pas de faire le déplacement
+1	tu	tu	CLS	CLS	_	2	subj	_	_	236.130005	236.199997	L1
+2	es	être	VRB	VRB	_	0	root	_	_	236.199997	236.259995	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	236.259995	236.360001	L1
+4	es	être	VRB	VRB	_	2	para	_	_	236.360001	236.470001	L1
+5	sûre	sûr	ADJ	ADJ	_	4	dep	_	_	236.470001	236.570007	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	236.570007	236.600006	L1
+7	tu	tu	CLS	CLS	_	8	subj	_	_	236.600006	236.710007	L1
+8	pourras	pouvoir	VRB	VRB	_	6	dep	_	_	236.710007	236.889999	L1
+9	me	me	CLI	CLI	_	10	dep	_	_	236.889999	236.949997	L1
+10	ramener	ramener	VNF	VNF	_	8	dep	_	_	236.949997	237.179993	L1
+11	chez	chez	PRE	PRE	_	10	dep	_	_	237.179993	237.309998	L1
+12	moi	moi	PRO	PRO	_	11	dep	_	_	237.309998	237.470001	L1
+13	que	que	CSU	CSU	_	6	para	_	_	237.639999	237.669998	L1
+14	ça	ça	PRO	PRO	_	16	subj	_	_	237.720001	237.820007	L1
+15	te	te	CLI	CLI	_	16	dep	_	_	237.820007	237.850006	L1
+16	dérange	déranger	VRB	VRB	_	13	dep	_	_	237.850006	238.100006	L1
+17	pas	pas	ADN	ADN	_	16	dep	_	_	238.100006	238.229996	L1
+18	de	de	PRE	PRE	_	16	dep	_	_	238.229996	238.259995	L1
+19	faire	faire	VNF	VNF	_	18	dep	_	_	238.259995	238.380005	L1
+20	le	le	DET	DET	_	21	spe	_	_	238.380005	238.479996	L1
+21	déplacement	déplacement	NOM	NOM	_	19	dep	_	_	238.479996	238.880005	L1
+
+# sent_id = cefc-tcof-espoir_1-127
+# text = non ça me dérange pas
+1	non	non	INT	INT	_	4	dm	_	_	239.020004	239.289993	L2
+2	ça	ça	PRO	PRO	_	4	subj	_	_	239.289993	239.460007	L2
+3	me	me	CLI	CLI	_	4	dep	_	_	239.460007	239.529999	L2
+4	dérange	déranger	VRB	VRB	_	0	root	_	_	239.529999	239.860001	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	239.860001	240.089996	L2
+
+# sent_id = cefc-tcof-espoir_1-128
+# text = je non je suis pas à ça près
+1	je	je	CLS	CLS	_	4	subj	_	_	240.729996	240.880005	L2
+2	non	non	INT	INT	_	1	dm	_	_	241.539993	241.729996	L2
+3	je	je	CLS	CLS	_	1	para	_	_	242.490005	242.610001	L2
+4	suis	être	VRB	VRB	_	0	root	_	_	242.750000	242.839996	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	242.839996	243.009995	L2
+6	à	à	PRE	PRE	_	4	dep	_	_	243.059998	243.089996	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	243.149994	243.210007	L2
+8	près	près	ADV	ADV	_	4	dep	_	_	243.210007	243.380005	L2
+
+# sent_id = cefc-tcof-espoir_1-129
+# text = je suis pas ça près
+1	je	je	CLS	CLS	_	2	subj	_	_	243.500000	243.520004	L2
+2	suis	être	VRB	VRB	_	0	root	_	_	243.869995	243.990005	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	243.990005	244.160004	L2
+4	ça	ça	PRO	PRO	_	2	periph	_	_	244.160004	244.309998	L2
+5	près	près	ADV	ADV	_	2	dep	_	_	244.559998	244.740005	L2
+
+# sent_id = cefc-tcof-espoir_1-130
+# text = faudra que je te paie
+1	faudra	falloir	VRB	VRB	_	0	root	_	_	240.550003	240.779999	L1
+2	que	que	CSU	CSU	_	1	dep	_	_	240.929993	241.029999	L1
+3	je	je	CLS	CLS	_	5	subj	_	_	241.029999	241.059998	L1
+4	te	te	CLI	CLI	_	5	dep	_	_	241.059998	241.089996	L1
+5	paie	payer	VRB	VRB	_	2	dep	_	_	241.089996	241.309998	L1
+
+# sent_id = cefc-tcof-espoir_1-131
+# text = allez parce que ce serait pas mal en fait qu'elle puisse venir enfin NNAAMMEE
+1	allez	aller	VRB	VRB	_	0	root	_	_	242.750000	243.009995	L1
+2	parce que	parce que	CSU	CSU	_	1	dep	_	_	244.820007	244.970001	L1
+3	ce	ce	CLS	CLS	_	4	subj	_	_	244.970001	245.029999	L1
+4	serait	être	VRB	VRB	_	2	dep	_	_	245.029999	245.089996	L1
+5	pas	pas	ADN	ADN	_	6	dep	_	_	245.089996	245.160004	L1
+6	mal	mal	ADV	ADV	_	4	dep	_	_	245.160004	245.300003	L1
+7	en	en	PRE	PRE	_	4	dep	_	_	245.300003	245.389999	L1
+8	fait	fait	NOM	NOM	_	7	dep	_	_	245.389999	245.559998	L1
+9	qu'	que	PRQ	PRQ	_	11	dep	_	_	245.660004	245.690002	L1
+10	elle	il	CLS	CLS	_	11	subj	_	_	245.690002	245.750000	L1
+11	puisse	pouvoir	VRB	VRB	_	8	dep	_	_	245.750000	245.869995	L1
+12	venir	venir	VNF	VNF	_	11	dep	_	_	245.869995	246.130005	L1
+13	enfin	enfin	ADV	ADV	_	12	dm	_	_	246.389999	247.029999	L1
+14	NNAAMMEE	NOM	NOM	NOM	_	12	dep	_	_	247.100006	247.279999	L1
+
+# sent_id = cefc-tcof-espoir_1-132
+# text = elle pourra peut être venir après
+1	elle	il	CLS	CLS	_	2	subj	_	_	247.869995	247.929993	L1
+2	pourra	pouvoir	VRB	VRB	_	0	root	_	_	247.929993	248.050003	L1
+3	peut	pouvoir	VRB	VRB	_	2	para	_	_	248.050003	248.110001	L1
+4	être	être	VNF	VNF	_	3	dep	_	_	248.110001	248.199997	L1
+5	venir	venir	VNF	VNF	_	4	dep	_	_	248.199997	248.539993	L1
+6	après	après	PRE	PRE	_	5	dep	_	_	248.539993	248.729996	L1
+
+# sent_id = cefc-tcof-espoir_1-133
+# text = tout je sais pas ben
+1	tout	tout	PRO	PRO	_	3	periph	_	_	248.729996	248.809998	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	249.500000	249.759995	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	249.759995	249.949997	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	249.949997	250.169998	L2
+5	ben	ben	INT	INT	_	4	dm	_	_	250.169998	250.350006	L2
+
+# sent_id = cefc-tcof-espoir_1-134
+# text = ça dépend
+1	ça	ça	PRO	PRO	_	2	subj	_	_	250.350006	250.460007	L2
+2	dépend	dépendre	VRB	VRB	_	0	root	_	_	250.669998	250.949997	L2
+
+# sent_id = cefc-tcof-espoir_1-135
+# text = même si elle a déjà vu le film quoi si elle fait rien ce sera toujours ça de se voir euh
+1	même	même	ADV	ADV	_	2	dep	_	_	250.559998	250.690002	L1
+2	si	si	CSU	CSU	_	15	periph	_	_	250.690002	250.839996	L1
+3	elle	il	CLS	CLS	_	6	subj	_	_	250.839996	250.979996	L1
+4	a	avoir	VRB	VRB	_	6	aux	_	_	251.080002	251.139999	L1
+5	déjà	déjà	ADV	ADV	_	6	dep	_	_	251.139999	251.259995	L1
+6	vu	voir	VPP	VPP	_	2	dep	_	_	251.259995	251.320007	L1
+7	le	le	DET	DET	_	8	spe	_	_	251.320007	251.350006	L1
+8	film	film	NOM	NOM	_	6	dep	_	_	251.350006	251.539993	L1
+9	quoi	quoi	INT	INT	_	8	dm	_	_	251.539993	251.669998	L1
+10	si	si	CSU	CSU	_	2	para	_	_	251.669998	251.830002	L1
+11	elle	il	CLS	CLS	_	12	subj	_	_	251.830002	251.899994	L1
+12	fait	faire	VRB	VRB	_	10	dep	_	_	251.899994	252.029999	L1
+13	rien	rien	PRO	PRO	_	12	dep	_	_	252.029999	252.360001	L1
+14	ce	ce	CLS	CLS	_	15	subj	_	_	252.360001	252.410004	L1
+15	sera	être	VRB	VRB	_	0	root	_	_	252.460007	252.600006	L1
+16	toujours	toujours	ADV	ADV	_	15	dep	_	_	252.600006	252.770004	L1
+17	ça	ça	PRO	PRO	_	15	periph	_	_	252.770004	252.880005	L1
+18	de	de	PRE	PRE	_	15	dep	_	_	252.880005	252.910004	L1
+19	se	se	CLI	CLI	_	20	dep	_	_	252.910004	253.100006	L1
+20	voir	voir	VNF	VNF	_	18	dep	_	_	253.100006	253.419998	L1
+21	euh	euh	INT	INT	_	20	dm	_	_	253.669998	253.869995	L1
+
+# sent_id = cefc-tcof-espoir_1-136
+# text = surtout
+1	surtout	surtout	ADV	ADV	_	0	root	_	_	254.070007	254.220001	L1
+
+# sent_id = cefc-tcof-espoir_1-137
+# text = si il est tout seul chez lui euh
+1	si	si	CSU	CSU	_	0	root	_	_	254.220001	254.309998	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	254.309998	254.339996	L1
+3	est	être	VRB	VRB	_	1	dep	_	_	254.339996	254.369995	L1
+4	tout	tout	ADV	ADV	_	5	dep	_	_	254.369995	254.479996	L1
+5	seul	seul	ADJ	ADJ	_	3	dep	_	_	254.479996	254.669998	L1
+6	chez	chez	PRE	PRE	_	3	dep	_	_	254.669998	254.929993	L1
+7	lui	moi	PRO	PRO	_	6	dep	_	_	254.929993	255.179993	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	255.179993	255.229996	L1
+
+# sent_id = cefc-tcof-espoir_1-138
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	253.949997	254.020004	L2
+
+# sent_id = cefc-tcof-espoir_1-139
+# text = ben oui ce serait l'occasion de tous se res~ de de tous se revoir quoi mais
+1	ben	ben	INT	INT	_	4	dm	_	_	255.600006	256.079987	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	256.079987	256.140015	L2
+3	ce	ce	CLS	CLS	_	4	subj	_	_	256.140015	256.309998	L2
+4	serait	être	VRB	VRB	_	0	root	_	_	256.309998	256.380005	L2
+5	l'	le	DET	DET	_	6	spe	_	_	256.380005	256.429993	L2
+6	occasion	occasion	NOM	NOM	_	4	dep	_	_	256.429993	256.730011	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	256.730011	256.779999	L2
+8	tous	tout	PRO	PRO	_	10	subj	_	_	256.779999	256.890015	L2
+9	se	se	CLI	CLI	_	10	dep	_	_	256.890015	256.959991	L2
+10	res~	res~	VRB	VRB	_	7	dep	_	_	256.959991	257.220001	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	257.220001	257.579987	L2
+12	de	de	PRE	PRE	_	11	para	_	_	257.579987	257.660004	L2
+13	tous	tout	ADJ	ADJ	_	15	dep	_	_	257.660004	257.899994	L2
+14	se	se	CLI	CLI	_	15	dep	_	_	257.950012	257.980011	L2
+15	revoir	revoir	VNF	VNF	_	12	dep	_	_	257.980011	258.420013	L2
+16	quoi	quoi	INT	INT	_	15	dm	_	_	258.470001	258.579987	L2
+17	mais	mais	COO	COO	_	6	disflink	_	_	258.579987	258.769989	L2
+
+# sent_id = cefc-tcof-espoir_1-140
+# text = ouais c'était pas mal l'autre coup quand on était tous ensemble
+1	ouais	ouais	INT	INT	_	3	dm	_	_	258.000000	258.260010	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	258.910004	258.940002	L1
+3	était	être	VRB	VRB	_	0	root	_	_	258.940002	259.059998	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	259.059998	259.160004	L1
+5	mal	mal	ADV	ADV	_	3	dep	_	_	259.160004	259.250000	L1
+6	l'	le	DET	DET	_	8	spe	_	_	259.309998	259.329987	L1
+7	autre	autre	ADJ	ADJ	_	8	dep	_	_	259.329987	259.420013	L1
+8	coup	coup	NOM	NOM	_	3	dep	_	_	259.420013	259.480011	L1
+9	quand	quand	CSU	CSU	_	3	dep	_	_	259.480011	259.540009	L1
+10	on	on	CLS	CLS	_	11	subj	_	_	259.540009	259.570007	L1
+11	était	être	VRB	VRB	_	9	dep	_	_	259.570007	259.709991	L1
+12	tous	tout	ADJ	ADJ	_	13	dep	_	_	259.799988	259.959991	L1
+13	ensemble	ensemble	NOM	NOM	_	11	dep	_	_	259.959991	260.230011	L1
+
+# sent_id = cefc-tcof-espoir_1-141
+# text = c'était
+1	c'	ce	CLS	CLS	_	2	subj	_	_	260.230011	260.290009	L1
+2	était	être	VRB	VRB	_	0	root	_	_	260.290009	260.440002	L1
+
+# sent_id = cefc-tcof-espoir_1-142
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	260.829987	260.980011	L2
+
+# sent_id = cefc-tcof-espoir_1-143
+# text = c'était marrant quand même
+1	c'	ce	CLS	CLS	_	2	subj	_	_	261.109985	261.140015	L1
+2	était	être	VRB	VRB	_	0	root	_	_	261.140015	261.260010	L1
+3	marrant	marrant	ADJ	ADJ	_	2	dep	_	_	261.260010	261.529999	L1
+4	quand	quand	CSU	CSU	_	2	dep	_	_	261.529999	261.640015	L1
+5	même	même	ADV	ADV	_	4	morph	_	_	261.640015	261.739990	L1
+
+# sent_id = cefc-tcof-espoir_1-144
+# text = ben c'est les occasions quoi
+1	ben	ben	INT	INT	_	3	dm	_	_	261.929993	262.029999	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	262.029999	262.109985	L2
+3	est	être	VRB	VRB	_	0	root	_	_	262.109985	262.160004	L2
+4	les	le	DET	DET	_	5	spe	_	_	262.160004	262.329987	L2
+5	occasions	occasion	NOM	NOM	_	3	dep	_	_	262.329987	262.709991	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	262.709991	262.839996	L2
+
+# sent_id = cefc-tcof-espoir_1-145
+# text = donc c'est vrai que si tout le monde est là autant profiter
+1	donc	donc	ADV	ADV	_	3	periph	_	_	262.929993	263.019989	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	263.019989	263.049988	L2
+3	est	être	VRB	VRB	_	0	root	_	_	263.049988	263.079987	L2
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	263.079987	263.179993	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	263.179993	263.450012	L2
+6	si	si	CSU	CSU	_	11	periph	_	_	263.799988	263.910004	L2
+7	tout le monde	tout le monde	PRO	PRO	_	8	subj	_	_	263.910004	264.200012	L2
+8	est	être	VRB	VRB	_	6	dep	_	_	264.200012	264.250000	L2
+9	là	là	ADV	ADV	_	8	dep	_	_	264.250000	264.410004	L2
+10	autant	autant	ADV	ADV	_	11	dep	_	_	264.410004	264.700012	L2
+11	profiter	profiter	VNF	VNF	_	5	dep	_	_	264.700012	265.140015	L2
+
+# sent_id = cefc-tcof-espoir_1-146
+# text = en plus toi tu es pas là du week end à part là
+1	en	en	PRE	PRE	_	5	periph	_	_	265.260010	265.290009	L1
+2	plus	plus	ADN	ADN	_	1	dep	_	_	265.290009	265.470001	L1
+3	toi	moi	PRO	PRO	_	5	periph	_	_	265.470001	265.559998	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	265.559998	265.640015	L1
+5	es	être	VRB	VRB	_	0	root	_	_	265.640015	265.700012	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	265.700012	265.809998	L1
+7	là	là	ADV	ADV	_	5	dep	_	_	265.880005	265.950012	L1
+8	du	de+le	PRE	PRE	_	5	dep	_	_	265.950012	266.049988	L1
+9	week	week	NOM	NOM	_	8	dep	_	_	266.049988	266.179993	L1
+10	end	end	NOM	NOM	_	9	dep	_	_	266.179993	266.359985	L1
+11	à	à	PRE	PRE	_	5	dep	_	_	266.359985	266.410004	L1
+12	part	part	NOM	NOM	_	11	dep	_	_	266.410004	266.570007	L1
+13	là	là	ADV	ADV	_	5	dep	_	_	266.570007	266.630005	L1
+
+# sent_id = cefc-tcof-espoir_1-147
+# text = donc euh c'était vraiment le moment
+1	donc	donc	ADV	ADV	_	4	periph	_	_	266.630005	266.869995	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	267.040009	267.059998	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	267.579987	267.630005	L1
+4	était	être	VRB	VRB	_	0	root	_	_	267.630005	267.760010	L1
+5	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	267.760010	268.029999	L1
+6	le	le	DET	DET	_	7	spe	_	_	268.029999	268.059998	L1
+7	moment	moment	NOM	NOM	_	4	dep	_	_	268.059998	268.299988	L1
+
+# sent_id = cefc-tcof-espoir_1-148
+# text = quoi ben ouais c'est surtout que samedi euh comme ça va bientôt être euh l'anniversaire après ça va être Noël
+1	quoi	quoi	INT	INT	_	5	dm	_	_	268.440002	268.619995	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	268.670013	268.730011	L2
+3	ouais	ouais	INT	INT	_	2	dm	_	_	268.730011	268.790009	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	268.790009	268.820007	L2
+5	est	être	VRB	VRB	_	0	root	_	_	268.820007	268.859985	L2
+6	surtout	surtout	ADV	ADV	_	5	dep	_	_	268.859985	269.089996	L2
+7	que	que	CSU	CSU	_	5	dep	_	_	269.089996	269.160004	L2
+8	samedi	samedi	NOM	NOM	_	12	periph	_	_	269.160004	269.660004	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	269.730011	269.890015	L2
+10	comme	comme	PRE	PRE	_	12	periph	_	_	270.149994	270.239990	L2
+11	ça	ça	PRO	PRO	_	10	dep	_	_	270.239990	270.320007	L2
+12	va	aller	VRB	VRB	_	7	dep	_	_	270.320007	270.380005	L2
+13	bientôt	bientôt	ADV	ADV	_	12	dep	_	_	270.380005	270.700012	L2
+14	être	être	VNF	VNF	_	12	dep	_	_	270.700012	270.970001	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	270.970001	271.000000	L2
+16	l'	le	DET	DET	_	17	spe	_	_	271.329987	271.359985	L2
+17	anniversaire	anniversaire	NOM	NOM	_	14	dep	_	_	271.359985	272.119995	L2
+18	après	après	PRE	PRE	_	14	dep	_	_	272.230011	272.470001	L2
+19	ça	ça	PRO	PRO	_	20	subj	_	_	272.540009	272.619995	L2
+20	va	aller	VRB	VRB	_	18	dep	_	_	272.619995	272.709991	L2
+21	être	être	VNF	VNF	_	20	dep	_	_	272.709991	272.859985	L2
+22	Noël	noël	NOM	NOM	_	21	dep	_	_	272.859985	272.980011	L2
+
+# sent_id = cefc-tcof-espoir_1-149
+# text = donc on va aller chercher les cadeaux
+1	donc	donc	ADV	ADV	_	3	periph	_	_	272.980011	273.070007	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	273.070007	273.100006	L2
+3	va	aller	VRB	VRB	_	0	root	_	_	273.100006	273.190002	L2
+4	aller	aller	VNF	VNF	_	3	dep	_	_	273.190002	273.250000	L2
+5	chercher	chercher	VNF	VNF	_	4	dep	_	_	273.250000	273.529999	L2
+6	les	le	DET	DET	_	7	spe	_	_	273.529999	273.609985	L2
+7	cadeaux	cadeau	NOM	NOM	_	5	dep	_	_	273.609985	274.029999	L2
+
+# sent_id = cefc-tcof-espoir_1-150
+# text = c'est embêtant ça de l'anniversaire et Noël
+1	c'	ce	CLS	CLS	_	2	subj	_	_	274.290009	274.320007	L1
+2	est	être	VRB	VRB	_	0	root	_	_	274.320007	274.350006	L1
+3	embêtant	embêtant	ADJ	ADJ	_	2	dep	_	_	274.350006	274.619995	L1
+4	ça	ça	PRO	PRO	_	2	periph	_	_	274.670013	274.799988	L1
+5	de	de	PRE	PRE	_	2	dep	_	_	274.799988	275.079987	L1
+6	l'	le	DET	DET	_	7	spe	_	_	275.079987	275.149994	L1
+7	anniversaire	anniversaire	NOM	NOM	_	5	dep	_	_	275.149994	275.640015	L1
+8	et	et	COO	COO	_	9	mark	_	_	275.640015	275.670013	L1
+9	Noël	noël	NOM	NOM	_	7	para	_	_	275.670013	275.890015	L1
+
+# sent_id = cefc-tcof-espoir_1-151
+# text = en même temps il y en a
+1	en même temps	en même temps	ADV	ADV	_	5	periph	_	_	275.890015	276.209991	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	276.739990	276.799988	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	276.799988	276.829987	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	276.829987	276.910004	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	276.910004	276.950012	L1
+
+# sent_id = cefc-tcof-espoir_1-152
+# text = qui veulent t'arnaquer
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	276.950012	277.089996	L1
+2	veulent	vouloir	VRB	VRB	_	1	dep	_	_	277.089996	277.250000	L1
+3	t'	te	CLI	CLI	_	4	dep	_	_	277.339996	277.380005	L1
+4	arnaquer	arnaquer	VNF	VNF	_	2	dep	_	_	277.380005	277.799988	L1
+
+# sent_id = cefc-tcof-espoir_1-153
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	276.399994	276.679993	L2
+
+# sent_id = cefc-tcof-espoir_1-154
+# text = ouais mais non ben c'est vrai que c'est vrai que d'un côté c'est surtout les gens qui font des cadeaux un seul cadeau pour les deux quoi
+1	ouais	ouais	INT	INT	_	6	dm	_	_	277.420013	277.619995	L2
+2	mais	mais	COO	COO	_	6	mark	_	_	277.619995	277.809998	L2
+3	non	non	INT	INT	_	2	dm	_	_	278.019989	278.290009	L2
+4	ben	ben	INT	INT	_	3	dm	_	_	278.600006	278.700012	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	278.700012	278.820007	L2
+6	est	être	VRB	VRB	_	0	root	_	_	278.820007	278.850006	L2
+7	vrai	vrai	ADJ	ADJ	_	6	dep	_	_	278.850006	279.000000	L2
+8	que	que	CSU	CSU	_	7	dep	_	_	279.000000	279.309998	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	280.350006	280.380005	L2
+10	est	être	VRB	VRB	_	8	dep	_	_	280.380005	280.410004	L2
+11	vrai	vrai	ADJ	ADJ	_	10	dep	_	_	280.410004	280.609985	L2
+12	que	que	CSU	CSU	_	11	dep	_	_	280.609985	280.649994	L2
+13	d'	de	PRE	PRE	_	17	periph	_	_	280.649994	280.679993	L2
+14	un	un	DET	DET	_	15	spe	_	_	280.679993	280.760010	L2
+15	côté	côté	NOM	NOM	_	13	dep	_	_	280.760010	281.000000	L2
+16	c'	ce	CLS	CLS	_	17	subj	_	_	281.000000	281.130005	L2
+17	est	être	VRB	VRB	_	12	dep	_	_	281.130005	281.160004	L2
+18	surtout	surtout	ADV	ADV	_	17	dep	_	_	281.160004	281.369995	L2
+19	les	le	DET	DET	_	20	spe	_	_	281.369995	281.480011	L2
+20	gens	gens	NOM	NOM	_	17	dep	_	_	281.480011	281.690002	L2
+21	qui	qui	PRQ	PRQ	_	22	dep	_	_	281.750000	281.809998	L2
+22	font	faire	VRB	VRB	_	20	dep	_	_	281.809998	281.910004	L2
+23	des	de	PRE	PRE	_	22	dep	_	_	281.910004	282.019989	L2
+24	cadeaux	cadeau	NOM	NOM	_	23	dep	_	_	282.019989	282.299988	L2
+25	un	un	DET	DET	_	27	spe	_	_	282.380005	282.529999	L2
+26	seul	seul	ADJ	ADJ	_	27	dep	_	_	282.529999	282.709991	L2
+27	cadeau	cadeau	NOM	NOM	_	22	dep	_	_	282.709991	282.970001	L2
+28	pour	pour	PRE	PRE	_	17	dep	_	_	283.119995	283.269989	L2
+29	les	le	DET	DET	_	30	spe	_	_	283.269989	283.359985	L2
+30	deux	deux	NUM	NUM	_	28	dep	_	_	283.429993	283.480011	L2
+31	quoi	quoi	INT	INT	_	30	dm	_	_	283.480011	283.609985	L2
+
+# sent_id = cefc-tcof-espoir_1-155
+# text = c'est euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	283.679993	283.769989	L2
+2	est	être	VRB	VRB	_	0	root	_	_	283.769989	283.920013	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	283.980011	284.000000	L2
+
+# sent_id = cefc-tcof-espoir_1-156
+# text = mais bon en général c'est un gros cadeau
+1	mais	mais	COO	COO	_	6	mark	_	_	284.399994	284.549988	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	284.549988	284.640015	L2
+3	en	en	PRE	PRE	_	6	periph	_	_	284.640015	284.679993	L2
+4	général	général	NOM	NOM	_	3	dep	_	_	284.679993	285.089996	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	285.320007	285.380005	L2
+6	est	être	VRB	VRB	_	0	root	_	_	285.380005	285.410004	L2
+7	un	un	DET	DET	_	9	spe	_	_	285.410004	285.529999	L2
+8	gros	gros	ADJ	ADJ	_	9	dep	_	_	285.529999	285.709991	L2
+9	cadeau	cadeau	NOM	NOM	_	6	dep	_	_	285.709991	286.040009	L2
+
+# sent_id = cefc-tcof-espoir_1-157
+# text = donc c'est bien des fois
+1	donc	donc	ADV	ADV	_	3	periph	_	_	286.179993	286.269989	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	286.269989	286.359985	L2
+3	est	être	VRB	VRB	_	0	root	_	_	286.359985	286.420013	L2
+4	bien	bien	ADV	ADV	_	3	dep	_	_	286.420013	286.589996	L2
+5	des	de	PRE	PRE	_	3	dep	_	_	286.589996	286.660004	L2
+6	fois	foi	NOM	NOM	_	5	dep	_	_	286.660004	286.809998	L2
+
+# sent_id = cefc-tcof-espoir_1-158
+# text = ouais voilà
+1	ouais	ouais	INT	INT	_	2	dm	_	_	283.119995	283.329987	L1
+2	voilà	voilà	INT	INT	_	0	root	_	_	283.329987	283.609985	L1
+
+# sent_id = cefc-tcof-espoir_1-159
+# text = ouais mais bon plusieurs cadeaux ça peut être pas mal aussi
+1	ouais	ouais	INT	INT	_	7	dm	_	_	287.869995	288.059998	L1
+2	mais	mais	COO	COO	_	7	mark	_	_	288.059998	288.190002	L1
+3	bon	bon	INT	INT	_	2	dm	_	_	288.190002	288.339996	L1
+4	plusieurs	plusieurs	DET	DET	_	5	spe	_	_	288.339996	288.690002	L1
+5	cadeaux	cadeau	NOM	NOM	_	7	periph	_	_	288.690002	288.920013	L1
+6	ça	ça	PRO	PRO	_	7	subj	_	_	288.920013	289.059998	L1
+7	peut	pouvoir	VRB	VRB	_	0	root	_	_	289.059998	289.130005	L1
+8	être	être	VNF	VNF	_	7	dep	_	_	289.130005	289.290009	L1
+9	pas	pas	ADN	ADN	_	10	dep	_	_	289.290009	289.390015	L1
+10	mal	mal	ADV	ADV	_	8	dep	_	_	289.390015	289.579987	L1
+11	aussi	aussi	ADV	ADV	_	8	dep	_	_	289.579987	289.779999	L1
+
+# sent_id = cefc-tcof-espoir_1-160
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	290.579987	290.929993	L2
+
+# sent_id = cefc-tcof-espoir_1-161
+# text = ouais moi j'aimerais pas
+1	ouais	ouais	INT	INT	_	4	dm	_	_	291.320007	291.429993	L1
+2	moi	moi	PRO	PRO	_	4	periph	_	_	291.429993	291.559998	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	291.559998	291.640015	L1
+4	aimerais	aimer	VRB	VRB	_	0	root	_	_	291.640015	291.880005	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	291.880005	292.049988	L1
+
+# sent_id = cefc-tcof-espoir_1-162
+# text = mais en même temps moi je suis du début de l'année
+1	mais	mais	COO	COO	_	5	mark	_	_	292.049988	292.140015	L1
+2	en même temps	en même temps	ADV	ADV	_	5	periph	_	_	292.140015	292.480011	L1
+3	moi	moi	PRO	PRO	_	5	periph	_	_	292.480011	292.619995	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	292.619995	292.799988	L1
+5	suis	être	VRB	VRB	_	0	root	_	_	292.799988	292.940002	L1
+6	du	de+le	PRE	PRE	_	5	dep	_	_	293.269989	293.350006	L1
+7	début	début	NOM	NOM	_	6	dep	_	_	293.440002	293.649994	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	293.649994	293.690002	L1
+9	l'	le	DET	DET	_	10	spe	_	_	293.769989	293.799988	L1
+10	année	année	NOM	NOM	_	8	dep	_	_	293.799988	293.989990	L1
+
+# sent_id = cefc-tcof-espoir_1-163
+# text = donc ça c'est pas
+1	donc	donc	ADV	ADV	_	4	periph	_	_	293.989990	294.130005	L1
+2	ça	ça	PRO	PRO	_	4	periph	_	_	294.130005	294.239990	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	294.329987	294.459991	L1
+4	est	être	VRB	VRB	_	0	root	_	_	294.459991	294.519989	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	294.519989	294.750000	L1
+
+# sent_id = cefc-tcof-espoir_1-164
+# text = ça se vaut
+1	ça	ça	PRO	PRO	_	3	subj	_	_	295.269989	295.329987	L1
+2	se	se	CLI	CLI	_	3	dep	_	_	295.329987	295.359985	L1
+3	vaut	valoir	VRB	VRB	_	0	root	_	_	295.359985	295.540009	L1
+
+# sent_id = cefc-tcof-espoir_1-165
+# text = c'est on n'a pas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	295.540009	295.670013	L2
+2	est	être	VRB	VRB	_	0	root	_	_	295.750000	295.799988	L2
+3	on	on	CLS	CLS	_	5	subj	_	_	293.279999	293.369995	L2
+4	n'	ne	CLN	CLN	_	5	dep	_	_	293.369995	293.369995	L2
+5	a	avoir	VRB	VRB	_	2	dep	_	_	293.369995	293.429993	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	293.429993	293.690002	L2
+
+# sent_id = cefc-tcof-espoir_1-166
+# text = hum et j'ai pas choisi
+1	hum	hum	INT	INT	_	6	dm	_	_	294.989990	295.070007	L2
+2	et	et	COO	COO	_	6	mark	_	_	295.890015	295.920013	L2
+3	j'	je	CLS	CLS	_	6	subj	_	_	295.920013	295.950012	L2
+4	ai	avoir	VRB	VRB	_	6	aux	_	_	295.950012	295.980011	L2
+5	pas	pas	ADN	ADN	_	6	dep	_	_	295.980011	296.079987	L2
+6	choisi	choisir	VPP	VPP	_	0	root	_	_	296.079987	296.500000	L2
+
+# sent_id = cefc-tcof-espoir_1-167
+# text = en même temps ouais c'est vrai c'est vrai
+1	en même temps	en même temps	ADV	ADV	_	4	periph	_	_	296.500000	296.950012	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	297.429993	297.519989	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	297.519989	297.609985	L1
+4	est	être	VRB	VRB	_	0	root	_	_	297.609985	297.640015	L1
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	297.640015	297.769989	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	298.320007	298.339996	L1
+7	est	être	VRB	VRB	_	4	para	_	_	298.339996	298.380005	L1
+8	vrai	vrai	ADJ	ADJ	_	7	dep	_	_	298.380005	298.489990	L1
+
+# sent_id = cefc-tcof-espoir_1-168
+# text = tu as été le cadeau de Noël
+1	tu	tu	CLS	CLS	_	3	subj	_	_	298.760010	298.910004	L1
+2	as	avoir	VRB	VRB	_	3	aux	_	_	298.910004	298.940002	L1
+3	été	être	VPP	VPP	_	0	root	_	_	298.940002	299.179993	L1
+4	le	le	DET	DET	_	5	spe	_	_	299.179993	299.209991	L1
+5	cadeau	cadeau	NOM	NOM	_	3	dep	_	_	299.209991	299.329987	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	299.329987	299.369995	L1
+7	Noël	noël	NOM	NOM	_	6	dep	_	_	299.369995	299.609985	L1
+
+# sent_id = cefc-tcof-espoir_1-169
+# text = ouais voilà c'est un petit peu ça le cadeau de Noël
+1	ouais	ouais	INT	INT	_	4	dm	_	_	299.769989	299.839996	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	299.839996	300.320007	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	300.429993	300.470001	L2
+4	est	être	VRB	VRB	_	0	root	_	_	300.470001	300.500000	L2
+5	un	un	DET	DET	_	7	spe	_	_	300.500000	300.600006	L2
+6	petit	petit	ADJ	ADJ	_	7	dep	_	_	300.600006	300.739990	L2
+7	peu	peu	NOM	NOM	_	4	dep	_	_	300.739990	300.850006	L2
+8	ça	ça	PRO	PRO	_	4	periph	_	_	300.850006	301.010010	L2
+9	le	le	DET	DET	_	10	spe	_	_	301.279999	301.329987	L2
+10	cadeau	cadeau	NOM	NOM	_	4	periph	_	_	301.329987	301.609985	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	301.609985	301.640015	L2
+12	Noël	noël	NOM	NOM	_	11	dep	_	_	301.640015	301.950012	L2
+
+# sent_id = cefc-tcof-espoir_1-170
+# text = d'ailleurs faut que je pense à t'acheter un cadeau
+1	d'	de	PRE	PRE	_	3	periph	_	_	302.910004	302.970001	L1
+2	ailleurs	ailleurs	ADV	ADV	_	1	dep	_	_	302.970001	303.149994	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	303.149994	303.279999	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	303.279999	303.320007	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	303.320007	303.399994	L1
+6	pense	penser	VRB	VRB	_	4	dep	_	_	303.399994	303.579987	L1
+7	à	à	PRE	PRE	_	6	dep	_	_	303.579987	303.609985	L1
+8	t'	te	CLI	CLI	_	9	dep	_	_	303.609985	303.700012	L1
+9	acheter	acheter	VNF	VNF	_	7	dep	_	_	303.739990	303.869995	L1
+10	un	un	DET	DET	_	11	spe	_	_	303.869995	304.000000	L1
+11	cadeau	cadeau	NOM	NOM	_	9	dep	_	_	304.000000	304.160004	L1
+

@@ -1,0 +1,836 @@
+# sent_id = cefc-coralrom-ftelpv20-1
+# text = service clients
+1	service	service	NOM	NOM	_	0	root	_	_	1.120000	1.320000	POI
+2	clients	client	ADJ	ADJ	_	1	dep	_	_	1.330000	1.710000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-2
+# text = NNAAMMEE Marie-Christine
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	1.720000	2.070000	POI
+2	Marie-Christine	Marie-Christine	ADJ	ADJ	_	1	dep	_	_	2.180000	3.110000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-3
+# text = NNAAMMEE bonjour
+1	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	3.120000	3.440000	POI
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	3.450000	3.660000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-4
+# text = bonjour madame j'ai un problème avec mon téléphone
+1	bonjour	bonjour	INT	INT	_	4	dm	_	_	4.060000	4.310000	NAT
+2	madame	Monsieur	NOM	NOM	_	4	periph	_	_	4.320000	4.920000	NAT
+3	j'	je	CLS	CLS	_	4	subj	_	_	5.380000	5.470000	NAT
+4	ai	avoir	VRB	VRB	_	0	root	_	_	5.480000	5.510000	NAT
+5	un	un	DET	DET	_	6	spe	_	_	5.520000	5.660000	NAT
+6	problème	problème	NOM	NOM	_	4	dep	_	_	5.670000	6.090000	NAT
+7	avec	avec	PRE	PRE	_	4	dep	_	_	6.100000	6.310000	NAT
+8	mon	son	DET	DET	_	9	spe	_	_	6.320000	6.480000	NAT
+9	téléphone	téléphone	NOM	NOM	_	7	dep	_	_	6.490000	7.160000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-5
+# text = la semaine dernière
+1	la	le	DET	DET	_	2	spe	_	_	8.120000	8.330000	NAT
+2	semaine	semaine	NOM	NOM	_	0	root	_	_	8.410000	8.610000	NAT
+3	dernière	dernier	ADJ	ADJ	_	2	dep	_	_	8.620000	9.020000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-6
+# text = vous me l'avez déjà réparé euh à distance
+1	vous	vous	CLS	CLS	_	6	subj	_	_	9.030000	9.110000	NAT
+2	me	me	CLI	CLI	_	6	dep	_	_	9.120000	9.160000	NAT
+3	l'	le	CLI	CLI	_	6	dep	_	_	9.170000	9.210000	NAT
+4	avez	avoir	VRB	VRB	_	6	aux	_	_	9.220000	9.420000	NAT
+5	déjà	déjà	ADV	ADV	_	6	dep	_	_	9.430000	9.760000	NAT
+6	réparé	réparer	VPP	VPP	_	0	root	_	_	9.770000	10.370000	NAT
+7	euh	euh	INT	INT	_	6	dm	_	_	10.380000	10.440000	NAT
+8	à	à	PRE	PRE	_	6	dep	_	_	10.450000	10.570000	NAT
+9	distance	distance	NOM	NOM	_	8	dep	_	_	10.580000	11.090000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-7
+# text = mais euh il marche plus
+1	mais	mais	COO	COO	_	4	mark	_	_	11.180000	11.410000	NAT
+2	euh	euh	INT	INT	_	1	dm	_	_	11.420000	11.550000	NAT
+3	il	il	CLS	CLS	_	4	subj	_	_	11.560000	11.630000	NAT
+4	marche	marcher	VRB	VRB	_	0	root	_	_	11.640000	11.900000	NAT
+5	plus	plus	ADN	ADN	_	4	dep	_	_	11.910000	12.130000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-8
+# text = donc hier j'ai été euh à l'agence
+1	donc	donc	ADV	ADV	_	5	periph	_	_	12.570000	12.760000	NAT
+2	hier	hier	ADV	ADV	_	5	dep	_	_	12.850000	13.170000	NAT
+3	j'	je	CLS	CLS	_	5	subj	_	_	13.250000	13.270000	NAT
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	13.280000	13.490000	NAT
+5	été	être	VPP	VPP	_	0	root	_	_	13.500000	13.770000	NAT
+6	euh	euh	INT	INT	_	5	dm	_	_	13.780000	14.140000	NAT
+7	à	à	PRE	PRE	_	5	dep	_	_	14.830000	14.940000	NAT
+8	l'	le	DET	DET	_	9	spe	_	_	14.950000	15.000000	NAT
+9	agence	agence	NOM	NOM	_	7	dep	_	_	15.010000	15.520000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-9
+# text = et on m'a dit que le haut parleur était mort
+1	et	et	COO	COO	_	5	mark	_	_	16.010000	16.059999	NAT
+2	on	on	CLS	CLS	_	5	subj	_	_	16.070000	16.110001	NAT
+3	m'	me	CLI	CLI	_	5	dep	_	_	16.120001	16.190001	NAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	16.200001	16.280001	NAT
+5	dit	dire	VPP	VPP	_	0	root	_	_	16.290001	16.420000	NAT
+6	que	que	CSU	CSU	_	5	dep	_	_	16.430000	16.459999	NAT
+7	le	le	DET	DET	_	8	spe	_	_	16.469999	16.660000	NAT
+8	haut	haut	NOM	NOM	_	10	subj	_	_	16.670000	16.709999	NAT
+9	parleur	parleur	NOM	NOM	_	8	dep	_	_	16.719999	17.150000	NAT
+10	était	être	VRB	VRB	_	6	dep	_	_	17.160000	17.370001	NAT
+11	mort	mourir	VPP	VPP	_	10	dep	_	_	17.379999	17.639999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-10
+# text = et puis oui d'accord vous me donnez donc votre numéro d'appel
+1	et puis	et puis	COO	COO	_	7	mark	_	_	18.410000	19.219999	POI
+2	oui	oui	INT	INT	_	1	dm	_	_	15.820000	15.870000	POI
+3	d'	de	PRE	PRE	_	7	periph	_	_	19.490000	19.510000	POI
+4	accord	accord	NOM	NOM	_	3	dep	_	_	19.520000	19.719999	POI
+5	vous	vous	CLS	CLS	_	7	subj	_	_	19.799999	19.889999	POI
+6	me	me	CLI	CLI	_	7	dep	_	_	19.900000	19.920000	POI
+7	donnez	donner	VRB	VRB	_	0	root	_	_	19.930000	20.040001	POI
+8	donc	donc	ADV	ADV	_	7	dep	_	_	20.049999	20.139999	POI
+9	votre	son	DET	DET	_	10	spe	_	_	20.150000	20.309999	POI
+10	numéro	numéro	NOM	NOM	_	7	dep	_	_	20.320000	20.559999	POI
+11	d'	de	PRE	PRE	_	10	dep	_	_	20.570000	20.620001	POI
+12	appel	appel	NOM	NOM	_	11	dep	_	_	20.629999	20.889999	POI
+
+# sent_id = cefc-coralrom-ftelpv20-11
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	20.969999	21.000000	POI
+2	il	il	CLS	CLS	_	4	subj	_	_	21.010000	21.090000	POI
+3	vous	vous	CLI	CLI	_	4	dep	_	_	21.100000	21.240000	POI
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	21.250000	21.400000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-12
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	21.500000	21.709999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-13
+# text = alors euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	21.860001	22.250000	NAT
+2	euh	euh	INT	INT	_	1	dm	_	_	22.260000	22.379999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-14
+# text = zéro six quatre-vingt-un
+1	zéro	zéro	NUM	NUM	_	0	root	_	_	22.459999	22.809999	NAT
+2	six	six	NUM	NUM	_	1	dep	_	_	22.950001	23.139999	NAT
+3	quatre-vingt-un	quatre-vingt-un	NUM	NUM	_	2	dep	_	_	23.270000	24.209999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-15
+# text = rappelez
+1	rappelez	rappeler	VRB	VRB	_	0	root	_	_	26.100000	26.410000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-16
+# text = moi
+1	moi	moi	PRO	PRO	_	0	root	_	_	26.420000	26.570000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-17
+# text = également votre nom et votre adresse Nathalie
+1	également	également	ADV	ADV	_	3	dep	_	_	26.580000	26.959999	POI
+2	votre	son	DET	DET	_	3	spe	_	_	26.969999	27.250000	POI
+3	nom	nom	NOM	NOM	_	0	root	_	_	27.260000	27.430000	POI
+4	et	et	COO	COO	_	6	mark	_	_	27.440001	27.490000	POI
+5	votre	son	DET	DET	_	6	spe	_	_	27.500000	27.719999	POI
+6	adresse	adresse	NOM	NOM	_	3	para	_	_	27.730000	28.209999	POI
+7	Nathalie	Nathalie	NOM	NOM	_	6	dep	_	_	28.610001	29.150000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-18
+# text = deux cent quatre-vingt-douze
+1	deux	deux	NUM	NUM	_	0	root	_	_	29.709999	29.760000	POI
+2	cent	cent	NUM	NUM	_	1	dep	_	_	29.770000	29.910000	POI
+3	quatre-vingt-douze	quatre-vingt-douze	NUM	NUM	_	2	dep	_	_	29.920000	30.520000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-19
+# text = avenue NNAAMMEE NNAAMMEE d'accord votre numéro de client NNAAMMEE qui figure sur vos factures
+1	avenue	avenue	NOM	NOM	_	0	root	_	_	30.530001	30.780001	POI
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	30.790001	31.379999	POI
+3	NNAAMMEE	NOM	NOM	NOM	_	2	dep	_	_	31.389999	31.790001	POI
+4	d'	de	PRE	PRE	_	1	dep	_	_	32.259998	32.310001	POI
+5	accord	accord	NOM	NOM	_	4	dep	_	_	32.320000	32.439999	POI
+6	votre	son	DET	DET	_	7	spe	_	_	32.599998	33.009998	POI
+7	numéro	numéro	NOM	NOM	_	1	para	_	_	33.020000	33.349998	POI
+8	de	de	PRE	PRE	_	7	dep	_	_	33.360001	33.380001	POI
+9	client	client	NOM	NOM	_	8	dep	_	_	33.389999	33.779999	POI
+10	NNAAMMEE	NOM	NOM	NOM	_	9	dep	_	_	33.790001	34.040001	POI
+11	qui	qui	PRQ	PRQ	_	12	dep	_	_	34.049999	34.110001	POI
+12	figure	figure	NOM	NOM	_	10	para	_	_	34.119999	34.360001	POI
+13	sur	sur	PRE	PRE	_	12	dep	_	_	34.369999	34.509998	POI
+14	vos	son	DET	DET	_	15	spe	_	_	34.520000	34.639999	POI
+15	factures	facture	NOM	NOM	_	13	dep	_	_	34.650002	35.310001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-20
+# text = ah j'ai pas
+1	ah	ah	INT	INT	_	3	dm	_	_	35.889999	36.090000	NAT
+2	j'	je	CLS	CLS	_	3	subj	_	_	36.310001	36.410000	NAT
+3	ai	avoir	VRB	VRB	_	0	root	_	_	36.419998	36.480000	NAT
+4	pas	pas	ADN	ADN	_	3	dep	_	_	36.540001	36.779999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-21
+# text = attendez
+1	attendez	attendre	VRB	VRB	_	0	root	_	_	37.700001	38.029999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-22
+# text = alors numéro service clients non
+1	alors	alors	ADV	ADV	_	2	periph	_	_	52.910000	53.419998	NAT
+2	numéro	numéro	NOM	NOM	_	0	root	_	_	53.430000	54.290001	NAT
+3	service	service	NOM	NOM	_	2	dep	_	_	54.770000	55.099998	NAT
+4	clients	client	NOM	NOM	_	3	dep	_	_	55.110001	55.500000	NAT
+5	non	non	INT	INT	_	4	dm	_	_	55.509998	55.630001	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-23
+# text = numéro d'appel num-~ votre numéro client
+1	numéro	numéro	NOM	NOM	_	0	root	_	_	56.099998	56.560001	NAT
+2	d'	de	PRE	PRE	_	1	dep	_	_	56.570000	56.650002	NAT
+3	appel	appel	NOM	NOM	_	2	dep	_	_	56.660000	57.209999	NAT
+4	num-~	num-~	ADJ	ADJ	_	3	dep	_	_	57.220001	57.430000	NAT
+5	votre	son	DET	DET	_	6	spe	_	_	57.439999	57.570000	NAT
+6	numéro	numéro	NOM	NOM	_	1	para	_	_	57.580002	57.759998	NAT
+7	client	client	ADJ	ADJ	_	6	dep	_	_	57.770000	58.000000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-24
+# text = zéro zéro huit cent huit
+1	zéro	zéro	NUM	NUM	_	0	root	_	_	58.419998	58.720001	NAT
+2	zéro	zéro	NUM	NUM	_	1	dep	_	_	58.730000	59.369999	NAT
+3	huit	huit	NUM	NUM	_	2	dep	_	_	59.380001	59.619999	NAT
+4	cent	cent	NUM	NUM	_	3	dep	_	_	59.630001	59.860001	NAT
+5	huit	huit	NUM	NUM	_	4	dep	_	_	59.869999	60.169998	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-25
+# text = treize
+1	treize	treize	NUM	NUM	_	0	root	_	_	61.580002	62.090000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-26
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	62.169998	62.400002	POI
+2	accord	accord	NOM	NOM	_	1	dep	_	_	62.410000	62.720001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-27
+# text = donc euh quel type de mobile avez-vous un Sagem neuf cent trente-six ça fait trois fois qu'on me le change hein
+1	donc	donc	ADV	ADV	_	4	periph	_	_	63.169998	63.439999	POI
+2	euh	euh	INT	INT	_	1	dm	_	_	63.450001	63.840000	POI
+3	quel	quel	PRQ	PRQ	_	4	dep	_	_	63.900002	64.070000	POI
+4	type	type	NOM	NOM	_	0	root	_	_	64.120003	64.260002	POI
+5	de	de	PRE	PRE	_	4	dep	_	_	64.269997	64.389999	POI
+6	mobile	mobile	NOM	NOM	_	5	dep	_	_	64.400002	64.669998	POI
+7	avez-vous	avez-vous	PRE	PRE	_	4	dep	_	_	64.680000	65.320000	POI
+8	un	un	DET	DET	_	9	spe	_	_	65.889999	66.089996	NAT
+9	Sagem	Sagem	NOM	NOM	_	7	dep	_	_	66.099998	66.879997	NAT
+10	neuf	neuf	NUM	NUM	_	14	periph	_	_	67.690002	68.110001	NAT
+11	cent	cent	NUM	NUM	_	10	dep	_	_	68.120003	68.269997	NAT
+12	trente-six	trente-six	NUM	NUM	_	11	dep	_	_	68.279999	68.639999	NAT
+13	ça	ça	PRO	PRO	_	14	subj	_	_	68.720001	69.089996	NAT
+14	fait	faire	VRB	VRB	_	9	dep	_	_	69.099998	69.199997	NAT
+15	trois	trois	NUM	NUM	_	16	spe	_	_	69.209999	69.459999	NAT
+16	fois	foi	NOM	NOM	_	14	dep	_	_	69.470001	69.660004	NAT
+17	qu'	que	PRQ	PRQ	_	21	dep	_	_	69.669998	69.739998	NAT
+18	on	on	CLS	CLS	_	21	subj	_	_	69.750000	69.800003	NAT
+19	me	me	CLI	CLI	_	21	dep	_	_	69.809998	69.900002	NAT
+20	le	le	CLI	CLI	_	21	dep	_	_	69.910004	70.000000	NAT
+21	change	changer	VRB	VRB	_	16	dep	_	_	70.010002	70.419998	NAT
+22	hein	hein	INT	INT	_	21	dm	_	_	70.430000	70.489998	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-28
+# text = parce qu'il a des problèmes
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	71.050003	71.330002	NAT
+2	il	il	CLS	CLS	_	3	subj	_	_	71.339996	71.410004	NAT
+3	a	avoir	VRB	VRB	_	1	dep	_	_	71.419998	71.489998	NAT
+4	des	de	PRE	PRE	_	3	dep	_	_	71.500000	71.620003	NAT
+5	problèmes	problème	NOM	NOM	_	4	dep	_	_	71.629997	72.059998	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-29
+# text = alors je vais peut-être prendre autre chose
+1	alors	alors	ADV	ADV	_	3	periph	_	_	72.559998	72.699997	NAT
+2	je	je	CLS	CLS	_	3	subj	_	_	72.709999	72.739998	NAT
+3	vais	aller	VRB	VRB	_	0	root	_	_	72.750000	72.849998	NAT
+4	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	72.860001	73.050003	NAT
+5	prendre	prendre	VNF	VNF	_	3	dep	_	_	73.059998	73.269997	NAT
+6	autre	autre	ADJ	ADJ	_	7	dep	_	_	73.279999	73.410004	NAT
+7	chose	chose	NOM	NOM	_	5	dep	_	_	73.419998	73.760002	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-30
+# text = alors c'est un Sagem
+1	alors	alors	ADV	ADV	_	3	periph	_	_	74.430000	74.620003	POI
+2	c'	ce	CLS	CLS	_	3	subj	_	_	74.629997	74.769997	POI
+3	est	être	VRB	VRB	_	0	root	_	_	74.779999	74.800003	POI
+4	un	un	DET	DET	_	5	spe	_	_	74.809998	74.919998	POI
+5	Sagem	Sagem	NOM	NOM	_	3	dep	_	_	74.930000	75.470001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-31
+# text = vous m'avez dit
+1	vous	vous	CLS	CLS	_	4	subj	_	_	75.480003	75.589996	POI
+2	m'	me	CLI	CLI	_	4	dep	_	_	75.599998	75.669998	POI
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	75.680000	75.860001	POI
+4	dit	dire	VPP	VPP	_	0	root	_	_	75.900002	76.260002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-32
+# text = neuf cent trente six
+1	neuf	neuf	NUM	NUM	_	0	root	_	_	76.599998	76.820000	NAT
+2	cent	cent	NUM	NUM	_	1	dep	_	_	76.830002	76.949997	NAT
+3	trente	trente	NUM	NUM	_	2	dep	_	_	76.959999	77.230003	NAT
+4	six	six	NUM	NUM	_	3	dep	_	_	77.320000	77.480003	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-33
+# text = le MC ou le MW
+1	le	le	DET	DET	_	2	spe	_	_	78.180000	78.360001	POI
+2	MC	MC	NOM	NOM	_	0	root	_	_	78.370003	78.800003	POI
+3	ou	ou	COO	COO	_	5	mark	_	_	78.809998	78.900002	POI
+4	le	le	DET	DET	_	5	spe	_	_	78.910004	79.099998	POI
+5	MW	MW	NOM	NOM	_	2	para	_	_	79.169998	79.730003	POI
+
+# sent_id = cefc-coralrom-ftelpv20-34
+# text = MC
+1	MC	MC	NOM	NOM	_	0	root	_	_	80.419998	80.930000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-35
+# text = fc~
+1	fc~	fc~	X	X	_	0	root	_	_	81.699997	82.070000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-36
+# text = MC
+1	MC	MC	X	X	_	0	root	_	_	82.150002	82.260002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-37
+# text = neuf cent trente six
+1	neuf	neuf	NUM	NUM	_	0	root	_	_	82.430000	82.620003	POI
+2	cent	cent	NUM	NUM	_	1	dep	_	_	82.680000	82.790001	POI
+3	trente	trente	NUM	NUM	_	2	dep	_	_	82.849998	82.959999	POI
+4	six	six	NUM	NUM	_	3	dep	_	_	83.059998	83.150002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-38
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	83.389999	83.470001	POI
+2	accord	accord	NOM	NOM	_	1	dep	_	_	83.620003	83.919998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-39
+# text = alors hier à l'agence on m'a dit que je pouvais avoir à la place euh le One touche
+1	alors	alors	ADV	ADV	_	9	periph	_	_	84.099998	84.589996	NAT
+2	hier	hier	ADV	ADV	_	9	periph	_	_	84.599998	84.720001	NAT
+3	à	à	PRE	PRE	_	9	periph	_	_	84.730003	84.790001	NAT
+4	l'	le	DET	DET	_	5	spe	_	_	84.800003	84.820000	NAT
+5	agence	agence	NOM	NOM	_	3	dep	_	_	84.830002	85.169998	NAT
+6	on	on	CLS	CLS	_	9	subj	_	_	85.180000	85.239998	NAT
+7	m'	me	CLI	CLI	_	9	dep	_	_	85.250000	85.300003	NAT
+8	a	avoir	VRB	VRB	_	9	aux	_	_	85.309998	85.389999	NAT
+9	dit	dire	VPP	VPP	_	0	root	_	_	85.400002	85.449997	NAT
+10	que	que	CSU	CSU	_	9	dep	_	_	85.459999	85.489998	NAT
+11	je	je	CLS	CLS	_	12	subj	_	_	85.500000	85.639999	NAT
+12	pouvais	pouvoir	VRB	VRB	_	10	dep	_	_	85.650002	85.910004	NAT
+13	avoir	avoir	VNF	VNF	_	12	dep	_	_	85.919998	86.300003	NAT
+14	à	à	PRE	PRE	_	13	dep	_	_	86.309998	86.389999	NAT
+15	la	le	DET	DET	_	16	spe	_	_	86.400002	86.529999	NAT
+16	place	place	NOM	NOM	_	14	dep	_	_	86.540001	87.220001	NAT
+17	euh	euh	INT	INT	_	16	dm	_	_	87.230003	87.269997	NAT
+18	le	le	DET	DET	_	19	spe	_	_	87.279999	87.760002	NAT
+19	One	One	NOM	NOM	_	13	dep	_	_	89.339996	89.669998	NAT
+20	touche	touche	NOM	NOM	_	19	dep	_	_	89.680000	89.879997	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-40
+# text = trois cent
+1	trois	trois	NUM	NUM	_	0	root	_	_	90.010002	90.250000	NAT
+2	cent	cent	NUM	NUM	_	1	dep	_	_	90.300003	90.430000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-41
+# text = deux one touche
+1	deux	deux	NUM	NUM	_	0	root	_	_	90.440002	90.650002	POI
+2	one	one	NUM	NUM	_	3	spe	_	_	91.550003	91.709999	POI
+3	touche	touche	NOM	NOM	_	1	dep	_	_	91.889999	91.989998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-42
+# text = là ce qui se passe c'est que vous avez
+1	là	là	ADV	ADV	_	2	periph	_	_	92.940002	93.199997	POI
+2	ce	ce	PRO	PRO	_	7	periph	_	_	93.209999	93.239998	POI
+3	qui	qui	PRQ	PRQ	_	5	subj	_	_	93.349998	93.430000	POI
+4	se	se	CLI	CLI	_	5	dep	_	_	93.440002	93.480003	POI
+5	passe	passer	VRB	VRB	_	2	dep	_	_	93.599998	93.750000	POI
+6	c'	ce	CLS	CLS	_	7	subj	_	_	93.839996	93.860001	POI
+7	est	être	VRB	VRB	_	0	root	_	_	93.870003	93.930000	POI
+8	que	que	CSU	CSU	_	7	dep	_	_	93.940002	94.040001	POI
+9	vous	vous	CLS	CLS	_	10	subj	_	_	94.050003	94.370003	POI
+10	avez	avoir	VRB	VRB	_	8	dep	_	_	94.379997	94.830002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-43
+# text = donc euh vous avez fait une-~ une offre de renouvellement en agence
+1	donc	donc	ADV	ADV	_	5	periph	_	_	94.889999	95.089996	POI
+2	euh	euh	INT	INT	_	1	dm	_	_	95.309998	95.830002	POI
+3	vous	vous	CLS	CLS	_	5	subj	_	_	96.400002	96.449997	POI
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	96.709999	97.059998	POI
+5	fait	faire	VPP	VPP	_	0	root	_	_	97.070000	97.169998	POI
+6	une-~	une-~	DET	DET	_	8	spe	_	_	97.180000	97.330002	POI
+7	une	un	DET	DET	_	6	para	_	_	97.339996	97.709999	POI
+8	offre	offre	NOM	NOM	_	5	dep	_	_	97.779999	97.989998	POI
+9	de	de	PRE	PRE	_	8	dep	_	_	98.000000	98.029999	POI
+10	renouvellement	renouvellement	NOM	NOM	_	9	dep	_	_	98.040001	98.680000	POI
+11	en	en	PRE	PRE	_	5	dep	_	_	98.720001	98.870003	POI
+12	agence	agence	NOM	NOM	_	11	dep	_	_	98.879997	99.169998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-44
+# text = one touche
+1	one	one	CLS	CLS	_	2	subj	_	_	92.290001	92.580002	NAT
+2	touche	touche	NOM	NOM	_	0	root	_	_	92.589996	92.849998	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-45
+# text = mh vous l'avez pas fait par euh à distance avec nous
+1	mh	mh	INT	INT	_	6	dm	_	_	100.070000	100.120003	POI
+2	vous	vous	CLS	CLS	_	6	subj	_	_	100.370003	100.440002	POI
+3	l'	le	CLI	CLI	_	6	dep	_	_	100.449997	100.500000	POI
+4	avez	avoir	VRB	VRB	_	6	aux	_	_	100.510002	100.650002	POI
+5	pas	pas	ADN	ADN	_	6	dep	_	_	100.660004	100.820000	POI
+6	fait	faire	VPP	VPP	_	0	root	_	_	100.940002	101.040001	POI
+7	par	par	PRE	PRE	_	6	dep	_	_	101.050003	101.220001	POI
+8	euh	euh	INT	INT	_	7	dm	_	_	101.269997	101.290001	POI
+9	à	à	PRE	PRE	_	7	para	_	_	101.300003	101.599998	POI
+10	distance	distance	NOM	NOM	_	9	dep	_	_	101.680000	102.139999	POI
+11	avec	avec	PRE	PRE	_	7	para	_	_	102.660004	102.949997	POI
+12	nous	moi	PRO	PRO	_	11	dep	_	_	102.959999	103.309998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-46
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	104.570000	104.720001	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-47
+# text = non bon
+1	non	non	INT	INT	_	0	root	_	_	104.730003	104.940002	POI
+2	bon	bon	INT	INT	_	1	dm	_	_	105.430000	105.580002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-48
+# text = alors l'agence peut
+1	alors	alors	ADV	ADV	_	4	periph	_	_	107.300003	107.500000	POI
+2	l'	le	DET	DET	_	3	spe	_	_	107.510002	107.570000	POI
+3	agence	agence	NOM	NOM	_	4	subj	_	_	107.580002	107.919998	POI
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	107.930000	108.180000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-49
+# text = peut vous le changer
+1	peut	pouvoir	VRB	VRB	_	0	root	_	_	108.230003	108.320000	POI
+2	vous	vous	CLS	CLS	_	1	subj	_	_	108.330002	108.480003	POI
+3	le	le	CLI	CLI	_	4	dep	_	_	108.489998	108.510002	POI
+4	changer	changer	VNF	VNF	_	1	dep	_	_	108.519997	108.919998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-50
+# text = elle a dit qu'elle pouvait vous le changer
+1	elle	il	CLS	CLS	_	3	subj	_	_	108.930000	109.000000	POI
+2	a	avoir	VRB	VRB	_	3	aux	_	_	109.010002	109.040001	POI
+3	dit	dire	VPP	VPP	_	0	root	_	_	109.050003	109.139999	POI
+4	qu'	que	CSU	CSU	_	3	dep	_	_	109.150002	109.230003	POI
+5	elle	il	CLS	CLS	_	6	subj	_	_	109.239998	109.290001	POI
+6	pouvait	pouvoir	VRB	VRB	_	4	dep	_	_	109.300003	109.410004	POI
+7	vous	vous	CLS	CLS	_	6	subj	_	_	109.419998	109.510002	POI
+8	le	le	CLI	CLI	_	9	dep	_	_	109.519997	109.550003	POI
+9	changer	changer	VNF	VNF	_	7	dep	_	_	109.660004	110.290001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-51
+# text = non elle m'a dit de vous appeler vous
+1	non	non	INT	INT	_	5	dm	_	_	109.730003	110.110001	NAT
+2	elle	il	CLS	CLS	_	5	subj	_	_	110.790001	110.860001	NAT
+3	m'	me	CLI	CLI	_	5	dep	_	_	110.870003	110.889999	NAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	110.900002	110.989998	NAT
+5	dit	dire	VPP	VPP	_	0	root	_	_	111.000000	111.099998	NAT
+6	de	de	PRE	PRE	_	5	dep	_	_	111.110001	111.160004	NAT
+7	vous	vous	CLI	CLI	_	8	dep	_	_	111.169998	111.360001	NAT
+8	appeler	appeler	VNF	VNF	_	6	dep	_	_	111.370003	111.690002	NAT
+9	vous	vous	CLS	CLS	_	5	periph	_	_	111.699997	111.860001	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-52
+# text = oui je c'est bien ce qui me semblait qu'en fait euh on va contacter
+1	oui	oui	INT	INT	_	4	dm	_	_	112.320000	112.709999	POI
+2	je	je	CLS	CLS	_	4	subj	_	_	112.790001	112.860001	POI
+3	c'	ce	CLS	CLS	_	2	para	_	_	112.980003	113.040001	POI
+4	est	être	VRB	VRB	_	0	root	_	_	113.050003	113.089996	POI
+5	bien	bien	ADV	ADV	_	4	dep	_	_	113.099998	113.199997	POI
+6	ce	ce	PRO	PRO	_	4	dep	_	_	113.209999	113.279999	POI
+7	qui	qui	PRQ	PRQ	_	9	dep	_	_	113.290001	113.379997	POI
+8	me	me	CLI	CLI	_	9	dep	_	_	113.389999	113.410004	POI
+9	semblait	sembler	VRB	VRB	_	6	dep	_	_	113.419998	113.769997	POI
+10	qu'	que	CSU	CSU	_	4	dep	_	_	114.589996	114.610001	POI
+11	en	en	PRE	PRE	_	15	periph	_	_	114.620003	114.720001	POI
+12	fait	fait	NOM	NOM	_	11	dep	_	_	114.769997	114.849998	POI
+13	euh	euh	INT	INT	_	12	dm	_	_	114.860001	115.300003	POI
+14	on	on	CLS	CLS	_	15	subj	_	_	115.309998	115.430000	POI
+15	va	aller	VRB	VRB	_	10	dep	_	_	115.440002	115.559998	POI
+16	contacter	contacter	VNF	VNF	_	15	dep	_	_	115.650002	116.129997	POI
+
+# sent_id = cefc-coralrom-ftelpv20-53
+# text = donc moi je vais essayer de contacter le service après vente
+1	donc	donc	ADV	ADV	_	4	periph	_	_	116.139999	116.290001	POI
+2	moi	moi	PRO	PRO	_	4	periph	_	_	116.379997	116.480003	POI
+3	je	je	CLS	CLS	_	4	subj	_	_	116.489998	116.570000	POI
+4	vais	aller	VRB	VRB	_	0	root	_	_	116.580002	116.639999	POI
+5	essayer	essayer	VNF	VNF	_	4	dep	_	_	116.650002	116.820000	POI
+6	de	de	PRE	PRE	_	5	dep	_	_	116.830002	116.849998	POI
+7	contacter	contacter	VNF	VNF	_	6	dep	_	_	116.949997	117.349998	POI
+8	le	le	DET	DET	_	9	spe	_	_	117.360001	117.400002	POI
+9	service	service	NOM	NOM	_	7	dep	_	_	117.410004	117.699997	POI
+10	après	après	PRE	PRE	_	7	dep	_	_	117.790001	118.000000	POI
+11	vente	vente	NOM	NOM	_	10	dep	_	_	118.010002	118.239998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-54
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	118.250000	118.370003	POI
+
+# sent_id = cefc-coralrom-ftelpv20-55
+# text = de vous mettre en relation avec eux en expliquant que
+1	de	de	PRE	PRE	_	0	root	_	_	118.379997	118.400002	POI
+2	vous	vous	CLI	CLI	_	3	dep	_	_	118.410004	118.459999	POI
+3	mettre	mettre	VNF	VNF	_	1	dep	_	_	118.470001	118.690002	POI
+4	en	en	PRE	PRE	_	3	dep	_	_	118.699997	118.760002	POI
+5	relation	relation	NOM	NOM	_	4	dep	_	_	118.800003	119.230003	POI
+6	avec	avec	PRE	PRE	_	3	dep	_	_	119.239998	119.550003	POI
+7	eux	moi	PRO	PRO	_	6	dep	_	_	119.559998	119.680000	POI
+8	en	en	PRE	PRE	_	3	dep	_	_	120.080002	120.160004	POI
+9	expliquant	expliquer	VPR	VPR	_	8	dep	_	_	120.169998	120.739998	POI
+10	que	que	CSU	CSU	_	9	dep	_	_	120.750000	120.879997	POI
+
+# sent_id = cefc-coralrom-ftelpv20-56
+# text = le téléphone euh
+1	le	le	DET	DET	_	2	spe	_	_	120.889999	121.010002	POI
+2	téléphone	téléphone	NOM	NOM	_	0	root	_	_	121.059998	121.750000	POI
+3	euh	euh	INT	INT	_	2	dm	_	_	121.760002	121.790001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-57
+# text = qu'ils vous ont échangé
+1	qu'	que	CSU	CSU	_	0	root	_	_	121.839996	121.930000	POI
+2	ils	il	CLS	CLS	_	5	subj	_	_	121.940002	121.989998	POI
+3	vous	vous	CLI	CLI	_	5	dep	_	_	122.000000	122.230003	POI
+4	ont	avoir	VRB	VRB	_	5	aux	_	_	122.239998	122.370003	POI
+5	échangé	échanger	VPP	VPP	_	1	dep	_	_	122.379997	122.980003	POI
+
+# sent_id = cefc-coralrom-ftelpv20-58
+# text = n'est pas euh
+1	n'	ne	CLN	CLN	_	2	dep	_	_	123.120003	123.139999	POI
+2	est	être	VRB	VRB	_	0	root	_	_	123.150002	123.209999	POI
+3	pas	pas	ADN	ADN	_	2	dep	_	_	123.250000	123.650002	POI
+4	euh	euh	INT	INT	_	3	dm	_	_	123.660004	123.750000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-59
+# text = n'est ne fonctionne pas visiblement
+1	n'	ne	CLN	CLN	_	4	dep	_	_	123.760002	123.949997	POI
+2	est	être	VRB	VRB	_	4	aux	_	_	124.169998	124.290001	POI
+3	ne	ne	CLN	CLN	_	4	dep	_	_	124.500000	124.559998	POI
+4	fonctionne	fonctionner	VRB	VRB	_	0	root	_	_	124.570000	124.959999	POI
+5	pas	pas	ADN	ADN	_	4	dep	_	_	124.970001	125.180000	POI
+6	visiblement	visiblement	ADV	ADV	_	4	dep	_	_	125.290001	126.019997	POI
+
+# sent_id = cefc-coralrom-ftelpv20-60
+# text = donc vous m'avez dit que
+1	donc	donc	ADV	ADV	_	5	periph	_	_	126.610001	126.709999	POI
+2	vous	vous	CLS	CLS	_	5	subj	_	_	126.720001	126.769997	POI
+3	m'	me	CLI	CLI	_	5	dep	_	_	126.779999	126.800003	POI
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	126.809998	126.919998	POI
+5	dit	dire	VPP	VPP	_	0	root	_	_	126.980003	127.029999	POI
+6	que	que	CSU	CSU	_	5	dep	_	_	127.040001	127.120003	POI
+
+# sent_id = cefc-coralrom-ftelpv20-61
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	114.139999	114.320000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-62
+# text = mh mais ils me l'ont pas échangé là hein
+1	mh	mh	INT	INT	_	8	dm	_	_	125.690002	126.019997	NAT
+2	mais	mais	COO	COO	_	8	mark	_	_	126.980003	127.129997	NAT
+3	ils	il	CLS	CLS	_	8	subj	_	_	127.190002	127.269997	NAT
+4	me	me	CLI	CLI	_	8	dep	_	_	127.279999	127.339996	NAT
+5	l'	le	CLI	CLI	_	8	dep	_	_	127.349998	127.370003	NAT
+6	ont	avoir	VRB	VRB	_	8	aux	_	_	127.379997	127.470001	NAT
+7	pas	pas	ADN	ADN	_	8	dep	_	_	127.480003	127.709999	NAT
+8	échangé	échanger	VPP	VPP	_	0	root	_	_	127.720001	128.210007	NAT
+9	là	là	ADV	ADV	_	8	dep	_	_	128.220001	128.479996	NAT
+10	hein	hein	INT	INT	_	9	dm	_	_	128.490005	128.679993	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-63
+# text = ça été cet été
+1	ça	ça	PRO	PRO	_	2	subj	_	_	129.029999	129.169998	NAT
+2	été	être	VPP	VPP	_	0	root	_	_	129.179993	129.399994	NAT
+3	cet	ce	DET	DET	_	4	spe	_	_	129.410004	129.630005	NAT
+4	été	été	NOM	NOM	_	2	dep	_	_	129.639999	129.970001	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-64
+# text = il me l'a échangé sauf que le week-end dernier je les ai appelé parce qu'il y avait plus de euh
+1	il	il	CLS	CLS	_	5	subj	_	_	129.979996	130.050003	NAT
+2	me	me	CLI	CLI	_	5	dep	_	_	130.059998	130.169998	NAT
+3	l'	le	CLI	CLI	_	5	dep	_	_	130.179993	130.199997	NAT
+4	a	avoir	VRB	VRB	_	5	aux	_	_	130.210007	130.270004	NAT
+5	échangé	échanger	VPP	VPP	_	0	root	_	_	130.279999	130.710007	NAT
+6	sauf	sauf	COO	COO	_	7	mark	_	_	131.210007	131.380005	NAT
+7	que	que	CSU	CSU	_	5	dep	_	_	131.389999	131.490005	NAT
+8	le	le	DET	DET	_	9	spe	_	_	131.500000	131.559998	NAT
+9	week-end	week-end	NOM	NOM	_	14	periph	_	_	131.570007	132.009995	NAT
+10	dernier	dernier	ADJ	ADJ	_	9	dep	_	_	132.020004	132.509995	NAT
+11	je	je	CLS	CLS	_	14	subj	_	_	132.520004	132.539993	NAT
+12	les	le	CLI	CLI	_	14	dep	_	_	132.550003	132.720001	NAT
+13	ai	avoir	VRB	VRB	_	14	aux	_	_	132.729996	132.750000	NAT
+14	appelé	appeler	VPP	VPP	_	7	dep	_	_	132.759995	133.029999	NAT
+15	parce qu'	parce que	CSU	CSU	_	14	dep	_	_	133.039993	133.250000	NAT
+16	il	il	CLS	CLS	_	18	subj	_	_	133.259995	133.309998	NAT
+17	y	y	CLI	CLI	_	18	dep	_	_	133.320007	133.410004	NAT
+18	avait	avoir	VRB	VRB	_	15	dep	_	_	133.419998	133.570007	NAT
+19	plus	plus	ADN	ADN	_	18	dep	_	_	133.580002	133.750000	NAT
+20	de	de	PRE	PRE	_	18	dep	_	_	133.759995	134.220001	NAT
+21	euh	euh	INT	INT	_	20	dm	_	_	134.229996	134.250000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-65
+# text = j'entendais plus rien
+1	j'	je	CLS	CLS	_	2	subj	_	_	134.259995	134.309998	NAT
+2	entendais	entendre	VRB	VRB	_	0	root	_	_	134.320007	134.690002	NAT
+3	plus	plus	ADN	ADN	_	2	dep	_	_	134.699997	134.820007	NAT
+4	rien	rien	PRO	PRO	_	2	dep	_	_	134.830002	135.169998	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-66
+# text = donc le monsieur m'a dit euh vous l'éteignez là
+1	donc	donc	ADV	ADV	_	6	periph	_	_	135.669998	135.899994	NAT
+2	le	le	DET	DET	_	3	spe	_	_	135.910004	135.990005	NAT
+3	monsieur	Monsieur	NOM	NOM	_	6	subj	_	_	136.000000	136.339996	NAT
+4	m'	me	CLI	CLI	_	6	dep	_	_	136.350006	136.399994	NAT
+5	a	avoir	VRB	VRB	_	6	aux	_	_	136.410004	136.529999	NAT
+6	dit	dire	VPP	VPP	_	0	root	_	_	136.630005	136.860001	NAT
+7	euh	euh	INT	INT	_	6	dm	_	_	136.869995	137.100006	NAT
+8	vous	vous	CLS	CLS	_	10	subj	_	_	137.419998	137.509995	NAT
+9	l'	le	CLI	CLI	_	10	dep	_	_	137.520004	137.589996	NAT
+10	éteignez	éteindre	VRB	VRB	_	6	dep	_	_	137.600006	138.440002	NAT
+11	là	là	ADV	ADV	_	10	dep	_	_	138.449997	138.830002	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-67
+# text = si vous le rallumez lundi matin je l'ai rallumé
+1	si	si	CSU	CSU	_	10	periph	_	_	138.960007	139.029999	NAT
+2	vous	vous	CLS	CLS	_	4	subj	_	_	139.039993	139.169998	NAT
+3	le	le	CLI	CLI	_	4	dep	_	_	139.179993	139.229996	NAT
+4	rallumez	rallumer	VRB	VRB	_	1	dep	_	_	139.240005	139.820007	NAT
+5	lundi	lundi	NOM	NOM	_	4	dep	_	_	139.830002	140.199997	NAT
+6	matin	matin	NOM	NOM	_	4	dep	_	_	140.210007	140.539993	NAT
+7	je	je	CLS	CLS	_	10	subj	_	_	140.550003	140.589996	NAT
+8	l'	le	CLI	CLI	_	10	dep	_	_	140.600006	140.619995	NAT
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	140.630005	140.649994	NAT
+10	rallumé	rallumer	VPP	VPP	_	0	root	_	_	140.720001	141.089996	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-68
+# text = est-ce que vous avez bénéficié d'une offre de renouvellement de terminal
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	140.710007	141.050003	POI
+2	que	que	CSU	CSU	_	1	dep	_	_	141.059998	141.119995	POI
+3	vous	vous	CLS	CLS	_	5	subj	_	_	141.179993	141.300003	POI
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	141.309998	141.460007	POI
+5	bénéficié	bénéficier	VPP	VPP	_	2	dep	_	_	141.470001	142.029999	POI
+6	d'	de	PRE	PRE	_	5	dep	_	_	142.039993	142.100006	POI
+7	une	un	DET	DET	_	8	spe	_	_	142.110001	142.220001	POI
+8	offre	offre	NOM	NOM	_	6	dep	_	_	142.229996	142.410004	POI
+9	de	de	PRE	PRE	_	8	dep	_	_	142.419998	142.449997	POI
+10	renouvellement	renouvellement	NOM	NOM	_	9	dep	_	_	142.460007	142.929993	POI
+11	de	de	PRE	PRE	_	10	dep	_	_	142.940002	142.979996	POI
+12	terminal	terminal	NOM	NOM	_	11	dep	_	_	142.990005	143.419998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-69
+# text = ou c'est toujours votre ancien mobile que vous avez
+1	ou	ou	COO	COO	_	3	mark	_	_	143.429993	143.500000	POI
+2	c'	ce	CLS	CLS	_	3	subj	_	_	143.509995	143.570007	POI
+3	est	être	VRB	VRB	_	0	root	_	_	143.580002	143.630005	POI
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	143.639999	143.899994	POI
+5	votre	son	DET	DET	_	6	spe	_	_	143.910004	144.130005	POI
+6	ancien	ancien	NOM	NOM	_	3	dep	_	_	144.139999	144.399994	POI
+7	mobile	mobile	ADJ	ADJ	_	6	dep	_	_	144.410004	144.729996	POI
+8	que	que	CSU	CSU	_	3	dep	_	_	144.740005	144.839996	POI
+9	vous	vous	CLS	CLS	_	10	subj	_	_	144.850006	144.970001	POI
+10	avez	avoir	VRB	VRB	_	8	dep	_	_	144.979996	145.190002	POI
+
+# sent_id = cefc-coralrom-ftelpv20-70
+# text = ah c'est toujours mon ancien mobile
+1	ah	ah	INT	INT	_	3	dm	_	_	145.429993	145.570007	NAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	145.610001	145.639999	NAT
+3	est	être	VRB	VRB	_	0	root	_	_	145.649994	145.690002	NAT
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	145.699997	145.979996	NAT
+5	mon	son	DET	DET	_	6	spe	_	_	145.990005	146.110001	NAT
+6	ancien	ancien	NOM	NOM	_	3	dep	_	_	146.119995	146.389999	NAT
+7	mobile	mobile	ADJ	ADJ	_	6	dep	_	_	146.399994	146.910004	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-71
+# text = vous n'avez pas bénéficié d'une offre de renouvellement
+1	vous	vous	CLS	CLS	_	5	subj	_	_	147.940002	148.089996	POI
+2	n'	ne	CLN	CLN	_	5	dep	_	_	148.100006	148.160004	POI
+3	avez	avoir	VRB	VRB	_	5	aux	_	_	148.169998	148.339996	POI
+4	pas	pas	ADN	ADN	_	5	dep	_	_	148.350006	148.460007	POI
+5	bénéficié	bénéficier	VPP	VPP	_	0	root	_	_	148.470001	149.059998	POI
+6	d'	de	PRE	PRE	_	5	dep	_	_	149.070007	149.110001	POI
+7	une	un	DET	DET	_	8	spe	_	_	149.119995	149.250000	POI
+8	offre	offre	NOM	NOM	_	6	dep	_	_	149.259995	149.460007	POI
+9	de	de	PRE	PRE	_	8	dep	_	_	149.470001	149.509995	POI
+10	renouvellement	renouvellement	NOM	NOM	_	9	dep	_	_	149.520004	150.119995	POI
+
+# sent_id = cefc-coralrom-ftelpv20-72
+# text = non c'est pas une offre de renouvellement mon portable NNAAMMEE
+1	non	non	INT	INT	_	3	dm	_	_	150.850006	151.080002	NAT
+2	c'	ce	CLS	CLS	_	3	subj	_	_	151.089996	151.190002	NAT
+3	est	être	VRB	VRB	_	0	root	_	_	151.199997	151.220001	NAT
+4	pas	pas	ADN	ADN	_	3	dep	_	_	151.229996	151.380005	NAT
+5	une	un	DET	DET	_	6	spe	_	_	151.389999	151.529999	NAT
+6	offre	offre	NOM	NOM	_	3	dep	_	_	151.539993	151.669998	NAT
+7	de	de	PRE	PRE	_	6	dep	_	_	151.679993	151.750000	NAT
+8	renouvellement	renouvellement	NOM	NOM	_	7	dep	_	_	151.759995	152.419998	NAT
+9	mon	son	DET	DET	_	10	spe	_	_	152.429993	152.509995	NAT
+10	portable	portable	NOM	NOM	_	6	para	_	_	152.520004	152.960007	NAT
+11	NNAAMMEE	NOM	NOM	NOM	_	10	dep	_	_	153.020004	153.190002	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-73
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	154.539993	154.970001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-74
+# text = parce que je vois
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	155.550003	155.869995	POI
+2	je	je	CLS	CLS	_	3	subj	_	_	155.880005	155.929993	POI
+3	vois	voir	VRB	VRB	_	1	dep	_	_	155.940002	156.229996	POI
+
+# sent_id = cefc-coralrom-ftelpv20-75
+# text = je l'avais renouvelé au mois de juin
+1	je	je	CLS	CLS	_	4	subj	_	_	156.470001	156.669998	NAT
+2	l'	le	CLI	CLI	_	4	dep	_	_	156.679993	156.740005	NAT
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	156.750000	157.089996	NAT
+4	renouvelé	renouveler	VPP	VPP	_	0	root	_	_	157.100006	157.610001	NAT
+5	au	à+le	PRE	PRE	_	4	dep	_	_	157.619995	157.679993	NAT
+6	mois	moi	NOM	NOM	_	5	dep	_	_	157.690002	157.860001	NAT
+7	de	de	PRE	PRE	_	6	dep	_	_	157.869995	157.940002	NAT
+8	juin	juin	NOM	NOM	_	7	dep	_	_	157.949997	158.250000	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-76
+# text = ah au mois de juin
+1	ah	ah	INT	INT	_	2	dm	_	_	159.910004	160.070007	POI
+2	au	à+le	PRE	PRE	_	0	root	_	_	160.080002	160.149994	POI
+3	mois	moi	NOM	NOM	_	2	dep	_	_	160.160004	160.300003	POI
+4	de	de	PRE	PRE	_	3	dep	_	_	160.309998	160.339996	POI
+5	juin	juin	NOM	NOM	_	4	dep	_	_	160.350006	160.539993	POI
+
+# sent_id = cefc-coralrom-ftelpv20-77
+# text = deux mille
+1	deux	deux	NUM	NUM	_	0	root	_	_	160.550003	160.690002	POI
+2	mille	mille	NUM	NUM	_	1	dep	_	_	160.699997	160.839996	POI
+
+# sent_id = cefc-coralrom-ftelpv20-78
+# text = d'accord donc il est toujours sous garantie visiblement
+1	d'	de	PRE	PRE	_	5	periph	_	_	160.979996	161.020004	POI
+2	accord	accord	NOM	NOM	_	1	dep	_	_	161.029999	161.330002	POI
+3	donc	donc	ADV	ADV	_	5	periph	_	_	161.339996	161.440002	POI
+4	il	il	CLS	CLS	_	5	subj	_	_	161.509995	161.619995	POI
+5	est	être	VRB	VRB	_	0	root	_	_	161.630005	161.720001	POI
+6	toujours	toujours	ADV	ADV	_	5	dep	_	_	161.729996	161.869995	POI
+7	sous	sous	PRE	PRE	_	5	dep	_	_	161.940002	162.139999	POI
+8	garantie	garantie	NOM	NOM	_	7	dep	_	_	162.149994	162.559998	POI
+9	visiblement	visiblement	ADV	ADV	_	5	dep	_	_	162.660004	163.250000	POI
+
+# sent_id = cefc-coralrom-ftelpv20-79
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	161.600006	161.639999	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-80
+# text = oui oui
+1	oui	oui	INT	INT	_	0	root	_	_	162.979996	163.160004	NAT
+2	oui	oui	INT	INT	_	1	para	_	_	163.630005	163.830002	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-81
+# text = alors euh ce que je peux faire ce que je peux faire je vais vous mettre en relation avec le service après vente afin s qu'il vous nt échange le mobile
+1	alors	alors	ADV	ADV	_	14	periph	_	_	165.699997	166.080002	POI
+2	euh	euh	INT	INT	_	1	dm	_	_	166.089996	166.139999	POI
+3	ce	ce	PRO	PRO	_	14	periph	_	_	166.149994	166.570007	POI
+4	que	que	PRQ	PRQ	_	6	dep	_	_	166.679993	166.770004	POI
+5	je	je	CLS	CLS	_	6	subj	_	_	166.779999	166.860001	POI
+6	peux	pouvoir	VRB	VRB	_	3	dep	_	_	166.899994	167.009995	POI
+7	faire	faire	VNF	VNF	_	6	dep	_	_	167.020004	167.360001	POI
+8	ce	ce	PRO	PRO	_	7	dep	_	_	168.059998	168.520004	POI
+9	que	que	PRQ	PRQ	_	11	dep	_	_	168.869995	168.979996	POI
+10	je	je	CLS	CLS	_	11	subj	_	_	168.990005	169.070007	POI
+11	peux	pouvoir	VRB	VRB	_	8	dep	_	_	169.080002	169.210007	POI
+12	faire	faire	VNF	VNF	_	11	dep	_	_	169.220001	169.479996	POI
+13	je	je	CLS	CLS	_	14	subj	_	_	169.529999	169.619995	POI
+14	vais	aller	VRB	VRB	_	0	root	_	_	169.630005	169.690002	POI
+15	vous	vous	CLI	CLI	_	16	dep	_	_	169.699997	169.850006	POI
+16	mettre	mettre	VNF	VNF	_	14	dep	_	_	169.860001	170.050003	POI
+17	en	en	PRE	PRE	_	16	dep	_	_	170.059998	170.139999	POI
+18	relation	relation	NOM	NOM	_	17	dep	_	_	170.149994	170.660004	POI
+19	avec	avec	PRE	PRE	_	18	dep	_	_	170.669998	170.839996	POI
+20	le	le	DET	DET	_	21	spe	_	_	170.850006	170.889999	POI
+21	service	service	NOM	NOM	_	19	dep	_	_	170.899994	171.259995	POI
+22	après	après	PRE	PRE	_	16	dep	_	_	171.270004	171.470001	POI
+23	vente	vente	NOM	NOM	_	22	dep	_	_	171.479996	171.820007	POI
+24	afin	afin	ADV	ADV	_	16	dep	_	_	172.600006	172.889999	POI
+25	s	s	X	X	_	24	disflink	_	_	172.889999	172.889999	POI
+26	qu'	que	CSU	CSU	_	16	dep	_	_	172.899994	172.949997	POI
+27	il	il	CLS	CLS	_	29	subj	_	_	172.960007	173.009995	POI
+28	vous	vous	CLI	CLI	_	29	dep	_	_	173.089996	173.190002	POI
+29	nt	nt	VRB	VRB	_	26	dep	_	_	173.190002	173.190002	POI
+30	échange	échange	NOM	NOM	_	29	dep	_	_	173.199997	173.529999	POI
+31	le	le	DET	DET	_	32	spe	_	_	173.539993	173.610001	POI
+32	mobile	mobile	NOM	NOM	_	29	dep	_	_	173.619995	173.919998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-82
+# text = mh mh alors donc euh vous avez donc une panne
+1	mh mh	mh mh	INT	INT	_	6	dm	_	_	172.309998	174.619995	POI
+2	alors	alors	ADV	ADV	_	6	periph	_	_	175.449997	175.839996	POI
+3	donc	donc	ADV	ADV	_	6	periph	_	_	175.850006	176.240005	POI
+4	euh	euh	INT	INT	_	3	dm	_	_	176.250000	176.320007	POI
+5	vous	vous	CLS	CLS	_	6	subj	_	_	176.839996	177.009995	POI
+6	avez	avoir	VRB	VRB	_	0	root	_	_	177.020004	177.169998	POI
+7	donc	donc	ADV	ADV	_	6	dep	_	_	177.179993	177.350006	POI
+8	une	un	DET	DET	_	9	spe	_	_	177.360001	177.600006	POI
+9	panne	panne	NOM	NOM	_	6	dep	_	_	177.610001	177.970001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-83
+# text = vous m'avez dit au niveau de l'éc-~ au niveau du du cadran
+1	vous	vous	CLS	CLS	_	4	subj	_	_	178.020004	178.089996	POI
+2	m'	me	CLI	CLI	_	4	dep	_	_	178.100006	178.139999	POI
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	178.149994	178.300003	POI
+4	dit	dire	VPP	VPP	_	0	root	_	_	178.309998	178.389999	POI
+5	au	à+le	PRE	PRE	_	4	dep	_	_	178.399994	178.419998	POI
+6	niveau	niveau	NOM	NOM	_	5	dep	_	_	178.429993	178.570007	POI
+7	de	de	PRE	PRE	_	6	dep	_	_	178.619995	178.669998	POI
+8	l'	le	DET	DET	_	9	spe	_	_	178.740005	178.770004	POI
+9	éc-~	éc-~	NOM	NOM	_	7	dep	_	_	178.779999	178.960007	POI
+10	au	à+le	PRE	PRE	_	4	dep	_	_	178.970001	179.100006	POI
+11	niveau	niveau	NOM	NOM	_	10	dep	_	_	179.110001	179.380005	POI
+12	du	de+le	PRE	PRE	_	11	dep	_	_	179.389999	179.990005	POI
+13	du	de+le	PRE	PRE	_	12	para	_	_	180.029999	180.119995	POI
+14	cadran	cadran	NOM	NOM	_	13	dep	_	_	180.130005	180.589996	POI
+
+# sent_id = cefc-coralrom-ftelpv20-84
+# text = l'écouteur l'écouteur j'entends plus rien
+1	l'	le	DET	DET	_	2	spe	_	_	181.000000	181.020004	NAT
+2	écouteur	écouteur	NOM	NOM	_	6	periph	_	_	181.029999	181.380005	NAT
+3	l'	le	DET	DET	_	4	spe	_	_	181.809998	181.860001	NAT
+4	écouteur	écouteur	NOM	NOM	_	2	para	_	_	181.869995	182.369995	NAT
+5	j'	je	CLS	CLS	_	6	subj	_	_	182.380005	182.449997	NAT
+6	entends	entendre	VRB	VRB	_	0	root	_	_	182.460007	182.679993	NAT
+7	plus	plus	ADN	ADN	_	6	dep	_	_	182.690002	182.820007	NAT
+8	rien	rien	PRO	PRO	_	6	dep	_	_	182.830002	183.160004	NAT
+
+# sent_id = cefc-coralrom-ftelpv20-85
+# text = c'est ça les écouteurs mh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	181.050003	181.070007	POI
+2	est	être	VRB	VRB	_	0	root	_	_	181.119995	181.229996	POI
+3	ça	ça	PRO	PRO	_	2	dep	_	_	181.460007	181.580002	POI
+4	les	le	DET	DET	_	5	spe	_	_	181.809998	181.940002	POI
+5	écouteurs	écouteur	NOM	NOM	_	2	dep	_	_	181.949997	183.149994	POI
+6	mh	mh	INT	INT	_	5	dm	_	_	183.740005	183.860001	POI
+
+# sent_id = cefc-coralrom-ftelpv20-86
+# text = d'accord donc je vous demande un tout petit instant
+1	d'	de	PRE	PRE	_	6	periph	_	_	187.160004	187.220001	POI
+2	accord	accord	NOM	NOM	_	1	dep	_	_	187.229996	187.529999	POI
+3	donc	donc	ADV	ADV	_	6	periph	_	_	187.539993	187.710007	POI
+4	je	je	CLS	CLS	_	6	subj	_	_	187.720001	187.770004	POI
+5	vous	vous	CLI	CLI	_	6	dep	_	_	187.779999	187.839996	POI
+6	demande	demander	VRB	VRB	_	0	root	_	_	187.850006	188.009995	POI
+7	un	un	DET	DET	_	10	spe	_	_	188.020004	188.110001	POI
+8	tout	tout	ADJ	ADJ	_	9	dep	_	_	188.119995	188.199997	POI
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	188.210007	188.399994	POI
+10	instant	instant	NOM	NOM	_	6	dep	_	_	188.410004	188.809998	POI
+
+# sent_id = cefc-coralrom-ftelpv20-87
+# text = je vais vous mettre en relation avec le service
+1	je	je	CLS	CLS	_	2	subj	_	_	188.820007	188.889999	POI
+2	vais	aller	VRB	VRB	_	0	root	_	_	188.899994	188.960007	POI
+3	vous	vous	CLI	CLI	_	4	dep	_	_	188.970001	189.130005	POI
+4	mettre	mettre	VNF	VNF	_	2	dep	_	_	189.139999	189.360001	POI
+5	en	en	PRE	PRE	_	4	dep	_	_	189.369995	189.399994	POI
+6	relation	relation	NOM	NOM	_	5	dep	_	_	189.410004	189.809998	POI
+7	avec	avec	PRE	PRE	_	6	dep	_	_	189.820007	190.000000	POI
+8	le	le	DET	DET	_	9	spe	_	_	190.009995	190.089996	POI
+9	service	service	NOM	NOM	_	7	dep	_	_	190.100006	190.399994	POI
+
+# sent_id = cefc-coralrom-ftelpv20-88
+# text = d'accord merci
+1	d'	de	PRE	PRE	_	0	root	_	_	191.020004	191.050003	NAT
+2	accord	accord	NOM	NOM	_	1	dep	_	_	191.059998	191.490005	NAT
+3	merci	merci	INT	INT	_	2	dm	_	_	192.580002	193.139999	NAT
+

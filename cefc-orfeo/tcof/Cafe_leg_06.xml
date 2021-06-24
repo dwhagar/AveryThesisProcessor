@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Cafe_leg_06
+    </title>
+    <respStmt>
+     <resp>
+      Responsables du corpus
+     </resp>
+     <name>
+      Virginie André
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="word">
+     1284
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher>
+     projet Orfeo
+    </publisher>
+    <pubPlace>
+     http://projet-orfeo.fr
+    </pubPlace>
+    <availability status="restricted">
+     <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="commentaireDate"/>
+    <note type="commentaireQualiteSon">
+     son pas très clair, il y a un locuteur qu'on entend
+          moins que les autres
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>
+     fichier
+     <name>
+      Cafe_leg_06
+     </name>
+     du corpus/projet
+     <name>
+      TCOF
+     </name>
+    </bibl>
+    <recordingStmt>
+     <recording ana="  #bip" dur="00:05:14" type="audio">
+      <date>
+       29/10/2006
+      </date>
+     </recording>
+    </recordingStmt>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <interpretation>
+     <p ana="automatique">
+      Annotation automatique
+     </p>
+    </interpretation>
+    <normalization method="silent">
+     <p>
+      transcription anonymisée
+     </p>
+    </normalization>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <abstract>
+    <p>
+     Des membres d'une même famille, jeunes adultes et adultes, discutent parlent de piscines
+          municipales dans un premier temps, avec le prix d'entrée et des casiers de piscine selon
+          les villes et l'âge et dans un deuxième temps, la conversation se centre sur la conduite
+          accompagnée de la fille d'une locutrice, du permis et des manoeuvres en conduite.
+    </p>
+   </abstract>
+   <langUsage>
+    <language ident="fr">
+     Français
+    </language>
+   </langUsage>
+   <textClass>
+    <catRef corresp="type" target="conversation"/>
+    <catRef corresp="secteur" target="privé"/>
+    <catRef corresp="milieu" target="amical"/>
+    <catRef corresp="channel" target="face_à_face"/>
+    <catRef corresp="modality" target="oral"/>
+    <catRef corresp="nbLocuteurs" target="2+"/>
+   </textClass>
+   <settingDesc>
+    <place>
+     <p>
+      France, Lorraine, Meurthe-et-Moselle
+     </p>
+    </place>
+   </settingDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="L1">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       aide-soignant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L2">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       secrétaire
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L3">
+      <sex>
+       M
+      </sex>
+      <age>
+       16-20
+      </age>
+      <education>
+       lycée
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       lycéen
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L4">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       maçon
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L5">
+      <sex>
+       F
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       études supérieures
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       étudiant
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+     <person xml:id="L6">
+      <sex>
+       M
+      </sex>
+      <age>
+       21-60
+      </age>
+      <education>
+       collège
+      </education>
+      <birth>
+       <placeName>
+        France, Lorraine
+       </placeName>
+      </birth>
+      <occupation>
+       laveur de vitre
+      </occupation>
+      <langKnowledge>
+       <langKnown level="langue_maternelle">
+        français
+       </langKnown>
+      </langKnowledge>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+ </teiHeader>
+</TEI>

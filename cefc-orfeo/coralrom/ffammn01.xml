@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> ffammn01 </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Cresti </name>
+          <name> Moneglia </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 4481 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"> Grésillement </note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> ffammn01 </name> du corpus/projet <name> CORALROM </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#problème_enregistrement #NULL #script Daniel Hirst" dur="00:24:08"
+            type="audio">
+            <date> 00/06/1999 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> un passionné de plongée sous-marine raconte ses dernières expéditions </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="narration"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="1"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Rhône-Alpes, Saint Symphorien d'Ozon </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="PIE">
+            <sex> M </sex>
+            <age> 21-60 </age>
+            <education> collège </education>
+            <birth>
+              <placeName> France, Rhône-Alpes, Lyon </placeName>
+            </birth>
+            <occupation> employé chez Renault </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

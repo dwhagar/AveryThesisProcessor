@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Isabelle_Legrand_F_32_Anne-Lies_Simo-Groen_F_30_RO </title>
+        <respStmt>
+          <resp> Responsables du corpus </resp>
+          <name> Sonia Branca-Rosoff </name>
+          <name> Florence Lefeuvre </name>
+          <name> Serge Fleury </name>
+          <name> Mat Pires </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word"> 15899 </measure>
+      </extent>
+      <publicationStmt>
+        <publisher> projet Orfeo </publisher>
+        <pubPlace> http://projet-orfeo.fr </pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl> fichier <name> Isabelle_Legrand_F_32_Anne-Lies_Simo-Groen_F_30_RO </name> du
+          corpus/projet <name> CFPP </name>
+        </bibl>
+        <recordingStmt>
+          <recording ana="#peu_bruité #audio/x-wav #NULL" dur="01:15:39" type="audio">
+            <date> 28/11/2009 </date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p> interview sur la vie dans le quartier </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr"> Français </language>
+      </langUsage>
+      <textClass>
+        <catRef corresp="type" target="entretien"/>
+        <catRef corresp="secteur" target="privé"/>
+        <catRef corresp="milieu" target="amical"/>
+        <catRef corresp="channel" target="face_à_face"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p> France, Ile-de-France, Rosny Sous Boy </p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Sonia_Branca-Rosoff">
+            <sex> F </sex>
+            <age> 61+ </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> USA, New York </placeName>
+            </birth>
+            <occupation> enseignant-chercheur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="Isabelle_Legrand">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> lycée </education>
+            <birth>
+              <placeName> France, Ile-de-France, Bagnolet </placeName>
+            </birth>
+            <occupation> employé à la caisse d'allocations familiales </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="Anne-Lies_Simo-Groen">
+            <sex> F </sex>
+            <age> 21-60 </age>
+            <education> études supérieures </education>
+            <birth>
+              <placeName> Pays-Bas </placeName>
+            </birth>
+            <occupation> enseignant-chercheur </occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle"> français </langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

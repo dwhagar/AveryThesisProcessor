@@ -1,0 +1,864 @@
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-1
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	0.320000	0.470000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-2
+# text = bonjour je viens pour euh un dossier de validation d'acquis en fait
+1	bonjour	bonjour	INT	INT	_	3	dm	_	_	0.560000	0.770000	E
+2	je	je	CLS	CLS	_	3	subj	_	_	1.630000	1.760000	E
+3	viens	venir	VRB	VRB	_	0	root	_	_	1.770000	2.270000	E
+4	pour	pour	PRE	PRE	_	3	dep	_	_	2.280000	2.360000	E
+5	euh	euh	INT	INT	_	4	dm	_	_	2.370000	2.510000	E
+6	un	un	DET	DET	_	7	spe	_	_	2.820000	2.900000	E
+7	dossier	dossier	NOM	NOM	_	4	dep	_	_	2.910000	3.240000	E
+8	de	de	PRE	PRE	_	7	dep	_	_	3.250000	3.510000	E
+9	validation	validation	NOM	NOM	_	8	dep	_	_	3.520000	4.050000	E
+10	d'	de	PRE	PRE	_	9	dep	_	_	4.130000	4.150000	E
+11	acquis	acquis	NOM	NOM	_	10	dep	_	_	4.210000	4.290000	E
+12	en	en	PRE	PRE	_	4	para	_	_	4.530000	4.570000	E
+13	fait	fait	NOM	NOM	_	12	dep	_	_	4.580000	4.630000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-3
+# text = et euh j'avais quelques questions à vous poser
+1	et	et	COO	COO	_	4	mark	_	_	4.800000	4.960000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	4.970000	5.050000	E
+3	j'	je	CLS	CLS	_	4	subj	_	_	5.060000	5.140000	E
+4	avais	avoir	VRB	VRB	_	0	root	_	_	5.150000	5.290000	E
+5	quelques	quelque	ADJ	ADJ	_	6	dep	_	_	5.300000	5.700000	E
+6	questions	question	NOM	NOM	_	4	dep	_	_	5.710000	6.040000	E
+7	à	à	PRE	PRE	_	6	dep	_	_	6.050000	6.080000	E
+8	vous	moi	PRO	PRO	_	7	dep	_	_	6.140000	6.190000	E
+9	poser	poser	VNF	VNF	_	4	dep	_	_	6.290000	6.550000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-4
+# text = parce que
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	6.560000	6.950000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-5
+# text = mh j'ai eu des difficultés à remplir euh mon dossier
+1	mh	mh	INT	INT	_	4	dm	_	_	4.130000	4.150000	E
+2	j'	je	CLS	CLS	_	4	subj	_	_	9.060000	9.190000	E
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	9.200000	9.470000	E
+4	eu	avoir	VPP	VPP	_	0	root	_	_	9.480000	9.580000	E
+5	des	de	PRE	PRE	_	4	dep	_	_	9.590000	9.710000	E
+6	difficultés	difficulté	NOM	NOM	_	5	dep	_	_	9.720000	10.270000	E
+7	à	à	PRE	PRE	_	4	dep	_	_	10.280000	10.330000	E
+8	remplir	remplir	VNF	VNF	_	7	dep	_	_	10.340000	10.840000	E
+9	euh	euh	INT	INT	_	8	dm	_	_	10.970000	11.010000	E
+10	mon	son	DET	DET	_	11	spe	_	_	11.800000	11.970000	E
+11	dossier	dossier	NOM	NOM	_	8	dep	_	_	11.980000	12.390000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-6
+# text = donc euh là on me demande la mention de ma licence
+1	donc	donc	ADV	ADV	_	6	periph	_	_	12.680000	12.760000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	12.810000	12.830000	E
+3	là	là	ADV	ADV	_	6	periph	_	_	12.840000	12.950000	E
+4	on	on	CLS	CLS	_	6	subj	_	_	13.450000	13.500000	E
+5	me	me	CLI	CLI	_	6	dep	_	_	13.690000	14.040000	E
+6	demande	demander	VRB	VRB	_	0	root	_	_	14.160000	14.780000	E
+7	la	le	DET	DET	_	8	spe	_	_	15.090000	15.170000	E
+8	mention	mention	NOM	NOM	_	6	dep	_	_	15.180000	15.790000	E
+9	de	de	PRE	PRE	_	8	dep	_	_	16.190001	16.280001	E
+10	ma	son	DET	DET	_	11	spe	_	_	16.410000	16.480000	E
+11	licence	licence	NOM	NOM	_	9	dep	_	_	16.490000	16.809999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-7
+# text = ouais donc là vous avez coché L1 L2 L3
+1	ouais	ouais	INT	INT	_	6	dm	_	_	16.410000	16.549999	A
+2	donc	donc	ADV	ADV	_	6	periph	_	_	16.879999	17.020000	A
+3	là	là	ADV	ADV	_	6	periph	_	_	17.120001	17.389999	A
+4	vous	vous	CLS	CLS	_	6	subj	_	_	17.400000	17.620001	A
+5	avez	avoir	VRB	VRB	_	6	aux	_	_	17.629999	17.910000	A
+6	coché	cocher	VPP	VPP	_	0	root	_	_	18.010000	18.680000	A
+7	L1	L1	DET	DET	_	8	spe	_	_	18.809999	19.010000	A
+8	L2	L2	NOM	NOM	_	6	dep	_	_	19.020000	19.309999	A
+9	L3	L3	NOM	NOM	_	8	dep	_	_	19.320000	19.790001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-8
+# text = alors je voudrais aller en troisième année
+1	alors	alors	ADV	ADV	_	3	periph	_	_	20.040001	20.180000	E
+2	je	je	CLS	CLS	_	3	subj	_	_	20.639999	20.740000	E
+3	voudrais	vouloir	VRB	VRB	_	0	root	_	_	20.750000	20.950001	E
+4	aller	aller	VNF	VNF	_	3	dep	_	_	20.959999	21.100000	E
+5	en	en	PRE	PRE	_	4	dep	_	_	21.110001	21.219999	E
+6	troisième	troisième	ADJ	ADJ	_	7	dep	_	_	21.230000	21.740000	E
+7	année	année	NOM	NOM	_	5	dep	_	_	21.750000	21.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-9
+# text = mais c'est la deuxième année que je que je réclame donc je me mets en inscription pour troisième année
+1	mais	mais	COO	COO	_	3	mark	_	_	22.040001	22.090000	E
+2	c'	ce	CLS	CLS	_	3	subj	_	_	22.100000	22.120001	E
+3	est	être	VRB	VRB	_	0	root	_	_	22.129999	22.230000	E
+4	la	le	DET	DET	_	6	spe	_	_	22.240000	22.299999	E
+5	deuxième	deuxième	ADJ	ADJ	_	6	dep	_	_	22.309999	22.559999	E
+6	année	année	NOM	NOM	_	3	dep	_	_	22.570000	22.650000	E
+7	que	que	PRQ	PRQ	_	15	dep	_	_	22.900000	23.049999	E
+8	je	je	CLS	CLS	_	7	disflink	_	_	23.059999	23.180000	E
+9	que	que	CSU	CSU	_	7	para	_	_	23.600000	23.820000	E
+10	je	je	CLS	CLS	_	11	subj	_	_	23.959999	24.059999	E
+11	réclame	réclamer	VRB	VRB	_	9	dep	_	_	24.110001	24.330000	E
+12	donc	donc	ADV	ADV	_	15	periph	_	_	24.650000	24.730000	E
+13	je	je	CLS	CLS	_	15	subj	_	_	24.740000	24.790001	E
+14	me	me	CLI	CLI	_	15	dep	_	_	24.799999	24.930000	E
+15	mets	mettre	VRB	VRB	_	6	dep	_	_	24.940001	25.059999	E
+16	en	en	PRE	PRE	_	15	dep	_	_	25.070000	25.129999	E
+17	inscription	inscription	NOM	NOM	_	16	dep	_	_	25.450001	25.780001	E
+18	pour	pour	PRE	PRE	_	15	dep	_	_	25.790001	25.920000	E
+19	troisième	troisième	ADJ	ADJ	_	20	dep	_	_	26.030001	26.510000	E
+20	année	année	NOM	NOM	_	18	dep	_	_	26.650000	26.799999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-10
+# text = donc L3 bah faut savoir
+1	donc	donc	ADV	ADV	_	2	dep	_	_	22.040001	22.139999	A
+2	L3	L3	NOM	NOM	_	4	subj	_	_	22.150000	22.650000	A
+3	bah	bah	INT	INT	_	2	dm	_	_	27.040001	27.170000	A
+4	faut	faillir	VRB	VRB	_	0	root	_	_	27.180000	27.309999	A
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	27.320000	27.629999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-11
+# text = c'est L2 ou c'est L3
+1	c'	ce	CLS	CLS	_	2	subj	_	_	27.690001	27.770000	A
+2	est	être	VRB	VRB	_	0	root	_	_	27.780001	27.850000	A
+3	L2	L2	NOM	NOM	_	2	dep	_	_	27.860001	28.000000	A
+4	ou	ou	COO	COO	_	6	mark	_	_	28.010000	28.110001	A
+5	c'	ce	CLS	CLS	_	6	subj	_	_	28.150000	28.219999	A
+6	est	être	VRB	VRB	_	2	para	_	_	28.270000	28.370001	A
+7	L3	L3	DET	DET	_	6	dep	_	_	28.480000	28.730000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-12
+# text = enfin je demande ma deuxième année
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	29.120001	29.389999	E
+2	je	je	CLS	CLS	_	3	subj	_	_	29.400000	29.480000	E
+3	demande	demander	VRB	VRB	_	0	root	_	_	29.490000	29.790001	E
+4	ma	son	DET	DET	_	6	spe	_	_	29.799999	29.910000	E
+5	deuxième	deuxième	ADJ	ADJ	_	6	dep	_	_	29.920000	30.280001	E
+6	année	année	NOM	NOM	_	3	dep	_	_	30.290001	30.469999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-13
+# text = mais euh c'est pour pouvoir aller en troisième année justement hum
+1	mais	mais	COO	COO	_	4	mark	_	_	30.620001	30.760000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	30.770000	30.790001	E
+3	c'	ce	CLS	CLS	_	4	subj	_	_	31.360001	31.459999	E
+4	est	être	VRB	VRB	_	0	root	_	_	31.469999	31.500000	E
+5	pour	pour	PRE	PRE	_	4	dep	_	_	31.510000	31.700001	E
+6	pouvoir	pouvoir	VNF	VNF	_	5	dep	_	_	31.760000	32.270000	E
+7	aller	aller	VNF	VNF	_	6	dep	_	_	32.279999	32.380001	E
+8	en	en	PRE	PRE	_	7	dep	_	_	32.389999	32.470001	E
+9	troisième	troisième	ADJ	ADJ	_	10	dep	_	_	32.480000	32.790001	E
+10	année	année	NOM	NOM	_	8	dep	_	_	32.799999	32.880001	E
+11	justement	justement	ADV	ADV	_	6	dep	_	_	33.070000	33.380001	E
+12	hum	hum	INT	INT	_	11	dm	_	_	33.389999	33.610001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-14
+# text = ah donc c'est vous voudrez euh vous inscri-~ euh suivre des cours en L2 pour deux mille neuf deux mille dix
+1	ah	ah	INT	INT	_	4	dm	_	_	32.980000	33.160000	A
+2	donc	donc	ADV	ADV	_	4	periph	_	_	33.169998	33.369999	A
+3	c'	ce	CLS	CLS	_	4	subj	_	_	33.380001	33.419998	A
+4	est	être	VRB	VRB	_	0	root	_	_	33.430000	33.720001	A
+5	vous	vous	CLS	CLS	_	6	subj	_	_	33.730000	33.970001	A
+6	voudrez	vouloir	VRB	VRB	_	4	para	_	_	34.060001	34.720001	A
+7	euh	euh	INT	INT	_	6	dm	_	_	34.730000	34.820000	A
+8	vous	vous	CLS	CLS	_	9	subj	_	_	34.830002	35.049999	A
+9	inscri-~	inscri-~	VRB	VRB	_	6	para	_	_	35.060001	35.380001	A
+10	euh	euh	INT	INT	_	9	dm	_	_	35.389999	35.680000	A
+11	suivre	suivre	VNF	VNF	_	9	dep	_	_	35.689999	36.000000	A
+12	des	de	PRE	PRE	_	11	dep	_	_	36.009998	36.110001	A
+13	cours	cour	NOM	NOM	_	12	dep	_	_	36.200001	36.349998	A
+14	en	en	PRE	PRE	_	13	dep	_	_	36.360001	36.400002	A
+15	L2	L2	NOM	NOM	_	14	dep	_	_	36.549999	36.820000	A
+16	pour	pour	PRE	PRE	_	11	dep	_	_	37.680000	37.790001	A
+17	deux	deux	NUM	NUM	_	18	dep	_	_	37.880001	37.980000	A
+18	mille	mille	NUM	NUM	_	16	dep	_	_	37.990002	38.080002	A
+19	neuf	neuf	NUM	NUM	_	18	dep	_	_	38.090000	38.230000	A
+20	deux	deux	NUM	NUM	_	19	dep	_	_	38.240002	38.330002	A
+21	mille	mille	NUM	NUM	_	20	dep	_	_	38.340000	38.470001	A
+22	dix	dix	NUM	NUM	_	21	dep	_	_	38.480000	38.720001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-15
+# text = non en L3 mais euh j'ai fait l'année dernière une année de italien en fait
+1	non	non	INT	INT	_	8	dm	_	_	38.910000	38.980000	E
+2	en	en	PRE	PRE	_	8	periph	_	_	39.060001	39.220001	E
+3	L3	L3	NOM	NOM	_	2	dep	_	_	39.230000	39.610001	E
+4	mais	mais	COO	COO	_	8	mark	_	_	40.520000	40.820000	E
+5	euh	euh	INT	INT	_	4	dm	_	_	40.830002	40.849998	E
+6	j'	je	CLS	CLS	_	8	subj	_	_	40.860001	40.990002	E
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	41.000000	41.080002	E
+8	fait	faire	VPP	VPP	_	0	root	_	_	41.090000	41.230000	E
+9	l'	le	DET	DET	_	10	spe	_	_	41.240002	41.279999	E
+10	année	année	NOM	NOM	_	8	dep	_	_	41.490002	42.110001	E
+11	dernière	dernier	ADJ	ADJ	_	10	dep	_	_	42.180000	42.389999	E
+12	une	un	DET	DET	_	13	spe	_	_	42.400002	42.459999	E
+13	année	année	NOM	NOM	_	10	para	_	_	42.470001	42.560001	E
+14	de	de	PRE	PRE	_	13	dep	_	_	42.570000	42.660000	E
+15	italien	italien	NOM	NOM	_	14	dep	_	_	42.669998	42.889999	E
+16	en	en	PRE	PRE	_	8	dep	_	_	42.900002	42.919998	E
+17	fait	fait	NOM	NOM	_	16	dep	_	_	42.930000	42.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-16
+# text = L3 oui
+1	L3	L3	NOM	NOM	_	0	root	_	_	40.139999	40.459999	A
+2	oui	oui	INT	INT	_	1	dm	_	_	43.549999	43.720001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-17
+# text = et euh mais en prépa donc c'est cette an-~ c'est cette année que je demande en validation d'acquis
+1	et	et	COO	COO	_	8	mark	_	_	44.490002	44.680000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	44.689999	44.849998	E
+3	mais	mais	COO	COO	_	8	mark	_	_	44.860001	44.990002	E
+4	en	en	PRE	PRE	_	8	periph	_	_	45.000000	45.060001	E
+5	prépa	prépa	NOM	NOM	_	4	dep	_	_	45.130001	45.470001	E
+6	donc	donc	ADV	ADV	_	8	periph	_	_	45.619999	45.980000	E
+7	c'	ce	CLS	CLS	_	8	subj	_	_	46.110001	46.169998	E
+8	est	être	VRB	VRB	_	0	root	_	_	46.180000	46.330002	E
+9	cette	ce	DET	DET	_	10	spe	_	_	46.340000	46.520000	E
+10	an-~	an-~	NOM	NOM	_	8	dep	_	_	46.529999	46.790001	E
+11	c'	ce	CLS	CLS	_	12	subj	_	_	46.799999	46.869999	E
+12	est	être	VRB	VRB	_	8	para	_	_	46.880001	46.900002	E
+13	cette	ce	DET	DET	_	14	spe	_	_	46.910000	47.130001	E
+14	année	année	NOM	NOM	_	12	dep	_	_	47.139999	47.330002	E
+15	que	que	PRQ	PRQ	_	17	dep	_	_	47.340000	47.450001	E
+16	je	je	CLS	CLS	_	17	subj	_	_	47.459999	47.619999	E
+17	demande	demander	VRB	VRB	_	14	dep	_	_	47.630001	47.820000	E
+18	en	en	PRE	PRE	_	17	dep	_	_	48.259998	48.310001	E
+19	validation	validation	NOM	NOM	_	18	dep	_	_	48.320000	48.810001	E
+20	d'	de	PRE	PRE	_	19	dep	_	_	48.820000	48.849998	E
+21	acquis	acquis	NOM	NOM	_	20	dep	_	_	48.860001	49.020000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-18
+# text = ah en validation d'acquis d'accord donc vous me- mentionnez bien
+1	ah	ah	INT	INT	_	10	dm	_	_	49.090000	49.119999	A
+2	en	en	PRE	PRE	_	10	periph	_	_	49.130001	49.150002	A
+3	validation	validation	NOM	NOM	_	2	dep	_	_	49.160000	49.509998	A
+4	d'	de	PRE	PRE	_	3	dep	_	_	49.520000	49.540001	A
+5	acquis	acquis	NOM	NOM	_	4	dep	_	_	49.549999	49.639999	A
+6	d'	de	PRE	PRE	_	4	para	_	_	49.759998	49.779999	A
+7	accord	accord	NOM	NOM	_	6	dep	_	_	49.790001	49.900002	A
+8	donc	donc	ADV	ADV	_	10	periph	_	_	50.040001	50.220001	A
+9	vous	vous	CLS	CLS	_	10	subj	_	_	50.230000	50.320000	A
+10	me-	me-	VRB	VRB	_	0	root	_	_	50.330002	50.860001	A
+11	mentionnez	mentionner	VRB	VRB	_	10	para	_	_	50.869999	51.299999	A
+12	bien	bien	ADV	ADV	_	11	dep	_	_	51.310001	51.540001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-19
+# text = L3 euh donc ensuite euh bah c'est L L C E L E
+1	L3	L3	INT	INT	_	8	dm	_	_	51.549999	52.099998	A
+2	euh	euh	INT	INT	_	1	dm	_	_	53.950001	54.419998	A
+3	donc	donc	ADV	ADV	_	2	dm	_	_	54.430000	54.700001	A
+4	ensuite	ensuite	ADV	ADV	_	8	periph	_	_	54.709999	55.860001	A
+5	euh	euh	INT	INT	_	4	dm	_	_	55.869999	55.930000	A
+6	bah	bah	INT	INT	_	5	dm	_	_	55.939999	56.139999	A
+7	c'	ce	CLS	CLS	_	8	subj	_	_	56.150002	56.509998	A
+8	est	être	VRB	VRB	_	0	root	_	_	56.520000	56.939999	A
+9	L	L	NOM	NOM	_	8	dep	_	_	56.950001	56.970001	A
+10	L	L	NOM	NOM	_	9	dep	_	_	56.980000	57.080002	A
+11	C	C	NOM	NOM	_	10	dep	_	_	57.090000	57.410000	A
+12	E	E	PRE	PRE	_	11	dep	_	_	57.509998	57.540001	A
+13	L	L	NOM	NOM	_	12	dep	_	_	57.660000	57.790001	A
+14	E	E	NOM	NOM	_	13	dep	_	_	57.799999	57.930000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-20
+# text = A euh
+1	A	A	DET	DET	_	0	root	_	_	57.939999	57.980000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	58.049999	58.070000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-21
+# text = ça j'en ai aucune idée
+1	ça	ça	PRO	PRO	_	4	periph	_	_	58.080002	58.340000	E
+2	j'	je	CLS	CLS	_	4	subj	_	_	58.540001	58.560001	E
+3	en	en	CLI	CLI	_	4	dep	_	_	58.570000	58.590000	E
+4	ai	avoir	VRB	VRB	_	0	root	_	_	59.150002	59.169998	E
+5	aucune	aucun	DET	DET	_	6	spe	_	_	59.230000	60.090000	E
+6	idée	idée	NOM	NOM	_	4	dep	_	_	60.290001	60.970001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-22
+# text = c'est une licence d'italien tout simplement
+1	c'	ce	CLS	CLS	_	2	subj	_	_	61.110001	61.150002	E
+2	est	être	VRB	VRB	_	0	root	_	_	61.330002	61.349998	E
+3	une	un	DET	DET	_	4	spe	_	_	61.410000	61.529999	E
+4	licence	licence	NOM	NOM	_	2	dep	_	_	61.799999	61.980000	E
+5	d'	de	PRE	PRE	_	4	dep	_	_	62.290001	62.310001	E
+6	italien	italien	NOM	NOM	_	5	dep	_	_	62.540001	63.230000	E
+7	tout	tout	ADJ	ADJ	_	8	dep	_	_	63.240002	63.619999	E
+8	simplement	simplement	ADV	ADV	_	4	dep	_	_	63.630001	63.980000	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-23
+# text = bah c'est L L C E alors lettre et civilisation étrangère
+1	bah	bah	INT	INT	_	3	dm	_	_	64.989998	65.150002	A
+2	c'	ce	CLS	CLS	_	3	subj	_	_	65.300003	65.360001	A
+3	est	être	VRB	VRB	_	0	root	_	_	65.370003	65.410004	A
+4	L	L	NOM	NOM	_	3	dep	_	_	65.419998	65.480003	A
+5	L	L	NOM	NOM	_	4	dep	_	_	65.489998	65.660004	A
+6	C	C	NOM	NOM	_	5	dep	_	_	65.669998	65.839996	A
+7	E	E	PRE	PRE	_	5	dep	_	_	65.849998	65.889999	A
+8	alors	alors	ADV	ADV	_	9	dep	_	_	65.900002	66.129997	A
+9	lettre	lettre	NOM	NOM	_	3	dep	_	_	66.139999	66.339996	A
+10	et	et	COO	COO	_	11	mark	_	_	66.349998	66.370003	A
+11	civilisation	civilisation	NOM	NOM	_	9	para	_	_	66.379997	66.769997	A
+12	étrangère	étranger	ADJ	ADJ	_	11	dep	_	_	66.779999	66.980003	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-24
+# text = ça doit être ça L C E
+1	ça	ça	PRO	PRO	_	2	subj	_	_	67.040001	67.099998	E
+2	doit	devoir	VRB	VRB	_	0	root	_	_	67.110001	67.379997	E
+3	être	être	VNF	VNF	_	2	dep	_	_	67.620003	67.769997	E
+4	ça	ça	PRO	PRO	_	3	dep	_	_	67.779999	67.839996	E
+5	L	L	NOM	NOM	_	3	dep	_	_	67.879997	67.970001	E
+6	C	C	NOM	NOM	_	5	dep	_	_	68.750000	68.940002	E
+7	E	E	PRE	PRE	_	6	dep	_	_	68.949997	68.980003	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-25
+# text = voilà hein parce que L E A c'est euh lettres étrangères appliquées
+1	voilà	voilà	INT	INT	_	3	dm	_	_	69.150002	70.000000	A
+2	hein	hein	INT	INT	_	1	dm	_	_	70.470001	70.629997	A
+3	parce que	parce que	CSU	CSU	_	0	root	_	_	70.639999	71.040001	A
+4	L	L	NOM	NOM	_	8	periph	_	_	71.050003	71.190002	A
+5	E	E	NOM	NOM	_	4	dep	_	_	71.199997	71.330002	A
+6	A	A	DET	DET	_	8	periph	_	_	71.339996	71.680000	A
+7	c'	ce	CLS	CLS	_	8	subj	_	_	71.690002	71.959999	A
+8	est	être	VRB	VRB	_	3	dep	_	_	71.970001	72.029999	A
+9	euh	euh	INT	INT	_	8	dm	_	_	72.040001	72.059998	A
+10	lettres	lettre	NOM	NOM	_	8	dep	_	_	72.070000	72.480003	A
+11	étrangères	étranger	ADJ	ADJ	_	10	dep	_	_	72.489998	72.739998	A
+12	appliquées	appliqué	ADJ	ADJ	_	11	para	_	_	72.750000	72.980003	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-26
+# text = c'est avec deux deux deux langues hein anglais allemand
+1	c'	ce	CLS	CLS	_	2	subj	_	_	73.320000	73.440002	A
+2	est	être	VRB	VRB	_	0	root	_	_	73.449997	74.160004	A
+3	avec	avec	PRE	PRE	_	2	dep	_	_	74.470001	74.709999	A
+4	deux	deux	NUM	NUM	_	7	dep	_	_	74.760002	75.000000	A
+5	deux	deux	NUM	NUM	_	4	para	_	_	75.239998	75.379997	A
+6	deux	deux	NUM	NUM	_	7	spe	_	_	75.419998	75.550003	A
+7	langues	langue	NOM	NOM	_	3	dep	_	_	75.559998	75.879997	A
+8	hein	hein	INT	INT	_	7	dm	_	_	75.889999	75.980003	A
+9	anglais	anglais	NOM	NOM	_	7	para	_	_	76.279999	76.529999	A
+10	allemand	allemand	ADJ	ADJ	_	9	dep	_	_	76.540001	76.690002	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-27
+# text = par exemple
+1	par	par	PRE	PRE	_	0	root	_	_	76.970001	77.050003	A
+2	exemple	exemple	NOM	NOM	_	1	dep	_	_	77.059998	77.360001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-28
+# text = d'accord d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	76.330002	76.389999	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	76.500000	76.690002	E
+3	d'	de	PRE	PRE	_	1	para	_	_	78.040001	78.089996	E
+4	accord	accord	NOM	NOM	_	3	dep	_	_	78.099998	78.209999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-29
+# text = donc voilà donc la L L C E bah c'est vous mettez italien L L C E italien
+1	donc	donc	ADV	ADV	_	5	periph	_	_	79.269997	79.699997	A
+2	voilà	voilà	INT	INT	_	1	dm	_	_	79.709999	80.169998	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	80.180000	80.290001	A
+4	la	le	DET	DET	_	5	spe	_	_	80.300003	80.349998	A
+5	L	L	NOM	NOM	_	11	periph	_	_	80.360001	80.440002	A
+6	L	L	NOM	NOM	_	5	dep	_	_	80.449997	80.580002	A
+7	C	C	NOM	NOM	_	6	dep	_	_	80.589996	80.870003	A
+8	E	E	PRE	PRE	_	6	dep	_	_	80.879997	81.010002	A
+9	bah	bah	INT	INT	_	8	dm	_	_	81.089996	81.459999	A
+10	c'	ce	CLS	CLS	_	11	subj	_	_	81.470001	81.639999	A
+11	est	être	VRB	VRB	_	0	root	_	_	81.650002	81.769997	A
+12	vous	vous	CLS	CLS	_	13	subj	_	_	81.779999	81.870003	A
+13	mettez	mettre	VRB	VRB	_	11	para	_	_	81.879997	82.129997	A
+14	italien	italien	ADJ	ADJ	_	13	dep	_	_	82.139999	82.769997	A
+15	L	L	NOM	NOM	_	13	dep	_	_	83.360001	83.449997	A
+16	L	L	NOM	NOM	_	15	dep	_	_	83.459999	83.559998	A
+17	C	C	NOM	NOM	_	16	dep	_	_	83.570000	83.769997	A
+18	E	E	PRE	PRE	_	17	dep	_	_	83.779999	83.820000	A
+19	italien	italien	NOM	NOM	_	18	dep	_	_	83.830002	84.320000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-30
+# text = et euh
+1	et	et	COO	COO	_	0	root	_	_	79.349998	79.510002	E
+2	euh	euh	INT	INT	_	1	dm	_	_	79.519997	79.739998	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-31
+# text = par contre la spécialité et dans le parcours
+1	par	par	PRE	PRE	_	0	root	_	_	79.809998	79.900002	E
+2	contre	contre	PRE	PRE	_	1	para	_	_	79.910004	80.139999	E
+3	la	le	DET	DET	_	4	spe	_	_	80.150002	80.199997	E
+4	spécialité	spécialité	NOM	NOM	_	2	dep	_	_	80.209999	81.010002	E
+5	et	et	COO	COO	_	6	mark	_	_	86.559998	86.650002	E
+6	dans	dans	PRE	PRE	_	1	para	_	_	86.750000	86.949997	E
+7	le	le	DET	DET	_	8	spe	_	_	87.489998	87.510002	E
+8	parcours	parcours	NOM	NOM	_	6	dep	_	_	87.709999	87.980003	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-32
+# text = euh parcours bah
+1	euh	euh	INT	INT	_	2	dm	_	_	88.040001	88.199997	A
+2	parcours	parcours	NOM	NOM	_	0	root	_	_	88.209999	88.599998	A
+3	bah	bah	INT	INT	_	2	dm	_	_	88.610001	88.699997	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-33
+# text = là il y a pas de parcours hein
+1	là	là	ADV	ADV	_	4	periph	_	_	89.089996	89.139999	A
+2	il	il	CLS	CLS	_	4	subj	_	_	89.220001	89.269997	A
+3	y	y	CLI	CLI	_	4	dep	_	_	89.279999	89.300003	A
+4	a	avoir	VRB	VRB	_	0	root	_	_	89.309998	89.330002	A
+5	pas	pas	ADN	ADN	_	4	dep	_	_	89.379997	89.440002	A
+6	de	de	PRE	PRE	_	4	dep	_	_	89.449997	89.919998	A
+7	parcours	parcours	NOM	NOM	_	6	dep	_	_	89.930000	90.669998	A
+8	hein	hein	INT	INT	_	7	dm	_	_	91.089996	91.160004	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-34
+# text = il y a pas de parcours spécifique
+1	il	il	CLS	CLS	_	3	subj	_	_	91.760002	91.809998	A
+2	y	y	CLI	CLI	_	3	dep	_	_	91.820000	91.839996	A
+3	a	avoir	VRB	VRB	_	0	root	_	_	91.849998	91.870003	A
+4	pas	pas	ADN	ADN	_	3	dep	_	_	91.879997	91.930000	A
+5	de	de	PRE	PRE	_	3	dep	_	_	91.940002	91.959999	A
+6	parcours	parcours	NOM	NOM	_	5	dep	_	_	91.970001	92.169998	A
+7	spécifique	spécifique	ADJ	ADJ	_	6	dep	_	_	92.239998	92.739998	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-35
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	92.750000	92.870003	A
+2	euh	euh	INT	INT	_	1	dm	_	_	92.930000	92.959999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-36
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	91.760002	91.800003	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	91.809998	92.139999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-37
+# text = donc voilà vous avez bien joint tous vos toutes les pièces
+1	donc	donc	ADV	ADV	_	4	periph	_	_	94.879997	95.290001	A
+2	voilà	voilà	INT	INT	_	1	dm	_	_	95.300003	95.980003	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	96.059998	96.370003	A
+4	avez	avoir	VRB	VRB	_	0	root	_	_	96.379997	96.550003	A
+5	bien	bien	ADV	ADV	_	4	dep	_	_	96.559998	96.730003	A
+6	joint	joint	NOM	NOM	_	4	dep	_	_	96.739998	97.309998	A
+7	tous	tout	ADJ	ADJ	_	11	dep	_	_	97.360001	97.430000	A
+8	vos	son	DET	DET	_	11	spe	_	_	97.489998	97.610001	A
+9	toutes	tout	ADJ	ADJ	_	11	dep	_	_	97.620003	99.000000	A
+10	les	le	DET	DET	_	11	spe	_	_	100.059998	100.449997	A
+11	pièces	pièce	NOM	NOM	_	6	para	_	_	100.559998	100.980003	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-38
+# text = parce que si vous demandez une validation d'acquis il faut joindre euh impérativement tous les relevés de notes
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	101.239998	101.570000	A
+2	si	si	CSU	CSU	_	10	periph	_	_	101.580002	101.669998	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	101.680000	101.769997	A
+4	demandez	demander	VRB	VRB	_	2	dep	_	_	101.779999	102.050003	A
+5	une	un	DET	DET	_	6	spe	_	_	102.059998	102.120003	A
+6	validation	validation	NOM	NOM	_	4	dep	_	_	102.129997	102.680000	A
+7	d'	de	PRE	PRE	_	6	dep	_	_	102.690002	102.709999	A
+8	acquis	acquis	NOM	NOM	_	7	dep	_	_	102.720001	102.949997	A
+9	il	il	CLS	CLS	_	10	subj	_	_	103.059998	103.110001	A
+10	faut	faillir	VRB	VRB	_	1	dep	_	_	103.120003	103.169998	A
+11	joindre	joindre	VNF	VNF	_	10	dep	_	_	103.180000	103.519997	A
+12	euh	euh	INT	INT	_	11	dm	_	_	103.529999	103.550003	A
+13	impérativement	impérativement	ADV	ADV	_	14	dep	_	_	103.559998	105.330002	A
+14	tous	tout	ADJ	ADJ	_	16	dep	_	_	105.370003	105.519997	A
+15	les	le	DET	DET	_	16	spe	_	_	105.809998	105.870003	A
+16	relevés	relevé	NOM	NOM	_	10	dep	_	_	106.269997	106.589996	A
+17	de	de	PRE	PRE	_	16	dep	_	_	106.660004	106.720001	A
+18	notes	note	NOM	NOM	_	17	dep	_	_	107.129997	107.470001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-39
+# text = ah oui vous étiez vous étiez déjà en L2 d'italien
+1	ah	ah	INT	INT	_	4	dm	_	_	112.320000	112.440002	A
+2	oui	oui	INT	INT	_	1	dm	_	_	112.449997	112.519997	A
+3	vous	vous	CLS	CLS	_	4	subj	_	_	112.529999	112.680000	A
+4	étiez	être	VRB	VRB	_	0	root	_	_	112.690002	113.470001	A
+5	vous	vous	CLS	CLS	_	6	subj	_	_	113.849998	114.000000	A
+6	étiez	être	VRB	VRB	_	4	para	_	_	114.010002	114.190002	A
+7	déjà	déjà	ADV	ADV	_	6	dep	_	_	114.199997	114.449997	A
+8	en	en	PRE	PRE	_	6	dep	_	_	114.459999	114.599998	A
+9	L2	L2	NOM	NOM	_	8	dep	_	_	114.610001	114.849998	A
+10	d'	de	PRE	PRE	_	9	dep	_	_	114.860001	114.919998	A
+11	italien	italien	NOM	NOM	_	10	dep	_	_	114.930000	115.599998	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-40
+# text = oui non non j'étais en classe préparatoire en fait
+1	oui	oui	INT	INT	_	5	dm	_	_	117.059998	117.750000	E
+2	non	non	INT	INT	_	1	dm	_	_	117.940002	117.989998	E
+3	non	non	INT	INT	_	2	para	_	_	118.000000	118.239998	E
+4	j'	je	CLS	CLS	_	5	subj	_	_	118.250000	118.360001	E
+5	étais	être	VRB	VRB	_	0	root	_	_	118.370003	118.489998	E
+6	en	en	PRE	PRE	_	5	dep	_	_	118.500000	118.610001	E
+7	classe	classe	NOM	NOM	_	6	dep	_	_	118.620003	118.800003	E
+8	préparatoire	préparatoire	ADJ	ADJ	_	7	dep	_	_	118.809998	119.260002	E
+9	en	en	PRE	PRE	_	6	para	_	_	119.269997	119.300003	E
+10	fait	fait	NOM	NOM	_	9	dep	_	_	119.309998	119.459999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-41
+# text = et c'est là que j'ai fait mes mes deux ans
+1	et	et	COO	COO	_	3	mark	_	_	119.550003	119.570000	E
+2	c'	ce	CLS	CLS	_	3	subj	_	_	119.580002	119.620003	E
+3	est	être	VRB	VRB	_	0	root	_	_	119.629997	119.669998	E
+4	là	là	ADV	ADV	_	3	dep	_	_	119.680000	119.779999	E
+5	que	que	CSU	CSU	_	3	dep	_	_	119.790001	119.809998	E
+6	j'	je	CLS	CLS	_	8	subj	_	_	119.820000	119.900002	E
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	119.910004	119.980003	E
+8	fait	faire	VPP	VPP	_	5	dep	_	_	119.989998	120.120003	E
+9	mes	son	DET	DET	_	12	spe	_	_	120.129997	120.570000	E
+10	mes	son	DET	DET	_	9	para	_	_	120.580002	120.900002	E
+11	deux	deux	NUM	NUM	_	12	dep	_	_	120.910004	121.010002	E
+12	ans	an	NOM	NOM	_	8	dep	_	_	121.019997	121.160004	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-42
+# text = à Nancy
+1	à	à	PRE	PRE	_	0	root	_	_	117.120003	117.269997	A
+2	Nancy	Nancy	NOM	NOM	_	1	dep	_	_	117.279999	117.529999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-43
+# text = deux euh d'italien
+1	deux	deux	NUM	NUM	_	0	root	_	_	117.540001	117.750000	E
+2	euh	euh	INT	INT	_	1	dm	_	_	121.510002	121.529999	E
+3	d'	de	PRE	PRE	_	1	dep	_	_	121.540001	121.570000	E
+4	italien	italien	NOM	NOM	_	3	dep	_	_	121.660004	121.860001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-44
+# text = à la fois lettres modernes et italien
+1	à	à	PRE	PRE	_	0	root	_	_	122.839996	123.000000	A
+2	la	le	DET	DET	_	3	spe	_	_	123.010002	123.099998	A
+3	fois	foi	NOM	NOM	_	1	dep	_	_	123.110001	123.660004	A
+4	lettres	lettre	NOM	NOM	_	3	dep	_	_	123.669998	123.930000	A
+5	modernes	moderne	ADJ	ADJ	_	4	dep	_	_	123.940002	124.250000	A
+6	et	et	COO	COO	_	7	mark	_	_	124.260002	124.279999	A
+7	italien	italien	ADJ	ADJ	_	5	para	_	_	124.290001	124.610001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-45
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	124.690002	124.870003	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-46
+# text = donc il faut joindre euh
+1	donc	donc	ADV	ADV	_	3	periph	_	_	125.680000	125.820000	A
+2	il	il	CLS	CLS	_	3	subj	_	_	125.830002	125.879997	A
+3	faut	faillir	VRB	VRB	_	0	root	_	_	125.889999	126.059998	A
+4	joindre	joindre	VNF	VNF	_	3	dep	_	_	126.070000	126.709999	A
+5	euh	euh	INT	INT	_	4	dm	_	_	126.720001	126.739998	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-47
+# text = il faudrait repasser
+1	il	il	CLS	CLS	_	2	subj	_	_	126.750000	126.800003	A
+2	faudrait	falloir	VRB	VRB	_	0	root	_	_	126.809998	127.029999	A
+3	repasser	repasser	VNF	VNF	_	2	dep	_	_	127.040001	127.760002	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-48
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	127.879997	128.330002	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-49
+# text = avec le dossier complet
+1	avec	avec	PRE	PRE	_	0	root	_	_	128.339996	128.559998	A
+2	le	le	DET	DET	_	3	spe	_	_	128.570007	128.589996	A
+3	dossier	dossier	NOM	NOM	_	1	dep	_	_	128.600006	128.770004	A
+4	complet	complet	ADJ	ADJ	_	3	dep	_	_	128.779999	128.960007	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-50
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	129.039993	129.059998	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	129.070007	129.309998	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-51
+# text = et joindre bien joindre tous vos relevés de notes pour que la commission puisse étudier euh
+1	et	et	COO	COO	_	2	mark	_	_	130.539993	130.589996	A
+2	joindre	joindre	VNF	VNF	_	0	root	_	_	130.600006	131.169998	A
+3	bien	bien	ADV	ADV	_	2	dep	_	_	131.179993	131.369995	A
+4	joindre	joindre	VNF	VNF	_	2	dep	_	_	131.380005	131.589996	A
+5	tous	tout	ADJ	ADJ	_	7	dep	_	_	131.600006	131.649994	A
+6	vos	son	DET	DET	_	7	spe	_	_	131.660004	131.710007	A
+7	relevés	relevé	NOM	NOM	_	4	dep	_	_	131.720001	131.830002	A
+8	de	de	PRE	PRE	_	7	dep	_	_	131.869995	131.889999	A
+9	notes	note	NOM	NOM	_	8	dep	_	_	131.899994	131.979996	A
+10	pour	pour	PRE	PRE	_	4	dep	_	_	132.039993	132.169998	A
+11	que	que	CSU	CSU	_	10	dep	_	_	132.229996	132.330002	A
+12	la	le	DET	DET	_	13	spe	_	_	132.339996	132.559998	A
+13	commission	commission	NOM	NOM	_	14	subj	_	_	133.160004	133.550003	A
+14	puisse	pouvoir	VRB	VRB	_	11	dep	_	_	133.559998	133.729996	A
+15	étudier	étudier	VNF	VNF	_	14	dep	_	_	133.740005	134.309998	A
+16	euh	euh	INT	INT	_	15	dm	_	_	134.320007	134.509995	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-52
+# text = si elle vous autorise
+1	si	si	CSU	CSU	_	0	root	_	_	134.860001	134.949997	A
+2	elle	il	CLS	CLS	_	4	subj	_	_	135.690002	135.880005	A
+3	vous	vous	CLI	CLI	_	4	dep	_	_	135.889999	136.080002	A
+4	autorise	autoriser	VRB	VRB	_	1	dep	_	_	136.089996	136.529999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-53
+# text = d'accord euh
+1	d'	de	PRE	PRE	_	0	root	_	_	134.839996	134.910004	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	135.830002	136.429993	E
+3	euh	euh	INT	INT	_	2	dm	_	_	136.589996	136.610001	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-54
+# text = à avoir des U E de de validées
+1	à	à	PRE	PRE	_	0	root	_	_	136.619995	137.050003	E
+2	avoir	avoir	VNF	VNF	_	1	dep	_	_	137.320007	137.660004	E
+3	des	de	PRE	PRE	_	2	dep	_	_	137.669998	137.899994	E
+4	U	U	NOM	NOM	_	3	dep	_	_	137.910004	138.029999	E
+5	E	E	NOM	NOM	_	4	dep	_	_	138.039993	138.139999	E
+6	de	de	PRE	PRE	_	5	dep	_	_	138.190002	138.660004	E
+7	de	de	PRE	PRE	_	6	para	_	_	139.300003	139.399994	E
+8	validées	valider	ADJ	ADJ	_	7	dep	_	_	139.410004	139.979996	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-55
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	140.039993	140.059998	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-56
+# text = pour l'entrée en L3
+1	pour	pour	PRE	PRE	_	0	root	_	_	140.070007	140.339996	A
+2	l'	le	DET	DET	_	3	spe	_	_	140.440002	140.470001	A
+3	entrée	entrée	NOM	NOM	_	1	dep	_	_	140.520004	140.820007	A
+4	en	en	PRE	PRE	_	3	dep	_	_	140.830002	140.919998	A
+5	L3	L3	NOM	NOM	_	4	dep	_	_	140.970001	141.330002	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-57
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	141.479996	141.500000	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	141.509995	141.619995	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-58
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	142.839996	143.339996	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-59
+# text = bah merci beaucoup
+1	bah	bah	INT	INT	_	2	dm	_	_	143.830002	143.899994	E
+2	merci	merci	NOM	NOM	_	0	root	_	_	144.750000	145.440002	E
+3	beaucoup	beaucoup	ADV	ADV	_	2	dep	_	_	145.449997	145.639999	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-60
+# text = voilà et bien la copie du du relevé de de notes pas du relevé de notes de oui du relevé de notes du bac où vous avez le numéro I N E ça c'est très important pour qu'on puisse effectuer votre euh votre numéro euh pour qu'on puisse vous attribuer un numéro
+1	voilà	voilà	INT	INT	_	35	dm	_	_	149.490005	150.009995	A
+2	et	et	COO	COO	_	35	mark	_	_	150.020004	150.509995	A
+3	bien	bien	ADV	ADV	_	35	periph	_	_	150.729996	150.960007	A
+4	la	le	DET	DET	_	5	spe	_	_	150.970001	151.080002	A
+5	copie	copie	NOM	NOM	_	35	periph	_	_	151.130005	151.460007	A
+6	du	de+le	PRE	PRE	_	5	dep	_	_	151.520004	151.910004	A
+7	du	de+le	PRE	PRE	_	6	para	_	_	151.919998	152.089996	A
+8	relevé	relevé	NOM	NOM	_	7	dep	_	_	152.100006	152.460007	A
+9	de	de	PRE	PRE	_	8	dep	_	_	152.470001	152.550003	A
+10	de	de	PRE	PRE	_	9	para	_	_	152.559998	152.800003	A
+11	notes	note	NOM	NOM	_	10	dep	_	_	152.809998	152.979996	A
+12	pas	pas	ADN	ADN	_	13	dep	_	_	153.649994	153.990005	A
+13	du	de+le	PRE	PRE	_	5	dep	_	_	154.000000	154.119995	A
+14	relevé	relevé	NOM	NOM	_	13	dep	_	_	154.130005	154.369995	A
+15	de	de	PRE	PRE	_	14	dep	_	_	154.380005	154.399994	A
+16	notes	note	NOM	NOM	_	15	dep	_	_	154.410004	154.580002	A
+17	de	de	PRE	PRE	_	16	dep	_	_	154.589996	154.610001	A
+18	oui	oui	INT	INT	_	17	dm	_	_	154.619995	154.669998	A
+19	du	de+le	PRE	PRE	_	17	para	_	_	154.750000	154.820007	A
+20	relevé	relevé	NOM	NOM	_	19	dep	_	_	154.830002	155.520004	A
+21	de	de	PRE	PRE	_	20	dep	_	_	155.529999	155.600006	A
+22	notes	note	NOM	NOM	_	21	dep	_	_	155.610001	155.720001	A
+23	du	de+le	PRE	PRE	_	22	dep	_	_	155.729996	155.779999	A
+24	bac	bac	NOM	NOM	_	23	dep	_	_	155.869995	155.979996	A
+25	où	où	PRQ	PRQ	_	27	dep	_	_	156.300003	156.360001	A
+26	vous	vous	CLS	CLS	_	27	subj	_	_	157.000000	157.330002	A
+27	avez	avoir	VRB	VRB	_	24	dep	_	_	157.339996	157.559998	A
+28	le	le	DET	DET	_	29	spe	_	_	157.570007	157.600006	A
+29	numéro	numéro	NOM	NOM	_	27	dep	_	_	157.610001	157.779999	A
+30	I	I	NOM	NOM	_	29	dep	_	_	157.789993	157.809998	A
+31	N	N	NOM	NOM	_	30	dep	_	_	157.820007	157.869995	A
+32	E	E	PRE	PRE	_	29	dep	_	_	157.960007	157.979996	A
+33	ça	ça	PRO	PRO	_	32	dep	_	_	158.570007	158.720001	A
+34	c'	ce	CLS	CLS	_	35	subj	_	_	158.729996	158.889999	A
+35	est	être	VRB	VRB	_	0	root	_	_	158.899994	159.089996	A
+36	très	très	ADV	ADV	_	37	dep	_	_	159.440002	159.589996	A
+37	important	important	ADJ	ADJ	_	35	dep	_	_	159.600006	160.039993	A
+38	pour	pour	PRE	PRE	_	35	dep	_	_	160.160004	160.240005	A
+39	qu'	que	CSU	CSU	_	38	dep	_	_	160.250000	160.270004	A
+40	on	on	CLS	CLS	_	41	subj	_	_	160.279999	160.300003	A
+41	puisse	pouvoir	VRB	VRB	_	39	dep	_	_	160.360001	160.589996	A
+42	effectuer	effectuer	VNF	VNF	_	41	dep	_	_	160.600006	161.130005	A
+43	votre	son	DET	DET	_	46	spe	_	_	161.139999	161.720001	A
+44	euh	euh	INT	INT	_	43	dm	_	_	161.729996	161.750000	A
+45	votre	son	DET	DET	_	43	para	_	_	162.149994	162.490005	A
+46	numéro	numéro	NOM	NOM	_	42	dep	_	_	162.500000	162.880005	A
+47	euh	euh	INT	INT	_	46	dm	_	_	162.940002	162.970001	A
+48	pour	pour	PRE	PRE	_	42	dep	_	_	163.020004	163.449997	A
+49	qu'	que	CSU	CSU	_	48	dep	_	_	163.529999	163.550003	A
+50	on	on	CLS	CLS	_	51	subj	_	_	163.559998	164.029999	A
+51	puisse	pouvoir	VRB	VRB	_	49	dep	_	_	164.440002	164.610001	A
+52	vous	vous	CLI	CLI	_	53	dep	_	_	164.729996	165.110001	A
+53	attribuer	attribuer	VNF	VNF	_	51	dep	_	_	165.119995	165.429993	A
+54	un	un	DET	DET	_	55	spe	_	_	165.440002	165.479996	A
+55	numéro	numéro	NOM	NOM	_	53	dep	_	_	165.490005	165.759995	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-61
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	158.039993	158.089996	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	158.419998	158.770004	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-62
+# text = d'accord il y a pas de problème parce que j'avais déjà ma L1
+1	d'	de	PRE	PRE	_	5	periph	_	_	166.080002	166.130005	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	166.139999	166.250000	E
+3	il	il	CLS	CLS	_	5	subj	_	_	166.339996	166.399994	E
+4	y	y	CLI	CLI	_	5	dep	_	_	166.410004	166.440002	E
+5	a	avoir	VRB	VRB	_	0	root	_	_	166.529999	166.690002	E
+6	pas	pas	ADN	ADN	_	5	dep	_	_	166.699997	166.809998	E
+7	de	de	PRE	PRE	_	5	dep	_	_	166.869995	166.889999	E
+8	problème	problème	NOM	NOM	_	7	dep	_	_	166.899994	167.250000	E
+9	parce que	parce que	CSU	CSU	_	5	dep	_	_	167.309998	167.449997	E
+10	j'	je	CLS	CLS	_	11	subj	_	_	167.460007	167.479996	E
+11	avais	avoir	VRB	VRB	_	9	dep	_	_	167.490005	167.639999	E
+12	déjà	déjà	ADV	ADV	_	11	dep	_	_	167.649994	167.889999	E
+13	ma	son	DET	DET	_	14	spe	_	_	167.899994	168.050003	E
+14	L1	L1	NOM	NOM	_	11	dep	_	_	168.059998	168.490005	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-63
+# text = donc peut-être qu'ils ont déjà euh j'avais déjà ma licence d'italien un donc
+1	donc	donc	ADV	ADV	_	9	periph	_	_	168.500000	168.580002	E
+2	peut-être	peut-être	ADV	ADV	_	9	periph	_	_	168.589996	168.940002	E
+3	qu'	que	CSU	CSU	_	2	dep	_	_	168.949997	168.970001	E
+4	ils	il	CLS	CLS	_	5	subj	_	_	168.979996	169.070007	E
+5	ont	avoir	VRB	VRB	_	3	dep	_	_	169.119995	169.139999	E
+6	déjà	déjà	ADV	ADV	_	5	dep	_	_	169.149994	169.539993	E
+7	euh	euh	INT	INT	_	6	dm	_	_	169.789993	169.809998	E
+8	j'	je	CLS	CLS	_	9	subj	_	_	170.979996	171.039993	E
+9	avais	avoir	VRB	VRB	_	0	root	_	_	171.539993	171.679993	E
+10	déjà	déjà	ADV	ADV	_	9	dep	_	_	171.690002	171.919998	E
+11	ma	son	DET	DET	_	12	spe	_	_	171.929993	172.020004	E
+12	licence	licence	NOM	NOM	_	9	dep	_	_	172.029999	172.410004	E
+13	d'	de	PRE	PRE	_	12	dep	_	_	172.419998	172.440002	E
+14	italien	italien	NOM	NOM	_	13	dep	_	_	172.449997	172.770004	E
+15	un	un	DET	DET	_	12	dep	_	_	172.830002	172.940002	E
+16	donc	donc	ADV	ADV	_	15	dm	_	_	173.199997	173.330002	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-64
+# text = je sais pas si
+1	je	je	CLS	CLS	_	2	subj	_	_	173.570007	173.589996	E
+2	sais	savoir	VRB	VRB	_	0	root	_	_	173.600006	173.750000	E
+3	pas	pas	ADN	ADN	_	2	dep	_	_	173.809998	173.919998	E
+4	si	si	CSU	CSU	_	2	dep	_	_	173.929993	174.119995	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-65
+# text = oui à Nancy
+1	oui	oui	INT	INT	_	2	dm	_	_	175.059998	175.229996	E
+2	à	à	PRE	PRE	_	0	root	_	_	175.350006	175.389999	E
+3	Nancy	Nancy	NOM	NOM	_	2	dep	_	_	175.399994	175.710007	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-66
+# text = deux
+1	deux	deux	NUM	NUM	_	0	root	_	_	175.720001	175.839996	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-67
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	174.270004	174.399994	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-68
+# text = à Nancy deux
+1	à	à	PRE	PRE	_	0	root	_	_	174.410004	174.470001	A
+2	Nancy	Nancy	NOM	NOM	_	1	dep	_	_	174.479996	174.800003	A
+3	deux	deux	NUM	NUM	_	2	dep	_	_	174.809998	174.979996	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-69
+# text = euh oui donc vous avez déjà
+1	euh	euh	INT	INT	_	5	dm	_	_	176.039993	176.059998	A
+2	oui	oui	INT	INT	_	1	dm	_	_	176.070007	176.130005	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	176.139999	176.220001	A
+4	vous	vous	CLS	CLS	_	5	subj	_	_	176.229996	176.289993	A
+5	avez	avoir	VRB	VRB	_	0	root	_	_	176.460007	177.550003	A
+6	déjà	déjà	ADV	ADV	_	5	dep	_	_	177.589996	178.520004	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-70
+# text = euh oui donc ce serait éventuellement une réinscription
+1	euh	euh	INT	INT	_	5	dm	_	_	178.789993	178.820007	A
+2	oui	oui	INT	INT	_	1	dm	_	_	178.949997	179.119995	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	179.130005	179.289993	A
+4	ce	ce	CLS	CLS	_	5	subj	_	_	179.300003	179.429993	A
+5	serait	être	VRB	VRB	_	0	root	_	_	179.440002	179.649994	A
+6	éventuellement	éventuellement	ADV	ADV	_	5	dep	_	_	179.660004	180.179993	A
+7	une	un	DET	DET	_	8	spe	_	_	180.190002	180.250000	A
+8	réinscription	réinscription	NOM	NOM	_	5	dep	_	_	180.259995	180.779999	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-71
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	181.059998	181.320007	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-72
+# text = L1
+1	L1	L1	DET	DET	_	0	root	_	_	181.330002	181.710007	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-73
+# text = en L1 à Nancy deux c'était quand
+1	en	en	PRE	PRE	_	7	periph	_	_	181.720001	182.039993	A
+2	L1	L1	NOM	NOM	_	1	dep	_	_	182.050003	182.270004	A
+3	à	à	PRE	PRE	_	7	periph	_	_	182.279999	182.300003	A
+4	Nancy	Nancy	NOM	NOM	_	3	dep	_	_	182.309998	182.649994	A
+5	deux	deux	NUM	NUM	_	4	dep	_	_	182.660004	182.789993	A
+6	c'	ce	CLS	CLS	_	7	subj	_	_	182.800003	182.889999	A
+7	était	être	VRB	VRB	_	0	root	_	_	182.899994	183.080002	A
+8	quand	quand	CSU	CSU	_	7	dep	_	_	183.089996	183.270004	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-74
+# text = deux mille sept deux mille huit
+1	deux	deux	NUM	NUM	_	0	root	_	_	183.389999	183.490005	A
+2	mille	mille	NUM	NUM	_	1	dep	_	_	183.500000	184.039993	A
+3	sept	sept	NUM	NUM	_	2	dep	_	_	184.050003	184.279999	A
+4	deux	deux	NUM	NUM	_	3	dep	_	_	184.289993	184.380005	A
+5	mille	mille	NUM	NUM	_	4	dep	_	_	184.389999	184.500000	A
+6	huit	huit	NUM	NUM	_	5	dep	_	_	184.509995	184.820007	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-75
+# text = d'accord donc ce serait une réinscription alors
+1	d'	de	PRE	PRE	_	5	periph	_	_	185.720001	185.740005	A
+2	accord	accord	NOM	NOM	_	1	dep	_	_	186.199997	186.649994	A
+3	donc	donc	ADV	ADV	_	5	periph	_	_	186.740005	186.880005	A
+4	ce	ce	CLS	CLS	_	5	subj	_	_	186.889999	186.970001	A
+5	serait	être	VRB	VRB	_	0	root	_	_	186.979996	187.160004	A
+6	une	un	DET	DET	_	7	spe	_	_	187.169998	187.220001	A
+7	réinscription	réinscription	NOM	NOM	_	5	dep	_	_	187.229996	187.750000	A
+8	alors	alors	ADV	ADV	_	5	dep	_	_	187.919998	188.039993	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-76
+# text = oui voilà
+1	oui	oui	INT	INT	_	2	dm	_	_	184.880005	184.979996	E
+2	voilà	voilà	INT	INT	_	0	root	_	_	188.100006	188.899994	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-77
+# text = d'accord euh bon
+1	d'	de	PRE	PRE	_	0	root	_	_	189.279999	189.320007	A
+2	accord	accord	NOM	NOM	_	1	dep	_	_	189.330002	189.610001	A
+3	euh	euh	INT	INT	_	2	dm	_	_	189.660004	189.679993	A
+4	bon	bon	INT	INT	_	3	dm	_	_	189.690002	189.750000	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-78
+# text = O K
+1	O	O	NOM	NOM	_	0	root	_	_	189.759995	189.779999	A
+2	K	K	NOM	NOM	_	1	dep	_	_	190.369995	190.970001	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-79
+# text = donc euh surtout le relévé de notes euh de de votre de votre année
+1	donc	donc	ADV	ADV	_	5	dm	_	_	190.979996	191.470001	A
+2	euh	euh	INT	INT	_	1	dm	_	_	191.479996	191.550003	A
+3	surtout	surtout	ADV	ADV	_	5	periph	_	_	191.559998	191.970001	A
+4	le	le	DET	DET	_	5	spe	_	_	191.979996	192.080002	A
+5	relévé	relévé	NOM	NOM	_	0	root	_	_	192.089996	192.360001	A
+6	de	de	PRE	PRE	_	5	dep	_	_	192.369995	192.389999	A
+7	notes	note	NOM	NOM	_	6	dep	_	_	192.460007	192.699997	A
+8	euh	euh	INT	INT	_	7	dm	_	_	192.710007	192.740005	A
+9	de	de	PRE	PRE	_	7	dep	_	_	192.750000	192.949997	A
+10	de	de	PRE	PRE	_	9	para	_	_	193.190002	193.860001	A
+11	votre	son	DET	DET	_	10	disflink	_	_	193.960007	194.220001	A
+12	de	de	PRE	PRE	_	10	para	_	_	194.339996	194.539993	A
+13	votre	son	DET	DET	_	14	spe	_	_	194.630005	194.919998	A
+14	année	année	NOM	NOM	_	12	dep	_	_	194.929993	195.119995	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-80
+# text = en prépa
+1	en	en	PRE	PRE	_	0	root	_	_	195.130005	195.210007	A
+2	prépa	prépa	NOM	NOM	_	1	dep	_	_	195.300003	195.509995	A
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-81
+# text = d'accord bah j'apporterai ça merci
+1	d'	de	PRE	PRE	_	5	periph	_	_	195.770004	195.789993	E
+2	accord	accord	NOM	NOM	_	1	dep	_	_	195.800003	195.979996	E
+3	bah	bah	INT	INT	_	2	dm	_	_	196.190002	196.380005	E
+4	j'	je	CLS	CLS	_	5	subj	_	_	196.389999	196.490005	E
+5	apporterai	apporter	VRB	VRB	_	0	root	_	_	196.500000	196.830002	E
+6	ça	ça	PRO	PRO	_	5	dep	_	_	196.839996	196.910004	E
+7	merci	merci	INT	INT	_	6	dm	_	_	196.979996	197.350006	E
+
+# sent_id = cefc-fleuron-V_Scol_endo_01_P7-82
+# text = au revoir au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	197.570007	198.000000	E
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	198.360001	198.550003	E
+

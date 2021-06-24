@@ -1,0 +1,1445 @@
+# sent_id = cefc-tcof-Pri_mam_06-1
+# text = c'est un débat qui est large hein donc
+1	c'	ce	CLS	CLS	_	2	subj	_	_	0.05	0.07	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	0.08	0.10	L1
+3	un	un	DET	DET	_	4	spe	_	_	0.11	0.13	L1
+4	débat	débat	NOM	NOM	_	2	dep	_	_	0.14	0.25	L1
+5	qui	_	PRQ	PRQ	_	6	subj	_	_	0.41	0.46	L1
+6	est	être	VRB	VRB	_	4	dep	_	_	0.47	0.49	L1
+7	large	large	ADJ	ADJ	_	6	dep	_	_	0.54	0.65	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	0.66	0.68	L1
+9	donc	donc	ADV	ADV	_	8	disflink	_	_	0.69	0.77	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-2
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	1.65	1.74	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-3
+# text = parce que en fait si on les hospitalise à un moment donné ils ressortent
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	1.81	1.95	L2
+2	en#fait	en fait	ADV	ADV	_	3	periph	_	_	1.96	2.22	L2
+3	si	si	CSU	CSU	_	12	periph	_	_	2.23	2.28	L2
+4	on	on	CLS	CLS	_	6	subj	_	_	2.29	2.41	L2
+5	les	le	CLI	CLI	_	6	dep	_	_	2.42	2.52	L2
+6	hospitalise	hospitaliser	VRB	VRB	_	3	dep	_	_	2.53	3.05	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	3.06	3.08	L2
+8	un	un	DET	DET	_	9	spe	_	_	3.09	3.11	L2
+9	moment	moment	NOM	NOM	_	7	dep	_	_	3.12	3.23	L2
+10	donné	donner	VPP	VPP	_	9	dep	_	_	3.24	3.46	L2
+11	ils	il	CLS	CLS	_	12	subj	_	_	3.47	3.73	L2
+12	ressortent	ressortir	VRB	VRB	_	1	dep	_	_	3.84	4.12	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-4
+# text = seulement euh quand ils passent devant euh un petit conseil de euh de une petite réunion de euh deux trois médecins je crois qui vont donner leur avis
+1	seulement	seulement	ADV	ADV	_	23	periph	_	_	4.20	4.75	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	4.76	5.06	L2
+3	quand	quand	CSU	CSU	_	23	periph	_	_	5.27	5.36	L2
+4	ils	il	CLS	CLS	_	5	subj	_	_	5.37	5.43	L2
+5	passent	passer	VRB	VRB	_	3	dep	_	_	5.44	5.68	L2
+6	devant	devant	PRE	PRE	_	5	dep	_	_	5.69	6.08	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	6.09	6.11	L2
+8	un	un	DET	DET	_	10	spe	_	_	6.12	6.15	L2
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	6.25	6.41	L2
+10	conseil	conseil	NOM	NOM	_	6	dep	_	_	6.52	6.86	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	6.97	7.39	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	8.20	8.27	L2
+13	de	de	PRE	PRE	_	11	para	_	_	8.28	8.30	L2
+14	une	un	DET	DET	_	16	spe	_	_	8.35	8.57	L2
+15	petite	petit	ADJ	ADJ	_	16	dep	_	_	8.58	8.72	L2
+16	réunion	réunion	NOM	NOM	_	10	para	_	_	8.83	9.10	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	9.11	9.13	L2
+18	euh	euh	INT	INT	_	17	dm	_	_	9.18	9.31	L2
+19	deux	_	NUM	NUM	_	21	spe	_	_	9.32	9.37	L2
+20	trois	_	NUM	NUM	_	19	para	_	_	9.38	9.56	L2
+21	médecins	médecin	NOM	NOM	_	17	dep	_	_	9.57	9.72	L2
+22	je	je	CLS	CLS	_	23	subj	_	_	9.73	9.75	L2
+23	crois	croire	VRB	VRB	_	0	ROOT	_	_	9.76	9.90	L2
+24	qui	_	PRQ	PRQ	_	25	subj	_	_	9.91	9.96	L2
+25	vont	aller	VRB	VRB	_	23	dep	_	_	10.02	10.09	L2
+26	donner	-	VNF	VNF	_	25	dep	_	_	10.10	10.40	L2
+27	leur	son	DET	DET	_	28	spe	_	_	10.41	10.53	L2
+28	avis	avis	NOM	NOM	_	26	dep	_	_	10.54	10.74	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-5
+# text = c'est même plus des juges
+1	c'	ce	CLS	CLS	_	2	subj	_	_	11.15	11.18	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	11.19	11.21	L2
+3	même	même	ADV	ADV	_	4	dep	_	_	11.22	11.33	L2
+4	plus	plus	ADN	ADN	_	5	dep	_	_	11.34	11.42	L2
+5	des	de	PRE	PRE	_	2	dep	_	_	11.43	11.59	L2
+6	juges	juge	NOM	NOM	_	5	dep	_	_	11.60	11.77	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-6
+# text = c'est des médecins qui vont donner leur avis
+1	c'	ce	CLS	CLS	_	2	subj	_	_	11.78	11.84	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	11.85	11.87	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	11.88	12.00	L2
+4	médecins	médecin	NOM	NOM	_	3	dep	_	_	12.01	12.27	L2
+5	qui	_	PRQ	PRQ	_	6	subj	_	_	12.28	12.33	L2
+6	vont	aller	VRB	VRB	_	4	dep	_	_	12.34	12.42	L2
+7	donner	-	VNF	VNF	_	6	dep	_	_	12.43	12.54	L2
+8	leur	son	DET	DET	_	9	spe	_	_	12.55	12.66	L2
+9	avis	avis	NOM	NOM	_	7	dep	_	_	13.38	13.53	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-7
+# text = il suffit qu'il y en ait un qui soit pas d'accord et les mecs doivent rester en vie quoi dans les hôpitaux
+1	il	il	CLS	CLS	_	2	subj	_	_	13.59	13.64	L2
+2	suffit	suffire	VRB	VRB	_	0	ROOT	_	_	13.65	13.76	L2
+3	qu'	que	CSU	CSU	_	2	dep	_	_	13.77	13.79	L2
+4	il	il	CLS	CLS	_	7	subj	_	_	13.80	13.85	L2
+5	y	y	CLI	CLI	_	7	dep	_	_	13.86	13.88	L2
+6	en	en	CLI	CLI	_	7	dep	_	_	13.89	13.91	L2
+7	ait	avoir	VRB	VRB	_	3	dep	_	_	13.92	13.94	L2
+8	un	un	PRO	PRO	_	7	dep	_	_	13.95	14.00	L2
+9	qui	_	PRQ	PRQ	_	10	subj	_	_	14.01	14.06	L2
+10	soit	être	VRB	VRB	_	8	dep	_	_	14.07	14.25	L2
+11	pas	pas	ADN	ADN	_	10	dep	_	_	14.26	14.38	L2
+12	d'	de	PRE	PRE	_	10	dep	_	_	14.39	14.42	L2
+13	accord	accord	NOM	NOM	_	12	dep	_	_	14.43	14.69	L2
+14	et	et	COO	COO	_	17	mark	_	_	14.92	14.94	L2
+15	les	le	DET	DET	_	16	spe	_	_	14.95	15.02	L2
+16	mecs	mec	NOM	NOM	_	17	subj	_	_	15.03	15.43	L2
+17	doivent	devoir	VRB	VRB	_	10	para	_	_	15.52	15.69	L2
+18	rester	rester	VNF	VNF	_	17	dep	_	_	15.70	15.87	L2
+19	en	en	PRE	PRE	_	18	dep	_	_	15.88	15.98	L2
+20	vie	vie	NOM	NOM	_	19	dep	_	_	15.99	16.16	L2
+21	quoi	_	INT	INT	_	20	dm	_	_	16.20	16.32	L2
+22	dans	dans	PRE	PRE	_	18	dep	_	_	16.37	16.42	L2
+23	les	le	DET	DET	_	24	spe	_	_	16.43	16.48	L2
+24	hôpitaux	hôpital	NOM	NOM	_	22	dep	_	_	16.55	16.84	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-8
+# text = rester en vie dans les hôpitaux
+1	rester	rester	VNF	VNF	_	0	ROOT	_	_	18.86	19.17	L1
+2	en	en	PRE	PRE	_	1	dep	_	_	19.18	19.24	L1
+3	vie	vie	NOM	NOM	_	2	dep	_	_	19.25	19.43	L1
+4	dans	dans	PRE	PRE	_	1	dep	_	_	19.48	19.53	L1
+5	les	le	DET	DET	_	6	spe	_	_	19.54	19.62	L1
+6	hôpitaux	hôpital	NOM	NOM	_	4	dep	_	_	19.68	19.89	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-9
+# text = à vie pardon
+1	à	à	PRE	PRE	_	0	ROOT	_	_	20.41	20.46	L2
+2	vie	vie	NOM	NOM	_	1	dep	_	_	20.47	20.62	L2
+3	pardon	pardon	INT	INT	_	2	dm	_	_	20.63	20.83	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-10
+# text = ah vie oui
+1	ah	ah	INT	INT	_	2	dm	_	_	21.23	21.31	L1
+2	vie	vie	NOM	NOM	_	0	ROOT	_	_	21.32	21.38	L1
+3	oui	oui	INT	INT	_	2	dm	_	_	21.64	21.78	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-11
+# text = est-ce qu'il vaut mieux pas pour eux de rester à vie dans les hôpitaux que de sortir directement
+1	est-ce qu'	est-ce que	CSU	CSU	_	0	ROOT	_	_	22.43	22.54	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	22.55	22.61	L2
+3	vaut	valoir	VRB	VRB	_	1	dep	_	_	22.62	22.70	L2
+4	mieux	mieux	ADV	ADV	_	5	dep	_	_	22.71	22.88	L2
+5	pas	pas	ADN	ADN	_	3	dep	_	_	22.89	23.05	L2
+6	pour	pour	PRE	PRE	_	3	dep	_	_	23.06	23.21	L2
+7	eux	moi	PRO	PRO	_	6	dep	_	_	23.22	23.51	L2
+8	de	de	PRE	PRE	_	3	dep	_	_	23.52	23.54	L2
+9	rester	rester	VNF	VNF	_	8	dep	_	_	23.55	23.80	L2
+10	à	à	PRE	PRE	_	9	dep	_	_	23.84	23.90	L2
+11	vie	vie	NOM	NOM	_	10	dep	_	_	23.91	24.00	L2
+12	dans	dans	PRE	PRE	_	9	dep	_	_	24.01	24.11	L2
+13	les	le	DET	DET	_	14	spe	_	_	24.12	24.19	L2
+14	hôpitaux	hôpital	NOM	NOM	_	12	dep	_	_	24.20	24.70	L2
+15	que	que	CSU	CSU	_	8	para	_	_	25.11	25.16	L2
+16	de	de	PRE	PRE	_	15	dep	_	_	25.17	25.27	L2
+17	sortir	sortir	VNF	VNF	_	16	dep	_	_	25.28	25.75	L2
+18	directement	directement	ADV	ADV	_	17	dep	_	_	25.76	26.33	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-12
+# text = euh je sais pas
+1	euh	euh	INT	INT	_	3	dm	_	_	26.34	26.36	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	26.72	27.06	L2
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	27.07	27.13	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	27.14	27.19	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-13
+# text = au bout de quinze ans c'est certes d'être libre mais ne pas être pris en charge quoi au niveau des soins enfin d'être suivi
+1	au#bout#de	au bout de	PRE	PRE	_	5	periph	_	_	27.20	27.61	L2
+2	quinze	_	NUM	NUM	_	3	spe	_	_	27.62	27.83	L2
+3	ans	an	NOM	NOM	_	1	dep	_	_	27.89	28.12	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	28.17	28.22	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	28.23	28.28	L2
+6	certes	certes	ADV	ADV	_	5	dep	_	_	28.51	28.77	L2
+7	d'	de	PRE	PRE	_	5	dep	_	_	28.78	28.80	L2
+8	être	être	VNF	VNF	_	7	dep	_	_	28.81	28.89	L2
+9	libre	libre	ADJ	ADJ	_	8	dep	_	_	28.90	29.13	L2
+10	mais	mais	COO	COO	_	14	mark	_	_	29.14	29.31	L2
+11	ne	ne	CLN	CLN	_	14	dep	_	_	29.32	29.44	L2
+12	pas	pas	ADN	ADN	_	14	dep	_	_	29.60	29.70	L2
+13	être	être	VNF	VNF	_	14	aux	_	_	29.71	29.93	L2
+14	pris	prendre	VPP	VPP	_	8	para	_	_	29.94	30.05	L2
+15	en#charge	_	ADV	ADV	_	14	dep	_	_	30.46	30.88	L2
+16	quoi	quoi	INT	INT	_	15	dm	_	_	30.95	31.03	L2
+17	au	à	PRE	PRE	_	14	dep	_	_	31.04	31.08	L2
+18	niveau	niveau	NOM	NOM	_	17	dep	_	_	31.09	31.25	L2
+19	des	de	PRE	PRE	_	18	dep	_	_	31.26	31.47	L2
+20	soins	soin	NOM	NOM	_	19	dep	_	_	31.48	31.58	L2
+21	enfin	enfin	ADV	ADV	_	20	dm	_	_	32.13	32.22	L2
+22	d'	de	PRE	PRE	_	14	para	_	_	32.23	32.25	L2
+23	être	être	VNF	VNF	_	24	aux	_	_	32.26	32.46	L2
+24	suivi	suivre	VPP	VPP	_	22	dep	_	_	32.47	32.68	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-14
+# text = ah c'est peut-être je pense que c'est du cas par cas aussi
+1	ah	ah	INT	INT	_	3	dm	_	_	34.87	35.11	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	35.12	35.14	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	35.15	35.23	L1
+4	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	35.24	35.66	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	35.67	35.79	L1
+6	pense	penser	VRB	VRB	_	3	para	_	_	35.80	36.05	L1
+7	que	que	CSU	CSU	_	6	dep	_	_	36.06	36.17	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	36.18	36.20	L1
+9	est	être	VRB	VRB	_	7	dep	_	_	36.21	36.24	L1
+10	du	_	PRE	PRE	_	9	dep	_	_	36.25	36.36	L1
+11	cas	cas	NOM	NOM	_	10	dep	_	_	36.37	36.54	L1
+12	par	par	PRE	PRE	_	11	dep	_	_	36.55	36.64	L1
+13	cas	cas	NOM	NOM	_	12	dep	_	_	36.72	36.83	L1
+14	aussi	aussi	ADV	ADV	_	9	dep	_	_	36.84	37.00	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-15
+# text = c'est du cas par cas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	37.07	37.09	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	37.10	37.14	L1
+3	du	_	PRE	PRE	_	2	dep	_	_	39.01	39.11	L1
+4	cas	cas	NOM	NOM	_	3	dep	_	_	39.12	39.27	L1
+5	par	par	PRE	PRE	_	4	dep	_	_	39.28	39.44	L1
+6	cas	cas	NOM	NOM	_	5	dep	_	_	39.45	39.63	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-16
+# text = ou je pense que euh il faut pas faire une discipline qui soit trop trop rigide
+1	ou	ou	COO	COO	_	3	mark	_	_	40.87	40.97	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	40.98	41.14	L1
+3	pense	penser	VRB	VRB	_	0	ROOT	_	_	41.15	41.29	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	41.44	41.69	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	41.70	41.74	L1
+6	il	il	CLS	CLS	_	7	subj	_	_	41.75	41.82	L1
+7	faut	faillir	VRB	VRB	_	4	dep	_	_	41.83	41.94	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	41.95	42.13	L1
+9	faire	-	VNF	VNF	_	7	dep	_	_	42.14	42.37	L1
+10	une	un	DET	DET	_	11	spe	_	_	42.38	42.43	L1
+11	discipline	discipline	NOM	NOM	_	9	dep	_	_	42.44	42.97	L1
+12	qui	_	PRQ	PRQ	_	13	subj	_	_	43.04	43.09	L1
+13	soit	être	VRB	VRB	_	11	dep	_	_	43.14	43.30	L1
+14	trop	trop	ADV	ADV	_	16	dep	_	_	43.45	43.80	L1
+15	trop	trop	ADV	ADV	_	14	para	_	_	43.90	44.03	L1
+16	rigide	rigide	ADJ	ADJ	_	13	dep	_	_	44.04	44.35	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-17
+# text = après euh bon pour en revenir peut-être au sujet plus de base que tu étais en train de lancer euh par rapport à la construction de nouvelles prisons euh moi je trouve que ce qui est
+1	après	après	PRE	PRE	_	28	periph	_	_	46.52	47.04	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	47.05	47.19	L1
+3	bon	bon	INT	INT	_	2	dm	_	_	47.20	47.38	L1
+4	pour	pour	PRE	PRE	_	28	periph	_	_	47.39	47.63	L1
+5	en	en	PRE	PRE	_	4	dep	_	_	47.64	47.67	L1
+6	revenir	revenir	VNF	VNF	_	5	dep	_	_	47.68	47.97	L1
+7	peut-être	peut-être	ADV	ADV	_	6	dep	_	_	48.03	48.39	L1
+8	au	à	PRE	PRE	_	6	dep	_	_	48.40	48.43	L1
+9	sujet	sujet	NOM	NOM	_	8	dep	_	_	48.44	48.79	L1
+10	plus	plus	ADV	ADV	_	9	dep	_	_	48.90	49.07	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	49.15	49.47	L1
+12	base	base	NOM	NOM	_	11	dep	_	_	49.48	49.70	L1
+13	que	que	PRQ	PRQ	_	15	dep	_	_	49.71	49.73	L1
+14	tu	tu	CLS	CLS	_	15	subj	_	_	49.88	50.02	L1
+15	étais	être	VRB	VRB	_	9	dep	_	_	50.03	50.16	L1
+16	en#train#de	en train de	PRE	PRE	_	15	dep	_	_	50.17	50.48	L1
+17	lancer	lancer	VNF	VNF	_	16	dep	_	_	50.52	51.04	L1
+18	euh	euh	INT	INT	_	17	dm	_	_	51.05	51.10	L1
+19	par#rapport#à	par rapport à	PRE	PRE	_	28	periph	_	_	51.59	52.14	L1
+20	la	le	DET	DET	_	21	spe	_	_	52.15	52.27	L1
+21	construction	construction	NOM	NOM	_	19	dep	_	_	52.33	52.83	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	52.88	52.94	L1
+23	nouvelles	nouveau	ADJ	ADJ	_	24	dep	_	_	52.95	53.22	L1
+24	prisons	prison	NOM	NOM	_	22	dep	_	_	53.27	53.52	L1
+25	euh	euh	INT	INT	_	24	dm	_	_	53.53	53.68	L1
+26	moi	moi	PRO	PRO	_	28	periph	_	_	54.20	54.28	L1
+27	je	je	CLS	CLS	_	28	subj	_	_	54.29	54.94	L1
+28	trouve	trouver	VRB	VRB	_	0	ROOT	_	_	54.95	55.53	L1
+29	que	que	CSU	CSU	_	28	dep	_	_	55.70	55.89	L1
+30	ce	ce	PRO	PRO	_	29	dep	_	_	55.93	55.98	L1
+31	qui	_	PRQ	PRQ	_	32	subj	_	_	56.12	56.27	L1
+32	est	être	VRB	VRB	_	30	dep	_	_	56.28	56.96	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-18
+# text = hum alors peut-être que moi comme je connais pas Charles Trois hein je peux pas trop en discuter sur euh sur le mode de fonctionnement
+1	hum	hum	INT	INT	_	14	dm	_	_	57.92	58.15	L1
+2	alors	alors	ADV	ADV	_	14	periph	_	_	59.38	59.55	L1
+3	peut-être	peut-être	ADV	ADV	_	14	periph	_	_	59.65	59.99	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	60.00	60.17	L1
+5	moi	moi	PRO	PRO	_	6	periph	_	_	60.18	60.35	L1
+6	comme	comme	CSU	CSU	_	4	dep	_	_	60.36	60.67	L1
+7	je	je	CLS	CLS	_	8	subj	_	_	60.68	60.82	L1
+8	connais	connaître	VRB	VRB	_	6	dep	_	_	60.83	61.03	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	61.04	61.11	L1
+10	Charles	Charles	NOM	NOM	_	8	dep	_	_	61.12	61.43	L1
+11	Trois	trois	NOM	NOM	_	10	dep	_	_	61.55	61.67	L1
+12	hein	hein	INT	INT	_	11	dm	_	_	61.68	61.73	L1
+13	je	je	CLS	CLS	_	14	subj	_	_	61.74	61.76	L1
+14	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	61.88	61.93	L1
+15	pas	pas	ADN	ADN	_	16	dep	_	_	61.94	62.09	L1
+16	trop	trop	ADV	ADV	_	14	dep	_	_	62.19	62.31	L1
+17	en	en	PRE	PRE	_	14	dep	_	_	62.32	62.34	L1
+18	discuter	discuter	VNF	VNF	_	17	dep	_	_	62.35	62.84	L1
+19	sur	sur	PRE	PRE	_	18	dep	_	_	62.85	63.03	L1
+20	euh	euh	INT	INT	_	19	dm	_	_	63.08	63.34	L1
+21	sur	sur	PRE	PRE	_	19	para	_	_	63.51	63.62	L1
+22	le	le	DET	DET	_	23	spe	_	_	63.63	63.69	L1
+23	mode	mode	NOM	NOM	_	21	dep	_	_	63.70	63.93	L1
+24	de	de	PRE	PRE	_	23	dep	_	_	63.94	63.96	L1
+25	fonctionnement	fonctionnement	NOM	NOM	_	24	dep	_	_	64.02	64.52	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-19
+# text = euh hum je pense que oui par rapport à la dignité humaine
+1	euh	euh	INT	INT	_	4	dm	_	_	65.17	65.19	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	65.20	65.78	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	67.48	67.61	L1
+4	pense	penser	VRB	VRB	_	0	ROOT	_	_	67.62	67.86	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	67.87	68.01	L1
+6	oui	oui	INT	INT	_	5	dm	_	_	68.02	68.38	L1
+7	par#rapport#à	par rapport à	PRE	PRE	_	5	dep	_	_	68.39	68.82	L1
+8	la	le	DET	DET	_	9	spe	_	_	68.83	68.98	L1
+9	dignité	dignité	NOM	NOM	_	7	dep	_	_	68.99	69.36	L1
+10	humaine	humain	ADJ	ADJ	_	9	dep	_	_	69.37	69.85	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-20
+# text = oui il faut il faut que les prisons respectent certaines normes de euh d'hygiène et caetera
+1	oui	oui	INT	INT	_	3	dm	_	_	69.89	70.03	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	70.04	70.08	L1
+3	faut	faillir	VRB	VRB	_	0	ROOT	_	_	70.09	70.48	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	70.49	70.63	L1
+5	faut	faillir	VRB	VRB	_	3	para	_	_	70.64	70.75	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	70.76	70.84	L1
+7	les	le	DET	DET	_	8	spe	_	_	70.85	70.98	L1
+8	prisons	prison	NOM	NOM	_	9	subj	_	_	70.99	71.36	L1
+9	respectent	respecter	VRB	VRB	_	6	dep	_	_	71.37	71.85	L1
+10	certaines	certain	DET	DET	_	11	spe	_	_	72.10	72.41	L1
+11	normes	norme	NOM	NOM	_	9	dep	_	_	72.42	72.76	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	72.77	73.10	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	73.11	73.13	L1
+14	d'	de	PRE	PRE	_	12	para	_	_	73.14	73.16	L1
+15	hygiène	hygiène	NOM	NOM	_	14	dep	_	_	73.23	73.67	L1
+16	et#caetera	et caetera	ADV	ADV	_	15	para	_	_	73.68	74.24	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-21
+# text = parce que visiblement Charles Trois ne les respecte plus
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	74.25	74.52	L1
+2	visiblement	visiblement	ADV	ADV	_	7	periph	_	_	74.53	74.98	L1
+3	Charles	Charles	NOM	NOM	_	7	periph	_	_	74.99	75.25	L1
+4	Trois	trois	NOM	NOM	_	3	dep	_	_	75.26	75.43	L1
+5	ne	ne	CLN	CLN	_	7	dep	_	_	75.44	75.46	L1
+6	les	le	CLI	CLI	_	7	dep	_	_	75.57	75.62	L1
+7	respecte	respecter	VRB	VRB	_	1	dep	_	_	75.63	76.04	L1
+8	plus	plus	ADN	ADN	_	7	dep	_	_	76.13	76.27	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-22
+# text = en tout cas c'est assez catastrophique
+1	en#tout#cas	en tout cas	ADV	ADV	_	3	periph	_	_	76.31	77.29	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	77.39	77.42	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	77.43	77.91	L1
+4	assez	assez	ADV	ADV	_	5	dep	_	_	77.92	78.15	L1
+5	catastrophique	catastrophique	ADJ	ADJ	_	3	dep	_	_	78.16	78.87	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-23
+# text = moi normalement j'étais censé bosser aussi dans le milieu carcéral là cette année pour donner des cours euh de histoire de l'art et euh et de dans tout ce qui concerne l'habitat à la prison de Toul
+1	moi	moi	PRO	PRO	_	4	periph	_	_	79.44	79.61	L1
+2	normalement	normalement	ADV	ADV	_	4	periph	_	_	79.62	80.01	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	80.02	80.07	L1
+4	étais	être	VRB	VRB	_	0	ROOT	_	_	80.08	80.31	L1
+5	censé	censé	ADJ	ADJ	_	4	dep	_	_	80.32	80.83	L1
+6	bosser	bosser	VNF	VNF	_	5	dep	_	_	80.84	80.98	L1
+7	aussi	aussi	ADV	ADV	_	6	dep	_	_	80.99	81.47	L1
+8	dans	dans	PRE	PRE	_	6	dep	_	_	81.48	81.57	L1
+9	le	le	DET	DET	_	10	spe	_	_	81.58	81.62	L1
+10	milieu	milieu	NOM	NOM	_	8	dep	_	_	81.63	81.84	L1
+11	carcéral	carcéral	ADJ	ADJ	_	10	dep	_	_	81.85	82.39	L1
+12	là	là	ADV	ADV	_	10	dep	_	_	82.43	82.53	L1
+13	cette	ce	DET	DET	_	14	spe	_	_	82.62	82.78	L1
+14	année	année	NOM	NOM	_	6	dep	_	_	82.79	83.19	L1
+15	pour	pour	PRE	PRE	_	6	dep	_	_	83.24	83.43	L1
+16	donner	-	VNF	VNF	_	15	dep	_	_	83.44	83.67	L1
+17	des	de	PRE	PRE	_	16	dep	_	_	83.68	83.79	L1
+18	cours	cour	NOM	NOM	_	17	dep	_	_	83.94	84.21	L1
+19	euh	euh	INT	INT	_	18	dm	_	_	84.22	84.25	L1
+20	de	de	PRE	PRE	_	18	dep	_	_	85.14	85.19	L1
+21	histoire	histoire	NOM	NOM	_	20	dep	_	_	85.20	85.55	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	85.56	85.66	L1
+23	l'	le	DET	DET	_	24	spe	_	_	85.67	85.72	L1
+24	art	art	NOM	NOM	_	22	dep	_	_	85.73	86.05	L1
+25	et	et	COO	COO	_	28	mark	_	_	86.06	86.30	L1
+26	euh	euh	INT	INT	_	25	dm	_	_	86.31	86.39	L1
+27	et	et	COO	COO	_	25	para	_	_	87.19	87.29	L1
+28	de	de	PRE	PRE	_	22	para	_	_	87.30	87.79	L1
+29	dans	dans	PRE	PRE	_	28	para	_	_	88.99	89.22	L1
+30	tout	tout	ADJ	ADJ	_	31	dep	_	_	89.30	89.36	L1
+31	ce	ce	PRO	PRO	_	29	dep	_	_	89.37	89.46	L1
+32	qui	_	PRQ	PRQ	_	33	subj	_	_	89.47	89.59	L1
+33	concerne	concerner	VRB	VRB	_	31	dep	_	_	89.60	89.95	L1
+34	l'	le	DET	DET	_	35	spe	_	_	89.96	89.99	L1
+35	habitat	habitat	NOM	NOM	_	33	dep	_	_	90.00	90.50	L1
+36	à	à	PRE	PRE	_	35	dep	_	_	90.88	90.92	L1
+37	la	le	DET	DET	_	38	spe	_	_	90.93	91.01	L1
+38	prison	prison	NOM	NOM	_	36	dep	_	_	91.02	91.34	L1
+39	de	de	PRE	PRE	_	38	dep	_	_	91.35	91.43	L1
+40	Toul	Toul	NOM	NOM	_	39	dep	_	_	91.52	91.83	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-24
+# text = ça s'est pas fait car il se trouve qu'il y a une autre personne qui a qui a pris le poste
+1	ça	ça	PRO	PRO	_	5	subj	_	_	91.84	91.94	L1
+2	s'	se	CLI	CLI	_	5	dep	_	_	92.01	92.03	L1
+3	est	être	VRB	VRB	_	5	aux	_	_	92.04	92.10	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	92.11	92.21	L1
+5	fait	-	VPP	VPP	_	0	ROOT	_	_	92.22	92.45	L1
+6	car	car	COO	COO	_	9	mark	_	_	92.46	92.54	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	92.69	92.76	L1
+8	se	se	CLI	CLI	_	9	dep	_	_	93.17	93.23	L1
+9	trouve	trouver	VRB	VRB	_	5	para	_	_	93.24	93.41	L1
+10	qu'	que	CSU	CSU	_	9	dep	_	_	93.42	93.49	L1
+11	il	il	CLS	CLS	_	13	subj	_	_	93.50	93.60	L1
+12	y	y	CLI	CLI	_	13	dep	_	_	93.61	93.64	L1
+13	a	avoir	VRB	VRB	_	10	dep	_	_	93.65	93.67	L1
+14	une	un	DET	DET	_	16	spe	_	_	93.68	93.73	L1
+15	autre	autre	ADJ	ADJ	_	16	dep	_	_	93.74	93.82	L1
+16	personne	personne	NOM	NOM	_	13	dep	_	_	93.83	94.17	L1
+17	qui	_	PRQ	PRQ	_	18	subj	_	_	94.32	94.39	L1
+18	a	avoir	VRB	VRB	_	16	dep	_	_	94.40	94.45	L1
+19	qui	_	PRQ	PRQ	_	21	subj	_	_	95.03	95.09	L1
+20	a	avoir	VRB	VRB	_	21	aux	_	_	95.10	95.14	L1
+21	pris	prendre	VPP	VPP	_	18	para	_	_	95.15	95.30	L1
+22	le	le	DET	DET	_	23	spe	_	_	95.31	95.35	L1
+23	poste	poste	NOM	NOM	_	21	dep	_	_	95.41	95.61	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-25
+# text = et puis moi je me suis pas trop battu pour en même temps
+1	et#puis	et puis	COO	COO	_	8	mark	_	_	95.92	96.14	L1
+2	moi	moi	PRO	PRO	_	8	periph	_	_	96.15	96.25	L1
+3	je	je	CLS	CLS	_	8	subj	_	_	96.26	96.30	L1
+4	me	me	CLI	CLI	_	8	dep	_	_	96.31	96.40	L1
+5	suis	être	VRB	VRB	_	8	aux	_	_	96.45	96.54	L1
+6	pas	pas	ADN	ADN	_	8	dep	_	_	96.60	96.73	L1
+7	trop	trop	ADV	ADV	_	8	dep	_	_	96.77	96.85	L1
+8	battu	battre	VPP	VPP	_	0	ROOT	_	_	96.86	97.15	L1
+9	pour	pour	PRE	PRE	_	8	dep	_	_	97.30	97.46	L1
+10	en#même#temps	en même temps	ADV	ADV	_	8	dep	_	_	97.54	97.94	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-26
+# text = mais ça c'est un autre un autre sujet
+1	mais	mais	COO	COO	_	4	mark	_	_	98.43	98.48	L1
+2	ça	ça	PRO	PRO	_	4	periph	_	_	98.49	98.54	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	98.55	98.58	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	98.59	98.61	L1
+5	un	un	DET	DET	_	9	spe	_	_	98.62	98.74	L1
+6	autre	autre	NOM	NOM	_	5	disflink	_	_	98.75	98.86	L1
+7	un	un	DET	DET	_	5	para	_	_	99.53	99.55	L1
+8	autre	autre	ADJ	ADJ	_	9	dep	_	_	99.56	99.74	L1
+9	sujet	sujet	NOM	NOM	_	4	dep	_	_	99.75	100.17	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-27
+# text = mais ça n'empêche que j~ j'aurais bien voulu quand même voir ça euh
+1	mais	mais	COO	COO	_	4	mark	_	_	100.18	100.24	L1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	100.31	100.37	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	100.38	100.40	L1
+4	empêche	empêcher	VRB	VRB	_	0	ROOT	_	_	100.41	100.69	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	100.70	100.86	L1
+6	j~	_	CLS	CLS	_	10	subj	_	_	100.87	101.03	L1
+7	j'	je	CLS	CLS	_	6	para	_	_	101.12	101.14	L1
+8	aurais	avoir	VRB	VRB	_	10	aux	_	_	101.21	101.44	L1
+9	bien	bien	ADV	ADV	_	10	dep	_	_	101.45	101.61	L1
+10	voulu	vouloir	VPP	VPP	_	5	dep	_	_	101.62	101.73	L1
+11	quand#même	quand même	ADV	ADV	_	10	dep	_	_	101.74	102.21	L1
+12	voir	voir	VNF	VNF	_	10	dep	_	_	102.22	102.37	L1
+13	ça	ça	PRO	PRO	_	12	dep	_	_	102.50	102.72	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	103.51	104.10	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-28
+# text = mais euh bon euh je pense que il y a il y a un problème aujourd' hui
+1	mais	mais	COO	COO	_	6	mark	_	_	104.11	104.52	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	104.53	104.88	L1
+3	bon	bon	INT	INT	_	2	dm	_	_	104.92	105.04	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	105.92	105.97	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	106.18	106.20	L1
+6	pense	penser	VRB	VRB	_	0	ROOT	_	_	106.34	106.44	L1
+7	que	que	CSU	CSU	_	6	dep	_	_	106.61	106.89	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	107.11	107.18	L1
+9	y	y	CLI	CLI	_	10	dep	_	_	107.24	107.28	L1
+10	a	avoir	VRB	VRB	_	7	dep	_	_	107.29	107.54	L1
+11	il	il	CLS	CLS	_	13	subj	_	_	107.63	107.68	L1
+12	y	y	CLI	CLI	_	13	dep	_	_	108.14	108.21	L1
+13	a	avoir	VRB	VRB	_	10	para	_	_	108.22	108.24	L1
+14	un	un	DET	DET	_	15	spe	_	_	108.25	108.37	L1
+15	problème	problème	NOM	NOM	_	13	dep	_	_	108.38	108.69	L1
+16	aujourd'#hui	aujourd'hui	ADV	ADV	_	13	dep	_	_	108.70	109.18	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-29
+# text = c'est que on a tendance à vouloir entasser à vouloir juger beaucoup à entasser les gens
+1	c'	ce	CLS	CLS	_	2	subj	_	_	109.19	109.21	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	109.22	109.31	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	109.32	109.56	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	109.87	109.97	L1
+5	a	avoir	VRB	VRB	_	3	dep	_	_	109.98	110.05	L1
+6	tendance	tendance	NOM	NOM	_	5	dep	_	_	110.06	110.35	L1
+7	à	à	PRE	PRE	_	6	dep	_	_	110.41	110.45	L1
+8	vouloir	vouloir	VNF	VNF	_	7	dep	_	_	110.46	110.77	L1
+9	entasser	entasser	VNF	VNF	_	8	dep	_	_	110.78	111.47	L1
+10	à	à	PRE	PRE	_	7	para	_	_	111.48	111.53	L1
+11	vouloir	vouloir	VNF	VNF	_	10	dep	_	_	111.54	111.90	L1
+12	juger	juger	VNF	VNF	_	11	dep	_	_	111.96	112.32	L1
+13	beaucoup	beaucoup	ADV	ADV	_	12	dep	_	_	112.33	112.76	L1
+14	à	à	PRE	PRE	_	10	para	_	_	112.77	112.79	L1
+15	entasser	entasser	VNF	VNF	_	14	dep	_	_	112.80	113.20	L1
+16	les	le	DET	DET	_	17	spe	_	_	113.21	113.33	L1
+17	gens	gens	NOM	NOM	_	15	dep	_	_	113.34	113.51	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-30
+# text = et aussi peut-être alors je sais pas si c'est dû à la loi je pense qu'il y a aussi des des choses qui sont mal gérées à partir du moment où il y a des personnes qui sont enfermées tout de suite alors que peut-être que elles mériteraient d'être euh peut-être réinsérées dans la société mais avec euh peut-être des des travaux d'intérêts généraux ou des choses comme ça tu vois )
+1	et	et	COO	COO	_	16	mark	_	_	113.87	113.92	L1
+2	aussi	aussi	ADV	ADV	_	16	periph	_	_	113.93	114.19	L1
+3	peut-être	peut-être	ADV	ADV	_	16	periph	_	_	114.20	114.85	L1
+4	alors	alors	ADV	ADV	_	16	periph	_	_	114.86	115.03	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	115.09	115.19	L1
+6	sais	savoir	VRB	VRB	_	16	dep	_	_	115.20	115.32	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	115.33	115.44	L1
+8	si	si	CSU	CSU	_	6	dep	_	_	115.63	115.71	L1
+9	c'	ce	CLS	CLS	_	11	subj	_	_	115.72	115.74	L1
+10	est	être	VRB	VRB	_	11	aux	_	_	115.75	115.77	L1
+11	dû	devoir	VPP	VPP	_	8	dep	_	_	115.78	115.94	L1
+12	à	à	PRE	PRE	_	11	dep	_	_	115.95	115.99	L1
+13	la	le	DET	DET	_	14	spe	_	_	116.00	116.11	L1
+14	loi	loi	NOM	NOM	_	12	dep	_	_	116.12	116.49	L1
+15	je	je	CLS	CLS	_	16	subj	_	_	116.88	117.10	L1
+16	pense	penser	VRB	VRB	_	0	ROOT	_	_	117.11	117.61	L1
+17	qu'	que	CSU	CSU	_	16	dep	_	_	117.78	117.80	L1
+18	il	il	CLS	CLS	_	20	subj	_	_	117.81	117.92	L1
+19	y	y	CLI	CLI	_	20	dep	_	_	117.93	118.07	L1
+20	a	avoir	VRB	VRB	_	17	dep	_	_	118.08	118.16	L1
+21	aussi	aussi	ADV	ADV	_	20	dep	_	_	118.17	118.76	L1
+22	des	de	PRE	PRE	_	20	dep	_	_	118.87	118.92	L1
+23	des	de	PRE	PRE	_	22	para	_	_	118.93	118.98	L1
+24	choses	chose	NOM	NOM	_	23	dep	_	_	118.99	119.26	L1
+25	qui	_	PRQ	PRQ	_	28	subj	_	_	119.46	119.51	L1
+26	sont	être	VRB	VRB	_	28	aux	_	_	119.66	119.73	L1
+27	mal	mal	ADV	ADV	_	28	dep	_	_	119.91	120.12	L1
+28	gérées	gérer	VPP	VPP	_	24	dep	_	_	120.13	120.68	L1
+29	à	à	PRE	PRE	_	20	dep	_	_	120.69	120.73	L1
+30	partir	partir	VNF	VNF	_	29	dep	_	_	120.74	121.05	L1
+31	du	_	PRE	PRE	_	30	dep	_	_	121.06	121.11	L1
+32	moment	moment	NOM	NOM	_	31	dep	_	_	121.12	121.28	L1
+33	où	où	PRQ	PRQ	_	36	dep	_	_	121.29	121.31	L1
+34	il	il	CLS	CLS	_	36	subj	_	_	121.32	121.37	L1
+35	y	y	CLI	CLI	_	36	dep	_	_	121.38	121.44	L1
+36	a	avoir	VRB	VRB	_	32	dep	_	_	121.45	121.47	L1
+37	des	de	PRE	PRE	_	36	dep	_	_	121.48	121.53	L1
+38	personnes	personne	NOM	NOM	_	37	dep	_	_	121.54	121.78	L1
+39	qui	_	PRQ	PRQ	_	41	subj	_	_	121.87	121.93	L1
+40	sont	être	VRB	VRB	_	41	aux	_	_	121.99	122.14	L1
+41	enfermées	enfermer	VPP	VPP	_	38	dep	_	_	122.15	122.63	L1
+42	tout#de#suite	tout de suite	ADV	ADV	_	41	dep	_	_	123.00	123.52	L1
+43	alors#que	_	CSU	CSU	_	41	dep	_	_	124.15	124.68	L1
+44	peut-être	peut-être	ADV	ADV	_	43	dep	_	_	124.69	125.05	L1
+45	que	que	CSU	CSU	_	43	para	_	_	125.06	125.29	L1
+46	elles	il	CLS	CLS	_	47	subj	_	_	125.30	125.41	L1
+47	mériteraient	mériter	VRB	VRB	_	45	dep	_	_	125.42	125.85	L1
+48	d'	de	PRE	PRE	_	47	dep	_	_	125.86	125.89	L1
+49	être	être	VNF	VNF	_	52	aux	_	_	125.90	126.59	L1
+50	euh	euh	INT	INT	_	49	dm	_	_	127.31	127.47	L1
+51	peut-être	peut-être	ADV	ADV	_	52	dep	_	_	127.59	127.95	L1
+52	réinsérées	réinsérer	VPP	VPP	_	48	dep	_	_	127.96	128.55	L1
+53	dans	dans	PRE	PRE	_	52	dep	_	_	128.56	128.64	L1
+54	la	le	DET	DET	_	55	spe	_	_	128.65	128.75	L1
+55	société	société	NOM	NOM	_	53	dep	_	_	128.82	129.33	L1
+56	mais	mais	COO	COO	_	57	mark	_	_	129.34	129.46	L1
+57	avec	avec	PRE	PRE	_	53	para	_	_	129.47	129.83	L1
+58	euh	euh	INT	INT	_	57	dm	_	_	129.84	129.99	L1
+59	peut-être	peut-être	ADV	ADV	_	57	dep	_	_	130.00	130.48	L1
+60	des	de	PRE	PRE	_	57	dep	_	_	130.49	130.77	L1
+61	des	de	PRE	PRE	_	60	para	_	_	131.09	131.22	L1
+62	travaux	travail	NOM	NOM	_	61	dep	_	_	131.23	131.52	L1
+63	d'	de	PRE	PRE	_	62	dep	_	_	131.53	131.58	L1
+64	intérêts	intérêt	NOM	NOM	_	63	dep	_	_	131.59	131.96	L1
+65	généraux	général	ADJ	ADJ	_	64	dep	_	_	131.97	132.17	L1
+66	ou	ou	COO	COO	_	67	mark	_	_	132.24	132.55	L1
+67	des	de	PRE	PRE	_	63	para	_	_	132.56	132.61	L1
+68	choses	chose	NOM	NOM	_	67	dep	_	_	132.62	132.79	L1
+69	comme	comme	PRE	PRE	_	68	dep	_	_	132.80	132.94	L1
+70	ça	ça	PRO	PRO	_	69	dep	_	_	133.02	133.14	L1
+71	tu	tu	CLS	CLS	_	72	subj	_	_	133.80	133.85	L1
+72	vois	voir	VRB	VRB	_	70	dm	_	_	133.86	134.03	L1
+73	)	_	X	X	_	72	disflink	_	_	134.03	134.03	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-31
+# text = ça c'est aux juges d'en décider hein
+1	ça	ça	PRO	PRO	_	3	periph	_	_	134.13	134.18	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	134.19	134.21	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	134.28	134.30	L2
+4	aux	à	PRE	PRE	_	3	dep	_	_	134.31	134.33	L2
+5	juges	juge	NOM	NOM	_	4	dep	_	_	134.34	134.50	L2
+6	d'	de	PRE	PRE	_	5	dep	_	_	134.51	134.54	L2
+7	en	en	CLI	CLI	_	8	dep	_	_	134.55	134.58	L2
+8	décider	décider	VNF	VNF	_	6	dep	_	_	134.72	135.07	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	135.08	135.10	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-32
+# text = oui non
+1	oui	oui	INT	INT	_	0	ROOT	_	_	135.44	135.54	L1
+2	non	non	INT	INT	_	1	dm	_	_	135.55	135.63	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-33
+# text = mais je suis d'accord
+1	mais	mais	COO	COO	_	3	mark	_	_	135.64	135.75	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	135.76	135.89	L1
+3	suis	être	VRB	VRB	_	0	ROOT	_	_	135.90	136.00	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	136.01	136.03	L1
+5	accord	accord	NOM	NOM	_	4	dep	_	_	136.04	136.33	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-34
+# text = mais je pense que aujourd' hui il y a un peu trop ça aussi
+1	mais	mais	COO	COO	_	3	mark	_	_	136.34	136.50	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	136.51	136.66	L1
+3	pense	penser	VRB	VRB	_	0	ROOT	_	_	136.67	136.88	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	136.89	136.92	L1
+5	aujourd'#hui	aujourd'hui	ADV	ADV	_	8	periph	_	_	136.93	137.35	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	137.36	137.40	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	137.41	137.45	L1
+8	a	avoir	VRB	VRB	_	4	dep	_	_	137.46	137.49	L1
+9	un#peu	_	VPP	VPP	_	10	dep	_	_	137.50	137.76	L1
+10	trop	trop	ADV	ADV	_	11	dep	_	_	137.87	137.95	L1
+11	ça	ça	PRO	PRO	_	8	dep	_	_	138.19	138.24	L1
+12	aussi	aussi	ADV	ADV	_	8	dep	_	_	139.54	139.71	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-35
+# text = il y a peut-être un peu trop de
+1	il	il	CLS	CLS	_	3	subj	_	_	139.72	139.76	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	139.77	139.79	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	139.80	139.83	L1
+4	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	139.84	140.00	L1
+5	un#peu	un peu	ADV	ADV	_	6	dep	_	_	140.01	140.21	L1
+6	trop	trop	ADV	ADV	_	3	dep	_	_	140.22	140.42	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	140.43	140.86	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-36
+# text = c'est peut-être trop facile de vouloir emprisonner
+1	c'	ce	CLS	CLS	_	2	subj	_	_	140.87	140.89	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	140.90	141.01	L1
+3	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	141.05	141.44	L1
+4	trop	trop	ADV	ADV	_	5	dep	_	_	141.45	141.56	L1
+5	facile	facile	ADJ	ADJ	_	2	dep	_	_	141.57	141.90	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	141.91	142.04	L1
+7	vouloir	vouloir	VNF	VNF	_	6	dep	_	_	142.05	142.26	L1
+8	emprisonner	emprisonner	VNF	VNF	_	7	dep	_	_	142.27	142.82	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-37
+# text = mais tu sais que de plus en plus les juges donnent de moins en moins de peines longues
+1	mais	mais	COO	COO	_	3	mark	_	_	143.15	143.25	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	143.26	143.36	L2
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	143.37	143.42	L2
+4	que	que	CSU	CSU	_	3	dep	_	_	143.43	143.45	L2
+5	de#plus	de plus	ADV	ADV	_	10	periph	_	_	143.46	143.62	L2
+6	en	en	PRE	PRE	_	5	para	_	_	143.63	143.76	L2
+7	plus	plus	ADN	ADN	_	6	dep	_	_	143.86	144.00	L2
+8	les	le	DET	DET	_	9	spe	_	_	144.08	144.13	L2
+9	juges	juge	NOM	NOM	_	10	subj	_	_	144.19	144.41	L2
+10	donnent	donner	VRB	VRB	_	4	dep	_	_	144.42	144.59	L2
+11	de#moins	de moins	ADV	ADV	_	10	dep	_	_	144.60	144.83	L2
+12	en#moins	en moins	ADV	ADV	_	11	dep	_	_	144.84	145.08	L2
+13	de	de	PRE	PRE	_	10	dep	_	_	145.24	145.26	L2
+14	peines	peine	NOM	NOM	_	13	dep	_	_	145.36	145.49	L2
+15	longues	long	ADJ	ADJ	_	14	dep	_	_	145.86	146.14	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-38
+# text = parce qu'on pourrait croire hein moins en moins de peines longues exprès ou même des mecs qu'ils mériteraient d'avoir beaucoup plus
+1	parce#qu'	parce que	CSU	CSU	_	0	ROOT	_	_	146.75	146.93	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	146.94	147.01	L2
+3	pourrait	pouvoir	VRB	VRB	_	1	dep	_	_	147.09	147.24	L2
+4	croire	croire	VNF	VNF	_	3	dep	_	_	147.25	147.53	L2
+5	hein	hein	INT	INT	_	4	dm	_	_	147.54	147.58	L2
+6	moins	moins	ADV	ADV	_	4	dep	_	_	147.72	147.86	L2
+7	en#moins	en moins	ADV	ADV	_	6	dep	_	_	147.87	148.18	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	148.28	148.39	L2
+9	peines	peine	NOM	NOM	_	8	dep	_	_	148.40	148.48	L2
+10	longues	long	ADJ	ADJ	_	9	dep	_	_	148.49	148.76	L2
+11	exprès	exprès	NOM	NOM	_	10	dep	_	_	148.77	149.21	L2
+12	ou	ou	COO	COO	_	14	mark	_	_	149.56	149.61	L2
+13	même	même	ADV	ADV	_	12	dep	_	_	149.62	149.86	L2
+14	des	de	PRE	PRE	_	8	para	_	_	149.87	150.02	L2
+15	mecs	mec	NOM	NOM	_	14	dep	_	_	150.03	150.24	L2
+16	qu'	que	PRQ	PRQ	_	18	dep	_	_	150.29	150.31	L2
+17	ils	il	CLS	CLS	_	18	subj	_	_	150.32	150.39	L2
+18	mériteraient	mériter	VRB	VRB	_	15	dep	_	_	150.40	150.74	L2
+19	d'	de	PRE	PRE	_	18	dep	_	_	150.85	150.90	L2
+20	avoir	avoir	VNF	VNF	_	19	dep	_	_	150.91	151.15	L2
+21	beaucoup	beaucoup	ADV	ADV	_	22	dep	_	_	151.16	151.34	L2
+22	plus	plus	ADN	ADN	_	20	dep	_	_	151.52	151.64	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-39
+# text = en fait ils donnent carrément du sursis autour d'intérêts généraux parce qu'il y a plus de place quoi
+1	en#fait	en fait	ADV	ADV	_	3	periph	_	_	152.05	152.29	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	152.30	152.35	L2
+3	donnent	donner	VRB	VRB	_	0	ROOT	_	_	152.36	152.54	L2
+4	carrément	carrément	ADV	ADV	_	3	dep	_	_	152.55	152.83	L2
+5	du	_	PRE	PRE	_	3	dep	_	_	152.84	152.89	L2
+6	sursis	sursis	NOM	NOM	_	5	dep	_	_	152.90	153.30	L2
+7	autour	autour	ADV	ADV	_	3	dep	_	_	153.31	153.46	L2
+8	d'	de	PRE	PRE	_	7	dep	_	_	153.47	153.49	L2
+9	intérêts	intérêt	NOM	NOM	_	8	dep	_	_	153.50	153.78	L2
+10	généraux	général	ADJ	ADJ	_	9	dep	_	_	153.79	154.01	L2
+11	parce#qu'	parce que	CSU	CSU	_	3	dep	_	_	154.02	154.22	L2
+12	il	il	CLS	CLS	_	14	subj	_	_	154.26	154.31	L2
+13	y	y	CLI	CLI	_	14	dep	_	_	154.32	154.37	L2
+14	a	avoir	VRB	VRB	_	11	dep	_	_	154.38	154.40	L2
+15	plus	plus	ADN	ADN	_	14	dep	_	_	154.41	154.50	L2
+16	de	de	PRE	PRE	_	14	dep	_	_	154.61	154.76	L2
+17	place	place	NOM	NOM	_	16	dep	_	_	154.77	154.89	L2
+18	quoi	quoi	INT	INT	_	17	dm	_	_	154.90	155.00	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-40
+# text = ils font déjà en fait c'est ça qui est alarmant
+1	ils	il	CLS	CLS	_	2	subj	_	_	155.77	155.87	L2
+2	font	faire	VRB	VRB	_	0	ROOT	_	_	155.93	156.06	L2
+3	déjà	déjà	ADV	ADV	_	2	dep	_	_	156.07	156.27	L2
+4	en#fait	en fait	ADV	ADV	_	6	periph	_	_	156.28	156.57	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	156.66	156.70	L2
+6	est	être	VRB	VRB	_	2	para	_	_	156.71	156.75	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	156.76	156.81	L2
+8	qui	_	PRQ	PRQ	_	9	subj	_	_	156.82	156.98	L2
+9	est	être	VRB	VRB	_	7	dep	_	_	156.99	157.04	L2
+10	alarmant	alarmant	ADJ	ADJ	_	9	dep	_	_	157.13	157.42	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-41
+# text = ouais mais ils le font sur des peines courtes
+1	ouais	ouais	INT	INT	_	5	dm	_	_	157.98	158.06	L1
+2	mais	mais	COO	COO	_	5	mark	_	_	158.13	158.29	L1
+3	ils	il	CLS	CLS	_	5	subj	_	_	158.30	158.38	L1
+4	le	le	CLI	CLI	_	5	dep	_	_	158.39	158.48	L1
+5	font	faire	VRB	VRB	_	0	ROOT	_	_	158.49	158.71	L1
+6	sur	sur	PRE	PRE	_	5	dep	_	_	158.72	158.83	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	158.84	159.00	L1
+8	peines	peine	NOM	NOM	_	7	dep	_	_	159.01	159.17	L1
+9	courtes	court	ADJ	ADJ	_	8	dep	_	_	159.21	159.39	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-42
+# text = mais ça n'empêche que il peut arriver aussi à une période que dans ce cas si n' importe qui fait n' importe quoi euh il y a
+1	mais	mais	COO	COO	_	4	mark	_	_	159.51	159.64	L1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	159.65	159.76	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	159.77	159.84	L1
+4	empêche	empêcher	VRB	VRB	_	0	ROOT	_	_	159.85	160.09	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	160.17	160.41	L1
+6	il	il	CLS	CLS	_	7	subj	_	_	160.42	160.64	L1
+7	peut	pouvoir	VRB	VRB	_	5	dep	_	_	160.80	161.04	L1
+8	arriver	arriver	VNF	VNF	_	7	dep	_	_	161.05	161.39	L1
+9	aussi	aussi	ADV	ADV	_	8	dep	_	_	161.40	161.62	L1
+10	à	à	PRE	PRE	_	8	dep	_	_	161.63	161.65	L1
+11	une	un	DET	DET	_	12	spe	_	_	161.66	161.73	L1
+12	période	période	NOM	NOM	_	10	dep	_	_	161.74	162.11	L1
+13	que	que	CSU	CSU	_	5	para	_	_	162.16	162.19	L1
+14	dans	dans	PRE	PRE	_	24	periph	_	_	162.30	162.45	L1
+15	ce	_	DET	DET	_	16	spe	_	_	162.53	162.55	L1
+16	cas	cas	NOM	NOM	_	14	dep	_	_	162.56	162.61	L1
+17	si	si	CSU	CSU	_	24	periph	_	_	162.77	162.86	L1
+18	n'#importe#qui	_	NOM	NOM	_	19	subj	_	_	162.87	163.46	L1
+19	fait	-	VPP	VPP	_	17	dep	_	_	163.51	163.60	L1
+20	n'#importe#quoi	_	ADV	ADV	_	19	dep	_	_	163.61	164.23	L1
+21	euh	euh	INT	INT	_	20	dm	_	_	164.87	165.30	L1
+22	il	il	CLS	CLS	_	24	subj	_	_	165.59	165.64	L1
+23	y	y	CLI	CLI	_	24	dep	_	_	165.65	165.68	L1
+24	a	avoir	VRB	VRB	_	13	dep	_	_	165.69	166.02	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-43
+# text = ben ouais
+1	ben	ben	INT	INT	_	0	ROOT	_	_	166.54	166.63	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	166.64	166.90	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-44
+# text = il y a un truc qui est trop intense
+1	il	il	CLS	CLS	_	3	subj	_	_	166.96	167.04	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	167.05	167.09	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	167.10	167.12	L1
+4	un	un	DET	DET	_	5	spe	_	_	167.13	167.15	L1
+5	truc	truc	NOM	NOM	_	3	dep	_	_	167.16	167.31	L1
+6	qui	_	PRQ	PRQ	_	7	subj	_	_	167.32	167.34	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	167.35	167.42	L1
+8	trop	trop	ADV	ADV	_	9	dep	_	_	167.43	167.53	L1
+9	intense	intense	ADJ	ADJ	_	7	dep	_	_	167.54	167.71	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-45
+# text = donc du coup il y a un problème aussi de de gestion des flux non
+1	donc	donc	ADV	ADV	_	6	periph	_	_	168.14	168.33	L1
+2	du	_	PRE	PRE	_	6	periph	_	_	168.34	168.48	L1
+3	coup	coup	NOM	NOM	_	2	dep	_	_	168.49	168.60	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	168.61	168.66	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	168.67	168.73	L1
+6	a	avoir	VRB	VRB	_	0	ROOT	_	_	168.74	168.80	L1
+7	un	un	DET	DET	_	8	spe	_	_	168.86	168.88	L1
+8	problème	problème	NOM	NOM	_	6	dep	_	_	168.89	169.24	L1
+9	aussi	aussi	ADV	ADV	_	8	dep	_	_	169.25	169.60	L1
+10	de	de	PRE	PRE	_	8	dep	_	_	169.61	170.07	L1
+11	de	de	PRE	PRE	_	10	para	_	_	170.42	170.57	L1
+12	gestion	gestion	NOM	NOM	_	11	dep	_	_	170.58	170.96	L1
+13	des	de	PRE	PRE	_	12	dep	_	_	170.97	171.11	L1
+14	flux	flux	NOM	NOM	_	13	dep	_	_	171.12	171.31	L1
+15	non	non	INT	INT	_	14	dm	_	_	172.87	173.09	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-46
+# text = ouais c'est pas évident alors
+1	ouais	ouais	INT	INT	_	3	dm	_	_	173.95	174.09	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	174.10	174.12	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	174.16	174.18	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	174.27	174.37	L2
+5	évident	évident	ADJ	ADJ	_	3	dep	_	_	174.38	174.83	L2
+6	alors	alors	ADV	ADV	_	5	dm	_	_	175.12	175.30	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-47
+# text = ben c'est évident de toute façon c'est c'est toujours délicat de de savoir gérer ce genre de chose
+1	ben	ben	INT	INT	_	3	dm	_	_	175.37	175.47	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	175.48	175.50	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	175.51	175.60	L1
+4	évident	évident	ADJ	ADJ	_	3	dep	_	_	175.61	175.85	L1
+5	de#toute#façon	_	NOM	NOM	_	7	periph	_	_	175.86	176.22	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	176.31	176.34	L1
+7	est	être	VRB	VRB	_	3	para	_	_	176.35	176.67	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	176.68	176.75	L1
+9	est	être	VRB	VRB	_	7	para	_	_	176.76	176.87	L1
+10	toujours	toujours	ADV	ADV	_	9	dep	_	_	176.97	177.23	L1
+11	délicat	délicat	NOM	NOM	_	9	dep	_	_	177.24	177.71	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	177.72	177.95	L1
+13	de	de	PRE	PRE	_	12	para	_	_	177.96	178.05	L1
+14	savoir	savoir	VNF	VNF	_	13	dep	_	_	178.11	178.39	L1
+15	gérer	gérer	VNF	VNF	_	14	dep	_	_	178.40	178.64	L1
+16	ce	_	DET	DET	_	17	spe	_	_	178.65	178.69	L1
+17	genre	genre	NOM	NOM	_	15	dep	_	_	178.70	178.84	L1
+18	de	de	PRE	PRE	_	17	dep	_	_	178.85	178.87	L1
+19	chose	chose	NOM	NOM	_	18	dep	_	_	178.92	179.07	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-48
+# text = mais en~ entre une personne qui va voler euh à répétitions des euh des fruits et légumes ou on en sait rien et une personne qui va tuer euh je prends e~ je prends exprès hein les deux extrêmes quand même c' est-à-dire que euh un petit vol entre guillemets ridicule et une personne qui va tuer une personne une autre personne euh je veux dire il y a quand même une marge quoi
+1	mais	mais	COO	COO	_	41	mark	_	_	179.08	179.15	L1
+2	en~	_	PRE	PRE	_	41	periph	_	_	179.16	179.26	L1
+3	entre	entre	PRE	PRE	_	2	para	_	_	179.38	179.80	L1
+4	une	un	DET	DET	_	5	spe	_	_	180.03	180.16	L1
+5	personne	personne	NOM	NOM	_	3	dep	_	_	180.17	180.63	L1
+6	qui	_	PRQ	PRQ	_	7	subj	_	_	180.75	180.82	L1
+7	va	aller	VRB	VRB	_	5	dep	_	_	180.83	180.96	L1
+8	voler	voler	VNF	VNF	_	7	dep	_	_	180.97	181.53	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	182.00	182.03	L1
+10	à	à	PRE	PRE	_	8	dep	_	_	182.04	182.17	L1
+11	répétitions	répétition	NOM	NOM	_	10	dep	_	_	182.18	183.13	L1
+12	des	de	PRE	PRE	_	8	dep	_	_	183.14	183.19	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	183.20	183.23	L1
+14	des	de	PRE	PRE	_	12	para	_	_	183.24	183.34	L1
+15	fruits	fruit	NOM	NOM	_	14	dep	_	_	183.35	183.85	L1
+16	et	et	COO	COO	_	17	mark	_	_	183.94	184.04	L1
+17	légumes	légume	NOM	NOM	_	15	para	_	_	184.05	184.39	L1
+18	ou	ou	COO	COO	_	21	mark	_	_	184.40	184.44	L1
+19	on	on	CLS	CLS	_	21	subj	_	_	184.45	184.47	L1
+20	en	en	CLI	CLI	_	21	dep	_	_	184.48	184.65	L1
+21	sait	savoir	VRB	VRB	_	17	para	_	_	184.69	184.80	L1
+22	rien	rien	PRO	PRO	_	21	dep	_	_	184.81	185.15	L1
+23	et	et	COO	COO	_	25	mark	_	_	185.41	185.50	L1
+24	une	un	DET	DET	_	25	spe	_	_	185.51	185.56	L1
+25	personne	personne	NOM	NOM	_	5	para	_	_	185.57	185.89	L1
+26	qui	_	PRQ	PRQ	_	27	subj	_	_	185.95	186.02	L1
+27	va	aller	VRB	VRB	_	25	dep	_	_	186.03	186.15	L1
+28	tuer	tuer	VNF	VNF	_	27	dep	_	_	186.22	186.65	L1
+29	euh	euh	INT	INT	_	28	dm	_	_	186.66	186.71	L1
+30	je	je	CLS	CLS	_	31	subj	_	_	186.72	186.94	L1
+31	prends	prendre	VRB	VRB	_	41	parenth	_	_	187.14	187.24	L1
+32	e~	_	CLS	CLS	_	31	disflink	_	_	187.25	187.33	L1
+33	je	je	CLS	CLS	_	34	subj	_	_	187.34	187.36	L1
+34	prends	prendre	VRB	VRB	_	31	para	_	_	187.50	187.67	L1
+35	exprès	exprès	ADV	ADV	_	34	dep	_	_	187.68	188.63	L1
+36	hein	hein	INT	INT	_	35	dm	_	_	188.76	188.83	L1
+37	les	le	DET	DET	_	39	spe	_	_	188.84	189.31	L1
+38	deux	_	NUM	NUM	_	39	dep	_	_	189.32	189.43	L1
+39	extrêmes	extrême	NOM	NOM	_	34	dep	_	_	189.44	189.87	L1
+40	quand#même	quand même	ADV	ADV	_	34	dep	_	_	189.92	190.44	L1
+41	c'#est-à-dire#que	c' est-à-dire que	CSU	CSU	_	0	ROOT	_	_	190.45	190.95	L1
+42	euh	euh	INT	INT	_	41	dm	_	_	190.96	190.98	L1
+43	un	un	DET	DET	_	45	spe	_	_	190.99	191.24	L1
+44	petit	petit	ADJ	ADJ	_	45	dep	_	_	191.31	191.49	L1
+45	vol	vol	NOM	NOM	_	66	periph	_	_	191.50	191.89	L1
+46	entre	entre	PRE	PRE	_	45	dep	_	_	192.41	192.90	L1
+47	guillemets	guillemet	NOM	NOM	_	46	dep	_	_	192.91	193.16	L1
+48	ridicule	ridicule	ADJ	ADJ	_	47	dep	_	_	193.17	193.85	L1
+49	et	et	COO	COO	_	51	mark	_	_	193.91	194.02	L1
+50	une	un	DET	DET	_	51	spe	_	_	194.03	194.12	L1
+51	personne	personne	NOM	NOM	_	45	para	_	_	194.13	194.41	L1
+52	qui	_	PRQ	PRQ	_	53	subj	_	_	194.54	194.60	L1
+53	va	aller	VRB	VRB	_	51	dep	_	_	194.61	194.73	L1
+54	tuer	tuer	VNF	VNF	_	53	dep	_	_	194.74	194.99	L1
+55	une	un	DET	DET	_	56	spe	_	_	195.00	195.12	L1
+56	personne	personne	NOM	NOM	_	54	dep	_	_	195.13	195.59	L1
+57	une	un	DET	DET	_	59	spe	_	_	195.87	196.05	L1
+58	autre	autre	ADJ	ADJ	_	59	dep	_	_	196.17	196.27	L1
+59	personne	personne	NOM	NOM	_	56	para	_	_	196.28	196.47	L1
+60	euh	euh	INT	INT	_	59	dm	_	_	196.48	196.51	L1
+61	je	je	CLS	CLS	_	62	subj	_	_	197.14	197.60	L1
+62	veux	vouloir	VRB	VRB	_	60	dm	_	_	197.61	197.84	L1
+63	dire	dire	VNF	VNF	_	62	dep	_	_	197.85	198.30	L1
+64	il	il	CLS	CLS	_	66	subj	_	_	198.31	198.37	L1
+65	y	y	CLI	CLI	_	66	dep	_	_	198.38	198.44	L1
+66	a	avoir	VRB	VRB	_	41	dep	_	_	198.45	198.50	L1
+67	quand#même	quand même	ADV	ADV	_	66	dep	_	_	198.51	198.75	L1
+68	une	un	DET	DET	_	69	spe	_	_	198.76	198.81	L1
+69	marge	marge	NOM	NOM	_	66	dep	_	_	198.82	199.27	L1
+70	quoi	quoi	INT	INT	_	69	dm	_	_	199.40	199.50	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-49
+# text = hum hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	200.27	200.48	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	200.49	200.57	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-50
+# text = et peut-être que comme l'autre a fait des vols à répétitions et euh qu'il a accumulé aussi des choses alors au début c'était peut-être euh et ils lui ont fait peut-être un blâme ou je ne sais quoi ou euh
+1	et	et	COO	COO	_	3	mark	_	_	200.68	200.81	L1
+2	peut-être	peut-être	ADV	ADV	_	3	periph	_	_	200.82	201.57	L1
+3	que	que	CSU	CSU	_	0	ROOT	_	_	201.78	202.00	L1
+4	comme	comme	CSU	CSU	_	26	periph	_	_	202.01	202.23	L1
+5	l'	le	DET	DET	_	6	spe	_	_	202.24	202.26	L1
+6	autre	autre	NOM	NOM	_	8	subj	_	_	202.27	202.52	L1
+7	a	avoir	VRB	VRB	_	8	aux	_	_	202.53	202.65	L1
+8	fait	-	VPP	VPP	_	4	dep	_	_	202.66	202.79	L1
+9	des	de	PRE	PRE	_	8	dep	_	_	202.80	202.98	L1
+10	vols	vol	NOM	NOM	_	9	dep	_	_	202.99	203.19	L1
+11	à	à	PRE	PRE	_	8	dep	_	_	203.20	203.23	L1
+12	répétitions	répétition	NOM	NOM	_	11	dep	_	_	203.24	203.92	L1
+13	et	et	COO	COO	_	15	mark	_	_	204.43	204.51	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	204.52	204.56	L1
+15	qu'	que	CSU	CSU	_	3	para	_	_	204.57	204.59	L1
+16	il	il	CLS	CLS	_	18	subj	_	_	204.60	204.72	L1
+17	a	avoir	VRB	VRB	_	18	aux	_	_	204.73	204.93	L1
+18	accumulé	accumuler	VPP	VPP	_	15	dep	_	_	204.94	205.45	L1
+19	aussi	aussi	ADV	ADV	_	18	dep	_	_	205.46	205.80	L1
+20	des	de	PRE	PRE	_	18	dep	_	_	205.81	205.86	L1
+21	choses	chose	NOM	NOM	_	20	dep	_	_	205.87	206.04	L1
+22	alors	alors	ADV	ADV	_	26	periph	_	_	206.05	206.27	L1
+23	au	à	PRE	PRE	_	26	periph	_	_	206.28	206.33	L1
+24	début	début	NOM	NOM	_	23	dep	_	_	206.34	206.57	L1
+25	c'	ce	CLS	CLS	_	26	subj	_	_	206.76	206.79	L1
+26	était	être	VRB	VRB	_	3	dep	_	_	206.80	207.00	L1
+27	peut-être	peut-être	ADV	ADV	_	26	dep	_	_	207.01	207.29	L1
+28	euh	euh	INT	INT	_	27	dm	_	_	207.30	207.33	L1
+29	et	et	COO	COO	_	33	mark	_	_	207.68	207.80	L1
+30	ils	il	CLS	CLS	_	33	subj	_	_	207.81	207.97	L1
+31	lui	lui	CLI	CLI	_	33	dep	_	_	207.98	208.03	L1
+32	ont	avoir	VRB	VRB	_	33	aux	_	_	208.04	208.13	L1
+33	fait	-	VPP	VPP	_	26	para	_	_	208.20	208.30	L1
+34	peut-être	peut-être	ADV	ADV	_	33	dep	_	_	208.31	208.54	L1
+35	un	un	DET	DET	_	36	spe	_	_	208.55	208.70	L1
+36	blâme	blâme	NOM	NOM	_	33	dep	_	_	208.71	208.99	L1
+37	ou	ou	COO	COO	_	40	mark	_	_	209.00	209.03	L1
+38	je	je	CLS	CLS	_	40	subj	_	_	209.04	209.13	L1
+39	ne	ne	CLN	CLN	_	40	dep	_	_	209.19	209.21	L1
+40	sais	savoir	VRB	VRB	_	36	para	_	_	209.27	209.42	L1
+41	quoi	quoi	PRO	PRO	_	40	dm	_	_	209.46	209.75	L1
+42	ou	ou	COO	COO	_	41	disflink	_	_	209.76	210.09	L1
+43	euh	euh	INT	INT	_	42	dm	_	_	210.10	210.22	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-51
+# text = c'est comment déjà euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	210.50	210.53	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	210.54	210.59	L1
+3	comment	comment	PRQ	PRQ	_	2	dep	_	_	210.63	210.78	L1
+4	déjà	déjà	ADV	ADV	_	2	dep	_	_	210.83	211.05	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	211.10	211.12	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-52
+# text = je me souviens plus
+1	je	je	CLS	CLS	_	3	subj	_	_	211.13	211.16	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	211.21	211.23	L1
+3	souviens	_	VRB	VRB	_	0	ROOT	_	_	211.39	211.59	L1
+4	plus	plus	ADN	ADN	_	3	dep	_	_	211.73	211.81	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-53
+# text = une amende
+1	une	un	DET	DET	_	2	spe	_	_	212.43	212.51	L2
+2	amende	amende	NOM	NOM	_	0	ROOT	_	_	212.52	212.79	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-54
+# text = oui oui mais il y a pas que les amendes
+1	oui	oui	INT	INT	_	6	dm	_	_	213.05	213.10	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	213.37	213.50	L1
+3	mais	mais	COO	COO	_	6	mark	_	_	213.58	213.72	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	213.73	213.78	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	213.79	213.82	L1
+6	a	avoir	VRB	VRB	_	0	ROOT	_	_	213.83	213.86	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	213.90	214.04	L1
+8	que	que	ADN	ADN	_	6	dep	_	_	214.05	214.15	L1
+9	les	le	DET	DET	_	10	spe	_	_	214.16	214.31	L1
+10	amendes	amende	NOM	NOM	_	6	dep	_	_	214.32	214.59	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-55
+# text = il y a aussi un
+1	il	il	CLS	CLS	_	3	subj	_	_	214.60	214.65	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	214.66	214.70	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	214.71	214.73	L1
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	214.79	214.98	L1
+5	un	un	DET	DET	_	4	disflink	_	_	214.99	215.02	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-56
+# text = sur le dossier c'est marqué quoi
+1	sur	sur	PRE	PRE	_	6	periph	_	_	215.24	215.37	L1
+2	le	le	DET	DET	_	3	spe	_	_	215.38	215.40	L1
+3	dossier	dossier	NOM	NOM	_	1	dep	_	_	215.44	215.67	L1
+4	c'	ce	CLS	CLS	_	6	subj	_	_	215.68	215.78	L1
+5	est	être	VRB	VRB	_	6	aux	_	_	215.79	215.86	L1
+6	marqué	marquer	VPP	VPP	_	0	ROOT	_	_	215.97	216.32	L1
+7	quoi	quoi	INT	INT	_	6	dm	_	_	216.38	216.47	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-57
+# text = ben sur le casier judiciaire
+1	ben	ben	INT	INT	_	2	dm	_	_	216.70	216.86	L2
+2	sur	sur	PRE	PRE	_	0	ROOT	_	_	216.97	217.05	L2
+3	le	le	DET	DET	_	4	spe	_	_	217.06	217.08	L2
+4	casier	casier	NOM	NOM	_	2	dep	_	_	217.09	217.25	L2
+5	judiciaire	judiciaire	ADJ	ADJ	_	4	dep	_	_	217.26	218.05	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-58
+# text = voilà ils ouvrent un casier
+1	voilà	voilà	INT	INT	_	3	dm	_	_	218.11	218.29	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	218.51	218.64	L1
+3	ouvrent	ouvrer	VRB	VRB	_	0	ROOT	_	_	218.65	218.79	L1
+4	un	un	DET	DET	_	5	spe	_	_	218.80	218.87	L1
+5	casier	casier	NOM	NOM	_	3	dep	_	_	218.92	219.27	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-59
+# text = donc euh de toute façon forcément il y a un début
+1	donc	donc	ADV	ADV	_	7	periph	_	_	219.34	219.42	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	219.54	219.57	L1
+3	de#toute#façon	de toute façon	ADV	ADV	_	7	periph	_	_	219.80	220.11	L1
+4	forcément	forcément	ADV	ADV	_	7	periph	_	_	220.20	220.81	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	220.82	220.87	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	221.29	221.35	L1
+7	a	avoir	VRB	VRB	_	0	ROOT	_	_	221.36	221.38	L1
+8	un	un	DET	DET	_	9	spe	_	_	221.39	221.48	L1
+9	début	début	NOM	NOM	_	7	dep	_	_	221.49	221.69	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-60
+# text = et puis il y a au au bout d'un moment où tu accumules euh i~
+1	et#puis	et puis	COO	COO	_	4	mark	_	_	221.70	221.90	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	221.91	221.93	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	221.94	221.97	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	221.98	222.00	L1
+5	au	à	PRE	PRE	_	4	dep	_	_	222.04	222.10	L1
+6	au#bout#d'	au bout de	PRE	PRE	_	5	para	_	_	222.23	222.66	L1
+7	un	un	DET	DET	_	8	spe	_	_	222.67	222.73	L1
+8	moment	moment	NOM	NOM	_	6	dep	_	_	222.74	223.05	L1
+9	où	où	PRQ	PRQ	_	11	dep	_	_	223.06	223.15	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	223.16	223.30	L1
+11	accumules	accumuler	VRB	VRB	_	8	dep	_	_	223.31	223.69	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	223.70	223.84	L1
+13	i~	_	X	X	_	12	disflink	_	_	224.31	224.93	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-61
+# text = il en vient presque à avoir quasiment la même peine
+1	il	il	CLS	CLS	_	3	subj	_	_	224.94	225.35	L1
+2	en	en	CLI	CLI	_	3	dep	_	_	225.36	225.47	L1
+3	vient	venir	VRB	VRB	_	0	ROOT	_	_	225.48	225.77	L1
+4	presque	presque	ADV	ADV	_	3	dep	_	_	225.78	226.07	L1
+5	à	à	PRE	PRE	_	3	dep	_	_	226.08	226.17	L1
+6	avoir	avoir	VNF	VNF	_	5	dep	_	_	226.18	226.38	L1
+7	quasiment	quasiment	ADV	ADV	_	6	dep	_	_	226.39	226.70	L1
+8	la	le	DET	DET	_	10	spe	_	_	226.71	226.79	L1
+9	même	même	ADJ	ADJ	_	10	dep	_	_	226.80	226.92	L1
+10	peine	peine	NOM	NOM	_	6	dep	_	_	227.02	227.23	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-62
+# text = j'exagère peut-être les choses
+1	j'	je	CLS	CLS	_	2	subj	_	_	227.24	227.31	L1
+2	exagère	exagérer	VRB	VRB	_	0	ROOT	_	_	227.32	227.73	L1
+3	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	227.80	228.06	L1
+4	les	le	DET	DET	_	5	spe	_	_	228.07	228.21	L1
+5	choses	chose	NOM	NOM	_	2	dep	_	_	228.22	228.41	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-63
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	228.47	228.66	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-64
+# text = je caricature
+1	je	je	CLS	CLS	_	2	subj	_	_	228.72	228.82	L1
+2	caricature	caricaturer	VRB	VRB	_	0	ROOT	_	_	228.96	229.50	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-65
+# text = mais ça n'empêche que c'est ça qui me qui peut-être me gêne un peu quoi tu vois )
+1	mais	mais	COO	COO	_	4	mark	_	_	229.56	229.61	L1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	229.66	229.75	L1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	229.76	229.78	L1
+4	empêche	empêcher	VRB	VRB	_	0	ROOT	_	_	229.79	230.01	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	230.09	230.28	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	230.52	230.55	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	230.56	230.58	L1
+8	ça	ça	PRO	PRO	_	7	dep	_	_	230.65	230.77	L1
+9	qui	_	PRQ	PRQ	_	8	disflink	_	_	230.85	230.93	L1
+10	me	me	CLI	CLI	_	9	disflink	_	_	230.94	231.34	L1
+11	qui	_	PRQ	PRQ	_	14	subj	_	_	231.43	231.50	L1
+12	peut-être	peut-être	ADV	ADV	_	14	dep	_	_	231.59	231.88	L1
+13	me	me	CLI	CLI	_	14	dep	_	_	231.89	232.00	L1
+14	gêne	gêne	NOM	NOM	_	8	dep	_	_	232.01	232.21	L1
+15	un#peu	un peu	ADV	ADV	_	14	dep	_	_	232.22	232.63	L1
+16	quoi	quoi	INT	INT	_	15	dm	_	_	232.69	232.81	L1
+17	tu	tu	CLS	CLS	_	18	subj	_	_	232.86	232.91	L1
+18	vois	voir	VRB	VRB	_	16	dm	_	_	232.96	233.07	L1
+19	)	_	X	X	_	18	disflink	_	_	233.07	233.07	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-66
+# text = ben
+1	ben	ben	INT	INT	_	0	ROOT	_	_	234.11	234.49	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-67
+# text = l'enfermement
+1	l'	le	DET	DET	_	2	spe	_	_	234.61	234.63	L1
+2	enfermement	enfermement	NOM	NOM	_	0	ROOT	_	_	234.64	235.34	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-68
+# text = pourquoi venir à l'enfermement alors qu'on pourrait l'éviter
+1	pourquoi	pourquoi	PRQ	PRQ	_	2	dep	_	_	235.35	235.66	L1
+2	venir	venir	VNF	VNF	_	0	ROOT	_	_	235.67	236.00	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	236.01	236.05	L1
+4	l'	le	DET	DET	_	5	spe	_	_	236.06	236.08	L1
+5	enfermement	enfermement	NOM	NOM	_	3	dep	_	_	236.09	236.46	L1
+6	alors	alors	ADV	ADV	_	2	dep	_	_	236.47	236.58	L1
+7	qu'	que	CSU	CSU	_	6	morph	_	_	236.59	236.61	L1
+8	on	on	CLS	CLS	_	9	subj	_	_	236.62	236.64	L1
+9	pourrait	pouvoir	VRB	VRB	_	7	dep	_	_	236.65	236.76	L1
+10	l'	le	CLI	CLI	_	11	dep	_	_	236.77	236.79	L1
+11	éviter	éviter	VNF	VNF	_	9	dep	_	_	236.80	236.97	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-69
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	237.12	237.52	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-70
+# text = mais je sais pas si tu as vu
+1	mais	mais	COO	COO	_	3	mark	_	_	237.58	237.63	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	237.78	237.86	L2
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	237.87	237.92	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	237.93	238.03	L2
+5	si	si	CSU	CSU	_	3	dep	_	_	238.04	238.09	L2
+6	tu	tu	CLS	CLS	_	8	subj	_	_	238.10	238.16	L2
+7	as	avoir	VRB	VRB	_	8	aux	_	_	238.17	238.19	L2
+8	vu	voir	VPP	VPP	_	5	dep	_	_	238.20	238.46	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-71
+# text = il y a la la comment s'appelle la loi là enfin sur la récidive là des peines-plancher carrément aujourd' hui
+1	il	il	CLS	CLS	_	3	subj	_	_	238.47	238.59	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	238.60	238.62	L2
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	238.63	238.65	L2
+4	la	le	DET	DET	_	3	dep	_	_	238.66	238.71	L2
+5	la	le	DET	DET	_	4	para	_	_	238.84	238.89	L2
+6	comment	comment	PRQ	PRQ	_	8	dep	_	_	239.50	239.63	L2
+7	s'	se	CLI	CLI	_	8	dep	_	_	239.64	239.70	L2
+8	appelle	appeler	VRB	VRB	_	3	para	_	_	239.71	239.93	L2
+9	la	le	DET	DET	_	10	spe	_	_	239.99	240.06	L2
+10	loi	loi	NOM	NOM	_	8	subj	_	_	240.21	240.46	L2
+11	là	là	ADV	ADV	_	8	dep	_	_	240.47	240.61	L2
+12	enfin	enfin	ADV	ADV	_	11	dm	_	_	240.62	240.70	L2
+13	sur	sur	PRE	PRE	_	8	dep	_	_	241.01	241.12	L2
+14	la	le	DET	DET	_	15	spe	_	_	241.13	241.19	L2
+15	récidive	récidive	NOM	NOM	_	13	dep	_	_	241.41	241.78	L2
+16	là	là	ADV	ADV	_	15	dep	_	_	241.79	241.85	L2
+17	des	de	PRE	PRE	_	15	dep	_	_	242.29	242.36	L2
+18	peines-plancher	_	VNF	VNF	_	17	dep	_	_	242.37	243.32	L2
+19	carrément	carrément	ADV	ADV	_	18	dep	_	_	243.37	243.64	L2
+20	aujourd'#hui	aujourd'hui	ADV	ADV	_	18	dep	_	_	244.21	244.59	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-72
+# text = c' est-à-dire qu'à du moment où tu as commis deux fois par exemple le même délit ou le même crime exactement tu as dix ans euh ferme
+1	c'#est-à-dire#qu'	c' est-à-dire qu'	CSU	CSU	_	0	ROOT	_	_	245.32	245.60	L2
+2	à	à	PRE	PRE	_	1	disflink	_	_	245.61	245.63	L2
+3	du	_	PRE	PRE	_	22	periph	_	_	245.64	245.69	L2
+4	moment	moment	NOM	NOM	_	3	dep	_	_	245.70	246.00	L2
+5	où	où	PRQ	PRQ	_	8	dep	_	_	246.01	246.09	L2
+6	tu	tu	CLS	CLS	_	8	subj	_	_	246.16	246.22	L2
+7	as	avoir	VRB	VRB	_	8	aux	_	_	246.23	246.31	L2
+8	commis	commettre	VPP	VPP	_	4	dep	_	_	246.32	246.51	L2
+9	deux	_	NUM	NUM	_	10	spe	_	_	246.57	246.67	L2
+10	fois	foi	NOM	NOM	_	8	dep	_	_	246.74	246.84	L2
+11	par	par	PRE	PRE	_	8	dep	_	_	246.85	246.93	L2
+12	exemple	exemple	NOM	NOM	_	11	dep	_	_	246.94	247.17	L2
+13	le	le	DET	DET	_	15	spe	_	_	247.53	247.58	L2
+14	même	même	ADJ	ADJ	_	15	dep	_	_	247.59	247.76	L2
+15	délit	délit	NOM	NOM	_	8	dep	_	_	247.77	248.00	L2
+16	ou	ou	COO	COO	_	19	mark	_	_	248.01	248.03	L2
+17	le	le	DET	DET	_	19	spe	_	_	248.04	248.06	L2
+18	même	même	ADJ	ADJ	_	19	dep	_	_	248.07	248.16	L2
+19	crime	crime	NOM	NOM	_	15	para	_	_	248.25	248.44	L2
+20	exactement	exactement	ADV	ADV	_	22	periph	_	_	248.45	249.02	L2
+21	tu	tu	CLS	CLS	_	22	subj	_	_	249.03	249.08	L2
+22	as	avoir	VRB	VRB	_	1	dep	_	_	249.09	249.19	L2
+23	dix	_	NUM	NUM	_	24	spe	_	_	249.33	249.47	L2
+24	ans	an	NOM	NOM	_	22	dep	_	_	249.48	249.79	L2
+25	euh	euh	INT	INT	_	24	dm	_	_	249.80	249.82	L2
+26	ferme	ferme	ADJ	ADJ	_	24	dep	_	_	249.83	250.07	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-73
+# text = oui ben voilà
+1	oui	oui	INT	INT	_	0	ROOT	_	_	250.61	250.73	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	250.74	250.87	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	250.88	251.10	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-74
+# text = c'est imposé quoi
+1	c'	ce	CLS	CLS	_	3	subj	_	_	251.29	251.31	L2
+2	est	être	VRB	VRB	_	3	aux	_	_	251.32	251.34	L2
+3	imposé	imposer	VPP	VPP	_	0	ROOT	_	_	251.35	251.75	L2
+4	quoi	quoi	INT	INT	_	3	dm	_	_	251.76	251.86	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-75
+# text = tu as même plus le choix
+1	tu	tu	CLS	CLS	_	2	subj	_	_	251.87	251.93	L2
+2	as	avoir	VRB	VRB	_	0	ROOT	_	_	251.94	251.96	L2
+3	même	même	ADV	ADV	_	4	dep	_	_	251.97	252.05	L2
+4	plus	plus	ADV	ADV	_	2	dep	_	_	252.06	252.16	L2
+5	le	le	DET	DET	_	6	spe	_	_	252.17	252.19	L2
+6	choix	choix	NOM	NOM	_	2	dep	_	_	252.20	252.42	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-76
+# text = ben voilà
+1	ben	ben	INT	INT	_	2	dm	_	_	252.79	252.90	L1
+2	voilà	voilà	INT	INT	_	0	ROOT	_	_	252.91	253.21	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-77
+# text = donc on en vient à ce débat-là
+1	donc	donc	ADV	ADV	_	4	periph	_	_	253.30	253.48	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	253.49	253.64	L1
+3	en	en	CLI	CLI	_	4	dep	_	_	253.65	253.71	L1
+4	vient	venir	VRB	VRB	_	0	ROOT	_	_	253.72	254.01	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	254.02	254.04	L1
+6	ce	_	DET	DET	_	7	spe	_	_	254.11	254.20	L1
+7	débat-là	_	NOM	NOM	_	5	dep	_	_	254.21	254.56	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-78
+# text = Sarkozy
+1	Sarkozy	Nicolas Sarkozy	NOM	NOM	_	0	ROOT	_	_	254.73	255.08	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-79
+# text = ben oui
+1	ben	ben	INT	INT	_	0	ROOT	_	_	255.18	255.46	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	255.47	255.53	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-80
+# text = ben oui
+1	ben	ben	INT	INT	_	0	ROOT	_	_	256.22	256.42	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	256.43	256.51	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-81
+# text = d'où l'agrandissement des prisons pour mettre encore plus de monde
+1	d'	de	PRE	PRE	_	0	ROOT	_	_	256.84	256.86	L2
+2	où	où	PRQ	PRQ	_	1	dep	_	_	256.91	256.99	L2
+3	l'	le	DET	DET	_	4	spe	_	_	257.00	257.05	L2
+4	agrandissement	agrandissement	NOM	NOM	_	1	dep	_	_	257.06	257.47	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	257.48	257.63	L2
+6	prisons	prison	NOM	NOM	_	5	dep	_	_	257.64	257.84	L2
+7	pour	pour	PRE	PRE	_	4	dep	_	_	257.90	258.06	L2
+8	mettre	mettre	VNF	VNF	_	7	dep	_	_	258.07	258.18	L2
+9	encore	encore	ADV	ADV	_	10	dep	_	_	258.22	258.37	L2
+10	plus	plus	ADV	ADV	_	8	dep	_	_	258.67	258.78	L2
+11	de	de	PRE	PRE	_	8	dep	_	_	258.90	259.06	L2
+12	monde	monde	NOM	NOM	_	11	dep	_	_	259.07	259.30	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-82
+# text = c'est un prétexte souci quoi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	259.40	259.42	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	259.43	259.45	L2
+3	un	un	DET	DET	_	4	spe	_	_	259.46	259.49	L2
+4	prétexte	prétexte	NOM	NOM	_	2	dep	_	_	259.61	259.88	L2
+5	souci	souci	NOM	NOM	_	4	dep	_	_	262.06	262.26	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	263.34	263.42	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-83
+# text = et toi qu'est-ce que tu penses pour améliorer les conditions euh de dignité en prison pour les détenus
+1	et	et	COO	COO	_	3	mark	_	_	263.43	263.47	L2
+2	toi	moi	PRO	PRO	_	3	periph	_	_	263.48	263.56	L2
+3	qu'est-ce que	qu'est-ce que	CSU	CSU	_	0	ROOT	_	_	263.57	263.71	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	263.72	263.98	L2
+5	penses	penser	VRB	VRB	_	3	dep	_	_	264.04	264.28	L2
+6	pour	pour	PRE	PRE	_	5	dep	_	_	264.40	264.51	L2
+7	améliorer	améliorer	VNF	VNF	_	6	dep	_	_	264.52	264.86	L2
+8	les	le	DET	DET	_	9	spe	_	_	264.87	264.92	L2
+9	conditions	condition	NOM	NOM	_	7	dep	_	_	264.93	265.44	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	265.45	265.49	L2
+11	de	de	PRE	PRE	_	9	dep	_	_	265.50	265.52	L2
+12	dignité	dignité	NOM	NOM	_	11	dep	_	_	265.84	266.34	L2
+13	en	en	PRE	PRE	_	7	dep	_	_	266.35	266.44	L2
+14	prison	prison	NOM	NOM	_	13	dep	_	_	266.74	266.99	L2
+15	pour	pour	PRE	PRE	_	7	dep	_	_	267.17	267.29	L2
+16	les	le	DET	DET	_	17	spe	_	_	267.34	267.43	L2
+17	détenus	détenu	NOM	NOM	_	15	dep	_	_	267.44	267.60	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-84
+# text = qu'est-ce que tu crois qu'il faudrait modifier au niveau de la structure des prisons
+1	qu'est-ce que	qu'est-ce que	CSU	CSU	_	0	ROOT	_	_	267.61	268.32	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	268.33	268.46	L2
+3	crois	croire	VRB	VRB	_	1	dep	_	_	268.51	268.73	L2
+4	qu'	que	CSU	CSU	_	3	dep	_	_	268.74	268.82	L2
+5	il	il	CLS	CLS	_	6	subj	_	_	268.83	268.88	L2
+6	faudrait	falloir	VRB	VRB	_	4	dep	_	_	268.89	269.08	L2
+7	modifier	modifier	VNF	VNF	_	6	dep	_	_	269.09	269.40	L2
+8	au	à	PRE	PRE	_	7	dep	_	_	269.41	269.43	L2
+9	niveau	niveau	NOM	NOM	_	8	dep	_	_	269.44	269.67	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	269.68	269.80	L2
+11	la	le	DET	DET	_	12	spe	_	_	269.81	269.86	L2
+12	structure	structure	NOM	NOM	_	10	dep	_	_	269.87	270.20	L2
+13	des	de	PRE	PRE	_	12	dep	_	_	270.21	270.27	L2
+14	prisons	prison	NOM	NOM	_	13	dep	_	_	270.41	270.64	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-85
+# text = d'un point de vue architectural
+1	d'	de	PRE	PRE	_	0	ROOT	_	_	271.36	271.38	L1
+2	un	un	DET	DET	_	3	spe	_	_	271.39	271.47	L1
+3	point	point	NOM	NOM	_	1	dep	_	_	271.48	271.57	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	271.58	271.66	L1
+5	vue	vue	NOM	NOM	_	4	dep	_	_	271.67	271.74	L1
+6	architectural	architectural	ADJ	ADJ	_	3	dep	_	_	271.75	272.43	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-86
+# text = ouais ben ouais je sais pas
+1	ouais	ouais	INT	INT	_	5	dm	_	_	272.49	272.58	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	272.59	272.86	L2
+3	ouais	ouais	INT	INT	_	2	dm	_	_	272.87	272.92	L2
+4	je	je	CLS	CLS	_	5	subj	_	_	273.01	273.03	L2
+5	sais	savoir	VRB	VRB	_	0	ROOT	_	_	273.16	273.21	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	273.22	273.36	L2
+
+# sent_id = cefc-tcof-Pri_mam_06-87
+# text = ben ça après je euh faudrait voir euh voir ce qui est présenté déjà
+1	ben	ben	INT	INT	_	6	dm	_	_	274.23	274.47	L1
+2	ça	ça	PRO	PRO	_	6	periph	_	_	274.48	274.71	L1
+3	après	après	PRE	PRE	_	6	periph	_	_	274.72	274.88	L1
+4	je	je	CLS	CLS	_	3	disflink	_	_	274.89	275.42	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	275.47	275.49	L1
+6	faudrait	falloir	VRB	VRB	_	0	ROOT	_	_	275.80	276.04	L1
+7	voir	voir	VNF	VNF	_	6	dep	_	_	276.05	276.62	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	276.63	276.65	L1
+9	voir	voir	VNF	VNF	_	7	para	_	_	277.05	277.41	L1
+10	ce	ce	PRO	PRO	_	9	dep	_	_	277.42	277.44	L1
+11	qui	_	PRQ	PRQ	_	13	subj	_	_	277.50	277.57	L1
+12	est	être	VRB	VRB	_	13	aux	_	_	277.58	277.67	L1
+13	présenté	présenter	VPP	VPP	_	10	dep	_	_	277.68	278.17	L1
+14	déjà	déjà	ADV	ADV	_	13	dep	_	_	278.18	278.43	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-88
+# text = moi j'ai pas fait assez d'analyses là-dessus pour pouvoir en discuter
+1	moi	moi	PRO	PRO	_	5	periph	_	_	279.30	279.44	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	279.45	279.48	L1
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	279.49	279.55	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	279.56	279.71	L1
+5	fait	-	VPP	VPP	_	0	ROOT	_	_	279.72	279.94	L1
+6	assez	assez	ADV	ADV	_	5	dep	_	_	279.95	280.07	L1
+7	d'	de	PRE	PRE	_	5	dep	_	_	280.08	280.10	L1
+8	analyses	analyse	NOM	NOM	_	7	dep	_	_	280.11	280.57	L1
+9	là-dessus	là-dessus	ADV	ADV	_	5	dep	_	_	280.58	280.97	L1
+10	pour	pour	PRE	PRE	_	5	dep	_	_	280.98	281.06	L1
+11	pouvoir	pouvoir	VNF	VNF	_	10	dep	_	_	281.15	281.35	L1
+12	en	en	PRE	PRE	_	11	dep	_	_	281.36	281.59	L1
+13	discuter	discuter	VNF	VNF	_	12	dep	_	_	281.60	282.25	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-89
+# text = j'ai pas assez observé les bâtiments de prisons
+1	j'	je	CLS	CLS	_	5	subj	_	_	282.26	282.29	L1
+2	ai	avoir	VRB	VRB	_	5	aux	_	_	282.30	282.37	L1
+3	pas	pas	ADN	ADN	_	5	dep	_	_	282.38	282.61	L1
+4	assez	assez	ADV	ADV	_	5	dep	_	_	282.69	282.90	L1
+5	observé	observer	VPP	VPP	_	0	ROOT	_	_	282.98	283.43	L1
+6	les	le	DET	DET	_	7	spe	_	_	283.44	283.54	L1
+7	bâtiments	bâtiment	NOM	NOM	_	5	dep	_	_	283.55	283.91	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	283.92	283.94	L1
+9	prisons	prison	NOM	NOM	_	8	dep	_	_	284.06	284.23	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-90
+# text = en tout cas dans le milieu carcéral en général
+1	en#tout#cas	en tout cas	ADV	ADV	_	2	periph	_	_	284.24	284.92	L1
+2	dans	dans	PRE	PRE	_	0	ROOT	_	_	284.93	284.98	L1
+3	le	le	DET	DET	_	4	spe	_	_	284.99	285.02	L1
+4	milieu	milieu	NOM	NOM	_	2	dep	_	_	285.03	285.25	L1
+5	carcéral	carcéral	ADJ	ADJ	_	4	dep	_	_	285.26	285.91	L1
+6	en#général	_	ADV	ADV	_	2	dep	_	_	285.92	286.45	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-91
+# text = c'est euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	286.95	286.98	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	286.99	287.71	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	287.75	287.79	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-92
+# text = mais euh tu sais pour moi une prison
+1	mais	mais	COO	COO	_	4	mark	_	_	287.90	288.14	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	288.22	288.24	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	288.25	288.37	L1
+4	sais	savoir	VRB	VRB	_	0	ROOT	_	_	288.45	288.60	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	288.61	288.82	L1
+6	moi	moi	PRO	PRO	_	5	dep	_	_	288.83	289.05	L1
+7	une	un	DET	DET	_	8	spe	_	_	289.06	289.11	L1
+8	prison	prison	NOM	NOM	_	4	dep	_	_	289.31	289.60	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-93
+# text = même quand on parle tu sais de euh pour les enfants de euh de milieu ouvert ou de milieu fermé tu vois où euh on va on va mettre des jeu~ des enfants dans des dans des foyers euh qui sont clôturés tout autour
+1	même	même	ADV	ADV	_	2	dep	_	_	290.03	290.32	L1
+2	quand	quand	CSU	CSU	_	22	periph	_	_	290.38	290.89	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	290.90	291.01	L1
+4	parle	parler	VRB	VRB	_	2	dep	_	_	291.09	291.41	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	291.42	291.50	L1
+6	sais	savoir	VRB	VRB	_	4	dm	_	_	291.51	291.78	L1
+7	de	de	PRE	PRE	_	4	dep	_	_	291.79	292.22	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	292.27	292.32	L1
+9	pour	pour	PRE	PRE	_	7	para	_	_	292.33	292.56	L1
+10	les	le	DET	DET	_	11	spe	_	_	292.57	292.76	L1
+11	enfants	enfant	NOM	NOM	_	9	dep	_	_	292.77	293.25	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	293.33	293.76	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	294.47	294.65	L1
+14	de	de	PRE	PRE	_	12	para	_	_	294.66	294.80	L1
+15	milieu	milieu	NOM	NOM	_	14	dep	_	_	294.81	295.13	L1
+16	ouvert	ouvert	ADJ	ADJ	_	15	dep	_	_	295.14	295.55	L1
+17	ou	ou	COO	COO	_	18	mark	_	_	295.56	295.58	L1
+18	de	de	PRE	PRE	_	14	para	_	_	295.59	295.68	L1
+19	milieu	milieu	NOM	NOM	_	18	dep	_	_	295.69	296.01	L1
+20	fermé	fermé	ADJ	ADJ	_	19	dep	_	_	296.05	296.60	L1
+21	tu	tu	CLS	CLS	_	22	subj	_	_	296.61	296.68	L1
+22	vois	voir	VRB	VRB	_	0	ROOT	_	_	296.69	296.93	L1
+23	où	où	PRQ	PRQ	_	26	dep	_	_	296.94	296.96	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	296.97	296.99	L1
+25	on	on	CLS	CLS	_	26	subj	_	_	297.00	297.28	L1
+26	va	aller	VRB	VRB	_	22	dep	_	_	297.66	298.04	L1
+27	on	on	CLS	CLS	_	28	subj	_	_	298.05	298.19	L1
+28	va	aller	VRB	VRB	_	26	para	_	_	298.20	298.30	L1
+29	mettre	mettre	VNF	VNF	_	28	dep	_	_	298.31	298.67	L1
+30	des	de	PRE	PRE	_	29	dep	_	_	298.68	298.79	L1
+31	jeu~	_	NOM	NOM	_	30	disflink	_	_	298.80	298.99	L1
+32	des	de	PRE	PRE	_	30	para	_	_	299.00	299.17	L1
+33	enfants	enfant	NOM	NOM	_	32	dep	_	_	299.18	299.48	L1
+34	dans	dans	PRE	PRE	_	29	dep	_	_	299.49	299.61	L1
+35	des	de	PRE	PRE	_	34	disflink	_	_	299.70	299.91	L1
+36	dans	dans	PRE	PRE	_	34	para	_	_	299.92	300.01	L1
+37	des	de	PRE	PRE	_	36	dep	_	_	300.05	300.17	L1
+38	foyers	foyer	NOM	NOM	_	37	dep	_	_	300.18	300.79	L1
+39	euh	euh	INT	INT	_	38	dm	_	_	301.24	301.44	L1
+40	qui	_	PRQ	PRQ	_	42	subj	_	_	301.45	301.50	L1
+41	sont	être	VRB	VRB	_	42	aux	_	_	301.62	301.85	L1
+42	clôturés	clôturer	VPP	VPP	_	38	dep	_	_	301.92	302.44	L1
+43	tout	tout	ADV	ADV	_	44	dep	_	_	302.45	302.50	L1
+44	autour	autour	ADV	ADV	_	42	dep	_	_	302.57	302.93	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-94
+# text = et ils ont pas le droit de sortir
+1	et	et	COO	COO	_	3	mark	_	_	302.94	302.97	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	302.98	303.04	L1
+3	ont	avoir	VRB	VRB	_	0	ROOT	_	_	303.05	303.11	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	303.12	303.23	L1
+5	le	le	DET	DET	_	6	spe	_	_	303.24	303.26	L1
+6	droit	droit	NOM	NOM	_	3	dep	_	_	303.27	303.39	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	303.40	303.42	L1
+8	sortir	sortir	VNF	VNF	_	7	dep	_	_	303.49	303.76	L1
+
+# sent_id = cefc-tcof-Pri_mam_06-95
+# text = pour moi ça c'est aussi une prison
+1	pour	pour	PRE	PRE	_	5	periph	_	_	303.81	303.93	L1
+2	moi	moi	PRO	PRO	_	1	dep	_	_	303.94	304.05	L1
+3	ça	ça	PRO	PRO	_	5	periph	_	_	304.12	304.19	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	304.26	304.28	L1
+5	est	être	VRB	VRB	_	0	ROOT	_	_	304.29	304.31	L1
+6	aussi	aussi	ADV	ADV	_	5	dep	_	_	304.32	304.45	L1
+7	une	un	DET	DET	_	8	spe	_	_	304.51	304.57	L1
+8	prison	prison	NOM	NOM	_	5	dep	_	_	304.70	304.97	L1
+

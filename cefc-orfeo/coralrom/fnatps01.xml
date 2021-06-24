@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>fnatps01</title>
+        <respStmt>
+          <resp>Responsables du corpus</resp>
+          <name>Cresti</name>
+          <name>Moneglia</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word">2988</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>projet Orfeo</publisher>
+        <pubPlace>http://projet-orfeo.fr</pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon">son bas</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>fichier <name>fnatps01</name> du corpus/projet <name>CORALROM</name>
+        </bibl>
+        <recordingStmt>
+          <recording type="audio" dur="00:19:30" ana="#peu_bruité #NULL #script Daniel Hirst">
+            <date>00/02/2002</date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p>élections cantonales</p>
+      </abstract>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+      <textClass>
+        <catRef target="discours" corresp="type"/>
+        <catRef target="professionnel" corresp="secteur"/>
+        <catRef target="politique" corresp="milieu"/>
+        <catRef target="en_public" corresp="channel"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p>France, PACA, Marseille</p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="JOS">
+            <sex>M</sex>
+            <age>21-60</age>
+            <education>études supérieures</education>
+            <birth>
+              <placeName>France, PACA, Gap</placeName>
+            </birth>
+            <occupation>enseignant-chercheur</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="LUC">
+            <sex>M</sex>
+            <age>61+</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>France, PACA, Marseille</placeName>
+            </birth>
+            <occupation>politicien</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="MAR">
+            <sex>M</sex>
+            <age>61+</age>
+            <education>lycée</education>
+            <birth>
+              <placeName>France, PACA, Marseille</placeName>
+            </birth>
+            <occupation>politicien</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="DEN">
+            <sex>M</sex>
+            <age>21-60</age>
+            <education>études supérieures</education>
+            <birth>
+              <placeName>France, PACA, Marseille</placeName>
+            </birth>
+            <occupation>politicien</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="CHR">
+            <sex>M</sex>
+            <age>21-60</age>
+            <education>études supérieures</education>
+            <birth>
+              <placeName>France, PACA, Marseille</placeName>
+            </birth>
+            <occupation>politicien</occupation>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

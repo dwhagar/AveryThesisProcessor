@@ -1,0 +1,1675 @@
+# sent_id = cefc-tcof-ordinateur-1
+# text = mais non mais c'est tu sais parce que oui c'est des broches là
+1	mais	mais	COO	COO	_	2	mark	_	_	1.780000	1.900000	L1
+2	non	non	INT	INT	_	5	dm	_	_	1.900000	2.020000	L1
+3	mais	mais	COO	COO	_	5	mark	_	_	2.020000	2.170000	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	2.210000	2.250000	L1
+5	est	être	VRB	VRB	_	0	root	_	_	2.250000	2.280000	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	2.280000	2.420000	L1
+7	sais	savoir	VRB	VRB	_	5	dm	_	_	2.420000	2.550000	L1
+8	parce que	parce que	CSU	CSU	_	5	dep	_	_	2.550000	2.980000	L1
+9	oui	oui	INT	INT	_	8	dm	_	_	2.980000	3.050000	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	3.050000	3.080000	L1
+11	est	être	VRB	VRB	_	8	dep	_	_	3.140000	3.160000	L1
+12	des	de	PRE	PRE	_	11	dep	_	_	3.240000	3.380000	L1
+13	broches	broche	NOM	NOM	_	12	dep	_	_	3.380000	3.830000	L1
+14	là	là	ADV	ADV	_	11	dep	_	_	3.830000	3.970000	L1
+
+# sent_id = cefc-tcof-ordinateur-2
+# text = ouais il y a des broches dans l'ordinateur
+1	ouais	ouais	INT	INT	_	4	dm	_	_	4.660000	4.780000	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	4.780000	4.840000	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	4.840000	4.870000	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	4.870000	4.900000	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	4.900000	5.030000	L2
+6	broches	broche	NOM	NOM	_	5	dep	_	_	5.030000	5.290000	L2
+7	dans	dans	PRE	PRE	_	4	dep	_	_	5.290000	5.400000	L2
+8	l'	le	DET	DET	_	9	spe	_	_	5.400000	5.440000	L2
+9	ordinateur	ordinateur	NOM	NOM	_	7	dep	_	_	5.440000	6.010000	L2
+
+# sent_id = cefc-tcof-ordinateur-3
+# text = mais bon c'~ est chiant quand même que
+1	mais	mais	COO	COO	_	4	mark	_	_	6.110000	6.280000	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	6.280000	6.450000	L2
+3	c'~	c'~	X	X	_	4	subj	_	_	6.450000	6.750000	L2
+4	est	être	VRB	VRB	_	0	root	_	_	6.750000	6.790000	L2
+5	chiant	chiant	ADJ	ADJ	_	4	dep	_	_	6.790000	7.020000	L2
+6	quand	quand	CSU	CSU	_	4	dep	_	_	7.020000	7.120000	L2
+7	même	même	ADV	ADV	_	8	dep	_	_	7.120000	7.220000	L2
+8	que	que	CSU	CSU	_	6	para	_	_	7.220000	7.280000	L2
+
+# sent_id = cefc-tcof-ordinateur-4
+# text = le disque dur soit mort
+1	le	le	DET	DET	_	2	spe	_	_	7.280000	7.340000	L2
+2	disque	disque	NOM	NOM	_	0	root	_	_	7.340000	7.620000	L2
+3	dur	dur	ADJ	ADJ	_	2	dep	_	_	7.620000	7.780000	L2
+4	soit	soit	COO	COO	_	5	mark	_	_	7.840000	7.980000	L2
+5	mort	mourir	VPP	VPP	_	3	para	_	_	7.980000	8.260000	L2
+
+# sent_id = cefc-tcof-ordinateur-5
+# text = parce que je m'en serais bien fait un petit ordinateur de de bureau pour euh le tranquille dans la voiture
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	9.690000	9.840000	L2
+2	je	je	CLS	CLS	_	7	subj	_	_	9.840000	9.870000	L2
+3	m'	me	CLI	CLI	_	7	dep	_	_	9.870000	9.900000	L2
+4	en	en	CLI	CLI	_	7	dep	_	_	9.900000	9.930000	L2
+5	serais	être	VRB	VRB	_	7	aux	_	_	9.930000	10.120000	L2
+6	bien	bien	ADV	ADV	_	7	dep	_	_	10.120000	10.240000	L2
+7	fait	faire	VPP	VPP	_	1	dep	_	_	10.240000	10.370000	L2
+8	un	un	DET	DET	_	10	spe	_	_	10.370000	10.550000	L2
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	10.550000	10.760000	L2
+10	ordinateur	ordinateur	NOM	NOM	_	7	dep	_	_	10.760000	11.260000	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	11.260000	11.630000	L2
+12	de	de	PRE	PRE	_	11	para	_	_	11.680000	12.030000	L2
+13	bureau	bureau	NOM	NOM	_	12	dep	_	_	12.100000	12.460000	L2
+14	pour	pour	PRE	PRE	_	7	dep	_	_	12.460000	12.750000	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	12.750000	12.820000	L2
+16	le	le	DET	DET	_	17	spe	_	_	12.820000	13.060000	L2
+17	tranquille	tranquille	ADJ	ADJ	_	14	dep	_	_	13.060000	13.410000	L2
+18	dans	dans	PRE	PRE	_	14	para	_	_	13.460000	13.550000	L2
+19	la	le	DET	DET	_	20	spe	_	_	13.550000	13.620000	L2
+20	voiture	voiture	NOM	NOM	_	18	dep	_	_	13.620000	13.990000	L2
+
+# sent_id = cefc-tcof-ordinateur-6
+# text = putain
+1	putain	putain	NOM	NOM	_	0	root	_	_	15.330000	15.480000	L1
+
+# sent_id = cefc-tcof-ordinateur-7
+# text = mais non mais
+1	mais	mais	COO	COO	_	2	mark	_	_	15.700000	15.920000	L1
+2	non	non	INT	INT	_	0	root	_	_	15.920000	16.270000	L1
+3	mais	mais	COO	COO	_	2	disflink	_	_	16.340000	16.480000	L1
+
+# sent_id = cefc-tcof-ordinateur-8
+# text = mais pourquoi il veut pas l'installer ce con
+1	mais	mais	COO	COO	_	4	mark	_	_	16.680000	16.830000	L2
+2	pourquoi	pourquoi	PRQ	PRQ	_	4	dep	_	_	16.830000	17.059999	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	17.100000	17.150000	L2
+4	veut	vouloir	VRB	VRB	_	0	root	_	_	17.150000	17.209999	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	17.209999	17.309999	L2
+6	l'	le	CLI	CLI	_	7	dep	_	_	17.309999	17.340000	L2
+7	installer	installer	VNF	VNF	_	4	dep	_	_	17.340000	17.540001	L2
+8	ce	ce	DET	DET	_	9	spe	_	_	17.540001	17.570000	L2
+9	con	con	NOM	NOM	_	7	dep	_	_	17.770000	17.920000	L2
+
+# sent_id = cefc-tcof-ordinateur-9
+# text = il dit que c'est
+1	il	il	CLS	CLS	_	2	subj	_	_	17.969999	18.030001	L2
+2	dit	dire	VRB	VRB	_	0	root	_	_	18.030001	18.090000	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	18.090000	18.120001	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	18.120001	18.150000	L2
+5	est	être	VRB	VRB	_	3	dep	_	_	18.150000	18.209999	L2
+
+# sent_id = cefc-tcof-ordinateur-10
+# text = pas bah réinstaller et
+1	pas	pas	ADN	ADN	_	3	dep	_	_	18.270000	18.600000	L1
+2	bah	bah	INT	INT	_	1	dm	_	_	19.969999	20.090000	L1
+3	réinstaller	réinstaller	VNF	VNF	_	0	root	_	_	20.459999	20.870001	L1
+4	et	et	COO	COO	_	3	disflink	_	_	21.549999	21.570000	L1
+
+# sent_id = cefc-tcof-ordinateur-11
+# text = après c'est la merde
+1	après	après	PRE	PRE	_	3	periph	_	_	22.139999	22.370001	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	22.570000	22.600000	L1
+3	est	être	VRB	VRB	_	0	root	_	_	22.600000	22.760000	L1
+4	la	le	DET	DET	_	5	spe	_	_	23.030001	23.080000	L1
+5	merde	merde	NOM	NOM	_	3	dep	_	_	23.629999	23.920000	L1
+
+# sent_id = cefc-tcof-ordinateur-12
+# text = parce que
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	23.969999	24.129999	L2
+
+# sent_id = cefc-tcof-ordinateur-13
+# text = là il est bien branché ouais
+1	là	là	ADV	ADV	_	3	periph	_	_	24.129999	24.200001	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	24.200001	24.260000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	24.260000	24.290001	L2
+4	bien	bien	ADV	ADV	_	5	dep	_	_	24.290001	24.379999	L2
+5	branché	brancher	VPP	VPP	_	3	dep	_	_	24.379999	24.660000	L2
+6	ouais	ouais	INT	INT	_	5	dm	_	_	24.660000	24.830000	L2
+
+# sent_id = cefc-tcof-ordinateur-14
+# text = tu redémarres
+1	tu	tu	CLS	CLS	_	2	subj	_	_	25.570000	25.719999	L2
+2	redémarres	redémarrer	VRB	VRB	_	0	root	_	_	25.719999	26.170000	L2
+
+# sent_id = cefc-tcof-ordinateur-15
+# text = ouais enfin non je voulais pas le redémarrer
+1	ouais	ouais	INT	INT	_	5	dm	_	_	27.200001	27.360001	L1
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	27.360001	27.570000	L1
+3	non	non	INT	INT	_	2	dm	_	_	27.570000	27.730000	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	27.730000	27.790001	L1
+5	voulais	vouloir	VRB	VRB	_	0	root	_	_	27.790001	27.990000	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	27.990000	28.100000	L1
+7	le	le	CLI	CLI	_	8	dep	_	_	28.100000	28.190001	L1
+8	redémarrer	redémarrer	VNF	VNF	_	5	dep	_	_	28.190001	28.610001	L1
+
+# sent_id = cefc-tcof-ordinateur-16
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	29.030001	29.070000	L2
+2	accord	accord	NOM	NOM	_	1	dep	_	_	29.070000	29.290001	L2
+
+# sent_id = cefc-tcof-ordinateur-17
+# text = tu laisses tomber
+1	tu	tu	CLS	CLS	_	2	subj	_	_	30.129999	30.240000	L2
+2	laisses	laisser	VRB	VRB	_	0	root	_	_	30.240000	30.370001	L2
+3	tomber	tomber	VNF	VNF	_	2	dep	_	_	30.370001	30.639999	L2
+
+# sent_id = cefc-tcof-ordinateur-18
+# text = bah parce que ouais non on pourra pas faire sur le merde
+1	bah	bah	INT	INT	_	2	dm	_	_	31.320000	31.440001	L1
+2	parce que	parce que	CSU	CSU	_	0	root	_	_	31.440001	32.939999	L1
+3	ouais	ouais	INT	INT	_	2	dm	_	_	32.939999	33.099998	L1
+4	non	non	INT	INT	_	3	dm	_	_	33.099998	33.349998	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	33.419998	33.580002	L1
+6	pourra	pouvoir	VRB	VRB	_	2	dep	_	_	33.619999	33.750000	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	33.750000	33.810001	L1
+8	faire	faire	VNF	VNF	_	6	dep	_	_	33.860001	34.000000	L1
+9	sur	sur	PRE	PRE	_	8	dep	_	_	34.230000	34.320000	L1
+10	le	le	DET	DET	_	11	spe	_	_	34.430000	34.450001	L1
+11	merde	merde	NOM	NOM	_	9	dep	_	_	34.759998	34.930000	L1
+
+# sent_id = cefc-tcof-ordinateur-19
+# text = il faudrait euh
+1	il	il	CLS	CLS	_	2	subj	_	_	35.299999	35.380001	L1
+2	faudrait	falloir	VRB	VRB	_	0	root	_	_	35.380001	35.889999	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	35.950001	35.970001	L1
+
+# sent_id = cefc-tcof-ordinateur-20
+# text = c'est chiant parce que le enfin l'idée de départ était
+1	c'	ce	CLS	CLS	_	2	subj	_	_	36.770000	36.880001	L2
+2	est	être	VRB	VRB	_	0	root	_	_	36.880001	36.919998	L2
+3	chiant	chiant	ADJ	ADJ	_	2	dep	_	_	36.919998	37.049999	L2
+4	parce que	parce que	CSU	CSU	_	2	dep	_	_	37.049999	37.299999	L2
+5	le	le	DET	DET	_	8	spe	_	_	37.299999	37.410000	L2
+6	enfin	enfin	ADV	ADV	_	5	dm	_	_	37.410000	37.520000	L2
+7	l'	le	DET	DET	_	5	para	_	_	37.520000	37.590000	L2
+8	idée	idée	NOM	NOM	_	11	subj	_	_	37.590000	37.779999	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	37.779999	37.840000	L2
+10	départ	départ	NOM	NOM	_	9	dep	_	_	37.840000	38.119999	L2
+11	était	être	VRB	VRB	_	4	dep	_	_	38.119999	38.270000	L2
+
+# sent_id = cefc-tcof-ordinateur-21
+# text = bien ça se démonte par ou par là pour les broches
+1	bien	bien	ADV	ADV	_	4	periph	_	_	38.270000	38.529999	L1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	38.610001	38.669998	L1
+3	se	se	CLI	CLI	_	4	dep	_	_	38.669998	38.700001	L1
+4	démonte	démonter	VRB	VRB	_	0	root	_	_	38.700001	38.849998	L1
+5	par	par	PRE	PRE	_	4	dep	_	_	38.849998	39.040001	L1
+6	ou	ou	COO	COO	_	7	mark	_	_	39.040001	39.130001	L1
+7	par	par	PRE	PRE	_	5	para	_	_	39.130001	39.299999	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	39.299999	39.450001	L1
+9	pour	pour	PRE	PRE	_	4	dep	_	_	39.450001	39.630001	L1
+10	les	le	DET	DET	_	11	spe	_	_	39.630001	39.720001	L1
+11	broches	broche	NOM	NOM	_	9	dep	_	_	39.720001	39.910000	L1
+
+# sent_id = cefc-tcof-ordinateur-22
+# text = ça non il faut ouvrir la coque
+1	ça	ça	PRO	PRO	_	4	periph	_	_	40.299999	40.639999	L2
+2	non	non	INT	INT	_	1	dm	_	_	41.009998	41.209999	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	41.209999	41.270000	L2
+4	faut	faillir	VRB	VRB	_	0	root	_	_	41.270000	41.459999	L2
+5	ouvrir	ouvrir	VNF	VNF	_	4	dep	_	_	41.459999	41.750000	L2
+6	la	le	DET	DET	_	7	spe	_	_	41.750000	41.860001	L2
+7	coque	coque	NOM	NOM	_	5	dep	_	_	41.860001	42.099998	L2
+
+# sent_id = cefc-tcof-ordinateur-23
+# text = et et démonter
+1	et	et	COO	COO	_	3	mark	_	_	42.220001	42.430000	L2
+2	et	et	COO	COO	_	1	para	_	_	42.590000	42.650002	L2
+3	démonter	démonter	VNF	VNF	_	0	root	_	_	42.650002	43.090000	L2
+
+# sent_id = cefc-tcof-ordinateur-24
+# text = en dessous ouais
+1	en dessous	en dessous	ADV	ADV	_	0	root	_	_	43.139999	43.450001	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	40.869999	40.950001	L1
+
+# sent_id = cefc-tcof-ordinateur-25
+# text = ah O K
+1	ah	ah	INT	INT	_	2	dm	_	_	42.509998	42.709999	L1
+2	O	O	NOM	NOM	_	0	root	_	_	42.900002	42.939999	L1
+3	K	K	NOM	NOM	_	2	dep	_	_	42.939999	43.090000	L1
+
+# sent_id = cefc-tcof-ordinateur-26
+# text = bah c'est la merde
+1	bah	bah	INT	INT	_	3	dm	_	_	43.560001	43.619999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	43.619999	43.650002	L1
+3	est	être	VRB	VRB	_	0	root	_	_	43.650002	43.680000	L1
+4	la	le	DET	DET	_	5	spe	_	_	43.680000	43.740002	L1
+5	merde	merde	NOM	NOM	_	3	dep	_	_	43.740002	43.959999	L1
+
+# sent_id = cefc-tcof-ordinateur-27
+# text = et comme euh j'ai pas ton tournevis cruciforme ça ça marche
+1	et	et	COO	COO	_	12	mark	_	_	44.570000	44.720001	L2
+2	comme	comme	CSU	CSU	_	12	periph	_	_	44.720001	45.040001	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	45.040001	45.070000	L2
+4	j'	je	CLS	CLS	_	5	subj	_	_	45.070000	45.169998	L2
+5	ai	avoir	VRB	VRB	_	2	dep	_	_	45.169998	45.209999	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	45.209999	45.349998	L2
+7	ton	son	DET	DET	_	8	spe	_	_	45.349998	45.500000	L2
+8	tournevis	tournevis	NOM	NOM	_	5	dep	_	_	45.500000	45.849998	L2
+9	cruciforme	cruciforme	ADJ	ADJ	_	8	dep	_	_	45.900002	46.380001	L2
+10	ça	ça	PRO	PRO	_	2	dep	_	_	46.500000	46.830002	L2
+11	ça	ça	PRO	PRO	_	12	subj	_	_	46.830002	46.919998	L2
+12	marche	marcher	VRB	VRB	_	0	root	_	_	47.090000	47.340000	L2
+
+# sent_id = cefc-tcof-ordinateur-28
+# text = pas ouais ouais
+1	pas	pas	ADN	ADN	_	0	root	_	_	47.340000	47.450001	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	46.029999	46.200001	L1
+3	ouais	ouais	INT	INT	_	2	para	_	_	46.330002	46.419998	L1
+
+# sent_id = cefc-tcof-ordinateur-29
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	49.060001	49.180000	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	49.180000	49.270000	L1
+
+# sent_id = cefc-tcof-ordinateur-30
+# text = oh tu sais quoi
+1	oh	oh	INT	INT	_	3	dm	_	_	49.700001	49.759998	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	49.759998	49.820000	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	49.820000	49.919998	L2
+4	quoi	quoi	INT	INT	_	3	dm	_	_	49.919998	50.020000	L2
+
+# sent_id = cefc-tcof-ordinateur-31
+# text = regardes là
+1	regardes	regarder	VRB	VRB	_	0	root	_	_	50.020000	50.320000	L2
+2	là	là	ADV	ADV	_	1	dep	_	_	50.320000	50.410000	L2
+
+# sent_id = cefc-tcof-ordinateur-32
+# text = la clé elle est neuve bah
+1	la	le	DET	DET	_	2	spe	_	_	50.410000	50.509998	L2
+2	clé	clé	NOM	NOM	_	4	periph	_	_	50.509998	50.740002	L2
+3	elle	il	CLS	CLS	_	4	subj	_	_	50.740002	50.840000	L2
+4	est	être	VRB	VRB	_	0	root	_	_	50.840000	50.889999	L2
+5	neuve	neuf	ADJ	ADJ	_	4	dep	_	_	50.889999	51.180000	L2
+6	bah	bah	INT	INT	_	5	dm	_	_	51.360001	51.580002	L2
+
+# sent_id = cefc-tcof-ordinateur-33
+# text = tiens
+1	tiens	(se) tenir	VRB	VRB	_	0	root	_	_	51.630001	51.759998	L2
+
+# sent_id = cefc-tcof-ordinateur-34
+# text = rien que déjà dessous elle est déchirée la la clé
+1	rien	rien	PRO	PRO	_	0	root	_	_	51.759998	52.040001	L2
+2	que	que	CSU	CSU	_	1	dep	_	_	52.040001	52.070000	L2
+3	déjà	déjà	ADV	ADV	_	7	periph	_	_	52.070000	52.250000	L2
+4	dessous	dessous	ADV	ADV	_	7	periph	_	_	52.250000	52.610001	L2
+5	elle	il	CLS	CLS	_	7	subj	_	_	52.610001	52.689999	L2
+6	est	être	VRB	VRB	_	7	aux	_	_	52.689999	52.720001	L2
+7	déchirée	déchirer	VPP	VPP	_	2	dep	_	_	52.720001	53.189999	L2
+8	la	le	DET	DET	_	10	spe	_	_	53.189999	53.450001	L2
+9	la	le	DET	DET	_	8	para	_	_	53.450001	53.529999	L2
+10	clé	clé	NOM	NOM	_	7	dep	_	_	53.599998	53.770000	L2
+
+# sent_id = cefc-tcof-ordinateur-35
+# text = c'est vrai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	53.910000	53.939999	L1
+2	est	être	VRB	VRB	_	0	root	_	_	53.939999	54.009998	L1
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	54.009998	54.189999	L1
+
+# sent_id = cefc-tcof-ordinateur-36
+# text = je te jure
+1	je	je	CLS	CLS	_	3	subj	_	_	54.459999	54.500000	L2
+2	te	te	CLI	CLI	_	3	dep	_	_	54.500000	54.529999	L2
+3	jure	jurer	VRB	VRB	_	0	root	_	_	54.529999	54.669998	L2
+
+# sent_id = cefc-tcof-ordinateur-37
+# text = c'est vrai
+1	c'	ce	CLS	CLS	_	2	subj	_	_	54.779999	54.820000	L2
+2	est	être	VRB	VRB	_	0	root	_	_	54.820000	54.849998	L2
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	54.849998	55.020000	L2
+
+# sent_id = cefc-tcof-ordinateur-38
+# text = regardes
+1	regardes	regarder	VRB	VRB	_	0	root	_	_	55.139999	55.500000	L2
+
+# sent_id = cefc-tcof-ordinateur-39
+# text = parce qu'il y en a qui ont essayé de la chourave
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	56.139999	56.369999	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	56.439999	56.500000	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	56.500000	56.540001	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	56.540001	56.639999	L1
+5	a	avoir	VRB	VRB	_	1	dep	_	_	56.639999	56.669998	L1
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	56.669998	56.770000	L1
+7	ont	avoir	VRB	VRB	_	8	aux	_	_	56.770000	56.799999	L1
+8	essayé	essayer	VPP	VPP	_	5	dep	_	_	56.799999	57.090000	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	57.139999	57.200001	L1
+10	la	le	DET	DET	_	11	spe	_	_	57.200001	57.330002	L1
+11	chourave	chourave	NOM	NOM	_	9	dep	_	_	57.470001	57.849998	L1
+
+# sent_id = cefc-tcof-ordinateur-40
+# text = je sais pas bah c'est pas important
+1	je	je	CLS	CLS	_	2	subj	_	_	58.270000	58.459999	L2
+2	sais	savoir	VRB	VRB	_	6	dm	_	_	58.459999	58.540001	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	58.540001	58.750000	L2
+4	bah	bah	INT	INT	_	3	dm	_	_	58.750000	58.869999	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	58.869999	58.980000	L2
+6	est	être	VRB	VRB	_	0	root	_	_	58.980000	59.009998	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	59.009998	59.169998	L2
+8	important	important	ADJ	ADJ	_	6	dep	_	_	59.169998	59.630001	L2
+
+# sent_id = cefc-tcof-ordinateur-41
+# text = enfin il était en c'était pas le modèle d'exposition
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	59.630001	59.860001	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	59.910000	59.970001	L2
+3	était	être	VRB	VRB	_	0	root	_	_	59.970001	60.060001	L2
+4	en	en	PRE	PRE	_	3	dep	_	_	60.060001	60.290001	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	60.400002	60.419998	L2
+6	était	être	VRB	VRB	_	3	para	_	_	60.419998	60.540001	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	60.540001	60.680000	L2
+8	le	le	DET	DET	_	9	spe	_	_	60.680000	60.709999	L2
+9	modèle	modèle	NOM	NOM	_	6	dep	_	_	60.759998	60.990002	L2
+10	d'	de	PRE	PRE	_	9	dep	_	_	60.990002	61.040001	L2
+11	exposition	exposition	NOM	NOM	_	10	dep	_	_	61.040001	61.639999	L2
+
+# sent_id = cefc-tcof-ordinateur-42
+# text = ah ouais
+1	ah	ah	INT	INT	_	0	root	_	_	61.689999	61.790001	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	61.790001	61.869999	L1
+
+# sent_id = cefc-tcof-ordinateur-43
+# text = mais c'est bizarre
+1	mais	mais	COO	COO	_	3	mark	_	_	62.950001	63.080002	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	63.080002	63.160000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	63.160000	63.240002	L2
+4	bizarre	bizarre	ADJ	ADJ	_	3	dep	_	_	63.240002	63.580002	L2
+
+# sent_id = cefc-tcof-ordinateur-44
+# text = mais si tu veux la clé tu la prends parce que s
+1	mais	mais	COO	COO	_	9	mark	_	_	64.000000	64.199997	L2
+2	si	si	CSU	CSU	_	9	periph	_	_	64.199997	64.290001	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	64.290001	64.430000	L2
+4	veux	vouloir	VRB	VRB	_	2	dep	_	_	64.430000	64.599998	L2
+5	la	le	DET	DET	_	6	spe	_	_	64.599998	64.660004	L2
+6	clé	clé	NOM	NOM	_	4	dep	_	_	64.660004	64.860001	L2
+7	tu	tu	CLS	CLS	_	9	subj	_	_	64.860001	64.970001	L2
+8	la	le	CLI	CLI	_	9	dep	_	_	64.970001	65.089996	L2
+9	prends	prendre	VRB	VRB	_	0	root	_	_	65.089996	65.400002	L2
+10	parce que	parce que	CSU	CSU	_	9	dep	_	_	65.400002	65.839996	L2
+11	s	s	X	X	_	10	disflink	_	_	65.839996	66.169998	L2
+
+# sent_id = cefc-tcof-ordinateur-45
+# text = non si c'est home j'en ai pas besoin
+1	non	non	INT	INT	_	8	dm	_	_	66.220001	66.300003	L1
+2	si	si	CSU	CSU	_	8	periph	_	_	66.379997	66.489998	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	66.559998	66.699997	L1
+4	est	être	VRB	VRB	_	2	dep	_	_	66.699997	66.809998	L1
+5	home	home	NOM	NOM	_	4	dep	_	_	66.809998	67.019997	L1
+6	j'	je	CLS	CLS	_	8	subj	_	_	67.050003	67.089996	L1
+7	en	en	CLI	CLI	_	8	dep	_	_	67.089996	67.190002	L1
+8	ai	avoir	VRB	VRB	_	0	root	_	_	67.190002	67.220001	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	67.220001	67.370003	L1
+10	besoin	besoin	NOM	NOM	_	8	dep	_	_	67.370003	67.750000	L1
+
+# sent_id = cefc-tcof-ordinateur-46
+# text = home édition
+1	home	home	NOM	NOM	_	0	root	_	_	68.029999	68.220001	L2
+2	édition	édition	NOM	NOM	_	1	dep	_	_	68.220001	68.639999	L2
+
+# sent_id = cefc-tcof-ordinateur-47
+# text = ouais ah là je sais même pas c'est le Media Center qu'ils nous ont mis
+1	ouais	ouais	INT	INT	_	5	dm	_	_	69.349998	69.440002	L2
+2	ah	ah	INT	INT	_	1	dm	_	_	69.440002	69.510002	L2
+3	là	là	ADV	ADV	_	5	periph	_	_	69.510002	69.589996	L2
+4	je	je	CLS	CLS	_	5	subj	_	_	69.589996	69.669998	L2
+5	sais	savoir	VRB	VRB	_	9	dm	_	_	69.669998	69.730003	L2
+6	même	même	ADV	ADV	_	7	dep	_	_	69.730003	69.820000	L2
+7	pas	pas	ADN	ADN	_	5	dep	_	_	69.860001	69.989998	L2
+8	c'	ce	CLS	CLS	_	9	subj	_	_	70.110001	70.199997	L2
+9	est	être	VRB	VRB	_	0	root	_	_	70.199997	70.250000	L2
+10	le	le	DET	DET	_	11	spe	_	_	70.250000	70.410004	L2
+11	Media	Media	NOM	NOM	_	9	dep	_	_	70.660004	70.989998	L2
+12	Center	Center	NOM	NOM	_	11	dep	_	_	70.989998	71.389999	L2
+13	qu'	que	PRQ	PRQ	_	17	dep	_	_	71.389999	71.440002	L2
+14	ils	il	CLS	CLS	_	17	subj	_	_	71.440002	71.550003	L2
+15	nous	nous	CLI	CLI	_	17	dep	_	_	71.550003	71.720001	L2
+16	ont	avoir	VRB	VRB	_	17	aux	_	_	71.720001	71.769997	L2
+17	mis	mettre	VPP	VPP	_	12	dep	_	_	71.830002	71.910004	L2
+
+# sent_id = cefc-tcof-ordinateur-48
+# text = ou c'est celle de X P pro
+1	ou	ou	COO	COO	_	3	mark	_	_	71.910004	72.010002	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	72.230003	72.290001	L2
+3	est	être	VRB	VRB	_	0	root	_	_	72.290001	72.320000	L2
+4	celle	celui	PRO	PRO	_	3	dep	_	_	72.650002	72.750000	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	72.750000	72.779999	L2
+6	X	X	NOM	NOM	_	5	dep	_	_	72.779999	72.870003	L2
+7	P	P	PRE	PRE	_	3	dep	_	_	72.870003	72.930000	L2
+8	pro	pro	NOM	NOM	_	7	dep	_	_	72.930000	73.019997	L2
+
+# sent_id = cefc-tcof-ordinateur-49
+# text = parce que
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	73.489998	73.720001	L2
+
+# sent_id = cefc-tcof-ordinateur-50
+# text = si c'est X P pro dedans
+1	si	si	CSU	CSU	_	0	root	_	_	73.720001	73.800003	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	73.800003	73.860001	L2
+3	est	être	VRB	VRB	_	1	dep	_	_	73.860001	73.889999	L2
+4	X	X	NOM	NOM	_	3	dep	_	_	73.889999	74.040001	L2
+5	P	P	PRE	PRE	_	4	dep	_	_	74.040001	74.169998	L2
+6	pro	pro	NOM	NOM	_	5	dep	_	_	74.169998	74.400002	L2
+7	dedans	dedans	ADV	ADV	_	3	dep	_	_	74.400002	74.599998	L2
+
+# sent_id = cefc-tcof-ordinateur-51
+# text = X P Media Center édition
+1	X	X	NOM	NOM	_	0	root	_	_	75.050003	75.250000	L2
+2	P	P	NOM	NOM	_	1	dep	_	_	75.250000	75.379997	L2
+3	Media	Media	NOM	NOM	_	2	dep	_	_	75.379997	75.680000	L2
+4	Center	Center	NOM	NOM	_	3	dep	_	_	75.730003	76.099998	L2
+5	édition	édition	NOM	NOM	_	4	dep	_	_	76.099998	76.510002	L2
+
+# sent_id = cefc-tcof-ordinateur-52
+# text = hé ben voilà
+1	hé	hé	INT	INT	_	0	root	_	_	76.760002	76.800003	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	76.980003	77.129997	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	77.199997	77.339996	L1
+
+# sent_id = cefc-tcof-ordinateur-53
+# text = tu as vu la batterie comme elle est petite
+1	tu	tu	CLS	CLS	_	3	subj	_	_	78.190002	78.260002	L2
+2	as	avoir	VRB	VRB	_	3	aux	_	_	78.260002	78.290001	L2
+3	vu	voir	VPP	VPP	_	8	periph	_	_	78.290001	78.360001	L2
+4	la	le	DET	DET	_	5	spe	_	_	78.360001	78.540001	L2
+5	batterie	batterie	NOM	NOM	_	3	dep	_	_	78.540001	78.800003	L2
+6	comme	comme	PRE	PRE	_	3	dep	_	_	78.800003	78.930000	L2
+7	elle	il	CLS	CLS	_	8	subj	_	_	78.930000	79.019997	L2
+8	est	être	VRB	VRB	_	0	root	_	_	79.019997	79.089996	L2
+9	petite	petit	ADJ	ADJ	_	8	dep	_	_	79.089996	79.260002	L2
+
+# sent_id = cefc-tcof-ordinateur-54
+# text = regarde
+1	regarde	regarder	VRB	VRB	_	0	root	_	_	79.459999	79.669998	L2
+
+# sent_id = cefc-tcof-ordinateur-55
+# text = regarde la batterie là dessous
+1	regarde	regarder	VRB	VRB	_	0	root	_	_	79.669998	79.900002	L2
+2	la	le	DET	DET	_	3	spe	_	_	79.900002	79.970001	L2
+3	batterie	batterie	NOM	NOM	_	1	dep	_	_	79.970001	80.139999	L2
+4	là	là	ADV	ADV	_	1	dep	_	_	80.139999	80.220001	L2
+5	dessous	dessous	ADV	ADV	_	1	dep	_	_	80.220001	80.500000	L2
+
+# sent_id = cefc-tcof-ordinateur-56
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	80.550003	80.610001	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	80.610001	80.690002	L1
+
+# sent_id = cefc-tcof-ordinateur-57
+# text = bah oui oui
+1	bah	bah	INT	INT	_	0	root	_	_	80.690002	80.910004	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	81.080002	81.150002	L1
+3	oui	oui	INT	INT	_	2	para	_	_	81.279999	81.330002	L1
+
+# sent_id = cefc-tcof-ordinateur-58
+# text = elle fait tout ça
+1	elle	il	CLS	CLS	_	2	subj	_	_	81.849998	81.980003	L2
+2	fait	faire	VRB	VRB	_	0	root	_	_	82.599998	82.720001	L2
+3	tout	tout	ADJ	ADJ	_	4	dep	_	_	82.820000	82.879997	L2
+4	ça	ça	PRO	PRO	_	2	dep	_	_	83.029999	83.169998	L2
+
+# sent_id = cefc-tcof-ordinateur-59
+# text = ah là par contre pour le démonter tu en chies tu démontes par par par morceau là là
+1	ah	ah	INT	INT	_	10	dm	_	_	84.029999	84.050003	L2
+2	là	là	ADV	ADV	_	10	periph	_	_	84.050003	84.180000	L2
+3	par	par	PRE	PRE	_	5	periph	_	_	84.180000	84.279999	L2
+4	contre	contre	PRE	PRE	_	3	para	_	_	84.330002	84.459999	L2
+5	pour	pour	PRE	PRE	_	10	periph	_	_	84.459999	84.580002	L2
+6	le	le	CLI	CLI	_	7	dep	_	_	84.580002	84.620003	L2
+7	démonter	démonter	VNF	VNF	_	5	dep	_	_	84.620003	85.120003	L2
+8	tu	tu	CLS	CLS	_	10	subj	_	_	85.220001	85.300003	L2
+9	en	en	CLI	CLI	_	10	dep	_	_	85.300003	85.339996	L2
+10	chies	chier	VRB	VRB	_	0	root	_	_	85.339996	85.400002	L2
+11	tu	tu	CLS	CLS	_	12	subj	_	_	85.669998	85.730003	L2
+12	démontes	démonter	VRB	VRB	_	10	para	_	_	85.730003	85.959999	L2
+13	par	par	PRE	PRE	_	12	dep	_	_	86.050003	86.269997	L2
+14	par	par	PRE	PRE	_	13	para	_	_	86.330002	86.540001	L2
+15	par	par	PRE	PRE	_	14	para	_	_	86.650002	86.750000	L2
+16	morceau	morceau	NOM	NOM	_	15	dep	_	_	86.750000	87.110001	L2
+17	là	là	ADV	ADV	_	12	dep	_	_	87.320000	87.430000	L2
+18	là	là	ADV	ADV	_	17	para	_	_	87.669998	88.029999	L2
+
+# sent_id = cefc-tcof-ordinateur-60
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	88.080002	88.139999	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	88.139999	88.269997	L1
+
+# sent_id = cefc-tcof-ordinateur-61
+# text = mais là parce que là normalement tu as tout le disque dur
+1	mais	mais	COO	COO	_	3	mark	_	_	88.370003	88.480003	L1
+2	là	là	ADV	ADV	_	3	dep	_	_	88.480003	88.620003	L1
+3	parce que	parce que	CSU	CSU	_	0	root	_	_	88.620003	89.239998	L1
+4	là	là	ADV	ADV	_	7	periph	_	_	89.320000	89.449997	L1
+5	normalement	normalement	ADV	ADV	_	7	periph	_	_	89.519997	89.860001	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	90.180000	90.239998	L1
+7	as	avoir	VRB	VRB	_	3	dep	_	_	90.239998	90.370003	L1
+8	tout	tout	ADJ	ADJ	_	10	dep	_	_	90.540001	90.629997	L1
+9	le	le	DET	DET	_	10	spe	_	_	90.629997	90.830002	L1
+10	disque	disque	NOM	NOM	_	7	dep	_	_	91.099998	91.309998	L1
+11	dur	dur	ADJ	ADJ	_	10	dep	_	_	91.309998	91.459999	L1
+
+# sent_id = cefc-tcof-ordinateur-62
+# text = tout ouais d'accord
+1	tout	tout	ADJ	ADJ	_	3	dep	_	_	91.589996	91.699997	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	92.400002	92.570000	L2
+3	d'	de	PRE	PRE	_	0	root	_	_	92.570000	92.599998	L2
+4	accord	accord	NOM	NOM	_	3	dep	_	_	92.599998	92.820000	L2
+
+# sent_id = cefc-tcof-ordinateur-63
+# text = et là tu as la RAM là
+1	et	et	COO	COO	_	4	mark	_	_	92.820000	92.849998	L2
+2	là	là	ADV	ADV	_	4	periph	_	_	92.849998	92.959999	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	92.959999	93.050003	L2
+4	as	avoir	VRB	VRB	_	0	root	_	_	93.050003	93.089996	L2
+5	la	le	DET	DET	_	6	spe	_	_	93.089996	93.220001	L2
+6	RAM	RAM	NOM	NOM	_	4	dep	_	_	93.220001	93.470001	L2
+7	là	là	ADV	ADV	_	4	dep	_	_	93.470001	93.599998	L2
+
+# sent_id = cefc-tcof-ordinateur-64
+# text = ici c'est la RAM
+1	ici	ici	ADV	ADV	_	3	periph	_	_	93.970001	94.120003	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	94.120003	94.190002	L1
+3	est	être	VRB	VRB	_	0	root	_	_	94.190002	94.250000	L1
+4	la	le	DET	DET	_	5	spe	_	_	94.250000	94.430000	L1
+5	RAM	RAM	NOM	NOM	_	3	dep	_	_	94.510002	94.650002	L1
+
+# sent_id = cefc-tcof-ordinateur-65
+# text = ouais c'est cool le ventilateur
+1	ouais	ouais	INT	INT	_	3	dm	_	_	96.150002	96.500000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	96.599998	96.760002	L2
+3	est	être	VRB	VRB	_	0	root	_	_	96.760002	96.800003	L2
+4	cool	cool	ADJ	ADJ	_	3	dep	_	_	96.800003	96.970001	L2
+5	le	le	DET	DET	_	6	spe	_	_	98.699997	98.879997	L2
+6	ventilateur	ventilateur	NOM	NOM	_	3	dep	_	_	98.879997	99.370003	L2
+
+# sent_id = cefc-tcof-ordinateur-66
+# text = ça c'est les enceintes
+1	ça	ça	PRO	PRO	_	3	periph	_	_	99.370003	99.500000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	99.599998	99.629997	L2
+3	est	être	VRB	VRB	_	0	root	_	_	99.629997	99.800003	L2
+4	les	le	DET	DET	_	5	spe	_	_	99.800003	99.889999	L2
+5	enceintes	enceinte	NOM	NOM	_	3	dep	_	_	100.050003	100.320000	L2
+
+# sent_id = cefc-tcof-ordinateur-67
+# text = non franchement il est pas mal
+1	non	non	INT	INT	_	4	dm	_	_	102.059998	102.220001	L2
+2	franchement	franchement	ADV	ADV	_	4	periph	_	_	102.220001	102.519997	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	102.519997	102.599998	L2
+4	est	être	VRB	VRB	_	0	root	_	_	102.599998	102.650002	L2
+5	pas	pas	ADN	ADN	_	6	dep	_	_	102.650002	102.779999	L2
+6	mal	mal	ADV	ADV	_	4	dep	_	_	102.779999	102.989998	L2
+
+# sent_id = cefc-tcof-ordinateur-68
+# text = quoi hum il est
+1	quoi	quoi	INT	INT	_	4	dm	_	_	102.989998	103.089996	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	103.629997	104.080002	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	104.080002	104.139999	L1
+4	est	être	VRB	VRB	_	0	root	_	_	104.139999	104.169998	L1
+
+# sent_id = cefc-tcof-ordinateur-69
+# text = bien oh il est pas moche en
+1	bien	bien	ADV	ADV	_	4	periph	_	_	104.169998	104.260002	L2
+2	oh	oh	INT	INT	_	1	dm	_	_	104.769997	104.870003	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	104.870003	104.940002	L2
+4	est	être	VRB	VRB	_	0	root	_	_	104.940002	104.989998	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	105.040001	105.120003	L2
+6	moche	moche	ADJ	ADJ	_	4	dep	_	_	105.120003	105.379997	L2
+7	en	en	PRE	PRE	_	6	dep	_	_	105.430000	105.500000	L2
+
+# sent_id = cefc-tcof-ordinateur-70
+# text = plus non ça va ça va
+1	plus	plus	ADN	ADN	_	4	dep	_	_	105.589996	105.680000	L1
+2	non	non	INT	INT	_	1	dm	_	_	105.980003	106.349998	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	106.449997	106.529999	L1
+4	va	aller	VRB	VRB	_	0	root	_	_	107.970001	108.250000	L1
+5	ça	ça	PRO	PRO	_	6	subj	_	_	109.580002	109.639999	L1
+6	va	aller	VRB	VRB	_	4	para	_	_	109.930000	110.080002	L1
+
+# sent_id = cefc-tcof-ordinateur-71
+# text = ah non bah celui là
+1	ah	ah	INT	INT	_	4	dm	_	_	110.129997	110.190002	L1
+2	non	non	INT	INT	_	1	dm	_	_	110.190002	110.250000	L1
+3	bah	bah	INT	INT	_	2	dm	_	_	110.250000	110.320000	L1
+4	celui	celui	PRO	PRO	_	0	root	_	_	110.320000	110.550003	L1
+5	là	là	ADV	ADV	_	4	dep	_	_	110.550003	110.660004	L1
+
+# sent_id = cefc-tcof-ordinateur-72
+# text = mon coco hein
+1	mon	son	DET	DET	_	2	spe	_	_	110.660004	110.800003	L1
+2	coco	coco	NOM	NOM	_	0	root	_	_	110.800003	111.279999	L1
+3	hein	hein	INT	INT	_	2	dm	_	_	111.279999	111.430000	L1
+
+# sent_id = cefc-tcof-ordinateur-73
+# text = je suis désolé pour toi
+1	je	je	CLS	CLS	_	3	subj	_	_	111.790001	111.820000	L1
+2	suis	être	VRB	VRB	_	3	aux	_	_	112.500000	112.589996	L1
+3	désolé	désoler	VPP	VPP	_	0	root	_	_	112.589996	113.080002	L1
+4	pour	pour	PRE	PRE	_	3	dep	_	_	113.339996	113.430000	L1
+5	toi	moi	PRO	PRO	_	4	dep	_	_	113.430000	113.519997	L1
+
+# sent_id = cefc-tcof-ordinateur-74
+# text = mais c'est la fin de ta vie
+1	mais	mais	COO	COO	_	3	mark	_	_	113.519997	113.629997	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	113.779999	113.809998	L1
+3	est	être	VRB	VRB	_	0	root	_	_	113.809998	113.860001	L1
+4	la	le	DET	DET	_	5	spe	_	_	113.860001	113.970001	L1
+5	fin	fin	NOM	NOM	_	3	dep	_	_	114.070000	114.129997	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	114.279999	114.339996	L1
+7	ta	son	DET	DET	_	8	spe	_	_	114.339996	114.400002	L1
+8	vie	vie	NOM	NOM	_	6	dep	_	_	114.400002	114.510002	L1
+
+# sent_id = cefc-tcof-ordinateur-75
+# text = je crois
+1	je	je	CLS	CLS	_	2	subj	_	_	114.570000	114.589996	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	115.000000	115.110001	L1
+
+# sent_id = cefc-tcof-ordinateur-76
+# text = il est mort il est mort de chez mort
+1	il	il	CLS	CLS	_	3	subj	_	_	112.540001	112.639999	L2
+2	est	être	VRB	VRB	_	3	aux	_	_	112.639999	112.709999	L2
+3	mort	mourir	VPP	VPP	_	6	aux	_	_	112.709999	113.080002	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	115.160004	115.220001	L2
+5	est	être	VRB	VRB	_	6	aux	_	_	115.220001	115.250000	L2
+6	mort	mourir	VPP	VPP	_	0	root	_	_	115.250000	115.470001	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	115.470001	115.559998	L2
+8	chez	chez	PRE	PRE	_	7	dep	_	_	115.559998	115.739998	L2
+9	mort	mort	NOM	NOM	_	8	dep	_	_	115.739998	115.940002	L2
+
+# sent_id = cefc-tcof-ordinateur-77
+# text = mais après tu vois si j'arrive à l'emmener dans une boutique
+1	mais	mais	COO	COO	_	4	mark	_	_	116.730003	116.790001	L2
+2	après	après	PRE	PRE	_	4	periph	_	_	116.790001	117.019997	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	117.019997	117.080002	L2
+4	vois	voir	VRB	VRB	_	0	root	_	_	117.080002	117.220001	L2
+5	si	si	CSU	CSU	_	4	dep	_	_	117.330002	117.440002	L2
+6	j'	je	CLS	CLS	_	7	subj	_	_	117.440002	117.519997	L2
+7	arrive	arriver	VRB	VRB	_	5	dep	_	_	117.519997	117.769997	L2
+8	à	à	PRE	PRE	_	7	dep	_	_	117.769997	117.809998	L2
+9	l'	le	CLI	CLI	_	10	dep	_	_	117.809998	117.849998	L2
+10	emmener	emmener	VNF	VNF	_	8	dep	_	_	117.849998	118.050003	L2
+11	dans	dans	PRE	PRE	_	10	dep	_	_	118.050003	118.220001	L2
+12	une	un	DET	DET	_	13	spe	_	_	118.220001	118.290001	L2
+13	boutique	boutique	NOM	NOM	_	11	dep	_	_	118.370003	118.690002	L2
+
+# sent_id = cefc-tcof-ordinateur-78
+# text = et le mec il me fait un petit devis
+1	et	et	COO	COO	_	6	mark	_	_	118.919998	119.000000	L2
+2	le	le	DET	DET	_	3	spe	_	_	119.000000	119.080002	L2
+3	mec	mec	NOM	NOM	_	6	periph	_	_	119.080002	119.269997	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	119.269997	119.339996	L2
+5	me	me	CLI	CLI	_	6	dep	_	_	119.339996	119.370003	L2
+6	fait	faire	VRB	VRB	_	0	root	_	_	119.370003	119.519997	L2
+7	un	un	DET	DET	_	9	spe	_	_	119.519997	119.599998	L2
+8	petit	petit	ADJ	ADJ	_	9	dep	_	_	119.599998	119.860001	L2
+9	devis	devis	NOM	NOM	_	6	dep	_	_	119.860001	120.199997	L2
+
+# sent_id = cefc-tcof-ordinateur-79
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	121.589996	121.650002	L1
+
+# sent_id = cefc-tcof-ordinateur-80
+# text = un devis gratuit ça serait cool quoi comme ça euh
+1	un	un	DET	DET	_	2	spe	_	_	122.019997	122.080002	L2
+2	devis	devis	NOM	NOM	_	5	periph	_	_	122.080002	122.379997	L2
+3	gratuit	gratuit	ADJ	ADJ	_	2	dep	_	_	122.379997	122.870003	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	122.870003	122.959999	L2
+5	serait	être	VRB	VRB	_	0	root	_	_	122.959999	123.169998	L2
+6	cool	cool	ADJ	ADJ	_	5	dep	_	_	123.169998	123.370003	L2
+7	quoi	quoi	INT	INT	_	6	dm	_	_	123.370003	123.500000	L2
+8	comme	comme	PRE	PRE	_	5	dep	_	_	123.500000	123.669998	L2
+9	ça	ça	PRO	PRO	_	8	dep	_	_	123.730003	123.930000	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	124.129997	124.199997	L2
+
+# sent_id = cefc-tcof-ordinateur-81
+# text = tu peux essayer
+1	tu	tu	CLS	CLS	_	2	subj	_	_	124.260002	124.320000	L1
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	124.320000	124.400002	L1
+3	essayer	essayer	VNF	VNF	_	2	dep	_	_	124.400002	124.559998	L1
+
+# sent_id = cefc-tcof-ordinateur-82
+# text = bah jusqu'à quatre vingts euros tu vois c'est bon quoi
+1	bah	bah	INT	INT	_	10	dm	_	_	125.209999	125.300003	L2
+2	jusqu'	jusque	PRE	PRE	_	10	periph	_	_	125.300003	125.459999	L2
+3	à	à	PRE	PRE	_	2	dep	_	_	125.459999	125.489998	L2
+4	quatre	quatre	NUM	NUM	_	6	spe	_	_	125.790001	126.250000	L2
+5	vingts	vingts	NUM	NUM	_	4	para	_	_	127.199997	127.779999	L2
+6	euros	euro	NOM	NOM	_	3	dep	_	_	127.779999	128.460007	L2
+7	tu	tu	CLS	CLS	_	8	subj	_	_	128.460007	128.529999	L2
+8	vois	voir	VRB	VRB	_	6	dm	_	_	128.529999	128.619995	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	128.869995	128.899994	L2
+10	est	être	VRB	VRB	_	0	root	_	_	128.899994	128.929993	L2
+11	bon	bon	ADJ	ADJ	_	10	dep	_	_	128.929993	129.039993	L2
+12	quoi	quoi	INT	INT	_	11	dm	_	_	129.039993	129.210007	L2
+
+# sent_id = cefc-tcof-ordinateur-83
+# text = maintenant euh ça c'est de la batterie hein
+1	maintenant	maintenant	ADV	ADV	_	5	periph	_	_	129.399994	129.759995	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	129.800003	129.830002	L2
+3	ça	ça	PRO	PRO	_	5	periph	_	_	131.250000	131.330002	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	131.419998	131.449997	L2
+5	est	être	VRB	VRB	_	0	root	_	_	131.449997	131.479996	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	131.479996	131.520004	L2
+7	la	le	DET	DET	_	8	spe	_	_	131.520004	131.619995	L2
+8	batterie	batterie	NOM	NOM	_	6	dep	_	_	131.619995	131.970001	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	131.970001	132.029999	L2
+
+# sent_id = cefc-tcof-ordinateur-84
+# text = ouais ouais bah celle du Mac elle est encore plus longue
+1	ouais	ouais	INT	INT	_	8	dm	_	_	132.630005	132.820007	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	132.820007	133.089996	L1
+3	bah	bah	INT	INT	_	2	dm	_	_	133.089996	133.330002	L1
+4	celle	celui	PRO	PRO	_	8	periph	_	_	133.419998	133.520004	L1
+5	du	de+le	PRE	PRE	_	4	dep	_	_	133.600006	133.660004	L1
+6	Mac	mac	NOM	NOM	_	5	dep	_	_	133.660004	133.919998	L1
+7	elle	il	CLS	CLS	_	8	subj	_	_	133.919998	134.020004	L1
+8	est	être	VRB	VRB	_	0	root	_	_	134.020004	134.080002	L1
+9	encore	encore	ADV	ADV	_	10	dep	_	_	134.080002	134.320007	L1
+10	plus	plus	ADN	ADN	_	11	dep	_	_	134.440002	134.550003	L1
+11	longue	long	ADJ	ADJ	_	8	dep	_	_	134.550003	134.750000	L1
+
+# sent_id = cefc-tcof-ordinateur-85
+# text = ouais mais elle fait tout le tour
+1	ouais	ouais	INT	INT	_	4	dm	_	_	135.110001	135.179993	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	135.410004	135.580002	L2
+3	elle	il	CLS	CLS	_	4	subj	_	_	135.580002	135.619995	L2
+4	fait	faire	VRB	VRB	_	0	root	_	_	135.619995	135.679993	L2
+5	tout	tout	ADJ	ADJ	_	7	dep	_	_	135.679993	135.740005	L2
+6	le	le	DET	DET	_	7	spe	_	_	135.839996	135.860001	L2
+7	tour	tour	NOM	NOM	_	4	dep	_	_	135.940002	136.279999	L2
+
+# sent_id = cefc-tcof-ordinateur-86
+# text = non celle du Mac non non
+1	non	non	INT	INT	_	2	dm	_	_	136.279999	136.350006	L1
+2	celle	celui	PRO	PRO	_	0	root	_	_	136.729996	136.869995	L1
+3	du	de+le	PRE	PRE	_	2	dep	_	_	136.929993	136.990005	L1
+4	Mac	mac	NOM	NOM	_	3	dep	_	_	136.990005	137.250000	L1
+5	non	non	INT	INT	_	4	dm	_	_	137.690002	137.839996	L1
+6	non	non	INT	INT	_	5	dm	_	_	137.839996	138.130005	L1
+
+# sent_id = cefc-tcof-ordinateur-87
+# text = elle fait tout le truc comme ça
+1	elle	il	CLS	CLS	_	2	subj	_	_	138.250000	138.300003	L1
+2	fait	faire	VRB	VRB	_	0	root	_	_	138.669998	138.919998	L1
+3	tout	tout	ADJ	ADJ	_	5	dep	_	_	138.919998	138.990005	L1
+4	le	le	DET	DET	_	5	spe	_	_	138.990005	139.020004	L1
+5	truc	truc	NOM	NOM	_	2	dep	_	_	139.020004	139.169998	L1
+6	comme	comme	PRE	PRE	_	5	dep	_	_	139.169998	139.250000	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	139.300003	139.350006	L1
+
+# sent_id = cefc-tcof-ordinateur-88
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	137.419998	137.600006	L2
+
+# sent_id = cefc-tcof-ordinateur-89
+# text = d'accord parce que j'avais un pote il avait un P C
+1	d'	de	PRE	PRE	_	9	periph	_	_	139.399994	139.429993	L2
+2	accord	accord	NOM	NOM	_	1	dep	_	_	139.429993	139.660004	L2
+3	parce que	parce que	CSU	CSU	_	9	periph	_	_	139.960007	140.770004	L2
+4	j'	je	CLS	CLS	_	5	subj	_	_	140.770004	140.860001	L2
+5	avais	avoir	VRB	VRB	_	3	dep	_	_	140.860001	140.979996	L2
+6	un	un	DET	DET	_	7	spe	_	_	140.979996	141.050003	L2
+7	pote	pote	NOM	NOM	_	5	dep	_	_	141.050003	141.229996	L2
+8	il	il	CLS	CLS	_	9	subj	_	_	141.229996	141.410004	L2
+9	avait	avoir	VRB	VRB	_	0	root	_	_	141.410004	141.539993	L2
+10	un	un	DET	DET	_	11	spe	_	_	141.539993	141.610001	L2
+11	P	P	NOM	NOM	_	9	dep	_	_	141.610001	141.800003	L2
+12	C	C	NOM	NOM	_	11	dep	_	_	141.800003	141.929993	L2
+
+# sent_id = cefc-tcof-ordinateur-90
+# text = bon c'était un vieux c'était euh
+1	bon	bon	INT	INT	_	3	dm	_	_	142.029999	142.089996	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	142.089996	142.130005	L2
+3	était	être	VRB	VRB	_	0	root	_	_	142.130005	142.270004	L2
+4	un	un	DET	DET	_	5	spe	_	_	142.270004	142.449997	L2
+5	vieux	vieux	NOM	NOM	_	3	dep	_	_	142.449997	142.699997	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	142.699997	142.830002	L2
+7	était	être	VRB	VRB	_	3	para	_	_	142.830002	143.070007	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	143.070007	143.309998	L2
+
+# sent_id = cefc-tcof-ordinateur-91
+# text = il était vieux de chez vieux hein
+1	il	il	CLS	CLS	_	2	subj	_	_	143.899994	143.960007	L2
+2	était	être	VRB	VRB	_	0	root	_	_	143.960007	144.190002	L2
+3	vieux	vieux	ADJ	ADJ	_	2	dep	_	_	144.360001	144.490005	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	144.490005	144.539993	L2
+5	chez	chez	PRE	PRE	_	4	dep	_	_	144.539993	144.759995	L2
+6	vieux	vieux	NOM	NOM	_	5	dep	_	_	144.759995	145.039993	L2
+7	hein	hein	INT	INT	_	6	dm	_	_	145.039993	145.110001	L2
+
+# sent_id = cefc-tcof-ordinateur-92
+# text = et la batterie c'était tout le socle autour
+1	et	et	COO	COO	_	5	mark	_	_	145.639999	145.729996	L2
+2	la	le	DET	DET	_	3	spe	_	_	145.729996	145.809998	L2
+3	batterie	batterie	NOM	NOM	_	5	periph	_	_	145.809998	146.139999	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	146.139999	146.210007	L2
+5	était	être	VRB	VRB	_	0	root	_	_	146.210007	146.360001	L2
+6	tout	tout	ADJ	ADJ	_	8	dep	_	_	146.360001	146.529999	L2
+7	le	le	DET	DET	_	8	spe	_	_	146.529999	146.559998	L2
+8	socle	socle	NOM	NOM	_	5	dep	_	_	146.559998	146.809998	L2
+9	autour	autour	ADV	ADV	_	5	dep	_	_	146.809998	147.029999	L2
+
+# sent_id = cefc-tcof-ordinateur-93
+# text = et tu clipsait dessus
+1	et	et	COO	COO	_	3	mark	_	_	147.940002	147.979996	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	147.979996	148.050003	L2
+3	clipsait	clipsait	VRB	VRB	_	0	root	_	_	148.050003	148.470001	L2
+4	dessus	dessus	ADV	ADV	_	3	dep	_	_	148.470001	148.729996	L2
+
+# sent_id = cefc-tcof-ordinateur-94
+# text = ah ouais oh la vache il tenait pas longtemps avec hein
+1	ah	ah	INT	INT	_	6	dm	_	_	147.220001	147.429993	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	147.429993	147.820007	L1
+3	oh la	oh là	INT	INT	_	6	dm	_	_	148.779999	148.960007	L1
+4	vache	vache	ADJ	ADJ	_	6	periph	_	_	148.960007	149.059998	L1
+5	il	il	CLS	CLS	_	6	subj	_	_	150.630005	150.690002	L1
+6	tenait	(se) tenir	VRB	VRB	_	0	root	_	_	150.750000	150.970001	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	150.970001	151.199997	L1
+8	longtemps	longtemps	ADV	ADV	_	6	dep	_	_	151.199997	151.600006	L1
+9	avec	avec	PRE	PRE	_	6	dep	_	_	151.600006	151.949997	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	151.949997	152.210007	L1
+
+# sent_id = cefc-tcof-ordinateur-95
+# text = non il ne tenait pas longtemps déjà premièrement
+1	non	non	INT	INT	_	4	dm	_	_	152.259995	152.380005	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	152.380005	152.440002	L2
+3	ne	ne	CLN	CLN	_	4	dep	_	_	152.440002	152.470001	L2
+4	tenait	(se) tenir	VRB	VRB	_	0	root	_	_	152.509995	152.630005	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	152.630005	152.750000	L2
+6	longtemps	longtemps	ADV	ADV	_	4	dep	_	_	152.750000	153.070007	L2
+7	déjà	déjà	ADV	ADV	_	4	dep	_	_	153.070007	153.320007	L2
+8	premièrement	premièrement	ADV	ADV	_	4	dep	_	_	153.410004	153.869995	L2
+
+# sent_id = cefc-tcof-ordinateur-96
+# text = et puis
+1	et puis	et puis	COO	COO	_	0	root	_	_	153.919998	154.039993	L2
+
+# sent_id = cefc-tcof-ordinateur-97
+# text = deuxièmement
+1	deuxièmement	deuxièmement	ADV	ADV	_	0	root	_	_	154.039993	154.500000	L2
+
+# sent_id = cefc-tcof-ordinateur-98
+# text = quand il a voulu la changer euh deux cent trente euros
+1	quand	quand	CSU	CSU	_	0	root	_	_	154.550003	154.720001	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	154.720001	154.820007	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	154.820007	154.860001	L2
+4	voulu	se vouloir	VPP	VPP	_	1	dep	_	_	154.860001	155.029999	L2
+5	la	le	CLI	CLI	_	6	dep	_	_	155.080002	155.179993	L2
+6	changer	changer	VNF	VNF	_	4	dep	_	_	155.179993	155.710007	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	155.710007	155.820007	L2
+8	deux	deux	NUM	NUM	_	11	spe	_	_	156.479996	156.580002	L2
+9	cent	cent	NUM	NUM	_	8	dep	_	_	156.580002	156.750000	L2
+10	trente	trente	NUM	NUM	_	9	dep	_	_	156.750000	156.940002	L2
+11	euros	euro	NOM	NOM	_	6	dep	_	_	157.059998	157.250000	L2
+
+# sent_id = cefc-tcof-ordinateur-99
+# text = bah ouais hein bah oui
+1	bah	bah	INT	INT	_	4	dm	_	_	157.919998	158.389999	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	158.490005	158.630005	L1
+3	hein	hein	INT	INT	_	2	dm	_	_	158.779999	158.960007	L1
+4	bah	bah	INT	INT	_	0	root	_	_	159.229996	159.399994	L1
+5	oui	oui	INT	INT	_	4	dm	_	_	159.509995	159.630005	L1
+
+# sent_id = cefc-tcof-ordinateur-100
+# text = et d'occasion parce qu'elle était plus fabriquée
+1	et	et	COO	COO	_	4	mark	_	_	159.690002	159.740005	L2
+2	d'	de	PRE	PRE	_	4	periph	_	_	159.740005	159.800003	L2
+3	occasion	occasion	NOM	NOM	_	2	dep	_	_	159.800003	160.199997	L2
+4	parce qu'	parce que	CSU	CSU	_	0	root	_	_	160.199997	160.389999	L2
+5	elle	il	CLS	CLS	_	8	subj	_	_	160.389999	160.470001	L2
+6	était	être	VRB	VRB	_	8	aux	_	_	160.470001	160.570007	L2
+7	plus	plus	ADN	ADN	_	8	dep	_	_	160.570007	160.679993	L2
+8	fabriquée	fabriquer	VPP	VPP	_	4	dep	_	_	160.679993	161.089996	L2
+
+# sent_id = cefc-tcof-ordinateur-101
+# text = donc voilà hein
+1	donc	donc	ADV	ADV	_	0	root	_	_	161.960007	162.300003	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	162.520004	162.839996	L2
+3	hein	hein	INT	INT	_	2	dm	_	_	162.839996	163.229996	L2
+
+# sent_id = cefc-tcof-ordinateur-102
+# text = après euh
+1	après	après	PRE	PRE	_	0	root	_	_	163.229996	163.649994	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	163.649994	163.729996	L2
+
+# sent_id = cefc-tcof-ordinateur-103
+# text = ouais mais je vais te montrer le logiciel du TOM TOM que tu vois un petit peu
+1	ouais	ouais	INT	INT	_	4	dm	_	_	167.350006	167.449997	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	167.449997	167.600006	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	167.600006	167.729996	L2
+4	vais	aller	VRB	VRB	_	0	root	_	_	167.850006	168.509995	L2
+5	te	te	CLI	CLI	_	6	dep	_	_	168.740005	168.970001	L2
+6	montrer	montrer	VNF	VNF	_	4	dep	_	_	169.229996	169.639999	L2
+7	le	le	DET	DET	_	8	spe	_	_	169.779999	169.940002	L2
+8	logiciel	logiciel	NOM	NOM	_	6	dep	_	_	169.940002	170.419998	L2
+9	du	de+le	PRE	PRE	_	8	dep	_	_	170.419998	170.500000	L2
+10	TOM	TOM	NOM	NOM	_	9	dep	_	_	170.559998	170.690002	L2
+11	TOM	TOM	NOM	NOM	_	10	dep	_	_	170.759995	170.940002	L2
+12	que	que	CSU	CSU	_	4	dep	_	_	171.130005	171.160004	L2
+13	tu	tu	CLS	CLS	_	14	subj	_	_	171.160004	171.240005	L2
+14	vois	voir	VRB	VRB	_	12	dep	_	_	171.309998	171.440002	L2
+15	un	un	DET	DET	_	17	spe	_	_	171.440002	171.490005	L2
+16	petit	petit	ADJ	ADJ	_	17	dep	_	_	171.490005	171.649994	L2
+17	peu	peu	NOM	NOM	_	14	dep	_	_	171.649994	171.869995	L2
+
+# sent_id = cefc-tcof-ordinateur-104
+# text = puis tu vas voir que c'est la merde ça aussi
+1	puis	puis	COO	COO	_	3	mark	_	_	173.759995	173.869995	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	173.869995	173.960007	L2
+3	vas	aller	VRB	VRB	_	0	root	_	_	173.960007	174.100006	L2
+4	voir	voir	VNF	VNF	_	3	dep	_	_	174.100006	174.250000	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	174.320007	174.380005	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	174.380005	174.460007	L2
+7	est	être	VRB	VRB	_	5	dep	_	_	174.460007	174.490005	L2
+8	la	le	DET	DET	_	9	spe	_	_	174.490005	174.559998	L2
+9	merde	merde	NOM	NOM	_	7	dep	_	_	174.559998	174.740005	L2
+10	ça	ça	PRO	PRO	_	7	dep	_	_	174.740005	174.869995	L2
+11	aussi	aussi	ADV	ADV	_	7	dep	_	_	174.990005	175.330002	L2
+
+# sent_id = cefc-tcof-ordinateur-105
+# text = encore
+1	encore	encore	ADV	ADV	_	0	root	_	_	175.500000	175.960007	L2
+
+# sent_id = cefc-tcof-ordinateur-106
+# text = parce que regarde tu vois
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	176.110001	176.830002	L2
+2	regarde	regarder	VRB	VRB	_	1	dep	_	_	176.830002	177.100006	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	177.100006	177.190002	L2
+4	vois	voir	VRB	VRB	_	2	dm	_	_	177.190002	177.350006	L2
+
+# sent_id = cefc-tcof-ordinateur-107
+# text = oh mais il sert à rien leur logiciel
+1	oh	oh	INT	INT	_	4	dm	_	_	177.419998	177.449997	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	177.449997	177.509995	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	177.509995	177.570007	L1
+4	sert	servir	VRB	VRB	_	0	root	_	_	177.619995	177.770004	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	177.770004	177.800003	L1
+6	rien	rien	PRO	PRO	_	5	dep	_	_	177.800003	178.119995	L1
+7	leur	son	DET	DET	_	8	spe	_	_	178.119995	178.279999	L1
+8	logiciel	logiciel	NOM	NOM	_	5	dep	_	_	178.279999	178.850006	L1
+
+# sent_id = cefc-tcof-ordinateur-108
+# text = ouais mais tu sais ça sert à rajouter des trucs tout ça puis sur internet
+1	ouais	ouais	INT	INT	_	6	dm	_	_	179.080002	179.139999	L2
+2	mais	mais	COO	COO	_	6	mark	_	_	179.139999	179.199997	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	179.199997	179.259995	L2
+4	sais	savoir	VRB	VRB	_	2	dm	_	_	179.259995	179.380005	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	179.380005	179.479996	L2
+6	sert	servir	VRB	VRB	_	0	root	_	_	179.539993	179.740005	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	179.740005	179.770004	L2
+8	rajouter	rajouter	VNF	VNF	_	7	dep	_	_	179.820007	180.080002	L2
+9	des	de	PRE	PRE	_	8	dep	_	_	180.080002	180.220001	L2
+10	trucs	truc	NOM	NOM	_	9	dep	_	_	180.369995	180.580002	L2
+11	tout	tout	ADJ	ADJ	_	12	dep	_	_	180.580002	180.639999	L2
+12	ça	ça	PRO	PRO	_	10	para	_	_	180.690002	180.899994	L2
+13	puis	puis	COO	COO	_	14	mark	_	_	181.009995	181.100006	L2
+14	sur	sur	PRE	PRE	_	9	para	_	_	181.100006	181.320007	L2
+15	internet	internet	NOM	NOM	_	14	dep	_	_	181.320007	181.699997	L2
+
+# sent_id = cefc-tcof-ordinateur-109
+# text = c'est pour rajouter des voix ou des machins comme ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	181.699997	181.759995	L2
+2	est	être	VRB	VRB	_	0	root	_	_	181.830002	181.850006	L2
+3	pour	pour	PRE	PRE	_	2	dep	_	_	181.850006	182.059998	L2
+4	rajouter	rajouter	VNF	VNF	_	3	dep	_	_	182.190002	182.449997	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	182.449997	182.509995	L2
+6	voix	voix	NOM	NOM	_	5	dep	_	_	182.509995	182.720001	L2
+7	ou	ou	COO	COO	_	8	mark	_	_	182.820007	182.850006	L2
+8	des	de	PRE	PRE	_	5	para	_	_	182.850006	182.960007	L2
+9	machins	machin	NOM	NOM	_	8	dep	_	_	182.960007	183.149994	L2
+10	comme	comme	PRE	PRE	_	9	dep	_	_	183.149994	183.279999	L2
+11	ça	ça	PRO	PRO	_	10	dep	_	_	183.279999	183.479996	L2
+
+# sent_id = cefc-tcof-ordinateur-110
+# text = mais en fait sur le ce que je cherche à faire dessus c'est tu sais mettre un mot de passe dès qu'il démarre comme ça si on te le chourave euh
+1	mais	mais	COO	COO	_	14	mark	_	_	184.919998	185.039993	L2
+2	en	en	PRE	PRE	_	14	periph	_	_	185.039993	185.139999	L2
+3	fait	fait	NOM	NOM	_	2	dep	_	_	185.139999	185.320007	L2
+4	sur	sur	PRE	PRE	_	2	para	_	_	185.320007	185.649994	L2
+5	le	le	DET	DET	_	4	dep	_	_	185.649994	186.399994	L2
+6	ce	ce	DET	DET	_	14	periph	_	_	188.250000	188.330002	L2
+7	que	que	PRQ	PRQ	_	9	dep	_	_	188.330002	188.460007	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	188.460007	188.580002	L2
+9	cherche	chercher	VRB	VRB	_	6	dep	_	_	188.580002	188.940002	L2
+10	à	à	PRE	PRE	_	9	dep	_	_	188.940002	188.979996	L2
+11	faire	faire	VNF	VNF	_	10	dep	_	_	188.979996	189.289993	L2
+12	dessus	dessus	ADV	ADV	_	11	dep	_	_	189.289993	189.619995	L2
+13	c'	ce	CLS	CLS	_	14	subj	_	_	189.619995	189.710007	L2
+14	est	être	VRB	VRB	_	0	root	_	_	189.710007	189.899994	L2
+15	tu	tu	CLS	CLS	_	16	subj	_	_	190.000000	190.080002	L2
+16	sais	savoir	VRB	VRB	_	14	para	_	_	190.080002	190.149994	L2
+17	mettre	mettre	VNF	VNF	_	16	dep	_	_	190.149994	190.270004	L2
+18	un	un	DET	DET	_	19	spe	_	_	190.270004	190.300003	L2
+19	mot	mot	NOM	NOM	_	17	dep	_	_	190.300003	190.429993	L2
+20	de	de	PRE	PRE	_	19	dep	_	_	190.500000	190.610001	L2
+21	passe	passe	NOM	NOM	_	20	dep	_	_	190.610001	190.699997	L2
+22	dès	dès	PRE	PRE	_	17	dep	_	_	190.699997	190.770004	L2
+23	qu'	que	CSU	CSU	_	22	dep	_	_	190.770004	190.800003	L2
+24	il	il	CLS	CLS	_	25	subj	_	_	190.800003	190.880005	L2
+25	démarre	démarrer	VRB	VRB	_	23	dep	_	_	190.880005	191.130005	L2
+26	comme	comme	PRE	PRE	_	25	dep	_	_	191.759995	191.850006	L2
+27	ça	ça	PRO	PRO	_	26	dep	_	_	192.199997	192.300003	L2
+28	si	si	CSU	CSU	_	16	dep	_	_	192.300003	192.399994	L2
+29	on	on	CLS	CLS	_	32	subj	_	_	192.399994	192.470001	L2
+30	te	te	CLI	CLI	_	32	dep	_	_	192.520004	192.539993	L2
+31	le	le	CLI	CLI	_	32	dep	_	_	192.539993	192.619995	L2
+32	chourave	chourave	VRB	VRB	_	28	dep	_	_	192.619995	193.279999	L2
+33	euh	euh	INT	INT	_	32	dm	_	_	193.369995	193.389999	L2
+
+# sent_id = cefc-tcof-ordinateur-111
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	191.440002	191.500000	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	191.500000	191.639999	L1
+
+# sent_id = cefc-tcof-ordinateur-112
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	193.490005	193.639999	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	193.639999	193.720001	L1
+
+# sent_id = cefc-tcof-ordinateur-113
+# text = ah là il faut il faut forcer le machin euh
+1	ah	ah	INT	INT	_	4	dm	_	_	193.919998	193.970001	L2
+2	là	là	ADV	ADV	_	4	periph	_	_	193.970001	194.080002	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	194.080002	194.160004	L2
+4	faut	faillir	VRB	VRB	_	0	root	_	_	194.210007	194.270004	L2
+5	il	il	CLS	CLS	_	6	subj	_	_	194.270004	194.350006	L2
+6	faut	faillir	VRB	VRB	_	4	para	_	_	194.419998	194.479996	L2
+7	forcer	forcer	VNF	VNF	_	6	dep	_	_	194.479996	194.899994	L2
+8	le	le	DET	DET	_	9	spe	_	_	194.899994	194.929993	L2
+9	machin	machin	NOM	NOM	_	7	dep	_	_	194.929993	195.169998	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	195.169998	195.199997	L2
+
+# sent_id = cefc-tcof-ordinateur-114
+# text = t'inquiète pas
+1	t'	te	CLI	CLI	_	2	dep	_	_	196.350006	196.380005	L1
+2	inquiète	inquiéter	VRB	VRB	_	0	root	_	_	196.610001	196.789993	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	198.880005	199.210007	L1
+
+# sent_id = cefc-tcof-ordinateur-115
+# text = et voilà
+1	et	et	COO	COO	_	2	mark	_	_	199.690002	199.899994	L1
+2	voilà	voilà	INT	INT	_	0	root	_	_	199.899994	200.259995	L1
+
+# sent_id = cefc-tcof-ordinateur-116
+# text = parce que tu vois dans modifier préférence
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	200.550003	200.699997	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	200.699997	200.759995	L2
+3	vois	voir	VRB	VRB	_	1	dep	_	_	200.759995	200.850006	L2
+4	dans	dans	PRE	PRE	_	3	dep	_	_	200.850006	200.910004	L2
+5	modifier	modifier	VNF	VNF	_	4	dep	_	_	200.910004	201.309998	L2
+6	préférence	préférence	NOM	NOM	_	5	dep	_	_	201.309998	202.089996	L2
+
+# sent_id = cefc-tcof-ordinateur-117
+# text = ils te mettent euh
+1	ils	il	CLS	CLS	_	3	subj	_	_	202.649994	202.940002	L2
+2	te	te	CLI	CLI	_	3	dep	_	_	204.259995	205.000000	L2
+3	mettent	mettre	VRB	VRB	_	0	root	_	_	205.440002	205.710007	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	206.369995	206.809998	L2
+
+# sent_id = cefc-tcof-ordinateur-118
+# text = non préférence de démarrage attends non c'est pas
+1	non	non	INT	INT	_	5	dm	_	_	208.119995	208.179993	L2
+2	préférence	préférence	NOM	NOM	_	5	subj	_	_	208.179993	208.729996	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	208.729996	208.820007	L2
+4	démarrage	démarrage	NOM	NOM	_	3	dep	_	_	208.820007	209.279999	L2
+5	attends	attendre	VRB	VRB	_	0	root	_	_	210.910004	211.160004	L2
+6	non	non	INT	INT	_	5	dm	_	_	211.160004	211.360001	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	211.399994	211.490005	L2
+8	est	être	VRB	VRB	_	5	para	_	_	211.490005	211.520004	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	211.600006	211.759995	L2
+
+# sent_id = cefc-tcof-ordinateur-119
+# text = ça c'est dans
+1	ça	ça	PRO	PRO	_	3	periph	_	_	212.320007	212.410004	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	214.250000	214.440002	L2
+3	est	être	VRB	VRB	_	0	root	_	_	214.440002	214.889999	L2
+4	dans	dans	PRE	PRE	_	3	dep	_	_	215.210007	215.279999	L2
+
+# sent_id = cefc-tcof-ordinateur-120
+# text = propriétaire
+1	propriétaire	propriétaire	ADJ	ADJ	_	0	root	_	_	217.779999	218.869995	L1
+
+# sent_id = cefc-tcof-ordinateur-121
+# text = propriétaire voilà c'est ça
+1	propriétaire	propriétaire	NOM	NOM	_	4	periph	_	_	217.779999	218.869995	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	218.940002	219.089996	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	219.089996	219.149994	L2
+4	est	être	VRB	VRB	_	0	root	_	_	219.149994	219.190002	L2
+5	ça	ça	PRO	PRO	_	4	dep	_	_	219.190002	219.360001	L2
+
+# sent_id = cefc-tcof-ordinateur-122
+# text = alors oui donc là tu vois je mets
+1	alors	alors	ADV	ADV	_	6	periph	_	_	220.080002	220.320007	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	220.570007	220.919998	L2
+3	donc	donc	ADV	ADV	_	6	periph	_	_	221.089996	221.229996	L2
+4	là	là	ADV	ADV	_	6	periph	_	_	221.309998	221.399994	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	221.399994	221.470001	L2
+6	vois	voir	VRB	VRB	_	0	root	_	_	221.470001	221.559998	L2
+7	je	je	CLS	CLS	_	8	subj	_	_	221.559998	221.649994	L2
+8	mets	mettre	VRB	VRB	_	6	para	_	_	221.729996	221.839996	L2
+
+# sent_id = cefc-tcof-ordinateur-123
+# text = non bon les outils je m'en fous
+1	non	non	INT	INT	_	8	dm	_	_	221.839996	222.199997	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	222.199997	222.339996	L2
+3	les	le	DET	DET	_	4	spe	_	_	222.339996	222.619995	L2
+4	outils	outil	NOM	NOM	_	8	periph	_	_	222.619995	222.970001	L2
+5	je	je	CLS	CLS	_	8	subj	_	_	223.039993	223.070007	L2
+6	m'	me	CLI	CLI	_	8	dep	_	_	223.070007	223.100006	L2
+7	en	en	CLI	CLI	_	8	dep	_	_	223.100006	223.169998	L2
+8	fous	foutre	VRB	VRB	_	0	root	_	_	223.259995	223.470001	L2
+
+# sent_id = cefc-tcof-ordinateur-124
+# text = et là il me met pour protéger votre périphérique par un mot de passe de quatre caractères connecter le à l'ordinateur dans TOM TOM HOME cliquer sur mon one démarrer ensuite votre périphérique en mode TOM TOM
+1	et	et	COO	COO	_	5	mark	_	_	224.600006	224.660004	L2
+2	là	là	ADV	ADV	_	5	periph	_	_	224.660004	224.820007	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	224.820007	224.899994	L2
+4	me	me	CLI	CLI	_	5	dep	_	_	224.899994	225.020004	L2
+5	met	mettre	VRB	VRB	_	0	root	_	_	225.020004	225.270004	L2
+6	pour	pour	PRE	PRE	_	5	dep	_	_	225.880005	225.970001	L2
+7	protéger	protéger	VNF	VNF	_	6	dep	_	_	225.970001	226.410004	L2
+8	votre	son	DET	DET	_	9	spe	_	_	226.410004	226.570007	L2
+9	périphérique	périphérique	NOM	NOM	_	7	dep	_	_	226.570007	227.139999	L2
+10	par	par	PRE	PRE	_	7	dep	_	_	227.139999	227.300003	L2
+11	un	un	DET	DET	_	12	spe	_	_	227.300003	227.350006	L2
+12	mot	mot	NOM	NOM	_	10	dep	_	_	227.350006	227.460007	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	227.460007	227.500000	L2
+14	passe	passe	NOM	NOM	_	13	dep	_	_	227.500000	227.800003	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	227.850006	227.880005	L2
+16	quatre	quatre	NUM	NUM	_	17	spe	_	_	227.880005	228.039993	L2
+17	caractères	caractère	NOM	NOM	_	15	dep	_	_	228.039993	228.570007	L2
+18	connecter	connecter	VNF	VNF	_	7	dep	_	_	228.639999	229.009995	L2
+19	le	le	DET	DET	_	20	dep	_	_	229.009995	229.130005	L2
+20	à	à	PRE	PRE	_	18	dep	_	_	229.130005	229.160004	L2
+21	l'	le	DET	DET	_	22	spe	_	_	229.160004	229.190002	L2
+22	ordinateur	ordinateur	NOM	NOM	_	20	dep	_	_	229.190002	229.820007	L2
+23	dans	dans	PRE	PRE	_	20	para	_	_	229.960007	230.089996	L2
+24	TOM	TOM	NOM	NOM	_	23	dep	_	_	230.149994	230.339996	L2
+25	TOM	TOM	NOM	NOM	_	24	dep	_	_	230.389999	230.589996	L2
+26	HOME	home	NOM	NOM	_	25	dep	_	_	230.729996	230.979996	L2
+27	cliquer	cliquer	VNF	VNF	_	18	para	_	_	231.589996	231.899994	L2
+28	sur	sur	PRE	PRE	_	27	dep	_	_	231.899994	232.160004	L2
+29	mon	son	DET	DET	_	30	spe	_	_	232.160004	232.479996	L2
+30	one	one	NOM	NOM	_	28	dep	_	_	232.479996	232.830002	L2
+31	démarrer	démarrer	VNF	VNF	_	27	para	_	_	233.210007	233.610001	L2
+32	ensuite	ensuite	ADV	ADV	_	31	dep	_	_	233.610001	233.869995	L2
+33	votre	son	DET	DET	_	34	spe	_	_	233.869995	234.009995	L2
+34	périphérique	périphérique	NOM	NOM	_	31	dep	_	_	234.009995	234.559998	L2
+35	en	en	PRE	PRE	_	31	dep	_	_	234.559998	234.619995	L2
+36	mode	mode	NOM	NOM	_	35	dep	_	_	234.619995	234.820007	L2
+37	TOM	TOM	NOM	NOM	_	36	dep	_	_	234.820007	235.039993	L2
+38	TOM	TOM	NOM	NOM	_	37	dep	_	_	235.089996	235.250000	L2
+
+# sent_id = cefc-tcof-ordinateur-125
+# text = HOME dans le menu préférence de ce de votre périphérique
+1	HOME	home	NOM	NOM	_	0	root	_	_	235.350006	235.529999	L2
+2	dans	dans	PRE	PRE	_	1	dep	_	_	236.809998	236.960007	L2
+3	le	le	DET	DET	_	4	spe	_	_	236.960007	237.149994	L2
+4	menu	menu	NOM	NOM	_	2	dep	_	_	237.149994	237.500000	L2
+5	préférence	préférence	NOM	NOM	_	4	dep	_	_	237.500000	238.289993	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	238.289993	238.320007	L2
+7	ce	ce	PRO	PRO	_	6	dep	_	_	238.320007	238.460007	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	238.550003	238.729996	L2
+9	votre	son	DET	DET	_	10	spe	_	_	238.729996	238.860001	L2
+10	périphérique	périphérique	NOM	NOM	_	8	dep	_	_	238.860001	239.389999	L2
+
+# sent_id = cefc-tcof-ordinateur-126
+# text = sélectionner configurer le propriétaire
+1	sélectionner	sélectionner	VNF	VNF	_	0	root	_	_	239.520004	240.029999	L2
+2	configurer	configurer	VNF	VNF	_	1	dep	_	_	240.119995	240.550003	L2
+3	le	le	DET	DET	_	4	spe	_	_	240.550003	240.580002	L2
+4	propriétaire	propriétaire	ADJ	ADJ	_	2	dep	_	_	240.580002	241.190002	L2
+
+# sent_id = cefc-tcof-ordinateur-127
+# text = donc faut le connecter à l'ordinateur
+1	donc	donc	ADV	ADV	_	2	periph	_	_	243.419998	243.679993	L2
+2	faut	faillir	VRB	VRB	_	0	root	_	_	245.000000	245.169998	L2
+3	le	le	CLI	CLI	_	4	dep	_	_	245.169998	245.199997	L2
+4	connecter	connecter	VNF	VNF	_	2	dep	_	_	245.199997	245.529999	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	245.529999	245.570007	L2
+6	l'	le	DET	DET	_	7	spe	_	_	245.570007	245.610001	L2
+7	ordinateur	ordinateur	NOM	NOM	_	5	dep	_	_	245.610001	246.330002	L2
+
+# sent_id = cefc-tcof-ordinateur-128
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	246.330002	246.360001	L2
+
+# sent_id = cefc-tcof-ordinateur-129
+# text = après
+1	après	après	PRE	PRE	_	0	root	_	_	246.360001	246.580002	L2
+
+# sent_id = cefc-tcof-ordinateur-130
+# text = dans TOM TOM HOME
+1	dans	dans	PRE	PRE	_	0	root	_	_	246.580002	246.690002	L2
+2	TOM	TOM	NOM	NOM	_	1	dep	_	_	246.770004	246.919998	L2
+3	TOM	TOM	NOM	NOM	_	2	dep	_	_	246.979996	247.199997	L2
+4	HOME	home	NOM	NOM	_	3	dep	_	_	247.250000	247.470001	L2
+
+# sent_id = cefc-tcof-ordinateur-131
+# text = tu l'as le câble
+1	tu	tu	CLS	CLS	_	3	subj	_	_	247.669998	247.779999	L1
+2	l'	le	CLI	CLI	_	3	dep	_	_	247.850006	247.910004	L1
+3	as	avoir	VRB	VRB	_	0	root	_	_	247.910004	247.949997	L1
+4	le	le	DET	DET	_	5	spe	_	_	247.949997	247.990005	L1
+5	câble	câble	NOM	NOM	_	3	dep	_	_	248.119995	248.289993	L1
+
+# sent_id = cefc-tcof-ordinateur-132
+# text = ouais bah c'est le même que celui là
+1	ouais	ouais	INT	INT	_	4	dm	_	_	248.800003	249.169998	L2
+2	bah	bah	INT	INT	_	1	dm	_	_	249.169998	249.309998	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	249.309998	249.460007	L2
+4	est	être	VRB	VRB	_	0	root	_	_	249.460007	249.490005	L2
+5	le	le	DET	DET	_	6	spe	_	_	249.490005	249.520004	L2
+6	même	même	ADJ	ADJ	_	4	dep	_	_	249.520004	249.720001	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	249.720001	249.850006	L2
+8	celui	celui	PRO	PRO	_	7	dep	_	_	249.850006	250.050003	L2
+9	là	là	ADV	ADV	_	8	dep	_	_	250.050003	250.149994	L2
+
+# sent_id = cefc-tcof-ordinateur-133
+# text = ouais ouais il c'est un câble universel
+1	ouais	ouais	INT	INT	_	5	dm	_	_	250.279999	250.440002	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	250.440002	250.770004	L1
+3	il	il	CLS	CLS	_	5	periph	_	_	250.770004	250.949997	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	251.000000	251.029999	L2
+5	est	être	VRB	VRB	_	0	root	_	_	251.029999	251.059998	L2
+6	un	un	DET	DET	_	7	spe	_	_	251.059998	251.089996	L2
+7	câble	câble	NOM	NOM	_	5	dep	_	_	251.089996	251.210007	L2
+8	universel	universel	ADJ	ADJ	_	7	dep	_	_	251.210007	251.649994	L2
+
+# sent_id = cefc-tcof-ordinateur-134
+# text = quoi ouais ouais
+1	quoi	quoi	INT	INT	_	0	root	_	_	251.649994	251.800003	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	252.660004	252.970001	L1
+3	ouais	ouais	INT	INT	_	2	para	_	_	253.479996	253.600006	L1
+
+# sent_id = cefc-tcof-ordinateur-135
+# text = donc voilà je te le branche
+1	donc	donc	ADV	ADV	_	6	periph	_	_	253.910004	254.000000	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	254.000000	254.210007	L2
+3	je	je	CLS	CLS	_	6	subj	_	_	255.220001	255.440002	L2
+4	te	te	CLI	CLI	_	6	dep	_	_	255.490005	255.580002	L2
+5	le	le	CLI	CLI	_	6	dep	_	_	255.710007	255.919998	L2
+6	branche	brancher	VRB	VRB	_	0	root	_	_	255.979996	256.420013	L2
+
+# sent_id = cefc-tcof-ordinateur-136
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	257.690002	258.160004	L1
+
+# sent_id = cefc-tcof-ordinateur-137
+# text = ouais alors ça par contre euh tu peux rien faire
+1	ouais	ouais	INT	INT	_	8	dm	_	_	258.950012	259.059998	L2
+2	alors	alors	ADV	ADV	_	8	periph	_	_	259.059998	259.220001	L2
+3	ça	ça	PRO	PRO	_	8	periph	_	_	259.220001	259.309998	L2
+4	par	par	PRE	PRE	_	8	periph	_	_	259.309998	259.510010	L2
+5	contre	contre	PRE	PRE	_	4	dep	_	_	259.510010	259.839996	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	260.070007	260.359985	L2
+7	tu	tu	CLS	CLS	_	8	subj	_	_	260.429993	260.529999	L2
+8	peux	pouvoir	VRB	VRB	_	0	root	_	_	260.609985	260.739990	L2
+9	rien	rien	PRO	PRO	_	10	dep	_	_	260.739990	260.940002	L2
+10	faire	faire	VNF	VNF	_	8	dep	_	_	260.940002	261.399994	L2
+
+# sent_id = cefc-tcof-ordinateur-138
+# text = moi j~ j'ai ni accès
+1	moi	moi	PRO	PRO	_	4	periph	_	_	261.450012	261.589996	L2
+2	j~	j~	CLI	CLI	_	4	dep	_	_	261.589996	261.859985	L2
+3	j'	je	CLS	CLS	_	4	subj	_	_	261.899994	261.940002	L2
+4	ai	avoir	VRB	VRB	_	0	root	_	_	261.940002	262.000000	L2
+5	ni	ni	COO	COO	_	6	mark	_	_	262.000000	262.089996	L2
+6	accès	accès	NOM	NOM	_	4	dep	_	_	262.220001	262.350006	L2
+
+# sent_id = cefc-tcof-ordinateur-139
+# text = bon je vais le mettre sur le coté ni TOM TOM HOME ni euh mot de passe ni mon one euh enfin
+1	bon	bon	INT	INT	_	3	dm	_	_	262.450012	262.559998	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	262.559998	262.589996	L2
+3	vais	aller	VRB	VRB	_	0	root	_	_	262.589996	262.649994	L2
+4	le	le	CLI	CLI	_	5	dep	_	_	262.700012	262.720001	L2
+5	mettre	mettre	VNF	VNF	_	3	dep	_	_	262.720001	262.839996	L2
+6	sur	sur	PRE	PRE	_	5	dep	_	_	262.839996	262.950012	L2
+7	le	le	DET	DET	_	8	spe	_	_	263.029999	263.049988	L2
+8	coté	coté	NOM	NOM	_	6	dep	_	_	263.049988	263.170013	L2
+9	ni	ni	COO	COO	_	10	mark	_	_	263.779999	263.980011	L2
+10	TOM	TOM	NOM	NOM	_	8	para	_	_	264.089996	264.290009	L2
+11	TOM	TOM	NOM	NOM	_	10	dep	_	_	264.369995	264.529999	L2
+12	HOME	home	NOM	NOM	_	11	dep	_	_	264.700012	264.799988	L2
+13	ni	ni	COO	COO	_	15	mark	_	_	264.799988	265.570007	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	265.570007	265.709991	L2
+15	mot	mot	NOM	NOM	_	12	para	_	_	265.839996	265.899994	L2
+16	de	de	PRE	PRE	_	15	dep	_	_	265.899994	265.929993	L2
+17	passe	passe	NOM	NOM	_	16	dep	_	_	266.059998	266.339996	L2
+18	ni	ni	COO	COO	_	20	mark	_	_	266.529999	266.619995	L2
+19	mon	son	DET	DET	_	20	spe	_	_	266.619995	266.950012	L2
+20	one	one	NOM	NOM	_	17	para	_	_	266.950012	267.480011	L2
+21	euh	euh	INT	INT	_	20	dm	_	_	267.480011	267.510010	L2
+22	enfin	enfin	ADV	ADV	_	21	dm	_	_	267.510010	267.730011	L2
+
+# sent_id = cefc-tcof-ordinateur-140
+# text = je trouve rien
+1	je	je	CLS	CLS	_	2	subj	_	_	267.730011	267.899994	L2
+2	trouve	trouver	VRB	VRB	_	0	root	_	_	267.899994	268.119995	L2
+3	rien	rien	PRO	PRO	_	2	dep	_	_	268.179993	268.329987	L2
+
+# sent_id = cefc-tcof-ordinateur-141
+# text = quoi là TOM TOM HOME
+1	quoi	quoi	INT	INT	_	3	dm	_	_	268.380005	268.549988	L1
+2	là	là	ADV	ADV	_	3	dep	_	_	268.380005	268.549988	L1
+3	TOM	TOM	NOM	NOM	_	0	root	_	_	268.859985	268.950012	L1
+4	TOM	TOM	NOM	NOM	_	3	dep	_	_	269.119995	269.239990	L1
+5	HOME	home	NOM	NOM	_	4	dep	_	_	269.239990	269.309998	L1
+
+# sent_id = cefc-tcof-ordinateur-142
+# text = ouais vas
+1	ouais	ouais	INT	INT	_	2	dm	_	_	270.869995	271.029999	L2
+2	vas	aller	VRB	VRB	_	0	root	_	_	271.029999	271.149994	L2
+
+# sent_id = cefc-tcof-ordinateur-143
+# text = y veuillez connecter votre
+1	y	y	CLI	CLI	_	2	dep	_	_	271.149994	271.350006	L1
+2	veuillez	vouloir	VRB	VRB	_	0	root	_	_	273.290009	273.559998	L1
+3	connecter	connecter	VNF	VNF	_	2	dep	_	_	273.559998	273.809998	L1
+4	votre	votre	VNF	VNF	_	3	dep	_	_	273.850006	274.079987	L1
+
+# sent_id = cefc-tcof-ordinateur-144
+# text = connecter euh à l'ordinateur oui
+1	connecter	connecter	VNF	VNF	_	0	root	_	_	274.600006	275.290009	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	275.290009	275.500000	L2
+3	à	à	PRE	PRE	_	1	dep	_	_	275.549988	275.579987	L2
+4	l'	le	DET	DET	_	5	spe	_	_	275.579987	275.619995	L2
+5	ordinateur	ordinateur	NOM	NOM	_	3	dep	_	_	275.619995	276.109985	L2
+6	oui	oui	INT	INT	_	5	dm	_	_	276.369995	276.510010	L2
+
+# sent_id = cefc-tcof-ordinateur-145
+# text = ouais j'ai passé une demi heure dessus hier euh
+1	ouais	ouais	INT	INT	_	4	dm	_	_	278.839996	279.269989	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	279.269989	279.359985	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	279.359985	279.390015	L2
+4	passé	passer	VPP	VPP	_	0	root	_	_	279.450012	279.739990	L2
+5	une	un	DET	DET	_	7	spe	_	_	279.739990	279.820007	L2
+6	demi	demi	ADJ	ADJ	_	7	dep	_	_	279.820007	280.070007	L2
+7	heure	heure	NOM	NOM	_	4	dep	_	_	280.070007	280.170013	L2
+8	dessus	dessus	ADV	ADV	_	4	dep	_	_	280.170013	280.679993	L2
+9	hier	hier	ADV	ADV	_	4	dep	_	_	280.679993	281.000000	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	281.000000	281.230011	L2
+
+# sent_id = cefc-tcof-ordinateur-146
+# text = tu sais j'ai enlevé les trucs rajouté euh pff
+1	tu	tu	CLS	CLS	_	2	subj	_	_	281.480011	281.540009	L2
+2	sais	savoir	VRB	VRB	_	0	root	_	_	281.540009	281.630005	L2
+3	j'	je	CLS	CLS	_	5	subj	_	_	281.630005	281.690002	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	281.690002	281.720001	L2
+5	enlevé	enlever	VPP	VPP	_	2	para	_	_	281.720001	281.989990	L2
+6	les	le	DET	DET	_	7	spe	_	_	281.989990	282.100006	L2
+7	trucs	truc	NOM	NOM	_	8	subj	_	_	282.250000	282.510010	L2
+8	rajouté	rajouter	VPP	VPP	_	5	para	_	_	282.510010	283.070007	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	283.070007	283.160004	L2
+10	pff	pff	INT	INT	_	9	dm	_	_	283.160004	283.429993	L2
+
+# sent_id = cefc-tcof-ordinateur-147
+# text = j'ai pas compris grand chose
+1	j'	je	CLS	CLS	_	4	subj	_	_	285.100006	285.130005	L2
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	285.279999	285.299988	L2
+3	pas	pas	ADN	ADN	_	4	dep	_	_	285.299988	285.369995	L2
+4	compris	comprendre	VPP	VPP	_	0	root	_	_	285.369995	285.670013	L2
+5	grand	grand	ADJ	ADJ	_	6	dep	_	_	285.670013	285.850006	L2
+6	chose	chose	NOM	NOM	_	4	dep	_	_	285.940002	286.109985	L2
+
+# sent_id = cefc-tcof-ordinateur-148
+# text = hum voilà c'est bon là
+1	hum	hum	INT	INT	_	4	dm	_	_	287.750000	287.890015	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	287.890015	288.040009	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	288.040009	288.130005	L2
+4	est	être	VRB	VRB	_	0	root	_	_	288.130005	288.170013	L2
+5	bon	bon	ADJ	ADJ	_	4	dep	_	_	288.209991	288.299988	L2
+6	là	là	ADV	ADV	_	4	dep	_	_	288.299988	288.359985	L2
+
+# sent_id = cefc-tcof-ordinateur-149
+# text = maintenant il est connecté
+1	maintenant	maintenant	ADV	ADV	_	4	periph	_	_	288.359985	288.600006	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	288.600006	288.660004	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	288.660004	288.750000	L2
+4	connecté	connecter	VPP	VPP	_	0	root	_	_	288.750000	289.220001	L2
+
+# sent_id = cefc-tcof-ordinateur-150
+# text = alors alors alors alors vérification il est vérifié
+1	alors	alors	ADV	ADV	_	8	periph	_	_	290.859985	291.470001	L1
+2	alors	alors	ADV	ADV	_	8	periph	_	_	291.470001	291.760010	L1
+3	alors	alors	ADV	ADV	_	2	para	_	_	291.760010	292.029999	L1
+4	alors	alors	ADV	ADV	_	8	periph	_	_	292.029999	292.260010	L1
+5	vérification	vérification	NOM	NOM	_	8	periph	_	_	292.709991	293.440002	L2
+6	il	il	CLS	CLS	_	8	subj	_	_	293.690002	293.829987	L2
+7	est	être	VRB	VRB	_	8	aux	_	_	293.890015	293.910004	L2
+8	vérifié	vérifier	VPP	VPP	_	0	root	_	_	293.910004	294.339996	L2
+
+# sent_id = cefc-tcof-ordinateur-151
+# text = mais il regarde si c'est bien euh
+1	mais	mais	COO	COO	_	3	mark	_	_	294.339996	294.540009	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	296.119995	296.179993	L1
+3	regarde	regarder	VRB	VRB	_	0	root	_	_	296.179993	296.829987	L1
+4	si	si	CSU	CSU	_	3	dep	_	_	296.829987	296.890015	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	296.940002	296.959991	L1
+6	est	être	VRB	VRB	_	4	dep	_	_	296.959991	297.019989	L1
+7	bien	bien	ADV	ADV	_	6	dep	_	_	297.019989	297.170013	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	297.380005	297.399994	L1
+
+# sent_id = cefc-tcof-ordinateur-152
+# text = OK
+1	OK	OK	INT	INT	_	0	root	_	_	297.510010	297.600006	L1
+
+# sent_id = cefc-tcof-ordinateur-153
+# text = ouais il vérifie si tout est en règle
+1	ouais	ouais	INT	INT	_	3	dm	_	_	302.750000	303.079987	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	303.079987	303.149994	L2
+3	vérifie	vérifier	VRB	VRB	_	0	root	_	_	303.149994	303.429993	L2
+4	si	si	CSU	CSU	_	3	dep	_	_	303.429993	303.579987	L2
+5	tout	tout	PRO	PRO	_	6	subj	_	_	303.760010	303.809998	L2
+6	est	être	VRB	VRB	_	4	dep	_	_	303.809998	303.850006	L2
+7	en	en	PRE	PRE	_	6	dep	_	_	303.850006	304.019989	L2
+8	règle	règle	NOM	NOM	_	7	dep	_	_	304.019989	304.910004	L2
+
+# sent_id = cefc-tcof-ordinateur-154
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	304.959991	305.420013	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	305.609985	305.829987	L1
+
+# sent_id = cefc-tcof-ordinateur-155
+# text = c'est ça en fait
+1	c'	ce	CLS	CLS	_	2	subj	_	_	306.880005	306.899994	L1
+2	est	être	VRB	VRB	_	0	root	_	_	308.929993	309.640015	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	309.739990	309.829987	L1
+4	en	en	PRE	PRE	_	2	dep	_	_	309.829987	310.140015	L1
+5	fait	faire	VRB	VRB	_	4	dep	_	_	310.140015	310.200012	L1
+
+# sent_id = cefc-tcof-ordinateur-156
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	312.160004	312.420013	L2
+
+# sent_id = cefc-tcof-ordinateur-157
+# text = donc là c'est tout ce que tu as dans le P C
+1	donc	donc	ADV	ADV	_	4	periph	_	_	312.420013	312.570007	L2
+2	là	là	ADV	ADV	_	4	periph	_	_	312.570007	312.730011	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	312.799988	312.829987	L2
+4	est	être	VRB	VRB	_	0	root	_	_	312.829987	312.910004	L2
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	313.010010	313.089996	L2
+6	ce	ce	PRO	PRO	_	4	dep	_	_	313.140015	313.170013	L2
+7	que	que	PRQ	PRQ	_	9	dep	_	_	313.170013	313.239990	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	313.239990	313.429993	L2
+9	as	avoir	VRB	VRB	_	6	dep	_	_	313.429993	313.470001	L2
+10	dans	dans	PRE	PRE	_	9	dep	_	_	313.470001	313.609985	L2
+11	le	le	DET	DET	_	12	spe	_	_	313.609985	313.649994	L2
+12	P	P	NOM	NOM	_	10	dep	_	_	313.649994	313.779999	L2
+13	C	C	NOM	NOM	_	12	dep	_	_	313.779999	314.079987	L2
+
+# sent_id = cefc-tcof-ordinateur-158
+# text = ça c'est le C D
+1	ça	ça	PRO	PRO	_	3	periph	_	_	314.179993	314.269989	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	314.329987	314.410004	L2
+3	est	être	VRB	VRB	_	0	root	_	_	314.410004	314.529999	L2
+4	le	le	DET	DET	_	5	spe	_	_	314.529999	314.630005	L2
+5	C	C	NOM	NOM	_	3	dep	_	_	314.630005	314.880005	L2
+6	D	D	NOM	NOM	_	5	dep	_	_	314.880005	315.079987	L2
+
+# sent_id = cefc-tcof-ordinateur-159
+# text = bon il est là bas
+1	bon	bon	INT	INT	_	3	dm	_	_	315.130005	315.299988	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	315.350006	315.399994	L2
+3	est	être	VRB	VRB	_	0	root	_	_	315.510010	315.529999	L2
+4	là	là	ADV	ADV	_	3	dep	_	_	315.529999	315.630005	L2
+5	bas	bas	ADV	ADV	_	4	dep	_	_	315.630005	315.869995	L2
+
+# sent_id = cefc-tcof-ordinateur-160
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	315.950012	316.079987	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	316.079987	316.149994	L1
+
+# sent_id = cefc-tcof-ordinateur-161
+# text = donc voi~
+1	donc	donc	ADV	ADV	_	2	periph	_	_	316.950012	317.100006	L2
+2	voi~	voi~	VRB	VRB	_	0	root	_	_	317.100006	317.269989	L2
+
+# sent_id = cefc-tcof-ordinateur-162
+# text = donc ça c'est ce que j'ai actuellement dedans
+1	donc	donc	ADV	ADV	_	4	periph	_	_	317.269989	317.399994	L2
+2	ça	ça	PRO	PRO	_	4	periph	_	_	317.399994	317.510010	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	317.589996	317.609985	L2
+4	est	être	VRB	VRB	_	0	root	_	_	317.609985	317.640015	L2
+5	ce	ce	PRO	PRO	_	4	dep	_	_	317.640015	317.679993	L2
+6	que	que	PRQ	PRQ	_	8	dep	_	_	317.679993	317.829987	L2
+7	j'	je	CLS	CLS	_	8	subj	_	_	317.829987	317.899994	L2
+8	ai	avoir	VRB	VRB	_	5	dep	_	_	317.899994	317.929993	L2
+9	actuellement	actuellement	ADV	ADV	_	8	dep	_	_	317.929993	318.359985	L2
+10	dedans	dedans	ADV	ADV	_	8	dep	_	_	318.359985	318.600006	L2
+
+# sent_id = cefc-tcof-ordinateur-163
+# text = enfin tu vois les couleurs c'est ce que j'ai téléchargé les voix la carte de France
+1	enfin	enfin	ADV	ADV	_	7	periph	_	_	320.079987	320.179993	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	320.489990	320.540009	L2
+3	vois	voir	VRB	VRB	_	1	dm	_	_	320.540009	320.750000	L2
+4	les	le	DET	DET	_	5	spe	_	_	320.750000	320.910004	L2
+5	couleurs	couleur	NOM	NOM	_	7	periph	_	_	320.950012	321.339996	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	321.399994	321.450012	L2
+7	est	être	VRB	VRB	_	0	root	_	_	321.450012	321.480011	L2
+8	ce	ce	PRO	PRO	_	7	dep	_	_	321.480011	321.510010	L2
+9	que	que	PRQ	PRQ	_	12	dep	_	_	321.549988	321.570007	L2
+10	j'	je	CLS	CLS	_	12	subj	_	_	321.570007	321.649994	L2
+11	ai	avoir	VRB	VRB	_	12	aux	_	_	321.649994	321.690002	L2
+12	téléchargé	télécharger	VPP	VPP	_	8	dep	_	_	321.750000	322.440002	L2
+13	les	le	DET	DET	_	14	spe	_	_	322.489990	322.549988	L2
+14	voix	voix	NOM	NOM	_	12	dep	_	_	322.600006	323.059998	L2
+15	la	le	DET	DET	_	16	spe	_	_	323.109985	323.160004	L2
+16	carte	carte	NOM	NOM	_	12	dep	_	_	323.220001	323.429993	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	323.429993	323.540009	L2
+18	France	France	NOM	NOM	_	17	dep	_	_	323.730011	324.019989	L2
+
+# sent_id = cefc-tcof-ordinateur-164
+# text = les
+1	les	le	DET	DET	_	0	root	_	_	324.429993	324.549988	L2
+
+# sent_id = cefc-tcof-ordinateur-165
+# text = et ça c'est les images que j'ai rajouté
+1	et	et	COO	COO	_	4	mark	_	_	324.549988	324.589996	L2
+2	ça	ça	PRO	PRO	_	4	periph	_	_	324.700012	324.750000	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	324.750000	324.779999	L2
+4	est	être	VRB	VRB	_	0	root	_	_	324.829987	325.049988	L2
+5	les	le	DET	DET	_	6	spe	_	_	325.160004	325.220001	L2
+6	images	image	NOM	NOM	_	4	dep	_	_	325.220001	325.500000	L2
+7	que	que	PRQ	PRQ	_	10	dep	_	_	325.500000	325.649994	L2
+8	j'	je	CLS	CLS	_	10	subj	_	_	325.649994	325.679993	L2
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	325.679993	325.720001	L2
+10	rajouté	rajouter	VPP	VPP	_	6	dep	_	_	325.720001	326.269989	L2
+
+# sent_id = cefc-tcof-ordinateur-166
+# text = bon c'était juste pour voir
+1	bon	bon	INT	INT	_	3	dm	_	_	326.459991	326.519989	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	326.519989	326.559998	L2
+3	était	être	VRB	VRB	_	0	root	_	_	326.559998	326.670013	L2
+4	juste	juste	ADV	ADV	_	3	dep	_	_	326.670013	326.799988	L2
+5	pour	pour	PRE	PRE	_	3	dep	_	_	326.839996	326.970001	L2
+6	voir	voir	VNF	VNF	_	5	dep	_	_	326.970001	327.160004	L2
+
+# sent_id = cefc-tcof-ordinateur-167
+# text = je les ai pas vues
+1	je	je	CLS	CLS	_	5	subj	_	_	327.160004	327.190002	L2
+2	les	le	CLI	CLI	_	5	dep	_	_	327.230011	327.369995	L2
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	327.369995	327.410004	L2
+4	pas	pas	ADN	ADN	_	5	dep	_	_	327.480011	327.529999	L2
+5	vues	voir	VPP	VPP	_	0	root	_	_	327.529999	327.700012	L2
+
+# sent_id = cefc-tcof-ordinateur-168
+# text = mais bon c'est pas grave
+1	mais	mais	COO	COO	_	4	mark	_	_	327.700012	327.809998	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	328.079987	328.140015	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	328.140015	328.170013	L2
+4	est	être	VRB	VRB	_	0	root	_	_	328.250000	328.269989	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	328.450012	328.500000	L2
+6	grave	grave	ADJ	ADJ	_	4	dep	_	_	328.549988	328.790009	L2
+
+# sent_id = cefc-tcof-ordinateur-169
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	324.070007	324.309998	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	324.309998	324.380005	L1
+
+# sent_id = cefc-tcof-ordinateur-170
+# text = elles étaient déjà dans le C D
+1	elles	il	CLS	CLS	_	2	subj	_	_	329.529999	329.589996	L2
+2	étaient	être	VRB	VRB	_	0	root	_	_	329.589996	329.679993	L2
+3	déjà	déjà	ADV	ADV	_	2	dep	_	_	329.679993	329.829987	L2
+4	dans	dans	PRE	PRE	_	2	dep	_	_	329.829987	329.950012	L2
+5	le	le	DET	DET	_	6	spe	_	_	330.010010	330.029999	L2
+6	C	C	NOM	NOM	_	4	dep	_	_	330.029999	330.109985	L2
+7	D	D	PRE	PRE	_	6	dep	_	_	330.109985	330.230011	L2
+
+# sent_id = cefc-tcof-ordinateur-171
+# text = mon appareil
+1	mon	son	DET	DET	_	2	spe	_	_	330.290009	330.420013	L1
+2	appareil	appareil	NOM	NOM	_	0	root	_	_	330.420013	330.950012	L1
+
+# sent_id = cefc-tcof-ordinateur-172
+# text = voilà donc il y a ça
+1	voilà	voilà	INT	INT	_	5	dm	_	_	331.950012	332.260010	L2
+2	donc	donc	ADV	ADV	_	5	periph	_	_	332.750000	332.869995	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	332.869995	332.950012	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	332.950012	333.010010	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	333.010010	333.059998	L2
+6	ça	ça	PRO	PRO	_	5	dep	_	_	333.059998	333.380005	L2
+
+# sent_id = cefc-tcof-ordinateur-173
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	334.269989	334.459991	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	335.440002	335.660004	L1
+
+# sent_id = cefc-tcof-ordinateur-174
+# text = alors il y a préférence tu as là haut la petite clé à molette
+1	alors	alors	ADV	ADV	_	4	periph	_	_	336.600006	336.730011	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	336.730011	336.790009	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	336.790009	336.829987	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	336.829987	336.880005	L2
+5	préférence	préférence	NOM	NOM	_	4	dep	_	_	336.880005	337.519989	L2
+6	tu	tu	CLS	CLS	_	7	subj	_	_	337.609985	337.670013	L2
+7	as	avoir	VRB	VRB	_	4	para	_	_	337.670013	337.799988	L2
+8	là	là	ADV	ADV	_	7	dep	_	_	337.859985	338.000000	L2
+9	haut	haut	ADJ	ADJ	_	7	dep	_	_	338.000000	338.179993	L2
+10	la	le	DET	DET	_	12	spe	_	_	338.309998	338.450012	L2
+11	petite	petit	ADJ	ADJ	_	12	dep	_	_	338.489990	338.649994	L2
+12	clé	clé	NOM	NOM	_	7	dep	_	_	338.690002	338.820007	L2
+13	à	à	PRE	PRE	_	12	dep	_	_	338.820007	338.869995	L2
+14	molette	molette	NOM	NOM	_	13	dep	_	_	338.869995	339.130005	L2
+
+# sent_id = cefc-tcof-ordinateur-175
+# text = voilà ça fait ça
+1	voilà	voilà	INT	INT	_	3	dm	_	_	341.130005	341.420013	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	341.470001	341.540009	L2
+3	fait	faire	VRB	VRB	_	0	root	_	_	341.540009	341.700012	L2
+4	ça	ça	PRO	PRO	_	3	dep	_	_	341.760010	341.910004	L2
+
+# sent_id = cefc-tcof-ordinateur-176
+# text = et c'est tout
+1	et	et	COO	COO	_	3	mark	_	_	342.350006	342.390015	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	342.390015	342.489990	L2
+3	est	être	VRB	VRB	_	0	root	_	_	342.489990	342.529999	L2
+4	tout	tout	ADJ	ADJ	_	3	dep	_	_	342.609985	342.750000	L2
+
+# sent_id = cefc-tcof-ordinateur-177
+# text = donc c'est assez impressionnant
+1	donc	donc	ADV	ADV	_	3	periph	_	_	346.010010	346.160004	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	346.239990	346.309998	L2
+3	est	être	VRB	VRB	_	0	root	_	_	346.309998	346.339996	L2
+4	assez	assez	ADV	ADV	_	5	dep	_	_	346.339996	346.510010	L2
+5	impressionnant	impressionnant	ADJ	ADJ	_	3	dep	_	_	346.510010	347.000000	L2
+

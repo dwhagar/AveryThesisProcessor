@@ -1,0 +1,2879 @@
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-1
+# text = mais il est tout petit
+1	mais	mais	COO	COO	_	3	mark	_	_	0.260000	0.510000	MAR
+2	il	il	CLS	CLS	_	3	subj	_	_	0.520000	0.580000	MAR
+3	est	être	VRB	VRB	_	0	root	_	_	0.590000	1.130000	MAR
+4	tout	tout	ADJ	ADJ	_	5	dep	_	_	1.140000	1.190000	MAR
+5	petit	petit	ADJ	ADJ	_	3	dep	_	_	1.200000	1.280000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-2
+# text = c'est c'est c'est même pas toi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1.400000	1.420000	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	1.430000	1.510000	VE1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	1.520000	1.540000	VE1
+4	est	être	VRB	VRB	_	2	para	_	_	1.550000	1.700000	VE1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	1.710000	1.730000	VE1
+6	est	être	VRB	VRB	_	4	para	_	_	1.850000	1.890000	VE1
+7	même	même	ADV	ADV	_	8	dep	_	_	2.040000	2.200000	VE1
+8	pas	pas	ADN	ADN	_	6	dep	_	_	2.420000	2.510000	VE1
+9	toi	moi	PRO	PRO	_	6	periph	_	_	2.610000	2.840000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-3
+# text = c'est même pas toi qui es
+1	c'	ce	CLS	CLS	_	2	subj	_	_	4.190000	4.260000	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	4.270000	4.290000	VE1
+3	même	même	ADV	ADV	_	4	dep	_	_	4.300000	4.450000	VE1
+4	pas	pas	ADN	ADN	_	2	dep	_	_	4.500000	4.680000	VE1
+5	toi	moi	PRO	PRO	_	2	dep	_	_	4.780000	4.920000	VE1
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	4.930000	4.990000	VE1
+7	es	être	VRB	VRB	_	5	dep	_	_	5.080000	5.190000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-4
+# text = je croyais qu'il allait être plus lourd
+1	je	je	CLS	CLS	_	2	subj	_	_	6.230000	6.250000	MAR
+2	croyais	croire	VRB	VRB	_	0	root	_	_	6.310000	6.480000	MAR
+3	qu'	que	CSU	CSU	_	2	dep	_	_	6.690000	6.760000	MAR
+4	il	il	CLS	CLS	_	5	subj	_	_	6.770000	6.900000	MAR
+5	allait	aller	VRB	VRB	_	3	dep	_	_	6.910000	7.020000	MAR
+6	être	être	VNF	VNF	_	5	dep	_	_	7.030000	7.080000	MAR
+7	plus	plus	ADV	ADV	_	8	dep	_	_	7.530000	7.610000	MAR
+8	lourd	lourd	ADV	ADV	_	6	dep	_	_	7.700000	7.780000	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-5
+# text = prendre ça
+1	prendre	prendre	VNF	VNF	_	0	root	_	_	8.320000	8.530000	C01
+2	ça	ça	PRO	PRO	_	1	dep	_	_	8.710000	8.760000	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-6
+# text = il y a du monde ce matin
+1	il	il	CLS	CLS	_	3	subj	_	_	9.760000	9.810000	C01
+2	y	y	CLI	CLI	_	3	dep	_	_	9.820000	9.840000	C01
+3	a	avoir	VRB	VRB	_	0	root	_	_	9.850000	9.870000	C01
+4	du	de+le	PRE	PRE	_	3	dep	_	_	9.960000	10.010000	C01
+5	monde	monde	NOM	NOM	_	4	dep	_	_	10.020000	10.230000	C01
+6	ce	ce	DET	DET	_	7	spe	_	_	10.240000	10.300000	C01
+7	matin	matin	NOM	NOM	_	3	dep	_	_	10.310000	10.580000	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-7
+# text = ouais je suis filmée
+1	ouais	ouais	INT	INT	_	4	dm	_	_	10.770000	10.880000	VE1
+2	je	je	CLS	CLS	_	4	subj	_	_	10.890000	11.020000	VE1
+3	suis	être	VRB	VRB	_	4	aux	_	_	11.030000	11.110000	VE1
+4	filmée	filmer	VPP	VPP	_	0	root	_	_	11.120000	11.520000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-8
+# text = alors euh ah bon c'est pas très sympa ça
+1	alors	alors	ADV	ADV	_	5	periph	_	_	11.760000	12.100000	VE1
+2	euh	euh	INT	INT	_	1	dm	_	_	12.110000	12.150000	VE1
+3	ah bon	ah bon	INT	INT	_	2	dm	_	_	12.210000	12.380000	VE1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	12.390000	12.550000	VE1
+5	est	être	VRB	VRB	_	0	root	_	_	12.560000	12.670000	VE1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	12.680000	13.070000	VE1
+7	très	très	ADV	ADV	_	8	dep	_	_	13.080000	13.200000	VE1
+8	sympa	sympa	ADJ	ADJ	_	5	dep	_	_	13.210000	13.440000	VE1
+9	ça	ça	PRO	PRO	_	5	dep	_	_	13.450000	13.550000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-9
+# text = vous aussi d'ailleurs c'est la dernière
+1	vous	vous	CLS	CLS	_	6	periph	_	_	12.220000	12.320000	C01
+2	aussi	aussi	ADV	ADV	_	3	dep	_	_	12.330000	12.670000	C01
+3	d'	de	PRE	PRE	_	6	periph	_	_	12.680000	12.720000	C01
+4	ailleurs	ailleurs	ADV	ADV	_	3	morph	_	_	12.730000	13.420000	C01
+5	c'	ce	CLS	CLS	_	6	subj	_	_	13.630000	13.650000	C01
+6	est	être	VRB	VRB	_	0	root	_	_	13.660000	13.680000	C01
+7	la	le	DET	DET	_	8	spe	_	_	13.690000	13.740000	C01
+8	dernière	dernier	ADJ	ADJ	_	6	dep	_	_	13.750000	13.970000	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-10
+# text = c'est la dernière
+1	c'	ce	CLS	CLS	_	2	subj	_	_	14.550000	14.590000	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	14.600000	14.640000	VE1
+3	la	le	DET	DET	_	4	spe	_	_	14.650000	14.750000	VE1
+4	dernière	dernier	ADJ	ADJ	_	2	dep	_	_	14.760000	15.110000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-11
+# text = c'est les derniers
+1	c'	ce	CLS	CLS	_	2	subj	_	_	17.750000	17.850000	MAR
+2	est	être	VRB	VRB	_	0	root	_	_	17.920000	18.049999	MAR
+3	les	le	DET	DET	_	4	spe	_	_	18.059999	18.209999	MAR
+4	derniers	dernier	ADJ	ADJ	_	2	dep	_	_	18.260000	18.540001	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-12
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	23.639999	24.370001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-13
+# text = bonjour je voudrais une flûte farinée et une baguette longue
+1	bonjour	bonjour	INT	INT	_	3	dm	_	_	23.639999	24.370001	C02
+2	je	je	CLS	CLS	_	3	subj	_	_	25.219999	25.250000	C02
+3	voudrais	vouloir	VRB	VRB	_	0	root	_	_	25.260000	25.420000	C02
+4	une	un	DET	DET	_	5	spe	_	_	25.430000	25.480000	C02
+5	flûte	flûte	NOM	NOM	_	3	dep	_	_	25.490000	25.690001	C02
+6	farinée	fariner	ADJ	ADJ	_	5	dep	_	_	25.700001	26.020000	C02
+7	et	et	COO	COO	_	9	mark	_	_	26.100000	26.280001	C02
+8	une	un	DET	DET	_	9	spe	_	_	26.290001	26.340000	C02
+9	baguette	baguette	NOM	NOM	_	5	para	_	_	26.500000	26.719999	C02
+10	longue	long	ADJ	ADJ	_	9	dep	_	_	27.010000	27.090000	C02
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-14
+# text = alors euh euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	33.360001	33.599998	VE1
+2	euh	euh	INT	INT	_	1	dm	_	_	33.610001	33.919998	VE1
+3	euh	euh	INT	INT	_	2	dm	_	_	35.200001	35.610001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-15
+# text = deux quinze
+1	deux	deux	NUM	NUM	_	0	root	_	_	35.669998	35.790001	VE1
+2	quinze	quinze	NUM	NUM	_	1	dep	_	_	35.799999	36.130001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-16
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	36.139999	36.160000	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	36.349998	36.500000	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	36.509998	36.650002	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	36.660000	36.740002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-17
+# text = et vingt merci merci bonne journée
+1	et	et	COO	COO	_	6	mark	_	_	46.060001	46.139999	VE1
+2	vingt	vingt	NUM	NUM	_	6	periph	_	_	46.279999	46.549999	VE1
+3	merci	merci	INT	INT	_	2	dm	_	_	47.110001	47.830002	VE1
+4	merci	merci	INT	INT	_	5	dm	_	_	47.110001	47.830002	C02
+5	bonne	bon	ADJ	ADJ	_	6	dep	_	_	49.099998	49.270000	C02
+6	journée	journée	NOM	NOM	_	0	root	_	_	49.549999	50.119999	C02
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-18
+# text = et bonne journée merci
+1	et	et	COO	COO	_	3	mark	_	_	49.160000	49.230000	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	49.240002	49.340000	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	49.549999	50.119999	VE1
+4	merci	merci	INT	INT	_	3	dm	_	_	50.509998	50.770000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-19
+# text = au revoir merci
+1	au revoir	au revoir	INT	INT	_	2	dm	_	_	50.820000	51.349998	C02
+2	merci	merci	INT	INT	_	0	root	_	_	50.509998	50.770000	C02
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-20
+# text = au revoir hop
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	50.820000	51.349998	C01
+2	hop	hop	INT	INT	_	1	dm	_	_	96.550003	96.610001	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-21
+# text = alors qu'est-ce qu'il dit il est calme
+1	alors	alors	ADV	ADV	_	3	periph	_	_	103.129997	103.370003	VE1
+2	qu'	que	CSU	CSU	_	3	dep	_	_	108.870003	108.940002	C01
+3	est-ce	est-ce	NOM	NOM	_	8	periph	_	_	108.949997	109.099998	C01
+4	qu'	que	PRQ	PRQ	_	6	dep	_	_	109.169998	109.190002	C01
+5	il	il	CLS	CLS	_	6	subj	_	_	109.199997	109.269997	C01
+6	dit	dire	VRB	VRB	_	3	dep	_	_	109.279999	109.389999	C01
+7	il	il	CLS	CLS	_	8	subj	_	_	109.610001	109.660004	C01
+8	est	être	VRB	VRB	_	0	root	_	_	110.019997	110.190002	C01
+9	calme	calme	ADJ	ADJ	_	8	dep	_	_	110.199997	110.489998	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-22
+# text = il dit il dit tu es bien calme
+1	il	il	CLS	CLS	_	2	subj	_	_	110.029999	110.150002	VE1
+2	dit	dire	VRB	VRB	_	0	root	_	_	110.190002	110.320000	VE1
+3	il	il	CLS	CLS	_	4	subj	_	_	111.150002	111.349998	VE1
+4	dit	dire	VRB	VRB	_	2	dm	_	_	111.360001	111.410004	VE1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	111.419998	111.500000	VE1
+6	es	être	VRB	VRB	_	2	dep	_	_	111.510002	111.529999	VE1
+7	bien	bien	ADV	ADV	_	8	dep	_	_	111.540001	111.790001	VE1
+8	calme	calme	ADJ	ADJ	_	6	dep	_	_	111.830002	112.110001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-23
+# text = aujourd' hui
+1	aujourd' hui	aujourd'hui	ADV	ADV	_	0	root	_	_	112.120003	112.510002	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-24
+# text = ah un quatre-vingt-quinze
+1	ah	ah	INT	INT	_	3	dm	_	_	113.059998	113.279999	VE1
+2	un	un	DET	DET	_	3	spe	_	_	114.220001	114.239998	VE1
+3	quatre-vingt-quinze	quatre-vingt-quinze	NUM	NUM	_	0	root	_	_	114.309998	115.430000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-25
+# text = ouh la ça tombe souvent
+1	ouh la	oh là là	INT	INT	_	3	dm	_	_	118.190002	118.339996	VE1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	118.349998	118.430000	VE1
+3	tombe	tomber	VRB	VRB	_	0	root	_	_	118.440002	118.519997	VE1
+4	souvent	souvent	ADV	ADV	_	3	dep	_	_	118.529999	118.790001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-26
+# text = là tu gagnais là
+1	là	là	ADV	ADV	_	3	periph	_	_	121.800003	121.870003	BOU
+2	tu	tu	CLS	CLS	_	3	subj	_	_	122.019997	122.070000	BOU
+3	gagnais	gagner	VRB	VRB	_	0	root	_	_	122.080002	122.370003	BOU
+4	là	là	ADV	ADV	_	3	dep	_	_	122.510002	122.760002	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-27
+# text = tu gagnais de l'argent parce qu'elle va travailler dessus
+1	tu	tu	CLS	CLS	_	2	subj	_	_	122.769997	122.820000	BOU
+2	gagnais	gagner	VRB	VRB	_	0	root	_	_	122.919998	123.080002	BOU
+3	de	de	PRE	PRE	_	2	dep	_	_	123.089996	123.110001	BOU
+4	l'	le	DET	DET	_	5	spe	_	_	123.120003	123.199997	BOU
+5	argent	argent	NOM	NOM	_	3	dep	_	_	123.209999	123.489998	BOU
+6	parce qu'	parce que	CSU	CSU	_	2	dep	_	_	123.500000	123.639999	BOU
+7	elle	il	CLS	CLS	_	8	subj	_	_	123.650002	123.790001	BOU
+8	va	aller	VRB	VRB	_	6	dep	_	_	123.800003	123.849998	BOU
+9	travailler	travailler	VNF	VNF	_	8	dep	_	_	123.989998	124.199997	BOU
+10	dessus	dessus	ADV	ADV	_	9	dep	_	_	124.629997	124.739998	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-28
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	128.179993	128.399994	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-29
+# text = huit quarante
+1	huit	huit	NUM	NUM	_	0	root	_	_	128.410004	128.580002	VE1
+2	quarante	quarante	NUM	NUM	_	1	dep	_	_	128.679993	129.070007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-30
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	129.190002	129.210007	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	129.220001	129.270004	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	129.279999	129.399994	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	129.500000	129.660004	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-31
+# text = et s s'il suffit de mettre une caméra c'est c'est
+1	et	et	COO	COO	_	11	mark	_	_	130.119995	130.339996	C01
+2	s	s	X	X	_	1	disflink	_	_	130.610001	130.779999	C01
+3	s'	si	CSU	CSU	_	11	periph	_	_	130.869995	130.919998	C01
+4	il	il	CLS	CLS	_	5	subj	_	_	130.929993	131.080002	C01
+5	suffit	suffire	VRB	VRB	_	3	dep	_	_	131.089996	131.389999	C01
+6	de	de	PRE	PRE	_	5	dep	_	_	131.399994	131.419998	C01
+7	mettre	mettre	VNF	VNF	_	6	dep	_	_	131.429993	131.600006	C01
+8	une	un	DET	DET	_	9	spe	_	_	131.610001	131.720001	C01
+9	caméra	caméra	NOM	NOM	_	7	dep	_	_	131.729996	132.289993	C01
+10	c'	ce	CLS	CLS	_	11	subj	_	_	132.300003	132.320007	C01
+11	est	être	VRB	VRB	_	0	root	_	_	132.330002	132.610001	C01
+12	c'	ce	CLS	CLS	_	13	subj	_	_	132.619995	132.699997	C01
+13	est	être	VRB	VRB	_	11	para	_	_	132.740005	132.779999	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-32
+# text = bon
+1	bon	bon	ADJ	ADJ	_	0	root	_	_	132.789993	133.130005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-33
+# text = al maman
+1	al	al	DET	DET	_	2	spe	_	_	130.580002	132.039993	MAR
+2	maman	maman	NOM	NOM	_	0	root	_	_	131.389999	132.619995	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-34
+# text = dans mon sac derrière
+1	dans	dans	PRE	PRE	_	0	root	_	_	135.270004	135.339996	VE1
+2	mon	son	DET	DET	_	3	spe	_	_	135.350006	135.490005	VE1
+3	sac	sac	NOM	NOM	_	1	dep	_	_	135.570007	135.729996	VE1
+4	derrière	derrière	PRE	PRE	_	3	dep	_	_	135.809998	136.199997	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-35
+# text = combien elle m'a dit
+1	combien	combien	PRQ	PRQ	_	5	dep	_	_	137.279999	137.660004	C01
+2	elle	il	CLS	CLS	_	5	subj	_	_	137.669998	137.820007	C01
+3	m'	me	CLI	CLI	_	5	dep	_	_	137.830002	137.880005	C01
+4	a	avoir	VRB	VRB	_	5	aux	_	_	137.929993	137.949997	C01
+5	dit	dire	VPP	VPP	_	0	root	_	_	138.039993	138.130005	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-36
+# text = huit quarante
+1	huit	huit	NUM	NUM	_	0	root	_	_	138.309998	138.460007	VE1
+2	quarante	quarante	NUM	NUM	_	1	dep	_	_	138.589996	139.300003	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-37
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	139.350006	139.380005	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	139.389999	139.440002	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	139.539993	139.610001	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	139.720001	139.830002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-38
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	139.949997	140.089996	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-39
+# text = vous voulez pas de pain
+1	vous	vous	CLS	CLS	_	2	subj	_	_	140.190002	140.240005	VE1
+2	voulez	vouloir	VRB	VRB	_	0	root	_	_	140.250000	140.399994	VE1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	140.410004	140.509995	VE1
+4	de	de	PRE	PRE	_	2	dep	_	_	140.520004	140.539993	VE1
+5	pain	pain	NOM	NOM	_	4	dep	_	_	140.630005	140.830002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-40
+# text = aujourd' hui c'est fait
+1	aujourd' hui	aujourd'hui	ADV	ADV	_	4	dep	_	_	140.839996	141.149994	C01
+2	c'	ce	CLS	CLS	_	4	subj	_	_	141.559998	141.589996	C01
+3	est	être	VRB	VRB	_	4	aux	_	_	141.600006	141.649994	C01
+4	fait	faire	VPP	VPP	_	0	root	_	_	141.660004	141.929993	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-41
+# text = c'est fait
+1	c'	ce	CLS	CLS	_	3	subj	_	_	142.169998	142.210007	VE1
+2	est	être	VRB	VRB	_	3	aux	_	_	142.220001	142.270004	VE1
+3	fait	faire	VPP	VPP	_	0	root	_	_	142.279999	142.460007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-42
+# text = ah
+1	ah	ah	INT	INT	_	0	root	_	_	142.470001	143.080002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-43
+# text = déjà deux fois alors
+1	déjà	déjà	ADV	ADV	_	3	dep	_	_	143.089996	143.320007	VE1
+2	deux	deux	NUM	NUM	_	3	spe	_	_	143.410004	143.529999	VE1
+3	fois	foi	NOM	NOM	_	0	root	_	_	143.539993	144.000000	VE1
+4	alors	alors	ADV	ADV	_	3	dm	_	_	144.009995	144.199997	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-44
+# text = deux fois oui
+1	deux	deux	NUM	NUM	_	2	spe	_	_	144.389999	144.779999	C01
+2	fois	foi	NOM	NOM	_	0	root	_	_	144.789993	144.940002	C01
+3	oui	oui	INT	INT	_	2	dm	_	_	144.949997	145.110001	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-45
+# text = mais comme vous y étiez pas
+1	mais	mais	COO	COO	_	2	mark	_	_	145.169998	145.270004	C01
+2	comme	comme	CSU	CSU	_	0	root	_	_	145.279999	145.419998	C01
+3	vous	vous	CLS	CLS	_	5	subj	_	_	145.479996	145.699997	C01
+4	y	y	CLI	CLI	_	5	dep	_	_	145.710007	145.880005	C01
+5	étiez	être	VRB	VRB	_	2	dep	_	_	145.889999	146.199997	C01
+6	pas	pas	ADN	ADN	_	5	dep	_	_	146.210007	146.259995	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-46
+# text = je suis revenu
+1	je	je	CLS	CLS	_	3	subj	_	_	146.270004	146.309998	C01
+2	suis	être	VRB	VRB	_	3	aux	_	_	146.320007	146.479996	C01
+3	revenu	revenir	VPP	VPP	_	0	root	_	_	146.490005	146.800003	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-47
+# text = ben voilà
+1	ben	ben	INT	INT	_	2	dm	_	_	147.009995	147.139999	VE1
+2	voilà	voilà	INT	INT	_	0	root	_	_	147.149994	147.410004	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-48
+# text = hein boulanger il m'a pas entendu
+1	hein	hein	INT	INT	_	2	dm	_	_	150.160004	150.259995	C01
+2	boulanger	boulanger	VNF	VNF	_	0	root	_	_	150.270004	150.820007	C01
+3	il	il	CLS	CLS	_	7	subj	_	_	152.389999	152.440002	C01
+4	m'	me	CLI	CLI	_	7	dep	_	_	152.449997	152.470001	C01
+5	a	avoir	VRB	VRB	_	7	aux	_	_	152.690002	152.750000	C01
+6	pas	pas	ADN	ADN	_	7	dep	_	_	152.759995	152.830002	C01
+7	entendu	entendre	VPP	VPP	_	2	dep	_	_	152.839996	153.020004	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-49
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	153.149994	153.449997	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-50
+# text = huit non
+1	huit	huit	NUM	NUM	_	0	root	_	_	153.460007	153.559998	VE1
+2	non	non	INT	INT	_	1	dm	_	_	153.699997	153.889999	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-51
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	155.360001	155.940002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-52
+# text = bonne journée
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	157.240005	157.410004	VE1
+2	journée	journée	NOM	NOM	_	0	root	_	_	157.419998	157.779999	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-53
+# text = eh ben
+1	eh ben	eh ben	INT	INT	_	0	root	_	_	158.270004	158.820007	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-54
+# text = vous aussi
+1	vous	moi	PRO	PRO	_	0	root	_	_	158.830002	158.889999	C01
+2	aussi	aussi	ADV	ADV	_	1	dep	_	_	158.899994	158.990005	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-55
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	159.169998	159.360001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-56
+# text = revoir
+1	revoir	revoir	VNF	VNF	_	0	root	_	_	166.500000	167.130005	C01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-57
+# text = au revoir on vous prendra trois pains au chocolat
+1	au revoir	au revoir	INT	INT	_	4	dm	_	_	167.210007	167.860001	C04
+2	on	on	CLS	CLS	_	4	subj	_	_	179.660004	179.889999	C04
+3	vous	vous	CLI	CLI	_	4	dep	_	_	179.899994	180.039993	C04
+4	prendra	prendre	VRB	VRB	_	0	root	_	_	180.050003	180.279999	C04
+5	trois	trois	NUM	NUM	_	6	spe	_	_	180.289993	180.429993	C04
+6	pains	pain	NOM	NOM	_	4	dep	_	_	180.440002	180.520004	C04
+7	au	à+le	PRE	PRE	_	6	dep	_	_	180.699997	180.720001	C04
+8	chocolat	chocolat	NOM	NOM	_	7	dep	_	_	180.770004	180.970001	C04
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-58
+# text = trois pains au chocolat
+1	trois	trois	NUM	NUM	_	2	spe	_	_	181.710007	181.850006	VE1
+2	pains	pain	NOM	NOM	_	0	root	_	_	181.860001	181.910004	VE1
+3	au	à+le	PRE	PRE	_	2	dep	_	_	181.919998	181.940002	VE1
+4	chocolat	chocolat	NOM	NOM	_	3	dep	_	_	181.949997	182.339996	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-59
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	182.639999	182.669998	C04
+2	il	il	CLS	CLS	_	4	subj	_	_	182.679993	182.729996	C04
+3	vous	vous	CLI	CLI	_	4	dep	_	_	182.889999	182.960007	C04
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	182.970001	183.050003	C04
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-60
+# text = alors je suis à vous
+1	alors	alors	ADV	ADV	_	3	periph	_	_	184.119995	184.250000	VE1
+2	je	je	CLS	CLS	_	3	subj	_	_	184.259995	184.529999	VE1
+3	suis	être	VRB	VRB	_	0	root	_	_	184.779999	185.020004	VE1
+4	à	à	PRE	PRE	_	3	dep	_	_	185.029999	185.119995	VE1
+5	vous	moi	PRO	PRO	_	4	dep	_	_	185.130005	185.240005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-61
+# text = ça tient plus je sais pas comment faut que j'y mette
+1	ça	ça	PRO	PRO	_	2	subj	_	_	187.229996	187.279999	VE1
+2	tient	(se) tenir	VRB	VRB	_	0	root	_	_	187.289993	187.490005	VE1
+3	plus	plus	ADN	ADN	_	2	dep	_	_	187.710007	187.940002	VE1
+4	je	je	CLS	CLS	_	5	subj	_	_	188.160004	188.179993	VE1
+5	sais	savoir	VRB	VRB	_	2	para	_	_	188.190002	188.259995	VE1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	188.309998	188.369995	VE1
+7	comment	comment	PRQ	PRQ	_	8	dep	_	_	188.470001	188.589996	VE1
+8	faut	faillir	VRB	VRB	_	5	dep	_	_	188.600006	188.750000	VE1
+9	que	que	CSU	CSU	_	8	dep	_	_	188.759995	188.800003	VE1
+10	j'	je	CLS	CLS	_	12	subj	_	_	188.809998	188.830002	VE1
+11	y	y	CLI	CLI	_	12	dep	_	_	188.839996	188.860001	VE1
+12	mette	mettre	VRB	VRB	_	9	dep	_	_	188.869995	189.070007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-62
+# text = on peut caler avec l'enregistreur
+1	on	on	CLS	CLS	_	2	subj	_	_	189.320007	189.339996	C04
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	189.350006	189.399994	C04
+3	caler	caler	VNF	VNF	_	2	dep	_	_	189.449997	189.559998	C04
+4	avec	avec	PRE	PRE	_	3	dep	_	_	189.800003	189.949997	C04
+5	l'	le	DET	DET	_	6	spe	_	_	189.960007	189.979996	C04
+6	enregistreur	enregistreur	NOM	NOM	_	4	dep	_	_	190.110001	190.500000	C04
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-63
+# text = non n alors trois pains au chocolat je vais chercher tout ce qui faut
+1	non	non	INT	INT	_	9	dm	_	_	190.910004	191.020004	VE1
+2	n	n	X	X	_	1	disflink	_	_	191.699997	191.750000	VE1
+3	alors	alors	ADV	ADV	_	9	periph	_	_	192.490005	192.740005	VE1
+4	trois	trois	NUM	NUM	_	5	spe	_	_	192.750000	192.970001	VE1
+5	pains	pain	NOM	NOM	_	9	periph	_	_	192.979996	193.029999	VE1
+6	au	à+le	PRE	PRE	_	5	dep	_	_	193.039993	193.059998	VE1
+7	chocolat	chocolat	NOM	NOM	_	6	dep	_	_	193.070007	193.330002	VE1
+8	je	je	CLS	CLS	_	9	subj	_	_	195.020004	195.039993	VE1
+9	vais	aller	VRB	VRB	_	0	root	_	_	195.050003	195.110001	VE1
+10	chercher	chercher	VNF	VNF	_	9	dep	_	_	195.229996	195.380005	VE1
+11	tout	tout	ADJ	ADJ	_	12	dep	_	_	195.389999	195.449997	VE1
+12	ce	ce	PRO	PRO	_	10	dep	_	_	195.460007	195.949997	VE1
+13	qui	qui	PRQ	PRQ	_	14	dep	_	_	196.059998	196.130005	VE1
+14	faut	faillir	VRB	VRB	_	12	dep	_	_	196.250000	196.500000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-64
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	210.029999	210.809998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-65
+# text = deux soixante dix
+1	deux	deux	NUM	NUM	_	0	root	_	_	210.820007	210.979996	VE1
+2	soixante	soixante	NUM	NUM	_	1	dep	_	_	210.990005	211.389999	VE1
+3	dix	dix	NUM	NUM	_	2	dep	_	_	211.399994	211.520004	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-66
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	211.880005	211.929993	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	212.020004	212.070007	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	212.149994	212.289993	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	212.410004	212.490005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-67
+# text = tenez
+1	tenez	(se) tenir	VRB	VRB	_	0	root	_	_	210.139999	211.259995	C04
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-68
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	212.720001	212.889999	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-69
+# text = deux quatre-vingt et trois et voilà
+1	deux	deux	NUM	NUM	_	6	dm	_	_	214.500000	214.559998	VE1
+2	quatre-vingt	quatre-vingt	NUM	NUM	_	1	dep	_	_	214.729996	215.119995	VE1
+3	et	et	COO	COO	_	4	mark	_	_	215.199997	215.250000	VE1
+4	trois	trois	NUM	NUM	_	2	para	_	_	215.259995	215.500000	VE1
+5	et	et	COO	COO	_	6	mark	_	_	215.800003	215.820007	VE1
+6	voilà	voilà	INT	INT	_	0	root	_	_	215.830002	216.220001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-70
+# text = merci je vous pique ça
+1	merci	merci	INT	INT	_	4	dm	_	_	216.330002	216.809998	C04
+2	je	je	CLS	CLS	_	4	subj	_	_	217.449997	217.500000	C04
+3	vous	vous	CLI	CLI	_	4	dep	_	_	217.509995	217.589996	C04
+4	pique	piquer	VRB	VRB	_	0	root	_	_	217.740005	217.910004	C04
+5	ça	ça	PRO	PRO	_	4	dep	_	_	217.919998	217.990005	C04
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-71
+# text = un petit peu de lecture
+1	un	un	DET	DET	_	3	spe	_	_	218.949997	218.970001	VE1
+2	petit	petit	ADJ	ADJ	_	3	dep	_	_	218.979996	219.270004	VE1
+3	peu	peu	NOM	NOM	_	0	root	_	_	219.279999	219.330002	VE1
+4	de	de	PRE	PRE	_	3	dep	_	_	219.339996	219.360001	VE1
+5	lecture	lecture	NOM	NOM	_	4	dep	_	_	219.369995	220.009995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-72
+# text = bonjour et voilà
+1	bonjour	bonjour	INT	INT	_	3	dm	_	_	222.089996	222.639999	VE1
+2	et	et	COO	COO	_	3	mark	_	_	229.869995	229.970001	VE1
+3	voilà	voilà	VRB	VRB	_	0	root	_	_	229.979996	230.279999	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-73
+# text = deux zéro cinq
+1	deux	deux	NUM	NUM	_	0	root	_	_	230.339996	230.500000	VE1
+2	zéro	zéro	NUM	NUM	_	1	dep	_	_	230.509995	230.880005	VE1
+3	cinq	cinq	NUM	NUM	_	2	dep	_	_	230.889999	231.279999	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-74
+# text = euh non je j je lisais
+1	euh	euh	INT	INT	_	4	dm	_	_	231.429993	231.559998	C03
+2	non	non	INT	INT	_	1	dm	_	_	231.649994	231.919998	C03
+3	je	je	CLS	CLS	_	4	subj	_	_	232.330002	232.550003	C03
+4	j	j	VRB	VRB	_	0	root	_	_	232.559998	232.610001	C03
+5	je	je	CLS	CLS	_	6	subj	_	_	232.750000	232.850006	C03
+6	lisais	lire	VRB	VRB	_	4	dep	_	_	232.899994	233.279999	C03
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-75
+# text = une flÛte je veux une euh flûte longue
+1	une	un	DET	DET	_	2	spe	_	_	234.020004	234.220001	VE1
+2	flÛte	flÛte	NOM	NOM	_	4	periph	_	_	234.229996	234.679993	VE1
+3	je	je	CLS	CLS	_	4	subj	_	_	234.020004	234.259995	C03
+4	veux	vouloir	VRB	VRB	_	0	root	_	_	234.270004	234.380005	C03
+5	une	un	DET	DET	_	7	spe	_	_	234.389999	234.619995	C03
+6	euh	euh	INT	INT	_	5	dm	_	_	234.660004	234.679993	C03
+7	flûte	flûte	NOM	NOM	_	4	dep	_	_	234.990005	235.119995	C03
+8	longue	long	ADJ	ADJ	_	7	dep	_	_	235.220001	235.360001	C03
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-76
+# text = longue oui j'en ai
+1	longue	long	ADJ	ADJ	_	5	periph	_	_	236.220001	236.690002	VE1
+2	oui	oui	INT	INT	_	1	dm	_	_	236.740005	236.960007	VE1
+3	j'	je	CLS	CLS	_	5	subj	_	_	236.970001	237.070007	VE1
+4	en	en	CLI	CLI	_	5	dep	_	_	237.080002	237.160004	VE1
+5	ai	avoir	VRB	VRB	_	0	root	_	_	237.169998	237.190002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-77
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	248.500000	248.729996	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-78
+# text = trois trente
+1	trois	trois	NUM	NUM	_	0	root	_	_	248.940002	249.190002	VE1
+2	trente	trente	NUM	NUM	_	1	dep	_	_	249.259995	249.710007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-79
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	249.759995	249.779999	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	249.789993	249.850006	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	249.899994	250.020004	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	250.080002	250.259995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-80
+# text = deux cinq
+1	deux	deux	NUM	NUM	_	0	root	_	_	262.839996	262.980011	C03
+2	cinq	cinq	NUM	NUM	_	1	dep	_	_	262.989990	263.040009	C03
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-81
+# text = ça vous va
+1	ça	ça	PRO	PRO	_	3	periph	_	_	263.049988	263.100006	C03
+2	vous	vous	CLS	CLS	_	3	subj	_	_	263.480011	263.549988	C03
+3	va	aller	VRB	VRB	_	0	root	_	_	263.559998	263.630005	C03
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-82
+# text = c'est tout bon merci bien
+1	c'	ce	CLS	CLS	_	2	subj	_	_	263.709991	263.730011	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	263.739990	263.809998	VE1
+3	tout	tout	ADJ	ADJ	_	6	dep	_	_	263.859985	263.970001	VE1
+4	bon	bon	INT	INT	_	3	dm	_	_	263.980011	264.220001	VE1
+5	merci	merci	INT	INT	_	6	dm	_	_	264.519989	264.899994	VE1
+6	bien	bien	ADV	ADV	_	2	dep	_	_	264.910004	265.179993	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-83
+# text = et bonne journée au revoir merci au revoir
+1	et	et	COO	COO	_	3	mark	_	_	269.290009	269.390015	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	269.399994	269.570007	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	269.809998	270.149994	VE1
+4	au revoir	au revoir	INT	INT	_	3	dm	_	_	270.570007	270.920013	VE1
+5	merci	merci	INT	INT	_	4	dm	_	_	271.040009	271.480011	VE1
+6	au revoir	au revoir	INT	INT	_	5	dm	_	_	271.489990	271.859985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-84
+# text = j'ai pas préparé hein
+1	j'	je	CLS	CLS	_	4	subj	_	_	272.519989	272.609985	VE1
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	272.619995	272.769989	VE1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	272.779999	272.989990	VE1
+4	préparé	préparer	VPP	VPP	_	0	root	_	_	273.000000	273.579987	VE1
+5	hein	hein	INT	INT	_	4	dm	_	_	273.589996	274.070007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-85
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	272.760010	273.679993	C03
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-86
+# text = bonjour monsieur c'est la forme
+1	bonjour	bonjour	INT	INT	_	4	dm	_	_	272.760010	273.149994	C05
+2	monsieur	Monsieur	NOM	NOM	_	4	periph	_	_	273.230011	273.859985	C05
+3	c'	ce	CLS	CLS	_	4	subj	_	_	274.269989	274.290009	C05
+4	est	être	VRB	VRB	_	0	root	_	_	274.299988	274.329987	C05
+5	la	le	DET	DET	_	6	spe	_	_	274.339996	274.390015	C05
+6	forme	forme	NOM	NOM	_	4	dep	_	_	274.399994	274.540009	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-87
+# text = j'ai pas préparé
+1	j'	je	CLS	CLS	_	4	subj	_	_	275.459991	275.510010	VE1
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	275.519989	275.540009	VE1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	275.549988	275.690002	VE1
+4	préparé	préparer	VPP	VPP	_	0	root	_	_	275.700012	276.100006	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-88
+# text = vous faîtes ce que vous pouvez
+1	vous	vous	CLS	CLS	_	2	subj	_	_	276.549988	276.600006	C05
+2	faîtes	faîte	NOM	NOM	_	0	root	_	_	276.609985	276.690002	C05
+3	ce	ce	PRO	PRO	_	2	dep	_	_	276.700012	276.790009	C05
+4	que	que	PRQ	PRQ	_	6	dep	_	_	276.799988	276.820007	C05
+5	vous	vous	CLS	CLS	_	6	subj	_	_	276.829987	276.970001	C05
+6	pouvez	pouvoir	VRB	VRB	_	3	dep	_	_	276.980011	277.720001	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-89
+# text = comme d'habitude
+1	comme	comme	PRE	PRE	_	0	root	_	_	276.880005	277.250000	VE1
+2	d'	de	PRE	PRE	_	1	dep	_	_	277.260010	277.279999	VE1
+3	habitude	habitude	NOM	NOM	_	2	dep	_	_	277.290009	277.720001	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-90
+# text = euh
+1	euh	euh	INT	INT	_	0	root	_	_	278.040009	278.059998	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-91
+# text = une baguette courte
+1	une	un	DET	DET	_	2	spe	_	_	278.070007	278.230011	C05
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	278.239990	278.459991	C05
+3	courte	court	ADJ	ADJ	_	2	dep	_	_	278.470001	278.619995	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-92
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	278.630005	278.649994	C05
+2	il	il	CLS	CLS	_	4	subj	_	_	278.660004	278.750000	C05
+3	vous	vous	CLI	CLI	_	4	dep	_	_	278.890015	278.940002	C05
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	279.040009	279.119995	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-93
+# text = et un pain au chocolat vous êtes filmée
+1	et	et	COO	COO	_	8	mark	_	_	279.130005	279.149994	C05
+2	un	un	DET	DET	_	3	spe	_	_	279.239990	279.260010	C05
+3	pain	pain	NOM	NOM	_	8	periph	_	_	280.170013	280.239990	C05
+4	au	à+le	PRE	PRE	_	3	dep	_	_	280.480011	280.500000	C05
+5	chocolat	chocolat	NOM	NOM	_	4	dep	_	_	280.559998	281.019989	C05
+6	vous	vous	CLS	CLS	_	8	subj	_	_	281.279999	281.329987	C05
+7	êtes	être	VRB	VRB	_	8	aux	_	_	281.339996	281.700012	C05
+8	filmée	filmer	VPP	VPP	_	0	root	_	_	281.709991	282.000000	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-94
+# text = aujourd' hui un pain choc oui c'est pour euh l'école
+1	aujourd' hui	aujourd'hui	ADV	ADV	_	7	periph	_	_	282.010010	282.260010	VE1
+2	un	un	DET	DET	_	3	spe	_	_	281.429993	281.579987	VE1
+3	pain	pain	NOM	NOM	_	7	periph	_	_	281.670013	282.040009	VE1
+4	choc	choc	ADJ	ADJ	_	3	dep	_	_	282.200012	282.279999	VE1
+5	oui	oui	INT	INT	_	4	dm	_	_	282.420013	282.859985	VE1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	283.200012	283.220001	VE1
+7	est	être	VRB	VRB	_	0	root	_	_	283.230011	283.299988	VE1
+8	pour	pour	PRE	PRE	_	7	dep	_	_	283.399994	283.679993	VE1
+9	euh	euh	INT	INT	_	8	dm	_	_	283.690002	283.980011	VE1
+10	l'	le	DET	DET	_	11	spe	_	_	283.989990	284.029999	VE1
+11	école	école	NOM	NOM	_	8	dep	_	_	284.040009	284.480011	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-95
+# text = je crois euh pain au choc
+1	je	je	CLS	CLS	_	2	subj	_	_	284.489990	284.609985	VE1
+2	crois	croire	VRB	VRB	_	0	root	_	_	284.859985	284.970001	VE1
+3	euh	euh	INT	INT	_	2	dm	_	_	292.299988	292.320007	VE1
+4	pain	pain	NOM	NOM	_	2	dep	_	_	292.369995	292.510010	VE1
+5	au	à+le	PRE	PRE	_	4	dep	_	_	292.519989	292.540009	VE1
+6	choc	choc	NOM	NOM	_	5	dep	_	_	292.549988	292.820007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-96
+# text = il y en a plus de pains au choc ah
+1	il	il	CLS	CLS	_	4	subj	_	_	292.829987	292.880005	VE1
+2	y	y	CLI	CLI	_	4	dep	_	_	292.890015	292.910004	VE1
+3	en	en	CLI	CLI	_	4	dep	_	_	292.920013	293.000000	VE1
+4	a	avoir	VRB	VRB	_	0	root	_	_	293.010010	293.070007	VE1
+5	plus	plus	ADN	ADN	_	4	dep	_	_	293.079987	293.170013	VE1
+6	de	de	PRE	PRE	_	4	dep	_	_	293.179993	293.350006	VE1
+7	pains	pain	NOM	NOM	_	6	dep	_	_	293.359985	293.450012	VE1
+8	au	à+le	PRE	PRE	_	7	dep	_	_	293.459991	293.480011	VE1
+9	choc	choc	NOM	NOM	_	8	dep	_	_	293.489990	293.829987	VE1
+10	ah	ah	INT	INT	_	9	dm	_	_	293.980011	294.019989	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-97
+# text = si mais vous me le faites passer quand vous voulez
+1	si	si	CSU	CSU	_	0	root	_	_	294.029999	294.209991	C05
+2	mais	mais	COO	COO	_	6	mark	_	_	301.170013	301.260010	C05
+3	vous	vous	CLS	CLS	_	6	subj	_	_	301.269989	301.350006	C05
+4	me	me	CLI	CLI	_	6	dep	_	_	301.359985	301.559998	C05
+5	le	le	CLI	CLI	_	6	dep	_	_	301.630005	301.670013	C05
+6	faites	faire	VRB	VRB	_	1	dep	_	_	301.679993	301.820007	C05
+7	passer	passer	VNF	VNF	_	6	dep	_	_	301.829987	301.959991	C05
+8	quand	quand	CSU	CSU	_	7	dep	_	_	301.970001	302.019989	C05
+9	vous	vous	CLS	CLS	_	10	subj	_	_	302.160004	302.239990	C05
+10	voulez	vouloir	VRB	VRB	_	8	dep	_	_	302.250000	302.429993	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-98
+# text = hein
+1	hein	hein	INT	INT	_	0	root	_	_	303.309998	303.589996	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-99
+# text = vous passez quand vous voulez demain
+1	vous	vous	CLS	CLS	_	2	subj	_	_	303.720001	303.880005	C05
+2	passez	passer	VRB	VRB	_	0	root	_	_	303.890015	304.010010	C05
+3	quand	quand	CSU	CSU	_	2	dep	_	_	304.019989	304.100006	C05
+4	vous	vous	CLS	CLS	_	5	subj	_	_	304.109985	304.230011	C05
+5	voulez	vouloir	VRB	VRB	_	3	dep	_	_	304.239990	304.440002	C05
+6	demain	demain	ADV	ADV	_	5	dep	_	_	304.450012	304.720001	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-100
+# text = oui voilà
+1	oui	oui	INT	INT	_	2	dm	_	_	304.869995	305.029999	VE1
+2	voilà	voilà	INT	INT	_	0	root	_	_	305.040009	305.410004	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-101
+# text = ouais hum un soixante-quinze un quatre-vingt-deux
+1	ouais	ouais	INT	INT	_	4	dm	_	_	305.450012	305.609985	VE1
+2	hum	hum	INT	INT	_	1	dm	_	_	305.850006	305.899994	VE1
+3	un	un	DET	DET	_	4	spe	_	_	308.739990	308.839996	VE1
+4	soixante-quinze	soixante-quinze	NUM	NUM	_	0	root	_	_	308.850006	309.950012	VE1
+5	un	un	DET	DET	_	6	spe	_	_	311.679993	311.799988	VE1
+6	quatre-vingt-deux	quatre-vingt-deux	NUM	NUM	_	4	dep	_	_	311.809998	313.179993	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-102
+# text = trois quatre et cinq
+1	trois	trois	NUM	NUM	_	0	root	_	_	313.989990	314.140015	VE1
+2	quatre	quatre	NUM	NUM	_	1	dep	_	_	314.230011	314.350006	VE1
+3	et	et	COO	COO	_	4	mark	_	_	314.670013	314.829987	VE1
+4	cinq	cinq	NUM	NUM	_	1	para	_	_	314.929993	315.130005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-103
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	315.480011	315.790009	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-104
+# text = c'est pour voir
+1	c'	ce	CLS	CLS	_	2	subj	_	_	316.880005	316.950012	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	316.959991	317.000000	VE1
+3	pour	pour	PRE	PRE	_	2	dep	_	_	317.010010	317.170013	VE1
+4	voir	voir	VNF	VNF	_	3	dep	_	_	317.179993	317.390015	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-105
+# text = je crois dans les différents pays
+1	je	je	CLS	CLS	_	2	subj	_	_	317.399994	317.459991	VE1
+2	crois	croire	VRB	VRB	_	0	root	_	_	317.470001	317.690002	VE1
+3	dans	dans	PRE	PRE	_	2	dep	_	_	317.700012	317.829987	VE1
+4	les	le	DET	DET	_	5	spe	_	_	317.839996	318.119995	VE1
+5	différents	différent	NOM	NOM	_	3	dep	_	_	318.179993	318.519989	VE1
+6	pays	pays	NOM	NOM	_	5	dep	_	_	318.570007	318.739990	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-106
+# text = comment ça se passe hein
+1	comment	comment	PRQ	PRQ	_	4	dep	_	_	318.750000	318.929993	VE1
+2	ça	ça	PRO	PRO	_	4	subj	_	_	318.940002	319.000000	VE1
+3	se	se	CLI	CLI	_	4	dep	_	_	319.059998	319.140015	VE1
+4	passe	passer	VRB	VRB	_	0	root	_	_	319.149994	319.320007	VE1
+5	hein	hein	INT	INT	_	4	dm	_	_	319.390015	319.429993	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-107
+# text = dans les échanges
+1	dans	dans	PRE	PRE	_	0	root	_	_	320.119995	320.220001	C05
+2	les	le	DET	DET	_	3	spe	_	_	320.230011	320.320007	C05
+3	échanges	échange	NOM	NOM	_	1	dep	_	_	320.329987	320.470001	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-108
+# text = ouais voilà
+1	ouais	ouais	INT	INT	_	2	dm	_	_	320.730011	320.950012	VE1
+2	voilà	voilà	INT	INT	_	0	root	_	_	320.959991	321.130005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-109
+# text = ça l'oblige à se tenir à carreau
+1	ça	ça	PRO	PRO	_	3	subj	_	_	321.559998	321.609985	C05
+2	l'	le	CLI	CLI	_	3	dep	_	_	321.619995	321.640015	C05
+3	oblige	obliger	VRB	VRB	_	0	root	_	_	321.649994	321.799988	C05
+4	à	à	PRE	PRE	_	3	dep	_	_	321.809998	321.829987	C05
+5	se	se	CLI	CLI	_	6	dep	_	_	321.839996	321.880005	C05
+6	tenir	(se) tenir	VNF	VNF	_	4	dep	_	_	321.890015	322.100006	C05
+7	à	à	PRE	PRE	_	6	dep	_	_	322.109985	322.140015	C05
+8	carreau	carreau	NOM	NOM	_	7	dep	_	_	322.149994	322.350006	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-110
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	322.670013	323.070007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-111
+# text = comment tu es tu es sevré de discussion
+1	comment	comment	PRQ	PRQ	_	3	dep	_	_	324.429993	324.690002	C05
+2	tu	tu	CLS	CLS	_	3	subj	_	_	324.869995	324.950012	C05
+3	es	être	VRB	VRB	_	0	root	_	_	324.959991	324.989990	C05
+4	tu	tu	CLS	CLS	_	6	subj	_	_	325.000000	325.049988	C05
+5	es	être	VRB	VRB	_	6	aux	_	_	325.170013	325.299988	C05
+6	sevré	sevrer	VPP	VPP	_	3	para	_	_	325.309998	325.519989	C05
+7	de	de	PRE	PRE	_	6	dep	_	_	325.529999	325.630005	C05
+8	discussion	discussion	NOM	NOM	_	7	dep	_	_	325.640015	326.140015	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-112
+# text = aujourd' hui hein
+1	aujourd' hui	aujourd'hui	ADV	ADV	_	0	root	_	_	326.149994	326.420013	BOU
+2	hein	hein	INT	INT	_	1	dm	_	_	326.850006	327.019989	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-113
+# text = tu es enregistré tu es sevré de discussion
+1	tu	tu	CLS	CLS	_	3	subj	_	_	327.440002	327.489990	C05
+2	es	être	VRB	VRB	_	3	aux	_	_	327.500000	327.519989	C05
+3	enregistré	enregistrer	VPP	VPP	_	0	root	_	_	327.529999	327.890015	C05
+4	tu	tu	CLS	CLS	_	6	subj	_	_	327.899994	327.950012	C05
+5	es	être	VRB	VRB	_	6	aux	_	_	327.959991	328.070007	C05
+6	sevré	sevrer	VPP	VPP	_	3	para	_	_	328.079987	328.269989	C05
+7	de	de	PRE	PRE	_	6	dep	_	_	328.279999	328.329987	C05
+8	discussion	discussion	NOM	NOM	_	7	dep	_	_	328.339996	328.760010	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-114
+# text = aujourd' hui je vais gagner de l'argent
+1	aujourd' hui	aujourd'hui	ADV	ADV	_	3	periph	_	_	328.769989	328.989990	BOU
+2	je	je	CLS	CLS	_	3	subj	_	_	331.570007	331.589996	BOU
+3	vais	aller	VRB	VRB	_	0	root	_	_	331.600006	331.670013	BOU
+4	gagner	gagner	VNF	VNF	_	3	dep	_	_	331.679993	331.920013	BOU
+5	de	de	PRE	PRE	_	4	dep	_	_	331.929993	331.970001	BOU
+6	l'	le	DET	DET	_	7	spe	_	_	331.980011	332.000000	BOU
+7	argent	argent	NOM	NOM	_	5	dep	_	_	332.010010	332.269989	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-115
+# text = tu penses continuité du client
+1	tu	tu	CLS	CLS	_	2	subj	_	_	333.720001	333.769989	C05
+2	penses	penser	VRB	VRB	_	0	root	_	_	333.779999	334.040009	C05
+3	continuité	continuité	NOM	NOM	_	2	dep	_	_	337.799988	338.420013	C05
+4	du	de+le	PRE	PRE	_	3	dep	_	_	338.429993	338.510010	C05
+5	client	client	NOM	NOM	_	4	dep	_	_	338.519989	338.779999	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-116
+# text = allez bonne journée
+1	allez	aller	VRB	VRB	_	0	root	_	_	339.899994	340.170013	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	340.179993	340.790009	VE1
+3	journée	journée	NOM	NOM	_	1	dep	_	_	340.910004	341.420013	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-117
+# text = allez bonne journée
+1	allez	aller	VRB	VRB	_	0	root	_	_	339.899994	340.170013	C05
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	340.179993	340.790009	C05
+3	journée	journée	NOM	NOM	_	1	dm	_	_	340.910004	341.420013	C05
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-118
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	461.839996	462.459991	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-119
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	462.519989	462.929993	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-120
+# text = monsieur
+1	monsieur	Monsieur	NOM	NOM	_	0	root	_	_	466.750000	467.109985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-121
+# text = eh ben
+1	eh ben	eh ben	INT	INT	_	0	root	_	_	467.440002	467.660004	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-122
+# text = un pain au chocolat et un croissant
+1	un	un	DET	DET	_	2	spe	_	_	467.670013	467.820007	C06
+2	pain	pain	NOM	NOM	_	0	root	_	_	468.130005	468.390015	C06
+3	au	à+le	PRE	PRE	_	2	dep	_	_	468.519989	468.540009	C06
+4	chocolat	chocolat	NOM	NOM	_	3	dep	_	_	468.549988	468.720001	C06
+5	et	et	COO	COO	_	7	mark	_	_	468.730011	468.750000	C06
+6	un	un	DET	DET	_	7	spe	_	_	468.760010	468.869995	C06
+7	croissant	croissant	NOM	NOM	_	2	para	_	_	468.880005	469.450012	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-123
+# text = et puis je sais pas un pain aux raisins si vous avez peut-être
+1	et puis	et puis	COO	COO	_	3	mark	_	_	470.149994	470.700012	C06
+2	je	je	CLS	CLS	_	3	subj	_	_	470.709991	470.739990	C06
+3	sais	savoir	VRB	VRB	_	0	root	_	_	470.750000	470.809998	C06
+4	pas	pas	ADN	ADN	_	3	dep	_	_	470.890015	470.970001	C06
+5	un	un	DET	DET	_	6	spe	_	_	471.019989	471.049988	C06
+6	pain	pain	NOM	NOM	_	3	dep	_	_	471.230011	471.279999	C06
+7	aux	à+le	PRE	PRE	_	6	dep	_	_	471.350006	471.399994	C06
+8	raisins	raisin	NOM	NOM	_	7	dep	_	_	471.410004	471.700012	C06
+9	si	si	CSU	CSU	_	3	dep	_	_	471.709991	471.760010	C06
+10	vous	vous	CLS	CLS	_	11	subj	_	_	471.880005	471.940002	C06
+11	avez	avoir	VRB	VRB	_	9	dep	_	_	471.950012	472.100006	C06
+12	peut-être	peut-être	ADV	ADV	_	11	dep	_	_	472.200012	472.339996	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-124
+# text = alors euh très bonne question je sais pas euh
+1	alors	alors	ADV	ADV	_	7	periph	_	_	472.399994	472.649994	VE1
+2	euh	euh	INT	INT	_	1	dm	_	_	472.660004	472.760010	VE1
+3	très	très	ADV	ADV	_	4	dep	_	_	472.890015	473.059998	VE1
+4	bonne	bon	ADJ	ADJ	_	5	dep	_	_	473.750000	473.829987	VE1
+5	question	question	NOM	NOM	_	7	periph	_	_	473.959991	474.500000	VE1
+6	je	je	CLS	CLS	_	7	subj	_	_	474.510010	474.529999	VE1
+7	sais	savoir	VRB	VRB	_	0	root	_	_	474.790009	474.839996	VE1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	475.000000	475.059998	VE1
+9	euh	euh	INT	INT	_	8	dm	_	_	475.570007	475.589996	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-125
+# text = pain aux raisins il y a ou pas non
+1	pain	pain	NOM	NOM	_	6	periph	_	_	475.600006	476.130005	VE1
+2	aux	à+le	PRE	PRE	_	1	dep	_	_	476.140015	476.190002	VE1
+3	raisins	raisin	NOM	NOM	_	2	dep	_	_	476.200012	476.779999	VE1
+4	il	il	CLS	CLS	_	6	subj	_	_	476.790009	476.839996	VE1
+5	y	y	CLI	CLI	_	6	dep	_	_	476.850006	476.880005	VE1
+6	a	avoir	VRB	VRB	_	0	root	_	_	476.890015	477.029999	VE1
+7	ou	ou	COO	COO	_	8	mark	_	_	477.600006	477.779999	VE1
+8	pas	pas	ADN	ADN	_	6	dep	_	_	477.790009	477.839996	VE1
+9	non	non	INT	INT	_	8	dm	_	_	477.899994	478.149994	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-126
+# text = il y a pas il y a pralines
+1	il	il	CLS	CLS	_	3	subj	_	_	478.260010	478.320007	VE1
+2	y	y	CLI	CLI	_	3	dep	_	_	478.329987	478.359985	VE1
+3	a	avoir	VRB	VRB	_	0	root	_	_	478.369995	478.440002	VE1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	478.519989	478.700012	VE1
+5	il	il	CLS	CLS	_	7	subj	_	_	478.709991	478.769989	VE1
+6	y	y	CLI	CLI	_	7	dep	_	_	478.779999	478.799988	VE1
+7	a	avoir	VRB	VRB	_	3	para	_	_	478.809998	479.170013	VE1
+8	pralines	praline	NOM	NOM	_	7	dep	_	_	479.660004	480.119995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-127
+# text = il y a pépites de chocolat
+1	il	il	CLS	CLS	_	3	subj	_	_	480.130005	480.179993	VE1
+2	y	y	CLI	CLI	_	3	dep	_	_	480.190002	480.260010	VE1
+3	a	avoir	VRB	VRB	_	0	root	_	_	480.269989	480.339996	VE1
+4	pépites	pépite	NOM	NOM	_	3	dep	_	_	480.390015	480.730011	VE1
+5	de	de	PRE	PRE	_	4	dep	_	_	480.739990	480.820007	VE1
+6	chocolat	chocolat	NOM	NOM	_	5	dep	_	_	480.829987	481.369995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-128
+# text = eh ben
+1	eh ben	eh ben	INT	INT	_	0	root	_	_	482.130005	482.359985	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-129
+# text = pépites de chocolat
+1	pépites	pépite	NOM	NOM	_	0	root	_	_	482.369995	482.559998	C06
+2	de	de	PRE	PRE	_	1	dep	_	_	482.570007	482.649994	C06
+3	chocolat	chocolat	NOM	NOM	_	2	dep	_	_	482.660004	482.950012	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-130
+# text = pépites de chocolat
+1	pépites	pépite	NOM	NOM	_	0	root	_	_	483.079987	483.339996	VE1
+2	de	de	PRE	PRE	_	1	dep	_	_	483.350006	483.440002	VE1
+3	chocolat	chocolat	NOM	NOM	_	2	dep	_	_	483.450012	483.820007	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-131
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	486.239990	486.350006	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-132
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	507.679993	507.910004	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-133
+# text = deux soixante dix
+1	deux	deux	NUM	NUM	_	0	root	_	_	507.920013	508.019989	VE1
+2	soixante	soixante	NUM	NUM	_	1	dep	_	_	508.070007	508.359985	VE1
+3	dix	dix	NUM	NUM	_	2	dep	_	_	508.429993	508.679993	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-134
+# text = il vous plaît
+1	il	il	CLS	CLS	_	3	subj	_	_	508.730011	508.829987	VE1
+2	vous	vous	CLI	CLI	_	3	dep	_	_	508.839996	508.910004	VE1
+3	plaît	plaire	VRB	VRB	_	0	root	_	_	508.950012	509.109985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-135
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	511.350006	511.489990	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-136
+# text = deux deux vingt
+1	deux	deux	NUM	NUM	_	2	spe	_	_	511.500000	511.570007	C06
+2	deux	deux	NUM	NUM	_	0	root	_	_	512.880005	512.929993	C06
+3	vingt	vingt	NUM	NUM	_	2	dep	_	_	512.940002	513.020020	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-137
+# text = quarante
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	516.380005	516.549988	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-138
+# text = super merci bonne journée merci
+1	super	super	NOM	NOM	_	4	dep	_	_	519.210022	519.580017	VE1
+2	merci	merci	INT	INT	_	1	dm	_	_	519.619995	520.090027	VE1
+3	bonne	bon	ADJ	ADJ	_	4	dep	_	_	521.270020	521.400024	VE1
+4	journée	journée	NOM	NOM	_	0	root	_	_	521.409973	521.960022	VE1
+5	merci	merci	INT	INT	_	4	dm	_	_	522.109985	522.479980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-139
+# text = à vous aussi
+1	à	à	PRE	PRE	_	0	root	_	_	522.109985	522.140015	C06
+2	vous	moi	PRO	PRO	_	1	dep	_	_	522.150024	522.260010	C06
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	522.270020	522.479980	C06
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-140
+# text = au revoir au revoir combien deux bonjour
+1	au revoir	au revoir	INT	INT	_	4	dm	_	_	522.489990	523.340027	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	522.489990	523.340027	VE1
+3	combien	combien	PRQ	PRQ	_	4	dep	_	_	527.109985	527.380005	VE1
+4	deux	deux	NUM	NUM	_	0	root	_	_	527.390015	527.570007	VE1
+5	bonjour	bonjour	INT	INT	_	4	dm	_	_	622.809998	623.559998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-141
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	622.809998	623.559998	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-142
+# text = monsieur
+1	monsieur	Monsieur	NOM	NOM	_	0	root	_	_	627.440002	627.799988	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-143
+# text = euh trois baguettes courtes
+1	euh	euh	INT	INT	_	3	dm	_	_	628.130005	628.239990	C07
+2	trois	trois	NUM	NUM	_	3	spe	_	_	628.330017	628.590027	C07
+3	baguettes	baguette	NOM	NOM	_	0	root	_	_	628.599976	628.750000	C07
+4	courtes	court	ADJ	ADJ	_	3	dep	_	_	628.900024	629.099976	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-144
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	629.109985	629.130005	C07
+2	il	il	CLS	CLS	_	4	subj	_	_	629.140015	629.190002	C07
+3	vous	vous	CLI	CLI	_	4	dep	_	_	629.200012	629.289978	C07
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	629.369995	629.460022	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-145
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	633.190002	633.489990	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-146
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	635.710022	635.979980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-147
+# text = deux cinquante cinq
+1	deux	deux	NUM	NUM	_	0	root	_	_	635.989990	636.140015	VE1
+2	cinquante	cinquante	NUM	NUM	_	1	dep	_	_	636.150024	636.520020	VE1
+3	cinq	cinq	NUM	NUM	_	2	dep	_	_	636.619995	636.719971	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-148
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	636.820007	636.849976	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	636.969971	637.020020	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	637.030029	637.140015	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	637.250000	637.369995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-149
+# text = et merci
+1	et	et	COO	COO	_	0	root	_	_	650.890015	651.130005	VE1
+2	merci	merci	INT	INT	_	1	dm	_	_	651.309998	651.549988	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-150
+# text = voilà c'est moi
+1	voilà	voilà	INT	INT	_	3	dm	_	_	651.679993	651.890015	C07
+2	c'	ce	CLS	CLS	_	3	subj	_	_	651.900024	651.940002	C07
+3	est	être	VRB	VRB	_	0	root	_	_	652.140015	652.159973	C07
+4	moi	moi	PRO	PRO	_	3	dep	_	_	652.169983	652.330017	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-151
+# text = vous ê vous êtes ouvert
+1	vous	vous	CLS	CLS	_	2	subj	_	_	655.510010	655.630005	C07
+2	ê	ê	VRB	VRB	_	0	root	_	_	655.640015	655.659973	C07
+3	vous	vous	CLS	CLS	_	4	subj	_	_	655.669983	655.729980	C07
+4	êtes	être	VRB	VRB	_	2	para	_	_	655.739990	656.099976	C07
+5	ouvert	ouvert	ADJ	ADJ	_	4	dep	_	_	656.109985	656.349976	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-152
+# text = le alors
+1	le	le	DET	DET	_	2	spe	_	_	656.359985	656.780029	VE1
+2	alors	alors	ADV	ADV	_	0	root	_	_	655.549988	655.710022	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-153
+# text = pas
+1	pas	pas	ADN	ADN	_	0	root	_	_	655.719971	656.239990	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-154
+# text = le le lundi euh
+1	le	le	DET	DET	_	3	spe	_	_	656.359985	656.780029	C07
+2	le	le	DET	DET	_	1	para	_	_	657.849976	657.890015	C07
+3	lundi	lundi	NOM	NOM	_	0	root	_	_	658.210022	659.099976	C07
+4	euh	euh	INT	INT	_	3	dm	_	_	659.179993	659.200012	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-155
+# text = lundi le lundi c'est notre jour de fermeture
+1	lundi	lundi	NOM	NOM	_	5	periph	_	_	658.210022	659.099976	VE1
+2	le	le	DET	DET	_	3	spe	_	_	659.609985	659.679993	VE1
+3	lundi	lundi	NOM	NOM	_	5	periph	_	_	659.690002	660.049988	VE1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	660.099976	660.130005	VE1
+5	est	être	VRB	VRB	_	0	root	_	_	660.140015	660.159973	VE1
+6	notre	son	DET	DET	_	7	spe	_	_	660.250000	660.369995	VE1
+7	jour	jour	NOM	NOM	_	5	dep	_	_	660.380005	660.489990	VE1
+8	de	de	PRE	PRE	_	7	dep	_	_	660.500000	660.520020	VE1
+9	fermeture	fermeture	NOM	NOM	_	8	dep	_	_	660.530029	661.030029	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-156
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	661.140015	661.159973	C07
+2	accord	accord	NOM	NOM	_	1	dep	_	_	661.169983	661.280029	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-157
+# text = bien voilà part le onze novembre là
+1	bien	bien	ADV	ADV	_	3	periph	_	_	661.609985	662.690002	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	661.619995	662.010010	VE1
+3	part	partir	VRB	VRB	_	0	root	_	_	662.020020	662.179993	VE1
+4	le	le	DET	DET	_	6	spe	_	_	662.190002	662.280029	VE1
+5	onze	onze	NUM	NUM	_	6	dep	_	_	662.289978	662.340027	VE1
+6	novembre	novembre	NOM	NOM	_	3	dep	_	_	662.349976	662.869995	VE1
+7	là	là	ADV	ADV	_	6	dep	_	_	662.880005	662.950012	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-158
+# text = qu'on sera ouvert exceptionnellement
+1	qu'	que	CSU	CSU	_	0	root	_	_	663.020020	663.039978	VE1
+2	on	on	CLS	CLS	_	4	subj	_	_	663.049988	663.070007	VE1
+3	sera	être	VRB	VRB	_	4	aux	_	_	663.080017	663.299988	VE1
+4	ouvert	ouvrir	VPP	VPP	_	1	dep	_	_	663.309998	663.719971	VE1
+5	exceptionnellement	exceptionnellement	ADV	ADV	_	4	dep	_	_	663.729980	664.419983	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-159
+# text = d'accord oui
+1	d'	de	PRE	PRE	_	0	root	_	_	664.479980	664.500000	C07
+2	accord	accord	NOM	NOM	_	1	dep	_	_	664.510010	664.679993	C07
+3	oui	oui	INT	INT	_	2	dm	_	_	664.869995	664.919983	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-160
+# text = et sinon le lundi c'est notre jour de fermeture
+1	et	et	COO	COO	_	6	mark	_	_	665.260010	665.280029	VE1
+2	sinon	sinon	ADV	ADV	_	6	periph	_	_	665.289978	665.679993	VE1
+3	le	le	DET	DET	_	4	spe	_	_	665.690002	665.719971	VE1
+4	lundi	lundi	NOM	NOM	_	6	periph	_	_	665.780029	665.989990	VE1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	666.119995	666.150024	VE1
+6	est	être	VRB	VRB	_	0	root	_	_	666.159973	666.179993	VE1
+7	notre	son	DET	DET	_	8	spe	_	_	666.429993	666.539978	VE1
+8	jour	jour	NOM	NOM	_	6	dep	_	_	666.549988	666.669983	VE1
+9	de	de	PRE	PRE	_	8	dep	_	_	666.679993	666.700012	VE1
+10	fermeture	fermeture	NOM	NOM	_	9	dep	_	_	666.710022	667.109985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-161
+# text = et le samedi aprÈs midi aussi on ferme
+1	et	et	COO	COO	_	8	mark	_	_	667.119995	667.140015	VE1
+2	le	le	DET	DET	_	3	spe	_	_	667.150024	667.169983	VE1
+3	samedi	samedi	NOM	NOM	_	8	periph	_	_	667.229980	667.530029	VE1
+4	aprÈs	aprÈs	ADJ	ADJ	_	3	dep	_	_	667.700012	667.869995	VE1
+5	midi	midi	NOM	NOM	_	3	para	_	_	667.919983	668.070007	VE1
+6	aussi	aussi	ADV	ADV	_	8	periph	_	_	668.080017	668.239990	VE1
+7	on	on	CLS	CLS	_	8	subj	_	_	668.450012	668.580017	VE1
+8	ferme	fermer	VRB	VRB	_	0	root	_	_	668.760010	669.109985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-162
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	669.500000	669.549988	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-163
+# text = le dimanche après-midi
+1	le	le	DET	DET	_	2	spe	_	_	669.559998	669.630005	VE1
+2	dimanche	dimanche	NOM	NOM	_	0	root	_	_	669.640015	669.929993	VE1
+3	après-midi	après-midi	NOM	NOM	_	2	dep	_	_	669.940002	670.340027	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-164
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	670.489990	670.510010	C07
+2	accord	accord	NOM	NOM	_	1	dep	_	_	670.590027	670.710022	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-165
+# text = voilà merci
+1	voilà	voilà	INT	INT	_	2	dm	_	_	671.020020	671.289978	VE1
+2	merci	merci	INT	INT	_	0	root	_	_	671.729980	672.309998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-166
+# text = merci beaucoup
+1	merci	merci	NOM	NOM	_	0	root	_	_	671.729980	672.309998	C07
+2	beaucoup	beaucoup	ADV	ADV	_	1	dep	_	_	672.320007	672.539978	C07
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-167
+# text = bonne journée au revoir bonjour
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	672.320007	672.510010	VE1
+2	journée	journée	NOM	NOM	_	0	root	_	_	672.520020	672.869995	VE1
+3	au revoir	au revoir	INT	INT	_	2	dm	_	_	672.549988	672.830017	VE1
+4	bonjour	bonjour	INT	INT	_	3	dm	_	_	673.450012	674.219971	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-168
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	673.450012	673.710022	C08
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-169
+# text = une flûte
+1	une	un	DET	DET	_	2	spe	_	_	673.719971	674.109985	C08
+2	flûte	flûte	NOM	NOM	_	0	root	_	_	674.150024	674.549988	C08
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-170
+# text = s'il vous plaît n'importe
+1	s'	si	CSU	CSU	_	6	periph	_	_	674.599976	674.619995	C08
+2	il	il	CLS	CLS	_	4	subj	_	_	674.630005	674.700012	C08
+3	vous	vous	CLI	CLI	_	4	dep	_	_	674.710022	674.820007	C08
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	674.950012	675.140015	C08
+5	n'	ne	CLN	CLN	_	6	dep	_	_	675.489990	675.530029	C08
+6	importe	importer	VRB	VRB	_	0	root	_	_	675.539978	675.890015	C08
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-171
+# text = n'importe n'importe un ving-cinq s'il vous plaît
+1	n'	ne	CLN	CLN	_	2	dep	_	_	676.270020	676.289978	VE1
+2	importe	importer	VRB	VRB	_	0	root	_	_	676.510010	676.659973	VE1
+3	n'	ne	CLN	CLN	_	4	dep	_	_	677.020020	677.059998	VE1
+4	importe	importer	VRB	VRB	_	2	dep	_	_	677.070007	677.340027	VE1
+5	un	un	DET	DET	_	6	spe	_	_	679.409973	679.429993	VE1
+6	ving-cinq	ving-cinq	NOM	NOM	_	4	dep	_	_	679.440002	680.049988	VE1
+7	s'	si	CSU	CSU	_	2	periph	_	_	680.229980	680.250000	VE1
+8	il	il	CLS	CLS	_	10	subj	_	_	680.260010	680.429993	VE1
+9	vous	vous	CLI	CLI	_	10	dep	_	_	681.340027	681.460022	VE1
+10	plaît	plaire	VRB	VRB	_	7	dep	_	_	681.640015	681.770020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-172
+# text = un
+1	un	un	DET	DET	_	0	root	_	_	686.109985	686.250000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-173
+# text = trente cinquante deux et cinq
+1	trente	trente	NUM	NUM	_	0	root	_	_	686.289978	686.969971	VE1
+2	cinquante	cinquante	NUM	NUM	_	1	dep	_	_	686.979980	687.320007	VE1
+3	deux	deux	NUM	NUM	_	1	para	_	_	688.409973	688.510010	VE1
+4	et	et	COO	COO	_	5	mark	_	_	689.940002	690.030029	VE1
+5	cinq	cinq	NUM	NUM	_	3	para	_	_	690.039978	690.280029	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-174
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	690.880005	691.070007	C08
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-175
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	691.270020	691.510010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-176
+# text = merci vous aussi
+1	merci	merci	INT	INT	_	2	dm	_	_	694.299988	694.479980	VE1
+2	vous	moi	PRO	PRO	_	0	root	_	_	694.570007	694.859985	VE1
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	694.940002	695.039978	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-177
+# text = au revoir au revoir bonjour
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	694.299988	695.219971	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	695.049988	695.440002	VE1
+3	bonjour	bonjour	INT	INT	_	2	dm	_	_	695.619995	696.229980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-178
+# text = une baguette
+1	une	un	DET	DET	_	2	spe	_	_	695.619995	695.679993	C09
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	695.690002	695.919983	C09
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-179
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	695.929993	695.950012	C09
+2	il	il	CLS	CLS	_	4	subj	_	_	695.960022	696.020020	C09
+3	vous	vous	CLI	CLI	_	4	dep	_	_	696.030029	696.200012	C09
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	696.349976	696.489990	C09
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-180
+# text = alors quatre-vingt-cinq s'il vous plaît donc euh quatre-vingt
+1	alors	alors	ADV	ADV	_	2	dep	_	_	697.830017	698.010010	VE1
+2	quatre-vingt-cinq	quatre-vingt-cinq	NUM	NUM	_	0	root	_	_	698.109985	698.599976	VE1
+3	s'	si	CSU	CSU	_	9	mark	_	_	698.609985	698.650024	VE1
+4	il	il	CLS	CLS	_	6	subj	_	_	698.729980	698.780029	VE1
+5	vous	vous	CLI	CLI	_	6	dep	_	_	699.190002	699.440002	VE1
+6	plaît	plaire	VRB	VRB	_	3	dep	_	_	699.450012	699.549988	VE1
+7	donc	donc	ADV	ADV	_	9	periph	_	_	707.409973	707.549988	C09
+8	euh	euh	INT	INT	_	7	dm	_	_	707.559998	707.760010	C09
+9	quatre-vingt	quatre-vingt	NUM	NUM	_	2	para	_	_	707.770020	709.090027	C09
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-181
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	713.590027	713.840027	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-182
+# text = alors cinq six sept huit c'est pa c'est parfait merci
+1	alors	alors	ADV	ADV	_	7	periph	_	_	719.820007	720.030029	VE1
+2	cinq	cinq	NUM	NUM	_	7	periph	_	_	720.619995	720.969971	VE1
+3	six	six	NUM	NUM	_	2	dep	_	_	721.090027	721.210022	VE1
+4	sept	sept	NUM	NUM	_	3	dep	_	_	721.219971	721.289978	VE1
+5	huit	huit	NUM	NUM	_	4	dep	_	_	721.299988	721.380005	VE1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	721.429993	721.450012	VE1
+7	est	être	VRB	VRB	_	0	root	_	_	721.460022	721.520020	VE1
+8	pa	pa	DET	DET	_	7	dep	_	_	721.530029	721.630005	VE1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	721.640015	721.659973	VE1
+10	est	être	VRB	VRB	_	7	para	_	_	721.710022	721.750000	VE1
+11	parfait	parfait	ADJ	ADJ	_	10	dep	_	_	721.760010	722.119995	VE1
+12	merci	merci	INT	INT	_	11	dm	_	_	722.549988	722.940002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-183
+# text = allez bonne journée
+1	allez	aller	VRB	VRB	_	0	root	_	_	725.739990	725.890015	C09
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	725.900024	725.979980	C09
+3	journée	journée	NOM	NOM	_	1	dep	_	_	725.989990	726.340027	C09
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-184
+# text = bonne journée à vous
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	726.440002	726.590027	VE1
+2	journée	journée	NOM	NOM	_	0	root	_	_	726.599976	726.900024	VE1
+3	à	à	PRE	PRE	_	2	dep	_	_	726.909973	727.010010	VE1
+4	vous	moi	PRO	PRO	_	3	dep	_	_	727.090027	727.390015	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-185
+# text = au revoir maman
+1	au revoir	au revoir	INT	INT	_	2	dm	_	_	727.400024	727.789978	MAR
+2	maman	maman	NOM	NOM	_	0	root	_	_	743.210022	743.320007	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-186
+# text = maman
+1	maman	maman	NOM	NOM	_	0	root	_	_	748.510010	748.789978	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-187
+# text = bonjour bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	777.940002	778.619995	VE1
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	778.679993	779.159973	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-188
+# text = une baguette longue
+1	une	un	DET	DET	_	2	spe	_	_	784.210022	784.299988	C10
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	784.309998	784.500000	C10
+3	longue	long	ADJ	ADJ	_	2	dep	_	_	784.580017	784.690002	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-189
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	784.729980	784.760010	C10
+2	il	il	CLS	CLS	_	4	subj	_	_	784.809998	784.859985	C10
+3	vous	vous	CLI	CLI	_	4	dep	_	_	784.960022	785.010010	C10
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	785.020020	785.099976	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-190
+# text = une baguette longue
+1	une	un	DET	DET	_	2	spe	_	_	785.210022	785.299988	VE1
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	785.309998	785.659973	VE1
+3	longue	long	ADJ	ADJ	_	2	dep	_	_	785.739990	785.849976	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-191
+# text = vous ferez attention vous êtes filmé aujourd' hui
+1	vous	vous	CLS	CLS	_	2	subj	_	_	787.070007	787.119995	VE1
+2	ferez	faire	VRB	VRB	_	0	root	_	_	787.130005	787.229980	VE1
+3	attention	attention	NOM	NOM	_	2	dep	_	_	787.239990	787.619995	VE1
+4	vous	vous	CLS	CLS	_	6	subj	_	_	787.630005	787.690002	VE1
+5	êtes	être	VRB	VRB	_	6	aux	_	_	787.700012	787.770020	VE1
+6	filmé	filmer	VPP	VPP	_	2	para	_	_	787.780029	788.140015	VE1
+7	aujourd' hui	aujourd'hui	ADV	ADV	_	6	dep	_	_	788.150024	788.510010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-192
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	799.380005	799.559998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-193
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	803.349976	803.539978	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-194
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	803.630005	803.859985	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-195
+# text = tsk voilà
+1	tsk	tsk	X	X	_	0	root	_	_	803.979980	804.059998	C10
+2	voilà	voilà	INT	INT	_	1	dm	_	_	804.070007	804.469971	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-196
+# text = bonne journée
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	804.880005	805.109985	VE1
+2	journée	journée	NOM	NOM	_	0	root	_	_	805.119995	805.900024	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-197
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	806.010010	806.400024	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-198
+# text = allez
+1	allez	aller	VRB	VRB	_	0	root	_	_	806.630005	806.780029	C10
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-199
+# text = au revoir au revoir bonjour
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	806.890015	807.090027	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	807.219971	807.609985	VE1
+3	bonjour	bonjour	INT	INT	_	2	dm	_	_	906.450012	907.309998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-200
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	906.450012	907.309998	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-201
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	907.640015	907.789978	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-202
+# text = u une baguette longue
+1	u	u	VRB	VRB	_	0	root	_	_	915.000000	915.049988	C11
+2	une	un	DET	DET	_	3	spe	_	_	915.059998	915.080017	C11
+3	baguette	baguette	NOM	NOM	_	1	dep	_	_	915.429993	915.580017	C11
+4	longue	long	ADJ	ADJ	_	3	dep	_	_	915.590027	915.669983	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-203
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	915.739990	915.760010	C11
+2	il	il	CLS	CLS	_	4	subj	_	_	915.770020	915.900024	C11
+3	vous	vous	CLI	CLI	_	4	dep	_	_	915.909973	916.000000	C11
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	916.659973	916.750000	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-204
+# text = une baguette longue
+1	une	un	DET	DET	_	2	spe	_	_	917.119995	917.270020	VE1
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	917.280029	917.570007	VE1
+3	longue	long	ADJ	ADJ	_	2	dep	_	_	917.650024	917.919983	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-205
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	919.929993	920.359985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-206
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	925.219971	925.349976	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-207
+# text = quatre-vingt-cinq
+1	quatre-vingt-cinq	quatre-vingt-cinq	NUM	NUM	_	0	root	_	_	925.440002	926.309998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-208
+# text = s'il vous plaît et deux merci
+1	s'	si	CSU	CSU	_	6	dm	_	_	926.479980	926.500000	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	926.510010	926.570007	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	926.609985	926.659973	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	926.750000	926.859985	VE1
+5	et	et	COO	COO	_	6	mark	_	_	935.330017	935.429993	VE1
+6	deux	deux	NUM	NUM	_	0	root	_	_	935.469971	935.710022	VE1
+7	merci	merci	INT	INT	_	6	dm	_	_	936.359985	937.080017	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-209
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	936.359985	937.080017	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-210
+# text = bonne journée
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	938.929993	939.140015	VE1
+2	journée	journée	NOM	NOM	_	0	root	_	_	939.150024	939.809998	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-211
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	938.979980	939.659973	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-212
+# text = bonne
+1	bonne	bon	ADJ	ADJ	_	0	root	_	_	939.929993	940.059998	C11
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-213
+# text = au revoir madame
+1	au revoir	au revoir	INT	INT	_	2	dm	_	_	939.940002	940.260010	C12
+2	madame	Monsieur	NOM	NOM	_	0	root	_	_	940.539978	941.750000	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-214
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	940.630005	941.500000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-215
+# text = une baguette longue
+1	une	un	DET	DET	_	2	spe	_	_	944.250000	944.320007	C12
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	944.609985	944.770020	C12
+3	longue	long	ADJ	ADJ	_	2	dep	_	_	944.979980	945.250000	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-216
+# text = une longue
+1	une	un	DET	DET	_	2	spe	_	_	945.880005	946.070007	VE1
+2	longue	long	ADJ	ADJ	_	0	root	_	_	946.080017	946.590027	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-217
+# text = quatre quarante-cinq
+1	quatre	quatre	NUM	NUM	_	0	root	_	_	956.840027	957.099976	VE1
+2	quarante-cinq	quarante-cinq	NUM	NUM	_	1	dep	_	_	957.109985	958.349976	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-218
+# text = vous avez quarante-cinq
+1	vous	vous	CLS	CLS	_	2	subj	_	_	966.150024	966.219971	C12
+2	avez	avoir	VRB	VRB	_	0	root	_	_	966.229980	966.340027	C12
+3	quarante-cinq	quarante-cinq	NUM	NUM	_	2	dep	_	_	966.440002	967.020020	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-219
+# text = oh si vous voulez oui je veux
+1	oh	oh	INT	INT	_	7	dm	_	_	967.520020	967.679993	VE1
+2	si	si	CSU	CSU	_	7	periph	_	_	967.789978	967.840027	VE1
+3	vous	vous	CLS	CLS	_	4	subj	_	_	967.849976	967.979980	VE1
+4	voulez	vouloir	VRB	VRB	_	2	dep	_	_	967.989990	968.380005	VE1
+5	oui	oui	INT	INT	_	4	dm	_	_	968.390015	968.460022	VE1
+6	je	je	CLS	CLS	_	7	subj	_	_	969.099976	969.119995	VE1
+7	veux	vouloir	VRB	VRB	_	0	root	_	_	969.130005	969.229980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-220
+# text = bien j'ai les cinq
+1	bien	bien	ADV	ADV	_	3	periph	_	_	969.390015	969.520020	C12
+2	j'	je	CLS	CLS	_	3	subj	_	_	973.929993	973.950012	C12
+3	ai	avoir	VRB	VRB	_	0	root	_	_	973.960022	974.140015	C12
+4	les	le	DET	DET	_	5	spe	_	_	974.469971	974.570007	C12
+5	cinq	cinq	NUM	NUM	_	3	dep	_	_	974.580017	974.630005	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-221
+# text = regardez
+1	regardez	regarder	VRB	VRB	_	0	root	_	_	983.460022	983.630005	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-222
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	984.820007	984.940002	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-223
+# text = cinq et vingt
+1	cinq	cinq	NUM	NUM	_	0	root	_	_	985.599976	985.780029	VE1
+2	et	et	COO	COO	_	3	mark	_	_	986.320007	986.400024	VE1
+3	vingt	vingt	NUM	NUM	_	1	para	_	_	986.409973	986.549988	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-224
+# text = merci beaucoup
+1	merci	merci	NOM	NOM	_	0	root	_	_	987.789978	988.000000	C12
+2	beaucoup	beaucoup	ADV	ADV	_	1	dep	_	_	988.190002	988.299988	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-225
+# text = merci bien
+1	merci	merci	INT	INT	_	2	dm	_	_	988.859985	989.020020	VE1
+2	bien	bien	ADV	ADV	_	0	root	_	_	989.030029	989.299988	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-226
+# text = et bonne journée merci
+1	et	et	COO	COO	_	3	mark	_	_	989.890015	989.909973	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	989.919983	990.109985	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	990.210022	990.780029	VE1
+4	merci	merci	INT	INT	_	3	dm	_	_	998.919983	999.520020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-227
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	999.530029	999.890015	C12
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-228
+# text = au revoir bonjour
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	1000.059998	1000.580017	VE1
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1133.729980	1134.560059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-229
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1133.729980	1134.560059	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-230
+# text = une baguette
+1	une	un	DET	DET	_	2	spe	_	_	1144.630005	1144.680054	C13
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	1144.689941	1144.930054	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-231
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1145.000000	1145.020020	C13
+2	il	il	CLS	CLS	_	4	subj	_	_	1145.030029	1145.079956	C13
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1145.089966	1145.160034	C13
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1145.170044	1145.310059	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-232
+# text = longue ou courte
+1	longue	long	ADJ	ADJ	_	0	root	_	_	1145.810059	1146.069946	VE1
+2	ou	ou	COO	COO	_	3	mark	_	_	1146.079956	1146.099976	VE1
+3	courte	court	ADJ	ADJ	_	1	para	_	_	1146.109985	1146.400024	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-233
+# text = hm euh
+1	hm	hm	INT	INT	_	0	root	_	_	1146.760010	1147.939941	C13
+2	euh	euh	INT	INT	_	1	dm	_	_	1147.949951	1147.969971	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-234
+# text = longue
+1	longue	long	ADJ	ADJ	_	0	root	_	_	1148.660034	1148.939941	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-235
+# text = longue
+1	longue	long	ADJ	ADJ	_	0	root	_	_	1149.150024	1149.449951	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-236
+# text = ouais je verrai
+1	ouais	ouais	INT	INT	_	3	dm	_	_	1149.599976	1149.699951	C13
+2	je	je	CLS	CLS	_	3	subj	_	_	1149.709961	1149.819946	C13
+3	verrai	voir	VRB	VRB	_	0	root	_	_	1149.989990	1150.140015	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-237
+# text = bien voilà
+1	bien	bien	ADV	ADV	_	0	root	_	_	1150.150024	1150.229980	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1150.640015	1151.089966	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-238
+# text = par curiosité donnez-moi deux machins là là
+1	par	par	PRE	PRE	_	5	periph	_	_	1152.439941	1152.540039	C13
+2	curiosité	curiosité	NOM	NOM	_	1	dep	_	_	1153.189941	1153.479980	C13
+3	donnez-moi	donnez-moi	ADV	ADV	_	2	dep	_	_	1153.489990	1153.979980	C13
+4	deux	deux	NUM	NUM	_	5	spe	_	_	1154.849976	1154.989990	C13
+5	machins	machin	NOM	NOM	_	0	root	_	_	1155.000000	1155.280029	C13
+6	là	là	ADV	ADV	_	5	dep	_	_	1155.290039	1155.349976	C13
+7	là	là	ADV	ADV	_	5	dep	_	_	1155.359985	1155.579956	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-239
+# text = tsk deux abricots
+1	tsk	tsk	X	X	_	3	dep	_	_	1157.260010	1157.349976	VE1
+2	deux	deux	NUM	NUM	_	3	spe	_	_	1157.459961	1158.010010	VE1
+3	abricots	abricot	NOM	NOM	_	0	root	_	_	1158.020020	1158.540039	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-240
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	1158.699951	1158.939941	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-241
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1159.089966	1159.160034	C13
+2	il	il	CLS	CLS	_	4	subj	_	_	1159.209961	1159.290039	C13
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1159.300049	1159.459961	C13
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1159.469971	1159.569946	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-242
+# text = moi j'appelle ça des hiboux
+1	moi	moi	PRO	PRO	_	3	periph	_	_	1159.650024	1159.729980	VE1
+2	j'	je	CLS	CLS	_	3	subj	_	_	1159.739990	1159.780029	VE1
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	1159.790039	1159.949951	VE1
+4	ça	ça	PRO	PRO	_	3	dep	_	_	1159.959961	1160.130005	VE1
+5	des	de	PRE	PRE	_	3	dep	_	_	1160.180054	1160.510010	VE1
+6	hiboux	hibou	NOM	NOM	_	5	dep	_	_	1160.520020	1160.660034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-243
+# text = des
+1	des	de	PRE	PRE	_	0	root	_	_	1161.160034	1161.400024	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-244
+# text = hiboux oui je crois
+1	hiboux	hibou	NOM	NOM	_	4	periph	_	_	1161.670044	1161.810059	VE1
+2	oui	oui	INT	INT	_	1	dm	_	_	1162.380005	1162.550049	VE1
+3	je	je	CLS	CLS	_	4	subj	_	_	1162.560059	1162.579956	VE1
+4	crois	croire	VRB	VRB	_	0	root	_	_	1162.619995	1163.910034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-245
+# text = des hiboux on dit ah pardon je saurai la prochaine fois
+1	des	de	PRE	PRE	_	4	periph	_	_	1162.390015	1162.439941	C13
+2	hiboux	hibou	NOM	NOM	_	1	dep	_	_	1162.449951	1162.810059	C13
+3	on	on	CLS	CLS	_	4	subj	_	_	1162.849976	1163.109985	C13
+4	dit	dire	VRB	VRB	_	0	root	_	_	1163.119995	1163.170044	C13
+5	ah	ah	INT	INT	_	8	dm	_	_	1163.180054	1163.339966	C13
+6	pardon	pardon	NOM	NOM	_	8	periph	_	_	1163.349976	1163.660034	C13
+7	je	je	CLS	CLS	_	8	subj	_	_	1163.670044	1163.729980	C13
+8	saurai	saurer	VRB	VRB	_	4	dep	_	_	1163.780029	1164.160034	C13
+9	la	le	DET	DET	_	11	spe	_	_	1164.199951	1164.290039	C13
+10	prochaine	prochain	ADJ	ADJ	_	11	dep	_	_	1164.300049	1164.619995	C13
+11	fois	foi	NOM	NOM	_	8	dep	_	_	1164.699951	1164.780029	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-246
+# text = je trouve que
+1	je	je	CLS	CLS	_	2	subj	_	_	1165.030029	1165.050049	VE1
+2	trouve	trouver	VRB	VRB	_	0	root	_	_	1165.060059	1165.260010	VE1
+3	que	que	CSU	CSU	_	2	dep	_	_	1165.270020	1165.359985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-247
+# text = ça
+1	ça	ça	PRO	PRO	_	0	root	_	_	1165.369995	1165.579956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-248
+# text = la tête d'un hibou
+1	la	le	DET	DET	_	2	spe	_	_	1165.589966	1165.650024	VE1
+2	tête	tête	NOM	NOM	_	0	root	_	_	1165.839966	1165.959961	VE1
+3	d'	de	PRE	PRE	_	2	dep	_	_	1165.969971	1165.989990	VE1
+4	un	un	DET	DET	_	5	spe	_	_	1166.000000	1166.109985	VE1
+5	hibou	hibou	NOM	NOM	_	3	dep	_	_	1166.119995	1166.439941	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-249
+# text = il faut y tatouer
+1	il	il	CLS	CLS	_	2	subj	_	_	1169.750000	1169.829956	C13
+2	faut	faillir	VRB	VRB	_	0	root	_	_	1169.839966	1170.030029	C13
+3	y	y	CLI	CLI	_	4	dep	_	_	1170.040039	1170.069946	C13
+4	tatouer	tatouer	VNF	VNF	_	2	dep	_	_	1170.079956	1170.300049	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-250
+# text = chacun
+1	chacun	chacun	PRO	PRO	_	0	root	_	_	1171.060059	1171.439941	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-251
+# text = son truc hein
+1	son	son	DET	DET	_	2	spe	_	_	1171.510010	1171.790039	VE1
+2	truc	truc	NOM	NOM	_	0	root	_	_	1171.800049	1172.060059	VE1
+3	hein	hein	INT	INT	_	2	dm	_	_	1172.069946	1172.099976	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-252
+# text = ah oui
+1	ah	ah	INT	INT	_	0	root	_	_	1172.160034	1172.319946	C13
+2	oui	oui	INT	INT	_	1	dm	_	_	1172.329956	1172.479980	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-253
+# text = tout à fait voilà ouais
+1	tout à fait	tout à fait	ADV	ADV	_	0	root	_	_	1172.520020	1173.050049	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1173.290039	1173.630005	VE1
+3	ouais	ouais	INT	INT	_	2	dm	_	_	1173.670044	1173.719971	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-254
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	1174.540039	1174.680054	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-255
+# text = quatre quarante
+1	quatre	quatre	NUM	NUM	_	0	root	_	_	1174.760010	1174.930054	VE1
+2	quarante	quarante	NUM	NUM	_	1	dep	_	_	1175.000000	1175.410034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-256
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1175.579956	1175.599976	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	1175.609985	1175.699951	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1175.709961	1175.800049	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1175.810059	1176.069946	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-257
+# text = les pièces elles m'énervent ces pièces
+1	les	le	DET	DET	_	2	spe	_	_	1182.790039	1182.839966	C13
+2	pièces	pièce	NOM	NOM	_	5	periph	_	_	1183.520020	1183.630005	C13
+3	elles	il	CLS	CLS	_	5	subj	_	_	1183.640015	1183.699951	C13
+4	m'	me	CLI	CLI	_	5	dep	_	_	1183.709961	1183.750000	C13
+5	énervent	énerver	VRB	VRB	_	0	root	_	_	1183.760010	1184.099976	C13
+6	ces	ce	DET	DET	_	7	spe	_	_	1185.130005	1185.219971	C13
+7	pièces	pièce	NOM	NOM	_	5	dep	_	_	1185.359985	1185.500000	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-258
+# text = j'en ai à tour de bras de ces p
+1	j'	je	CLS	CLS	_	3	subj	_	_	1189.150024	1189.199951	C13
+2	en	en	CLI	CLI	_	3	dep	_	_	1189.209961	1189.239990	C13
+3	ai	avoir	VRB	VRB	_	0	root	_	_	1189.319946	1189.339966	C13
+4	à	à	PRE	PRE	_	3	dep	_	_	1189.349976	1189.390015	C13
+5	tour	tour	NOM	NOM	_	4	dep	_	_	1189.520020	1189.770020	C13
+6	de	de	PRE	PRE	_	5	dep	_	_	1189.780029	1189.800049	C13
+7	bras	bras	NOM	NOM	_	6	dep	_	_	1189.810059	1190.140015	C13
+8	de	de	PRE	PRE	_	7	dep	_	_	1190.150024	1190.180054	C13
+9	ces	ce	DET	DET	_	10	spe	_	_	1190.420044	1190.489990	C13
+10	p	p	NOM	NOM	_	8	dep	_	_	1190.589966	1190.640015	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-259
+# text = merci bien
+1	merci	merci	INT	INT	_	2	dm	_	_	1192.969971	1193.479980	VE1
+2	bien	bien	ADV	ADV	_	0	root	_	_	1193.489990	1193.660034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-260
+# text = et bonne journée
+1	et	et	COO	COO	_	3	mark	_	_	1199.469971	1199.560059	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	1199.569946	1199.739990	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	1199.750000	1200.160034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-261
+# text = bonne journée merci
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	1200.310059	1200.390015	C13
+2	journée	journée	NOM	NOM	_	0	root	_	_	1200.400024	1200.680054	C13
+3	merci	merci	INT	INT	_	2	dm	_	_	1200.689941	1201.010010	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-262
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1201.069946	1201.390015	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-263
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	1201.400024	1201.589966	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-264
+# text = tant qu'il fait pas trop mauvais
+1	tant	tant	ADV	ADV	_	0	root	_	_	1202.619995	1202.670044	C13
+2	qu'	que	CSU	CSU	_	1	dep	_	_	1202.680054	1202.699951	C13
+3	il	il	CLS	CLS	_	4	subj	_	_	1202.709961	1202.760010	C13
+4	fait	faire	VRB	VRB	_	2	dep	_	_	1202.770020	1202.959961	C13
+5	pas	pas	ADN	ADN	_	4	dep	_	_	1202.969971	1203.040039	C13
+6	trop	trop	ADV	ADV	_	7	dep	_	_	1203.050049	1203.160034	C13
+7	mauvais	mauvais	ADJ	ADJ	_	4	dep	_	_	1203.170044	1203.459961	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-265
+# text = ah c'est super hein
+1	ah	ah	INT	INT	_	3	dm	_	_	1203.869995	1204.030029	VE1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	1204.079956	1204.150024	VE1
+3	est	être	VRB	VRB	_	0	root	_	_	1204.239990	1204.260010	VE1
+4	super	super	ADJ	ADJ	_	3	dep	_	_	1204.270020	1204.770020	VE1
+5	hein	hein	INT	INT	_	4	dm	_	_	1204.959961	1205.300049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-266
+# text = on est bien
+1	on	on	CLS	CLS	_	2	subj	_	_	1203.869995	1204.050049	C13
+2	est	être	VRB	VRB	_	0	root	_	_	1204.060059	1204.079956	C13
+3	bien	bien	ADV	ADV	_	2	dep	_	_	1204.089966	1204.219971	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-267
+# text = et puis cette année hein oh la la
+1	et puis	et puis	COO	COO	_	3	mark	_	_	1204.229980	1204.510010	C13
+2	cette	ce	DET	DET	_	3	spe	_	_	1204.819946	1205.290039	C13
+3	année	année	NOM	NOM	_	0	root	_	_	1205.430054	1205.719971	C13
+4	hein	hein	INT	INT	_	3	dm	_	_	1205.729980	1205.750000	C13
+5	oh la la	oh là là	INT	INT	_	4	dm	_	_	1205.420044	1205.760010	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-268
+# text = pourvu que ça dure encore un moment
+1	pourvu que	pourvu que	PRE	PRE	_	3	periph	_	_	1205.839966	1206.010010	C13
+2	ça	ça	PRO	PRO	_	1	dep	_	_	1206.020020	1206.079956	C13
+3	dure	dure	NOM	NOM	_	0	root	_	_	1206.209961	1206.449951	C13
+4	encore	encore	ADV	ADV	_	3	dep	_	_	1206.459961	1206.589966	C13
+5	un	un	DET	DET	_	6	spe	_	_	1206.599976	1206.689941	C13
+6	moment	moment	NOM	NOM	_	3	para	_	_	1206.699951	1207.000000	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-269
+# text = oui oui oui
+1	oui	oui	INT	INT	_	0	root	_	_	1205.869995	1205.920044	VE1
+2	oui	oui	INT	INT	_	1	para	_	_	1206.020020	1206.189941	VE1
+3	oui	oui	INT	INT	_	2	para	_	_	1206.199951	1206.430054	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-270
+# text = ouh la la voilà
+1	ouh la la	oh là là	INT	INT	_	2	dm	_	_	1206.439941	1206.890015	C13
+2	voilà	voilà	INT	INT	_	0	root	_	_	1207.140015	1208.209961	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-271
+# text = oh oui moi ça me ferait pas de mal hein
+1	oh	oh	INT	INT	_	6	dm	_	_	1207.180054	1207.250000	VE1
+2	oui	oui	INT	INT	_	1	dm	_	_	1207.260010	1207.410034	VE1
+3	moi	moi	PRO	PRO	_	6	periph	_	_	1207.420044	1207.520020	VE1
+4	ça	ça	PRO	PRO	_	6	subj	_	_	1207.530029	1207.640015	VE1
+5	me	me	CLI	CLI	_	6	dep	_	_	1207.650024	1207.680054	VE1
+6	ferait	faire	VRB	VRB	_	0	root	_	_	1207.689941	1207.839966	VE1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	1207.849976	1207.969971	VE1
+8	de	de	PRE	PRE	_	6	dep	_	_	1207.979980	1208.000000	VE1
+9	mal	mal	NOM	NOM	_	8	dep	_	_	1208.010010	1208.290039	VE1
+10	hein	hein	INT	INT	_	9	dm	_	_	1208.560059	1208.810059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-272
+# text = allez bonne journée
+1	allez	aller	VRB	VRB	_	3	aux	_	_	1209.069946	1209.300049	C13
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	1209.310059	1209.390015	C13
+3	journée	journée	NOM	NOM	_	0	root	_	_	1209.400024	1209.630005	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-273
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1209.119995	1209.780029	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-274
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1209.640015	1209.989990	C13
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-275
+# text = au revoir bah non hein j'ai pas eu le temps moi
+1	au revoir	au revoir	INT	INT	_	8	dm	_	_	1209.849976	1210.209961	VE1
+2	bah	bah	INT	INT	_	1	dm	_	_	1257.170044	1257.400024	VE1
+3	non	non	INT	INT	_	2	dm	_	_	1257.410034	1257.750000	VE1
+4	hein	hein	INT	INT	_	3	dm	_	_	1257.760010	1257.790039	VE1
+5	j'	je	CLS	CLS	_	8	subj	_	_	1258.020020	1258.060059	VE1
+6	ai	avoir	VRB	VRB	_	8	aux	_	_	1258.170044	1258.189941	VE1
+7	pas	pas	ADN	ADN	_	8	dep	_	_	1258.199951	1258.250000	VE1
+8	eu	avoir	VPP	VPP	_	0	root	_	_	1258.260010	1258.310059	VE1
+9	le	le	DET	DET	_	10	spe	_	_	1258.319946	1258.359985	VE1
+10	temps	temps	NOM	NOM	_	8	dep	_	_	1258.449951	1258.630005	VE1
+11	moi	moi	PRO	PRO	_	8	periph	_	_	1258.640015	1258.770020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-276
+# text = oh oui et le fromage il faut commander aujourd' hui si on en veut parce que ils p
+1	oh	oh	INT	INT	_	7	dm	_	_	1259.750000	1259.819946	VE1
+2	oui	oui	INT	INT	_	1	dm	_	_	1259.829956	1259.959961	VE1
+3	et	et	COO	COO	_	7	mark	_	_	1259.969971	1260.050049	VE1
+4	le	le	DET	DET	_	5	spe	_	_	1260.060059	1260.109985	VE1
+5	fromage	fromage	NOM	NOM	_	7	periph	_	_	1260.119995	1260.579956	VE1
+6	il	il	CLS	CLS	_	7	subj	_	_	1260.589966	1260.699951	VE1
+7	faut	faillir	VRB	VRB	_	0	root	_	_	1260.709961	1260.849976	VE1
+8	commander	commander	VNF	VNF	_	7	dep	_	_	1260.859985	1261.310059	VE1
+9	aujourd' hui	aujourd'hui	ADV	ADV	_	8	dep	_	_	1261.319946	1261.839966	VE1
+10	si	si	CSU	CSU	_	7	dep	_	_	1261.849976	1261.939941	VE1
+11	on	on	CLS	CLS	_	13	subj	_	_	1261.949951	1262.160034	VE1
+12	en	en	CLI	CLI	_	13	dep	_	_	1262.170044	1262.189941	VE1
+13	veut	vouloir	VRB	VRB	_	10	dep	_	_	1262.199951	1262.380005	VE1
+14	parce que	parce que	CSU	CSU	_	13	dep	_	_	1262.390015	1263.300049	VE1
+15	ils	il	CLS	CLS	_	16	subj	_	_	1263.760010	1263.819946	VE1
+16	p	p	VRB	VRB	_	14	dep	_	_	1263.829956	1263.900024	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-277
+# text = ils partent ce week-end ouais
+1	ils	il	CLS	CLS	_	2	subj	_	_	1264.449951	1264.550049	VE1
+2	partent	partir	VRB	VRB	_	0	root	_	_	1264.609985	1264.819946	VE1
+3	ce	ce	DET	DET	_	4	spe	_	_	1264.869995	1264.939941	VE1
+4	week-end	week-end	NOM	NOM	_	2	dep	_	_	1264.949951	1265.349976	VE1
+5	ouais	ouais	INT	INT	_	4	dm	_	_	1265.359985	1265.479980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-278
+# text = donc j'en commande pas
+1	donc	donc	ADV	ADV	_	4	periph	_	_	1265.489990	1265.660034	VE1
+2	j'	je	CLS	CLS	_	4	subj	_	_	1265.670044	1265.709961	VE1
+3	en	en	CLI	CLI	_	4	dep	_	_	1265.719971	1265.780029	VE1
+4	commande	commander	VRB	VRB	_	0	root	_	_	1265.790039	1266.040039	VE1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	1266.140015	1266.380005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-279
+# text = il y a que valo aujourd' hui en pâté
+1	il	il	CLS	CLS	_	3	subj	_	_	1294.750000	1294.800049	VE1
+2	y	y	CLI	CLI	_	3	dep	_	_	1294.810059	1294.829956	VE1
+3	a	avoir	VRB	VRB	_	0	root	_	_	1294.839966	1294.869995	VE1
+4	que	que	ADN	ADN	_	3	dep	_	_	1294.880005	1295.099976	VE1
+5	valo	valo	INT	INT	_	4	dm	_	_	1295.109985	1295.540039	VE1
+6	aujourd' hui	aujourd'hui	ADV	ADV	_	3	dep	_	_	1295.550049	1295.849976	VE1
+7	en	en	PRE	PRE	_	3	dep	_	_	1295.859985	1295.949951	VE1
+8	pâté	pâté	NOM	NOM	_	7	dep	_	_	1295.959961	1296.310059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-280
+# text = je garde comb n'importe compote hein
+1	je	je	CLS	CLS	_	2	subj	_	_	1297.380005	1297.439941	VE1
+2	garde	garder	VRB	VRB	_	0	root	_	_	1297.500000	1297.880005	VE1
+3	comb	comb	CLS	CLS	_	5	subj	_	_	1297.890015	1298.260010	VE1
+4	n'	ne	CLN	CLN	_	5	dep	_	_	1298.270020	1298.310059	VE1
+5	importe	importer	VRB	VRB	_	2	dep	_	_	1298.319946	1298.599976	VE1
+6	compote	compote	NOM	NOM	_	5	dep	_	_	1298.939941	1299.239990	VE1
+7	hein	hein	INT	INT	_	6	dm	_	_	1306.449951	1306.770020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-281
+# text = il fait froid là bonjour
+1	il	il	CLS	CLS	_	2	subj	_	_	1339.150024	1339.199951	VE1
+2	fait	faire	VRB	VRB	_	0	root	_	_	1339.209961	1339.260010	VE1
+3	froid	froid	NOM	NOM	_	2	dep	_	_	1339.270020	1339.520020	VE1
+4	là	là	ADV	ADV	_	2	periph	_	_	1339.589966	1340.079956	VE1
+5	bonjour	bonjour	INT	INT	_	4	dm	_	_	1388.979980	1389.839966	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-282
+# text = bonjour bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1390.180054	1390.609985	C14
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1420.280029	1420.469971	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-283
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1420.660034	1421.119995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-284
+# text = et puis je veux une baguette courte
+1	et puis	et puis	COO	COO	_	3	mark	_	_	1421.219971	1421.380005	C14
+2	je	je	CLS	CLS	_	3	subj	_	_	1421.390015	1421.410034	C14
+3	veux	vouloir	VRB	VRB	_	0	root	_	_	1421.420044	1421.479980	C14
+4	une	un	DET	DET	_	5	spe	_	_	1421.489990	1421.550049	C14
+5	baguette	baguette	NOM	NOM	_	3	dep	_	_	1421.589966	1421.819946	C14
+6	courte	court	ADJ	ADJ	_	5	dep	_	_	1421.829956	1421.959961	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-285
+# text = courte voilà
+1	courte	court	ADJ	ADJ	_	0	root	_	_	1423.839966	1424.000000	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1424.910034	1425.560059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-286
+# text = ah pourri
+1	ah	ah	INT	INT	_	0	root	_	_	1425.849976	1425.869995	MAR
+2	pourri	pourri	INT	INT	_	1	dm	_	_	1426.160034	1426.280029	MAR
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-287
+# text = et le journal
+1	et	et	COO	COO	_	3	mark	_	_	1426.359985	1426.489990	C14
+2	le	le	DET	DET	_	3	spe	_	_	1426.500000	1426.520020	C14
+3	journal	journal	NOM	NOM	_	0	root	_	_	1426.530029	1426.800049	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-288
+# text = et le journal
+1	et	et	COO	COO	_	3	mark	_	_	1427.109985	1427.199951	VE1
+2	le	le	DET	DET	_	3	spe	_	_	1427.209961	1427.239990	VE1
+3	journal	journal	NOM	NOM	_	0	root	_	_	1427.250000	1427.489990	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-289
+# text = et des rigottes
+1	et	et	COO	COO	_	2	mark	_	_	1438.640015	1438.750000	C14
+2	des	de	PRE	PRE	_	0	root	_	_	1438.760010	1438.930054	C14
+3	rigottes	rigotte	NOM	NOM	_	2	dep	_	_	1438.939941	1439.400024	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-290
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	1445.930054	1446.260010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-291
+# text = onze vingt
+1	onze	onze	NUM	NUM	_	0	root	_	_	1446.270020	1446.569946	VE1
+2	vingt	vingt	NUM	NUM	_	1	dep	_	_	1446.579956	1446.810059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-292
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1447.010010	1447.030029	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	1447.040039	1447.119995	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1447.130005	1447.260010	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1447.329956	1447.550049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-293
+# text = combien vous m'avez dit
+1	combien	combien	PRQ	PRQ	_	5	dep	_	_	1448.900024	1449.189941	C14
+2	vous	vous	CLS	CLS	_	5	subj	_	_	1449.199951	1449.260010	C14
+3	m'	me	CLI	CLI	_	5	dep	_	_	1449.270020	1449.329956	C14
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	1449.339966	1449.430054	C14
+5	dit	dire	VPP	VPP	_	0	root	_	_	1449.599976	1449.650024	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-294
+# text = onze vingt
+1	onze	onze	NUM	NUM	_	0	root	_	_	1449.760010	1450.140015	VE1
+2	vingt	vingt	NUM	NUM	_	1	dep	_	_	1450.150024	1450.329956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-295
+# text = aïe
+1	aïe	aïe	INT	INT	_	0	root	_	_	1460.109985	1460.160034	LX
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-296
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	1467.020020	1467.229980	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-297
+# text = et bah
+1	et	et	COO	COO	_	0	root	_	_	1467.829956	1467.900024	VE1
+2	bah	bah	INT	INT	_	1	dm	_	_	1467.910034	1468.010010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-298
+# text = super merci bien et bonne journée
+1	super	super	ADJ	ADJ	_	0	root	_	_	1468.020020	1468.359985	VE1
+2	merci	merci	INT	INT	_	1	dm	_	_	1468.530029	1468.839966	VE1
+3	bien	bien	ADV	ADV	_	2	dm	_	_	1468.949951	1469.119995	VE1
+4	et	et	COO	COO	_	5	mark	_	_	1471.660034	1471.739990	VE1
+5	bonne	bon	ADJ	ADJ	_	1	para	_	_	1471.750000	1471.959961	VE1
+6	journée	journée	NOM	NOM	_	5	dep	_	_	1471.969971	1472.400024	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-299
+# text = et bah
+1	et	et	COO	COO	_	0	root	_	_	1472.650024	1472.670044	C14
+2	bah	bah	INT	INT	_	1	dm	_	_	1472.719971	1472.849976	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-300
+# text = vous aussi
+1	vous	moi	PRO	PRO	_	0	root	_	_	1472.859985	1473.060059	C14
+2	aussi	aussi	ADV	ADV	_	1	dep	_	_	1473.170044	1473.329956	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-301
+# text = vous êtes filmée enregistrée comment vous êtes filmée enregistrée ouh la
+1	vous	vous	CLS	CLS	_	3	subj	_	_	1481.609985	1481.699951	VE1
+2	êtes	être	VRB	VRB	_	3	aux	_	_	1481.709961	1481.849976	VE1
+3	filmée	filmer	VPP	VPP	_	4	aux	_	_	1481.859985	1482.369995	VE1
+4	enregistrée	enregistrer	VPP	VPP	_	0	root	_	_	1482.380005	1482.930054	VE1
+5	comment	comment	PRQ	PRQ	_	9	dep	_	_	1483.420044	1483.660034	VE1
+6	vous	vous	CLS	CLS	_	8	subj	_	_	1484.150024	1484.209961	VE1
+7	êtes	être	VRB	VRB	_	8	aux	_	_	1484.219971	1484.300049	VE1
+8	filmée	filmer	VPP	VPP	_	9	aux	_	_	1484.310059	1484.829956	VE1
+9	enregistrée	enregistrer	VPP	VPP	_	4	para	_	_	1484.839966	1485.479980	VE1
+10	ouh la	oh là là	INT	INT	_	9	dm	_	_	1485.890015	1486.089966	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-302
+# text = moi aussi hein j'ai horreur de ça
+1	moi	moi	PRO	PRO	_	5	periph	_	_	1487.290039	1487.439941	VE1
+2	aussi	aussi	ADV	ADV	_	1	dep	_	_	1487.449951	1487.900024	VE1
+3	hein	hein	INT	INT	_	2	dm	_	_	1487.910034	1487.969971	VE1
+4	j'	je	CLS	CLS	_	5	subj	_	_	1488.189941	1488.209961	C14
+5	ai	avoir	VRB	VRB	_	0	root	_	_	1488.359985	1488.380005	C14
+6	horreur	horreur	NOM	NOM	_	5	dep	_	_	1488.719971	1488.939941	C14
+7	de	de	PRE	PRE	_	6	dep	_	_	1489.020020	1489.040039	C14
+8	ça	ça	PRO	PRO	_	7	dep	_	_	1489.050049	1489.339966	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-303
+# text = moi c'est parti
+1	moi	moi	PRO	PRO	_	4	periph	_	_	1489.550049	1489.630005	C14
+2	c'	ce	CLS	CLS	_	4	subj	_	_	1490.119995	1490.170044	C14
+3	est	être	VRB	VRB	_	4	aux	_	_	1490.180054	1490.329956	C14
+4	parti	partir	VPP	VPP	_	0	root	_	_	1490.339966	1491.209961	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-304
+# text = moi non plus hein j'aime pas bien mais
+1	moi	moi	PRO	PRO	_	5	periph	_	_	1490.130005	1490.239990	VE1
+2	non plus	non plus	ADV	ADV	_	5	periph	_	_	1490.250000	1490.650024	VE1
+3	hein	hein	INT	INT	_	2	dm	_	_	1490.819946	1490.920044	VE1
+4	j'	je	CLS	CLS	_	5	subj	_	_	1491.040039	1491.150024	VE1
+5	aime	aimer	VRB	VRB	_	0	root	_	_	1491.160034	1491.339966	VE1
+6	pas	pas	ADN	ADN	_	7	dep	_	_	1491.430054	1492.030029	VE1
+7	bien	bien	ADV	ADV	_	5	dep	_	_	1492.040039	1492.349976	VE1
+8	mais	mais	COO	COO	_	7	disflink	_	_	1492.359985	1492.459961	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-305
+# text = bon oh la la moi j'aime pas tout ce qui est photo machin
+1	bon	bon	INT	INT	_	5	dm	_	_	1492.560059	1492.709961	C14
+2	oh la la	oh là là	INT	INT	_	1	dm	_	_	1491.219971	1491.849976	C14
+3	moi	moi	PRO	PRO	_	5	periph	_	_	1492.089966	1492.329956	C14
+4	j'	je	CLS	CLS	_	5	subj	_	_	1492.819946	1492.839966	C14
+5	aime	aimer	VRB	VRB	_	0	root	_	_	1492.949951	1493.079956	C14
+6	pas	pas	ADN	ADN	_	5	dep	_	_	1493.280029	1493.349976	C14
+7	tout	tout	ADJ	ADJ	_	8	dep	_	_	1493.579956	1493.640015	C14
+8	ce	ce	PRO	PRO	_	5	dep	_	_	1493.719971	1493.890015	C14
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	1493.900024	1493.959961	C14
+10	est	être	VRB	VRB	_	8	dep	_	_	1494.609985	1494.660034	C14
+11	photo	photo	NOM	NOM	_	10	dep	_	_	1494.670044	1494.810059	C14
+12	machin	machin	NOM	NOM	_	11	dep	_	_	1494.819946	1495.079956	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-306
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	1493.760010	1493.959961	VE1
+2	ouais	ouais	INT	INT	_	1	para	_	_	1494.589966	1495.000000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-307
+# text = honnêtement je crois qu'on est enregistré partout hein
+1	honnêtement	honnêtement	ADV	ADV	_	3	periph	_	_	1495.910034	1496.160034	C14
+2	je	je	CLS	CLS	_	3	subj	_	_	1496.290039	1496.310059	C14
+3	crois	croire	VRB	VRB	_	0	root	_	_	1496.319946	1496.540039	C14
+4	qu'	que	CSU	CSU	_	3	dep	_	_	1496.589966	1496.619995	C14
+5	on	on	CLS	CLS	_	7	subj	_	_	1496.630005	1496.829956	C14
+6	est	être	VRB	VRB	_	7	aux	_	_	1496.869995	1496.890015	C14
+7	enregistré	enregistrer	VPP	VPP	_	4	dep	_	_	1496.900024	1497.449951	C14
+8	partout	partout	ADV	ADV	_	7	dep	_	_	1497.489990	1497.900024	C14
+9	hein	hein	INT	INT	_	8	dm	_	_	1498.000000	1498.020020	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-308
+# text = merci ouais
+1	merci	merci	INT	INT	_	0	root	_	_	1496.270020	1497.239990	VE1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	1498.079956	1498.380005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-309
+# text = non mais c'est pour l'école qu'ils font ça
+1	non	non	INT	INT	_	4	dm	_	_	1498.390015	1498.530029	VE1
+2	mais	mais	COO	COO	_	4	mark	_	_	1498.540039	1498.619995	VE1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	1498.630005	1498.670044	VE1
+4	est	être	VRB	VRB	_	0	root	_	_	1498.680054	1498.699951	VE1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	1498.709961	1498.829956	VE1
+6	l'	le	DET	DET	_	7	spe	_	_	1498.839966	1498.869995	VE1
+7	école	école	NOM	NOM	_	5	dep	_	_	1498.880005	1499.180054	VE1
+8	qu'	que	PRQ	PRQ	_	10	dep	_	_	1499.189941	1499.209961	VE1
+9	ils	il	CLS	CLS	_	10	subj	_	_	1499.219971	1499.280029	VE1
+10	font	faire	VRB	VRB	_	4	dep	_	_	1499.329956	1499.560059	VE1
+11	ça	ça	PRO	PRO	_	10	dep	_	_	1499.569946	1499.739990	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-310
+# text = c'est pour l'école ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1498.109985	1498.140015	C14
+2	est	être	VRB	VRB	_	0	root	_	_	1498.239990	1498.390015	C14
+3	pour	pour	PRE	PRE	_	2	dep	_	_	1498.400024	1498.829956	C14
+4	l'	le	DET	DET	_	5	spe	_	_	1498.839966	1498.869995	C14
+5	école	école	NOM	NOM	_	3	dep	_	_	1498.880005	1499.280029	C14
+6	ça	ça	PRO	PRO	_	2	periph	_	_	1499.569946	1499.739990	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-311
+# text = ouais voilà
+1	ouais	ouais	INT	INT	_	0	root	_	_	1499.750000	1499.849976	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1500.040039	1500.459961	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-312
+# text = pour voir en fait comment ça se déroule je crois entre dans les pays quoi
+1	pour	pour	PRE	PRE	_	0	root	_	_	1501.069946	1501.150024	VE1
+2	voir	voir	VNF	VNF	_	1	dep	_	_	1501.160034	1501.380005	VE1
+3	en	en	PRE	PRE	_	2	dep	_	_	1501.390015	1501.430054	VE1
+4	fait	fait	NOM	NOM	_	3	dep	_	_	1501.439941	1501.579956	VE1
+5	comment	comment	PRQ	PRQ	_	8	dep	_	_	1501.650024	1501.800049	VE1
+6	ça	ça	PRO	PRO	_	8	subj	_	_	1501.810059	1501.859985	VE1
+7	se	se	CLI	CLI	_	8	dep	_	_	1501.869995	1502.119995	VE1
+8	déroule	dérouler	VRB	VRB	_	2	dep	_	_	1502.199951	1502.439941	VE1
+9	je	je	CLS	CLS	_	10	subj	_	_	1502.449951	1502.550049	VE1
+10	crois	croire	VRB	VRB	_	8	dm	_	_	1502.599976	1502.750000	VE1
+11	entre	entre	PRE	PRE	_	10	dep	_	_	1502.790039	1503.099976	VE1
+12	dans	dans	PRE	PRE	_	11	para	_	_	1503.400024	1503.510010	VE1
+13	les	le	DET	DET	_	14	spe	_	_	1503.520020	1503.609985	VE1
+14	pays	pays	NOM	NOM	_	12	dep	_	_	1503.660034	1503.979980	VE1
+15	quoi	quoi	INT	INT	_	14	dm	_	_	1504.140015	1504.329956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-313
+# text = hm la rédaction
+1	hm	hm	INT	INT	_	3	dm	_	_	1504.900024	1504.979980	C14
+2	la	le	DET	DET	_	3	spe	_	_	1500.219971	1500.410034	C14
+3	rédaction	rédaction	NOM	NOM	_	0	root	_	_	1501.109985	1502.400024	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-314
+# text = ah oui d'accord
+1	ah	ah	INT	INT	_	3	dm	_	_	1503.430054	1503.489990	C14
+2	oui	oui	INT	INT	_	1	dm	_	_	1503.500000	1503.979980	C14
+3	d'	de	PRE	PRE	_	0	root	_	_	1504.150024	1504.170044	C14
+4	accord	accord	NOM	NOM	_	3	dep	_	_	1504.180054	1504.410034	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-315
+# text = donc voilà
+1	donc	donc	ADV	ADV	_	0	root	_	_	1505.689941	1505.900024	VE1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	1505.910034	1506.180054	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-316
+# text = et bah c'est bien
+1	et	et	COO	COO	_	4	mark	_	_	1505.849976	1505.869995	C14
+2	bah	bah	INT	INT	_	1	dm	_	_	1505.930054	1506.180054	C14
+3	c'	ce	CLS	CLS	_	4	subj	_	_	1506.439941	1506.459961	C14
+4	est	être	VRB	VRB	_	0	root	_	_	1506.469971	1506.530029	C14
+5	bien	bien	ADV	ADV	_	4	dep	_	_	1506.540039	1506.650024	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-317
+# text = allez
+1	allez	aller	VRB	VRB	_	0	root	_	_	1507.050049	1507.410034	C14
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-318
+# text = au revoir merci bonne journée
+1	au revoir	au revoir	INT	INT	_	4	dm	_	_	1507.719971	1508.300049	VE1
+2	merci	merci	INT	INT	_	1	dm	_	_	1507.199951	1507.770020	VE1
+3	bonne	bon	ADJ	ADJ	_	4	dep	_	_	1507.780029	1507.969971	VE1
+4	journée	journée	NOM	NOM	_	0	root	_	_	1507.979980	1508.459961	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-319
+# text = j'arrive pas hein jusqu'à une heure ouais hein
+1	j'	je	CLS	CLS	_	2	subj	_	_	1516.930054	1516.959961	MAR
+2	arrive	arriver	VRB	VRB	_	0	root	_	_	1517.430054	1517.540039	MAR
+3	pas	pas	ADN	ADN	_	2	dep	_	_	1517.550049	1517.599976	VE1
+4	hein	hein	INT	INT	_	3	dm	_	_	1662.489990	1662.869995	VE1
+5	jusqu'	jusque	PRE	PRE	_	2	dep	_	_	1664.609985	1664.729980	VE1
+6	à	à	PRE	PRE	_	5	dep	_	_	1664.739990	1664.819946	VE1
+7	une	un	DET	DET	_	8	spe	_	_	1664.829956	1664.989990	VE1
+8	heure	heure	NOM	NOM	_	6	dep	_	_	1665.000000	1665.250000	VE1
+9	ouais	ouais	INT	INT	_	8	dm	_	_	1665.260010	1665.430054	VE1
+10	hein	hein	INT	INT	_	9	dm	_	_	1669.109985	1669.380005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-320
+# text = enfin je sais pas ils vont peut-être aller se promener hein
+1	enfin	enfin	ADV	ADV	_	3	dm	_	_	1671.250000	1671.500000	VE1
+2	je	je	CLS	CLS	_	3	subj	_	_	1671.510010	1671.530029	VE1
+3	sais	savoir	VRB	VRB	_	6	dm	_	_	1671.540039	1671.650024	VE1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	1671.660034	1671.829956	VE1
+5	ils	il	CLS	CLS	_	6	subj	_	_	1671.839966	1671.890015	VE1
+6	vont	aller	VRB	VRB	_	0	root	_	_	1671.900024	1672.020020	VE1
+7	peut-être	peut-être	ADV	ADV	_	6	dep	_	_	1672.030029	1672.290039	VE1
+8	aller	aller	VNF	VNF	_	6	dep	_	_	1672.300049	1672.380005	VE1
+9	se	se	CLI	CLI	_	10	dep	_	_	1672.469971	1672.489990	VE1
+10	promener	promener	VNF	VNF	_	8	dep	_	_	1672.550049	1672.969971	VE1
+11	hein	hein	INT	INT	_	10	dm	_	_	1672.979980	1673.000000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-321
+# text = quand même
+1	quand	quand	CSU	CSU	_	0	root	_	_	1673.010010	1673.060059	VE1
+2	même	même	ADV	ADV	_	1	dep	_	_	1673.109985	1673.410034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-322
+# text = ça c'est à toi ou à moi hein
+1	ça	ça	PRO	PRO	_	3	periph	_	_	1745.199951	1745.380005	VE1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	1745.430054	1745.459961	VE1
+3	est	être	VRB	VRB	_	0	root	_	_	1745.469971	1745.500000	VE1
+4	à	à	PRE	PRE	_	3	dep	_	_	1745.510010	1745.630005	VE1
+5	toi	moi	PRO	PRO	_	4	dep	_	_	1745.680054	1745.920044	VE1
+6	ou	ou	COO	COO	_	7	mark	_	_	1745.930054	1746.020020	VE1
+7	à	à	PRE	PRE	_	4	para	_	_	1746.030029	1746.140015	VE1
+8	moi	moi	PRO	PRO	_	7	dep	_	_	1746.150024	1746.439941	VE1
+9	hein	hein	INT	INT	_	8	dm	_	_	1749.880005	1750.209961	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-323
+# text = c'est tout à toi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1751.599976	1751.630005	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	1751.640015	1751.699951	VE1
+3	tout	tout	ADJ	ADJ	_	2	dep	_	_	1751.709961	1751.839966	VE1
+4	à	à	PRE	PRE	_	3	dep	_	_	1751.849976	1751.959961	VE1
+5	toi	moi	PRO	PRO	_	4	dep	_	_	1751.969971	1752.199951	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-324
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1755.469971	1756.189941	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-325
+# text = bonjour bah je voudrais une flûte longue
+1	bonjour	bonjour	INT	INT	_	4	dm	_	_	1755.469971	1756.189941	E01
+2	bah	bah	INT	INT	_	1	dm	_	_	1761.040039	1761.089966	E01
+3	je	je	CLS	CLS	_	4	subj	_	_	1761.209961	1761.439941	E01
+4	voudrais	vouloir	VRB	VRB	_	0	root	_	_	1761.449951	1761.770020	E01
+5	une	un	DET	DET	_	6	spe	_	_	1761.780029	1761.880005	E01
+6	flûte	flûte	NOM	NOM	_	4	dep	_	_	1761.890015	1762.030029	E01
+7	longue	long	ADJ	ADJ	_	6	dep	_	_	1762.130005	1762.310059	E01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-326
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1762.369995	1762.390015	E01
+2	il	il	CLS	CLS	_	4	subj	_	_	1762.400024	1762.449951	E01
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1762.459961	1762.540039	E01
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1762.619995	1762.709961	E01
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-327
+# text = une flûte longue
+1	une	un	DET	DET	_	2	spe	_	_	1762.989990	1763.099976	VE1
+2	flûte	flûte	NOM	NOM	_	0	root	_	_	1763.109985	1763.369995	VE1
+3	longue	long	ADJ	ADJ	_	2	dep	_	_	1763.489990	1763.579956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-328
+# text = un vingt-cinq
+1	un	un	DET	DET	_	2	spe	_	_	1764.180054	1764.349976	VE1
+2	vingt-cinq	vingt-cinq	NUM	NUM	_	0	root	_	_	1764.359985	1764.589966	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-329
+# text = s'il te p plaît un vingt-cinq un trente un cinquante deux trois quatre et cinq et merci au revoir bonne
+1	s'	si	CSU	CSU	_	0	root	_	_	1764.599976	1764.630005	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	1764.760010	1764.810059	VE1
+3	te	te	CLI	CLI	_	4	dep	_	_	1765.130005	1765.209961	VE1
+4	p	p	VRB	VRB	_	1	dep	_	_	1765.219971	1765.290039	VE1
+5	plaît	plaire	VRB	VRB	_	4	dm	_	_	1765.699951	1765.989990	VE1
+6	un	un	DET	DET	_	7	spe	_	_	1771.670044	1771.729980	VE1
+7	vingt-cinq	vingt-cinq	NUM	NUM	_	4	dep	_	_	1772.089966	1772.890015	VE1
+8	un	un	DET	DET	_	9	spe	_	_	1773.079956	1773.160034	VE1
+9	trente	trente	NOM	NOM	_	7	para	_	_	1773.300049	1773.619995	VE1
+10	un	un	DET	DET	_	11	spe	_	_	1773.670044	1773.859985	VE1
+11	cinquante	cinquante	NUM	NUM	_	4	dep	_	_	1773.869995	1774.050049	VE1
+12	deux	deux	NUM	NUM	_	11	dep	_	_	1774.130005	1774.180054	VE1
+13	trois	trois	NUM	NUM	_	12	dep	_	_	1774.270020	1774.420044	VE1
+14	quatre	quatre	NUM	NUM	_	13	dep	_	_	1774.540039	1774.849976	VE1
+15	et	et	COO	COO	_	16	mark	_	_	1774.969971	1775.109985	VE1
+16	cinq	cinq	NUM	NUM	_	14	para	_	_	1775.390015	1775.469971	VE1
+17	et	et	COO	COO	_	18	mark	_	_	1776.140015	1776.239990	VE1
+18	merci	merci	NOM	NOM	_	11	para	_	_	1776.250000	1776.709961	VE1
+19	au revoir	au revoir	INT	INT	_	18	dm	_	_	1776.939941	1777.229980	VE1
+20	bonne	bon	ADJ	ADJ	_	18	dep	_	_	1777.479980	1777.660034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-330
+# text = journée au revoir
+1	journée	journée	NOM	NOM	_	0	root	_	_	1777.670044	1778.229980	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	1778.239990	1778.569946	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-331
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1791.979980	1793.069946	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-332
+# text = bonjour madame
+1	bonjour	bonjour	INT	INT	_	2	dm	_	_	1793.140015	1793.280029	C16
+2	madame	Monsieur	NOM	NOM	_	0	root	_	_	1793.290039	1793.510010	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-333
+# text = une baguette bien cuite
+1	une	un	DET	DET	_	2	spe	_	_	1795.219971	1795.270020	C16
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	1795.280029	1795.630005	C16
+3	bien	bien	ADV	ADV	_	4	dep	_	_	1795.640015	1795.810059	C16
+4	cuite	cuire	ADJ	ADJ	_	2	dep	_	_	1795.880005	1796.069946	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-334
+# text = une baguette bien cuite
+1	une	un	DET	DET	_	2	spe	_	_	1796.849976	1796.900024	VE1
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	1796.910034	1797.099976	VE1
+3	bien	bien	ADV	ADV	_	4	dep	_	_	1797.109985	1797.219971	VE1
+4	cuite	cuire	ADJ	ADJ	_	2	dep	_	_	1797.339966	1797.540039	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-335
+# text = quatre-vingt-cinq
+1	quatre-vingt-cinq	quatre-vingt-cinq	NUM	NUM	_	0	root	_	_	1800.680054	1801.329956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-336
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1801.339966	1801.359985	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	1801.369995	1801.510010	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1801.520020	1801.810059	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1801.859985	1802.010010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-337
+# text = je suis en train de chercher ma monnaie
+1	je	je	CLS	CLS	_	2	subj	_	_	1813.530029	1813.579956	C16
+2	suis	être	VRB	VRB	_	0	root	_	_	1813.589966	1813.670044	C16
+3	en	en	PRE	PRE	_	2	dep	_	_	1813.680054	1813.750000	C16
+4	train	train	NOM	NOM	_	3	dep	_	_	1813.760010	1813.849976	C16
+5	de	de	PRE	PRE	_	4	dep	_	_	1813.859985	1813.930054	C16
+6	chercher	chercher	VNF	VNF	_	5	dep	_	_	1813.939941	1814.199951	C16
+7	ma	son	DET	DET	_	8	spe	_	_	1814.209961	1814.310059	C16
+8	monnaie	monnaie	NOM	NOM	_	6	dep	_	_	1814.319946	1814.630005	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-338
+# text = j'ai vu que j'en aurais
+1	j'	je	CLS	CLS	_	3	subj	_	_	1814.640015	1814.670044	C16
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	1814.680054	1814.719971	C16
+3	vu	voir	VPP	VPP	_	0	root	_	_	1814.729980	1814.780029	C16
+4	que	que	CSU	CSU	_	3	dep	_	_	1814.790039	1814.910034	C16
+5	j'	je	CLS	CLS	_	7	subj	_	_	1814.920044	1815.010010	C16
+6	en	en	CLI	CLI	_	7	dep	_	_	1815.020020	1815.050049	C16
+7	aurais	avoir	VRB	VRB	_	4	dep	_	_	1815.150024	1815.390015	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-339
+# text = c'est pas grave
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1816.280029	1816.310059	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	1816.319946	1816.339966	VE1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	1816.349976	1816.400024	VE1
+4	grave	grave	ADJ	ADJ	_	2	dep	_	_	1816.410034	1816.540039	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-340
+# text = oh la la euh
+1	oh la la	oh là là	INT	INT	_	0	root	_	_	1817.589966	1817.959961	C16
+2	euh	euh	INT	INT	_	1	dm	_	_	1819.829956	1820.410034	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-341
+# text = cinquante soixante
+1	cinquante	cinquante	NUM	NUM	_	0	root	_	_	1820.670044	1820.810059	C16
+2	soixante	soixante	NUM	NUM	_	1	dep	_	_	1820.959961	1821.160034	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-342
+# text = x quatre-vingts là
+1	x	x	NOM	NOM	_	0	root	_	_	1824.609985	1824.689941	C16
+2	quatre-vingts	quatre-vingts	NUM	NUM	_	1	dep	_	_	1824.699951	1825.390015	C16
+3	là	là	ADV	ADV	_	1	dep	_	_	1825.400024	1825.449951	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-343
+# text = deux quatre six sept huit
+1	deux	deux	NUM	NUM	_	0	root	_	_	1825.689941	1826.030029	VE1
+2	quatre	quatre	NUM	NUM	_	1	dep	_	_	1826.089966	1826.469971	VE1
+3	six	six	NUM	NUM	_	2	dep	_	_	1826.479980	1826.770020	VE1
+4	sept	sept	NUM	NUM	_	3	dep	_	_	1826.849976	1827.099976	VE1
+5	huit	huit	NUM	NUM	_	4	dep	_	_	1827.109985	1827.329956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-344
+# text = c'est ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1828.150024	1828.180054	VE1
+2	est	être	VRB	VRB	_	0	root	_	_	1828.189941	1828.229980	VE1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	1828.359985	1828.650024	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-345
+# text = et il manque cinq
+1	et	et	COO	COO	_	3	mark	_	_	1830.760010	1830.890015	VE1
+2	il	il	CLS	CLS	_	3	subj	_	_	1830.900024	1830.949951	VE1
+3	manque	manquer	VRB	VRB	_	0	root	_	_	1830.959961	1831.180054	VE1
+4	cinq	cinq	NUM	NUM	_	3	dep	_	_	1831.189941	1831.670044	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-346
+# text = alors neuf
+1	alors	alors	ADV	ADV	_	2	dep	_	_	1832.349976	1832.599976	VE1
+2	neuf	neuf	NUM	NUM	_	0	root	_	_	1832.609985	1833.079956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-347
+# text = c'est pas les bonnes
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1833.750000	1833.770020	C16
+2	est	être	VRB	VRB	_	0	root	_	_	1833.780029	1833.800049	C16
+3	pas	pas	ADN	ADN	_	2	dep	_	_	1833.890015	1834.060059	C16
+4	les	le	DET	DET	_	5	spe	_	_	1834.069946	1834.270020	C16
+5	bonnes	bon	ADJ	ADJ	_	2	dep	_	_	1834.280029	1834.410034	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-348
+# text = voilà merci
+1	voilà	voilà	INT	INT	_	2	dm	_	_	1834.939941	1835.390015	VE1
+2	merci	merci	INT	INT	_	0	root	_	_	1835.979980	1836.829956	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-349
+# text = et bah merci
+1	et	et	COO	COO	_	0	root	_	_	1836.040039	1836.089966	C16
+2	bah	bah	INT	INT	_	1	dm	_	_	1836.099976	1836.150024	C16
+3	merci	merci	INT	INT	_	2	dm	_	_	1836.160034	1836.829956	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-350
+# text = et bonne journée
+1	et	et	COO	COO	_	3	mark	_	_	1837.939941	1838.069946	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	1838.079956	1838.250000	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	1838.260010	1838.680054	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-351
+# text = merci bien allez
+1	merci	merci	INT	INT	_	3	dm	_	_	1838.770020	1838.920044	C16
+2	bien	bien	ADV	ADV	_	3	dep	_	_	1838.930054	1839.010010	C16
+3	allez	aller	VRB	VRB	_	0	root	_	_	1839.329956	1839.560059	C16
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-352
+# text = à bientôt merci
+1	à bientôt	à bientôt	INT	INT	_	2	dm	_	_	1839.569946	1840.050049	VE1
+2	merci	merci	INT	INT	_	0	root	_	_	1839.410034	1840.069946	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-353
+# text = au revoir bonjour
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	1840.459961	1840.839966	VE1
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	1882.189941	1883.130005	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-354
+# text = bonjour je vais prendre une flûte euh
+1	bonjour	bonjour	INT	INT	_	3	dm	_	_	1882.189941	1883.130005	C17
+2	je	je	CLS	CLS	_	3	subj	_	_	1883.670044	1883.859985	C17
+3	vais	aller	VRB	VRB	_	0	root	_	_	1883.939941	1883.989990	C17
+4	prendre	prendre	VNF	VNF	_	3	dep	_	_	1884.060059	1884.319946	C17
+5	une	un	DET	DET	_	6	spe	_	_	1884.859985	1884.979980	C17
+6	flûte	flûte	NOM	NOM	_	4	dep	_	_	1885.189941	1885.650024	C17
+7	euh	euh	INT	INT	_	6	dm	_	_	1885.660034	1885.680054	C17
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-355
+# text = farinée farinée
+1	farinée	fariner	VPP	VPP	_	2	aux	_	_	1885.920044	1886.250000	C17
+2	farinée	fariner	VPP	VPP	_	0	root	_	_	1886.780029	1887.040039	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-356
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	1889.739990	1889.979980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-357
+# text = un trente
+1	un	un	DET	DET	_	2	spe	_	_	1890.050049	1890.219971	VE1
+2	trente	trente	NOM	NOM	_	0	root	_	_	1890.329956	1890.609985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-358
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	1890.619995	1890.739990	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	1890.750000	1890.829956	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	1890.839966	1890.939941	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	1891.030029	1891.160034	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-359
+# text = alors un trente
+1	alors	alors	ADV	ADV	_	3	periph	_	_	1893.280029	1893.390015	C17
+2	un	un	DET	DET	_	3	spe	_	_	1893.400024	1893.420044	C17
+3	trente	trente	NUM	NUM	_	0	root	_	_	1893.619995	1893.750000	C17
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-360
+# text = et deux
+1	et	et	COO	COO	_	2	mark	_	_	1902.729980	1902.939941	VE1
+2	deux	deux	NUM	NUM	_	0	root	_	_	1902.949951	1903.109985	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-361
+# text = et merci
+1	et	et	COO	COO	_	2	mark	_	_	1903.569946	1903.609985	VE1
+2	merci	merci	INT	INT	_	0	root	_	_	1903.619995	1904.310059	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-362
+# text = merci bien
+1	merci	merci	INT	INT	_	2	dm	_	_	1903.619995	1904.199951	C17
+2	bien	bien	ADV	ADV	_	0	root	_	_	1904.209961	1904.410034	C17
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-363
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1911.300049	1912.300049	C17
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-364
+# text = et bonne journée
+1	et	et	COO	COO	_	3	mark	_	_	1911.349976	1911.459961	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	1911.469971	1911.609985	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	1911.619995	1912.300049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-365
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	1912.310059	1912.790039	C17
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-366
+# text = au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	1912.310059	1912.790039	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-367
+# text = fais un minimum de parce que il y en a qui disent
+1	fais	faire	VRB	VRB	_	0	root	_	_	1970.040039	1970.089966	BOU
+2	un	un	DET	DET	_	3	spe	_	_	1970.099976	1970.150024	BOU
+3	minimum	minimum	NOM	NOM	_	1	dep	_	_	1970.219971	1970.510010	BOU
+4	de	de	PRE	PRE	_	3	dep	_	_	1970.650024	1970.670044	BOU
+5	parce que	parce que	CSU	CSU	_	1	dep	_	_	1970.869995	1971.239990	BOU
+6	il	il	CLS	CLS	_	9	subj	_	_	1971.420044	1971.469971	BOU
+7	y	y	CLI	CLI	_	9	dep	_	_	1971.540039	1971.560059	BOU
+8	en	en	CLI	CLI	_	9	dep	_	_	1971.640015	1971.660034	BOU
+9	a	avoir	VRB	VRB	_	5	dep	_	_	1971.670044	1971.689941	BOU
+10	qui	qui	PRQ	PRQ	_	11	dep	_	_	1971.699951	1971.750000	BOU
+11	disent	dire	VRB	VRB	_	9	dep	_	_	1971.819946	1972.250000	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-368
+# text = que on accueille mal les gens
+1	que	que	CSU	CSU	_	3	dep	_	_	1973.310059	1973.430054	BOU
+2	on	on	CLS	CLS	_	3	subj	_	_	1973.660034	1973.680054	BOU
+3	accueille	accueillir	VRB	VRB	_	0	root	_	_	1973.819946	1974.199951	BOU
+4	mal	mal	ADV	ADV	_	3	dep	_	_	1974.239990	1974.339966	BOU
+5	les	le	DET	DET	_	6	spe	_	_	1974.489990	1974.540039	BOU
+6	gens	gens	NOM	NOM	_	3	dep	_	_	1974.609985	1974.660034	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-369
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	1974.670044	1974.750000	BOU
+2	euh	euh	INT	INT	_	1	dm	_	_	1974.880005	1974.900024	BOU
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-370
+# text = pffff n' importe quoi bonjour
+1	pffff	pffff	INT	INT	_	0	root	_	_	1976.329956	1976.869995	VE1
+2	n' importe quoi	n' importe quoi	INT	INT	_	1	dm	_	_	1980.250000	1980.969971	VE1
+3	bonjour	bonjour	INT	INT	_	2	dm	_	_	1981.219971	1981.920044	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-371
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	1981.219971	1981.920044	C18
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-372
+# text = comme ça
+1	comme	comme	PRE	PRE	_	0	root	_	_	1984.339966	1984.489990	VE1
+2	ça	ça	PRO	PRO	_	1	dep	_	_	1984.500000	1984.699951	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-373
+# text = pas trop cuite hein
+1	pas	pas	ADN	ADN	_	3	dep	_	_	1984.760010	1984.810059	C18
+2	trop	trop	ADV	ADV	_	3	dep	_	_	1984.859985	1984.979980	C18
+3	cuite	cuire	ADJ	ADJ	_	0	root	_	_	1985.050049	1985.160034	C18
+4	hein	hein	INT	INT	_	3	dm	_	_	1985.229980	1985.250000	C18
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-374
+# text = pas trop cuite voilà un vingt cinq s'il vous plaît et trente
+1	pas	pas	ADN	ADN	_	2	dep	_	_	1985.319946	1985.420044	VE1
+2	trop	trop	ADV	ADV	_	3	dep	_	_	1985.430054	1985.599976	VE1
+3	cuite	cuire	ADJ	ADJ	_	0	root	_	_	1985.650024	1985.859985	VE1
+4	voilà	voilà	INT	INT	_	3	dm	_	_	1986.439941	1986.900024	VE1
+5	un	un	DET	DET	_	13	spe	_	_	1987.739990	1987.839966	VE1
+6	vingt	vingt	NUM	NUM	_	5	para	_	_	1987.849976	1987.989990	VE1
+7	cinq	cinq	NUM	NUM	_	6	dep	_	_	1988.000000	1988.310059	VE1
+8	s'	si	CSU	CSU	_	13	dm	_	_	1988.319946	1988.400024	VE1
+9	il	il	CLS	CLS	_	11	subj	_	_	1988.410034	1988.510010	VE1
+10	vous	vous	CLI	CLI	_	11	dep	_	_	1988.520020	1988.670044	VE1
+11	plaît	plaire	VRB	VRB	_	8	dep	_	_	1988.680054	1988.900024	VE1
+12	et	et	COO	COO	_	13	mark	_	_	1995.280029	1995.390015	VE1
+13	trente	trente	NUM	NUM	_	3	para	_	_	1995.400024	1995.619995	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-375
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	1996.140015	1996.300049	C18
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-376
+# text = merci au revoir bonne journée
+1	merci	merci	INT	INT	_	4	dm	_	_	1996.390015	1996.630005	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	1996.439941	1997.699951	VE1
+3	bonne	bon	ADJ	ADJ	_	4	dep	_	_	1997.219971	1997.359985	VE1
+4	journée	journée	NOM	NOM	_	0	root	_	_	1997.369995	1997.790039	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-377
+# text = bonjour madame
+1	bonjour	bonjour	INT	INT	_	2	dm	_	_	2101.330078	2101.489990	C19
+2	madame	Monsieur	NOM	NOM	_	0	root	_	_	2101.500000	2101.709961	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-378
+# text = bonjour je pense que les gens ils sont partis quand même
+1	bonjour	bonjour	INT	INT	_	3	dm	_	_	2104.110107	2104.840088	VE1
+2	je	je	CLS	CLS	_	3	subj	_	_	2116.750000	2116.810059	VE1
+3	pense	penser	VRB	VRB	_	0	root	_	_	2116.820068	2116.949951	VE1
+4	que	que	CSU	CSU	_	3	dep	_	_	2117.060059	2117.080078	VE1
+5	les	le	DET	DET	_	6	spe	_	_	2117.090088	2117.209961	VE1
+6	gens	gens	NOM	NOM	_	9	periph	_	_	2117.219971	2117.409912	VE1
+7	ils	il	CLS	CLS	_	9	subj	_	_	2117.419922	2117.469971	VE1
+8	sont	être	VRB	VRB	_	9	aux	_	_	2117.479980	2117.600098	VE1
+9	partis	partir	VPP	VPP	_	4	dep	_	_	2117.649902	2117.800049	VE1
+10	quand	quand	CSU	CSU	_	9	dep	_	_	2118.020020	2118.129883	VE1
+11	même	même	ADV	ADV	_	10	morph	_	_	2118.139893	2118.320068	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-379
+# text = ben je sais
+1	ben	ben	INT	INT	_	3	dm	_	_	2121.500000	2121.699951	VE1
+2	je	je	CLS	CLS	_	3	subj	_	_	2121.709961	2121.860107	VE1
+3	sais	savoir	VRB	VRB	_	0	root	_	_	2121.959961	2122.050049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-380
+# text = pas bonjour
+1	pas	pas	ADN	ADN	_	0	root	_	_	2122.060059	2122.110107	C20
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	2144.030029	2144.919922	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-381
+# text = madame
+1	madame	Monsieur	NOM	NOM	_	0	root	_	_	2150.800049	2151.300049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-382
+# text = ah on est filmés aujourd' hui filmés enregistrés euh une flû
+1	ah	ah	INT	INT	_	4	dm	_	_	2153.540039	2153.639893	VE1
+2	on	on	CLS	CLS	_	4	subj	_	_	2154.379883	2154.439941	VE1
+3	est	être	VRB	VRB	_	4	aux	_	_	2154.449951	2154.479980	VE1
+4	filmés	filmer	VPP	VPP	_	6	aux	_	_	2154.489990	2154.909912	VE1
+5	aujourd' hui	aujourd'hui	ADV	ADV	_	6	dep	_	_	2154.919922	2155.659912	VE1
+6	filmés	filmer	VPP	VPP	_	7	aux	_	_	2156.149902	2156.610107	VE1
+7	enregistrés	enregistrer	VPP	VPP	_	0	root	_	_	2156.620117	2157.010010	VE1
+8	euh	euh	INT	INT	_	7	dm	_	_	2157.020020	2157.040039	VE1
+9	une	un	DET	DET	_	10	spe	_	_	2157.100098	2157.149902	VE1
+10	flû	flû	NOM	NOM	_	7	dep	_	_	2157.159912	2157.219971	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-383
+# text = une flûte
+1	une	un	DET	DET	_	2	spe	_	_	2157.280029	2157.340088	C20
+2	flûte	flûte	NOM	NOM	_	0	root	_	_	2157.350098	2157.600098	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-384
+# text = s'il vous plaît euh une courte
+1	s'	si	CSU	CSU	_	0	root	_	_	2157.610107	2157.659912	C20
+2	il	il	CLS	CLS	_	4	subj	_	_	2157.669922	2157.719971	C20
+3	vous	vous	CLI	CLI	_	4	dep	_	_	2157.969971	2158.080078	C20
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	2158.090088	2158.169922	C20
+5	euh	euh	INT	INT	_	4	dm	_	_	2158.280029	2158.709961	C20
+6	une	un	DET	DET	_	7	spe	_	_	2158.719971	2159.040039	C20
+7	courte	court	ADJ	ADJ	_	4	dep	_	_	2159.080078	2159.189941	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-385
+# text = une courte bien cuite
+1	une	un	DET	DET	_	2	spe	_	_	2159.379883	2159.469971	VE1
+2	courte	court	ADJ	ADJ	_	0	root	_	_	2159.560059	2159.729980	VE1
+3	bien	bien	ADV	ADV	_	4	dep	_	_	2159.879883	2159.959961	C20
+4	cuite	cuire	ADJ	ADJ	_	2	para	_	_	2159.969971	2160.080078	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-386
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	2160.629883	2161.139893	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-387
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	2164.639893	2164.780029	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-388
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	2165.449951	2165.679932	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-389
+# text = un vingt cinq
+1	un	un	DET	DET	_	2	spe	_	_	2165.790039	2166.080078	VE1
+2	vingt	vingt	NUM	NUM	_	0	root	_	_	2166.090088	2166.250000	VE1
+3	cinq	cinq	NUM	NUM	_	2	dep	_	_	2166.370117	2166.520020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-390
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	2166.530029	2166.550049	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	2166.560059	2166.679932	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	2166.689941	2167.120117	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	2167.199951	2167.370117	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-391
+# text = un trente
+1	un	un	DET	DET	_	2	spe	_	_	2168.330078	2168.419922	VE1
+2	trente	trente	NOM	NOM	_	0	root	_	_	2168.570068	2169.330078	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-392
+# text = un cinquante deux trois quatre cinq et dix
+1	un	un	DET	DET	_	3	spe	_	_	2169.550049	2169.600098	VE1
+2	cinquante	cinquante	NUM	NUM	_	3	dep	_	_	2169.669922	2170.149902	VE1
+3	deux	deux	NUM	NUM	_	0	root	_	_	2170.159912	2170.280029	VE1
+4	trois	trois	NUM	NUM	_	6	spe	_	_	2170.459961	2170.649902	VE1
+5	quatre	quatre	NUM	NUM	_	4	dep	_	_	2170.840088	2171.030029	VE1
+6	cinq	cinq	NUM	NUM	_	3	para	_	_	2171.530029	2171.620117	VE1
+7	et	et	COO	COO	_	8	mark	_	_	2172.820068	2173.120117	VE1
+8	dix	dix	NUM	NUM	_	6	para	_	_	2173.340088	2173.439941	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-393
+# text = et merci
+1	et	et	COO	COO	_	2	mark	_	_	2173.899902	2173.989990	VE1
+2	merci	merci	INT	INT	_	0	root	_	_	2174.000000	2174.500000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-394
+# text = merci madame
+1	merci	merci	INT	INT	_	2	dm	_	_	2173.989990	2174.439941	C20
+2	madame	Monsieur	NOM	NOM	_	0	root	_	_	2174.449951	2174.629883	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-395
+# text = et bonne journée comment ça va
+1	et	et	COO	COO	_	3	mark	_	_	2176.360107	2176.449951	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	2176.459961	2176.610107	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	2176.620117	2176.820068	VE1
+4	comment	comment	PRQ	PRQ	_	6	dep	_	_	2176.830078	2176.959961	VE1
+5	ça	ça	PRO	PRO	_	6	subj	_	_	2176.969971	2177.060059	VE1
+6	va	aller	VRB	VRB	_	3	dep	_	_	2177.070068	2177.189941	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-396
+# text = bien ça va bonne journée
+1	bien	bien	ADV	ADV	_	3	periph	_	_	2177.389893	2177.520020	C20
+2	ça	ça	PRO	PRO	_	3	subj	_	_	2178.580078	2178.629883	C20
+3	va	aller	VRB	VRB	_	0	root	_	_	2178.639893	2178.689941	C20
+4	bonne	bon	ADJ	ADJ	_	5	dep	_	_	2179.570068	2179.719971	C20
+5	journée	journée	NOM	NOM	_	3	dep	_	_	2179.729980	2179.889893	C20
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-397
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	2179.949951	2180.550049	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-398
+# text = bonne journée je sais pas où il est où
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	2180.060059	2180.250000	C19
+2	journée	journée	NOM	NOM	_	4	periph	_	_	2180.340088	2180.580078	C19
+3	je	je	CLS	CLS	_	4	subj	_	_	2181.459961	2181.489990	C19
+4	sais	savoir	VRB	VRB	_	0	root	_	_	2181.500000	2181.560059	C19
+5	pas	pas	ADN	ADN	_	4	dep	_	_	2181.570068	2181.669922	C19
+6	où	où	PRQ	PRQ	_	8	dep	_	_	2181.679932	2181.699951	C19
+7	il	il	CLS	CLS	_	8	subj	_	_	2181.929932	2181.979980	C19
+8	est	être	VRB	VRB	_	4	dep	_	_	2181.989990	2182.010010	C19
+9	où	où	PRQ	PRQ	_	8	dep	_	_	2182.959961	2183.030029	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-399
+# text = il est c'est derrière oh wohf
+1	il	il	CLS	CLS	_	2	subj	_	_	2183.040039	2183.100098	C19
+2	est	être	VRB	VRB	_	0	root	_	_	2183.110107	2183.129883	VE1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	2183.500000	2183.520020	VE1
+4	est	être	VRB	VRB	_	2	para	_	_	2184.040039	2184.080078	VE1
+5	derrière	derrière	PRE	PRE	_	4	dep	_	_	2184.090088	2184.709961	VE1
+6	oh	oh	INT	INT	_	5	dm	_	_	2184.719971	2184.739990	VE1
+7	wohf	wohf	INT	INT	_	6	dm	_	_	2184.750000	2185.000000	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-400
+# text = ah et bah je l'ai pas relevé
+1	ah	ah	INT	INT	_	8	dm	_	_	2183.510010	2183.540039	C19
+2	et	et	COO	COO	_	8	mark	_	_	2183.550049	2183.570068	C19
+3	bah	bah	INT	INT	_	2	dm	_	_	2183.580078	2183.659912	C19
+4	je	je	CLS	CLS	_	8	subj	_	_	2183.939941	2184.010010	C19
+5	l'	le	CLI	CLI	_	8	dep	_	_	2184.020020	2184.040039	C19
+6	ai	avoir	VRB	VRB	_	8	aux	_	_	2184.050049	2184.090088	C19
+7	pas	pas	ADN	ADN	_	8	dep	_	_	2184.100098	2184.229980	C19
+8	relevé	relever	VPP	VPP	_	0	root	_	_	2184.239990	2184.879883	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-401
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	2185.719971	2185.840088	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-402
+# text = une baguette courte
+1	une	un	DET	DET	_	2	spe	_	_	2185.899902	2185.989990	C19
+2	baguette	baguette	NOM	NOM	_	0	root	_	_	2186.000000	2186.270020	C19
+3	courte	court	ADJ	ADJ	_	2	dep	_	_	2186.379883	2186.500000	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-403
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	2186.669922	2186.689941	C19
+2	il	il	CLS	CLS	_	4	subj	_	_	2186.699951	2186.750000	C19
+3	vous	vous	CLI	CLI	_	4	dep	_	_	2187.010010	2187.060059	C19
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	2187.070068	2187.149902	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-404
+# text = hop et voilà
+1	hop	hop	INT	INT	_	3	dm	_	_	2189.510010	2189.610107	VE1
+2	et	et	COO	COO	_	3	mark	_	_	2190.179932	2190.290039	VE1
+3	voilà	voilà	INT	INT	_	0	root	_	_	2190.300049	2190.590088	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-405
+# text = deux quarante
+1	deux	deux	NUM	NUM	_	0	root	_	_	2193.469971	2193.629883	VE1
+2	quarante	quarante	NUM	NUM	_	1	dep	_	_	2193.639893	2194.010010	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-406
+# text = s'il vous plaît
+1	s'	si	CSU	CSU	_	0	root	_	_	2194.149902	2194.179932	VE1
+2	il	il	CLS	CLS	_	4	subj	_	_	2194.189941	2194.260010	VE1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	2194.270020	2194.379883	VE1
+4	plaît	plaire	VRB	VRB	_	1	dep	_	_	2194.459961	2194.620117	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-407
+# text = ah mince je sais pas si je n'ai pas les quarante
+1	ah	ah	INT	INT	_	4	dm	_	_	2195.239990	2195.260010	C19
+2	mince	mince	NOM	NOM	_	4	periph	_	_	2195.610107	2195.739990	C19
+3	je	je	CLS	CLS	_	4	subj	_	_	2195.879883	2195.899902	C19
+4	sais	savoir	VRB	VRB	_	0	root	_	_	2195.909912	2195.959961	C19
+5	pas	pas	ADN	ADN	_	4	dep	_	_	2196.120117	2196.169922	C19
+6	si	si	CSU	CSU	_	4	dep	_	_	2196.179932	2196.239990	C19
+7	je	je	CLS	CLS	_	9	subj	_	_	2204.699951	2204.719971	C19
+8	n'	ne	CLN	CLN	_	9	dep	_	_	2204.850098	2204.909912	C19
+9	ai	avoir	VRB	VRB	_	6	dep	_	_	2204.919922	2204.939941	C19
+10	pas	pas	ADN	ADN	_	9	dep	_	_	2205.320068	2205.379883	C19
+11	les	le	DET	DET	_	12	spe	_	_	2205.389893	2205.439941	C19
+12	quarante	quarante	NUM	NUM	_	9	dep	_	_	2205.479980	2205.620117	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-408
+# text = ça fait rien
+1	ça	ça	PRO	PRO	_	2	subj	_	_	2206.399902	2206.500000	VE1
+2	fait	faire	VRB	VRB	_	0	root	_	_	2206.510010	2206.689941	VE1
+3	rien	rien	PRO	PRO	_	2	dep	_	_	2206.699951	2207.020020	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-409
+# text = deux
+1	deux	deux	NUM	NUM	_	0	root	_	_	2207.260010	2207.340088	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-410
+# text = cinquante trois cinq et dix
+1	cinquante	cinquante	NUM	NUM	_	0	root	_	_	2207.679932	2207.919922	VE1
+2	trois	trois	NUM	NUM	_	1	dep	_	_	2208.000000	2208.189941	VE1
+3	cinq	cinq	NUM	NUM	_	2	dep	_	_	2208.199951	2208.370117	VE1
+4	et	et	COO	COO	_	5	mark	_	_	2208.600098	2208.620117	VE1
+5	dix	dix	NUM	NUM	_	1	para	_	_	2208.770020	2208.870117	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-411
+# text = et merci merci
+1	et	et	COO	COO	_	3	mark	_	_	2210.840088	2210.989990	VE1
+2	merci	merci	INT	INT	_	1	dm	_	_	2211.000000	2211.409912	VE1
+3	merci	merci	INT	INT	_	0	root	_	_	2211.510010	2211.669922	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-412
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	2212.389893	2213.360107	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-413
+# text = et voilà
+1	et	et	COO	COO	_	2	mark	_	_	2216.770020	2216.840088	VE1
+2	voilà	voilà	INT	INT	_	0	root	_	_	2216.850098	2217.350098	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-414
+# text = et bonne journée
+1	et	et	COO	COO	_	3	mark	_	_	2217.739990	2217.840088	VE1
+2	bonne	bon	ADJ	ADJ	_	3	dep	_	_	2217.850098	2217.979980	VE1
+3	journée	journée	NOM	NOM	_	0	root	_	_	2217.989990	2218.479980	VE1
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-415
+# text = bonne journée à vous
+1	bonne	bon	ADJ	ADJ	_	2	dep	_	_	2218.560059	2218.649902	C19
+2	journée	journée	NOM	NOM	_	0	root	_	_	2218.659912	2218.800049	C19
+3	à	à	PRE	PRE	_	2	dep	_	_	2219.010010	2219.030029	C19
+4	vous	moi	PRO	PRO	_	3	dep	_	_	2219.120117	2219.179932	C19
+
+# sent_id = cefc-clapi-commerce_boulangerie_rurale_C01_C20-416
+# text = merci au revoir
+1	merci	merci	INT	INT	_	0	root	_	_	2223.739990	2223.989990	VE1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	2224.169922	2224.570068	VE1
+

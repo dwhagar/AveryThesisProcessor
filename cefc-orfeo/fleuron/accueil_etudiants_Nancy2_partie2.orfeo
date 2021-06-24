@@ -1,0 +1,592 @@
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-1
+# text = voilà bonjour à tous on est l'association E S M
+1	voilà	voilà	INT	INT	_	6	dm	_	_	0.040000	0.210000	E1
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	0.220000	0.360000	E1
+3	à	à	PRE	PRE	_	6	periph	_	_	0.450000	0.470000	E1
+4	tous	tout	PRO	PRO	_	6	periph	_	_	0.660000	0.720000	E1
+5	on	on	CLS	CLS	_	6	subj	_	_	0.730000	0.790000	E1
+6	est	être	VRB	VRB	_	0	root	_	_	0.800000	0.930000	E1
+7	l'	le	DET	DET	_	8	spe	_	_	0.940000	0.970000	E1
+8	association	association	NOM	NOM	_	6	dep	_	_	0.980000	1.300000	E1
+9	E	E	NOM	NOM	_	8	dep	_	_	1.310000	1.630000	E1
+10	S	S	NOM	NOM	_	9	dep	_	_	1.640000	1.870000	E1
+11	M	Monsieur	NOM	NOM	_	10	dep	_	_	1.880000	1.930000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-2
+# text = on est l'association des étudiants ERASMUS qui est en échange à Nancy
+1	on	on	CLS	CLS	_	2	subj	_	_	2.580000	2.680000	E1
+2	est	être	VRB	VRB	_	0	root	_	_	2.690000	2.710000	E1
+3	l'	le	DET	DET	_	4	spe	_	_	2.720000	2.740000	E1
+4	association	association	NOM	NOM	_	2	dep	_	_	2.750000	3.280000	E1
+5	des	de	PRE	PRE	_	4	dep	_	_	3.520000	3.590000	E1
+6	étudiants	étudiant	NOM	NOM	_	5	dep	_	_	3.700000	4.440000	E1
+7	ERASMUS	ERASMUS	NOM	NOM	_	6	dep	_	_	4.510000	5.130000	E1
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	5.240000	5.510000	E1
+9	est	être	VRB	VRB	_	6	dep	_	_	5.520000	5.540000	E1
+10	en	en	PRE	PRE	_	9	dep	_	_	6.090000	6.230000	E1
+11	échange	échange	NOM	NOM	_	10	dep	_	_	6.240000	6.490000	E1
+12	à	à	PRE	PRE	_	9	dep	_	_	6.540000	6.570000	E1
+13	Nancy	Nancy	NOM	NOM	_	12	dep	_	_	6.580000	6.970000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-3
+# text = donc ce matin vous avez pu voir toutes les choses par rapport à la faculté à l'administration bah
+1	donc	donc	ADV	ADV	_	6	periph	_	_	7.850000	8.110000	E1
+2	ce	ce	DET	DET	_	3	spe	_	_	8.120000	8.140000	E1
+3	matin	matin	NOM	NOM	_	6	periph	_	_	8.250000	8.460000	E1
+4	vous	vous	CLS	CLS	_	6	subj	_	_	8.470000	8.550000	E1
+5	avez	avoir	VRB	VRB	_	6	aux	_	_	8.560000	8.800000	E1
+6	pu	pouvoir	VPP	VPP	_	0	root	_	_	8.810000	8.870000	E1
+7	voir	voir	VNF	VNF	_	6	dep	_	_	9.130000	9.300000	E1
+8	toutes	tout	ADJ	ADJ	_	10	dep	_	_	9.310000	9.390000	E1
+9	les	le	DET	DET	_	10	spe	_	_	9.610000	9.680000	E1
+10	choses	chose	NOM	NOM	_	7	dep	_	_	9.690000	9.910000	E1
+11	par	par	PRE	PRE	_	10	dep	_	_	10.000000	10.170000	E1
+12	rapport	rapport	NOM	NOM	_	11	dep	_	_	10.180000	10.290000	E1
+13	à	à	PRE	PRE	_	12	dep	_	_	10.300000	10.320000	E1
+14	la	le	DET	DET	_	15	spe	_	_	10.330000	10.380000	E1
+15	faculté	faculté	NOM	NOM	_	13	dep	_	_	10.390000	10.960000	E1
+16	à	à	PRE	PRE	_	13	para	_	_	10.970000	10.990000	E1
+17	l'	le	DET	DET	_	18	spe	_	_	11.000000	11.020000	E1
+18	administration	administration	NOM	NOM	_	16	dep	_	_	11.030000	11.690000	E1
+19	bah	bah	INT	INT	_	18	dm	_	_	11.980000	12.040000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-4
+# text = nous c'est pas du tout ça
+1	nous	moi	PRO	PRO	_	3	periph	_	_	12.050000	12.300000	E1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	12.310000	12.330000	E1
+3	est	être	VRB	VRB	_	0	root	_	_	12.340000	12.360000	E1
+4	pas du tout	pas du tout	ADJ	ADJ	_	3	dep	_	_	12.370000	12.700000	E1
+5	ça	ça	PRO	PRO	_	3	dep	_	_	12.710000	12.820000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-5
+# text = on est là en fait pour vous aider à passer le meilleur séjour possible ici en organisant des soirées des voyages
+1	on	on	CLS	CLS	_	2	subj	_	_	13.470000	13.590000	E1
+2	est	être	VRB	VRB	_	0	root	_	_	13.600000	13.660000	E1
+3	là	là	ADV	ADV	_	2	dep	_	_	13.670000	13.760000	E1
+4	en	en	PRE	PRE	_	5	dep	_	_	13.770000	13.920000	E1
+5	fait	faire	VPP	VPP	_	2	dep	_	_	13.930000	14.020000	E1
+6	pour	pour	PRE	PRE	_	5	dep	_	_	14.140000	14.380000	E1
+7	vous	vous	CLI	CLI	_	8	dep	_	_	14.390000	14.450000	E1
+8	aider	aider	VNF	VNF	_	6	dep	_	_	14.570000	14.870000	E1
+9	à	à	PRE	PRE	_	5	dep	_	_	14.880000	14.900000	E1
+10	passer	passer	VNF	VNF	_	9	dep	_	_	14.910000	15.190000	E1
+11	le	le	DET	DET	_	13	spe	_	_	15.200000	15.240000	E1
+12	meilleur	meilleur	ADJ	ADJ	_	13	dep	_	_	15.310000	15.490000	E1
+13	séjour	séjour	NOM	NOM	_	10	dep	_	_	15.500000	15.790000	E1
+14	possible	possible	ADJ	ADJ	_	13	dep	_	_	15.850000	16.170000	E1
+15	ici	ici	ADV	ADV	_	10	dep	_	_	16.180000	16.410000	E1
+16	en	en	PRE	PRE	_	10	dep	_	_	17.059999	17.180000	E1
+17	organisant	organiser	VPR	VPR	_	16	dep	_	_	17.190001	17.709999	E1
+18	des	de	PRE	PRE	_	17	dep	_	_	17.719999	17.900000	E1
+19	soirées	soirée	NOM	NOM	_	18	dep	_	_	17.910000	18.430000	E1
+20	des	de	PRE	PRE	_	18	para	_	_	18.629999	18.700001	E1
+21	voyages	voyage	NOM	NOM	_	20	dep	_	_	18.709999	18.980000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-6
+# text = on va vous prendre euh visiter la France pour rencontrer des français
+1	on	on	CLS	CLS	_	2	subj	_	_	19.049999	19.080000	E1
+2	va	aller	VRB	VRB	_	0	root	_	_	19.420000	19.510000	E1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	19.520000	19.639999	E1
+4	prendre	prendre	VNF	VNF	_	2	dep	_	_	19.740000	19.990000	E1
+5	euh	euh	INT	INT	_	4	dm	_	_	20.000000	20.100000	E1
+6	visiter	visiter	VNF	VNF	_	4	dep	_	_	20.110001	20.420000	E1
+7	la	le	DET	DET	_	8	spe	_	_	20.430000	20.530001	E1
+8	France	France	NOM	NOM	_	6	dep	_	_	20.680000	20.910000	E1
+9	pour	pour	PRE	PRE	_	6	dep	_	_	20.920000	21.070000	E1
+10	rencontrer	rencontrer	VNF	VNF	_	9	dep	_	_	21.080000	21.299999	E1
+11	des	de	PRE	PRE	_	10	dep	_	_	21.370001	21.430000	E1
+12	français	français	NOM	NOM	_	11	dep	_	_	21.520000	21.959999	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-7
+# text = on a un club cuisine aussi toutes les semaines pour vous faire partager les cuisines euh toutes les trois semaines pour vous faire partager les cuisines d'un peu partout dans le monde
+1	on	on	CLS	CLS	_	2	subj	_	_	22.480000	22.629999	E1
+2	a	avoir	VRB	VRB	_	0	root	_	_	22.639999	22.660000	E1
+3	un	un	DET	DET	_	4	spe	_	_	22.670000	22.690001	E1
+4	club	club	NOM	NOM	_	2	dep	_	_	22.700001	22.990000	E1
+5	cuisine	cuisine	NOM	NOM	_	4	dep	_	_	23.000000	23.420000	E1
+6	aussi	aussi	ADV	ADV	_	2	dep	_	_	23.430000	23.549999	E1
+7	toutes	tout	ADJ	ADJ	_	9	dep	_	_	23.600000	23.690001	E1
+8	les	le	DET	DET	_	9	spe	_	_	23.780001	23.950001	E1
+9	semaines	semaine	NOM	NOM	_	2	dep	_	_	23.959999	24.209999	E1
+10	pour	pour	PRE	PRE	_	2	dep	_	_	24.219999	24.299999	E1
+11	vous	vous	CLI	CLI	_	12	dep	_	_	24.309999	24.400000	E1
+12	faire	faire	VNF	VNF	_	10	dep	_	_	24.469999	24.629999	E1
+13	partager	partager	VNF	VNF	_	12	dep	_	_	24.639999	24.950001	E1
+14	les	le	DET	DET	_	15	spe	_	_	24.959999	25.160000	E1
+15	cuisines	cuisine	NOM	NOM	_	13	dep	_	_	25.260000	25.690001	E1
+16	euh	euh	INT	INT	_	15	dm	_	_	26.000000	26.180000	E1
+17	toutes	tout	ADJ	ADJ	_	20	dep	_	_	26.190001	26.270000	E1
+18	les	le	DET	DET	_	20	spe	_	_	26.280001	26.330000	E1
+19	trois	trois	NUM	NUM	_	20	dep	_	_	26.389999	26.530001	E1
+20	semaines	semaine	NOM	NOM	_	15	para	_	_	26.540001	26.760000	E1
+21	pour	pour	PRE	PRE	_	13	dep	_	_	26.770000	26.850000	E1
+22	vous	vous	CLI	CLI	_	23	dep	_	_	26.860001	26.910000	E1
+23	faire	faire	VNF	VNF	_	21	dep	_	_	26.920000	27.040001	E1
+24	partager	partager	VNF	VNF	_	23	dep	_	_	27.120001	27.360001	E1
+25	les	le	DET	DET	_	26	spe	_	_	27.370001	27.420000	E1
+26	cuisines	cuisine	NOM	NOM	_	24	dep	_	_	27.430000	27.930000	E1
+27	d'	de	PRE	PRE	_	26	dep	_	_	28.139999	28.180000	E1
+28	un peu	un peu	ADV	ADV	_	29	dep	_	_	28.190001	28.430000	E1
+29	partout	partout	ADV	ADV	_	24	dep	_	_	28.440001	28.610001	E1
+30	dans	dans	PRE	PRE	_	24	dep	_	_	28.709999	28.790001	E1
+31	le	le	DET	DET	_	32	spe	_	_	28.799999	28.870001	E1
+32	monde	monde	NOM	NOM	_	30	dep	_	_	28.879999	29.139999	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-8
+# text = et notre travail c'est on a on travaille aussi avec des commerçants de Nancy des banques des magasins de portables pour vous aider à trouver les meilleures offres possibles
+1	et	et	COO	COO	_	5	mark	_	_	30.750000	30.980000	E1
+2	notre	son	DET	DET	_	3	spe	_	_	32.169998	32.599998	E1
+3	travail	travail	NOM	NOM	_	5	periph	_	_	32.610001	32.869999	E1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	32.880001	32.980000	E1
+5	est	être	VRB	VRB	_	0	root	_	_	32.990002	33.330002	E1
+6	on	on	CLS	CLS	_	7	subj	_	_	33.389999	33.419998	E1
+7	a	avoir	VRB	VRB	_	5	para	_	_	33.430000	33.480000	E1
+8	on	on	CLS	CLS	_	9	subj	_	_	33.869999	34.130001	E1
+9	travaille	travailler	VRB	VRB	_	7	para	_	_	34.270000	34.529999	E1
+10	aussi	aussi	ADV	ADV	_	9	dep	_	_	34.570000	34.860001	E1
+11	avec	avec	PRE	PRE	_	9	dep	_	_	34.869999	34.980000	E1
+12	des	de	PRE	PRE	_	11	dep	_	_	35.369999	35.430000	E1
+13	commerçants	commerçant	NOM	NOM	_	12	dep	_	_	35.509998	35.810001	E1
+14	de	de	PRE	PRE	_	13	dep	_	_	35.820000	35.840000	E1
+15	Nancy	Nancy	NOM	NOM	_	14	dep	_	_	35.849998	35.959999	E1
+16	des	de	PRE	PRE	_	12	para	_	_	37.009998	37.110001	E1
+17	banques	banque	NOM	NOM	_	16	dep	_	_	37.180000	37.549999	E1
+18	des	de	PRE	PRE	_	17	dep	_	_	37.730000	37.880001	E1
+19	magasins	magasin	NOM	NOM	_	18	dep	_	_	37.889999	38.180000	E1
+20	de	de	PRE	PRE	_	19	dep	_	_	38.310001	38.330002	E1
+21	portables	portable	NOM	NOM	_	20	dep	_	_	38.340000	38.730000	E1
+22	pour	pour	PRE	PRE	_	9	dep	_	_	38.799999	38.889999	E1
+23	vous	vous	CLI	CLI	_	24	dep	_	_	38.900002	38.980000	E1
+24	aider	aider	VNF	VNF	_	22	dep	_	_	39.049999	39.189999	E1
+25	à	à	PRE	PRE	_	24	dep	_	_	39.200001	39.220001	E1
+26	trouver	se trouver	VNF	VNF	_	25	dep	_	_	39.230000	39.509998	E1
+27	les	le	DET	DET	_	29	spe	_	_	39.520000	39.590000	E1
+28	meilleures	meilleur	ADJ	ADJ	_	29	dep	_	_	39.599998	39.970001	E1
+29	offres	offre	NOM	NOM	_	26	dep	_	_	40.040001	40.150002	E1
+30	possibles	possible	ADJ	ADJ	_	29	dep	_	_	40.419998	40.830002	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-9
+# text = et euh essayer de vous installer le plus facilement possible à Nancy
+1	et	et	COO	COO	_	3	mark	_	_	41.330002	41.419998	E1
+2	euh	euh	INT	INT	_	1	dm	_	_	41.430000	41.540001	E1
+3	essayer	essayer	VNF	VNF	_	0	root	_	_	41.549999	41.700001	E1
+4	de	de	PRE	PRE	_	3	dep	_	_	41.750000	41.770000	E1
+5	vous	vous	CLI	CLI	_	6	dep	_	_	41.840000	41.889999	E1
+6	installer	installer	VNF	VNF	_	4	dep	_	_	41.900002	42.160000	E1
+7	le	le	DET	DET	_	8	spe	_	_	42.169998	42.189999	E1
+8	plus	plus	NOM	NOM	_	6	dep	_	_	42.200001	42.290001	E1
+9	facilement	facilement	ADV	ADV	_	10	dep	_	_	42.389999	42.740002	E1
+10	possible	possible	ADJ	ADJ	_	8	dep	_	_	42.750000	43.110001	E1
+11	à	à	PRE	PRE	_	8	dep	_	_	43.119999	43.139999	E1
+12	Nancy	Nancy	NOM	NOM	_	11	dep	_	_	43.150002	43.400002	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-10
+# text = et on va commencer le voyage à la fin de ce mois-ci
+1	et	et	COO	COO	_	3	mark	_	_	44.189999	44.950001	E2
+2	on	on	CLS	CLS	_	3	subj	_	_	44.959999	45.099998	E2
+3	va	aller	VRB	VRB	_	0	root	_	_	45.110001	45.230000	E2
+4	commencer	commencer	VNF	VNF	_	3	dep	_	_	45.240002	45.830002	E2
+5	le	le	DET	DET	_	6	spe	_	_	45.840000	46.020000	E2
+6	voyage	voyage	NOM	NOM	_	4	dep	_	_	46.029999	46.380001	E2
+7	à	à	PRE	PRE	_	4	dep	_	_	46.549999	46.619999	E2
+8	la	le	DET	DET	_	9	spe	_	_	46.630001	46.759998	E2
+9	fin	fin	NOM	NOM	_	7	dep	_	_	46.770000	46.889999	E2
+10	de	de	PRE	PRE	_	9	dep	_	_	46.970001	47.020000	E2
+11	ce	ce	DET	DET	_	12	spe	_	_	47.029999	47.139999	E2
+12	mois-ci	mois-ci	NOM	NOM	_	10	dep	_	_	47.150002	47.430000	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-11
+# text = donc on va vous tenir au courant
+1	donc	donc	ADV	ADV	_	3	periph	_	_	47.650002	47.830002	E2
+2	on	on	CLS	CLS	_	3	subj	_	_	47.869999	47.889999	E2
+3	va	aller	VRB	VRB	_	0	root	_	_	47.950001	48.020000	E2
+4	vous	vous	CLI	CLI	_	5	dep	_	_	48.029999	48.230000	E2
+5	tenir	(se) tenir	VNF	VNF	_	3	dep	_	_	48.240002	48.520000	E2
+6	au	à+le	PRE	PRE	_	5	dep	_	_	48.529999	48.580002	E2
+7	courant	courant	NOM	NOM	_	6	dep	_	_	48.700001	48.970001	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-12
+# text = ce sera
+1	ce	ce	CLS	CLS	_	2	subj	_	_	49.869999	49.980000	E2
+2	sera	être	VRB	VRB	_	0	root	_	_	49.990002	50.169998	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-13
+# text = bien sûr
+1	bien	bien	ADV	ADV	_	0	root	_	_	50.400002	50.480000	E2
+2	sûr	sûr	ADJ	ADJ	_	1	morph	_	_	50.490002	50.650002	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-14
+# text = dans la Lorraine
+1	dans	dans	PRE	PRE	_	0	root	_	_	50.660000	50.709999	E2
+2	la	le	DET	DET	_	3	spe	_	_	50.720001	50.790001	E2
+3	Lorraine	Lorraine	NOM	NOM	_	1	dep	_	_	50.799999	51.360001	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-15
+# text = pour euh découvrir la région de la Lorraine
+1	pour	pour	PRE	PRE	_	0	root	_	_	51.619999	51.770000	E2
+2	euh	euh	INT	INT	_	1	dm	_	_	51.779999	51.860001	E2
+3	découvrir	découvrir	VNF	VNF	_	1	dep	_	_	51.869999	52.180000	E2
+4	la	le	DET	DET	_	5	spe	_	_	52.189999	52.240002	E2
+5	région	région	NOM	NOM	_	3	dep	_	_	52.250000	52.400002	E2
+6	de	de	PRE	PRE	_	5	dep	_	_	52.410000	52.560001	E2
+7	la	le	DET	DET	_	8	spe	_	_	52.570000	52.720001	E2
+8	Lorraine	Lorraine	NOM	NOM	_	6	dep	_	_	52.730000	52.919998	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-16
+# text = parce que Nancy fait partie de la Lorraine
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	53.330002	53.820000	E2
+2	Nancy	Nancy	NOM	NOM	_	3	dep	_	_	54.029999	54.290001	E2
+3	fait	faire	VPP	VPP	_	1	dep	_	_	54.349998	54.439999	E2
+4	partie	partie	NOM	NOM	_	3	dep	_	_	54.520000	54.770000	E2
+5	de	de	PRE	PRE	_	4	dep	_	_	54.779999	54.880001	E2
+6	la	le	DET	DET	_	7	spe	_	_	54.889999	54.970001	E2
+7	Lorraine	Lorraine	NOM	NOM	_	5	dep	_	_	54.980000	55.139999	E2
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-17
+# text = donc bah on vous a écrit à tous vous avez dû recevoir un petit kit normalement sur votre siège quand vous êtes arrivés
+1	donc	donc	ADV	ADV	_	6	periph	_	_	57.990002	58.299999	E1
+2	bah	bah	INT	INT	_	1	dm	_	_	58.540001	58.619999	E1
+3	on	on	CLS	CLS	_	6	subj	_	_	58.630001	58.669998	E1
+4	vous	vous	CLI	CLI	_	6	dep	_	_	58.680000	58.730000	E1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	58.740002	58.759998	E1
+6	écrit	écrire	VPP	VPP	_	0	root	_	_	58.770000	59.279999	E1
+7	à	à	PRE	PRE	_	6	dep	_	_	59.290001	59.310001	E1
+8	tous	tout	PRO	PRO	_	11	dep	_	_	59.320000	59.369999	E1
+9	vous	vous	CLS	CLS	_	11	subj	_	_	59.509998	59.650002	E1
+10	avez	avoir	VRB	VRB	_	11	aux	_	_	59.660000	59.759998	E1
+11	dû	devoir	VPP	VPP	_	7	dep	_	_	59.770000	59.830002	E1
+12	recevoir	recevoir	VNF	VNF	_	11	dep	_	_	59.840000	60.369999	E1
+13	un	un	DET	DET	_	15	spe	_	_	60.410000	60.430000	E1
+14	petit	petit	ADJ	ADJ	_	15	dep	_	_	60.439999	60.540001	E1
+15	kit	kit	NOM	NOM	_	12	dep	_	_	60.549999	60.740002	E1
+16	normalement	normalement	ADV	ADV	_	12	dep	_	_	60.750000	61.160000	E1
+17	sur	sur	PRE	PRE	_	12	dep	_	_	61.169998	61.279999	E1
+18	votre	son	DET	DET	_	19	spe	_	_	61.290001	61.439999	E1
+19	siège	siège	NOM	NOM	_	17	dep	_	_	61.450001	61.700001	E1
+20	quand	quand	CSU	CSU	_	12	dep	_	_	61.709999	61.759998	E1
+21	vous	vous	CLS	CLS	_	23	subj	_	_	61.770000	61.869999	E1
+22	êtes	être	VRB	VRB	_	23	aux	_	_	61.880001	62.009998	E1
+23	arrivés	arriver	VPP	VPP	_	20	dep	_	_	62.020000	62.320000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-18
+# text = donc on vous a écrit un petit guide pour vous aider à arriver à Nancy
+1	donc	donc	ADV	ADV	_	5	periph	_	_	63.000000	63.150002	E1
+2	on	on	CLS	CLS	_	5	subj	_	_	63.160000	63.200001	E1
+3	vous	vous	CLI	CLI	_	5	dep	_	_	63.209999	63.360001	E1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	63.369999	63.389999	E1
+5	écrit	écrire	VPP	VPP	_	0	root	_	_	63.400002	63.520000	E1
+6	un	un	DET	DET	_	8	spe	_	_	63.669998	63.799999	E1
+7	petit	petit	ADJ	ADJ	_	8	dep	_	_	63.860001	64.110001	E1
+8	guide	guide	NOM	NOM	_	5	dep	_	_	64.120003	64.419998	E1
+9	pour	pour	PRE	PRE	_	5	dep	_	_	64.629997	64.750000	E1
+10	vous	vous	CLI	CLI	_	11	dep	_	_	64.760002	64.870003	E1
+11	aider	aider	VNF	VNF	_	9	dep	_	_	64.879997	65.000000	E1
+12	à	à	PRE	PRE	_	11	dep	_	_	65.010002	65.120003	E1
+13	arriver	arriver	VNF	VNF	_	12	dep	_	_	65.129997	65.410004	E1
+14	à	à	PRE	PRE	_	13	dep	_	_	65.419998	65.440002	E1
+15	Nancy	Nancy	NOM	NOM	_	14	dep	_	_	65.449997	65.779999	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-19
+# text = vous trouverez plein d'informations nécessaires à propos de nous l'association
+1	vous	vous	CLS	CLS	_	2	subj	_	_	66.349998	66.419998	E1
+2	trouverez	trouver	VRB	VRB	_	0	root	_	_	66.559998	66.800003	E1
+3	plein	plein	ADJ	ADJ	_	2	dep	_	_	66.809998	66.940002	E1
+4	d'	de	PRE	PRE	_	3	dep	_	_	66.949997	66.980003	E1
+5	informations	information	NOM	NOM	_	4	dep	_	_	66.989998	67.379997	E1
+6	nécessaires	nécessaire	ADJ	ADJ	_	5	dep	_	_	67.480003	67.980003	E1
+7	à	à	PRE	PRE	_	4	para	_	_	67.989998	68.010002	E1
+8	propos	propos	NOM	NOM	_	7	dep	_	_	68.489998	68.690002	E1
+9	de	de	PRE	PRE	_	8	dep	_	_	68.699997	68.750000	E1
+10	nous	moi	PRO	PRO	_	9	dep	_	_	68.760002	69.150002	E1
+11	l'	le	DET	DET	_	12	spe	_	_	69.160004	69.180000	E1
+12	association	association	NOM	NOM	_	2	dep	_	_	69.260002	69.680000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-20
+# text = donc déjà ce qu'on fait
+1	donc	donc	ADV	ADV	_	3	periph	_	_	69.839996	69.919998	E1
+2	déjà	déjà	ADV	ADV	_	3	dep	_	_	70.059998	70.190002	E1
+3	ce	ce	PRO	PRO	_	0	root	_	_	70.199997	70.290001	E1
+4	qu'	que	PRQ	PRQ	_	6	dep	_	_	70.489998	70.510002	E1
+5	on	on	CLS	CLS	_	6	subj	_	_	70.559998	70.580002	E1
+6	fait	faire	VRB	VRB	_	3	dep	_	_	70.669998	70.779999	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-21
+# text = ensuite vous trouverez aussi
+1	ensuite	ensuite	ADV	ADV	_	3	periph	_	_	71.699997	72.000000	E1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	72.180000	72.239998	E1
+3	trouverez	trouver	VRB	VRB	_	0	root	_	_	72.250000	72.519997	E1
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	72.529999	72.989998	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-22
+# text = comment choisir son téléphone portable
+1	comment	comment	PRQ	PRQ	_	2	dep	_	_	73.029999	73.220001	E1
+2	choisir	choisir	VNF	VNF	_	0	root	_	_	73.930000	74.150002	E1
+3	son	son	DET	DET	_	4	spe	_	_	74.220001	74.290001	E1
+4	téléphone	téléphone	NOM	NOM	_	2	dep	_	_	74.360001	74.699997	E1
+5	portable	portable	ADJ	ADJ	_	4	dep	_	_	74.769997	75.449997	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-23
+# text = choisir sa banque choisir choisir sa mutuelle
+1	choisir	choisir	VNF	VNF	_	0	root	_	_	75.820000	76.290001	E1
+2	sa	son	DET	DET	_	3	spe	_	_	76.360001	76.410004	E1
+3	banque	banque	NOM	NOM	_	1	dep	_	_	76.419998	76.709999	E1
+4	choisir	choisir	VNF	VNF	_	1	para	_	_	76.839996	77.169998	E1
+5	choisir	choisir	VNF	VNF	_	4	dep	_	_	77.959999	78.230003	E1
+6	sa	son	DET	DET	_	7	spe	_	_	78.279999	78.349998	E1
+7	mutuelle	mutuelle	NOM	NOM	_	5	dep	_	_	78.360001	78.839996	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-24
+# text = si vous avez pas pu retenir toutes les informations qu'on vous a données aujourd' hui et aussi comment apprendre le français et où aller faire la fête dans Nancy vous a-~ trouverez avec ça le petit guide de tous les bars restaurants discothèques et euh musées cinémas de Nancy
+1	si	si	CSU	CSU	_	31	periph	_	_	79.080002	79.129997	E1
+2	vous	vous	CLS	CLS	_	5	subj	_	_	79.199997	79.269997	E1
+3	avez	avoir	VRB	VRB	_	5	aux	_	_	79.279999	79.379997	E1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	79.389999	79.500000	E1
+5	pu	pouvoir	VPP	VPP	_	1	dep	_	_	79.510002	79.559998	E1
+6	retenir	retenir	VNF	VNF	_	5	dep	_	_	79.570000	79.849998	E1
+7	toutes	tout	ADJ	ADJ	_	9	dep	_	_	79.860001	79.940002	E1
+8	les	le	DET	DET	_	9	spe	_	_	79.949997	80.010002	E1
+9	informations	information	NOM	NOM	_	6	dep	_	_	80.019997	80.430000	E1
+10	qu'	que	PRQ	PRQ	_	14	dep	_	_	80.519997	80.540001	E1
+11	on	on	CLS	CLS	_	14	subj	_	_	80.550003	80.680000	E1
+12	vous	vous	CLI	CLI	_	14	dep	_	_	81.019997	81.080002	E1
+13	a	avoir	VRB	VRB	_	14	aux	_	_	81.089996	81.110001	E1
+14	données	donner	VPP	VPP	_	9	dep	_	_	81.180000	81.379997	E1
+15	aujourd' hui	aujourd'hui	ADV	ADV	_	14	dep	_	_	81.430000	81.779999	E1
+16	et	et	COO	COO	_	19	mark	_	_	82.540001	82.690002	E1
+17	aussi	aussi	ADV	ADV	_	19	dep	_	_	82.699997	83.110001	E1
+18	comment	comment	PRQ	PRQ	_	19	dep	_	_	83.320000	83.669998	E1
+19	apprendre	apprendre	VNF	VNF	_	5	dep	_	_	83.739998	83.930000	E1
+20	le	le	DET	DET	_	21	spe	_	_	83.940002	83.959999	E1
+21	français	français	NOM	NOM	_	19	dep	_	_	84.070000	84.349998	E1
+22	et	et	COO	COO	_	24	mark	_	_	84.360001	84.580002	E1
+23	où	où	PRQ	PRQ	_	24	dep	_	_	84.629997	84.650002	E1
+24	aller	aller	VNF	VNF	_	19	para	_	_	84.660004	84.889999	E1
+25	faire	faire	VNF	VNF	_	24	dep	_	_	85.010002	85.190002	E1
+26	la	le	DET	DET	_	27	spe	_	_	85.199997	85.279999	E1
+27	fête	fête	NOM	NOM	_	25	dep	_	_	85.290001	85.419998	E1
+28	dans	dans	PRE	PRE	_	25	dep	_	_	85.510002	85.589996	E1
+29	Nancy	Nancy	NOM	NOM	_	28	dep	_	_	85.669998	85.779999	E1
+30	vous	vous	CLS	CLS	_	31	subj	_	_	87.360001	87.510002	E1
+31	a-~	a-~	VRB	VRB	_	0	root	_	_	87.519997	87.540001	E1
+32	trouverez	trouver	VRB	VRB	_	31	para	_	_	87.550003	87.919998	E1
+33	avec	avec	PRE	PRE	_	32	dep	_	_	87.930000	88.220001	E1
+34	ça	ça	PRO	PRO	_	33	dep	_	_	88.230003	88.610001	E1
+35	le	le	DET	DET	_	37	spe	_	_	88.769997	89.029999	E1
+36	petit	petit	ADJ	ADJ	_	37	dep	_	_	89.089996	89.190002	E1
+37	guide	guide	NOM	NOM	_	32	dep	_	_	89.199997	89.449997	E1
+38	de	de	PRE	PRE	_	37	dep	_	_	89.629997	89.690002	E1
+39	tous	tout	ADJ	ADJ	_	41	dep	_	_	89.699997	89.760002	E1
+40	les	le	DET	DET	_	41	spe	_	_	89.910004	90.059998	E1
+41	bars	bar	NOM	NOM	_	38	dep	_	_	90.070000	90.449997	E1
+42	restaurants	restaurant	NOM	NOM	_	41	dep	_	_	90.459999	91.040001	E1
+43	discothèques	discothèque	NOM	NOM	_	42	dep	_	_	91.620003	92.010002	E1
+44	et	et	COO	COO	_	47	mark	_	_	92.019997	92.680000	E1
+45	euh	euh	INT	INT	_	44	dm	_	_	92.690002	92.870003	E1
+46	musées	musées	ADJ	ADJ	_	47	dep	_	_	92.879997	93.169998	E1
+47	cinémas	cinéma	NOM	NOM	_	41	para	_	_	93.180000	93.949997	E1
+48	de	de	PRE	PRE	_	47	dep	_	_	93.959999	94.110001	E1
+49	Nancy	Nancy	NOM	NOM	_	48	dep	_	_	94.120003	94.410004	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-25
+# text = donc voilà
+1	donc	donc	ADV	ADV	_	0	root	_	_	94.870003	95.000000	E1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	95.010002	95.230003	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-26
+# text = si vous cherchez à sortir quelque part que vous cherchez une bonne adresse
+1	si	si	CSU	CSU	_	0	root	_	_	95.239998	95.290001	E1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	95.410004	95.470001	E1
+3	cherchez	chercher	VRB	VRB	_	1	dep	_	_	95.519997	95.709999	E1
+4	à	à	PRE	PRE	_	3	dep	_	_	95.779999	95.809998	E1
+5	sortir	sortir	VNF	VNF	_	4	dep	_	_	95.879997	96.059998	E1
+6	quelque part	quelque part	ADV	ADV	_	5	dep	_	_	96.250000	96.760002	E1
+7	que	que	CSU	CSU	_	5	dep	_	_	96.769997	96.790001	E1
+8	vous	vous	CLS	CLS	_	9	subj	_	_	96.830002	96.879997	E1
+9	cherchez	chercher	VRB	VRB	_	7	dep	_	_	96.889999	97.050003	E1
+10	une	un	DET	DET	_	12	spe	_	_	97.129997	97.180000	E1
+11	bonne	bon	ADJ	ADJ	_	12	dep	_	_	97.190002	97.320000	E1
+12	adresse	adresse	NOM	NOM	_	9	dep	_	_	97.330002	97.699997	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-27
+# text = ensuite vous avez le classique plan de la ville avec derrière toutes les informations dont vous aurez besoin
+1	ensuite	ensuite	ADV	ADV	_	3	periph	_	_	98.510002	98.949997	E1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	99.160004	99.260002	E1
+3	avez	avoir	VRB	VRB	_	0	root	_	_	99.269997	99.459999	E1
+4	le	le	DET	DET	_	5	spe	_	_	99.470001	99.589996	E1
+5	classique	classique	NOM	NOM	_	3	dep	_	_	99.660004	99.860001	E1
+6	plan	plan	NOM	NOM	_	5	dep	_	_	100.059998	100.260002	E1
+7	de	de	PRE	PRE	_	6	dep	_	_	100.269997	100.339996	E1
+8	la	le	DET	DET	_	9	spe	_	_	100.349998	100.410004	E1
+9	ville	ville	NOM	NOM	_	7	dep	_	_	100.419998	100.690002	E1
+10	avec	avec	PRE	PRE	_	3	dep	_	_	100.949997	101.059998	E1
+11	derrière	derrière	PRE	PRE	_	10	dep	_	_	101.070000	101.239998	E1
+12	toutes	tout	ADJ	ADJ	_	14	dep	_	_	101.550003	101.639999	E1
+13	les	le	DET	DET	_	14	spe	_	_	101.650002	101.699997	E1
+14	informations	information	NOM	NOM	_	11	dep	_	_	101.709999	102.070000	E1
+15	dont	dont	PRQ	PRQ	_	17	dep	_	_	102.139999	102.190002	E1
+16	vous	vous	CLS	CLS	_	17	subj	_	_	102.260002	102.330002	E1
+17	aurez	avoir	VRB	VRB	_	14	dep	_	_	102.339996	102.440002	E1
+18	besoin	besoin	NOM	NOM	_	17	dep	_	_	102.449997	102.699997	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-28
+# text = et le plan des transports pour ceux qui ont besoin de prendre le bus et tout ça pour voyager on aimerait dire aussi que si vous avez besoin de voyager dans Nancy le vélo c'est très pratique
+1	et	et	COO	COO	_	3	mark	_	_	103.639999	103.779999	E1
+2	le	le	DET	DET	_	3	spe	_	_	103.790001	103.910004	E1
+3	plan	plan	NOM	NOM	_	21	periph	_	_	103.919998	104.120003	E1
+4	des	de	PRE	PRE	_	3	dep	_	_	104.129997	104.230003	E1
+5	transports	transport	NOM	NOM	_	4	dep	_	_	104.300003	104.730003	E1
+6	pour	pour	PRE	PRE	_	21	periph	_	_	104.739998	104.839996	E1
+7	ceux	celui	PRO	PRO	_	6	dep	_	_	105.050003	105.160004	E1
+8	qui	qui	PRQ	PRQ	_	9	subj	_	_	105.169998	105.250000	E1
+9	ont	avoir	VRB	VRB	_	7	dep	_	_	105.410004	105.459999	E1
+10	besoin	besoin	NOM	NOM	_	9	dep	_	_	105.629997	105.760002	E1
+11	de	de	PRE	PRE	_	10	dep	_	_	105.830002	105.849998	E1
+12	prendre	prendre	VNF	VNF	_	11	dep	_	_	105.959999	106.099998	E1
+13	le	le	DET	DET	_	14	spe	_	_	106.110001	106.190002	E1
+14	bus	bus	NOM	NOM	_	12	dep	_	_	106.339996	106.389999	E1
+15	et	et	COO	COO	_	17	mark	_	_	106.400002	106.419998	E1
+16	tout	tout	ADJ	ADJ	_	17	dep	_	_	106.430000	106.480003	E1
+17	ça	ça	PRO	PRO	_	14	para	_	_	106.489998	106.559998	E1
+18	pour	pour	PRE	PRE	_	12	dep	_	_	106.820000	106.900002	E1
+19	voyager	voyager	VNF	VNF	_	18	dep	_	_	107.010002	107.209999	E1
+20	on	on	CLS	CLS	_	21	subj	_	_	108.410004	108.430000	E1
+21	aimerait	aimer	VRB	VRB	_	0	root	_	_	108.440002	108.769997	E1
+22	dire	dire	VNF	VNF	_	21	dep	_	_	108.779999	109.010002	E1
+23	aussi	aussi	ADV	ADV	_	22	dep	_	_	109.019997	109.209999	E1
+24	que	que	CSU	CSU	_	22	dep	_	_	109.370003	109.629997	E1
+25	si	si	CSU	CSU	_	36	periph	_	_	109.639999	109.769997	E1
+26	vous	vous	CLS	CLS	_	27	subj	_	_	110.019997	110.089996	E1
+27	avez	avoir	VRB	VRB	_	25	dep	_	_	110.099998	110.199997	E1
+28	besoin	besoin	NOM	NOM	_	27	dep	_	_	110.209999	110.320000	E1
+29	de	de	PRE	PRE	_	28	dep	_	_	110.330002	110.349998	E1
+30	voyager	voyager	VNF	VNF	_	29	dep	_	_	110.550003	110.809998	E1
+31	dans	dans	PRE	PRE	_	30	dep	_	_	110.879997	111.000000	E1
+32	Nancy	Nancy	NOM	NOM	_	31	dep	_	_	111.010002	111.290001	E1
+33	le	le	DET	DET	_	34	spe	_	_	111.570000	111.660004	E1
+34	vélo	vélo	NOM	NOM	_	36	periph	_	_	111.669998	111.919998	E1
+35	c'	ce	CLS	CLS	_	36	subj	_	_	112.000000	112.019997	E1
+36	est	être	VRB	VRB	_	24	dep	_	_	112.029999	112.050003	E1
+37	très	très	ADV	ADV	_	38	dep	_	_	112.180000	112.279999	E1
+38	pratique	pratique	ADJ	ADJ	_	36	dep	_	_	112.290001	112.510002	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-29
+# text = et la ville de Nancy organisait Vélo Stan
+1	et	et	COO	COO	_	6	mark	_	_	112.559998	112.580002	E1
+2	la	le	DET	DET	_	3	spe	_	_	112.870003	112.949997	E1
+3	ville	ville	NOM	NOM	_	6	subj	_	_	113.000000	113.160004	E1
+4	de	de	PRE	PRE	_	3	dep	_	_	113.169998	113.230003	E1
+5	Nancy	Nancy	NOM	NOM	_	4	dep	_	_	113.239998	113.639999	E1
+6	organisait	organiser	VRB	VRB	_	0	root	_	_	113.650002	114.290001	E1
+7	Vélo	vélo	NOM	NOM	_	6	dep	_	_	114.730003	114.919998	E1
+8	Stan	Stan	NOM	NOM	_	7	dep	_	_	114.930000	115.430000	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-30
+# text = donc c'est de la location de vélos pour trente euros par mois
+1	donc	donc	ADV	ADV	_	3	periph	_	_	115.779999	115.959999	E1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	116.070000	116.089996	E1
+3	est	être	VRB	VRB	_	0	root	_	_	116.099998	116.250000	E1
+4	de	de	PRE	PRE	_	3	dep	_	_	116.459999	116.610001	E1
+5	la	le	DET	DET	_	6	spe	_	_	116.620003	116.669998	E1
+6	location	location	NOM	NOM	_	4	dep	_	_	116.680000	117.019997	E1
+7	de	de	PRE	PRE	_	6	dep	_	_	117.029999	117.050003	E1
+8	vélos	vélo	NOM	NOM	_	7	dep	_	_	117.059998	117.260002	E1
+9	pour	pour	PRE	PRE	_	3	dep	_	_	117.410004	117.519997	E1
+10	trente	trente	NUM	NUM	_	11	spe	_	_	117.529999	117.870003	E1
+11	euros	euro	NOM	NOM	_	9	dep	_	_	117.879997	118.019997	E1
+12	par	par	PRE	PRE	_	11	dep	_	_	118.070000	118.199997	E1
+13	mois	moi	NOM	NOM	_	12	dep	_	_	118.209999	118.510002	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-31
+# text = et c'est diminutif si vous prenez plusieurs mois
+1	et	et	COO	COO	_	3	mark	_	_	118.879997	118.910004	E1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	118.919998	119.010002	E1
+3	est	être	VRB	VRB	_	0	root	_	_	119.019997	119.040001	E1
+4	diminutif	diminutif	ADJ	ADJ	_	3	dep	_	_	119.050003	120.110001	E1
+5	si	si	CSU	CSU	_	3	dep	_	_	120.150002	120.250000	E1
+6	vous	vous	CLS	CLS	_	7	subj	_	_	120.260002	120.410004	E1
+7	prenez	prendre	VRB	VRB	_	5	dep	_	_	120.580002	120.739998	E1
+8	plusieurs	plusieurs	DET	DET	_	9	spe	_	_	120.750000	121.080002	E1
+9	mois	moi	NOM	NOM	_	7	dep	_	_	121.129997	121.300003	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-32
+# text = et bientôt on aura aussi les vélibs
+1	et	et	COO	COO	_	4	mark	_	_	121.709999	121.800003	E1
+2	bientôt	bientôt	ADV	ADV	_	4	periph	_	_	121.809998	122.150002	E1
+3	on	on	CLS	CLS	_	4	subj	_	_	122.160004	122.230003	E1
+4	aura	avoir	VRB	VRB	_	0	root	_	_	122.279999	122.500000	E1
+5	aussi	aussi	ADV	ADV	_	4	dep	_	_	122.510002	122.750000	E1
+6	les	le	DET	DET	_	7	spe	_	_	122.760002	122.820000	E1
+7	vélibs	vélibs	NOM	NOM	_	4	dep	_	_	122.900002	123.230003	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-33
+# text = donc les vélos qui se prennent sur les bornes
+1	donc	donc	ADV	ADV	_	6	periph	_	_	123.570000	123.650002	E1
+2	les	le	DET	DET	_	3	spe	_	_	123.739998	123.820000	E1
+3	vélos	vélo	NOM	NOM	_	6	periph	_	_	123.830002	124.029999	E1
+4	qui	qui	PRQ	PRQ	_	6	subj	_	_	124.040001	124.150002	E1
+5	se	se	CLI	CLI	_	6	dep	_	_	124.160004	124.480003	E1
+6	prennent	prendre	VRB	VRB	_	0	root	_	_	125.040001	125.199997	E1
+7	sur	sur	PRE	PRE	_	6	dep	_	_	125.209999	125.330002	E1
+8	les	le	DET	DET	_	9	spe	_	_	125.379997	125.440002	E1
+9	bornes	borne	NOM	NOM	_	7	dep	_	_	125.519997	125.730003	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-34
+# text = donc profitez un peu de ça
+1	donc	donc	ADV	ADV	_	2	periph	_	_	126.040001	126.120003	E1
+2	profitez	profiter	VRB	VRB	_	0	root	_	_	126.330002	126.610001	E1
+3	un peu	un peu	ADV	ADV	_	2	dep	_	_	126.620003	126.860001	E1
+4	de	de	PRE	PRE	_	2	dep	_	_	126.870003	126.889999	E1
+5	ça	ça	PRO	PRO	_	4	dep	_	_	126.900002	127.150002	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-35
+# text = ça vous évitera d'avoir des problèmes parce que acheter un vélo à Nancy c'est assez difficile sinon pour acheter un vélo
+1	ça	ça	PRO	PRO	_	3	periph	_	_	127.160004	127.209999	E1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	127.370003	127.449997	E1
+3	évitera	éviter	VRB	VRB	_	0	root	_	_	127.459999	127.849998	E1
+4	d'	de	PRE	PRE	_	3	dep	_	_	127.860001	127.879997	E1
+5	avoir	avoir	VNF	VNF	_	4	dep	_	_	127.889999	128.130005	E1
+6	des	de	PRE	PRE	_	5	dep	_	_	128.179993	128.250000	E1
+7	problèmes	problème	NOM	NOM	_	6	dep	_	_	128.320007	128.559998	E1
+8	parce que	parce que	CSU	CSU	_	3	dep	_	_	128.630005	128.770004	E1
+9	acheter	acheter	VNF	VNF	_	15	periph	_	_	128.880005	129.080002	E1
+10	un	un	DET	DET	_	11	spe	_	_	129.089996	129.130005	E1
+11	vélo	vélo	NOM	NOM	_	9	dep	_	_	129.139999	129.460007	E1
+12	à	à	PRE	PRE	_	9	dep	_	_	129.470001	129.490005	E1
+13	Nancy	Nancy	NOM	NOM	_	12	dep	_	_	129.500000	129.800003	E1
+14	c'	ce	CLS	CLS	_	15	subj	_	_	129.809998	129.830002	E1
+15	est	être	VRB	VRB	_	8	dep	_	_	129.839996	129.860001	E1
+16	assez	assez	ADV	ADV	_	17	dep	_	_	130.350006	130.619995	E1
+17	difficile	difficile	ADJ	ADJ	_	15	dep	_	_	130.630005	130.940002	E1
+18	sinon	sinon	ADV	ADV	_	15	periph	_	_	131.679993	132.309998	E1
+19	pour	pour	PRE	PRE	_	15	dep	_	_	132.949997	133.070007	E1
+20	acheter	acheter	VNF	VNF	_	19	dep	_	_	133.080002	133.250000	E1
+21	un	un	DET	DET	_	22	spe	_	_	133.259995	133.339996	E1
+22	vélo	vélo	NOM	NOM	_	20	dep	_	_	133.389999	133.649994	E1
+
+# sent_id = cefc-fleuron-accueil_etudiants_Nancy2_partie2-36
+# text = vous avez l'occasion de faire la bourse aux livres euh la bourse aux vélos qui se situera début octobre parc de la Pépinière
+1	vous	vous	CLS	CLS	_	2	subj	_	_	133.710007	133.789993	E1
+2	avez	avoir	VRB	VRB	_	0	root	_	_	133.800003	134.179993	E1
+3	l'	le	DET	DET	_	4	spe	_	_	134.190002	134.210007	E1
+4	occasion	occasion	NOM	NOM	_	2	dep	_	_	134.220001	134.389999	E1
+5	de	de	PRE	PRE	_	4	dep	_	_	134.399994	134.479996	E1
+6	faire	faire	VNF	VNF	_	5	dep	_	_	134.490005	134.570007	E1
+7	la	le	DET	DET	_	8	spe	_	_	135.059998	135.259995	E1
+8	bourse	bourse	NOM	NOM	_	6	dep	_	_	135.360001	135.570007	E1
+9	aux	à+le	PRE	PRE	_	6	dep	_	_	135.580002	135.600006	E1
+10	livres	livre	NOM	NOM	_	9	dep	_	_	135.710007	135.929993	E1
+11	euh	euh	INT	INT	_	10	dm	_	_	135.990005	136.050003	E1
+12	la	le	DET	DET	_	13	spe	_	_	136.059998	136.119995	E1
+13	bourse	bourse	NOM	NOM	_	6	dep	_	_	136.199997	136.399994	E1
+14	aux	à+le	PRE	PRE	_	6	dep	_	_	136.410004	136.429993	E1
+15	vélos	vélo	NOM	NOM	_	14	dep	_	_	136.440002	136.759995	E1
+16	qui	qui	PRQ	PRQ	_	18	subj	_	_	136.770004	136.830002	E1
+17	se	se	CLI	CLI	_	18	dep	_	_	137.440002	137.960007	E1
+18	situera	situer	VRB	VRB	_	15	dep	_	_	137.970001	138.550003	E1
+19	début	début	NOM	NOM	_	18	dep	_	_	138.789993	139.029999	E1
+20	octobre	octobre	NOM	NOM	_	19	dep	_	_	139.039993	139.619995	E1
+21	parc	parc	NOM	NOM	_	20	dep	_	_	139.740005	139.869995	E1
+22	de	de	PRE	PRE	_	21	dep	_	_	140.000000	140.080002	E1
+23	la	le	DET	DET	_	24	spe	_	_	140.089996	140.149994	E1
+24	Pépinière	pépinière	NOM	NOM	_	22	dep	_	_	140.199997	140.470001	E1
+

@@ -1,0 +1,831 @@
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-1
+# text = euh oui
+1	euh	euh	INT	INT	_	0	root	_	_	0.130000	0.210000	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	0.600000	0.820000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-2
+# text = j~ je
+1	j~	j~	CLI	CLI	_	0	root	_	_	0.820000	0.890000	L1
+2	je	je	CLS	CLS	_	1	para	_	_	0.890000	1.010000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-3
+# text = j~ l'autre jour on parlait de de ce scandale de la de la viande de cheval
+1	j~	j~	CLI	CLI	_	6	dep	_	_	1.010000	1.120000	L1
+2	l'	le	DET	DET	_	4	spe	_	_	1.120000	1.630000	L1
+3	autre	autre	ADJ	ADJ	_	4	dep	_	_	2.150000	2.370000	L1
+4	jour	jour	NOM	NOM	_	6	periph	_	_	2.370000	2.630000	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	2.630000	2.760000	L1
+6	parlait	parler	VRB	VRB	_	0	root	_	_	2.760000	3.190000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	3.190000	3.410000	L1
+8	de	de	PRE	PRE	_	7	para	_	_	3.460000	3.510000	L1
+9	ce	ce	DET	DET	_	10	spe	_	_	3.510000	3.770000	L1
+10	scandale	scandale	NOM	NOM	_	8	dep	_	_	3.770000	4.120000	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	4.120000	4.410000	L1
+12	la	le	DET	DET	_	11	dep	_	_	4.410000	4.480000	L1
+13	de	de	PRE	PRE	_	11	para	_	_	4.520000	4.670000	L1
+14	la	le	DET	DET	_	15	spe	_	_	4.670000	4.750000	L1
+15	viande	viande	NOM	NOM	_	13	dep	_	_	4.750000	5.080000	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	5.080000	5.120000	L1
+17	cheval	cheval	NOM	NOM	_	16	dep	_	_	5.120000	5.470000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-4
+# text = je pense que tout le monde a été touché par par ce scandale euh
+1	je	je	CLS	CLS	_	2	subj	_	_	5.900000	6.090000	L1
+2	pense	penser	VRB	VRB	_	0	root	_	_	6.140000	6.460000	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	6.460000	6.890000	L1
+4	tout le monde	tout le monde	PRO	PRO	_	7	subj	_	_	7.160000	7.610000	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	7.610000	7.650000	L1
+6	été	être	VPP	VPP	_	7	aux	_	_	7.650000	7.980000	L1
+7	touché	toucher	VPP	VPP	_	3	dep	_	_	7.980000	8.310000	L1
+8	par	par	PRE	PRE	_	7	dep	_	_	8.310000	8.570000	L1
+9	par	par	PRE	PRE	_	8	para	_	_	8.570000	8.680000	L1
+10	ce	ce	DET	DET	_	11	spe	_	_	8.680000	8.780000	L1
+11	scandale	scandale	NOM	NOM	_	9	dep	_	_	8.810000	9.390000	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	9.980000	10.390000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-5
+# text = et je pense que maintenant les tous les consommateurs sont sont sont inquiets par par par cette histoire
+1	et	et	COO	COO	_	3	mark	_	_	10.540000	10.900000	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	10.900000	11.090000	L1
+3	pense	penser	VRB	VRB	_	0	root	_	_	11.090000	11.370000	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	11.370000	11.490000	L1
+5	maintenant	maintenant	ADV	ADV	_	12	periph	_	_	11.490000	11.930000	L1
+6	les	le	DET	DET	_	5	disflink	_	_	11.930000	12.350000	L1
+7	tous	tout	ADJ	ADJ	_	9	dep	_	_	12.580000	12.690000	L1
+8	les	le	DET	DET	_	9	spe	_	_	12.730000	12.830000	L1
+9	consommateurs	consommateur	NOM	NOM	_	12	subj	_	_	12.830000	13.570000	L1
+10	sont	être	VRB	VRB	_	12	aux	_	_	13.570000	13.950000	L1
+11	sont	être	VRB	VRB	_	10	para	_	_	14.410000	14.730000	L1
+12	sont	être	VRB	VRB	_	4	dep	_	_	14.730000	15.020000	L1
+13	inquiets	inquiet	ADJ	ADJ	_	12	dep	_	_	15.020000	15.340000	L1
+14	par	par	PRE	PRE	_	12	dep	_	_	15.470000	15.690000	L1
+15	par	par	PRE	PRE	_	14	para	_	_	15.690000	15.870000	L1
+16	par	par	PRE	PRE	_	15	para	_	_	15.910000	16.090000	L1
+17	cette	ce	DET	DET	_	18	spe	_	_	16.090000	16.290001	L1
+18	histoire	histoire	NOM	NOM	_	16	dep	_	_	16.290001	16.719999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-6
+# text = c'est je pense euh de ces dernières années
+1	c'	ce	CLS	CLS	_	2	subj	_	_	17.110001	17.250000	L1
+2	est	être	VRB	VRB	_	0	root	_	_	17.250000	17.629999	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	17.770000	17.980000	L1
+4	pense	penser	VRB	VRB	_	2	dm	_	_	17.980000	18.320000	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	18.320000	18.690001	L1
+6	de	de	PRE	PRE	_	4	dep	_	_	18.690001	18.790001	L1
+7	ces	ce	DET	DET	_	9	spe	_	_	18.790001	19.020000	L1
+8	dernières	dernier	ADJ	ADJ	_	9	dep	_	_	19.020000	19.469999	L1
+9	années	année	NOM	NOM	_	6	dep	_	_	19.469999	19.770000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-7
+# text = je pense que c'est un des plus grands euh euh scandales agro alimentaires après le le scandale de la vache de la v~ de la vache folle
+1	je	je	CLS	CLS	_	2	subj	_	_	20.299999	20.420000	L1
+2	pense	penser	VRB	VRB	_	0	root	_	_	20.420000	20.660000	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	20.660000	20.809999	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	20.809999	20.959999	L1
+5	est	être	VRB	VRB	_	3	dep	_	_	20.959999	21.219999	L1
+6	un	un	PRO	PRO	_	5	dep	_	_	21.219999	21.410000	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	21.410000	21.590000	L1
+8	plus	plus	ADN	ADN	_	9	dep	_	_	21.660000	21.809999	L1
+9	grands	grand	ADJ	ADJ	_	7	dep	_	_	21.850000	22.370001	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	22.370001	22.680000	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	23.059999	23.219999	L1
+12	scandales	scandale	NOM	NOM	_	5	dep	_	_	23.219999	23.750000	L1
+13	agro	agro	PRE	PRE	_	12	dep	_	_	23.750000	24.280001	L1
+14	alimentaires	alimentaire	ADJ	ADJ	_	13	dep	_	_	24.280001	24.870001	L1
+15	après	après	PRE	PRE	_	5	dep	_	_	25.030001	25.500000	L1
+16	le	le	DET	DET	_	18	spe	_	_	25.500000	25.820000	L1
+17	le	le	DET	DET	_	16	para	_	_	26.190001	26.320000	L1
+18	scandale	scandale	NOM	NOM	_	15	dep	_	_	26.320000	26.709999	L1
+19	de	de	PRE	PRE	_	18	dep	_	_	26.709999	26.790001	L1
+20	la	le	DET	DET	_	21	spe	_	_	26.790001	26.889999	L1
+21	vache	vache	NOM	NOM	_	19	dep	_	_	26.889999	27.260000	L1
+22	de	de	PRE	PRE	_	21	dep	_	_	27.320000	27.480000	L1
+23	la	le	DET	DET	_	24	spe	_	_	27.480000	27.740000	L1
+24	v~	v~	NOM	NOM	_	22	dep	_	_	27.740000	27.930000	L1
+25	de	de	PRE	PRE	_	24	dep	_	_	27.930000	28.150000	L1
+26	la	le	DET	DET	_	27	spe	_	_	28.150000	28.240000	L1
+27	vache	vache	NOM	NOM	_	25	dep	_	_	28.240000	28.490000	L1
+28	folle	fou	ADJ	ADJ	_	27	dep	_	_	28.490000	28.740000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-8
+# text = il y a il y a quelques années
+1	il	il	CLS	CLS	_	3	subj	_	_	28.740000	28.840000	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	28.840000	28.870001	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	28.870001	29.000000	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	29.000000	29.090000	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	29.090000	29.129999	L1
+6	a	avoir	VRB	VRB	_	3	para	_	_	29.129999	29.160000	L1
+7	quelques	quelque	ADJ	ADJ	_	8	spe	_	_	29.160000	29.540001	L1
+8	années	année	NOM	NOM	_	6	dep	_	_	29.540001	29.790001	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-9
+# text = alors euh
+1	alors	alors	ADV	ADV	_	0	root	_	_	30.219999	30.629999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	30.629999	30.940001	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-10
+# text = cette histoire euh
+1	cette	ce	DET	DET	_	2	spe	_	_	31.209999	31.430000	L1
+2	histoire	histoire	NOM	NOM	_	0	root	_	_	31.430000	32.369999	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	32.369999	32.439999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-11
+# text = comment elle a commencé cette histoire
+1	comment	comment	PRQ	PRQ	_	4	dep	_	_	32.439999	32.660000	L1
+2	elle	il	CLS	CLS	_	4	subj	_	_	32.660000	32.740002	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	32.740002	32.820000	L1
+4	commencé	commencer	VPP	VPP	_	0	root	_	_	32.820000	33.169998	L1
+5	cette	ce	DET	DET	_	6	spe	_	_	33.169998	33.349998	L1
+6	histoire	histoire	NOM	NOM	_	4	dep	_	_	33.349998	33.730000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-12
+# text = je crois euh
+1	je	je	CLS	CLS	_	2	subj	_	_	33.730000	33.869999	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	33.910000	34.259998	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	34.639999	34.910000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-13
+# text = j'avais lu des des des articles dans les journaux
+1	j'	je	CLS	CLS	_	3	subj	_	_	34.910000	35.020000	L1
+2	avais	avoir	VRB	VRB	_	3	aux	_	_	35.020000	35.209999	L1
+3	lu	lire	VPP	VPP	_	0	root	_	_	35.209999	35.549999	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	35.549999	35.869999	L1
+5	des	de	PRE	PRE	_	4	para	_	_	35.869999	36.060001	L1
+6	des	de	PRE	PRE	_	5	para	_	_	36.060001	36.290001	L1
+7	articles	article	NOM	NOM	_	6	dep	_	_	36.290001	36.650002	L1
+8	dans	dans	PRE	PRE	_	3	dep	_	_	36.650002	36.759998	L1
+9	les	le	DET	DET	_	10	spe	_	_	36.759998	36.820000	L1
+10	journaux	journal	NOM	NOM	_	8	dep	_	_	36.820000	37.209999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-14
+# text = je crois que il y avait eu euh trois événements euh importants d'abord
+1	je	je	CLS	CLS	_	2	subj	_	_	37.669998	37.880001	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	37.880001	38.200001	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	38.200001	38.580002	L1
+4	il	il	CLS	CLS	_	7	subj	_	_	38.790001	38.860001	L1
+5	y	y	CLI	CLI	_	7	dep	_	_	38.860001	38.910000	L1
+6	avait	avoir	VRB	VRB	_	7	aux	_	_	38.910000	39.130001	L1
+7	eu	avoir	VPP	VPP	_	3	dep	_	_	39.130001	39.439999	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	39.439999	39.880001	L1
+9	trois	trois	NUM	NUM	_	10	spe	_	_	39.880001	40.259998	L1
+10	événements	événement	NOM	NOM	_	7	dep	_	_	40.299999	40.970001	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	40.970001	41.299999	L1
+12	importants	important	NOM	NOM	_	10	para	_	_	41.509998	42.200001	L1
+13	d'	de	PRE	PRE	_	12	dep	_	_	42.200001	42.320000	L1
+14	abord	abord	NOM	NOM	_	13	dep	_	_	42.320000	42.939999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-15
+# text = je crois que en Irlande ils avaient trouvé dans dans des steaks euh de la de de la viande cheval
+1	je	je	CLS	CLS	_	2	subj	_	_	43.529999	43.730000	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	43.730000	44.070000	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	44.070000	44.430000	L1
+4	en	en	PRE	PRE	_	8	periph	_	_	44.709999	44.939999	L1
+5	Irlande	Irlande	NOM	NOM	_	4	dep	_	_	44.939999	45.700001	L1
+6	ils	il	CLS	CLS	_	8	subj	_	_	46.029999	46.230000	L1
+7	avaient	avoir	VRB	VRB	_	8	aux	_	_	46.230000	46.430000	L1
+8	trouvé	se trouver	VPP	VPP	_	3	dep	_	_	46.430000	46.950001	L1
+9	dans	dans	PRE	PRE	_	8	dep	_	_	46.950001	47.139999	L1
+10	dans	dans	PRE	PRE	_	9	para	_	_	47.139999	47.320000	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	47.320000	47.509998	L1
+12	steaks	steak	NOM	NOM	_	11	dep	_	_	47.509998	47.980000	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	47.980000	48.619999	L1
+14	de	de	PRE	PRE	_	12	dep	_	_	48.619999	48.730000	L1
+15	la	le	DET	DET	_	16	spe	_	_	48.730000	48.790001	L1
+16	de	de	PRE	PRE	_	14	para	_	_	48.790001	48.900002	L1
+17	de	de	PRE	PRE	_	16	para	_	_	48.900002	48.959999	L1
+18	la	le	DET	DET	_	19	spe	_	_	48.959999	49.040001	L1
+19	viande	viande	NOM	NOM	_	17	dep	_	_	49.040001	49.330002	L1
+20	cheval	cheval	NOM	NOM	_	19	dep	_	_	49.330002	49.540001	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-16
+# text = déjà premièrement ensuite il y a eu euh
+1	déjà	déjà	ADV	ADV	_	7	periph	_	_	49.680000	49.959999	L1
+2	premièrement	premièrement	ADV	ADV	_	7	periph	_	_	50.090000	50.509998	L1
+3	ensuite	ensuite	ADV	ADV	_	7	periph	_	_	50.950001	51.980000	L1
+4	il	il	CLS	CLS	_	7	subj	_	_	52.299999	52.590000	L1
+5	y	y	CLI	CLI	_	7	dep	_	_	52.590000	52.650002	L1
+6	a	avoir	VRB	VRB	_	7	aux	_	_	52.650002	52.680000	L1
+7	eu	avoir	VPP	VPP	_	0	root	_	_	52.680000	53.009998	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	53.009998	53.480000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-17
+# text = un autre scandale on a découvert que des des carcasses britanniques qui étaient importées en France
+1	un	un	DET	DET	_	3	spe	_	_	53.480000	53.689999	L1
+2	autre	autre	ADJ	ADJ	_	3	dep	_	_	53.689999	53.939999	L1
+3	scandale	scandale	NOM	NOM	_	6	subj	_	_	53.939999	54.660000	L1
+4	on	on	CLS	CLS	_	6	subj	_	_	55.049999	55.240002	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	55.240002	55.320000	L1
+6	découvert	découvrir	VPP	VPP	_	0	root	_	_	55.320000	55.900002	L1
+7	que	que	CSU	CSU	_	6	dep	_	_	55.900002	56.070000	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	56.070000	56.299999	L1
+9	des	de	PRE	PRE	_	8	para	_	_	56.299999	56.439999	L1
+10	carcasses	carcasse	NOM	NOM	_	9	dep	_	_	56.439999	57.209999	L1
+11	britanniques	britannique	ADJ	ADJ	_	10	dep	_	_	57.209999	57.980000	L1
+12	qui	qui	PRQ	PRQ	_	14	subj	_	_	58.730000	58.930000	L1
+13	étaient	être	VRB	VRB	_	14	aux	_	_	58.930000	59.419998	L1
+14	importées	importer	VPP	VPP	_	10	dep	_	_	59.459999	59.919998	L1
+15	en	en	PRE	PRE	_	14	dep	_	_	59.919998	60.009998	L1
+16	France	France	NOM	NOM	_	15	dep	_	_	60.009998	60.759998	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-18
+# text = comportaient euh un médicament dangereux pour l'Homme
+1	comportaient	comporter	VRB	VRB	_	0	root	_	_	61.060001	61.619999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	61.619999	62.330002	L1
+3	un	un	DET	DET	_	4	spe	_	_	62.330002	62.369999	L1
+4	médicament	médicament	NOM	NOM	_	1	dep	_	_	62.369999	62.919998	L1
+5	dangereux	dangereux	ADJ	ADJ	_	4	dep	_	_	62.919998	63.470001	L1
+6	pour	pour	PRE	PRE	_	1	dep	_	_	63.509998	63.660000	L1
+7	l'	le	DET	DET	_	8	spe	_	_	63.660000	63.709999	L1
+8	Homme	homme	NOM	NOM	_	6	dep	_	_	63.709999	63.939999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-19
+# text = c'était je sais plus un médicament du du du phénil butazone quelque chose comme ça qui est qu'on donne aux chevaux euh pour euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	64.410004	64.480003	L1
+2	était	être	VRB	VRB	_	0	root	_	_	64.480003	64.879997	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	64.879997	65.040001	L1
+4	sais	savoir	VRB	VRB	_	2	dm	_	_	65.040001	65.250000	L1
+5	plus	plus	ADN	ADN	_	4	dep	_	_	65.250000	65.529999	L1
+6	un	un	DET	DET	_	7	spe	_	_	65.529999	65.559998	L1
+7	médicament	médicament	NOM	NOM	_	4	dep	_	_	65.559998	66.320000	L1
+8	du	de+le	PRE	PRE	_	7	dep	_	_	66.320000	66.449997	L1
+9	du	de+le	PRE	PRE	_	8	para	_	_	66.580002	66.639999	L1
+10	du	de+le	PRE	PRE	_	9	para	_	_	66.639999	66.709999	L1
+11	phénil	phénil	NOM	NOM	_	10	dep	_	_	66.870003	67.610001	L1
+12	butazone	butazone	ADJ	ADJ	_	11	dep	_	_	67.610001	68.389999	L1
+13	quelque chose	quelque chose	PRO	PRO	_	7	para	_	_	68.389999	68.889999	L1
+14	comme	comme	PRE	PRE	_	13	dep	_	_	68.889999	69.029999	L1
+15	ça	ça	PRO	PRO	_	14	dep	_	_	69.029999	69.309998	L1
+16	qui	qui	PRQ	PRQ	_	17	subj	_	_	69.639999	69.820000	L1
+17	est	être	VRB	VRB	_	13	dep	_	_	69.820000	70.059998	L1
+18	qu'	que	CSU	CSU	_	17	dep	_	_	70.059998	70.150002	L1
+19	on	on	CLS	CLS	_	20	subj	_	_	70.150002	70.660004	L1
+20	donne	donner	VRB	VRB	_	18	dep	_	_	70.660004	70.750000	L1
+21	aux	à+le	PRE	PRE	_	20	dep	_	_	70.750000	70.800003	L1
+22	chevaux	cheval	NOM	NOM	_	21	dep	_	_	70.800003	71.339996	L1
+23	euh	euh	INT	INT	_	22	dm	_	_	71.790001	72.029999	L1
+24	pour	pour	PRE	PRE	_	20	dep	_	_	72.029999	72.410004	L1
+25	euh	euh	INT	INT	_	24	dm	_	_	72.410004	72.779999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-20
+# text = o~ comme médicament anti douleur et dans ces carcasses il y avait des des résidus de ce médicament
+1	o~	o~	CLS	CLS	_	12	subj	_	_	72.779999	73.019997	L1
+2	comme	comme	PRE	PRE	_	12	periph	_	_	73.080002	73.400002	L1
+3	médicament	médicament	NOM	NOM	_	2	dep	_	_	73.400002	73.900002	L1
+4	anti	anti	ADJ	ADJ	_	3	dep	_	_	73.900002	74.080002	L1
+5	douleur	douleur	NOM	NOM	_	4	dep	_	_	74.160004	74.540001	L1
+6	et	et	COO	COO	_	12	mark	_	_	74.900002	75.269997	L1
+7	dans	dans	PRE	PRE	_	12	periph	_	_	75.269997	75.419998	L1
+8	ces	ce	DET	DET	_	9	spe	_	_	75.419998	75.559998	L1
+9	carcasses	carcasse	NOM	NOM	_	7	dep	_	_	75.559998	76.110001	L1
+10	il	il	CLS	CLS	_	12	subj	_	_	76.110001	76.180000	L1
+11	y	y	CLI	CLI	_	12	dep	_	_	76.180000	76.230003	L1
+12	avait	avoir	VRB	VRB	_	0	root	_	_	76.230003	76.489998	L1
+13	des	de	PRE	PRE	_	12	dep	_	_	76.489998	76.870003	L1
+14	des	de	PRE	PRE	_	13	para	_	_	76.870003	77.059998	L1
+15	résidus	résidu	NOM	NOM	_	14	dep	_	_	77.059998	77.459999	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	77.459999	77.540001	L1
+17	ce	ce	DET	DET	_	18	spe	_	_	77.540001	77.760002	L1
+18	médicament	médicament	NOM	NOM	_	16	dep	_	_	77.760002	78.269997	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-21
+# text = qu~ qui est mauvais pour l'Homme
+1	qu~	qu~	PRQ	PRQ	_	3	dep	_	_	78.269997	78.389999	L1
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	78.389999	78.419998	L1
+3	est	être	VRB	VRB	_	0	root	_	_	78.419998	78.589996	L1
+4	mauvais	mauvais	ADJ	ADJ	_	3	dep	_	_	78.589996	78.860001	L1
+5	pour	pour	PRE	PRE	_	3	dep	_	_	78.860001	79.070000	L1
+6	l'	le	DET	DET	_	7	spe	_	_	79.070000	79.129997	L1
+7	Homme	homme	NOM	NOM	_	5	dep	_	_	79.129997	79.300003	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-22
+# text = donc ça c'était un deuxième événement
+1	donc	donc	ADV	ADV	_	4	periph	_	_	79.300003	79.500000	L1
+2	ça	ça	PRO	PRO	_	4	periph	_	_	79.500000	79.589996	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	79.589996	79.669998	L1
+4	était	être	VRB	VRB	_	0	root	_	_	79.669998	79.949997	L1
+5	un	un	DET	DET	_	7	spe	_	_	80.190002	80.349998	L1
+6	deuxième	deuxième	ADJ	ADJ	_	7	dep	_	_	80.349998	80.699997	L1
+7	événement	événement	NOM	NOM	_	4	dep	_	_	80.699997	81.160004	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-23
+# text = et puis il y a eu euh ce troisième événement
+1	et puis	et puis	COO	COO	_	5	mark	_	_	81.489998	81.949997	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	81.949997	81.980003	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	81.980003	82.019997	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	82.019997	82.059998	L1
+5	eu	avoir	VPP	VPP	_	0	root	_	_	82.059998	82.220001	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	82.220001	82.349998	L1
+7	ce	ce	DET	DET	_	9	spe	_	_	82.349998	82.510002	L1
+8	troisième	troisième	ADJ	ADJ	_	9	dep	_	_	82.510002	83.000000	L1
+9	événement	événement	NOM	NOM	_	5	dep	_	_	83.000000	83.500000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-24
+# text = alors qui a qui a qui a déclenché le le scandale avec NNAAMMEE
+1	alors	alors	ADV	ADV	_	3	periph	_	_	83.500000	83.680000	L1
+2	qui	qui	PRQ	PRQ	_	3	dep	_	_	83.680000	83.760002	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	83.760002	83.820000	L1
+4	qui	qui	PRQ	PRQ	_	8	dep	_	_	83.870003	83.949997	L1
+5	a	avoir	VRB	VRB	_	8	aux	_	_	84.019997	84.050003	L1
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	84.339996	84.419998	L1
+7	a	avoir	VRB	VRB	_	8	aux	_	_	84.419998	84.449997	L1
+8	déclenché	déclencher	VPP	VPP	_	3	dep	_	_	84.519997	85.269997	L1
+9	le	le	DET	DET	_	11	spe	_	_	85.269997	85.820000	L1
+10	le	le	DET	DET	_	9	para	_	_	85.879997	86.040001	L1
+11	scandale	scandale	NOM	NOM	_	8	dep	_	_	86.040001	86.970001	L1
+12	avec	avec	PRE	PRE	_	8	dep	_	_	86.970001	87.290001	L1
+13	NNAAMMEE	NOM	NOM	NOM	_	12	dep	_	_	87.290001	87.599998	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-25
+# text = c'est que la société NNAAMMEE a été alertée par un sous traitant qui est un sous traitant français qui s'appelle NNAAMMEE que ils avaient trouvé des traces de de viande de de cheval dans de de la viande de boeuf
+1	c'	ce	CLS	CLS	_	2	subj	_	_	87.599998	87.809998	L1
+2	est	être	VRB	VRB	_	0	root	_	_	87.809998	87.889999	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	87.889999	88.129997	L1
+4	la	le	DET	DET	_	5	spe	_	_	88.370003	88.540001	L1
+5	société	société	NOM	NOM	_	9	periph	_	_	88.540001	89.080002	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	9	subj	_	_	89.139999	89.610001	L1
+7	a	avoir	VRB	VRB	_	8	aux	_	_	90.010002	90.190002	L1
+8	été	être	VPP	VPP	_	9	aux	_	_	90.190002	90.669998	L1
+9	alertée	alerter	VPP	VPP	_	3	dep	_	_	90.669998	91.269997	L1
+10	par	par	PRE	PRE	_	9	dep	_	_	91.269997	91.470001	L1
+11	un	un	DET	DET	_	12	spe	_	_	91.470001	91.559998	L1
+12	sous	sou	NOM	NOM	_	10	dep	_	_	91.559998	91.699997	L1
+13	traitant	traitant	ADJ	ADJ	_	12	dep	_	_	91.699997	92.150002	L1
+14	qui	qui	PRQ	PRQ	_	15	dep	_	_	92.290001	92.570000	L1
+15	est	être	VRB	VRB	_	12	dep	_	_	92.570000	92.620003	L1
+16	un	un	DET	DET	_	17	spe	_	_	92.620003	92.650002	L1
+17	sous	sou	NOM	NOM	_	15	dep	_	_	92.650002	92.779999	L1
+18	traitant	traiter	VPR	VPR	_	17	dep	_	_	92.779999	93.089996	L1
+19	français	français	NOM	NOM	_	18	dep	_	_	93.089996	93.480003	L1
+20	qui	qui	PRQ	PRQ	_	22	subj	_	_	93.480003	93.550003	L1
+21	s'	se	CLI	CLI	_	22	dep	_	_	93.550003	93.620003	L1
+22	appelle	appeler	VRB	VRB	_	19	dep	_	_	93.620003	93.830002	L1
+23	NNAAMMEE	NOM	NOM	NOM	_	22	dep	_	_	93.930000	94.370003	L1
+24	que	que	CSU	CSU	_	3	para	_	_	95.099998	95.449997	L1
+25	ils	il	CLS	CLS	_	27	subj	_	_	95.449997	95.739998	L1
+26	avaient	avoir	VRB	VRB	_	27	aux	_	_	95.739998	95.940002	L1
+27	trouvé	se trouver	VPP	VPP	_	24	dep	_	_	95.940002	96.400002	L1
+28	des	de	PRE	PRE	_	27	dep	_	_	96.400002	96.559998	L1
+29	traces	trace	NOM	NOM	_	28	dep	_	_	96.559998	97.260002	L1
+30	de	de	PRE	PRE	_	28	para	_	_	97.690002	98.230003	L1
+31	de	de	PRE	PRE	_	30	para	_	_	98.230003	98.550003	L1
+32	viande	viande	NOM	NOM	_	31	dep	_	_	98.550003	99.370003	L1
+33	de	de	PRE	PRE	_	32	dep	_	_	99.510002	99.540001	L1
+34	de	de	PRE	PRE	_	33	para	_	_	99.589996	99.779999	L1
+35	cheval	cheval	NOM	NOM	_	34	dep	_	_	99.779999	100.309998	L1
+36	dans	dans	PRE	PRE	_	27	dep	_	_	101.010002	101.220001	L1
+37	de	de	PRE	PRE	_	36	dep	_	_	101.220001	101.650002	L1
+38	de	de	PRE	PRE	_	37	para	_	_	101.650002	101.779999	L1
+39	la	le	DET	DET	_	40	spe	_	_	101.779999	101.889999	L1
+40	viande	viande	NOM	NOM	_	38	dep	_	_	101.889999	102.220001	L1
+41	de	de	PRE	PRE	_	40	dep	_	_	102.220001	102.260002	L1
+42	boeuf	boeuf	NOM	NOM	_	41	dep	_	_	102.260002	102.400002	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-26
+# text = donc le le scandale a commencé comme ça
+1	donc	donc	ADV	ADV	_	6	periph	_	_	102.620003	102.930000	L1
+2	le	le	DET	DET	_	4	spe	_	_	102.930000	103.059998	L1
+3	le	le	DET	DET	_	2	para	_	_	103.059998	103.190002	L1
+4	scandale	scandale	NOM	NOM	_	6	subj	_	_	103.190002	103.570000	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	103.570000	103.629997	L1
+6	commencé	commencer	VPP	VPP	_	0	root	_	_	103.629997	104.050003	L1
+7	comme	comme	PRE	PRE	_	6	dep	_	_	104.050003	104.199997	L1
+8	ça	ça	PRO	PRO	_	7	dep	_	_	104.199997	104.389999	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-27
+# text = alors euh il y a eu des enquêtes
+1	alors	alors	ADV	ADV	_	6	periph	_	_	105.160004	105.610001	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	105.610001	106.070000	L1
+3	il	il	CLS	CLS	_	6	subj	_	_	107.089996	107.269997	L1
+4	y	y	CLI	CLI	_	6	dep	_	_	107.269997	107.300003	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	107.300003	107.330002	L1
+6	eu	avoir	VPP	VPP	_	0	root	_	_	107.330002	107.419998	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	107.419998	107.660004	L1
+8	enquêtes	enquête	NOM	NOM	_	7	dep	_	_	107.660004	108.360001	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-28
+# text = et finalement on s'est aperçu qu'il y avait un circuit extrêmement compliqué euh dans dans cette affaire de de de plats euh surgelés qui étaient fabriqués
+1	et	et	COO	COO	_	6	mark	_	_	108.760002	109.070000	L1
+2	finalement	finalement	ADV	ADV	_	6	periph	_	_	109.070000	109.550003	L1
+3	on	on	CLS	CLS	_	6	subj	_	_	109.550003	109.589996	L1
+4	s'	se	CLI	CLI	_	6	dep	_	_	109.589996	109.639999	L1
+5	est	être	VRB	VRB	_	6	aux	_	_	109.639999	109.769997	L1
+6	aperçu	apercevoir	VPP	VPP	_	0	root	_	_	109.769997	110.330002	L1
+7	qu'	que	CSU	CSU	_	6	dep	_	_	110.330002	110.360001	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	110.360001	110.419998	L1
+9	y	y	CLI	CLI	_	10	dep	_	_	110.419998	110.480003	L1
+10	avait	avoir	VRB	VRB	_	7	dep	_	_	110.480003	110.839996	L1
+11	un	un	DET	DET	_	12	spe	_	_	110.879997	111.040001	L1
+12	circuit	circuit	NOM	NOM	_	10	dep	_	_	111.040001	111.680000	L1
+13	extrêmement	extrêmement	ADV	ADV	_	14	dep	_	_	111.750000	112.400002	L1
+14	compliqué	compliqué	ADJ	ADJ	_	12	dep	_	_	112.400002	113.099998	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	113.559998	113.860001	L1
+16	dans	dans	PRE	PRE	_	10	dep	_	_	113.860001	114.129997	L1
+17	dans	dans	PRE	PRE	_	16	para	_	_	114.129997	114.320000	L1
+18	cette	ce	DET	DET	_	19	spe	_	_	114.320000	114.510002	L1
+19	affaire	affaire	NOM	NOM	_	17	dep	_	_	114.510002	114.970001	L1
+20	de	de	PRE	PRE	_	19	dep	_	_	114.970001	115.519997	L1
+21	de	de	PRE	PRE	_	20	para	_	_	115.519997	115.940002	L1
+22	de	de	PRE	PRE	_	21	para	_	_	115.940002	116.110001	L1
+23	plats	plat	NOM	NOM	_	22	dep	_	_	116.110001	116.599998	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	116.599998	116.660004	L1
+25	surgelés	surgeler	VPP	VPP	_	23	dep	_	_	116.839996	117.589996	L1
+26	qui	qui	PRQ	PRQ	_	28	subj	_	_	118.040001	118.169998	L1
+27	étaient	être	VRB	VRB	_	28	aux	_	_	118.169998	118.410004	L1
+28	fabriqués	fabriquer	VPP	VPP	_	19	dep	_	_	118.449997	119.180000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-29
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	119.180000	119.440002	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	119.580002	119.949997	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-30
+# text = en France
+1	en	en	PRE	PRE	_	0	root	_	_	120.010002	120.169998	L1
+2	France	France	NOM	NOM	_	1	dep	_	_	120.169998	120.839996	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-31
+# text = mais le le circuit est extrêmement compliqué
+1	mais	mais	COO	COO	_	5	mark	_	_	121.129997	121.360001	L1
+2	le	le	DET	DET	_	4	spe	_	_	121.360001	121.500000	L1
+3	le	le	DET	DET	_	2	para	_	_	121.500000	121.669998	L1
+4	circuit	circuit	NOM	NOM	_	5	subj	_	_	121.669998	122.110001	L1
+5	est	être	VRB	VRB	_	0	root	_	_	122.110001	122.180000	L1
+6	extrêmement	extrêmement	ADV	ADV	_	7	dep	_	_	122.180000	122.739998	L1
+7	compliqué	compliqué	ADJ	ADJ	_	5	dep	_	_	122.739998	123.250000	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-32
+# text = alors cette viande viendrait
+1	alors	alors	ADV	ADV	_	4	periph	_	_	123.500000	123.910004	L1
+2	cette	ce	DET	DET	_	3	spe	_	_	124.029999	124.349998	L1
+3	viande	viande	NOM	NOM	_	4	subj	_	_	124.349998	124.849998	L1
+4	viendrait	venir	VRB	VRB	_	0	root	_	_	125.150002	125.910004	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-33
+# text = enfin vient parce que maintenant c'est c'est avéré cette viande viendrait de de Roumanie des abattoirs de de Roumanie qui sont envoyés
+1	enfin	enfin	ADV	ADV	_	2	dm	_	_	125.910004	126.139999	L1
+2	vient	venir	VRB	VRB	_	0	root	_	_	126.139999	126.510002	L1
+3	parce que	parce que	CSU	CSU	_	2	dep	_	_	126.510002	126.849998	L1
+4	maintenant	maintenant	ADV	ADV	_	6	periph	_	_	126.849998	127.260002	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	127.260002	127.400002	L1
+6	est	être	VRB	VRB	_	3	dep	_	_	127.400002	127.620003	L1
+7	c'	ce	CLS	CLS	_	9	subj	_	_	127.620003	127.709999	L1
+8	est	être	VRB	VRB	_	9	aux	_	_	127.709999	127.790001	L1
+9	avéré	s'avérer	VPP	VPP	_	6	dep	_	_	127.790001	128.240005	L1
+10	cette	ce	DET	DET	_	11	spe	_	_	128.570007	128.880005	L1
+11	viande	viande	NOM	NOM	_	12	subj	_	_	128.880005	129.279999	L1
+12	viendrait	venir	VRB	VRB	_	9	dep	_	_	129.279999	129.860001	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	129.860001	130.220001	L1
+14	de	de	PRE	PRE	_	13	para	_	_	130.220001	130.350006	L1
+15	Roumanie	Roumanie	NOM	NOM	_	14	dep	_	_	130.350006	130.929993	L1
+16	des	de	PRE	PRE	_	15	dep	_	_	131.029999	131.240005	L1
+17	abattoirs	abattoir	NOM	NOM	_	16	dep	_	_	131.240005	131.839996	L1
+18	de	de	PRE	PRE	_	17	dep	_	_	131.839996	132.080002	L1
+19	de	de	PRE	PRE	_	18	para	_	_	132.619995	132.710007	L1
+20	Roumanie	Roumanie	NOM	NOM	_	19	dep	_	_	132.779999	133.350006	L1
+21	qui	qui	PRQ	PRQ	_	23	subj	_	_	133.740005	133.889999	L1
+22	sont	être	VRB	VRB	_	23	aux	_	_	133.889999	134.279999	L1
+23	envoyés	envoyer	VPP	VPP	_	20	dep	_	_	134.279999	135.070007	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-34
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	135.369995	135.759995	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	135.889999	136.429993	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-35
+# text = en Hollande dans une société ho~ hollandaise d'importation
+1	en	en	PRE	PRE	_	3	periph	_	_	136.470001	136.710007	L1
+2	Hollande	hollande	NOM	NOM	_	1	dep	_	_	136.710007	137.229996	L1
+3	dans	dans	PRE	PRE	_	0	root	_	_	137.529999	137.759995	L1
+4	une	un	DET	DET	_	5	spe	_	_	137.759995	137.869995	L1
+5	société	société	NOM	NOM	_	3	dep	_	_	137.869995	138.419998	L1
+6	ho~	ho~	ADJ	ADJ	_	5	dep	_	_	138.419998	138.919998	L1
+7	hollandaise	hollandais	ADJ	ADJ	_	5	dep	_	_	139.000000	139.809998	L1
+8	d'	de	PRE	PRE	_	5	dep	_	_	139.809998	139.880005	L1
+9	importation	importation	NOM	NOM	_	8	dep	_	_	139.880005	140.619995	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-36
+# text = et cette société hollandaise euh envoie des transports de viande à une société française qui s'appelle NNAAMMEE
+1	et	et	COO	COO	_	3	mark	_	_	141.000000	141.070007	L1
+2	cette	ce	DET	DET	_	3	spe	_	_	141.070007	141.300003	L1
+3	société	société	NOM	NOM	_	6	subj	_	_	141.300003	141.800003	L1
+4	hollandaise	hollandais	ADJ	ADJ	_	3	dep	_	_	141.800003	142.600006	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	142.910004	143.559998	L1
+6	envoie	envoyer	VRB	VRB	_	0	root	_	_	143.619995	144.369995	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	144.369995	144.630005	L1
+8	transports	transport	NOM	NOM	_	7	dep	_	_	144.630005	145.279999	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	145.279999	145.389999	L1
+10	viande	viande	NOM	NOM	_	9	dep	_	_	145.389999	145.949997	L1
+11	à	à	PRE	PRE	_	6	dep	_	_	145.949997	145.979996	L1
+12	une	un	DET	DET	_	13	spe	_	_	145.979996	146.110001	L1
+13	société	société	NOM	NOM	_	11	dep	_	_	146.110001	146.520004	L1
+14	française	français	ADJ	ADJ	_	13	dep	_	_	146.520004	147.080002	L1
+15	qui	qui	PRQ	PRQ	_	17	dep	_	_	147.570007	147.690002	L1
+16	s'	se	CLI	CLI	_	17	dep	_	_	147.690002	147.789993	L1
+17	appelle	appeler	VRB	VRB	_	13	dep	_	_	147.789993	148.649994	L1
+18	NNAAMMEE	NOM	NOM	NOM	_	17	dep	_	_	148.809998	149.070007	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-37
+# text = et cette société NNAAMMEE fournit la société la fameuse société NNAAMMEE qui fabrique euh des plats surgelés
+1	et	et	COO	COO	_	5	mark	_	_	149.919998	150.029999	L1
+2	cette	ce	DET	DET	_	3	spe	_	_	150.029999	150.240005	L1
+3	société	société	NOM	NOM	_	5	subj	_	_	150.240005	150.949997	L1
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	151.130005	151.740005	L1
+5	fournit	fournir	VRB	VRB	_	0	root	_	_	151.960007	152.449997	L1
+6	la	le	DET	DET	_	7	spe	_	_	152.449997	152.610001	L1
+7	société	société	NOM	NOM	_	5	dep	_	_	152.639999	153.330002	L1
+8	la	le	DET	DET	_	10	spe	_	_	153.330002	153.419998	L1
+9	fameuse	fameux	ADJ	ADJ	_	10	dep	_	_	153.419998	153.740005	L1
+10	société	société	NOM	NOM	_	5	dep	_	_	153.740005	154.130005	L1
+11	NNAAMMEE	NOM	NOM	NOM	_	10	dep	_	_	154.130005	154.910004	L1
+12	qui	qui	PRQ	PRQ	_	13	dep	_	_	155.199997	155.369995	L1
+13	fabrique	fabriquer	VRB	VRB	_	10	dep	_	_	155.369995	156.250000	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	156.250000	156.320007	L1
+15	des	de	PRE	PRE	_	13	dep	_	_	156.320007	156.429993	L1
+16	plats	plat	NOM	NOM	_	15	dep	_	_	156.429993	156.580002	L1
+17	surgelés	surgeler	VPP	VPP	_	16	dep	_	_	156.580002	157.169998	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-38
+# text = mais en fait cette société NNAAMMEE euh
+1	mais	mais	COO	COO	_	3	mark	_	_	157.419998	157.580002	L1
+2	en	en	PRE	PRE	_	3	periph	_	_	157.580002	157.720001	L1
+3	fait	faire	VPP	VPP	_	0	root	_	_	157.720001	157.970001	L1
+4	cette	ce	DET	DET	_	5	spe	_	_	157.970001	158.190002	L1
+5	société	société	NOM	NOM	_	3	dep	_	_	158.669998	159.449997	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	159.449997	160.380005	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	160.550003	161.039993	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-39
+# text = a des des usines de fabrication euh au Luxembourg
+1	a	avoir	VRB	VRB	_	0	root	_	_	161.300003	161.410004	L1
+2	des	de	PRE	PRE	_	1	dep	_	_	161.410004	161.470001	L1
+3	des	de	PRE	PRE	_	2	para	_	_	161.470001	162.009995	L1
+4	usines	usine	NOM	NOM	_	3	dep	_	_	162.009995	162.419998	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	162.479996	162.589996	L1
+6	fabrication	fabrication	NOM	NOM	_	5	dep	_	_	162.589996	163.529999	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	164.149994	164.559998	L1
+8	au	à+le	PRE	PRE	_	1	dep	_	_	164.559998	164.669998	L1
+9	Luxembourg	Luxembourg	NOM	NOM	_	8	dep	_	_	164.669998	165.300003	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-40
+# text = qui qui nt utilise cette viande qui est envoyée directement par euh l~ la société NNAAMMEE
+1	qui	qui	PRQ	PRQ	_	4	dep	_	_	165.889999	166.960007	L1
+2	qui	qui	PRQ	PRQ	_	4	subj	_	_	167.009995	167.149994	L1
+3	nt	nt	CLI	CLI	_	4	dep	_	_	167.149994	167.149994	L1
+4	utilise	utiliser	VRB	VRB	_	0	root	_	_	167.149994	167.539993	L1
+5	cette	ce	DET	DET	_	6	spe	_	_	167.539993	167.779999	L1
+6	viande	viande	NOM	NOM	_	4	dep	_	_	167.779999	168.149994	L1
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	168.429993	168.539993	L1
+8	est	être	VRB	VRB	_	9	aux	_	_	168.539993	168.770004	L1
+9	envoyée	envoyer	VPP	VPP	_	6	dep	_	_	168.770004	169.259995	L1
+10	directement	directement	ADV	ADV	_	9	dep	_	_	169.259995	170.100006	L1
+11	par	par	PRE	PRE	_	9	dep	_	_	170.100006	170.460007	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	170.460007	171.130005	L1
+13	l~	l~	X	X	_	11	disflink	_	_	171.130005	171.199997	L1
+14	la	le	DET	DET	_	15	spe	_	_	171.479996	172.000000	L1
+15	société	société	NOM	NOM	_	9	dep	_	_	172.000000	172.429993	L1
+16	NNAAMMEE	NOM	NOM	NOM	_	15	dep	_	_	172.570007	172.820007	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-41
+# text = alors donc ça fait déjà pas mal d'intermédiaires
+1	alors	alors	ADV	ADV	_	4	periph	_	_	173.539993	173.940002	L1
+2	donc	donc	ADV	ADV	_	4	periph	_	_	174.210007	174.639999	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	174.639999	174.800003	L1
+4	fait	faire	VRB	VRB	_	0	root	_	_	174.800003	174.860001	L1
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	174.860001	175.149994	L1
+6	pas	pas	ADN	ADN	_	7	dep	_	_	175.149994	175.270004	L1
+7	mal	mal	ADV	ADV	_	4	dep	_	_	175.270004	175.449997	L1
+8	d'	de	PRE	PRE	_	4	dep	_	_	175.449997	175.479996	L1
+9	intermédiaires	intermédiaire	NOM	NOM	_	8	dep	_	_	175.479996	176.199997	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-42
+# text = alors donc euh qu'est ce qu'il y a aussi
+1	alors	alors	ADV	ADV	_	5	periph	_	_	176.580002	176.960007	L1
+2	donc	donc	ADV	ADV	_	5	periph	_	_	177.250000	177.710007	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	177.710007	177.940002	L1
+4	qu'	que	PRQ	PRQ	_	5	dep	_	_	177.940002	178.020004	L1
+5	est	être	VRB	VRB	_	0	root	_	_	178.020004	178.470001	L1
+6	ce	ce	PRO	PRO	_	5	dep	_	_	178.470001	178.619995	L1
+7	qu'	que	PRQ	PRQ	_	10	dep	_	_	178.619995	178.649994	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	178.649994	178.740005	L1
+9	y	y	CLI	CLI	_	10	dep	_	_	178.740005	178.770004	L1
+10	a	avoir	VRB	VRB	_	6	dep	_	_	178.770004	178.809998	L1
+11	aussi	aussi	ADV	ADV	_	10	dep	_	_	178.809998	179.089996	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-43
+# text = ah oui il y a aussi une partie de de de de la de la viande qui est envoyée par les Roumains aux sociétés hollandaises qui repart en Irlande parce qu'ils ont découvert que euh en Irlande on fabriquait de la sauce bolognaise à partir de cette viande de cheval
+1	ah	ah	INT	INT	_	5	dm	_	_	179.089996	179.119995	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	179.119995	179.289993	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	179.289993	179.339996	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	179.339996	179.389999	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	179.389999	179.419998	L1
+6	aussi	aussi	ADV	ADV	_	5	dep	_	_	179.419998	179.949997	L1
+7	une	un	DET	DET	_	8	spe	_	_	179.949997	180.110001	L1
+8	partie	partie	NOM	NOM	_	5	dep	_	_	180.110001	180.690002	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	180.690002	181.229996	L1
+10	de	de	PRE	PRE	_	9	para	_	_	181.539993	181.929993	L1
+11	de	de	PRE	PRE	_	10	para	_	_	181.929993	182.160004	L1
+12	de	de	PRE	PRE	_	11	para	_	_	182.160004	182.320007	L1
+13	la	le	DET	DET	_	12	disflink	_	_	182.320007	182.779999	L1
+14	de	de	PRE	PRE	_	12	para	_	_	182.779999	182.940002	L1
+15	la	le	DET	DET	_	16	spe	_	_	182.940002	183.020004	L1
+16	viande	viande	NOM	NOM	_	14	dep	_	_	183.020004	183.429993	L1
+17	qui	qui	PRQ	PRQ	_	19	subj	_	_	183.429993	183.539993	L1
+18	est	être	VRB	VRB	_	19	aux	_	_	183.539993	183.600006	L1
+19	envoyée	envoyer	VPP	VPP	_	16	dep	_	_	183.600006	184.169998	L1
+20	par	par	PRE	PRE	_	19	dep	_	_	184.169998	184.460007	L1
+21	les	le	DET	DET	_	22	spe	_	_	184.460007	184.559998	L1
+22	Roumains	roumain	NOM	NOM	_	20	dep	_	_	184.559998	184.960007	L1
+23	aux	à+le	PRE	PRE	_	22	dep	_	_	184.960007	184.990005	L1
+24	sociétés	société	NOM	NOM	_	23	dep	_	_	184.990005	185.330002	L1
+25	hollandaises	hollandais	ADJ	ADJ	_	24	dep	_	_	185.330002	185.759995	L1
+26	qui	qui	PRQ	PRQ	_	27	dep	_	_	185.759995	185.880005	L1
+27	repart	repartir	VRB	VRB	_	24	dep	_	_	185.880005	186.449997	L1
+28	en	en	PRE	PRE	_	27	dep	_	_	186.850006	187.070007	L1
+29	Irlande	Irlande	NOM	NOM	_	28	dep	_	_	187.070007	187.669998	L1
+30	parce qu'	parce que	CSU	CSU	_	5	dep	_	_	187.990005	188.270004	L1
+31	ils	il	CLS	CLS	_	33	subj	_	_	188.270004	188.410004	L1
+32	ont	avoir	VRB	VRB	_	33	aux	_	_	188.410004	188.509995	L1
+33	découvert	découvrir	VPP	VPP	_	30	dep	_	_	188.509995	189.130005	L1
+34	que	que	CSU	CSU	_	33	dep	_	_	189.330002	189.740005	L1
+35	euh	euh	INT	INT	_	34	dm	_	_	189.899994	190.190002	L1
+36	en	en	PRE	PRE	_	39	periph	_	_	190.190002	190.699997	L1
+37	Irlande	Irlande	NOM	NOM	_	36	dep	_	_	190.699997	191.059998	L1
+38	on	on	CLS	CLS	_	39	subj	_	_	191.059998	191.100006	L1
+39	fabriquait	fabriquer	VRB	VRB	_	34	dep	_	_	191.100006	191.729996	L1
+40	de	de	PRE	PRE	_	39	dep	_	_	192.080002	192.240005	L1
+41	la	le	DET	DET	_	42	spe	_	_	192.240005	192.369995	L1
+42	sauce	sauce	NOM	NOM	_	40	dep	_	_	192.369995	192.710007	L1
+43	bolognaise	bolognaise	ADJ	ADJ	_	42	dep	_	_	192.710007	193.600006	L1
+44	à	à	PRE	PRE	_	39	dep	_	_	193.910004	194.449997	L1
+45	partir	partir	VNF	VNF	_	44	dep	_	_	194.449997	194.940002	L1
+46	de	de	PRE	PRE	_	45	dep	_	_	194.940002	195.029999	L1
+47	cette	ce	DET	DET	_	48	spe	_	_	195.029999	195.289993	L1
+48	viande	viande	NOM	NOM	_	46	dep	_	_	195.289993	195.589996	L1
+49	de	de	PRE	PRE	_	48	dep	_	_	195.589996	195.619995	L1
+50	cheval	cheval	NOM	NOM	_	49	dep	_	_	195.619995	195.880005	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-44
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	196.320007	196.479996	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-45
+# text = donc ça fait déjà pas mal d'intermédiaires
+1	donc	donc	ADV	ADV	_	3	periph	_	_	196.789993	196.990005	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	196.990005	197.110001	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	197.149994	197.259995	L1
+4	déjà	déjà	ADV	ADV	_	3	dep	_	_	197.259995	197.529999	L1
+5	pas	pas	ADN	ADN	_	6	dep	_	_	197.529999	197.639999	L1
+6	mal	mal	ADV	ADV	_	3	dep	_	_	197.639999	197.839996	L1
+7	d'	de	PRE	PRE	_	3	dep	_	_	197.839996	197.899994	L1
+8	intermédiaires	intermédiaire	NOM	NOM	_	7	dep	_	_	197.899994	198.699997	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-46
+# text = et puis on a découvert encore récemment que tout cette affaire était finalement organisée commercialement par une société chypriote
+1	et puis	et puis	COO	COO	_	4	mark	_	_	199.449997	200.009995	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	200.009995	200.279999	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	200.279999	200.410004	L1
+4	découvert	découvrir	VPP	VPP	_	0	root	_	_	200.410004	200.889999	L1
+5	encore	encore	ADV	ADV	_	4	dep	_	_	200.889999	201.690002	L1
+6	récemment	récemment	ADV	ADV	_	7	dep	_	_	201.800003	202.360001	L1
+7	que	que	CSU	CSU	_	4	dep	_	_	202.529999	202.669998	L1
+8	tout	tout	ADJ	ADJ	_	10	dep	_	_	202.669998	202.830002	L1
+9	cette	ce	DET	DET	_	10	spe	_	_	202.830002	203.130005	L1
+10	affaire	affaire	NOM	NOM	_	13	subj	_	_	203.130005	203.570007	L1
+11	était	être	VRB	VRB	_	13	aux	_	_	204.119995	204.589996	L1
+12	finalement	finalement	ADV	ADV	_	13	dep	_	_	204.990005	205.520004	L1
+13	organisée	organiser	VPP	VPP	_	7	dep	_	_	205.520004	206.029999	L1
+14	commercialement	commercialement	ADV	ADV	_	13	dep	_	_	206.029999	206.880005	L1
+15	par	par	PRE	PRE	_	13	dep	_	_	206.880005	207.179993	L1
+16	une	un	DET	DET	_	17	spe	_	_	207.179993	207.300003	L1
+17	société	société	NOM	NOM	_	15	dep	_	_	207.300003	207.979996	L1
+18	chypriote	chypriote	ADJ	ADJ	_	17	dep	_	_	208.210007	209.009995	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-47
+# text = donc euh euh dont dont le le propriétaire est un Hollandais qui qui donc euh exporte la société la la viande roumaine sur euh sur euh la Hollande
+1	donc	donc	ADV	ADV	_	9	periph	_	_	209.600006	210.100006	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	210.100006	210.360001	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	210.710007	211.360001	L1
+4	dont	dont	PRQ	PRQ	_	9	dep	_	_	211.360001	211.740005	L1
+5	dont	dont	PRQ	PRQ	_	4	para	_	_	211.740005	211.910004	L1
+6	le	le	DET	DET	_	8	spe	_	_	211.910004	212.350006	L1
+7	le	le	DET	DET	_	6	para	_	_	212.350006	212.509995	L1
+8	propriétaire	propriétaire	NOM	NOM	_	9	subj	_	_	212.509995	213.410004	L1
+9	est	être	VRB	VRB	_	0	root	_	_	213.410004	213.949997	L1
+10	un	un	DET	DET	_	11	spe	_	_	213.949997	214.149994	L1
+11	Hollandais	hollandais	NOM	NOM	_	9	dep	_	_	214.149994	214.759995	L1
+12	qui	qui	PRQ	PRQ	_	16	dep	_	_	216.100006	216.690002	L1
+13	qui	qui	PRQ	PRQ	_	12	para	_	_	216.690002	216.940002	L1
+14	donc	donc	ADV	ADV	_	16	periph	_	_	216.940002	217.369995	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	217.369995	217.429993	L1
+16	exporte	exporter	VRB	VRB	_	11	dep	_	_	217.429993	218.229996	L1
+17	la	le	DET	DET	_	18	spe	_	_	218.229996	218.320007	L1
+18	société	société	NOM	NOM	_	16	dep	_	_	218.320007	218.800003	L1
+19	la	le	DET	DET	_	21	spe	_	_	218.800003	219.119995	L1
+20	la	le	DET	DET	_	19	para	_	_	219.119995	219.279999	L1
+21	viande	viande	NOM	NOM	_	16	dep	_	_	219.279999	219.490005	L1
+22	roumaine	roumain	ADJ	ADJ	_	21	dep	_	_	219.490005	219.979996	L1
+23	sur	sur	PRE	PRE	_	16	dep	_	_	220.339996	221.229996	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	221.360001	221.389999	L1
+25	sur	sur	PRE	PRE	_	23	para	_	_	221.639999	222.250000	L1
+26	euh	euh	INT	INT	_	25	dm	_	_	222.250000	222.470001	L1
+27	la	le	DET	DET	_	28	spe	_	_	222.589996	222.740005	L1
+28	Hollande	hollande	NOM	NOM	_	25	dep	_	_	222.740005	223.100006	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-48
+# text = donc t alors qu'est ce qui se passe maintenant
+1	donc	donc	ADV	ADV	_	5	periph	_	_	223.289993	223.559998	L1
+2	t	t	X	X	_	1	disflink	_	_	223.630005	223.699997	L1
+3	alors	alors	ADV	ADV	_	5	periph	_	_	224.919998	225.210007	L1
+4	qu'	que	CSU	CSU	_	5	dep	_	_	225.250000	225.360001	L1
+5	est	être	VRB	VRB	_	0	root	_	_	225.360001	225.449997	L1
+6	ce	ce	PRO	PRO	_	5	dep	_	_	225.449997	225.539993	L1
+7	qui	qui	PRQ	PRQ	_	9	dep	_	_	225.539993	225.669998	L1
+8	se	se	CLI	CLI	_	9	dep	_	_	225.669998	225.800003	L1
+9	passe	passer	VRB	VRB	_	6	dep	_	_	225.800003	226.309998	L1
+10	maintenant	maintenant	ADV	ADV	_	9	dep	_	_	226.309998	226.539993	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-49
+# text = alors tout le monde s'inquiète bien sûr puisque la plupart des des plats surgelés euh qui sont fabriqués et diffusés en Europe euh sont fabriqués précisement par NNAAMMEE qui est le le sous traitant principal en plus
+1	alors	alors	ADV	ADV	_	4	periph	_	_	226.539993	226.889999	L1
+2	tout le monde	tout le monde	PRO	PRO	_	4	subj	_	_	226.949997	227.339996	L1
+3	s'	se	CLI	CLI	_	4	dep	_	_	227.339996	227.399994	L1
+4	inquiète	inquiéter	VRB	VRB	_	0	root	_	_	227.399994	227.839996	L1
+5	bien	bien	ADV	ADV	_	4	dep	_	_	227.839996	228.029999	L1
+6	sûr	sûr	ADJ	ADJ	_	5	morph	_	_	228.029999	228.289993	L1
+7	puisque	puisque	CSU	CSU	_	4	periph	_	_	228.289993	228.919998	L1
+8	la plupart	la plupart	ADV	ADV	_	23	periph	_	_	229.149994	230.020004	L1
+9	des	de	PRE	PRE	_	23	periph	_	_	230.020004	230.460007	L1
+10	des	de	PRE	PRE	_	9	para	_	_	230.460007	230.669998	L1
+11	plats	plat	NOM	NOM	_	10	dep	_	_	230.669998	230.990005	L1
+12	surgelés	surgeler	VPP	VPP	_	11	dep	_	_	230.990005	231.639999	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	232.449997	232.559998	L1
+14	qui	qui	PRQ	PRQ	_	16	subj	_	_	232.820007	232.949997	L1
+15	sont	être	VRB	VRB	_	16	aux	_	_	232.949997	233.410004	L1
+16	fabriqués	fabriquer	VPP	VPP	_	12	para	_	_	233.410004	234.160004	L1
+17	et	et	COO	COO	_	18	mark	_	_	234.160004	234.300003	L1
+18	diffusés	diffuser	VPP	VPP	_	16	para	_	_	234.300003	234.729996	L1
+19	en	en	PRE	PRE	_	18	dep	_	_	234.729996	234.880005	L1
+20	Europe	Europe	NOM	NOM	_	19	dep	_	_	234.880005	235.289993	L1
+21	euh	euh	INT	INT	_	20	dm	_	_	235.850006	236.020004	L1
+22	sont	être	VRB	VRB	_	23	aux	_	_	236.020004	236.229996	L1
+23	fabriqués	fabriquer	VPP	VPP	_	7	dep	_	_	236.229996	236.690002	L1
+24	précisement	précisement	ADV	ADV	_	23	dep	_	_	236.690002	237.339996	L1
+25	par	par	PRE	PRE	_	23	dep	_	_	237.339996	237.600006	L1
+26	NNAAMMEE	NOM	NOM	NOM	_	25	dep	_	_	237.600006	237.850006	L1
+27	qui	qui	PRQ	PRQ	_	28	subj	_	_	237.850006	237.919998	L1
+28	est	être	VRB	VRB	_	26	dep	_	_	237.919998	238.369995	L1
+29	le	le	DET	DET	_	31	spe	_	_	238.369995	238.779999	L1
+30	le	le	DET	DET	_	29	para	_	_	238.779999	238.869995	L1
+31	sous	sou	NOM	NOM	_	28	dep	_	_	238.869995	238.979996	L1
+32	traitant	traiter	VPR	VPR	_	31	dep	_	_	239.029999	239.389999	L1
+33	principal	principal	ADJ	ADJ	_	32	dep	_	_	239.389999	239.919998	L1
+34	en	en	PRE	PRE	_	23	dep	_	_	240.300003	240.500000	L1
+35	plus	plus	ADN	ADN	_	34	dep	_	_	240.500000	240.800003	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-50
+# text = non seulement NNAAMMEE fournit euh
+1	non	non	INT	INT	_	4	dm	_	_	241.029999	241.300003	L1
+2	seulement	seulement	ADV	ADV	_	4	periph	_	_	241.300003	241.690002	L1
+3	NNAAMMEE	NOM	NOM	NOM	_	4	subj	_	_	241.690002	242.479996	L1
+4	fournit	fournir	VRB	VRB	_	0	root	_	_	242.960007	243.779999	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	244.399994	245.119995	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-51
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	245.119995	245.419998	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-52
+# text = les marques connues NNAAMMEE euh NNAAMMEE
+1	les	le	DET	DET	_	2	spe	_	_	245.419998	245.539993	L1
+2	marques	marque	NOM	NOM	_	0	root	_	_	245.539993	245.970001	L1
+3	connues	connaître	ADJ	ADJ	_	2	dep	_	_	245.970001	246.589996	L1
+4	NNAAMMEE	NOM	NOM	NOM	_	2	para	_	_	246.919998	247.690002	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	247.759995	247.800003	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	4	para	_	_	247.800003	248.259995	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-53
+# text = et caetera
+1	et caetera	et caetera	ADV	ADV	_	0	root	_	_	248.259995	248.990005	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-54
+# text = mais également fournit toutes les grandes surfaces avec des produits euh spécifiques
+1	mais	mais	COO	COO	_	3	mark	_	_	249.250000	249.570007	L1
+2	également	également	ADV	ADV	_	3	dep	_	_	249.679993	250.179993	L1
+3	fournit	fournir	VRB	VRB	_	0	root	_	_	250.210007	250.699997	L1
+4	toutes	tout	ADJ	ADJ	_	7	dep	_	_	250.699997	250.880005	L1
+5	les	le	DET	DET	_	7	spe	_	_	250.880005	251.000000	L1
+6	grandes	grand	ADJ	ADJ	_	7	dep	_	_	251.000000	251.220001	L1
+7	surfaces	surface	NOM	NOM	_	3	dep	_	_	251.220001	251.850006	L1
+8	avec	avec	PRE	PRE	_	3	dep	_	_	252.160004	252.429993	L1
+9	des	de	PRE	PRE	_	8	dep	_	_	252.429993	252.710007	L1
+10	produits	produit	NOM	NOM	_	9	dep	_	_	252.710007	253.320007	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	253.320007	253.479996	L1
+12	spécifiques	spécifique	ADJ	ADJ	_	10	dep	_	_	253.479996	254.369995	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Nhu-Pham-55
+# text = quelquefois des recettes différentes
+1	quelquefois	quelquefois	ADV	ADV	_	2	dep	_	_	254.369995	254.809998	L1
+2	des	de	PRE	PRE	_	0	root	_	_	254.809998	254.889999	L1
+3	recettes	recette	NOM	NOM	_	2	dep	_	_	254.889999	255.199997	L1
+4	différentes	différent	ADJ	ADJ	_	3	dep	_	_	255.199997	255.759995	L1
+

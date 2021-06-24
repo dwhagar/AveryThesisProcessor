@@ -1,0 +1,1046 @@
+# sent_id = cefc-tcof-Assemblee_dim_08-1
+# text = eh bien bonjour
+1	eh#bien	eh bien	INT	INT	_	2	dm	_	_	0.10	1.63	L1
+2	bonjour	bonjour	INT	INT	_	0	ROOT	_	_	1.64	2.22	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-2
+# text = NNAAMMEE NNAAMMEE enseignant chercheur ici à NNAAMMEE et responsable d'une licence par ailleurs
+1	NNAAMMEE	NNAAMMEE	NOM	NOM	_	0	ROOT	_	_	2.23	2.46	L1
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	1	dep	_	_	2.69	2.87	L1
+3	enseignant	enseigner	VPR	VPR	_	2	para	_	_	2.88	3.05	L1
+4	chercheur	chercheur	NOM	NOM	_	3	dep	_	_	3.76	4.06	L1
+5	ici	ici	ADV	ADV	_	3	dep	_	_	4.07	4.16	L1
+6	à	à	PRE	PRE	_	3	dep	_	_	4.17	4.25	L1
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	dep	_	_	4.36	4.77	L1
+8	et	et	COO	COO	_	9	mark	_	_	4.78	4.80	L1
+9	responsable	responsable	NOM	NOM	_	3	para	_	_	4.81	5.08	L1
+10	d'	de	PRE	PRE	_	9	dep	_	_	5.09	5.11	L1
+11	une	un	DET	DET	_	12	spe	_	_	5.12	5.17	L1
+12	licence	licence	NOM	NOM	_	10	dep	_	_	5.18	5.33	L1
+13	par	par	PRE	PRE	_	12	dep	_	_	5.34	5.42	L1
+14	ailleurs	ailleurs	ADV	ADV	_	13	morph	_	_	5.43	5.59	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-3
+# text = alors je suis un peu moins poète et peut-être un peu moins d'humour que que certains de vos collègues précédemment
+1	alors	alors	ADV	ADV	_	3	periph	_	_	5.60	5.73	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	6.27	6.74	L1
+3	suis	être	VRB	VRB	_	0	ROOT	_	_	6.75	6.95	L1
+4	un#peu	un peu	ADV	ADV	_	6	dep	_	_	6.96	7.16	L1
+5	moins	moins	ADV	ADV	_	6	dep	_	_	7.17	7.36	L1
+6	poète	poète	NOM	NOM	_	3	dep	_	_	7.37	8.17	L1
+7	et	et	COO	COO	_	10	mark	_	_	8.29	8.31	L1
+8	peut-être	peut-être	ADV	ADV	_	10	dep	_	_	8.32	8.75	L1
+9	un#peu	un peu	ADV	ADV	_	10	dep	_	_	8.76	8.98	L1
+10	moins	moins	ADV	ADV	_	6	para	_	_	8.99	9.12	L1
+11	d'	de	PRE	PRE	_	10	dep	_	_	9.13	9.15	L1
+12	humour	humour	NOM	NOM	_	11	dep	_	_	9.16	9.61	L1
+13	que	que	CSU	CSU	_	10	dep	_	_	9.69	9.93	L1
+14	que	que	CSU	CSU	_	13	para	_	_	9.94	10.23	L1
+15	certains	certains	PRO	PRO	_	14	dep	_	_	10.24	10.68	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	10.69	10.71	L1
+17	vos	son	DET	DET	_	18	spe	_	_	10.72	10.82	L1
+18	collègues	collègue	NOM	NOM	_	16	dep	_	_	10.83	11.28	L1
+19	précédemment	précédemment	ADV	ADV	_	18	dep	_	_	11.29	11.79	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-4
+# text = donc j'ai quand même préparé un certain nombre de de choses à vous dire euh aujourd' hui par rapport à ce qui se passe
+1	donc	donc	ADV	ADV	_	5	periph	_	_	11.80	11.95	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	12.30	12.34	L1
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	12.35	12.37	L1
+4	quand#même	quand même	ADV	ADV	_	5	periph	_	_	12.38	12.67	L1
+5	préparé	préparer	VPP	VPP	_	0	ROOT	_	_	12.68	12.99	L1
+6	un	un	DET	DET	_	8	spe	_	_	13.00	13.08	L1
+7	certain	certain	ADJ	ADJ	_	8	dep	_	_	13.13	13.33	L1
+8	nombre	nombre	NOM	NOM	_	5	dep	_	_	13.34	13.66	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	13.67	13.69	L1
+10	de	de	PRE	PRE	_	9	para	_	_	13.76	13.81	L1
+11	choses	chose	NOM	NOM	_	10	dep	_	_	13.82	14.13	L1
+12	à	à	PRE	PRE	_	11	dep	_	_	14.14	14.16	L1
+13	vous	vous	CLI	CLI	_	14	dep	_	_	14.17	14.28	L1
+14	dire	dire	VNF	VNF	_	12	dep	_	_	14.29	14.65	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	14.66	14.71	L1
+16	aujourd'#hui	aujourd'hui	ADV	ADV	_	14	dep	_	_	14.72	15.25	L1
+17	par#rapport#à	par rapport à	PRE	PRE	_	5	dep	_	_	15.26	16.34	L1
+18	ce	ce	PRO	PRO	_	17	dep	_	_	16.47	16.58	L1
+19	qui	_	PRQ	PRQ	_	21	subj	_	_	16.71	16.84	L1
+20	se	se	CLI	CLI	_	21	dep	_	_	16.99	17.04	L1
+21	passe	passer	VRB	VRB	_	18	dep	_	_	17.05	17.31	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-5
+# text = rappeler d'abord que
+1	rappeler	rappeler	VNF	VNF	_	0	ROOT	_	_	17.78	18.00	L1
+2	d'	de	PRE	PRE	_	1	dep	_	_	18.01	18.06	L1
+3	abord	abord	NOM	NOM	_	2	dep	_	_	18.07	18.32	L1
+4	que	que	CSU	CSU	_	1	dep	_	_	18.33	18.36	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-6
+# text = la la la stratégie du du gouvernement et la stratégie aussi adoptée pour une partie par euh par certains présidents d'universités ça d'abord été mais après la participation aux A G parce que l'objectif était de pourrir les A G de faire en sorte qu'elles qu'elles s'ef qu'elles s'effondrent et qu'elles ne
+1	la	le	DET	DET	_	4	spe	_	_	18.37	18.73	L1
+2	la	le	DET	DET	_	1	para	_	_	18.81	18.95	L1
+3	la	le	DET	DET	_	2	para	_	_	19.04	19.18	L1
+4	stratégie	stratégie	NOM	NOM	_	26	subj	_	_	19.27	19.76	L1
+5	du	_	PRE	PRE	_	4	dep	_	_	19.77	20.00	L1
+6	du	_	PRE	PRE	_	5	para	_	_	20.01	20.06	L1
+7	gouvernement	gouvernement	NOM	NOM	_	6	dep	_	_	20.07	20.66	L1
+8	et	et	COO	COO	_	10	mark	_	_	20.67	20.70	L1
+9	la	le	DET	DET	_	10	spe	_	_	20.71	20.81	L1
+10	stratégie	stratégie	NOM	NOM	_	4	para	_	_	20.90	21.44	L1
+11	aussi	aussi	ADV	ADV	_	12	dep	_	_	21.45	21.70	L1
+12	adoptée	adopter	VPP	VPP	_	10	dep	_	_	21.71	22.15	L1
+13	pour	pour	PRE	PRE	_	12	dep	_	_	22.16	22.33	L1
+14	une	un	DET	DET	_	15	spe	_	_	22.34	22.40	L1
+15	partie	partie	NOM	NOM	_	13	dep	_	_	22.41	22.83	L1
+16	par	par	PRE	PRE	_	12	dep	_	_	22.89	23.29	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	23.48	23.52	L1
+18	par	par	PRE	PRE	_	16	para	_	_	23.58	23.72	L1
+19	certains	certain	DET	DET	_	20	spe	_	_	23.85	24.02	L1
+20	présidents	président	NOM	NOM	_	18	dep	_	_	24.11	24.35	L1
+21	d'	de	PRE	PRE	_	20	dep	_	_	24.36	24.39	L1
+22	universités	université	NOM	NOM	_	21	dep	_	_	24.40	26.00	L1
+23	ça	ça	PRO	PRO	_	26	subj	_	_	26.06	26.22	L1
+24	d'	de	PRE	PRE	_	23	dep	_	_	26.31	26.48	L1
+25	abord	abord	NOM	NOM	_	24	dep	_	_	26.49	26.74	L1
+26	été	être	VPP	VPP	_	0	ROOT	_	_	26.75	26.83	L1
+27	mais	mais	COO	COO	_	37	mark	_	_	27.07	27.14	L1
+28	après	après	PRE	PRE	_	37	dep	_	_	27.15	27.32	L1
+29	la	le	DET	DET	_	30	spe	_	_	27.33	27.39	L1
+30	participation	participation	NOM	NOM	_	28	dep	_	_	27.47	28.11	L1
+31	aux	à	PRE	PRE	_	30	dep	_	_	28.12	28.14	L1
+32	A	_	NOM	NOM	_	31	dep	_	_	28.15	28.18	L1
+33	G	_	NOM	NOM	_	32	dep	_	_	28.19	28.35	L1
+34	parce#que	parce que	CSU	CSU	_	33	dep	_	_	28.36	28.72	L1
+35	l'	le	DET	DET	_	36	spe	_	_	28.73	28.77	L1
+36	objectif	objectif	NOM	NOM	_	37	subj	_	_	28.78	29.13	L1
+37	était	être	VRB	VRB	_	26	parenth	_	_	29.14	29.27	L1
+38	de	de	PRE	PRE	_	37	dep	_	_	29.28	29.31	L1
+39	pourrir	pourrir	VNF	VNF	_	38	dep	_	_	29.38	29.60	L1
+40	les	le	DET	DET	_	41	spe	_	_	29.61	29.69	L1
+41	A	_	NOM	NOM	_	39	dep	_	_	29.80	29.86	L1
+42	G	_	NOM	NOM	_	41	dep	_	_	29.92	30.12	L1
+43	de	de	PRE	PRE	_	26	dep	_	_	30.56	30.70	L1
+44	faire	-	VNF	VNF	_	43	dep	_	_	30.71	30.89	L1
+45	en	en	PRE	PRE	_	44	dep	_	_	30.90	31.01	L1
+46	sorte	sorte	NOM	NOM	_	45	dep	_	_	31.02	31.22	L1
+47	qu'	que	CSU	CSU	_	44	dep	_	_	31.40	31.55	L1
+48	elles	il	CLS	CLS	_	52	subj	_	_	31.59	31.87	L1
+49	qu'	que	CSU	CSU	_	47	para	_	_	32.07	32.09	L1
+50	elles	il	CLS	CLS	_	48	para	_	_	32.10	32.15	L1
+51	s'	se	CLI	CLI	_	52	dep	_	_	32.16	32.19	L1
+52	ef	_	VRB	VRB	_	47	dep	_	_	32.20	32.45	L1
+53	qu'	que	CSU	CSU	_	49	para	_	_	32.46	32.49	L1
+54	elles	il	CLS	CLS	_	56	subj	_	_	32.50	32.61	L1
+55	s'	se	CLI	CLI	_	56	dep	_	_	32.62	32.70	L1
+56	effondrent	effondrer	VRB	VRB	_	52	para	_	_	32.83	33.48	L1
+57	et	et	COO	COO	_	58	mark	_	_	33.49	33.51	L1
+58	qu'	que	CSU	CSU	_	53	para	_	_	33.52	33.56	L1
+59	elles	il	CLS	CLS	_	58	disflink	_	_	33.57	33.64	L1
+60	ne	ne	CLN	CLN	_	59	disflink	_	_	33.71	33.98	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-7
+# text = enfin surtout pas sur les blocages
+1	enfin	enfin	ADV	ADV	_	6	dm	_	_	33.99	34.13	L1
+2	surtout	surtout	ADV	ADV	_	6	dep	_	_	34.14	34.63	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	34.64	34.76	L1
+4	sur	sur	PRE	PRE	_	6	dep	_	_	34.81	34.91	L1
+5	les	le	DET	DET	_	6	spe	_	_	34.92	35.00	L1
+6	blocages	blocage	NOM	NOM	_	0	ROOT	_	_	35.01	35.51	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-8
+# text = ensuite euh comme ça a pas fonctionné la stratégie ça a été de de faire des annonces à coup de milliards
+1	ensuite	ensuite	ADV	ADV	_	12	periph	_	_	36.14	36.71	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	36.72	36.78	L1
+3	comme	comme	CSU	CSU	_	12	periph	_	_	36.79	37.01	L1
+4	ça	ça	PRO	PRO	_	7	subj	_	_	37.02	37.14	L1
+5	a	avoir	VRB	VRB	_	7	aux	_	_	37.19	37.14	L1
+6	pas	pas	ADN	ADN	_	7	dep	_	_	37.19	37.27	L1
+7	fonctionné	fonctionner	VPP	VPP	_	3	dep	_	_	37.33	37.98	L1
+8	la	le	DET	DET	_	9	spe	_	_	38.07	38.19	L1
+9	stratégie	stratégie	NOM	NOM	_	12	periph	_	_	38.27	38.72	L1
+10	ça	ça	PRO	PRO	_	12	subj	_	_	38.73	38.86	L1
+11	a	avoir	VRB	VRB	_	12	aux	_	_	38.87	38.86	L1
+12	été	être	VPP	VPP	_	0	ROOT	_	_	38.87	39.02	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	39.03	39.11	L1
+14	de	de	PRE	PRE	_	13	para	_	_	39.12	39.43	L1
+15	faire	-	VNF	VNF	_	14	dep	_	_	39.44	39.64	L1
+16	des	de	PRE	PRE	_	15	dep	_	_	39.65	39.72	L1
+17	annonces	annonce	NOM	NOM	_	16	dep	_	_	39.83	40.21	L1
+18	à	à	PRE	PRE	_	15	dep	_	_	40.22	40.28	L1
+19	coup	coup	NOM	NOM	_	18	dep	_	_	40.29	40.43	L1
+20	de	de	PRE	PRE	_	19	dep	_	_	40.44	40.48	L1
+21	milliards	milliard	NOM	NOM	_	20	dep	_	_	40.53	40.97	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-9
+# text = donc on sait plus quoi faire maintenant
+1	donc	donc	ADV	ADV	_	3	periph	_	_	40.98	41.12	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	41.16	41.23	L1
+3	sait	savoir	VRB	VRB	_	0	ROOT	_	_	41.24	41.45	L1
+4	plus	plus	ADN	ADN	_	3	dep	_	_	41.46	41.68	L1
+5	quoi	_	PRQ	PRQ	_	6	dep	_	_	41.81	41.91	L1
+6	faire	-	VNF	VNF	_	3	dep	_	_	41.98	42.32	L1
+7	maintenant	maintenant	ADV	ADV	_	6	dep	_	_	42.33	42.53	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-10
+# text = on en a
+1	on	on	CLS	CLS	_	3	subj	_	_	42.54	43.10	L1
+2	en	en	CLI	CLI	_	3	dep	_	_	43.15	43.30	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	43.31	43.33	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-11
+# text = on en a
+1	on	on	CLS	CLS	_	3	subj	_	_	43.34	43.42	L1
+2	en	en	CLI	CLI	_	3	dep	_	_	43.43	43.47	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	43.48	43.50	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-12
+# text = on en a
+1	on	on	CLS	CLS	_	3	subj	_	_	43.51	43.70	L1
+2	en	en	CLI	CLI	_	3	dep	_	_	43.71	43.78	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	43.79	43.86	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-13
+# text = on se demande combien ce qu'on va bien pouvoir faire avec tout ça
+1	on	on	CLS	CLS	_	3	subj	_	_	43.87	44.02	L1
+2	se	se	CLI	CLI	_	3	dep	_	_	44.36	44.49	L1
+3	demande	demander	VRB	VRB	_	0	ROOT	_	_	44.50	44.65	L1
+4	combien	combien	PRQ	PRQ	_	3	disflink	_	_	44.66	44.89	L1
+5	ce	ce	PRO	PRO	_	3	dep	_	_	44.90	44.93	L1
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	44.94	44.96	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	44.97	44.99	L1
+8	va	aller	VRB	VRB	_	5	dep	_	_	45.00	45.16	L1
+9	bien	bien	ADV	ADV	_	8	dep	_	_	45.26	45.48	L1
+10	pouvoir	pouvoir	VNF	VNF	_	8	dep	_	_	45.49	45.75	L1
+11	faire	-	VNF	VNF	_	10	dep	_	_	45.79	45.88	L1
+12	avec	avec	PRE	PRE	_	11	dep	_	_	45.89	46.26	L1
+13	tout	tout	ADJ	ADJ	_	14	dep	_	_	46.32	46.41	L1
+14	ça	ça	PRO	PRO	_	12	dep	_	_	46.42	46.47	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-14
+# text = ça ne fonctionne toujours pas
+1	ça	ça	PRO	PRO	_	3	subj	_	_	46.63	46.74	L1
+2	ne	ne	CLN	CLN	_	3	dep	_	_	46.75	46.83	L1
+3	fonctionne	fonctionner	VRB	VRB	_	0	ROOT	_	_	47.03	47.40	L1
+4	toujours#pas	_	ADV	ADV	_	3	dep	_	_	47.41	48.01	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-15
+# text = et euh une autre stratégie c'est d'organiser des des référendums voilà
+1	et	et	COO	COO	_	7	mark	_	_	48.02	48.20	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	48.21	48.24	L1
+3	une	un	DET	DET	_	5	spe	_	_	48.25	48.52	L1
+4	autre	autre	ADJ	ADJ	_	5	dep	_	_	48.58	48.70	L1
+5	stratégie	stratégie	NOM	NOM	_	7	periph	_	_	48.71	49.10	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	49.11	49.13	L1
+7	est	être	VRB	VRB	_	0	ROOT	_	_	49.14	49.30	L1
+8	d'	de	PRE	PRE	_	7	dep	_	_	49.31	49.36	L1
+9	organiser	organiser	VNF	VNF	_	8	dep	_	_	49.37	49.85	L1
+10	des	de	PRE	PRE	_	9	dep	_	_	49.86	50.03	L1
+11	des	de	PRE	PRE	_	10	para	_	_	50.04	50.17	L1
+12	référendums	référendum	NOM	NOM	_	11	dep	_	_	50.18	50.73	L1
+13	voilà	voilà	INT	INT	_	12	dm	_	_	50.74	50.97	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-16
+# text = il y en a eu à NNAAMMEE
+1	il	il	CLS	CLS	_	5	subj	_	_	51.19	51.25	L1
+2	y	y	CLI	CLI	_	5	dep	_	_	51.26	51.28	L1
+3	en	en	CLI	CLI	_	5	dep	_	_	51.29	51.41	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	51.42	51.48	L1
+5	eu	-	VPP	VPP	_	0	ROOT	_	_	51.49	51.58	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	51.62	51.66	L1
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	dep	_	_	52.03	52.46	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-17
+# text = il y en a eu ici
+1	il	il	CLS	CLS	_	5	subj	_	_	52.47	52.49	L1
+2	y	y	CLI	CLI	_	5	dep	_	_	52.61	52.82	L1
+3	en	en	CLI	CLI	_	5	dep	_	_	52.83	52.86	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	52.87	52.89	L1
+5	eu	-	VPP	VPP	_	0	ROOT	_	_	52.90	52.92	L1
+6	ici	ici	ADV	ADV	_	5	dep	_	_	52.93	53.06	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-18
+# text = il y en a eu à NNAAMMEE
+1	il	il	CLS	CLS	_	5	subj	_	_	53.07	53.17	L1
+2	y	y	CLI	CLI	_	5	dep	_	_	53.18	53.20	L1
+3	en	en	CLI	CLI	_	5	dep	_	_	53.51	53.61	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	53.62	53.68	L1
+5	eu	-	VPP	VPP	_	0	ROOT	_	_	53.69	53.78	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	53.79	53.86	L1
+7	NNAAMMEE	NNAAMMEE	NOM	NOM	_	6	dep	_	_	53.87	54.10	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-19
+# text = il y en a eu un peu partout des des référendums avec euh euh un objectif qui euh est de créer de la confusion comme ça crée de la confusion ici euh entre les légitimités d'un côté les légitimités de l'autre
+1	il	il	CLS	CLS	_	5	subj	_	_	54.27	54.32	L1
+2	y	y	CLI	CLI	_	5	dep	_	_	54.33	54.35	L1
+3	en	en	CLI	CLI	_	5	dep	_	_	54.36	54.49	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	54.88	54.90	L1
+5	eu	-	VPP	VPP	_	0	ROOT	_	_	54.91	55.27	L1
+6	un#peu	un peu	ADV	ADV	_	5	dep	_	_	55.28	55.44	L1
+7	partout	_	ADV	ADV	_	5	dep	_	_	55.45	55.95	L1
+8	des	de	PRE	PRE	_	5	dep	_	_	56.13	56.19	L1
+9	des	de	PRE	PRE	_	8	para	_	_	56.26	56.31	L1
+10	référendums	référendum	NOM	NOM	_	9	dep	_	_	56.32	56.66	L1
+11	avec	avec	PRE	PRE	_	10	dep	_	_	56.67	56.79	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	56.80	56.82	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	56.94	57.15	L1
+14	un	un	DET	DET	_	15	spe	_	_	57.16	57.31	L1
+15	objectif	objectif	NOM	NOM	_	11	dep	_	_	57.32	57.96	L1
+16	qui	_	PRQ	PRQ	_	18	subj	_	_	58.08	58.37	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	58.43	58.46	L1
+18	est	être	VRB	VRB	_	15	dep	_	_	58.87	58.90	L1
+19	de	de	PRE	PRE	_	18	dep	_	_	58.91	58.93	L1
+20	créer	créer	VNF	VNF	_	19	dep	_	_	58.94	59.05	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	59.06	59.08	L1
+22	la	le	DET	DET	_	23	spe	_	_	59.12	59.24	L1
+23	confusion	confusion	NOM	NOM	_	21	dep	_	_	59.25	59.87	L1
+24	comme	comme	PRE	PRE	_	20	dep	_	_	59.88	60.04	L1
+25	ça	ça	PRO	PRO	_	26	subj	_	_	60.11	60.17	L1
+26	crée	créer	VRB	VRB	_	24	dep	_	_	60.33	60.44	L1
+27	de	de	PRE	PRE	_	26	dep	_	_	60.45	60.48	L1
+28	la	le	DET	DET	_	29	spe	_	_	60.49	60.56	L1
+29	confusion	confusion	NOM	NOM	_	27	dep	_	_	60.62	61.20	L1
+30	ici	ici	ADV	ADV	_	26	dep	_	_	61.21	61.58	L1
+31	euh	euh	INT	INT	_	30	dm	_	_	61.78	61.83	L1
+32	entre	entre	PRE	PRE	_	26	dep	_	_	62.15	62.88	L1
+33	les	le	DET	DET	_	34	spe	_	_	62.89	63.14	L1
+34	légitimités	légitimité	NOM	NOM	_	32	dep	_	_	63.15	63.74	L1
+35	d'	de	PRE	PRE	_	34	dep	_	_	63.75	63.78	L1
+36	un	un	DET	DET	_	37	spe	_	_	63.79	63.88	L1
+37	côté	côté	NOM	NOM	_	35	dep	_	_	63.89	64.09	L1
+38	les	le	DET	DET	_	39	spe	_	_	64.10	64.20	L1
+39	légitimités	légitimité	NOM	NOM	_	34	para	_	_	64.21	65.00	L1
+40	de	de	PRE	PRE	_	39	dep	_	_	65.01	65.03	L1
+41	l'	le	DET	DET	_	42	spe	_	_	65.11	65.13	L1
+42	autre	autre	NOM	NOM	_	40	dep	_	_	65.14	65.45	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-20
+# text = l'objectif du gouvernement l'objectif du gouvernement il est clairement d'imposer sa loi sa loi LRU qui est fermement et fortement euh condamnée par l'ensemble des acteurs de l'université
+1	l'	le	DET	DET	_	2	spe	_	_	66.04	66.06	L1
+2	objectif	objectif	NOM	NOM	_	10	periph	_	_	66.30	66.80	L1
+3	du	_	PRE	PRE	_	2	dep	_	_	66.81	66.89	L1
+4	gouvernement	gouvernement	NOM	NOM	_	3	dep	_	_	66.90	67.98	L1
+5	l'	le	DET	DET	_	6	spe	_	_	68.24	68.52	L1
+6	objectif	objectif	NOM	NOM	_	2	para	_	_	68.91	69.48	L1
+7	du	_	PRE	PRE	_	6	dep	_	_	69.49	69.58	L1
+8	gouvernement	gouvernement	NOM	NOM	_	7	dep	_	_	69.59	70.21	L1
+9	il	il	CLS	CLS	_	10	subj	_	_	70.26	70.58	L1
+10	est	être	VRB	VRB	_	0	ROOT	_	_	70.59	70.73	L1
+11	clairement	clairement	ADV	ADV	_	10	dep	_	_	70.74	71.27	L1
+12	d'	de	PRE	PRE	_	10	dep	_	_	71.43	71.46	L1
+13	imposer	imposer	VNF	VNF	_	12	dep	_	_	71.53	71.78	L1
+14	sa	son	DET	DET	_	15	spe	_	_	71.79	71.85	L1
+15	loi	loi	NOM	NOM	_	13	dep	_	_	71.90	72.09	L1
+16	sa	son	DET	DET	_	17	spe	_	_	72.63	72.72	L1
+17	loi	loi	NOM	NOM	_	15	para	_	_	72.73	72.98	L1
+18	LRU	LRU	NOM	NOM	_	17	dep	_	_	73.08	73.74	L1
+19	qui	_	PRQ	PRQ	_	25	subj	_	_	73.85	74.20	L1
+20	est	être	VRB	VRB	_	25	aux	_	_	74.26	74.33	L1
+21	fermement	fermement	ADV	ADV	_	25	dep	_	_	74.47	75.09	L1
+22	et	et	COO	COO	_	23	mark	_	_	75.50	75.86	L1
+23	fortement	fortement	ADV	ADV	_	21	para	_	_	75.93	76.74	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	76.93	77.05	L1
+25	condamnée	condamner	VPP	VPP	_	18	dep	_	_	77.06	77.59	L1
+26	par	par	PRE	PRE	_	25	dep	_	_	77.74	77.98	L1
+27	l'	le	DET	DET	_	28	spe	_	_	77.99	78.08	L1
+28	ensemble	ensemble	NOM	NOM	_	26	dep	_	_	78.09	78.92	L1
+29	des	de	PRE	PRE	_	28	dep	_	_	78.93	79.04	L1
+30	acteurs	acteur	NOM	NOM	_	29	dep	_	_	79.05	79.31	L1
+31	de	de	PRE	PRE	_	30	dep	_	_	79.45	79.57	L1
+32	l'	le	DET	DET	_	33	spe	_	_	79.58	79.72	L1
+33	université	université	NOM	NOM	_	31	dep	_	_	79.73	80.37	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-21
+# text = je crois que on l'a dit
+1	je	je	CLS	CLS	_	2	subj	_	_	80.38	80.43	L1
+2	crois	croire	VRB	VRB	_	0	ROOT	_	_	80.44	80.87	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	80.99	81.14	L1
+4	on	on	CLS	CLS	_	7	subj	_	_	81.15	81.30	L1
+5	l'	le	CLI	CLI	_	7	dep	_	_	81.31	81.38	L1
+6	a	avoir	VRB	VRB	_	7	aux	_	_	81.39	81.42	L1
+7	dit	dire	VPP	VPP	_	3	dep	_	_	81.51	81.65	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-22
+# text = on le redit
+1	on	on	CLS	CLS	_	3	subj	_	_	81.66	81.76	L1
+2	le	le	CLI	CLI	_	3	dep	_	_	81.77	81.81	L1
+3	redit	redire	VPP	VPP	_	0	ROOT	_	_	81.82	82.20	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-23
+# text = il faut encore le redire
+1	il	il	CLS	CLS	_	2	subj	_	_	82.21	82.25	L1
+2	faut	faillir	VRB	VRB	_	0	ROOT	_	_	82.26	82.36	L1
+3	encore	encore	ADV	ADV	_	2	dep	_	_	82.37	82.74	L1
+4	le	le	CLI	CLI	_	5	dep	_	_	82.75	82.79	L1
+5	redire	redire	VNF	VNF	_	2	dep	_	_	82.80	83.33	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-24
+# text = la stratégie du gouvernement elle est là
+1	la	le	DET	DET	_	2	spe	_	_	83.72	83.84	L1
+2	stratégie	stratégie	NOM	NOM	_	6	periph	_	_	83.92	84.35	L1
+3	du	_	PRE	PRE	_	2	dep	_	_	84.36	84.43	L1
+4	gouvernement	gouvernement	NOM	NOM	_	3	dep	_	_	84.44	85.03	L1
+5	elle	il	CLS	CLS	_	6	subj	_	_	85.04	85.15	L1
+6	est	être	VRB	VRB	_	0	ROOT	_	_	85.16	85.18	L1
+7	là	là	ADV	ADV	_	6	dep	_	_	85.23	85.40	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-25
+# text = et au-delà de de la simple discussion sur le blocage le le fait le fait sur lequel il faut s'interroger c'est celui de qui concerne la loi LRU
+1	et	et	COO	COO	_	23	para	_	_	85.52	85.60	L1
+2	au-delà	_	PRE	PRE	_	23	periph	_	_	85.61	85.98	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	86.07	86.36	L1
+4	de	de	PRE	PRE	_	3	para	_	_	86.37	86.55	L1
+5	la	le	DET	DET	_	7	spe	_	_	86.74	86.83	L1
+6	simple	simple	NOM	NOM	_	7	dep	_	_	86.84	87.09	L1
+7	discussion	discussion	NOM	NOM	_	4	dep	_	_	87.10	87.81	L1
+8	sur	sur	PRE	PRE	_	7	dep	_	_	87.82	87.95	L1
+9	le	le	DET	DET	_	10	spe	_	_	87.96	88.05	L1
+10	blocage	blocage	NOM	NOM	_	8	dep	_	_	88.06	88.78	L1
+11	le	le	DET	DET	_	13	spe	_	_	89.01	89.66	L1
+12	le	le	DET	DET	_	11	para	_	_	89.71	89.86	L1
+13	fait	fait	NOM	NOM	_	23	periph	_	_	89.99	90.17	L1
+14	le	le	DET	DET	_	15	spe	_	_	90.28	90.48	L1
+15	fait	fait	NOM	NOM	_	13	para	_	_	90.49	90.63	L1
+16	sur	sur	PRE	PRE	_	19	dep	_	_	90.64	90.72	L1
+17	lequel	lequel	PRQ	PRQ	_	16	dep	_	_	90.73	90.97	L1
+18	il	il	CLS	CLS	_	19	subj	_	_	90.98	91.08	L1
+19	faut	faillir	VRB	VRB	_	15	dep	_	_	91.09	91.21	L1
+20	s'	se	CLI	CLI	_	21	dep	_	_	91.22	91.25	L1
+21	interroger	interroger	VNF	VNF	_	19	dep	_	_	91.26	91.69	L1
+22	c'	ce	CLS	CLS	_	23	subj	_	_	91.75	91.79	L1
+23	est	être	VRB	VRB	_	0	ROOT	_	_	91.84	91.91	L1
+24	celui	celui	PRO	PRO	_	23	dep	_	_	91.92	92.28	L1
+25	de	de	PRE	PRE	_	24	disflink	_	_	92.36	92.56	L1
+26	qui	_	PRQ	PRQ	_	27	subj	_	_	92.61	92.68	L1
+27	concerne	concerner	VRB	VRB	_	24	dep	_	_	92.69	92.97	L1
+28	la	le	DET	DET	_	29	spe	_	_	92.98	93.04	L1
+29	loi	loi	NOM	NOM	_	27	dep	_	_	93.05	93.23	L1
+30	LRU	LRU	NOM	NOM	_	29	dep	_	_	93.24	93.94	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-26
+# text = en même temps en même temps on voit qu'il y a une centration sur le blocage
+1	en#même#temps	en même temps	ADV	ADV	_	4	periph	_	_	94.63	95.16	L1
+2	en#même#temps	en même temps	ADV	ADV	_	1	para	_	_	95.17	95.78	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	96.05	96.15	L1
+4	voit	voir	VRB	VRB	_	0	ROOT	_	_	96.16	96.28	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	96.29	96.31	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	96.32	96.41	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	96.42	97.14	L1
+8	a	avoir	VRB	VRB	_	5	dep	_	_	97.15	97.17	L1
+9	une	un	DET	DET	_	10	spe	_	_	97.18	97.29	L1
+10	centration	centration	NOM	NOM	_	8	dep	_	_	97.39	98.02	L1
+11	sur	sur	PRE	PRE	_	8	dep	_	_	98.08	98.30	L1
+12	le	le	DET	DET	_	13	spe	_	_	98.31	98.38	L1
+13	blocage	blocage	NOM	NOM	_	11	dep	_	_	98.39	99.02	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-27
+# text = et du coup ça ça ça fournit un peu les les arguments d'un côté de l'autre aussi
+1	et	et	COO	COO	_	7	mark	_	_	99.03	99.49	L1
+2	du	_	PRE	PRE	_	7	periph	_	_	99.50	99.66	L1
+3	coup	coup	NOM	NOM	_	2	dep	_	_	99.67	99.79	L1
+4	ça	ça	PRO	PRO	_	7	subj	_	_	99.86	100.05	L1
+5	ça	ça	PRO	PRO	_	4	para	_	_	100.12	100.24	L1
+6	ça	ça	PRO	PRO	_	5	para	_	_	100.36	100.44	L1
+7	fournit	fournir	VRB	VRB	_	0	ROOT	_	_	100.51	100.87	L1
+8	un#peu	un peu	ADV	ADV	_	7	dep	_	_	100.88	101.42	L1
+9	les	le	DET	DET	_	11	spe	_	_	101.43	101.59	L1
+10	les	le	DET	DET	_	9	para	_	_	101.75	101.87	L1
+11	arguments	argument	NOM	NOM	_	7	dep	_	_	101.88	102.40	L1
+12	d'	de	PRE	PRE	_	11	dep	_	_	102.41	102.48	L1
+13	un	un	DET	DET	_	14	spe	_	_	102.49	102.54	L1
+14	côté	côté	NOM	NOM	_	12	dep	_	_	102.58	102.93	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	102.94	102.96	L1
+16	l'	le	DET	DET	_	17	spe	_	_	102.97	103.13	L1
+17	autre	autre	NOM	NOM	_	15	dep	_	_	103.19	103.32	L1
+18	aussi	aussi	ADV	ADV	_	7	periph	_	_	103.33	103.68	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-28
+# text = et on peut remarquer euh que le le blocage il a été au centre des préoccupations dès le départ et localement par exemple par des interventions par des interventions de d'anti-bloqueurs qui nous disaient déjà comment il fallait sortir du blocage qui n'était pas encore à l'ordre du jour
+1	et	et	COO	COO	_	3	mark	_	_	103.77	103.81	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	103.96	104.06	L1
+3	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	104.07	104.12	L1
+4	remarquer	remarquer	VNF	VNF	_	3	dep	_	_	104.13	104.74	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	104.78	104.82	L1
+6	que	que	CSU	CSU	_	4	dep	_	_	104.83	104.86	L1
+7	le	le	DET	DET	_	9	spe	_	_	104.87	105.39	L1
+8	le	le	DET	DET	_	7	para	_	_	105.40	105.54	L1
+9	blocage	blocage	NOM	NOM	_	12	periph	_	_	105.55	105.83	L1
+10	il	il	CLS	CLS	_	12	subj	_	_	105.93	106.06	L1
+11	a	avoir	VRB	VRB	_	12	aux	_	_	106.07	106.09	L1
+12	été	être	VPP	VPP	_	6	dep	_	_	106.10	106.26	L1
+13	au#centre	_	PRE	PRE	_	12	dep	_	_	106.27	106.67	L1
+14	des	de	PRE	PRE	_	13	dep	_	_	106.68	106.87	L1
+15	préoccupations	préoccupation	NOM	NOM	_	14	dep	_	_	106.88	107.44	L1
+16	dès	dès	PRE	PRE	_	12	dep	_	_	107.54	107.59	L1
+17	le	le	DET	DET	_	18	spe	_	_	107.65	107.77	L1
+18	départ	départ	NOM	NOM	_	16	dep	_	_	107.78	108.22	L1
+19	et	et	COO	COO	_	23	mark	_	_	108.35	108.37	L1
+20	localement	localement	ADV	ADV	_	23	dep	_	_	108.47	109.11	L1
+21	par	par	PRE	PRE	_	23	dep	_	_	109.28	110.27	L1
+22	exemple	exemple	NOM	NOM	_	21	dep	_	_	110.34	110.78	L1
+23	par	par	PRE	PRE	_	12	dep	_	_	111.15	111.40	L1
+24	des	de	PRE	PRE	_	23	dep	_	_	111.70	111.86	L1
+25	interventions	intervention	NOM	NOM	_	24	dep	_	_	111.87	112.67	L1
+26	par	par	PRE	PRE	_	23	para	_	_	112.68	112.78	L1
+27	des	de	PRE	PRE	_	26	dep	_	_	112.79	112.92	L1
+28	interventions	intervention	NOM	NOM	_	27	dep	_	_	112.93	113.61	L1
+29	de	de	PRE	PRE	_	28	dep	_	_	113.62	113.90	L1
+30	d'	de	PRE	PRE	_	29	para	_	_	113.91	113.95	L1
+31	anti-bloqueurs	_	NOM	NOM	_	30	dep	_	_	113.96	114.60	L1
+32	qui	_	PRQ	PRQ	_	34	subj	_	_	114.67	114.72	L1
+33	nous	nous	CLI	CLI	_	34	dep	_	_	114.73	114.80	L1
+34	disaient	dire	VRB	VRB	_	31	dep	_	_	114.81	115.17	L1
+35	déjà	déjà	ADV	ADV	_	34	dep	_	_	115.18	115.47	L1
+36	comment	comment	PRQ	PRQ	_	38	dep	_	_	115.56	115.77	L1
+37	il	il	CLS	CLS	_	38	subj	_	_	115.78	115.90	L1
+38	fallait	falloir	VRB	VRB	_	34	dep	_	_	115.94	116.22	L1
+39	sortir	sortir	VNF	VNF	_	38	dep	_	_	116.30	116.60	L1
+40	du	_	PRE	PRE	_	39	dep	_	_	116.61	116.74	L1
+41	blocage	blocage	NOM	NOM	_	40	dep	_	_	116.75	117.22	L1
+42	qui	_	PRQ	PRQ	_	44	subj	_	_	117.48	117.57	L1
+43	n'	ne	CLN	CLN	_	44	dep	_	_	117.58	117.67	L1
+44	était	être	VRB	VRB	_	41	dep	_	_	117.68	117.84	L1
+45	pas#encore	pas encore	ADV	ADV	_	44	dep	_	_	117.85	118.25	L1
+46	à	à	PRE	PRE	_	44	dep	_	_	118.26	118.28	L1
+47	l'	le	DET	DET	_	48	spe	_	_	118.29	118.31	L1
+48	ordre	ordre	NOM	NOM	_	46	dep	_	_	118.32	118.56	L1
+49	du	_	PRE	PRE	_	48	dep	_	_	118.62	118.68	L1
+50	jour	jour	NOM	NOM	_	49	dep	_	_	118.69	118.94	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-29
+# text = nationalement médiatiquement ça se traduit par le fait que sans blocage on existe pas hein
+1	nationalement	nationalement	ADV	ADV	_	5	periph	_	_	119.50	120.09	L1
+2	médiatiquement	médiatiquement	ADV	ADV	_	1	para	_	_	120.10	120.78	L1
+3	ça	ça	PRO	PRO	_	5	subj	_	_	120.85	120.96	L1
+4	se	se	CLI	CLI	_	5	dep	_	_	121.09	121.29	L1
+5	traduit	traduire	VPP	VPP	_	0	ROOT	_	_	121.30	121.59	L1
+6	par	par	PRE	PRE	_	5	dep	_	_	121.60	121.72	L1
+7	le	le	DET	DET	_	8	spe	_	_	121.73	121.77	L1
+8	fait	fait	NOM	NOM	_	6	dep	_	_	121.89	122.07	L1
+9	que	que	CSU	CSU	_	8	dep	_	_	122.08	122.32	L1
+10	sans	sans	PRE	PRE	_	11	dep	_	_	122.33	122.52	L1
+11	blocage	blocage	NOM	NOM	_	13	periph	_	_	122.53	122.91	L1
+12	on	on	CLS	CLS	_	13	subj	_	_	122.92	123.05	L1
+13	existe	exister	VRB	VRB	_	9	dep	_	_	123.06	123.49	L1
+14	pas	pas	ADN	ADN	_	13	dep	_	_	123.50	123.55	L1
+15	hein	hein	INT	INT	_	14	dm	_	_	123.91	123.95	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-30
+# text = c'est c'est ou vous bloquez ou ben vous n'êtes pas dans le mouvement
+1	c'	ce	CLS	CLS	_	2	subj	_	_	124.16	124.33	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	124.34	124.50	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	124.87	124.89	L1
+4	est	être	VRB	VRB	_	2	para	_	_	124.90	125.01	L1
+5	ou	ou	COO	COO	_	7	mark	_	_	125.02	125.20	L1
+6	vous	vous	CLS	CLS	_	7	subj	_	_	125.21	125.31	L1
+7	bloquez	bloquer	VRB	VRB	_	2	dep	_	_	125.32	125.85	L1
+8	ou	ou	COO	COO	_	12	mark	_	_	126.00	126.28	L1
+9	ben	ben	INT	INT	_	8	dm	_	_	126.29	126.43	L1
+10	vous	vous	CLS	CLS	_	12	subj	_	_	126.44	126.55	L1
+11	n'	ne	CLN	CLN	_	12	dep	_	_	126.56	126.60	L1
+12	êtes	être	VRB	VRB	_	7	para	_	_	126.61	126.73	L1
+13	pas	pas	ADN	ADN	_	12	dep	_	_	126.74	126.83	L1
+14	dans	dans	PRE	PRE	_	12	dep	_	_	126.84	126.95	L1
+15	le	le	DET	DET	_	16	spe	_	_	126.96	127.00	L1
+16	mouvement	mouvement	NOM	NOM	_	14	dep	_	_	127.01	127.39	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-31
+# text = autrement dit il y a une sorte d'injonction un peu paradoxale là qui nous dit pour exister il faut bloquer
+1	autrement#dit	autrement dit	ADV	ADV	_	4	periph	_	_	127.63	128.26	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	128.27	128.29	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	128.30	128.33	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	128.44	128.46	L1
+5	une	un	DET	DET	_	6	spe	_	_	128.47	128.68	L1
+6	sorte	sorte	NOM	NOM	_	4	dep	_	_	128.69	128.97	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	128.98	129.05	L1
+8	injonction	injonction	NOM	NOM	_	7	dep	_	_	129.06	129.64	L1
+9	un#peu	un peu	ADV	ADV	_	10	dep	_	_	129.65	129.74	L1
+10	paradoxale	paradoxal	ADJ	ADJ	_	8	dep	_	_	129.75	130.31	L1
+11	là	là	ADV	ADV	_	8	periph	_	_	130.32	130.36	L1
+12	qui	_	PRQ	PRQ	_	14	subj	_	_	130.37	130.46	L1
+13	nous	nous	CLI	CLI	_	14	dep	_	_	130.47	130.75	L1
+14	dit	dire	VRB	VRB	_	8	dep	_	_	130.76	130.90	L1
+15	pour	pour	PRE	PRE	_	18	periph	_	_	130.91	131.03	L1
+16	exister	exister	VNF	VNF	_	15	dep	_	_	131.04	131.34	L1
+17	il	il	CLS	CLS	_	18	subj	_	_	131.35	131.44	L1
+18	faut	faillir	VRB	VRB	_	14	dep	_	_	131.45	131.55	L1
+19	bloquer	bloquer	VNF	VNF	_	18	dep	_	_	131.56	131.94	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-32
+# text = mais si on bloque on meurt en même temps
+1	mais	mais	COO	COO	_	6	mark	_	_	131.95	132.06	L1
+2	si	si	CSU	CSU	_	6	periph	_	_	132.10	132.18	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	132.19	132.30	L1
+4	bloque	bloquer	VRB	VRB	_	2	dep	_	_	132.31	132.53	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	132.62	132.78	L1
+6	meurt	mourir	VRB	VRB	_	0	ROOT	_	_	132.84	133.04	L1
+7	en#même#temps	en même temps	ADV	ADV	_	6	dep	_	_	133.11	133.40	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-33
+# text = donc euh le blocage parce que le blocage c'est pas une bonne action
+1	donc	donc	ADV	ADV	_	4	periph	_	_	133.81	134.04	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	134.05	134.07	L1
+3	le	le	DET	DET	_	4	spe	_	_	134.08	134.39	L1
+4	blocage	blocage	NOM	NOM	_	0	ROOT	_	_	134.40	134.79	L1
+5	parce#que	parce que	CSU	CSU	_	4	dep	_	_	134.80	134.99	L1
+6	le	le	DET	DET	_	7	spe	_	_	135.00	135.02	L1
+7	blocage	blocage	NOM	NOM	_	9	periph	_	_	135.03	135.34	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	135.35	135.38	L1
+9	est	être	VRB	VRB	_	5	dep	_	_	135.39	135.45	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	135.46	135.51	L1
+11	une	un	DET	DET	_	13	spe	_	_	135.52	135.60	L1
+12	bonne	bon	ADJ	ADJ	_	13	dep	_	_	135.61	135.81	L1
+13	action	action	NOM	NOM	_	9	dep	_	_	135.82	136.20	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-34
+# text = mais maintenant il y a que ça
+1	mais	mais	COO	COO	_	5	mark	_	_	136.21	136.27	L1
+2	maintenant	maintenant	ADV	ADV	_	5	periph	_	_	136.31	136.59	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	136.60	136.67	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	136.68	136.70	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	136.71	136.73	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	136.74	136.76	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	136.77	136.83	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-35
+# text = qu'est-ce qu'on peut faire pour exister alors
+1	qu'est-ce qu'	qu'est-ce que	PRQ	PRQ	_	3	dep	_	_	136.84	136.95	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	136.96	137.01	L1
+3	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	137.02	137.13	L1
+4	faire	-	VNF	VNF	_	3	dep	_	_	137.20	137.31	L1
+5	pour	pour	PRE	PRE	_	4	dep	_	_	137.36	137.49	L1
+6	exister	exister	VNF	VNF	_	5	dep	_	_	137.50	137.78	L1
+7	alors	alors	ADV	ADV	_	6	dm	_	_	137.79	137.91	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-36
+# text = comment comment on s'en sort
+1	comment	comment	PRQ	PRQ	_	6	dep	_	_	138.04	138.34	L1
+2	comment	comment	PRQ	PRQ	_	1	para	_	_	138.35	138.56	L1
+3	on	on	CLS	CLS	_	6	subj	_	_	138.57	138.68	L1
+4	s'	se	CLI	CLI	_	6	dep	_	_	138.69	138.71	L1
+5	en	en	CLI	CLI	_	6	dep	_	_	138.72	138.86	L1
+6	sort	sortir	VRB	VRB	_	0	ROOT	_	_	138.92	139.11	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-37
+# text = il y a donc une sorte de lutte de de légitimité une sorte de lutte de légitimité entre les A G et leur délibération et de l'autre côté les actions par communiqués essentiellement de de la présidence
+1	il	il	CLS	CLS	_	3	subj	_	_	139.52	139.67	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	139.77	139.87	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	139.88	139.90	L1
+4	donc	donc	ADV	ADV	_	3	dep	_	_	139.91	140.02	L1
+5	une	un	DET	DET	_	6	spe	_	_	140.10	140.28	L1
+6	sorte	sorte	NOM	NOM	_	3	dep	_	_	140.29	140.41	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	140.47	140.69	L1
+8	lutte	lutte	NOM	NOM	_	7	dep	_	_	140.70	140.85	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	140.86	140.93	L1
+10	de	de	PRE	PRE	_	9	para	_	_	140.94	141.04	L1
+11	légitimité	légitimité	NOM	NOM	_	10	dep	_	_	141.11	142.07	L1
+12	une	un	DET	DET	_	13	spe	_	_	142.13	142.33	L1
+13	sorte	sorte	NOM	NOM	_	6	para	_	_	142.34	142.54	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	142.55	142.63	L1
+15	lutte	lutte	NOM	NOM	_	14	dep	_	_	142.77	142.96	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	143.52	143.61	L1
+17	légitimité	légitimité	NOM	NOM	_	16	dep	_	_	144.09	144.90	L1
+18	entre	entre	PRE	PRE	_	15	dep	_	_	144.91	145.18	L1
+19	les	le	DET	DET	_	20	spe	_	_	145.19	145.37	L1
+20	A	_	NOM	NOM	_	18	dep	_	_	145.38	145.49	L1
+21	G	_	NOM	NOM	_	20	dep	_	_	145.50	145.57	L1
+22	et	et	COO	COO	_	24	mark	_	_	145.65	145.81	L1
+23	leur	son	DET	DET	_	24	spe	_	_	146.12	146.33	L1
+24	délibération	délibération	NOM	NOM	_	20	para	_	_	146.34	147.08	L1
+25	et	et	COO	COO	_	31	mark	_	_	147.26	147.28	L1
+26	de	de	PRE	PRE	_	31	dep	_	_	147.49	147.65	L1
+27	l'	le	DET	DET	_	29	spe	_	_	147.69	147.83	L1
+28	autre	autre	ADJ	ADJ	_	29	dep	_	_	147.89	148.17	L1
+29	côté	côté	NOM	NOM	_	26	dep	_	_	148.18	148.40	L1
+30	les	le	DET	DET	_	31	spe	_	_	148.41	148.59	L1
+31	actions	action	NOM	NOM	_	18	dep	_	_	148.60	149.11	L1
+32	par	par	PRE	PRE	_	31	dep	_	_	149.12	149.28	L1
+33	communiqués	communiqué	NOM	NOM	_	32	dep	_	_	149.29	149.84	L1
+34	essentiellement	essentiellement	ADV	ADV	_	31	dep	_	_	149.85	150.27	L1
+35	de	de	PRE	PRE	_	31	dep	_	_	150.28	150.49	L1
+36	de	de	PRE	PRE	_	35	para	_	_	150.50	150.55	L1
+37	la	le	DET	DET	_	38	spe	_	_	150.56	150.67	L1
+38	présidence	présidence	NOM	NOM	_	36	dep	_	_	150.68	151.21	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-38
+# text = et ce qui f me frappe dans cette opposition c'est la dissymétrie qu'il y a entre les deux espaces des A G qui offrent des débats contradictoires qui offrent des espaces de discussions contradictoires où ils sont saisis
+1	et	et	COO	COO	_	11	mark	_	_	151.22	151.30	L1
+2	ce	ce	PRO	PRO	_	11	periph	_	_	151.31	151.33	L1
+3	qui	_	PRQ	PRQ	_	6	subj	_	_	151.34	151.47	L1
+4	f	_	VRB	VRB	_	3	disflink	_	_	151.48	151.57	L1
+5	me	me	CLI	CLI	_	6	dep	_	_	151.67	151.73	L1
+6	frappe	frapper	VRB	VRB	_	2	dep	_	_	151.74	152.24	L1
+7	dans	dans	PRE	PRE	_	6	dep	_	_	152.25	152.37	L1
+8	cette	ce	DET	DET	_	9	spe	_	_	152.38	152.52	L1
+9	opposition	opposition	NOM	NOM	_	7	dep	_	_	152.53	153.12	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	153.13	153.17	L1
+11	est	être	VRB	VRB	_	0	ROOT	_	_	153.21	153.38	L1
+12	la	le	DET	DET	_	13	spe	_	_	153.79	153.92	L1
+13	dissymétrie	dissymétrie	NOM	NOM	_	11	dep	_	_	154.00	154.61	L1
+14	qu'	que	PRQ	PRQ	_	17	dep	_	_	154.62	154.66	L1
+15	il	il	CLS	CLS	_	17	subj	_	_	154.67	154.73	L1
+16	y	y	CLI	CLI	_	17	dep	_	_	154.74	154.82	L1
+17	a	avoir	VRB	VRB	_	13	dep	_	_	154.83	154.85	L1
+18	entre	entre	PRE	PRE	_	17	dep	_	_	154.86	155.09	L1
+19	les	le	DET	DET	_	21	spe	_	_	155.10	155.19	L1
+20	deux	_	NUM	NUM	_	21	dep	_	_	155.20	155.41	L1
+21	espaces	espace	NOM	NOM	_	18	dep	_	_	155.47	155.75	L1
+22	des	de	PRE	PRE	_	21	para	_	_	155.95	156.07	L1
+23	A	_	NOM	NOM	_	22	dep	_	_	156.08	156.10	L1
+24	G	_	NOM	NOM	_	23	dep	_	_	156.11	156.25	L1
+25	qui	_	PRQ	PRQ	_	26	subj	_	_	156.30	156.48	L1
+26	offrent	offrir	VRB	VRB	_	24	dep	_	_	156.49	156.58	L1
+27	des	de	PRE	PRE	_	26	dep	_	_	156.71	156.83	L1
+28	débats	débat	NOM	NOM	_	27	dep	_	_	156.84	157.10	L1
+29	contradictoires	contradictoire	ADJ	ADJ	_	28	dep	_	_	157.15	157.89	L1
+30	qui	_	PRQ	PRQ	_	31	subj	_	_	158.23	158.34	L1
+31	offrent	offrir	VRB	VRB	_	26	para	_	_	158.35	158.59	L1
+32	des	de	PRE	PRE	_	31	dep	_	_	158.60	158.80	L1
+33	espaces	espace	NOM	NOM	_	32	dep	_	_	158.81	159.49	L1
+34	de	de	PRE	PRE	_	33	dep	_	_	159.50	159.62	L1
+35	discussions	discussion	NOM	NOM	_	34	dep	_	_	159.63	160.18	L1
+36	contradictoires	contradictoire	ADJ	ADJ	_	35	dep	_	_	160.19	161.25	L1
+37	où	où	PRQ	PRQ	_	40	dep	_	_	161.26	161.38	L1
+38	ils	il	CLS	CLS	_	40	subj	_	_	161.54	161.59	L1
+39	sont	être	VRB	VRB	_	40	aux	_	_	161.60	161.77	L1
+40	saisis	saisir	VPP	VPP	_	33	dep	_	_	161.78	161.98	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-39
+# text = ils sont pas saisis
+1	ils	il	CLS	CLS	_	4	subj	_	_	161.99	162.10	L1
+2	sont	être	VRB	VRB	_	4	aux	_	_	162.11	162.23	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	162.27	162.36	L1
+4	saisis	saisir	VPP	VPP	_	0	ROOT	_	_	162.42	162.55	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-40
+# text = mais ils les offrent
+1	mais	mais	COO	COO	_	4	mark	_	_	162.56	162.65	L1
+2	ils	il	CLS	CLS	_	4	subj	_	_	162.66	162.92	L1
+3	les	le	CLI	CLI	_	4	dep	_	_	163.12	163.43	L1
+4	offrent	offrir	VRB	VRB	_	0	ROOT	_	_	163.44	163.66	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-41
+# text = allez voir sur l'E N T s'il y a un tel espace euh de débat contradictoire
+1	allez	aller	VRB	VRB	_	0	ROOT	_	_	164.10	164.22	L1
+2	voir	voir	VNF	VNF	_	1	dep	_	_	164.23	164.39	L1
+3	sur	sur	PRE	PRE	_	2	dep	_	_	164.46	164.67	L1
+4	l'	le	DET	DET	_	5	spe	_	_	164.68	164.73	L1
+5	E	_	NOM	NOM	_	3	dep	_	_	164.74	164.78	L1
+6	N	_	PRE	PRE	_	5	dep	_	_	164.79	164.98	L1
+7	T	_	NOM	NOM	_	6	dep	_	_	164.99	165.01	L1
+8	s'	si	CSU	CSU	_	2	dep	_	_	165.02	165.06	L1
+9	il	il	CLS	CLS	_	11	subj	_	_	165.07	165.12	L1
+10	y	y	CLI	CLI	_	11	dep	_	_	165.35	165.51	L1
+11	a	avoir	VRB	VRB	_	8	dep	_	_	165.52	165.54	L1
+12	un	un	DET	DET	_	14	spe	_	_	165.55	165.75	L1
+13	tel	tel	ADJ	ADJ	_	14	dep	_	_	165.85	165.96	L1
+14	espace	espace	NOM	NOM	_	11	dep	_	_	165.97	166.34	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	166.58	166.60	L1
+16	de	de	PRE	PRE	_	14	dep	_	_	166.74	167.08	L1
+17	débat	débat	NOM	NOM	_	16	dep	_	_	167.09	167.32	L1
+18	contradictoire	contradictoire	ADJ	ADJ	_	17	dep	_	_	167.33	168.14	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-42
+# text = l'E N T c'est le lieu de la parole officielle et uniquement de la parole officielle
+1	l'	le	DET	DET	_	2	spe	_	_	168.21	168.35	L1
+2	E	_	NOM	NOM	_	6	periph	_	_	168.36	168.39	L1
+3	N	_	PRE	PRE	_	2	dep	_	_	168.45	168.55	L1
+4	T	_	NOM	NOM	_	3	dep	_	_	168.56	168.71	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	168.83	168.86	L1
+6	est	être	VRB	VRB	_	0	ROOT	_	_	168.87	168.93	L1
+7	le	le	DET	DET	_	8	spe	_	_	168.94	169.03	L1
+8	lieu	lieu	NOM	NOM	_	6	dep	_	_	169.04	169.23	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	169.24	169.26	L1
+10	la	le	DET	DET	_	11	spe	_	_	169.27	169.37	L1
+11	parole	parole	NOM	NOM	_	9	dep	_	_	169.38	169.87	L1
+12	officielle	officiel	ADJ	ADJ	_	11	dep	_	_	169.88	170.18	L1
+13	et	et	COO	COO	_	15	mark	_	_	170.19	170.33	L1
+14	uniquement	uniquement	ADV	ADV	_	15	dep	_	_	170.34	170.78	L1
+15	de	de	PRE	PRE	_	9	para	_	_	170.79	170.81	L1
+16	la	le	DET	DET	_	17	spe	_	_	170.82	170.90	L1
+17	parole	parole	NOM	NOM	_	15	dep	_	_	170.98	171.35	L1
+18	officielle	officiel	ADJ	ADJ	_	17	dep	_	_	171.36	171.72	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-43
+# text = or si vous si vous m'applaudissez ça me prend mon temps ] euh or or c'est c'est précisément sur cet espace là l'E N T qu'est organisé le vote
+1	or	or	COO	COO	_	18	mark	_	_	172.13	172.41	L1
+2	si	si	CSU	CSU	_	10	periph	_	_	173.68	173.73	L1
+3	vous	vous	CLS	CLS	_	2	disflink	_	_	175.49	175.81	L1
+4	si	si	CSU	CSU	_	2	para	_	_	176.01	176.06	L1
+5	vous	vous	CLS	CLS	_	7	subj	_	_	176.76	177.54	L1
+6	m'	me	CLI	CLI	_	7	dep	_	_	177.55	177.66	L1
+7	applaudissez	applaudir	VRB	VRB	_	2	dep	_	_	177.67	177.99	L1
+8	ça	ça	PRO	PRO	_	10	subj	_	_	178.05	178.11	L1
+9	me	me	CLI	CLI	_	10	dep	_	_	178.12	178.41	L1
+10	prend	prendre	VRB	VRB	_	18	parenth	_	_	178.42	178.62	L1
+11	mon	son	DET	DET	_	12	spe	_	_	178.63	179.31	L1
+12	temps	temps	NOM	NOM	_	10	dep	_	_	179.42	179.47	L1
+13	]	_	X	X	_	18	parenth	_	_	179.47	179.47	L1
+14	euh	euh	INT	INT	_	18	dm	_	_	179.67	179.69	L1
+15	or	or	COO	COO	_	1	para	_	_	179.70	180.22	L1
+16	or	or	NOM	NOM	_	15	para	_	_	180.23	180.32	L1
+17	c'	ce	CLS	CLS	_	18	subj	_	_	180.65	180.73	L1
+18	est	être	VRB	VRB	_	0	ROOT	_	_	180.94	181.06	L1
+19	c'	ce	CLS	CLS	_	20	subj	_	_	181.21	181.23	L1
+20	est	être	VRB	VRB	_	18	para	_	_	181.24	181.35	L1
+21	précisément	précisément	ADV	ADV	_	20	dep	_	_	181.92	183.38	L1
+22	sur	sur	PRE	PRE	_	20	dep	_	_	183.39	183.60	L1
+23	cet	ce	DET	DET	_	24	spe	_	_	183.65	183.80	L1
+24	espace	espace	NOM	NOM	_	22	dep	_	_	183.85	184.14	L1
+25	là	là	ADV	ADV	_	24	dep	_	_	184.22	184.31	L1
+26	l'	le	DET	DET	_	27	spe	_	_	184.35	184.44	L1
+27	E	_	NOM	NOM	_	24	para	_	_	184.45	184.47	L1
+28	N	_	PRE	PRE	_	27	dep	_	_	184.48	184.76	L1
+29	T	_	NOM	NOM	_	28	dep	_	_	184.77	184.86	L1
+30	qu'	que	PRQ	PRQ	_	20	dep	_	_	184.87	184.89	L1
+31	est	être	VRB	VRB	_	32	aux	_	_	184.90	184.95	L1
+32	organisé	organiser	VPP	VPP	_	30	dep	_	_	184.96	185.40	L1
+33	le	le	DET	DET	_	34	spe	_	_	185.41	185.57	L1
+34	vote	vote	NOM	NOM	_	32	subj	_	_	185.58	185.75	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-44
+# text = ça ça pose comme question
+1	ça	ça	PRO	PRO	_	3	periph	_	_	185.85	186.12	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	186.18	186.29	L1
+3	pose	poser	VRB	VRB	_	0	ROOT	_	_	186.37	186.52	L1
+4	comme	comme	PRE	PRE	_	3	dep	_	_	186.53	186.69	L1
+5	question	question	NOM	NOM	_	4	dep	_	_	186.70	186.95	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-45
+# text = autrement dit moi je je veux bien que techniquement ça soit bien foutu euh que administrativement ça soit bien foutu ce vote
+1	autrement#dit	autrement dit	ADV	ADV	_	5	periph	_	_	187.03	187.50	L1
+2	moi	moi	PRO	PRO	_	5	periph	_	_	187.51	187.63	L1
+3	je	je	CLS	CLS	_	5	subj	_	_	187.67	187.72	L1
+4	je	je	CLS	CLS	_	3	para	_	_	187.91	188.00	L1
+5	veux	vouloir	VRB	VRB	_	0	ROOT	_	_	188.01	188.09	L1
+6	bien	bien	ADV	ADV	_	5	dep	_	_	188.10	188.22	L1
+7	que	que	CSU	CSU	_	5	dep	_	_	188.29	188.31	L1
+8	techniquement	techniquement	ADV	ADV	_	10	periph	_	_	188.32	188.82	L1
+9	ça	ça	PRO	PRO	_	10	subj	_	_	188.86	188.93	L1
+10	soit	être	VRB	VRB	_	7	dep	_	_	188.94	189.09	L1
+11	bien	bien	ADV	ADV	_	12	dep	_	_	189.15	189.30	L1
+12	foutu	foutre	ADJ	ADJ	_	10	dep	_	_	189.39	189.89	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	190.06	190.11	L1
+14	que	que	CSU	CSU	_	7	para	_	_	190.22	190.27	L1
+15	administrativement	administrativement	ADV	ADV	_	17	periph	_	_	190.28	190.95	L1
+16	ça	ça	PRO	PRO	_	17	subj	_	_	191.02	191.10	L1
+17	soit	être	VRB	VRB	_	14	dep	_	_	191.15	191.31	L1
+18	bien	bien	ADV	ADV	_	19	dep	_	_	191.32	191.49	L1
+19	foutu	foutre	ADJ	ADJ	_	17	dep	_	_	191.56	191.94	L1
+20	ce	_	DET	DET	_	21	spe	_	_	191.95	192.02	L1
+21	vote	vote	NOM	NOM	_	17	periph	_	_	192.10	192.26	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-46
+# text = ça à la limite c'est pas le problème là
+1	ça	ça	PRO	PRO	_	6	periph	_	_	192.77	192.85	L1
+2	à	à	PRE	PRE	_	6	periph	_	_	192.97	193.15	L1
+3	la	le	DET	DET	_	4	spe	_	_	193.27	193.34	L1
+4	limite	limite	NOM	NOM	_	2	dep	_	_	193.35	193.62	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	193.63	193.68	L1
+6	est	être	VRB	VRB	_	0	ROOT	_	_	193.69	193.76	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	193.77	193.88	L1
+8	le	le	DET	DET	_	9	spe	_	_	193.89	193.92	L1
+9	problème	problème	NOM	NOM	_	6	dep	_	_	193.99	194.23	L1
+10	là	là	ADV	ADV	_	9	dm	_	_	194.31	194.50	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-47
+# text = le problème c'est le symbolique
+1	le	le	DET	DET	_	2	spe	_	_	194.67	194.69	L1
+2	problème	problème	NOM	NOM	_	4	periph	_	_	194.70	195.15	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	195.16	195.18	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	195.19	195.21	L1
+5	le	le	DET	DET	_	6	spe	_	_	195.22	195.24	L1
+6	symbolique	symbolique	NOM	NOM	_	4	dep	_	_	195.28	195.63	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-48
+# text = c'est où ça se passe
+1	c'	ce	CLS	CLS	_	2	subj	_	_	195.64	195.80	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	195.81	195.92	L1
+3	où	où	PRQ	PRQ	_	6	dep	_	_	195.93	196.06	L1
+4	ça	ça	PRO	PRO	_	6	subj	_	_	196.07	196.19	L1
+5	se	se	CLI	CLI	_	6	dep	_	_	196.29	196.33	L1
+6	passe	passer	VRB	VRB	_	2	dep	_	_	196.34	196.46	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-49
+# text = ça se passe sur l'espace de la parole officielle
+1	ça	ça	PRO	PRO	_	3	subj	_	_	196.70	196.77	L1
+2	se	se	CLI	CLI	_	3	dep	_	_	196.82	196.86	L1
+3	passe	passer	VRB	VRB	_	0	ROOT	_	_	196.92	197.01	L1
+4	sur	sur	PRE	PRE	_	3	dep	_	_	197.09	197.20	L1
+5	l'	le	DET	DET	_	6	spe	_	_	197.21	197.41	L1
+6	espace	espace	NOM	NOM	_	4	dep	_	_	197.42	197.70	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	197.71	197.73	L1
+8	la	le	DET	DET	_	9	spe	_	_	197.78	197.90	L1
+9	parole	parole	NOM	NOM	_	7	dep	_	_	197.96	198.22	L1
+10	officielle	officiel	ADJ	ADJ	_	9	dep	_	_	198.23	198.72	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-50
+# text = donc il faut que je conclue là-dessus
+1	donc	donc	ADV	ADV	_	3	periph	_	_	199.07	199.28	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	199.29	199.48	L1
+3	faut	faillir	VRB	VRB	_	0	ROOT	_	_	199.49	199.60	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	199.61	199.72	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	199.73	199.78	L1
+6	conclue	conclure	ADJ	ADJ	_	4	dep	_	_	199.79	200.31	L1
+7	là-dessus	là-dessus	ADV	ADV	_	6	dep	_	_	200.43	200.74	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-51
+# text = j'avais encore plein de choses à vous dire euh euh
+1	j'	je	CLS	CLS	_	2	subj	_	_	200.75	200.80	L1
+2	avais	avoir	VRB	VRB	_	0	ROOT	_	_	200.81	200.89	L1
+3	encore	encore	ADV	ADV	_	2	dep	_	_	200.90	201.11	L1
+4	plein	plein	ADJ	ADJ	_	2	dep	_	_	201.12	201.31	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	201.32	201.34	L1
+6	choses	chose	NOM	NOM	_	5	dep	_	_	201.35	201.60	L1
+7	à	à	PRE	PRE	_	2	dep	_	_	201.61	201.65	L1
+8	vous	vous	CLI	CLI	_	9	dep	_	_	201.66	201.78	L1
+9	dire	dire	VNF	VNF	_	7	dep	_	_	201.86	202.05	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	202.38	202.40	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	202.52	202.54	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-52
+# text = je vais simplement reprendre un peu ma casquette de de SNESUP pour vous dire que le SNESUP depuis le début est sur la liste d'abrogation
+1	je	je	CLS	CLS	_	2	subj	_	_	202.58	203.43	L1
+2	vais	aller	VRB	VRB	_	0	ROOT	_	_	203.44	203.61	L1
+3	simplement	simplement	ADV	ADV	_	2	dep	_	_	203.86	204.40	L1
+4	reprendre	reprendre	VNF	VNF	_	2	dep	_	_	204.41	204.76	L1
+5	un#peu	un peu	ADV	ADV	_	4	dep	_	_	204.77	204.89	L1
+6	ma	son	DET	DET	_	7	spe	_	_	204.90	205.09	L1
+7	casquette	casquette	NOM	NOM	_	4	dep	_	_	205.19	205.79	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	205.80	206.01	L1
+9	de	de	PRE	PRE	_	8	para	_	_	206.02	206.05	L1
+10	SNESUP	_	NOM	NOM	_	9	dep	_	_	206.06	206.73	L1
+11	pour	pour	PRE	PRE	_	4	dep	_	_	206.99	207.09	L1
+12	vous	vous	CLI	CLI	_	13	dep	_	_	207.10	207.39	L1
+13	dire	dire	VNF	VNF	_	11	dep	_	_	207.44	207.68	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	207.69	207.88	L1
+15	le	le	DET	DET	_	16	spe	_	_	207.89	207.98	L1
+16	SNESUP	_	NOM	NOM	_	20	subj	_	_	207.99	208.59	L1
+17	depuis	depuis	PRE	PRE	_	20	dep	_	_	208.67	209.04	L1
+18	le	le	DET	DET	_	19	spe	_	_	209.05	209.07	L1
+19	début	début	NOM	NOM	_	17	dep	_	_	209.08	209.41	L1
+20	est	être	VRB	VRB	_	14	dep	_	_	209.70	209.75	L1
+21	sur	sur	PRE	PRE	_	20	dep	_	_	209.76	209.89	L1
+22	la	le	DET	DET	_	23	spe	_	_	209.90	209.98	L1
+23	liste	liste	NOM	NOM	_	21	dep	_	_	209.99	210.15	L1
+24	d'	de	PRE	PRE	_	23	dep	_	_	210.16	210.23	L1
+25	abrogation	abrogation	NOM	NOM	_	24	dep	_	_	210.24	210.76	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-53
+# text = et on continue à demander l'abrogation de la loi
+1	et	et	COO	COO	_	3	mark	_	_	210.77	210.81	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	210.82	210.95	L1
+3	continue	continuer	VRB	VRB	_	0	ROOT	_	_	210.99	211.37	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	211.38	211.46	L1
+5	demander	demander	VNF	VNF	_	4	dep	_	_	211.47	211.83	L1
+6	l'	le	DET	DET	_	7	spe	_	_	211.84	211.88	L1
+7	abrogation	abrogation	NOM	NOM	_	5	dep	_	_	211.89	212.35	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	212.36	212.38	L1
+9	la	le	DET	DET	_	10	spe	_	_	212.39	212.46	L1
+10	loi	loi	NOM	NOM	_	8	dep	_	_	212.47	212.68	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-54
+# text = et on continue comme on vous l'avait dit il y a quelques A G à soutenir les formes d'actions délibérées délibérées en A G voilà merci
+1	et	et	COO	COO	_	3	mark	_	_	213.00	213.02	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	213.03	213.17	L1
+3	continue	continuer	VRB	VRB	_	0	ROOT	_	_	213.18	213.51	L1
+4	comme	comme	CSU	CSU	_	3	dep	_	_	213.52	213.66	L1
+5	on	on	CLS	CLS	_	9	subj	_	_	213.72	213.84	L1
+6	vous	vous	CLI	CLI	_	9	dep	_	_	213.85	213.90	L1
+7	l'	le	CLI	CLI	_	9	dep	_	_	213.91	213.97	L1
+8	avait	avoir	VRB	VRB	_	9	aux	_	_	213.98	214.19	L1
+9	dit	dire	VPP	VPP	_	4	dep	_	_	214.20	214.30	L1
+10	il	il	CLS	CLS	_	12	subj	_	_	214.31	214.46	L1
+11	y	y	CLI	CLI	_	12	dep	_	_	214.54	214.57	L1
+12	a	avoir	VRB	VRB	_	9	dep	_	_	214.58	214.60	L1
+13	quelques	quelque	ADJ	ADJ	_	14	spe	_	_	214.61	214.89	L1
+14	A	_	NOM	NOM	_	12	dep	_	_	214.93	214.97	L1
+15	G	_	NOM	NOM	_	14	dep	_	_	215.02	215.24	L1
+16	à	à	PRE	PRE	_	3	dep	_	_	215.45	215.52	L1
+17	soutenir	soutenir	VNF	VNF	_	16	dep	_	_	215.53	216.03	L1
+18	les	le	DET	DET	_	19	spe	_	_	216.10	216.23	L1
+19	formes	forme	NOM	NOM	_	17	dep	_	_	216.24	216.51	L1
+20	d'	de	PRE	PRE	_	19	dep	_	_	216.52	216.58	L1
+21	actions	action	NOM	NOM	_	20	dep	_	_	216.59	216.89	L1
+22	délibérées	délibéré	ADJ	ADJ	_	21	dep	_	_	216.90	217.67	L1
+23	délibérées	délibéré	ADJ	ADJ	_	22	para	_	_	217.68	218.11	L1
+24	en	en	PRE	PRE	_	23	dep	_	_	218.12	218.23	L1
+25	A	_	NOM	NOM	_	24	dep	_	_	218.29	218.35	L1
+26	G	_	NOM	NOM	_	25	dep	_	_	218.36	218.43	L1
+27	voilà	voilà	INT	INT	_	26	dm	_	_	218.87	219.01	L1
+28	merci	merci	INT	INT	_	27	dm	_	_	219.12	219.29	L1
+
+# sent_id = cefc-tcof-Assemblee_dim_08-55
+# text = après l'intervention de NNAAMMEE euh je propose de conclure la liste
+1	après	après	PRE	PRE	_	8	periph	_	_	227.61	227.76	L2
+2	l'	le	DET	DET	_	3	spe	_	_	227.77	227.80	L2
+3	intervention	intervention	NOM	NOM	_	1	dep	_	_	227.81	228.46	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	229.15	229.43	L2
+5	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	dep	_	_	229.44	230.27	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	230.32	230.36	L2
+7	je	je	CLS	CLS	_	8	subj	_	_	230.88	230.99	L2
+8	propose	proposer	VRB	VRB	_	0	ROOT	_	_	231.00	231.48	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	231.49	231.51	L2
+10	conclure	conclure	VNF	VNF	_	9	dep	_	_	231.52	231.80	L2
+11	la	le	DET	DET	_	12	spe	_	_	231.87	231.93	L2
+12	liste	liste	NOM	NOM	_	10	dep	_	_	231.94	232.33	L2
+
+# sent_id = cefc-tcof-Assemblee_dim_08-56
+# text = donc ceux qui voulaient encore intervenir euh viennent vite s'inscrire parce que on a quand même pas mal d'inscrits
+1	donc	donc	ADV	ADV	_	2	periph	_	_	233.14	233.38	L2
+2	ceux	celui	PRO	PRO	_	8	subj	_	_	233.39	233.46	L2
+3	qui	_	PRQ	PRQ	_	4	subj	_	_	233.47	233.55	L2
+4	voulaient	vouloir	VRB	VRB	_	2	dep	_	_	233.56	233.77	L2
+5	encore	encore	ADV	ADV	_	4	dep	_	_	233.78	234.30	L2
+6	intervenir	intervenir	VNF	VNF	_	4	dep	_	_	234.36	234.88	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	234.97	235.04	L2
+8	viennent	venir	VRB	VRB	_	0	ROOT	_	_	235.73	236.13	L2
+9	vite	vite	ADV	ADV	_	8	dep	_	_	236.14	236.23	L2
+10	s'	se	CLI	CLI	_	11	dep	_	_	236.24	236.26	L2
+11	inscrire	inscrire	VNF	VNF	_	8	dep	_	_	236.27	236.83	L2
+12	parce#que	parce que	CSU	CSU	_	11	dep	_	_	237.37	237.81	L2
+13	on	on	CLS	CLS	_	14	subj	_	_	237.82	238.39	L2
+14	a	avoir	VRB	VRB	_	12	dep	_	_	238.50	238.56	L2
+15	quand#même	quand même	ADV	ADV	_	14	dep	_	_	238.65	239.12	L2
+16	pas	pas	ADN	ADN	_	14	dep	_	_	239.20	239.31	L2
+17	mal	mal	NOM	NOM	_	16	dep	_	_	239.32	239.49	L2
+18	d'	de	PRE	PRE	_	17	dep	_	_	239.50	239.52	L2
+19	inscrits	inscrit	NOM	NOM	_	18	dep	_	_	239.53	239.77	L2
+
+# sent_id = cefc-tcof-Assemblee_dim_08-57
+# text = et on a un deuxième point
+1	et	et	COO	COO	_	3	mark	_	_	239.78	239.80	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	239.81	239.91	L2
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	239.92	239.94	L2
+4	un	un	DET	DET	_	6	spe	_	_	239.95	240.15	L2
+5	deuxième	deuxième	ADJ	ADJ	_	6	dep	_	_	240.22	240.83	L2
+6	point	point	NOM	NOM	_	3	dep	_	_	241.40	241.57	L2
+
+# sent_id = cefc-tcof-Assemblee_dim_08-58
+# text = donc la parole est à NNAAMMEE
+1	donc	donc	ADV	ADV	_	4	periph	_	_	242.57	243.13	L2
+2	la	le	DET	DET	_	3	spe	_	_	243.14	243.21	L2
+3	parole	parole	NOM	NOM	_	4	subj	_	_	243.22	243.53	L2
+4	est	être	VRB	VRB	_	0	ROOT	_	_	243.86	243.90	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	243.91	243.93	L2
+6	NNAAMMEE	NNAAMMEE	NOM	NOM	_	5	dep	_	_	244.03	244.90	L2
+
+# sent_id = cefc-tcof-Assemblee_dim_08-59
+# text = et NNAAMMEE se prépare et toujours dans le respect s'il vous plaît
+1	et	et	COO	COO	_	4	mark	_	_	245.54	245.67	L2
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	4	subj	_	_	245.68	245.92	L2
+3	se	se	CLI	CLI	_	4	dep	_	_	246.40	246.42	L2
+4	prépare	préparer	VRB	VRB	_	0	ROOT	_	_	246.43	246.70	L2
+5	et	et	COO	COO	_	7	mark	_	_	250.38	250.40	L2
+6	toujours	toujours	ADV	ADV	_	7	dep	_	_	250.44	250.79	L2
+7	dans	dans	PRE	PRE	_	4	dep	_	_	251.21	251.38	L2
+8	le	le	DET	DET	_	9	spe	_	_	251.90	252.10	L2
+9	respect	respect	NOM	NOM	_	7	dep	_	_	252.18	252.39	L2
+10	s'	si	CSU	CSU	_	4	dep	_	_	255.64	255.66	L2
+11	il	il	CLS	CLS	_	13	subj	_	_	256.11	256.23	L2
+12	vous	vous	CLI	CLI	_	13	dep	_	_	256.46	256.51	L2
+13	plaît	plaire	VRB	VRB	_	10	dep	_	_	256.52	256.85	L2
+
+# sent_id = cefc-tcof-Assemblee_dim_08-60
+# text = on commence pas
+1	on	on	CLS	CLS	_	2	subj	_	_	256.89	257.51	L2
+2	commence	commencer	VRB	VRB	_	0	ROOT	_	_	257.52	258.03	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	258.04	258.37	L2
+

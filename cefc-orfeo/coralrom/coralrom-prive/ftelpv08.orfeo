@@ -1,0 +1,1128 @@
+# sent_id = cefc-coralrom-ftelpv08-1
+# text = allô
+1	allô	allo	INT	INT	_	0	root	_	_	1.680000	2.390000	MAN
+
+# sent_id = cefc-coralrom-ftelpv08-2
+# text = oui bonjour est-ce que je pourrais parler à NNAAMMEE
+1	oui	oui	INT	INT	_	3	dm	_	_	2.470000	2.780000	EST
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	2.790000	3.110000	EST
+3	est-ce	est-ce	VRB	VRB	_	0	root	_	_	3.120000	3.190000	EST
+4	que	que	CSU	CSU	_	3	dep	_	_	3.200000	3.300000	EST
+5	je	je	CLS	CLS	_	6	subj	_	_	3.310000	3.380000	EST
+6	pourrais	pouvoir	VRB	VRB	_	4	dep	_	_	3.390000	3.530000	EST
+7	parler	parler	VNF	VNF	_	6	dep	_	_	3.540000	3.760000	EST
+8	à	à	PRE	PRE	_	7	dep	_	_	3.770000	3.790000	EST
+9	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	3.850000	4.160000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-3
+# text = s'il vous plait
+1	s'	si	CSU	CSU	_	0	root	_	_	4.210000	4.230000	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	4.240000	4.310000	EST
+3	vous	vous	CLI	CLI	_	4	dep	_	_	4.320000	4.400000	EST
+4	plait	plait	VRB	VRB	_	1	dep	_	_	4.410000	4.550000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-4
+# text = oui je vous la passe
+1	oui	oui	INT	INT	_	5	dm	_	_	4.730000	4.880000	MAN
+2	je	je	CLS	CLS	_	5	subj	_	_	4.890000	5.000000	MAN
+3	vous	vous	CLI	CLI	_	5	dep	_	_	5.010000	5.140000	MAN
+4	la	le	CLI	CLI	_	5	dep	_	_	5.150000	5.280000	MAN
+5	passe	passer	VRB	VRB	_	0	root	_	_	5.290000	5.460000	MAN
+
+# sent_id = cefc-coralrom-ftelpv08-5
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	5.740000	6.130000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-6
+# text = allô oui
+1	allô	allo	INT	INT	_	0	root	_	_	8.150000	8.410000	SAN
+2	oui	oui	INT	INT	_	1	dm	_	_	9.060000	9.220000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-7
+# text = ah tu vas bien
+1	ah	ah	INT	INT	_	3	dm	_	_	10.220000	10.390000	SAN
+2	tu	tu	CLS	CLS	_	3	subj	_	_	10.400000	10.520000	SAN
+3	vas	aller	VRB	VRB	_	0	root	_	_	10.530000	10.650000	SAN
+4	bien	bien	ADV	ADV	_	3	dep	_	_	10.660000	10.820000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-8
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	11.590000	11.770000	SAN
+2	ouais	ouais	INT	INT	_	1	para	_	_	11.780000	11.890000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-9
+# text = bien NNAAMMEE c'est NNAAMMEE
+1	bien	bien	ADV	ADV	_	4	periph	_	_	11.900000	12.040000	EST
+2	NNAAMMEE	NOM	NOM	NOM	_	4	periph	_	_	8.580000	8.830000	EST
+3	c'	ce	CLS	CLS	_	4	subj	_	_	9.390000	9.410000	EST
+4	est	être	VRB	VRB	_	0	root	_	_	9.460000	9.660000	EST
+5	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	9.710000	9.980000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-10
+# text = ça va
+1	ça	ça	PRO	PRO	_	2	subj	_	_	11.020000	11.120000	EST
+2	va	aller	VRB	VRB	_	0	root	_	_	11.130000	11.270000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-11
+# text = et toi ouais dis-moi j'ai toujours pas reçu ton fichier électronique
+1	et	et	COO	COO	_	8	mark	_	_	11.280000	11.350000	EST
+2	toi	moi	PRO	PRO	_	8	periph	_	_	11.410000	11.510000	EST
+3	ouais	ouais	INT	INT	_	2	dm	_	_	12.340000	12.570000	EST
+4	dis-moi	dis-moi	VRB	VRB	_	3	dm	_	_	12.580000	12.860000	EST
+5	j'	je	CLS	CLS	_	8	subj	_	_	12.870000	12.950000	EST
+6	ai	avoir	VRB	VRB	_	8	aux	_	_	13.000000	13.020000	EST
+7	toujours pas	toujours pas	ADN	ADN	_	8	dep	_	_	13.030000	13.460000	EST
+8	reçu	recevoir	VPP	VPP	_	0	root	_	_	13.470000	13.780000	EST
+9	ton	son	DET	DET	_	10	spe	_	_	13.790000	14.040000	EST
+10	fichier	fichier	NOM	NOM	_	8	dep	_	_	14.050000	14.430000	EST
+11	électronique	électronique	ADJ	ADJ	_	10	dep	_	_	14.440000	15.080000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-12
+# text = mais attend Estelle euh
+1	mais	mais	COO	COO	_	2	mark	_	_	16.549999	16.750000	SAN
+2	attend	attendre	VRB	VRB	_	0	root	_	_	16.760000	17.139999	SAN
+3	Estelle	Estelle	NOM	NOM	_	2	dep	_	_	17.150000	18.719999	SAN
+4	euh	euh	INT	INT	_	3	dm	_	_	18.830000	18.860001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-13
+# text = tu as du me les envoyer
+1	tu	tu	CLS	CLS	_	2	subj	_	_	19.180000	19.270000	EST
+2	as	avoir	VRB	VRB	_	0	root	_	_	19.420000	19.480000	EST
+3	du	de+le	PRE	PRE	_	2	dep	_	_	19.490000	19.629999	EST
+4	me	me	CLI	CLI	_	6	dep	_	_	19.639999	19.670000	EST
+5	les	le	CLI	CLI	_	6	dep	_	_	19.680000	19.860001	EST
+6	envoyer	envoyer	VNF	VNF	_	3	dep	_	_	19.870001	20.250000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-14
+# text = je t'avais appelé jeudi il me semble
+1	je	je	CLS	CLS	_	4	subj	_	_	20.260000	20.299999	EST
+2	t'	te	CLI	CLI	_	4	dep	_	_	20.309999	20.350000	EST
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	20.440001	20.540001	EST
+4	appelé	appeler	VPP	VPP	_	8	periph	_	_	20.549999	20.750000	EST
+5	jeudi	jeudi	NOM	NOM	_	4	dep	_	_	20.760000	21.110001	EST
+6	il	il	CLS	CLS	_	8	subj	_	_	21.120001	21.139999	EST
+7	me	me	CLI	CLI	_	8	dep	_	_	21.200001	21.219999	EST
+8	semble	sembler	VRB	VRB	_	0	root	_	_	21.320000	21.600000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-15
+# text = non euh mais comment ça se fait
+1	non	non	INT	INT	_	7	dm	_	_	22.129999	22.930000	SAN
+2	euh	euh	INT	INT	_	1	dm	_	_	22.940001	23.139999	SAN
+3	mais	mais	COO	COO	_	7	mark	_	_	23.150000	23.230000	SAN
+4	comment	comment	PRQ	PRQ	_	7	dep	_	_	23.240000	23.410000	SAN
+5	ça	ça	PRO	PRO	_	7	subj	_	_	23.420000	23.549999	SAN
+6	se	se	CLI	CLI	_	7	dep	_	_	23.559999	23.639999	SAN
+7	fait	faire	VRB	VRB	_	0	root	_	_	23.709999	23.920000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-16
+# text = attend
+1	attend	attendre	VRB	VRB	_	0	root	_	_	24.059999	24.280001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-17
+# text = hé
+1	hé	hé	INT	INT	_	0	root	_	_	24.870001	24.910000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-18
+# text = attend il y a un problème alors
+1	attend	attendre	VRB	VRB	_	4	dm	_	_	25.740000	25.870001	SAN
+2	il	il	CLS	CLS	_	4	subj	_	_	25.879999	26.070000	SAN
+3	y	y	CLI	CLI	_	4	dep	_	_	26.080000	26.219999	SAN
+4	a	avoir	VRB	VRB	_	0	root	_	_	26.230000	26.290001	SAN
+5	un	un	DET	DET	_	6	spe	_	_	26.299999	26.370001	SAN
+6	problème	problème	NOM	NOM	_	4	dep	_	_	26.379999	26.850000	SAN
+7	alors	alors	ADV	ADV	_	4	periph	_	_	26.860001	27.129999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-19
+# text = mh et entre temps bon j'ai du partir
+1	mh	mh	INT	INT	_	6	dm	_	_	27.660000	27.709999	EST
+2	et	et	COO	COO	_	6	mark	_	_	27.820000	28.090000	EST
+3	entre temps	entre temps	ADV	ADV	_	6	periph	_	_	28.100000	28.580000	EST
+4	bon	bon	INT	INT	_	3	dm	_	_	28.590000	28.820000	EST
+5	j'	je	CLS	CLS	_	6	subj	_	_	28.830000	28.889999	EST
+6	ai	avoir	VRB	VRB	_	0	root	_	_	28.900000	28.969999	EST
+7	du	de+le	PRE	PRE	_	6	dep	_	_	28.980000	29.070000	EST
+8	partir	partir	VNF	VNF	_	7	dep	_	_	29.080000	29.600000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-20
+# text = je suis revenue aujourd' hui
+1	je	je	CLS	CLS	_	3	subj	_	_	29.610001	29.709999	EST
+2	suis	être	VRB	VRB	_	3	aux	_	_	29.719999	29.879999	EST
+3	revenue	revenir	VPP	VPP	_	0	root	_	_	29.889999	30.200001	EST
+4	aujourd' hui	aujourd'hui	ADV	ADV	_	3	dep	_	_	30.209999	30.660000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-21
+# text = et j'ai vu que j'avais toujours rien
+1	et	et	COO	COO	_	4	mark	_	_	30.670000	30.690001	EST
+2	j'	je	CLS	CLS	_	4	subj	_	_	30.700001	30.780001	EST
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	30.790001	30.860001	EST
+4	vu	voir	VPP	VPP	_	0	root	_	_	30.870001	30.959999	EST
+5	que	que	CSU	CSU	_	4	dep	_	_	30.969999	31.110001	EST
+6	j'	je	CLS	CLS	_	7	subj	_	_	31.120001	31.209999	EST
+7	avais	avoir	VRB	VRB	_	5	dep	_	_	31.219999	31.340000	EST
+8	toujours	toujours	ADV	ADV	_	7	dep	_	_	31.410000	31.740000	EST
+9	rien	rien	PRO	PRO	_	7	dep	_	_	31.750000	31.969999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-22
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	31.980000	32.139999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-23
+# text = bon écoute je vais réessayer maintenant si jamais tu euh tu les reçois pas
+1	bon	bon	INT	INT	_	4	dm	_	_	32.369999	32.619999	SAN
+2	écoute	écouter	VRB	VRB	_	4	dm	_	_	32.700001	33.040001	SAN
+3	je	je	CLS	CLS	_	4	subj	_	_	33.290001	33.490002	SAN
+4	vais	aller	VRB	VRB	_	0	root	_	_	33.500000	33.630001	SAN
+5	réessayer	réessayer	VNF	VNF	_	4	dep	_	_	33.639999	34.060001	SAN
+6	maintenant	maintenant	ADV	ADV	_	5	dep	_	_	34.070000	34.610001	SAN
+7	si	si	CSU	CSU	_	4	periph	_	_	34.849998	34.970001	SAN
+8	jamais	jamais	ADN	ADN	_	7	morph	_	_	34.980000	35.340000	SAN
+9	tu	tu	CLS	CLS	_	13	subj	_	_	35.490002	35.810001	SAN
+10	euh	euh	INT	INT	_	9	dm	_	_	35.820000	36.209999	SAN
+11	tu	tu	CLS	CLS	_	9	para	_	_	36.220001	36.419998	SAN
+12	les	le	CLI	CLI	_	13	dep	_	_	36.430000	36.529999	SAN
+13	reçois	recevoir	VRB	VRB	_	7	dep	_	_	36.540001	36.900002	SAN
+14	pas	pas	ADN	ADN	_	13	dep	_	_	36.910000	37.200001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-24
+# text = attend parce que j'ai un problème
+1	attend	attendre	VRB	VRB	_	0	root	_	_	37.209999	37.290001	SAN
+2	parce que	parce que	CSU	CSU	_	1	dep	_	_	37.299999	37.540001	SAN
+3	j'	je	CLS	CLS	_	4	subj	_	_	37.549999	37.610001	SAN
+4	ai	avoir	VRB	VRB	_	2	dep	_	_	37.619999	37.639999	SAN
+5	un	un	DET	DET	_	6	spe	_	_	37.650002	37.750000	SAN
+6	problème	problème	NOM	NOM	_	4	dep	_	_	37.759998	38.009998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-25
+# text = je peux pas me connecter là
+1	je	je	CLS	CLS	_	2	subj	_	_	38.020000	38.130001	SAN
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	38.139999	38.259998	SAN
+3	pas	pas	ADN	ADN	_	2	dep	_	_	38.270000	38.389999	SAN
+4	me	me	CLI	CLI	_	5	dep	_	_	38.400002	38.509998	SAN
+5	connecter	connecter	VNF	VNF	_	2	dep	_	_	38.520000	39.070000	SAN
+6	là	là	ADV	ADV	_	5	dep	_	_	39.080002	39.250000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-26
+# text = donc euh i~ il faut que je je mon ordinateur donc ce que je fais c'est que
+1	donc	donc	ADV	ADV	_	3	periph	_	_	39.389999	39.750000	SAN
+2	euh	euh	INT	INT	_	1	dm	_	_	39.759998	39.880001	SAN
+3	i~	i~	X	X	_	5	disflink	_	_	40.250000	40.270000	SAN
+4	il	il	CLS	CLS	_	5	subj	_	_	40.389999	40.500000	SAN
+5	faut	faillir	VRB	VRB	_	0	root	_	_	40.509998	40.639999	SAN
+6	que	que	CSU	CSU	_	5	dep	_	_	40.650002	40.779999	SAN
+7	je	je	CLS	CLS	_	17	subj	_	_	40.790001	41.090000	SAN
+8	je	je	CLS	CLS	_	7	para	_	_	41.099998	41.220001	SAN
+9	mon	son	DET	DET	_	10	spe	_	_	41.230000	41.279999	SAN
+10	ordinateur	ordinateur	NOM	NOM	_	17	periph	_	_	41.290001	41.959999	SAN
+11	donc	donc	ADV	ADV	_	12	periph	_	_	41.970001	42.240002	SAN
+12	ce	ce	PRO	PRO	_	17	periph	_	_	42.639999	42.660000	SAN
+13	que	que	PRQ	PRQ	_	15	dep	_	_	42.770000	42.869999	SAN
+14	je	je	CLS	CLS	_	15	subj	_	_	42.880001	42.939999	SAN
+15	fais	faire	VRB	VRB	_	12	dep	_	_	42.950001	43.150002	SAN
+16	c'	ce	CLS	CLS	_	17	subj	_	_	43.160000	43.180000	SAN
+17	est	être	VRB	VRB	_	6	dep	_	_	43.240002	43.330002	SAN
+18	que	que	CSU	CSU	_	17	dep	_	_	43.340000	43.730000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-27
+# text = dès que j'arrive à me connecter je te l'en-~ je te l'envoie là d'ici euh
+1	dès	dès	PRE	PRE	_	11	periph	_	_	43.740002	43.900002	SAN
+2	que	que	CSU	CSU	_	1	dep	_	_	43.910000	44.000000	SAN
+3	j'	je	CLS	CLS	_	4	subj	_	_	44.009998	44.080002	SAN
+4	arrive	arriver	VRB	VRB	_	2	dep	_	_	44.090000	44.230000	SAN
+5	à	à	PRE	PRE	_	4	dep	_	_	44.240002	44.290001	SAN
+6	me	me	CLI	CLI	_	7	dep	_	_	44.299999	44.410000	SAN
+7	connecter	connecter	VNF	VNF	_	5	dep	_	_	44.419998	44.830002	SAN
+8	je	je	CLS	CLS	_	11	subj	_	_	44.840000	44.910000	SAN
+9	te	te	CLI	CLI	_	11	dep	_	_	44.970001	45.040001	SAN
+10	l'	le	CLI	CLI	_	11	dep	_	_	45.049999	45.080002	SAN
+11	en-~	en-~	VRB	VRB	_	0	root	_	_	45.090000	45.299999	SAN
+12	je	je	CLS	CLS	_	15	subj	_	_	45.310001	45.410000	SAN
+13	te	te	CLI	CLI	_	15	dep	_	_	45.419998	45.509998	SAN
+14	l'	le	CLI	CLI	_	15	dep	_	_	45.520000	45.549999	SAN
+15	envoie	envoyer	VRB	VRB	_	11	para	_	_	45.560001	45.970001	SAN
+16	là	là	ADV	ADV	_	15	dep	_	_	45.980000	46.110001	SAN
+17	d'	de	PRE	PRE	_	15	dep	_	_	46.119999	46.160000	SAN
+18	ici	ici	ADV	ADV	_	17	dep	_	_	46.169998	46.689999	SAN
+19	euh	euh	INT	INT	_	18	dm	_	_	46.700001	46.919998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-28
+# text = et si d'ici
+1	et	et	COO	COO	_	2	mark	_	_	46.930000	46.970001	SAN
+2	si	si	CSU	CSU	_	0	root	_	_	46.980000	47.099998	SAN
+3	d'	de	PRE	PRE	_	2	dep	_	_	47.110001	47.130001	SAN
+4	ici	ici	ADV	ADV	_	3	dep	_	_	47.139999	47.320000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-29
+# text = une demi-heure euh tu l'as pas reçu
+1	une	un	DET	DET	_	2	spe	_	_	47.330002	47.439999	SAN
+2	demi-heure	demi-heure	NOM	NOM	_	8	periph	_	_	47.450001	48.560001	SAN
+3	euh	euh	INT	INT	_	2	dm	_	_	48.570000	48.660000	SAN
+4	tu	tu	CLS	CLS	_	8	subj	_	_	48.669998	48.790001	SAN
+5	l'	le	CLI	CLI	_	8	dep	_	_	48.799999	48.820000	SAN
+6	as	avoir	VRB	VRB	_	8	aux	_	_	48.830002	48.889999	SAN
+7	pas	pas	ADN	ADN	_	8	dep	_	_	48.900002	49.049999	SAN
+8	reçu	recevoir	VPP	VPP	_	0	root	_	_	49.060001	49.279999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-30
+# text = tu me rappelles
+1	tu	tu	CLS	CLS	_	3	subj	_	_	49.939999	50.020000	SAN
+2	me	me	CLI	CLI	_	3	dep	_	_	50.029999	50.080002	SAN
+3	rappelles	rappeler	VRB	VRB	_	0	root	_	_	50.090000	50.560001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-31
+# text = ou je t'appelle
+1	ou	ou	COO	COO	_	4	mark	_	_	50.810001	51.029999	SAN
+2	je	je	CLS	CLS	_	4	subj	_	_	51.040001	51.099998	SAN
+3	t'	te	CLI	CLI	_	4	dep	_	_	51.110001	51.130001	SAN
+4	appelle	appeler	VRB	VRB	_	0	root	_	_	51.139999	51.500000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-32
+# text = enfin je t'appelle si j'arrive pas me connecter parce que si j'arrive pas me connecter je peux pas te les envoyer
+1	enfin	enfin	ADV	ADV	_	4	dm	_	_	51.730000	51.930000	SAN
+2	je	je	CLS	CLS	_	4	subj	_	_	51.939999	52.009998	SAN
+3	t'	te	CLI	CLI	_	4	dep	_	_	52.020000	52.060001	SAN
+4	appelle	appeler	VRB	VRB	_	0	root	_	_	52.070000	52.299999	SAN
+5	si	si	CSU	CSU	_	4	dep	_	_	52.310001	52.400002	SAN
+6	j'	je	CLS	CLS	_	7	subj	_	_	52.410000	52.430000	SAN
+7	arrive	arriver	VRB	VRB	_	5	dep	_	_	52.439999	52.619999	SAN
+8	pas	pas	ADN	ADN	_	7	dep	_	_	52.630001	52.770000	SAN
+9	me	me	CLI	CLI	_	10	dep	_	_	52.779999	52.869999	SAN
+10	connecter	connecter	VNF	VNF	_	7	dep	_	_	52.880001	53.380001	SAN
+11	parce que	parce que	CSU	CSU	_	4	dep	_	_	53.570000	53.869999	SAN
+12	si	si	CSU	CSU	_	19	periph	_	_	53.880001	53.939999	SAN
+13	j'	je	CLS	CLS	_	14	subj	_	_	53.950001	53.980000	SAN
+14	arrive	arriver	VRB	VRB	_	12	dep	_	_	53.990002	54.110001	SAN
+15	pas	pas	ADN	ADN	_	14	dep	_	_	54.119999	54.259998	SAN
+16	me	me	CLI	CLI	_	17	dep	_	_	54.270000	54.290001	SAN
+17	connecter	connecter	VNF	VNF	_	14	dep	_	_	54.299999	54.660000	SAN
+18	je	je	CLS	CLS	_	19	subj	_	_	54.669998	54.730000	SAN
+19	peux	pouvoir	VRB	VRB	_	11	dep	_	_	54.740002	54.830002	SAN
+20	pas	pas	ADN	ADN	_	19	dep	_	_	54.840000	54.970001	SAN
+21	te	te	CLI	CLI	_	23	dep	_	_	54.980000	55.020000	SAN
+22	les	le	CLI	CLI	_	23	dep	_	_	55.029999	55.180000	SAN
+23	envoyer	envoyer	VNF	VNF	_	19	dep	_	_	55.189999	55.419998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-33
+# text = je pourrais te les envoyer demain de l'université
+1	je	je	CLS	CLS	_	2	subj	_	_	55.430000	55.540001	SAN
+2	pourrais	pouvoir	VRB	VRB	_	0	root	_	_	55.549999	55.669998	SAN
+3	te	te	CLI	CLI	_	5	dep	_	_	55.680000	55.730000	SAN
+4	les	le	CLI	CLI	_	5	dep	_	_	55.740002	55.900002	SAN
+5	envoyer	envoyer	VNF	VNF	_	2	dep	_	_	55.910000	56.080002	SAN
+6	demain	demain	ADV	ADV	_	5	dep	_	_	56.090000	56.310001	SAN
+7	de	de	PRE	PRE	_	5	dep	_	_	56.320000	56.360001	SAN
+8	l'	le	DET	DET	_	9	spe	_	_	56.369999	56.389999	SAN
+9	université	université	NOM	NOM	_	7	dep	_	_	56.400002	57.000000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-34
+# text = ouais j'imagine
+1	ouais	ouais	INT	INT	_	3	dm	_	_	39.480000	39.660000	EST
+2	j'	je	CLS	CLS	_	3	subj	_	_	39.669998	39.720001	EST
+3	imagine	imaginer	VRB	VRB	_	0	root	_	_	39.730000	40.189999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-35
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	49.680000	49.810001	EST
+
+# sent_id = cefc-coralrom-ftelpv08-36
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	50.759998	50.849998	EST
+2	accord	accord	NOM	NOM	_	1	dep	_	_	50.860001	51.340000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-37
+# text = mais c'est c'est ça ça peut attendre demain pa-~
+1	mais	mais	COO	COO	_	3	mark	_	_	57.139999	57.299999	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	57.310001	57.400002	EST
+3	est	être	VRB	VRB	_	0	root	_	_	57.410000	57.450001	EST
+4	c'	ce	CLS	CLS	_	5	subj	_	_	57.459999	57.549999	EST
+5	est	être	VRB	VRB	_	3	para	_	_	57.560001	57.669998	EST
+6	ça	ça	PRO	PRO	_	5	dep	_	_	57.680000	57.840000	EST
+7	ça	ça	PRO	PRO	_	8	subj	_	_	57.849998	58.000000	EST
+8	peut	pouvoir	VRB	VRB	_	3	para	_	_	58.009998	58.090000	EST
+9	attendre	attendre	VNF	VNF	_	8	dep	_	_	58.099998	58.400002	EST
+10	demain	demain	ADV	ADV	_	11	dep	_	_	58.410000	58.700001	EST
+11	pa-~	pa-~	ADJ	ADJ	_	9	dep	_	_	58.709999	58.990002	EST
+
+# sent_id = cefc-coralrom-ftelpv08-38
+# text = c'est juste pour te le rappeler
+1	c'	ce	CLS	CLS	_	2	subj	_	_	59.000000	59.090000	EST
+2	est	être	VRB	VRB	_	0	root	_	_	59.099998	59.220001	EST
+3	juste	juste	ADV	ADV	_	2	dep	_	_	59.230000	59.400002	EST
+4	pour	pour	PRE	PRE	_	2	dep	_	_	59.410000	59.560001	EST
+5	te	te	CLI	CLI	_	7	dep	_	_	59.570000	59.660000	EST
+6	le	le	CLI	CLI	_	7	dep	_	_	59.669998	59.720001	EST
+7	rappeler	rappeler	VNF	VNF	_	4	dep	_	_	59.730000	60.090000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-39
+# text = moi demain je suis à Grenoble toute la journée
+1	moi	moi	PRO	PRO	_	4	periph	_	_	60.099998	60.240002	EST
+2	demain	demain	ADV	ADV	_	4	periph	_	_	60.250000	60.459999	EST
+3	je	je	CLS	CLS	_	4	subj	_	_	60.470001	60.500000	EST
+4	suis	être	VRB	VRB	_	0	root	_	_	60.509998	60.619999	EST
+5	à	à	PRE	PRE	_	4	dep	_	_	60.630001	60.660000	EST
+6	Grenoble	Grenoble	NOM	NOM	_	5	dep	_	_	60.669998	61.070000	EST
+7	toute	tout	ADJ	ADJ	_	9	dep	_	_	61.080002	61.240002	EST
+8	la	le	DET	DET	_	9	spe	_	_	61.360001	61.450001	EST
+9	journée	journée	NOM	NOM	_	6	dep	_	_	61.459999	61.730000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-40
+# text = ah d'accord
+1	ah	ah	INT	INT	_	2	dm	_	_	61.880001	62.320000	SAN
+2	d'	de	PRE	PRE	_	0	root	_	_	62.330002	62.369999	SAN
+3	accord	accord	NOM	NOM	_	2	dep	_	_	62.380001	62.639999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-41
+# text = c'est vrai en plus mince ah ouais ouais ouais ouais d'accord
+1	c'	ce	CLS	CLS	_	2	subj	_	_	62.770000	62.790001	SAN
+2	est	être	VRB	VRB	_	0	root	_	_	62.799999	62.869999	SAN
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	62.880001	63.110001	SAN
+4	en	en	PRE	PRE	_	2	dep	_	_	63.119999	63.209999	SAN
+5	plus	plus	ADN	ADN	_	4	dep	_	_	63.330002	63.590000	SAN
+6	mince	mince	NOM	NOM	_	4	dep	_	_	63.599998	63.759998	SAN
+7	ah	ah	INT	INT	_	6	dm	_	_	63.840000	63.860001	SAN
+8	ouais	ouais	INT	INT	_	7	dm	_	_	64.050003	64.110001	SAN
+9	ouais	ouais	INT	INT	_	8	para	_	_	64.180000	64.379997	SAN
+10	ouais	ouais	INT	INT	_	9	para	_	_	64.389999	64.620003	SAN
+11	ouais	ouais	INT	INT	_	10	para	_	_	64.629997	65.010002	SAN
+12	d'	de	PRE	PRE	_	2	dep	_	_	65.019997	65.050003	SAN
+13	accord	accord	NOM	NOM	_	12	dep	_	_	65.059998	65.500000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-42
+# text = ouais ouais donc euh donc de toute façon ça sera pour mardi hein
+1	ouais	ouais	INT	INT	_	10	dm	_	_	64.180000	64.379997	EST
+2	ouais	ouais	INT	INT	_	1	para	_	_	64.389999	64.610001	EST
+3	donc	donc	ADV	ADV	_	10	periph	_	_	64.620003	65.260002	EST
+4	euh	euh	INT	INT	_	3	dm	_	_	65.269997	65.470001	EST
+5	donc	donc	ADV	ADV	_	10	periph	_	_	65.889999	66.169998	EST
+6	de	de	PRE	PRE	_	5	dep	_	_	66.180000	66.309998	EST
+7	toute	tout	ADJ	ADJ	_	8	dep	_	_	66.320000	66.510002	EST
+8	façon	façon	NOM	NOM	_	6	dep	_	_	66.519997	66.870003	EST
+9	ça	ça	PRO	PRO	_	10	subj	_	_	66.879997	66.959999	EST
+10	sera	être	VRB	VRB	_	0	root	_	_	66.970001	67.290001	EST
+11	pour	pour	PRE	PRE	_	10	dep	_	_	67.300003	67.459999	EST
+12	mardi	mardi	NOM	NOM	_	11	dep	_	_	67.470001	67.879997	EST
+13	hein	hein	INT	INT	_	12	dm	_	_	67.889999	68.110001	EST
+
+# sent_id = cefc-coralrom-ftelpv08-43
+# text = ouais mais j'ai peur d'oublier
+1	ouais	ouais	INT	INT	_	4	dm	_	_	68.309998	68.690002	SAN
+2	mais	mais	COO	COO	_	4	mark	_	_	69.019997	69.379997	SAN
+3	j'	je	CLS	CLS	_	4	subj	_	_	69.389999	69.489998	SAN
+4	ai	avoir	VRB	VRB	_	0	root	_	_	69.500000	69.540001	SAN
+5	peur	peur	NOM	NOM	_	4	dep	_	_	69.550003	69.730003	SAN
+6	d'	de	PRE	PRE	_	5	dep	_	_	69.739998	69.769997	SAN
+7	oublier	oublier	VNF	VNF	_	6	dep	_	_	69.779999	70.169998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-44
+# text = tu vois une chose l'autre
+1	tu	tu	CLS	CLS	_	2	subj	_	_	70.239998	70.370003	SAN
+2	vois	voir	VRB	VRB	_	0	root	_	_	70.379997	70.559998	SAN
+3	une	un	DET	DET	_	4	spe	_	_	70.570000	70.680000	SAN
+4	chose	chose	NOM	NOM	_	2	dep	_	_	70.690002	70.959999	SAN
+5	l'	le	DET	DET	_	6	spe	_	_	70.970001	71.059998	SAN
+6	autre	autre	NOM	NOM	_	4	para	_	_	71.070000	71.370003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-45
+# text = je me si j'oublie je préfère te le faire maintenant et euh et puis savoir si ça passe
+1	je	je	CLS	CLS	_	3	subj	_	_	71.379997	71.489998	SAN
+2	me	me	CLI	CLI	_	3	dep	_	_	71.500000	71.779999	SAN
+3	si	si	CSU	CSU	_	7	periph	_	_	71.790001	72.000000	SAN
+4	j'	je	CLS	CLS	_	5	subj	_	_	72.010002	72.050003	SAN
+5	oublie	oublier	VRB	VRB	_	3	dep	_	_	72.059998	72.360001	SAN
+6	je	je	CLS	CLS	_	7	subj	_	_	72.370003	72.459999	SAN
+7	préfère	préférer	VRB	VRB	_	0	root	_	_	72.470001	72.769997	SAN
+8	te	te	CLI	CLI	_	10	dep	_	_	72.779999	72.820000	SAN
+9	le	le	CLI	CLI	_	10	dep	_	_	72.830002	72.930000	SAN
+10	faire	faire	VNF	VNF	_	7	dep	_	_	72.940002	73.110001	SAN
+11	maintenant	maintenant	ADV	ADV	_	10	dep	_	_	73.120003	73.879997	SAN
+12	et	et	COO	COO	_	15	mark	_	_	73.889999	74.169998	SAN
+13	euh	euh	INT	INT	_	12	dm	_	_	74.180000	74.430000	SAN
+14	et puis	et puis	COO	COO	_	12	para	_	_	74.440002	74.730003	SAN
+15	savoir	savoir	VNF	VNF	_	10	para	_	_	74.739998	74.970001	SAN
+16	si	si	CSU	CSU	_	15	dep	_	_	74.980003	75.110001	SAN
+17	ça	ça	PRO	PRO	_	18	subj	_	_	75.120003	75.279999	SAN
+18	passe	passer	VRB	VRB	_	16	dep	_	_	75.349998	75.739998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-46
+# text = je t'envoie juste le modèle hein
+1	je	je	CLS	CLS	_	3	subj	_	_	76.220001	76.250000	SAN
+2	t'	te	CLI	CLI	_	3	dep	_	_	76.260002	76.300003	SAN
+3	envoie	envoyer	VRB	VRB	_	0	root	_	_	76.309998	76.489998	SAN
+4	juste	juste	ADV	ADV	_	3	dep	_	_	76.500000	76.849998	SAN
+5	le	le	DET	DET	_	6	spe	_	_	76.860001	76.919998	SAN
+6	modèle	modèle	NOM	NOM	_	3	dep	_	_	76.930000	77.309998	SAN
+7	hein	hein	INT	INT	_	6	dm	_	_	77.320000	77.379997	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-47
+# text = c'était ça le modèle pour
+1	c'	ce	CLS	CLS	_	2	subj	_	_	77.389999	77.419998	SAN
+2	était	être	VRB	VRB	_	0	root	_	_	77.480003	77.620003	SAN
+3	ça	ça	PRO	PRO	_	2	dep	_	_	77.629997	77.779999	SAN
+4	le	le	DET	DET	_	5	spe	_	_	77.790001	77.839996	SAN
+5	modèle	modèle	NOM	NOM	_	2	dep	_	_	77.849998	78.199997	SAN
+6	pour	pour	PRE	PRE	_	2	dep	_	_	78.209999	78.389999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-48
+# text = les euh
+1	les	le	DET	DET	_	0	root	_	_	78.400002	78.879997	SAN
+2	euh	euh	INT	INT	_	1	dm	_	_	78.889999	78.989998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-49
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	75.959999	76.110001	EST
+
+# sent_id = cefc-coralrom-ftelpv08-50
+# text = pour les autorisations
+1	pour	pour	PRE	PRE	_	0	root	_	_	79.050003	79.190002	EST
+2	les	le	DET	DET	_	3	spe	_	_	79.199997	79.320000	EST
+3	autorisations	autorisation	NOM	NOM	_	1	dep	_	_	79.330002	80.000000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-51
+# text = pour les
+1	pour	pour	PRE	PRE	_	0	root	_	_	80.389999	80.519997	SAN
+2	les	le	DET	DET	_	1	dep	_	_	80.529999	80.639999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-52
+# text = ah pour les autorisations aussi
+1	ah	ah	INT	INT	_	5	dm	_	_	81.099998	81.230003	SAN
+2	pour	pour	PRE	PRE	_	5	periph	_	_	81.239998	81.410004	SAN
+3	les	le	DET	DET	_	4	spe	_	_	81.419998	81.470001	SAN
+4	autorisations	autorisation	NOM	NOM	_	2	dep	_	_	81.480003	82.040001	SAN
+5	aussi	aussi	ADV	ADV	_	0	root	_	_	82.050003	82.330002	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-53
+# text = et oui parce que
+1	et	et	COO	COO	_	3	mark	_	_	82.989998	83.010002	EST
+2	oui	oui	INT	INT	_	1	dm	_	_	83.180000	83.540001	EST
+3	parce que	parce que	CSU	CSU	_	0	root	_	_	83.550003	84.059998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-54
+# text = les les personnes que j'ai enregistré sont d'accord
+1	les	le	DET	DET	_	3	spe	_	_	84.070000	84.339996	EST
+2	les	le	DET	DET	_	1	para	_	_	84.349998	84.440002	EST
+3	personnes	personne	NOM	NOM	_	7	periph	_	_	84.449997	84.779999	EST
+4	que	que	PRQ	PRQ	_	7	dep	_	_	84.790001	84.900002	EST
+5	j'	je	CLS	CLS	_	7	subj	_	_	84.910004	84.940002	EST
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	84.949997	84.980003	EST
+7	enregistré	enregistrer	VPP	VPP	_	0	root	_	_	84.989998	85.629997	EST
+8	sont	être	VRB	VRB	_	7	dep	_	_	85.680000	85.849998	EST
+9	d'	de	PRE	PRE	_	7	dep	_	_	85.860001	85.919998	EST
+10	accord	accord	NOM	NOM	_	9	dep	_	_	85.930000	86.349998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-55
+# text = donc on voudrait leur faire signer ça proprement
+1	donc	donc	ADV	ADV	_	3	periph	_	_	86.410004	86.519997	EST
+2	on	on	CLS	CLS	_	3	subj	_	_	86.529999	86.669998	EST
+3	voudrait	vouloir	VRB	VRB	_	0	root	_	_	86.760002	87.010002	EST
+4	leur	lui	CLI	CLI	_	5	dep	_	_	87.019997	87.150002	EST
+5	faire	faire	VNF	VNF	_	3	dep	_	_	87.160004	87.370003	EST
+6	signer	signer	VNF	VNF	_	5	dep	_	_	87.489998	87.730003	EST
+7	ça	ça	PRO	PRO	_	6	dep	_	_	87.739998	87.980003	EST
+8	proprement	proprement	ADV	ADV	_	6	dep	_	_	87.989998	88.570000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-56
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	86.529999	86.660004	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-57
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	88.830002	89.099998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-58
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	89.110001	89.139999	SAN
+2	accord	accord	NOM	NOM	_	1	dep	_	_	89.150002	89.300003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-59
+# text = bon et je les vois euh dans la semaine là tant qu'
+1	bon	bon	INT	INT	_	5	dm	_	_	89.519997	89.650002	EST
+2	et	et	COO	COO	_	5	mark	_	_	89.440002	89.510002	EST
+3	je	je	CLS	CLS	_	5	subj	_	_	89.519997	89.540001	EST
+4	les	le	CLI	CLI	_	5	dep	_	_	89.550003	89.599998	EST
+5	vois	voir	VRB	VRB	_	0	root	_	_	89.730003	89.980003	EST
+6	euh	euh	INT	INT	_	5	dm	_	_	89.989998	90.279999	EST
+7	dans	dans	PRE	PRE	_	5	dep	_	_	90.320000	90.489998	EST
+8	la	le	DET	DET	_	9	spe	_	_	90.500000	90.570000	EST
+9	semaine	semaine	NOM	NOM	_	7	dep	_	_	90.709999	90.900002	EST
+10	là	là	ADV	ADV	_	9	dep	_	_	91.150002	91.250000	EST
+11	tant	tant	ADV	ADV	_	5	dep	_	_	91.260002	91.320000	EST
+12	qu'	que	CSU	CSU	_	11	dep	_	_	91.330002	91.379997	EST
+
+# sent_id = cefc-coralrom-ftelpv08-60
+# text = à faire
+1	à	à	PRE	PRE	_	0	root	_	_	91.389999	91.519997	EST
+2	faire	faire	VNF	VNF	_	1	dep	_	_	91.589996	92.120003	EST
+
+# sent_id = cefc-coralrom-ftelpv08-61
+# text = d'accord alors ça va ça va
+1	d'	de	PRE	PRE	_	5	periph	_	_	91.080002	91.169998	SAN
+2	accord	accord	NOM	NOM	_	1	dep	_	_	91.180000	91.629997	SAN
+3	alors	alors	ADV	ADV	_	5	periph	_	_	91.639999	92.120003	SAN
+4	ça	ça	PRO	PRO	_	5	subj	_	_	92.400002	92.510002	SAN
+5	va	aller	VRB	VRB	_	0	root	_	_	92.519997	92.620003	SAN
+6	ça	ça	PRO	PRO	_	7	subj	_	_	92.750000	92.839996	SAN
+7	va	aller	VRB	VRB	_	5	para	_	_	92.849998	92.980003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-62
+# text = il faut que j'y pense parce que les autorisations il faut que j'aille les chercher sur le site
+1	il	il	CLS	CLS	_	2	subj	_	_	93.050003	93.120003	SAN
+2	faut	faillir	VRB	VRB	_	0	root	_	_	93.129997	93.190002	SAN
+3	que	que	CSU	CSU	_	2	dep	_	_	93.199997	93.230003	SAN
+4	j'	je	CLS	CLS	_	6	subj	_	_	93.239998	93.300003	SAN
+5	y	y	CLI	CLI	_	6	dep	_	_	93.309998	93.360001	SAN
+6	pense	penser	VRB	VRB	_	3	dep	_	_	93.370003	93.550003	SAN
+7	parce que	parce que	CSU	CSU	_	6	dep	_	_	93.559998	93.730003	SAN
+8	les	le	DET	DET	_	9	spe	_	_	93.739998	93.830002	SAN
+9	autorisations	autorisation	NOM	NOM	_	11	periph	_	_	93.839996	94.389999	SAN
+10	il	il	CLS	CLS	_	11	subj	_	_	94.400002	94.449997	SAN
+11	faut	faillir	VRB	VRB	_	7	dep	_	_	94.459999	94.510002	SAN
+12	que	que	CSU	CSU	_	11	dep	_	_	94.519997	94.540001	SAN
+13	j'	je	CLS	CLS	_	14	subj	_	_	94.550003	94.589996	SAN
+14	aille	ailler	VRB	VRB	_	12	dep	_	_	94.599998	94.820000	SAN
+15	les	le	CLI	CLI	_	16	dep	_	_	94.830002	94.889999	SAN
+16	chercher	chercher	VNF	VNF	_	14	dep	_	_	94.900002	95.150002	SAN
+17	sur	sur	PRE	PRE	_	16	dep	_	_	95.160004	95.349998	SAN
+18	le	le	DET	DET	_	19	spe	_	_	95.360001	95.389999	SAN
+19	site	site	NOM	NOM	_	17	dep	_	_	95.400002	95.839996	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-63
+# text = tu te souviens
+1	tu	tu	CLS	CLS	_	3	subj	_	_	95.849998	96.040001	SAN
+2	te	te	CLI	CLI	_	3	dep	_	_	96.050003	96.070000	SAN
+3	souviens	souviens	VRB	VRB	_	0	root	_	_	96.080002	96.279999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-64
+# text = je t'avais dit que les modèles sont sur le
+1	je	je	CLS	CLS	_	4	subj	_	_	96.360001	96.430000	SAN
+2	t'	te	CLI	CLI	_	4	dep	_	_	96.440002	96.470001	SAN
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	96.480003	96.629997	SAN
+4	dit	dire	VPP	VPP	_	0	root	_	_	96.680000	96.730003	SAN
+5	que	que	CSU	CSU	_	4	dep	_	_	96.800003	97.070000	SAN
+6	les	le	DET	DET	_	7	spe	_	_	97.080002	97.190002	SAN
+7	modèles	modèle	NOM	NOM	_	8	subj	_	_	97.199997	97.379997	SAN
+8	sont	être	VRB	VRB	_	5	dep	_	_	97.489998	97.660004	SAN
+9	sur	sur	PRE	PRE	_	8	dep	_	_	97.669998	97.879997	SAN
+10	le	le	DET	DET	_	9	dep	_	_	97.889999	97.980003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-65
+# text = site oui
+1	site	site	NOM	NOM	_	0	root	_	_	98.120003	98.320000	EST
+2	oui	oui	INT	INT	_	1	dm	_	_	96.930000	97.379997	EST
+
+# sent_id = cefc-coralrom-ftelpv08-66
+# text = mais il y a un mot de passe
+1	mais	mais	COO	COO	_	4	mark	_	_	98.470001	98.550003	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	98.559998	98.690002	EST
+3	y	y	CLI	CLI	_	4	dep	_	_	98.699997	98.730003	EST
+4	a	avoir	VRB	VRB	_	0	root	_	_	98.739998	98.760002	EST
+5	un	un	DET	DET	_	6	spe	_	_	98.769997	98.830002	EST
+6	mot	mot	NOM	NOM	_	4	dep	_	_	98.839996	99.000000	EST
+7	de	de	PRE	PRE	_	6	dep	_	_	99.010002	99.029999	EST
+8	passe	passe	NOM	NOM	_	7	dep	_	_	99.040001	99.279999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-67
+# text = moi je l'ai
+1	moi	moi	PRO	PRO	_	4	periph	_	_	99.379997	99.489998	EST
+2	je	je	CLS	CLS	_	4	subj	_	_	99.500000	99.580002	EST
+3	l'	le	CLI	CLI	_	4	dep	_	_	99.589996	99.639999	EST
+4	ai	avoir	VRB	VRB	_	0	root	_	_	99.650002	99.690002	EST
+
+# sent_id = cefc-coralrom-ftelpv08-68
+# text = pas OK ben je m'en souviens pas j'ai du le noter
+1	pas	pas	ADN	ADN	_	7	dep	_	_	99.699997	99.870003	SAN
+2	OK	OK	INT	INT	_	7	dm	_	_	100.779999	101.169998	SAN
+3	ben	ben	INT	INT	_	2	dm	_	_	101.180000	101.410004	SAN
+4	je	je	CLS	CLS	_	7	subj	_	_	101.419998	101.489998	SAN
+5	m'	me	CLI	CLI	_	7	dep	_	_	101.500000	101.550003	SAN
+6	en	en	CLI	CLI	_	7	dep	_	_	101.559998	101.610001	SAN
+7	souviens	souviens	VRB	VRB	_	0	root	_	_	101.620003	101.930000	SAN
+8	pas	pas	ADN	ADN	_	7	dep	_	_	101.940002	102.029999	SAN
+9	j'	je	CLS	CLS	_	10	subj	_	_	102.040001	102.120003	SAN
+10	ai	avoir	VRB	VRB	_	7	para	_	_	102.129997	102.169998	SAN
+11	du	de+le	PRE	PRE	_	10	dep	_	_	102.180000	102.290001	SAN
+12	le	le	CLI	CLI	_	13	dep	_	_	102.300003	102.349998	SAN
+13	noter	noter	VNF	VNF	_	11	dep	_	_	102.360001	102.650002	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-69
+# text = quelque part
+1	quelque part	quelque part	ADV	ADV	_	0	root	_	_	102.660004	103.169998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-70
+# text = au cas
+1	au	à+le	PRE	PRE	_	0	root	_	_	103.639999	103.690002	EST
+2	cas	cas	NOM	NOM	_	1	dep	_	_	103.699997	103.849998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-71
+# text = où
+1	où	où	PRQ	PRQ	_	0	root	_	_	103.860001	103.959999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-72
+# text = si tu peux me le mettre dans le mail comme ça au moins
+1	si	si	CSU	CSU	_	0	root	_	_	103.970001	104.099998	EST
+2	tu	tu	CLS	CLS	_	3	subj	_	_	104.150002	104.239998	EST
+3	peux	pouvoir	VRB	VRB	_	1	dep	_	_	104.250000	104.370003	EST
+4	me	me	CLI	CLI	_	6	dep	_	_	104.379997	104.529999	EST
+5	le	le	CLI	CLI	_	6	dep	_	_	104.540001	104.570000	EST
+6	mettre	mettre	VNF	VNF	_	3	dep	_	_	104.580002	104.839996	EST
+7	dans	dans	PRE	PRE	_	6	dep	_	_	104.900002	105.120003	EST
+8	le	le	DET	DET	_	9	spe	_	_	105.129997	105.209999	EST
+9	mail	mail	NOM	NOM	_	7	dep	_	_	105.220001	105.459999	EST
+10	comme	comme	PRE	PRE	_	6	dep	_	_	106.250000	106.510002	EST
+11	ça	ça	PRO	PRO	_	10	dep	_	_	106.570000	106.730003	EST
+12	au	à+le	PRE	PRE	_	6	dep	_	_	106.739998	106.760002	EST
+13	moins	moins	ADV	ADV	_	12	dep	_	_	106.769997	107.199997	EST
+
+# sent_id = cefc-coralrom-ftelpv08-73
+# text = ouais ouais pas de problème ouais ouais
+1	ouais	ouais	INT	INT	_	3	dm	_	_	105.019997	105.220001	SAN
+2	ouais	ouais	INT	INT	_	1	para	_	_	105.230003	105.400002	SAN
+3	pas	pas	ADN	ADN	_	0	root	_	_	105.410004	105.459999	SAN
+4	de	de	PRE	PRE	_	3	dep	_	_	105.470001	105.489998	SAN
+5	problème	problème	NOM	NOM	_	4	dep	_	_	105.570000	106.050003	SAN
+6	ouais	ouais	INT	INT	_	5	dm	_	_	106.260002	106.650002	SAN
+7	ouais	ouais	INT	INT	_	6	para	_	_	106.760002	107.180000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-74
+# text = OK pas de problème
+1	OK	OK	INT	INT	_	3	dm	_	_	107.459999	107.709999	SAN
+2	pas	pas	ADN	ADN	_	3	dep	_	_	107.779999	107.849998	SAN
+3	de	de	PRE	PRE	_	0	root	_	_	107.860001	107.940002	SAN
+4	problème	problème	NOM	NOM	_	3	dep	_	_	107.949997	108.230003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-75
+# text = bon ben passe un bon dimanche toi
+1	bon ben	bon ben	INT	INT	_	2	dm	_	_	108.940002	109.230003	EST
+2	passe	passer	VRB	VRB	_	0	root	_	_	109.279999	109.489998	EST
+3	un	un	DET	DET	_	5	spe	_	_	109.500000	109.540001	EST
+4	bon	bon	ADJ	ADJ	_	5	dep	_	_	109.550003	109.680000	EST
+5	dimanche	dimanche	NOM	NOM	_	2	dep	_	_	109.690002	110.059998	EST
+6	toi	moi	PRO	PRO	_	2	periph	_	_	110.279999	110.559998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-76
+# text = eh ben merci toi aussi
+1	eh ben	eh ben	INT	INT	_	2	dm	_	_	110.190002	110.580002	SAN
+2	merci	merci	INT	INT	_	0	root	_	_	110.589996	111.029999	SAN
+3	toi	moi	PRO	PRO	_	2	dep	_	_	111.209999	111.360001	SAN
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	111.370003	111.620003	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-77
+# text = et bon bon lundi surtout
+1	et	et	COO	COO	_	4	mark	_	_	111.629997	111.720001	SAN
+2	bon	bon	INT	INT	_	1	dm	_	_	111.730003	112.120003	SAN
+3	bon	bon	INT	INT	_	2	dm	_	_	112.129997	112.309998	SAN
+4	lundi	lundi	NOM	NOM	_	0	root	_	_	112.320000	112.680000	SAN
+5	surtout	surtout	ADV	ADV	_	4	dep	_	_	112.730003	113.080002	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-78
+# text = oh tu parles j'ai pas envie d'y aller hein
+1	oh	oh	INT	INT	_	3	dm	_	_	113.279999	113.430000	EST
+2	tu	tu	CLS	CLS	_	3	subj	_	_	113.610001	113.779999	EST
+3	parles	parler	VRB	VRB	_	0	root	_	_	113.790001	114.000000	EST
+4	j'	je	CLS	CLS	_	5	subj	_	_	114.120003	114.169998	EST
+5	ai	avoir	VRB	VRB	_	3	para	_	_	114.180000	114.220001	EST
+6	pas	pas	ADN	ADN	_	5	dep	_	_	114.230003	114.290001	EST
+7	envie	envie	NOM	NOM	_	5	dep	_	_	114.300003	114.430000	EST
+8	d'	de	PRE	PRE	_	7	dep	_	_	114.440002	114.459999	EST
+9	y	y	CLI	CLI	_	10	dep	_	_	114.470001	114.709999	EST
+10	aller	aller	VNF	VNF	_	8	dep	_	_	114.720001	115.290001	EST
+11	hein	hein	INT	INT	_	10	dm	_	_	115.300003	115.320000	EST
+
+# sent_id = cefc-coralrom-ftelpv08-79
+# text = oui ben ça ouais je sais
+1	oui	oui	INT	INT	_	6	dm	_	_	114.199997	114.519997	SAN
+2	ben	ben	INT	INT	_	1	dm	_	_	114.529999	114.680000	SAN
+3	ça	ça	PRO	PRO	_	6	periph	_	_	114.690002	114.800003	SAN
+4	ouais	ouais	INT	INT	_	3	dm	_	_	114.809998	115.099998	SAN
+5	je	je	CLS	CLS	_	6	subj	_	_	115.410004	115.580002	SAN
+6	sais	savoir	VRB	VRB	_	0	root	_	_	115.669998	115.739998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-80
+# text = mais ça fait rien
+1	mais	mais	COO	COO	_	3	mark	_	_	115.750000	115.830002	SAN
+2	ça	ça	PRO	PRO	_	3	subj	_	_	115.839996	115.959999	SAN
+3	fait	faire	VRB	VRB	_	0	root	_	_	116.040001	116.089996	SAN
+4	rien	rien	PRO	PRO	_	3	dep	_	_	116.099998	116.220001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-81
+# text = tu as des nouvelles de NNAAMMEE pour savoir si elle a eu son
+1	tu	tu	CLS	CLS	_	2	subj	_	_	116.389999	116.480003	EST
+2	as	avoir	VRB	VRB	_	0	root	_	_	116.489998	116.540001	EST
+3	des	de	PRE	PRE	_	2	dep	_	_	116.550003	116.610001	EST
+4	nouvelles	nouveau	NOM	NOM	_	3	dep	_	_	116.620003	116.970001	EST
+5	de	de	PRE	PRE	_	4	dep	_	_	116.980003	117.050003	EST
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	117.059998	117.470001	EST
+7	pour	pour	PRE	PRE	_	2	dep	_	_	117.480003	117.589996	EST
+8	savoir	savoir	VNF	VNF	_	7	dep	_	_	117.599998	117.849998	EST
+9	si	si	CSU	CSU	_	8	dep	_	_	117.860001	118.010002	EST
+10	elle	il	CLS	CLS	_	12	subj	_	_	118.019997	118.110001	EST
+11	a	avoir	VRB	VRB	_	12	aux	_	_	118.120003	118.169998	EST
+12	eu	avoir	VPP	VPP	_	9	dep	_	_	118.180000	118.269997	EST
+13	son	son	DET	DET	_	12	disflink	_	_	118.330002	118.589996	EST
+
+# sent_id = cefc-coralrom-ftelpv08-82
+# text = non je pense pas
+1	non	non	INT	INT	_	3	dm	_	_	118.449997	118.589996	SAN
+2	je	je	CLS	CLS	_	3	subj	_	_	118.660004	118.790001	SAN
+3	pense	penser	VRB	VRB	_	0	root	_	_	118.800003	118.970001	SAN
+4	pas	pas	ADN	ADN	_	3	dep	_	_	119.070000	119.449997	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-83
+# text = non non j'ai pas eu de nouvelles
+1	non	non	INT	INT	_	6	dm	_	_	119.459999	119.599998	SAN
+2	non	non	INT	INT	_	1	dm	_	_	119.610001	119.720001	SAN
+3	j'	je	CLS	CLS	_	6	subj	_	_	119.730003	119.820000	SAN
+4	ai	avoir	VRB	VRB	_	6	aux	_	_	119.830002	119.860001	SAN
+5	pas	pas	ADN	ADN	_	6	dep	_	_	119.870003	120.029999	SAN
+6	eu	avoir	VPP	VPP	_	0	root	_	_	120.040001	120.139999	SAN
+7	de	de	PRE	PRE	_	6	dep	_	_	120.150002	120.169998	SAN
+8	nouvelles	nouveau	NOM	NOM	_	7	dep	_	_	120.180000	120.790001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-84
+# text = mais euh elle avait pas eu de coup de fil
+1	mais	mais	COO	COO	_	6	mark	_	_	120.800003	121.150002	SAN
+2	euh	euh	INT	INT	_	1	dm	_	_	121.160004	121.360001	SAN
+3	elle	il	CLS	CLS	_	6	subj	_	_	121.370003	121.550003	SAN
+4	avait	avoir	VRB	VRB	_	6	aux	_	_	121.559998	121.709999	SAN
+5	pas	pas	ADN	ADN	_	6	dep	_	_	121.720001	121.870003	SAN
+6	eu	avoir	VPP	VPP	_	0	root	_	_	121.879997	121.970001	SAN
+7	de	de	PRE	PRE	_	6	dep	_	_	121.980003	122.000000	SAN
+8	coup	coup	NOM	NOM	_	7	dep	_	_	122.010002	122.180000	SAN
+9	de	de	PRE	PRE	_	8	dep	_	_	122.190002	122.209999	SAN
+10	fil	fil	NOM	NOM	_	9	dep	_	_	122.320000	122.660004	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-85
+# text = le le lendemain tu sais le mardi
+1	le	le	DET	DET	_	3	spe	_	_	122.669998	122.900002	SAN
+2	le	le	DET	DET	_	1	para	_	_	122.910004	123.330002	SAN
+3	lendemain	lendemain	NOM	NOM	_	5	periph	_	_	123.339996	123.809998	SAN
+4	tu	tu	CLS	CLS	_	5	subj	_	_	123.940002	124.089996	SAN
+5	sais	savoir	VRB	VRB	_	0	root	_	_	124.099998	124.220001	SAN
+6	le	le	DET	DET	_	7	spe	_	_	124.230003	124.250000	SAN
+7	mardi	mardi	NOM	NOM	_	5	dep	_	_	124.339996	124.739998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-86
+# text = alors que la veille on avait dit enfin l-~ la présidente du jury
+1	alors	alors	ADV	ADV	_	2	periph	_	_	124.860001	125.080002	SAN
+2	que	que	CSU	CSU	_	0	root	_	_	125.169998	125.389999	SAN
+3	la	le	DET	DET	_	4	spe	_	_	125.879997	126.019997	SAN
+4	veille	veille	NOM	NOM	_	7	periph	_	_	126.029999	126.209999	SAN
+5	on	on	CLS	CLS	_	7	subj	_	_	126.220001	126.360001	SAN
+6	avait	avoir	VRB	VRB	_	7	aux	_	_	126.370003	126.629997	SAN
+7	dit	dire	VPP	VPP	_	2	dep	_	_	126.639999	126.809998	SAN
+8	enfin	enfin	ADV	ADV	_	7	dm	_	_	126.820000	127.370003	SAN
+9	l-~	l-~	X	X	_	8	disflink	_	_	127.430000	127.779999	SAN
+10	la	le	DET	DET	_	11	spe	_	_	127.790001	127.830002	SAN
+11	présidente	président	NOM	NOM	_	7	dep	_	_	127.839996	128.139999	SAN
+12	du	de+le	PRE	PRE	_	11	dep	_	_	128.149994	128.250000	SAN
+13	jury	jury	NOM	NOM	_	12	dep	_	_	128.259995	128.500000	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-87
+# text = avait dit que euh ils appelleraient très rapidement
+1	avait	avoir	VRB	VRB	_	2	aux	_	_	128.509995	128.679993	SAN
+2	dit	dire	VPP	VPP	_	0	root	_	_	128.690002	128.889999	SAN
+3	que	que	CSU	CSU	_	2	dep	_	_	128.960007	128.990005	SAN
+4	euh	euh	INT	INT	_	3	dm	_	_	129.029999	129.330002	SAN
+5	ils	il	CLS	CLS	_	6	subj	_	_	129.339996	129.490005	SAN
+6	appelleraient	appeler	VRB	VRB	_	3	dep	_	_	129.500000	129.809998	SAN
+7	très	très	ADV	ADV	_	8	dep	_	_	129.869995	130.410004	SAN
+8	rapidement	rapidement	ADV	ADV	_	6	dep	_	_	130.479996	131.119995	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-88
+# text = donc je pense pas
+1	donc	donc	ADV	ADV	_	3	periph	_	_	131.179993	131.479996	SAN
+2	je	je	CLS	CLS	_	3	subj	_	_	131.539993	131.630005	SAN
+3	pense	penser	VRB	VRB	_	0	root	_	_	131.639999	131.899994	SAN
+4	pas	pas	ADN	ADN	_	3	dep	_	_	132.000000	132.139999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-89
+# text = non je pense que ça ça pas marché
+1	non	non	INT	INT	_	3	dm	_	_	132.149994	132.199997	SAN
+2	je	je	CLS	CLS	_	3	subj	_	_	132.330002	132.440002	SAN
+3	pense	penser	VRB	VRB	_	0	root	_	_	132.449997	132.649994	SAN
+4	que	que	CSU	CSU	_	3	dep	_	_	132.660004	132.699997	SAN
+5	ça	ça	PRO	PRO	_	8	periph	_	_	132.789993	133.169998	SAN
+6	ça	ça	PRO	PRO	_	8	subj	_	_	133.179993	133.399994	SAN
+7	pas	pas	ADN	ADN	_	8	dep	_	_	133.410004	133.559998	SAN
+8	marché	marcher	VPP	VPP	_	4	dep	_	_	133.570007	133.970001	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-90
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	124.309998	124.739998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-91
+# text = mh mh
+1	mh mh	mh mh	INT	INT	_	0	root	_	_	131.179993	131.449997	EST
+
+# sent_id = cefc-coralrom-ftelpv08-92
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	134.139999	134.320007	EST
+
+# sent_id = cefc-coralrom-ftelpv08-93
+# text = et non j'ai plus NNAAMMEE depuis
+1	et	et	COO	COO	_	4	mark	_	_	134.529999	134.649994	SAN
+2	non	non	INT	INT	_	1	dm	_	_	134.660004	134.789993	SAN
+3	j'	je	CLS	CLS	_	4	subj	_	_	134.800003	134.889999	SAN
+4	ai	avoir	VRB	VRB	_	0	root	_	_	134.899994	134.960007	SAN
+5	plus	plus	ADN	ADN	_	4	dep	_	_	134.970001	135.199997	SAN
+6	NNAAMMEE	NOM	NOM	NOM	_	4	dep	_	_	135.210007	135.539993	SAN
+7	depuis	depuis	PRE	PRE	_	4	dep	_	_	135.550003	135.929993	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-94
+# text = ouais moi aussi je l'ai eu elle était un peu angoissée parce qu'elle attendait
+1	ouais	ouais	INT	INT	_	7	dm	_	_	136.500000	136.639999	EST
+2	moi	moi	PRO	PRO	_	7	periph	_	_	136.649994	136.759995	EST
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	136.770004	136.979996	EST
+4	je	je	CLS	CLS	_	7	subj	_	_	136.990005	137.039993	EST
+5	l'	le	CLI	CLI	_	7	dep	_	_	137.050003	137.070007	EST
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	137.080002	137.169998	EST
+7	eu	avoir	VPP	VPP	_	0	root	_	_	137.179993	137.350006	EST
+8	elle	il	CLS	CLS	_	11	subj	_	_	137.360001	137.449997	EST
+9	était	être	VRB	VRB	_	11	aux	_	_	137.460007	137.619995	EST
+10	un peu	un peu	ADV	ADV	_	11	dep	_	_	137.630005	137.789993	EST
+11	angoissée	angoisser	VPP	VPP	_	7	para	_	_	137.800003	138.330002	EST
+12	parce qu'	parce que	CSU	CSU	_	7	dep	_	_	138.339996	138.589996	EST
+13	elle	il	CLS	CLS	_	14	subj	_	_	138.600006	138.649994	EST
+14	attendait	attendre	VRB	VRB	_	12	dep	_	_	138.660004	139.009995	EST
+
+# sent_id = cefc-coralrom-ftelpv08-95
+# text = ça faisait deux jours
+1	ça	ça	PRO	PRO	_	2	subj	_	_	139.020004	139.130005	EST
+2	faisait	faire	VRB	VRB	_	0	root	_	_	139.229996	139.389999	EST
+3	deux	deux	NUM	NUM	_	4	spe	_	_	139.399994	139.500000	EST
+4	jours	jour	NOM	NOM	_	2	dep	_	_	139.509995	139.679993	EST
+
+# sent_id = cefc-coralrom-ftelpv08-96
+# text = alors je lui ai dit si ils t'ont pas appelé de suite
+1	alors	alors	ADV	ADV	_	5	periph	_	_	139.740005	139.910004	EST
+2	je	je	CLS	CLS	_	5	subj	_	_	139.919998	139.940002	EST
+3	lui	lui	CLI	CLI	_	5	dep	_	_	139.949997	140.029999	EST
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	140.039993	140.070007	EST
+5	dit	dire	VPP	VPP	_	0	root	_	_	140.080002	140.270004	EST
+6	si	si	CSU	CSU	_	5	dep	_	_	140.520004	140.610001	EST
+7	ils	il	CLS	CLS	_	11	subj	_	_	140.619995	140.649994	EST
+8	t'	te	CLI	CLI	_	11	dep	_	_	140.660004	140.729996	EST
+9	ont	avoir	VRB	VRB	_	11	aux	_	_	140.740005	140.809998	EST
+10	pas	pas	ADN	ADN	_	11	dep	_	_	140.820007	140.979996	EST
+11	appelé	appeler	VPP	VPP	_	6	dep	_	_	140.990005	141.179993	EST
+12	de	de	PRE	PRE	_	11	dep	_	_	141.190002	141.220001	EST
+13	suite	suite	NOM	NOM	_	12	dep	_	_	141.229996	141.419998	EST
+
+# sent_id = cefc-coralrom-ftelpv08-97
+# text = c'est que tu es pas première hein
+1	c'	ce	CLS	CLS	_	2	subj	_	_	141.479996	141.500000	EST
+2	est	être	VRB	VRB	_	0	root	_	_	141.509995	141.529999	EST
+3	que	que	CSU	CSU	_	2	dep	_	_	141.539993	141.610001	EST
+4	tu	tu	CLS	CLS	_	5	subj	_	_	141.619995	141.729996	EST
+5	es	être	VRB	VRB	_	3	dep	_	_	141.789993	141.809998	EST
+6	pas	pas	ADN	ADN	_	5	dep	_	_	141.820007	141.929993	EST
+7	première	premier	ADJ	ADJ	_	5	dep	_	_	141.940002	142.210007	EST
+8	hein	hein	INT	INT	_	7	dm	_	_	142.220001	142.429993	EST
+
+# sent_id = cefc-coralrom-ftelpv08-98
+# text = eh ben oui c'est ça ouais
+1	eh ben	eh ben	INT	INT	_	4	dm	_	_	143.300003	143.610001	SAN
+2	oui	oui	INT	INT	_	1	dm	_	_	143.619995	143.720001	SAN
+3	c'	ce	CLS	CLS	_	4	subj	_	_	143.729996	143.759995	SAN
+4	est	être	VRB	VRB	_	0	root	_	_	143.800003	143.860001	SAN
+5	ça	ça	PRO	PRO	_	4	dep	_	_	143.869995	144.059998	SAN
+6	ouais	ouais	INT	INT	_	5	dm	_	_	144.070007	144.119995	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-99
+# text = je lui ai dit peut être que tu es deuxième ou troisième
+1	je	je	CLS	CLS	_	4	subj	_	_	144.210007	144.270004	EST
+2	lui	lui	CLI	CLI	_	4	dep	_	_	144.350006	144.429993	EST
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	144.440002	144.460007	EST
+4	dit	dire	VPP	VPP	_	0	root	_	_	144.470001	144.729996	EST
+5	peut	pouvoir	VRB	VRB	_	4	dep	_	_	144.740005	144.789993	EST
+6	être	être	VNF	VNF	_	5	dep	_	_	144.800003	144.899994	EST
+7	que	que	CSU	CSU	_	6	dep	_	_	144.910004	145.009995	EST
+8	tu	tu	CLS	CLS	_	9	subj	_	_	145.020004	145.089996	EST
+9	es	être	VRB	VRB	_	7	dep	_	_	145.100006	145.149994	EST
+10	deuxième	deuxième	ADJ	ADJ	_	9	dep	_	_	145.160004	145.479996	EST
+11	ou	ou	COO	COO	_	12	mark	_	_	145.490005	145.529999	EST
+12	troisième	troisième	ADJ	ADJ	_	10	para	_	_	145.539993	145.869995	EST
+
+# sent_id = cefc-coralrom-ftelpv08-100
+# text = mais bon
+1	mais	mais	COO	COO	_	0	root	_	_	145.940002	146.240005	EST
+2	bon	bon	INT	INT	_	1	dm	_	_	146.250000	146.389999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-101
+# text = première euh
+1	première	premier	ADJ	ADJ	_	0	root	_	_	146.399994	146.839996	EST
+2	euh	euh	INT	INT	_	1	dm	_	_	147.009995	147.149994	EST
+
+# sent_id = cefc-coralrom-ftelpv08-102
+# text = ouais je pense aussi je pense qu'ils préviennent plus rapidement euh le premier et qu'ensuite de toute façon reçoit un papier à la maison après donnant le classement
+1	ouais	ouais	INT	INT	_	3	dm	_	_	147.089996	147.259995	SAN
+2	je	je	CLS	CLS	_	3	subj	_	_	147.690002	147.889999	SAN
+3	pense	penser	VRB	VRB	_	0	root	_	_	147.899994	148.149994	SAN
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	148.160004	148.449997	SAN
+5	je	je	CLS	CLS	_	6	subj	_	_	148.460007	148.559998	SAN
+6	pense	penser	VRB	VRB	_	3	para	_	_	148.570007	148.720001	SAN
+7	qu'	que	CSU	CSU	_	6	dep	_	_	148.729996	148.779999	SAN
+8	ils	il	CLS	CLS	_	9	subj	_	_	148.789993	148.869995	SAN
+9	préviennent	prévenir	VRB	VRB	_	7	dep	_	_	148.880005	149.210007	SAN
+10	plus	plus	ADN	ADN	_	11	dep	_	_	149.220001	149.360001	SAN
+11	rapidement	rapidement	ADV	ADV	_	9	dep	_	_	149.369995	150.039993	SAN
+12	euh	euh	INT	INT	_	11	dm	_	_	150.050003	150.130005	SAN
+13	le	le	DET	DET	_	14	dep	_	_	150.139999	150.240005	SAN
+14	premier	premier	ADJ	ADJ	_	9	dep	_	_	150.250000	150.820007	SAN
+15	et	et	COO	COO	_	16	mark	_	_	150.880005	150.970001	SAN
+16	qu'	que	CSU	CSU	_	7	para	_	_	150.979996	151.039993	SAN
+17	ensuite	ensuite	ADV	ADV	_	21	periph	_	_	151.050003	151.350006	SAN
+18	de	de	PRE	PRE	_	17	dep	_	_	151.360001	151.380005	SAN
+19	toute	tout	ADJ	ADJ	_	20	dep	_	_	151.389999	151.500000	SAN
+20	façon	façon	NOM	NOM	_	18	dep	_	_	151.509995	151.669998	SAN
+21	reçoit	recevoir	VRB	VRB	_	16	dep	_	_	151.679993	151.919998	SAN
+22	un	un	DET	DET	_	23	spe	_	_	151.929993	152.000000	SAN
+23	papier	papier	NOM	NOM	_	21	dep	_	_	152.009995	152.309998	SAN
+24	à	à	PRE	PRE	_	23	dep	_	_	152.320007	152.339996	SAN
+25	la	le	DET	DET	_	26	spe	_	_	152.350006	152.410004	SAN
+26	maison	maison	NOM	NOM	_	24	dep	_	_	152.419998	152.669998	SAN
+27	après	après	PRE	PRE	_	21	dep	_	_	152.759995	153.199997	SAN
+28	donnant	donner	VPR	VPR	_	27	dep	_	_	153.289993	153.600006	SAN
+29	le	le	DET	DET	_	30	spe	_	_	153.610001	153.669998	SAN
+30	classement	classement	NOM	NOM	_	28	dep	_	_	153.679993	154.389999	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-103
+# text = et euh mais c'est un plus tard
+1	et	et	COO	COO	_	5	mark	_	_	154.399994	154.850006	SAN
+2	euh	euh	INT	INT	_	1	dm	_	_	155.289993	155.309998	SAN
+3	mais	mais	COO	COO	_	5	mark	_	_	155.399994	155.449997	SAN
+4	c'	ce	CLS	CLS	_	5	subj	_	_	155.460007	155.479996	SAN
+5	est	être	VRB	VRB	_	0	root	_	_	155.490005	156.139999	SAN
+6	un	un	DET	DET	_	7	spe	_	_	156.210007	156.309998	SAN
+7	plus	plus	NOM	NOM	_	5	dep	_	_	156.399994	156.619995	SAN
+8	tard	tard	ADV	ADV	_	7	dep	_	_	156.690002	156.919998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-104
+# text = donc c'est vrai que c'est toujours angoissant d'attandre qu-~
+1	donc	donc	ADV	ADV	_	3	periph	_	_	156.929993	157.100006	SAN
+2	c'	ce	CLS	CLS	_	3	subj	_	_	157.110001	157.179993	SAN
+3	est	être	VRB	VRB	_	0	root	_	_	157.190002	157.210007	SAN
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	157.220001	157.320007	SAN
+5	que	que	CSU	CSU	_	4	dep	_	_	157.330002	157.350006	SAN
+6	c'	ce	CLS	CLS	_	7	subj	_	_	157.360001	157.380005	SAN
+7	est	être	VRB	VRB	_	5	dep	_	_	157.389999	157.429993	SAN
+8	toujours	toujours	ADV	ADV	_	7	dep	_	_	157.440002	157.580002	SAN
+9	angoissant	angoisser	VPR	VPR	_	7	dep	_	_	157.589996	157.979996	SAN
+10	d'	de	PRE	PRE	_	9	dep	_	_	157.990005	158.059998	SAN
+11	attandre	attandre	NOM	NOM	_	10	dep	_	_	158.070007	158.669998	SAN
+12	qu-~	qu-~	PRQ	PRQ	_	7	dep	_	_	158.679993	158.699997	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-105
+# text = même si c'est pour s'entendre dire que ça c'est pas ça pas marché
+1	même	même	ADV	ADV	_	2	morph	_	_	158.710007	158.860001	SAN
+2	si	si	CSU	CSU	_	0	root	_	_	158.869995	159.050003	SAN
+3	c'	ce	CLS	CLS	_	4	subj	_	_	159.059998	159.130005	SAN
+4	est	être	VRB	VRB	_	2	dep	_	_	159.139999	159.210007	SAN
+5	pour	pour	PRE	PRE	_	4	dep	_	_	159.220001	159.410004	SAN
+6	s'	se	CLI	CLI	_	7	dep	_	_	159.419998	159.490005	SAN
+7	entendre	entendre	VNF	VNF	_	5	dep	_	_	159.500000	159.770004	SAN
+8	dire	dire	VNF	VNF	_	7	dep	_	_	159.860001	160.160004	SAN
+9	que	que	CSU	CSU	_	8	dep	_	_	160.169998	160.190002	SAN
+10	ça	ça	PRO	PRO	_	12	periph	_	_	160.250000	160.449997	SAN
+11	c'	ce	CLS	CLS	_	12	subj	_	_	160.610001	160.660004	SAN
+12	est	être	VRB	VRB	_	9	dep	_	_	160.669998	160.720001	SAN
+13	pas	pas	ADN	ADN	_	12	dep	_	_	160.729996	161.110001	SAN
+14	ça	ça	PRO	PRO	_	12	dep	_	_	161.119995	161.320007	SAN
+15	pas	pas	ADN	ADN	_	16	dep	_	_	161.330002	161.440002	SAN
+16	marché	marcher	VPP	VPP	_	12	dep	_	_	161.449997	161.759995	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-106
+# text = mh mh
+1	mh mh	mh mh	INT	INT	_	0	root	_	_	152.729996	153.229996	EST
+
+# sent_id = cefc-coralrom-ftelpv08-107
+# text = mh c'est toujours bien de
+1	mh	mh	INT	INT	_	3	dm	_	_	159.979996	160.160004	SAN
+2	c'	ce	CLS	CLS	_	3	subj	_	_	161.830002	161.910004	SAN
+3	est	être	VRB	VRB	_	0	root	_	_	161.919998	161.970001	SAN
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	161.979996	162.199997	SAN
+5	bien	bien	ADV	ADV	_	3	dep	_	_	162.210007	162.479996	SAN
+6	de	de	PRE	PRE	_	3	dep	_	_	162.490005	162.850006	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-108
+# text = tu vois pour pouvoir dire
+1	tu	tu	CLS	CLS	_	2	subj	_	_	163.119995	163.169998	SAN
+2	vois	voir	VRB	VRB	_	0	root	_	_	163.179993	163.309998	SAN
+3	pour	pour	PRE	PRE	_	2	dep	_	_	163.440002	163.520004	SAN
+4	pouvoir	pouvoir	VNF	VNF	_	3	dep	_	_	163.529999	164.020004	SAN
+5	dire	dire	VNF	VNF	_	4	dep	_	_	164.029999	164.229996	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-109
+# text = bon ben ça va je tourne la page
+1	bon ben	bon ben	INT	INT	_	3	dm	_	_	164.240005	164.440002	SAN
+2	ça	ça	PRO	PRO	_	3	subj	_	_	164.449997	164.559998	SAN
+3	va	aller	VRB	VRB	_	0	root	_	_	164.570007	164.630005	SAN
+4	je	je	CLS	CLS	_	5	subj	_	_	164.639999	164.690002	SAN
+5	tourne	tourner	VRB	VRB	_	3	para	_	_	164.699997	164.860001	SAN
+6	la	le	DET	DET	_	7	spe	_	_	164.869995	164.960007	SAN
+7	page	page	NOM	NOM	_	5	dep	_	_	164.970001	165.330002	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-110
+# text = et je passe à autre chose
+1	et	et	COO	COO	_	3	mark	_	_	165.339996	165.389999	SAN
+2	je	je	CLS	CLS	_	3	subj	_	_	165.399994	165.490005	SAN
+3	passe	passer	VRB	VRB	_	0	root	_	_	165.500000	165.690002	SAN
+4	à	à	PRE	PRE	_	3	dep	_	_	165.699997	165.720001	SAN
+5	autre	autre	ADJ	ADJ	_	6	dep	_	_	165.729996	165.869995	SAN
+6	chose	chose	NOM	NOM	_	4	dep	_	_	165.880005	166.070007	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-111
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	163.179993	163.320007	EST
+
+# sent_id = cefc-coralrom-ftelpv08-112
+# text = ouais ouais je la comprend
+1	ouais	ouais	INT	INT	_	5	dm	_	_	166.199997	166.259995	EST
+2	ouais	ouais	INT	INT	_	1	para	_	_	166.270004	166.710007	EST
+3	je	je	CLS	CLS	_	5	subj	_	_	166.720001	166.800003	EST
+4	la	le	CLI	CLI	_	5	dep	_	_	166.809998	166.889999	EST
+5	comprend	comprendre	VRB	VRB	_	0	root	_	_	166.899994	167.580002	EST
+
+# sent_id = cefc-coralrom-ftelpv08-113
+# text = bon ben bon lundi ben tu me raconteras alors
+1	bon ben	bon ben	INT	INT	_	7	dm	_	_	168.419998	168.630005	SAN
+2	bon	bon	INT	INT	_	1	dm	_	_	168.679993	168.830002	SAN
+3	lundi	lundi	NOM	NOM	_	7	periph	_	_	168.839996	169.130005	SAN
+4	ben	ben	INT	INT	_	3	dm	_	_	169.139999	169.220001	SAN
+5	tu	tu	CLS	CLS	_	7	subj	_	_	169.229996	169.320007	SAN
+6	me	me	CLI	CLI	_	7	dep	_	_	169.330002	169.389999	SAN
+7	raconteras	raconter	VRB	VRB	_	0	root	_	_	169.399994	169.919998	SAN
+8	alors	alors	ADV	ADV	_	7	dep	_	_	169.929993	170.059998	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-114
+# text = oui ben on se voit dans la semaine là jeudi
+1	oui	oui	INT	INT	_	5	dm	_	_	170.259995	170.559998	EST
+2	ben	ben	INT	INT	_	1	dm	_	_	170.570007	170.710007	EST
+3	on	on	CLS	CLS	_	5	subj	_	_	170.720001	170.800003	EST
+4	se	se	CLI	CLI	_	5	dep	_	_	170.809998	170.889999	EST
+5	voit	voir	VRB	VRB	_	0	root	_	_	170.949997	171.089996	EST
+6	dans	dans	PRE	PRE	_	5	dep	_	_	171.100006	171.199997	EST
+7	la	le	DET	DET	_	8	spe	_	_	171.210007	171.279999	EST
+8	semaine	semaine	NOM	NOM	_	6	dep	_	_	171.289993	171.649994	EST
+9	là	là	ADV	ADV	_	8	dep	_	_	171.660004	171.720001	EST
+10	jeudi	jeudi	NOM	NOM	_	8	para	_	_	171.729996	171.990005	EST
+
+# sent_id = cefc-coralrom-ftelpv08-115
+# text = ouais ouais d'accord
+1	ouais	ouais	INT	INT	_	3	dm	_	_	172.179993	172.279999	SAN
+2	ouais	ouais	INT	INT	_	1	para	_	_	172.289993	172.440002	SAN
+3	d'	de	PRE	PRE	_	0	root	_	_	172.449997	172.479996	SAN
+4	accord	accord	NOM	NOM	_	3	dep	_	_	172.490005	172.759995	SAN
+
+# sent_id = cefc-coralrom-ftelpv08-116
+# text = O K ça roule ciao
+1	O	O	NOM	NOM	_	4	periph	_	_	173.020004	173.160004	EST
+2	K	K	NOM	NOM	_	1	dep	_	_	173.169998	173.240005	EST
+3	ça	ça	PRO	PRO	_	4	subj	_	_	173.350006	173.490005	EST
+4	roule	roule	NOM	NOM	_	0	root	_	_	173.500000	173.750000	EST
+5	ciao	ciao	INT	INT	_	4	dm	_	_	173.960007	174.389999	EST
+
+# sent_id = cefc-coralrom-ftelpv08-117
+# text = salut au revoir NNAAMMEE
+1	salut	salut	NOM	NOM	_	3	periph	_	_	173.350006	173.750000	SAN
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	173.929993	174.250000	SAN
+3	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	174.259995	174.509995	SAN
+

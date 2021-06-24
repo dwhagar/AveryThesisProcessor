@@ -1,0 +1,553 @@
+# sent_id = cefc-fleuron-BU_partie_2-2-1
+# text = ah oui alors c'est pareil
+1	ah	ah	INT	INT	_	5	dm	_	_	0.250000	0.290000	E1
+2	oui	oui	INT	INT	_	1	dm	_	_	0.300000	0.410000	E1
+3	alors	alors	ADV	ADV	_	5	periph	_	_	0.420000	0.560000	E1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	0.600000	0.630000	E1
+5	est	être	VRB	VRB	_	0	root	_	_	0.640000	0.700000	E1
+6	pareil	pareil	ADJ	ADJ	_	5	dep	_	_	0.710000	0.940000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-2
+# text = ils sont très sensibles
+1	ils	il	CLS	CLS	_	2	subj	_	_	0.950000	1.010000	E1
+2	sont	être	VRB	VRB	_	0	root	_	_	1.020000	1.150000	E1
+3	très	très	ADV	ADV	_	4	dep	_	_	1.210000	1.340000	E1
+4	sensibles	sensible	ADJ	ADJ	_	2	dep	_	_	1.350000	1.980000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-3
+# text = les programmes-là parce que
+1	les	le	DET	DET	_	2	spe	_	_	2.750000	2.840000	E1
+2	programmes-là	programmes-là	NOM	NOM	_	0	root	_	_	2.940000	3.450000	E1
+3	parce que	parce que	CSU	CSU	_	2	dep	_	_	3.460000	3.640000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-4
+# text = si tu fais la moindre petite faute d'orthographe
+1	si	si	CSU	CSU	_	0	root	_	_	3.650000	3.710000	E1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	3.910000	3.960000	E1
+3	fais	faire	VRB	VRB	_	1	dep	_	_	3.970000	4.090000	E1
+4	la	le	DET	DET	_	7	spe	_	_	4.100000	4.170000	E1
+5	moindre	moindre	ADJ	ADJ	_	7	dep	_	_	4.180000	4.350000	E1
+6	petite	petit	ADJ	ADJ	_	7	dep	_	_	4.360000	4.600000	E1
+7	faute	faute	NOM	NOM	_	3	dep	_	_	4.640000	4.790000	E1
+8	d'	de	PRE	PRE	_	7	dep	_	_	4.800000	4.850000	E1
+9	orthographe	orthographe	NOM	NOM	_	8	dep	_	_	4.860000	5.540000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-5
+# text = ça te le trouve
+1	ça	ça	PRO	PRO	_	4	subj	_	_	6.670000	6.760000	E2
+2	te	te	CLI	CLI	_	4	dep	_	_	6.770000	6.790000	E2
+3	le	le	CLI	CLI	_	4	dep	_	_	6.800000	6.920000	E2
+4	trouve	trouver	VRB	VRB	_	0	root	_	_	6.930000	7.130000	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-6
+# text = pas ça ça il le trouve
+1	pas	pas	ADN	ADN	_	2	dep	_	_	7.140000	7.380000	E1
+2	ça	ça	PRO	PRO	_	6	periph	_	_	7.440000	7.580000	E1
+3	ça	ça	PRO	PRO	_	6	periph	_	_	7.590000	7.800000	E1
+4	il	il	CLS	CLS	_	6	subj	_	_	7.810000	7.860000	E1
+5	le	le	CLI	CLI	_	6	dep	_	_	8.120000	8.190000	E1
+6	trouve	trouver	VRB	VRB	_	0	root	_	_	8.450000	8.560000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-7
+# text = pas
+1	pas	pas	ADN	ADN	_	0	root	_	_	8.710000	8.840000	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-8
+# text = donc celui-là par exemple tu peux pas l'emprunter
+1	donc	donc	ADV	ADV	_	6	periph	_	_	10.390000	10.550000	E2
+2	celui-là	celui-là	PRO	PRO	_	6	periph	_	_	10.560000	10.930000	E2
+3	par	par	PRE	PRE	_	6	periph	_	_	10.940000	11.110000	E2
+4	exemple	exemple	NOM	NOM	_	3	dep	_	_	11.120000	11.630000	E2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	11.710000	11.830000	E2
+6	peux	pouvoir	VRB	VRB	_	0	root	_	_	11.840000	11.960000	E2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	11.970000	12.060000	E2
+8	l'	le	CLI	CLI	_	9	dep	_	_	12.070000	12.110000	E2
+9	emprunter	emprunter	VNF	VNF	_	6	dep	_	_	12.300000	12.760000	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-9
+# text = donc celui-là il est disponible au CRAPEL
+1	donc	donc	ADV	ADV	_	4	periph	_	_	12.930000	13.120000	E1
+2	celui-là	celui-là	PRO	PRO	_	4	periph	_	_	13.130000	13.430000	E1
+3	il	il	CLS	CLS	_	4	subj	_	_	13.440000	13.640000	E1
+4	est	être	VRB	VRB	_	0	root	_	_	13.650000	13.690000	E1
+5	disponible	disponible	ADJ	ADJ	_	4	dep	_	_	13.700000	14.160000	E1
+6	au	à+le	PRE	PRE	_	4	dep	_	_	14.170000	14.200000	E1
+7	CRAPEL	CRAPEL	NOM	NOM	_	6	dep	_	_	14.290000	14.610000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-10
+# text = et là ils précisent bien que c'est non disponible pour le prêt qu'il est consultable sur place
+1	et	et	COO	COO	_	4	mark	_	_	14.780000	14.800000	E1
+2	là	là	ADV	ADV	_	4	periph	_	_	14.810000	14.910000	E1
+3	ils	il	CLS	CLS	_	4	subj	_	_	14.920000	14.980000	E1
+4	précisent	préciser	VRB	VRB	_	0	root	_	_	15.070000	15.430000	E1
+5	bien	bien	ADV	ADV	_	4	dep	_	_	15.440000	15.610000	E1
+6	que	que	CSU	CSU	_	4	dep	_	_	15.670000	15.760000	E1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	15.830000	15.900000	E1
+8	est	être	VRB	VRB	_	6	dep	_	_	15.910000	15.930000	E1
+9	non	non	ADN	ADN	_	10	dep	_	_	15.940000	16.090000	E1
+10	disponible	disponible	ADJ	ADJ	_	8	dep	_	_	16.100000	16.620001	E1
+11	pour	pour	PRE	PRE	_	8	dep	_	_	16.690001	16.809999	E1
+12	le	le	DET	DET	_	13	spe	_	_	16.820000	16.920000	E1
+13	prêt	prêt	NOM	NOM	_	11	dep	_	_	17.040001	17.160000	E1
+14	qu'	que	PRQ	PRQ	_	16	dep	_	_	17.549999	17.600000	E1
+15	il	il	CLS	CLS	_	16	subj	_	_	17.680000	17.770000	E1
+16	est	être	VRB	VRB	_	13	dep	_	_	17.780001	17.879999	E1
+17	consultable	consultable	ADJ	ADJ	_	16	dep	_	_	17.959999	18.520000	E1
+18	sur	sur	PRE	PRE	_	16	dep	_	_	18.530001	18.700001	E1
+19	place	place	NOM	NOM	_	18	dep	_	_	18.790001	19.180000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-11
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	19.670000	19.930000	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-12
+# text = et il y en a un autre exemplaire qui se trouve ici à la B U de centre de lettres et de sciences humaines
+1	et	et	COO	COO	_	5	mark	_	_	20.200001	20.260000	E1
+2	il	il	CLS	CLS	_	5	subj	_	_	20.270000	20.400000	E1
+3	y	y	CLI	CLI	_	5	dep	_	_	20.410000	20.430000	E1
+4	en	en	CLI	CLI	_	5	dep	_	_	20.440001	20.459999	E1
+5	a	avoir	VRB	VRB	_	0	root	_	_	20.469999	20.500000	E1
+6	un	un	DET	DET	_	8	spe	_	_	20.510000	20.610001	E1
+7	autre	autre	ADJ	ADJ	_	8	dep	_	_	20.620001	20.760000	E1
+8	exemplaire	exemplaire	NOM	NOM	_	5	dep	_	_	20.770000	21.200001	E1
+9	qui	qui	PRQ	PRQ	_	11	subj	_	_	21.209999	21.330000	E1
+10	se	se	CLI	CLI	_	11	dep	_	_	21.340000	21.410000	E1
+11	trouve	trouver	VRB	VRB	_	8	dep	_	_	21.480000	21.660000	E1
+12	ici	ici	ADV	ADV	_	11	dep	_	_	21.990000	22.410000	E1
+13	à	à	PRE	PRE	_	11	dep	_	_	22.420000	22.440001	E1
+14	la	le	DET	DET	_	15	spe	_	_	22.450001	22.549999	E1
+15	B	B	NOM	NOM	_	13	dep	_	_	22.639999	22.750000	E1
+16	U	U	NOM	NOM	_	15	dep	_	_	22.799999	22.910000	E1
+17	de	de	PRE	PRE	_	16	dep	_	_	23.040001	23.150000	E1
+18	centre	centre	NOM	NOM	_	17	dep	_	_	23.190001	23.540001	E1
+19	de	de	PRE	PRE	_	18	dep	_	_	23.700001	23.940001	E1
+20	lettres	lettre	NOM	NOM	_	19	dep	_	_	23.950001	24.129999	E1
+21	et	et	COO	COO	_	22	mark	_	_	24.200001	24.219999	E1
+22	de	de	PRE	PRE	_	19	para	_	_	24.230000	24.379999	E1
+23	sciences	science	NOM	NOM	_	22	dep	_	_	24.430000	24.709999	E1
+24	humaines	humain	ADJ	ADJ	_	23	dep	_	_	24.719999	24.900000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-13
+# text = ici
+1	ici	ici	ADV	ADV	_	0	root	_	_	21.990000	22.440001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-14
+# text = elle se il se trouve au rez-de-chaussée dans la salle deux la cote c'est A huit-cent-quarante machin
+1	elle	il	CLS	CLS	_	15	periph	_	_	25.469999	25.580000	E1
+2	se	se	CLI	CLI	_	1	disflink	_	_	25.750000	25.840000	E1
+3	il	il	CLS	CLS	_	1	para	_	_	26.010000	26.080000	E1
+4	se	se	CLI	CLI	_	5	dep	_	_	26.090000	26.160000	E1
+5	trouve	trouver	VRB	VRB	_	3	para	_	_	26.309999	26.500000	E1
+6	au	à+le	PRE	PRE	_	5	dep	_	_	26.510000	26.639999	E1
+7	rez-de-chaussée	rez-de-chaussée	NOM	NOM	_	6	dep	_	_	26.650000	27.180000	E1
+8	dans	dans	PRE	PRE	_	5	dep	_	_	27.240000	27.360001	E1
+9	la	le	DET	DET	_	10	spe	_	_	27.370001	27.450001	E1
+10	salle	salle	NOM	NOM	_	8	dep	_	_	27.459999	27.690001	E1
+11	deux	deux	NUM	NUM	_	10	dep	_	_	27.740000	27.900000	E1
+12	la	le	DET	DET	_	13	spe	_	_	28.469999	28.600000	E1
+13	cote	cote	NOM	NOM	_	15	periph	_	_	28.610001	28.920000	E1
+14	c'	ce	CLS	CLS	_	15	subj	_	_	29.180000	29.299999	E1
+15	est	être	VRB	VRB	_	0	root	_	_	29.309999	29.370001	E1
+16	A	A	NOM	NOM	_	15	dep	_	_	29.469999	29.520000	E1
+17	huit-cent-quarante	huit-cent-quarante	NUM	NUM	_	18	spe	_	_	29.530001	29.959999	E1
+18	machin	machin	NOM	NOM	_	16	para	_	_	30.410000	30.660000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-15
+# text = et là on peut voir qu'il a été emprunté qu'il sera de retour
+1	et	et	COO	COO	_	4	mark	_	_	31.420000	31.709999	E1
+2	là	là	ADV	ADV	_	4	periph	_	_	31.719999	31.820000	E1
+3	on	on	CLS	CLS	_	4	subj	_	_	31.830000	31.969999	E1
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	32.040001	32.130001	E1
+5	voir	voir	VNF	VNF	_	4	dep	_	_	32.139999	32.279999	E1
+6	qu'	que	CSU	CSU	_	5	dep	_	_	32.349998	32.430000	E1
+7	il	il	CLS	CLS	_	10	subj	_	_	32.439999	32.580002	E1
+8	a	avoir	VRB	VRB	_	9	aux	_	_	32.590000	32.610001	E1
+9	été	être	VPP	VPP	_	10	aux	_	_	32.619999	32.919998	E1
+10	emprunté	emprunter	VPP	VPP	_	6	dep	_	_	32.930000	33.529999	E1
+11	qu'	que	CSU	CSU	_	10	dep	_	_	33.540001	33.599998	E1
+12	il	il	CLS	CLS	_	13	subj	_	_	33.610001	33.660000	E1
+13	sera	être	VRB	VRB	_	11	dep	_	_	33.669998	33.910000	E1
+14	de	de	PRE	PRE	_	13	dep	_	_	33.919998	34.040001	E1
+15	retour	retour	NOM	NOM	_	14	dep	_	_	34.049999	34.160000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-16
+# text = le dix septembre deux-mille-douze
+1	le	le	DET	DET	_	3	spe	_	_	34.480000	34.500000	E1
+2	dix	dix	NUM	NUM	_	3	dep	_	_	34.540001	34.709999	E1
+3	septembre	septembre	NOM	NOM	_	0	root	_	_	34.720001	35.020000	E1
+4	deux-mille-douze	deux-mille-douze	NUM	NUM	_	3	dep	_	_	35.029999	35.369999	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-17
+# text = ah ouais d'accord
+1	ah	ah	INT	INT	_	3	dm	_	_	36.250000	36.400002	E2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	36.439999	36.619999	E2
+3	d'	de	PRE	PRE	_	0	root	_	_	36.630001	36.650002	E2
+4	accord	accord	NOM	NOM	_	3	dep	_	_	36.660000	36.799999	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-18
+# text = O K
+1	O	O	NOM	NOM	_	0	root	_	_	36.810001	36.830002	E2
+2	K	K	NOM	NOM	_	1	dep	_	_	36.840000	36.950001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-19
+# text = et euh
+1	et	et	COO	COO	_	0	root	_	_	37.759998	37.910000	E2
+2	euh	euh	INT	INT	_	1	dm	_	_	37.919998	38.310001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-20
+# text = et il y a possibilité de réserver bien sûr tous les exemplaires
+1	et	et	COO	COO	_	4	mark	_	_	38.389999	38.480000	E1
+2	il	il	CLS	CLS	_	4	subj	_	_	38.560001	38.619999	E1
+3	y	y	CLI	CLI	_	4	dep	_	_	38.630001	38.669998	E1
+4	a	avoir	VRB	VRB	_	0	root	_	_	38.680000	38.700001	E1
+5	possibilité	possibilité	NOM	NOM	_	4	dep	_	_	38.750000	39.189999	E1
+6	de	de	PRE	PRE	_	5	dep	_	_	39.200001	39.340000	E1
+7	réserver	réserver	VNF	VNF	_	6	dep	_	_	39.349998	40.040001	E1
+8	bien	bien	ADV	ADV	_	7	dep	_	_	40.049999	40.250000	E1
+9	sûr	sûr	ADJ	ADJ	_	8	morph	_	_	40.259998	40.340000	E1
+10	tous	tout	ADJ	ADJ	_	12	dep	_	_	40.380001	40.580002	E1
+11	les	le	DET	DET	_	12	spe	_	_	40.799999	40.930000	E1
+12	exemplaires	exemplaire	NOM	NOM	_	7	dep	_	_	40.939999	41.330002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-21
+# text = O K et les petites fiches
+1	O	O	NOM	NOM	_	0	root	_	_	42.090000	42.110001	E2
+2	K	K	NOM	NOM	_	1	dep	_	_	42.150002	42.250000	E2
+3	et	et	COO	COO	_	6	mark	_	_	42.639999	42.689999	E2
+4	les	le	DET	DET	_	6	spe	_	_	42.700001	42.790001	E2
+5	petites	petit	ADJ	ADJ	_	6	dep	_	_	42.799999	43.049999	E2
+6	fiches	fiche	NOM	NOM	_	2	para	_	_	43.060001	43.340000	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-22
+# text = là je vois qu'il y a des petites fiches
+1	là	là	ADV	ADV	_	3	periph	_	_	43.349998	43.419998	E2
+2	je	je	CLS	CLS	_	3	subj	_	_	43.430000	43.450001	E2
+3	vois	voir	VRB	VRB	_	0	root	_	_	43.560001	43.650002	E2
+4	qu'	que	CSU	CSU	_	3	dep	_	_	43.660000	43.680000	E2
+5	il	il	CLS	CLS	_	7	subj	_	_	43.689999	43.740002	E2
+6	y	y	CLI	CLI	_	7	dep	_	_	43.750000	43.770000	E2
+7	a	avoir	VRB	VRB	_	4	dep	_	_	43.779999	43.799999	E2
+8	des	de	PRE	PRE	_	7	dep	_	_	43.810001	43.860001	E2
+9	petites	petit	ADJ	ADJ	_	10	dep	_	_	43.869999	43.980000	E2
+10	fiches	fiche	NOM	NOM	_	8	dep	_	_	44.040001	44.470001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-23
+# text = ça sert à quoi ça
+1	ça	ça	PRO	PRO	_	2	subj	_	_	44.540001	44.590000	E2
+2	sert	servir	VRB	VRB	_	0	root	_	_	44.599998	44.779999	E2
+3	à	à	PRE	PRE	_	2	dep	_	_	44.790001	44.810001	E2
+4	quoi	quoi	PRQ	PRQ	_	3	dep	_	_	44.820000	44.919998	E2
+5	ça	ça	PRO	PRO	_	3	dep	_	_	44.930000	45.110001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-24
+# text = alors les petites fiches en fait c'est il y a certains certains exemplaires
+1	alors	alors	ADV	ADV	_	8	periph	_	_	44.189999	44.509998	E1
+2	les	le	DET	DET	_	4	spe	_	_	44.570000	44.779999	E1
+3	petites	petit	ADJ	ADJ	_	4	dep	_	_	44.790001	45.119999	E1
+4	fiches	fiche	NOM	NOM	_	8	periph	_	_	45.130001	45.400002	E1
+5	en	en	PRE	PRE	_	4	dep	_	_	45.560001	45.610001	E1
+6	fait	fait	NOM	NOM	_	5	dep	_	_	45.619999	45.770000	E1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	45.779999	45.820000	E1
+8	est	être	VRB	VRB	_	0	root	_	_	45.830002	46.369999	E1
+9	il	il	CLS	CLS	_	11	subj	_	_	46.560001	46.619999	E1
+10	y	y	CLI	CLI	_	11	dep	_	_	46.630001	46.650002	E1
+11	a	avoir	VRB	VRB	_	8	para	_	_	46.660000	46.689999	E1
+12	certains	certain	DET	DET	_	14	spe	_	_	46.700001	47.419998	E1
+13	certains	certain	DET	DET	_	12	para	_	_	47.430000	47.990002	E1
+14	exemplaires	exemplaire	NOM	NOM	_	11	dep	_	_	48.000000	48.480000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-25
+# text = enfin
+1	enfin	enfin	ADV	ADV	_	0	root	_	_	48.490002	48.669998	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-26
+# text = certains certains livres qui se trouvent au rez-de-chaussée
+1	certains	certain	DET	DET	_	3	spe	_	_	48.680000	48.880001	E1
+2	certains	certain	DET	DET	_	1	para	_	_	49.820000	50.099998	E1
+3	livres	livre	NOM	NOM	_	6	subj	_	_	50.110001	50.349998	E1
+4	qui	qui	PRQ	PRQ	_	6	dep	_	_	50.709999	50.810001	E1
+5	se	se	CLI	CLI	_	6	dep	_	_	50.820000	50.880001	E1
+6	trouvent	trouver	VRB	VRB	_	0	root	_	_	50.889999	51.189999	E1
+7	au	à+le	PRE	PRE	_	6	dep	_	_	51.200001	51.220001	E1
+8	rez-de-chaussée	rez-de-chaussée	NOM	NOM	_	7	dep	_	_	51.230000	51.730000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-27
+# text = et euh donc c' est à dire que toutes les heures
+1	et	et	COO	COO	_	4	mark	_	_	53.299999	53.470001	E1
+2	euh	euh	INT	INT	_	1	dm	_	_	53.480000	53.610001	E1
+3	donc	donc	ADV	ADV	_	4	periph	_	_	53.619999	53.790001	E1
+4	c' est à dire que	c' est à dire que	VRB	VRB	_	0	root	_	_	53.799999	54.770000	E1
+5	toutes	tout	ADJ	ADJ	_	7	dep	_	_	55.180000	55.450001	E1
+6	les	le	DET	DET	_	7	spe	_	_	55.459999	55.689999	E1
+7	heures	heure	NOM	NOM	_	4	dep	_	_	55.700001	55.939999	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-28
+# text = il est euh le personnel va chercher au re~ dans la cave les euh tous les exemplaires qui sont demandés
+1	il	il	CLS	CLS	_	2	subj	_	_	56.080002	56.139999	E1
+2	est	être	VRB	VRB	_	0	root	_	_	56.299999	56.840000	E1
+3	euh	euh	INT	INT	_	2	dm	_	_	57.070000	57.090000	E1
+4	le	le	DET	DET	_	5	spe	_	_	57.410000	57.520000	E1
+5	personnel	personnel	NOM	NOM	_	6	subj	_	_	57.529999	58.090000	E1
+6	va	aller	VRB	VRB	_	2	dep	_	_	58.099998	58.380001	E1
+7	chercher	chercher	VNF	VNF	_	6	dep	_	_	58.430000	59.099998	E1
+8	au	à+le	PRE	PRE	_	7	dep	_	_	59.110001	59.150002	E1
+9	re~	re~	NOM	NOM	_	8	dep	_	_	59.240002	59.580002	E1
+10	dans	dans	PRE	PRE	_	7	dep	_	_	59.669998	59.730000	E1
+11	la	le	DET	DET	_	12	spe	_	_	59.740002	59.820000	E1
+12	cave	cave	NOM	NOM	_	10	dep	_	_	59.830002	59.980000	E1
+13	les	le	DET	DET	_	17	spe	_	_	60.040001	60.090000	E1
+14	euh	euh	INT	INT	_	13	dm	_	_	60.150002	60.180000	E1
+15	tous	tout	ADJ	ADJ	_	17	dep	_	_	60.810001	60.860001	E1
+16	les	le	DET	DET	_	17	spe	_	_	60.869999	61.000000	E1
+17	exemplaires	exemplaire	NOM	NOM	_	12	para	_	_	61.009998	61.349998	E1
+18	qui	qui	PRQ	PRQ	_	20	dep	_	_	61.360001	61.459999	E1
+19	sont	être	VRB	VRB	_	20	aux	_	_	61.500000	61.630001	E1
+20	demandés	demander	VPP	VPP	_	17	dep	_	_	61.639999	61.959999	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-29
+# text = donc il suffit juste de remplir la petite fiche avec euh toutes les informations sur le livre le titre
+1	donc	donc	ADV	ADV	_	3	periph	_	_	62.650002	62.910000	E1
+2	il	il	CLS	CLS	_	3	subj	_	_	63.009998	63.080002	E1
+3	suffit	suffire	VRB	VRB	_	0	root	_	_	63.090000	63.349998	E1
+4	juste	juste	ADV	ADV	_	3	dep	_	_	63.360001	63.580002	E1
+5	de	de	PRE	PRE	_	3	dep	_	_	63.590000	63.689999	E1
+6	remplir	remplir	VNF	VNF	_	5	dep	_	_	63.730000	63.959999	E1
+7	la	le	DET	DET	_	9	spe	_	_	63.970001	64.040001	E1
+8	petite	petit	ADJ	ADJ	_	9	dep	_	_	64.050003	64.510002	E1
+9	fiche	fiche	NOM	NOM	_	6	dep	_	_	64.519997	64.980003	E1
+10	avec	avec	PRE	PRE	_	6	dep	_	_	65.169998	65.459999	E1
+11	euh	euh	INT	INT	_	10	dm	_	_	65.529999	65.599998	E1
+12	toutes	tout	ADJ	ADJ	_	14	dep	_	_	65.750000	65.980003	E1
+13	les	le	DET	DET	_	14	spe	_	_	65.989998	66.129997	E1
+14	informations	information	NOM	NOM	_	10	dep	_	_	66.139999	66.739998	E1
+15	sur	sur	PRE	PRE	_	10	para	_	_	66.750000	66.830002	E1
+16	le	le	DET	DET	_	17	spe	_	_	66.839996	66.889999	E1
+17	livre	livre	NOM	NOM	_	15	dep	_	_	66.900002	66.980003	E1
+18	le	le	DET	DET	_	19	spe	_	_	67.040001	67.470001	E1
+19	titre	titre	NOM	NOM	_	10	dep	_	_	67.959999	68.500000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-30
+# text = ça c'est quand les livres ils sont pas en rayon en fait
+1	ça	ça	PRO	PRO	_	3	periph	_	_	67.040001	67.089996	E2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	67.099998	67.120003	E2
+3	est	être	VRB	VRB	_	0	root	_	_	67.129997	67.470001	E2
+4	quand	quand	CSU	CSU	_	3	dep	_	_	67.870003	68.639999	E2
+5	les	le	DET	DET	_	6	spe	_	_	68.699997	68.790001	E2
+6	livres	livre	NOM	NOM	_	8	periph	_	_	68.800003	68.910004	E2
+7	ils	il	CLS	CLS	_	8	subj	_	_	68.919998	68.970001	E2
+8	sont	être	VRB	VRB	_	4	dep	_	_	68.980003	69.120003	E2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	69.129997	69.220001	E2
+10	en	en	PRE	PRE	_	8	dep	_	_	69.230003	69.349998	E2
+11	rayon	rayon	NOM	NOM	_	10	dep	_	_	69.360001	69.699997	E2
+12	en	en	PRE	PRE	_	10	para	_	_	69.709999	69.730003	E2
+13	fait	fait	NOM	NOM	_	12	dep	_	_	69.739998	69.800003	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-31
+# text = voilà mais c'est indiqué en fait
+1	voilà	voilà	INT	INT	_	5	dm	_	_	69.930000	70.099998	E1
+2	mais	mais	COO	COO	_	5	mark	_	_	70.169998	70.290001	E1
+3	c'	ce	CLS	CLS	_	5	subj	_	_	70.300003	70.389999	E1
+4	est	être	VRB	VRB	_	5	aux	_	_	70.400002	70.419998	E1
+5	indiqué	indiquer	VPP	VPP	_	0	root	_	_	70.430000	70.900002	E1
+6	en	en	PRE	PRE	_	5	dep	_	_	70.910004	70.959999	E1
+7	fait	fait	NOM	NOM	_	6	dep	_	_	70.970001	71.190002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-32
+# text = c'est indiqué localisation euh sous-sol euh B U euh
+1	c'	ce	CLS	CLS	_	3	subj	_	_	71.269997	71.419998	E1
+2	est	être	VRB	VRB	_	3	aux	_	_	71.430000	71.449997	E1
+3	indiqué	indiquer	VPP	VPP	_	0	root	_	_	71.459999	71.900002	E1
+4	localisation	localisation	NOM	NOM	_	3	dep	_	_	71.910004	72.980003	E1
+5	euh	euh	INT	INT	_	4	dm	_	_	73.040001	73.139999	E1
+6	sous-sol	sous-sol	NOM	NOM	_	4	para	_	_	73.150002	74.980003	E1
+7	euh	euh	INT	INT	_	6	dm	_	_	74.989998	75.519997	E1
+8	B	B	NOM	NOM	_	6	para	_	_	75.620003	75.790001	E1
+9	U	U	NOM	NOM	_	8	dep	_	_	75.800003	76.150002	E1
+10	euh	euh	INT	INT	_	9	dm	_	_	76.160004	76.400002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-33
+# text = enfin c'est indiqué que ça se trouve en sous-sol
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	76.930000	77.010002	E1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	77.019997	77.110001	E1
+3	est	être	VRB	VRB	_	0	root	_	_	77.120003	77.139999	E1
+4	indiqué	indiquer	VPP	VPP	_	3	dep	_	_	77.180000	77.480003	E1
+5	que	que	CSU	CSU	_	3	dep	_	_	77.570000	77.669998	E1
+6	ça	ça	PRO	PRO	_	8	subj	_	_	77.680000	77.809998	E1
+7	se	se	CLI	CLI	_	8	dep	_	_	77.820000	77.860001	E1
+8	trouve	trouver	VRB	VRB	_	5	dep	_	_	77.870003	78.040001	E1
+9	en	en	PRE	PRE	_	8	dep	_	_	78.050003	78.110001	E1
+10	sous-sol	sous-sol	NOM	NOM	_	9	dep	_	_	78.120003	78.430000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-34
+# text = et donc il suffit juste de remplir le le petit coupon-là
+1	et	et	COO	COO	_	4	mark	_	_	79.040001	79.080002	E1
+2	donc	donc	ADV	ADV	_	4	periph	_	_	79.089996	79.169998	E1
+3	il	il	CLS	CLS	_	4	subj	_	_	79.180000	79.250000	E1
+4	suffit	suffire	VRB	VRB	_	0	root	_	_	79.260002	79.480003	E1
+5	juste	juste	ADV	ADV	_	4	dep	_	_	79.489998	79.730003	E1
+6	de	de	PRE	PRE	_	4	dep	_	_	79.739998	79.809998	E1
+7	remplir	remplir	VNF	VNF	_	6	dep	_	_	79.820000	80.139999	E1
+8	le	le	DET	DET	_	11	spe	_	_	80.150002	80.489998	E1
+9	le	le	DET	DET	_	8	para	_	_	80.500000	80.599998	E1
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	80.680000	80.839996	E1
+11	coupon-là	coupon-là	NOM	NOM	_	7	dep	_	_	80.940002	81.440002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-35
+# text = on va aller le déposer auprès des euh du personnel
+1	on	on	CLS	CLS	_	2	subj	_	_	81.959999	82.050003	E1
+2	va	aller	VRB	VRB	_	0	root	_	_	82.059998	82.199997	E1
+3	aller	aller	VNF	VNF	_	2	dep	_	_	82.209999	82.260002	E1
+4	le	le	CLI	CLI	_	5	dep	_	_	82.269997	82.290001	E1
+5	déposer	déposer	VNF	VNF	_	3	dep	_	_	82.300003	83.110001	E1
+6	auprès des	auprès de	PRE	PRE	_	5	dep	_	_	83.379997	83.930000	E1
+7	euh	euh	INT	INT	_	6	dm	_	_	83.940002	83.970001	E1
+8	du	de+le	PRE	PRE	_	6	para	_	_	84.150002	84.330002	E1
+9	personnel	personnel	NOM	NOM	_	8	dep	_	_	84.339996	84.830002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-36
+# text = et eux ils vont le chercher et on repasse bah une heure après ou le lendemain parce qu'ils y vont une fois par heure
+1	et	et	COO	COO	_	4	mark	_	_	85.400002	85.529999	E1
+2	eux	moi	PRO	PRO	_	4	periph	_	_	85.540001	85.650002	E1
+3	ils	il	CLS	CLS	_	4	subj	_	_	85.660004	85.750000	E1
+4	vont	aller	VRB	VRB	_	0	root	_	_	85.760002	85.949997	E1
+5	le	le	CLI	CLI	_	6	dep	_	_	85.959999	86.000000	E1
+6	chercher	chercher	VNF	VNF	_	4	dep	_	_	86.010002	86.370003	E1
+7	et	et	COO	COO	_	9	mark	_	_	86.699997	86.760002	E1
+8	on	on	CLS	CLS	_	9	subj	_	_	86.769997	86.830002	E1
+9	repasse	repasser	VRB	VRB	_	4	para	_	_	86.839996	87.550003	E1
+10	bah	bah	INT	INT	_	9	dm	_	_	87.639999	87.730003	E1
+11	une	un	DET	DET	_	12	spe	_	_	87.889999	88.110001	E1
+12	heure	heure	NOM	NOM	_	9	dep	_	_	88.279999	88.370003	E1
+13	après	après	PRE	PRE	_	12	dep	_	_	88.379997	88.510002	E1
+14	ou	ou	COO	COO	_	16	mark	_	_	88.730003	88.750000	E1
+15	le	le	DET	DET	_	16	spe	_	_	88.760002	89.059998	E1
+16	lendemain	lendemain	NOM	NOM	_	12	para	_	_	89.070000	89.330002	E1
+17	parce qu'	parce que	CSU	CSU	_	9	dep	_	_	89.570000	89.779999	E1
+18	ils	il	CLS	CLS	_	20	subj	_	_	89.790001	89.849998	E1
+19	y	y	CLI	CLI	_	20	dep	_	_	89.860001	89.879997	E1
+20	vont	aller	VRB	VRB	_	17	dep	_	_	90.010002	90.160004	E1
+21	une	un	DET	DET	_	22	spe	_	_	90.169998	90.220001	E1
+22	fois	foi	NOM	NOM	_	20	dep	_	_	90.230003	90.400002	E1
+23	par	par	PRE	PRE	_	22	dep	_	_	90.410004	90.540001	E1
+24	heure	heure	NOM	NOM	_	23	dep	_	_	90.610001	90.669998	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-37
+# text = ils descendent en bas une fois par heure
+1	ils	il	CLS	CLS	_	2	subj	_	_	90.919998	90.970001	E1
+2	descendent	descendre	VRB	VRB	_	0	root	_	_	90.980003	91.320000	E1
+3	en bas	en bas	ADV	ADV	_	2	dep	_	_	91.330002	91.480003	E1
+4	une	un	DET	DET	_	5	spe	_	_	91.599998	91.680000	E1
+5	fois	foi	NOM	NOM	_	2	dep	_	_	91.690002	91.779999	E1
+6	par	par	PRE	PRE	_	5	dep	_	_	91.790001	91.910004	E1
+7	heure	heure	NOM	NOM	_	6	dep	_	_	92.349998	92.760002	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-38
+# text = donc c'est rapide
+1	donc	donc	ADV	ADV	_	3	periph	_	_	93.120003	93.260002	E1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	93.269997	93.309998	E1
+3	est	être	VRB	VRB	_	0	root	_	_	93.320000	93.339996	E1
+4	rapide	rapide	ADJ	ADJ	_	3	dep	_	_	93.349998	93.660004	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-39
+# text = d'accord d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	78.610001	78.629997	E2
+2	accord	accord	NOM	NOM	_	1	dep	_	_	78.639999	78.860001	E2
+3	d'	de	PRE	PRE	_	1	para	_	_	91.620003	91.639999	E2
+4	accord	accord	NOM	NOM	_	3	dep	_	_	91.720001	91.910004	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-40
+# text = donc euh oui
+1	donc	donc	ADV	ADV	_	0	root	_	_	91.919998	92.040001	E2
+2	euh	euh	INT	INT	_	1	dm	_	_	92.510002	92.620003	E2
+3	oui	oui	INT	INT	_	2	dm	_	_	92.629997	92.760002	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-41
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	93.989998	94.129997	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-42
+# text = c'est rapide
+1	c'	ce	CLS	CLS	_	2	subj	_	_	94.309998	94.330002	E1
+2	est	être	VRB	VRB	_	0	root	_	_	94.339996	94.360001	E1
+3	rapide	rapide	ADJ	ADJ	_	2	dep	_	_	94.370003	94.559998	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-43
+# text = donc voilà
+1	donc	donc	ADV	ADV	_	0	root	_	_	95.489998	95.610001	E1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	95.620003	95.860001	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-44
+# text = O K
+1	O	O	NOM	NOM	_	0	root	_	_	95.690002	95.760002	E2
+2	K	K	NOM	NOM	_	1	dep	_	_	95.769997	95.860001	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-45
+# text = donc une fois que tu as tes cotes tu vas te servir toi
+1	donc	donc	ADV	ADV	_	10	periph	_	_	96.769997	96.870003	E2
+2	une	un	DET	DET	_	3	spe	_	_	96.879997	96.980003	E2
+3	fois	foi	NOM	NOM	_	10	periph	_	_	96.989998	97.089996	E2
+4	que	que	CSU	CSU	_	3	dep	_	_	97.099998	97.120003	E2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	97.129997	97.209999	E2
+6	as	avoir	VRB	VRB	_	4	dep	_	_	97.220001	97.279999	E2
+7	tes	son	DET	DET	_	8	spe	_	_	97.330002	97.419998	E2
+8	cotes	cote	NOM	NOM	_	6	dep	_	_	97.430000	97.720001	E2
+9	tu	tu	CLS	CLS	_	10	subj	_	_	97.730003	97.820000	E2
+10	vas	aller	VRB	VRB	_	0	root	_	_	97.830002	98.250000	E2
+11	te	te	CLI	CLI	_	12	dep	_	_	98.309998	98.330002	E2
+12	servir	servir	VNF	VNF	_	10	dep	_	_	98.419998	98.809998	E2
+13	toi	moi	PRO	PRO	_	10	periph	_	_	98.900002	98.980003	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-46
+# text = même en rayon
+1	même	même	ADV	ADV	_	2	dep	_	_	98.989998	99.180000	E2
+2	en	en	PRE	PRE	_	0	root	_	_	99.190002	99.260002	E2
+3	rayon	rayon	NOM	NOM	_	2	dep	_	_	99.269997	99.580002	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-47
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	99.930000	99.980003	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-48
+# text = alors là bah j'ai j'ai j'ai plusieurs exemplaires
+1	alors	alors	ADV	ADV	_	5	periph	_	_	100.830002	101.070000	E1
+2	là	là	ADV	ADV	_	5	periph	_	_	101.129997	101.180000	E1
+3	bah	bah	INT	INT	_	2	dm	_	_	101.190002	101.250000	E1
+4	j'	je	CLS	CLS	_	5	subj	_	_	101.290001	101.440002	E1
+5	ai	avoir	VRB	VRB	_	0	root	_	_	101.449997	101.610001	E1
+6	j'	je	CLS	CLS	_	7	subj	_	_	101.620003	101.720001	E1
+7	ai	avoir	VRB	VRB	_	5	para	_	_	101.800003	101.849998	E1
+8	j'	je	CLS	CLS	_	9	subj	_	_	101.940002	102.000000	E1
+9	ai	avoir	VRB	VRB	_	7	para	_	_	102.139999	102.160004	E1
+10	plusieurs	plusieurs	DET	DET	_	11	spe	_	_	102.169998	102.449997	E1
+11	exemplaires	exemplaire	NOM	NOM	_	9	dep	_	_	102.459999	102.839996	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-49
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	103.230003	103.510002	E2
+
+# sent_id = cefc-fleuron-BU_partie_2-2-50
+# text = donc euh ils se trouvent euh bah ils se trouvent presque tous en salle trois qui est juste là-bas
+1	donc	donc	ADV	ADV	_	5	periph	_	_	104.690002	104.860001	E1
+2	euh	euh	INT	INT	_	1	dm	_	_	105.000000	105.050003	E1
+3	ils	il	CLS	CLS	_	5	subj	_	_	105.660004	105.879997	E1
+4	se	se	CLI	CLI	_	5	dep	_	_	105.940002	105.959999	E1
+5	trouvent	trouver	VRB	VRB	_	0	root	_	_	106.080002	106.650002	E1
+6	euh	euh	INT	INT	_	5	dm	_	_	106.660004	106.680000	E1
+7	bah	bah	INT	INT	_	6	dm	_	_	106.809998	106.870003	E1
+8	ils	il	CLS	CLS	_	10	subj	_	_	106.879997	106.930000	E1
+9	se	se	CLI	CLI	_	10	dep	_	_	106.970001	107.000000	E1
+10	trouvent	trouver	VRB	VRB	_	5	para	_	_	107.010002	107.139999	E1
+11	presque	presque	ADV	ADV	_	10	dep	_	_	107.260002	107.580002	E1
+12	tous	tout	ADJ	ADJ	_	10	dep	_	_	107.790001	108.070000	E1
+13	en	en	PRE	PRE	_	10	dep	_	_	108.349998	108.410004	E1
+14	salle	salle	NOM	NOM	_	13	dep	_	_	108.419998	108.589996	E1
+15	trois	trois	NUM	NUM	_	14	dep	_	_	108.680000	108.919998	E1
+16	qui	qui	PRQ	PRQ	_	17	subj	_	_	109.629997	109.680000	E1
+17	est	être	VRB	VRB	_	10	dep	_	_	109.690002	109.709999	E1
+18	juste	juste	ADV	ADV	_	19	dep	_	_	109.720001	110.120003	E1
+19	là-bas	là-bas	ADV	ADV	_	17	dep	_	_	110.190002	110.320000	E1
+
+# sent_id = cefc-fleuron-BU_partie_2-2-51
+# text = mm
+1	mm	mm	INT	INT	_	0	root	_	_	110.379997	110.629997	E2
+

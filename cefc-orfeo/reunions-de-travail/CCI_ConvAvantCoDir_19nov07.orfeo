@@ -1,0 +1,328 @@
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-1
+# text = je prends un peu de café tu es notre hôte quand même excusez-moi bonjour
+1	je	je	CLS	CLS	_	2	subj	_	_	0.370000	0.460000	L7
+2	prends	prendre	VRB	VRB	_	0	root	_	_	1.470000	1.860000	L7
+3	un peu	un peu	ADV	ADV	_	2	dep	_	_	2.480000	2.760000	L7
+4	de	de	PRE	PRE	_	2	dep	_	_	2.770000	2.830000	L7
+5	café	café	NOM	NOM	_	4	dep	_	_	2.840000	2.950000	L7
+6	tu	tu	CLS	CLS	_	7	subj	_	_	2.960000	3.010000	L7
+7	es	être	VRB	VRB	_	2	para	_	_	3.020000	3.040000	L7
+8	notre	son	DET	DET	_	9	spe	_	_	3.050000	3.280000	L7
+9	hôte	hôte	NOM	NOM	_	7	dep	_	_	3.290000	3.480000	L7
+10	quand	quand	PRQ	PRQ	_	12	dep	_	_	3.540000	3.670000	L7
+11	même	même	ADV	ADV	_	12	dep	_	_	3.840000	4.380000	L7
+12	excusez-moi	excusez-moi	VRB	VRB	_	9	dep	_	_	5.580000	6.410000	L7
+13	bonjour	bonjour	INT	INT	_	12	dm	_	_	6.720000	7.070000	L7
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-2
+# text = madame oui ben il m'a l'air bien serré
+1	madame	Monsieur	NOM	NOM	_	6	periph	_	_	8.750000	9.200000	L7
+2	oui	oui	INT	INT	_	6	dm	_	_	9.360000	10.310000	L7
+3	ben	ben	INT	INT	_	2	dm	_	_	10.320000	11.020000	L7
+4	il	il	CLS	CLS	_	6	subj	_	_	11.030000	11.390000	L7
+5	m'	me	CLI	CLI	_	6	dep	_	_	11.400000	11.440000	L7
+6	a	avoir	VRB	VRB	_	0	root	_	_	13.380000	13.410000	L7
+7	l'	le	DET	DET	_	8	spe	_	_	13.840000	13.890000	L7
+8	air	air	NOM	NOM	_	6	dep	_	_	14.210000	14.310000	L7
+9	bien	bien	ADV	ADV	_	10	dep	_	_	14.380000	14.660000	L7
+10	serré	serrer	VPP	VPP	_	8	dep	_	_	14.790000	15.030000	L7
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-3
+# text = tu as un exemplaire du document de NNAAMMEE
+1	tu	tu	CLS	CLS	_	2	subj	_	_	15.100000	15.150000	L1
+2	as	avoir	VRB	VRB	_	0	root	_	_	15.160000	15.180000	L1
+3	un	un	DET	DET	_	4	spe	_	_	15.190000	15.310000	L1
+4	exemplaire	exemplaire	NOM	NOM	_	2	dep	_	_	15.320000	15.670000	L1
+5	du	de+le	PRE	PRE	_	4	dep	_	_	15.680000	15.840000	L1
+6	document	document	NOM	NOM	_	5	dep	_	_	15.850000	16.320000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	16.330000	16.360001	L1
+8	NNAAMMEE	NOM	NOM	NOM	_	7	dep	_	_	16.370001	16.590000	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-4
+# text = non j'en ai un par mail ben eh ouais
+1	non	non	INT	INT	_	4	dm	_	_	18.660000	18.730000	L3
+2	j'	je	CLS	CLS	_	4	subj	_	_	18.740000	18.760000	L3
+3	en	en	CLI	CLI	_	4	dep	_	_	18.770000	18.969999	L3
+4	ai	avoir	VRB	VRB	_	0	root	_	_	18.980000	19.070000	L3
+5	un	un	DET	DET	_	4	dep	_	_	19.080000	19.420000	L3
+6	par	par	PRE	PRE	_	4	dep	_	_	19.430000	19.590000	L3
+7	mail	mail	NOM	NOM	_	6	dep	_	_	19.600000	19.799999	L3
+8	ben	ben	INT	INT	_	7	dm	_	_	20.270000	21.049999	L3
+9	eh	eh	INT	INT	_	8	dm	_	_	21.059999	21.080000	L3
+10	ouais	ouais	INT	INT	_	9	dm	_	_	21.090000	21.139999	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-5
+# text = ah tiens ça fait un moment que ça retombe chez moi
+1	ah	ah	INT	INT	_	4	dm	_	_	22.120001	22.290001	L1
+2	tiens	(se) tenir	VRB	VRB	_	1	dm	_	_	22.969999	23.290001	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	25.450001	25.549999	L1
+4	fait	faire	VRB	VRB	_	0	root	_	_	25.660000	26.250000	L1
+5	un	un	DET	DET	_	6	spe	_	_	27.299999	27.799999	L1
+6	moment	moment	NOM	NOM	_	4	dep	_	_	28.010000	28.490000	L1
+7	que	que	CSU	CSU	_	4	dep	_	_	28.500000	28.950001	L1
+8	ça	ça	PRO	PRO	_	9	subj	_	_	29.740000	29.830000	L1
+9	retombe	retomber	VRB	VRB	_	7	dep	_	_	31.020000	31.980000	L1
+10	chez	chez	PRE	PRE	_	9	dep	_	_	31.990000	32.119999	L1
+11	moi	moi	PRO	PRO	_	10	dep	_	_	32.560001	32.849998	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-6
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	33.169998	33.450001	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-7
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	33.610001	33.750000	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-8
+# text = avec NNAAMMEE on va de réunion en réunion
+1	avec	avec	PRE	PRE	_	4	periph	_	_	34.369999	34.669998	L3
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	34.680000	35.630001	L3
+3	on	on	CLS	CLS	_	4	subj	_	_	35.810001	35.970001	L3
+4	va	aller	VRB	VRB	_	0	root	_	_	36.919998	37.230000	L3
+5	de	de	PRE	PRE	_	4	dep	_	_	37.240002	37.660000	L3
+6	réunion	réunion	NOM	NOM	_	5	dep	_	_	38.070000	38.590000	L3
+7	en	en	PRE	PRE	_	4	dep	_	_	38.599998	38.630001	L3
+8	réunion	réunion	NOM	NOM	_	7	dep	_	_	38.889999	39.509998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-9
+# text = je m'en suis rendu compte
+1	je	je	CLS	CLS	_	5	subj	_	_	39.590000	39.750000	L3
+2	m'	me	CLI	CLI	_	5	dep	_	_	41.000000	41.029999	L3
+3	en	en	CLI	CLI	_	5	dep	_	_	41.040001	41.060001	L3
+4	suis	être	VRB	VRB	_	5	aux	_	_	41.070000	41.279999	L3
+5	rendu	rendre	VPP	VPP	_	0	root	_	_	41.290001	41.549999	L3
+6	compte	compte	NOM	NOM	_	5	dep	_	_	41.560001	42.099998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-10
+# text = oh
+1	oh	oh	INT	INT	_	0	root	_	_	42.570000	42.669998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-11
+# text = sept huit mois maintenant
+1	sept	sept	NUM	NUM	_	3	spe	_	_	43.650002	43.820000	L3
+2	huit	huit	NUM	NUM	_	1	dep	_	_	43.830002	44.150002	L3
+3	mois	moi	NOM	NOM	_	0	root	_	_	44.160000	44.279999	L3
+4	maintenant	maintenant	ADV	ADV	_	3	dep	_	_	44.290001	44.830002	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-12
+# text = c'est vrai que
+1	c'	ce	CLS	CLS	_	2	subj	_	_	45.759998	45.860001	LX
+2	est	être	VRB	VRB	_	0	root	_	_	45.869999	45.910000	LX
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	46.020000	46.139999	LX
+4	que	que	CSU	CSU	_	3	dep	_	_	46.580002	46.639999	LX
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-13
+# text = ah voilà NNAAMMEE NNAAMMEE on avait dit qu'on appellerait la côte la côte
+1	ah	ah	INT	INT	_	7	dm	_	_	46.820000	46.840000	L1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	46.849998	47.139999	L1
+3	NNAAMMEE	NOM	NOM	NOM	_	7	periph	_	_	47.150002	47.349998	L1
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	47.360001	48.110001	L1
+5	on	on	CLS	CLS	_	7	subj	_	_	48.119999	48.139999	L1
+6	avait	avoir	VRB	VRB	_	7	aux	_	_	48.270000	48.430000	L1
+7	dit	dire	VPP	VPP	_	0	root	_	_	48.439999	48.490002	L1
+8	qu'	que	CSU	CSU	_	7	dep	_	_	48.580002	48.660000	L1
+9	on	on	CLS	CLS	_	10	subj	_	_	48.669998	48.759998	L1
+10	appellerait	appeler	VRB	VRB	_	8	dep	_	_	48.770000	49.119999	L1
+11	la	le	DET	DET	_	12	spe	_	_	49.130001	49.220001	L1
+12	côte	côte	NOM	NOM	_	10	dep	_	_	49.299999	49.470001	L1
+13	la	le	DET	DET	_	14	spe	_	_	49.779999	49.830002	L1
+14	côte	côte	NOM	NOM	_	12	para	_	_	49.840000	50.070000	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-14
+# text = bon ben on se fera peut-être une pause dans la matinée
+1	bon ben	bon ben	INT	INT	_	4	dm	_	_	50.880001	51.090000	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	51.099998	51.169998	L1
+3	se	se	CLI	CLI	_	4	dep	_	_	51.180000	51.250000	L1
+4	fera	faire	VRB	VRB	_	0	root	_	_	51.259998	51.360001	L1
+5	peut-être	peut-être	ADV	ADV	_	4	dep	_	_	51.430000	51.619999	L1
+6	une	un	DET	DET	_	7	spe	_	_	51.630001	51.730000	L1
+7	pause	pause	NOM	NOM	_	4	dep	_	_	51.740002	51.959999	L1
+8	dans	dans	PRE	PRE	_	4	dep	_	_	51.970001	52.029999	L1
+9	la	le	DET	DET	_	10	spe	_	_	52.040001	52.099998	L1
+10	matinée	matinée	NOM	NOM	_	8	dep	_	_	52.110001	52.430000	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-15
+# text = puis on verra si on continue hein
+1	puis	puis	COO	COO	_	3	mark	_	_	52.439999	52.540001	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	52.549999	52.570000	L1
+3	verra	voir	VRB	VRB	_	0	root	_	_	52.750000	53.009998	L1
+4	si	si	CSU	CSU	_	3	dep	_	_	53.060001	53.209999	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	53.270000	53.290001	L1
+6	continue	continuer	VRB	VRB	_	4	dep	_	_	53.299999	53.590000	L1
+7	hein	hein	INT	INT	_	6	dm	_	_	53.919998	53.939999	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-16
+# text = avec les chinois de huit heures
+1	avec	avec	PRE	PRE	_	0	root	_	_	58.950001	60.029999	L3
+2	les	le	DET	DET	_	3	spe	_	_	62.139999	62.759998	L3
+3	chinois	chinois	NOM	NOM	_	1	dep	_	_	62.910000	63.450001	L3
+4	de	de	PRE	PRE	_	3	dep	_	_	63.730000	63.950001	L3
+5	huit	huit	NUM	NUM	_	6	spe	_	_	64.279999	64.440002	L3
+6	heures	heure	NOM	NOM	_	4	dep	_	_	64.449997	65.029999	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-17
+# text = à midi
+1	à	à	PRE	PRE	_	0	root	_	_	66.980003	67.169998	L3
+2	midi	midi	NOM	NOM	_	1	dep	_	_	67.220001	67.800003	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-18
+# text = un peu CoDir personnalisé avec un chef de service
+1	un peu	un peu	ADV	ADV	_	3	dep	_	_	68.510002	69.430000	L7
+2	CoDir	CoDir	NOM	NOM	_	3	dep	_	_	74.040001	74.309998	L7
+3	personnalisé	personnaliser	VPP	VPP	_	0	root	_	_	74.370003	75.029999	L7
+4	avec	avec	PRE	PRE	_	3	dep	_	_	75.040001	75.209999	L7
+5	un	un	DET	DET	_	6	spe	_	_	75.220001	75.250000	L7
+6	chef	chef	NOM	NOM	_	4	dep	_	_	75.260002	75.470001	L7
+7	de	de	PRE	PRE	_	6	dep	_	_	75.480003	75.559998	L7
+8	service	service	NOM	NOM	_	7	dep	_	_	75.570000	75.940002	L7
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-19
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	76.199997	76.339996	L3
+2	ouais	ouais	INT	INT	_	1	para	_	_	76.349998	76.419998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-20
+# text = par contre vendredi tu viens à la réunion H L M D
+1	par	par	PRE	PRE	_	5	periph	_	_	80.910004	80.989998	L3
+2	contre	contre	PRE	PRE	_	1	dep	_	_	81.000000	81.139999	L3
+3	vendredi	vendredi	NOM	NOM	_	2	dep	_	_	81.150002	81.610001	L3
+4	tu	tu	CLS	CLS	_	5	subj	_	_	81.620003	81.720001	L3
+5	viens	venir	VRB	VRB	_	0	root	_	_	81.730003	81.930000	L3
+6	à	à	PRE	PRE	_	5	dep	_	_	81.940002	81.959999	L3
+7	la	le	DET	DET	_	8	spe	_	_	81.970001	82.190002	L3
+8	réunion	réunion	NOM	NOM	_	6	dep	_	_	82.199997	82.489998	L3
+9	H	H	NOM	NOM	_	8	dep	_	_	82.500000	82.650002	L3
+10	L	L	NOM	NOM	_	9	dep	_	_	82.660004	82.709999	L3
+11	M	Monsieur	NOM	NOM	_	10	dep	_	_	82.720001	82.769997	L3
+12	D	D	NOM	NOM	_	11	dep	_	_	82.779999	82.830002	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-21
+# text = ouais ouais ouais je suis à la sixième commission du Conseil Général après-midi avec NNAAMMEE
+1	ouais	ouais	INT	INT	_	5	dm	_	_	82.900002	83.059998	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	83.949997	84.019997	L1
+3	ouais	ouais	INT	INT	_	2	para	_	_	84.029999	84.260002	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	84.940002	85.160004	L1
+5	suis	être	VRB	VRB	_	0	root	_	_	85.169998	85.300003	L1
+6	à	à	PRE	PRE	_	5	dep	_	_	85.309998	85.379997	L1
+7	la	le	DET	DET	_	9	spe	_	_	85.389999	85.470001	L1
+8	sixième	sixième	ADJ	ADJ	_	9	dep	_	_	85.480003	85.809998	L1
+9	commission	commission	NOM	NOM	_	6	dep	_	_	85.910004	86.199997	L1
+10	du	de+le	PRE	PRE	_	9	dep	_	_	86.209999	86.260002	L1
+11	Conseil	conseil	NOM	NOM	_	10	dep	_	_	86.269997	86.580002	L1
+12	Général	général	ADJ	ADJ	_	11	dep	_	_	86.589996	87.059998	L1
+13	après-midi	après-midi	NOM	NOM	_	11	dep	_	_	87.070000	87.480003	L1
+14	avec	avec	PRE	PRE	_	13	dep	_	_	87.489998	87.599998	L1
+15	NNAAMMEE	NOM	NOM	NOM	_	14	dep	_	_	87.769997	87.949997	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-22
+# text = que
+1	que	que	CSU	CSU	_	0	root	_	_	84.949997	85.440002	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-23
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	88.080002	88.220001	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-24
+# text = on a un observatoire le matin
+1	on	on	CLS	CLS	_	2	subj	_	_	89.470001	89.489998	L1
+2	a	avoir	VRB	VRB	_	0	root	_	_	89.610001	89.629997	L1
+3	un	un	DET	DET	_	4	spe	_	_	89.639999	89.790001	L1
+4	observatoire	observatoire	NOM	NOM	_	2	dep	_	_	89.800003	90.519997	L1
+5	le	le	DET	DET	_	6	spe	_	_	90.529999	90.620003	L1
+6	matin	matin	NOM	NOM	_	4	para	_	_	90.629997	91.000000	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-25
+# text = je passerai la journée à NNAAMMEE
+1	je	je	CLS	CLS	_	2	subj	_	_	91.010002	91.070000	L1
+2	passerai	passer	VRB	VRB	_	0	root	_	_	91.320000	91.639999	L1
+3	la	le	DET	DET	_	4	spe	_	_	91.650002	91.699997	L1
+4	journée	journée	NOM	NOM	_	2	dep	_	_	91.709999	91.879997	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	91.930000	91.959999	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	91.970001	92.160004	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-26
+# text = d'accord on parlera de la
+1	d'	de	PRE	PRE	_	4	periph	_	_	92.629997	92.699997	L3
+2	accord	accord	NOM	NOM	_	1	dep	_	_	92.709999	92.820000	L3
+3	on	on	CLS	CLS	_	4	subj	_	_	94.000000	94.570000	L3
+4	parlera	parler	VRB	VRB	_	0	root	_	_	94.639999	94.959999	L3
+5	de	de	PRE	PRE	_	4	dep	_	_	94.970001	94.989998	L3
+6	la	le	DET	DET	_	5	dep	_	_	95.000000	95.059998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-27
+# text = tu sais la base de données sur les
+1	tu	tu	CLS	CLS	_	2	subj	_	_	95.169998	95.220001	L3
+2	sais	savoir	VRB	VRB	_	0	root	_	_	95.230003	95.360001	L3
+3	la	le	DET	DET	_	4	spe	_	_	95.370003	95.440002	L3
+4	base	base	NOM	NOM	_	2	dep	_	_	95.480003	95.730003	L3
+5	de	de	PRE	PRE	_	4	dep	_	_	95.889999	96.050003	L3
+6	données	donnée	NOM	NOM	_	5	dep	_	_	96.059998	96.849998	L3
+7	sur	sur	PRE	PRE	_	2	dep	_	_	97.129997	97.419998	L3
+8	les	le	DET	DET	_	7	dep	_	_	98.080002	98.620003	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-28
+# text = les oui
+1	les	le	DET	DET	_	0	root	_	_	98.750000	99.019997	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	99.610001	99.690002	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-29
+# text = et puis c'est à disposition pour tenir à jour
+1	et puis	et puis	COO	COO	_	3	mark	_	_	100.169998	100.389999	L3
+2	c'	ce	CLS	CLS	_	3	subj	_	_	100.459999	100.480003	L3
+3	est	être	VRB	VRB	_	0	root	_	_	100.489998	101.059998	L3
+4	à	à	PRE	PRE	_	3	dep	_	_	101.540001	101.779999	L3
+5	disposition	disposition	NOM	NOM	_	4	dep	_	_	101.919998	104.059998	L3
+6	pour	pour	PRE	PRE	_	3	dep	_	_	104.620003	104.849998	L3
+7	tenir	(se) tenir	VNF	VNF	_	6	dep	_	_	105.150002	105.870003	L3
+8	à	à	PRE	PRE	_	7	dep	_	_	106.879997	107.040001	L3
+9	jour	jour	NOM	NOM	_	8	dep	_	_	107.120003	107.809998	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-30
+# text = et la NNAAMMEE
+1	et	et	COO	COO	_	3	mark	_	_	108.709999	108.739998	L3
+2	la	le	DET	DET	_	3	spe	_	_	110.059998	110.209999	L3
+3	NNAAMMEE	NOM	NOM	NOM	_	0	root	_	_	111.169998	112.070000	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-31
+# text = toute la zone de toutes les zones euh
+1	toute	tout	ADJ	ADJ	_	3	dep	_	_	112.839996	113.000000	L1
+2	la	le	DET	DET	_	3	spe	_	_	113.360001	113.449997	L1
+3	zone	zone	NOM	NOM	_	0	root	_	_	113.459999	113.699997	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	113.709999	113.809998	L1
+5	toutes	tout	ADJ	ADJ	_	7	dep	_	_	113.820000	114.300003	L1
+6	les	le	DET	DET	_	7	spe	_	_	114.309998	115.150002	L1
+7	zones	zone	NOM	NOM	_	4	dep	_	_	115.160004	115.639999	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	115.650002	115.699997	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-32
+# text = y compris
+1	y compris	y compris	ADV	ADV	_	0	root	_	_	115.739998	116.169998	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-33
+# text = celles du Nord du Centre et du Sud
+1	celles	celui	PRO	PRO	_	0	root	_	_	116.239998	116.400002	L1
+2	du	de+le	PRE	PRE	_	1	dep	_	_	116.410004	116.540001	L1
+3	Nord	Nord	NOM	NOM	_	2	dep	_	_	116.550003	116.860001	L1
+4	du	de+le	PRE	PRE	_	3	dep	_	_	116.870003	116.989998	L1
+5	Centre	Centre	NOM	NOM	_	4	dep	_	_	117.000000	117.330002	L1
+6	et	et	COO	COO	_	7	mark	_	_	117.339996	117.379997	L1
+7	du	de+le	PRE	PRE	_	4	para	_	_	117.389999	117.459999	L1
+8	Sud	sud	NOM	NOM	_	7	dep	_	_	117.500000	117.709999	L1
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-34
+# text = au point où on il le perd
+1	au	à+le	PRE	PRE	_	0	root	_	_	118.839996	118.879997	L3
+2	point	point	NOM	NOM	_	1	dep	_	_	118.889999	119.099998	L3
+3	où	où	PRQ	PRQ	_	7	dep	_	_	119.110001	119.529999	L3
+4	on	on	CLS	CLS	_	7	subj	_	_	119.540001	119.839996	L3
+5	il	il	CLS	CLS	_	4	para	_	_	120.809998	120.870003	L3
+6	le	le	CLI	CLI	_	7	dep	_	_	121.209999	121.809998	L3
+7	perd	perdre	VRB	VRB	_	2	dep	_	_	124.690002	125.139999	L3
+
+# sent_id = cefc-reunions-de-travail-CCI_ConvAvantCoDir_19nov07-35
+# text = pas c'est fou
+1	pas	pas	ADN	ADN	_	3	dep	_	_	125.629997	126.220001	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	126.440002	126.769997	L1
+3	est	être	VRB	VRB	_	0	root	_	_	127.190002	127.730003	L1
+4	fou	fou	ADJ	ADJ	_	3	dep	_	_	127.940002	128.250000	L1
+

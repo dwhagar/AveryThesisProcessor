@@ -1,0 +1,2762 @@
+# sent_id = cefc-ofrom-unifr12a07d-1
+# text = voilà je suis en présence de   afin de parler de sa passion les véhicules motorisés à deux roues
+1	voilà	voilà	INT	INT	_	3	dm	_	_	0.820000	1.150000	unifr12-fsa
+2	je	je	CLS	CLS	_	3	subj	_	_	1.160000	1.220000	unifr12-fsa
+3	suis	être	VRB	VRB	_	0	root	_	_	1.300000	1.450000	unifr12-fsa
+4	en	en	PRE	PRE	_	3	dep	_	_	1.460000	1.530000	unifr12-fsa
+5	présence	présence	NOM	NOM	_	4	dep	_	_	1.600000	1.900000	unifr12-fsa
+6	de	de	PRE	PRE	_	5	dep	_	_	1.910000	1.930000	unifr12-fsa
+7	#	#	NOM	NOM	_	6	dep	_	_	1.950000	1.950000	unifr12-fsa
+8	afin de	afin de	PRE	PRE	_	3	dep	_	_	2.850000	3.180000	unifr12-fsa
+9	parler	parler	VNF	VNF	_	8	dep	_	_	3.190000	3.470000	unifr12-fsa
+10	de	de	PRE	PRE	_	9	dep	_	_	3.480000	3.500000	unifr12-fsa
+11	sa	son	DET	DET	_	12	spe	_	_	3.510000	3.620000	unifr12-fsa
+12	passion	passion	NOM	NOM	_	10	dep	_	_	3.630000	4.130000	unifr12-fsa
+13	les	le	DET	DET	_	14	spe	_	_	5.610000	5.690000	unifr12-fsa
+14	véhicules	véhicule	NOM	NOM	_	9	dep	_	_	5.700000	6.030000	unifr12-fsa
+15	motorisés	motoriser	VPP	VPP	_	14	dep	_	_	6.040000	6.500000	unifr12-fsa
+16	à	à	PRE	PRE	_	9	dep	_	_	6.510000	6.590000	unifr12-fsa
+17	deux	deux	NUM	NUM	_	18	spe	_	_	6.600000	6.780000	unifr12-fsa
+18	roues	roue	NOM	NOM	_	16	dep	_	_	6.790000	6.940000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-2
+# text = donc euh bonjour
+1	donc	donc	ADV	ADV	_	0	root	_	_	7.940000	8.220000	unifr12-fsa
+2	euh	euh	INT	INT	_	1	dm	_	_	8.230000	8.310000	unifr12-fsa
+3	bonjour	bonjour	INT	INT	_	2	dm	_	_	8.700000	8.960000	unifr12-fsa
+4	#	#	X	X	_	3	disflink	_	_	9.010000	9.010000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-3
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	root	_	_	10.050000	10.310000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-4
+# text = alors euh parle-moi un peu de de ta passion
+1	alors	alors	ADV	ADV	_	3	periph	_	_	11.120000	11.430000	unifr12-fsa
+2	euh	euh	INT	INT	_	1	dm	_	_	11.440000	11.460000	unifr12-fsa
+3	parle-moi	parle-moi	VRB	VRB	_	0	root	_	_	11.470000	12.330000	unifr12-fsa
+4	un peu	un peu	ADV	ADV	_	3	dep	_	_	12.340000	12.560000	unifr12-fsa
+5	de	de	PRE	PRE	_	3	dep	_	_	12.570000	12.950000	unifr12-fsa
+6	de	de	PRE	PRE	_	5	para	_	_	12.960000	13.050000	unifr12-fsa
+7	ta	son	DET	DET	_	8	spe	_	_	13.060000	13.190000	unifr12-fsa
+8	passion	passion	NOM	NOM	_	6	dep	_	_	13.200000	14.000000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-5
+# text = quand est-ce que ça commencé et cetera
+1	quand	quand	CSU	CSU	_	0	root	_	_	14.010000	14.220000	unifr12-fsa
+2	est-ce	est-ce	VRB	VRB	_	1	dep	_	_	14.230000	14.340000	unifr12-fsa
+3	que	que	CSU	CSU	_	2	dep	_	_	14.350000	14.420000	unifr12-fsa
+4	ça	ça	PRO	PRO	_	5	subj	_	_	14.430000	14.630000	unifr12-fsa
+5	commencé	commencer	VPP	VPP	_	3	dep	_	_	14.640000	15.330000	unifr12-fsa
+6	et	et	COO	COO	_	7	mark	_	_	15.340000	15.390000	unifr12-fsa
+7	cetera	cetera	ADV	ADV	_	5	dep	_	_	15.400000	15.620000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-6
+# text = euh ma passion des deux roues ça commencé quand j'étais déjà très jeune
+1	euh	euh	INT	INT	_	3	dm	_	_	17.379999	17.680000	unifr12-lua
+2	ma	son	DET	DET	_	3	spe	_	_	17.690001	17.860001	unifr12-lua
+3	passion	passion	NOM	NOM	_	8	periph	_	_	17.870001	18.459999	unifr12-lua
+4	des	de	PRE	PRE	_	3	dep	_	_	18.469999	18.590000	unifr12-lua
+5	deux	deux	NUM	NUM	_	6	spe	_	_	18.600000	18.690001	unifr12-lua
+6	roues	roue	NOM	NOM	_	4	dep	_	_	18.700001	18.860001	unifr12-lua
+7	ça	ça	PRO	PRO	_	8	subj	_	_	18.870001	19.059999	unifr12-lua
+8	commencé	commencer	VPP	VPP	_	0	root	_	_	19.070000	19.370001	unifr12-lua
+9	quand	quand	CSU	CSU	_	8	dep	_	_	19.379999	19.469999	unifr12-lua
+10	j'	je	CLS	CLS	_	11	subj	_	_	19.480000	19.570000	unifr12-lua
+11	étais	être	VRB	VRB	_	9	dep	_	_	19.580000	19.719999	unifr12-lua
+12	déjà	déjà	ADV	ADV	_	11	dep	_	_	19.730000	19.879999	unifr12-lua
+13	très	très	ADV	ADV	_	14	dep	_	_	19.889999	20.040001	unifr12-lua
+14	jeune	jeune	ADJ	ADJ	_	11	dep	_	_	20.049999	20.370001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-7
+# text = j'adorais aller avec mon père en moto
+1	j'	je	CLS	CLS	_	2	subj	_	_	21.049999	21.070000	unifr12-lua
+2	adorais	adorer	VRB	VRB	_	0	root	_	_	21.080000	21.330000	unifr12-lua
+3	aller	aller	VNF	VNF	_	2	dep	_	_	21.340000	21.459999	unifr12-lua
+4	avec	avec	PRE	PRE	_	3	dep	_	_	21.469999	21.700001	unifr12-lua
+5	mon	son	DET	DET	_	6	spe	_	_	21.709999	21.820000	unifr12-lua
+6	père	père	NOM	NOM	_	4	dep	_	_	21.830000	22.040001	unifr12-lua
+7	en	en	PRE	PRE	_	3	dep	_	_	22.049999	22.090000	unifr12-lua
+8	moto	moto	NOM	NOM	_	7	dep	_	_	22.100000	22.450001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-8
+# text = il me proposait tout le temps
+1	il	il	CLS	CLS	_	3	subj	_	_	22.940001	22.990000	unifr12-lua
+2	me	me	CLI	CLI	_	3	dep	_	_	23.000000	23.020000	unifr12-lua
+3	proposait	proposer	VRB	VRB	_	0	root	_	_	23.030001	23.360001	unifr12-lua
+4	tout	tout	ADJ	ADJ	_	6	dep	_	_	23.370001	23.530001	unifr12-lua
+5	le	le	DET	DET	_	6	spe	_	_	23.540001	23.559999	unifr12-lua
+6	temps	temps	NOM	NOM	_	3	dep	_	_	23.570000	23.969999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-9
+# text = j'allais tout le temps voir sa moto
+1	j'	je	CLS	CLS	_	2	subj	_	_	24.170000	24.270000	unifr12-lua
+2	allais	aller	VRB	VRB	_	0	root	_	_	24.280001	24.420000	unifr12-lua
+3	tout	tout	ADJ	ADJ	_	5	dep	_	_	24.430000	24.530001	unifr12-lua
+4	le	le	DET	DET	_	5	spe	_	_	24.540001	24.570000	unifr12-lua
+5	temps	temps	NOM	NOM	_	2	dep	_	_	24.580000	24.690001	unifr12-lua
+6	voir	voir	VNF	VNF	_	2	dep	_	_	24.700001	24.820000	unifr12-lua
+7	sa	son	DET	DET	_	8	spe	_	_	24.830000	24.940001	unifr12-lua
+8	moto	moto	NOM	NOM	_	6	dep	_	_	24.950001	25.260000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-10
+# text = on allait se promener faire des longs tours
+1	on	on	CLS	CLS	_	2	subj	_	_	25.270000	25.400000	unifr12-lua
+2	allait	aller	VRB	VRB	_	0	root	_	_	25.410000	25.530001	unifr12-lua
+3	se	se	CLI	CLI	_	4	dep	_	_	25.540001	25.629999	unifr12-lua
+4	promener	promener	VNF	VNF	_	2	dep	_	_	25.639999	26.040001	unifr12-lua
+5	faire	faire	VNF	VNF	_	4	dep	_	_	26.049999	26.200001	unifr12-lua
+6	des	de	PRE	PRE	_	5	dep	_	_	26.209999	26.309999	unifr12-lua
+7	longs	long	ADJ	ADJ	_	8	dep	_	_	26.320000	26.450001	unifr12-lua
+8	tours	tour	NOM	NOM	_	6	dep	_	_	26.459999	26.809999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-11
+# text = euh j'ai toujours rêvé de ben depuis cet âge d'avoir euh enfin pouvoir me payer une moto moi-même pouvoir rouler tout
+1	euh	euh	INT	INT	_	5	dm	_	_	28.750000	29.090000	unifr12-lua
+2	j'	je	CLS	CLS	_	5	subj	_	_	29.680000	29.770000	unifr12-lua
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	29.780001	29.809999	unifr12-lua
+4	toujours	toujours	ADV	ADV	_	5	dep	_	_	29.820000	30.160000	unifr12-lua
+5	rêvé	rêver	VPP	VPP	_	0	root	_	_	30.170000	30.400000	unifr12-lua
+6	de	de	PRE	PRE	_	5	dep	_	_	30.410000	30.450001	unifr12-lua
+7	ben	ben	INT	INT	_	6	dm	_	_	30.459999	30.670000	unifr12-lua
+8	depuis	depuis	PRE	PRE	_	6	para	_	_	30.680000	30.840000	unifr12-lua
+9	cet	ce	DET	DET	_	10	spe	_	_	30.850000	30.980000	unifr12-lua
+10	âge	âge	NOM	NOM	_	8	dep	_	_	30.990000	31.170000	unifr12-lua
+11	d'	de	PRE	PRE	_	10	dep	_	_	31.180000	31.240000	unifr12-lua
+12	avoir	avoir	VNF	VNF	_	11	dep	_	_	31.250000	31.480000	unifr12-lua
+13	euh	euh	INT	INT	_	12	dm	_	_	31.629999	31.650000	unifr12-lua
+14	enfin	enfin	ADV	ADV	_	13	dm	_	_	31.760000	32.070000	unifr12-lua
+15	pouvoir	pouvoir	VNF	VNF	_	12	para	_	_	32.080002	32.279999	unifr12-lua
+16	me	me	CLI	CLI	_	17	dep	_	_	32.290001	32.320000	unifr12-lua
+17	payer	payer	VNF	VNF	_	15	dep	_	_	32.330002	32.599998	unifr12-lua
+18	une	un	DET	DET	_	19	spe	_	_	32.610001	32.689999	unifr12-lua
+19	moto	moto	NOM	NOM	_	17	dep	_	_	32.700001	33.009998	unifr12-lua
+20	moi-même	moi-même	PRO	PRO	_	17	periph	_	_	33.020000	33.430000	unifr12-lua
+21	pouvoir	pouvoir	VNF	VNF	_	17	para	_	_	34.040001	34.290001	unifr12-lua
+22	rouler	rouler	VNF	VNF	_	21	dep	_	_	34.299999	34.470001	unifr12-lua
+23	tout	tout	ADV	ADV	_	22	dep	_	_	34.480000	34.590000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-12
+# text = seul
+1	seul	seul	ADJ	ADJ	_	0	root	_	_	34.599998	34.919998	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-13
+# text = puis tu as direct pris une moto
+1	puis	puis	COO	COO	_	3	mark	_	_	36.340000	36.419998	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	36.430000	36.480000	unifr12-fsa
+3	as	avoir	VRB	VRB	_	5	aux	_	_	36.490002	36.509998	unifr12-fsa
+4	direct	direct	ADJ	ADJ	_	5	dep	_	_	36.520000	36.759998	unifr12-fsa
+5	pris	-	VPP	VPP	_	0	root	_	_	36.770000	36.900002	unifr12-fsa
+6	une	un	DET	DET	_	7	spe	_	_	36.910000	36.980000	unifr12-fsa
+7	moto	moto	NOM	NOM	_	5	dep	_	_	36.990002	37.270000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-14
+# text = non non non pas du tout j'ai d'abord commencé comme tout enfant euh à faire du vélo
+1	non	non	INT	INT	_	6	dm	_	_	37.860001	38.009998	unifr12-lua
+2	non	non	INT	INT	_	1	para	_	_	38.020000	38.180000	unifr12-lua
+3	non	non	INT	INT	_	2	para	_	_	38.189999	38.340000	unifr12-lua
+4	pas du tout	pas du tout	ADV	ADV	_	6	periph	_	_	38.349998	38.820000	unifr12-lua
+5	j'	je	CLS	CLS	_	6	subj	_	_	38.830002	38.939999	unifr12-lua
+6	ai	avoir	VRB	VRB	_	9	aux	_	_	38.950001	39.209999	unifr12-lua
+7	d'	de	PRE	PRE	_	6	dep	_	_	39.740002	39.759998	unifr12-lua
+8	abord	abord	NOM	NOM	_	7	dep	_	_	39.770000	39.910000	unifr12-lua
+9	commencé	commencer	VPP	VPP	_	0	root	_	_	39.919998	40.240002	unifr12-lua
+10	comme	comme	PRE	PRE	_	9	dep	_	_	40.250000	40.400002	unifr12-lua
+11	tout	tout	PRO	PRO	_	10	dep	_	_	40.410000	40.570000	unifr12-lua
+12	enfant	enfant	VPR	VPR	_	11	dep	_	_	40.580002	41.040001	unifr12-lua
+13	euh	euh	INT	INT	_	12	dm	_	_	41.049999	41.230000	unifr12-lua
+14	à	à	PRE	PRE	_	9	dep	_	_	41.240002	41.389999	unifr12-lua
+15	faire	faire	VNF	VNF	_	14	dep	_	_	41.400002	41.570000	unifr12-lua
+16	du	de+le	PRE	PRE	_	15	dep	_	_	41.580002	41.669998	unifr12-lua
+17	vélo	vélo	NOM	NOM	_	16	dep	_	_	41.680000	41.980000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-15
+# text = j'ai été en vélo d'abord
+1	j'	je	CLS	CLS	_	3	subj	_	_	42.689999	42.709999	unifr12-lua
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	42.720001	42.799999	unifr12-lua
+3	été	être	VPP	VPP	_	0	root	_	_	42.810001	42.869999	unifr12-lua
+4	en	en	PRE	PRE	_	3	dep	_	_	42.880001	42.959999	unifr12-lua
+5	vélo	vélo	NOM	NOM	_	4	dep	_	_	42.970001	43.200001	unifr12-lua
+6	d'	de	PRE	PRE	_	5	dep	_	_	43.209999	43.259998	unifr12-lua
+7	abord	abord	NOM	NOM	_	6	dep	_	_	43.270000	43.549999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-16
+# text = après à j'attendais plus que mes quatorze ans pour pouvoir m'acheter un vélomoteur
+1	après	après	PRE	PRE	_	4	periph	_	_	44.459999	44.669998	unifr12-lua
+2	à	à	PRE	PRE	_	4	periph	_	_	44.680000	45.180000	unifr12-lua
+3	j'	je	CLS	CLS	_	4	subj	_	_	45.189999	45.259998	unifr12-lua
+4	attendais	attendre	VRB	VRB	_	0	root	_	_	45.270000	45.540001	unifr12-lua
+5	plus	plus	ADN	ADN	_	4	dep	_	_	45.549999	45.639999	unifr12-lua
+6	que	que	CSU	CSU	_	5	dep	_	_	45.650002	45.700001	unifr12-lua
+7	mes	son	DET	DET	_	9	spe	_	_	45.709999	45.799999	unifr12-lua
+8	quatorze	quatorze	NUM	NUM	_	9	dep	_	_	45.810001	46.119999	unifr12-lua
+9	ans	an	NOM	NOM	_	6	dep	_	_	46.130001	46.189999	unifr12-lua
+10	pour	pour	PRE	PRE	_	4	dep	_	_	46.200001	46.310001	unifr12-lua
+11	pouvoir	pouvoir	VNF	VNF	_	10	dep	_	_	46.320000	46.500000	unifr12-lua
+12	m'	me	CLI	CLI	_	13	dep	_	_	46.509998	46.570000	unifr12-lua
+13	acheter	acheter	VNF	VNF	_	11	dep	_	_	46.580002	46.779999	unifr12-lua
+14	un	un	DET	DET	_	15	spe	_	_	46.790001	46.830002	unifr12-lua
+15	vélomoteur	vélomoteur	NOM	NOM	_	13	dep	_	_	46.840000	47.430000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-17
+# text = euh je me rappelle comme si c'était hier
+1	euh	euh	INT	INT	_	4	dm	_	_	48.560001	48.639999	unifr12-lua
+2	je	je	CLS	CLS	_	4	subj	_	_	48.770000	48.970001	unifr12-lua
+3	me	me	CLI	CLI	_	4	dep	_	_	48.980000	49.020000	unifr12-lua
+4	rappelle	rappeler	VRB	VRB	_	0	root	_	_	49.029999	49.310001	unifr12-lua
+5	comme	comme	PRE	PRE	_	4	dep	_	_	49.320000	49.419998	unifr12-lua
+6	si	si	CSU	CSU	_	5	dep	_	_	49.430000	49.560001	unifr12-lua
+7	c'	ce	CLS	CLS	_	8	subj	_	_	49.570000	49.590000	unifr12-lua
+8	était	être	VRB	VRB	_	6	dep	_	_	49.599998	49.750000	unifr12-lua
+9	hier	hier	ADV	ADV	_	8	dep	_	_	49.759998	49.959999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-18
+# text = j'avais été avec ma
+1	j'	je	CLS	CLS	_	3	subj	_	_	49.970001	50.020000	unifr12-lua
+2	avais	avoir	VRB	VRB	_	3	aux	_	_	50.029999	50.150002	unifr12-lua
+3	été	être	VPP	VPP	_	0	root	_	_	50.160000	50.279999	unifr12-lua
+4	avec	avec	PRE	PRE	_	3	dep	_	_	50.290001	50.400002	unifr12-lua
+5	ma	son	DET	DET	_	4	dep	_	_	50.410000	50.770000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-19
+# text = j'avais été avec ma maman acheter un un boguet juste dans le village d'à côté on avait vu une petites annonces
+1	j'	je	CLS	CLS	_	3	subj	_	_	51.509998	51.560001	unifr12-lua
+2	avais	avoir	VRB	VRB	_	3	aux	_	_	51.570000	51.669998	unifr12-lua
+3	été	être	VPP	VPP	_	0	root	_	_	51.680000	51.810001	unifr12-lua
+4	avec	avec	PRE	PRE	_	3	dep	_	_	51.820000	51.930000	unifr12-lua
+5	ma	son	DET	DET	_	6	spe	_	_	51.939999	52.029999	unifr12-lua
+6	maman	maman	NOM	NOM	_	4	dep	_	_	52.040001	52.299999	unifr12-lua
+7	acheter	acheter	VNF	VNF	_	4	dep	_	_	52.310001	52.560001	unifr12-lua
+8	un	un	DET	DET	_	10	spe	_	_	52.570000	53.060001	unifr12-lua
+9	un	un	DET	DET	_	8	para	_	_	53.340000	53.360001	unifr12-lua
+10	boguet	boguet	NOM	NOM	_	7	dep	_	_	53.369999	53.660000	unifr12-lua
+11	juste	juste	ADV	ADV	_	12	dep	_	_	54.650002	55.110001	unifr12-lua
+12	dans	dans	PRE	PRE	_	7	dep	_	_	55.119999	55.189999	unifr12-lua
+13	le	le	DET	DET	_	14	spe	_	_	55.200001	55.230000	unifr12-lua
+14	village	village	NOM	NOM	_	12	dep	_	_	55.240002	55.470001	unifr12-lua
+15	d'	de	PRE	PRE	_	14	dep	_	_	55.480000	55.500000	unifr12-lua
+16	à	à	PRE	PRE	_	14	dep	_	_	55.509998	55.549999	unifr12-lua
+17	côté	côté	NOM	NOM	_	16	dep	_	_	55.560001	55.830002	unifr12-lua
+18	on	on	CLS	CLS	_	20	subj	_	_	55.840000	55.919998	unifr12-lua
+19	avait	avoir	VRB	VRB	_	20	aux	_	_	55.930000	56.029999	unifr12-lua
+20	vu	voir	VPP	VPP	_	3	para	_	_	56.040001	56.119999	unifr12-lua
+21	une	un	DET	DET	_	23	spe	_	_	56.130001	56.169998	unifr12-lua
+22	petites	petit	ADJ	ADJ	_	23	dep	_	_	56.180000	56.439999	unifr12-lua
+23	annonces	annonce	NOM	NOM	_	20	dep	_	_	56.450001	56.790001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-20
+# text = un boguet
+1	un	un	DET	DET	_	2	spe	_	_	56.580002	56.630001	unifr12-fsa
+2	boguet	boguet	NOM	NOM	_	0	root	_	_	56.639999	56.959999	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-21
+# text = ouais c'est comme on dit chez nous un boguet
+1	ouais	ouais	INT	INT	_	3	dm	_	_	58.369999	58.490002	unifr12-lua
+2	c'	ce	CLS	CLS	_	3	subj	_	_	58.500000	58.520000	unifr12-lua
+3	est	être	VRB	VRB	_	0	root	_	_	58.529999	58.570000	unifr12-lua
+4	comme	comme	CSU	CSU	_	3	dep	_	_	58.580002	58.779999	unifr12-lua
+5	on	on	CLS	CLS	_	6	subj	_	_	58.790001	58.880001	unifr12-lua
+6	dit	dire	VRB	VRB	_	4	dep	_	_	58.889999	58.970001	unifr12-lua
+7	chez	chez	PRE	PRE	_	6	dep	_	_	58.980000	59.139999	unifr12-lua
+8	nous	moi	PRO	PRO	_	7	dep	_	_	59.150002	59.279999	unifr12-lua
+9	un	un	DET	DET	_	10	spe	_	_	59.290001	59.340000	unifr12-lua
+10	boguet	boguet	NOM	NOM	_	6	dep	_	_	59.349998	59.599998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-22
+# text = c'est un c'est un vélomoteur
+1	c'	ce	CLS	CLS	_	2	subj	_	_	60.230000	60.330002	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	60.340000	60.459999	unifr12-lua
+3	un	un	DET	DET	_	2	dep	_	_	60.470001	60.619999	unifr12-lua
+4	c'	ce	CLS	CLS	_	5	subj	_	_	60.820000	60.900002	unifr12-lua
+5	est	être	VRB	VRB	_	2	para	_	_	60.910000	60.930000	unifr12-lua
+6	un	un	DET	DET	_	7	spe	_	_	60.939999	60.959999	unifr12-lua
+7	vélomoteur	vélomoteur	NOM	NOM	_	5	dep	_	_	60.970001	61.570000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-23
+# text = puis ça c'est c'est quoi en fait
+1	puis	puis	COO	COO	_	4	mark	_	_	60.209999	60.400002	unifr12-fsa
+2	ça	ça	PRO	PRO	_	4	periph	_	_	60.410000	60.590000	unifr12-fsa
+3	c'	ce	CLS	CLS	_	4	subj	_	_	60.599998	60.619999	unifr12-fsa
+4	est	être	VRB	VRB	_	0	root	_	_	60.779999	60.849998	unifr12-fsa
+5	c'	ce	CLS	CLS	_	6	subj	_	_	60.860001	60.910000	unifr12-fsa
+6	est	être	VRB	VRB	_	4	para	_	_	60.919998	60.990002	unifr12-fsa
+7	quoi	quoi	PRQ	PRQ	_	6	dep	_	_	61.000000	61.130001	unifr12-fsa
+8	en	en	PRE	PRE	_	6	dep	_	_	61.139999	61.240002	unifr12-fsa
+9	fait	faire	VRB	VRB	_	8	dep	_	_	61.250000	61.570000	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-24
+# text = un cyclomoteur
+1	un	un	DET	DET	_	2	spe	_	_	62.869999	62.930000	unifr12-lua
+2	cyclomoteur	cyclomoteur	NOM	NOM	_	0	root	_	_	62.939999	63.669998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-25
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	63.830002	64.269997	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-26
+# text = on avait été l'acheter à
+1	on	on	CLS	CLS	_	3	subj	_	_	65.169998	65.290001	unifr12-lua
+2	avait	avoir	VRB	VRB	_	3	aux	_	_	65.300003	65.470001	unifr12-lua
+3	été	être	VPP	VPP	_	0	root	_	_	65.480003	66.150002	unifr12-lua
+4	l'	le	CLI	CLI	_	5	dep	_	_	66.190002	66.279999	unifr12-lua
+5	acheter	acheter	VNF	VNF	_	3	dep	_	_	66.290001	66.470001	unifr12-lua
+6	à	à	PRE	PRE	_	5	dep	_	_	66.480003	66.589996	unifr12-lua
+7	#	#	NOM	NOM	_	6	dep	_	_	66.610001	66.610001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-27
+# text = on avait été l'acheter à   chez une personne
+1	on	on	CLS	CLS	_	3	subj	_	_	71.599998	71.709999	unifr12-lua
+2	avait	avoir	VRB	VRB	_	3	aux	_	_	71.720001	71.809998	unifr12-lua
+3	été	être	VPP	VPP	_	0	root	_	_	71.820000	71.970001	unifr12-lua
+4	l'	le	CLI	CLI	_	5	dep	_	_	71.980003	72.000000	unifr12-lua
+5	acheter	acheter	VNF	VNF	_	3	dep	_	_	72.010002	72.169998	unifr12-lua
+6	à	à	PRE	PRE	_	5	dep	_	_	72.180000	72.209999	unifr12-lua
+7	#	#	NOM	NOM	_	6	dep	_	_	72.230003	72.230003	unifr12-lua
+8	chez	chez	PRE	PRE	_	5	dep	_	_	72.730003	72.889999	unifr12-lua
+9	une	un	DET	DET	_	10	spe	_	_	72.900002	73.000000	unifr12-lua
+10	personne	personne	NOM	NOM	_	8	dep	_	_	73.010002	73.250000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-28
+# text = je connaissais pas du tout
+1	je	je	CLS	CLS	_	2	subj	_	_	73.260002	73.330002	unifr12-lua
+2	connaissais	connaître	VRB	VRB	_	0	root	_	_	73.339996	73.620003	unifr12-lua
+3	pas du tout	pas du tout	ADN	ADN	_	2	dep	_	_	73.629997	74.120003	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-29
+# text = maintenant cette personne je la côtoie très gentille
+1	maintenant	maintenant	ADV	ADV	_	6	periph	_	_	75.120003	75.339996	unifr12-lua
+2	cette	ce	DET	DET	_	3	spe	_	_	75.349998	75.540001	unifr12-lua
+3	personne	personne	NOM	NOM	_	6	periph	_	_	75.550003	75.839996	unifr12-lua
+4	je	je	CLS	CLS	_	6	subj	_	_	75.849998	75.910004	unifr12-lua
+5	la	le	CLI	CLI	_	6	dep	_	_	75.919998	75.989998	unifr12-lua
+6	côtoie	côtoyer	VRB	VRB	_	0	root	_	_	76.000000	76.419998	unifr12-lua
+7	très	très	ADV	ADV	_	8	dep	_	_	76.889999	76.970001	unifr12-lua
+8	gentille	gentil	ADJ	ADJ	_	6	dep	_	_	76.980003	77.239998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-30
+# text = personne je l'avais acheté euh
+1	personne	personne	PRO	PRO	_	5	periph	_	_	77.250000	77.669998	unifr12-lua
+2	je	je	CLS	CLS	_	5	subj	_	_	79.089996	79.120003	unifr12-lua
+3	l'	le	CLI	CLI	_	5	dep	_	_	79.129997	79.169998	unifr12-lua
+4	avais	avoir	VRB	VRB	_	5	aux	_	_	79.180000	79.330002	unifr12-lua
+5	acheté	acheter	VPP	VPP	_	0	root	_	_	79.339996	79.790001	unifr12-lua
+6	euh	euh	INT	INT	_	5	dm	_	_	79.800003	80.110001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-31
+# text = il
+1	il	il	CLS	CLS	_	0	root	_	_	80.120003	80.209999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-32
+# text = était
+1	était	être	VRB	VRB	_	0	root	_	_	80.220001	80.379997	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-33
+# text = déjà
+1	déjà	déjà	ADV	ADV	_	0	root	_	_	80.389999	80.629997	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-34
+# text = tout maquillé
+1	tout	tout	ADV	ADV	_	2	dep	_	_	80.639999	80.760002	unifr12-lua
+2	maquillé	maquiller	VPP	VPP	_	0	root	_	_	80.769997	81.250000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-35
+# text = tout modifié
+1	tout	tout	ADV	ADV	_	2	dep	_	_	81.260002	81.330002	unifr12-lua
+2	modifié	modifier	VPP	VPP	_	0	root	_	_	81.339996	81.879997	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-36
+# text = maquillé
+1	maquillé	maquiller	VPP	VPP	_	0	root	_	_	82.720001	83.050003	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-37
+# text = ça veut dire modifié alors
+1	ça	ça	PRO	PRO	_	2	subj	_	_	83.059998	83.209999	unifr12-fsa
+2	veut	vouloir	VRB	VRB	_	0	root	_	_	83.220001	83.300003	unifr12-fsa
+3	dire	dire	VNF	VNF	_	4	aux	_	_	83.309998	83.629997	unifr12-fsa
+4	modifié	modifier	VPP	VPP	_	2	dep	_	_	83.639999	84.050003	unifr12-fsa
+5	alors	alors	ADV	ADV	_	4	dep	_	_	84.059998	84.230003	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-38
+# text = ouais maquillé
+1	ouais	ouais	INT	INT	_	2	dm	_	_	85.410004	85.599998	unifr12-lua
+2	maquillé	maquiller	VPP	VPP	_	0	root	_	_	85.610001	86.029999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-39
+# text = ça veut dire avec un moteur d'origine
+1	ça	ça	PRO	PRO	_	2	subj	_	_	86.040001	86.199997	unifr12-lua
+2	veut	vouloir	VRB	VRB	_	0	root	_	_	86.209999	86.290001	unifr12-lua
+3	dire	dire	VNF	VNF	_	2	dep	_	_	86.300003	86.470001	unifr12-lua
+4	avec	avec	PRE	PRE	_	3	dep	_	_	86.480003	86.650002	unifr12-lua
+5	un	un	DET	DET	_	6	spe	_	_	86.660004	87.019997	unifr12-lua
+6	moteur	moteur	NOM	NOM	_	4	dep	_	_	87.120003	87.470001	unifr12-lua
+7	d'	de	PRE	PRE	_	6	dep	_	_	87.480003	87.529999	unifr12-lua
+8	origine	origine	NOM	NOM	_	7	dep	_	_	87.540001	88.059998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-40
+# text = on fait des modifications avec
+1	on	on	CLS	CLS	_	2	subj	_	_	88.190002	88.279999	unifr12-lua
+2	fait	faire	VRB	VRB	_	0	root	_	_	88.290001	88.440002	unifr12-lua
+3	des	de	PRE	PRE	_	2	dep	_	_	88.449997	88.540001	unifr12-lua
+4	modifications	modification	NOM	NOM	_	3	dep	_	_	88.550003	89.519997	unifr12-lua
+5	avec	avec	PRE	PRE	_	4	dep	_	_	90.320000	90.610001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-41
+# text = tout
+1	tout	tout	PRO	PRO	_	0	root	_	_	90.830002	90.930000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-42
+# text = le moteur d'origine
+1	le	le	DET	DET	_	2	spe	_	_	90.940002	90.959999	unifr12-lua
+2	moteur	moteur	NOM	NOM	_	0	root	_	_	90.970001	91.260002	unifr12-lua
+3	d'	de	PRE	PRE	_	2	dep	_	_	91.269997	91.320000	unifr12-lua
+4	origine	origine	NOM	NOM	_	3	dep	_	_	91.330002	91.690002	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-43
+# text = sans changer les pièces
+1	sans	sans	PRE	PRE	_	0	root	_	_	91.699997	92.269997	unifr12-lua
+2	changer	changer	VNF	VNF	_	1	dep	_	_	92.279999	92.599998	unifr12-lua
+3	les	le	DET	DET	_	4	spe	_	_	92.610001	92.750000	unifr12-lua
+4	pièces	pièce	NOM	NOM	_	2	dep	_	_	92.760002	93.089996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-44
+# text = c'est-à-dire euh on prend un moteur d'origine
+1	c'	ce	CLS	CLS	_	2	subj	_	_	94.239998	94.279999	unifr12-lua
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	94.290001	94.769997	unifr12-lua
+3	euh	euh	INT	INT	_	2	dm	_	_	95.510002	96.139999	unifr12-lua
+4	on	on	CLS	CLS	_	5	subj	_	_	96.519997	96.570000	unifr12-lua
+5	prend	prendre	VRB	VRB	_	2	para	_	_	96.580002	96.709999	unifr12-lua
+6	un	un	DET	DET	_	7	spe	_	_	96.720001	96.739998	unifr12-lua
+7	moteur	moteur	NOM	NOM	_	5	dep	_	_	96.750000	96.989998	unifr12-lua
+8	d'	de	PRE	PRE	_	7	dep	_	_	97.000000	97.040001	unifr12-lua
+9	origine	origine	NOM	NOM	_	8	dep	_	_	97.050003	97.410004	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-45
+# text = c'est trente-sept virgule cinq millimètres
+1	c'	ce	CLS	CLS	_	2	subj	_	_	97.419998	97.519997	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	97.529999	97.669998	unifr12-lua
+3	trente-sept	trente-sept	NUM	NUM	_	4	spe	_	_	97.680000	98.050003	unifr12-lua
+4	virgule	virgule	NOM	NOM	_	2	dep	_	_	98.059998	98.379997	unifr12-lua
+5	cinq	cinq	NUM	NUM	_	6	spe	_	_	98.389999	98.669998	unifr12-lua
+6	millimètres	millimètre	NOM	NOM	_	4	para	_	_	98.680000	99.120003	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-46
+# text = on lui fait on peut lui faire des chapeaux chinois des des portes au piston le débaguer agrandir le gicleur du carburateur agrandir le coude du de l'échappement pour avoir une plus grosse sortie d'air et tout plein de petites choses comme ça
+1	on	on	CLS	CLS	_	3	subj	_	_	100.080002	100.099998	unifr12-lua
+2	lui	lui	CLI	CLI	_	3	dep	_	_	100.110001	100.209999	unifr12-lua
+3	fait	faire	VRB	VRB	_	0	root	_	_	100.220001	100.459999	unifr12-lua
+4	on	on	CLS	CLS	_	5	subj	_	_	100.470001	100.550003	unifr12-lua
+5	peut	pouvoir	VRB	VRB	_	3	para	_	_	100.559998	100.620003	unifr12-lua
+6	lui	lui	CLI	CLI	_	7	dep	_	_	100.629997	100.720001	unifr12-lua
+7	faire	faire	VNF	VNF	_	5	dep	_	_	100.730003	100.900002	unifr12-lua
+8	des	de	PRE	PRE	_	7	dep	_	_	100.910004	100.970001	unifr12-lua
+9	chapeaux	chapeau	NOM	NOM	_	8	dep	_	_	100.980003	101.269997	unifr12-lua
+10	chinois	chinois	NOM	NOM	_	9	dep	_	_	101.279999	101.800003	unifr12-lua
+11	des	de	PRE	PRE	_	10	dep	_	_	101.809998	102.180000	unifr12-lua
+12	des	de	PRE	PRE	_	11	para	_	_	103.010002	103.059998	unifr12-lua
+13	portes	porte	NOM	NOM	_	12	dep	_	_	103.070000	103.290001	unifr12-lua
+14	au	à+le	PRE	PRE	_	13	dep	_	_	103.300003	103.370003	unifr12-lua
+15	piston	piston	NOM	NOM	_	14	dep	_	_	103.379997	104.059998	unifr12-lua
+16	le	le	DET	DET	_	17	spe	_	_	104.070000	104.180000	unifr12-lua
+17	débaguer	débaguer	NOM	NOM	_	10	para	_	_	104.190002	104.989998	unifr12-lua
+18	agrandir	agrandir	VNF	VNF	_	7	para	_	_	105.620003	105.949997	unifr12-lua
+19	le	le	DET	DET	_	20	spe	_	_	105.959999	106.010002	unifr12-lua
+20	gicleur	gicleur	NOM	NOM	_	18	dep	_	_	106.019997	106.410004	unifr12-lua
+21	du	de+le	PRE	PRE	_	20	dep	_	_	106.419998	106.550003	unifr12-lua
+22	carburateur	carburateur	NOM	NOM	_	21	dep	_	_	106.559998	107.379997	unifr12-lua
+23	agrandir	agrandir	VNF	VNF	_	18	para	_	_	108.650002	108.980003	unifr12-lua
+24	le	le	DET	DET	_	25	spe	_	_	108.989998	109.050003	unifr12-lua
+25	coude	coude	NOM	NOM	_	23	dep	_	_	109.059998	109.269997	unifr12-lua
+26	du	de+le	PRE	PRE	_	23	dep	_	_	109.279999	109.720001	unifr12-lua
+27	de	de	PRE	PRE	_	26	para	_	_	109.730003	109.750000	unifr12-lua
+28	l'	le	DET	DET	_	29	spe	_	_	109.760002	109.800003	unifr12-lua
+29	échappement	échappement	NOM	NOM	_	27	dep	_	_	109.809998	110.099998	unifr12-lua
+30	pour	pour	PRE	PRE	_	23	dep	_	_	110.110001	110.209999	unifr12-lua
+31	avoir	avoir	VNF	VNF	_	30	dep	_	_	110.220001	110.430000	unifr12-lua
+32	une	un	DET	DET	_	33	spe	_	_	110.440002	110.519997	unifr12-lua
+33	plus	plus	NOM	NOM	_	31	dep	_	_	110.529999	110.620003	unifr12-lua
+34	grosse	gros	ADJ	ADJ	_	33	dep	_	_	110.629997	110.889999	unifr12-lua
+35	sortie	sortie	NOM	NOM	_	33	para	_	_	110.900002	111.099998	unifr12-lua
+36	d'	de	PRE	PRE	_	35	dep	_	_	111.110001	111.150002	unifr12-lua
+37	air	air	NOM	NOM	_	36	dep	_	_	111.160004	111.419998	unifr12-lua
+38	et	et	COO	COO	_	40	mark	_	_	113.050003	113.459999	unifr12-lua
+39	tout	tout	ADV	ADV	_	40	dep	_	_	113.940002	114.010002	unifr12-lua
+40	plein	plein	ADJ	ADJ	_	5	para	_	_	114.019997	114.169998	unifr12-lua
+41	de	de	PRE	PRE	_	40	dep	_	_	114.180000	114.199997	unifr12-lua
+42	petites	petit	ADJ	ADJ	_	43	dep	_	_	114.209999	114.339996	unifr12-lua
+43	choses	chose	NOM	NOM	_	41	dep	_	_	114.349998	114.510002	unifr12-lua
+44	comme	comme	PRE	PRE	_	43	dep	_	_	114.519997	114.690002	unifr12-lua
+45	ça	ça	PRO	PRO	_	44	dep	_	_	114.699997	114.889999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-47
+# text = mais par contre euh mettre des kits on peut aussi dire maquiller
+1	mais	mais	COO	COO	_	5	mark	_	_	114.900002	114.989998	unifr12-lua
+2	par	par	PRE	PRE	_	5	periph	_	_	115.000000	115.190002	unifr12-lua
+3	contre	contre	PRE	PRE	_	2	dep	_	_	115.239998	116.059998	unifr12-lua
+4	euh	euh	INT	INT	_	3	dm	_	_	116.070000	116.089996	unifr12-lua
+5	mettre	mettre	VNF	VNF	_	9	periph	_	_	117.199997	117.309998	unifr12-lua
+6	des	de	PRE	PRE	_	5	dep	_	_	117.320000	117.480003	unifr12-lua
+7	kits	kit	NOM	NOM	_	6	dep	_	_	117.489998	117.860001	unifr12-lua
+8	on	on	CLS	CLS	_	9	subj	_	_	118.480003	118.500000	unifr12-lua
+9	peut	pouvoir	VRB	VRB	_	0	root	_	_	118.510002	118.570000	unifr12-lua
+10	aussi	aussi	ADV	ADV	_	9	dep	_	_	118.580002	118.750000	unifr12-lua
+11	dire	dire	VNF	VNF	_	9	dep	_	_	118.760002	118.889999	unifr12-lua
+12	maquiller	maquiller	VNF	VNF	_	11	dep	_	_	118.900002	119.339996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-48
+# text = mais c'est plutôt mettre des kits
+1	mais	mais	COO	COO	_	3	mark	_	_	119.349998	119.510002	unifr12-lua
+2	c'	ce	CLS	CLS	_	3	subj	_	_	119.519997	119.639999	unifr12-lua
+3	est	être	VRB	VRB	_	0	root	_	_	119.650002	119.690002	unifr12-lua
+4	plutôt	plutôt	ADV	ADV	_	3	dep	_	_	119.699997	119.910004	unifr12-lua
+5	mettre	mettre	VNF	VNF	_	3	dep	_	_	119.919998	120.080002	unifr12-lua
+6	des	de	PRE	PRE	_	5	dep	_	_	120.089996	120.180000	unifr12-lua
+7	kits	kit	NOM	NOM	_	6	dep	_	_	120.190002	120.480003	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-49
+# text = c'est modifier la grandeur du cylindre pour avoir une un plus gros piston des plus grosses entrées d'essence des plus grosses sorties d'air pour avoir beaucoup plus de puissance
+1	c'	ce	CLS	CLS	_	2	subj	_	_	120.489998	120.580002	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	120.589996	120.769997	unifr12-lua
+3	modifier	modifier	VNF	VNF	_	2	dep	_	_	120.779999	121.209999	unifr12-lua
+4	la	le	DET	DET	_	5	spe	_	_	121.220001	121.320000	unifr12-lua
+5	grandeur	grandeur	NOM	NOM	_	3	dep	_	_	121.330002	121.599998	unifr12-lua
+6	du	de+le	PRE	PRE	_	5	dep	_	_	121.610001	121.699997	unifr12-lua
+7	cylindre	cylindre	NOM	NOM	_	6	dep	_	_	121.709999	122.160004	unifr12-lua
+8	pour	pour	PRE	PRE	_	2	dep	_	_	122.680000	122.769997	unifr12-lua
+9	avoir	avoir	VNF	VNF	_	8	dep	_	_	122.779999	123.010002	unifr12-lua
+10	une	un	DET	DET	_	14	spe	_	_	123.019997	123.239998	unifr12-lua
+11	un	un	DET	DET	_	10	para	_	_	123.250000	123.360001	unifr12-lua
+12	plus	plus	NOM	NOM	_	13	dep	_	_	123.370003	123.500000	unifr12-lua
+13	gros	gros	ADJ	ADJ	_	14	dep	_	_	123.510002	123.650002	unifr12-lua
+14	piston	piston	NOM	NOM	_	9	dep	_	_	123.660004	124.309998	unifr12-lua
+15	des	de	PRE	PRE	_	9	dep	_	_	124.320000	124.419998	unifr12-lua
+16	plus	plus	ADN	ADN	_	17	dep	_	_	124.430000	124.559998	unifr12-lua
+17	grosses	gros	ADJ	ADJ	_	18	dep	_	_	124.570000	124.900002	unifr12-lua
+18	entrées	entrée	NOM	NOM	_	15	dep	_	_	124.910004	125.150002	unifr12-lua
+19	d'	de	PRE	PRE	_	18	dep	_	_	125.160004	125.199997	unifr12-lua
+20	essence	essence	NOM	NOM	_	19	dep	_	_	125.209999	125.589996	unifr12-lua
+21	des	de	PRE	PRE	_	18	dep	_	_	125.599998	125.669998	unifr12-lua
+22	plus	plus	ADN	ADN	_	23	dep	_	_	125.680000	125.769997	unifr12-lua
+23	grosses	gros	ADJ	ADJ	_	24	dep	_	_	125.779999	126.050003	unifr12-lua
+24	sorties	sortie	NOM	NOM	_	21	dep	_	_	126.059998	126.279999	unifr12-lua
+25	d'	de	PRE	PRE	_	24	dep	_	_	126.290001	126.330002	unifr12-lua
+26	air	air	NOM	NOM	_	25	dep	_	_	126.339996	126.559998	unifr12-lua
+27	pour	pour	PRE	PRE	_	9	dep	_	_	127.510002	127.589996	unifr12-lua
+28	avoir	avoir	VNF	VNF	_	27	dep	_	_	127.599998	127.739998	unifr12-lua
+29	beaucoup	beaucoup	ADV	ADV	_	30	dep	_	_	127.750000	127.860001	unifr12-lua
+30	plus	plus	ADV	ADV	_	28	dep	_	_	127.870003	128.059998	unifr12-lua
+31	de	de	PRE	PRE	_	30	dep	_	_	128.070007	128.149994	unifr12-lua
+32	puissance	puissance	NOM	NOM	_	31	dep	_	_	128.160004	128.559998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-50
+# text = donc en fait euh tu te contentes pas seulement de rouler
+1	donc	donc	ADV	ADV	_	7	periph	_	_	128.820007	128.960007	unifr12-fsa
+2	en	en	PRE	PRE	_	7	periph	_	_	128.970001	129.070007	unifr12-fsa
+3	fait	fait	NOM	NOM	_	2	dep	_	_	129.080002	129.399994	unifr12-fsa
+4	euh	euh	INT	INT	_	3	dm	_	_	129.410004	129.490005	unifr12-fsa
+5	tu	tu	CLS	CLS	_	7	subj	_	_	130.699997	130.750000	unifr12-fsa
+6	te	te	CLI	CLI	_	7	dep	_	_	130.759995	130.800003	unifr12-fsa
+7	contentes	contenter	VRB	VRB	_	0	root	_	_	130.809998	131.110001	unifr12-fsa
+8	pas	pas	ADN	ADN	_	7	dep	_	_	131.119995	131.229996	unifr12-fsa
+9	seulement	seulement	ADV	ADV	_	7	dep	_	_	131.240005	131.509995	unifr12-fsa
+10	de	de	PRE	PRE	_	7	dep	_	_	131.520004	131.539993	unifr12-fsa
+11	rouler	rouler	VNF	VNF	_	10	dep	_	_	131.550003	131.869995	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-51
+# text = tu t'amuses aussi à modifier tes tes vé-
+1	tu	tu	CLS	CLS	_	3	subj	_	_	132.919998	132.970001	unifr12-fsa
+2	t'	te	CLI	CLI	_	3	dep	_	_	132.979996	133.020004	unifr12-fsa
+3	amuses	amuser	VRB	VRB	_	0	root	_	_	133.029999	133.270004	unifr12-fsa
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	133.279999	133.589996	unifr12-fsa
+5	à	à	PRE	PRE	_	3	dep	_	_	133.600006	133.979996	unifr12-fsa
+6	modifier	modifier	VNF	VNF	_	5	dep	_	_	133.990005	134.600006	unifr12-fsa
+7	tes	son	DET	DET	_	9	spe	_	_	134.610001	135.009995	unifr12-fsa
+8	tes	son	DET	DET	_	7	para	_	_	135.399994	135.520004	unifr12-fsa
+9	vé-	vé-	NOM	NOM	_	6	dep	_	_	135.529999	135.589996	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-52
+# text = amorce tes véhicules tes moteurs
+1	amorce	amorcer	VRB	VRB	_	0	root	_	_	135.600006	135.740005	unifr12-fsa
+2	tes	son	DET	DET	_	3	spe	_	_	135.800003	135.899994	unifr12-fsa
+3	véhicules	véhicule	NOM	NOM	_	1	dep	_	_	135.910004	136.300003	unifr12-fsa
+4	tes	son	DET	DET	_	5	spe	_	_	136.309998	136.419998	unifr12-fsa
+5	moteurs	moteur	NOM	NOM	_	3	para	_	_	136.429993	136.759995	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-53
+# text = oui toujours j'ai je crois que je n'ai jamais eu un
+1	oui	oui	INT	INT	_	4	dm	_	_	137.380005	137.550003	unifr12-lua
+2	toujours	toujours	ADV	ADV	_	4	periph	_	_	137.559998	137.940002	unifr12-lua
+3	j'	je	CLS	CLS	_	4	subj	_	_	138.259995	138.279999	unifr12-lua
+4	ai	avoir	VRB	VRB	_	0	root	_	_	138.289993	138.800003	unifr12-lua
+5	je	je	CLS	CLS	_	6	subj	_	_	138.809998	138.880005	unifr12-lua
+6	crois	croire	VRB	VRB	_	4	dm	_	_	138.889999	139.119995	unifr12-lua
+7	que	que	CSU	CSU	_	6	dep	_	_	139.130005	139.149994	unifr12-lua
+8	je	je	CLS	CLS	_	12	subj	_	_	139.160004	139.300003	unifr12-lua
+9	n'	ne	CLN	CLN	_	12	dep	_	_	139.309998	139.369995	unifr12-lua
+10	ai	avoir	VRB	VRB	_	12	aux	_	_	139.380005	139.419998	unifr12-lua
+11	jamais	jamais	ADN	ADN	_	12	dep	_	_	139.429993	139.729996	unifr12-lua
+12	eu	avoir	VPP	VPP	_	7	dep	_	_	139.740005	139.830002	unifr12-lua
+13	un	un	DET	DET	_	12	dep	_	_	139.839996	140.240005	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-54
+# text = j'ai jamais eu un moteur d'origine d'origine à cent pour cent
+1	j'	je	CLS	CLS	_	4	subj	_	_	140.690002	140.710007	unifr12-lua
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	140.720001	140.740005	unifr12-lua
+3	jamais	jamais	ADN	ADN	_	4	dep	_	_	140.750000	141.000000	unifr12-lua
+4	eu	avoir	VPP	VPP	_	0	root	_	_	141.009995	141.050003	unifr12-lua
+5	un	un	DET	DET	_	6	spe	_	_	141.059998	141.119995	unifr12-lua
+6	moteur	moteur	NOM	NOM	_	4	dep	_	_	141.130005	141.399994	unifr12-lua
+7	d'	de	PRE	PRE	_	6	dep	_	_	141.410004	141.449997	unifr12-lua
+8	origine	origine	NOM	NOM	_	7	dep	_	_	141.460007	141.820007	unifr12-lua
+9	d'	de	PRE	PRE	_	8	dep	_	_	142.160004	142.179993	unifr12-lua
+10	origine	origine	NOM	NOM	_	9	dep	_	_	142.190002	142.470001	unifr12-lua
+11	à	à	PRE	PRE	_	8	dep	_	_	142.479996	142.520004	unifr12-lua
+12	cent	cent	NUM	NUM	_	11	dep	_	_	142.529999	142.679993	unifr12-lua
+13	pour	pour	PRE	PRE	_	12	dep	_	_	142.690002	142.830002	unifr12-lua
+14	cent	cent	NUM	NUM	_	13	dep	_	_	142.839996	143.000000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-55
+# text = j'ai toujours maquillé pour pas avoir la même chose que
+1	j'	je	CLS	CLS	_	4	subj	_	_	143.059998	143.110001	unifr12-lua
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	143.119995	143.190002	unifr12-lua
+3	toujours	toujours	ADV	ADV	_	4	dep	_	_	143.199997	143.449997	unifr12-lua
+4	maquillé	maquiller	VPP	VPP	_	0	root	_	_	143.460007	143.960007	unifr12-lua
+5	pour	pour	PRE	PRE	_	4	dep	_	_	143.970001	144.070007	unifr12-lua
+6	pas	pas	ADN	ADN	_	5	dep	_	_	144.080002	144.160004	unifr12-lua
+7	avoir	avoir	VNF	VNF	_	5	dep	_	_	144.169998	144.380005	unifr12-lua
+8	la	le	DET	DET	_	10	spe	_	_	144.389999	144.440002	unifr12-lua
+9	même	même	ADJ	ADJ	_	10	dep	_	_	144.449997	144.529999	unifr12-lua
+10	chose	chose	NOM	NOM	_	7	dep	_	_	144.539993	144.710007	unifr12-lua
+11	que	que	CSU	CSU	_	7	dep	_	_	144.720001	144.740005	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-56
+# text = les autres pour être plus puissant
+1	les	le	DET	DET	_	2	spe	_	_	144.779999	144.960007	unifr12-lua
+2	autres	autres	NOM	NOM	_	0	root	_	_	144.970001	145.130005	unifr12-lua
+3	pour	pour	PRE	PRE	_	2	dep	_	_	145.690002	145.789993	unifr12-lua
+4	être	être	VNF	VNF	_	3	dep	_	_	145.800003	145.880005	unifr12-lua
+5	plus	plus	ADN	ADN	_	6	dep	_	_	145.889999	146.000000	unifr12-lua
+6	puissant	puissant	ADJ	ADJ	_	4	dep	_	_	146.009995	146.570007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-57
+# text = et surtout je pense pour être dans l'illégalité
+1	et	et	COO	COO	_	4	mark	_	_	147.460007	147.479996	unifr12-lua
+2	surtout	surtout	ADV	ADV	_	4	periph	_	_	147.490005	147.759995	unifr12-lua
+3	je	je	CLS	CLS	_	4	subj	_	_	147.770004	147.860001	unifr12-lua
+4	pense	penser	VRB	VRB	_	0	root	_	_	147.869995	148.020004	unifr12-lua
+5	pour	pour	PRE	PRE	_	4	dep	_	_	148.029999	148.110001	unifr12-lua
+6	être	être	VNF	VNF	_	5	dep	_	_	148.119995	148.279999	unifr12-lua
+7	dans	dans	PRE	PRE	_	6	dep	_	_	148.600006	148.990005	unifr12-lua
+8	l'	le	DET	DET	_	9	spe	_	_	149.000000	149.050003	unifr12-lua
+9	illégalité	illégalité	NOM	NOM	_	7	dep	_	_	149.059998	149.690002	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-58
+# text = voilà c'est ce que je voulais te demander en fait
+1	voilà	voilà	INT	INT	_	3	dm	_	_	150.399994	150.559998	unifr12-fsa
+2	c'	ce	CLS	CLS	_	3	subj	_	_	150.570007	150.639999	unifr12-fsa
+3	est	être	VRB	VRB	_	0	root	_	_	150.649994	150.669998	unifr12-fsa
+4	ce	ce	PRO	PRO	_	3	dep	_	_	150.679993	150.800003	unifr12-fsa
+5	que	que	PRQ	PRQ	_	7	dep	_	_	150.809998	150.889999	unifr12-fsa
+6	je	je	CLS	CLS	_	7	subj	_	_	150.899994	150.960007	unifr12-fsa
+7	voulais	vouloir	VRB	VRB	_	4	dep	_	_	150.970001	151.139999	unifr12-fsa
+8	te	te	CLI	CLI	_	9	dep	_	_	151.149994	151.240005	unifr12-fsa
+9	demander	demander	VNF	VNF	_	7	dep	_	_	151.250000	151.630005	unifr12-fsa
+10	en	en	PRE	PRE	_	9	dep	_	_	151.639999	151.729996	unifr12-fsa
+11	fait	fait	NOM	NOM	_	10	dep	_	_	151.740005	151.929993	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-59
+# text = si tu maquilles un boguet ça veut dire que que tu es plus dans
+1	si	si	CSU	CSU	_	7	periph	_	_	152.449997	152.570007	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	152.580002	152.699997	unifr12-fsa
+3	maquilles	maquiller	VRB	VRB	_	1	dep	_	_	152.710007	152.970001	unifr12-fsa
+4	un	un	DET	DET	_	5	spe	_	_	152.979996	153.039993	unifr12-fsa
+5	boguet	boguet	NOM	NOM	_	3	dep	_	_	153.050003	153.300003	unifr12-fsa
+6	ça	ça	PRO	PRO	_	7	subj	_	_	153.309998	153.449997	unifr12-fsa
+7	veut	vouloir	VRB	VRB	_	0	root	_	_	153.460007	153.520004	unifr12-fsa
+8	dire	dire	VNF	VNF	_	7	dep	_	_	153.529999	153.740005	unifr12-fsa
+9	que	que	CSU	CSU	_	8	dep	_	_	153.789993	154.070007	unifr12-fsa
+10	que	que	CSU	CSU	_	9	para	_	_	155.229996	155.259995	unifr12-fsa
+11	tu	tu	CLS	CLS	_	12	subj	_	_	155.270004	155.360001	unifr12-fsa
+12	es	être	VRB	VRB	_	10	dep	_	_	155.369995	155.429993	unifr12-fsa
+13	plus	plus	ADN	ADN	_	12	dep	_	_	155.440002	155.639999	unifr12-fsa
+14	dans	dans	PRE	PRE	_	12	dep	_	_	155.649994	155.910004	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-60
+# text = tu es plus tu fais plus rien de légal en fait
+1	tu	tu	CLS	CLS	_	2	subj	_	_	155.919998	156.020004	unifr12-fsa
+2	es	être	VRB	VRB	_	0	root	_	_	156.029999	156.070007	unifr12-fsa
+3	plus	plus	ADN	ADN	_	5	dep	_	_	156.210007	156.539993	unifr12-fsa
+4	tu	tu	CLS	CLS	_	5	subj	_	_	156.550003	156.600006	unifr12-fsa
+5	fais	faire	VRB	VRB	_	2	dep	_	_	156.610001	156.830002	unifr12-fsa
+6	plus	plus	ADN	ADN	_	5	dep	_	_	156.839996	156.949997	unifr12-fsa
+7	rien	rien	PRO	PRO	_	5	dep	_	_	156.960007	157.100006	unifr12-fsa
+8	de	de	PRE	PRE	_	7	dep	_	_	157.110001	157.130005	unifr12-fsa
+9	légal	légal	ADJ	ADJ	_	8	dep	_	_	157.139999	157.479996	unifr12-fsa
+10	en	en	PRE	PRE	_	5	dep	_	_	157.490005	157.539993	unifr12-fsa
+11	fait	fait	NOM	NOM	_	10	dep	_	_	157.550003	157.779999	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-61
+# text = non après tu es plus du tout dans les dans les règles un vélomoteur
+1	non	non	INT	INT	_	4	dm	_	_	159.000000	159.399994	unifr12-lua
+2	après	après	PRE	PRE	_	4	periph	_	_	159.630005	159.850006	unifr12-lua
+3	tu	tu	CLS	CLS	_	4	subj	_	_	159.860001	159.919998	unifr12-lua
+4	es	être	VRB	VRB	_	0	root	_	_	159.929993	159.970001	unifr12-lua
+5	plus	plus	ADN	ADN	_	6	dep	_	_	159.979996	160.089996	unifr12-lua
+6	du	de+le	PRE	PRE	_	4	dep	_	_	160.100006	160.229996	unifr12-lua
+7	tout	tout	PRO	PRO	_	6	dep	_	_	160.240005	160.350006	unifr12-lua
+8	dans	dans	PRE	PRE	_	4	dep	_	_	160.360001	160.490005	unifr12-lua
+9	les	le	DET	DET	_	8	disflink	_	_	160.500000	160.820007	unifr12-lua
+10	dans	dans	PRE	PRE	_	8	para	_	_	160.830002	160.940002	unifr12-lua
+11	les	le	DET	DET	_	12	spe	_	_	160.949997	161.029999	unifr12-lua
+12	règles	règle	NOM	NOM	_	10	dep	_	_	161.039993	161.380005	unifr12-lua
+13	un	un	DET	DET	_	14	spe	_	_	161.470001	161.509995	unifr12-lua
+14	vélomoteur	vélomoteur	NOM	NOM	_	10	dep	_	_	161.520004	162.009995	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-62
+# text = ça doit aller à trente kilomètres heure
+1	ça	ça	PRO	PRO	_	2	subj	_	_	162.020004	162.130005	unifr12-lua
+2	doit	devoir	VRB	VRB	_	0	root	_	_	162.139999	162.259995	unifr12-lua
+3	aller	aller	VNF	VNF	_	2	dep	_	_	162.270004	162.320007	unifr12-lua
+4	à	à	PRE	PRE	_	3	dep	_	_	162.330002	162.380005	unifr12-lua
+5	trente	trente	NUM	NUM	_	6	spe	_	_	162.389999	162.649994	unifr12-lua
+6	kilomètres	kilomètre	NOM	NOM	_	4	dep	_	_	162.660004	163.229996	unifr12-lua
+7	heure	heure	NOM	NOM	_	6	dep	_	_	163.240005	163.339996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-63
+# text = moi quinze ans je me suis fait arrêter à nonante-sept kilomètres heure avec un vélomoteur euh modifié
+1	moi	moi	PRO	PRO	_	7	periph	_	_	163.399994	163.669998	unifr12-lua
+2	quinze	quinze	NUM	NUM	_	3	spe	_	_	163.679993	163.940002	unifr12-lua
+3	ans	an	NOM	NOM	_	7	periph	_	_	163.949997	164.009995	unifr12-lua
+4	je	je	CLS	CLS	_	7	subj	_	_	164.020004	164.089996	unifr12-lua
+5	me	me	CLI	CLI	_	7	dep	_	_	164.100006	164.169998	unifr12-lua
+6	suis	être	VRB	VRB	_	7	aux	_	_	164.179993	164.339996	unifr12-lua
+7	fait	faire	VPP	VPP	_	0	root	_	_	164.410004	164.500000	unifr12-lua
+8	arrêter	arrêter	VNF	VNF	_	7	dep	_	_	164.509995	164.729996	unifr12-lua
+9	à	à	PRE	PRE	_	8	dep	_	_	164.740005	164.789993	unifr12-lua
+10	nonante-sept	nonante-sept	NUM	NUM	_	11	spe	_	_	164.800003	165.240005	unifr12-lua
+11	kilomètres	kilomètre	NOM	NOM	_	9	dep	_	_	165.250000	165.699997	unifr12-lua
+12	heure	heure	NOM	NOM	_	11	dep	_	_	165.710007	165.850006	unifr12-lua
+13	avec	avec	PRE	PRE	_	8	dep	_	_	166.869995	167.000000	unifr12-lua
+14	un	un	DET	DET	_	15	spe	_	_	167.009995	167.029999	unifr12-lua
+15	vélomoteur	vélomoteur	NOM	NOM	_	13	dep	_	_	167.039993	167.720001	unifr12-lua
+16	euh	euh	INT	INT	_	15	dm	_	_	167.729996	168.059998	unifr12-lua
+17	modifié	modifier	VPP	VPP	_	15	dep	_	_	168.070007	168.779999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-64
+# text = mais ouais on peut avoir de de gros problèmes avec la police en modifiant ces petits engins
+1	mais	mais	COO	COO	_	4	mark	_	_	170.309998	170.610001	unifr12-lua
+2	ouais	ouais	INT	INT	_	1	dm	_	_	170.619995	170.940002	unifr12-lua
+3	on	on	CLS	CLS	_	4	subj	_	_	170.949997	170.970001	unifr12-lua
+4	peut	pouvoir	VRB	VRB	_	0	root	_	_	171.009995	171.139999	unifr12-lua
+5	avoir	avoir	VNF	VNF	_	4	dep	_	_	171.149994	171.520004	unifr12-lua
+6	de	de	PRE	PRE	_	5	dep	_	_	171.529999	172.139999	unifr12-lua
+7	de	de	PRE	PRE	_	6	para	_	_	173.070007	173.089996	unifr12-lua
+8	gros	gros	ADJ	ADJ	_	9	dep	_	_	173.100006	173.270004	unifr12-lua
+9	problèmes	problème	NOM	NOM	_	7	dep	_	_	173.279999	173.610001	unifr12-lua
+10	avec	avec	PRE	PRE	_	5	dep	_	_	173.619995	173.759995	unifr12-lua
+11	la	le	DET	DET	_	12	spe	_	_	173.770004	173.830002	unifr12-lua
+12	police	police	NOM	NOM	_	10	dep	_	_	173.839996	174.259995	unifr12-lua
+13	en	en	PRE	PRE	_	5	dep	_	_	174.500000	174.520004	unifr12-lua
+14	modifiant	modifier	VPR	VPR	_	13	dep	_	_	174.529999	175.029999	unifr12-lua
+15	ces	ce	DET	DET	_	17	spe	_	_	175.039993	175.289993	unifr12-lua
+16	petits	petit	ADJ	ADJ	_	17	dep	_	_	175.300003	175.559998	unifr12-lua
+17	engins	engin	NOM	NOM	_	14	dep	_	_	175.570007	175.809998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-65
+# text = puis tu en a eu toi
+1	puis	puis	COO	COO	_	5	mark	_	_	176.500000	176.610001	unifr12-fsa
+2	tu	tu	CLS	CLS	_	5	subj	_	_	177.229996	177.279999	unifr12-fsa
+3	en	en	CLI	CLI	_	5	dep	_	_	177.289993	177.330002	unifr12-fsa
+4	a	avoir	VRB	VRB	_	5	aux	_	_	177.339996	177.460007	unifr12-fsa
+5	eu	avoir	VPP	VPP	_	0	root	_	_	177.580002	177.619995	unifr12-fsa
+6	toi	moi	PRO	PRO	_	5	periph	_	_	177.630005	177.869995	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-66
+# text = ou bien pas tellement
+1	ou	ou	COO	COO	_	3	mark	_	_	178.470001	178.550003	unifr12-fsa
+2	bien	bien	ADV	ADV	_	3	dep	_	_	178.559998	178.919998	unifr12-fsa
+3	pas	pas	ADN	ADN	_	4	dep	_	_	178.979996	179.110001	unifr12-fsa
+4	tellement	tellement	ADV	ADV	_	0	root	_	_	179.119995	179.490005	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-67
+# text = euh oui j'ai eu en vélomoteur ouais
+1	euh	euh	INT	INT	_	5	dm	_	_	180.470001	180.889999	unifr12-lua
+2	oui	oui	INT	INT	_	1	dm	_	_	180.899994	181.059998	unifr12-lua
+3	j'	je	CLS	CLS	_	5	subj	_	_	181.070007	181.199997	unifr12-lua
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	181.210007	181.270004	unifr12-lua
+5	eu	avoir	VPP	VPP	_	0	root	_	_	181.279999	181.380005	unifr12-lua
+6	en	en	PRE	PRE	_	5	dep	_	_	182.149994	182.190002	unifr12-lua
+7	vélomoteur	vélomoteur	NOM	NOM	_	6	dep	_	_	182.199997	182.820007	unifr12-lua
+8	ouais	ouais	INT	INT	_	7	dm	_	_	182.830002	182.979996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-68
+# text = j'ai eu euh une fois une grosse euh
+1	j'	je	CLS	CLS	_	3	subj	_	_	182.990005	183.089996	unifr12-lua
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	183.100006	183.149994	unifr12-lua
+3	eu	avoir	VPP	VPP	_	0	root	_	_	183.160004	183.309998	unifr12-lua
+4	euh	euh	INT	INT	_	3	dm	_	_	183.320007	183.630005	unifr12-lua
+5	une	un	DET	DET	_	6	spe	_	_	184.330002	184.440002	unifr12-lua
+6	fois	foi	NOM	NOM	_	3	dep	_	_	184.449997	184.699997	unifr12-lua
+7	une	un	DET	DET	_	8	spe	_	_	184.710007	184.830002	unifr12-lua
+8	grosse	gros	ADJ	ADJ	_	3	dep	_	_	184.839996	185.649994	unifr12-lua
+9	euh	euh	INT	INT	_	8	dm	_	_	185.660004	185.679993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-69
+# text = une grosse amende je me suis fait arrêter en partant du CO par un policier
+1	une	un	DET	DET	_	3	spe	_	_	185.800003	185.880005	unifr12-lua
+2	grosse	gros	ADJ	ADJ	_	3	dep	_	_	185.889999	186.119995	unifr12-lua
+3	amende	amende	NOM	NOM	_	7	periph	_	_	186.130005	186.360001	unifr12-lua
+4	je	je	CLS	CLS	_	7	subj	_	_	186.369995	186.449997	unifr12-lua
+5	me	me	CLI	CLI	_	7	dep	_	_	186.460007	186.509995	unifr12-lua
+6	suis	être	VRB	VRB	_	7	aux	_	_	186.520004	186.649994	unifr12-lua
+7	fait	faire	VPP	VPP	_	0	root	_	_	186.660004	186.789993	unifr12-lua
+8	arrêter	arrêter	VNF	VNF	_	7	dep	_	_	186.800003	187.100006	unifr12-lua
+9	en	en	PRE	PRE	_	8	dep	_	_	187.110001	187.339996	unifr12-lua
+10	partant	partir	VPR	VPR	_	9	dep	_	_	187.350006	187.619995	unifr12-lua
+11	du	de+le	PRE	PRE	_	10	dep	_	_	187.630005	187.699997	unifr12-lua
+12	CO	CO	NOM	NOM	_	11	dep	_	_	187.710007	188.029999	unifr12-lua
+13	par	par	PRE	PRE	_	10	dep	_	_	188.729996	188.809998	unifr12-lua
+14	un	un	DET	DET	_	15	spe	_	_	188.820007	188.839996	unifr12-lua
+15	policier	policier	NOM	NOM	_	13	dep	_	_	188.850006	189.350006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-70
+# text = il m'a amené au poste
+1	il	il	CLS	CLS	_	4	subj	_	_	189.360001	189.419998	unifr12-lua
+2	m'	me	CLI	CLI	_	4	dep	_	_	189.429993	189.479996	unifr12-lua
+3	a	avoir	VRB	VRB	_	4	aux	_	_	189.490005	189.539993	unifr12-lua
+4	amené	amener	VPP	VPP	_	0	root	_	_	189.550003	189.750000	unifr12-lua
+5	au	à+le	PRE	PRE	_	4	dep	_	_	189.759995	189.839996	unifr12-lua
+6	poste	poste	NOM	NOM	_	5	dep	_	_	189.850006	190.309998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-71
+# text = puis il a essayé le vélomoteur sur le rouleau
+1	puis	puis	COO	COO	_	4	mark	_	_	191.240005	191.350006	unifr12-lua
+2	il	il	CLS	CLS	_	4	subj	_	_	191.360001	191.380005	unifr12-lua
+3	a	avoir	VRB	VRB	_	4	aux	_	_	191.389999	191.410004	unifr12-lua
+4	essayé	essayer	VPP	VPP	_	0	root	_	_	191.419998	191.589996	unifr12-lua
+5	le	le	DET	DET	_	6	spe	_	_	191.600006	191.619995	unifr12-lua
+6	vélomoteur	vélomoteur	NOM	NOM	_	4	dep	_	_	191.630005	192.039993	unifr12-lua
+7	sur	sur	PRE	PRE	_	4	dep	_	_	192.050003	192.169998	unifr12-lua
+8	le	le	DET	DET	_	9	spe	_	_	192.179993	192.199997	unifr12-lua
+9	rouleau	rouleau	NOM	NOM	_	7	dep	_	_	192.210007	192.490005	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-72
+# text = il était passé à nonante-sept kilomètres heure avec le policier dessus
+1	il	il	CLS	CLS	_	3	subj	_	_	192.500000	192.589996	unifr12-lua
+2	était	être	VRB	VRB	_	3	aux	_	_	192.600006	192.759995	unifr12-lua
+3	passé	passer	VPP	VPP	_	0	root	_	_	192.770004	193.059998	unifr12-lua
+4	à	à	PRE	PRE	_	3	dep	_	_	193.070007	193.419998	unifr12-lua
+5	nonante-sept	nonante-sept	NUM	NUM	_	6	spe	_	_	193.460007	193.940002	unifr12-lua
+6	kilomètres	kilomètre	NOM	NOM	_	4	dep	_	_	193.949997	194.289993	unifr12-lua
+7	heure	heure	NOM	NOM	_	6	dep	_	_	194.300003	194.389999	unifr12-lua
+8	avec	avec	PRE	PRE	_	3	dep	_	_	194.399994	194.529999	unifr12-lua
+9	le	le	DET	DET	_	10	spe	_	_	194.539993	194.559998	unifr12-lua
+10	policier	policier	NOM	NOM	_	8	dep	_	_	194.570007	194.949997	unifr12-lua
+11	dessus	dessus	ADV	ADV	_	10	dep	_	_	194.960007	195.210007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-73
+# text = et puis le vélomoteur il était pas du tout filmi- amorce fini
+1	et puis	et puis	COO	COO	_	5	mark	_	_	196.570007	196.940002	unifr12-lua
+2	le	le	DET	DET	_	3	spe	_	_	196.949997	196.970001	unifr12-lua
+3	vélomoteur	vélomoteur	NOM	NOM	_	5	periph	_	_	196.979996	197.460007	unifr12-lua
+4	il	il	CLS	CLS	_	5	subj	_	_	197.470001	197.520004	unifr12-lua
+5	était	être	VRB	VRB	_	0	root	_	_	197.529999	197.679993	unifr12-lua
+6	pas du tout	pas du tout	ADN	ADN	_	5	dep	_	_	197.690002	198.009995	unifr12-lua
+7	filmi-	filmi-	ADJ	ADJ	_	5	dep	_	_	198.020004	198.369995	unifr12-lua
+8	amorce	amorce	NOM	NOM	_	5	dep	_	_	198.380005	198.580002	unifr12-lua
+9	fini	fini	ADJ	ADJ	_	8	dep	_	_	198.589996	198.850006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-74
+# text = il devait aller
+1	il	il	CLS	CLS	_	2	subj	_	_	198.860001	198.880005	unifr12-lua
+2	devait	devoir	VRB	VRB	_	0	root	_	_	198.889999	199.210007	unifr12-lua
+3	aller	aller	VNF	VNF	_	2	dep	_	_	199.360001	200.399994	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-75
+# text = et puis ce euh ce problème avec la police m'a pris quatre mois de mon permis
+1	et puis	et puis	COO	COO	_	11	mark	_	_	201.600006	201.809998	unifr12-lua
+2	ce	ce	PRO	PRO	_	11	periph	_	_	201.820007	202.449997	unifr12-lua
+3	euh	euh	INT	INT	_	2	dm	_	_	203.979996	204.300003	unifr12-lua
+4	ce	ce	DET	DET	_	5	spe	_	_	204.850006	205.020004	unifr12-lua
+5	problème	problème	NOM	NOM	_	11	subj	_	_	205.029999	205.330002	unifr12-lua
+6	avec	avec	PRE	PRE	_	5	dep	_	_	205.339996	205.509995	unifr12-lua
+7	la	le	DET	DET	_	8	spe	_	_	205.520004	205.770004	unifr12-lua
+8	police	police	NOM	NOM	_	6	dep	_	_	205.779999	206.169998	unifr12-lua
+9	m'	me	CLI	CLI	_	11	dep	_	_	206.179993	206.250000	unifr12-lua
+10	a	avoir	VRB	VRB	_	11	aux	_	_	206.259995	206.339996	unifr12-lua
+11	pris	-	VPP	VPP	_	0	root	_	_	206.350006	206.649994	unifr12-lua
+12	quatre	quatre	NUM	NUM	_	13	spe	_	_	206.899994	207.100006	unifr12-lua
+13	mois	moi	NOM	NOM	_	11	dep	_	_	207.110001	207.210007	unifr12-lua
+14	de	de	PRE	PRE	_	13	dep	_	_	207.220001	207.240005	unifr12-lua
+15	mon	son	DET	DET	_	16	spe	_	_	207.250000	207.669998	unifr12-lua
+16	permis	permis	NOM	NOM	_	14	dep	_	_	207.770004	208.089996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-76
+# text = quand j'avais quinze ans
+1	quand	quand	CSU	CSU	_	0	root	_	_	209.050003	209.119995	unifr12-lua
+2	j'	je	CLS	CLS	_	3	subj	_	_	209.130005	209.169998	unifr12-lua
+3	avais	avoir	VRB	VRB	_	1	dep	_	_	209.179993	209.339996	unifr12-lua
+4	quinze	quinze	NUM	NUM	_	5	spe	_	_	209.350006	209.589996	unifr12-lua
+5	ans	an	NOM	NOM	_	3	dep	_	_	209.600006	209.669998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-77
+# text = donc tu as eu euh quatre mois de retrait de permis
+1	donc	donc	ADV	ADV	_	4	periph	_	_	209.910004	210.059998	unifr12-fsa
+2	tu	tu	CLS	CLS	_	4	subj	_	_	210.119995	210.470001	unifr12-fsa
+3	as	avoir	VRB	VRB	_	4	aux	_	_	210.479996	210.690002	unifr12-fsa
+4	eu	avoir	VPP	VPP	_	0	root	_	_	210.699997	210.720001	unifr12-fsa
+5	euh	euh	INT	INT	_	4	dm	_	_	210.729996	210.750000	unifr12-fsa
+6	quatre	quatre	NUM	NUM	_	7	spe	_	_	210.759995	210.929993	unifr12-fsa
+7	mois	moi	NOM	NOM	_	4	dep	_	_	210.940002	211.059998	unifr12-fsa
+8	de	de	PRE	PRE	_	7	dep	_	_	211.070007	211.089996	unifr12-fsa
+9	retrait	retrait	NOM	NOM	_	8	dep	_	_	211.139999	211.429993	unifr12-fsa
+10	de	de	PRE	PRE	_	9	dep	_	_	211.440002	211.460007	unifr12-fsa
+11	permis	permis	NOM	NOM	_	10	dep	_	_	211.500000	211.770004	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-78
+# text = de vélomoteur ouais
+1	de	de	PRE	PRE	_	0	root	_	_	211.929993	212.000000	unifr12-lua
+2	vélomoteur	vélomoteur	NOM	NOM	_	1	dep	_	_	212.009995	212.559998	unifr12-lua
+3	ouais	ouais	INT	INT	_	2	dm	_	_	212.570007	212.729996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-79
+# text = de vélomoteur
+1	de	de	PRE	PRE	_	0	root	_	_	213.539993	213.619995	unifr12-fsa
+2	vélomoteur	vélomoteur	NOM	NOM	_	1	dep	_	_	213.630005	214.160004	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-80
+# text = seulement vélomoteur oui
+1	seulement	seulement	ADV	ADV	_	2	dep	_	_	214.460007	214.630005	unifr12-lua
+2	vélomoteur	vélomoteur	NOM	NOM	_	0	root	_	_	214.639999	215.089996	unifr12-lua
+3	oui	oui	INT	INT	_	2	dm	_	_	215.100006	215.240005	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-81
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	215.639999	215.660004	unifr12-fsa
+2	accord	accord	NOM	NOM	_	1	dep	_	_	215.669998	215.919998	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-82
+# text = puis sinon ouais j'ai j'ai eu euh beaucoup de un vélomoteur
+1	puis	puis	COO	COO	_	5	mark	_	_	217.270004	217.369995	unifr12-lua
+2	sinon	sinon	ADV	ADV	_	5	periph	_	_	217.380005	217.610001	unifr12-lua
+3	ouais	ouais	INT	INT	_	2	dm	_	_	217.619995	217.860001	unifr12-lua
+4	j'	je	CLS	CLS	_	5	subj	_	_	217.869995	217.919998	unifr12-lua
+5	ai	avoir	VRB	VRB	_	0	root	_	_	217.929993	218.220001	unifr12-lua
+6	j'	je	CLS	CLS	_	8	subj	_	_	218.529999	218.550003	unifr12-lua
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	218.559998	218.600006	unifr12-lua
+8	eu	avoir	VPP	VPP	_	5	para	_	_	218.610001	218.770004	unifr12-lua
+9	euh	euh	INT	INT	_	8	dm	_	_	218.779999	218.910004	unifr12-lua
+10	beaucoup	beaucoup	ADV	ADV	_	8	dep	_	_	219.000000	219.259995	unifr12-lua
+11	de	de	PRE	PRE	_	10	dep	_	_	219.270004	219.539993	unifr12-lua
+12	un	un	DET	DET	_	13	spe	_	_	219.679993	219.779999	unifr12-lua
+13	vélomoteur	vélomoteur	NOM	NOM	_	11	dep	_	_	219.789993	220.270004	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-83
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	220.279999	220.389999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-84
+# text = beaucoup de moteurs différents
+1	beaucoup	beaucoup	PRO	PRO	_	0	root	_	_	220.399994	220.649994	unifr12-lua
+2	de	de	PRE	PRE	_	1	dep	_	_	220.660004	220.690002	unifr12-lua
+3	moteurs	moteur	NOM	NOM	_	2	dep	_	_	220.699997	220.940002	unifr12-lua
+4	différents	différent	ADJ	ADJ	_	3	dep	_	_	220.949997	221.350006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-85
+# text = parce qu'ils ils cassaient tous
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	221.410004	221.580002	unifr12-lua
+2	ils	il	CLS	CLS	_	4	subj	_	_	221.589996	221.919998	unifr12-lua
+3	ils	il	CLS	CLS	_	2	para	_	_	222.080002	222.169998	unifr12-lua
+4	cassaient	casser	VRB	VRB	_	1	dep	_	_	222.179993	222.440002	unifr12-lua
+5	tous	tout	ADJ	ADJ	_	4	dep	_	_	222.449997	222.600006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-86
+# text = c'est pas fait pour être autant maquillé sans être renforcé
+1	c'	ce	CLS	CLS	_	2	subj	_	_	222.610001	222.820007	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	222.830002	222.869995	unifr12-lua
+3	pas	pas	ADN	ADN	_	4	dep	_	_	222.880005	223.059998	unifr12-lua
+4	fait	faire	VPP	VPP	_	2	dep	_	_	223.070007	223.190002	unifr12-lua
+5	pour	pour	PRE	PRE	_	4	dep	_	_	223.199997	223.360001	unifr12-lua
+6	être	être	VNF	VNF	_	5	dep	_	_	223.369995	223.479996	unifr12-lua
+7	autant	autant	ADV	ADV	_	8	dep	_	_	223.490005	223.660004	unifr12-lua
+8	maquillé	maquiller	VPP	VPP	_	4	para	_	_	223.669998	223.949997	unifr12-lua
+9	sans	sans	PRE	PRE	_	8	dep	_	_	223.960007	224.320007	unifr12-lua
+10	être	être	VNF	VNF	_	9	dep	_	_	224.330002	224.539993	unifr12-lua
+11	renforcé	renforcer	VPP	VPP	_	10	dep	_	_	224.550003	225.000000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-87
+# text = et quand tu as quatorze quinze ans tu as pas beaucoup d'argent donc
+1	et	et	COO	COO	_	9	mark	_	_	225.910004	225.970001	unifr12-lua
+2	quand	quand	CSU	CSU	_	9	periph	_	_	225.979996	226.100006	unifr12-lua
+3	tu	tu	CLS	CLS	_	4	subj	_	_	226.110001	226.169998	unifr12-lua
+4	as	avoir	VRB	VRB	_	2	dep	_	_	226.179993	226.270004	unifr12-lua
+5	quatorze	quatorze	NUM	NUM	_	7	spe	_	_	226.279999	226.610001	unifr12-lua
+6	quinze	quinze	NUM	NUM	_	5	dep	_	_	226.619995	226.750000	unifr12-lua
+7	ans	an	NOM	NOM	_	4	dep	_	_	226.759995	226.839996	unifr12-lua
+8	tu	tu	CLS	CLS	_	9	subj	_	_	226.850006	226.919998	unifr12-lua
+9	as	avoir	VRB	VRB	_	0	root	_	_	226.929993	226.960007	unifr12-lua
+10	pas	pas	ADN	ADN	_	9	dep	_	_	226.970001	227.050003	unifr12-lua
+11	beaucoup	beaucoup	ADV	ADV	_	9	dep	_	_	227.059998	227.309998	unifr12-lua
+12	d'	de	PRE	PRE	_	9	dep	_	_	227.320007	227.350006	unifr12-lua
+13	argent	argent	NOM	NOM	_	12	dep	_	_	227.360001	227.669998	unifr12-lua
+14	donc	donc	ADV	ADV	_	9	periph	_	_	227.679993	227.910004	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-88
+# text = tu renforces pas tellement le moteur
+1	tu	tu	CLS	CLS	_	2	subj	_	_	228.399994	228.509995	unifr12-lua
+2	renforces	renforcer	VRB	VRB	_	0	root	_	_	228.520004	228.960007	unifr12-lua
+3	pas	pas	ADN	ADN	_	4	dep	_	_	229.160004	229.309998	unifr12-lua
+4	tellement	tellement	ADV	ADV	_	2	dep	_	_	229.320007	229.600006	unifr12-lua
+5	le	le	DET	DET	_	6	spe	_	_	229.610001	229.630005	unifr12-lua
+6	moteur	moteur	NOM	NOM	_	2	dep	_	_	229.639999	229.979996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-89
+# text = tu maquilles seulement tu augmentes
+1	tu	tu	CLS	CLS	_	2	subj	_	_	229.990005	230.110001	unifr12-lua
+2	maquilles	maquiller	VRB	VRB	_	0	root	_	_	230.119995	230.399994	unifr12-lua
+3	seulement	seulement	ADV	ADV	_	2	dep	_	_	230.410004	230.770004	unifr12-lua
+4	tu	tu	CLS	CLS	_	5	subj	_	_	231.169998	231.220001	unifr12-lua
+5	augmentes	augmenter	VRB	VRB	_	2	para	_	_	231.229996	231.660004	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-90
+# text = et puis il y a tout qui casse
+1	et puis	et puis	COO	COO	_	4	mark	_	_	231.669998	231.940002	unifr12-lua
+2	il	il	CLS	CLS	_	4	subj	_	_	231.949997	231.970001	unifr12-lua
+3	y	y	CLI	CLI	_	4	dep	_	_	231.979996	232.000000	unifr12-lua
+4	a	avoir	VRB	VRB	_	0	root	_	_	232.039993	232.059998	unifr12-lua
+5	tout	tout	PRO	PRO	_	4	dep	_	_	232.070007	232.199997	unifr12-lua
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	232.210007	232.339996	unifr12-lua
+7	casse	casse	NOM	NOM	_	5	dep	_	_	232.350006	232.679993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-91
+# text = d'accord et puis euh est-ce que euh tu as retiré un peu des leçons des fois où tu t'es fait attraper ou est-ce que tu as continué
+1	d'	de	PRE	PRE	_	5	periph	_	_	234.399994	234.470001	unifr12-fsa
+2	accord	accord	NOM	NOM	_	1	dep	_	_	234.479996	234.910004	unifr12-fsa
+3	et puis	et puis	COO	COO	_	5	mark	_	_	235.649994	236.339996	unifr12-fsa
+4	euh	euh	INT	INT	_	3	dm	_	_	236.350006	236.369995	unifr12-fsa
+5	est-ce	est-ce	VRB	VRB	_	0	root	_	_	237.050003	237.979996	unifr12-fsa
+6	que	que	CSU	CSU	_	5	dep	_	_	237.990005	238.029999	unifr12-fsa
+7	euh	euh	INT	INT	_	6	dm	_	_	238.039993	238.059998	unifr12-fsa
+8	tu	tu	CLS	CLS	_	10	subj	_	_	238.130005	238.199997	unifr12-fsa
+9	as	avoir	VRB	VRB	_	10	aux	_	_	238.210007	238.229996	unifr12-fsa
+10	retiré	retirer	VPP	VPP	_	6	dep	_	_	238.240005	238.520004	unifr12-fsa
+11	un peu	un peu	ADV	ADV	_	10	dep	_	_	238.529999	238.789993	unifr12-fsa
+12	des	de	PRE	PRE	_	10	dep	_	_	238.800003	238.970001	unifr12-fsa
+13	leçons	leçon	NOM	NOM	_	12	dep	_	_	238.979996	239.369995	unifr12-fsa
+14	des	de	PRE	PRE	_	12	para	_	_	239.380005	239.470001	unifr12-fsa
+15	fois	foi	NOM	NOM	_	14	dep	_	_	239.479996	239.779999	unifr12-fsa
+16	où	où	PRQ	PRQ	_	20	dep	_	_	239.789993	239.809998	unifr12-fsa
+17	tu	tu	CLS	CLS	_	20	subj	_	_	239.820007	239.910004	unifr12-fsa
+18	t'	te	CLI	CLI	_	20	dep	_	_	239.919998	239.990005	unifr12-fsa
+19	es	être	VRB	VRB	_	20	aux	_	_	240.000000	240.059998	unifr12-fsa
+20	fait	faire	VPP	VPP	_	15	dep	_	_	240.070007	240.160004	unifr12-fsa
+21	attraper	attraper	VNF	VNF	_	20	dep	_	_	240.169998	241.020004	unifr12-fsa
+22	ou	ou	COO	COO	_	23	mark	_	_	241.029999	241.289993	unifr12-fsa
+23	est-ce	est-ce	VRB	VRB	_	6	dep	_	_	241.610001	241.660004	unifr12-fsa
+24	que	que	CSU	CSU	_	23	dep	_	_	241.669998	241.690002	unifr12-fsa
+25	tu	tu	CLS	CLS	_	27	subj	_	_	241.699997	241.750000	unifr12-fsa
+26	as	avoir	VRB	VRB	_	27	aux	_	_	241.759995	241.820007	unifr12-fsa
+27	continué	continuer	VPP	VPP	_	24	dep	_	_	241.830002	242.440002	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-92
+# text = tu as continué avec euh
+1	tu	tu	CLS	CLS	_	3	subj	_	_	242.449997	242.500000	unifr12-fsa
+2	as	avoir	VRB	VRB	_	3	aux	_	_	242.509995	242.570007	unifr12-fsa
+3	continué	continuer	VPP	VPP	_	0	root	_	_	242.580002	243.330002	unifr12-fsa
+4	avec	avec	PRE	PRE	_	3	dep	_	_	243.339996	243.529999	unifr12-fsa
+5	euh	euh	INT	INT	_	4	dm	_	_	243.580002	243.710007	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-93
+# text = ouais en vélomoteur j'ai continué après euh ben justement à seize ans
+1	ouais	ouais	INT	INT	_	6	dm	_	_	243.490005	243.690002	unifr12-lua
+2	en	en	PRE	PRE	_	6	periph	_	_	243.699997	243.789993	unifr12-lua
+3	vélomoteur	vélomoteur	NOM	NOM	_	2	dep	_	_	243.800003	244.309998	unifr12-lua
+4	j'	je	CLS	CLS	_	6	subj	_	_	244.320007	244.389999	unifr12-lua
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	244.399994	244.429993	unifr12-lua
+6	continué	continuer	VPP	VPP	_	0	root	_	_	244.440002	245.000000	unifr12-lua
+7	après	après	PRE	PRE	_	6	dep	_	_	245.440002	245.740005	unifr12-lua
+8	euh	euh	INT	INT	_	7	dm	_	_	245.750000	245.880005	unifr12-lua
+9	ben	ben	INT	INT	_	8	dm	_	_	245.889999	246.110001	unifr12-lua
+10	justement	justement	ADV	ADV	_	6	dep	_	_	246.119995	246.559998	unifr12-lua
+11	à	à	PRE	PRE	_	6	dep	_	_	246.570007	246.630005	unifr12-lua
+12	seize	seize	NUM	NUM	_	13	spe	_	_	246.639999	246.899994	unifr12-lua
+13	ans	an	NOM	NOM	_	11	dep	_	_	246.910004	247.009995	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-94
+# text = j'ai eu un
+1	j'	je	CLS	CLS	_	3	subj	_	_	247.020004	247.119995	unifr12-lua
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	247.130005	247.179993	unifr12-lua
+3	eu	avoir	VPP	VPP	_	0	root	_	_	247.190002	247.389999	unifr12-lua
+4	un	un	PRO	PRO	_	3	dep	_	_	247.399994	247.720001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-95
+# text = à seize ans j'ai eu j'ai pu avoir ma première petite moto on peut dire ça comme ça une cinquante centimètres cube
+1	à	à	PRE	PRE	_	6	periph	_	_	251.059998	251.100006	unifr12-lua
+2	seize	seize	NUM	NUM	_	3	spe	_	_	251.110001	251.350006	unifr12-lua
+3	ans	an	NOM	NOM	_	1	dep	_	_	251.360001	251.509995	unifr12-lua
+4	j'	je	CLS	CLS	_	6	subj	_	_	251.520004	251.539993	unifr12-lua
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	251.550003	251.750000	unifr12-lua
+6	eu	avoir	VPP	VPP	_	9	aux	_	_	251.759995	251.929993	unifr12-lua
+7	j'	je	CLS	CLS	_	9	subj	_	_	251.940002	252.009995	unifr12-lua
+8	ai	avoir	VRB	VRB	_	9	aux	_	_	252.020004	252.070007	unifr12-lua
+9	pu	pouvoir	VPP	VPP	_	16	periph	_	_	252.080002	252.149994	unifr12-lua
+10	avoir	avoir	VNF	VNF	_	9	dep	_	_	252.160004	252.300003	unifr12-lua
+11	ma	son	DET	DET	_	14	spe	_	_	252.309998	252.449997	unifr12-lua
+12	première	premier	ADJ	ADJ	_	14	dep	_	_	252.460007	252.800003	unifr12-lua
+13	petite	petit	ADJ	ADJ	_	14	dep	_	_	253.600006	253.860001	unifr12-lua
+14	moto	moto	NOM	NOM	_	10	dep	_	_	253.869995	254.139999	unifr12-lua
+15	on	on	CLS	CLS	_	16	subj	_	_	254.149994	254.240005	unifr12-lua
+16	peut	pouvoir	VRB	VRB	_	0	root	_	_	254.250000	254.339996	unifr12-lua
+17	dire	dire	VNF	VNF	_	16	dep	_	_	254.350006	254.470001	unifr12-lua
+18	ça	ça	PRO	PRO	_	17	dep	_	_	254.479996	254.580002	unifr12-lua
+19	comme	comme	PRE	PRE	_	17	dep	_	_	254.589996	254.779999	unifr12-lua
+20	ça	ça	PRO	PRO	_	19	dep	_	_	254.789993	254.979996	unifr12-lua
+21	une	un	DET	DET	_	23	spe	_	_	254.990005	255.050003	unifr12-lua
+22	cinquante	cinquante	NUM	NUM	_	23	dep	_	_	255.059998	255.339996	unifr12-lua
+23	centimètres	centimètre	NOM	NOM	_	17	dep	_	_	255.350006	255.729996	unifr12-lua
+24	cube	cube	ADJ	ADJ	_	23	dep	_	_	255.740005	255.970001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-96
+# text = je l'ai eu
+1	je	je	CLS	CLS	_	4	subj	_	_	256.679993	256.779999	unifr12-lua
+2	l'	le	CLI	CLI	_	4	dep	_	_	256.790009	256.809998	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	256.820007	256.859985	unifr12-lua
+4	eu	avoir	VPP	VPP	_	0	root	_	_	256.869995	257.260010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-97
+# text = deux à semaines d'origine
+1	deux	deux	NUM	NUM	_	0	root	_	_	257.339996	257.510010	unifr12-lua
+2	à	à	PRE	PRE	_	1	dep	_	_	257.519989	257.540009	unifr12-lua
+3	semaines	semaine	NOM	NOM	_	2	dep	_	_	257.549988	257.799988	unifr12-lua
+4	d'	de	PRE	PRE	_	3	dep	_	_	257.809998	257.829987	unifr12-lua
+5	origine	origine	NOM	NOM	_	4	dep	_	_	257.839996	258.260010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-98
+# text = après deux semaines j'ai directement mis un échappement
+1	après	après	PRE	PRE	_	7	periph	_	_	259.500000	259.709991	unifr12-lua
+2	deux	deux	NUM	NUM	_	3	spe	_	_	259.720001	259.799988	unifr12-lua
+3	semaines	semaine	NOM	NOM	_	1	dep	_	_	259.809998	260.029999	unifr12-lua
+4	j'	je	CLS	CLS	_	7	subj	_	_	260.040009	260.100006	unifr12-lua
+5	ai	avoir	VRB	VRB	_	7	aux	_	_	260.109985	260.160004	unifr12-lua
+6	directement	directement	ADV	ADV	_	7	dep	_	_	260.170013	260.529999	unifr12-lua
+7	mis	mettre	VPP	VPP	_	0	root	_	_	260.540009	260.660004	unifr12-lua
+8	un	un	DET	DET	_	9	spe	_	_	260.670013	260.760010	unifr12-lua
+9	échappement	échappement	NOM	NOM	_	7	dep	_	_	260.769989	261.299988	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-99
+# text = un échappement j'ai augmenté euh l'arrivée d'essence
+1	un	un	DET	DET	_	2	spe	_	_	262.760010	262.779999	unifr12-lua
+2	échappement	échappement	NOM	NOM	_	5	periph	_	_	262.790009	263.239990	unifr12-lua
+3	j'	je	CLS	CLS	_	5	subj	_	_	263.250000	263.339996	unifr12-lua
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	263.350006	263.369995	unifr12-lua
+5	augmenté	augmenter	VPP	VPP	_	0	root	_	_	263.380005	263.880005	unifr12-lua
+6	euh	euh	INT	INT	_	5	dm	_	_	263.890015	264.019989	unifr12-lua
+7	l'	le	DET	DET	_	8	spe	_	_	264.029999	264.079987	unifr12-lua
+8	arrivée	arrivée	NOM	NOM	_	5	dep	_	_	264.089996	264.329987	unifr12-lua
+9	d'	de	PRE	PRE	_	8	dep	_	_	264.339996	264.380005	unifr12-lua
+10	essence	essence	NOM	NOM	_	9	dep	_	_	264.390015	264.829987	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-100
+# text = mais je me suis j'ai eu un euh je me suis jamais fait arrêté avec celle-là
+1	mais	mais	COO	COO	_	4	mark	_	_	266.570007	266.679993	unifr12-lua
+2	je	je	CLS	CLS	_	4	subj	_	_	266.690002	266.820007	unifr12-lua
+3	me	me	CLI	CLI	_	4	dep	_	_	266.829987	266.869995	unifr12-lua
+4	suis	être	VRB	VRB	_	0	root	_	_	266.880005	267.399994	unifr12-lua
+5	j'	je	CLS	CLS	_	7	subj	_	_	267.410004	267.429993	unifr12-lua
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	267.440002	267.609985	unifr12-lua
+7	eu	avoir	VPP	VPP	_	4	dep	_	_	267.619995	268.070007	unifr12-lua
+8	un	un	DET	DET	_	15	spe	_	_	268.079987	268.100006	unifr12-lua
+9	euh	euh	INT	INT	_	8	dm	_	_	268.109985	268.149994	unifr12-lua
+10	je	je	CLS	CLS	_	14	subj	_	_	268.890015	268.910004	unifr12-lua
+11	me	me	CLI	CLI	_	14	dep	_	_	268.920013	268.940002	unifr12-lua
+12	suis	être	VRB	VRB	_	14	aux	_	_	268.950012	269.059998	unifr12-lua
+13	jamais	jamais	ADN	ADN	_	14	dep	_	_	269.070007	269.299988	unifr12-lua
+14	fait	faire	VPP	VPP	_	15	dep	_	_	269.309998	269.399994	unifr12-lua
+15	arrêté	arrêter	VPP	VPP	_	7	para	_	_	269.410004	269.679993	unifr12-lua
+16	avec	avec	PRE	PRE	_	15	dep	_	_	269.690002	269.869995	unifr12-lua
+17	celle-là	celui-là	PRO	PRO	_	16	dep	_	_	269.880005	270.309998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-101
+# text = mais j'ai eu un accident une fois en allant au cours
+1	mais	mais	COO	COO	_	4	mark	_	_	270.320007	270.459991	unifr12-lua
+2	j'	je	CLS	CLS	_	4	subj	_	_	270.470001	270.529999	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	270.540009	270.559998	unifr12-lua
+4	eu	avoir	VPP	VPP	_	0	root	_	_	270.570007	270.609985	unifr12-lua
+5	un	un	DET	DET	_	6	spe	_	_	270.619995	270.750000	unifr12-lua
+6	accident	accident	NOM	NOM	_	4	dep	_	_	270.760010	271.209991	unifr12-lua
+7	une	un	DET	DET	_	8	spe	_	_	271.679993	271.730011	unifr12-lua
+8	fois	foi	NOM	NOM	_	4	dep	_	_	271.739990	271.850006	unifr12-lua
+9	en	en	PRE	PRE	_	4	dep	_	_	271.859985	271.910004	unifr12-lua
+10	allant	aller	VPR	VPR	_	9	dep	_	_	271.920013	272.079987	unifr12-lua
+11	au	à+le	PRE	PRE	_	10	dep	_	_	272.089996	272.130005	unifr12-lua
+12	cours	cour	NOM	NOM	_	11	dep	_	_	272.250000	272.450012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-102
+# text = j'ai tapé dans une euh voiture à septante kilomètres heure
+1	j'	je	CLS	CLS	_	3	subj	_	_	273.540009	273.579987	unifr12-lua
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	273.589996	273.609985	unifr12-lua
+3	tapé	se taper	VPP	VPP	_	0	root	_	_	273.619995	273.899994	unifr12-lua
+4	dans	dans	PRE	PRE	_	3	dep	_	_	273.910004	274.089996	unifr12-lua
+5	une	un	DET	DET	_	7	spe	_	_	274.100006	274.420013	unifr12-lua
+6	euh	euh	INT	INT	_	5	dm	_	_	274.429993	274.459991	unifr12-lua
+7	voiture	voiture	NOM	NOM	_	4	dep	_	_	274.470001	274.829987	unifr12-lua
+8	à	à	PRE	PRE	_	3	dep	_	_	274.839996	274.910004	unifr12-lua
+9	septante	septante	NUM	NUM	_	10	spe	_	_	274.920013	275.209991	unifr12-lua
+10	kilomètres	kilomètre	NOM	NOM	_	8	dep	_	_	275.220001	275.760010	unifr12-lua
+11	heure	heure	NOM	NOM	_	10	dep	_	_	275.769989	275.829987	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-103
+# text = donc tu étais fautif
+1	donc	donc	ADV	ADV	_	3	periph	_	_	276.600006	276.829987	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	276.839996	276.910004	unifr12-fsa
+3	étais	être	VRB	VRB	_	0	root	_	_	276.920013	277.049988	unifr12-fsa
+4	fautif	fautif	ADJ	ADJ	_	3	dep	_	_	277.059998	277.420013	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-104
+# text = ouais on peut dire que j'étais fautif
+1	ouais	ouais	INT	INT	_	3	dm	_	_	279.399994	279.640015	unifr12-lua
+2	on	on	CLS	CLS	_	3	subj	_	_	279.649994	279.790009	unifr12-lua
+3	peut	pouvoir	VRB	VRB	_	0	root	_	_	279.799988	279.910004	unifr12-lua
+4	dire	dire	VNF	VNF	_	3	dep	_	_	279.920013	280.029999	unifr12-lua
+5	que	que	CSU	CSU	_	4	dep	_	_	280.040009	280.059998	unifr12-lua
+6	j'	je	CLS	CLS	_	7	subj	_	_	280.070007	280.130005	unifr12-lua
+7	étais	être	VRB	VRB	_	5	dep	_	_	280.140015	280.299988	unifr12-lua
+8	fautif	fautif	ADJ	ADJ	_	7	dep	_	_	280.309998	280.779999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-105
+# text = mais je n'ai j'ai rien eu avec la police
+1	mais	mais	COO	COO	_	4	mark	_	_	281.089996	281.570007	unifr12-lua
+2	je	je	CLS	CLS	_	4	subj	_	_	281.980011	282.029999	unifr12-lua
+3	n'	ne	CLN	CLN	_	4	dep	_	_	282.040009	282.109985	unifr12-lua
+4	ai	avoir	VRB	VRB	_	0	root	_	_	282.119995	282.250000	unifr12-lua
+5	j'	je	CLS	CLS	_	8	subj	_	_	282.260010	282.410004	unifr12-lua
+6	ai	avoir	VRB	VRB	_	8	aux	_	_	282.420013	282.440002	unifr12-lua
+7	rien	rien	PRO	PRO	_	8	dep	_	_	282.450012	282.619995	unifr12-lua
+8	eu	avoir	VPP	VPP	_	4	para	_	_	282.630005	282.739990	unifr12-lua
+9	avec	avec	PRE	PRE	_	8	dep	_	_	282.750000	282.950012	unifr12-lua
+10	la	le	DET	DET	_	11	spe	_	_	282.959991	283.049988	unifr12-lua
+11	police	police	NOM	NOM	_	9	dep	_	_	283.059998	283.459991	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-106
+# text = parce que la personne elle euh elle a tout payé
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	284.290009	284.429993	unifr12-lua
+2	la	le	DET	DET	_	3	spe	_	_	284.440002	284.519989	unifr12-lua
+3	personne	personne	NOM	NOM	_	9	periph	_	_	284.529999	285.059998	unifr12-lua
+4	elle	il	CLS	CLS	_	9	periph	_	_	285.070007	285.559998	unifr12-lua
+5	euh	euh	INT	INT	_	4	dm	_	_	285.570007	285.600006	unifr12-lua
+6	elle	il	CLS	CLS	_	9	subj	_	_	285.950012	286.040009	unifr12-lua
+7	a	avoir	VRB	VRB	_	9	aux	_	_	286.049988	286.109985	unifr12-lua
+8	tout	tout	ADV	ADV	_	9	dep	_	_	286.119995	286.239990	unifr12-lua
+9	payé	payer	VPP	VPP	_	1	dep	_	_	286.250000	286.500000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-107
+# text = elle a tout prix à ses frais
+1	elle	il	CLS	CLS	_	2	subj	_	_	286.510010	286.570007	unifr12-lua
+2	a	avoir	VRB	VRB	_	0	root	_	_	286.579987	286.619995	unifr12-lua
+3	tout	tout	ADJ	ADJ	_	4	dep	_	_	286.630005	286.779999	unifr12-lua
+4	prix	prix	NOM	NOM	_	2	dep	_	_	286.790009	286.940002	unifr12-lua
+5	à	à	PRE	PRE	_	4	dep	_	_	286.950012	286.980011	unifr12-lua
+6	ses	son	DET	DET	_	7	spe	_	_	286.989990	287.130005	unifr12-lua
+7	frais	frai	NOM	NOM	_	5	dep	_	_	287.140015	287.529999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-108
+# text = parce qu'elle m'avait un peu coupé la route
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	288.420013	288.559998	unifr12-lua
+2	elle	il	CLS	CLS	_	6	subj	_	_	288.570007	288.619995	unifr12-lua
+3	m'	me	CLI	CLI	_	6	dep	_	_	288.630005	288.649994	unifr12-lua
+4	avait	avoir	VRB	VRB	_	6	aux	_	_	288.660004	288.769989	unifr12-lua
+5	un peu	un peu	ADV	ADV	_	6	dep	_	_	288.779999	289.049988	unifr12-lua
+6	coupé	couper	VPP	VPP	_	1	dep	_	_	289.059998	289.359985	unifr12-lua
+7	la	le	DET	DET	_	8	spe	_	_	289.369995	289.480011	unifr12-lua
+8	route	route	NOM	NOM	_	6	dep	_	_	289.489990	289.890015	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-109
+# text = mais j'avais pas le droit de dépasser à cet endroit-là
+1	mais	mais	COO	COO	_	3	mark	_	_	290.239990	290.290009	unifr12-lua
+2	j'	je	CLS	CLS	_	3	subj	_	_	290.299988	290.320007	unifr12-lua
+3	avais	avoir	VRB	VRB	_	0	root	_	_	290.329987	290.480011	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	290.489990	290.559998	unifr12-lua
+5	le	le	DET	DET	_	6	spe	_	_	290.570007	290.589996	unifr12-lua
+6	droit	droit	NOM	NOM	_	3	dep	_	_	290.600006	290.709991	unifr12-lua
+7	de	de	PRE	PRE	_	6	dep	_	_	290.720001	290.779999	unifr12-lua
+8	dépasser	dépasser	VNF	VNF	_	7	dep	_	_	290.790009	291.100006	unifr12-lua
+9	à	à	PRE	PRE	_	8	dep	_	_	291.109985	291.140015	unifr12-lua
+10	cet	ce	DET	DET	_	11	spe	_	_	291.149994	291.269989	unifr12-lua
+11	endroit-là	endroit-là	NOM	NOM	_	9	dep	_	_	291.279999	291.790009	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-110
+# text = puis euh grâce à ça j'ai pu m'acheter une nouvelle moto avec l'argent que j'ai reçu
+1	puis	puis	COO	COO	_	3	mark	_	_	292.890015	293.000000	unifr12-lua
+2	euh	euh	INT	INT	_	1	dm	_	_	293.010010	293.309998	unifr12-lua
+3	grâce	grâce	NOM	NOM	_	8	periph	_	_	293.320007	293.739990	unifr12-lua
+4	à	à	PRE	PRE	_	3	dep	_	_	293.750000	293.869995	unifr12-lua
+5	ça	ça	PRO	PRO	_	4	dep	_	_	293.880005	294.119995	unifr12-lua
+6	j'	je	CLS	CLS	_	8	subj	_	_	294.130005	294.200012	unifr12-lua
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	294.209991	294.250000	unifr12-lua
+8	pu	pouvoir	VPP	VPP	_	0	root	_	_	294.260010	294.380005	unifr12-lua
+9	m'	me	CLI	CLI	_	10	dep	_	_	294.390015	294.440002	unifr12-lua
+10	acheter	acheter	VNF	VNF	_	8	dep	_	_	294.450012	294.660004	unifr12-lua
+11	une	un	DET	DET	_	13	spe	_	_	294.670013	294.769989	unifr12-lua
+12	nouvelle	nouveau	ADJ	ADJ	_	13	dep	_	_	294.779999	294.980011	unifr12-lua
+13	moto	moto	NOM	NOM	_	10	dep	_	_	294.989990	295.309998	unifr12-lua
+14	avec	avec	PRE	PRE	_	10	dep	_	_	295.720001	295.829987	unifr12-lua
+15	l'	le	DET	DET	_	16	spe	_	_	295.839996	295.859985	unifr12-lua
+16	argent	argent	NOM	NOM	_	14	dep	_	_	295.869995	296.089996	unifr12-lua
+17	que	que	PRQ	PRQ	_	20	dep	_	_	296.100006	296.190002	unifr12-lua
+18	j'	je	CLS	CLS	_	20	subj	_	_	296.200012	296.299988	unifr12-lua
+19	ai	avoir	VRB	VRB	_	20	aux	_	_	296.309998	296.369995	unifr12-lua
+20	reçu	recevoir	VPP	VPP	_	16	dep	_	_	296.380005	296.640015	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-111
+# text = puis celle-là j'ai direct maquillée complètement
+1	puis	puis	COO	COO	_	4	mark	_	_	297.519989	297.600006	unifr12-lua
+2	celle-là	celui-là	PRO	PRO	_	4	periph	_	_	297.609985	297.760010	unifr12-lua
+3	j'	je	CLS	CLS	_	4	subj	_	_	297.769989	297.859985	unifr12-lua
+4	ai	avoir	VRB	VRB	_	0	root	_	_	297.869995	297.920013	unifr12-lua
+5	direct	direct	ADJ	ADJ	_	4	dep	_	_	297.929993	298.179993	unifr12-lua
+6	maquillée	maquiller	ADJ	ADJ	_	5	para	_	_	298.190002	298.489990	unifr12-lua
+7	complètement	complètement	ADV	ADV	_	4	periph	_	_	298.500000	299.029999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-112
+# text = j'ai tout modifié dessus
+1	j'	je	CLS	CLS	_	4	subj	_	_	299.630005	299.649994	unifr12-lua
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	299.660004	299.690002	unifr12-lua
+3	tout	tout	ADV	ADV	_	4	dep	_	_	299.700012	299.809998	unifr12-lua
+4	modifié	modifier	VPP	VPP	_	0	root	_	_	299.820007	300.269989	unifr12-lua
+5	dessus	dessus	ADV	ADV	_	4	dep	_	_	300.549988	301.010010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-113
+# text = et j'ai fait pas mal de délits de fuite avec celle-là
+1	et	et	COO	COO	_	4	mark	_	_	302.519989	302.549988	unifr12-lua
+2	j'	je	CLS	CLS	_	4	subj	_	_	302.869995	302.929993	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	302.940002	303.000000	unifr12-lua
+4	fait	faire	VPP	VPP	_	0	root	_	_	303.010010	303.230011	unifr12-lua
+5	pas	pas	ADN	ADN	_	6	dep	_	_	303.239990	303.339996	unifr12-lua
+6	mal	mal	ADV	ADV	_	4	dep	_	_	303.350006	303.480011	unifr12-lua
+7	de	de	PRE	PRE	_	4	dep	_	_	303.489990	303.600006	unifr12-lua
+8	délits	délit	NOM	NOM	_	7	dep	_	_	303.609985	303.850006	unifr12-lua
+9	de	de	PRE	PRE	_	8	dep	_	_	303.859985	303.880005	unifr12-lua
+10	fuite	fuite	NOM	NOM	_	9	dep	_	_	303.890015	304.140015	unifr12-lua
+11	avec	avec	PRE	PRE	_	4	dep	_	_	304.149994	304.320007	unifr12-lua
+12	celle-là	celui-là	PRO	PRO	_	11	dep	_	_	304.329987	304.549988	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-114
+# text = vu que j'étais pas dans les règles
+1	vu	voir	VPP	VPP	_	0	root	_	_	304.559998	304.700012	unifr12-lua
+2	que	que	CSU	CSU	_	1	dep	_	_	304.709991	304.760010	unifr12-lua
+3	j'	je	CLS	CLS	_	4	subj	_	_	304.829987	304.899994	unifr12-lua
+4	étais	être	VRB	VRB	_	2	dep	_	_	304.910004	305.049988	unifr12-lua
+5	pas	pas	ADN	ADN	_	4	dep	_	_	305.059998	305.220001	unifr12-lua
+6	dans	dans	PRE	PRE	_	4	dep	_	_	305.230011	305.339996	unifr12-lua
+7	les	le	DET	DET	_	8	spe	_	_	305.350006	305.450012	unifr12-lua
+8	règles	règle	NOM	NOM	_	6	dep	_	_	305.549988	305.829987	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-115
+# text = j'avais pas de plaques sur la moto
+1	j'	je	CLS	CLS	_	2	subj	_	_	306.630005	306.649994	unifr12-lua
+2	avais	avoir	VRB	VRB	_	0	root	_	_	306.660004	306.829987	unifr12-lua
+3	pas	pas	ADN	ADN	_	2	dep	_	_	306.839996	306.970001	unifr12-lua
+4	de	de	PRE	PRE	_	2	dep	_	_	306.980011	307.040009	unifr12-lua
+5	plaques	plaque	NOM	NOM	_	4	dep	_	_	307.049988	307.209991	unifr12-lua
+6	sur	sur	PRE	PRE	_	2	dep	_	_	307.220001	307.350006	unifr12-lua
+7	la	le	DET	DET	_	8	spe	_	_	307.359985	307.420013	unifr12-lua
+8	moto	moto	NOM	NOM	_	6	dep	_	_	307.429993	307.820007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-116
+# text = et puis une fois je me suis fait attraper en partant euh d'une petite soirée en délit de fuite
+1	et puis	et puis	COO	COO	_	7	mark	_	_	308.859985	309.059998	unifr12-lua
+2	une	un	DET	DET	_	3	spe	_	_	309.070007	309.149994	unifr12-lua
+3	fois	foi	NOM	NOM	_	7	periph	_	_	309.160004	309.290009	unifr12-lua
+4	je	je	CLS	CLS	_	7	subj	_	_	309.299988	309.410004	unifr12-lua
+5	me	me	CLI	CLI	_	7	dep	_	_	309.420013	309.440002	unifr12-lua
+6	suis	être	VRB	VRB	_	7	aux	_	_	309.450012	309.600006	unifr12-lua
+7	fait	faire	VPP	VPP	_	0	root	_	_	309.609985	309.679993	unifr12-lua
+8	attraper	attraper	VNF	VNF	_	7	dep	_	_	309.690002	310.089996	unifr12-lua
+9	en	en	PRE	PRE	_	8	dep	_	_	310.100006	310.230011	unifr12-lua
+10	partant	partir	VPR	VPR	_	9	dep	_	_	310.239990	310.880005	unifr12-lua
+11	euh	euh	INT	INT	_	10	dm	_	_	310.890015	311.209991	unifr12-lua
+12	d'	de	PRE	PRE	_	10	dep	_	_	311.269989	311.290009	unifr12-lua
+13	une	un	DET	DET	_	15	spe	_	_	311.440002	311.559998	unifr12-lua
+14	petite	petit	ADJ	ADJ	_	15	dep	_	_	311.570007	311.739990	unifr12-lua
+15	soirée	soirée	NOM	NOM	_	12	dep	_	_	311.750000	312.149994	unifr12-lua
+16	en	en	PRE	PRE	_	8	dep	_	_	313.160004	313.179993	unifr12-lua
+17	délit	délit	NOM	NOM	_	16	dep	_	_	313.190002	313.410004	unifr12-lua
+18	de	de	PRE	PRE	_	17	dep	_	_	313.420013	313.450012	unifr12-lua
+19	fuite	fuite	NOM	NOM	_	18	dep	_	_	313.459991	313.890015	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-117
+# text = et là j'ai eu six mois de retrait de permis en cinquante centimètres cube
+1	et	et	COO	COO	_	5	mark	_	_	314.209991	314.250000	unifr12-lua
+2	là	là	ADV	ADV	_	5	periph	_	_	314.260010	314.350006	unifr12-lua
+3	j'	je	CLS	CLS	_	5	subj	_	_	314.359985	314.470001	unifr12-lua
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	314.480011	314.630005	unifr12-lua
+5	eu	avoir	VPP	VPP	_	0	root	_	_	314.640015	314.799988	unifr12-lua
+6	six	six	NUM	NUM	_	7	spe	_	_	314.809998	315.029999	unifr12-lua
+7	mois	moi	NOM	NOM	_	5	dep	_	_	315.040009	315.160004	unifr12-lua
+8	de	de	PRE	PRE	_	7	dep	_	_	315.170013	315.190002	unifr12-lua
+9	retrait	retrait	NOM	NOM	_	8	dep	_	_	315.200012	315.459991	unifr12-lua
+10	de	de	PRE	PRE	_	9	dep	_	_	315.470001	315.489990	unifr12-lua
+11	permis	permis	NOM	NOM	_	10	dep	_	_	315.549988	315.820007	unifr12-lua
+12	en	en	PRE	PRE	_	5	dep	_	_	315.829987	315.940002	unifr12-lua
+13	cinquante	cinquante	NUM	NUM	_	14	spe	_	_	315.950012	316.269989	unifr12-lua
+14	centimètres	centimètre	NOM	NOM	_	12	dep	_	_	316.279999	316.660004	unifr12-lua
+15	cube	cube	ADJ	ADJ	_	14	dep	_	_	316.670013	316.820007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-118
+# text = six mois de retrait de permis
+1	six	six	NUM	NUM	_	2	spe	_	_	317.910004	317.989990	unifr12-fsa
+2	mois	moi	NOM	NOM	_	0	root	_	_	318.000000	318.100006	unifr12-fsa
+3	de	de	PRE	PRE	_	2	dep	_	_	318.109985	318.130005	unifr12-fsa
+4	retrait	retrait	NOM	NOM	_	3	dep	_	_	318.140015	318.420013	unifr12-fsa
+5	de	de	PRE	PRE	_	4	dep	_	_	318.429993	318.450012	unifr12-fsa
+6	permis	permis	NOM	NOM	_	5	dep	_	_	318.459991	318.850006	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-119
+# text = ouais ça passe très long
+1	ouais	ouais	INT	INT	_	3	dm	_	_	319.790009	319.989990	unifr12-lua
+2	ça	ça	PRO	PRO	_	3	subj	_	_	320.299988	320.429993	unifr12-lua
+3	passe	passer	VRB	VRB	_	0	root	_	_	320.440002	320.790009	unifr12-lua
+4	très	très	ADV	ADV	_	5	dep	_	_	320.859985	321.059998	unifr12-lua
+5	long	long	ADJ	ADJ	_	3	dep	_	_	321.070007	321.179993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-120
+# text = et puis euh bon une fois passée cette période est-ce que tu as eu encore euh
+1	et puis	et puis	COO	COO	_	9	mark	_	_	321.959991	322.350006	unifr12-fsa
+2	euh	euh	INT	INT	_	1	dm	_	_	322.720001	322.760010	unifr12-fsa
+3	bon	bon	INT	INT	_	2	dm	_	_	323.820007	324.100006	unifr12-fsa
+4	une	un	DET	DET	_	5	spe	_	_	324.109985	324.230011	unifr12-fsa
+5	fois	foi	NOM	NOM	_	9	periph	_	_	324.239990	324.470001	unifr12-fsa
+6	passée	passer	VPP	VPP	_	5	dep	_	_	324.480011	324.690002	unifr12-fsa
+7	cette	ce	DET	DET	_	8	spe	_	_	324.700012	324.929993	unifr12-fsa
+8	période	période	NOM	NOM	_	5	para	_	_	324.940002	325.459991	unifr12-fsa
+9	est-ce	est-ce	VRB	VRB	_	0	root	_	_	325.779999	325.940002	unifr12-fsa
+10	que	que	CSU	CSU	_	9	dep	_	_	325.950012	325.970001	unifr12-fsa
+11	tu	tu	CLS	CLS	_	13	subj	_	_	325.980011	326.179993	unifr12-fsa
+12	as	avoir	VRB	VRB	_	13	aux	_	_	326.190002	326.339996	unifr12-fsa
+13	eu	avoir	VPP	VPP	_	10	dep	_	_	326.399994	326.420013	unifr12-fsa
+14	encore	encore	ADV	ADV	_	13	dep	_	_	326.429993	326.940002	unifr12-fsa
+15	euh	euh	INT	INT	_	14	dm	_	_	326.950012	326.989990	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-121
+# text = des retraits
+1	des	de	PRE	PRE	_	0	root	_	_	328.089996	328.190002	unifr12-fsa
+2	retraits	retrait	NOM	NOM	_	1	dep	_	_	328.200012	328.609985	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-122
+# text = ou bien tu t'es calmé à ce moment-là
+1	ou	ou	COO	COO	_	6	mark	_	_	328.619995	328.709991	unifr12-fsa
+2	bien	bien	ADV	ADV	_	6	dep	_	_	328.720001	329.029999	unifr12-fsa
+3	tu	tu	CLS	CLS	_	6	subj	_	_	329.040009	329.170013	unifr12-fsa
+4	t'	te	CLI	CLI	_	6	dep	_	_	329.179993	329.239990	unifr12-fsa
+5	es	être	VRB	VRB	_	6	aux	_	_	329.250000	329.309998	unifr12-fsa
+6	calmé	calmer	VPP	VPP	_	0	root	_	_	329.320007	329.630005	unifr12-fsa
+7	à	à	PRE	PRE	_	6	dep	_	_	329.640015	329.670013	unifr12-fsa
+8	ce	ce	DET	DET	_	9	spe	_	_	329.679993	329.779999	unifr12-fsa
+9	moment-là	moment-là	NOM	NOM	_	7	dep	_	_	329.790009	330.149994	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-123
+# text = ben là justement je suis dans un retrait d'une année à cause euh d'un accident avec ma ma grosse moto cette fois
+1	ben	ben	INT	INT	_	5	dm	_	_	331.070007	331.209991	unifr12-lua
+2	là	là	ADV	ADV	_	5	periph	_	_	331.220001	331.369995	unifr12-lua
+3	justement	justement	ADV	ADV	_	5	periph	_	_	331.380005	331.859985	unifr12-lua
+4	je	je	CLS	CLS	_	5	subj	_	_	331.869995	331.959991	unifr12-lua
+5	suis	être	VRB	VRB	_	0	root	_	_	331.970001	332.339996	unifr12-lua
+6	dans	dans	PRE	PRE	_	5	dep	_	_	332.350006	332.589996	unifr12-lua
+7	un	un	DET	DET	_	8	spe	_	_	332.600006	332.670013	unifr12-lua
+8	retrait	retrait	NOM	NOM	_	6	dep	_	_	332.730011	332.959991	unifr12-lua
+9	d'	de	PRE	PRE	_	8	dep	_	_	332.970001	333.010010	unifr12-lua
+10	une	un	DET	DET	_	11	spe	_	_	333.019989	333.149994	unifr12-lua
+11	année	année	NOM	NOM	_	9	dep	_	_	333.160004	333.380005	unifr12-lua
+12	à	à	PRE	PRE	_	5	dep	_	_	334.220001	334.269989	unifr12-lua
+13	cause	cause	NOM	NOM	_	12	dep	_	_	334.279999	334.750000	unifr12-lua
+14	euh	euh	INT	INT	_	13	dm	_	_	334.760010	334.809998	unifr12-lua
+15	d'	de	PRE	PRE	_	13	dep	_	_	334.820007	334.839996	unifr12-lua
+16	un	un	DET	DET	_	17	spe	_	_	334.850006	334.989990	unifr12-lua
+17	accident	accident	NOM	NOM	_	15	dep	_	_	335.000000	335.470001	unifr12-lua
+18	avec	avec	PRE	PRE	_	5	dep	_	_	335.540009	335.790009	unifr12-lua
+19	ma	son	DET	DET	_	22	spe	_	_	335.799988	336.040009	unifr12-lua
+20	ma	son	DET	DET	_	19	para	_	_	336.510010	336.559998	unifr12-lua
+21	grosse	gros	ADJ	ADJ	_	22	dep	_	_	336.570007	336.890015	unifr12-lua
+22	moto	moto	NOM	NOM	_	18	dep	_	_	336.899994	337.160004	unifr12-lua
+23	cette	ce	DET	DET	_	24	spe	_	_	337.170013	337.339996	unifr12-lua
+24	fois	foi	NOM	NOM	_	18	dep	_	_	337.350006	337.549988	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-124
+# text = euh sinon j'ai jamais eu d'autres retraits que s- amorce bon jamais eu euh
+1	euh	euh	INT	INT	_	6	dm	_	_	339.910004	340.420013	unifr12-lua
+2	sinon	sinon	ADV	ADV	_	6	periph	_	_	340.429993	341.230011	unifr12-lua
+3	j'	je	CLS	CLS	_	6	subj	_	_	341.239990	341.359985	unifr12-lua
+4	ai	avoir	VRB	VRB	_	6	aux	_	_	341.369995	341.730011	unifr12-lua
+5	jamais	jamais	ADN	ADN	_	6	dep	_	_	342.109985	342.350006	unifr12-lua
+6	eu	avoir	VPP	VPP	_	0	root	_	_	342.359985	342.459991	unifr12-lua
+7	d'	de	PRE	PRE	_	6	dep	_	_	342.470001	342.519989	unifr12-lua
+8	autres	autre	ADJ	ADJ	_	9	dep	_	_	342.529999	342.809998	unifr12-lua
+9	retraits	retrait	NOM	NOM	_	7	dep	_	_	342.820007	343.089996	unifr12-lua
+10	que	que	PRQ	PRQ	_	12	dep	_	_	343.609985	343.630005	unifr12-lua
+11	s-	s-	CLS	CLS	_	12	subj	_	_	343.640015	343.799988	unifr12-lua
+12	amorce	amorcer	VRB	VRB	_	9	dep	_	_	343.809998	343.950012	unifr12-lua
+13	bon	bon	INT	INT	_	12	dm	_	_	343.959991	344.079987	unifr12-lua
+14	jamais	jamais	ADN	ADN	_	15	dep	_	_	344.429993	344.769989	unifr12-lua
+15	eu	avoir	VPP	VPP	_	12	dep	_	_	344.779999	344.869995	unifr12-lua
+16	euh	euh	INT	INT	_	15	dm	_	_	344.880005	344.970001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-125
+# text = j'ai eu euh un retrait avec chaque véhicule quoi
+1	j'	je	CLS	CLS	_	3	subj	_	_	344.980011	345.070007	unifr12-lua
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	345.079987	345.119995	unifr12-lua
+3	eu	avoir	VPP	VPP	_	0	root	_	_	345.130005	345.320007	unifr12-lua
+4	euh	euh	INT	INT	_	3	dm	_	_	345.329987	345.440002	unifr12-lua
+5	un	un	DET	DET	_	6	spe	_	_	347.070007	347.140015	unifr12-lua
+6	retrait	retrait	NOM	NOM	_	3	dep	_	_	347.149994	347.390015	unifr12-lua
+7	avec	avec	PRE	PRE	_	3	dep	_	_	347.399994	347.609985	unifr12-lua
+8	chaque	chaque	DET	DET	_	9	spe	_	_	347.619995	347.829987	unifr12-lua
+9	véhicule	véhicule	NOM	NOM	_	7	dep	_	_	347.839996	348.260010	unifr12-lua
+10	quoi	quoi	INT	INT	_	9	dm	_	_	348.269989	348.519989	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-126
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	349.649994	350.130005	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-127
+# text = sinon non
+1	sinon	sinon	ADV	ADV	_	0	root	_	_	350.140015	350.540009	unifr12-lua
+2	non	non	INT	INT	_	1	dm	_	_	350.549988	350.600006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-128
+# text = non mais pourquoi cette fois tu as eu le retrait
+1	non	non	INT	INT	_	8	dm	_	_	350.609985	350.779999	unifr12-fsa
+2	mais	mais	COO	COO	_	8	mark	_	_	352.630005	352.730011	unifr12-fsa
+3	pourquoi	pourquoi	PRQ	PRQ	_	5	dep	_	_	352.739990	353.059998	unifr12-fsa
+4	cette	ce	DET	DET	_	5	spe	_	_	353.100006	353.220001	unifr12-fsa
+5	fois	foi	NOM	NOM	_	8	periph	_	_	353.230011	353.350006	unifr12-fsa
+6	tu	tu	CLS	CLS	_	8	subj	_	_	353.359985	353.459991	unifr12-fsa
+7	as	avoir	VRB	VRB	_	8	aux	_	_	353.470001	353.489990	unifr12-fsa
+8	eu	avoir	VPP	VPP	_	0	root	_	_	353.500000	353.640015	unifr12-fsa
+9	le	le	DET	DET	_	10	spe	_	_	353.649994	353.670013	unifr12-fsa
+10	retrait	retrait	NOM	NOM	_	8	dep	_	_	353.679993	353.880005	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-129
+# text = raconte-moi un peu
+1	raconte-moi	raconte-moi	PRO	PRO	_	0	root	_	_	354.279999	354.619995	unifr12-fsa
+2	un peu	un peu	ADV	ADV	_	1	dep	_	_	354.630005	354.890015	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-130
+# text = ton
+1	ton	son	DET	DET	_	0	root	_	_	354.959991	355.290009	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-131
+# text = je j'ai été chez   acheter une Go Pro avec un copain
+1	je	je	CLS	CLS	_	4	subj	_	_	356.179993	357.140015	unifr12-lua
+2	j'	je	CLS	CLS	_	1	para	_	_	358.600006	358.640015	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	358.649994	358.720001	unifr12-lua
+4	été	être	VPP	VPP	_	0	root	_	_	358.730011	358.859985	unifr12-lua
+5	chez	chez	PRE	PRE	_	4	dep	_	_	358.869995	358.950012	unifr12-lua
+6	#	#	CLI	CLI	_	7	dep	_	_	358.970001	358.970001	unifr12-lua
+7	acheter	acheter	VNF	VNF	_	5	dep	_	_	359.859985	360.019989	unifr12-lua
+8	une	un	DET	DET	_	9	spe	_	_	360.029999	360.130005	unifr12-lua
+9	Go	giga-octet	NOM	NOM	_	7	dep	_	_	360.140015	360.309998	unifr12-lua
+10	Pro	pro	NOM	NOM	_	9	dep	_	_	360.320007	360.440002	unifr12-lua
+11	avec	avec	PRE	PRE	_	7	dep	_	_	360.450012	360.570007	unifr12-lua
+12	un	un	DET	DET	_	13	spe	_	_	360.579987	360.630005	unifr12-lua
+13	copain	copain	NOM	NOM	_	11	dep	_	_	360.640015	361.029999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-132
+# text = et on s'est engagé sur l'autoroute à   pour aller direction   où j'ai vu la police derrière
+1	et	et	COO	COO	_	5	mark	_	_	361.859985	362.299988	unifr12-lua
+2	on	on	CLS	CLS	_	5	subj	_	_	362.309998	362.399994	unifr12-lua
+3	s'	se	CLI	CLI	_	5	dep	_	_	362.410004	362.549988	unifr12-lua
+4	est	être	VRB	VRB	_	5	aux	_	_	362.559998	362.589996	unifr12-lua
+5	engagé	engager	VPP	VPP	_	0	root	_	_	362.600006	362.959991	unifr12-lua
+6	sur	sur	PRE	PRE	_	5	dep	_	_	362.970001	363.100006	unifr12-lua
+7	l'	le	DET	DET	_	8	spe	_	_	363.109985	363.130005	unifr12-lua
+8	autoroute	autoroute	NOM	NOM	_	6	dep	_	_	363.140015	363.420013	unifr12-lua
+9	à	à	PRE	PRE	_	8	dep	_	_	363.429993	363.470001	unifr12-lua
+10	#	#	NOM	NOM	_	9	dep	_	_	363.500000	363.500000	unifr12-lua
+11	pour	pour	PRE	PRE	_	5	dep	_	_	364.760010	364.839996	unifr12-lua
+12	aller	aller	VNF	VNF	_	11	dep	_	_	364.850006	364.929993	unifr12-lua
+13	direction	direction	NOM	NOM	_	12	dep	_	_	364.940002	365.339996	unifr12-lua
+14	#	#	X	X	_	13	disflink	_	_	365.359985	365.359985	unifr12-lua
+15	où	où	PRQ	PRQ	_	18	dep	_	_	366.760010	366.850006	unifr12-lua
+16	j'	je	CLS	CLS	_	18	subj	_	_	367.049988	367.149994	unifr12-lua
+17	ai	avoir	VRB	VRB	_	18	aux	_	_	367.160004	367.239990	unifr12-lua
+18	vu	voir	VPP	VPP	_	13	dep	_	_	367.250000	367.350006	unifr12-lua
+19	la	le	DET	DET	_	20	spe	_	_	367.359985	367.510010	unifr12-lua
+20	police	police	NOM	NOM	_	18	dep	_	_	367.519989	367.820007	unifr12-lua
+21	derrière	derrière	PRE	PRE	_	18	dep	_	_	367.829987	368.269989	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-133
+# text = et je me suis dit que je voulais pas ravoir une amende de
+1	et	et	COO	COO	_	5	mark	_	_	368.279999	368.309998	unifr12-lua
+2	je	je	CLS	CLS	_	5	subj	_	_	368.320007	368.390015	unifr12-lua
+3	me	me	CLI	CLI	_	5	dep	_	_	368.399994	368.489990	unifr12-lua
+4	suis	être	VRB	VRB	_	5	aux	_	_	368.500000	368.660004	unifr12-lua
+5	dit	dire	VPP	VPP	_	0	root	_	_	368.670013	368.779999	unifr12-lua
+6	que	que	CSU	CSU	_	5	dep	_	_	368.790009	369.170013	unifr12-lua
+7	je	je	CLS	CLS	_	8	subj	_	_	369.269989	369.339996	unifr12-lua
+8	voulais	vouloir	VRB	VRB	_	6	dep	_	_	369.350006	369.600006	unifr12-lua
+9	pas	pas	ADN	ADN	_	8	dep	_	_	369.679993	369.820007	unifr12-lua
+10	ravoir	ravoir	VNF	VNF	_	8	dep	_	_	369.829987	370.070007	unifr12-lua
+11	une	un	DET	DET	_	12	spe	_	_	370.079987	370.149994	unifr12-lua
+12	amende	amende	NOM	NOM	_	10	dep	_	_	370.160004	370.359985	unifr12-lua
+13	de	de	PRE	PRE	_	12	dep	_	_	370.369995	370.420013	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-134
+# text = trois cent
+1	trois	trois	NUM	NUM	_	0	root	_	_	370.429993	370.609985	unifr12-lua
+2	cent	cent	NUM	NUM	_	1	dep	_	_	370.619995	370.760010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-135
+# text = francs suites de syllabes
+1	francs	franc	NOM	NOM	_	0	root	_	_	370.769989	371.079987	unifr12-lua
+2	suites	suite	NOM	NOM	_	1	dep	_	_	371.970001	371.970001	unifr12-lua
+3	de	de	PRE	PRE	_	2	dep	_	_	371.970001	371.970001	unifr12-lua
+4	syllabes	syllabe	NOM	NOM	_	3	dep	_	_	371.970001	371.970001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-136
+# text = et j'ai loupé une sortie d'autoroute
+1	et	et	COO	COO	_	4	mark	_	_	373.609985	373.730011	unifr12-lua
+2	j'	je	CLS	CLS	_	4	subj	_	_	373.739990	373.820007	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	373.829987	373.880005	unifr12-lua
+4	loupé	louper	VPP	VPP	_	0	root	_	_	373.890015	374.109985	unifr12-lua
+5	une	un	DET	DET	_	6	spe	_	_	374.119995	374.190002	unifr12-lua
+6	sortie	sortie	NOM	NOM	_	4	dep	_	_	374.200012	374.420013	unifr12-lua
+7	d'	de	PRE	PRE	_	6	dep	_	_	374.429993	374.450012	unifr12-lua
+8	autoroute	autoroute	NOM	NOM	_	7	dep	_	_	374.459991	374.970001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-137
+# text = et j'ai tapé dans une bordure à à une hau- amorce à une haute vitesse
+1	et	et	COO	COO	_	4	mark	_	_	374.980011	375.029999	unifr12-lua
+2	j'	je	CLS	CLS	_	4	subj	_	_	375.040009	375.109985	unifr12-lua
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	375.119995	375.160004	unifr12-lua
+4	tapé	se taper	VPP	VPP	_	0	root	_	_	375.170013	375.410004	unifr12-lua
+5	dans	dans	PRE	PRE	_	4	dep	_	_	375.420013	375.589996	unifr12-lua
+6	une	un	DET	DET	_	7	spe	_	_	375.600006	375.660004	unifr12-lua
+7	bordure	bordure	NOM	NOM	_	5	dep	_	_	375.670013	375.980011	unifr12-lua
+8	à	à	PRE	PRE	_	4	dep	_	_	376.779999	377.109985	unifr12-lua
+9	à	à	PRE	PRE	_	8	para	_	_	377.630005	377.769989	unifr12-lua
+10	une	un	DET	DET	_	11	spe	_	_	377.779999	377.890015	unifr12-lua
+11	hau-	hau-	NOM	NOM	_	9	dep	_	_	377.899994	377.920013	unifr12-lua
+12	amorce	amorce	NOM	NOM	_	11	dep	_	_	377.929993	378.070007	unifr12-lua
+13	à	à	PRE	PRE	_	9	para	_	_	378.420013	378.559998	unifr12-lua
+14	une	un	DET	DET	_	16	spe	_	_	378.570007	378.739990	unifr12-lua
+15	haute	haut	ADJ	ADJ	_	16	dep	_	_	378.820007	378.989990	unifr12-lua
+16	vitesse	vitesse	NOM	NOM	_	13	dep	_	_	379.000000	379.600006	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-138
+# text = et puis ça faisait perte de maîtrise puis avec mes antécéd- amorce avec mes antécédants
+1	et puis	et puis	COO	COO	_	3	mark	_	_	380.980011	381.140015	unifr12-lua
+2	ça	ça	PRO	PRO	_	3	subj	_	_	381.149994	381.309998	unifr12-lua
+3	faisait	faire	VRB	VRB	_	0	root	_	_	381.320007	381.649994	unifr12-lua
+4	perte	perte	NOM	NOM	_	3	dep	_	_	381.660004	381.799988	unifr12-lua
+5	de	de	PRE	PRE	_	4	dep	_	_	381.809998	381.940002	unifr12-lua
+6	maîtrise	maîtrise	NOM	NOM	_	5	dep	_	_	381.950012	382.420013	unifr12-lua
+7	puis	puis	COO	COO	_	8	mark	_	_	382.429993	382.519989	unifr12-lua
+8	avec	avec	PRE	PRE	_	5	para	_	_	382.529999	382.640015	unifr12-lua
+9	mes	son	DET	DET	_	10	spe	_	_	382.649994	382.790009	unifr12-lua
+10	antécéd-	antécéd-	NOM	NOM	_	8	dep	_	_	382.799988	383.100006	unifr12-lua
+11	amorce	amorce	NOM	NOM	_	10	dep	_	_	383.109985	383.359985	unifr12-lua
+12	avec	avec	PRE	PRE	_	8	para	_	_	383.459991	383.660004	unifr12-lua
+13	mes	son	DET	DET	_	14	spe	_	_	383.670013	383.869995	unifr12-lua
+14	antécédants	antécédants	NOM	NOM	_	12	dep	_	_	383.880005	384.679993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-139
+# text = ils m'ont pris une année
+1	ils	il	CLS	CLS	_	4	subj	_	_	385.459991	385.519989	unifr12-lua
+2	m'	me	CLI	CLI	_	4	dep	_	_	385.529999	385.549988	unifr12-lua
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	385.559998	385.640015	unifr12-lua
+4	pris	-	VPP	VPP	_	0	root	_	_	385.649994	385.869995	unifr12-lua
+5	une	un	DET	DET	_	6	spe	_	_	385.880005	386.010010	unifr12-lua
+6	année	année	NOM	NOM	_	4	dep	_	_	386.019989	386.179993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-140
+# text = une année de retrait de permis
+1	une	un	DET	DET	_	2	spe	_	_	386.940002	386.989990	unifr12-fsa
+2	année	année	NOM	NOM	_	0	root	_	_	387.000000	387.190002	unifr12-fsa
+3	de	de	PRE	PRE	_	2	dep	_	_	387.200012	387.230011	unifr12-fsa
+4	retrait	retrait	NOM	NOM	_	3	dep	_	_	387.239990	387.549988	unifr12-fsa
+5	de	de	PRE	PRE	_	4	dep	_	_	387.559998	387.579987	unifr12-fsa
+6	permis	permis	NOM	NOM	_	5	dep	_	_	387.630005	388.029999	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-141
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	388.160004	388.290009	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-142
+# text = et cette fois est-ce que tu réfléchis un petit peu au au danger au à la justice à quelque chose comme ça
+1	et	et	COO	COO	_	4	mark	_	_	389.049988	389.070007	unifr12-fsa
+2	cette	ce	DET	DET	_	3	spe	_	_	389.079987	389.350006	unifr12-fsa
+3	fois	foi	NOM	NOM	_	4	subj	_	_	389.359985	389.700012	unifr12-fsa
+4	est-ce	est-ce	VRB	VRB	_	0	root	_	_	389.809998	389.940002	unifr12-fsa
+5	que	que	CSU	CSU	_	4	dep	_	_	389.950012	390.170013	unifr12-fsa
+6	tu	tu	CLS	CLS	_	7	subj	_	_	391.329987	391.470001	unifr12-fsa
+7	réfléchis	réfléchir	VPP	VPP	_	5	dep	_	_	391.480011	391.839996	unifr12-fsa
+8	un	un	DET	DET	_	10	spe	_	_	391.850006	391.980011	unifr12-fsa
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	391.989990	392.200012	unifr12-fsa
+10	peu	peu	NOM	NOM	_	7	dep	_	_	392.269989	392.510010	unifr12-fsa
+11	au	à+le	PRE	PRE	_	7	dep	_	_	392.519989	392.700012	unifr12-fsa
+12	au	à+le	PRE	PRE	_	11	para	_	_	392.880005	392.970001	unifr12-fsa
+13	danger	danger	NOM	NOM	_	12	dep	_	_	392.980011	393.989990	unifr12-fsa
+14	au	à+le	PRE	PRE	_	7	dep	_	_	394.000000	394.019989	unifr12-fsa
+15	à	à	PRE	PRE	_	14	para	_	_	397.200012	397.260010	unifr12-fsa
+16	la	le	DET	DET	_	17	spe	_	_	397.269989	397.380005	unifr12-fsa
+17	justice	justice	NOM	NOM	_	15	dep	_	_	397.390015	397.950012	unifr12-fsa
+18	à	à	PRE	PRE	_	17	dep	_	_	398.140015	398.160004	unifr12-fsa
+19	quelque chose	quelque chose	PRO	PRO	_	18	dep	_	_	398.170013	398.519989	unifr12-fsa
+20	comme	comme	PRE	PRE	_	19	dep	_	_	398.529999	398.670013	unifr12-fsa
+21	ça	ça	PRO	PRO	_	20	dep	_	_	398.679993	398.839996	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-143
+# text = euh je je pense que je vais essayer de rouler quand même moins fort
+1	euh	euh	INT	INT	_	4	dm	_	_	398.359985	398.480011	unifr12-lua
+2	je	je	CLS	CLS	_	4	subj	_	_	400.470001	400.750000	unifr12-lua
+3	je	je	CLS	CLS	_	2	para	_	_	401.109985	401.160004	unifr12-lua
+4	pense	penser	VRB	VRB	_	0	root	_	_	401.200012	401.429993	unifr12-lua
+5	que	que	CSU	CSU	_	4	dep	_	_	401.440002	401.540009	unifr12-lua
+6	je	je	CLS	CLS	_	7	subj	_	_	401.549988	401.579987	unifr12-lua
+7	vais	aller	VRB	VRB	_	5	dep	_	_	401.589996	401.640015	unifr12-lua
+8	essayer	essayer	VNF	VNF	_	7	dep	_	_	401.649994	401.839996	unifr12-lua
+9	de	de	PRE	PRE	_	8	dep	_	_	401.850006	401.929993	unifr12-lua
+10	rouler	rouler	VNF	VNF	_	9	dep	_	_	401.940002	402.109985	unifr12-lua
+11	quand	quand	CSU	CSU	_	10	dep	_	_	402.119995	402.209991	unifr12-lua
+12	même	même	ADV	ADV	_	13	dep	_	_	402.220001	402.359985	unifr12-lua
+13	moins	moins	ADV	ADV	_	14	dep	_	_	402.369995	402.470001	unifr12-lua
+14	fort	fort	ADJ	ADJ	_	11	dep	_	_	402.480011	402.839996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-144
+# text = mais niveau modification je pense pas que ça va changer grand chose
+1	mais	mais	COO	COO	_	5	mark	_	_	404.309998	404.519989	unifr12-lua
+2	niveau	niveau	NOM	NOM	_	5	periph	_	_	404.529999	404.760010	unifr12-lua
+3	modification	modification	NOM	NOM	_	2	dep	_	_	404.769989	405.510010	unifr12-lua
+4	je	je	CLS	CLS	_	5	subj	_	_	405.519989	405.600006	unifr12-lua
+5	pense	penser	VRB	VRB	_	0	root	_	_	405.609985	405.820007	unifr12-lua
+6	pas	pas	ADN	ADN	_	5	dep	_	_	405.829987	405.970001	unifr12-lua
+7	que	que	CSU	CSU	_	5	dep	_	_	405.980011	406.000000	unifr12-lua
+8	ça	ça	PRO	PRO	_	9	subj	_	_	406.010010	406.119995	unifr12-lua
+9	va	aller	VRB	VRB	_	7	dep	_	_	406.130005	406.200012	unifr12-lua
+10	changer	changer	VNF	VNF	_	9	dep	_	_	406.209991	406.489990	unifr12-lua
+11	grand	grand	ADJ	ADJ	_	12	dep	_	_	406.500000	406.660004	unifr12-lua
+12	chose	chose	NOM	NOM	_	10	dep	_	_	406.670013	407.010010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-145
+# text = parce que c'est pas quelque chose euh ouais
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	407.440002	407.970001	unifr12-lua
+2	c'	ce	CLS	CLS	_	3	subj	_	_	407.980011	408.070007	unifr12-lua
+3	est	être	VRB	VRB	_	1	dep	_	_	408.079987	408.100006	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	408.160004	408.269989	unifr12-lua
+5	quelque chose	quelque chose	PRO	PRO	_	3	dep	_	_	408.279999	409.019989	unifr12-lua
+6	euh	euh	INT	INT	_	5	dm	_	_	409.029999	409.049988	unifr12-lua
+7	ouais	ouais	INT	INT	_	6	dm	_	_	409.700012	409.859985	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-146
+# text = comme on comme je dis c'est une passion
+1	comme	comme	CSU	CSU	_	7	periph	_	_	409.869995	410.010010	unifr12-lua
+2	on	on	CLS	CLS	_	3	subj	_	_	410.019989	410.260010	unifr12-lua
+3	comme	comme	VRB	VRB	_	1	dep	_	_	410.269989	410.459991	unifr12-lua
+4	je	je	CLS	CLS	_	5	subj	_	_	410.470001	410.519989	unifr12-lua
+5	dis	dire	VRB	VRB	_	3	dm	_	_	410.529999	410.630005	unifr12-lua
+6	c'	ce	CLS	CLS	_	7	subj	_	_	410.640015	410.739990	unifr12-lua
+7	est	être	VRB	VRB	_	0	root	_	_	410.750000	410.769989	unifr12-lua
+8	une	un	DET	DET	_	9	spe	_	_	410.779999	410.859985	unifr12-lua
+9	passion	passion	NOM	NOM	_	7	dep	_	_	410.869995	411.440002	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-147
+# text = puis c'est des choses que tu peux pas tellement arrêter
+1	puis	puis	COO	COO	_	3	mark	_	_	411.450012	411.570007	unifr12-lua
+2	c'	ce	CLS	CLS	_	3	subj	_	_	411.579987	411.670013	unifr12-lua
+3	est	être	VRB	VRB	_	0	root	_	_	411.679993	411.709991	unifr12-lua
+4	des	de	PRE	PRE	_	3	dep	_	_	411.720001	411.799988	unifr12-lua
+5	choses	chose	NOM	NOM	_	4	dep	_	_	411.809998	412.049988	unifr12-lua
+6	que	que	CSU	CSU	_	3	dep	_	_	412.059998	412.119995	unifr12-lua
+7	tu	tu	CLS	CLS	_	8	subj	_	_	413.239990	413.309998	unifr12-lua
+8	peux	pouvoir	VRB	VRB	_	6	dep	_	_	413.320007	413.450012	unifr12-lua
+9	pas	pas	ADN	ADN	_	8	dep	_	_	413.459991	413.660004	unifr12-lua
+10	tellement	tellement	ADV	ADV	_	8	dep	_	_	413.670013	413.970001	unifr12-lua
+11	arrêter	arrêter	VNF	VNF	_	8	dep	_	_	413.980011	414.420013	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-148
+# text = tu peux pas tellement arrêter de modifier toujours tes véhicules
+1	tu	tu	CLS	CLS	_	2	subj	_	_	417.390015	417.500000	unifr12-lua
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	417.510010	417.660004	unifr12-lua
+3	pas	pas	ADN	ADN	_	2	dep	_	_	417.670013	417.820007	unifr12-lua
+4	tellement	tellement	ADV	ADV	_	5	dep	_	_	417.829987	418.059998	unifr12-lua
+5	arrêter	arrêter	VNF	VNF	_	2	dep	_	_	418.070007	418.309998	unifr12-lua
+6	de	de	PRE	PRE	_	5	dep	_	_	418.320007	418.339996	unifr12-lua
+7	modifier	modifier	VNF	VNF	_	6	dep	_	_	418.350006	418.709991	unifr12-lua
+8	toujours	toujours	ADV	ADV	_	7	dep	_	_	418.720001	418.989990	unifr12-lua
+9	tes	son	DET	DET	_	10	spe	_	_	419.000000	419.130005	unifr12-lua
+10	véhicules	véhicule	NOM	NOM	_	7	dep	_	_	419.140015	419.549988	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-149
+# text = mais je pense essayer de rouler moins vite oui pour au moins éviter d'avoir des des amendes de de vitesse
+1	mais	mais	COO	COO	_	3	mark	_	_	419.559998	419.700012	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	419.709991	419.869995	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	419.910004	420.170013	unifr12-lua
+4	essayer	essayer	VNF	VNF	_	3	dep	_	_	420.179993	420.450012	unifr12-lua
+5	de	de	PRE	PRE	_	4	dep	_	_	420.459991	420.480011	unifr12-lua
+6	rouler	rouler	VNF	VNF	_	5	dep	_	_	420.489990	420.619995	unifr12-lua
+7	moins	moins	ADV	ADV	_	8	dep	_	_	420.630005	420.779999	unifr12-lua
+8	vite	vite	ADV	ADV	_	6	dep	_	_	420.790009	421.029999	unifr12-lua
+9	oui	oui	INT	INT	_	8	dm	_	_	421.040009	421.160004	unifr12-lua
+10	pour	pour	PRE	PRE	_	4	dep	_	_	422.019989	422.170013	unifr12-lua
+11	au	à+le	PRE	PRE	_	10	para	_	_	422.179993	422.209991	unifr12-lua
+12	moins	moins	ADV	ADV	_	11	dep	_	_	422.220001	422.399994	unifr12-lua
+13	éviter	éviter	VNF	VNF	_	10	dep	_	_	422.410004	422.730011	unifr12-lua
+14	d'	de	PRE	PRE	_	13	dep	_	_	422.739990	422.790009	unifr12-lua
+15	avoir	avoir	VNF	VNF	_	14	dep	_	_	422.799988	423.029999	unifr12-lua
+16	des	de	PRE	PRE	_	15	dep	_	_	423.040009	423.359985	unifr12-lua
+17	des	de	PRE	PRE	_	16	para	_	_	423.369995	423.559998	unifr12-lua
+18	amendes	amende	NOM	NOM	_	17	dep	_	_	423.570007	423.890015	unifr12-lua
+19	de	de	PRE	PRE	_	18	dep	_	_	423.899994	424.100006	unifr12-lua
+20	de	de	PRE	PRE	_	19	para	_	_	424.209991	424.320007	unifr12-lua
+21	vitesse	vitesse	NOM	NOM	_	20	dep	_	_	424.329987	424.829987	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-150
+# text = mais en moto c'est v- amorce c'est très dur de de rouler aux limitations
+1	mais	mais	COO	COO	_	5	mark	_	_	425.989990	426.089996	unifr12-lua
+2	en	en	PRE	PRE	_	5	periph	_	_	426.100006	426.140015	unifr12-lua
+3	moto	moto	NOM	NOM	_	2	dep	_	_	426.149994	426.429993	unifr12-lua
+4	c'	ce	CLS	CLS	_	5	subj	_	_	426.440002	426.570007	unifr12-lua
+5	est	être	VRB	VRB	_	0	root	_	_	426.579987	426.609985	unifr12-lua
+6	v-	v-	CLS	CLS	_	7	subj	_	_	426.619995	426.700012	unifr12-lua
+7	amorce	amorcer	VRB	VRB	_	5	para	_	_	426.709991	426.850006	unifr12-lua
+8	c'	ce	CLS	CLS	_	9	subj	_	_	427.070007	427.160004	unifr12-lua
+9	est	être	VRB	VRB	_	5	para	_	_	427.170013	427.209991	unifr12-lua
+10	très	très	ADV	ADV	_	11	dep	_	_	427.220001	427.480011	unifr12-lua
+11	dur	dur	ADJ	ADJ	_	9	dep	_	_	427.489990	427.640015	unifr12-lua
+12	de	de	PRE	PRE	_	11	dep	_	_	427.649994	427.790009	unifr12-lua
+13	de	de	PRE	PRE	_	12	para	_	_	428.100006	428.230011	unifr12-lua
+14	rouler	rouler	VNF	VNF	_	13	dep	_	_	428.239990	428.410004	unifr12-lua
+15	aux	à+le	PRE	PRE	_	14	dep	_	_	428.420013	428.459991	unifr12-lua
+16	limitations	limitation	NOM	NOM	_	15	dep	_	_	428.470001	429.089996	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-151
+# text = parce que c'est quoi qui te qui te passionne en fait à part euh
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	429.850006	430.000000	unifr12-fsa
+2	c'	ce	CLS	CLS	_	3	subj	_	_	430.010010	430.049988	unifr12-fsa
+3	est	être	VRB	VRB	_	1	dep	_	_	430.059998	430.170013	unifr12-fsa
+4	quoi	quoi	PRQ	PRQ	_	3	dep	_	_	430.179993	430.359985	unifr12-fsa
+5	qui	qui	PRQ	PRQ	_	3	dep	_	_	430.369995	430.510010	unifr12-fsa
+6	te	te	CLI	CLI	_	5	disflink	_	_	430.519989	430.839996	unifr12-fsa
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	430.880005	431.019989	unifr12-fsa
+8	te	te	CLI	CLI	_	9	dep	_	_	431.029999	431.049988	unifr12-fsa
+9	passionne	passionner	VRB	VRB	_	3	para	_	_	431.119995	431.510010	unifr12-fsa
+10	en	en	PRE	PRE	_	9	dep	_	_	431.519989	431.570007	unifr12-fsa
+11	fait	faire	VPP	VPP	_	10	dep	_	_	431.579987	431.809998	unifr12-fsa
+12	à	à	PRE	PRE	_	11	dep	_	_	431.820007	431.890015	unifr12-fsa
+13	part	part	NOM	NOM	_	12	dep	_	_	431.899994	432.470001	unifr12-fsa
+14	euh	euh	INT	INT	_	13	dm	_	_	432.480011	432.540009	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-152
+# text = ben comme on a entendu euh ben ch-
+1	ben	ben	INT	INT	_	2	dm	_	_	433.600006	434.279999	unifr12-fsa
+2	comme	comme	CSU	CSU	_	0	root	_	_	434.290009	434.519989	unifr12-fsa
+3	on	on	CLS	CLS	_	5	subj	_	_	434.529999	434.609985	unifr12-fsa
+4	a	avoir	VRB	VRB	_	5	aux	_	_	434.619995	434.649994	unifr12-fsa
+5	entendu	entendre	VPP	VPP	_	2	dep	_	_	434.660004	435.329987	unifr12-fsa
+6	euh	euh	INT	INT	_	5	dm	_	_	435.339996	435.380005	unifr12-fsa
+7	ben	ben	INT	INT	_	6	dm	_	_	435.390015	435.500000	unifr12-fsa
+8	ch-	ch-	INT	INT	_	7	dm	_	_	436.000000	436.160004	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-153
+# text = amorce modifier tes moteurs choses comme ça qu'est-ce que qu'est-ce que tu préfères qu'est-ce que t'aimes
+1	amorce	amorcer	VRB	VRB	_	0	root	_	_	436.170013	436.320007	unifr12-fsa
+2	modifier	modifier	VNF	VNF	_	1	dep	_	_	436.329987	436.579987	unifr12-fsa
+3	tes	son	DET	DET	_	4	spe	_	_	436.589996	436.690002	unifr12-fsa
+4	moteurs	moteur	NOM	NOM	_	2	dep	_	_	436.700012	437.369995	unifr12-fsa
+5	choses	chose	NOM	NOM	_	4	dep	_	_	437.380005	437.619995	unifr12-fsa
+6	comme	comme	PRE	PRE	_	5	dep	_	_	437.630005	437.809998	unifr12-fsa
+7	ça	ça	PRO	PRO	_	6	dep	_	_	437.820007	438.100006	unifr12-fsa
+8	qu'	que	PRQ	PRQ	_	9	dep	_	_	439.000000	439.070007	unifr12-fsa
+9	est-ce	est-ce	VRB	VRB	_	4	dep	_	_	439.079987	439.230011	unifr12-fsa
+10	que	que	CSU	CSU	_	9	dep	_	_	439.239990	439.329987	unifr12-fsa
+11	qu'	que	CSU	CSU	_	10	para	_	_	440.040009	440.070007	unifr12-fsa
+12	est-ce	est-ce	NOM	NOM	_	9	dep	_	_	440.079987	440.179993	unifr12-fsa
+13	que	que	CSU	CSU	_	12	dep	_	_	440.190002	440.239990	unifr12-fsa
+14	tu	tu	CLS	CLS	_	15	subj	_	_	440.250000	440.410004	unifr12-fsa
+15	préfères	préférer	VRB	VRB	_	13	dep	_	_	440.420013	440.880005	unifr12-fsa
+16	qu'	que	CSU	CSU	_	13	para	_	_	440.890015	440.970001	unifr12-fsa
+17	est-ce	est-ce	NOM	NOM	_	16	dep	_	_	440.980011	441.049988	unifr12-fsa
+18	que	que	PRQ	PRQ	_	20	dep	_	_	441.100006	441.260010	unifr12-fsa
+19	t'	tu	CLS	CLS	_	20	subj	_	_	441.269989	441.329987	unifr12-fsa
+20	aimes	aimer	VRB	VRB	_	17	dep	_	_	441.429993	441.570007	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-154
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	442.679993	443.040009	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-155
+# text = quand tu roules
+1	quand	quand	CSU	CSU	_	0	root	_	_	443.190002	443.250000	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	443.260010	443.339996	unifr12-fsa
+3	roules	roule	NOM	NOM	_	1	dep	_	_	443.350006	443.709991	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-156
+# text = quelle quelle sensation quelle
+1	quelle	quel	PRQ	PRQ	_	3	dep	_	_	444.179993	444.440002	unifr12-fsa
+2	quelle	quel	PRQ	PRQ	_	1	para	_	_	444.450012	444.570007	unifr12-fsa
+3	sensation	sensation	NOM	NOM	_	0	root	_	_	444.579987	445.470001	unifr12-fsa
+4	quelle	quel	PRQ	PRQ	_	3	dep	_	_	445.480011	445.880005	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-157
+# text = quand je roule
+1	quand	quand	CSU	CSU	_	0	root	_	_	443.850006	443.970001	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	443.980011	444.089996	unifr12-lua
+3	roule	rouler	VRB	VRB	_	1	dep	_	_	444.100006	444.440002	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-158
+# text = ben- jeq uand tu roules en moto
+1	ben-	ben-	INT	INT	_	5	dm	_	_	445.829987	446.070007	unifr12-lua
+2	jeq	jeq	DET	DET	_	3	spe	_	_	446.600006	446.940002	unifr12-lua
+3	uand	uand	NOM	NOM	_	5	periph	_	_	446.950012	447.029999	unifr12-lua
+4	tu	tu	CLS	CLS	_	5	subj	_	_	447.040009	447.179993	unifr12-lua
+5	roules	roule	NOM	NOM	_	0	root	_	_	447.190002	447.339996	unifr12-lua
+6	en	en	PRE	PRE	_	5	dep	_	_	447.350006	447.390015	unifr12-lua
+7	moto	moto	NOM	NOM	_	6	dep	_	_	447.399994	447.700012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-159
+# text = tu te sens libre
+1	tu	tu	CLS	CLS	_	3	subj	_	_	447.709991	447.820007	unifr12-lua
+2	te	te	CLI	CLI	_	3	dep	_	_	447.829987	447.880005	unifr12-lua
+3	sens	sens	NOM	NOM	_	0	root	_	_	447.890015	448.040009	unifr12-lua
+4	libre	libre	ADJ	ADJ	_	3	dep	_	_	448.049988	448.450012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-160
+# text = tu roules tu penses à rien du tout
+1	tu	tu	CLS	CLS	_	2	subj	_	_	448.940002	449.029999	unifr12-lua
+2	roules	roule	NOM	NOM	_	0	root	_	_	449.040009	449.410004	unifr12-lua
+3	tu	tu	CLS	CLS	_	4	subj	_	_	449.420013	449.510010	unifr12-lua
+4	penses	penser	VRB	VRB	_	2	dep	_	_	449.519989	449.720001	unifr12-lua
+5	à	à	PRE	PRE	_	4	dep	_	_	449.730011	449.750000	unifr12-lua
+6	rien	rien	PRO	PRO	_	5	dep	_	_	449.760010	449.899994	unifr12-lua
+7	du	de+le	PRE	PRE	_	6	dep	_	_	449.910004	450.010010	unifr12-lua
+8	tout	tout	PRO	PRO	_	7	dep	_	_	450.019989	450.200012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-161
+# text = et ça te fait oublier tes soucis de la vie
+1	et	et	COO	COO	_	4	mark	_	_	450.209991	450.230011	unifr12-lua
+2	ça	ça	PRO	PRO	_	4	subj	_	_	450.239990	450.380005	unifr12-lua
+3	te	te	CLI	CLI	_	4	dep	_	_	450.390015	450.429993	unifr12-lua
+4	fait	faire	VRB	VRB	_	0	root	_	_	450.440002	450.489990	unifr12-lua
+5	oublier	oublier	VNF	VNF	_	4	dep	_	_	450.500000	450.739990	unifr12-lua
+6	tes	son	DET	DET	_	7	spe	_	_	450.750000	450.850006	unifr12-lua
+7	soucis	souci	NOM	NOM	_	5	dep	_	_	450.859985	451.140015	unifr12-lua
+8	de	de	PRE	PRE	_	7	dep	_	_	451.149994	451.170013	unifr12-lua
+9	la	le	DET	DET	_	10	spe	_	_	451.179993	451.309998	unifr12-lua
+10	vie	vie	NOM	NOM	_	8	dep	_	_	451.320007	451.570007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-162
+# text = tu es seul et puis avec avec ton engin
+1	tu	tu	CLS	CLS	_	2	subj	_	_	453.220001	453.279999	unifr12-lua
+2	es	être	VRB	VRB	_	0	root	_	_	453.290009	453.420013	unifr12-lua
+3	seul	seul	ADJ	ADJ	_	2	dep	_	_	453.429993	453.609985	unifr12-lua
+4	et puis	et puis	COO	COO	_	5	mark	_	_	453.619995	454.279999	unifr12-lua
+5	avec	avec	PRE	PRE	_	2	dep	_	_	454.290009	454.589996	unifr12-lua
+6	avec	avec	PRE	PRE	_	5	para	_	_	454.600006	454.799988	unifr12-lua
+7	ton	son	DET	DET	_	8	spe	_	_	454.809998	454.959991	unifr12-lua
+8	engin	engin	NOM	NOM	_	6	dep	_	_	454.970001	455.390015	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-163
+# text = et plus tu vas vite mieux
+1	et	et	COO	COO	_	4	mark	_	_	455.880005	455.929993	unifr12-fsa
+2	plus	plus	ADN	ADN	_	4	dep	_	_	455.940002	456.059998	unifr12-fsa
+3	tu	tu	CLS	CLS	_	4	subj	_	_	456.070007	456.179993	unifr12-fsa
+4	vas	aller	VRB	VRB	_	0	root	_	_	456.190002	456.350006	unifr12-fsa
+5	vite	vite	ADV	ADV	_	4	dep	_	_	456.359985	456.500000	unifr12-fsa
+6	mieux	mieux	ADV	ADV	_	4	dep	_	_	456.510010	456.649994	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-164
+# text = ça va
+1	ça	ça	PRO	PRO	_	2	subj	_	_	456.660004	456.839996	unifr12-fsa
+2	va	aller	VRB	VRB	_	0	root	_	_	456.850006	457.010010	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-165
+# text = non pas forcément pas forcément juste rouler ça c'est déjà un gros plaisir
+1	non	non	INT	INT	_	7	dm	_	_	457.720001	458.019989	unifr12-lua
+2	pas	pas	ADN	ADN	_	7	dep	_	_	458.029999	458.119995	unifr12-lua
+3	forcément	forcément	ADV	ADV	_	4	dep	_	_	458.130005	458.660004	unifr12-lua
+4	pas	pas	ADN	ADN	_	2	para	_	_	458.670013	458.760010	unifr12-lua
+5	forcément	forcément	ADV	ADV	_	7	dep	_	_	458.769989	459.179993	unifr12-lua
+6	juste	juste	ADV	ADV	_	7	dep	_	_	459.190002	459.480011	unifr12-lua
+7	rouler	rouler	VNF	VNF	_	10	periph	_	_	459.489990	459.799988	unifr12-lua
+8	ça	ça	PRO	PRO	_	7	dep	_	_	459.809998	460.299988	unifr12-lua
+9	c'	ce	CLS	CLS	_	10	subj	_	_	460.309998	460.390015	unifr12-lua
+10	est	être	VRB	VRB	_	0	root	_	_	460.399994	460.429993	unifr12-lua
+11	déjà	déjà	ADV	ADV	_	10	dep	_	_	460.440002	460.570007	unifr12-lua
+12	un	un	DET	DET	_	14	spe	_	_	460.579987	460.989990	unifr12-lua
+13	gros	gros	ADJ	ADJ	_	14	dep	_	_	461.000000	461.230011	unifr12-lua
+14	plaisir	plaisir	NOM	NOM	_	10	dep	_	_	461.239990	461.649994	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-166
+# text = mais oui plus plus tu vas vite plus
+1	mais	mais	COO	COO	_	6	mark	_	_	462.420013	462.500000	unifr12-lua
+2	oui	oui	INT	INT	_	1	dm	_	_	462.510010	462.720001	unifr12-lua
+3	plus	plus	ADN	ADN	_	6	periph	_	_	462.730011	462.970001	unifr12-lua
+4	plus	plus	ADN	ADN	_	3	para	_	_	463.239990	463.339996	unifr12-lua
+5	tu	tu	CLS	CLS	_	6	subj	_	_	463.350006	463.470001	unifr12-lua
+6	vas	aller	VRB	VRB	_	0	root	_	_	463.480011	463.609985	unifr12-lua
+7	vite	vite	ADV	ADV	_	6	dep	_	_	463.619995	463.799988	unifr12-lua
+8	plus	plus	ADN	ADN	_	6	dep	_	_	463.809998	463.950012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-167
+# text = tu as de sensations
+1	tu	tu	CLS	CLS	_	2	subj	_	_	463.959991	464.010010	unifr12-lua
+2	as	avoir	VRB	VRB	_	0	root	_	_	464.019989	464.059998	unifr12-lua
+3	de	de	PRE	PRE	_	2	dep	_	_	464.070007	464.089996	unifr12-lua
+4	sensations	sensation	NOM	NOM	_	3	dep	_	_	464.100006	465.070007	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-168
+# text = et mais plus il y a de dangers plus
+1	et	et	COO	COO	_	6	mark	_	_	465.079987	465.109985	unifr12-lua
+2	mais	mais	COO	COO	_	6	mark	_	_	466.130005	466.260010	unifr12-lua
+3	plus	plus	ADN	ADN	_	6	periph	_	_	466.269989	466.390015	unifr12-lua
+4	il	il	CLS	CLS	_	6	subj	_	_	466.399994	466.480011	unifr12-lua
+5	y	y	CLI	CLI	_	6	dep	_	_	466.489990	466.510010	unifr12-lua
+6	a	avoir	VRB	VRB	_	0	root	_	_	466.519989	466.559998	unifr12-lua
+7	de	de	PRE	PRE	_	6	dep	_	_	466.570007	466.660004	unifr12-lua
+8	dangers	danger	NOM	NOM	_	7	dep	_	_	466.670013	467.100006	unifr12-lua
+9	plus	plus	ADN	ADN	_	6	dep	_	_	467.109985	467.309998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-169
+# text = tu peux mourir vite les accidents
+1	tu	tu	CLS	CLS	_	2	subj	_	_	467.320007	467.450012	unifr12-lua
+2	peux	pouvoir	VRB	VRB	_	0	root	_	_	467.459991	467.950012	unifr12-lua
+3	mourir	mourir	VNF	VNF	_	2	dep	_	_	467.959991	468.320007	unifr12-lua
+4	vite	vite	ADV	ADV	_	3	dep	_	_	468.329987	468.570007	unifr12-lua
+5	les	le	DET	DET	_	6	spe	_	_	469.630005	469.799988	unifr12-lua
+6	accidents	accident	NOM	NOM	_	3	dep	_	_	469.809998	470.059998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-170
+# text = ils sont arrivés tellement vite en moto que on peut voir que il y a toujours des des jeunes qui meurent en moto
+1	ils	il	CLS	CLS	_	3	subj	_	_	470.070007	470.119995	unifr12-lua
+2	sont	être	VRB	VRB	_	3	aux	_	_	470.130005	470.329987	unifr12-lua
+3	arrivés	arriver	VPP	VPP	_	0	root	_	_	470.339996	470.559998	unifr12-lua
+4	tellement	tellement	ADV	ADV	_	5	dep	_	_	470.709991	471.070007	unifr12-lua
+5	vite	vite	ADV	ADV	_	3	dep	_	_	471.079987	471.230011	unifr12-lua
+6	en	en	PRE	PRE	_	3	dep	_	_	471.239990	471.299988	unifr12-lua
+7	moto	moto	NOM	NOM	_	6	dep	_	_	471.309998	471.700012	unifr12-lua
+8	que	que	CSU	CSU	_	3	dep	_	_	471.709991	472.049988	unifr12-lua
+9	on	on	CLS	CLS	_	10	subj	_	_	472.950012	473.049988	unifr12-lua
+10	peut	pouvoir	VRB	VRB	_	8	dep	_	_	473.059998	473.220001	unifr12-lua
+11	voir	voir	VNF	VNF	_	10	dep	_	_	473.230011	473.480011	unifr12-lua
+12	que	que	CSU	CSU	_	11	dep	_	_	473.489990	473.540009	unifr12-lua
+13	il	il	CLS	CLS	_	15	subj	_	_	473.549988	473.609985	unifr12-lua
+14	y	y	CLI	CLI	_	15	dep	_	_	473.619995	473.640015	unifr12-lua
+15	a	avoir	VRB	VRB	_	12	dep	_	_	473.649994	473.670013	unifr12-lua
+16	toujours	toujours	ADV	ADV	_	15	dep	_	_	473.679993	473.910004	unifr12-lua
+17	des	de	PRE	PRE	_	15	dep	_	_	473.920013	474.160004	unifr12-lua
+18	des	de	PRE	PRE	_	17	para	_	_	474.170013	474.279999	unifr12-lua
+19	jeunes	jeune	NOM	NOM	_	18	dep	_	_	474.290009	474.500000	unifr12-lua
+20	qui	qui	PRQ	PRQ	_	21	subj	_	_	474.510010	474.609985	unifr12-lua
+21	meurent	mourir	VRB	VRB	_	19	dep	_	_	474.619995	474.799988	unifr12-lua
+22	en	en	PRE	PRE	_	21	dep	_	_	474.809998	474.839996	unifr12-lua
+23	moto	moto	NOM	NOM	_	22	dep	_	_	474.850006	475.239990	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-171
+# text = ça peut arriver à n'importe
+1	ça	ça	PRO	PRO	_	2	subj	_	_	475.619995	475.730011	unifr12-lua
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	475.739990	475.799988	unifr12-lua
+3	arriver	arriver	VNF	VNF	_	2	dep	_	_	475.809998	476.049988	unifr12-lua
+4	à	à	PRE	PRE	_	3	dep	_	_	476.059998	476.089996	unifr12-lua
+5	n'	ne	CLN	CLN	_	6	dep	_	_	476.100006	476.160004	unifr12-lua
+6	importe	importer	VRB	VRB	_	4	dep	_	_	476.170013	476.420013	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-172
+# text = quel moment n'importe comment
+1	quel	quel	PRQ	PRQ	_	2	dep	_	_	476.429993	476.579987	unifr12-lua
+2	moment	moment	NOM	NOM	_	0	root	_	_	476.589996	477.010010	unifr12-lua
+3	n'	ne	CLN	CLN	_	4	dep	_	_	477.429993	477.480011	unifr12-lua
+4	importe	importer	VRB	VRB	_	2	dep	_	_	477.489990	477.720001	unifr12-lua
+5	comment	comment	PRQ	PRQ	_	4	dep	_	_	477.730011	478.029999	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-173
+# text = moi je pense qu'il suffit pas de rouler vite pour euh avoir des accidents moto
+1	moi	moi	PRO	PRO	_	3	periph	_	_	478.980011	479.059998	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	479.070007	479.119995	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	479.130005	479.290009	unifr12-lua
+4	qu'	que	CSU	CSU	_	3	dep	_	_	479.299988	479.350006	unifr12-lua
+5	il	il	CLS	CLS	_	6	subj	_	_	479.359985	479.470001	unifr12-lua
+6	suffit	suffire	VRB	VRB	_	4	dep	_	_	479.480011	479.769989	unifr12-lua
+7	pas	pas	ADN	ADN	_	6	dep	_	_	479.779999	479.940002	unifr12-lua
+8	de	de	PRE	PRE	_	6	dep	_	_	479.950012	479.989990	unifr12-lua
+9	rouler	rouler	VNF	VNF	_	8	dep	_	_	480.000000	480.239990	unifr12-lua
+10	vite	vite	ADV	ADV	_	9	dep	_	_	480.250000	480.480011	unifr12-lua
+11	pour	pour	PRE	PRE	_	9	dep	_	_	480.549988	480.929993	unifr12-lua
+12	euh	euh	INT	INT	_	11	dm	_	_	480.940002	481.149994	unifr12-lua
+13	avoir	avoir	VNF	VNF	_	11	dep	_	_	481.160004	481.359985	unifr12-lua
+14	des	de	PRE	PRE	_	13	dep	_	_	481.369995	481.519989	unifr12-lua
+15	accidents	accident	NOM	NOM	_	14	dep	_	_	481.529999	481.880005	unifr12-lua
+16	moto	moto	NOM	NOM	_	15	dep	_	_	481.890015	482.269989	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-174
+# text = je connais bien plusieurs personnes qui ont eu des accidents moto sans forcément rouler vite
+1	je	je	CLS	CLS	_	2	subj	_	_	482.470001	482.510010	unifr12-lua
+2	connais	connaître	VRB	VRB	_	0	root	_	_	482.519989	482.720001	unifr12-lua
+3	bien	bien	ADV	ADV	_	2	dep	_	_	482.730011	483.010010	unifr12-lua
+4	plusieurs	plusieurs	DET	DET	_	5	spe	_	_	483.170013	483.410004	unifr12-lua
+5	personnes	personne	NOM	NOM	_	2	dep	_	_	483.420013	483.709991	unifr12-lua
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	483.720001	483.799988	unifr12-lua
+7	ont	avoir	VRB	VRB	_	8	aux	_	_	483.809998	483.829987	unifr12-lua
+8	eu	avoir	VPP	VPP	_	5	dep	_	_	483.839996	483.880005	unifr12-lua
+9	des	de	PRE	PRE	_	8	dep	_	_	483.890015	484.079987	unifr12-lua
+10	accidents	accident	NOM	NOM	_	9	dep	_	_	484.089996	484.540009	unifr12-lua
+11	moto	moto	NOM	NOM	_	10	dep	_	_	484.549988	484.929993	unifr12-lua
+12	sans	sans	PRE	PRE	_	8	dep	_	_	484.940002	485.619995	unifr12-lua
+13	forcément	forcément	ADV	ADV	_	14	dep	_	_	485.869995	486.239990	unifr12-lua
+14	rouler	rouler	VNF	VNF	_	12	dep	_	_	486.250000	486.450012	unifr12-lua
+15	vite	vite	ADV	ADV	_	14	dep	_	_	486.459991	486.720001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-175
+# text = ça dépend tout un peu de la chance ouais de la chance que tu as
+1	ça	ça	PRO	PRO	_	2	subj	_	_	487.850006	487.940002	unifr12-lua
+2	dépend	dépendre	VRB	VRB	_	0	root	_	_	487.950012	488.260010	unifr12-lua
+3	tout	tout	ADV	ADV	_	4	dep	_	_	488.269989	488.410004	unifr12-lua
+4	un peu	un peu	ADV	ADV	_	2	dep	_	_	488.420013	488.880005	unifr12-lua
+5	de	de	PRE	PRE	_	2	dep	_	_	488.890015	488.959991	unifr12-lua
+6	la	le	DET	DET	_	7	spe	_	_	488.970001	489.100006	unifr12-lua
+7	chance	chance	NOM	NOM	_	5	dep	_	_	489.109985	489.399994	unifr12-lua
+8	ouais	ouais	INT	INT	_	7	dm	_	_	490.049988	490.250000	unifr12-lua
+9	de	de	PRE	PRE	_	7	dep	_	_	490.260010	490.279999	unifr12-lua
+10	la	le	DET	DET	_	11	spe	_	_	490.290009	490.380005	unifr12-lua
+11	chance	chance	NOM	NOM	_	9	dep	_	_	490.390015	490.640015	unifr12-lua
+12	que	que	CSU	CSU	_	11	dep	_	_	490.649994	490.779999	unifr12-lua
+13	tu	tu	CLS	CLS	_	14	subj	_	_	490.790009	490.839996	unifr12-lua
+14	as	avoir	VRB	VRB	_	12	dep	_	_	490.850006	490.970001	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-176
+# text = comment tu tombes ouais tout ça
+1	comment	comment	PRQ	PRQ	_	3	dep	_	_	490.980011	491.179993	unifr12-lua
+2	tu	tu	CLS	CLS	_	3	subj	_	_	491.190002	491.309998	unifr12-lua
+3	tombes	tombe	NOM	NOM	_	0	root	_	_	491.320007	492.000000	unifr12-lua
+4	ouais	ouais	INT	INT	_	3	dm	_	_	494.100006	494.450012	unifr12-lua
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	494.839996	494.890015	unifr12-lua
+6	ça	ça	PRO	PRO	_	3	para	_	_	494.899994	495.140015	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-177
+# text = et puis ça enfin je veux dire maintenant tu es jeune et tout
+1	et puis	et puis	COO	COO	_	5	mark	_	_	495.940002	496.220001	unifr12-fsa
+2	ça	ça	PRO	PRO	_	5	periph	_	_	496.230011	496.369995	unifr12-fsa
+3	enfin	enfin	ADV	ADV	_	2	dm	_	_	497.019989	497.179993	unifr12-fsa
+4	je	je	CLS	CLS	_	5	subj	_	_	497.190002	497.239990	unifr12-fsa
+5	veux	vouloir	VRB	VRB	_	0	root	_	_	497.250000	497.299988	unifr12-fsa
+6	dire	dire	VNF	VNF	_	5	dep	_	_	497.309998	497.559998	unifr12-fsa
+7	maintenant	maintenant	ADV	ADV	_	6	dep	_	_	497.570007	497.940002	unifr12-fsa
+8	tu	tu	CLS	CLS	_	9	subj	_	_	497.950012	498.019989	unifr12-fsa
+9	es	être	VRB	VRB	_	5	para	_	_	498.029999	498.049988	unifr12-fsa
+10	jeune	jeune	ADJ	ADJ	_	9	dep	_	_	498.059998	498.290009	unifr12-fsa
+11	et	et	COO	COO	_	12	mark	_	_	498.299988	498.380005	unifr12-fsa
+12	tout	tout	ADV	ADV	_	10	para	_	_	498.390015	498.600006	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-178
+# text = mais tu vois comment ton avenir
+1	mais	mais	COO	COO	_	3	mark	_	_	498.609985	498.730011	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	498.739990	498.940002	unifr12-fsa
+3	vois	voir	VRB	VRB	_	0	root	_	_	498.950012	499.089996	unifr12-fsa
+4	comment	comment	PRQ	PRQ	_	6	dep	_	_	499.100006	499.320007	unifr12-fsa
+5	ton	son	DET	DET	_	6	spe	_	_	499.329987	499.510010	unifr12-fsa
+6	avenir	avenir	NOM	NOM	_	3	dep	_	_	499.519989	499.899994	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-179
+# text = enfin je veux dire
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	499.910004	500.190002	unifr12-fsa
+2	je	je	CLS	CLS	_	3	subj	_	_	500.200012	500.269989	unifr12-fsa
+3	veux	vouloir	VRB	VRB	_	0	root	_	_	500.279999	500.329987	unifr12-fsa
+4	dire	dire	VNF	VNF	_	3	dep	_	_	500.390015	500.540009	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-180
+# text = est-ce que tu vas continuer à rouler
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	501.820007	501.890015	unifr12-fsa
+2	que	que	CSU	CSU	_	1	dep	_	_	501.899994	501.920013	unifr12-fsa
+3	tu	tu	CLS	CLS	_	4	subj	_	_	501.929993	502.000000	unifr12-fsa
+4	vas	aller	VRB	VRB	_	2	dep	_	_	502.010010	502.100006	unifr12-fsa
+5	continuer	continuer	VNF	VNF	_	4	dep	_	_	502.109985	502.640015	unifr12-fsa
+6	à	à	PRE	PRE	_	5	dep	_	_	502.649994	502.799988	unifr12-fsa
+7	rouler	rouler	VNF	VNF	_	6	dep	_	_	502.809998	503.320007	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-181
+# text = enfin ouais tu m'as dit que tu pensais quand même te calmer un petit peu mais
+1	enfin	enfin	ADV	ADV	_	6	periph	_	_	503.489990	503.750000	unifr12-fsa
+2	ouais	ouais	INT	INT	_	1	dm	_	_	503.760010	503.920013	unifr12-fsa
+3	tu	tu	CLS	CLS	_	6	subj	_	_	504.109985	504.160004	unifr12-fsa
+4	m'	me	CLI	CLI	_	6	dep	_	_	504.170013	504.190002	unifr12-fsa
+5	as	avoir	VRB	VRB	_	6	aux	_	_	504.200012	504.269989	unifr12-fsa
+6	dit	dire	VPP	VPP	_	0	root	_	_	504.279999	504.390015	unifr12-fsa
+7	que	que	CSU	CSU	_	6	dep	_	_	504.399994	504.480011	unifr12-fsa
+8	tu	tu	CLS	CLS	_	9	subj	_	_	504.709991	504.809998	unifr12-fsa
+9	pensais	penser	VRB	VRB	_	7	dep	_	_	504.850006	505.079987	unifr12-fsa
+10	quand	quand	CSU	CSU	_	9	dep	_	_	505.089996	505.209991	unifr12-fsa
+11	même	même	ADV	ADV	_	13	dep	_	_	505.220001	505.399994	unifr12-fsa
+12	te	te	CLI	CLI	_	13	dep	_	_	505.410004	505.459991	unifr12-fsa
+13	calmer	calmer	VNF	VNF	_	10	dep	_	_	505.470001	505.790009	unifr12-fsa
+14	un	un	DET	DET	_	16	spe	_	_	505.799988	505.869995	unifr12-fsa
+15	petit	petit	ADJ	ADJ	_	16	dep	_	_	505.880005	506.010010	unifr12-fsa
+16	peu	peu	NOM	NOM	_	13	dep	_	_	506.079987	506.390015	unifr12-fsa
+17	mais	mais	COO	COO	_	16	disflink	_	_	506.399994	506.579987	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-182
+# text = moi je pense je veux quand même essayer de je me dis
+1	moi	moi	PRO	PRO	_	3	periph	_	_	507.130005	507.220001	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	507.230011	507.350006	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	507.359985	507.959991	unifr12-lua
+4	je	je	CLS	CLS	_	5	subj	_	_	508.260010	508.339996	unifr12-lua
+5	veux	vouloir	VRB	VRB	_	3	para	_	_	508.350006	508.459991	unifr12-lua
+6	quand	quand	CSU	CSU	_	5	dep	_	_	508.470001	508.630005	unifr12-lua
+7	même	même	ADV	ADV	_	8	dep	_	_	508.640015	508.760010	unifr12-lua
+8	essayer	essayer	VNF	VNF	_	6	dep	_	_	508.769989	509.070007	unifr12-lua
+9	de	de	PRE	PRE	_	8	dep	_	_	509.079987	509.109985	unifr12-lua
+10	je	je	CLS	CLS	_	12	subj	_	_	509.119995	509.230011	unifr12-lua
+11	me	me	CLI	CLI	_	12	dep	_	_	509.279999	509.440002	unifr12-lua
+12	dis	dire	VRB	VRB	_	6	dep	_	_	509.450012	509.579987	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-183
+# text = je vais me calmer parce que je veux quand même essayer de fonder une famille
+1	je	je	CLS	CLS	_	2	subj	_	_	509.589996	509.679993	unifr12-lua
+2	vais	aller	VRB	VRB	_	0	root	_	_	509.690002	509.739990	unifr12-lua
+3	me	me	CLI	CLI	_	4	dep	_	_	509.750000	509.799988	unifr12-lua
+4	calmer	calmer	VNF	VNF	_	2	dep	_	_	509.809998	510.089996	unifr12-lua
+5	parce que	parce que	CSU	CSU	_	4	dep	_	_	510.100006	510.299988	unifr12-lua
+6	je	je	CLS	CLS	_	7	subj	_	_	510.309998	510.390015	unifr12-lua
+7	veux	vouloir	VRB	VRB	_	5	dep	_	_	510.399994	510.679993	unifr12-lua
+8	quand	quand	CSU	CSU	_	7	dep	_	_	510.869995	510.970001	unifr12-lua
+9	même	même	ADV	ADV	_	10	dep	_	_	510.980011	511.109985	unifr12-lua
+10	essayer	essayer	VNF	VNF	_	8	dep	_	_	511.119995	511.399994	unifr12-lua
+11	de	de	PRE	PRE	_	10	dep	_	_	511.410004	511.429993	unifr12-lua
+12	fonder	fonder	VNF	VNF	_	11	dep	_	_	511.440002	511.690002	unifr12-lua
+13	une	un	DET	DET	_	14	spe	_	_	511.700012	511.769989	unifr12-lua
+14	famille	famille	NOM	NOM	_	12	dep	_	_	511.779999	512.289978	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-184
+# text = puis je pense pas d'avoir un gamin puis de mourir euh
+1	puis	puis	COO	COO	_	3	mark	_	_	513.909973	514.309998	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	514.320007	514.419983	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	514.429993	514.599976	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	514.609985	514.789978	unifr12-lua
+5	d'	de	PRE	PRE	_	3	dep	_	_	514.799988	514.830017	unifr12-lua
+6	avoir	avoir	VNF	VNF	_	5	dep	_	_	514.840027	515.080017	unifr12-lua
+7	un	un	DET	DET	_	8	spe	_	_	515.090027	515.179993	unifr12-lua
+8	gamin	gamin	NOM	NOM	_	6	dep	_	_	515.190002	515.570007	unifr12-lua
+9	puis	puis	COO	COO	_	10	mark	_	_	516.190002	516.280029	unifr12-lua
+10	de	de	PRE	PRE	_	5	para	_	_	516.289978	516.309998	unifr12-lua
+11	mourir	mourir	VNF	VNF	_	10	dep	_	_	516.320007	516.989990	unifr12-lua
+12	euh	euh	INT	INT	_	11	dm	_	_	517.000000	517.090027	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-185
+# text = après deux ans
+1	après	après	PRE	PRE	_	0	root	_	_	517.890015	518.109985	unifr12-lua
+2	deux	deux	NUM	NUM	_	3	spe	_	_	518.119995	518.289978	unifr12-lua
+3	ans	an	NOM	NOM	_	1	dep	_	_	518.299988	518.400024	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-186
+# text = que tu l'as peu à cause d'un accident de moto puis de le laisser tout seul euh
+1	que	que	CSU	CSU	_	0	root	_	_	518.409973	518.440002	unifr12-lua
+2	tu	tu	CLS	CLS	_	4	subj	_	_	518.450012	518.590027	unifr12-lua
+3	l'	le	CLI	CLI	_	4	dep	_	_	518.599976	518.619995	unifr12-lua
+4	as	avoir	VRB	VRB	_	1	dep	_	_	518.630005	518.710022	unifr12-lua
+5	peu	peu	ADV	ADV	_	4	dep	_	_	518.719971	518.859985	unifr12-lua
+6	à	à	PRE	PRE	_	4	dep	_	_	518.869995	518.960022	unifr12-lua
+7	cause	cause	NOM	NOM	_	6	dep	_	_	518.969971	519.140015	unifr12-lua
+8	d'	de	PRE	PRE	_	7	dep	_	_	519.150024	519.169983	unifr12-lua
+9	un	un	DET	DET	_	10	spe	_	_	519.179993	519.559998	unifr12-lua
+10	accident	accident	NOM	NOM	_	8	dep	_	_	519.570007	519.909973	unifr12-lua
+11	de	de	PRE	PRE	_	10	dep	_	_	519.919983	519.940002	unifr12-lua
+12	moto	moto	NOM	NOM	_	11	dep	_	_	519.950012	520.409973	unifr12-lua
+13	puis	puis	COO	COO	_	14	mark	_	_	521.450012	521.530029	unifr12-lua
+14	de	de	PRE	PRE	_	6	para	_	_	521.539978	521.609985	unifr12-lua
+15	le	le	CLI	CLI	_	16	dep	_	_	521.619995	521.669983	unifr12-lua
+16	laisser	laisser	VNF	VNF	_	14	dep	_	_	521.679993	521.900024	unifr12-lua
+17	tout	tout	ADV	ADV	_	18	dep	_	_	521.909973	522.039978	unifr12-lua
+18	seul	seul	ADJ	ADJ	_	16	dep	_	_	522.049988	522.369995	unifr12-lua
+19	euh	euh	INT	INT	_	18	dm	_	_	522.380005	522.559998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-187
+# text = donc ça te fait quand même un peu réfléchir
+1	donc	donc	ADV	ADV	_	4	periph	_	_	522.859985	522.950012	unifr12-fsa
+2	ça	ça	PRO	PRO	_	4	subj	_	_	522.960022	523.080017	unifr12-fsa
+3	te	te	CLI	CLI	_	4	dep	_	_	523.090027	523.140015	unifr12-fsa
+4	fait	faire	VRB	VRB	_	0	root	_	_	523.150024	523.239990	unifr12-fsa
+5	quand	quand	CSU	CSU	_	4	dep	_	_	523.250000	523.400024	unifr12-fsa
+6	même	même	ADV	ADV	_	7	dep	_	_	523.409973	523.520020	unifr12-fsa
+7	un peu	un peu	ADV	ADV	_	5	dep	_	_	523.530029	524.020020	unifr12-fsa
+8	réfléchir	réfléchir	VNF	VNF	_	4	dep	_	_	524.469971	524.960022	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-188
+# text = oui oui on je pense toujours un peu à l'avenir de qu'il faut que j'arrête de un peu ces conneries
+1	oui	oui	INT	INT	_	5	dm	_	_	524.909973	525.070007	unifr12-lua
+2	oui	oui	INT	INT	_	1	para	_	_	525.080017	525.239990	unifr12-lua
+3	on	on	CLS	CLS	_	5	periph	_	_	525.250000	525.530029	unifr12-lua
+4	je	je	CLS	CLS	_	5	subj	_	_	525.539978	525.619995	unifr12-lua
+5	pense	penser	VRB	VRB	_	0	root	_	_	525.630005	525.799988	unifr12-lua
+6	toujours	toujours	ADV	ADV	_	5	dep	_	_	525.809998	526.030029	unifr12-lua
+7	un peu	un peu	ADV	ADV	_	5	dep	_	_	526.039978	526.200012	unifr12-lua
+8	à	à	PRE	PRE	_	5	dep	_	_	526.210022	526.250000	unifr12-lua
+9	l'	le	DET	DET	_	10	spe	_	_	526.260010	526.309998	unifr12-lua
+10	avenir	avenir	NOM	NOM	_	8	dep	_	_	526.320007	526.640015	unifr12-lua
+11	de	de	PRE	PRE	_	10	dep	_	_	526.650024	526.869995	unifr12-lua
+12	qu'	que	CSU	CSU	_	5	dep	_	_	527.659973	527.679993	unifr12-lua
+13	il	il	CLS	CLS	_	14	subj	_	_	527.690002	527.750000	unifr12-lua
+14	faut	faillir	VRB	VRB	_	12	dep	_	_	527.760010	527.900024	unifr12-lua
+15	que	que	CSU	CSU	_	14	dep	_	_	527.909973	528.010010	unifr12-lua
+16	j'	je	CLS	CLS	_	17	subj	_	_	528.020020	528.039978	unifr12-lua
+17	arrête	arrêter	VRB	VRB	_	15	dep	_	_	528.049988	528.289978	unifr12-lua
+18	de	de	PRE	PRE	_	17	dep	_	_	528.299988	528.630005	unifr12-lua
+19	un peu	un peu	ADV	ADV	_	18	dep	_	_	528.640015	528.840027	unifr12-lua
+20	ces	ce	DET	DET	_	21	spe	_	_	528.849976	528.979980	unifr12-lua
+21	conneries	connerie	NOM	NOM	_	17	dep	_	_	528.989990	529.419983	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-189
+# text = et de rouler euh essayer de rouler normalement rouler
+1	et	et	COO	COO	_	2	mark	_	_	531.000000	531.080017	unifr12-lua
+2	de	de	PRE	PRE	_	0	root	_	_	531.090027	531.130005	unifr12-lua
+3	rouler	rouler	VNF	VNF	_	2	dep	_	_	531.140015	531.700012	unifr12-lua
+4	euh	euh	INT	INT	_	3	dm	_	_	531.710022	531.729980	unifr12-lua
+5	essayer	essayer	VNF	VNF	_	3	para	_	_	531.780029	532.049988	unifr12-lua
+6	de	de	PRE	PRE	_	5	dep	_	_	532.059998	532.090027	unifr12-lua
+7	rouler	rouler	VNF	VNF	_	6	dep	_	_	532.099976	532.549988	unifr12-lua
+8	normalement	normalement	ADV	ADV	_	7	dep	_	_	532.559998	533.190002	unifr12-lua
+9	rouler	rouler	VNF	VNF	_	7	dep	_	_	533.369995	533.510010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-190
+# text = normalement je pense que je le fais
+1	normalement	normalement	ADV	ADV	_	3	periph	_	_	533.520020	533.849976	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	533.859985	533.940002	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	533.950012	534.150024	unifr12-lua
+4	que	que	CSU	CSU	_	3	dep	_	_	534.159973	534.250000	unifr12-lua
+5	je	je	CLS	CLS	_	7	subj	_	_	534.260010	534.349976	unifr12-lua
+6	le	le	CLI	CLI	_	7	dep	_	_	534.359985	534.440002	unifr12-lua
+7	fais	faire	VRB	VRB	_	4	dep	_	_	534.450012	534.729980	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-191
+# text = mais mais ouais les accidents ça arrive vraiment vite
+1	mais	mais	COO	COO	_	7	mark	_	_	534.739990	535.070007	unifr12-lua
+2	mais	mais	COO	COO	_	1	para	_	_	536.820007	536.989990	unifr12-lua
+3	ouais	ouais	INT	INT	_	2	dm	_	_	537.000000	537.239990	unifr12-lua
+4	les	le	DET	DET	_	5	spe	_	_	537.559998	537.710022	unifr12-lua
+5	accidents	accident	NOM	NOM	_	7	periph	_	_	537.719971	537.929993	unifr12-lua
+6	ça	ça	PRO	PRO	_	7	subj	_	_	537.940002	538.099976	unifr12-lua
+7	arrive	arriver	VRB	VRB	_	0	root	_	_	538.109985	538.260010	unifr12-lua
+8	vraiment	vraiment	ADV	ADV	_	9	dep	_	_	538.270020	538.559998	unifr12-lua
+9	vite	vite	ADV	ADV	_	7	dep	_	_	538.570007	538.739990	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-192
+# text = mais je pense pas pouvoir arrêter une fois la moto
+1	mais	mais	COO	COO	_	3	mark	_	_	539.760010	539.809998	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	539.820007	539.890015	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	539.900024	540.130005	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	540.140015	540.260010	unifr12-lua
+5	pouvoir	pouvoir	VNF	VNF	_	3	dep	_	_	540.270020	540.539978	unifr12-lua
+6	arrêter	arrêter	VNF	VNF	_	5	dep	_	_	540.549988	540.820007	unifr12-lua
+7	une	un	DET	DET	_	8	spe	_	_	540.830017	540.929993	unifr12-lua
+8	fois	foi	NOM	NOM	_	6	dep	_	_	540.940002	541.119995	unifr12-lua
+9	la	le	DET	DET	_	10	spe	_	_	541.130005	541.179993	unifr12-lua
+10	moto	moto	NOM	NOM	_	6	periph	_	_	541.190002	541.520020	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-193
+# text = jamais je pense que non arrêt amorce une moto sportive je pense arrêter plus tard m'acheter une une moto plus posée pour faire des des des balades moins faire le fou
+1	jamais	jamais	ADN	ADN	_	3	dep	_	_	543.359985	543.679993	unifr12-lua
+2	je	je	CLS	CLS	_	3	subj	_	_	544.500000	544.520020	unifr12-lua
+3	pense	penser	VRB	VRB	_	0	root	_	_	544.530029	544.760010	unifr12-lua
+4	que	que	CSU	CSU	_	3	dep	_	_	544.770020	544.840027	unifr12-lua
+5	non	non	INT	INT	_	4	dm	_	_	544.919983	545.390015	unifr12-lua
+6	arrêt	arrêt	NOM	NOM	_	7	subj	_	_	546.299988	546.570007	unifr12-lua
+7	amorce	amorcer	VRB	VRB	_	4	dep	_	_	546.630005	546.799988	unifr12-lua
+8	une	un	DET	DET	_	9	spe	_	_	546.869995	547.010010	unifr12-lua
+9	moto	moto	NOM	NOM	_	7	dep	_	_	547.020020	547.309998	unifr12-lua
+10	sportive	sportif	ADJ	ADJ	_	9	dep	_	_	547.320007	547.780029	unifr12-lua
+11	je	je	CLS	CLS	_	12	subj	_	_	547.789978	547.890015	unifr12-lua
+12	pense	penser	VRB	VRB	_	4	dep	_	_	547.900024	548.099976	unifr12-lua
+13	arrêter	arrêter	VNF	VNF	_	12	dep	_	_	548.109985	548.500000	unifr12-lua
+14	plus	plus	ADV	ADV	_	15	dep	_	_	549.580017	549.669983	unifr12-lua
+15	tard	tard	ADV	ADV	_	12	dep	_	_	549.679993	549.890015	unifr12-lua
+16	m'	me	CLI	CLI	_	17	dep	_	_	549.900024	549.940002	unifr12-lua
+17	acheter	acheter	VNF	VNF	_	12	dep	_	_	549.950012	550.200012	unifr12-lua
+18	une	un	DET	DET	_	20	spe	_	_	550.210022	550.539978	unifr12-lua
+19	une	un	DET	DET	_	18	para	_	_	550.549988	550.770020	unifr12-lua
+20	moto	moto	NOM	NOM	_	17	dep	_	_	550.780029	551.140015	unifr12-lua
+21	plus	plus	ADN	ADN	_	22	dep	_	_	551.150024	551.280029	unifr12-lua
+22	posée	poser	VPP	VPP	_	20	dep	_	_	551.289978	551.719971	unifr12-lua
+23	pour	pour	PRE	PRE	_	22	dep	_	_	551.729980	551.940002	unifr12-lua
+24	faire	faire	VNF	VNF	_	23	dep	_	_	551.950012	552.130005	unifr12-lua
+25	des	de	PRE	PRE	_	24	dep	_	_	552.140015	552.409973	unifr12-lua
+26	des	de	PRE	PRE	_	25	para	_	_	552.419983	552.780029	unifr12-lua
+27	des	de	PRE	PRE	_	26	para	_	_	553.820007	553.869995	unifr12-lua
+28	balades	balade	NOM	NOM	_	27	dep	_	_	553.880005	554.440002	unifr12-lua
+29	moins	moins	ADV	ADV	_	30	dep	_	_	554.979980	555.080017	unifr12-lua
+30	faire	faire	VNF	VNF	_	22	dep	_	_	555.090027	555.250000	unifr12-lua
+31	le	le	DET	DET	_	32	spe	_	_	555.260010	555.280029	unifr12-lua
+32	fou	fou	ADJ	ADJ	_	30	dep	_	_	555.289978	555.539978	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-194
+# text = quoi parce que tu as quoi comme euh comme moto maintenant
+1	quoi	quoi	INT	INT	_	2	dm	_	_	555.549988	555.719971	unifr12-fsa
+2	parce que	parce que	CSU	CSU	_	0	root	_	_	555.900024	556.059998	unifr12-fsa
+3	tu	tu	CLS	CLS	_	4	subj	_	_	556.070007	556.119995	unifr12-fsa
+4	as	avoir	VRB	VRB	_	2	dep	_	_	556.130005	556.210022	unifr12-fsa
+5	quoi	quoi	INT	INT	_	4	dm	_	_	556.219971	556.369995	unifr12-fsa
+6	comme	comme	PRE	PRE	_	4	dep	_	_	556.409973	556.820007	unifr12-fsa
+7	euh	euh	INT	INT	_	6	dm	_	_	556.869995	556.890015	unifr12-fsa
+8	comme	comme	PRE	PRE	_	6	para	_	_	556.900024	557.119995	unifr12-fsa
+9	moto	moto	NOM	NOM	_	8	dep	_	_	557.130005	557.309998	unifr12-fsa
+10	maintenant	maintenant	ADV	ADV	_	4	dep	_	_	557.320007	557.630005	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-195
+# text = euh j'ai une sportive une a une de moyenne cylindrée
+1	euh	euh	INT	INT	_	3	dm	_	_	558.219971	558.419983	unifr12-lua
+2	j'	je	CLS	CLS	_	3	subj	_	_	558.429993	558.510010	unifr12-lua
+3	ai	avoir	VRB	VRB	_	0	root	_	_	558.520020	558.580017	unifr12-lua
+4	une	un	DET	DET	_	5	spe	_	_	558.590027	558.710022	unifr12-lua
+5	sportive	sportif	NOM	NOM	_	3	dep	_	_	558.719971	559.289978	unifr12-lua
+6	une	un	DET	DET	_	7	dep	_	_	559.299988	559.479980	unifr12-lua
+7	a	avoir	VRB	VRB	_	3	para	_	_	559.489990	559.710022	unifr12-lua
+8	une	un	DET	DET	_	7	dep	_	_	559.719971	560.229980	unifr12-lua
+9	de	de	PRE	PRE	_	7	dep	_	_	560.650024	560.869995	unifr12-lua
+10	moyenne	moyenne	NOM	NOM	_	9	dep	_	_	560.880005	561.179993	unifr12-lua
+11	cylindrée	cylindrer	ADJ	ADJ	_	10	dep	_	_	561.190002	561.780029	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-196
+# text = c'est une Ducati huit cent quarante-huit Evo Corse
+1	c'	ce	CLS	CLS	_	2	subj	_	_	561.849976	561.969971	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	561.979980	562.010010	unifr12-lua
+3	une	un	DET	DET	_	4	spe	_	_	562.020020	562.159973	unifr12-lua
+4	Ducati	Ducati	NOM	NOM	_	2	dep	_	_	562.169983	562.599976	unifr12-lua
+5	huit	huit	NUM	NUM	_	8	spe	_	_	562.609985	562.750000	unifr12-lua
+6	cent	cent	NUM	NUM	_	5	dep	_	_	562.760010	562.890015	unifr12-lua
+7	quarante-huit	quarante-huit	NUM	NUM	_	6	dep	_	_	562.900024	563.419983	unifr12-lua
+8	Evo	Evo	NOM	NOM	_	4	para	_	_	563.429993	563.640015	unifr12-lua
+9	Corse	Corse	NOM	NOM	_	8	dep	_	_	563.650024	564.059998	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-197
+# text = c'est euh ouais une édition spéciale
+1	c'	ce	CLS	CLS	_	2	subj	_	_	565.580017	565.679993	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	565.690002	565.960022	unifr12-lua
+3	euh	euh	INT	INT	_	2	dm	_	_	565.969971	566.020020	unifr12-lua
+4	ouais	ouais	INT	INT	_	3	dm	_	_	566.030029	566.190002	unifr12-lua
+5	une	un	DET	DET	_	6	spe	_	_	566.200012	566.359985	unifr12-lua
+6	édition	édition	NOM	NOM	_	2	dep	_	_	566.369995	566.679993	unifr12-lua
+7	spéciale	spécial	ADJ	ADJ	_	6	dep	_	_	566.690002	567.210022	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-198
+# text = elle a elle a des gros freins des meilleures suspensions
+1	elle	il	CLS	CLS	_	2	subj	_	_	568.309998	568.419983	unifr12-lua
+2	a	avoir	VRB	VRB	_	0	root	_	_	568.429993	568.750000	unifr12-lua
+3	elle	il	CLS	CLS	_	4	subj	_	_	569.799988	569.890015	unifr12-lua
+4	a	avoir	VRB	VRB	_	2	para	_	_	569.900024	569.950012	unifr12-lua
+5	des	de	PRE	PRE	_	4	dep	_	_	569.960022	570.059998	unifr12-lua
+6	gros	gros	ADJ	ADJ	_	7	dep	_	_	570.070007	570.289978	unifr12-lua
+7	freins	frein	NOM	NOM	_	5	dep	_	_	570.299988	570.789978	unifr12-lua
+8	des	de	PRE	PRE	_	7	dep	_	_	570.799988	570.900024	unifr12-lua
+9	meilleures	meilleur	NOM	NOM	_	8	dep	_	_	570.909973	571.119995	unifr12-lua
+10	suspensions	suspension	NOM	NOM	_	9	dep	_	_	571.130005	571.960022	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-199
+# text = elle est plus puissante
+1	elle	il	CLS	CLS	_	2	subj	_	_	571.969971	572.049988	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	572.059998	572.140015	unifr12-lua
+3	plus	plus	ADN	ADN	_	4	dep	_	_	572.299988	572.440002	unifr12-lua
+4	puissante	puissant	ADJ	ADJ	_	2	dep	_	_	572.450012	573.200012	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-200
+# text = elle est belle c'est vraiment la mo- amorce ouais une moto des rêves
+1	elle	il	CLS	CLS	_	2	subj	_	_	573.789978	573.929993	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	573.940002	574.010010	unifr12-lua
+3	belle	beau	ADJ	ADJ	_	2	dep	_	_	574.020020	574.549988	unifr12-lua
+4	c'	ce	CLS	CLS	_	5	subj	_	_	575.479980	575.520020	unifr12-lua
+5	est	être	VRB	VRB	_	2	para	_	_	575.530029	575.559998	unifr12-lua
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	575.570007	575.849976	unifr12-lua
+7	la	le	DET	DET	_	8	spe	_	_	575.859985	575.969971	unifr12-lua
+8	mo-	mo-	NOM	NOM	_	5	dep	_	_	575.979980	576.030029	unifr12-lua
+9	amorce	amorce	NOM	NOM	_	8	dep	_	_	576.039978	576.299988	unifr12-lua
+10	ouais	ouais	INT	INT	_	9	dm	_	_	576.380005	576.590027	unifr12-lua
+11	une	un	DET	DET	_	12	spe	_	_	576.599976	576.679993	unifr12-lua
+12	moto	moto	NOM	NOM	_	9	para	_	_	576.690002	576.909973	unifr12-lua
+13	des	de	PRE	PRE	_	12	dep	_	_	576.919983	577.059998	unifr12-lua
+14	rêves	rêve	NOM	NOM	_	13	dep	_	_	577.070007	577.340027	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-201
+# text = quoi
+1	quoi	quoi	INT	INT	_	0	root	_	_	577.349976	577.520020	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-202
+# text = et puis euh
+1	et puis	et puis	COO	COO	_	0	root	_	_	582.479980	582.780029	unifr12-fsa
+2	euh	euh	INT	INT	_	1	dm	_	_	582.960022	582.979980	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-203
+# text = bon tu as ces passions euh cette passion au niveau des des véhicules motorisés à deux roues mais avec la voiture
+1	bon	bon	INT	INT	_	3	dm	_	_	584.000000	584.179993	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	584.190002	584.239990	unifr12-fsa
+3	as	avoir	VRB	VRB	_	0	root	_	_	584.250000	584.359985	unifr12-fsa
+4	ces	ce	DET	DET	_	5	spe	_	_	585.090027	585.190002	unifr12-fsa
+5	passions	passion	NOM	NOM	_	3	dep	_	_	585.200012	585.780029	unifr12-fsa
+6	euh	euh	INT	INT	_	5	dm	_	_	585.789978	585.820007	unifr12-fsa
+7	cette	ce	DET	DET	_	8	spe	_	_	585.830017	585.989990	unifr12-fsa
+8	passion	passion	NOM	NOM	_	5	para	_	_	586.000000	586.390015	unifr12-fsa
+9	au	à+le	PRE	PRE	_	8	dep	_	_	586.400024	586.429993	unifr12-fsa
+10	niveau	niveau	NOM	NOM	_	9	dep	_	_	586.440002	586.780029	unifr12-fsa
+11	des	de	PRE	PRE	_	10	dep	_	_	586.789978	587.130005	unifr12-fsa
+12	des	de	PRE	PRE	_	11	para	_	_	588.159973	588.250000	unifr12-fsa
+13	véhicules	véhicule	NOM	NOM	_	12	dep	_	_	588.260010	588.659973	unifr12-fsa
+14	motorisés	motoriser	VPP	VPP	_	13	dep	_	_	588.669983	589.059998	unifr12-fsa
+15	à	à	PRE	PRE	_	14	dep	_	_	589.070007	589.159973	unifr12-fsa
+16	deux	deux	NUM	NUM	_	17	spe	_	_	589.169983	589.299988	unifr12-fsa
+17	roues	roue	NOM	NOM	_	15	dep	_	_	589.309998	589.479980	unifr12-fsa
+18	mais	mais	COO	COO	_	19	mark	_	_	589.489990	589.619995	unifr12-fsa
+19	avec	avec	PRE	PRE	_	15	para	_	_	590.590027	590.760010	unifr12-fsa
+20	la	le	DET	DET	_	21	spe	_	_	590.770020	590.869995	unifr12-fsa
+21	voiture	voiture	NOM	NOM	_	19	dep	_	_	590.880005	591.400024	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-204
+# text = parce que tu as la voiture
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	591.739990	591.890015	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	591.900024	591.950012	unifr12-fsa
+3	as	avoir	VRB	VRB	_	1	dep	_	_	591.960022	591.979980	unifr12-fsa
+4	la	le	DET	DET	_	5	spe	_	_	591.989990	592.049988	unifr12-fsa
+5	voiture	voiture	NOM	NOM	_	3	dep	_	_	592.059998	592.559998	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-205
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	593.320007	593.510010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-206
+# text = tu te comportes différemment
+1	tu	tu	CLS	CLS	_	3	subj	_	_	593.900024	593.950012	unifr12-fsa
+2	te	te	CLI	CLI	_	3	dep	_	_	593.960022	593.989990	unifr12-fsa
+3	comportes	comporter	VRB	VRB	_	0	root	_	_	594.000000	594.369995	unifr12-fsa
+4	différemment	différemment	ADV	ADV	_	3	dep	_	_	595.010010	595.510010	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-207
+# text = ouais avec la voiture je roule
+1	ouais	ouais	INT	INT	_	6	dm	_	_	595.760010	596.070007	unifr12-lua
+2	avec	avec	PRE	PRE	_	6	periph	_	_	596.080017	596.210022	unifr12-lua
+3	la	le	DET	DET	_	4	spe	_	_	596.219971	596.270020	unifr12-lua
+4	voiture	voiture	NOM	NOM	_	2	dep	_	_	596.280029	596.549988	unifr12-lua
+5	je	je	CLS	CLS	_	6	subj	_	_	596.559998	596.619995	unifr12-lua
+6	roule	roule	NOM	NOM	_	0	root	_	_	596.630005	596.750000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-208
+# text = beaucoup moins vite beaucoup beaucoup moins vite tu peux ouais c'est plus gros
+1	beaucoup	beaucoup	ADV	ADV	_	2	dep	_	_	596.760010	596.989990	unifr12-lua
+2	moins	moins	ADV	ADV	_	3	dep	_	_	597.000000	597.140015	unifr12-lua
+3	vite	vite	ADV	ADV	_	9	periph	_	_	597.150024	597.440002	unifr12-lua
+4	beaucoup	beaucoup	ADV	ADV	_	3	para	_	_	597.890015	598.130005	unifr12-lua
+5	beaucoup	beaucoup	ADV	ADV	_	4	para	_	_	598.140015	598.349976	unifr12-lua
+6	moins	moins	ADV	ADV	_	7	dep	_	_	598.359985	598.479980	unifr12-lua
+7	vite	vite	ADV	ADV	_	9	periph	_	_	598.489990	598.729980	unifr12-lua
+8	tu	tu	CLS	CLS	_	9	subj	_	_	598.739990	598.760010	unifr12-lua
+9	peux	pouvoir	VRB	VRB	_	0	root	_	_	598.820007	599.349976	unifr12-lua
+10	ouais	ouais	INT	INT	_	9	dm	_	_	599.359985	599.659973	unifr12-lua
+11	c'	ce	CLS	CLS	_	12	subj	_	_	600.080017	600.179993	unifr12-lua
+12	est	être	VRB	VRB	_	9	para	_	_	600.190002	600.229980	unifr12-lua
+13	plus	plus	ADN	ADN	_	14	dep	_	_	600.239990	600.380005	unifr12-lua
+14	gros	gros	ADJ	ADJ	_	12	dep	_	_	600.390015	600.840027	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-209
+# text = c'est plus dange- amorce je trouve plus dangereux pour celui pour moi qui conduis non parce que tu es quand même mieux protégé
+1	c'	ce	CLS	CLS	_	2	subj	_	_	600.849976	600.940002	unifr12-lua
+2	est	être	VRB	VRB	_	0	root	_	_	600.950012	601.000000	unifr12-lua
+3	plus	plus	ADN	ADN	_	4	dep	_	_	601.010010	601.119995	unifr12-lua
+4	dange-	dange-	ADJ	ADJ	_	2	dep	_	_	601.130005	601.390015	unifr12-lua
+5	amorce	amorce	NOM	NOM	_	2	dep	_	_	601.400024	601.590027	unifr12-lua
+6	je	je	CLS	CLS	_	7	subj	_	_	601.599976	601.630005	unifr12-lua
+7	trouve	trouver	VRB	VRB	_	5	dm	_	_	601.640015	601.869995	unifr12-lua
+8	plus	plus	ADN	ADN	_	9	dep	_	_	602.989990	603.109985	unifr12-lua
+9	dangereux	dangereux	ADJ	ADJ	_	2	dep	_	_	603.119995	603.460022	unifr12-lua
+10	pour	pour	PRE	PRE	_	2	dep	_	_	603.469971	603.690002	unifr12-lua
+11	celui	celui	PRO	PRO	_	10	dep	_	_	603.700012	604.049988	unifr12-lua
+12	pour	pour	PRE	PRE	_	10	para	_	_	604.260010	604.359985	unifr12-lua
+13	moi	moi	PRO	PRO	_	12	dep	_	_	604.369995	604.469971	unifr12-lua
+14	qui	qui	PRQ	PRQ	_	15	dep	_	_	604.479980	604.609985	unifr12-lua
+15	conduis	conduire	VRB	VRB	_	13	dep	_	_	604.619995	604.950012	unifr12-lua
+16	non	non	INT	INT	_	15	dm	_	_	604.960022	605.219971	unifr12-lua
+17	parce que	parce que	CSU	CSU	_	15	dep	_	_	605.229980	605.409973	unifr12-lua
+18	tu	tu	CLS	CLS	_	19	subj	_	_	605.419983	605.479980	unifr12-lua
+19	es	être	VRB	VRB	_	17	dep	_	_	605.489990	605.530029	unifr12-lua
+20	quand	quand	CSU	CSU	_	19	dep	_	_	605.539978	605.659973	unifr12-lua
+21	même	même	ADV	ADV	_	23	dep	_	_	605.669983	605.789978	unifr12-lua
+22	mieux	mieux	ADV	ADV	_	23	dep	_	_	605.799988	605.880005	unifr12-lua
+23	protégé	protéger	VPP	VPP	_	20	dep	_	_	605.890015	606.260010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-210
+# text = tu as de la carrosserie
+1	tu	tu	CLS	CLS	_	2	subj	_	_	606.270020	606.349976	unifr12-lua
+2	as	avoir	VRB	VRB	_	0	root	_	_	606.359985	606.380005	unifr12-lua
+3	de	de	PRE	PRE	_	2	dep	_	_	606.390015	606.409973	unifr12-lua
+4	la	le	DET	DET	_	5	spe	_	_	606.419983	606.500000	unifr12-lua
+5	carrosserie	carrosserie	NOM	NOM	_	3	dep	_	_	606.510010	607.030029	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-211
+# text = tu es pas assis sur un moteur
+1	tu	tu	CLS	CLS	_	4	subj	_	_	607.710022	607.760010	unifr12-lua
+2	es	être	VRB	VRB	_	4	aux	_	_	607.770020	607.789978	unifr12-lua
+3	pas	pas	ADN	ADN	_	4	dep	_	_	607.799988	607.929993	unifr12-lua
+4	assis	asseoir	VPP	VPP	_	0	root	_	_	607.940002	608.090027	unifr12-lua
+5	sur	sur	PRE	PRE	_	4	dep	_	_	608.099976	608.299988	unifr12-lua
+6	un	un	DET	DET	_	7	spe	_	_	608.309998	608.349976	unifr12-lua
+7	moteur	moteur	NOM	NOM	_	5	dep	_	_	608.359985	608.770020	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-212
+# text = tu es pas euh
+1	tu	tu	CLS	CLS	_	2	subj	_	_	608.809998	608.859985	unifr12-lua
+2	es	être	VRB	VRB	_	0	root	_	_	608.869995	608.919983	unifr12-lua
+3	pas	pas	ADN	ADN	_	2	dep	_	_	608.929993	609.250000	unifr12-lua
+4	euh	euh	INT	INT	_	3	dm	_	_	609.260010	609.679993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-213
+# text = ouais tu es pas tu es pas rien du tout quoi
+1	ouais	ouais	INT	INT	_	3	dm	_	_	611.289978	611.510010	unifr12-lua
+2	tu	tu	CLS	CLS	_	3	subj	_	_	611.520020	611.650024	unifr12-lua
+3	es	être	VRB	VRB	_	0	root	_	_	611.659973	611.679993	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	611.690002	612.020020	unifr12-lua
+5	tu	tu	CLS	CLS	_	6	subj	_	_	612.030029	612.119995	unifr12-lua
+6	es	être	VRB	VRB	_	3	para	_	_	612.130005	612.179993	unifr12-lua
+7	pas	pas	ADN	ADN	_	6	dep	_	_	612.190002	612.349976	unifr12-lua
+8	rien	rien	PRO	PRO	_	6	dep	_	_	612.359985	612.520020	unifr12-lua
+9	du	de+le	PRE	PRE	_	8	dep	_	_	612.530029	612.669983	unifr12-lua
+10	tout	tout	PRO	PRO	_	9	dep	_	_	612.679993	612.849976	unifr12-lua
+11	quoi	quoi	INT	INT	_	10	dm	_	_	612.859985	613.049988	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-214
+# text = mais avec la voiture je roule quand même plus doucement
+1	mais	mais	COO	COO	_	6	mark	_	_	613.700012	613.979980	unifr12-lua
+2	avec	avec	PRE	PRE	_	6	periph	_	_	613.989990	614.210022	unifr12-lua
+3	la	le	DET	DET	_	4	spe	_	_	614.219971	614.270020	unifr12-lua
+4	voiture	voiture	NOM	NOM	_	2	dep	_	_	614.280029	614.530029	unifr12-lua
+5	je	je	CLS	CLS	_	6	subj	_	_	614.539978	614.590027	unifr12-lua
+6	roule	rouler	VRB	VRB	_	0	root	_	_	614.599976	614.690002	unifr12-lua
+7	quand	quand	CSU	CSU	_	6	dep	_	_	614.700012	614.799988	unifr12-lua
+8	même	même	ADV	ADV	_	9	dep	_	_	614.809998	614.890015	unifr12-lua
+9	plus	plus	ADV	ADV	_	10	dep	_	_	614.900024	615.000000	unifr12-lua
+10	doucement	doucement	ADV	ADV	_	7	dep	_	_	615.010010	615.349976	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-215
+# text = OK puis s-
+1	OK	OK	INT	INT	_	3	dm	_	_	613.700012	614.109985	unifr12-fsa
+2	puis	puis	COO	COO	_	3	mark	_	_	616.349976	616.349976	unifr12-fsa
+3	s-	s-	X	X	_	0	root	_	_	616.349976	616.349976	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-216
+# text = mais je les modifie quand même
+1	mais	mais	COO	COO	_	4	mark	_	_	616.390015	616.450012	unifr12-lua
+2	je	je	CLS	CLS	_	4	subj	_	_	616.460022	616.510010	unifr12-lua
+3	les	le	CLI	CLI	_	4	dep	_	_	616.520020	616.599976	unifr12-lua
+4	modifie	modifier	VRB	VRB	_	0	root	_	_	616.609985	616.979980	unifr12-lua
+5	quand	quand	CSU	CSU	_	4	dep	_	_	616.989990	617.109985	unifr12-lua
+6	même	même	ADV	ADV	_	5	dep	_	_	617.119995	617.289978	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-217
+# text = puis
+1	puis	puis	COO	COO	_	0	root	_	_	617.789978	617.869995	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-218
+# text = pour finir cette petite discussion
+1	pour	pour	PRE	PRE	_	0	root	_	_	617.880005	618.010010	unifr12-fsa
+2	finir	finir	VNF	VNF	_	1	dep	_	_	618.020020	618.450012	unifr12-fsa
+3	cette	ce	DET	DET	_	5	spe	_	_	618.460022	618.630005	unifr12-fsa
+4	petite	petit	ADJ	ADJ	_	5	dep	_	_	618.640015	618.840027	unifr12-fsa
+5	discussion	discussion	NOM	NOM	_	2	dep	_	_	618.849976	619.479980	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-219
+# text = si tu avais une leçon à donner à tous ces gens passionnés comme toi aux jeunes qu'est-ce que tu leur dirais
+1	si	si	CSU	CSU	_	0	root	_	_	619.489990	619.570007	unifr12-fsa
+2	tu	tu	CLS	CLS	_	3	subj	_	_	619.580017	619.630005	unifr12-fsa
+3	avais	avoir	VRB	VRB	_	1	dep	_	_	619.640015	619.820007	unifr12-fsa
+4	une	un	DET	DET	_	5	spe	_	_	619.830017	619.919983	unifr12-fsa
+5	leçon	leçon	NOM	NOM	_	3	dep	_	_	619.929993	620.309998	unifr12-fsa
+6	à	à	PRE	PRE	_	5	dep	_	_	620.320007	620.369995	unifr12-fsa
+7	donner	donner	VNF	VNF	_	6	dep	_	_	620.380005	620.880005	unifr12-fsa
+8	à	à	PRE	PRE	_	7	dep	_	_	620.890015	620.909973	unifr12-fsa
+9	tous	tout	ADJ	ADJ	_	11	dep	_	_	621.150024	621.210022	unifr12-fsa
+10	ces	ce	DET	DET	_	11	spe	_	_	621.219971	621.369995	unifr12-fsa
+11	gens	gens	NOM	NOM	_	8	dep	_	_	621.380005	621.559998	unifr12-fsa
+12	passionnés	passionner	VPP	VPP	_	11	dep	_	_	621.570007	621.940002	unifr12-fsa
+13	comme	comme	PRE	PRE	_	12	dep	_	_	621.950012	622.159973	unifr12-fsa
+14	toi	moi	PRO	PRO	_	13	dep	_	_	622.169983	622.539978	unifr12-fsa
+15	aux	à+le	PRE	PRE	_	12	dep	_	_	622.549988	622.669983	unifr12-fsa
+16	jeunes	jeune	NOM	NOM	_	15	dep	_	_	622.679993	623.140015	unifr12-fsa
+17	qu'	que	PRQ	PRQ	_	18	dep	_	_	623.710022	623.729980	unifr12-fsa
+18	est-ce	est-ce	VRB	VRB	_	11	dep	_	_	623.739990	623.830017	unifr12-fsa
+19	que	que	CSU	CSU	_	18	dep	_	_	623.840027	623.859985	unifr12-fsa
+20	tu	tu	CLS	CLS	_	22	subj	_	_	623.869995	623.940002	unifr12-fsa
+21	leur	lui	CLI	CLI	_	22	dep	_	_	623.950012	624.080017	unifr12-fsa
+22	dirais	dire	VRB	VRB	_	19	dep	_	_	624.090027	624.340027	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-220
+# text = que modifier son véhicule
+1	que	que	ADN	ADN	_	2	dep	_	_	625.520020	626.400024	unifr12-lua
+2	modifier	modifier	VNF	VNF	_	0	root	_	_	626.780029	627.119995	unifr12-lua
+3	son	son	DET	DET	_	4	spe	_	_	627.130005	627.289978	unifr12-lua
+4	véhicule	véhicule	NOM	NOM	_	2	dep	_	_	627.299988	627.739990	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-221
+# text = faut le modifier dans les règles
+1	faut	faillir	VRB	VRB	_	0	root	_	_	627.750000	627.919983	unifr12-lua
+2	le	le	CLI	CLI	_	3	dep	_	_	627.929993	627.950012	unifr12-lua
+3	modifier	modifier	VNF	VNF	_	1	dep	_	_	627.960022	628.359985	unifr12-lua
+4	dans	dans	PRE	PRE	_	3	dep	_	_	628.369995	628.479980	unifr12-lua
+5	les	le	DET	DET	_	6	spe	_	_	628.489990	628.570007	unifr12-lua
+6	règles	règle	NOM	NOM	_	4	dep	_	_	628.580017	628.940002	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-222
+# text = si tu modifies pas dans les règles à part avoir des amendes et payer toute ta vie ça sert à rien et de rouler fort
+1	si	si	CSU	CSU	_	19	periph	_	_	629.460022	629.559998	unifr12-lua
+2	tu	tu	CLS	CLS	_	3	subj	_	_	629.570007	629.630005	unifr12-lua
+3	modifies	modifier	VRB	VRB	_	1	dep	_	_	629.640015	630.000000	unifr12-lua
+4	pas	pas	ADN	ADN	_	3	dep	_	_	630.010010	630.140015	unifr12-lua
+5	dans	dans	PRE	PRE	_	3	dep	_	_	630.150024	630.260010	unifr12-lua
+6	les	le	DET	DET	_	7	spe	_	_	630.270020	630.390015	unifr12-lua
+7	règles	règle	NOM	NOM	_	5	dep	_	_	630.400024	630.739990	unifr12-lua
+8	à	à	PRE	PRE	_	3	dep	_	_	630.750000	630.809998	unifr12-lua
+9	part	part	NOM	NOM	_	8	dep	_	_	630.820007	631.010010	unifr12-lua
+10	avoir	avoir	VNF	VNF	_	8	dep	_	_	631.020020	631.380005	unifr12-lua
+11	des	de	PRE	PRE	_	10	dep	_	_	631.390015	631.679993	unifr12-lua
+12	amendes	amende	NOM	NOM	_	11	dep	_	_	631.690002	632.020020	unifr12-lua
+13	et	et	COO	COO	_	14	mark	_	_	632.030029	632.070007	unifr12-lua
+14	payer	payer	VNF	VNF	_	10	para	_	_	632.080017	632.440002	unifr12-lua
+15	toute	tout	ADJ	ADJ	_	17	dep	_	_	632.530029	632.789978	unifr12-lua
+16	ta	son	DET	DET	_	17	spe	_	_	632.799988	632.859985	unifr12-lua
+17	vie	vie	NOM	NOM	_	14	dep	_	_	632.869995	633.070007	unifr12-lua
+18	ça	ça	PRO	PRO	_	19	subj	_	_	633.080017	633.239990	unifr12-lua
+19	sert	servir	VRB	VRB	_	0	root	_	_	633.250000	633.520020	unifr12-lua
+20	à	à	PRE	PRE	_	19	dep	_	_	633.530029	633.570007	unifr12-lua
+21	rien	rien	PRO	PRO	_	20	dep	_	_	633.580017	633.809998	unifr12-lua
+22	et	et	COO	COO	_	23	mark	_	_	634.659973	634.710022	unifr12-lua
+23	de	de	PRE	PRE	_	20	para	_	_	634.719971	634.760010	unifr12-lua
+24	rouler	rouler	VNF	VNF	_	23	dep	_	_	634.770020	634.969971	unifr12-lua
+25	fort	fort	ADJ	ADJ	_	24	dep	_	_	634.979980	635.250000	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-223
+# text = non plus ça re sert à rien à part avoir des beaucoup de danger
+1	non plus	non plus	ADV	ADV	_	4	periph	_	_	635.260010	635.489990	unifr12-lua
+2	ça	ça	PRO	PRO	_	4	periph	_	_	635.500000	635.619995	unifr12-lua
+3	re	re	CLS	CLS	_	4	subj	_	_	635.630005	635.710022	unifr12-lua
+4	sert	servir	VRB	VRB	_	0	root	_	_	635.719971	635.929993	unifr12-lua
+5	à	à	PRE	PRE	_	4	dep	_	_	635.940002	636.010010	unifr12-lua
+6	rien	rien	PRO	PRO	_	5	dep	_	_	636.020020	636.200012	unifr12-lua
+7	à	à	PRE	PRE	_	4	dep	_	_	637.109985	637.210022	unifr12-lua
+8	part	partir	VRB	VRB	_	7	dep	_	_	637.219971	637.340027	unifr12-lua
+9	avoir	avoir	VNF	VNF	_	8	dep	_	_	637.349976	637.549988	unifr12-lua
+10	des	de	PRE	PRE	_	9	dep	_	_	637.559998	637.909973	unifr12-lua
+11	beaucoup	beaucoup	PRO	PRO	_	10	dep	_	_	638.479980	638.700012	unifr12-lua
+12	de	de	PRE	PRE	_	11	dep	_	_	638.710022	638.809998	unifr12-lua
+13	danger	danger	NOM	NOM	_	12	dep	_	_	638.820007	639.260010	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-224
+# text = et des amendes
+1	et	et	COO	COO	_	2	mark	_	_	639.869995	639.929993	unifr12-lua
+2	des	de	PRE	PRE	_	0	root	_	_	639.940002	640.119995	unifr12-lua
+3	amendes	amende	NOM	NOM	_	2	dep	_	_	640.130005	640.429993	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-225
+# text = voilà alors merci beaucoup
+1	voilà	voilà	INT	INT	_	3	dm	_	_	642.200012	642.510010	unifr12-fsa
+2	alors	alors	ADV	ADV	_	3	periph	_	_	642.520020	642.809998	unifr12-fsa
+3	merci	merci	NOM	NOM	_	0	root	_	_	642.820007	643.010010	unifr12-fsa
+4	beaucoup	beaucoup	ADV	ADV	_	3	dep	_	_	643.020020	643.260010	unifr12-fsa
+
+# sent_id = cefc-ofrom-unifr12a07d-226
+# text = au revoir merci
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	644.250000	644.890015	unifr12-lua
+2	merci	merci	INT	INT	_	1	dm	_	_	644.070007	644.280029	unifr12-lua
+
+# sent_id = cefc-ofrom-unifr12a07d-227
+# text = à vous
+1	à	à	PRE	PRE	_	0	root	_	_	644.289978	644.380005	unifr12-lua
+2	vous	moi	PRO	PRO	_	1	dep	_	_	644.390015	644.570007	unifr12-lua
+

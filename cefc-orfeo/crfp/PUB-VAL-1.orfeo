@@ -1,0 +1,3533 @@
+# sent_id = cefc-crfp-PUB-VAL-1-1
+# text = que chose on préfère évidemment le voir chez les autres
+1	que	que	CSU	CSU	_	0	root	_	_	0.370000	0.460000	L1
+2	chose	chose	NOM	NOM	_	4	periph	_	_	0.470000	0.890000	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	0.900000	0.920000	L1
+4	préfère	préférer	VRB	VRB	_	1	dep	_	_	1.070000	1.400000	L1
+5	évidemment	évidemment	ADV	ADV	_	4	dep	_	_	1.410000	1.850000	L1
+6	le	le	CLI	CLI	_	7	dep	_	_	1.860000	1.890000	L1
+7	voir	voir	VNF	VNF	_	4	dep	_	_	1.900000	2.070000	L1
+8	chez	chez	PRE	PRE	_	7	dep	_	_	2.080000	2.210000	L1
+9	les	le	DET	DET	_	10	spe	_	_	2.220000	2.390000	L1
+10	autres	autres	NOM	NOM	_	8	dep	_	_	2.400000	2.590000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-2
+# text = que
+1	que	que	PRQ	PRQ	_	0	root	_	_	2.600000	2.680000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-3
+# text = chez soi
+1	chez	chez	PRE	PRE	_	0	root	_	_	2.690000	2.840000	L1
+2	soi	moi	PRO	PRO	_	1	dep	_	_	2.850000	3.190000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-4
+# text = euh qu'est qu'est-ce qui fait vraiment que vous vous opposez à à la création de cette usine
+1	euh	euh	INT	INT	_	3	dm	_	_	3.490000	3.510000	L1
+2	qu'	que	PRQ	PRQ	_	3	dep	_	_	3.520000	3.540000	L1
+3	est	être	VRB	VRB	_	0	root	_	_	3.550000	4.050000	L1
+4	qu'	que	CSU	CSU	_	3	dep	_	_	4.060000	4.200000	L1
+5	est-ce	est-ce	NOM	NOM	_	3	dep	_	_	4.210000	4.500000	L1
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	4.510000	4.650000	L1
+7	fait	faire	VRB	VRB	_	5	dep	_	_	4.660000	4.880000	L1
+8	vraiment	vraiment	ADV	ADV	_	7	dep	_	_	4.890000	5.180000	L1
+9	que	que	CSU	CSU	_	7	dep	_	_	5.190000	5.270000	L1
+10	vous	vous	CLS	CLS	_	12	subj	_	_	5.280000	5.380000	L1
+11	vous	vous	CLI	CLI	_	12	dep	_	_	5.390000	5.630000	L1
+12	opposez	opposer	VRB	VRB	_	9	dep	_	_	5.640000	6.100000	L1
+13	à	à	PRE	PRE	_	12	dep	_	_	6.110000	6.420000	L1
+14	à	à	PRE	PRE	_	13	para	_	_	6.580000	6.690000	L1
+15	la	le	DET	DET	_	16	spe	_	_	6.700000	6.770000	L1
+16	création	création	NOM	NOM	_	14	dep	_	_	6.780000	7.120000	L1
+17	de	de	PRE	PRE	_	16	dep	_	_	7.130000	7.150000	L1
+18	cette	ce	DET	DET	_	19	spe	_	_	7.160000	7.310000	L1
+19	usine	usine	NOM	NOM	_	17	dep	_	_	7.320000	7.670000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-5
+# text = eh bien écoutez ce centre à proximité c'est un centre de collecte et de transit hein de cadavres d'animaux
+1	eh bien	eh bien	INT	INT	_	8	dm	_	_	8.260000	8.530000	L2
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	8.540000	8.900000	L2
+3	ce	ce	DET	DET	_	4	spe	_	_	10.040000	10.140000	L2
+4	centre	centre	NOM	NOM	_	8	periph	_	_	10.150000	10.740000	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	10.750000	10.790000	L2
+6	proximité	proximité	NOM	NOM	_	5	dep	_	_	10.800000	11.520000	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	11.530000	11.620000	L2
+8	est	être	VRB	VRB	_	0	root	_	_	11.630000	11.730000	L2
+9	un	un	DET	DET	_	10	spe	_	_	11.740000	11.830000	L2
+10	centre	centre	NOM	NOM	_	8	dep	_	_	11.840000	12.240000	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	12.250000	12.380000	L2
+12	collecte	collecte	NOM	NOM	_	11	dep	_	_	12.390000	12.800000	L2
+13	et	et	COO	COO	_	14	mark	_	_	12.810000	12.840000	L2
+14	de	de	PRE	PRE	_	11	para	_	_	12.850000	12.940000	L2
+15	transit	transit	NOM	NOM	_	14	dep	_	_	12.950000	13.470000	L2
+16	hein	hein	INT	INT	_	15	dm	_	_	13.480000	13.530000	L2
+17	de	de	PRE	PRE	_	15	dep	_	_	13.540000	13.630000	L2
+18	cadavres	cadavre	NOM	NOM	_	17	dep	_	_	13.640000	13.960000	L2
+19	d'	de	PRE	PRE	_	18	dep	_	_	13.970000	14.000000	L2
+20	animaux	animal	NOM	NOM	_	19	dep	_	_	14.010000	14.240000	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-6
+# text = et ce centre à proximité immédiate des premières maisons du village va engendrer des nuisances de tous ordres dont nous avons largement fait état dans la presse depuis plus de quatre mois
+1	et	et	COO	COO	_	3	mark	_	_	15.040000	15.220000	L2
+2	ce	ce	DET	DET	_	3	spe	_	_	15.230000	15.380000	L2
+3	centre	centre	NOM	NOM	_	12	subj	_	_	15.390000	15.770000	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	15.780000	15.810000	L2
+5	proximité	proximité	NOM	NOM	_	4	dep	_	_	15.820000	16.480000	L2
+6	immédiate	immédiat	ADJ	ADJ	_	5	dep	_	_	16.490000	17.379999	L2
+7	des	de	PRE	PRE	_	3	dep	_	_	17.540001	17.620001	L2
+8	premières	premier	ADJ	ADJ	_	9	dep	_	_	17.629999	18.000000	L2
+9	maisons	maison	NOM	NOM	_	7	dep	_	_	18.010000	18.350000	L2
+10	du	de+le	PRE	PRE	_	9	dep	_	_	18.360001	18.440001	L2
+11	village	village	NOM	NOM	_	10	dep	_	_	18.450001	19.030001	L2
+12	va	aller	VRB	VRB	_	0	root	_	_	19.750000	19.830000	L2
+13	engendrer	engendrer	VNF	VNF	_	12	dep	_	_	19.840000	20.309999	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	20.320000	20.440001	L2
+15	nuisances	nuisance	NOM	NOM	_	14	dep	_	_	20.450001	20.969999	L2
+16	de	de	PRE	PRE	_	15	dep	_	_	20.980000	21.000000	L2
+17	tous	tout	ADJ	ADJ	_	18	dep	_	_	21.010000	21.240000	L2
+18	ordres	ordre	NOM	NOM	_	16	dep	_	_	21.250000	21.719999	L2
+19	dont	dont	PRQ	PRQ	_	23	dep	_	_	21.879999	21.969999	L2
+20	nous	nous	CLS	CLS	_	23	subj	_	_	21.980000	22.129999	L2
+21	avons	avoir	VRB	VRB	_	23	aux	_	_	22.139999	22.379999	L2
+22	largement	largement	ADV	ADV	_	23	dep	_	_	22.389999	23.000000	L2
+23	fait	faire	VPP	VPP	_	15	dep	_	_	23.010000	23.280001	L2
+24	état	état	NOM	NOM	_	23	dep	_	_	23.290001	23.559999	L2
+25	dans	dans	PRE	PRE	_	23	dep	_	_	23.570000	23.680000	L2
+26	la	le	DET	DET	_	27	spe	_	_	23.690001	23.780001	L2
+27	presse	presse	NOM	NOM	_	25	dep	_	_	23.790001	24.160000	L2
+28	depuis	depuis	PRE	PRE	_	23	dep	_	_	24.170000	24.450001	L2
+29	plus	plus	NOM	NOM	_	28	dep	_	_	24.459999	24.559999	L2
+30	de	de	PRE	PRE	_	29	dep	_	_	24.650000	24.680000	L2
+31	quatre	quatre	NUM	NUM	_	32	spe	_	_	24.690001	24.959999	L2
+32	mois	moi	NOM	NOM	_	30	dep	_	_	24.969999	25.139999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-7
+# text = et cette entreprise donc euh germano-française NNAAMMEE qui détient cinquante pour cent du marché national de l'équarrissage et l'équarrissage obéit à une logique de profit totalement aberrante
+1	et	et	COO	COO	_	3	mark	_	_	26.360001	26.400000	L2
+2	cette	ce	DET	DET	_	3	spe	_	_	26.410000	26.580000	L2
+3	entreprise	entreprise	NOM	NOM	_	0	root	_	_	26.590000	27.250000	L2
+4	donc	donc	ADV	ADV	_	3	dm	_	_	27.260000	27.660000	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	27.670000	27.980000	L2
+6	germano-française	germano-française	ADJ	ADJ	_	7	dep	_	_	27.990000	29.190001	L2
+7	NNAAMMEE	NOM	NOM	NOM	_	3	para	_	_	29.480000	29.830000	L2
+8	qui	qui	PRQ	PRQ	_	9	subj	_	_	30.620001	30.670000	L2
+9	détient	détenir	VRB	VRB	_	7	dep	_	_	30.760000	31.090000	L2
+10	cinquante	cinquante	NUM	NUM	_	9	dep	_	_	31.100000	31.610001	L2
+11	pour	pour	PRE	PRE	_	10	dep	_	_	31.620001	31.799999	L2
+12	cent	cent	NUM	NUM	_	11	dep	_	_	31.809999	32.060001	L2
+13	du	de+le	PRE	PRE	_	9	dep	_	_	32.070000	32.180000	L2
+14	marché	marché	NOM	NOM	_	13	dep	_	_	32.189999	32.480000	L2
+15	national	national	ADJ	ADJ	_	14	dep	_	_	32.490002	32.930000	L2
+16	de	de	PRE	PRE	_	14	dep	_	_	32.939999	33.029999	L2
+17	l'	le	DET	DET	_	18	spe	_	_	33.040001	33.060001	L2
+18	équarrissage	équarrissage	NOM	NOM	_	16	dep	_	_	33.070000	33.830002	L2
+19	et	et	COO	COO	_	22	mark	_	_	33.840000	33.959999	L2
+20	l'	le	DET	DET	_	21	spe	_	_	33.970001	33.990002	L2
+21	équarrissage	équarrissage	NOM	NOM	_	22	subj	_	_	34.000000	34.639999	L2
+22	obéit	obéir	VRB	VRB	_	7	dep	_	_	34.650002	35.000000	L2
+23	à	à	PRE	PRE	_	22	dep	_	_	35.009998	35.080002	L2
+24	une	un	DET	DET	_	25	spe	_	_	35.090000	35.189999	L2
+25	logique	logique	NOM	NOM	_	23	dep	_	_	35.200001	35.470001	L2
+26	de	de	PRE	PRE	_	25	dep	_	_	35.520000	35.639999	L2
+27	profit	profit	NOM	NOM	_	26	dep	_	_	35.689999	36.139999	L2
+28	totalement	totalement	ADV	ADV	_	29	dep	_	_	37.139999	37.610001	L2
+29	aberrante	aberrant	ADJ	ADJ	_	3	dep	_	_	37.619999	38.279999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-8
+# text = les camions de collecte vont vont effectuer une gesticulation kilométrique
+1	les	le	DET	DET	_	2	spe	_	_	39.110001	39.290001	L2
+2	camions	camion	NOM	NOM	_	5	subj	_	_	39.299999	39.650002	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	39.660000	39.700001	L2
+4	collecte	collecte	NOM	NOM	_	3	dep	_	_	39.709999	40.400002	L2
+5	vont	aller	VRB	VRB	_	0	root	_	_	40.990002	41.139999	L2
+6	vont	aller	VRB	VRB	_	5	para	_	_	41.270000	41.450001	L2
+7	effectuer	effectuer	VNF	VNF	_	6	dep	_	_	41.459999	42.090000	L2
+8	une	un	DET	DET	_	9	spe	_	_	42.099998	42.230000	L2
+9	gesticulation	gesticulation	NOM	NOM	_	7	dep	_	_	42.240002	43.040001	L2
+10	kilométrique	kilométrique	ADJ	ADJ	_	9	dep	_	_	43.049999	43.950001	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-9
+# text = sud nord sud nord dont la seule justification sera le rapport à la tonne kilomètre et cet argent sortira directement de la poche du contri~ contribuable étant donné que l'équarrissage est un service public
+1	sud	sud	NOM	NOM	_	0	root	_	_	44.810001	45.220001	L2
+2	nord	nord	INT	INT	_	1	dm	_	_	45.230000	45.709999	L2
+3	sud	sud	NOM	NOM	_	1	para	_	_	46.889999	47.150002	L2
+4	nord	nord	NOM	NOM	_	3	dep	_	_	47.230000	47.840000	L2
+5	dont	dont	PRQ	PRQ	_	9	dep	_	_	48.410000	48.549999	L2
+6	la	le	DET	DET	_	8	spe	_	_	48.560001	48.680000	L2
+7	seule	seul	ADJ	ADJ	_	8	dep	_	_	48.689999	49.029999	L2
+8	justification	justification	NOM	NOM	_	9	subj	_	_	49.040001	49.910000	L2
+9	sera	être	VRB	VRB	_	3	dep	_	_	49.919998	50.259998	L2
+10	le	le	DET	DET	_	11	spe	_	_	50.270000	50.340000	L2
+11	rapport	rapport	NOM	NOM	_	9	dep	_	_	50.349998	50.799999	L2
+12	à	à	PRE	PRE	_	11	dep	_	_	50.810001	50.830002	L2
+13	la	le	DET	DET	_	14	spe	_	_	50.840000	50.939999	L2
+14	tonne	tonne	NOM	NOM	_	12	dep	_	_	51.049999	51.299999	L2
+15	kilomètre	kilomètre	NOM	NOM	_	14	dep	_	_	51.310001	51.840000	L2
+16	et	et	COO	COO	_	19	mark	_	_	53.009998	53.090000	L2
+17	cet	ce	DET	DET	_	18	spe	_	_	53.099998	53.299999	L2
+18	argent	argent	NOM	NOM	_	19	subj	_	_	53.310001	53.610001	L2
+19	sortira	sortir	VRB	VRB	_	3	dep	_	_	53.619999	54.090000	L2
+20	directement	directement	ADV	ADV	_	19	dep	_	_	54.099998	54.639999	L2
+21	de	de	PRE	PRE	_	19	dep	_	_	54.650002	54.730000	L2
+22	la	le	DET	DET	_	23	spe	_	_	54.740002	54.820000	L2
+23	poche	poche	NOM	NOM	_	21	dep	_	_	54.830002	55.040001	L2
+24	du	de+le	PRE	PRE	_	23	dep	_	_	55.049999	55.189999	L2
+25	contri~	contri~	NOM	NOM	_	24	dep	_	_	55.200001	55.560001	L2
+26	contribuable	contribuable	ADJ	ADJ	_	25	dep	_	_	55.880001	56.290001	L2
+27	étant donné	étant donné	PRE	PRE	_	19	dep	_	_	56.299999	56.759998	L2
+28	que	que	CSU	CSU	_	27	dep	_	_	56.770000	56.880001	L2
+29	l'	le	DET	DET	_	30	spe	_	_	56.889999	56.930000	L2
+30	équarrissage	équarrissage	NOM	NOM	_	31	subj	_	_	56.939999	57.610001	L2
+31	est	être	VRB	VRB	_	28	dep	_	_	57.709999	57.730000	L2
+32	un	un	DET	DET	_	33	spe	_	_	57.880001	57.900002	L2
+33	service	service	NOM	NOM	_	31	dep	_	_	57.950001	58.340000	L2
+34	public	public	ADJ	ADJ	_	33	dep	_	_	58.689999	59.139999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-10
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	59.849998	60.240002	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-11
+# text = si vous me demandez
+1	si	si	CSU	CSU	_	0	root	_	_	60.250000	60.400002	L2
+2	vous	vous	CLS	CLS	_	4	subj	_	_	60.410000	60.570000	L2
+3	me	me	CLI	CLI	_	4	dep	_	_	60.580002	60.650002	L2
+4	demandez	demander	VRB	VRB	_	1	dep	_	_	60.660000	61.099998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-12
+# text = est-ce que nous avons des solutions
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	61.799999	61.849998	L2
+2	que	que	CSU	CSU	_	1	dep	_	_	61.860001	61.900002	L2
+3	nous	nous	CLS	CLS	_	4	subj	_	_	61.910000	62.080002	L2
+4	avons	avoir	VRB	VRB	_	2	dep	_	_	62.090000	62.270000	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	62.279999	62.389999	L2
+6	solutions	solution	NOM	NOM	_	5	dep	_	_	62.400002	63.090000	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-13
+# text = non nous n'avons pas de solution miracle à proposer hein
+1	non	non	INT	INT	_	4	dm	_	_	63.799999	64.040001	L2
+2	nous	nous	CLS	CLS	_	4	subj	_	_	64.050003	64.150002	L2
+3	n'	ne	CLN	CLN	_	4	dep	_	_	64.160004	64.199997	L2
+4	avons	avoir	VRB	VRB	_	0	root	_	_	64.209999	64.410004	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	64.419998	64.550003	L2
+6	de	de	PRE	PRE	_	4	dep	_	_	64.559998	64.580002	L2
+7	solution	solution	NOM	NOM	_	6	dep	_	_	64.589996	65.089996	L2
+8	miracle	miracle	ADJ	ADJ	_	7	dep	_	_	65.099998	65.519997	L2
+9	à	à	PRE	PRE	_	6	para	_	_	65.529999	65.559998	L2
+10	proposer	proposer	VNF	VNF	_	9	dep	_	_	65.570000	66.160004	L2
+11	hein	hein	INT	INT	_	10	dm	_	_	66.169998	66.269997	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-14
+# text = mais faisons en sorte que ce qui touche à l'environnement à notre qualité de vie ne soit pas régi par une seule loi
+1	mais	mais	COO	COO	_	2	mark	_	_	67.199997	67.629997	L2
+2	faisons	faire	VRB	VRB	_	0	root	_	_	68.080002	68.349998	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	68.360001	68.529999	L2
+4	sorte	sorte	NOM	NOM	_	3	dep	_	_	68.540001	68.940002	L2
+5	que	que	CSU	CSU	_	2	dep	_	_	69.059998	69.209999	L2
+6	ce	ce	PRO	PRO	_	20	subj	_	_	69.220001	69.360001	L2
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	69.370003	69.540001	L2
+8	touche	touche	NOM	NOM	_	6	dep	_	_	69.629997	69.940002	L2
+9	à	à	PRE	PRE	_	8	dep	_	_	69.949997	69.980003	L2
+10	l'	le	DET	DET	_	11	spe	_	_	69.989998	70.040001	L2
+11	environnement	environnement	NOM	NOM	_	9	dep	_	_	70.050003	70.839996	L2
+12	à	à	PRE	PRE	_	9	para	_	_	71.070000	71.089996	L2
+13	notre	son	DET	DET	_	14	spe	_	_	71.099998	71.269997	L2
+14	qualité	qualité	NOM	NOM	_	12	dep	_	_	71.279999	71.660004	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	71.669998	71.709999	L2
+16	vie	vie	NOM	NOM	_	15	dep	_	_	71.839996	72.010002	L2
+17	ne	ne	CLN	CLN	_	20	dep	_	_	72.690002	72.760002	L2
+18	soit	être	VRB	VRB	_	20	aux	_	_	72.769997	72.930000	L2
+19	pas	pas	ADN	ADN	_	20	dep	_	_	72.940002	73.110001	L2
+20	régi	régir	VPP	VPP	_	5	dep	_	_	73.120003	73.519997	L2
+21	par	par	PRE	PRE	_	20	dep	_	_	73.529999	73.730003	L2
+22	une	un	DET	DET	_	24	spe	_	_	73.739998	73.870003	L2
+23	seule	seul	ADJ	ADJ	_	24	dep	_	_	73.879997	74.379997	L2
+24	loi	loi	NOM	NOM	_	21	dep	_	_	74.389999	74.550003	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-15
+# text = celle du marché du profit immédiat
+1	celle	celui	PRO	PRO	_	0	root	_	_	75.320000	75.500000	L2
+2	du	de+le	PRE	PRE	_	1	dep	_	_	75.510002	75.599998	L2
+3	marché	marché	NOM	NOM	_	2	dep	_	_	75.610001	76.199997	L2
+4	du	de+le	PRE	PRE	_	3	dep	_	_	76.290001	76.370003	L2
+5	profit	profit	NOM	NOM	_	4	dep	_	_	76.599998	77.029999	L2
+6	immédiat	immédiat	ADJ	ADJ	_	5	dep	_	_	77.169998	77.639999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-16
+# text = oui u-~ une question André s'il avait s'il s'agissait euh d'une décharge euh de de produits ménagers d'un incinérateur d'ordures ménagères est-ce que vous réagiriez de la même façon
+1	oui	oui	INT	INT	_	28	dm	_	_	77.919998	78.209999	L1
+2	u-~	u-~	X	X	_	1	disflink	_	_	78.220001	78.279999	L1
+3	une	un	DET	DET	_	4	spe	_	_	78.290001	78.389999	L1
+4	question	question	NOM	NOM	_	28	periph	_	_	78.400002	78.739998	L1
+5	André	André	NOM	NOM	_	4	dep	_	_	78.750000	78.940002	L1
+6	s'	si	CSU	CSU	_	28	periph	_	_	78.949997	79.059998	L1
+7	il	il	CLS	CLS	_	8	subj	_	_	79.070000	79.190002	L1
+8	avait	avoir	VRB	VRB	_	6	dep	_	_	79.199997	79.589996	L1
+9	s'	si	CSU	CSU	_	6	para	_	_	79.599998	79.730003	L1
+10	il	il	CLS	CLS	_	12	subj	_	_	79.739998	79.910004	L1
+11	s'	se	CLI	CLI	_	12	dep	_	_	79.919998	80.080002	L1
+12	agissait	agir	VRB	VRB	_	9	dep	_	_	80.089996	80.489998	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	80.500000	80.919998	L1
+14	d'	de	PRE	PRE	_	12	dep	_	_	80.989998	81.029999	L1
+15	une	un	DET	DET	_	16	spe	_	_	81.040001	81.339996	L1
+16	décharge	décharge	NOM	NOM	_	14	dep	_	_	81.349998	82.180000	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	82.529999	82.669998	L1
+18	de	de	PRE	PRE	_	16	dep	_	_	82.680000	82.940002	L1
+19	de	de	PRE	PRE	_	18	para	_	_	82.949997	83.150002	L1
+20	produits	produit	NOM	NOM	_	19	dep	_	_	83.160004	83.430000	L1
+21	ménagers	ménager	ADJ	ADJ	_	20	dep	_	_	83.440002	83.839996	L1
+22	d'	de	PRE	PRE	_	20	dep	_	_	83.849998	83.970001	L1
+23	un	un	DET	DET	_	24	spe	_	_	83.980003	84.239998	L1
+24	incinérateur	incinérateur	NOM	NOM	_	22	dep	_	_	84.250000	85.169998	L1
+25	d'	de	PRE	PRE	_	24	dep	_	_	85.180000	85.239998	L1
+26	ordures	ordure	NOM	NOM	_	25	dep	_	_	85.250000	85.459999	L1
+27	ménagères	ménager	ADJ	ADJ	_	24	dep	_	_	85.470001	85.870003	L1
+28	est-ce	est-ce	VRB	VRB	_	0	root	_	_	85.879997	85.970001	L1
+29	que	que	CSU	CSU	_	28	dep	_	_	85.980003	86.070000	L1
+30	vous	vous	CLS	CLS	_	31	subj	_	_	86.080002	86.250000	L1
+31	réagiriez	réagir	VRB	VRB	_	29	dep	_	_	86.260002	86.769997	L1
+32	de	de	PRE	PRE	_	31	dep	_	_	86.779999	86.849998	L1
+33	la	le	DET	DET	_	35	spe	_	_	86.860001	86.940002	L1
+34	même	même	ADJ	ADJ	_	35	dep	_	_	86.949997	87.110001	L1
+35	façon	façon	NOM	NOM	_	32	dep	_	_	87.120003	87.470001	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-17
+# text = ben on réagirait à la mesure des nuisances potentielles
+1	ben	ben	INT	INT	_	3	dm	_	_	88.290001	88.589996	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	88.629997	88.760002	L2
+3	réagirait	réagir	VRB	VRB	_	0	root	_	_	88.769997	89.410004	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	89.419998	89.500000	L2
+5	la	le	DET	DET	_	6	spe	_	_	89.510002	89.599998	L2
+6	mesure	mesure	NOM	NOM	_	4	dep	_	_	89.610001	90.269997	L2
+7	des	de	PRE	PRE	_	6	dep	_	_	90.279999	90.480003	L2
+8	nuisances	nuisance	NOM	NOM	_	7	dep	_	_	90.489998	90.959999	L2
+9	potentielles	potentiel	ADJ	ADJ	_	8	dep	_	_	91.019997	91.809998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-18
+# text = qu'une telle entreprise générerait
+1	qu'	que	CSU	CSU	_	5	dep	_	_	92.330002	92.370003	L2
+2	une	un	DET	DET	_	4	spe	_	_	92.419998	92.599998	L2
+3	telle	tel	ADJ	ADJ	_	4	dep	_	_	92.610001	92.830002	L2
+4	entreprise	entreprise	NOM	NOM	_	5	subj	_	_	92.839996	93.410004	L2
+5	générerait	générer	VRB	VRB	_	0	root	_	_	93.419998	94.080002	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-19
+# text = or euh
+1	or	or	COO	COO	_	0	root	_	_	95.110001	95.489998	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	95.580002	96.019997	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-20
+# text = comme l'a bien expliqué euh la personne qui parlait juste avant hein et qui analysait
+1	comme	comme	PRE	PRE	_	5	periph	_	_	96.160004	96.449997	L2
+2	l'	le	CLI	CLI	_	5	dep	_	_	96.459999	96.500000	L2
+3	a	avoir	VRB	VRB	_	5	aux	_	_	96.510002	97.040001	L2
+4	bien	bien	ADV	ADV	_	5	dep	_	_	97.110001	97.389999	L2
+5	expliqué	expliquer	VPP	VPP	_	0	root	_	_	97.400002	98.129997	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	98.519997	98.769997	L2
+7	la	le	DET	DET	_	8	spe	_	_	98.779999	98.889999	L2
+8	personne	personne	NOM	NOM	_	5	dep	_	_	98.900002	99.360001	L2
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	99.370003	99.510002	L2
+10	parlait	parler	VRB	VRB	_	8	dep	_	_	99.519997	99.820000	L2
+11	juste	juste	ADV	ADV	_	10	dep	_	_	99.830002	100.089996	L2
+12	avant	avant	PRE	PRE	_	10	dep	_	_	100.099998	100.419998	L2
+13	hein	hein	INT	INT	_	12	dm	_	_	100.879997	101.010002	L2
+14	et	et	COO	COO	_	16	mark	_	_	101.320000	101.459999	L2
+15	qui	qui	PRQ	PRQ	_	16	dep	_	_	101.470001	101.610001	L2
+16	analysait	analyser	VRB	VRB	_	10	para	_	_	101.620003	102.089996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-21
+# text = ça c'est un scientifique hein c'est un pharmacien
+1	ça	ça	PRO	PRO	_	3	periph	_	_	102.099998	102.309998	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	102.320000	102.379997	L2
+3	est	être	VRB	VRB	_	0	root	_	_	102.389999	102.500000	L2
+4	un	un	DET	DET	_	5	spe	_	_	102.510002	102.580002	L2
+5	scientifique	scientifique	NOM	NOM	_	3	dep	_	_	102.589996	103.339996	L2
+6	hein	hein	INT	INT	_	5	dm	_	_	103.349998	103.470001	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	103.480003	103.570000	L2
+8	est	être	VRB	VRB	_	3	para	_	_	103.580002	103.690002	L2
+9	un	un	DET	DET	_	10	spe	_	_	103.699997	103.790001	L2
+10	pharmacien	pharmacien	NOM	NOM	_	8	dep	_	_	103.800003	104.400002	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-22
+# text = et il vous a donné là des les les causes hein qui font que nous nous opposons vigoureusement à ce projet les causes
+1	et	et	COO	COO	_	5	mark	_	_	105.230003	105.519997	L2
+2	il	il	CLS	CLS	_	5	subj	_	_	105.529999	105.680000	L2
+3	vous	vous	CLI	CLI	_	5	dep	_	_	105.690002	105.870003	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	105.879997	105.949997	L2
+5	donné	donner	VPP	VPP	_	0	root	_	_	105.959999	106.239998	L2
+6	là	là	ADV	ADV	_	5	dep	_	_	106.349998	106.699997	L2
+7	des	de	PRE	PRE	_	5	dep	_	_	106.959999	107.519997	L2
+8	les	le	DET	DET	_	10	spe	_	_	108.320000	108.440002	L2
+9	les	le	DET	DET	_	8	para	_	_	108.449997	108.769997	L2
+10	causes	cause	NOM	NOM	_	7	dep	_	_	108.849998	109.540001	L2
+11	hein	hein	INT	INT	_	10	dm	_	_	109.779999	110.000000	L2
+12	qui	qui	PRQ	PRQ	_	13	dep	_	_	110.010002	110.150002	L2
+13	font	faire	VRB	VRB	_	10	dep	_	_	110.160004	110.559998	L2
+14	que	que	CSU	CSU	_	13	dep	_	_	110.620003	111.339996	L2
+15	nous	nous	CLS	CLS	_	17	subj	_	_	111.349998	111.430000	L2
+16	nous	nous	CLI	CLI	_	17	dep	_	_	111.440002	111.680000	L2
+17	opposons	opposer	VRB	VRB	_	14	dep	_	_	111.690002	112.449997	L2
+18	vigoureusement	vigoureusement	ADV	ADV	_	17	dep	_	_	112.459999	113.120003	L2
+19	à	à	PRE	PRE	_	17	dep	_	_	113.169998	113.199997	L2
+20	ce	ce	DET	DET	_	21	spe	_	_	113.209999	113.360001	L2
+21	projet	projet	NOM	NOM	_	19	dep	_	_	113.370003	113.849998	L2
+22	les	le	DET	DET	_	23	spe	_	_	114.360001	114.419998	L2
+23	causes	cause	NOM	NOM	_	17	dep	_	_	114.430000	114.650002	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-23
+# text = c'est-à-dire s~ toutes les nuisances olfactives
+1	c'	ce	CLS	CLS	_	2	subj	_	_	114.660004	114.690002	L2
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	114.699997	115.309998	L2
+3	s~	s~	X	X	_	2	disflink	_	_	115.430000	115.680000	L2
+4	toutes	tout	ADJ	ADJ	_	6	dep	_	_	115.989998	116.220001	L2
+5	les	le	DET	DET	_	6	spe	_	_	116.230003	116.370003	L2
+6	nuisances	nuisance	NOM	NOM	_	2	dep	_	_	116.379997	117.199997	L2
+7	olfactives	olfactif	ADJ	ADJ	_	6	dep	_	_	117.379997	118.500000	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-24
+# text = et euh sanitaires qu'un tel projet générerait
+1	et	et	COO	COO	_	8	mark	_	_	118.980003	119.070000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	119.080002	119.529999	L2
+3	sanitaires	sanitaire	NOM	NOM	_	8	periph	_	_	119.540001	120.500000	L2
+4	qu'	que	PRQ	PRQ	_	8	dep	_	_	120.690002	120.750000	L2
+5	un	un	DET	DET	_	7	spe	_	_	120.760002	120.889999	L2
+6	tel	tel	ADJ	ADJ	_	7	dep	_	_	120.900002	121.089996	L2
+7	projet	projet	NOM	NOM	_	8	subj	_	_	121.099998	121.809998	L2
+8	générerait	générer	VRB	VRB	_	0	root	_	_	121.820000	122.459999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-25
+# text = hum est-ce que il n'y a pas un petit peu
+1	hum	hum	INT	INT	_	2	dm	_	_	123.160004	123.220001	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	123.230003	123.349998	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	123.360001	123.589996	L1
+4	il	il	CLS	CLS	_	7	subj	_	_	123.599998	123.760002	L1
+5	n'	ne	CLN	CLN	_	7	dep	_	_	123.769997	123.820000	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	123.830002	123.889999	L1
+7	a	avoir	VRB	VRB	_	3	dep	_	_	123.900002	123.930000	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	123.940002	124.070000	L1
+9	un	un	DET	DET	_	11	spe	_	_	124.080002	124.169998	L1
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	124.180000	124.330002	L1
+11	peu	peu	NOM	NOM	_	7	dep	_	_	124.339996	124.570000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-26
+# text = on parle beaucoup depuis euh quelques mois de quelques années maintenant de de la vache folle
+1	on	on	CLS	CLS	_	2	subj	_	_	124.580002	124.820000	L1
+2	parle	parler	VRB	VRB	_	0	root	_	_	124.830002	125.080002	L1
+3	beaucoup	beaucoup	ADV	ADV	_	2	dep	_	_	125.089996	125.339996	L1
+4	depuis	depuis	PRE	PRE	_	2	dep	_	_	125.349998	125.720001	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	125.730003	125.980003	L1
+6	quelques	quelque	ADJ	ADJ	_	7	spe	_	_	125.989998	126.529999	L1
+7	mois	moi	NOM	NOM	_	4	dep	_	_	126.540001	126.760002	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	126.769997	127.029999	L1
+9	quelques	quelque	ADJ	ADJ	_	10	spe	_	_	127.040001	127.360001	L1
+10	années	année	NOM	NOM	_	8	dep	_	_	127.370003	127.519997	L1
+11	maintenant	maintenant	ADV	ADV	_	2	dep	_	_	127.529999	127.889999	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	127.900002	128.119995	L1
+13	de	de	PRE	PRE	_	12	para	_	_	128.130005	128.220001	L1
+14	la	le	DET	DET	_	15	spe	_	_	128.229996	128.320007	L1
+15	vache	vache	NOM	NOM	_	13	dep	_	_	128.330002	128.539993	L1
+16	folle	fou	ADJ	ADJ	_	15	dep	_	_	128.550003	128.750000	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-27
+# text = est-ce qu'il y a pas une peur un petit peu incontrôlée quand on parle de carcasses d'animaux
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	128.759995	128.869995	L1
+2	qu'	que	CSU	CSU	_	1	dep	_	_	128.880005	128.949997	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	128.960007	129.080002	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	129.089996	129.119995	L1
+5	a	avoir	VRB	VRB	_	2	dep	_	_	129.130005	129.160004	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	129.169998	129.389999	L1
+7	une	un	DET	DET	_	8	spe	_	_	129.399994	129.580002	L1
+8	peur	peur	NOM	NOM	_	5	dep	_	_	129.699997	129.990005	L1
+9	un	un	DET	DET	_	11	spe	_	_	130.000000	130.080002	L1
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	130.089996	130.220001	L1
+11	peu	peu	NOM	NOM	_	8	para	_	_	130.229996	130.369995	L1
+12	incontrôlée	incontrôlé	ADJ	ADJ	_	11	dep	_	_	130.380005	131.059998	L1
+13	quand	quand	CSU	CSU	_	1	dep	_	_	131.070007	131.259995	L1
+14	on	on	CLS	CLS	_	15	subj	_	_	131.270004	131.339996	L1
+15	parle	parler	VRB	VRB	_	13	dep	_	_	131.410004	131.660004	L1
+16	de	de	PRE	PRE	_	15	dep	_	_	131.669998	131.860001	L1
+17	carcasses	carcasse	NOM	NOM	_	16	dep	_	_	132.119995	132.550003	L1
+18	d'	de	PRE	PRE	_	17	dep	_	_	132.559998	132.610001	L1
+19	animaux	animal	NOM	NOM	_	18	dep	_	_	132.619995	133.009995	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-28
+# text = écoutez je je crois que euh dans c-~ vous parlez de vache folle
+1	écoutez	écouter	VRB	VRB	_	4	dm	_	_	133.779999	134.169998	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	134.250000	134.419998	L2
+3	je	je	CLS	CLS	_	2	para	_	_	134.460007	134.639999	L2
+4	crois	croire	VRB	VRB	_	0	root	_	_	134.649994	134.899994	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	134.949997	135.479996	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	135.490005	135.750000	L2
+7	dans	dans	PRE	PRE	_	10	periph	_	_	135.830002	136.080002	L2
+8	c-~	c-~	NOM	NOM	_	7	dep	_	_	136.089996	136.220001	L2
+9	vous	vous	CLS	CLS	_	10	subj	_	_	136.229996	136.330002	L2
+10	parlez	parler	VRB	VRB	_	5	dep	_	_	136.339996	136.550003	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	136.559998	136.710007	L2
+12	vache	vache	NOM	NOM	_	11	dep	_	_	136.720001	136.990005	L2
+13	folle	fou	ADJ	ADJ	_	12	dep	_	_	137.000000	137.380005	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-29
+# text = je crois que un grand principe doit doit régir là toute cette affaire
+1	je	je	CLS	CLS	_	2	subj	_	_	138.059998	138.130005	L2
+2	crois	croire	VRB	VRB	_	0	root	_	_	138.139999	138.389999	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	138.399994	138.610001	L2
+4	un	un	DET	DET	_	6	spe	_	_	138.619995	138.789993	L2
+5	grand	grand	ADJ	ADJ	_	6	dep	_	_	138.800003	139.070007	L2
+6	principe	principe	NOM	NOM	_	7	subj	_	_	139.080002	139.679993	L2
+7	doit	devoir	VRB	VRB	_	3	dep	_	_	139.690002	140.179993	L2
+8	doit	devoir	VRB	VRB	_	7	para	_	_	140.419998	140.830002	L2
+9	régir	régir	VNF	VNF	_	8	dep	_	_	140.839996	141.410004	L2
+10	là	là	ADV	ADV	_	9	dep	_	_	141.419998	141.529999	L2
+11	toute	tout	ADJ	ADJ	_	13	dep	_	_	141.539993	141.660004	L2
+12	cette	ce	DET	DET	_	13	spe	_	_	141.720001	141.889999	L2
+13	affaire	affaire	NOM	NOM	_	9	dep	_	_	141.899994	142.380005	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-30
+# text = c'est d'ailleurs pas plus tard que hier deux nouveaux cas de vaches folles ont été signalés dans l'Ille-et-Vilaine
+1	c'	ce	CLS	CLS	_	2	subj	_	_	143.179993	143.210007	L2
+2	est	être	VRB	VRB	_	0	root	_	_	143.220001	143.529999	L2
+3	d'	de	PRE	PRE	_	2	dep	_	_	143.539993	143.610001	L2
+4	ailleurs	ailleurs	ADV	ADV	_	3	morph	_	_	143.619995	143.839996	L2
+5	pas	pas	ADN	ADN	_	2	dep	_	_	143.850006	143.990005	L2
+6	plus	plus	ADN	ADN	_	5	para	_	_	144.000000	144.169998	L2
+7	tard	tard	ADV	ADV	_	2	dep	_	_	144.270004	144.520004	L2
+8	que	que	CSU	CSU	_	2	dep	_	_	144.649994	144.899994	L2
+9	hier	hier	ADV	ADV	_	18	periph	_	_	144.979996	145.330002	L2
+10	deux	deux	NUM	NUM	_	12	spe	_	_	146.020004	146.190002	L2
+11	nouveaux	nouveau	ADJ	ADJ	_	12	dep	_	_	146.199997	146.559998	L2
+12	cas	cas	NOM	NOM	_	18	periph	_	_	146.570007	146.750000	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	146.759995	146.850006	L2
+14	vaches	vache	NOM	NOM	_	13	dep	_	_	146.860001	147.100006	L2
+15	folles	fou	ADJ	ADJ	_	18	subj	_	_	147.110001	147.440002	L2
+16	ont	avoir	VRB	VRB	_	17	aux	_	_	147.449997	147.600006	L2
+17	été	être	VPP	VPP	_	18	aux	_	_	147.610001	147.820007	L2
+18	signalés	se signaler	VPP	VPP	_	8	dep	_	_	147.880005	148.289993	L2
+19	dans	dans	PRE	PRE	_	18	dep	_	_	148.300003	148.550003	L2
+20	l'	le	DET	DET	_	21	spe	_	_	148.979996	149.000000	L2
+21	Ille-et-Vilaine	Ille-et-Vilaine	NOM	NOM	_	19	dep	_	_	149.009995	149.779999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-31
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	150.139999	150.169998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-32
+# text = en Creuse
+1	en	en	PRE	PRE	_	0	root	_	_	150.179993	150.339996	L2
+2	Creuse	Creuse	NOM	NOM	_	1	dep	_	_	150.350006	150.929993	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-33
+# text = et trois cent quatre-vingts
+1	et	et	COO	COO	_	2	mark	_	_	151.630005	152.199997	L2
+2	trois	trois	NUM	NUM	_	0	root	_	_	152.360001	152.589996	L2
+3	cent	cent	NUM	NUM	_	2	dep	_	_	152.600006	152.800003	L2
+4	quatre-vingts	quatre-vingts	NUM	NUM	_	3	dep	_	_	152.809998	153.529999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-34
+# text = bêtes ont dû
+1	bêtes	bête	NOM	NOM	_	3	subj	_	_	153.630005	153.770004	L2
+2	ont	avoir	VRB	VRB	_	3	aux	_	_	154.130005	154.270004	L2
+3	dû	devoir	VPP	VPP	_	0	root	_	_	154.279999	154.429993	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-35
+# text = être abattues
+1	être	être	VNF	VNF	_	0	root	_	_	154.440002	154.660004	L2
+2	abattues	abattre	ADJ	ADJ	_	1	dep	_	_	154.669998	155.229996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-36
+# text = alors c'est vrai que étant donné qu'on domine pas euh
+1	alors	alors	ADV	ADV	_	3	periph	_	_	156.380005	156.619995	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	156.630005	156.740005	L2
+3	est	être	VRB	VRB	_	0	root	_	_	156.750000	156.820007	L2
+4	vrai	vrai	ADJ	ADJ	_	3	dep	_	_	156.830002	157.139999	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	157.149994	157.440002	L2
+6	étant donné	étant donné	VPP	VPP	_	5	dep	_	_	157.990005	158.419998	L2
+7	qu'	que	CSU	CSU	_	5	para	_	_	158.429993	158.460007	L2
+8	on	on	CLS	CLS	_	9	subj	_	_	158.470001	158.639999	L2
+9	domine	dominer	VRB	VRB	_	7	dep	_	_	158.649994	159.190002	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	159.199997	159.509995	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	159.800003	160.210007	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-37
+# text = encore tout ce problème
+1	encore	encore	ADV	ADV	_	4	periph	_	_	160.220001	161.020004	L2
+2	tout	tout	ADJ	ADJ	_	4	dep	_	_	161.330002	161.399994	L2
+3	ce	ce	DET	DET	_	4	spe	_	_	161.410004	161.520004	L2
+4	problème	problème	NOM	NOM	_	0	root	_	_	161.529999	162.059998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-38
+# text = eh bien appliquons un principe tout simple
+1	eh bien	eh bien	INT	INT	_	2	dm	_	_	162.759995	163.110001	L2
+2	appliquons	appliquer	VRB	VRB	_	0	root	_	_	163.119995	163.570007	L2
+3	un	un	DET	DET	_	4	spe	_	_	163.580002	163.850006	L2
+4	principe	principe	NOM	NOM	_	2	dep	_	_	163.860001	164.389999	L2
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	164.440002	164.580002	L2
+6	simple	simple	ADJ	ADJ	_	4	dep	_	_	164.589996	165.130005	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-39
+# text = ça s'appelle le principe de précaution
+1	ça	ça	PRO	PRO	_	3	subj	_	_	165.850006	165.949997	L2
+2	s'	se	CLI	CLI	_	3	dep	_	_	165.960007	166.009995	L2
+3	appelle	appeler	VRB	VRB	_	0	root	_	_	166.020004	166.330002	L2
+4	le	le	DET	DET	_	5	spe	_	_	166.339996	166.429993	L2
+5	principe	principe	NOM	NOM	_	3	dep	_	_	166.440002	166.889999	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	166.899994	167.050003	L2
+7	précaution	précaution	NOM	NOM	_	6	dep	_	_	167.059998	167.720001	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-40
+# text = et n'attendons pas que cette épidémie euh
+1	et	et	COO	COO	_	3	mark	_	_	168.740005	168.820007	L2
+2	n'	ne	CLN	CLN	_	3	dep	_	_	168.830002	168.869995	L2
+3	attendons	attendre	VRB	VRB	_	0	root	_	_	168.880005	169.429993	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	169.440002	169.809998	L2
+5	que	que	ADN	ADN	_	3	dep	_	_	170.089996	170.339996	L2
+6	cette	ce	DET	DET	_	7	spe	_	_	170.350006	170.660004	L2
+7	épidémie	épidémie	NOM	NOM	_	3	dep	_	_	170.669998	171.289993	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	171.770004	172.199997	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-41
+# text = qui jusqu'ici
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	172.279999	172.690002	L2
+2	jusqu'	jusque	PRE	PRE	_	1	dep	_	_	172.770004	173.160004	L2
+3	ici	ici	ADV	ADV	_	2	dep	_	_	173.369995	173.570007	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-42
+# text = dans notre hexagone n'a fait que quelques victimes n'attendons pas qu'il y en ait des milliers pour réagir
+1	dans	dans	PRE	PRE	_	6	periph	_	_	174.080002	174.210007	L2
+2	notre	son	DET	DET	_	3	spe	_	_	174.220001	174.440002	L2
+3	hexagone	hexagone	NOM	NOM	_	1	dep	_	_	174.449997	175.169998	L2
+4	n'	ne	CLN	CLN	_	6	dep	_	_	175.660004	175.740005	L2
+5	a	avoir	VRB	VRB	_	6	aux	_	_	175.750000	175.809998	L2
+6	fait	faire	VPP	VPP	_	11	periph	_	_	175.820007	176.160004	L2
+7	que	que	ADN	ADN	_	6	dep	_	_	176.199997	176.529999	L2
+8	quelques	quelque	ADJ	ADJ	_	9	spe	_	_	176.880005	177.220001	L2
+9	victimes	victime	NOM	NOM	_	6	dep	_	_	177.229996	177.850006	L2
+10	n'	ne	CLN	CLN	_	11	dep	_	_	177.949997	178.009995	L2
+11	attendons	attendre	VRB	VRB	_	0	root	_	_	178.020004	178.520004	L2
+12	pas	pas	ADN	ADN	_	11	dep	_	_	178.529999	178.839996	L2
+13	qu'	que	CSU	CSU	_	11	dep	_	_	179.250000	179.270004	L2
+14	il	il	CLS	CLS	_	17	subj	_	_	179.279999	179.350006	L2
+15	y	y	CLI	CLI	_	17	dep	_	_	179.360001	179.410004	L2
+16	en	en	CLI	CLI	_	17	dep	_	_	179.419998	179.589996	L2
+17	ait	avoir	VRB	VRB	_	13	dep	_	_	179.600006	179.839996	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	179.940002	180.050003	L2
+19	milliers	millier	NOM	NOM	_	18	dep	_	_	180.059998	180.509995	L2
+20	pour	pour	PRE	PRE	_	17	dep	_	_	180.919998	181.130005	L2
+21	réagir	réagir	VNF	VNF	_	20	dep	_	_	181.139999	181.639999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-43
+# text = est-ce que la la population de de Chatillon est unanime euh contre ce projet
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	183.000000	183.130005	L1
+2	que	que	CSU	CSU	_	1	dep	_	_	183.139999	183.240005	L1
+3	la	le	DET	DET	_	5	spe	_	_	183.250000	183.490005	L1
+4	la	le	DET	DET	_	3	para	_	_	183.500000	183.600006	L1
+5	population	population	NOM	NOM	_	9	subj	_	_	183.610001	184.399994	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	184.410004	184.679993	L1
+7	de	de	PRE	PRE	_	6	para	_	_	184.690002	184.800003	L1
+8	Chatillon	Chatillon	NOM	NOM	_	7	dep	_	_	184.809998	185.410004	L1
+9	est	être	VRB	VRB	_	2	dep	_	_	185.419998	185.539993	L1
+10	unanime	unanime	ADJ	ADJ	_	9	dep	_	_	185.550003	186.270004	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	186.279999	186.320007	L1
+12	contre	contre	PRE	PRE	_	9	dep	_	_	186.399994	186.699997	L1
+13	ce	ce	DET	DET	_	14	spe	_	_	186.710007	186.869995	L1
+14	projet	projet	NOM	NOM	_	12	dep	_	_	186.880005	187.279999	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-44
+# text = ou est-ce que les les gens sont partagés chez vous
+1	ou	ou	COO	COO	_	2	mark	_	_	187.289993	187.309998	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	187.320007	187.610001	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	187.619995	187.729996	L1
+4	les	le	DET	DET	_	6	spe	_	_	187.740005	188.059998	L1
+5	les	le	DET	DET	_	4	para	_	_	188.070007	188.210007	L1
+6	gens	gens	NOM	NOM	_	8	subj	_	_	188.220001	188.369995	L1
+7	sont	être	VRB	VRB	_	8	aux	_	_	188.380005	188.699997	L1
+8	partagés	partager	VPP	VPP	_	3	dep	_	_	188.710007	189.220001	L1
+9	chez	chez	PRE	PRE	_	8	dep	_	_	189.229996	189.419998	L1
+10	vous	moi	PRO	PRO	_	9	dep	_	_	189.429993	189.639999	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-45
+# text = alors nous avons fait euh nous avons fait au sein de notre comité
+1	alors	alors	ADV	ADV	_	4	periph	_	_	190.270004	190.630005	L2
+2	nous	nous	CLS	CLS	_	4	subj	_	_	190.929993	191.130005	L2
+3	avons	avoir	VRB	VRB	_	4	aux	_	_	191.139999	191.389999	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	191.399994	191.919998	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	191.929993	192.070007	L2
+6	nous	nous	CLS	CLS	_	8	subj	_	_	192.080002	192.279999	L2
+7	avons	avoir	VRB	VRB	_	8	aux	_	_	192.289993	192.550003	L2
+8	fait	faire	VPP	VPP	_	4	para	_	_	192.559998	192.740005	L2
+9	au	à+le	PRE	PRE	_	8	dep	_	_	192.750000	192.899994	L2
+10	sein	sein	NOM	NOM	_	9	dep	_	_	192.910004	193.070007	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	193.080002	193.100006	L2
+12	notre	son	DET	DET	_	13	spe	_	_	193.110001	193.339996	L2
+13	comité	comité	NOM	NOM	_	11	dep	_	_	193.350006	194.059998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-46
+# text = nous avons fait une ce que nous avons voulu appeler une initiative citoyenne hein
+1	nous	nous	CLS	CLS	_	3	subj	_	_	194.619995	194.800003	L2
+2	avons	avoir	VRB	VRB	_	3	aux	_	_	194.809998	194.990005	L2
+3	fait	faire	VPP	VPP	_	0	root	_	_	195.000000	195.300003	L2
+4	une	un	DET	DET	_	5	spe	_	_	195.309998	195.710007	L2
+5	ce	ce	PRO	PRO	_	3	dep	_	_	195.720001	195.779999	L2
+6	que	que	PRQ	PRQ	_	9	dep	_	_	195.789993	195.850006	L2
+7	nous	nous	CLS	CLS	_	9	subj	_	_	195.860001	196.009995	L2
+8	avons	avoir	VRB	VRB	_	9	aux	_	_	196.020004	196.289993	L2
+9	voulu	se vouloir	VPP	VPP	_	5	dep	_	_	196.300003	196.509995	L2
+10	appeler	appeler	VNF	VNF	_	9	dep	_	_	196.520004	196.759995	L2
+11	une	un	DET	DET	_	12	spe	_	_	196.770004	196.850006	L2
+12	initiative	initiative	NOM	NOM	_	10	dep	_	_	196.860001	197.460007	L2
+13	citoyenne	citoyen	ADJ	ADJ	_	12	dep	_	_	197.550003	198.050003	L2
+14	hein	hein	INT	INT	_	13	dm	_	_	198.119995	198.139999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-47
+# text = c'est-à-dire une tournée de signatures
+1	c'	ce	CLS	CLS	_	2	subj	_	_	198.520004	198.539993	L2
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	198.630005	198.949997	L2
+3	une	un	DET	DET	_	4	spe	_	_	198.960007	199.089996	L2
+4	tournée	tournée	NOM	NOM	_	2	dep	_	_	199.100006	199.419998	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	199.429993	199.449997	L2
+6	signatures	signature	NOM	NOM	_	5	dep	_	_	199.589996	200.270004	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-48
+# text = et nous avons recueilli quatre-vingt-cinq pour cent de signatures contre le projet
+1	et	et	COO	COO	_	4	mark	_	_	200.770004	200.789993	L2
+2	nous	nous	CLS	CLS	_	4	subj	_	_	200.800003	200.949997	L2
+3	avons	avoir	VRB	VRB	_	4	aux	_	_	200.960007	201.130005	L2
+4	recueilli	recueillir	VPP	VPP	_	0	root	_	_	201.139999	201.679993	L2
+5	quatre-vingt-cinq	quatre-vingt-cinq	NUM	NUM	_	4	dep	_	_	202.139999	203.089996	L2
+6	pour	pour	PRE	PRE	_	5	dep	_	_	203.100006	203.330002	L2
+7	cent	cent	NUM	NUM	_	6	dep	_	_	203.339996	203.720001	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	203.759995	203.869995	L2
+9	signatures	signature	NOM	NOM	_	8	dep	_	_	203.979996	204.580002	L2
+10	contre	contre	PRE	PRE	_	4	dep	_	_	204.789993	205.250000	L2
+11	le	le	DET	DET	_	12	spe	_	_	205.259995	205.360001	L2
+12	projet	projet	NOM	NOM	_	10	dep	_	_	205.369995	205.820007	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-49
+# text = non seulement sur notre commune
+1	non	non	INT	INT	_	3	dm	_	_	206.860001	207.039993	L2
+2	seulement	seulement	ADV	ADV	_	3	dep	_	_	207.050003	207.500000	L2
+3	sur	sur	PRE	PRE	_	0	root	_	_	207.509995	207.610001	L2
+4	notre	son	DET	DET	_	5	spe	_	_	207.619995	207.860001	L2
+5	commune	commune	NOM	NOM	_	3	dep	_	_	207.869995	208.399994	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-50
+# text = mais les communes voisines elles aussi les sept communes qui se situent dans la zone d'impact ont voté contre le projet
+1	mais	mais	COO	COO	_	9	mark	_	_	208.759995	208.850006	L2
+2	les	le	DET	DET	_	3	spe	_	_	208.860001	208.990005	L2
+3	communes	commune	NOM	NOM	_	9	periph	_	_	209.000000	209.490005	L2
+4	voisines	voisin	ADJ	ADJ	_	3	dep	_	_	209.500000	210.149994	L2
+5	elles	il	CLS	CLS	_	9	subj	_	_	210.630005	210.850006	L2
+6	aussi	aussi	ADV	ADV	_	9	dep	_	_	210.860001	211.250000	L2
+7	les	le	DET	DET	_	9	spe	_	_	211.570007	211.690002	L2
+8	sept	sept	NUM	NUM	_	9	dep	_	_	211.880005	212.100006	L2
+9	communes	commune	NOM	NOM	_	0	root	_	_	212.110001	212.630005	L2
+10	qui	qui	PRQ	PRQ	_	12	subj	_	_	213.130005	213.179993	L2
+11	se	se	CLI	CLI	_	12	dep	_	_	213.190002	213.270004	L2
+12	situent	situer	VRB	VRB	_	9	dep	_	_	213.279999	213.580002	L2
+13	dans	dans	PRE	PRE	_	12	dep	_	_	213.589996	213.710007	L2
+14	la	le	DET	DET	_	15	spe	_	_	213.720001	213.830002	L2
+15	zone	zone	NOM	NOM	_	13	dep	_	_	213.839996	214.279999	L2
+16	d'	de	PRE	PRE	_	15	dep	_	_	214.289993	214.350006	L2
+17	impact	impact	NOM	NOM	_	16	dep	_	_	214.360001	214.830002	L2
+18	ont	avoir	VRB	VRB	_	19	aux	_	_	215.440002	215.559998	L2
+19	voté	voter	VPP	VPP	_	12	para	_	_	215.570007	216.050003	L2
+20	contre	contre	PRE	PRE	_	19	dep	_	_	216.199997	216.600006	L2
+21	le	le	DET	DET	_	22	spe	_	_	216.610001	216.699997	L2
+22	projet	projet	NOM	NOM	_	20	dep	_	_	216.710007	217.100006	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-51
+# text = et la plupart d' entre elles à l'unanimité voyez
+1	et	et	COO	COO	_	8	mark	_	_	217.160004	217.339996	L2
+2	la plupart	la plupart	PRO	PRO	_	8	subj	_	_	217.350006	217.809998	L2
+3	d' entre	d'entre	PRE	PRE	_	2	dep	_	_	217.820007	218.229996	L2
+4	elles	moi	PRO	PRO	_	3	dep	_	_	218.240005	218.380005	L2
+5	à	à	PRE	PRE	_	8	periph	_	_	218.440002	218.559998	L2
+6	l'	le	DET	DET	_	7	spe	_	_	218.570007	218.660004	L2
+7	unanimité	unanimité	NOM	NOM	_	5	dep	_	_	218.669998	219.309998	L2
+8	voyez	voir	VRB	VRB	_	0	root	_	_	219.869995	220.089996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-52
+# text = donc il y a pratiquement un consensus pour rejeter ce projet
+1	donc	donc	ADV	ADV	_	4	periph	_	_	220.100006	220.419998	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	220.429993	220.550003	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	220.559998	220.610001	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	220.619995	220.750000	L2
+5	pratiquement	pratiquement	ADV	ADV	_	4	dep	_	_	220.889999	221.619995	L2
+6	un	un	DET	DET	_	7	spe	_	_	221.660004	221.800003	L2
+7	consensus	consensus	NOM	NOM	_	4	dep	_	_	221.809998	222.619995	L2
+8	pour	pour	PRE	PRE	_	4	dep	_	_	223.139999	223.460007	L2
+9	rejeter	rejeter	VNF	VNF	_	8	dep	_	_	223.470001	223.919998	L2
+10	ce	ce	DET	DET	_	11	spe	_	_	224.259995	224.419998	L2
+11	projet	projet	NOM	NOM	_	9	dep	_	_	224.429993	224.979996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-53
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	219.690002	219.809998	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-54
+# text = euh sur l'ensemble des communes avoisinantes
+1	euh	euh	INT	INT	_	2	dm	_	_	225.399994	225.630005	L2
+2	sur	sur	PRE	PRE	_	0	root	_	_	225.639999	225.960007	L2
+3	l'	le	DET	DET	_	4	spe	_	_	225.970001	225.990005	L2
+4	ensemble	ensemble	NOM	NOM	_	2	dep	_	_	226.000000	226.389999	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	226.399994	226.470001	L2
+6	communes	commune	NOM	NOM	_	5	dep	_	_	226.479996	226.979996	L2
+7	avoisinantes	avoisinant	ADJ	ADJ	_	4	dep	_	_	227.149994	227.630005	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-55
+# text = André merci de de votre témoignage je pense que c'est une affaire dont on reparlera de toute façon
+1	André	André	NOM	NOM	_	8	periph	_	_	228.419998	228.839996	L1
+2	merci	merci	INT	INT	_	1	dm	_	_	228.850006	229.190002	L1
+3	de	de	PRE	PRE	_	1	dep	_	_	229.199997	229.500000	L1
+4	de	de	PRE	PRE	_	3	para	_	_	229.509995	229.630005	L1
+5	votre	son	DET	DET	_	6	spe	_	_	229.639999	229.800003	L1
+6	témoignage	témoignage	NOM	NOM	_	4	dep	_	_	229.809998	230.110001	L1
+7	je	je	CLS	CLS	_	8	subj	_	_	230.199997	230.270004	L1
+8	pense	penser	VRB	VRB	_	0	root	_	_	230.279999	230.460007	L1
+9	que	que	CSU	CSU	_	8	dep	_	_	230.470001	230.589996	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	230.600006	230.619995	L1
+11	est	être	VRB	VRB	_	9	dep	_	_	230.630005	230.770004	L1
+12	une	un	DET	DET	_	13	spe	_	_	230.779999	230.869995	L1
+13	affaire	affaire	NOM	NOM	_	11	dep	_	_	230.880005	231.869995	L1
+14	dont	dont	PRQ	PRQ	_	16	dep	_	_	231.960007	232.100006	L1
+15	on	on	CLS	CLS	_	16	subj	_	_	232.220001	232.330002	L1
+16	reparlera	reparler	VRB	VRB	_	13	dep	_	_	232.479996	233.470001	L1
+17	de	de	PRE	PRE	_	16	dep	_	_	233.610001	233.860001	L1
+18	toute	tout	ADJ	ADJ	_	19	dep	_	_	233.949997	234.500000	L1
+19	façon	façon	NOM	NOM	_	17	dep	_	_	234.619995	235.289993	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-56
+# text = alors oui mais vous m'aviez posé une question sur ce que nous proposions éventuellement alors
+1	alors	alors	ADV	ADV	_	7	periph	_	_	230.300003	231.860001	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	231.910004	232.009995	L2
+3	mais	mais	COO	COO	_	7	mark	_	_	232.020004	232.190002	L2
+4	vous	vous	CLS	CLS	_	7	subj	_	_	232.199997	232.339996	L2
+5	m'	me	CLI	CLI	_	7	dep	_	_	232.559998	232.720001	L2
+6	aviez	avoir	VRB	VRB	_	7	aux	_	_	232.729996	232.940002	L2
+7	posé	poser	VPP	VPP	_	0	root	_	_	232.949997	233.210007	L2
+8	une	un	DET	DET	_	9	spe	_	_	233.220001	233.320007	L2
+9	question	question	NOM	NOM	_	7	dep	_	_	233.330002	233.839996	L2
+10	sur	sur	PRE	PRE	_	9	dep	_	_	233.850006	234.179993	L2
+11	ce	ce	PRO	PRO	_	10	dep	_	_	234.220001	234.250000	L2
+12	que	que	PRQ	PRQ	_	14	dep	_	_	234.259995	234.360001	L2
+13	nous	nous	CLS	CLS	_	14	dep	_	_	234.369995	234.490005	L2
+14	proposions	proposer	VRB	VRB	_	11	dep	_	_	234.500000	235.080002	L2
+15	éventuellement	éventuellement	ADV	ADV	_	14	dep	_	_	235.089996	235.600006	L2
+16	alors	alors	ADV	ADV	_	7	dep	_	_	235.750000	236.809998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-57
+# text = ah ben évidemment s quelle s solution parce qu'il faut bien quand même on génère des déchets
+1	ah ben	ah ben	INT	INT	_	5	dm	_	_	235.750000	236.009995	L1
+2	évidemment	évidemment	ADV	ADV	_	5	periph	_	_	236.020004	236.470001	L1
+3	s	s	X	X	_	2	disflink	_	_	236.470001	236.470001	L1
+4	quelle	quel	PRQ	PRQ	_	5	dep	_	_	236.479996	236.630005	L1
+5	s	s	VRB	VRB	_	0	root	_	_	236.630005	236.630005	L1
+6	solution	solution	NOM	NOM	_	5	dep	_	_	236.639999	237.009995	L1
+7	parce qu'	parce que	CSU	CSU	_	5	dep	_	_	237.100006	237.240005	L1
+8	il	il	CLS	CLS	_	9	subj	_	_	237.250000	237.300003	L1
+9	faut	faillir	VRB	VRB	_	7	dep	_	_	237.309998	237.399994	L1
+10	bien	bien	ADV	ADV	_	9	dep	_	_	237.410004	237.589996	L1
+11	quand	quand	CSU	CSU	_	9	dep	_	_	237.600006	237.740005	L1
+12	même	même	ADV	ADV	_	14	periph	_	_	237.750000	237.910004	L1
+13	on	on	CLS	CLS	_	14	subj	_	_	238.270004	238.360001	L1
+14	génère	générer	VRB	VRB	_	11	dep	_	_	238.429993	238.740005	L1
+15	des	de	PRE	PRE	_	14	dep	_	_	238.750000	238.820007	L1
+16	déchets	déchet	NOM	NOM	_	15	dep	_	_	238.830002	239.089996	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-58
+# text = il faut bien en faire
+1	il	il	CLS	CLS	_	2	subj	_	_	239.100006	239.179993	L1
+2	faut	faillir	VRB	VRB	_	0	root	_	_	239.190002	239.250000	L1
+3	bien	bien	ADV	ADV	_	2	dep	_	_	239.259995	239.380005	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	239.389999	239.410004	L1
+5	faire	faire	VNF	VNF	_	2	dep	_	_	239.419998	239.570007	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-59
+# text = quelque chose
+1	quelque chose	quelque chose	PRO	PRO	_	0	root	_	_	239.580002	239.779999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-60
+# text = mais oui exactement alors nous nous n'avons pas je me répète une solution de solution miracle
+1	mais	mais	COO	COO	_	8	mark	_	_	238.289993	238.539993	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	238.550003	239.169998	L2
+3	exactement	exactement	ADV	ADV	_	8	periph	_	_	239.899994	240.699997	L2
+4	alors	alors	ADV	ADV	_	8	periph	_	_	240.880005	241.100006	L2
+5	nous	moi	PRO	PRO	_	8	periph	_	_	241.919998	242.009995	L2
+6	nous	nous	CLS	CLS	_	8	subj	_	_	242.020004	242.199997	L2
+7	n'	ne	CLN	CLN	_	8	dep	_	_	242.210007	242.410004	L2
+8	avons	avoir	VRB	VRB	_	0	root	_	_	242.470001	242.750000	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	242.759995	243.059998	L2
+10	je	je	CLS	CLS	_	12	subj	_	_	243.070007	243.179993	L2
+11	me	me	CLI	CLI	_	12	dep	_	_	243.190002	243.289993	L2
+12	répète	répéter	VRB	VRB	_	8	para	_	_	243.300003	243.690002	L2
+13	une	un	DET	DET	_	14	spe	_	_	243.699997	243.839996	L2
+14	solution	solution	NOM	NOM	_	12	dep	_	_	243.850006	244.509995	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	244.520004	244.600006	L2
+16	solution	solution	NOM	NOM	_	15	dep	_	_	244.610001	245.100006	L2
+17	miracle	miracle	ADJ	ADJ	_	16	dep	_	_	245.110001	245.389999	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-61
+# text = mais nous proposons qu'un groupe de réflexion se réunisse et qui prendrait en compte les intérêts des agriculteurs des éleveurs et des populations de la zone d'impact
+1	mais	mais	COO	COO	_	3	mark	_	_	245.399994	245.500000	L2
+2	nous	nous	CLS	CLS	_	3	subj	_	_	245.880005	245.970001	L2
+3	proposons	proposer	VRB	VRB	_	0	root	_	_	245.979996	246.580002	L2
+4	qu'	que	CSU	CSU	_	3	dep	_	_	246.589996	246.660004	L2
+5	un	un	DET	DET	_	6	spe	_	_	246.669998	246.800003	L2
+6	groupe	groupe	NOM	NOM	_	10	subj	_	_	246.809998	247.039993	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	247.050003	247.199997	L2
+8	réflexion	réflexion	NOM	NOM	_	7	dep	_	_	247.210007	247.990005	L2
+9	se	se	CLI	CLI	_	10	dep	_	_	248.119995	248.250000	L2
+10	réunisse	réunir	VRB	VRB	_	4	dep	_	_	248.259995	248.720001	L2
+11	et	et	COO	COO	_	13	mark	_	_	249.639999	249.690002	L2
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	249.699997	249.830002	L2
+13	prendrait	prendre	VRB	VRB	_	10	para	_	_	249.839996	250.220001	L2
+14	en	en	PRE	PRE	_	13	dep	_	_	250.229996	250.380005	L2
+15	compte	compte	NOM	NOM	_	14	dep	_	_	250.389999	250.889999	L2
+16	les	le	DET	DET	_	17	spe	_	_	251.449997	251.800003	L2
+17	intérêts	intérêt	NOM	NOM	_	13	dep	_	_	251.809998	252.240005	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	252.250000	252.419998	L2
+19	agriculteurs	agriculteur	NOM	NOM	_	18	dep	_	_	252.429993	253.199997	L2
+20	des	de	PRE	PRE	_	18	para	_	_	253.509995	253.710007	L2
+21	éleveurs	éleveur	NOM	NOM	_	20	dep	_	_	253.720001	254.250000	L2
+22	et	et	COO	COO	_	23	mark	_	_	254.309998	254.449997	L2
+23	des	de	PRE	PRE	_	20	para	_	_	254.500000	254.589996	L2
+24	populations	population	NOM	NOM	_	23	dep	_	_	254.600006	255.369995	L2
+25	de	de	PRE	PRE	_	24	dep	_	_	255.380005	255.460007	L2
+26	la	le	DET	DET	_	27	spe	_	_	255.470001	255.570007	L2
+27	zone	zone	NOM	NOM	_	25	dep	_	_	255.580002	255.800003	L2
+28	d'	de	PRE	PRE	_	27	dep	_	_	255.809998	255.850006	L2
+29	impact	impact	NOM	NOM	_	28	dep	_	_	255.860001	256.299988	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-62
+# text = afin de déterminer le meilleur site possible
+1	afin de	afin de	VRB	VRB	_	0	root	_	_	256.989990	257.350006	L2
+2	déterminer	déterminer	VNF	VNF	_	1	dep	_	_	257.359985	257.950012	L2
+3	le	le	DET	DET	_	5	spe	_	_	257.959991	258.059998	L2
+4	meilleur	meilleur	ADJ	ADJ	_	5	dep	_	_	258.070007	258.690002	L2
+5	site	site	NOM	NOM	_	2	dep	_	_	259.220001	259.350006	L2
+6	possible	possible	ADJ	ADJ	_	5	dep	_	_	259.720001	260.089996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-63
+# text = il s'agit pas
+1	il	il	CLS	CLS	_	3	subj	_	_	260.100006	260.160004	L2
+2	s'	se	CLI	CLI	_	3	dep	_	_	260.170013	260.220001	L2
+3	agit	agir	VRB	VRB	_	0	root	_	_	260.230011	260.450012	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	260.459991	260.730011	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-64
+# text = il ne s'agit pas de refiler la patate chaude au voisin
+1	il	il	CLS	CLS	_	4	subj	_	_	261.100006	261.149994	L2
+2	ne	ne	CLN	CLN	_	4	dep	_	_	261.160004	261.230011	L2
+3	s'	se	CLI	CLI	_	4	dep	_	_	261.239990	261.299988	L2
+4	agit	agir	VRB	VRB	_	0	root	_	_	261.309998	261.500000	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	261.510010	261.649994	L2
+6	de	de	PRE	PRE	_	4	dep	_	_	261.660004	261.739990	L2
+7	refiler	refiler	VNF	VNF	_	6	dep	_	_	261.750000	262.200012	L2
+8	la	le	DET	DET	_	9	spe	_	_	262.209991	262.309998	L2
+9	patate	patate	NOM	NOM	_	7	dep	_	_	262.320007	262.640015	L2
+10	chaude	chaud	ADJ	ADJ	_	9	dep	_	_	262.649994	262.899994	L2
+11	au	à+le	PRE	PRE	_	7	dep	_	_	262.910004	262.950012	L2
+12	voisin	voisin	NOM	NOM	_	11	dep	_	_	262.959991	263.390015	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-65
+# text = mais déterminons un
+1	mais	mais	COO	COO	_	2	mark	_	_	263.850006	263.959991	L2
+2	déterminons	déterminer	VRB	VRB	_	0	root	_	_	263.970001	264.890015	L2
+3	un	un	DET	DET	_	2	dep	_	_	265.279999	265.429993	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-66
+# text = site hum
+1	site	site	NOM	NOM	_	0	root	_	_	265.440002	266.070007	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	263.619995	263.760010	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-67
+# text = euh qui qui soit acceptable
+1	euh	euh	INT	INT	_	4	dm	_	_	266.429993	266.640015	L2
+2	qui	qui	PRQ	PRQ	_	4	dep	_	_	266.649994	267.079987	L2
+3	qui	qui	PRQ	PRQ	_	4	subj	_	_	267.190002	267.279999	L2
+4	soit	être	VRB	VRB	_	0	root	_	_	267.320007	267.549988	L2
+5	acceptable	acceptable	ADJ	ADJ	_	4	dep	_	_	267.769989	268.570007	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-68
+# text = et qui ne lève pas euh qui ne fasse pas comme celui-ci euh qui ne génère pas une levée de bouclier euh dans l'ensemble de la populat-~ d'autre part
+1	et	et	COO	COO	_	4	mark	_	_	268.869995	268.970001	L2
+2	qui	qui	PRQ	PRQ	_	4	subj	_	_	268.980011	269.089996	L2
+3	ne	ne	CLN	CLN	_	4	dep	_	_	269.100006	269.220001	L2
+4	lève	lever	VRB	VRB	_	0	root	_	_	269.230011	269.459991	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	269.470001	269.859985	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	269.869995	270.369995	L2
+7	qui	qui	PRQ	PRQ	_	9	subj	_	_	270.380005	270.540009	L2
+8	ne	ne	CLN	CLN	_	9	dep	_	_	270.549988	270.649994	L2
+9	fasse	faire	VRB	VRB	_	4	dep	_	_	270.660004	270.899994	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	270.910004	271.079987	L2
+11	comme	comme	PRE	PRE	_	9	dep	_	_	271.089996	271.309998	L2
+12	celui-ci	celui-ci	PRO	PRO	_	11	dep	_	_	271.320007	271.839996	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	272.230011	272.790009	L2
+14	qui	qui	PRQ	PRQ	_	16	subj	_	_	272.799988	272.910004	L2
+15	ne	ne	CLN	CLN	_	16	dep	_	_	272.920013	272.989990	L2
+16	génère	générer	VRB	VRB	_	12	dep	_	_	273.000000	273.329987	L2
+17	pas	pas	ADN	ADN	_	16	dep	_	_	273.339996	273.630005	L2
+18	une	un	DET	DET	_	19	spe	_	_	273.640015	273.850006	L2
+19	levée	levée	NOM	NOM	_	16	dep	_	_	273.859985	274.070007	L2
+20	de	de	PRE	PRE	_	19	dep	_	_	274.079987	274.119995	L2
+21	bouclier	bouclier	NOM	NOM	_	20	dep	_	_	274.179993	274.790009	L2
+22	euh	euh	INT	INT	_	21	dm	_	_	274.799988	275.119995	L2
+23	dans	dans	PRE	PRE	_	16	dep	_	_	275.500000	275.549988	L2
+24	l'	le	DET	DET	_	25	spe	_	_	275.559998	275.579987	L2
+25	ensemble	ensemble	NOM	NOM	_	23	dep	_	_	275.589996	275.850006	L2
+26	de	de	PRE	PRE	_	25	dep	_	_	275.859985	275.880005	L2
+27	la	le	DET	DET	_	28	spe	_	_	275.890015	275.959991	L2
+28	populat-~	populat-~	NOM	NOM	_	26	dep	_	_	275.970001	276.609985	L2
+29	d'	de	PRE	PRE	_	28	dep	_	_	276.619995	276.670013	L2
+30	autre	autre	ADJ	ADJ	_	31	dep	_	_	276.679993	276.880005	L2
+31	part	part	NOM	NOM	_	29	dep	_	_	276.890015	277.190002	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-69
+# text = pourquoi pourquoi faire appel à une une multinationale alors qu'une entreprise locale pourrait traiter collecter donc les neuf tonnes jour seulement produites par notre département alors que là il s'agirait de collecter et de faire transiter cinquante tonnes par jour sur quatre départements
+1	pourquoi	pourquoi	PRQ	PRQ	_	3	dep	_	_	278.049988	278.369995	L2
+2	pourquoi	pourquoi	PRQ	PRQ	_	1	para	_	_	278.450012	278.720001	L2
+3	faire	faire	VNF	VNF	_	23	aux	_	_	278.730011	278.899994	L2
+4	appel	appel	NOM	NOM	_	3	dep	_	_	278.910004	279.089996	L2
+5	à	à	PRE	PRE	_	3	dep	_	_	279.100006	279.220001	L2
+6	une	un	DET	DET	_	8	spe	_	_	279.230011	279.420013	L2
+7	une	un	DET	DET	_	6	para	_	_	279.429993	279.589996	L2
+8	multinationale	multinationale	NOM	NOM	_	5	dep	_	_	279.600006	280.510010	L2
+9	alors	alors	ADV	ADV	_	10	morph	_	_	280.980011	281.160004	L2
+10	qu'	que	CSU	CSU	_	3	dep	_	_	281.170013	281.200012	L2
+11	une	un	DET	DET	_	12	spe	_	_	281.209991	281.329987	L2
+12	entreprise	entreprise	NOM	NOM	_	14	subj	_	_	281.339996	281.820007	L2
+13	locale	local	ADJ	ADJ	_	12	dep	_	_	281.829987	282.519989	L2
+14	pourrait	pouvoir	VRB	VRB	_	10	dep	_	_	283.040009	283.269989	L2
+15	traiter	traiter	VNF	VNF	_	14	dep	_	_	283.279999	283.899994	L2
+16	collecter	collecter	VNF	VNF	_	15	dep	_	_	284.309998	284.829987	L2
+17	donc	donc	ADV	ADV	_	23	periph	_	_	284.839996	285.140015	L2
+18	les	le	DET	DET	_	20	spe	_	_	285.200012	285.350006	L2
+19	neuf	neuf	NUM	NUM	_	20	dep	_	_	285.359985	285.829987	L2
+20	tonnes	tonne	NOM	NOM	_	23	periph	_	_	286.209991	286.600006	L2
+21	jour	jour	NOM	NOM	_	23	subj	_	_	286.779999	287.160004	L2
+22	seulement	seulement	ADV	ADV	_	23	dep	_	_	287.170013	287.730011	L2
+23	produites	produire	VPP	VPP	_	0	root	_	_	287.739990	288.190002	L2
+24	par	par	PRE	PRE	_	23	dep	_	_	288.260010	288.369995	L2
+25	notre	son	DET	DET	_	26	spe	_	_	288.380005	288.529999	L2
+26	département	département	NOM	NOM	_	24	dep	_	_	288.540009	289.170013	L2
+27	alors	alors	ADV	ADV	_	28	morph	_	_	289.700012	289.950012	L2
+28	que	que	CSU	CSU	_	23	dep	_	_	289.959991	290.100006	L2
+29	là	là	ADV	ADV	_	32	periph	_	_	290.109985	290.239990	L2
+30	il	il	CLS	CLS	_	32	subj	_	_	290.250000	290.350006	L2
+31	s'	se	CLI	CLI	_	32	dep	_	_	290.359985	290.480011	L2
+32	agirait	agir	VRB	VRB	_	28	dep	_	_	290.489990	290.920013	L2
+33	de	de	PRE	PRE	_	32	dep	_	_	290.929993	291.140015	L2
+34	collecter	collecter	VNF	VNF	_	33	dep	_	_	291.200012	291.850006	L2
+35	et	et	COO	COO	_	36	mark	_	_	292.220001	292.269989	L2
+36	de	de	PRE	PRE	_	33	para	_	_	292.279999	292.410004	L2
+37	faire	faire	VNF	VNF	_	36	dep	_	_	292.420013	292.600006	L2
+38	transiter	transiter	VNF	VNF	_	37	dep	_	_	292.609985	293.179993	L2
+39	cinquante	cinquante	NUM	NUM	_	40	spe	_	_	293.320007	293.859985	L2
+40	tonnes	tonne	NOM	NOM	_	38	dep	_	_	293.929993	294.149994	L2
+41	par	par	PRE	PRE	_	40	dep	_	_	294.160004	294.399994	L2
+42	jour	jour	NOM	NOM	_	41	dep	_	_	294.410004	294.649994	L2
+43	sur	sur	PRE	PRE	_	38	dep	_	_	294.660004	294.910004	L2
+44	quatre	quatre	NUM	NUM	_	45	spe	_	_	295.049988	295.399994	L2
+45	départements	département	NOM	NOM	_	43	dep	_	_	295.410004	296.059998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-70
+# text = alors là il y a une logique qui est la logique du profit hein et qui est évidemment euh engendre en plus une augmentation des risques sanitaires étant donné qu'il s'agit de faire euh de véhiculer ces cadavres sud nord puis redescendre pour aller enfin se faire incinérer à près de Vichy à trois cent vingt kilomètres d'ici où est la logique
+1	alors	alors	ADV	ADV	_	5	periph	_	_	296.959991	297.350006	L2
+2	là	là	ADV	ADV	_	5	periph	_	_	297.359985	297.450012	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	297.459991	297.519989	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	297.529999	297.579987	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	297.589996	297.609985	L2
+6	une	un	DET	DET	_	7	spe	_	_	297.619995	297.769989	L2
+7	logique	logique	NOM	NOM	_	5	dep	_	_	297.779999	298.399994	L2
+8	qui	qui	PRQ	PRQ	_	9	subj	_	_	298.910004	298.970001	L2
+9	est	être	VRB	VRB	_	7	dep	_	_	298.980011	299.010010	L2
+10	la	le	DET	DET	_	11	spe	_	_	299.019989	299.100006	L2
+11	logique	logique	NOM	NOM	_	9	dep	_	_	299.109985	299.589996	L2
+12	du	de+le	PRE	PRE	_	11	dep	_	_	299.600006	299.750000	L2
+13	profit	profit	NOM	NOM	_	12	dep	_	_	299.760010	300.200012	L2
+14	hein	hein	INT	INT	_	13	dm	_	_	300.750000	300.809998	L2
+15	et	et	COO	COO	_	17	mark	_	_	301.190002	301.350006	L2
+16	qui	qui	PRQ	PRQ	_	17	subj	_	_	301.359985	301.429993	L2
+17	est	être	VRB	VRB	_	9	para	_	_	301.440002	301.559998	L2
+18	évidemment	évidemment	ADV	ADV	_	17	dep	_	_	301.619995	302.290009	L2
+19	euh	euh	INT	INT	_	18	dm	_	_	302.730011	303.890015	L2
+20	engendre	engendre	VNF	VNF	_	17	dep	_	_	304.140015	304.679993	L2
+21	en	en	PRE	PRE	_	20	dep	_	_	304.690002	304.880005	L2
+22	plus	plus	ADN	ADN	_	21	dep	_	_	304.890015	305.230011	L2
+23	une	un	DET	DET	_	24	spe	_	_	305.279999	305.369995	L2
+24	augmentation	augmentation	NOM	NOM	_	20	dep	_	_	305.420013	306.250000	L2
+25	des	de	PRE	PRE	_	20	dep	_	_	306.540009	306.649994	L2
+26	risques	risque	NOM	NOM	_	25	dep	_	_	306.660004	306.959991	L2
+27	sanitaires	sanitaire	ADJ	ADJ	_	26	dep	_	_	306.970001	307.489990	L2
+28	étant donné	étant donné	PRE	PRE	_	20	dep	_	_	307.500000	307.869995	L2
+29	qu'	que	CSU	CSU	_	28	dep	_	_	307.880005	307.970001	L2
+30	il	il	CLS	CLS	_	32	subj	_	_	307.980011	308.040009	L2
+31	s'	se	CLI	CLI	_	32	dep	_	_	308.049988	308.140015	L2
+32	agit	agir	VRB	VRB	_	29	dep	_	_	308.149994	308.320007	L2
+33	de	de	PRE	PRE	_	32	dep	_	_	308.329987	308.459991	L2
+34	faire	faire	VNF	VNF	_	33	dep	_	_	308.510010	308.760010	L2
+35	euh	euh	INT	INT	_	34	dm	_	_	309.200012	309.290009	L2
+36	de	de	PRE	PRE	_	34	dep	_	_	309.299988	309.489990	L2
+37	véhiculer	véhiculer	VNF	VNF	_	36	dep	_	_	309.500000	310.019989	L2
+38	ces	ce	DET	DET	_	39	spe	_	_	310.029999	310.140015	L2
+39	cadavres	cadavre	NOM	NOM	_	37	dep	_	_	310.149994	310.859985	L2
+40	sud	sud	NOM	NOM	_	39	dep	_	_	310.869995	311.329987	L2
+41	nord	nord	NOM	NOM	_	40	dep	_	_	311.339996	311.790009	L2
+42	puis	puis	COO	COO	_	43	mark	_	_	311.799988	311.970001	L2
+43	redescendre	redescendre	VNF	VNF	_	37	para	_	_	311.980011	312.670013	L2
+44	pour	pour	PRE	PRE	_	43	dep	_	_	312.679993	312.829987	L2
+45	aller	aller	VNF	VNF	_	44	dep	_	_	312.839996	313.029999	L2
+46	enfin	enfin	ADV	ADV	_	45	dm	_	_	313.040009	313.589996	L2
+47	se	se	CLI	CLI	_	48	dep	_	_	314.029999	314.100006	L2
+48	faire	faire	VNF	VNF	_	45	para	_	_	314.109985	314.410004	L2
+49	incinérer	incinérer	VNF	VNF	_	48	dep	_	_	314.420013	315.109985	L2
+50	à	à	PRE	PRE	_	49	dep	_	_	315.500000	316.049988	L2
+51	près	près	ADV	ADV	_	50	dep	_	_	316.059998	316.260010	L2
+52	de	de	PRE	PRE	_	49	dep	_	_	316.269989	316.339996	L2
+53	Vichy	Vichy	NOM	NOM	_	52	dep	_	_	316.350006	316.820007	L2
+54	à	à	PRE	PRE	_	49	dep	_	_	316.829987	316.880005	L2
+55	trois	trois	NUM	NUM	_	58	spe	_	_	316.890015	317.119995	L2
+56	cent	cent	NUM	NUM	_	55	dep	_	_	317.130005	317.329987	L2
+57	vingt	vingt	NUM	NUM	_	58	spe	_	_	317.339996	317.549988	L2
+58	kilomètres	kilomètre	NOM	NOM	_	54	dep	_	_	317.559998	318.049988	L2
+59	d'	de	PRE	PRE	_	58	dep	_	_	318.059998	318.140015	L2
+60	ici	ici	ADV	ADV	_	59	dep	_	_	318.309998	318.390015	L2
+61	où	où	PRQ	PRQ	_	62	dep	_	_	318.700012	318.809998	L2
+62	est	être	VRB	VRB	_	58	dep	_	_	318.820007	318.970001	L2
+63	la	le	DET	DET	_	64	spe	_	_	318.980011	319.089996	L2
+64	logique	logique	NOM	NOM	_	62	dep	_	_	319.100006	319.589996	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-71
+# text = nous nous n'y voyons qu'
+1	nous	nous	CLS	CLS	_	5	subj	_	_	320.119995	320.269989	L2
+2	nous	nous	CLI	CLI	_	5	dep	_	_	320.279999	320.369995	L2
+3	n'	ne	CLN	CLN	_	5	dep	_	_	320.380005	320.450012	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	320.459991	320.480011	L2
+5	voyons	voir	VRB	VRB	_	0	root	_	_	320.489990	320.829987	L2
+6	qu'	que	CSU	CSU	_	5	dep	_	_	320.839996	320.920013	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-72
+# text = une logique du profit et de l'argent
+1	une	un	DET	DET	_	2	spe	_	_	320.929993	321.070007	L2
+2	logique	logique	NOM	NOM	_	0	root	_	_	321.079987	321.350006	L2
+3	du	de+le	PRE	PRE	_	2	dep	_	_	321.359985	321.480011	L2
+4	profit	profit	NOM	NOM	_	3	dep	_	_	321.489990	321.899994	L2
+5	et	et	COO	COO	_	6	mark	_	_	322.269989	322.339996	L2
+6	de	de	PRE	PRE	_	2	dep	_	_	322.350006	322.369995	L2
+7	l'	le	DET	DET	_	8	spe	_	_	322.380005	322.399994	L2
+8	argent	argent	NOM	NOM	_	6	dep	_	_	322.410004	322.730011	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-73
+# text = très bien
+1	très	très	ADV	ADV	_	2	dep	_	_	323.079987	323.230011	L1
+2	bien	bien	ADV	ADV	_	0	root	_	_	323.239990	323.350006	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-74
+# text = eh bien écoutez André
+1	eh bien	eh bien	INT	INT	_	3	dm	_	_	323.359985	323.480011	L1
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	323.489990	323.760010	L1
+3	André	André	NOM	NOM	_	0	root	_	_	323.769989	324.179993	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-75
+# text = merci de vous être exprimé d'avoir donné votre opinion et vos connaissances du dossier puisque vous êtes directement concerné vous habitez Chatillon Saint Jean
+1	merci	merci	NOM	NOM	_	0	root	_	_	324.399994	324.790009	L1
+2	de	de	PRE	PRE	_	1	dep	_	_	324.799988	324.850006	L1
+3	vous	vous	CLI	CLI	_	4	dep	_	_	324.859985	325.029999	L1
+4	être	être	VNF	VNF	_	5	aux	_	_	325.040009	325.160004	L1
+5	exprimé	exprimer	VPP	VPP	_	2	dep	_	_	325.170013	325.600006	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	325.609985	325.679993	L1
+7	avoir	avoir	VNF	VNF	_	6	dep	_	_	325.690002	325.859985	L1
+8	donné	donner	VPP	VPP	_	7	dep	_	_	325.869995	326.049988	L1
+9	votre	son	DET	DET	_	10	spe	_	_	326.059998	326.269989	L1
+10	opinion	opinion	NOM	NOM	_	8	dep	_	_	326.279999	326.950012	L1
+11	et	et	COO	COO	_	13	mark	_	_	326.959991	327.109985	L1
+12	vos	son	DET	DET	_	13	spe	_	_	327.119995	327.230011	L1
+13	connaissances	connaissance	NOM	NOM	_	10	para	_	_	327.239990	327.670013	L1
+14	du	de+le	PRE	PRE	_	13	dep	_	_	327.679993	327.790009	L1
+15	dossier	dossier	NOM	NOM	_	14	dep	_	_	327.799988	328.230011	L1
+16	puisque	puisque	CSU	CSU	_	1	periph	_	_	328.239990	328.480011	L1
+17	vous	vous	CLS	CLS	_	20	subj	_	_	328.489990	328.679993	L1
+18	êtes	être	VRB	VRB	_	20	aux	_	_	328.690002	329.019989	L1
+19	directement	directement	ADV	ADV	_	20	dep	_	_	329.029999	329.459991	L1
+20	concerné	concerner	VPP	VPP	_	16	dep	_	_	329.470001	329.869995	L1
+21	vous	vous	CLS	CLS	_	22	subj	_	_	329.880005	330.010010	L1
+22	habitez	habiter	VRB	VRB	_	20	dep	_	_	330.019989	330.250000	L1
+23	Chatillon	Chatillon	NOM	NOM	_	22	dep	_	_	330.260010	330.549988	L1
+24	Saint	saint	NOM	NOM	_	23	dep	_	_	330.559998	330.700012	L1
+25	Jean	Jean	NOM	NOM	_	24	dep	_	_	330.709991	330.839996	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-76
+# text = j'habite Chatillon Saint Jean
+1	j'	je	CLS	CLS	_	2	subj	_	_	330.929993	331.029999	L2
+2	habite	habiter	VRB	VRB	_	0	root	_	_	331.040009	331.269989	L2
+3	Chatillon	Chatillon	NOM	NOM	_	2	dep	_	_	331.279999	331.660004	L2
+4	Saint	saint	NOM	NOM	_	3	dep	_	_	331.670013	331.829987	L2
+5	Jean	Jean	NOM	NOM	_	4	dep	_	_	331.839996	332.000000	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-77
+# text = mais je ne suis pas je ne suis pas dans dans un rayon dans le rayon immédiat
+1	mais	mais	COO	COO	_	4	mark	_	_	332.799988	332.850006	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	332.859985	332.910004	L2
+3	ne	ne	CLN	CLN	_	4	dep	_	_	332.920013	333.019989	L2
+4	suis	être	VRB	VRB	_	0	root	_	_	333.029999	333.309998	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	333.320007	333.559998	L2
+6	je	je	CLS	CLS	_	8	subj	_	_	334.000000	334.059998	L2
+7	ne	ne	CLN	CLN	_	8	dep	_	_	334.070007	334.130005	L2
+8	suis	être	VRB	VRB	_	4	para	_	_	334.140015	334.390015	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	334.500000	334.649994	L2
+10	dans	dans	PRE	PRE	_	8	dep	_	_	334.660004	334.910004	L2
+11	dans	dans	PRE	PRE	_	10	para	_	_	334.959991	335.450012	L2
+12	un	un	DET	DET	_	13	spe	_	_	335.459991	335.570007	L2
+13	rayon	rayon	NOM	NOM	_	11	dep	_	_	335.579987	336.049988	L2
+14	dans	dans	PRE	PRE	_	11	para	_	_	336.059998	336.119995	L2
+15	le	le	DET	DET	_	16	spe	_	_	336.130005	336.149994	L2
+16	rayon	rayon	NOM	NOM	_	14	dep	_	_	336.160004	336.390015	L2
+17	immédiat	immédiat	ADJ	ADJ	_	16	dep	_	_	336.399994	336.890015	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-78
+# text = donc vous êtes euh
+1	donc	donc	ADV	ADV	_	3	periph	_	_	332.130005	332.369995	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	332.380005	332.540009	L1
+3	êtes	être	VRB	VRB	_	0	root	_	_	332.549988	332.630005	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	332.679993	332.700012	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-79
+# text = hein mais je me sens euh solidaire de toute cette population
+1	hein	hein	INT	INT	_	5	dm	_	_	337.570007	337.769989	L2
+2	mais	mais	COO	COO	_	5	mark	_	_	337.920013	338.130005	L2
+3	je	je	CLS	CLS	_	5	subj	_	_	338.140015	338.200012	L2
+4	me	me	CLI	CLI	_	5	dep	_	_	338.209991	338.339996	L2
+5	sens	sens	NOM	NOM	_	0	root	_	_	338.350006	338.700012	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	338.760010	338.880005	L2
+7	solidaire	solidaire	ADJ	ADJ	_	5	dep	_	_	340.019989	340.579987	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	340.589996	340.690002	L2
+9	toute	tout	ADJ	ADJ	_	11	dep	_	_	340.700012	340.869995	L2
+10	cette	ce	DET	DET	_	11	spe	_	_	340.880005	341.040009	L2
+11	population	population	NOM	NOM	_	8	dep	_	_	341.049988	341.670013	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-80
+# text = André euh merci
+1	André	André	NOM	NOM	_	0	root	_	_	342.329987	342.660004	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	342.670013	342.899994	L1
+3	merci	merci	INT	INT	_	2	dm	_	_	342.910004	343.329987	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-81
+# text = au revoir merci
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	344.230011	344.549988	L2
+2	merci	merci	INT	INT	_	1	dm	_	_	343.570007	343.809998	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-82
+# text = à vous
+1	à	à	PRE	PRE	_	0	root	_	_	343.820007	343.880005	L2
+2	vous	moi	PRO	PRO	_	1	dep	_	_	343.890015	344.049988	L2
+
+# sent_id = cefc-crfp-PUB-VAL-1-83
+# text = au revoir avec Paul NNAAMMEE en ligne Paul je crois que vous êtes président euh Drôme Ardèche euh d'une association
+1	au revoir	au revoir	INT	INT	_	9	dm	_	_	344.750000	345.029999	L1
+2	avec	avec	PRE	PRE	_	9	periph	_	_	352.790009	352.980011	L1
+3	Paul	Paul	NOM	NOM	_	2	dep	_	_	352.989990	353.220001	L1
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	353.320007	353.880005	L1
+5	en	en	PRE	PRE	_	9	periph	_	_	353.890015	354.070007	L1
+6	ligne	ligne	NOM	NOM	_	5	dep	_	_	354.079987	354.369995	L1
+7	Paul	Paul	NOM	NOM	_	6	dep	_	_	354.380005	354.540009	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	354.549988	354.640015	L1
+9	crois	croire	VRB	VRB	_	0	root	_	_	354.649994	354.769989	L1
+10	que	que	CSU	CSU	_	9	dep	_	_	354.779999	354.799988	L1
+11	vous	vous	CLS	CLS	_	12	subj	_	_	354.809998	354.899994	L1
+12	êtes	être	VRB	VRB	_	10	dep	_	_	354.910004	355.079987	L1
+13	président	président	NOM	NOM	_	12	dep	_	_	355.089996	355.760010	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	355.769989	355.859985	L1
+15	Drôme	Drôme	NOM	NOM	_	12	dep	_	_	355.869995	356.089996	L1
+16	Ardèche	Ardèche	NOM	NOM	_	15	dep	_	_	356.100006	357.000000	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	357.010010	357.049988	L1
+18	d'	de	PRE	PRE	_	16	dep	_	_	357.059998	357.100006	L1
+19	une	un	DET	DET	_	20	spe	_	_	357.109985	357.230011	L1
+20	association	association	NOM	NOM	_	18	dep	_	_	357.239990	357.850006	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-84
+# text = oui exactement président Drôme Ardèche écologie qui existe depuis mille neuf cent soixante-dix-sept
+1	oui	oui	INT	INT	_	3	dm	_	_	358.500000	358.640015	L3
+2	exactement	exactement	ADV	ADV	_	3	dep	_	_	358.649994	359.149994	L3
+3	président	président	NOM	NOM	_	0	root	_	_	359.160004	359.690002	L3
+4	Drôme	Drôme	NOM	NOM	_	3	dep	_	_	359.700012	360.029999	L3
+5	Ardèche	Ardèche	NOM	NOM	_	4	dep	_	_	360.040009	360.429993	L3
+6	écologie	écologie	NOM	NOM	_	5	dep	_	_	360.440002	360.970001	L3
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	361.109985	361.380005	L3
+8	existe	exister	VRB	VRB	_	5	dep	_	_	361.480011	362.429993	L3
+9	depuis	depuis	PRE	PRE	_	8	dep	_	_	362.440002	362.679993	L3
+10	mille	mille	NUM	NUM	_	9	dep	_	_	362.690002	362.880005	L3
+11	neuf	neuf	NUM	NUM	_	10	dep	_	_	362.890015	363.029999	L3
+12	cent	cent	NUM	NUM	_	11	dep	_	_	363.040009	363.260010	L3
+13	soixante-dix-sept	soixante-dix-sept	NUM	NUM	_	12	dep	_	_	363.269989	363.929993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-85
+# text = Drôme Ardèche écologie
+1	Drôme	Drôme	NOM	NOM	_	0	root	_	_	361.079987	361.529999	L1
+2	Ardèche	Ardèche	NOM	NOM	_	1	dep	_	_	361.609985	362.440002	L1
+3	écologie	écologie	NOM	NOM	_	2	dep	_	_	362.559998	363.519989	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-86
+# text = et qui s'est penchée donc depuis l'origine sur ce délicat problème de la gestion des déchets
+1	et	et	COO	COO	_	5	mark	_	_	365.089996	365.209991	L3
+2	qui	qui	PRQ	PRQ	_	5	subj	_	_	365.220001	365.350006	L3
+3	s'	se	CLI	CLI	_	5	dep	_	_	365.359985	365.440002	L3
+4	est	être	VRB	VRB	_	5	aux	_	_	365.450012	365.519989	L3
+5	penchée	pencher	VPP	VPP	_	0	root	_	_	365.529999	365.959991	L3
+6	donc	donc	ADV	ADV	_	5	dep	_	_	365.970001	366.239990	L3
+7	depuis	depuis	PRE	PRE	_	5	dep	_	_	366.250000	366.619995	L3
+8	l'	le	DET	DET	_	9	spe	_	_	366.630005	366.649994	L3
+9	origine	origine	NOM	NOM	_	7	dep	_	_	366.660004	367.239990	L3
+10	sur	sur	PRE	PRE	_	5	dep	_	_	367.779999	368.019989	L3
+11	ce	ce	DET	DET	_	12	spe	_	_	368.029999	368.179993	L3
+12	délicat	délicat	NOM	NOM	_	10	dep	_	_	368.250000	368.619995	L3
+13	problème	problème	NOM	NOM	_	12	dep	_	_	368.630005	369.309998	L3
+14	de	de	PRE	PRE	_	13	dep	_	_	369.320007	369.339996	L3
+15	la	le	DET	DET	_	16	spe	_	_	369.350006	369.440002	L3
+16	gestion	gestion	NOM	NOM	_	14	dep	_	_	369.450012	369.820007	L3
+17	des	de	PRE	PRE	_	16	dep	_	_	369.829987	369.940002	L3
+18	déchets	déchet	NOM	NOM	_	17	dep	_	_	370.000000	370.309998	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-87
+# text = eh bien des
+1	eh bien	eh bien	INT	INT	_	2	dm	_	_	370.619995	371.329987	L3
+2	des	de	PRE	PRE	_	0	root	_	_	371.660004	372.179993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-88
+# text = alors vous avez trouvé des solutions depuis que vous travaillez sur ce do-~ sur ce dossier
+1	alors	alors	ADV	ADV	_	4	periph	_	_	370.700012	370.929993	L1
+2	vous	vous	CLS	CLS	_	4	subj	_	_	370.940002	371.410004	L1
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	371.630005	372.100006	L1
+4	trouvé	se trouver	VPP	VPP	_	0	root	_	_	372.109985	372.760010	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	373.149994	373.929993	L1
+6	solutions	solution	NOM	NOM	_	5	dep	_	_	373.940002	376.000000	L1
+7	depuis	depuis	PRE	PRE	_	4	dep	_	_	376.010010	377.019989	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	377.290009	377.529999	L1
+9	vous	vous	CLS	CLS	_	10	subj	_	_	377.540009	377.660004	L1
+10	travaillez	travailler	VRB	VRB	_	8	dep	_	_	377.910004	378.760010	L1
+11	sur	sur	PRE	PRE	_	10	dep	_	_	378.769989	378.959991	L1
+12	ce	ce	DET	DET	_	13	spe	_	_	378.970001	379.119995	L1
+13	do-~	do-~	NOM	NOM	_	11	dep	_	_	379.130005	379.220001	L1
+14	sur	sur	PRE	PRE	_	11	para	_	_	379.230011	379.440002	L1
+15	ce	ce	DET	DET	_	16	spe	_	_	379.619995	379.679993	L1
+16	dossier	dossier	NOM	NOM	_	14	dep	_	_	379.880005	380.170013	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-89
+# text = solutions bien sûr existent je crois qu'en premier lieu il s'agit de sensibiliser les populations
+1	solutions	solution	NOM	NOM	_	4	periph	_	_	373.329987	375.179993	L3
+2	bien	bien	ADV	ADV	_	4	periph	_	_	375.190002	375.859985	L3
+3	sûr	sûr	ADJ	ADJ	_	2	morph	_	_	375.869995	376.549988	L3
+4	existent	exister	VRB	VRB	_	0	root	_	_	376.660004	377.529999	L3
+5	je	je	CLS	CLS	_	6	subj	_	_	377.540009	377.649994	L3
+6	crois	croire	VRB	VRB	_	4	dm	_	_	377.660004	377.920013	L3
+7	qu'	que	CSU	CSU	_	4	dep	_	_	377.929993	378.010010	L3
+8	en	en	PRE	PRE	_	13	periph	_	_	378.019989	378.100006	L3
+9	premier	premier	ADJ	ADJ	_	10	dep	_	_	378.109985	378.500000	L3
+10	lieu	lieu	NOM	NOM	_	8	dep	_	_	378.510010	378.679993	L3
+11	il	il	CLS	CLS	_	13	subj	_	_	378.690002	378.790009	L3
+12	s'	se	CLI	CLI	_	13	dep	_	_	378.799988	378.890015	L3
+13	agit	agir	VRB	VRB	_	7	dep	_	_	378.899994	379.119995	L3
+14	de	de	PRE	PRE	_	13	dep	_	_	379.130005	379.230011	L3
+15	sensibiliser	sensibiliser	VNF	VNF	_	14	dep	_	_	379.239990	380.170013	L3
+16	les	le	DET	DET	_	17	spe	_	_	380.790009	381.010010	L3
+17	populations	population	NOM	NOM	_	15	dep	_	_	381.019989	381.739990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-90
+# text = déjà
+1	déjà	déjà	ADV	ADV	_	0	root	_	_	382.549988	382.910004	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-91
+# text = pour éviter les décharges sauvages
+1	pour	pour	PRE	PRE	_	0	root	_	_	382.920013	383.190002	L3
+2	éviter	éviter	VNF	VNF	_	1	dep	_	_	383.200012	383.660004	L3
+3	les	le	DET	DET	_	4	spe	_	_	383.670013	383.779999	L3
+4	décharges	décharge	NOM	NOM	_	2	dep	_	_	383.790009	384.260010	L3
+5	sauvages	sauvage	ADJ	ADJ	_	4	dep	_	_	384.269989	384.709991	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-92
+# text = parce que des décharges sauvages
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	385.549988	385.820007	L3
+2	des	de	PRE	PRE	_	1	dep	_	_	385.829987	385.929993	L3
+3	décharges	décharge	NOM	NOM	_	2	dep	_	_	385.940002	386.339996	L3
+4	sauvages	sauvage	ADJ	ADJ	_	3	dep	_	_	386.350006	387.000000	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-93
+# text = nous en rencontrons malheureusement toujours dans nos campagnes dans nos ravins
+1	nous	moi	PRO	PRO	_	3	subj	_	_	387.010010	387.279999	L3
+2	en	en	CLI	CLI	_	3	dep	_	_	387.290009	387.320007	L3
+3	rencontrons	rencontrer	VRB	VRB	_	0	root	_	_	387.329987	387.980011	L3
+4	malheureusement	malheureusement	ADV	ADV	_	3	dep	_	_	387.989990	388.559998	L3
+5	toujours	toujours	ADV	ADV	_	3	dep	_	_	388.570007	388.940002	L3
+6	dans	dans	PRE	PRE	_	3	dep	_	_	388.950012	389.040009	L3
+7	nos	son	DET	DET	_	8	spe	_	_	389.100006	389.149994	L3
+8	campagnes	campagne	NOM	NOM	_	6	dep	_	_	389.200012	389.670013	L3
+9	dans	dans	PRE	PRE	_	6	para	_	_	390.160004	390.380005	L3
+10	nos	son	DET	DET	_	11	spe	_	_	390.390015	390.510010	L3
+11	ravins	ravin	NOM	NOM	_	9	dep	_	_	390.519989	390.950012	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-94
+# text = n'est-ce pas ou dans nos ruisseaux
+1	n'	ne	CLN	CLN	_	2	dep	_	_	391.070007	391.100006	L3
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	391.109985	391.220001	L3
+3	pas	pas	ADN	ADN	_	2	dep	_	_	391.230011	391.380005	L3
+4	ou	ou	COO	COO	_	5	mark	_	_	391.390015	391.470001	L3
+5	dans	dans	PRE	PRE	_	2	dep	_	_	391.480011	391.609985	L3
+6	nos	son	DET	DET	_	7	spe	_	_	391.619995	391.720001	L3
+7	ruisseaux	ruisseau	NOM	NOM	_	5	dep	_	_	391.730011	392.079987	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-95
+# text = et pu~
+1	et	et	COO	COO	_	2	mark	_	_	392.980011	393.010010	L3
+2	pu~	pu~	X	X	_	0	root	_	_	393.109985	393.290009	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-96
+# text = et puisque cela est tout à fait évitable
+1	et	et	COO	COO	_	2	mark	_	_	393.540009	393.649994	L3
+2	puisque	puisque	CSU	CSU	_	0	root	_	_	393.660004	394.519989	L3
+3	cela	cela	PRO	PRO	_	4	subj	_	_	394.529999	394.839996	L3
+4	est	être	VRB	VRB	_	2	dep	_	_	394.850006	394.869995	L3
+5	tout à fait	tout à fait	ADV	ADV	_	6	dep	_	_	394.880005	395.279999	L3
+6	évitable	évitable	ADJ	ADJ	_	4	dep	_	_	395.290009	396.130005	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-97
+# text = puisqu'il existe partout euh des déchetteries de plus en plus nombreuses n'est-ce pas
+1	puisqu'	puisque	CSU	CSU	_	14	periph	_	_	396.570007	396.809998	L3
+2	il	il	CLS	CLS	_	3	subj	_	_	396.820007	396.929993	L3
+3	existe	exister	VRB	VRB	_	1	dep	_	_	396.940002	397.500000	L3
+4	partout	partout	ADV	ADV	_	3	dep	_	_	397.510010	398.119995	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	398.130005	398.279999	L3
+6	des	de	PRE	PRE	_	3	dep	_	_	398.690002	398.809998	L3
+7	déchetteries	déchetteries	NOM	NOM	_	6	dep	_	_	398.929993	399.559998	L3
+8	de	de	PRE	PRE	_	7	dep	_	_	400.010010	400.070007	L3
+9	plus	plus	ADN	ADN	_	10	dep	_	_	400.130005	400.269989	L3
+10	en	en	PRE	PRE	_	8	dep	_	_	400.279999	400.369995	L3
+11	plus	plus	ADN	ADN	_	10	dep	_	_	400.380005	400.510010	L3
+12	nombreuses	nombreux	ADJ	ADJ	_	7	dep	_	_	400.519989	401.040009	L3
+13	n'	ne	CLN	CLN	_	14	dep	_	_	401.200012	401.250000	L3
+14	est-ce	est-ce	VRB	VRB	_	0	root	_	_	401.260010	401.339996	L3
+15	pas	pas	ADN	ADN	_	14	dep	_	_	401.350006	401.500000	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-98
+# text = et c'est ensuite nous avons ces ces collectes qui sont devenues sélectives
+1	et	et	COO	COO	_	3	mark	_	_	402.589996	403.109985	L3
+2	c'	ce	CLS	CLS	_	3	subj	_	_	403.119995	403.269989	L3
+3	est	être	VRB	VRB	_	0	root	_	_	403.380005	403.440002	L3
+4	ensuite	ensuite	ADV	ADV	_	6	periph	_	_	403.450012	404.100006	L3
+5	nous	nous	CLS	CLS	_	6	subj	_	_	404.109985	404.290009	L3
+6	avons	avoir	VRB	VRB	_	3	para	_	_	404.299988	404.489990	L3
+7	ces	ce	DET	DET	_	9	spe	_	_	404.500000	404.959991	L3
+8	ces	ce	DET	DET	_	7	para	_	_	405.200012	405.350006	L3
+9	collectes	collecte	NOM	NOM	_	6	dep	_	_	405.390015	405.929993	L3
+10	qui	qui	PRQ	PRQ	_	12	subj	_	_	406.470001	406.519989	L3
+11	sont	être	VRB	VRB	_	12	aux	_	_	406.529999	406.750000	L3
+12	devenues	devenir	VPP	VPP	_	9	dep	_	_	406.760010	407.160004	L3
+13	sélectives	sélectif	ADJ	ADJ	_	12	dep	_	_	407.170013	407.839996	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-99
+# text = là il faut également appeler la population à à oeuvrer dans un sens de cette sélection
+1	là	là	ADV	ADV	_	3	periph	_	_	408.619995	408.790009	L3
+2	il	il	CLS	CLS	_	3	subj	_	_	408.799988	408.859985	L3
+3	faut	faillir	VRB	VRB	_	0	root	_	_	408.869995	409.070007	L3
+4	également	également	ADV	ADV	_	3	dep	_	_	409.079987	409.459991	L3
+5	appeler	appeler	VNF	VNF	_	3	dep	_	_	409.470001	409.790009	L3
+6	la	le	DET	DET	_	7	spe	_	_	409.799988	409.890015	L3
+7	population	population	NOM	NOM	_	5	dep	_	_	409.899994	410.799988	L3
+8	à	à	PRE	PRE	_	7	dep	_	_	410.809998	410.869995	L3
+9	à	à	PRE	PRE	_	8	para	_	_	411.739990	411.769989	L3
+10	oeuvrer	oeuvrer	VNF	VNF	_	9	dep	_	_	411.779999	412.519989	L3
+11	dans	dans	PRE	PRE	_	10	dep	_	_	412.589996	412.779999	L3
+12	un	un	DET	DET	_	13	spe	_	_	412.790009	412.850006	L3
+13	sens	sens	NOM	NOM	_	11	dep	_	_	412.859985	413.299988	L3
+14	de	de	PRE	PRE	_	13	dep	_	_	413.399994	413.440002	L3
+15	cette	ce	DET	DET	_	16	spe	_	_	413.450012	413.640015	L3
+16	sélection	sélection	NOM	NOM	_	14	dep	_	_	414.220001	414.739990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-100
+# text = justement est-ce que ça marche
+1	justement	justement	ADV	ADV	_	2	dep	_	_	414.920013	415.269989	L1
+2	est-ce	est-ce	VRB	VRB	_	0	root	_	_	415.279999	415.359985	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	415.369995	415.440002	L1
+4	ça	ça	PRO	PRO	_	5	subj	_	_	415.450012	415.630005	L1
+5	marche	marcher	VRB	VRB	_	3	dep	_	_	415.640015	415.959991	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-101
+# text = est-ce que les gens font l'effort de trier les plastiques les papiers les verres
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	415.970001	416.070007	L1
+2	que	que	CSU	CSU	_	1	dep	_	_	416.079987	416.170013	L1
+3	les	le	DET	DET	_	4	spe	_	_	416.179993	416.269989	L1
+4	gens	gens	NOM	NOM	_	5	subj	_	_	416.279999	416.429993	L1
+5	font	faire	VRB	VRB	_	2	dep	_	_	416.440002	416.640015	L1
+6	l'	le	DET	DET	_	7	spe	_	_	416.649994	416.709991	L1
+7	effort	effort	NOM	NOM	_	5	dep	_	_	416.720001	417.130005	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	417.140015	417.260010	L1
+9	trier	trier	VNF	VNF	_	8	dep	_	_	417.269989	417.649994	L1
+10	les	le	DET	DET	_	11	spe	_	_	417.660004	417.720001	L1
+11	plastiques	plastique	NOM	NOM	_	9	dep	_	_	417.730011	418.320007	L1
+12	les	le	DET	DET	_	13	spe	_	_	418.329987	418.450012	L1
+13	papiers	papier	NOM	NOM	_	11	para	_	_	418.459991	418.890015	L1
+14	les	le	DET	DET	_	15	spe	_	_	418.899994	419.010010	L1
+15	verres	verre	NOM	NOM	_	13	para	_	_	419.019989	419.779999	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-102
+# text = ben écoutez euh d'après les c~ collecteurs il semblerait qu'il y ait un certain progrès certes pas suffisant
+1	ben	ben	INT	INT	_	10	dm	_	_	419.890015	420.119995	L3
+2	écoutez	écouter	VRB	VRB	_	1	dm	_	_	420.130005	420.690002	L3
+3	euh	euh	INT	INT	_	2	dm	_	_	420.700012	421.209991	L3
+4	d'	de	PRE	PRE	_	10	periph	_	_	421.269989	421.309998	L3
+5	après	après	PRE	PRE	_	4	para	_	_	421.320007	421.859985	L3
+6	les	le	DET	DET	_	8	spe	_	_	421.869995	422.480011	L3
+7	c~	c~	DET	DET	_	6	para	_	_	422.769989	422.839996	L3
+8	collecteurs	collecteur	NOM	NOM	_	5	dep	_	_	423.109985	423.839996	L3
+9	il	il	CLS	CLS	_	10	subj	_	_	424.390015	424.440002	L3
+10	semblerait	sembler	VRB	VRB	_	0	root	_	_	424.450012	425.029999	L3
+11	qu'	que	CSU	CSU	_	10	dep	_	_	425.040009	425.200012	L3
+12	il	il	CLS	CLS	_	14	subj	_	_	425.209991	425.269989	L3
+13	y	y	CLI	CLI	_	14	dep	_	_	425.279999	425.399994	L3
+14	ait	avoir	VRB	VRB	_	11	dep	_	_	425.410004	425.660004	L3
+15	un	un	DET	DET	_	17	spe	_	_	425.670013	425.839996	L3
+16	certain	certain	ADJ	ADJ	_	17	dep	_	_	425.850006	426.250000	L3
+17	progrès	progrès	NOM	NOM	_	14	dep	_	_	426.260010	426.890015	L3
+18	certes	certes	ADV	ADV	_	20	dep	_	_	427.549988	427.980011	L3
+19	pas	pas	ADN	ADN	_	20	dep	_	_	427.989990	428.140015	L3
+20	suffisant	suffisant	ADJ	ADJ	_	17	dep	_	_	428.149994	428.799988	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-103
+# text = mais dans différents secteurs euh concernés
+1	mais	mais	COO	COO	_	2	mark	_	_	429.359985	430.149994	L3
+2	dans	dans	PRE	PRE	_	0	root	_	_	430.510010	430.630005	L3
+3	différents	différent	ADJ	ADJ	_	4	dep	_	_	430.640015	431.079987	L3
+4	secteurs	secteur	NOM	NOM	_	2	dep	_	_	431.089996	431.839996	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	431.850006	432.040009	L3
+6	concernés	concerner	VPP	VPP	_	4	dep	_	_	432.100006	432.929993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-104
+# text = je on enregistre effectivement
+1	je	je	CLS	CLS	_	3	subj	_	_	432.940002	433.019989	L3
+2	on	on	CLS	CLS	_	1	para	_	_	433.489990	433.589996	L3
+3	enregistre	enregistrer	VRB	VRB	_	0	root	_	_	433.600006	434.079987	L3
+4	effectivement	effectivement	ADV	ADV	_	3	dep	_	_	434.089996	434.899994	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-105
+# text = donc un un travail qui est correct euh
+1	donc	donc	ADV	ADV	_	6	periph	_	_	435.549988	436.510010	L3
+2	un	un	DET	DET	_	4	spe	_	_	436.519989	437.040009	L3
+3	un	un	DET	DET	_	2	para	_	_	437.209991	437.500000	L3
+4	travail	travail	NOM	NOM	_	6	periph	_	_	437.809998	438.350006	L3
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	438.429993	438.660004	L3
+6	est	être	VRB	VRB	_	0	root	_	_	438.670013	438.690002	L3
+7	correct	correct	ADJ	ADJ	_	6	dep	_	_	438.850006	439.390015	L3
+8	euh	euh	INT	INT	_	7	dm	_	_	440.209991	440.619995	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-106
+# text = mais je cr-~
+1	mais	mais	COO	COO	_	3	mark	_	_	440.630005	440.970001	L3
+2	je	je	CLS	CLS	_	3	subj	_	_	440.980011	441.260010	L3
+3	cr-~	cr-~	VRB	VRB	_	0	root	_	_	441.380005	441.489990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-107
+# text = dois dire que
+1	dois	devoir	VRB	VRB	_	0	root	_	_	441.500000	441.660004	L3
+2	dire	dire	VNF	VNF	_	1	dep	_	_	441.670013	441.920013	L3
+3	que	que	CSU	CSU	_	2	dep	_	_	441.989990	442.429993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-108
+# text = malheureusement
+1	malheureusement	malheureusement	ADV	ADV	_	0	root	_	_	443.519989	444.630005	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-109
+# text = dans certains quartiers
+1	dans	dans	PRE	PRE	_	0	root	_	_	444.640015	444.809998	L3
+2	certains	certain	DET	DET	_	3	spe	_	_	444.820007	445.459991	L3
+3	quartiers	quartier	NOM	NOM	_	1	dep	_	_	445.470001	446.260010	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-110
+# text = par exemple de Valence puisque je suis sur Valence euh je sais que les les choses ne se passent pas très bien en ce sens que on oublie quelquefois de sortir n'est-ce pas les les poubelles qui sont destinées à recevoir ces déchets papiers
+1	par	par	PRE	PRE	_	5	periph	_	_	446.410004	446.609985	L3
+2	exemple	exemple	NOM	NOM	_	1	dep	_	_	446.619995	446.989990	L3
+3	de	de	PRE	PRE	_	2	dep	_	_	447.000000	447.089996	L3
+4	Valence	Valence	NOM	NOM	_	3	dep	_	_	447.380005	447.869995	L3
+5	puisque	puisque	CSU	CSU	_	0	root	_	_	447.920013	448.209991	L3
+6	je	je	CLS	CLS	_	7	subj	_	_	448.220001	448.339996	L3
+7	suis	être	VRB	VRB	_	5	dep	_	_	448.350006	448.600006	L3
+8	sur	sur	PRE	PRE	_	7	dep	_	_	448.739990	448.890015	L3
+9	Valence	Valence	NOM	NOM	_	8	dep	_	_	448.899994	449.510010	L3
+10	euh	euh	INT	INT	_	9	dm	_	_	450.170013	450.429993	L3
+11	je	je	CLS	CLS	_	12	subj	_	_	450.440002	450.570007	L3
+12	sais	savoir	VRB	VRB	_	7	para	_	_	450.579987	450.980011	L3
+13	que	que	CSU	CSU	_	12	dep	_	_	451.160004	452.040009	L3
+14	les	le	DET	DET	_	16	spe	_	_	452.959991	454.239990	L3
+15	les	le	DET	DET	_	14	para	_	_	455.440002	455.579987	L3
+16	choses	chose	NOM	NOM	_	19	subj	_	_	455.589996	455.799988	L3
+17	ne	ne	CLN	CLN	_	19	dep	_	_	455.809998	455.869995	L3
+18	se	se	CLI	CLI	_	19	dep	_	_	455.880005	455.950012	L3
+19	passent	passer	VRB	VRB	_	13	dep	_	_	455.959991	456.140015	L3
+20	pas	pas	ADN	ADN	_	19	dep	_	_	456.149994	456.239990	L3
+21	très	très	ADV	ADV	_	22	dep	_	_	456.250000	456.410004	L3
+22	bien	bien	ADV	ADV	_	19	dep	_	_	456.420013	456.670013	L3
+23	en ce sens que	en ce que	CSU	CSU	_	19	dep	_	_	456.679993	457.670013	L3
+24	on	on	CLS	CLS	_	25	subj	_	_	458.109985	458.309998	L3
+25	oublie	oublier	VRB	VRB	_	23	dep	_	_	458.320007	458.730011	L3
+26	quelquefois	quelquefois	ADV	ADV	_	25	dep	_	_	458.739990	459.290009	L3
+27	de	de	PRE	PRE	_	25	dep	_	_	459.299988	459.399994	L3
+28	sortir	sortir	VNF	VNF	_	27	dep	_	_	459.410004	460.059998	L3
+29	n'	ne	CLN	CLN	_	30	dep	_	_	460.070007	460.140015	L3
+30	est-ce	est-ce	VRB	VRB	_	5	dep	_	_	460.149994	460.779999	L3
+31	pas	pas	ADN	ADN	_	30	dep	_	_	460.869995	461.070007	L3
+32	les	le	DET	DET	_	34	spe	_	_	461.450012	462.540009	L3
+33	les	le	DET	DET	_	32	para	_	_	462.579987	462.670013	L3
+34	poubelles	poubelle	NOM	NOM	_	30	dep	_	_	462.730011	463.070007	L3
+35	qui	qui	PRQ	PRQ	_	37	dep	_	_	463.079987	463.230011	L3
+36	sont	être	VRB	VRB	_	37	aux	_	_	463.239990	463.390015	L3
+37	destinées	destiner	VPP	VPP	_	34	dep	_	_	463.399994	463.970001	L3
+38	à	à	PRE	PRE	_	37	dep	_	_	463.980011	464.029999	L3
+39	recevoir	recevoir	VNF	VNF	_	38	dep	_	_	464.040009	464.559998	L3
+40	ces	ce	DET	DET	_	41	spe	_	_	464.950012	465.079987	L3
+41	déchets	déchet	NOM	NOM	_	34	para	_	_	465.089996	465.799988	L3
+42	papiers	papier	NOM	NOM	_	41	dep	_	_	465.809998	466.559998	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-111
+# text = notamment hein
+1	notamment	notamment	ADV	ADV	_	0	root	_	_	466.570007	467.149994	L3
+2	hein	hein	INT	INT	_	1	dm	_	_	467.250000	467.339996	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-112
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	468.119995	468.500000	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	468.510010	469.350006	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-113
+# text = les habitants de ces immeubles concernés
+1	les	le	DET	DET	_	2	spe	_	_	469.750000	469.959991	L3
+2	habitants	habitant	NOM	NOM	_	0	root	_	_	470.579987	471.029999	L3
+3	de	de	PRE	PRE	_	2	dep	_	_	471.040009	471.140015	L3
+4	ces	ce	DET	DET	_	5	spe	_	_	471.149994	471.730011	L3
+5	immeubles	immeuble	NOM	NOM	_	3	dep	_	_	471.739990	472.089996	L3
+6	concernés	concerner	VPP	VPP	_	5	dep	_	_	472.100006	472.690002	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-114
+# text = notamment
+1	notamment	notamment	ADV	ADV	_	0	root	_	_	473.059998	473.459991	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-115
+# text = dans les immeubles H L M
+1	dans	dans	PRE	PRE	_	0	root	_	_	473.470001	473.700012	L3
+2	les	le	DET	DET	_	3	spe	_	_	473.709991	474.179993	L3
+3	immeubles	immeuble	NOM	NOM	_	1	dep	_	_	474.279999	474.609985	L3
+4	H	H	NOM	NOM	_	3	dep	_	_	474.619995	474.809998	L3
+5	L	L	NOM	NOM	_	4	dep	_	_	474.820007	474.970001	L3
+6	M	Monsieur	NOM	NOM	_	5	dep	_	_	474.980011	475.179993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-116
+# text = bon ben finissent par se lasser
+1	bon ben	bon ben	INT	INT	_	3	dm	_	_	475.690002	475.970001	L3
+2	finissent	finir	VRB	VRB	_	1	dm	_	_	475.980011	476.309998	L3
+3	par	par	PRE	PRE	_	0	root	_	_	476.320007	476.500000	L3
+4	se	se	CLI	CLI	_	5	dep	_	_	476.510010	476.670013	L3
+5	lasser	lasser	VNF	VNF	_	3	dep	_	_	476.679993	477.209991	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-117
+# text = puis après n'effectuent plus de de s tri
+1	puis	puis	COO	COO	_	4	mark	_	_	477.269989	477.410004	L3
+2	après	après	PRE	PRE	_	4	periph	_	_	477.420013	477.709991	L3
+3	n'	ne	CLN	CLN	_	4	dep	_	_	477.720001	477.769989	L3
+4	effectuent	effectuer	VRB	VRB	_	0	root	_	_	477.779999	478.119995	L3
+5	plus	plus	ADN	ADN	_	4	dep	_	_	478.239990	478.390015	L3
+6	de	de	PRE	PRE	_	4	dep	_	_	478.459991	479.070007	L3
+7	de	de	PRE	PRE	_	6	para	_	_	479.709991	479.829987	L3
+8	s	s	NOM	NOM	_	7	dep	_	_	479.829987	479.829987	L3
+9	tri	tri	NOM	NOM	_	8	dep	_	_	479.839996	480.119995	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-118
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	467.619995	467.809998	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	480.510010	480.679993	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-119
+# text = hein
+1	hein	hein	INT	INT	_	0	root	_	_	480.519989	480.670013	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-120
+# text = ce qui est bien dommage
+1	ce	ce	PRO	PRO	_	0	root	_	_	481.049988	481.130005	L3
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	481.140015	481.230011	L3
+3	est	être	VRB	VRB	_	1	dep	_	_	481.239990	481.260010	L3
+4	bien	bien	ADV	ADV	_	3	dep	_	_	481.269989	481.399994	L3
+5	dommage	dommage	NOM	NOM	_	3	dep	_	_	481.410004	481.760010	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-121
+# text = mais je crois que il faut encore insister beaucoup pour convaincre tous les tous toutes les tous les habitants de bien de procéder à cet à ce tri
+1	mais	mais	COO	COO	_	3	mark	_	_	482.149994	482.380005	L3
+2	je	je	CLS	CLS	_	3	subj	_	_	482.390015	482.510010	L3
+3	crois	croire	VRB	VRB	_	0	root	_	_	482.519989	482.720001	L3
+4	que	que	CSU	CSU	_	3	dep	_	_	482.730011	482.820007	L3
+5	il	il	CLS	CLS	_	6	subj	_	_	482.829987	483.029999	L3
+6	faut	faillir	VRB	VRB	_	4	dep	_	_	483.040009	483.190002	L3
+7	encore	encore	ADV	ADV	_	6	dep	_	_	483.200012	483.470001	L3
+8	insister	insister	VNF	VNF	_	6	dep	_	_	483.480011	483.950012	L3
+9	beaucoup	beaucoup	ADV	ADV	_	8	dep	_	_	483.959991	484.399994	L3
+10	pour	pour	PRE	PRE	_	8	dep	_	_	484.489990	484.619995	L3
+11	convaincre	convaincre	VNF	VNF	_	10	dep	_	_	484.630005	485.579987	L3
+12	tous	tout	ADJ	ADJ	_	19	dep	_	_	485.679993	485.880005	L3
+13	les	le	DET	DET	_	19	spe	_	_	485.890015	486.140015	L3
+14	tous	tout	ADJ	ADJ	_	15	dep	_	_	486.630005	486.859985	L3
+15	toutes	tout	ADJ	ADJ	_	19	dep	_	_	486.869995	487.019989	L3
+16	les	le	DET	DET	_	19	spe	_	_	487.160004	487.359985	L3
+17	tous	tout	ADJ	ADJ	_	19	dep	_	_	487.369995	487.579987	L3
+18	les	le	DET	DET	_	19	spe	_	_	487.589996	487.700012	L3
+19	habitants	habitant	NOM	NOM	_	11	dep	_	_	487.739990	488.100006	L3
+20	de	de	PRE	PRE	_	19	dep	_	_	488.109985	488.230011	L3
+21	bien	bien	NOM	NOM	_	20	dep	_	_	488.320007	488.459991	L3
+22	de	de	PRE	PRE	_	20	para	_	_	488.850006	488.869995	L3
+23	procéder	procéder	VNF	VNF	_	22	dep	_	_	488.940002	489.480011	L3
+24	à	à	PRE	PRE	_	23	dep	_	_	489.489990	489.589996	L3
+25	cet	ce	DET	DET	_	24	dep	_	_	489.600006	489.799988	L3
+26	à	à	PRE	PRE	_	24	para	_	_	490.079987	490.100006	L3
+27	ce	ce	DET	DET	_	28	spe	_	_	490.109985	490.269989	L3
+28	tri	tri	NOM	NOM	_	26	dep	_	_	490.339996	490.529999	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-122
+# text = car il s'agit ensuite de pouvoir euh
+1	car	car	COO	COO	_	4	mark	_	_	491.619995	491.940002	L3
+2	il	il	CLS	CLS	_	4	subj	_	_	491.950012	492.049988	L3
+3	s'	se	CLI	CLI	_	4	dep	_	_	492.059998	492.190002	L3
+4	agit	agir	VRB	VRB	_	0	root	_	_	492.200012	492.500000	L3
+5	ensuite	ensuite	ADV	ADV	_	4	dep	_	_	492.510010	493.029999	L3
+6	de	de	PRE	PRE	_	4	dep	_	_	493.040009	493.119995	L3
+7	pouvoir	pouvoir	VNF	VNF	_	6	dep	_	_	493.209991	493.880005	L3
+8	euh	euh	INT	INT	_	7	dm	_	_	493.890015	493.940002	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-123
+# text = donc trier ce qu'on ne pourra pas recycler hein
+1	donc	donc	ADV	ADV	_	2	dep	_	_	494.059998	494.450012	L3
+2	trier	trier	VNF	VNF	_	0	root	_	_	494.549988	495.140015	L3
+3	ce	ce	PRO	PRO	_	2	dep	_	_	495.149994	495.500000	L3
+4	qu'	que	PRQ	PRQ	_	7	dep	_	_	495.570007	495.630005	L3
+5	on	on	CLS	CLS	_	7	subj	_	_	495.640015	495.750000	L3
+6	ne	ne	CLN	CLN	_	7	dep	_	_	495.760010	495.779999	L3
+7	pourra	pouvoir	VRB	VRB	_	3	dep	_	_	495.790009	495.970001	L3
+8	pas	pas	ADN	ADN	_	7	dep	_	_	495.980011	496.130005	L3
+9	recycler	recycler	VNF	VNF	_	7	dep	_	_	496.140015	496.720001	L3
+10	hein	hein	INT	INT	_	9	dm	_	_	497.239990	497.429993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-124
+# text = parce que le recyclage est également un aspect important du problème
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	498.320007	498.480011	L3
+2	le	le	DET	DET	_	3	spe	_	_	498.489990	498.540009	L3
+3	recyclage	recyclage	NOM	NOM	_	4	subj	_	_	498.549988	499.119995	L3
+4	est	être	VRB	VRB	_	1	dep	_	_	499.130005	499.230011	L3
+5	également	également	ADV	ADV	_	4	dep	_	_	499.239990	499.869995	L3
+6	un	un	DET	DET	_	7	spe	_	_	499.880005	499.929993	L3
+7	aspect	aspect	NOM	NOM	_	4	dep	_	_	500.040009	500.279999	L3
+8	important	important	ADJ	ADJ	_	7	dep	_	_	500.290009	500.690002	L3
+9	du	de+le	PRE	PRE	_	7	dep	_	_	500.700012	500.790009	L3
+10	problème	problème	NOM	NOM	_	9	dep	_	_	500.880005	501.269989	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-125
+# text = et au niveau de du traitement euh de ce qui reste vous savez qu'actuellement c'est l'enfouissement
+1	et	et	COO	COO	_	13	mark	_	_	502.079987	502.250000	L3
+2	au	à+le	PRE	PRE	_	13	periph	_	_	502.260010	502.410004	L3
+3	niveau	niveau	NOM	NOM	_	2	dep	_	_	502.420013	502.750000	L3
+4	de	de	PRE	PRE	_	3	dep	_	_	502.760010	503.029999	L3
+5	du	de+le	PRE	PRE	_	4	para	_	_	503.040009	503.170013	L3
+6	traitement	traitement	NOM	NOM	_	5	dep	_	_	503.179993	503.880005	L3
+7	euh	euh	INT	INT	_	6	dm	_	_	503.890015	503.989990	L3
+8	de	de	PRE	PRE	_	6	dep	_	_	504.049988	504.149994	L3
+9	ce	ce	PRO	PRO	_	8	dep	_	_	504.309998	504.429993	L3
+10	qui	qui	PRQ	PRQ	_	11	dep	_	_	504.440002	504.630005	L3
+11	reste	rester	VRB	VRB	_	9	dep	_	_	504.640015	505.029999	L3
+12	vous	vous	CLS	CLS	_	13	subj	_	_	505.040009	505.089996	L3
+13	savez	savoir	VRB	VRB	_	0	root	_	_	505.100006	505.299988	L3
+14	qu'	que	CSU	CSU	_	13	dep	_	_	505.339996	505.369995	L3
+15	actuellement	actuellement	ADV	ADV	_	17	periph	_	_	505.380005	505.920013	L3
+16	c'	ce	CLS	CLS	_	17	subj	_	_	505.929993	506.049988	L3
+17	est	être	VRB	VRB	_	14	dep	_	_	506.059998	506.089996	L3
+18	l'	le	DET	DET	_	19	spe	_	_	506.100006	506.140015	L3
+19	enfouissement	enfouissement	NOM	NOM	_	17	dep	_	_	506.149994	506.760010	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-126
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	497.920013	498.059998	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	498.070007	498.130005	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-127
+# text = lequel enfouissement va être interdit à partir de deux mille deux
+1	lequel	lequel	PRQ	PRQ	_	5	dep	_	_	508.000000	508.350006	L3
+2	enfouissement	enfouissement	ADV	ADV	_	5	dep	_	_	508.359985	509.279999	L3
+3	va	aller	VRB	VRB	_	5	aux	_	_	509.290009	509.489990	L3
+4	être	être	VNF	VNF	_	5	aux	_	_	509.500000	509.959991	L3
+5	interdit	interdire	VPP	VPP	_	0	root	_	_	509.970001	510.660004	L3
+6	à	à	PRE	PRE	_	5	dep	_	_	510.670013	510.690002	L3
+7	partir	partir	VNF	VNF	_	6	dep	_	_	510.700012	511.170013	L3
+8	de	de	PRE	PRE	_	7	dep	_	_	511.250000	511.290009	L3
+9	deux	deux	NUM	NUM	_	10	dep	_	_	511.350006	511.420013	L3
+10	mille	mille	NUM	NUM	_	8	dep	_	_	511.470001	511.640015	L3
+11	deux	deux	NUM	NUM	_	10	dep	_	_	511.679993	511.869995	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-128
+# text = et c'est la raison pour laquelle euh les cellules responsables
+1	et	et	COO	COO	_	3	mark	_	_	512.700012	512.729980	L3
+2	c'	ce	CLS	CLS	_	3	subj	_	_	512.739990	512.849976	L3
+3	est	être	VRB	VRB	_	0	root	_	_	512.859985	512.890015	L3
+4	la	le	DET	DET	_	5	spe	_	_	512.900024	513.090027	L3
+5	raison	raison	NOM	NOM	_	3	dep	_	_	513.099976	513.330017	L3
+6	pour	pour	PRE	PRE	_	3	dep	_	_	513.340027	513.489990	L3
+7	laquelle	lequel	PRQ	PRQ	_	6	dep	_	_	513.500000	514.380005	L3
+8	euh	euh	INT	INT	_	7	dm	_	_	514.419983	514.479980	L3
+9	les	le	DET	DET	_	10	spe	_	_	515.349976	516.130005	L3
+10	cellules	cellule	NOM	NOM	_	6	dep	_	_	516.140015	516.599976	L3
+11	responsables	responsable	ADJ	ADJ	_	10	dep	_	_	516.609985	517.440002	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-129
+# text = ont prévu l'installation euh d'un incinérateur
+1	ont	avoir	VRB	VRB	_	2	aux	_	_	517.450012	517.659973	L3
+2	prévu	prévoir	VPP	VPP	_	0	root	_	_	517.669983	518.390015	L3
+3	l'	le	DET	DET	_	4	spe	_	_	519.020020	519.130005	L3
+4	installation	installation	NOM	NOM	_	2	dep	_	_	519.140015	520.340027	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	520.349976	520.549988	L3
+6	d'	de	PRE	PRE	_	4	dep	_	_	520.630005	520.650024	L3
+7	un	un	DET	DET	_	8	spe	_	_	520.979980	521.169983	L3
+8	incinérateur	incinérateur	NOM	NOM	_	6	dep	_	_	521.179993	522.020020	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-130
+# text = une usine à incinérer notamment sur euh tout près de chez nous à Portes-lès-Valence ce qui n'a pas manqué de créer de très vives inquiétudes euh de la part de des populations ces inquiétudes évidemment sont justifiées parce que il faut pas oublier qu'il y a un rejet qu'il y aura un rejet important de dio~ dioxine
+1	une	un	DET	DET	_	2	spe	_	_	522.890015	523.020020	L3
+2	usine	usine	NOM	NOM	_	6	periph	_	_	523.030029	523.650024	L3
+3	à	à	PRE	PRE	_	2	dep	_	_	523.770020	523.789978	L3
+4	incinérer	incinérer	VNF	VNF	_	3	dep	_	_	523.799988	524.450012	L3
+5	notamment	notamment	ADV	ADV	_	6	dep	_	_	524.909973	525.309998	L3
+6	sur	sur	PRE	PRE	_	38	periph	_	_	525.320007	525.739990	L3
+7	euh	euh	INT	INT	_	6	dm	_	_	525.820007	525.880005	L3
+8	tout	tout	ADV	ADV	_	9	dep	_	_	526.330017	526.549988	L3
+9	près	près	ADV	ADV	_	6	dep	_	_	526.559998	526.900024	L3
+10	de	de	PRE	PRE	_	6	dep	_	_	526.909973	527.229980	L3
+11	chez	chez	PRE	PRE	_	10	dep	_	_	527.239990	527.369995	L3
+12	nous	moi	PRO	PRO	_	11	dep	_	_	527.380005	527.460022	L3
+13	à	à	PRE	PRE	_	10	para	_	_	527.469971	527.530029	L3
+14	Portes-lès-Valence	Portes-lès-Valence	NOM	NOM	_	13	dep	_	_	527.539978	528.599976	L3
+15	ce	ce	PRO	PRO	_	38	periph	_	_	528.820007	529.260010	L3
+16	qui	qui	PRQ	PRQ	_	20	subj	_	_	529.270020	529.520020	L3
+17	n'	ne	CLN	CLN	_	20	dep	_	_	529.530029	529.619995	L3
+18	a	avoir	VRB	VRB	_	20	aux	_	_	529.630005	529.679993	L3
+19	pas	pas	ADN	ADN	_	20	dep	_	_	529.690002	529.820007	L3
+20	manqué	manquer	VPP	VPP	_	15	dep	_	_	529.830017	530.229980	L3
+21	de	de	PRE	PRE	_	20	dep	_	_	530.239990	530.390015	L3
+22	créer	créer	VNF	VNF	_	21	dep	_	_	530.400024	530.739990	L3
+23	de	de	PRE	PRE	_	22	dep	_	_	530.750000	530.880005	L3
+24	très	très	ADV	ADV	_	25	dep	_	_	530.950012	531.099976	L3
+25	vives	vif	ADJ	ADJ	_	26	dep	_	_	531.109985	531.419983	L3
+26	inquiétudes	inquiétude	NOM	NOM	_	23	dep	_	_	531.429993	532.429993	L3
+27	euh	euh	INT	INT	_	26	dm	_	_	532.440002	532.479980	L3
+28	de	de	PRE	PRE	_	26	dep	_	_	532.780029	532.859985	L3
+29	la	le	DET	DET	_	30	spe	_	_	532.869995	532.940002	L3
+30	part	part	NOM	NOM	_	28	dep	_	_	533.030029	533.340027	L3
+31	de	de	PRE	PRE	_	30	dep	_	_	533.349976	533.380005	L3
+32	des	de	PRE	PRE	_	31	para	_	_	533.570007	533.650024	L3
+33	populations	population	NOM	NOM	_	32	dep	_	_	533.659973	534.309998	L3
+34	ces	ce	DET	DET	_	35	spe	_	_	535.260010	535.369995	L3
+35	inquiétudes	inquiétude	NOM	NOM	_	38	subj	_	_	535.380005	535.880005	L3
+36	évidemment	évidemment	ADV	ADV	_	38	dep	_	_	535.890015	536.409973	L3
+37	sont	être	VRB	VRB	_	38	aux	_	_	536.419983	536.840027	L3
+38	justifiées	justifier	VPP	VPP	_	0	root	_	_	536.849976	537.500000	L3
+39	parce que	parce que	CSU	CSU	_	38	dep	_	_	537.570007	537.830017	L3
+40	il	il	CLS	CLS	_	41	subj	_	_	538.409973	538.469971	L3
+41	faut	faillir	VRB	VRB	_	39	dep	_	_	538.630005	538.710022	L3
+42	pas	pas	ADN	ADN	_	41	dep	_	_	538.780029	538.840027	L3
+43	oublier	oublier	VNF	VNF	_	41	dep	_	_	538.849976	539.289978	L3
+44	qu'	que	CSU	CSU	_	43	dep	_	_	539.340027	539.380005	L3
+45	il	il	CLS	CLS	_	47	subj	_	_	539.390015	539.450012	L3
+46	y	y	CLI	CLI	_	47	dep	_	_	539.460022	539.500000	L3
+47	a	avoir	VRB	VRB	_	44	dep	_	_	539.510010	539.549988	L3
+48	un	un	DET	DET	_	49	spe	_	_	539.559998	539.669983	L3
+49	rejet	rejet	NOM	NOM	_	47	dep	_	_	539.679993	540.219971	L3
+50	qu'	que	PRQ	PRQ	_	53	dep	_	_	540.750000	540.799988	L3
+51	il	il	CLS	CLS	_	53	subj	_	_	540.809998	540.859985	L3
+52	y	y	CLI	CLI	_	53	dep	_	_	540.869995	540.890015	L3
+53	aura	avoir	VRB	VRB	_	49	dep	_	_	540.900024	541.099976	L3
+54	un	un	DET	DET	_	55	spe	_	_	541.109985	541.190002	L3
+55	rejet	rejet	NOM	NOM	_	53	dep	_	_	541.200012	541.500000	L3
+56	important	important	ADJ	ADJ	_	55	dep	_	_	541.510010	541.950012	L3
+57	de	de	PRE	PRE	_	55	dep	_	_	541.960022	542.080017	L3
+58	dio~	dio~	NUM	NUM	_	59	spe	_	_	542.090027	542.219971	L3
+59	dioxine	dioxine	NOM	NOM	_	57	dep	_	_	542.340027	542.799988	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-131
+# text = sur Portes-lès-Valence
+1	sur	sur	PRE	PRE	_	0	root	_	_	526.359985	526.570007	L1
+2	Portes-lès-Valence	Portes-lès-Valence	NOM	NOM	_	1	dep	_	_	526.580017	528.599976	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-132
+# text = et qui notamment atteindrait non
+1	et	et	COO	COO	_	4	mark	_	_	543.489990	543.739990	L3
+2	qui	qui	PRQ	PRQ	_	4	dep	_	_	543.750000	544.049988	L3
+3	notamment	notamment	ADV	ADV	_	4	dep	_	_	544.059998	544.789978	L3
+4	atteindrait	atteindre	VRB	VRB	_	0	root	_	_	544.799988	545.229980	L3
+5	non	non	INT	INT	_	4	dm	_	_	545.239990	545.340027	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-133
+# text = seulement
+1	seulement	seulement	ADV	ADV	_	0	root	_	_	545.349976	545.700012	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-134
+# text = les les humains que nous sommes
+1	les	le	DET	DET	_	3	spe	_	_	545.710022	545.940002	L3
+2	les	le	DET	DET	_	1	para	_	_	546.400024	546.520020	L3
+3	humains	humains	NOM	NOM	_	0	root	_	_	546.530029	546.880005	L3
+4	que	que	PRQ	PRQ	_	6	dep	_	_	546.890015	546.940002	L3
+5	nous	nous	CLS	CLS	_	6	subj	_	_	546.950012	547.109985	L3
+6	sommes	être	VRB	VRB	_	3	dep	_	_	547.119995	547.469971	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-135
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	547.479980	547.500000	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-136
+# text = aussi
+1	aussi	aussi	ADV	ADV	_	0	root	_	_	547.510010	547.849976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-137
+# text = les les productions agricoles
+1	les	le	DET	DET	_	3	spe	_	_	547.900024	548.210022	L3
+2	les	le	DET	DET	_	1	para	_	_	548.900024	549.080017	L3
+3	productions	production	NOM	NOM	_	0	root	_	_	549.090027	549.580017	L3
+4	agricoles	agricole	ADJ	ADJ	_	3	dep	_	_	549.590027	550.030029	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-138
+# text = Paul NNAAMMEE est-ce que est-ce que v-~ vous remettez en cause euh l'implantation par exemple d'une usine d'incinération à Portes-lès-Valence
+1	Paul	Paul	NOM	NOM	_	3	periph	_	_	550.299988	550.400024	L1
+2	NNAAMMEE	NOM	NOM	NOM	_	1	dep	_	_	550.409973	550.640015	L1
+3	est-ce	est-ce	VRB	VRB	_	0	root	_	_	550.729980	550.859985	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	550.869995	551.200012	L1
+5	est-ce	est-ce	VRB	VRB	_	4	dep	_	_	551.210022	551.330017	L1
+6	que	que	CSU	CSU	_	4	para	_	_	551.340027	551.419983	L1
+7	v-~	v-~	X	X	_	9	dep	_	_	551.429993	551.479980	L1
+8	vous	vous	CLS	CLS	_	9	subj	_	_	551.489990	551.710022	L1
+9	remettez	remettre	VRB	VRB	_	6	dep	_	_	551.719971	552.119995	L1
+10	en	en	PRE	PRE	_	9	dep	_	_	552.130005	552.190002	L1
+11	cause	cause	NOM	NOM	_	10	dep	_	_	552.200012	552.989990	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	553.000000	553.030029	L1
+13	l'	le	DET	DET	_	14	spe	_	_	553.039978	553.169983	L1
+14	implantation	implantation	NOM	NOM	_	9	dep	_	_	553.179993	553.900024	L1
+15	par	par	PRE	PRE	_	14	dep	_	_	553.909973	554.049988	L1
+16	exemple	exemple	NOM	NOM	_	15	dep	_	_	554.059998	554.460022	L1
+17	d'	de	PRE	PRE	_	14	dep	_	_	554.469971	554.549988	L1
+18	une	un	DET	DET	_	19	spe	_	_	554.559998	555.059998	L1
+19	usine	usine	NOM	NOM	_	17	dep	_	_	555.150024	555.369995	L1
+20	d'	de	PRE	PRE	_	19	dep	_	_	555.380005	555.419983	L1
+21	incinération	incinération	NOM	NOM	_	20	dep	_	_	555.429993	556.140015	L1
+22	à	à	PRE	PRE	_	14	dep	_	_	556.510010	556.630005	L1
+23	Portes-lès-Valence	Portes-lès-Valence	NOM	NOM	_	22	dep	_	_	556.640015	557.330017	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-139
+# text = est-à-dire à proximité d'une grosse agglomération ou bien c'est le système même de l'incinération que que vous rejetez
+1	est-à-dire	est-à-dire	COO	COO	_	11	mark	_	_	557.340027	557.530029	L1
+2	à	à	PRE	PRE	_	11	periph	_	_	557.539978	557.570007	L1
+3	proximité	proximité	NOM	NOM	_	2	dep	_	_	557.580017	558.099976	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	558.109985	558.169983	L1
+5	une	un	DET	DET	_	7	spe	_	_	558.179993	558.450012	L1
+6	grosse	gros	ADJ	ADJ	_	7	dep	_	_	558.460022	558.719971	L1
+7	agglomération	agglomération	NOM	NOM	_	4	dep	_	_	558.729980	559.419983	L1
+8	ou	ou	COO	COO	_	11	mark	_	_	559.739990	559.820007	L1
+9	bien	bien	ADV	ADV	_	11	periph	_	_	559.830017	560.109985	L1
+10	c'	ce	CLS	CLS	_	11	subj	_	_	560.119995	560.260010	L1
+11	est	être	VRB	VRB	_	0	root	_	_	560.270020	560.320007	L1
+12	le	le	DET	DET	_	13	spe	_	_	560.330017	560.450012	L1
+13	système	système	NOM	NOM	_	11	dep	_	_	560.460022	560.989990	L1
+14	même	même	ADV	ADV	_	11	dep	_	_	561.000000	561.349976	L1
+15	de	de	PRE	PRE	_	11	dep	_	_	561.359985	561.419983	L1
+16	l'	le	DET	DET	_	17	spe	_	_	561.429993	561.460022	L1
+17	incinération	incinération	NOM	NOM	_	15	dep	_	_	561.469971	562.090027	L1
+18	que	que	CSU	CSU	_	17	dep	_	_	562.159973	562.460022	L1
+19	que	que	CSU	CSU	_	18	para	_	_	562.469971	563.250000	L1
+20	vous	vous	CLS	CLS	_	21	subj	_	_	563.260010	563.349976	L1
+21	rejetez	rejeter	VRB	VRB	_	19	dep	_	_	563.359985	565.340027	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-140
+# text = ben écoutez
+1	ben	ben	INT	INT	_	2	dm	_	_	559.739990	560.119995	L3
+2	écoutez	écouter	VRB	VRB	_	0	root	_	_	560.260010	560.739990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-141
+# text = moi je vous savez
+1	moi	moi	PRO	PRO	_	4	periph	_	_	560.869995	561.210022	L3
+2	je	je	CLS	CLS	_	4	subj	_	_	561.280029	561.530029	L3
+3	vous	vous	CLI	CLI	_	4	dep	_	_	561.630005	562.090027	L3
+4	savez	savoir	VRB	VRB	_	0	root	_	_	562.200012	562.739990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-142
+# text = je
+1	je	je	CLS	CLS	_	0	root	_	_	562.750000	563.989990	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-143
+# text = notre association euh
+1	notre	son	DET	DET	_	2	spe	_	_	564.000000	564.770020	L3
+2	association	association	NOM	NOM	_	0	root	_	_	564.869995	565.739990	L3
+3	euh	euh	INT	INT	_	2	dm	_	_	565.750000	565.809998	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-144
+# text = euh fait partie d'un collectif qui regroupe euh quatorze ou quinze associations hein qui euh se sont créées spontanément suite à ce projet puisque c'est ça concerne
+1	euh	euh	INT	INT	_	2	dm	_	_	566.280029	566.469971	L3
+2	fait	faire	VRB	VRB	_	0	root	_	_	566.479980	566.590027	L3
+3	partie	partie	NOM	NOM	_	2	dep	_	_	566.599976	566.849976	L3
+4	d'	de	PRE	PRE	_	3	dep	_	_	566.859985	566.909973	L3
+5	un	un	DET	DET	_	6	spe	_	_	566.919983	566.969971	L3
+6	collectif	collectif	ADJ	ADJ	_	4	dep	_	_	566.979980	567.630005	L3
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	567.640015	567.690002	L3
+8	regroupe	regrouper	VRB	VRB	_	6	dep	_	_	567.700012	568.369995	L3
+9	euh	euh	INT	INT	_	8	dm	_	_	568.380005	568.630005	L3
+10	quatorze	quatorze	NUM	NUM	_	13	spe	_	_	568.640015	569.080017	L3
+11	ou	ou	COO	COO	_	12	mark	_	_	569.090027	569.130005	L3
+12	quinze	quinze	NUM	NUM	_	10	para	_	_	569.140015	569.380005	L3
+13	associations	association	NOM	NOM	_	8	dep	_	_	569.390015	569.960022	L3
+14	hein	hein	INT	INT	_	13	dm	_	_	570.419983	570.590027	L3
+15	qui	qui	PRQ	PRQ	_	19	subj	_	_	570.599976	571.169983	L3
+16	euh	euh	INT	INT	_	15	dm	_	_	571.179993	571.530029	L3
+17	se	se	CLI	CLI	_	19	dep	_	_	571.539978	571.659973	L3
+18	sont	être	VRB	VRB	_	19	aux	_	_	571.669983	571.909973	L3
+19	créées	créer	VPP	VPP	_	13	dep	_	_	571.919983	572.619995	L3
+20	spontanément	spontanément	ADV	ADV	_	19	dep	_	_	572.630005	573.440002	L3
+21	suite	suite	ADV	ADV	_	19	dep	_	_	573.799988	574.219971	L3
+22	à	à	PRE	PRE	_	19	dep	_	_	574.229980	574.500000	L3
+23	ce	ce	DET	DET	_	24	spe	_	_	574.510010	574.659973	L3
+24	projet	projet	NOM	NOM	_	22	dep	_	_	574.669983	575.130005	L3
+25	puisque	puisque	CSU	CSU	_	19	periph	_	_	575.520020	575.780029	L3
+26	c'	ce	CLS	CLS	_	27	subj	_	_	575.789978	575.919983	L3
+27	est	être	VRB	VRB	_	25	dep	_	_	575.929993	576.309998	L3
+28	ça	ça	PRO	PRO	_	29	subj	_	_	576.369995	576.440002	L3
+29	concerne	concerner	VRB	VRB	_	25	dep	_	_	576.450012	576.890015	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-145
+# text = est-ce pas des populations qui sont très proches
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	576.900024	576.960022	L3
+2	pas	pas	ADN	ADN	_	1	dep	_	_	576.969971	577.080017	L3
+3	des	de	PRE	PRE	_	1	dep	_	_	577.090027	577.280029	L3
+4	populations	population	NOM	NOM	_	3	dep	_	_	577.289978	577.849976	L3
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	577.859985	577.929993	L3
+6	sont	être	VRB	VRB	_	4	dep	_	_	577.940002	578.090027	L3
+7	très	très	ADV	ADV	_	8	dep	_	_	578.099976	578.270020	L3
+8	proches	proche	ADJ	ADJ	_	6	dep	_	_	578.280029	578.710022	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-146
+# text = effectivement euh euh choisir comme lieu d'implantation une agglomération comme la nôtre euh
+1	effectivement	effectivement	ADV	ADV	_	4	periph	_	_	579.130005	579.679993	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	579.690002	579.950012	L3
+3	euh	euh	INT	INT	_	2	dm	_	_	580.299988	580.539978	L3
+4	choisir	choisir	VNF	VNF	_	0	root	_	_	580.549988	581.119995	L3
+5	comme	comme	PRE	PRE	_	4	dep	_	_	581.130005	581.409973	L3
+6	lieu	lieu	NOM	NOM	_	5	dep	_	_	581.419983	581.549988	L3
+7	d'	de	PRE	PRE	_	6	dep	_	_	581.559998	581.599976	L3
+8	implantation	implantation	NOM	NOM	_	7	dep	_	_	581.609985	582.260010	L3
+9	une	un	DET	DET	_	10	spe	_	_	582.270020	582.340027	L3
+10	agglomération	agglomération	NOM	NOM	_	6	para	_	_	582.349976	583.090027	L3
+11	comme	comme	PRE	PRE	_	10	dep	_	_	583.099976	583.429993	L3
+12	la nôtre	le mien	PRO	PRO	_	11	dep	_	_	583.440002	583.900024	L3
+13	euh	euh	INT	INT	_	12	dm	_	_	584.320007	585.099976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-147
+# text = paraît un petit peu
+1	paraît	paraître	VRB	VRB	_	0	root	_	_	585.200012	585.390015	L3
+2	un	un	DET	DET	_	4	spe	_	_	585.450012	585.549988	L3
+3	petit	petit	ADJ	ADJ	_	4	dep	_	_	585.559998	585.770020	L3
+4	peu	peu	NOM	NOM	_	1	dep	_	_	585.780029	586.400024	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-148
+# text = même très é-~ tout à fait absurde
+1	même	même	ADV	ADV	_	3	dep	_	_	586.409973	586.780029	L3
+2	très	très	ADV	ADV	_	3	dep	_	_	586.950012	587.159973	L3
+3	é-~	é-~	ADJ	ADJ	_	0	root	_	_	587.169983	587.309998	L3
+4	tout à fait	tout à fait	ADV	ADV	_	5	dep	_	_	587.320007	587.590027	L3
+5	absurde	absurde	ADJ	ADJ	_	3	para	_	_	587.599976	588.000000	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-149
+# text = hum mais ça n'est pas le principe d'incinération
+1	hum	hum	INT	INT	_	5	dm	_	_	588.309998	588.429993	L1
+2	mais	mais	COO	COO	_	5	mark	_	_	588.500000	588.719971	L1
+3	ça	ça	PRO	PRO	_	5	subj	_	_	588.729980	588.820007	L1
+4	n'	ne	CLN	CLN	_	5	dep	_	_	588.830017	588.849976	L1
+5	est	être	VRB	VRB	_	0	root	_	_	588.859985	588.880005	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	588.890015	588.950012	L1
+7	le	le	DET	DET	_	8	spe	_	_	588.960022	589.070007	L1
+8	principe	principe	NOM	NOM	_	5	dep	_	_	589.080017	589.450012	L1
+9	d'	de	PRE	PRE	_	8	dep	_	_	589.460022	589.510010	L1
+10	incinération	incinération	NOM	NOM	_	9	dep	_	_	589.520020	590.049988	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-150
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	590.059998	590.200012	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-151
+# text = que vous remettez en cause
+1	que	que	CSU	CSU	_	0	root	_	_	590.210022	590.289978	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	590.299988	590.419983	L1
+3	remettez	remettre	VRB	VRB	_	1	dep	_	_	590.429993	590.630005	L1
+4	en	en	PRE	PRE	_	3	dep	_	_	590.640015	590.750000	L1
+5	cause	cause	NOM	NOM	_	4	dep	_	_	590.760010	590.840027	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-152
+# text = mais le principe d'incinération il est également contesté parce que il s'avère que
+1	mais	mais	COO	COO	_	7	mark	_	_	590.849976	590.900024	L1
+2	le	le	DET	DET	_	3	spe	_	_	590.909973	590.929993	L1
+3	principe	principe	NOM	NOM	_	7	periph	_	_	590.940002	591.219971	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	591.229980	591.280029	L1
+5	incinération	incinération	NOM	NOM	_	4	dep	_	_	591.289978	592.020020	L1
+6	il	il	CLS	CLS	_	7	subj	_	_	592.030029	592.260010	L1
+7	est	être	VRB	VRB	_	0	root	_	_	592.270020	592.450012	L1
+8	également	également	ADV	ADV	_	9	dep	_	_	592.460022	592.900024	L1
+9	contesté	contester	VPP	VPP	_	7	dep	_	_	592.909973	593.599976	L1
+10	parce que	parce que	CSU	CSU	_	9	dep	_	_	593.609985	594.169983	L1
+11	il	il	CLS	CLS	_	13	subj	_	_	594.179993	594.340027	L1
+12	s'	se	CLI	CLI	_	13	dep	_	_	594.349976	594.429993	L1
+13	avère	avère	VRB	VRB	_	10	dep	_	_	594.440002	594.770020	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	594.859985	595.190002	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-153
+# text = on n'a pas encore trouvé des filtres suffisamment adaptés pour euh pour trier pour éviter ce rejet de de d-~ dioxine et autres éléments nuisants
+1	on	on	CLS	CLS	_	6	subj	_	_	595.580017	595.669983	L3
+2	n'	ne	CLN	CLN	_	6	dep	_	_	595.679993	595.719971	L3
+3	a	avoir	VRB	VRB	_	6	aux	_	_	595.729980	595.770020	L3
+4	pas	pas	ADN	ADN	_	6	dep	_	_	595.780029	595.859985	L3
+5	encore	encore	ADV	ADV	_	6	dep	_	_	595.869995	596.200012	L3
+6	trouvé	se trouver	VPP	VPP	_	0	root	_	_	596.210022	596.599976	L3
+7	des	de	PRE	PRE	_	6	dep	_	_	596.609985	596.760010	L3
+8	filtres	filtre	NOM	NOM	_	7	dep	_	_	596.770020	597.239990	L3
+9	suffisamment	suffisamment	ADV	ADV	_	10	dep	_	_	597.250000	597.770020	L3
+10	adaptés	adapter	VPP	VPP	_	6	para	_	_	597.780029	598.340027	L3
+11	pour	pour	PRE	PRE	_	10	dep	_	_	598.789978	599.369995	L3
+12	euh	euh	INT	INT	_	11	dm	_	_	599.380005	599.750000	L3
+13	pour	pour	PRE	PRE	_	11	para	_	_	599.760010	599.950012	L3
+14	trier	trier	VNF	VNF	_	13	dep	_	_	599.960022	600.320007	L3
+15	pour	pour	PRE	PRE	_	14	dep	_	_	600.330017	600.750000	L3
+16	éviter	éviter	VNF	VNF	_	15	dep	_	_	601.059998	601.479980	L3
+17	ce	ce	DET	DET	_	18	spe	_	_	601.489990	601.609985	L3
+18	rejet	rejet	NOM	NOM	_	16	dep	_	_	601.619995	602.049988	L3
+19	de	de	PRE	PRE	_	18	dep	_	_	602.059998	602.369995	L3
+20	de	de	PRE	PRE	_	19	para	_	_	602.750000	602.840027	L3
+21	d-~	d-~	NOM	NOM	_	20	dep	_	_	602.849976	603.119995	L3
+22	dioxine	dioxine	NOM	NOM	_	21	dep	_	_	603.130005	603.679993	L3
+23	et	et	COO	COO	_	24	mark	_	_	603.690002	603.729980	L3
+24	autres	autre	ADJ	ADJ	_	22	para	_	_	603.739990	603.989990	L3
+25	éléments	élément	NOM	NOM	_	24	dep	_	_	604.000000	604.340027	L3
+26	nuisants	nuisants	ADJ	ADJ	_	25	dep	_	_	604.349976	604.750000	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-154
+# text = et vous vous savez par exemple que dans le nord de la France on a dû fermer de telles usines parce qu'ils n'étaient plus conformes hein
+1	et	et	COO	COO	_	4	mark	_	_	605.169983	605.840027	L3
+2	vous	vous	CLS	CLS	_	4	subj	_	_	605.849976	606.190002	L3
+3	vous	vous	CLI	CLI	_	4	dep	_	_	606.200012	606.280029	L3
+4	savez	savoir	VRB	VRB	_	0	root	_	_	606.289978	606.479980	L3
+5	par	par	PRE	PRE	_	4	dep	_	_	606.489990	606.619995	L3
+6	exemple	exemple	NOM	NOM	_	5	dep	_	_	606.630005	606.820007	L3
+7	que	que	CSU	CSU	_	4	dep	_	_	606.830017	606.849976	L3
+8	dans	dans	PRE	PRE	_	16	periph	_	_	606.859985	606.960022	L3
+9	le	le	DET	DET	_	10	spe	_	_	606.969971	606.989990	L3
+10	nord	nord	NOM	NOM	_	8	dep	_	_	607.000000	607.159973	L3
+11	de	de	PRE	PRE	_	10	dep	_	_	607.169983	607.190002	L3
+12	la	le	DET	DET	_	13	spe	_	_	607.200012	607.270020	L3
+13	France	France	NOM	NOM	_	11	dep	_	_	607.280029	607.559998	L3
+14	on	on	CLS	CLS	_	16	subj	_	_	607.570007	607.590027	L3
+15	a	avoir	VRB	VRB	_	16	aux	_	_	607.599976	607.630005	L3
+16	dû	devoir	VPP	VPP	_	7	dep	_	_	607.640015	607.760010	L3
+17	fermer	fermer	VNF	VNF	_	16	dep	_	_	607.770020	608.179993	L3
+18	de	de	PRE	PRE	_	17	dep	_	_	608.520020	608.580017	L3
+19	telles	tel	ADJ	ADJ	_	20	dep	_	_	608.590027	608.719971	L3
+20	usines	usine	NOM	NOM	_	18	dep	_	_	608.729980	609.119995	L3
+21	parce qu'	parce que	CSU	CSU	_	4	dep	_	_	609.179993	609.390015	L3
+22	ils	il	CLS	CLS	_	24	subj	_	_	609.400024	609.450012	L3
+23	n'	ne	CLN	CLN	_	24	dep	_	_	609.460022	609.500000	L3
+24	étaient	être	VRB	VRB	_	21	dep	_	_	609.510010	609.630005	L3
+25	plus	plus	ADN	ADN	_	26	dep	_	_	609.640015	609.770020	L3
+26	conformes	conforme	ADJ	ADJ	_	24	dep	_	_	609.780029	610.219971	L3
+27	hein	hein	INT	INT	_	26	dm	_	_	610.630005	610.650024	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-155
+# text = alors là je crois que bon ben
+1	alors	alors	ADV	ADV	_	4	periph	_	_	611.059998	611.400024	L3
+2	là	là	ADV	ADV	_	4	periph	_	_	611.409973	611.820007	L3
+3	je	je	CLS	CLS	_	4	subj	_	_	611.830017	612.179993	L3
+4	crois	croire	VRB	VRB	_	0	root	_	_	612.190002	612.390015	L3
+5	que	que	CSU	CSU	_	4	dep	_	_	612.400024	612.549988	L3
+6	bon ben	bon ben	INT	INT	_	5	dm	_	_	612.630005	612.900024	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-156
+# text = il c'est évident qu'il faut bien arriver à une solution hein l'incinération
+1	il	il	CLS	CLS	_	3	periph	_	_	613.309998	613.429993	L3
+2	c'	ce	CLS	CLS	_	3	subj	_	_	613.440002	613.460022	L3
+3	est	être	VRB	VRB	_	0	root	_	_	613.469971	613.760010	L3
+4	évident	évident	ADJ	ADJ	_	3	dep	_	_	613.770020	614.039978	L3
+5	qu'	que	CSU	CSU	_	4	dep	_	_	614.049988	614.130005	L3
+6	il	il	CLS	CLS	_	7	subj	_	_	614.140015	614.210022	L3
+7	faut	faillir	VRB	VRB	_	5	dep	_	_	614.219971	614.359985	L3
+8	bien	bien	ADV	ADV	_	7	dep	_	_	614.369995	614.520020	L3
+9	arriver	arriver	VNF	VNF	_	7	dep	_	_	614.530029	614.729980	L3
+10	à	à	PRE	PRE	_	9	dep	_	_	614.739990	614.760010	L3
+11	une	un	DET	DET	_	12	spe	_	_	614.770020	614.820007	L3
+12	solution	solution	NOM	NOM	_	10	dep	_	_	614.830017	615.349976	L3
+13	hein	hein	INT	INT	_	12	dm	_	_	615.359985	615.419983	L3
+14	l'	le	DET	DET	_	15	spe	_	_	615.429993	615.479980	L3
+15	incinération	incinération	NOM	NOM	_	9	dep	_	_	615.489990	616.099976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-157
+# text = ça sera peut-être une des solutions
+1	ça	ça	PRO	PRO	_	2	subj	_	_	616.109985	616.179993	L3
+2	sera	être	VRB	VRB	_	0	root	_	_	616.190002	616.479980	L3
+3	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	616.609985	617.059998	L3
+4	une	un	DET	DET	_	2	dep	_	_	617.500000	617.760010	L3
+5	des	de	PRE	PRE	_	2	dep	_	_	617.770020	617.960022	L3
+6	solutions	solution	NOM	NOM	_	5	dep	_	_	617.969971	618.530029	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-158
+# text = mais euh ce qui a manqué dans cette affaire c'est une véritable concertation avec la population hein
+1	mais	mais	COO	COO	_	11	mark	_	_	619.159973	619.549988	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	619.559998	620.119995	L3
+3	ce	ce	PRO	PRO	_	11	periph	_	_	620.130005	620.320007	L3
+4	qui	qui	PRQ	PRQ	_	6	subj	_	_	620.330017	620.549988	L3
+5	a	avoir	VRB	VRB	_	6	aux	_	_	620.559998	620.630005	L3
+6	manqué	manquer	VPP	VPP	_	3	dep	_	_	620.640015	620.989990	L3
+7	dans	dans	PRE	PRE	_	6	dep	_	_	621.000000	621.109985	L3
+8	cette	ce	DET	DET	_	9	spe	_	_	621.119995	621.280029	L3
+9	affaire	affaire	NOM	NOM	_	7	dep	_	_	621.289978	621.679993	L3
+10	c'	ce	CLS	CLS	_	11	subj	_	_	622.049988	622.190002	L3
+11	est	être	VRB	VRB	_	0	root	_	_	622.200012	622.510010	L3
+12	une	un	DET	DET	_	14	spe	_	_	622.520020	622.869995	L3
+13	véritable	véritable	ADJ	ADJ	_	14	dep	_	_	622.880005	623.429993	L3
+14	concertation	concertation	NOM	NOM	_	11	dep	_	_	623.440002	624.320007	L3
+15	avec	avec	PRE	PRE	_	11	dep	_	_	624.330017	624.539978	L3
+16	la	le	DET	DET	_	17	spe	_	_	624.549988	624.619995	L3
+17	population	population	NOM	NOM	_	15	dep	_	_	624.630005	625.190002	L3
+18	hein	hein	INT	INT	_	17	dm	_	_	625.929993	626.179993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-159
+# text = on a on a oublié de les consulter euh
+1	on	on	CLS	CLS	_	2	subj	_	_	626.190002	626.340027	L3
+2	a	avoir	VRB	VRB	_	0	root	_	_	626.349976	626.419983	L3
+3	on	on	CLS	CLS	_	5	subj	_	_	626.429993	626.549988	L3
+4	a	avoir	VRB	VRB	_	5	aux	_	_	626.559998	626.590027	L3
+5	oublié	oublier	VPP	VPP	_	2	para	_	_	626.599976	626.809998	L3
+6	de	de	PRE	PRE	_	5	dep	_	_	626.820007	626.840027	L3
+7	les	le	CLI	CLI	_	8	dep	_	_	626.849976	626.919983	L3
+8	consulter	consulter	VNF	VNF	_	6	dep	_	_	626.929993	627.780029	L3
+9	euh	euh	INT	INT	_	8	dm	_	_	627.789978	627.969971	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-160
+# text = on a oublié de leur expliquer euh vraiment euh
+1	on	on	CLS	CLS	_	3	subj	_	_	628.369995	628.419983	L3
+2	a	avoir	VRB	VRB	_	3	aux	_	_	628.429993	628.500000	L3
+3	oublié	oublier	VPP	VPP	_	0	root	_	_	628.510010	628.770020	L3
+4	de	de	PRE	PRE	_	3	dep	_	_	628.780029	628.799988	L3
+5	leur	lui	CLI	CLI	_	6	dep	_	_	628.809998	628.960022	L3
+6	expliquer	expliquer	VNF	VNF	_	4	dep	_	_	628.969971	629.669983	L3
+7	euh	euh	INT	INT	_	6	dm	_	_	629.679993	629.919983	L3
+8	vraiment	vraiment	ADV	ADV	_	6	dep	_	_	629.929993	630.549988	L3
+9	euh	euh	INT	INT	_	8	dm	_	_	630.559998	630.580017	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-161
+# text = ce qu'il en était
+1	ce	ce	PRO	PRO	_	0	root	_	_	630.590027	630.830017	L3
+2	qu'	que	PRQ	PRQ	_	5	dep	_	_	630.979980	631.010010	L3
+3	il	il	CLS	CLS	_	5	subj	_	_	631.020020	631.109985	L3
+4	en	en	CLI	CLI	_	5	dep	_	_	631.119995	631.250000	L3
+5	était	être	VRB	VRB	_	1	dep	_	_	631.260010	631.700012	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-162
+# text = on a prévu euh une capacité d'incinérateur qui est considérable hein et qui fait que bon ben on s'attend à ce
+1	on	on	CLS	CLS	_	3	subj	_	_	631.969971	632.169983	L3
+2	a	avoir	VRB	VRB	_	3	aux	_	_	632.179993	632.460022	L3
+3	prévu	prévoir	VPP	VPP	_	0	root	_	_	632.520020	633.109985	L3
+4	euh	euh	INT	INT	_	3	dm	_	_	633.119995	633.619995	L3
+5	une	un	DET	DET	_	6	spe	_	_	634.109985	634.159973	L3
+6	capacité	capacité	NOM	NOM	_	3	dep	_	_	634.169983	635.090027	L3
+7	d'	de	PRE	PRE	_	6	dep	_	_	635.099976	635.200012	L3
+8	incinérateur	incinérateur	NOM	NOM	_	7	dep	_	_	635.210022	635.979980	L3
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	636.030029	636.130005	L3
+10	est	être	VRB	VRB	_	8	dep	_	_	636.140015	636.179993	L3
+11	considérable	considérable	ADJ	ADJ	_	10	dep	_	_	636.190002	636.919983	L3
+12	hein	hein	INT	INT	_	11	dm	_	_	637.340027	637.539978	L3
+13	et	et	COO	COO	_	15	mark	_	_	637.960022	638.030029	L3
+14	qui	qui	PRQ	PRQ	_	15	dep	_	_	638.039978	638.200012	L3
+15	fait	faire	VRB	VRB	_	10	para	_	_	638.210022	638.409973	L3
+16	que	que	CSU	CSU	_	15	dep	_	_	638.419983	638.609985	L3
+17	bon ben	bon ben	INT	INT	_	16	dm	_	_	638.619995	638.900024	L3
+18	on	on	CLS	CLS	_	20	subj	_	_	638.909973	638.989990	L3
+19	s'	se	CLI	CLI	_	20	dep	_	_	639.000000	639.059998	L3
+20	attend	attendre	VRB	VRB	_	16	dep	_	_	639.070007	639.419983	L3
+21	à	à	PRE	PRE	_	20	dep	_	_	639.429993	639.469971	L3
+22	ce	ce	PRO	PRO	_	21	dep	_	_	639.479980	639.570007	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-163
+# text = que
+1	que	que	PRQ	PRQ	_	0	root	_	_	639.840027	639.929993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-164
+# text = à récupérer la moitié des des départements de la Drôme et de l'Ardèche les ordures de tous ces de de la moitié de ces départements
+1	à	à	PRE	PRE	_	0	root	_	_	639.940002	640.030029	L3
+2	récupérer	récupérer	VNF	VNF	_	1	dep	_	_	640.039978	640.919983	L3
+3	la	le	DET	DET	_	4	spe	_	_	640.960022	641.020020	L3
+4	moitié	moitié	NOM	NOM	_	2	dep	_	_	641.030029	641.309998	L3
+5	des	de	PRE	PRE	_	4	dep	_	_	641.320007	641.450012	L3
+6	des	de	PRE	PRE	_	5	para	_	_	641.780029	641.830017	L3
+7	départements	département	NOM	NOM	_	6	dep	_	_	641.840027	642.390015	L3
+8	de	de	PRE	PRE	_	7	dep	_	_	642.400024	642.429993	L3
+9	la	le	DET	DET	_	10	spe	_	_	642.440002	642.510010	L3
+10	Drôme	Drôme	NOM	NOM	_	8	dep	_	_	642.520020	642.780029	L3
+11	et	et	COO	COO	_	12	mark	_	_	642.789978	642.809998	L3
+12	de	de	PRE	PRE	_	8	para	_	_	642.820007	642.859985	L3
+13	l'	le	DET	DET	_	14	spe	_	_	642.869995	642.890015	L3
+14	Ardèche	Ardèche	NOM	NOM	_	12	dep	_	_	642.900024	643.340027	L3
+15	les	le	DET	DET	_	16	spe	_	_	643.770020	643.900024	L3
+16	ordures	ordure	NOM	NOM	_	14	para	_	_	643.909973	644.210022	L3
+17	de	de	PRE	PRE	_	16	dep	_	_	644.219971	644.340027	L3
+18	tous	tout	ADJ	ADJ	_	20	dep	_	_	644.349976	644.450012	L3
+19	ces	ce	DET	DET	_	20	spe	_	_	644.460022	644.609985	L3
+20	de	de	PRE	PRE	_	17	para	_	_	644.659973	645.119995	L3
+21	de	de	PRE	PRE	_	20	para	_	_	645.130005	645.239990	L3
+22	la	le	DET	DET	_	23	spe	_	_	645.250000	645.330017	L3
+23	moitié	moitié	NOM	NOM	_	21	dep	_	_	645.340027	645.520020	L3
+24	de	de	PRE	PRE	_	23	dep	_	_	645.570007	645.590027	L3
+25	ces	ce	DET	DET	_	26	spe	_	_	645.599976	645.669983	L3
+26	départements	département	NOM	NOM	_	24	dep	_	_	645.679993	646.260010	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-165
+# text = ce qui est très important
+1	ce	ce	PRO	PRO	_	0	root	_	_	646.270020	646.390015	L3
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	646.500000	646.669983	L3
+3	est	être	VRB	VRB	_	1	dep	_	_	646.729980	646.849976	L3
+4	très	très	ADV	ADV	_	5	dep	_	_	646.929993	647.169983	L3
+5	important	important	ADJ	ADJ	_	3	dep	_	_	647.179993	647.599976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-166
+# text = donc euh au niveau concertation pratiquement insuffisant euh il y a eu il y a eu beaucoup de réunions publiques peut-être ces derniers temps
+1	donc	donc	ADV	ADV	_	12	periph	_	_	648.299988	648.530029	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	648.650024	649.479980	L3
+3	au	à+le	PRE	PRE	_	12	periph	_	_	649.659973	649.809998	L3
+4	niveau	niveau	NOM	NOM	_	3	dep	_	_	649.820007	650.020020	L3
+5	concertation	concertation	NOM	NOM	_	4	dep	_	_	650.030029	650.869995	L3
+6	pratiquement	pratiquement	ADV	ADV	_	7	dep	_	_	650.880005	651.349976	L3
+7	insuffisant	insuffisant	ADJ	ADJ	_	5	dep	_	_	651.359985	652.059998	L3
+8	euh	euh	INT	INT	_	7	dm	_	_	652.679993	653.059998	L3
+9	il	il	CLS	CLS	_	12	subj	_	_	653.070007	653.130005	L3
+10	y	y	CLI	CLI	_	12	dep	_	_	653.140015	653.210022	L3
+11	a	avoir	VRB	VRB	_	12	aux	_	_	653.219971	653.280029	L3
+12	eu	avoir	VPP	VPP	_	0	root	_	_	653.289978	653.520020	L3
+13	il	il	CLS	CLS	_	16	subj	_	_	653.530029	653.590027	L3
+14	y	y	CLI	CLI	_	16	dep	_	_	653.599976	653.619995	L3
+15	a	avoir	VRB	VRB	_	16	aux	_	_	653.630005	653.650024	L3
+16	eu	avoir	VPP	VPP	_	12	para	_	_	653.659973	653.849976	L3
+17	beaucoup	beaucoup	ADV	ADV	_	16	dep	_	_	653.859985	654.140015	L3
+18	de	de	PRE	PRE	_	16	dep	_	_	654.150024	654.309998	L3
+19	réunions	réunion	NOM	NOM	_	18	dep	_	_	654.320007	654.549988	L3
+20	publiques	public	ADJ	ADJ	_	19	dep	_	_	654.590027	654.929993	L3
+21	peut-être	peut-être	ADV	ADV	_	16	dep	_	_	655.020020	655.500000	L3
+22	ces	ce	DET	DET	_	24	spe	_	_	655.510010	655.630005	L3
+23	derniers	dernier	ADJ	ADJ	_	24	dep	_	_	655.640015	655.900024	L3
+24	temps	temps	NOM	NOM	_	16	dep	_	_	655.909973	656.229980	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-167
+# text = mais enfin ce n'est pas ce ce n'est pas ce qu'il faudrait faire euh
+1	mais	mais	COO	COO	_	5	mark	_	_	656.239990	656.349976	L3
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	656.359985	656.669983	L3
+3	ce	ce	CLS	CLS	_	5	subj	_	_	656.679993	656.830017	L3
+4	n'	ne	CLN	CLN	_	5	dep	_	_	656.840027	656.869995	L3
+5	est	être	VRB	VRB	_	0	root	_	_	656.880005	656.909973	L3
+6	pas	pas	ADN	ADN	_	5	dep	_	_	656.919983	657.049988	L3
+7	ce	ce	DET	DET	_	10	subj	_	_	657.059998	657.309998	L3
+8	ce	ce	DET	DET	_	7	para	_	_	657.739990	657.859985	L3
+9	n'	ne	CLN	CLN	_	10	dep	_	_	657.869995	657.890015	L3
+10	est	être	VRB	VRB	_	5	para	_	_	657.900024	658.119995	L3
+11	pas	pas	ADN	ADN	_	10	dep	_	_	658.130005	658.349976	L3
+12	ce	ce	PRO	PRO	_	10	dep	_	_	658.359985	658.489990	L3
+13	qu'	que	PRQ	PRQ	_	15	dep	_	_	658.500000	658.609985	L3
+14	il	il	CLS	CLS	_	15	subj	_	_	658.619995	658.690002	L3
+15	faudrait	falloir	VRB	VRB	_	12	dep	_	_	658.700012	659.010010	L3
+16	faire	faire	VNF	VNF	_	15	dep	_	_	659.020020	659.369995	L3
+17	euh	euh	INT	INT	_	16	dm	_	_	659.770020	660.270020	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-168
+# text = je crois que quelqu' un a proposé un va demander un referendum sur cette question vitale pour des des des plus de cent mille habitants hein
+1	je	je	CLS	CLS	_	2	subj	_	_	660.280029	660.409973	L3
+2	crois	croire	VRB	VRB	_	0	root	_	_	660.460022	660.630005	L3
+3	que	que	CSU	CSU	_	2	dep	_	_	660.729980	660.929993	L3
+4	quelqu' un	quelqu'un	PRO	PRO	_	6	subj	_	_	660.940002	661.349976	L3
+5	a	avoir	VRB	VRB	_	6	aux	_	_	661.359985	661.380005	L3
+6	proposé	proposer	VPP	VPP	_	3	dep	_	_	661.390015	661.979980	L3
+7	un	un	DET	DET	_	8	spe	_	_	661.989990	662.219971	L3
+8	va	aller	VRB	VRB	_	6	dep	_	_	662.640015	662.770020	L3
+9	demander	demander	VNF	VNF	_	8	dep	_	_	662.780029	663.030029	L3
+10	un	un	DET	DET	_	11	spe	_	_	663.039978	663.169983	L3
+11	referendum	referendum	NOM	NOM	_	9	dep	_	_	663.179993	663.900024	L3
+12	sur	sur	PRE	PRE	_	9	dep	_	_	664.330017	664.450012	L3
+13	cette	ce	DET	DET	_	14	spe	_	_	664.460022	664.640015	L3
+14	question	question	NOM	NOM	_	12	dep	_	_	664.700012	665.239990	L3
+15	vitale	vital	ADJ	ADJ	_	14	dep	_	_	665.250000	665.690002	L3
+16	pour	pour	PRE	PRE	_	9	dep	_	_	665.700012	666.000000	L3
+17	des	de	PRE	PRE	_	16	dep	_	_	666.010010	666.469971	L3
+18	des	de	PRE	PRE	_	17	para	_	_	666.780029	666.890015	L3
+19	des	de	PRE	PRE	_	18	para	_	_	666.900024	667.080017	L3
+20	plus	plus	NOM	NOM	_	19	dep	_	_	667.190002	667.280029	L3
+21	de	de	PRE	PRE	_	20	dep	_	_	667.340027	667.419983	L3
+22	cent	cent	NUM	NUM	_	24	spe	_	_	667.429993	667.619995	L3
+23	mille	mille	NUM	NUM	_	22	dep	_	_	667.630005	667.780029	L3
+24	habitants	habitant	NOM	NOM	_	21	dep	_	_	667.789978	668.179993	L3
+25	hein	hein	INT	INT	_	24	dm	_	_	668.190002	668.349976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-169
+# text = faut bien le reconnaître hein
+1	faut	faillir	VRB	VRB	_	0	root	_	_	668.359985	668.510010	L3
+2	bien	bien	ADV	ADV	_	1	dep	_	_	668.520020	668.609985	L3
+3	le	le	CLI	CLI	_	4	dep	_	_	668.619995	668.640015	L3
+4	reconnaître	reconnaître	VNF	VNF	_	1	dep	_	_	668.650024	669.099976	L3
+5	hein	hein	INT	INT	_	4	dm	_	_	669.109985	669.190002	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-170
+# text = donc euh les choses devraient être reprises euh
+1	donc	donc	ADV	ADV	_	5	periph	_	_	669.820007	670.159973	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	670.169983	670.969971	L3
+3	les	le	DET	DET	_	4	spe	_	_	671.489990	671.590027	L3
+4	choses	chose	NOM	NOM	_	5	subj	_	_	671.599976	672.049988	L3
+5	devraient	devoir	VRB	VRB	_	0	root	_	_	672.059998	672.520020	L3
+6	être	être	VNF	VNF	_	7	aux	_	_	672.530029	672.789978	L3
+7	reprises	reprendre	VPP	VPP	_	5	dep	_	_	672.799988	673.070007	L3
+8	euh	euh	INT	INT	_	7	dm	_	_	673.940002	674.549988	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-171
+# text = bon
+1	bon	bon	INT	INT	_	0	root	_	_	675.099976	675.400024	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-172
+# text = il il il
+1	il	il	CLS	CLS	_	0	root	_	_	675.409973	675.549988	L3
+2	il	il	CLS	CLS	_	1	para	_	_	675.559998	675.679993	L3
+3	il	il	CLS	CLS	_	2	para	_	_	675.690002	675.760010	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-173
+# text = il y a aussi euh le PIED que qui est le Plan Interdépartemental d'Élimination des Déchets Drôme Ardèche hein lequel PIED
+1	il	il	CLS	CLS	_	3	subj	_	_	675.919983	676.119995	L3
+2	y	y	CLI	CLI	_	3	dep	_	_	676.130005	676.150024	L3
+3	a	avoir	VRB	VRB	_	0	root	_	_	676.159973	676.270020	L3
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	676.280029	676.700012	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	677.090027	677.119995	L3
+6	le	le	DET	DET	_	7	spe	_	_	677.130005	678.150024	L3
+7	PIED	pied	NOM	NOM	_	3	dep	_	_	678.599976	679.289978	L3
+8	que	que	PRQ	PRQ	_	10	dep	_	_	679.340027	679.440002	L3
+9	qui	qui	PRQ	PRQ	_	10	dep	_	_	679.489990	679.640015	L3
+10	est	être	VRB	VRB	_	7	dep	_	_	679.799988	679.820007	L3
+11	le	le	DET	DET	_	12	spe	_	_	679.869995	679.929993	L3
+12	Plan	Plan	NOM	NOM	_	10	dep	_	_	680.000000	680.450012	L3
+13	Interdépartemental	interdépartemental	ADJ	ADJ	_	12	dep	_	_	681.049988	682.130005	L3
+14	d'	de	PRE	PRE	_	12	dep	_	_	682.140015	682.159973	L3
+15	Élimination	Élimination	NOM	NOM	_	14	dep	_	_	682.169983	682.710022	L3
+16	des	de	PRE	PRE	_	15	dep	_	_	682.719971	682.830017	L3
+17	Déchets	déchet	NOM	NOM	_	16	dep	_	_	682.840027	683.299988	L3
+18	Drôme	Drôme	NOM	NOM	_	17	dep	_	_	683.309998	683.489990	L3
+19	Ardèche	Ardèche	NOM	NOM	_	18	dep	_	_	683.500000	683.960022	L3
+20	hein	hein	INT	INT	_	19	dm	_	_	684.440002	684.609985	L3
+21	lequel	lequel	PRQ	PRQ	_	22	dep	_	_	684.619995	684.919983	L3
+22	PIED	pied	NOM	NOM	_	17	para	_	_	685.030029	685.460022	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-174
+# text = donc est actuellement révision
+1	donc	donc	ADV	ADV	_	2	periph	_	_	685.929993	686.210022	L3
+2	est	être	VRB	VRB	_	0	root	_	_	686.219971	686.330017	L3
+3	actuellement	actuellement	ADV	ADV	_	2	dep	_	_	686.340027	686.979980	L3
+4	révision	révision	NOM	NOM	_	2	dep	_	_	686.989990	687.669983	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-175
+# text = et à l'occasion de cette révision eh ben il est possible de manifester euh euh
+1	et	et	COO	COO	_	10	mark	_	_	688.250000	689.099976	L3
+2	à	à	PRE	PRE	_	10	periph	_	_	689.679993	689.789978	L3
+3	l'	le	DET	DET	_	4	spe	_	_	689.799988	689.820007	L3
+4	occasion	occasion	NOM	NOM	_	2	dep	_	_	689.830017	690.229980	L3
+5	de	de	PRE	PRE	_	4	dep	_	_	690.239990	690.260010	L3
+6	cette	ce	DET	DET	_	7	spe	_	_	690.270020	690.469971	L3
+7	révision	révision	NOM	NOM	_	5	dep	_	_	690.479980	691.090027	L3
+8	eh ben	eh ben	INT	INT	_	7	dm	_	_	691.539978	691.630005	L3
+9	il	il	CLS	CLS	_	10	subj	_	_	691.640015	691.909973	L3
+10	est	être	VRB	VRB	_	0	root	_	_	691.919983	691.960022	L3
+11	possible	possible	ADJ	ADJ	_	10	dep	_	_	691.969971	692.609985	L3
+12	de	de	PRE	PRE	_	11	dep	_	_	692.619995	692.799988	L3
+13	manifester	manifester	VNF	VNF	_	12	dep	_	_	692.809998	693.559998	L3
+14	euh	euh	INT	INT	_	13	dm	_	_	693.570007	693.979980	L3
+15	euh	euh	INT	INT	_	14	dm	_	_	694.580017	694.809998	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-176
+# text = donc
+1	donc	donc	ADV	ADV	_	0	root	_	_	694.929993	695.309998	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-177
+# text = chacun
+1	chacun	chacun	PRO	PRO	_	0	root	_	_	695.320007	695.950012	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-178
+# text = son point de vue
+1	son	son	DET	DET	_	2	spe	_	_	695.960022	696.140015	L3
+2	point	point	NOM	NOM	_	0	root	_	_	696.150024	696.320007	L3
+3	de	de	PRE	PRE	_	2	dep	_	_	696.330017	696.400024	L3
+4	vue	vue	NOM	NOM	_	3	dep	_	_	696.409973	696.869995	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-179
+# text = chacun ses solutions
+1	chacun	chacun	PRO	PRO	_	0	root	_	_	696.880005	697.159973	L3
+2	ses	son	DET	DET	_	3	spe	_	_	697.169983	697.250000	L3
+3	solutions	solution	NOM	NOM	_	1	periph	_	_	697.289978	697.679993	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-180
+# text = en tout cas Paul merci on a beau-~ quelques appels encore à prendre derrière de de nous avoir s appelé
+1	en tout cas	en tout cas	ADV	ADV	_	5	periph	_	_	697.929993	698.440002	L1
+2	Paul	Paul	NOM	NOM	_	5	periph	_	_	698.450012	698.640015	L1
+3	merci	merci	INT	INT	_	2	dm	_	_	698.650024	699.020020	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	699.030029	699.140015	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	699.150024	699.169983	L1
+6	beau-~	beau-~	ADV	ADV	_	7	dep	_	_	699.179993	699.299988	L1
+7	quelques	quelque	ADJ	ADJ	_	8	dep	_	_	699.309998	699.679993	L1
+8	appels	appel	NOM	NOM	_	5	dep	_	_	699.690002	699.900024	L1
+9	encore	encore	ADV	ADV	_	5	dep	_	_	699.909973	700.169983	L1
+10	à	à	PRE	PRE	_	5	dep	_	_	700.179993	700.210022	L1
+11	prendre	prendre	VNF	VNF	_	10	dep	_	_	700.219971	700.520020	L1
+12	derrière	derrière	PRE	PRE	_	11	dep	_	_	700.530029	700.909973	L1
+13	de	de	PRE	PRE	_	12	para	_	_	700.919983	701.099976	L1
+14	de	de	PRE	PRE	_	13	para	_	_	701.109985	701.260010	L1
+15	nous	nous	CLI	CLI	_	16	dep	_	_	701.270020	701.429993	L1
+16	avoir	avoir	VNF	VNF	_	14	dep	_	_	701.440002	701.590027	L1
+17	s	s	X	X	_	16	disflink	_	_	701.590027	701.590027	L1
+18	appelé	appeler	VPP	VPP	_	16	dep	_	_	701.599976	701.919983	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-181
+# text = on on notera que c'est souvent un man un manque de concertation qui est qui est reproché
+1	on	on	CLS	CLS	_	3	subj	_	_	701.929993	702.039978	L1
+2	on	on	CLS	CLS	_	1	para	_	_	702.099976	702.190002	L1
+3	notera	noter	VRB	VRB	_	0	root	_	_	702.200012	702.539978	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	702.549988	702.789978	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	702.929993	703.030029	L1
+6	est	être	VRB	VRB	_	4	dep	_	_	703.039978	703.070007	L1
+7	souvent	souvent	ADV	ADV	_	6	dep	_	_	703.080017	703.369995	L1
+8	un	un	DET	DET	_	9	spe	_	_	703.380005	703.400024	L1
+9	man	man	NOM	NOM	_	6	dep	_	_	703.409973	703.590027	L1
+10	un	un	DET	DET	_	11	spe	_	_	703.780029	704.010010	L1
+11	manque	manque	NOM	NOM	_	6	dep	_	_	704.020020	704.299988	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	704.309998	704.380005	L1
+13	concertation	concertation	NOM	NOM	_	12	dep	_	_	704.390015	705.049988	L1
+14	qui	qui	PRQ	PRQ	_	15	subj	_	_	705.059998	705.179993	L1
+15	est	être	VRB	VRB	_	13	dep	_	_	705.190002	705.280029	L1
+16	qui	qui	PRQ	PRQ	_	18	dep	_	_	705.659973	705.799988	L1
+17	est	être	VRB	VRB	_	18	aux	_	_	705.809998	705.840027	L1
+18	reproché	reprocher	VPP	VPP	_	15	dep	_	_	705.849976	706.429993	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-182
+# text = et oui et puis en même temps il faut quand même sensibiliser la population sur la nécessité de bien trier
+1	et	et	COO	COO	_	6	mark	_	_	706.719971	708.409973	L3
+2	oui	oui	INT	INT	_	1	dm	_	_	706.690002	706.859985	L3
+3	et puis	et puis	COO	COO	_	1	para	_	_	706.869995	707.179993	L3
+4	en même temps	en même temps	ADV	ADV	_	6	periph	_	_	707.190002	707.580017	L3
+5	il	il	CLS	CLS	_	6	subj	_	_	707.590027	707.650024	L3
+6	faut	faillir	VRB	VRB	_	0	root	_	_	707.659973	707.799988	L3
+7	quand	quand	CSU	CSU	_	6	dep	_	_	707.809998	707.979980	L3
+8	même	même	ADV	ADV	_	9	dep	_	_	707.989990	708.140015	L3
+9	sensibiliser	sensibiliser	VNF	VNF	_	7	dep	_	_	708.270020	709.059998	L3
+10	la	le	DET	DET	_	11	spe	_	_	709.340027	709.409973	L3
+11	population	population	NOM	NOM	_	9	dep	_	_	709.419983	710.000000	L3
+12	sur	sur	PRE	PRE	_	9	dep	_	_	710.010010	710.250000	L3
+13	la	le	DET	DET	_	14	spe	_	_	710.260010	710.359985	L3
+14	nécessité	nécessité	NOM	NOM	_	12	dep	_	_	710.369995	710.989990	L3
+15	de	de	PRE	PRE	_	14	dep	_	_	711.000000	711.150024	L3
+16	bien	bien	ADV	ADV	_	17	dep	_	_	711.159973	711.320007	L3
+17	trier	trier	VNF	VNF	_	15	dep	_	_	711.330017	711.710022	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-183
+# text = bien ah ben oui ben ça c'est l'éducation à faire
+1	bien	bien	ADV	ADV	_	7	periph	_	_	712.630005	712.869995	L1
+2	ah ben	ah ben	INT	INT	_	1	dm	_	_	712.880005	713.059998	L1
+3	oui	oui	INT	INT	_	2	dm	_	_	713.070007	713.140015	L1
+4	ben	ben	INT	INT	_	3	dm	_	_	713.150024	713.270020	L1
+5	ça	ça	PRO	PRO	_	7	periph	_	_	713.280029	713.580017	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	713.590027	713.690002	L1
+7	est	être	VRB	VRB	_	0	root	_	_	713.700012	713.719971	L1
+8	l'	le	DET	DET	_	9	spe	_	_	713.729980	713.780029	L1
+9	éducation	éducation	NOM	NOM	_	7	dep	_	_	713.789978	714.369995	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	714.380005	714.619995	L1
+11	faire	faire	VNF	VNF	_	10	dep	_	_	714.630005	714.880005	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-184
+# text = mais je pense que ça commence à être un petit peu bien parti
+1	mais	mais	COO	COO	_	3	mark	_	_	714.890015	714.979980	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	714.989990	715.049988	L1
+3	pense	penser	VRB	VRB	_	0	root	_	_	715.059998	715.260010	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	715.270020	715.400024	L1
+5	ça	ça	PRO	PRO	_	6	subj	_	_	715.409973	715.549988	L1
+6	commence	commencer	VRB	VRB	_	4	dep	_	_	715.559998	715.909973	L1
+7	à	à	PRE	PRE	_	6	dep	_	_	715.919983	715.969971	L1
+8	être	être	VNF	VNF	_	7	dep	_	_	715.979980	716.150024	L1
+9	un	un	DET	DET	_	11	spe	_	_	716.159973	716.190002	L1
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	716.200012	716.320007	L1
+11	peu	peu	ADV	ADV	_	13	dep	_	_	716.330017	716.419983	L1
+12	bien	bien	ADV	ADV	_	13	dep	_	_	716.429993	716.570007	L1
+13	parti	partir	VPP	VPP	_	8	dep	_	_	716.580017	717.080017	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-185
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	717.219971	717.299988	L3
+2	accord	accord	NOM	NOM	_	1	dep	_	_	717.309998	717.599976	L3
+
+# sent_id = cefc-crfp-PUB-VAL-1-186
+# text = merci Paul avec Denis de Puy Saint Martin bonjour Denis
+1	merci	merci	INT	INT	_	2	dm	_	_	717.950012	718.479980	L1
+2	Paul	Paul	NOM	NOM	_	0	root	_	_	718.489990	718.820007	L1
+3	avec	avec	PRE	PRE	_	2	dep	_	_	725.770020	726.049988	L1
+4	Denis	Denis	NOM	NOM	_	3	dep	_	_	726.059998	726.320007	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	726.330017	726.390015	L1
+6	Puy	puy	NOM	NOM	_	5	dep	_	_	726.400024	726.549988	L1
+7	Saint	saint	NOM	NOM	_	6	dep	_	_	726.559998	726.690002	L1
+8	Martin	Martin	NOM	NOM	_	7	dep	_	_	726.700012	726.979980	L1
+9	bonjour	bonjour	INT	INT	_	8	dm	_	_	726.989990	727.270020	L1
+10	Denis	Denis	NOM	NOM	_	8	para	_	_	727.280029	727.539978	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-187
+# text = oui bonjour
+1	oui	oui	INT	INT	_	0	root	_	_	728.070007	728.200012	L4
+2	bonjour	bonjour	INT	INT	_	1	dm	_	_	728.210022	728.479980	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-188
+# text = vous avez écouté un petit peu
+1	vous	vous	CLS	CLS	_	3	subj	_	_	728.729980	728.989990	L1
+2	avez	avoir	VRB	VRB	_	3	aux	_	_	729.000000	729.080017	L1
+3	écouté	écouter	VPP	VPP	_	0	root	_	_	729.090027	729.330017	L1
+4	un	un	DET	DET	_	6	spe	_	_	729.340027	729.390015	L1
+5	petit	petit	ADJ	ADJ	_	6	dep	_	_	729.400024	729.520020	L1
+6	peu	peu	NOM	NOM	_	3	dep	_	_	729.530029	729.630005	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-189
+# text = ce qui s'est dit
+1	ce	ce	PRO	PRO	_	5	periph	_	_	729.640015	729.690002	L1
+2	qui	qui	PRQ	PRQ	_	5	subj	_	_	729.700012	729.789978	L1
+3	s'	se	CLI	CLI	_	5	dep	_	_	729.799988	729.880005	L1
+4	est	être	VRB	VRB	_	5	aux	_	_	729.890015	729.940002	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	729.950012	730.179993	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-190
+# text = oui oui oui euh ben disons que moi je je voudrais pas me prononcer là sur sur le problème des des carcasses d'animaux là au niveau de la Drôme
+1	oui	oui	INT	INT	_	6	dm	_	_	730.330017	730.469971	L4
+2	oui	oui	INT	INT	_	1	para	_	_	730.479980	730.530029	L4
+3	oui	oui	INT	INT	_	2	para	_	_	730.539978	730.590027	L4
+4	euh	euh	INT	INT	_	3	dm	_	_	730.599976	731.039978	L4
+5	ben	ben	INT	INT	_	4	dm	_	_	731.049988	731.770020	L4
+6	disons	dire	VRB	VRB	_	0	root	_	_	731.780029	732.039978	L4
+7	que	que	CSU	CSU	_	6	dep	_	_	732.049988	732.090027	L4
+8	moi	moi	PRO	PRO	_	11	periph	_	_	732.099976	732.239990	L4
+9	je	je	CLS	CLS	_	11	subj	_	_	732.250000	732.440002	L4
+10	je	je	CLS	CLS	_	9	para	_	_	732.640015	732.659973	L4
+11	voudrais	vouloir	VRB	VRB	_	7	dep	_	_	732.669983	733.010010	L4
+12	pas	pas	ADN	ADN	_	11	dep	_	_	733.020020	733.190002	L4
+13	me	me	CLI	CLI	_	14	dep	_	_	733.200012	733.280029	L4
+14	prononcer	prononcer	VNF	VNF	_	11	dep	_	_	733.289978	733.809998	L4
+15	là	là	ADV	ADV	_	14	dep	_	_	733.820007	733.919983	L4
+16	sur	sur	PRE	PRE	_	14	dep	_	_	733.929993	734.030029	L4
+17	sur	sur	PRE	PRE	_	16	para	_	_	734.130005	734.479980	L4
+18	le	le	DET	DET	_	19	spe	_	_	734.489990	734.859985	L4
+19	problème	problème	NOM	NOM	_	17	dep	_	_	735.020020	735.549988	L4
+20	des	de	PRE	PRE	_	19	dep	_	_	735.559998	735.919983	L4
+21	des	de	PRE	PRE	_	20	para	_	_	735.979980	736.109985	L4
+22	carcasses	carcasse	NOM	NOM	_	21	dep	_	_	736.159973	736.539978	L4
+23	d'	de	PRE	PRE	_	22	dep	_	_	736.549988	736.599976	L4
+24	animaux	animal	NOM	NOM	_	23	dep	_	_	736.609985	737.000000	L4
+25	là	là	ADV	ADV	_	22	dep	_	_	737.010010	737.200012	L4
+26	au	à+le	PRE	PRE	_	14	dep	_	_	737.210022	737.309998	L4
+27	niveau	niveau	NOM	NOM	_	26	dep	_	_	737.349976	737.539978	L4
+28	de	de	PRE	PRE	_	27	dep	_	_	737.549988	737.570007	L4
+29	la	le	DET	DET	_	30	spe	_	_	737.580017	737.679993	L4
+30	Drôme	Drôme	NOM	NOM	_	28	dep	_	_	737.690002	738.030029	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-191
+# text = parce que je ne je ne connais pas trop le problème
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	738.979980	739.210022	L4
+2	je	je	CLS	CLS	_	6	subj	_	_	739.270020	739.500000	L4
+3	ne	ne	CLN	CLN	_	6	dep	_	_	739.570007	739.609985	L4
+4	je	je	CLS	CLS	_	6	subj	_	_	739.820007	739.900024	L4
+5	ne	ne	CLN	CLN	_	6	dep	_	_	740.219971	740.299988	L4
+6	connais	connaître	VRB	VRB	_	1	dep	_	_	740.309998	740.489990	L4
+7	pas	pas	ADN	ADN	_	6	dep	_	_	740.500000	740.619995	L4
+8	trop	trop	ADV	ADV	_	6	dep	_	_	740.630005	740.770020	L4
+9	le	le	DET	DET	_	10	spe	_	_	740.780029	740.799988	L4
+10	problème	problème	NOM	NOM	_	6	dep	_	_	740.809998	741.229980	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-192
+# text = mais je voudrais surtout parler d'une façon générale
+1	mais	mais	COO	COO	_	3	mark	_	_	741.239990	741.299988	L4
+2	je	je	CLS	CLS	_	3	subj	_	_	741.309998	741.559998	L4
+3	voudrais	vouloir	VRB	VRB	_	0	root	_	_	741.570007	741.849976	L4
+4	surtout	surtout	ADV	ADV	_	3	dep	_	_	741.859985	742.159973	L4
+5	parler	parler	VNF	VNF	_	3	dep	_	_	742.169983	742.400024	L4
+6	d'	de	PRE	PRE	_	5	dep	_	_	742.409973	742.429993	L4
+7	une	un	DET	DET	_	8	spe	_	_	742.440002	742.530029	L4
+8	façon	façon	NOM	NOM	_	6	dep	_	_	742.539978	742.809998	L4
+9	générale	général	ADJ	ADJ	_	8	dep	_	_	742.820007	743.109985	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-193
+# text = quoi oui
+1	quoi	quoi	INT	INT	_	0	root	_	_	743.119995	743.200012	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	743.559998	743.770020	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-194
+# text = euh moi il y a une question que je me pose
+1	euh	euh	INT	INT	_	5	dm	_	_	744.169983	744.390015	L4
+2	moi	moi	PRO	PRO	_	5	periph	_	_	744.400024	744.570007	L4
+3	il	il	CLS	CLS	_	5	subj	_	_	744.580017	744.630005	L4
+4	y	y	CLI	CLI	_	5	dep	_	_	744.640015	744.659973	L4
+5	a	avoir	VRB	VRB	_	0	root	_	_	744.669983	744.690002	L4
+6	une	un	DET	DET	_	7	spe	_	_	744.700012	744.760010	L4
+7	question	question	NOM	NOM	_	5	dep	_	_	744.770020	745.080017	L4
+8	que	que	PRQ	PRQ	_	11	dep	_	_	745.090027	745.109985	L4
+9	je	je	CLS	CLS	_	11	subj	_	_	745.119995	745.179993	L4
+10	me	me	CLI	CLI	_	11	dep	_	_	745.190002	745.309998	L4
+11	pose	poser	VRB	VRB	_	7	dep	_	_	745.320007	745.640015	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-195
+# text = et que je me pose depuis longtemps euh
+1	et	et	COO	COO	_	2	mark	_	_	745.650024	745.679993	L4
+2	que	que	CSU	CSU	_	0	root	_	_	745.690002	745.719971	L4
+3	je	je	CLS	CLS	_	5	subj	_	_	745.729980	745.750000	L4
+4	me	me	CLI	CLI	_	5	dep	_	_	745.760010	745.880005	L4
+5	pose	poser	VRB	VRB	_	2	dep	_	_	745.890015	746.090027	L4
+6	depuis	depuis	PRE	PRE	_	5	dep	_	_	746.099976	746.309998	L4
+7	longtemps	longtemps	ADV	ADV	_	6	dep	_	_	746.320007	746.820007	L4
+8	euh	euh	INT	INT	_	7	dm	_	_	747.219971	747.989990	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-196
+# text = par exemple hein c'est un exemple parmi tant d'autres euh
+1	par	par	PRE	PRE	_	5	periph	_	_	748.299988	748.450012	L4
+2	exemple	exemple	NOM	NOM	_	1	dep	_	_	748.460022	748.900024	L4
+3	hein	hein	INT	INT	_	2	dm	_	_	748.909973	749.130005	L4
+4	c'	ce	CLS	CLS	_	5	subj	_	_	749.520020	749.539978	L4
+5	est	être	VRB	VRB	_	0	root	_	_	749.549988	749.570007	L4
+6	un	un	DET	DET	_	7	spe	_	_	749.580017	749.619995	L4
+7	exemple	exemple	NOM	NOM	_	5	dep	_	_	749.630005	749.919983	L4
+8	parmi	parmi	PRE	PRE	_	5	dep	_	_	749.929993	750.119995	L4
+9	tant	tant	ADV	ADV	_	8	dep	_	_	750.130005	750.280029	L4
+10	d'	de	PRE	PRE	_	5	dep	_	_	750.289978	750.340027	L4
+11	autres	autre	ADJ	ADJ	_	10	dep	_	_	750.409973	750.750000	L4
+12	euh	euh	INT	INT	_	11	dm	_	_	750.760010	750.780029	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-197
+# text = notamment au niveau du verre euh à une époque les les bouteilles de verre étaient consignées
+1	notamment	notamment	ADV	ADV	_	16	periph	_	_	750.789978	751.190002	L4
+2	au	à+le	PRE	PRE	_	16	periph	_	_	751.200012	751.219971	L4
+3	niveau	niveau	NOM	NOM	_	2	dep	_	_	751.229980	751.429993	L4
+4	du	de+le	PRE	PRE	_	3	dep	_	_	751.440002	751.599976	L4
+5	verre	verre	NOM	NOM	_	4	dep	_	_	751.609985	751.950012	L4
+6	euh	euh	INT	INT	_	5	dm	_	_	752.770020	752.840027	L4
+7	à	à	PRE	PRE	_	16	periph	_	_	752.849976	753.109985	L4
+8	une	un	DET	DET	_	9	spe	_	_	753.119995	753.210022	L4
+9	époque	époque	NOM	NOM	_	7	dep	_	_	753.219971	753.549988	L4
+10	les	le	DET	DET	_	12	spe	_	_	753.559998	753.849976	L4
+11	les	le	DET	DET	_	10	para	_	_	753.859985	754.130005	L4
+12	bouteilles	bouteille	NOM	NOM	_	16	subj	_	_	754.140015	754.390015	L4
+13	de	de	PRE	PRE	_	12	dep	_	_	754.400024	754.500000	L4
+14	verre	verre	NOM	NOM	_	13	dep	_	_	754.510010	754.679993	L4
+15	étaient	être	VRB	VRB	_	16	aux	_	_	754.690002	754.830017	L4
+16	consignées	consigner	VPP	VPP	_	0	root	_	_	754.840027	755.359985	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-198
+# text = donc euh je veux dire
+1	donc	donc	ADV	ADV	_	4	periph	_	_	755.369995	755.580017	L4
+2	euh	euh	INT	INT	_	1	dm	_	_	755.669983	755.690002	L4
+3	je	je	CLS	CLS	_	4	subj	_	_	755.700012	756.239990	L4
+4	veux	vouloir	VRB	VRB	_	0	root	_	_	756.250000	756.349976	L4
+5	dire	dire	VNF	VNF	_	4	dep	_	_	756.409973	756.619995	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-199
+# text = tout le monde allait déconsigner leurs bouteilles ou allait les faire remplir enfin
+1	tout le monde	tout le monde	PRO	PRO	_	2	subj	_	_	756.630005	757.039978	L4
+2	allait	aller	VRB	VRB	_	0	root	_	_	757.049988	757.179993	L4
+3	déconsigner	déconsigner	VNF	VNF	_	2	dep	_	_	757.190002	757.719971	L4
+4	leurs	son	DET	DET	_	5	spe	_	_	757.729980	757.840027	L4
+5	bouteilles	bouteille	NOM	NOM	_	3	dep	_	_	757.849976	758.359985	L4
+6	ou	ou	COO	COO	_	7	mark	_	_	758.409973	758.510010	L4
+7	allait	aller	VRB	VRB	_	3	para	_	_	758.609985	758.760010	L4
+8	les	le	CLI	CLI	_	9	dep	_	_	758.770020	758.849976	L4
+9	faire	faire	VNF	VNF	_	7	dep	_	_	758.859985	759.070007	L4
+10	remplir	remplir	VNF	VNF	_	9	dep	_	_	759.080017	759.510010	L4
+11	enfin	enfin	ADV	ADV	_	10	dm	_	_	759.520020	759.700012	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-200
+# text = je je je sais plus trop
+1	je	je	CLS	CLS	_	4	subj	_	_	759.809998	759.900024	L4
+2	je	je	CLS	CLS	_	1	para	_	_	760.070007	760.289978	L4
+3	je	je	CLS	CLS	_	2	para	_	_	761.239990	761.260010	L4
+4	sais	savoir	VRB	VRB	_	0	root	_	_	761.270020	761.320007	L4
+5	plus	plus	ADN	ADN	_	6	dep	_	_	761.330017	761.409973	L4
+6	trop	trop	ADV	ADV	_	4	dep	_	_	761.419983	761.500000	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-201
+# text = comment ça se passait
+1	comment	comment	PRQ	PRQ	_	4	dep	_	_	761.510010	761.619995	L4
+2	ça	ça	PRO	PRO	_	4	subj	_	_	761.630005	761.729980	L4
+3	se	se	CLI	CLI	_	4	dep	_	_	761.739990	761.799988	L4
+4	passait	passer	VRB	VRB	_	0	root	_	_	761.809998	762.150024	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-202
+# text = mais enfin bon c'est un exemple parmi tant d'autres
+1	mais	mais	COO	COO	_	5	mark	_	_	762.159973	762.239990	L4
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	762.250000	762.429993	L4
+3	bon	bon	INT	INT	_	2	dm	_	_	762.440002	762.630005	L4
+4	c'	ce	CLS	CLS	_	5	subj	_	_	763.020020	763.049988	L4
+5	est	être	VRB	VRB	_	0	root	_	_	763.059998	763.159973	L4
+6	un	un	DET	DET	_	7	spe	_	_	763.169983	763.270020	L4
+7	exemple	exemple	NOM	NOM	_	5	dep	_	_	763.280029	763.559998	L4
+8	parmi	parmi	PRE	PRE	_	5	dep	_	_	763.570007	763.809998	L4
+9	tant	tant	ADV	ADV	_	8	dep	_	_	763.820007	763.960022	L4
+10	d'	de	PRE	PRE	_	9	dep	_	_	763.969971	764.010010	L4
+11	autres	autre	ADJ	ADJ	_	10	dep	_	_	764.020020	764.289978	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-203
+# text = où
+1	où	où	PRQ	PRQ	_	0	root	_	_	764.359985	764.500000	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-204
+# text = effectivement
+1	effectivement	effectivement	ADV	ADV	_	0	root	_	_	764.510010	765.070007	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-205
+# text = les problèmes de déchets
+1	les	le	DET	DET	_	2	spe	_	_	765.080017	765.169983	L4
+2	problèmes	problème	NOM	NOM	_	0	root	_	_	765.179993	765.469971	L4
+3	de	de	PRE	PRE	_	2	dep	_	_	765.479980	765.559998	L4
+4	déchets	déchet	NOM	NOM	_	3	dep	_	_	765.570007	765.890015	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-206
+# text = à ce niveau-là euh n'étaient pas collectés quoi
+1	à	à	PRE	PRE	_	8	periph	_	_	766.020020	766.090027	L4
+2	ce	ce	DET	DET	_	3	spe	_	_	766.099976	766.159973	L4
+3	niveau-là	niveau-là	NOM	NOM	_	1	dep	_	_	766.219971	766.830017	L4
+4	euh	euh	INT	INT	_	3	dm	_	_	766.840027	766.960022	L4
+5	n'	ne	CLN	CLN	_	8	dep	_	_	766.969971	767.039978	L4
+6	étaient	être	VRB	VRB	_	8	aux	_	_	767.049988	767.169983	L4
+7	pas	pas	ADN	ADN	_	8	dep	_	_	767.179993	767.330017	L4
+8	collectés	collecter	VPP	VPP	_	0	root	_	_	767.340027	767.820007	L4
+9	quoi	quoi	PRQ	PRQ	_	8	dep	_	_	767.830017	767.979980	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-207
+# text = je veux dire il y avait une responsabilité des fabricants
+1	je	je	CLS	CLS	_	2	subj	_	_	767.989990	768.049988	L4
+2	veux	vouloir	VRB	VRB	_	0	root	_	_	768.059998	768.130005	L4
+3	dire	dire	VNF	VNF	_	2	dep	_	_	768.140015	768.260010	L4
+4	il	il	CLS	CLS	_	6	subj	_	_	768.270020	768.320007	L4
+5	y	y	CLI	CLI	_	6	dep	_	_	768.330017	768.390015	L4
+6	avait	avoir	VRB	VRB	_	3	dep	_	_	768.400024	768.520020	L4
+7	une	un	DET	DET	_	8	spe	_	_	768.530029	768.599976	L4
+8	responsabilité	responsabilité	NOM	NOM	_	6	dep	_	_	768.609985	769.289978	L4
+9	des	de	PRE	PRE	_	8	dep	_	_	769.299988	769.409973	L4
+10	fabricants	fabricant	NOM	NOM	_	9	dep	_	_	769.419983	770.010010	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-208
+# text = et je crois que le p-~ le problème des déchets c'est un problème qui est lié à notre société de consommation et que finalement les fabricants ne font pas face à leur responsabilité
+1	et	et	COO	COO	_	3	mark	_	_	770.960022	770.989990	L4
+2	je	je	CLS	CLS	_	3	subj	_	_	771.090027	771.190002	L4
+3	crois	croire	VRB	VRB	_	0	root	_	_	771.200012	771.390015	L4
+4	que	que	CSU	CSU	_	3	dep	_	_	771.400024	771.559998	L4
+5	le	le	DET	DET	_	6	spe	_	_	771.570007	771.630005	L4
+6	p-~	p-~	NOM	NOM	_	12	periph	_	_	771.919983	771.969971	L4
+7	le	le	DET	DET	_	8	spe	_	_	771.979980	772.159973	L4
+8	problème	problème	NOM	NOM	_	6	para	_	_	772.169983	772.500000	L4
+9	des	de	PRE	PRE	_	8	dep	_	_	772.510010	772.580017	L4
+10	déchets	déchet	NOM	NOM	_	9	dep	_	_	772.590027	772.950012	L4
+11	c'	ce	CLS	CLS	_	12	subj	_	_	772.960022	773.030029	L4
+12	est	être	VRB	VRB	_	4	dep	_	_	773.039978	773.059998	L4
+13	un	un	DET	DET	_	14	spe	_	_	773.070007	773.200012	L4
+14	problème	problème	NOM	NOM	_	12	dep	_	_	773.210022	773.650024	L4
+15	qui	qui	PRQ	PRQ	_	17	subj	_	_	773.710022	773.840027	L4
+16	est	être	VRB	VRB	_	17	aux	_	_	773.849976	773.890015	L4
+17	lié	lier	VPP	VPP	_	14	dep	_	_	773.900024	774.090027	L4
+18	à	à	PRE	PRE	_	17	dep	_	_	774.099976	774.130005	L4
+19	notre	son	DET	DET	_	20	spe	_	_	774.140015	774.330017	L4
+20	société	société	NOM	NOM	_	18	dep	_	_	774.340027	774.710022	L4
+21	de	de	PRE	PRE	_	20	dep	_	_	774.719971	774.739990	L4
+22	consommation	consommation	NOM	NOM	_	21	dep	_	_	774.789978	775.479980	L4
+23	et	et	COO	COO	_	24	mark	_	_	776.070007	776.190002	L4
+24	que	que	CSU	CSU	_	17	dep	_	_	776.250000	776.840027	L4
+25	finalement	finalement	ADV	ADV	_	29	periph	_	_	776.849976	777.390015	L4
+26	les	le	DET	DET	_	27	spe	_	_	777.400024	777.679993	L4
+27	fabricants	fabricant	NOM	NOM	_	29	subj	_	_	777.690002	778.210022	L4
+28	ne	ne	CLN	CLN	_	29	dep	_	_	778.359985	778.489990	L4
+29	font	faire	VRB	VRB	_	24	dep	_	_	778.500000	778.640015	L4
+30	pas	pas	ADN	ADN	_	29	dep	_	_	778.650024	778.809998	L4
+31	face	face	NOM	NOM	_	29	dep	_	_	778.820007	779.070007	L4
+32	à	à	PRE	PRE	_	31	dep	_	_	779.080017	779.119995	L4
+33	leur	son	DET	DET	_	34	spe	_	_	779.130005	779.289978	L4
+34	responsabilité	responsabilité	NOM	NOM	_	32	dep	_	_	779.299988	780.039978	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-209
+# text = parce que eux ils fabriquent à un moindre coût
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	780.049988	780.450012	L4
+2	eux	moi	PRO	PRO	_	4	periph	_	_	780.460022	780.570007	L4
+3	ils	il	CLS	CLS	_	4	subj	_	_	780.580017	780.669983	L4
+4	fabriquent	fabriquer	VRB	VRB	_	1	dep	_	_	780.679993	781.090027	L4
+5	à	à	PRE	PRE	_	4	dep	_	_	781.099976	781.159973	L4
+6	un	un	DET	DET	_	8	spe	_	_	781.169983	781.200012	L4
+7	moindre	moindre	ADJ	ADJ	_	8	dep	_	_	781.210022	781.520020	L4
+8	coût	coût	NOM	NOM	_	5	dep	_	_	781.530029	781.929993	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-210
+# text = et ils mettent ça dans des bouteilles en verre qui ne sont plus consignées qu'on ne sait plus quoi en faire
+1	et	et	COO	COO	_	3	mark	_	_	781.940002	782.000000	L4
+2	ils	il	CLS	CLS	_	3	subj	_	_	782.010010	782.179993	L4
+3	mettent	mettre	VRB	VRB	_	0	root	_	_	782.190002	782.349976	L4
+4	ça	ça	PRO	PRO	_	3	dep	_	_	782.400024	782.549988	L4
+5	dans	dans	PRE	PRE	_	3	dep	_	_	782.559998	782.679993	L4
+6	des	de	PRE	PRE	_	5	dep	_	_	782.690002	782.789978	L4
+7	bouteilles	bouteille	NOM	NOM	_	6	dep	_	_	782.799988	783.150024	L4
+8	en	en	PRE	PRE	_	3	dep	_	_	783.159973	783.250000	L4
+9	verre	verre	NOM	NOM	_	8	dep	_	_	783.260010	783.559998	L4
+10	qui	qui	PRQ	PRQ	_	14	subj	_	_	783.570007	783.650024	L4
+11	ne	ne	CLN	CLN	_	14	dep	_	_	783.710022	783.799988	L4
+12	sont	être	VRB	VRB	_	14	aux	_	_	783.809998	783.919983	L4
+13	plus	plus	ADN	ADN	_	14	dep	_	_	783.929993	784.080017	L4
+14	consignées	consigner	VPP	VPP	_	9	dep	_	_	784.090027	784.650024	L4
+15	qu'	que	CSU	CSU	_	14	dep	_	_	784.659973	784.739990	L4
+16	on	on	CLS	CLS	_	18	subj	_	_	784.750000	784.799988	L4
+17	ne	ne	CLN	CLN	_	18	dep	_	_	784.809998	784.849976	L4
+18	sait	savoir	VRB	VRB	_	15	dep	_	_	784.859985	784.950012	L4
+19	plus	plus	ADN	ADN	_	18	dep	_	_	785.049988	785.130005	L4
+20	quoi	quoi	INT	INT	_	19	dm	_	_	785.140015	785.239990	L4
+21	en	en	CLI	CLI	_	22	dep	_	_	785.250000	785.299988	L4
+22	faire	faire	VNF	VNF	_	18	dep	_	_	785.349976	785.679993	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-211
+# text = ou dans les bouteilles en plastique où finalement ils se fichent pas mal de du recyclage de ces bouteilles alors moi je me pose la question-là euh
+1	ou	ou	COO	COO	_	24	mark	_	_	786.299988	786.380005	L4
+2	dans	dans	PRE	PRE	_	24	periph	_	_	786.390015	786.469971	L4
+3	les	le	DET	DET	_	4	spe	_	_	786.479980	786.580017	L4
+4	bouteilles	bouteille	NOM	NOM	_	2	dep	_	_	786.590027	786.859985	L4
+5	en	en	PRE	PRE	_	4	dep	_	_	786.869995	786.919983	L4
+6	plastique	plastique	NOM	NOM	_	5	dep	_	_	786.929993	787.539978	L4
+7	où	où	PRQ	PRQ	_	11	dep	_	_	787.549988	787.869995	L4
+8	finalement	finalement	ADV	ADV	_	11	periph	_	_	787.880005	788.309998	L4
+9	ils	il	CLS	CLS	_	11	subj	_	_	788.320007	788.369995	L4
+10	se	se	CLI	CLI	_	11	dep	_	_	788.380005	788.429993	L4
+11	fichent	fiche	VRB	VRB	_	6	dep	_	_	788.440002	788.659973	L4
+12	pas	pas	ADN	ADN	_	13	dep	_	_	788.669983	788.780029	L4
+13	mal	mal	ADV	ADV	_	11	dep	_	_	788.789978	789.119995	L4
+14	de	de	PRE	PRE	_	11	dep	_	_	789.130005	789.390015	L4
+15	du	de+le	PRE	PRE	_	14	para	_	_	789.400024	789.500000	L4
+16	recyclage	recyclage	NOM	NOM	_	15	dep	_	_	789.510010	789.979980	L4
+17	de	de	PRE	PRE	_	16	dep	_	_	789.989990	790.070007	L4
+18	ces	ce	DET	DET	_	19	spe	_	_	790.080017	790.169983	L4
+19	bouteilles	bouteille	NOM	NOM	_	17	dep	_	_	790.179993	790.630005	L4
+20	alors	alors	ADV	ADV	_	24	periph	_	_	791.070007	791.210022	L4
+21	moi	moi	PRO	PRO	_	24	periph	_	_	791.219971	791.359985	L4
+22	je	je	CLS	CLS	_	24	subj	_	_	791.369995	791.390015	L4
+23	me	me	CLI	CLI	_	24	dep	_	_	791.400024	791.500000	L4
+24	pose	poser	VRB	VRB	_	0	root	_	_	791.510010	791.690002	L4
+25	la	le	DET	DET	_	26	spe	_	_	791.700012	791.760010	L4
+26	question-là	question-là	NOM	NOM	_	24	dep	_	_	791.770020	792.159973	L4
+27	euh	euh	INT	INT	_	26	dm	_	_	792.169983	792.250000	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-212
+# text = je veux dire euh
+1	je	je	CLS	CLS	_	2	subj	_	_	792.260010	792.280029	L4
+2	veux	vouloir	VRB	VRB	_	0	root	_	_	792.289978	792.409973	L4
+3	dire	dire	VNF	VNF	_	2	dep	_	_	792.419983	792.609985	L4
+4	euh	euh	INT	INT	_	3	dm	_	_	793.190002	793.359985	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-213
+# text = est-ce qu'il faudrait pas non pas faire un retour en arrière parce que c'est pas
+1	est-ce	est-ce	VRB	VRB	_	0	root	_	_	793.909973	794.119995	L4
+2	qu'	que	CSU	CSU	_	1	dep	_	_	794.130005	794.169983	L4
+3	il	il	CLS	CLS	_	4	subj	_	_	794.179993	794.270020	L4
+4	faudrait	falloir	VRB	VRB	_	2	dep	_	_	794.280029	794.559998	L4
+5	pas	pas	ADN	ADN	_	4	dep	_	_	794.570007	794.969971	L4
+6	non	non	INT	INT	_	5	dm	_	_	794.979980	795.250000	L4
+7	pas	pas	ADN	ADN	_	4	dep	_	_	795.359985	795.630005	L4
+8	faire	faire	VNF	VNF	_	4	dep	_	_	795.640015	796.020020	L4
+9	un	un	DET	DET	_	10	spe	_	_	796.030029	796.099976	L4
+10	retour	retour	NOM	NOM	_	8	dep	_	_	796.109985	796.409973	L4
+11	en arrière	en arrière	ADV	ADV	_	8	dep	_	_	796.419983	796.789978	L4
+12	parce que	parce que	CSU	CSU	_	4	dep	_	_	796.799988	797.090027	L4
+13	c'	ce	CLS	CLS	_	14	subj	_	_	797.099976	797.140015	L4
+14	est	être	VRB	VRB	_	12	dep	_	_	797.200012	797.260010	L4
+15	pas	pas	ADN	ADN	_	14	dep	_	_	797.270020	797.549988	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-214
+# text = di-~
+1	di-~	di-~	NUM	NUM	_	0	root	_	_	798.080017	798.159973	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-215
+# text = disons que moi j'ai pas du tout une vision rétrograde la chose oui oui absolument absolument
+1	disons	dire	VRB	VRB	_	0	root	_	_	798.169983	798.409973	L4
+2	que	que	CSU	CSU	_	1	dep	_	_	798.419983	798.549988	L4
+3	moi	moi	PRO	PRO	_	5	periph	_	_	798.559998	798.710022	L4
+4	j'	je	CLS	CLS	_	5	subj	_	_	798.719971	798.770020	L4
+5	ai	avoir	VRB	VRB	_	2	dep	_	_	798.780029	798.840027	L4
+6	pas du tout	pas du tout	ADN	ADN	_	5	dep	_	_	798.849976	799.190002	L4
+7	une	un	DET	DET	_	8	spe	_	_	799.200012	799.270020	L4
+8	vision	vision	NOM	NOM	_	5	dep	_	_	799.280029	799.530029	L4
+9	rétrograde	rétrograde	ADJ	ADJ	_	8	dep	_	_	799.539978	800.039978	L4
+10	la	le	DET	DET	_	11	spe	_	_	800.049988	800.109985	L4
+11	chose	chose	NOM	NOM	_	8	para	_	_	800.119995	800.200012	L4
+12	oui	oui	INT	INT	_	11	dm	_	_	800.270020	801.250000	L4
+13	oui	oui	INT	INT	_	12	para	_	_	801.390015	801.799988	L4
+14	absolument	absolument	ADV	ADV	_	15	dep	_	_	801.809998	802.429993	L4
+15	absolument	absolument	ADV	ADV	_	5	dep	_	_	802.630005	804.450012	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-216
+# text = bon ben moi j'ai une
+1	bon ben	bon ben	INT	INT	_	4	dm	_	_	804.460022	804.950012	L4
+2	moi	moi	PRO	PRO	_	4	periph	_	_	805.010010	805.179993	L4
+3	j'	je	CLS	CLS	_	4	subj	_	_	805.190002	805.260010	L4
+4	ai	avoir	VRB	VRB	_	0	root	_	_	805.270020	805.289978	L4
+5	une	un	DET	DET	_	4	dep	_	_	805.299988	805.599976	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-217
+# text = j'ai j'ai pour ainsi dire cinquante ans
+1	j'	je	CLS	CLS	_	2	subj	_	_	805.609985	805.700012	L4
+2	ai	avoir	VRB	VRB	_	0	root	_	_	805.710022	805.739990	L4
+3	j'	je	CLS	CLS	_	4	subj	_	_	805.750000	805.929993	L4
+4	ai	avoir	VRB	VRB	_	2	para	_	_	805.940002	806.549988	L4
+5	pour	pour	PRE	PRE	_	4	dep	_	_	806.559998	806.719971	L4
+6	ainsi	ainsi	ADV	ADV	_	7	dep	_	_	806.729980	806.849976	L4
+7	dire	dire	VNF	VNF	_	5	dep	_	_	806.859985	807.010010	L4
+8	cinquante	cinquante	NUM	NUM	_	9	spe	_	_	807.020020	807.349976	L4
+9	ans	an	NOM	NOM	_	7	dep	_	_	807.359985	807.460022	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-218
+# text = mais enfin j'ai j'ai connu
+1	mais	mais	COO	COO	_	4	mark	_	_	807.469971	807.530029	L4
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	807.539978	807.719971	L4
+3	j'	je	CLS	CLS	_	4	subj	_	_	807.729980	807.830017	L4
+4	ai	avoir	VRB	VRB	_	0	root	_	_	807.869995	808.010010	L4
+5	j'	je	CLS	CLS	_	7	subj	_	_	808.020020	808.090027	L4
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	808.099976	808.130005	L4
+7	connu	connaître	VPP	VPP	_	4	para	_	_	808.140015	808.369995	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-219
+# text = ça ça posait aucun problème
+1	ça	ça	PRO	PRO	_	3	periph	_	_	808.380005	808.539978	L4
+2	ça	ça	PRO	PRO	_	3	subj	_	_	808.549988	808.659973	L4
+3	posait	poser	VRB	VRB	_	0	root	_	_	808.669983	808.880005	L4
+4	aucun	aucun	PRO	PRO	_	5	spe	_	_	808.890015	809.119995	L4
+5	problème	problème	NOM	NOM	_	3	dep	_	_	809.130005	809.510010	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-220
+# text = tout le monde euh tout le monde le faisait
+1	tout le monde	tout le monde	PRO	PRO	_	5	subj	_	_	809.520020	810.099976	L4
+2	euh	euh	INT	INT	_	1	dm	_	_	810.109985	810.130005	L4
+3	tout le monde	tout le monde	PRO	PRO	_	1	para	_	_	810.140015	810.419983	L4
+4	le	le	DET	DET	_	5	spe	_	_	810.429993	810.510010	L4
+5	faisait	faire	VRB	VRB	_	0	root	_	_	810.520020	810.750000	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-221
+# text = quoi oui revenir aux bout-~ aux bouteilles étoilées qu'on qu'on ramenait à à l'épicerie
+1	quoi	quoi	INT	INT	_	3	dm	_	_	810.760010	811.059998	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	800.270020	802.109985	L1
+3	revenir	revenir	VNF	VNF	_	0	root	_	_	802.210022	803.809998	L1
+4	aux	à+le	PRE	PRE	_	3	dep	_	_	803.919983	804.000000	L1
+5	bout-~	bout-~	NOM	NOM	_	4	dep	_	_	804.010010	804.789978	L1
+6	aux	à+le	PRE	PRE	_	3	dep	_	_	804.799988	804.880005	L1
+7	bouteilles	bouteille	NOM	NOM	_	6	dep	_	_	805.010010	805.929993	L1
+8	étoilées	étoilé	ADJ	ADJ	_	7	dep	_	_	805.940002	808.090027	L1
+9	qu'	que	CSU	CSU	_	8	dep	_	_	808.099976	808.229980	L1
+10	on	on	CLS	CLS	_	9	disflink	_	_	808.239990	808.359985	L1
+11	qu'	que	CSU	CSU	_	9	para	_	_	808.369995	808.520020	L1
+12	on	on	CLS	CLS	_	13	subj	_	_	808.640015	808.659973	L1
+13	ramenait	ramener	VRB	VRB	_	11	dep	_	_	808.729980	810.200012	L1
+14	à	à	PRE	PRE	_	13	dep	_	_	810.210022	810.229980	L1
+15	à	à	PRE	PRE	_	14	para	_	_	810.349976	810.369995	L1
+16	l'	le	DET	DET	_	17	spe	_	_	810.380005	810.479980	L1
+17	épicerie	épicerie	NOM	NOM	_	15	dep	_	_	810.489990	811.090027	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-222
+# text = et je me dis que quelque part bon ben il y a quelque chose qui va pas quoi
+1	et	et	COO	COO	_	4	mark	_	_	811.799988	812.080017	L4
+2	je	je	CLS	CLS	_	4	subj	_	_	812.090027	812.150024	L4
+3	me	me	CLI	CLI	_	4	dep	_	_	812.159973	812.250000	L4
+4	dis	dire	VRB	VRB	_	0	root	_	_	812.260010	812.390015	L4
+5	que	que	CSU	CSU	_	4	dep	_	_	812.400024	812.419983	L4
+6	quelque part	quelque part	ADV	ADV	_	10	periph	_	_	812.489990	813.049988	L4
+7	bon ben	bon ben	INT	INT	_	6	dm	_	_	813.059998	813.239990	L4
+8	il	il	CLS	CLS	_	10	subj	_	_	813.250000	813.299988	L4
+9	y	y	CLI	CLI	_	10	dep	_	_	813.309998	813.330017	L4
+10	a	avoir	VRB	VRB	_	5	dep	_	_	813.340027	813.369995	L4
+11	quelque chose	quelque chose	PRO	PRO	_	10	dep	_	_	813.380005	813.789978	L4
+12	qui	qui	PRQ	PRQ	_	13	subj	_	_	813.799988	813.909973	L4
+13	va	aller	VRB	VRB	_	11	dep	_	_	813.919983	814.030029	L4
+14	pas	pas	ADN	ADN	_	13	dep	_	_	814.039978	814.270020	L4
+15	quoi	quoi	INT	INT	_	14	dm	_	_	814.280029	814.479980	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-223
+# text = c'est c'est une société entre entre guillemets de business quoi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	814.489990	814.619995	L4
+2	est	être	VRB	VRB	_	0	root	_	_	814.630005	814.650024	L4
+3	c'	ce	CLS	CLS	_	4	subj	_	_	814.659973	814.679993	L4
+4	est	être	VRB	VRB	_	2	para	_	_	814.739990	814.760010	L4
+5	une	un	DET	DET	_	6	spe	_	_	814.770020	814.859985	L4
+6	société	société	NOM	NOM	_	4	dep	_	_	814.869995	815.700012	L4
+7	entre	entre	PRE	PRE	_	6	dep	_	_	815.710022	816.190002	L4
+8	entre	entre	PRE	PRE	_	7	dep	_	_	816.200012	816.440002	L4
+9	guillemets	guillemet	NOM	NOM	_	8	dep	_	_	816.450012	816.770020	L4
+10	de	de	PRE	PRE	_	9	dep	_	_	816.780029	816.890015	L4
+11	business	business	NOM	NOM	_	10	dep	_	_	816.900024	817.349976	L4
+12	quoi	quoi	INT	INT	_	11	dm	_	_	817.359985	817.809998	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-224
+# text = alors les fabricants ils fabriquent au moindre coût
+1	alors	alors	ADV	ADV	_	5	periph	_	_	817.820007	818.580017	L4
+2	les	le	DET	DET	_	3	spe	_	_	818.590027	818.729980	L4
+3	fabricants	fabricant	NOM	NOM	_	5	periph	_	_	818.739990	819.390015	L4
+4	ils	il	CLS	CLS	_	5	subj	_	_	819.400024	819.500000	L4
+5	fabriquent	fabriquer	VRB	VRB	_	0	root	_	_	819.510010	819.809998	L4
+6	au	à+le	PRE	PRE	_	5	dep	_	_	819.820007	819.869995	L4
+7	moindre	moindre	ADJ	ADJ	_	8	dep	_	_	819.880005	820.150024	L4
+8	coût	coût	NOM	NOM	_	6	dep	_	_	820.159973	820.580017	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-225
+# text = et et et je veux dire c'est au contribuable après de de se démerder avec les déchets
+1	et	et	COO	COO	_	8	mark	_	_	820.590027	821.299988	L4
+2	et	et	COO	COO	_	1	para	_	_	821.309998	821.390015	L4
+3	et	et	COO	COO	_	1	para	_	_	821.400024	821.580017	L4
+4	je	je	CLS	CLS	_	5	subj	_	_	822.239990	822.320007	L4
+5	veux	vouloir	VRB	VRB	_	3	dm	_	_	822.330017	822.400024	L4
+6	dire	dire	VNF	VNF	_	5	dep	_	_	822.409973	822.590027	L4
+7	c'	ce	CLS	CLS	_	8	subj	_	_	822.640015	822.679993	L4
+8	est	être	VRB	VRB	_	0	root	_	_	822.690002	822.789978	L4
+9	au	à+le	PRE	PRE	_	8	dep	_	_	822.799988	822.849976	L4
+10	contribuable	contribuable	NOM	NOM	_	9	dep	_	_	822.859985	823.390015	L4
+11	après	après	PRE	PRE	_	8	dep	_	_	823.400024	823.630005	L4
+12	de	de	PRE	PRE	_	11	para	_	_	823.640015	823.799988	L4
+13	de	de	PRE	PRE	_	12	para	_	_	823.809998	824.200012	L4
+14	se	se	CLI	CLI	_	15	dep	_	_	824.210022	824.330017	L4
+15	démerder	se démerder	VNF	VNF	_	13	dep	_	_	824.340027	824.780029	L4
+16	avec	avec	PRE	PRE	_	15	dep	_	_	824.789978	824.960022	L4
+17	les	le	DET	DET	_	18	spe	_	_	824.969971	825.020020	L4
+18	déchets	déchet	NOM	NOM	_	16	dep	_	_	825.030029	825.359985	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-226
+# text = quoi hum alors je crois qu'il y a une écotaxe qui qui est imposée notamment sur les emballages au-~ auprès des des industriels euh
+1	quoi	quoi	INT	INT	_	5	dm	_	_	825.369995	825.609985	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	825.770020	825.900024	L1
+3	alors	alors	ADV	ADV	_	5	periph	_	_	825.950012	826.130005	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	826.140015	826.169983	L1
+5	crois	croire	VRB	VRB	_	0	root	_	_	826.179993	826.309998	L1
+6	qu'	que	CSU	CSU	_	5	dep	_	_	826.320007	826.369995	L1
+7	il	il	CLS	CLS	_	9	subj	_	_	826.380005	826.500000	L1
+8	y	y	CLI	CLI	_	9	dep	_	_	826.510010	826.549988	L1
+9	a	avoir	VRB	VRB	_	6	dep	_	_	826.559998	826.580017	L1
+10	une	un	DET	DET	_	11	spe	_	_	826.590027	826.729980	L1
+11	écotaxe	écotaxe	NOM	NOM	_	9	dep	_	_	826.739990	827.270020	L1
+12	qui	qui	PRQ	PRQ	_	15	subj	_	_	827.280029	827.539978	L1
+13	qui	qui	PRQ	PRQ	_	12	para	_	_	827.640015	827.820007	L1
+14	est	être	VRB	VRB	_	15	aux	_	_	827.830017	827.869995	L1
+15	imposée	imposer	VPP	VPP	_	11	dep	_	_	827.880005	828.200012	L1
+16	notamment	notamment	ADV	ADV	_	15	dep	_	_	828.210022	828.479980	L1
+17	sur	sur	PRE	PRE	_	15	dep	_	_	828.489990	828.609985	L1
+18	les	le	DET	DET	_	19	spe	_	_	828.619995	828.760010	L1
+19	emballages	emballage	NOM	NOM	_	17	dep	_	_	828.770020	829.140015	L1
+20	au-~	au-~	PRE	PRE	_	15	dep	_	_	829.150024	829.200012	L1
+21	auprès des	auprès de	PRE	PRE	_	20	para	_	_	829.210022	829.580017	L1
+22	des	de	PRE	PRE	_	21	dep	_	_	829.590027	829.760010	L1
+23	industriels	industriel	NOM	NOM	_	22	dep	_	_	829.770020	830.309998	L1
+24	euh	euh	INT	INT	_	23	dm	_	_	830.320007	830.400024	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-227
+# text = c'est vrai euh qu'évidemment elle est pas elle est pas énorme hein
+1	c'	ce	CLS	CLS	_	2	subj	_	_	830.900024	831.049988	L1
+2	est	être	VRB	VRB	_	0	root	_	_	831.059998	831.099976	L1
+3	vrai	vrai	ADJ	ADJ	_	2	dep	_	_	831.109985	831.210022	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	831.219971	831.239990	L1
+5	qu'	que	CSU	CSU	_	3	dep	_	_	831.250000	831.299988	L1
+6	évidemment	évidemment	ADV	ADV	_	8	periph	_	_	831.309998	831.760010	L1
+7	elle	il	CLS	CLS	_	8	subj	_	_	831.770020	831.830017	L1
+8	est	être	VRB	VRB	_	5	dep	_	_	831.840027	831.880005	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	831.890015	832.419983	L1
+10	elle	il	CLS	CLS	_	11	subj	_	_	832.429993	832.500000	L1
+11	est	être	VRB	VRB	_	8	para	_	_	832.510010	832.549988	L1
+12	pas	pas	ADN	ADN	_	11	dep	_	_	832.559998	832.679993	L1
+13	énorme	énorme	ADJ	ADJ	_	11	dep	_	_	832.690002	833.210022	L1
+14	hein	hein	INT	INT	_	13	dm	_	_	833.219971	833.530029	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-228
+# text = donc vous pensez qu'une des solutions
+1	donc	donc	ADV	ADV	_	3	periph	_	_	833.799988	833.919983	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	833.929993	834.000000	L1
+3	pensez	penser	VRB	VRB	_	0	root	_	_	834.010010	834.359985	L1
+4	qu'	que	CSU	CSU	_	3	dep	_	_	834.369995	834.429993	L1
+5	une	un	PRO	PRO	_	4	dep	_	_	834.440002	834.530029	L1
+6	des	de	PRE	PRE	_	5	dep	_	_	834.539978	834.650024	L1
+7	solutions	solution	NOM	NOM	_	6	dep	_	_	834.659973	835.039978	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-229
+# text = pourrait passer par une taxation plus forte peut-être des industriels
+1	pourrait	pouvoir	VRB	VRB	_	0	root	_	_	835.049988	835.250000	L1
+2	passer	passer	VNF	VNF	_	1	dep	_	_	835.260010	835.559998	L1
+3	par	par	PRE	PRE	_	2	dep	_	_	835.570007	835.799988	L1
+4	une	un	DET	DET	_	5	spe	_	_	835.909973	836.109985	L1
+5	taxation	taxation	NOM	NOM	_	3	dep	_	_	836.609985	838.080017	L1
+6	plus	plus	ADN	ADN	_	7	dep	_	_	838.520020	839.630005	L1
+7	forte	fort	ADJ	ADJ	_	5	dep	_	_	839.750000	841.280029	L1
+8	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	841.469971	843.989990	L1
+9	des	de	PRE	PRE	_	2	dep	_	_	844.159973	844.280029	L1
+10	industriels	industriel	NOM	NOM	_	9	dep	_	_	844.380005	845.460022	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-230
+# text = qui euh
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	845.559998	845.909973	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	846.059998	846.210022	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-231
+# text = ouais mais c'est moi
+1	ouais	ouais	INT	INT	_	4	dm	_	_	828.020020	830.400024	L4
+2	mais	mais	COO	COO	_	4	mark	_	_	833.880005	833.989990	L4
+3	c'	ce	CLS	CLS	_	4	subj	_	_	834.159973	834.299988	L4
+4	est	être	VRB	VRB	_	0	root	_	_	834.309998	835.280029	L4
+5	moi	moi	PRO	PRO	_	4	dep	_	_	835.289978	835.400024	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-232
+# text = je dis que c'est pas spécialement une histoire de taxation
+1	je	je	CLS	CLS	_	2	subj	_	_	835.409973	835.559998	L4
+2	dis	dire	VRB	VRB	_	0	root	_	_	835.729980	836.159973	L4
+3	que	que	CSU	CSU	_	2	dep	_	_	836.609985	837.309998	L4
+4	c'	ce	CLS	CLS	_	5	subj	_	_	837.320007	837.409973	L4
+5	est	être	VRB	VRB	_	3	dep	_	_	837.419983	838.090027	L4
+6	pas	pas	ADN	ADN	_	5	dep	_	_	838.260010	839.609985	L4
+7	spécialement	spécialement	ADV	ADV	_	5	dep	_	_	839.619995	840.250000	L4
+8	une	un	DET	DET	_	9	spe	_	_	840.260010	840.340027	L4
+9	histoire	histoire	NOM	NOM	_	5	dep	_	_	840.349976	840.549988	L4
+10	de	de	PRE	PRE	_	9	dep	_	_	840.559998	840.640015	L4
+11	taxation	taxation	NOM	NOM	_	10	dep	_	_	840.650024	841.309998	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-233
+# text = c'est de c'est que
+1	c'	ce	CLS	CLS	_	2	subj	_	_	841.409973	841.500000	L4
+2	est	être	VRB	VRB	_	0	root	_	_	841.510010	841.570007	L4
+3	de	de	PRE	PRE	_	2	dep	_	_	841.580017	841.710022	L4
+4	c'	ce	CLS	CLS	_	5	subj	_	_	841.719971	841.739990	L4
+5	est	être	VRB	VRB	_	2	para	_	_	841.750000	841.859985	L4
+6	que	que	CSU	CSU	_	5	dep	_	_	841.919983	842.010010	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-234
+# text = chacun euh
+1	chacun	chacun	PRO	PRO	_	0	root	_	_	842.020020	842.520020	L4
+2	euh	euh	INT	INT	_	1	dm	_	_	842.530029	843.080017	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-235
+# text = soit euh soit capable de faire face à ses responsabilités euh
+1	soit	soit	COO	COO	_	4	mark	_	_	843.090027	843.700012	L4
+2	euh	euh	INT	INT	_	1	dm	_	_	843.710022	843.979980	L4
+3	soit	soit	COO	COO	_	4	mark	_	_	843.989990	844.210022	L4
+4	capable	capable	ADJ	ADJ	_	0	root	_	_	844.219971	844.570007	L4
+5	de	de	PRE	PRE	_	4	dep	_	_	844.580017	844.710022	L4
+6	faire	faire	VNF	VNF	_	5	dep	_	_	844.719971	844.909973	L4
+7	face	face	NOM	NOM	_	6	dep	_	_	844.919983	845.130005	L4
+8	à	à	PRE	PRE	_	6	dep	_	_	845.140015	845.169983	L4
+9	ses	son	DET	DET	_	10	spe	_	_	845.239990	845.340027	L4
+10	responsabilités	responsabilité	NOM	NOM	_	8	dep	_	_	845.349976	846.210022	L4
+11	euh	euh	INT	INT	_	10	dm	_	_	846.710022	847.150024	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-236
+# text = on parle des déchets
+1	on	on	CLS	CLS	_	2	subj	_	_	847.159973	847.280029	L4
+2	parle	parler	VRB	VRB	_	0	root	_	_	847.289978	847.520020	L4
+3	des	de	PRE	PRE	_	2	dep	_	_	847.530029	847.609985	L4
+4	déchets	déchet	NOM	NOM	_	3	dep	_	_	847.619995	847.909973	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-237
+# text = on parle de la pollution d'une façon générale parce que les déchets sont liés à la pollution hein
+1	on	on	CLS	CLS	_	2	subj	_	_	847.919983	848.020020	L4
+2	parle	parler	VRB	VRB	_	0	root	_	_	848.030029	848.229980	L4
+3	de	de	PRE	PRE	_	2	dep	_	_	848.239990	848.299988	L4
+4	la	le	DET	DET	_	5	spe	_	_	848.309998	848.369995	L4
+5	pollution	pollution	NOM	NOM	_	3	dep	_	_	848.380005	848.849976	L4
+6	d'	de	PRE	PRE	_	5	dep	_	_	848.859985	848.900024	L4
+7	une	un	DET	DET	_	8	spe	_	_	848.909973	849.000000	L4
+8	façon	façon	NOM	NOM	_	6	dep	_	_	849.010010	849.289978	L4
+9	générale	général	ADJ	ADJ	_	8	dep	_	_	849.299988	849.630005	L4
+10	parce que	parce que	CSU	CSU	_	2	dep	_	_	849.640015	849.919983	L4
+11	les	le	DET	DET	_	12	spe	_	_	849.929993	849.979980	L4
+12	déchets	déchet	NOM	NOM	_	14	subj	_	_	849.989990	850.270020	L4
+13	sont	être	VRB	VRB	_	14	aux	_	_	850.280029	850.469971	L4
+14	liés	lier	VPP	VPP	_	10	dep	_	_	850.479980	850.640015	L4
+15	à	à	PRE	PRE	_	14	dep	_	_	850.650024	850.679993	L4
+16	la	le	DET	DET	_	17	spe	_	_	850.690002	850.750000	L4
+17	pollution	pollution	NOM	NOM	_	15	dep	_	_	850.760010	851.250000	L4
+18	hein	hein	INT	INT	_	17	dm	_	_	851.780029	852.080017	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-238
+# text = bon je veux dire à partir du moment où on commence euh à compter ses sous
+1	bon	bon	INT	INT	_	3	dm	_	_	852.090027	852.320007	L4
+2	je	je	CLS	CLS	_	3	subj	_	_	852.330017	852.419983	L4
+3	veux	vouloir	VRB	VRB	_	0	root	_	_	852.429993	852.510010	L4
+4	dire	dire	VNF	VNF	_	3	dep	_	_	852.520020	852.690002	L4
+5	à	à	PRE	PRE	_	4	dep	_	_	852.700012	852.729980	L4
+6	partir	partir	VNF	VNF	_	5	dep	_	_	852.739990	853.049988	L4
+7	du	de+le	PRE	PRE	_	6	dep	_	_	853.059998	853.109985	L4
+8	moment	moment	NOM	NOM	_	7	dep	_	_	853.119995	853.500000	L4
+9	où	où	PRQ	PRQ	_	11	dep	_	_	853.510010	853.599976	L4
+10	on	on	CLS	CLS	_	11	subj	_	_	853.609985	853.739990	L4
+11	commence	commencer	VRB	VRB	_	8	dep	_	_	853.750000	854.539978	L4
+12	euh	euh	INT	INT	_	11	dm	_	_	854.929993	855.530029	L4
+13	à	à	PRE	PRE	_	11	dep	_	_	855.539978	855.609985	L4
+14	compter	compter	VNF	VNF	_	13	dep	_	_	855.619995	855.929993	L4
+15	ses	son	DET	DET	_	16	spe	_	_	855.940002	856.070007	L4
+16	sous	sou	NOM	NOM	_	14	dep	_	_	856.080017	856.380005	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-239
+# text = bon c'est sûr qu'on va éliminer tout ce qui est le plus ennuyeux au niveau d'une société euh qui qui fabrique quoi euh
+1	bon	bon	INT	INT	_	3	dm	_	_	856.390015	856.539978	L4
+2	c'	ce	CLS	CLS	_	3	subj	_	_	856.549988	856.659973	L4
+3	est	être	VRB	VRB	_	0	root	_	_	856.669983	856.690002	L4
+4	sûr	sûr	ADJ	ADJ	_	3	dep	_	_	856.700012	857.030029	L4
+5	qu'	que	CSU	CSU	_	4	dep	_	_	857.039978	857.080017	L4
+6	on	on	CLS	CLS	_	7	subj	_	_	857.090027	857.200012	L4
+7	va	aller	VRB	VRB	_	5	dep	_	_	857.210022	857.299988	L4
+8	éliminer	éliminer	VNF	VNF	_	7	dep	_	_	857.309998	857.809998	L4
+9	tout	tout	ADJ	ADJ	_	10	dep	_	_	857.820007	858.039978	L4
+10	ce	ce	PRO	PRO	_	8	dep	_	_	858.049988	858.150024	L4
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	858.159973	858.260010	L4
+12	est	être	VRB	VRB	_	10	dep	_	_	858.270020	858.349976	L4
+13	le	le	DET	DET	_	14	spe	_	_	858.359985	858.479980	L4
+14	plus	plus	NOM	NOM	_	12	dep	_	_	858.489990	858.750000	L4
+15	ennuyeux	ennuyeux	ADJ	ADJ	_	14	dep	_	_	858.760010	859.500000	L4
+16	au	à+le	PRE	PRE	_	12	dep	_	_	859.510010	859.640015	L4
+17	niveau	niveau	NOM	NOM	_	16	dep	_	_	859.650024	859.900024	L4
+18	d'	de	PRE	PRE	_	17	dep	_	_	859.909973	859.969971	L4
+19	une	un	DET	DET	_	20	spe	_	_	859.979980	860.049988	L4
+20	société	société	NOM	NOM	_	18	dep	_	_	860.059998	860.539978	L4
+21	euh	euh	INT	INT	_	20	dm	_	_	860.549988	860.820007	L4
+22	qui	qui	PRQ	PRQ	_	24	subj	_	_	860.830017	860.909973	L4
+23	qui	qui	PRQ	PRQ	_	22	para	_	_	861.309998	861.359985	L4
+24	fabrique	fabriquer	VRB	VRB	_	17	dep	_	_	861.820007	862.179993	L4
+25	quoi	quoi	INT	INT	_	24	dm	_	_	862.239990	862.489990	L4
+26	euh	euh	INT	INT	_	25	dm	_	_	863.179993	863.200012	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-240
+# text = je veux dire là il y a
+1	je	je	CLS	CLS	_	2	subj	_	_	863.210022	863.869995	L4
+2	veux	vouloir	VRB	VRB	_	0	root	_	_	863.880005	863.989990	L4
+3	dire	dire	VNF	VNF	_	2	dep	_	_	864.000000	864.250000	L4
+4	là	là	ADV	ADV	_	3	dep	_	_	864.260010	864.450012	L4
+5	il	il	CLS	CLS	_	7	subj	_	_	864.460022	864.510010	L4
+6	y	y	CLI	CLI	_	7	dep	_	_	864.520020	864.559998	L4
+7	a	avoir	VRB	VRB	_	3	dep	_	_	864.570007	864.710022	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-241
+# text = il y a il y a un problème
+1	il	il	CLS	CLS	_	3	subj	_	_	864.719971	864.780029	L4
+2	y	y	CLI	CLI	_	3	dep	_	_	864.789978	864.809998	L4
+3	a	avoir	VRB	VRB	_	0	root	_	_	864.820007	864.950012	L4
+4	il	il	CLS	CLS	_	6	subj	_	_	864.960022	865.010010	L4
+5	y	y	CLI	CLI	_	6	dep	_	_	865.020020	865.039978	L4
+6	a	avoir	VRB	VRB	_	3	para	_	_	865.049988	865.090027	L4
+7	un	un	DET	DET	_	8	spe	_	_	865.099976	865.190002	L4
+8	problème	problème	NOM	NOM	_	6	dep	_	_	865.200012	865.599976	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-242
+# text = c'est à mon avis une remise en cause non pas un retour en arrière mais peut-être considérer les choses autrement et de dire que quelque part eh bien euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	865.609985	865.729980	L4
+2	est	être	VRB	VRB	_	0	root	_	_	865.739990	866.059998	L4
+3	à	à	PRE	PRE	_	2	dep	_	_	866.070007	866.109985	L4
+4	mon	son	DET	DET	_	5	spe	_	_	866.119995	866.289978	L4
+5	avis	avis	NOM	NOM	_	3	dep	_	_	866.299988	866.460022	L4
+6	une	un	DET	DET	_	7	spe	_	_	866.469971	866.590027	L4
+7	remise	remise	NOM	NOM	_	2	dep	_	_	866.599976	866.869995	L4
+8	en	en	PRE	PRE	_	7	dep	_	_	866.880005	866.969971	L4
+9	cause	cause	NOM	NOM	_	8	dep	_	_	866.979980	867.200012	L4
+10	non	non	INT	INT	_	9	dm	_	_	867.210022	867.340027	L4
+11	pas	pas	ADN	ADN	_	13	dep	_	_	867.349976	867.450012	L4
+12	un	un	DET	DET	_	13	spe	_	_	867.460022	867.559998	L4
+13	retour	retour	NOM	NOM	_	7	para	_	_	867.570007	867.830017	L4
+14	en arrière	en arrière	ADV	ADV	_	13	dep	_	_	867.840027	868.239990	L4
+15	mais	mais	COO	COO	_	16	mark	_	_	868.250000	868.349976	L4
+16	peut-être	peut-être	ADV	ADV	_	7	para	_	_	868.359985	868.700012	L4
+17	considérer	considérer	VNF	VNF	_	2	dep	_	_	868.710022	869.109985	L4
+18	les	le	DET	DET	_	19	spe	_	_	869.119995	869.219971	L4
+19	choses	chose	NOM	NOM	_	17	dep	_	_	869.229980	869.400024	L4
+20	autrement	autrement	ADV	ADV	_	17	dep	_	_	869.460022	869.909973	L4
+21	et	et	COO	COO	_	22	mark	_	_	869.919983	869.950012	L4
+22	de	de	PRE	PRE	_	17	dep	_	_	869.960022	870.090027	L4
+23	dire	dire	VNF	VNF	_	22	dep	_	_	870.099976	870.270020	L4
+24	que	que	CSU	CSU	_	23	dep	_	_	870.280029	870.479980	L4
+25	quelque part	quelque part	ADV	ADV	_	24	dep	_	_	870.489990	871.119995	L4
+26	eh bien	eh bien	INT	INT	_	25	dm	_	_	871.780029	872.179993	L4
+27	euh	euh	INT	INT	_	26	dm	_	_	872.190002	872.309998	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-243
+# text = c'est pas le tout de fiche fiche en l'air dans les poubelles
+1	c'	ce	CLS	CLS	_	2	subj	_	_	872.320007	872.419983	L4
+2	est	être	VRB	VRB	_	0	root	_	_	872.429993	872.460022	L4
+3	pas	pas	ADN	ADN	_	2	dep	_	_	872.469971	872.590027	L4
+4	le	le	DET	DET	_	5	spe	_	_	872.599976	872.650024	L4
+5	tout	tout	NOM	NOM	_	2	dep	_	_	872.659973	872.809998	L4
+6	de	de	PRE	PRE	_	5	dep	_	_	872.820007	872.960022	L4
+7	fiche	fiche	NOM	NOM	_	6	dep	_	_	872.969971	873.650024	L4
+8	fiche	fiche	NOM	NOM	_	7	dep	_	_	873.659973	873.890015	L4
+9	en	en	PRE	PRE	_	2	dep	_	_	873.960022	874.000000	L4
+10	l'	le	DET	DET	_	11	spe	_	_	874.010010	874.059998	L4
+11	air	air	NOM	NOM	_	9	dep	_	_	874.070007	874.130005	L4
+12	dans	dans	PRE	PRE	_	2	dep	_	_	874.140015	874.200012	L4
+13	les	le	DET	DET	_	14	spe	_	_	874.210022	874.309998	L4
+14	poubelles	poubelle	NOM	NOM	_	12	dep	_	_	874.320007	874.679993	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-244
+# text = parce que finalement c'est le contribuable qui va payer
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	874.690002	874.989990	L4
+2	finalement	finalement	ADV	ADV	_	4	periph	_	_	875.000000	875.390015	L4
+3	c'	ce	CLS	CLS	_	4	subj	_	_	875.400024	875.489990	L4
+4	est	être	VRB	VRB	_	1	dep	_	_	875.500000	875.520020	L4
+5	le	le	DET	DET	_	6	spe	_	_	875.530029	875.590027	L4
+6	contribuable	contribuable	NOM	NOM	_	4	dep	_	_	875.599976	876.150024	L4
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	876.200012	876.260010	L4
+8	va	aller	VRB	VRB	_	6	dep	_	_	876.270020	876.380005	L4
+9	payer	payer	VNF	VNF	_	8	dep	_	_	876.390015	876.799988	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-245
+# text = et puis peut-être voir voir les choses autrement quoi oui
+1	et puis	et puis	COO	COO	_	3	mark	_	_	877.320007	877.599976	L4
+2	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	877.609985	877.969971	L4
+3	voir	voir	VNF	VNF	_	0	root	_	_	878.020020	878.419983	L4
+4	voir	voir	VNF	VNF	_	3	dep	_	_	878.429993	878.619995	L4
+5	les	le	DET	DET	_	6	spe	_	_	878.630005	878.710022	L4
+6	choses	chose	NOM	NOM	_	4	dep	_	_	878.719971	878.909973	L4
+7	autrement	autrement	ADV	ADV	_	3	dep	_	_	878.919983	879.320007	L4
+8	quoi	quoi	INT	INT	_	7	dm	_	_	879.330017	879.580017	L4
+9	oui	oui	INT	INT	_	8	dm	_	_	880.169983	881.159973	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-246
+# text = merci euh Denis en tout cas on a bien compris peut-être un appel aussi à à civisme à la fois de la part des industriels des gens qui fabriquent et qui proposent qu'à la fois du consommateur
+1	merci	merci	INT	INT	_	6	dm	_	_	880.159973	880.640015	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	880.650024	880.750000	L1
+3	Denis	Denis	NOM	NOM	_	6	periph	_	_	880.760010	881.000000	L1
+4	en tout cas	en tout cas	ADV	ADV	_	6	periph	_	_	881.010010	881.369995	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	881.380005	881.580017	L1
+6	a	avoir	VRB	VRB	_	8	aux	_	_	881.590027	881.719971	L1
+7	bien	bien	ADV	ADV	_	8	dep	_	_	881.729980	881.849976	L1
+8	compris	comprendre	VPP	VPP	_	0	root	_	_	881.859985	882.190002	L1
+9	peut-être	peut-être	ADV	ADV	_	8	dep	_	_	882.200012	882.559998	L1
+10	un	un	DET	DET	_	11	spe	_	_	882.570007	882.590027	L1
+11	appel	appel	NOM	NOM	_	8	dep	_	_	882.599976	882.840027	L1
+12	aussi	aussi	ADV	ADV	_	8	dep	_	_	882.849976	883.109985	L1
+13	à	à	PRE	PRE	_	8	dep	_	_	883.119995	883.380005	L1
+14	à	à	PRE	PRE	_	13	para	_	_	883.419983	883.489990	L1
+15	civisme	civisme	NOM	NOM	_	14	dep	_	_	883.500000	884.080017	L1
+16	à	à	PRE	PRE	_	14	para	_	_	884.130005	884.169983	L1
+17	la	le	DET	DET	_	18	spe	_	_	884.179993	884.270020	L1
+18	fois	foi	NOM	NOM	_	16	dep	_	_	884.280029	884.479980	L1
+19	de	de	PRE	PRE	_	18	dep	_	_	884.489990	884.510010	L1
+20	la	le	DET	DET	_	21	spe	_	_	884.520020	884.580017	L1
+21	part	part	NOM	NOM	_	19	dep	_	_	884.590027	884.760010	L1
+22	des	de	PRE	PRE	_	21	dep	_	_	884.770020	884.890015	L1
+23	industriels	industriel	NOM	NOM	_	22	dep	_	_	884.900024	885.320007	L1
+24	des	de	PRE	PRE	_	23	dep	_	_	885.330017	885.400024	L1
+25	gens	gens	NOM	NOM	_	24	dep	_	_	885.409973	885.539978	L1
+26	qui	qui	PRQ	PRQ	_	27	dep	_	_	885.549988	885.659973	L1
+27	fabriquent	fabriquer	VRB	VRB	_	25	dep	_	_	885.669983	886.090027	L1
+28	et	et	COO	COO	_	30	mark	_	_	886.099976	886.119995	L1
+29	qui	qui	PRQ	PRQ	_	30	dep	_	_	886.130005	886.190002	L1
+30	proposent	proposer	VRB	VRB	_	27	para	_	_	886.200012	886.659973	L1
+31	qu'	que	CSU	CSU	_	30	dep	_	_	887.650024	888.039978	L1
+32	à	à	PRE	PRE	_	30	dep	_	_	888.659973	888.900024	L1
+33	la	le	DET	DET	_	34	spe	_	_	888.989990	890.500000	L1
+34	fois	foi	NOM	NOM	_	32	dep	_	_	890.820007	891.979980	L1
+35	du	de+le	PRE	PRE	_	34	dep	_	_	892.200012	892.869995	L1
+36	consommateur	consommateur	NOM	NOM	_	35	dep	_	_	892.979980	897.989990	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-247
+# text = absolument absolument voilà
+1	absolument	absolument	ADV	ADV	_	2	dep	_	_	883.090027	884.270020	L4
+2	absolument	absolument	ADV	ADV	_	0	root	_	_	884.440002	886.840027	L4
+3	voilà	voilà	INT	INT	_	2	dm	_	_	887.479980	888.900024	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-248
+# text = ne pas ne pas uniquement taper le consommateur euh
+1	ne	ne	CLN	CLN	_	6	dep	_	_	889.000000	889.099976	L4
+2	pas	pas	ADN	ADN	_	6	dep	_	_	889.109985	889.340027	L4
+3	ne	ne	CLN	CLN	_	6	dep	_	_	889.349976	889.489990	L4
+4	pas	pas	ADN	ADN	_	5	dep	_	_	889.500000	889.710022	L4
+5	uniquement	uniquement	ADV	ADV	_	6	dep	_	_	889.760010	890.340027	L4
+6	taper	se taper	VNF	VNF	_	0	root	_	_	890.349976	890.640015	L4
+7	le	le	DET	DET	_	8	spe	_	_	890.650024	890.679993	L4
+8	consommateur	consommateur	NOM	NOM	_	6	dep	_	_	890.690002	891.619995	L4
+9	euh	euh	INT	INT	_	8	dm	_	_	891.630005	891.679993	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-249
+# text = à chaque fois que il y a quelque chose quoi euh je veux dire là là
+1	à	à	PRE	PRE	_	12	periph	_	_	891.729980	891.789978	L4
+2	chaque	chaque	DET	DET	_	3	spe	_	_	891.799988	891.979980	L4
+3	fois	foi	NOM	NOM	_	1	dep	_	_	892.030029	892.200012	L4
+4	que	que	PRQ	PRQ	_	7	dep	_	_	892.210022	892.500000	L4
+5	il	il	CLS	CLS	_	7	subj	_	_	892.510010	892.559998	L4
+6	y	y	CLI	CLI	_	7	dep	_	_	892.570007	892.650024	L4
+7	a	avoir	VRB	VRB	_	3	dep	_	_	892.659973	892.690002	L4
+8	quelque chose	quelque chose	PRO	PRO	_	7	dep	_	_	892.700012	893.270020	L4
+9	quoi	quoi	INT	INT	_	8	dm	_	_	893.330017	893.650024	L4
+10	euh	euh	INT	INT	_	9	dm	_	_	893.659973	893.679993	L4
+11	je	je	CLS	CLS	_	12	subj	_	_	893.880005	893.900024	L4
+12	veux	vouloir	VRB	VRB	_	0	root	_	_	893.989990	894.080017	L4
+13	dire	dire	VNF	VNF	_	12	dep	_	_	894.090027	894.270020	L4
+14	là	là	ADV	ADV	_	13	dep	_	_	894.280029	894.460022	L4
+15	là	là	ADV	ADV	_	12	dep	_	_	894.469971	894.520020	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-250
+# text = il y a il y a il y a quelque chose d'aberrant quoi
+1	il	il	CLS	CLS	_	3	subj	_	_	894.530029	894.580017	L4
+2	y	y	CLI	CLI	_	3	dep	_	_	894.590027	894.609985	L4
+3	a	avoir	VRB	VRB	_	0	root	_	_	894.619995	894.679993	L4
+4	il	il	CLS	CLS	_	6	subj	_	_	894.690002	894.739990	L4
+5	y	y	CLI	CLI	_	6	dep	_	_	894.750000	894.820007	L4
+6	a	avoir	VRB	VRB	_	3	para	_	_	894.830017	895.010010	L4
+7	il	il	CLS	CLS	_	9	subj	_	_	895.020020	895.090027	L4
+8	y	y	CLI	CLI	_	9	dep	_	_	895.099976	895.130005	L4
+9	a	avoir	VRB	VRB	_	6	para	_	_	895.140015	895.200012	L4
+10	quelque chose	quelque chose	PRO	PRO	_	9	dep	_	_	895.210022	895.700012	L4
+11	d'	de	PRE	PRE	_	10	dep	_	_	895.710022	895.729980	L4
+12	aberrant	aberrant	ADJ	ADJ	_	11	dep	_	_	895.739990	896.099976	L4
+13	quoi	quoi	INT	INT	_	12	dm	_	_	896.109985	896.299988	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-251
+# text = je veux dire on est
+1	je	je	CLS	CLS	_	2	subj	_	_	896.309998	896.359985	L4
+2	veux	vouloir	VRB	VRB	_	0	root	_	_	896.369995	896.450012	L4
+3	dire	dire	VNF	VNF	_	2	dep	_	_	896.460022	896.539978	L4
+4	on	on	CLS	CLS	_	5	subj	_	_	896.549988	896.739990	L4
+5	est	être	VRB	VRB	_	2	para	_	_	896.750000	896.789978	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-252
+# text = on est en l'an deux mille quoi
+1	on	on	CLS	CLS	_	2	subj	_	_	896.799988	896.989990	L4
+2	est	être	VRB	VRB	_	0	root	_	_	897.000000	897.020020	L4
+3	en	en	PRE	PRE	_	2	dep	_	_	897.030029	897.109985	L4
+4	l'	le	DET	DET	_	5	spe	_	_	897.119995	897.140015	L4
+5	an	an	NOM	NOM	_	3	dep	_	_	897.150024	897.229980	L4
+6	deux	deux	NUM	NUM	_	5	dep	_	_	897.239990	897.380005	L4
+7	mille	mille	NUM	NUM	_	6	dep	_	_	897.390015	897.590027	L4
+8	quoi	quoi	INT	INT	_	7	dm	_	_	897.599976	897.739990	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-253
+# text = faudrait peut-être essayer de de réagir autrement
+1	faudrait	falloir	VRB	VRB	_	0	root	_	_	897.750000	897.989990	L4
+2	peut-être	peut-être	ADV	ADV	_	1	dep	_	_	898.090027	898.359985	L4
+3	essayer	essayer	VNF	VNF	_	1	dep	_	_	898.429993	898.599976	L4
+4	de	de	PRE	PRE	_	3	dep	_	_	898.609985	898.929993	L4
+5	de	de	PRE	PRE	_	4	para	_	_	898.989990	899.039978	L4
+6	réagir	réagir	VNF	VNF	_	5	dep	_	_	899.049988	899.429993	L4
+7	autrement	autrement	ADV	ADV	_	6	dep	_	_	899.440002	899.869995	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-254
+# text = aussi hein
+1	aussi	aussi	ADV	ADV	_	0	root	_	_	898.429993	898.609985	L1
+2	hein	hein	INT	INT	_	1	dm	_	_	899.000000	899.409973	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-255
+# text = merci en tout cas Denis de de de votre appel de Puy Saint Martin
+1	merci	merci	INT	INT	_	3	dm	_	_	900.359985	900.690002	L1
+2	en tout cas	en tout cas	ADV	ADV	_	3	dep	_	_	900.700012	900.969971	L1
+3	Denis	Denis	NOM	NOM	_	0	root	_	_	900.979980	901.190002	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	901.200012	901.260010	L1
+5	de	de	PRE	PRE	_	4	para	_	_	901.270020	901.450012	L1
+6	de	de	PRE	PRE	_	5	para	_	_	901.539978	901.650024	L1
+7	votre	son	DET	DET	_	8	spe	_	_	901.659973	901.919983	L1
+8	appel	appel	NOM	NOM	_	6	dep	_	_	901.929993	902.169983	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	902.179993	902.200012	L1
+10	Puy	puy	NOM	NOM	_	9	dep	_	_	902.210022	902.320007	L1
+11	Saint	saint	NOM	NOM	_	10	dep	_	_	902.330017	902.479980	L1
+12	Martin	Martin	NOM	NOM	_	11	dep	_	_	902.489990	902.880005	L1
+
+# sent_id = cefc-crfp-PUB-VAL-1-256
+# text = merci
+1	merci	merci	INT	INT	_	0	root	_	_	901.539978	902.590027	L4
+
+# sent_id = cefc-crfp-PUB-VAL-1-257
+# text = au revoir au revoir
+1	au revoir	au revoir	INT	INT	_	0	root	_	_	903.479980	903.760010	L1
+2	au revoir	au revoir	INT	INT	_	1	dm	_	_	903.909973	904.169983	L1
+

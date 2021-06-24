@@ -1,0 +1,2178 @@
+# sent_id = cefc-tcof-Ergotherapie_sch-1
+# text = ben ouais mais moi la Belgique euh
+1	ben	ben	INT	INT	_	6	dm	_	_	0.04	0.16	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	0.17	0.22	L1
+3	mais	mais	COO	COO	_	6	mark	_	_	0.23	0.35	L1
+4	moi	moi	PRO	PRO	_	6	periph	_	_	0.36	0.63	L1
+5	la	le	DET	DET	_	6	spe	_	_	0.64	0.70	L1
+6	Belgique	Belgique	NOM	NOM	_	0	ROOT	_	_	0.71	1.54	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	1.55	1.62	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-2
+# text = ben pour ce qui est de l'ergothérapie euh en Belgique on est trop en retard hein
+1	ben	ben	INT	INT	_	13	dm	_	_	1.74	1.96	L1
+2	pour	pour	PRE	PRE	_	13	periph	_	_	1.97	2.10	L1
+3	ce	ce	PRO	PRO	_	2	dep	_	_	2.11	2.18	L1
+4	qui	_	PRQ	PRQ	_	5	subj	_	_	2.19	2.30	L1
+5	est	être	VRB	VRB	_	3	dep	_	_	2.31	2.33	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	2.34	2.36	L1
+7	l'	le	DET	DET	_	8	spe	_	_	2.37	2.42	L1
+8	ergothérapie	ergothérapie	NOM	NOM	_	6	dep	_	_	2.43	3.26	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	3.27	3.34	L1
+10	en	en	PRE	PRE	_	13	periph	_	_	3.48	3.53	L1
+11	Belgique	Belgique	NOM	NOM	_	10	dep	_	_	3.54	3.86	L1
+12	on	on	CLS	CLS	_	13	subj	_	_	4.05	4.07	L1
+13	est	être	VRB	VRB	_	0	ROOT	_	_	4.08	4.10	L1
+14	trop	trop	ADV	ADV	_	13	dep	_	_	4.15	4.32	L1
+15	en	en	PRE	PRE	_	13	dep	_	_	4.33	4.39	L1
+16	retard	retard	NOM	NOM	_	15	dep	_	_	4.49	4.60	L1
+17	hein	hein	INT	INT	_	16	dm	_	_	4.61	4.63	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-3
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	5.33	5.50	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-4
+# text = parce que en stage ai une ergo qui travail qui a fait ses études en France qui a fait ses études
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	5.74	5.89	L1
+2	en	en	PRE	PRE	_	4	periph	_	_	5.90	5.92	L1
+3	stage	stage	NOM	NOM	_	2	dep	_	_	5.93	6.23	L1
+4	ai	avoir	VRB	VRB	_	1	dep	_	_	6.24	6.30	L1
+5	une	un	DET	DET	_	6	spe	_	_	6.31	6.37	L1
+6	ergo	_	NOM	NOM	_	4	dep	_	_	6.38	6.62	L1
+7	qui	_	PRQ	PRQ	_	8	dep	_	_	6.67	6.75	L1
+8	travail	travail	NOM	NOM	_	6	dep	_	_	6.85	7.04	L1
+9	qui	_	PRQ	PRQ	_	11	dep	_	_	7.16	7.21	L1
+10	a	avoir	VRB	VRB	_	11	aux	_	_	7.22	7.24	L1
+11	fait	-	VPP	VPP	_	8	para	_	_	7.25	7.32	L1
+12	ses	son	DET	DET	_	13	spe	_	_	7.48	7.56	L1
+13	études	étude	NOM	NOM	_	11	dep	_	_	7.62	7.81	L1
+14	en	en	PRE	PRE	_	13	dep	_	_	7.82	7.84	L1
+15	France	France	NOM	NOM	_	14	dep	_	_	7.85	8.06	L1
+16	qui	_	PRQ	PRQ	_	18	dep	_	_	8.07	8.12	L1
+17	a	avoir	VRB	VRB	_	18	aux	_	_	8.13	8.15	L1
+18	fait	-	VPP	VPP	_	11	para	_	_	8.16	8.25	L1
+19	ses	son	DET	DET	_	20	spe	_	_	8.26	8.34	L1
+20	études	étude	NOM	NOM	_	18	dep	_	_	8.35	8.43	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-5
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	8.64	8.78	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-6
+# text = à NNAAMMEE à l'école
+1	à	à	PRE	PRE	_	0	ROOT	_	_	8.84	8.86	L1
+2	NNAAMMEE	NNAAMMEE	NOM	NOM	_	1	dep	_	_	8.87	9.44	L1
+3	à	à	PRE	PRE	_	1	para	_	_	9.45	9.47	L1
+4	l'	le	DET	DET	_	5	spe	_	_	9.48	9.50	L1
+5	école	école	NOM	NOM	_	3	dep	_	_	9.51	9.62	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-7
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	9.99	10.14	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-8
+# text = et elle m'a dit
+1	et	et	COO	COO	_	5	mark	_	_	10.54	10.80	L1
+2	elle	il	CLS	CLS	_	5	subj	_	_	10.81	10.95	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	10.96	10.98	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	10.99	11.08	L1
+5	dit	dire	VPP	VPP	_	0	ROOT	_	_	11.09	11.32	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-9
+# text = enfin elle m'a raconté un peu ce qu'ils faisaient euh
+1	enfin	enfin	ADV	ADV	_	5	periph	_	_	11.38	11.83	L1
+2	elle	il	CLS	CLS	_	5	subj	_	_	11.84	11.90	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	11.91	11.93	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	11.94	12.00	L1
+5	raconté	raconter	VPP	VPP	_	0	ROOT	_	_	12.01	12.29	L1
+6	un#peu	un peu	ADV	ADV	_	5	dep	_	_	12.30	12.76	L1
+7	ce	ce	PRO	PRO	_	5	dep	_	_	12.77	12.85	L1
+8	qu'	que	PRQ	PRQ	_	10	dep	_	_	12.86	12.88	L1
+9	ils	il	CLS	CLS	_	10	subj	_	_	12.97	13.29	L1
+10	faisaient	faire	VRB	VRB	_	7	dep	_	_	13.30	13.41	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	13.49	13.51	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-10
+# text = parce qu'elle est venue travailler en Belgique suite à son mari qui a trouvé du travail en Belgique
+1	parce#qu'	parce que	CSU	CSU	_	0	ROOT	_	_	13.86	14.00	L1
+2	elle	il	CLS	CLS	_	4	subj	_	_	14.01	14.09	L1
+3	est	être	VRB	VRB	_	4	aux	_	_	14.10	14.17	L1
+4	venue	venir	VPP	VPP	_	1	dep	_	_	14.18	14.32	L1
+5	travailler	travailler	VNF	VNF	_	4	dep	_	_	14.33	14.72	L1
+6	en	en	PRE	PRE	_	5	dep	_	_	14.73	14.82	L1
+7	Belgique	Belgique	NOM	NOM	_	6	dep	_	_	14.83	15.28	L1
+8	suite	_	ADV	ADV	_	5	dep	_	_	15.29	15.59	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	15.60	15.73	L1
+10	son	son	DET	DET	_	11	spe	_	_	15.74	15.88	L1
+11	mari	mari	NOM	NOM	_	9	dep	_	_	15.89	16.24	L1
+12	qui	_	PRQ	PRQ	_	14	subj	_	_	16.33	16.41	L1
+13	a	avoir	VRB	VRB	_	14	aux	_	_	16.42	16.45	L1
+14	trouvé	trouver	VPP	VPP	_	11	dep	_	_	16.46	16.72	L1
+15	du	_	PRE	PRE	_	14	dep	_	_	16.73	16.78	L1
+16	travail	travail	NOM	NOM	_	15	dep	_	_	16.79	17.03	L1
+17	en	en	PRE	PRE	_	14	dep	_	_	17.04	17.06	L1
+18	Belgique	Belgique	NOM	NOM	_	17	dep	_	_	17.07	17.44	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-11
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	17.50	17.57	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-12
+# text = donc elle a rejoint
+1	donc	donc	ADV	ADV	_	3	periph	_	_	17.70	17.79	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	17.80	17.89	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	17.90	17.92	L1
+4	rejoint	rejoindre	VPP	VPP	_	3	dep	_	_	17.93	18.13	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-13
+# text = et quand elle est arrivée en Belgique euh elle a halluciné par rapport au retard qu'ils ont par rapport à nous hein
+1	et	et	COO	COO	_	11	mark	_	_	18.74	18.83	L1
+2	quand	quand	CSU	CSU	_	11	periph	_	_	18.84	19.02	L1
+3	elle	il	CLS	CLS	_	5	subj	_	_	19.03	19.14	L1
+4	est	être	VRB	VRB	_	5	aux	_	_	19.15	19.17	L1
+5	arrivée	arriver	VPP	VPP	_	2	dep	_	_	19.18	19.37	L1
+6	en	en	PRE	PRE	_	5	dep	_	_	19.38	19.47	L1
+7	Belgique	Belgique	NOM	NOM	_	6	dep	_	_	19.48	19.87	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	19.88	19.90	L1
+9	elle	il	CLS	CLS	_	11	subj	_	_	20.26	20.33	L1
+10	a	avoir	VRB	VRB	_	11	aux	_	_	20.34	20.40	L1
+11	halluciné	halluciner	VPP	VPP	_	0	ROOT	_	_	20.41	20.89	L1
+12	par	par	PRE	PRE	_	11	dep	_	_	20.94	21.11	L1
+13	rapport	rapport	NOM	NOM	_	12	dep	_	_	21.12	21.29	L1
+14	au	à	PRE	PRE	_	13	dep	_	_	21.36	21.39	L1
+15	retard	retard	NOM	NOM	_	14	dep	_	_	21.47	21.69	L1
+16	qu'	que	PRQ	PRQ	_	18	dep	_	_	21.70	21.72	L1
+17	ils	il	CLS	CLS	_	18	subj	_	_	21.86	21.94	L1
+18	ont	avoir	VRB	VRB	_	15	dep	_	_	21.95	22.01	L1
+19	par#rapport#à	par rapport à	PRE	PRE	_	18	dep	_	_	22.02	22.51	L1
+20	nous	moi	PRO	PRO	_	19	dep	_	_	22.59	22.72	L1
+21	hein	hein	INT	INT	_	20	dm	_	_	22.73	22.75	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-14
+# text = ouais non mais
+1	ouais	ouais	INT	INT	_	3	dm	_	_	23.47	23.53	L2
+2	non	non	INT	INT	_	1	dm	_	_	23.54	23.67	L2
+3	mais	mais	COO	COO	_	0	ROOT	_	_	23.68	23.98	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-15
+# text = et elle m'a raconté ce qu'ils font en cours et tout ça
+1	et	et	COO	COO	_	5	mark	_	_	24.47	24.49	L1
+2	elle	il	CLS	CLS	_	5	subj	_	_	24.50	24.70	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	24.71	24.73	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	24.74	24.77	L1
+5	raconté	raconter	VPP	VPP	_	0	ROOT	_	_	24.78	25.24	L1
+6	ce	ce	PRO	PRO	_	5	dep	_	_	25.25	25.32	L1
+7	qu'	que	PRQ	PRQ	_	9	dep	_	_	25.33	25.35	L1
+8	ils	il	CLS	CLS	_	9	subj	_	_	25.40	25.46	L1
+9	font	faire	VRB	VRB	_	6	dep	_	_	25.47	25.69	L1
+10	en#cours	_	ADV	ADV	_	9	dep	_	_	25.70	26.06	L1
+11	et	et	COO	COO	_	13	mark	_	_	26.07	26.16	L1
+12	tout	tout	ADJ	ADJ	_	13	dep	_	_	26.17	26.22	L1
+13	ça	ça	PRO	PRO	_	10	para	_	_	26.34	26.56	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-16
+# text = et je suis dégoûtée parce que nous ce qu'on fait en Belgique c'est trop nul hein
+1	et	et	COO	COO	_	4	mark	_	_	26.57	26.66	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	26.74	26.88	L1
+3	suis	être	VRB	VRB	_	4	aux	_	_	26.89	27.03	L1
+4	dégoûtée	dégoûter	VPP	VPP	_	0	ROOT	_	_	27.04	27.47	L1
+5	parce#que	parce que	CSU	CSU	_	4	dep	_	_	27.48	27.73	L1
+6	nous	nous	CLS	CLS	_	7	dep	_	_	27.74	27.89	L1
+7	ce	ce	PRO	PRO	_	5	dep	_	_	27.90	27.93	L1
+8	qu'	que	PRQ	PRQ	_	10	dep	_	_	27.94	27.98	L1
+9	on	on	CLS	CLS	_	10	subj	_	_	27.99	28.03	L1
+10	fait	faire	VRB	VRB	_	7	dep	_	_	28.04	28.15	L1
+11	en	en	PRE	PRE	_	10	dep	_	_	28.16	28.20	L1
+12	Belgique	Belgique	NOM	NOM	_	11	dep	_	_	28.21	28.51	L1
+13	c'	ce	CLS	CLS	_	14	subj	_	_	28.52	28.59	L1
+14	est	être	VRB	VRB	_	10	dep	_	_	28.74	28.76	L1
+15	trop	trop	ADV	ADV	_	16	dep	_	_	28.80	28.92	L1
+16	nul	nul	ADJ	ADJ	_	14	dep	_	_	28.93	29.16	L1
+17	hein	hein	INT	INT	_	16	dm	_	_	29.21	29.23	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-17
+# text = hum hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	29.56	29.61	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	29.62	29.67	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-18
+# text = franchement euh elle m'a dit euh les Belges par rapport à la France ils sont d~ une bonne dizaine d'années en retard
+1	franchement	franchement	ADV	ADV	_	6	periph	_	_	30.31	30.84	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	30.85	30.87	L1
+3	elle	il	CLS	CLS	_	6	subj	_	_	30.88	31.02	L1
+4	m'	me	CLI	CLI	_	6	dep	_	_	31.03	31.05	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	31.06	31.15	L1
+6	dit	dire	VPP	VPP	_	0	ROOT	_	_	31.16	31.40	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	31.41	31.43	L1
+8	les	le	DET	DET	_	9	spe	_	_	31.44	31.69	L1
+9	Belges	belge	NOM	NOM	_	14	periph	_	_	31.70	32.03	L1
+10	par#rapport#à	par rapport à	PRE	PRE	_	14	periph	_	_	32.07	32.45	L1
+11	la	le	DET	DET	_	12	spe	_	_	32.46	32.61	L1
+12	France	France	NOM	NOM	_	10	dep	_	_	32.62	32.94	L1
+13	ils	il	CLS	CLS	_	14	subj	_	_	33.02	33.07	L1
+14	sont	être	VRB	VRB	_	6	dep	_	_	33.08	33.13	L1
+15	d~	_	X	X	_	14	disflink	_	_	33.18	33.32	L1
+16	une	un	DET	DET	_	18	spe	_	_	33.33	33.59	L1
+17	bonne	bon	ADJ	ADJ	_	18	dep	_	_	33.60	33.81	L1
+18	dizaine	dizaine	NOM	NOM	_	14	dep	_	_	33.82	34.15	L1
+19	d'	de	PRE	PRE	_	18	dep	_	_	34.16	34.19	L1
+20	années	année	NOM	NOM	_	19	dep	_	_	34.20	34.30	L1
+21	en	en	PRE	PRE	_	14	dep	_	_	34.41	34.44	L1
+22	retard	retard	NOM	NOM	_	21	dep	_	_	34.59	34.84	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-19
+# text = et pourtant la
+1	et	et	COO	COO	_	2	mark	_	_	35.30	35.30	L2
+2	pourtant	pourtant	ADV	ADV	_	0	ROOT	_	_	35.31	35.31	L2
+3	la	le	DET	DET	_	2	dep	_	_	35.31	35.31	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-20
+# text = et ce qui fait que moi euh ben je suis dans la merde parce que j'ai il y a des trucs je saurai pas
+1	et	et	COO	COO	_	2	mark	_	_	35.87	35.89	L1
+2	ce	ce	PRO	PRO	_	0	ROOT	_	_	35.90	35.92	L1
+3	qui	_	PRQ	PRQ	_	4	subj	_	_	35.93	36.06	L1
+4	fait	faire	VRB	VRB	_	2	dep	_	_	36.07	36.14	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	36.15	36.26	L1
+6	moi	moi	PRO	PRO	_	10	periph	_	_	36.27	36.47	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	36.48	36.50	L1
+8	ben	ben	INT	INT	_	7	dm	_	_	36.51	36.66	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	36.67	36.69	L1
+10	suis	être	VRB	VRB	_	5	dep	_	_	36.70	36.78	L1
+11	dans	dans	PRE	PRE	_	10	dep	_	_	36.79	36.89	L1
+12	la	le	DET	DET	_	13	spe	_	_	36.90	36.95	L1
+13	merde	merde	NOM	NOM	_	11	dep	_	_	37.08	37.19	L1
+14	parce#que	parce que	CSU	CSU	_	10	dep	_	_	37.20	37.35	L1
+15	j'	je	CLS	CLS	_	16	subj	_	_	37.36	37.38	L1
+16	ai	avoir	VRB	VRB	_	14	dep	_	_	37.39	37.44	L1
+17	il	il	CLS	CLS	_	19	subj	_	_	37.45	37.50	L1
+18	y	y	CLI	CLI	_	19	dep	_	_	37.51	37.53	L1
+19	a	avoir	VRB	VRB	_	16	para	_	_	37.54	37.56	L1
+20	des	de	PRE	PRE	_	19	dep	_	_	37.57	37.69	L1
+21	trucs	truc	NOM	NOM	_	20	dep	_	_	37.84	38.09	L1
+22	je	je	CLS	CLS	_	23	subj	_	_	38.10	38.12	L1
+23	saurai	saurer	VRB	VRB	_	21	dep	_	_	38.13	38.26	L1
+24	pas	pas	ADN	ADN	_	23	dep	_	_	38.27	38.34	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-21
+# text = là tu as peur au niveau de ton diplôme quoi
+1	là	là	ADV	ADV	_	3	periph	_	_	38.44	38.58	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	38.59	38.65	L2
+3	as	avoir	VRB	VRB	_	0	ROOT	_	_	38.66	38.69	L2
+4	peur	peur	NOM	NOM	_	3	dep	_	_	38.70	38.80	L2
+5	au	à	PRE	PRE	_	4	dep	_	_	38.81	38.83	L2
+6	niveau	niveau	NOM	NOM	_	5	dep	_	_	38.84	39.10	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	39.11	39.18	L2
+8	ton	son	DET	DET	_	9	spe	_	_	39.19	39.24	L2
+9	diplôme	diplôme	NOM	NOM	_	7	dep	_	_	39.25	39.51	L2
+10	quoi	quoi	INT	INT	_	9	dm	_	_	39.89	40.04	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-22
+# text = puis ça aussi tu as peur que ce soit sera
+1	puis	puis	COO	COO	_	5	mark	_	_	40.06	40.06	L2
+2	ça	ça	PRO	PRO	_	5	subj	_	_	40.06	40.06	L2
+3	aussi	aussi	ADV	ADV	_	2	dep	_	_	40.06	40.06	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	40.07	40.07	L2
+5	as	avoir	VRB	VRB	_	0	ROOT	_	_	40.07	40.07	L2
+6	peur	peur	NOM	NOM	_	5	dep	_	_	40.07	40.07	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	40.07	40.07	L2
+8	ce	ce	CLS	CLS	_	9	subj	_	_	40.07	40.07	L2
+9	soit	être	VRB	VRB	_	7	dep	_	_	40.07	40.07	L2
+10	sera	être	VRB	VRB	_	9	para	_	_	40.07	40.07	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-23
+# text = non mais ouais le diplôme
+1	non	non	INT	INT	_	5	dm	_	_	40.94	40.99	L1
+2	mais	mais	COO	COO	_	5	mark	_	_	41.00	41.06	L1
+3	ouais	ouais	INT	INT	_	2	dm	_	_	41.07	41.13	L1
+4	le	le	DET	DET	_	5	spe	_	_	41.14	41.32	L1
+5	diplôme	diplôme	NOM	NOM	_	0	ROOT	_	_	41.33	41.61	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-24
+# text = mais même par rapport à mes connaissances quand je vais arriver en France je suis censée euh pouvoir adapter un fauteuil à un patient qui est qui a besoin d'un fauteuil roulant
+1	mais	mais	COO	COO	_	13	mark	_	_	41.62	41.71	L1
+2	même	même	ADV	ADV	_	3	dep	_	_	41.72	42.08	L1
+3	par#rapport#à	par rapport à	PRE	PRE	_	13	periph	_	_	42.09	42.53	L1
+4	mes	son	DET	DET	_	5	spe	_	_	42.57	42.72	L1
+5	connaissances	connaissance	NOM	NOM	_	3	dep	_	_	42.73	43.21	L1
+6	quand	quand	CSU	CSU	_	13	periph	_	_	43.39	43.44	L1
+7	je	je	CLS	CLS	_	8	subj	_	_	43.45	43.47	L1
+8	vais	aller	VRB	VRB	_	6	dep	_	_	43.48	43.53	L1
+9	arriver	arriver	VNF	VNF	_	8	dep	_	_	43.54	43.68	L1
+10	en	en	PRE	PRE	_	9	dep	_	_	43.69	43.78	L1
+11	France	France	NOM	NOM	_	10	dep	_	_	43.79	44.28	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	44.45	44.47	L1
+13	suis	être	VRB	VRB	_	0	ROOT	_	_	44.48	44.57	L1
+14	censée	censé	ADJ	ADJ	_	13	dep	_	_	44.58	44.91	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	44.92	45.20	L1
+16	pouvoir	pouvoir	VNF	VNF	_	14	dep	_	_	45.54	45.80	L1
+17	adapter	adapter	VNF	VNF	_	16	dep	_	_	45.81	46.18	L1
+18	un	un	DET	DET	_	19	spe	_	_	46.19	46.29	L1
+19	fauteuil	fauteuil	NOM	NOM	_	17	dep	_	_	46.30	46.90	L1
+20	à	à	PRE	PRE	_	19	dep	_	_	46.91	46.93	L1
+21	un	un	DET	DET	_	22	spe	_	_	46.94	47.13	L1
+22	patient	patient	NOM	NOM	_	20	dep	_	_	47.14	47.54	L1
+23	qui	_	PRQ	PRQ	_	24	subj	_	_	47.62	47.70	L1
+24	est	être	VRB	VRB	_	22	dep	_	_	47.80	47.95	L1
+25	qui	_	PRQ	PRQ	_	26	subj	_	_	48.04	48.10	L1
+26	a	avoir	VRB	VRB	_	24	para	_	_	48.11	48.16	L1
+27	besoin	besoin	NOM	NOM	_	26	dep	_	_	48.17	48.32	L1
+28	d'	de	PRE	PRE	_	27	dep	_	_	48.33	48.36	L1
+29	un	un	DET	DET	_	30	spe	_	_	48.37	48.42	L1
+30	fauteuil	fauteuil	NOM	NOM	_	28	dep	_	_	48.43	48.69	L1
+31	roulant	_	ADJ	ADJ	_	30	dep	_	_	48.70	48.97	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-25
+# text = je suis censée le le conseiller
+1	je	je	CLS	CLS	_	2	subj	_	_	49.67	49.69	L1
+2	suis	être	VRB	VRB	_	0	ROOT	_	_	49.70	49.88	L1
+3	censée	censé	ADJ	ADJ	_	2	dep	_	_	49.89	50.26	L1
+4	le	le	DET	DET	_	6	spe	_	_	50.27	50.37	L1
+5	le	le	DET	DET	_	4	para	_	_	50.38	50.41	L1
+6	conseiller	conseiller	NOM	NOM	_	3	dep	_	_	50.42	50.79	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-26
+# text = je suis censée lui montrer comment ça marche lui apprendre et tout ça
+1	je	je	CLS	CLS	_	2	subj	_	_	50.80	50.82	L1
+2	suis	être	VRB	VRB	_	0	ROOT	_	_	50.83	50.91	L1
+3	censée	censé	ADJ	ADJ	_	2	dep	_	_	50.92	51.08	L1
+4	lui	lui	CLI	CLI	_	5	dep	_	_	51.09	51.18	L1
+5	montrer	montrer	VNF	VNF	_	3	dep	_	_	51.19	51.36	L1
+6	comment	comment	PRQ	PRQ	_	8	dep	_	_	51.37	51.49	L1
+7	ça	ça	PRO	PRO	_	8	subj	_	_	51.50	51.55	L1
+8	marche	marcher	VRB	VRB	_	5	dep	_	_	51.56	51.73	L1
+9	lui	lui	CLI	CLI	_	10	dep	_	_	51.74	51.82	L1
+10	apprendre	apprendre	VNF	VNF	_	8	para	_	_	51.83	52.00	L1
+11	et	et	COO	COO	_	13	mark	_	_	52.01	52.03	L1
+12	tout	tout	ADJ	ADJ	_	13	dep	_	_	52.04	52.09	L1
+13	ça	ça	PRO	PRO	_	10	para	_	_	52.10	52.15	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-27
+# text = ouais mais c'est pas pas des trucs que tu apprends au fur et à mesure
+1	ouais	ouais	INT	INT	_	4	dm	_	_	52.21	52.34	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	52.43	52.48	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	52.49	52.51	L2
+4	est	être	VRB	VRB	_	0	ROOT	_	_	52.52	52.54	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	52.55	52.64	L2
+6	pas	pas	ADN	ADN	_	5	para	_	_	52.65	52.81	L2
+7	des	de	PRE	PRE	_	4	dep	_	_	52.82	52.92	L2
+8	trucs	truc	NOM	NOM	_	7	dep	_	_	52.93	53.16	L2
+9	que	que	CSU	CSU	_	8	dep	_	_	53.17	53.22	L2
+10	tu	tu	CLS	CLS	_	11	subj	_	_	53.23	53.28	L2
+11	apprends	apprendre	VRB	VRB	_	9	dep	_	_	53.29	53.67	L2
+12	au	à	PRE	PRE	_	11	dep	_	_	53.68	53.70	L2
+13	fur	fur	NOM	NOM	_	12	dep	_	_	53.76	53.84	L2
+14	et	et	COO	COO	_	15	mark	_	_	53.85	53.87	L2
+15	à	à	PRE	PRE	_	12	para	_	_	53.88	53.92	L2
+16	mesure	mesure	NOM	NOM	_	15	dep	_	_	53.93	54.19	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-28
+# text = euh tu sais les formations euh qui sont
+1	euh	euh	INT	INT	_	3	dm	_	_	54.25	54.42	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	54.43	54.48	L2
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	54.49	54.56	L2
+4	les	le	DET	DET	_	5	spe	_	_	54.57	54.71	L2
+5	formations	formation	NOM	NOM	_	3	dep	_	_	54.72	55.18	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	55.19	55.21	L2
+7	qui	_	PRQ	PRQ	_	8	subj	_	_	55.22	55.27	L2
+8	sont	être	VRB	VRB	_	5	dep	_	_	55.28	55.33	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-29
+# text = ben c'est ça
+1	ben	ben	INT	INT	_	3	dm	_	_	55.49	55.76	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	55.77	55.83	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	55.84	55.87	L1
+4	ça	ça	PRO	PRO	_	3	dep	_	_	55.88	55.94	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-30
+# text = je vais devoir en faire plein des formations parce que des trucs que je suis censée savoir à la sortie de l'école je les saurai pas hein
+1	je	je	CLS	CLS	_	2	subj	_	_	55.95	56.01	L1
+2	vais	aller	VRB	VRB	_	0	ROOT	_	_	56.02	56.20	L1
+3	devoir	devoir	VNF	VNF	_	2	dep	_	_	56.21	56.41	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	56.42	56.48	L1
+5	faire	-	VNF	VNF	_	3	dep	_	_	56.49	56.72	L1
+6	plein	plein	ADJ	ADJ	_	5	dep	_	_	56.77	56.95	L1
+7	des	de	PRE	PRE	_	5	dep	_	_	56.96	57.06	L1
+8	formations	formation	NOM	NOM	_	7	dep	_	_	57.07	57.49	L1
+9	parce#que	parce que	CSU	CSU	_	5	dep	_	_	57.57	57.77	L1
+10	des	de	PRE	PRE	_	25	periph	_	_	57.78	57.98	L1
+11	trucs	truc	NOM	NOM	_	10	dep	_	_	57.99	58.25	L1
+12	que	que	PRQ	PRQ	_	14	dep	_	_	58.26	58.30	L1
+13	je	je	CLS	CLS	_	14	subj	_	_	58.31	58.39	L1
+14	suis	être	VRB	VRB	_	11	dep	_	_	58.40	58.50	L1
+15	censée	censé	ADJ	ADJ	_	14	dep	_	_	58.51	58.72	L1
+16	savoir	savoir	NOM	NOM	_	15	dep	_	_	58.76	59.02	L1
+17	à	à	PRE	PRE	_	16	spe	_	_	59.03	59.11	L1
+18	la	le	DET	DET	_	19	spe	_	_	59.12	59.17	L1
+19	sortie	sortie	NOM	NOM	_	17	dep	_	_	59.18	59.40	L1
+20	de	de	PRE	PRE	_	19	dep	_	_	59.41	59.46	L1
+21	l'	le	DET	DET	_	22	spe	_	_	59.47	59.49	L1
+22	école	école	NOM	NOM	_	20	dep	_	_	59.50	59.77	L1
+23	je	je	CLS	CLS	_	25	subj	_	_	59.78	59.84	L1
+24	les	le	CLI	CLI	_	25	dep	_	_	59.85	59.97	L1
+25	saurai	saurer	VRB	VRB	_	9	dep	_	_	59.98	60.23	L1
+26	pas	pas	ADN	ADN	_	25	dep	_	_	60.30	60.37	L1
+27	hein	hein	INT	INT	_	26	dm	_	_	60.38	60.55	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-31
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	60.92	61.00	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-32
+# text = rien que ça en euh à l'école en France ils font même des bé~ des cours d'architecture pour l'adaptation du domicile
+1	rien	rien	PRO	PRO	_	12	periph	_	_	61.23	61.35	L1
+2	que	que	CSU	CSU	_	1	dep	_	_	61.36	61.41	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	61.42	61.78	L1
+4	en	en	PRE	PRE	_	12	periph	_	_	61.79	61.84	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	61.85	61.90	L1
+6	à	à	PRE	PRE	_	4	para	_	_	61.91	62.02	L1
+7	l'	le	DET	DET	_	8	spe	_	_	62.03	62.12	L1
+8	école	école	NOM	NOM	_	6	dep	_	_	62.13	62.48	L1
+9	en	en	PRE	PRE	_	12	periph	_	_	62.49	62.58	L1
+10	France	France	NOM	NOM	_	9	dep	_	_	62.59	62.90	L1
+11	ils	il	CLS	CLS	_	12	subj	_	_	62.91	62.99	L1
+12	font	faire	VRB	VRB	_	0	ROOT	_	_	63.00	63.15	L1
+13	même	même	ADV	ADV	_	12	dep	_	_	63.16	63.47	L1
+14	des	de	PRE	PRE	_	12	dep	_	_	63.48	63.58	L1
+15	bé~	_	NOM	NOM	_	14	dep	_	_	63.59	63.79	L1
+16	des	de	PRE	PRE	_	14	para	_	_	63.80	63.91	L1
+17	cours	cour	NOM	NOM	_	16	dep	_	_	64.01	64.10	L1
+18	d'	de	PRE	PRE	_	17	dep	_	_	64.11	64.13	L1
+19	architecture	architecture	NOM	NOM	_	18	dep	_	_	64.14	64.78	L1
+20	pour	pour	PRE	PRE	_	12	dep	_	_	64.88	65.00	L1
+21	l'	le	DET	DET	_	22	spe	_	_	65.01	65.03	L1
+22	adaptation	adaptation	NOM	NOM	_	20	dep	_	_	65.04	65.67	L1
+23	du	_	PRE	PRE	_	22	dep	_	_	65.68	65.73	L1
+24	domicile	domicile	NOM	NOM	_	23	dep	_	_	65.74	66.13	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-33
+# text = et tout ça c'est génial
+1	et	et	COO	COO	_	5	mark	_	_	66.14	66.16	L1
+2	tout	tout	ADJ	ADJ	_	3	dep	_	_	66.22	66.27	L1
+3	ça	ça	PRO	PRO	_	5	periph	_	_	66.28	66.46	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	66.55	66.57	L1
+5	est	être	VRB	VRB	_	0	ROOT	_	_	66.58	66.64	L1
+6	génial	génial	ADJ	ADJ	_	5	dep	_	_	66.65	67.14	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-34
+# text = ben c'est clair ouais
+1	ben	ben	INT	INT	_	3	dm	_	_	67.38	67.47	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	67.53	67.55	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	67.56	67.58	L2
+4	clair	clair	ADJ	ADJ	_	3	dep	_	_	67.59	67.72	L2
+5	ouais	ouais	INT	INT	_	4	dm	_	_	67.94	68.01	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-35
+# text = et nous on fait pas ça
+1	et	et	COO	COO	_	4	mark	_	_	68.08	68.10	L1
+2	nous	moi	PRO	PRO	_	4	periph	_	_	68.11	68.18	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	68.19	68.21	L1
+4	fait	faire	VRB	VRB	_	0	ROOT	_	_	68.22	68.35	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	68.43	68.56	L1
+6	ça	ça	PRO	PRO	_	4	dep	_	_	68.57	68.78	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-36
+# text = nous on fait quoi
+1	nous	moi	PRO	PRO	_	3	periph	_	_	68.79	68.93	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	68.94	68.97	L1
+3	fait	faire	VRB	VRB	_	0	ROOT	_	_	68.98	69.15	L1
+4	quoi	quoi	PRQ	PRQ	_	3	dep	_	_	69.16	69.27	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-37
+# text = on fait des paniers en osier quoi fran
+1	on	on	CLS	CLS	_	2	subj	_	_	69.28	69.34	L1
+2	fait	faire	VRB	VRB	_	0	ROOT	_	_	69.35	69.51	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	69.52	69.65	L1
+4	paniers	panier	NOM	NOM	_	3	dep	_	_	69.66	69.99	L1
+5	en	en	PRE	PRE	_	4	dep	_	_	70.00	70.21	L1
+6	osier	osier	NOM	NOM	_	5	dep	_	_	70.22	70.47	L1
+7	quoi	_	INT	INT	_	6	dm	_	_	70.68	70.76	L1
+8	fran	_	NOM	NOM	_	7	disflink	_	_	70.77	70.85	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-38
+# text = putain mais j'ai tous les trucs
+1	putain	putain	INT	INT	_	4	dm	_	_	71.76	71.90	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	71.91	72.19	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	72.20	72.22	L1
+4	ai	avoir	VRB	VRB	_	0	ROOT	_	_	72.23	72.60	L1
+5	tous	tout	ADJ	ADJ	_	7	dep	_	_	72.69	72.84	L1
+6	les	le	DET	DET	_	7	spe	_	_	72.85	72.96	L1
+7	trucs	truc	NOM	NOM	_	4	dep	_	_	72.97	73.30	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-39
+# text = j'aime pas euh à l'école euh
+1	j'	je	CLS	CLS	_	2	subj	_	_	73.31	73.34	L1
+2	aime	aimer	VRB	VRB	_	0	ROOT	_	_	73.35	73.51	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	73.58	73.94	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	73.95	73.97	L1
+5	à	à	PRE	PRE	_	2	dep	_	_	73.98	74.22	L1
+6	l'	le	DET	DET	_	7	spe	_	_	74.67	74.69	L1
+7	école	école	NOM	NOM	_	5	dep	_	_	74.70	75.06	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	75.07	75.10	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-40
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	75.16	75.29	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-41
+# text = en Belgique
+1	en	en	PRE	PRE	_	0	ROOT	_	_	75.35	75.46	L1
+2	Belgique	Belgique	NOM	NOM	_	1	dep	_	_	75.47	75.72	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-42
+# text = ça existe pas en France
+1	ça	ça	PRO	PRO	_	2	subj	_	_	75.73	75.90	L1
+2	existe	exister	VRB	VRB	_	0	ROOT	_	_	75.91	76.29	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	76.30	76.40	L1
+4	en	en	PRE	PRE	_	2	dep	_	_	76.41	76.51	L1
+5	France	France	NOM	NOM	_	4	dep	_	_	76.52	76.87	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-43
+# text = et ils font des trucs super quoi
+1	et	et	COO	COO	_	3	mark	_	_	76.88	76.91	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	76.92	76.97	L1
+3	font	faire	VRB	VRB	_	0	ROOT	_	_	76.98	77.10	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	77.11	77.16	L1
+5	trucs	truc	NOM	NOM	_	4	dep	_	_	77.17	77.30	L1
+6	super	super	ADJ	ADJ	_	5	dep	_	_	77.55	77.84	L1
+7	quoi	quoi	INT	INT	_	6	dm	_	_	77.97	78.05	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-44
+# text = elle m'a montré ses cours
+1	elle	il	CLS	CLS	_	4	subj	_	_	78.07	78.07	L1
+2	m'	me	CLI	CLI	_	4	dep	_	_	78.07	78.07	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	78.07	78.07	L1
+4	montré	montrer	VPP	VPP	_	0	ROOT	_	_	78.07	78.07	L1
+5	ses	son	DET	DET	_	6	spe	_	_	78.08	78.08	L1
+6	cours	cour	NOM	NOM	_	4	dep	_	_	78.08	78.08	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-45
+# text = mais c'est super
+1	mais	mais	COO	COO	_	3	mark	_	_	78.08	78.08	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	78.08	78.08	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	78.08	78.08	L1
+4	super	super	ADJ	ADJ	_	3	dep	_	_	78.08	78.08	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-46
+# text = mais tu peux pas revenir euh faire la suite de tes études en France
+1	mais	mais	COO	COO	_	3	mark	_	_	78.66	78.75	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	78.76	78.81	L2
+3	peux	pouvoir	VRB	VRB	_	0	ROOT	_	_	78.82	79.05	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	79.09	79.64	L2
+5	revenir	revenir	VNF	VNF	_	3	dep	_	_	79.65	79.99	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	80.00	80.02	L2
+7	faire	-	VNF	VNF	_	5	dep	_	_	80.03	80.14	L2
+8	la	le	DET	DET	_	9	spe	_	_	80.15	80.24	L2
+9	suite	suite	NOM	NOM	_	7	dep	_	_	80.25	80.53	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	80.54	80.58	L2
+11	tes	son	DET	DET	_	12	spe	_	_	80.59	80.70	L2
+12	études	étude	NOM	NOM	_	10	dep	_	_	80.71	80.94	L2
+13	en	en	PRE	PRE	_	7	dep	_	_	80.95	81.01	L2
+14	France	France	NOM	NOM	_	13	dep	_	_	81.10	81.32	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-47
+# text = je pense pas hein
+1	je	je	CLS	CLS	_	2	subj	_	_	82.06	82.08	L1
+2	pense	penser	VRB	VRB	_	0	ROOT	_	_	82.09	82.18	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	82.22	82.30	L1
+4	hein	hein	INT	INT	_	3	dm	_	_	82.31	82.44	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-48
+# text = parce que la Belgique tu dois avoir euh tu as tu as
+1	parce#que	parce que	CSU	CSU	_	0	ROOT	_	_	82.92	83.06	L2
+2	la	le	DET	DET	_	3	spe	_	_	83.07	83.12	L2
+3	Belgique	Belgique	NOM	NOM	_	5	periph	_	_	83.13	83.30	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	83.31	83.36	L2
+5	dois	devoir	VRB	VRB	_	1	dep	_	_	83.37	83.48	L2
+6	avoir	avoir	VNF	VNF	_	5	dep	_	_	83.49	83.61	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	83.62	83.64	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	83.65	83.74	L2
+9	as	avoir	VRB	VRB	_	6	para	_	_	83.75	83.77	L2
+10	tu	tu	CLS	CLS	_	11	subj	_	_	83.78	83.83	L2
+11	as	avoir	VRB	VRB	_	9	para	_	_	83.84	83.86	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-49
+# text = il y a pas d'équivalence
+1	il	il	CLS	CLS	_	3	subj	_	_	83.99	84.07	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	84.08	84.10	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	84.11	84.23	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	84.24	84.53	L1
+5	d'	de	PRE	PRE	_	3	dep	_	_	84.63	84.65	L1
+6	équivalence	équivalence	NOM	NOM	_	5	dep	_	_	84.66	84.98	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-50
+# text = comment on dit
+1	comment	comment	PRQ	PRQ	_	3	dep	_	_	85.45	85.67	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	85.68	85.70	L2
+3	dit	dire	VRB	VRB	_	0	ROOT	_	_	85.71	85.80	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-51
+# text = ouais tu as tu as pas l'équivalence
+1	ouais	ouais	INT	INT	_	3	dm	_	_	85.81	85.92	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	85.93	85.99	L2
+3	as	avoir	VRB	VRB	_	0	ROOT	_	_	86.00	86.18	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	86.19	86.24	L2
+5	as	avoir	VRB	VRB	_	3	para	_	_	86.25	86.28	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	86.29	86.37	L2
+7	l'	le	DET	DET	_	8	spe	_	_	86.38	86.40	L2
+8	équivalence	équivalence	NOM	NOM	_	5	dep	_	_	86.41	86.92	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-52
+# text = si
+1	si	_	ADV	ADV	_	0	ROOT	_	_	86.96	86.96	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-53
+# text = j'ai l'
+1	j'	je	CLS	CLS	_	2	subj	_	_	86.97	86.97	L1
+2	ai	avoir	VRB	VRB	_	0	ROOT	_	_	86.97	86.97	L1
+3	l'	le	DET	DET	_	2	dep	_	_	86.97	86.97	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-54
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	87.35	87.44	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-55
+# text = par rapport au diplôme
+1	par	par	PRE	PRE	_	0	ROOT	_	_	87.76	87.89	L1
+2	rapport	rapport	NOM	NOM	_	1	dep	_	_	87.90	88.04	L1
+3	au	à	PRE	PRE	_	2	dep	_	_	88.14	88.22	L1
+4	diplôme	diplôme	NOM	NOM	_	3	dep	_	_	88.23	88.51	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-56
+# text = mais euh là je pense pas que je
+1	mais	mais	COO	COO	_	5	mark	_	_	88.52	88.55	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	88.82	88.84	L1
+3	là	là	ADV	ADV	_	5	periph	_	_	88.85	88.93	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	88.94	89.06	L1
+5	pense	penser	VRB	VRB	_	0	ROOT	_	_	89.16	89.26	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	89.27	89.36	L1
+7	que	que	CSU	CSU	_	5	dep	_	_	89.37	89.39	L1
+8	je	je	CLS	CLS	_	7	disflink	_	_	89.51	89.61	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-57
+# text = et puis même je serais paumée hein en reprenant les études
+1	et#puis	et puis	COO	COO	_	4	mark	_	_	89.62	89.97	L1
+2	même	même	ADV	ADV	_	4	periph	_	_	89.98	90.25	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	90.26	90.32	L1
+4	serais	être	VRB	VRB	_	0	ROOT	_	_	90.33	90.45	L1
+5	paumée	paumer	VPP	VPP	_	4	dep	_	_	90.50	90.84	L1
+6	hein	hein	INT	INT	_	5	dm	_	_	90.85	90.87	L1
+7	en	en	PRE	PRE	_	5	dep	_	_	90.88	90.90	L1
+8	reprenant	reprendre	VPR	VPR	_	7	dep	_	_	91.40	91.56	L1
+9	les	le	DET	DET	_	10	spe	_	_	91.57	91.65	L1
+10	études	étude	NOM	NOM	_	8	dep	_	_	91.66	91.74	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-58
+# text = hein
+1	hein	hein	INT	INT	_	0	ROOT	_	_	91.80	91.94	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-59
+# text = il faudrait que je reprenne en première année
+1	il	il	CLS	CLS	_	2	subj	_	_	92.25	92.30	L1
+2	faudrait	falloir	VRB	VRB	_	0	ROOT	_	_	92.31	92.45	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	92.46	92.48	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	92.49	92.51	L1
+5	reprenne	reprendre	VRB	VRB	_	3	dep	_	_	92.52	92.77	L1
+6	en	en	PRE	PRE	_	5	dep	_	_	92.78	92.85	L1
+7	première	premier	ADJ	ADJ	_	8	spe	_	_	92.90	93.12	L1
+8	année	année	NOM	NOM	_	6	dep	_	_	93.13	93.21	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-60
+# text = ouais mais d'un autre coté enfin je sais pas c'est peut-être aussi des trucs que tu apprends quand même au fur et à mesure de de ton boulot quoi une fois que tu es
+1	ouais	ouais	INT	INT	_	12	dm	_	_	93.53	93.65	L2
+2	mais	mais	COO	COO	_	12	mark	_	_	93.66	93.71	L2
+3	d'	de	PRE	PRE	_	12	periph	_	_	93.72	93.74	L2
+4	un	un	DET	DET	_	6	spe	_	_	93.75	93.81	L2
+5	autre	autre	ADJ	ADJ	_	6	dep	_	_	93.82	93.90	L2
+6	coté	_	NOM	NOM	_	3	dep	_	_	93.91	94.14	L2
+7	enfin	enfin	ADV	ADV	_	6	dm	_	_	94.15	94.33	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	94.34	94.39	L2
+9	sais	savoir	VRB	VRB	_	7	dm	_	_	94.40	94.49	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	94.50	94.71	L2
+11	c'	ce	CLS	CLS	_	12	subj	_	_	95.08	95.10	L2
+12	est	être	VRB	VRB	_	0	ROOT	_	_	95.11	95.13	L2
+13	peut-être	peut-être	ADV	ADV	_	12	dep	_	_	95.14	95.31	L2
+14	aussi	aussi	ADV	ADV	_	12	dep	_	_	95.32	95.45	L2
+15	des	de	PRE	PRE	_	12	dep	_	_	95.46	95.57	L2
+16	trucs	truc	NOM	NOM	_	15	dep	_	_	95.58	95.76	L2
+17	que	que	PRQ	PRQ	_	19	dep	_	_	95.77	95.81	L2
+18	tu	tu	CLS	CLS	_	19	subj	_	_	95.82	95.87	L2
+19	apprends	apprendre	VRB	VRB	_	16	dep	_	_	95.88	96.12	L2
+20	quand#même	quand même	ADV	ADV	_	19	dep	_	_	96.13	96.35	L2
+21	au	à	PRE	PRE	_	19	dep	_	_	96.36	96.39	L2
+22	fur	fur	NOM	NOM	_	21	dep	_	_	96.40	96.57	L2
+23	et	et	COO	COO	_	24	mark	_	_	96.58	96.60	L2
+24	à#mesure#de	_	NOM	NOM	_	22	para	_	_	96.61	97.01	L2
+25	de	de	PRE	PRE	_	24	para	_	_	97.02	97.19	L2
+26	ton	son	DET	DET	_	27	spe	_	_	97.20	97.25	L2
+27	boulot	boulot	NOM	NOM	_	25	dep	_	_	97.35	97.47	L2
+28	quoi	_	INT	INT	_	27	dm	_	_	97.61	97.79	L2
+29	une#fois#que	une fois que	CSU	CSU	_	19	dep	_	_	97.85	97.85	L2
+30	tu	tu	CLS	CLS	_	31	subj	_	_	97.85	97.85	L2
+31	es	être	VRB	VRB	_	29	dep	_	_	97.85	97.85	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-61
+# text = ouais c'est
+1	ouais	ouais	INT	INT	_	3	dm	_	_	98.01	98.18	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	98.19	98.25	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	98.26	98.41	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-62
+# text = il y a des trucs
+1	il	il	CLS	CLS	_	3	subj	_	_	98.42	98.47	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	98.48	98.50	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	98.51	98.62	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	98.63	98.73	L1
+5	trucs	truc	NOM	NOM	_	4	dep	_	_	98.74	99.01	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-63
+# text = mais quand même
+1	mais	mais	COO	COO	_	2	mark	_	_	99.02	99.33	L1
+2	quand#même	quand même	ADV	ADV	_	0	ROOT	_	_	99.46	99.80	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-64
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	100.08	100.18	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-65
+# text = il y a plein de trucs que je saurai pas que ceux qui sortent de de l'école française ils sauront
+1	il	il	CLS	CLS	_	3	subj	_	_	100.53	100.60	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	100.61	100.63	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	100.64	100.66	L1
+4	plein	plein	NOM	NOM	_	3	dep	_	_	100.70	100.86	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	100.87	100.89	L1
+6	trucs	truc	NOM	NOM	_	5	dep	_	_	100.90	101.04	L1
+7	que	que	PRQ	PRQ	_	9	dep	_	_	101.09	101.16	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	101.17	101.29	L1
+9	saurai	saurer	VRB	VRB	_	6	dep	_	_	101.30	101.53	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	101.61	101.79	L1
+11	que	que	PRQ	PRQ	_	12	dep	_	_	101.80	101.83	L1
+12	ceux	celui	PRO	PRO	_	9	dep	_	_	101.84	101.95	L1
+13	qui	_	PRQ	PRQ	_	14	subj	_	_	102.01	102.11	L1
+14	sortent	sortir	VRB	VRB	_	12	dep	_	_	102.18	102.49	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	102.54	102.89	L1
+16	de	de	PRE	PRE	_	15	para	_	_	102.99	103.04	L1
+17	l'	le	DET	DET	_	18	spe	_	_	103.05	103.08	L1
+18	école	école	NOM	NOM	_	16	dep	_	_	103.09	103.35	L1
+19	française	français	ADJ	ADJ	_	18	dep	_	_	103.56	103.90	L1
+20	ils	il	CLS	CLS	_	21	subj	_	_	103.91	103.96	L1
+21	sauront	savoir	VRB	VRB	_	14	periph	_	_	104.05	104.20	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-66
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	104.62	104.67	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-67
+# text = tu vois ces cours là euh
+1	tu	tu	CLS	CLS	_	2	subj	_	_	105.33	105.40	L1
+2	vois	voir	VRB	VRB	_	0	ROOT	_	_	105.41	105.56	L1
+3	ces	ce	DET	DET	_	4	spe	_	_	105.57	105.80	L1
+4	cours	cour	NOM	NOM	_	2	dep	_	_	105.81	106.05	L1
+5	là	là	ADV	ADV	_	4	dep	_	_	106.06	106.31	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	106.32	106.45	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-68
+# text = là j'étais dans un service euh de neurologie
+1	là	là	ADV	ADV	_	3	periph	_	_	106.46	106.60	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	106.61	106.69	L1
+3	étais	être	VRB	VRB	_	0	ROOT	_	_	106.70	106.87	L1
+4	dans	dans	PRE	PRE	_	3	dep	_	_	106.88	107.05	L1
+5	un	un	DET	DET	_	6	spe	_	_	107.06	107.09	L1
+6	service	service	NOM	NOM	_	4	dep	_	_	107.16	107.66	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	107.88	107.92	L1
+8	de	de	PRE	PRE	_	6	dep	_	_	108.19	108.31	L1
+9	neurologie	neurologie	NOM	NOM	_	8	dep	_	_	108.32	109.13	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-69
+# text = il y avait euh enfin il y avait de la neuro et de l'ortho donc euh
+1	il	il	CLS	CLS	_	3	subj	_	_	109.19	109.28	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	109.29	109.34	L1
+3	avait	avoir	VRB	VRB	_	0	ROOT	_	_	109.35	109.57	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	109.58	109.60	L1
+5	enfin	enfin	ADV	ADV	_	8	dm	_	_	109.65	109.74	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	109.75	109.81	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	109.82	109.84	L1
+8	avait	avoir	VRB	VRB	_	3	para	_	_	109.85	109.99	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	110.00	110.07	L1
+10	la	le	DET	DET	_	11	spe	_	_	110.21	110.26	L1
+11	neuro	neurologie	NOM	NOM	_	9	dep	_	_	110.39	110.53	L1
+12	et	et	COO	COO	_	13	mark	_	_	110.64	110.82	L1
+13	de	de	PRE	PRE	_	9	para	_	_	110.83	110.93	L1
+14	l'	le	DET	DET	_	15	spe	_	_	110.94	110.97	L1
+15	ortho	_	NOM	NOM	_	13	dep	_	_	110.98	111.24	L1
+16	donc	donc	ADV	ADV	_	15	dm	_	_	111.48	111.56	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	111.57	111.62	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-70
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	111.77	112.01	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-71
+# text = des prothèses de hanche prothèses de genou
+1	des	de	PRE	PRE	_	0	ROOT	_	_	112.07	112.12	L1
+2	prothèses	prothèse	NOM	NOM	_	1	dep	_	_	112.13	112.30	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	112.34	112.36	L1
+4	hanche	hanche	NOM	NOM	_	3	dep	_	_	112.37	112.42	L1
+5	prothèses	prothèse	NOM	NOM	_	2	para	_	_	112.43	112.60	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	112.61	112.63	L1
+7	genou	genou	NOM	NOM	_	6	dep	_	_	112.64	112.72	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-72
+# text = ah ben oui là ton stage hum
+1	ah#ben	ah ben	INT	INT	_	5	dm	_	_	112.80	113.11	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	113.12	113.17	L2
+3	là	là	ADV	ADV	_	5	periph	_	_	113.18	113.27	L2
+4	ton	son	DET	DET	_	5	spe	_	_	113.38	113.44	L2
+5	stage	stage	NOM	NOM	_	0	ROOT	_	_	113.45	113.81	L2
+6	hum	hum	INT	INT	_	5	dm	_	_	113.82	114.00	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-73
+# text = des traumas crâniens
+1	des	de	PRE	PRE	_	0	ROOT	_	_	114.66	114.72	L1
+2	traumas	trauma	NOM	NOM	_	1	dep	_	_	114.73	114.95	L1
+3	crâniens	crânien	ADJ	ADJ	_	2	dep	_	_	115.03	115.46	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-74
+# text = et ça euh les les traumas crâniens j'ai fait mon rapport sur un un qui a
+1	et	et	COO	COO	_	10	mark	_	_	115.50	115.61	L1
+2	ça	ça	PRO	PRO	_	10	periph	_	_	115.68	115.85	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	116.10	116.12	L1
+4	les	le	DET	DET	_	6	spe	_	_	116.26	116.35	L1
+5	les	le	DET	DET	_	4	para	_	_	116.53	116.64	L1
+6	traumas	trauma	NOM	NOM	_	10	periph	_	_	116.73	116.97	L1
+7	crâniens	crânien	ADJ	ADJ	_	6	dep	_	_	116.98	117.22	L1
+8	j'	je	CLS	CLS	_	10	subj	_	_	117.28	117.34	L1
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	117.35	117.37	L1
+10	fait	-	VPP	VPP	_	0	ROOT	_	_	117.38	117.56	L1
+11	mon	son	DET	DET	_	12	spe	_	_	117.57	117.73	L1
+12	rapport	rapport	NOM	NOM	_	10	dep	_	_	117.74	118.00	L1
+13	sur	sur	PRE	PRE	_	12	dep	_	_	118.04	118.26	L1
+14	un	un	DET	DET	_	13	dep	_	_	118.78	118.83	L1
+15	un	un	NOM	NOM	_	14	para	_	_	119.09	119.15	L1
+16	qui	_	PRQ	PRQ	_	17	subj	_	_	119.19	119.28	L1
+17	a	avoir	VRB	VRB	_	15	dep	_	_	119.29	119.31	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-75
+# text = c'est quoi enfin ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	119.37	119.39	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	119.40	119.42	L2
+3	quoi	_	PRQ	PRQ	_	2	dep	_	_	119.43	119.57	L2
+4	enfin	enfin	ADV	ADV	_	3	dm	_	_	119.58	119.80	L2
+5	ça	ça	PRO	PRO	_	3	dep	_	_	119.81	120.02	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-76
+# text = c'est euh ben c'est un choc au niveau de la tête
+1	c'	ce	CLS	CLS	_	2	subj	_	_	120.90	120.92	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	120.93	121.47	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	121.89	121.91	L1
+4	ben	ben	INT	INT	_	3	dm	_	_	121.92	122.11	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	122.21	122.25	L1
+6	est	être	VRB	VRB	_	2	para	_	_	122.26	122.39	L1
+7	un	un	DET	DET	_	8	spe	_	_	122.40	122.52	L1
+8	choc	choc	NOM	NOM	_	6	dep	_	_	122.53	122.75	L1
+9	au	à	PRE	PRE	_	8	dep	_	_	123.59	123.64	L1
+10	niveau	niveau	NOM	NOM	_	9	dep	_	_	123.65	123.81	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	123.82	123.84	L1
+12	la	le	DET	DET	_	13	spe	_	_	123.85	123.91	L1
+13	tête	tête	NOM	NOM	_	11	dep	_	_	123.96	124.18	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-77
+# text = mais ça ç~ ça ç~
+1	mais	mais	COO	COO	_	2	mark	_	_	124.38	124.50	L2
+2	ça	ça	PRO	PRO	_	0	ROOT	_	_	124.51	124.56	L2
+3	ç~	_	X	X	_	2	disflink	_	_	124.57	124.65	L2
+4	ça	ça	PRO	PRO	_	2	para	_	_	124.66	124.72	L2
+5	ç~	_	X	X	_	4	disflink	_	_	124.73	124.78	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-78
+# text = et ça fait
+1	et	et	COO	COO	_	3	mark	_	_	124.86	124.88	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	124.89	125.06	L1
+3	fait	faire	VRB	VRB	_	0	ROOT	_	_	125.07	125.59	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-79
+# text = ben il y a une phase de coma
+1	ben	ben	INT	INT	_	4	dm	_	_	125.60	126.16	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	126.47	126.54	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	126.55	126.58	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	126.59	126.61	L1
+5	une	un	DET	DET	_	6	spe	_	_	126.62	126.70	L1
+6	phase	phase	NOM	NOM	_	4	dep	_	_	126.71	126.94	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	127.01	127.07	L1
+8	coma	coma	NOM	NOM	_	7	dep	_	_	127.17	127.51	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-80
+# text = donc moi le patient que j'avais il était dans le coma enfin en phase d'éveil
+1	donc	donc	ADV	ADV	_	9	periph	_	_	127.52	127.70	L1
+2	moi	moi	PRO	PRO	_	9	periph	_	_	127.71	127.90	L1
+3	le	le	DET	DET	_	4	spe	_	_	127.91	127.95	L1
+4	patient	patient	NOM	NOM	_	9	periph	_	_	127.96	128.25	L1
+5	que	que	PRQ	PRQ	_	7	dep	_	_	128.26	128.29	L1
+6	j'	je	CLS	CLS	_	7	subj	_	_	128.30	128.39	L1
+7	avais	avoir	VRB	VRB	_	4	dep	_	_	128.40	128.65	L1
+8	il	il	CLS	CLS	_	9	subj	_	_	128.71	128.76	L1
+9	était	être	VRB	VRB	_	0	ROOT	_	_	128.77	128.85	L1
+10	dans	dans	PRE	PRE	_	9	dep	_	_	128.86	128.91	L1
+11	le	le	DET	DET	_	12	spe	_	_	128.92	128.94	L1
+12	coma	coma	NOM	NOM	_	10	dep	_	_	128.95	129.09	L1
+13	enfin	enfin	ADV	ADV	_	12	dm	_	_	129.10	129.18	L1
+14	en	en	PRE	PRE	_	9	dep	_	_	129.19	129.24	L1
+15	phase	phase	NOM	NOM	_	14	dep	_	_	129.25	129.33	L1
+16	d'	de	PRE	PRE	_	15	dep	_	_	129.34	129.36	L1
+17	éveil	éveil	NOM	NOM	_	16	dep	_	_	129.69	129.80	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-81
+# text = mais ils ont des séquelles
+1	mais	mais	COO	COO	_	3	mark	_	_	130.07	130.17	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	130.18	130.24	L2
+3	ont	avoir	VRB	VRB	_	0	ROOT	_	_	130.25	130.27	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	130.35	130.50	L2
+5	séquelles	séquelle	NOM	NOM	_	4	dep	_	_	130.51	131.06	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-82
+# text = de coma eh oui
+1	de	de	PRE	PRE	_	0	ROOT	_	_	131.13	131.16	L1
+2	coma	coma	NOM	NOM	_	1	dep	_	_	131.17	131.49	L1
+3	eh	eh	INT	INT	_	2	dm	_	_	131.61	131.72	L1
+4	oui	oui	INT	INT	_	3	dm	_	_	131.73	131.85	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-83
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	132.28	132.43	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-84
+# text = et plus ils restent longtemps dans le
+1	et	et	COO	COO	_	4	mark	_	_	132.83	132.83	L1
+2	plus	plus	ADN	ADN	_	1	morph	_	_	132.83	132.83	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	132.83	132.83	L1
+4	restent	rester	VRB	VRB	_	0	ROOT	_	_	132.83	132.83	L1
+5	longtemps	longtemps	ADV	ADV	_	4	dep	_	_	132.84	132.84	L1
+6	dans	dans	PRE	PRE	_	4	dep	_	_	132.84	132.84	L1
+7	le	le	DET	DET	_	6	dep	_	_	132.84	132.84	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-85
+# text = moteur et tout
+1	moteur	moteur	NOM	NOM	_	0	ROOT	_	_	133.48	133.91	L2
+2	et	et	COO	COO	_	3	mark	_	_	133.97	133.99	L2
+3	tout	tout	ADV	ADV	_	1	para	_	_	134.00	134.07	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-86
+# text = plus ouais
+1	plus	plus	ADN	ADN	_	0	ROOT	_	_	134.57	134.71	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	134.75	134.88	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-87
+# text = et moi le jeune que j'avais là c'était un jeune de vingt ans qui a fait un accident de moto
+1	et	et	COO	COO	_	10	mark	_	_	136.15	136.24	L1
+2	moi	moi	PRO	PRO	_	10	periph	_	_	136.25	136.44	L1
+3	le	le	DET	DET	_	4	spe	_	_	136.45	136.58	L1
+4	jeune	jeune	NOM	NOM	_	10	periph	_	_	136.59	136.77	L1
+5	que	que	PRQ	PRQ	_	7	dep	_	_	136.86	136.88	L1
+6	j'	je	CLS	CLS	_	7	subj	_	_	136.89	136.96	L1
+7	avais	avoir	VRB	VRB	_	4	dep	_	_	136.97	137.17	L1
+8	là	là	ADV	ADV	_	10	periph	_	_	137.18	137.34	L1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	137.35	137.40	L1
+10	était	être	VRB	VRB	_	0	ROOT	_	_	137.41	137.49	L1
+11	un	un	DET	DET	_	12	spe	_	_	137.50	137.59	L1
+12	jeune	jeune	NOM	NOM	_	10	dep	_	_	137.60	137.81	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	137.82	137.94	L1
+14	vingt	_	NUM	NUM	_	15	spe	_	_	137.95	138.24	L1
+15	ans	an	NOM	NOM	_	13	dep	_	_	138.25	138.29	L1
+16	qui	_	PRQ	PRQ	_	18	subj	_	_	138.67	138.74	L1
+17	a	avoir	VRB	VRB	_	18	aux	_	_	138.75	138.77	L1
+18	fait	-	VPP	VPP	_	12	dep	_	_	138.78	138.94	L1
+19	un	un	DET	DET	_	20	spe	_	_	138.95	138.98	L1
+20	accident	accident	NOM	NOM	_	18	dep	_	_	138.99	139.16	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	139.26	139.44	L1
+22	moto	moto	NOM	NOM	_	21	dep	_	_	139.49	139.69	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-88
+# text = ah ça tu vas en avoir plein des accidents
+1	ah	ah	INT	INT	_	4	dm	_	_	140.17	140.20	L2
+2	ça	ça	PRO	PRO	_	4	periph	_	_	140.21	140.32	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	140.33	140.44	L2
+4	vas	aller	VRB	VRB	_	0	ROOT	_	_	140.45	140.52	L2
+5	en	en	CLI	CLI	_	6	dep	_	_	140.53	140.55	L2
+6	avoir	avoir	VNF	VNF	_	4	dep	_	_	140.56	140.73	L2
+7	plein	plein	ADJ	ADJ	_	6	dep	_	_	140.74	140.85	L2
+8	des	de	PRE	PRE	_	6	dep	_	_	140.86	140.91	L2
+9	accidents	accident	NOM	NOM	_	8	dep	_	_	140.92	141.10	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-89
+# text = ça hein
+1	ça	ça	PRO	PRO	_	0	ROOT	_	_	141.11	141.16	L2
+2	hein	hein	INT	INT	_	1	dm	_	_	141.17	141.22	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-90
+# text = et et c'était sup~
+1	et	et	COO	COO	_	4	mark	_	_	141.28	141.98	L1
+2	et	et	COO	COO	_	1	para	_	_	142.31	142.41	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	142.48	142.53	L1
+4	était	être	VRB	VRB	_	0	ROOT	_	_	142.54	142.74	L1
+5	sup~	_	ADJ	ADJ	_	4	dep	_	_	142.75	142.94	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-91
+# text = enfin dans le service-là il y avait plein de jeunes et tout
+1	enfin	enfin	ADV	ADV	_	7	dm	_	_	142.95	143.15	L1
+2	dans	dans	PRE	PRE	_	7	periph	_	_	143.16	143.30	L1
+3	le	le	DET	DET	_	4	spe	_	_	143.31	143.38	L1
+4	service-là	_	NOM	NOM	_	2	dep	_	_	143.39	143.96	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	143.97	144.02	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	144.03	144.05	L1
+7	avait	avoir	VRB	VRB	_	0	ROOT	_	_	144.06	144.15	L1
+8	plein	plein	ADJ	ADJ	_	7	dep	_	_	144.16	144.39	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	144.40	144.42	L1
+10	jeunes	jeune	ADJ	ADJ	_	9	dep	_	_	144.43	144.76	L1
+11	et	et	COO	COO	_	12	mark	_	_	145.12	145.19	L1
+12	tout	tout	ADV	ADV	_	10	para	_	_	145.20	145.25	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-92
+# text = des accidents de voiture
+1	des	de	PRE	PRE	_	0	ROOT	_	_	145.27	145.27	L1
+2	accidents	accident	NOM	NOM	_	1	dep	_	_	145.27	145.27	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	145.27	145.27	L1
+4	voiture	voiture	NOM	NOM	_	3	dep	_	_	145.27	145.27	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-93
+# text = et c'était horrible et
+1	et	et	COO	COO	_	3	mark	_	_	145.28	145.28	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	145.28	145.28	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	145.28	145.28	L1
+4	horrible	horrible	ADJ	ADJ	_	3	dep	_	_	145.28	145.28	L1
+5	et	et	COO	COO	_	4	disflink	_	_	145.28	145.28	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-94
+# text = ben tu vois hein ouais
+1	ben	ben	INT	INT	_	3	dm	_	_	146.10	146.15	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	146.16	146.34	L2
+3	vois	voir	VRB	VRB	_	0	ROOT	_	_	146.35	146.46	L2
+4	hein	hein	INT	INT	_	3	dm	_	_	146.47	146.60	L2
+5	ouais	ouais	INT	INT	_	4	dm	_	_	146.68	147.29	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-95
+# text = des traumas crâniens
+1	des	de	PRE	PRE	_	0	ROOT	_	_	147.64	147.69	L1
+2	traumas	trauma	NOM	NOM	_	1	dep	_	_	147.70	147.85	L1
+3	crâniens	crânien	ADJ	ADJ	_	2	dep	_	_	147.90	148.22	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-96
+# text = et c'est
+1	et	et	COO	COO	_	3	mark	_	_	148.23	148.36	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	148.43	148.46	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	148.47	148.63	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-97
+# text = tous euh en phase d'éveil de coma
+1	tous	tout	ADJ	ADJ	_	3	dep	_	_	148.79	149.11	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	149.12	149.22	L1
+3	en	en	PRE	PRE	_	0	ROOT	_	_	149.29	149.34	L1
+4	phase	phase	NOM	NOM	_	3	dep	_	_	149.39	149.76	L1
+5	d'	de	PRE	PRE	_	4	dep	_	_	149.77	149.79	L1
+6	éveil	éveil	NOM	NOM	_	5	dep	_	_	149.80	150.04	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	150.05	150.07	L1
+8	coma	coma	NOM	NOM	_	7	dep	_	_	150.08	150.42	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-98
+# text = donc c' est-à-dire qu'ils sont entre la phase de coma et la phase de conscience
+1	donc	donc	ADV	ADV	_	2	dm	_	_	150.94	151.02	L1
+2	c'#est-à-dire#qu'	c' est-à-dire qu'	CSU	CSU	_	0	ROOT	_	_	151.03	151.37	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	151.43	151.53	L1
+4	sont	être	VRB	VRB	_	2	dep	_	_	151.54	151.73	L1
+5	entre	entre	PRE	PRE	_	4	dep	_	_	151.74	152.06	L1
+6	la	le	DET	DET	_	7	spe	_	_	152.07	152.24	L1
+7	phase	phase	NOM	NOM	_	5	dep	_	_	152.25	152.52	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	152.65	152.71	L1
+9	coma	coma	NOM	NOM	_	8	dep	_	_	152.72	153.09	L1
+10	et	et	COO	COO	_	12	mark	_	_	153.17	153.23	L1
+11	la	le	DET	DET	_	12	spe	_	_	153.24	153.38	L1
+12	phase	phase	NOM	NOM	_	7	para	_	_	153.47	153.69	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	153.70	153.80	L1
+14	conscience	conscience	NOM	NOM	_	13	dep	_	_	153.81	154.32	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-99
+# text = hum donc
+1	hum	hum	INT	INT	_	2	dm	_	_	155.10	155.24	L2
+2	donc	donc	ADV	ADV	_	0	ROOT	_	_	155.25	155.33	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-100
+# text = donc ils savent
+1	donc	donc	ADV	ADV	_	3	periph	_	_	155.42	155.56	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	155.67	156.07	L1
+3	savent	savoir	VRB	VRB	_	0	ROOT	_	_	156.08	156.46	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-101
+# text = enfin parfois ils ont des des je sais pas comment dire des signes de conscience
+1	enfin	enfin	ADV	ADV	_	4	dm	_	_	156.59	156.84	L1
+2	parfois	_	ADV	ADV	_	4	periph	_	_	157.09	157.74	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	157.90	158.03	L1
+4	ont	avoir	VRB	VRB	_	0	ROOT	_	_	158.04	158.12	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	158.13	158.69	L1
+6	des	de	PRE	PRE	_	5	para	_	_	159.59	160.22	L1
+7	je	je	CLS	CLS	_	8	subj	_	_	160.72	160.74	L1
+8	sais	savoir	VRB	VRB	_	6	dm	_	_	160.75	160.80	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	160.81	160.86	L1
+10	comment	comment	PRQ	PRQ	_	11	dep	_	_	160.87	160.98	L1
+11	dire	dire	VNF	VNF	_	8	dep	_	_	160.99	161.07	L1
+12	des	de	PRE	PRE	_	6	para	_	_	161.08	161.13	L1
+13	signes	signe	NOM	NOM	_	12	dep	_	_	161.14	161.22	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	161.23	161.25	L1
+15	conscience	conscience	NOM	NOM	_	14	dep	_	_	161.37	161.54	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-102
+# text = ils s'éveillent ouais
+1	ils	il	CLS	CLS	_	3	subj	_	_	161.60	161.65	L2
+2	s'	se	CLI	CLI	_	3	dep	_	_	161.66	161.69	L2
+3	éveillent	éveiller	VRB	VRB	_	0	ROOT	_	_	161.70	162.21	L2
+4	ouais	ouais	INT	INT	_	3	dm	_	_	162.27	162.55	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-103
+# text = ouais si tu leur dis d'ouvrir les yeux
+1	ouais	ouais	INT	INT	_	2	dm	_	_	162.78	162.91	L1
+2	si	si	CSU	CSU	_	0	ROOT	_	_	162.92	162.99	L1
+3	tu	tu	CLS	CLS	_	5	subj	_	_	163.00	163.05	L1
+4	leur	lui	CLI	CLI	_	5	dep	_	_	163.06	163.14	L1
+5	dis	dire	VRB	VRB	_	2	dep	_	_	163.15	163.20	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	163.21	163.23	L1
+7	ouvrir	ouvrir	VNF	VNF	_	6	dep	_	_	163.24	163.38	L1
+8	les	le	DET	DET	_	9	spe	_	_	163.39	163.44	L1
+9	yeux	oeil	NOM	NOM	_	7	dep	_	_	163.45	163.50	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-104
+# text = mais ils ont pas les
+1	mais	mais	COO	COO	_	3	mark	_	_	163.56	163.66	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	163.67	163.85	L2
+3	ont	avoir	VRB	VRB	_	0	ROOT	_	_	163.86	163.94	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	163.95	164.14	L2
+5	les	le	DET	DET	_	3	dep	_	_	164.15	164.34	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-105
+# text = ils ouvrent les yeux
+1	ils	il	CLS	CLS	_	2	subj	_	_	164.42	164.53	L1
+2	ouvrent	ouvrer	VRB	VRB	_	0	ROOT	_	_	164.54	164.64	L1
+3	les	le	DET	DET	_	4	spe	_	_	164.68	164.74	L1
+4	yeux	oeil	NOM	NOM	_	2	dep	_	_	164.75	164.80	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-106
+# text = si tu leur dis de suivre des yeux ils suivent des yeux
+1	si	si	CSU	CSU	_	10	periph	_	_	164.81	164.88	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	164.89	164.99	L1
+3	leur	lui	CLI	CLI	_	4	dep	_	_	165.00	165.14	L1
+4	dis	dire	VRB	VRB	_	1	dep	_	_	165.15	165.20	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	165.27	165.32	L1
+6	suivre	suivre	VNF	VNF	_	5	dep	_	_	165.33	165.55	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	165.62	165.86	L1
+8	yeux	oeil	NOM	NOM	_	7	dep	_	_	165.87	165.94	L1
+9	ils	il	CLS	CLS	_	10	subj	_	_	165.95	166.00	L1
+10	suivent	suivre	VRB	VRB	_	0	ROOT	_	_	166.01	166.23	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	166.29	166.46	L1
+12	yeux	oeil	NOM	NOM	_	11	dep	_	_	166.47	166.59	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-107
+# text = ah ouais quand même
+1	ah	ah	INT	INT	_	3	dm	_	_	166.65	166.83	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	166.84	166.89	L2
+3	quand#même	quand même	ADV	ADV	_	0	ROOT	_	_	166.90	167.12	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-108
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	167.31	167.44	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-109
+# text = mais ils bougent pas quoi
+1	mais	mais	COO	COO	_	3	mark	_	_	167.84	167.90	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	167.91	167.97	L2
+3	bougent	bouger	VRB	VRB	_	0	ROOT	_	_	167.98	168.06	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	168.07	168.12	L2
+5	quoi	quoi	INT	INT	_	4	dm	_	_	168.13	168.21	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-110
+# text = non
+1	non	non	INT	INT	_	0	ROOT	_	_	168.66	168.83	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-111
+# text = c'est juste le regard euh et les mains
+1	c'	ce	CLS	CLS	_	2	subj	_	_	169.89	169.91	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	169.92	169.94	L2
+3	juste	juste	ADV	ADV	_	2	dep	_	_	169.95	170.06	L2
+4	le	le	DET	DET	_	5	spe	_	_	170.07	170.10	L2
+5	regard	regard	NOM	NOM	_	2	dep	_	_	170.11	170.50	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	170.51	170.58	L2
+7	et	et	COO	COO	_	9	mark	_	_	170.84	170.92	L2
+8	les	le	DET	DET	_	9	spe	_	_	170.93	171.06	L2
+9	mains	main	NOM	NOM	_	5	para	_	_	171.07	171.18	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-112
+# text = ils bougent les mains ou pas
+1	ils	il	CLS	CLS	_	2	subj	_	_	171.19	171.24	L2
+2	bougent	bouger	VRB	VRB	_	0	ROOT	_	_	171.25	171.34	L2
+3	les	le	DET	DET	_	4	spe	_	_	171.38	171.46	L2
+4	mains	main	NOM	NOM	_	2	dep	_	_	171.47	171.53	L2
+5	ou	ou	COO	COO	_	6	mark	_	_	171.54	171.56	L2
+6	pas	pas	ADN	ADN	_	2	dep	_	_	171.57	171.68	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-113
+# text = voilà lui il bougeait pas les mains
+1	voilà	voilà	INT	INT	_	4	dm	_	_	171.74	171.88	L1
+2	lui	moi	PRO	PRO	_	4	periph	_	_	171.89	172.00	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	172.01	172.04	L1
+4	bougeait	bouger	VRB	VRB	_	0	ROOT	_	_	172.05	172.28	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	172.29	172.41	L1
+6	les	le	DET	DET	_	7	spe	_	_	172.42	172.53	L1
+7	mains	main	NOM	NOM	_	4	dep	_	_	172.54	172.78	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-114
+# text = mais il y en a une autre qui était qui était là depuis plus longtemps qui était aussi en phase d'éveil
+1	mais	mais	COO	COO	_	5	mark	_	_	172.85	172.97	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	172.98	173.04	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	173.05	173.11	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	173.19	173.21	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	173.22	173.25	L1
+6	une	un	DET	DET	_	7	dep	_	_	173.26	173.44	L1
+7	autre	autre	ADJ	ADJ	_	5	dep	_	_	173.45	173.54	L1
+8	qui	_	PRQ	PRQ	_	9	subj	_	_	173.58	173.65	L1
+9	était	être	VRB	VRB	_	7	dep	_	_	173.66	173.82	L1
+10	qui	_	PRQ	PRQ	_	11	subj	_	_	173.83	174.03	L1
+11	était	être	VRB	VRB	_	9	para	_	_	174.19	174.37	L1
+12	là	là	ADV	ADV	_	11	dep	_	_	174.38	174.48	L1
+13	depuis	depuis	PRE	PRE	_	11	dep	_	_	174.49	174.67	L1
+14	plus	plus	ADN	ADN	_	15	dep	_	_	174.78	174.87	L1
+15	longtemps	longtemps	ADV	ADV	_	13	dep	_	_	174.88	175.20	L1
+16	qui	_	PRQ	PRQ	_	17	subj	_	_	175.33	175.38	L1
+17	était	être	VRB	VRB	_	11	para	_	_	175.39	175.53	L1
+18	aussi	aussi	ADV	ADV	_	17	dep	_	_	175.54	175.69	L1
+19	en	en	PRE	PRE	_	17	dep	_	_	175.70	175.76	L1
+20	phase	phase	NOM	NOM	_	19	dep	_	_	175.77	176.11	L1
+21	d'	de	PRE	PRE	_	20	dep	_	_	176.12	176.14	L1
+22	éveil	éveil	NOM	NOM	_	21	dep	_	_	176.15	176.39	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-115
+# text = et elle elle commençait à bouger sa main à lever le bras quand tu lui demandais
+1	et	et	COO	COO	_	4	mark	_	_	176.40	176.45	L1
+2	elle	il	CLS	CLS	_	4	subj	_	_	176.46	176.53	L1
+3	elle	il	CLS	CLS	_	2	para	_	_	176.63	176.69	L1
+4	commençait	commencer	VRB	VRB	_	0	ROOT	_	_	176.70	177.04	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	177.10	177.14	L1
+6	bouger	bouger	VNF	VNF	_	5	dep	_	_	177.19	177.33	L1
+7	sa	son	DET	DET	_	8	spe	_	_	177.34	177.58	L1
+8	main	main	NOM	NOM	_	6	dep	_	_	177.62	177.95	L1
+9	à	à	PRE	PRE	_	5	para	_	_	178.02	178.10	L1
+10	lever	lever	VNF	VNF	_	9	dep	_	_	178.11	178.42	L1
+11	le	le	DET	DET	_	12	spe	_	_	178.43	178.45	L1
+12	bras	bras	NOM	NOM	_	10	dep	_	_	178.46	178.54	L1
+13	quand	quand	CSU	CSU	_	4	dep	_	_	178.65	178.72	L1
+14	tu	tu	CLS	CLS	_	16	subj	_	_	178.78	178.89	L1
+15	lui	lui	CLI	CLI	_	16	dep	_	_	178.93	179.01	L1
+16	demandais	demander	VRB	VRB	_	13	dep	_	_	179.02	179.35	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-116
+# text = donc elle commence à s'éveiller un peu plus
+1	donc	donc	ADV	ADV	_	3	periph	_	_	179.36	179.44	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	180.00	180.15	L1
+3	commence	commencer	VRB	VRB	_	0	ROOT	_	_	180.16	180.44	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	180.45	180.53	L1
+5	s'	se	CLI	CLI	_	6	dep	_	_	180.54	180.62	L1
+6	éveiller	éveiller	VNF	VNF	_	4	dep	_	_	180.63	180.90	L1
+7	un#peu	un peu	ADV	ADV	_	8	dep	_	_	180.91	181.11	L1
+8	plus	plus	ADN	ADN	_	6	dep	_	_	181.28	181.40	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-117
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	181.63	181.70	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-118
+# text = et à la fin ils s'éveillent complètement
+1	et	et	COO	COO	_	7	mark	_	_	182.30	182.35	L1
+2	à	à	PRE	PRE	_	7	periph	_	_	182.36	182.38	L1
+3	la	le	DET	DET	_	4	spe	_	_	182.39	182.51	L1
+4	fin	fin	NOM	NOM	_	2	dep	_	_	182.58	182.80	L1
+5	ils	il	CLS	CLS	_	7	subj	_	_	182.81	182.86	L1
+6	s'	se	CLI	CLI	_	7	dep	_	_	182.87	182.94	L1
+7	éveillent	éveiller	VRB	VRB	_	0	ROOT	_	_	182.95	183.17	L1
+8	complètement	complètement	ADV	ADV	_	7	dep	_	_	183.18	183.75	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-119
+# text = donc là ils sont carrément conscients
+1	donc	donc	ADV	ADV	_	4	periph	_	_	184.33	184.44	L1
+2	là	là	ADV	ADV	_	4	periph	_	_	184.45	184.50	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	184.54	184.59	L1
+4	sont	être	VRB	VRB	_	0	ROOT	_	_	184.60	184.65	L1
+5	carrément	carrément	ADV	ADV	_	6	dep	_	_	184.66	184.92	L1
+6	conscients	conscient	ADJ	ADJ	_	4	dep	_	_	184.93	185.48	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-120
+# text = et puis ben là il faut faut les réadapter euh les rééduquer par rapport euh à leurs fonctions motrices quoi
+1	et#puis	et puis	COO	COO	_	5	mark	_	_	185.56	185.85	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	185.86	185.95	L1
+3	là	là	ADV	ADV	_	5	periph	_	_	186.02	186.08	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	186.09	186.14	L1
+5	faut	faillir	VRB	VRB	_	0	ROOT	_	_	186.15	186.42	L1
+6	faut	faillir	VRB	VRB	_	5	para	_	_	186.79	186.85	L1
+7	les	le	CLI	CLI	_	8	dep	_	_	186.86	186.96	L1
+8	réadapter	réadapter	VNF	VNF	_	6	dep	_	_	187.16	187.65	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	187.66	187.70	L1
+10	les	le	CLI	CLI	_	11	dep	_	_	188.49	188.61	L1
+11	rééduquer	rééduquer	VNF	VNF	_	8	para	_	_	188.62	189.04	L1
+12	par	par	PRE	PRE	_	11	dep	_	_	189.05	189.16	L1
+13	rapport	rapport	NOM	NOM	_	12	dep	_	_	189.17	189.34	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	189.35	189.38	L1
+15	à	à	PRE	PRE	_	13	dep	_	_	189.39	189.41	L1
+16	leurs	son	DET	DET	_	17	spe	_	_	189.53	189.61	L1
+17	fonctions	fonction	NOM	NOM	_	15	dep	_	_	189.62	189.87	L1
+18	motrices	moteur	ADJ	ADJ	_	17	dep	_	_	189.88	190.05	L1
+19	quoi	quoi	INT	INT	_	18	dm	_	_	190.06	190.15	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-121
+# text = mais ça fait un peu style euh
+1	mais	mais	COO	COO	_	3	mark	_	_	190.21	190.26	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	190.27	190.33	L2
+3	fait	faire	VRB	VRB	_	0	ROOT	_	_	190.34	190.39	L2
+4	un#peu	un peu	ADV	ADV	_	3	dep	_	_	190.40	190.70	L2
+5	style	style	NOM	NOM	_	3	dep	_	_	190.71	191.01	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	191.02	191.05	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-122
+# text = enfin ils sont un peu attardés
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	191.06	191.46	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	191.47	191.56	L2
+3	sont	être	VRB	VRB	_	0	ROOT	_	_	191.57	191.72	L2
+4	un#peu	un peu	ADV	ADV	_	5	dep	_	_	191.73	191.91	L2
+5	attardés	attarder	VPP	VPP	_	3	dep	_	_	191.92	192.48	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-123
+# text = ou il y a des des séquelles comme ça
+1	ou	ou	COO	COO	_	4	mark	_	_	192.54	192.57	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	192.58	192.63	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	192.64	192.66	L2
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	192.67	192.69	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	192.70	192.88	L2
+6	des	de	PRE	PRE	_	5	para	_	_	192.89	193.02	L2
+7	séquelles	séquelle	NOM	NOM	_	6	dep	_	_	193.03	193.26	L2
+8	comme	comme	PRE	PRE	_	7	dep	_	_	193.33	193.47	L2
+9	ça	ça	PRO	PRO	_	8	dep	_	_	193.48	193.66	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-124
+# text = ou c'est que moteur
+1	ou	ou	COO	COO	_	3	mark	_	_	193.67	193.70	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	193.71	193.77	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	193.78	193.84	L2
+4	que	que	ADN	ADN	_	3	dep	_	_	193.85	194.01	L2
+5	moteur	moteur	NOM	NOM	_	3	dep	_	_	194.02	194.48	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-125
+# text = et dans la tête tout marche bien quoi
+1	et	et	COO	COO	_	6	mark	_	_	194.49	194.54	L2
+2	dans	dans	PRE	PRE	_	6	periph	_	_	194.55	194.60	L2
+3	la	le	DET	DET	_	4	spe	_	_	194.61	194.66	L2
+4	tête	tête	NOM	NOM	_	2	dep	_	_	194.67	194.78	L2
+5	tout	tout	ADJ	ADJ	_	6	subj	_	_	194.79	194.81	L2
+6	marche	marcher	VRB	VRB	_	0	ROOT	_	_	194.82	195.09	L2
+7	bien	bien	ADV	ADV	_	6	dep	_	_	195.15	195.31	L2
+8	quoi	quoi	INT	INT	_	7	dm	_	_	195.46	195.59	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-126
+# text = ben ça dépend
+1	ben	ben	INT	INT	_	3	dm	_	_	195.65	195.76	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	195.86	195.92	L1
+3	dépend	dépendre	VRB	VRB	_	0	ROOT	_	_	196.02	196.23	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-127
+# text = c'est super euh aléatoire
+1	c'	ce	CLS	CLS	_	2	subj	_	_	196.67	196.72	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	196.73	196.77	L1
+3	super	super	ADJ	ADJ	_	5	dep	_	_	196.78	197.19	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	197.20	197.27	L1
+5	aléatoire	aléatoire	ADJ	ADJ	_	2	dep	_	_	197.39	197.68	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-128
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	197.78	197.80	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	197.81	198.03	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-129
+# text = c'est ça qui est chaud aussi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	198.44	198.46	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	198.47	198.49	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	198.50	198.55	L1
+4	qui	_	PRQ	PRQ	_	5	subj	_	_	198.56	198.64	L1
+5	est	être	VRB	VRB	_	3	dep	_	_	198.65	198.67	L1
+6	chaud	chaud	NOM	NOM	_	5	dep	_	_	198.76	198.94	L1
+7	aussi	aussi	ADV	ADV	_	5	dep	_	_	198.95	199.03	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-130
+# text = c'est que tu en as qui peuvent s'éveiller tu en as qui s'éveilleront pas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	199.55	199.58	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	199.59	199.65	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	199.66	199.68	L1
+4	tu	tu	CLS	CLS	_	6	subj	_	_	199.69	199.74	L1
+5	en	en	CLI	CLI	_	6	dep	_	_	199.75	199.78	L1
+6	as	avoir	VRB	VRB	_	3	dep	_	_	199.79	199.92	L1
+7	qui	_	PRQ	PRQ	_	8	subj	_	_	199.93	200.02	L1
+8	peuvent	pouvoir	VRB	VRB	_	6	dep	_	_	200.03	200.20	L1
+9	s'	se	CLI	CLI	_	10	dep	_	_	200.21	200.29	L1
+10	éveiller	éveiller	VNF	VNF	_	8	dep	_	_	200.30	200.63	L1
+11	tu	tu	CLS	CLS	_	13	subj	_	_	200.64	200.69	L1
+12	en	en	CLI	CLI	_	13	dep	_	_	200.70	200.79	L1
+13	as	avoir	VRB	VRB	_	6	para	_	_	200.80	200.88	L1
+14	qui	_	PRQ	PRQ	_	16	subj	_	_	200.89	200.94	L1
+15	s'	se	CLI	CLI	_	16	dep	_	_	200.95	200.97	L1
+16	éveilleront	éveiller	VRB	VRB	_	13	dep	_	_	201.02	201.25	L1
+17	pas	pas	ADN	ADN	_	16	dep	_	_	201.43	201.75	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-131
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	201.81	201.86	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-132
+# text = et celles qui s'éveillent ben ça il y aura des séquelles plus ou moins graves
+1	et	et	COO	COO	_	10	mark	_	_	201.99	202.15	L1
+2	celles	celui	PRO	PRO	_	10	periph	_	_	202.16	202.24	L1
+3	qui	_	PRQ	PRQ	_	5	subj	_	_	202.25	202.30	L1
+4	s'	se	CLI	CLI	_	5	dep	_	_	202.31	202.39	L1
+5	éveillent	éveiller	VRB	VRB	_	2	dep	_	_	202.40	202.57	L1
+6	ben	ben	INT	INT	_	5	dm	_	_	202.74	202.88	L1
+7	ça	ça	PRO	PRO	_	10	periph	_	_	202.89	202.94	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	202.95	203.00	L1
+9	y	y	CLI	CLI	_	10	dep	_	_	203.01	203.03	L1
+10	aura	avoir	VRB	VRB	_	0	ROOT	_	_	203.07	203.15	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	203.27	203.33	L1
+12	séquelles	séquelle	NOM	NOM	_	11	dep	_	_	203.34	203.48	L1
+13	plus#ou#moins	plus ou moins	ADV	ADV	_	14	dep	_	_	203.49	203.75	L1
+14	graves	grave	ADJ	ADJ	_	12	dep	_	_	203.76	204.08	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-133
+# text = ah il y en a qui se réveillent pas
+1	ah	ah	INT	INT	_	5	dm	_	_	204.18	204.37	L2
+2	il	il	CLS	CLS	_	5	subj	_	_	204.38	204.43	L2
+3	y	y	CLI	CLI	_	5	dep	_	_	204.44	204.48	L2
+4	en	en	CLI	CLI	_	5	dep	_	_	204.49	204.51	L2
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	204.52	204.54	L2
+6	qui	_	PRQ	PRQ	_	8	subj	_	_	204.55	204.60	L2
+7	se	se	CLI	CLI	_	8	dep	_	_	204.61	204.63	L2
+8	réveillent	réveiller	VRB	VRB	_	5	dep	_	_	204.64	204.88	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	204.93	205.06	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-134
+# text = non
+1	non	non	INT	INT	_	0	ROOT	_	_	205.21	205.30	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-135
+# text = et il y en a une qui
+1	et	et	COO	COO	_	5	mark	_	_	205.31	205.33	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	205.34	205.39	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	205.85	205.87	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	205.91	205.93	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	205.99	206.01	L1
+6	une	un	PRO	PRO	_	5	dep	_	_	206.02	206.07	L1
+7	qui	_	PRQ	PRQ	_	6	disflink	_	_	206.08	206.21	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-136
+# text = tu en as eu des cas
+1	tu	tu	CLS	CLS	_	4	subj	_	_	206.28	206.34	L2
+2	en	en	CLI	CLI	_	4	dep	_	_	206.35	206.37	L2
+3	as	avoir	VRB	VRB	_	4	aux	_	_	206.38	206.43	L2
+4	eu	-	VPP	VPP	_	0	ROOT	_	_	206.44	206.46	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	206.47	206.71	L2
+6	cas	cas	NOM	NOM	_	5	dep	_	_	206.72	206.80	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-137
+# text = était éveillée qui était éveillée euh depuis quelques mois
+1	était	être	VRB	VRB	_	0	ROOT	_	_	206.96	207.05	L1
+2	éveillée	éveillé	ADJ	ADJ	_	1	dep	_	_	207.06	207.60	L1
+3	qui	_	PRQ	PRQ	_	5	subj	_	_	208.95	209.04	L1
+4	était	être	VRB	VRB	_	5	aux	_	_	209.05	209.17	L1
+5	éveillée	éveiller	VPP	VPP	_	2	para	_	_	209.18	209.82	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	209.83	209.85	L1
+7	depuis	depuis	PRE	PRE	_	5	dep	_	_	209.86	210.40	L1
+8	quelques	quelque	ADJ	ADJ	_	9	spe	_	_	211.44	211.64	L1
+9	mois	moi	NOM	NOM	_	7	dep	_	_	211.84	212.08	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-138
+# text = elle parle pas mais par contre elle comprend tout ce que tu lui dis hein
+1	elle	il	CLS	CLS	_	2	subj	_	_	213.13	213.25	L1
+2	parle	parler	VRB	VRB	_	0	ROOT	_	_	213.26	213.53	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	213.58	213.84	L1
+4	mais	mais	COO	COO	_	7	mark	_	_	214.25	214.39	L1
+5	par#contre	par contre	ADV	ADV	_	7	periph	_	_	214.40	214.86	L1
+6	elle	il	CLS	CLS	_	7	subj	_	_	214.87	214.93	L1
+7	comprend	comprendre	VRB	VRB	_	2	para	_	_	214.94	215.24	L1
+8	tout	tout	ADJ	ADJ	_	9	dep	_	_	215.25	215.36	L1
+9	ce	ce	PRO	PRO	_	7	dep	_	_	215.37	215.39	L1
+10	que	que	PRQ	PRQ	_	13	dep	_	_	215.40	215.42	L1
+11	tu	tu	CLS	CLS	_	13	subj	_	_	215.43	215.53	L1
+12	lui	lui	CLI	CLI	_	13	dep	_	_	215.58	215.67	L1
+13	dis	dire	VRB	VRB	_	9	dep	_	_	215.68	215.75	L1
+14	hein	hein	INT	INT	_	13	dm	_	_	215.76	216.06	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-139
+# text = elle commence à savoir
+1	elle	il	CLS	CLS	_	2	subj	_	_	216.07	216.19	L1
+2	commence	commencer	VRB	VRB	_	0	ROOT	_	_	216.25	216.46	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	216.47	216.49	L1
+4	savoir	savoir	VNF	VNF	_	3	dep	_	_	216.50	216.78	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-140
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	216.86	217.01	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-141
+# text = prendre des choses euh
+1	prendre	-	VNF	VNF	_	0	ROOT	_	_	217.09	217.23	L1
+2	des	de	PRE	PRE	_	1	dep	_	_	217.24	217.36	L1
+3	choses	chose	NOM	NOM	_	2	dep	_	_	217.37	217.56	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	217.83	217.97	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-142
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	218.06	218.11	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-143
+# text = tout ça
+1	tout	tout	ADJ	ADJ	_	2	dep	_	_	218.19	218.24	L1
+2	ça	ça	PRO	PRO	_	0	ROOT	_	_	218.25	218.51	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-144
+# text = elle pousse
+1	elle	il	CLS	CLS	_	2	subj	_	_	218.52	218.57	L1
+2	pousse	pousser	VRB	VRB	_	0	ROOT	_	_	218.79	218.97	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-145
+# text = non ça doit être horrible ça
+1	non	non	INT	INT	_	3	dm	_	_	219.03	219.08	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	219.09	219.14	L2
+3	doit	devoir	VRB	VRB	_	0	ROOT	_	_	219.15	219.24	L2
+4	être	être	VNF	VNF	_	3	dep	_	_	219.25	219.35	L2
+5	horrible	horrible	ADJ	ADJ	_	4	dep	_	_	219.36	219.65	L2
+6	ça	ça	PRO	PRO	_	4	dep	_	_	219.84	220.04	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-146
+# text = moi je pourrais pas quoi
+1	moi	moi	PRO	PRO	_	3	periph	_	_	220.05	220.17	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	220.18	220.28	L2
+3	pourrais	pouvoir	VRB	VRB	_	0	ROOT	_	_	220.41	220.54	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	220.76	220.82	L2
+5	quoi	quoi	INT	INT	_	4	dm	_	_	220.83	220.95	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-147
+# text = ben ce qui est dur c'est que c'est des jeunes hein
+1	ben	ben	INT	INT	_	7	dm	_	_	221.01	221.06	L1
+2	ce	ce	PRO	PRO	_	7	periph	_	_	221.07	221.09	L1
+3	qui	_	PRQ	PRQ	_	4	subj	_	_	221.10	221.19	L1
+4	est	être	VRB	VRB	_	2	dep	_	_	221.20	221.31	L1
+5	dur	dur	ADJ	ADJ	_	4	dep	_	_	221.32	221.45	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	221.46	221.54	L1
+7	est	être	VRB	VRB	_	0	ROOT	_	_	221.55	221.57	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	221.58	221.60	L1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	221.61	221.63	L1
+10	est	être	VRB	VRB	_	8	dep	_	_	221.64	221.66	L1
+11	des	de	PRE	PRE	_	10	dep	_	_	221.67	221.72	L1
+12	jeunes	jeune	NOM	NOM	_	11	dep	_	_	221.73	221.81	L1
+13	hein	hein	INT	INT	_	12	dm	_	_	221.82	221.84	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-148
+# text = ben quand tu as ta tête qui marche quoi et que tu as
+1	ben	ben	INT	INT	_	2	dm	_	_	221.90	222.02	L2
+2	quand	quand	CSU	CSU	_	0	ROOT	_	_	222.03	222.22	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	222.23	222.30	L2
+4	as	avoir	VRB	VRB	_	2	dep	_	_	222.31	222.36	L2
+5	ta	son	DET	DET	_	6	spe	_	_	222.37	222.49	L2
+6	tête	tête	NOM	NOM	_	4	dep	_	_	222.50	222.58	L2
+7	qui	_	PRQ	PRQ	_	8	subj	_	_	222.59	222.73	L2
+8	marche	marcher	VRB	VRB	_	6	dep	_	_	222.74	223.06	L2
+9	quoi	quoi	INT	INT	_	8	dm	_	_	223.07	223.25	L2
+10	et	et	COO	COO	_	11	mark	_	_	223.26	223.28	L2
+11	que	que	CSU	CSU	_	2	para	_	_	223.29	223.34	L2
+12	tu	tu	CLS	CLS	_	13	subj	_	_	223.35	223.42	L2
+13	as	avoir	VRB	VRB	_	11	dep	_	_	223.43	223.75	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-149
+# text = tu sais je me suis toujours dit par exemple le jour où si un jour on a un accident et que tu tu es paralysée des jambes quoi
+1	tu	tu	CLS	CLS	_	2	subj	_	_	224.25	224.36	L2
+2	sais	savoir	VRB	VRB	_	11	dm	_	_	224.37	224.42	L2
+3	je	je	CLS	CLS	_	7	subj	_	_	224.43	224.53	L2
+4	me	me	CLI	CLI	_	7	dep	_	_	224.54	224.56	L2
+5	suis	être	VRB	VRB	_	7	aux	_	_	224.57	224.65	L2
+6	toujours	toujours	ADV	ADV	_	7	dep	_	_	224.66	224.80	L2
+7	dit	dire	VPP	VPP	_	2	dm	_	_	224.81	224.88	L2
+8	par	par	PRE	PRE	_	11	periph	_	_	224.89	225.07	L2
+9	exemple	exemple	NOM	NOM	_	8	dep	_	_	225.08	225.28	L2
+10	le	le	DET	DET	_	11	spe	_	_	225.29	225.31	L2
+11	jour	jour	NOM	NOM	_	0	ROOT	_	_	225.32	225.53	L2
+12	où	où	PRQ	PRQ	_	11	dep	_	_	225.54	225.70	L2
+13	si	si	CSU	CSU	_	11	para	_	_	225.71	225.89	L2
+14	un	un	DET	DET	_	15	spe	_	_	225.90	225.98	L2
+15	jour	jour	NOM	NOM	_	17	periph	_	_	225.99	226.10	L2
+16	on	on	CLS	CLS	_	17	subj	_	_	226.11	226.31	L2
+17	a	avoir	VRB	VRB	_	13	dep	_	_	226.32	226.47	L2
+18	un	un	DET	DET	_	19	spe	_	_	226.48	226.58	L2
+19	accident	accident	NOM	NOM	_	17	dep	_	_	226.59	226.90	L2
+20	et	et	COO	COO	_	25	mark	_	_	227.03	227.35	L2
+21	que	que	PRQ	PRQ	_	25	dep	_	_	227.36	227.38	L2
+22	tu	tu	CLS	CLS	_	25	subj	_	_	227.39	227.55	L2
+23	tu	tu	CLS	CLS	_	22	para	_	_	227.56	227.63	L2
+24	es	être	VRB	VRB	_	25	aux	_	_	227.64	227.70	L2
+25	paralysée	paralyser	VPP	VPP	_	17	para	_	_	227.71	228.13	L2
+26	des	de	PRE	PRE	_	25	dep	_	_	228.14	228.24	L2
+27	jambes	jambe	NOM	NOM	_	26	dep	_	_	228.25	228.46	L2
+28	quoi	quoi	INT	INT	_	27	dm	_	_	228.47	228.58	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-150
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	228.95	229.10	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-151
+# text = tu imagines dans ta tête
+1	tu	tu	CLS	CLS	_	2	subj	_	_	229.42	229.56	L2
+2	imagines	imaginer	VRB	VRB	_	0	ROOT	_	_	229.57	229.81	L2
+3	dans	dans	PRE	PRE	_	2	dep	_	_	229.82	229.89	L2
+4	ta	son	DET	DET	_	5	spe	_	_	229.90	230.04	L2
+5	tête	tête	NOM	NOM	_	3	dep	_	_	230.05	230.17	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-152
+# text = tu tu sais ce que ça fait de marcher
+1	tu	tu	CLS	CLS	_	3	subj	_	_	230.18	230.20	L2
+2	tu	tu	CLS	CLS	_	1	para	_	_	230.21	230.28	L2
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	230.33	230.62	L2
+4	ce	ce	PRO	PRO	_	3	dep	_	_	230.68	230.79	L2
+5	que	que	PRQ	PRQ	_	7	dep	_	_	230.80	230.86	L2
+6	ça	ça	PRO	PRO	_	7	subj	_	_	230.87	231.04	L2
+7	fait	faire	VRB	VRB	_	4	dep	_	_	231.05	231.17	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	231.18	231.20	L2
+9	marcher	marcher	VNF	VNF	_	8	dep	_	_	231.21	231.65	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-153
+# text = tu tu sais c'est comme euh
+1	tu	tu	CLS	CLS	_	3	subj	_	_	231.72	231.77	L2
+2	tu	tu	CLS	CLS	_	1	para	_	_	231.78	232.03	L2
+3	sais	savoir	VRB	VRB	_	5	dm	_	_	232.43	232.51	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	232.52	232.61	L2
+5	est	être	VRB	VRB	_	0	ROOT	_	_	232.62	232.68	L2
+6	comme	comme	PRE	PRE	_	5	dep	_	_	232.69	232.87	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	232.88	232.90	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-154
+# text = ben là il y a un jeune para~
+1	ben	ben	INT	INT	_	5	dm	_	_	232.99	233.07	L1
+2	là	là	ADV	ADV	_	5	periph	_	_	233.08	233.14	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	233.15	233.20	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	233.21	233.25	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	233.26	233.28	L1
+6	un	un	DET	DET	_	8	spe	_	_	233.29	233.48	L1
+7	jeune	jeune	ADJ	ADJ	_	8	dep	_	_	233.49	233.66	L1
+8	para~	_	NOM	NOM	_	5	dep	_	_	233.67	233.78	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-155
+# text = tu tu te sens marcher quoi
+1	tu	tu	CLS	CLS	_	4	subj	_	_	233.92	233.98	L2
+2	tu	tu	CLS	CLS	_	1	para	_	_	233.99	234.04	L2
+3	te	te	CLI	CLI	_	4	dep	_	_	234.05	234.07	L2
+4	sens	sentir	VRB	VRB	_	0	ROOT	_	_	234.08	234.28	L2
+5	marcher	marcher	VNF	VNF	_	4	dep	_	_	234.29	234.63	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	234.64	234.72	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-156
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	234.78	234.87	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-157
+# text = tu te dis allez hop
+1	tu	tu	CLS	CLS	_	3	subj	_	_	234.93	235.02	L2
+2	te	te	CLI	CLI	_	3	dep	_	_	235.03	235.06	L2
+3	dis	dire	VRB	VRB	_	0	ROOT	_	_	235.07	235.29	L2
+4	allez	aller	VRB	VRB	_	3	dm	_	_	235.30	235.50	L2
+5	hop	hop	INT	INT	_	4	dm	_	_	235.51	235.56	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-158
+# text = hum allez
+1	hum	hum	INT	INT	_	2	dm	_	_	235.57	236.22	L2
+2	allez	aller	VRB	VRB	_	0	ROOT	_	_	236.27	236.48	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-159
+# text = mets le pied devant
+1	mets	mettre	VRB	VRB	_	0	ROOT	_	_	236.49	236.70	L2
+2	le	le	DET	DET	_	3	spe	_	_	236.71	236.73	L2
+3	pied	pied	NOM	NOM	_	1	dep	_	_	236.74	236.97	L2
+4	devant	devant	PRE	PRE	_	1	dep	_	_	237.02	237.26	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-160
+# text = et puis tu vois que ça bouge pas
+1	et#puis	et puis	COO	COO	_	3	mark	_	_	237.27	237.39	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	237.40	237.51	L2
+3	vois	voir	VRB	VRB	_	0	ROOT	_	_	237.52	237.64	L2
+4	que	que	CSU	CSU	_	3	dep	_	_	237.65	237.68	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	237.69	237.86	L2
+6	bouge	bouger	VRB	VRB	_	4	dep	_	_	237.91	238.09	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	238.10	238.24	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-161
+# text = moi je pourrais pas hein
+1	moi	moi	PRO	PRO	_	3	periph	_	_	238.25	238.35	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	238.36	238.47	L2
+3	pourrais	pouvoir	VRB	VRB	_	0	ROOT	_	_	238.53	238.77	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	238.87	238.95	L2
+5	hein	hein	INT	INT	_	4	dm	_	_	238.96	239.09	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-162
+# text = tu sais c'est comme si tu étais enfermée dans ta bulle quoi
+1	tu	tu	CLS	CLS	_	2	subj	_	_	239.46	239.51	L2
+2	sais	savoir	VRB	VRB	_	4	dm	_	_	239.52	239.61	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	239.62	239.64	L2
+4	est	être	VRB	VRB	_	0	ROOT	_	_	239.65	239.67	L2
+5	comme	comme	PRE	PRE	_	4	dep	_	_	239.68	239.77	L2
+6	si	si	CSU	CSU	_	5	dep	_	_	239.78	239.83	L2
+7	tu	tu	CLS	CLS	_	9	subj	_	_	239.84	239.89	L2
+8	étais	être	VRB	VRB	_	9	aux	_	_	239.90	240.00	L2
+9	enfermée	enfermer	VPP	VPP	_	6	dep	_	_	240.01	240.23	L2
+10	dans	dans	PRE	PRE	_	9	dep	_	_	240.24	240.29	L2
+11	ta	son	DET	DET	_	12	spe	_	_	240.30	240.37	L2
+12	bulle	bulle	NOM	NOM	_	10	dep	_	_	240.38	240.46	L2
+13	quoi	quoi	INT	INT	_	12	dm	_	_	240.47	240.55	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-163
+# text = oh ça doit être horrible horrible
+1	oh	oh	INT	INT	_	3	dm	_	_	240.60	240.62	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	240.63	240.68	L2
+3	doit	devoir	VRB	VRB	_	0	ROOT	_	_	240.69	240.77	L2
+4	être	être	VNF	VNF	_	3	dep	_	_	240.78	240.86	L2
+5	horrible	horrible	ADJ	ADJ	_	4	dep	_	_	240.87	241.02	L2
+6	horrible	horrible	ADJ	ADJ	_	5	para	_	_	241.03	241.20	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-164
+# text = ouais je sais hum
+1	ouais	ouais	INT	INT	_	3	dm	_	_	241.26	241.42	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	241.43	241.46	L1
+3	sais	savoir	VRB	VRB	_	0	ROOT	_	_	241.47	241.66	L1
+4	hum	hum	INT	INT	_	3	dm	_	_	241.71	241.87	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-165
+# text = ben là il y a un jeune qui est arrivé justement paraplégique
+1	ben	ben	INT	INT	_	5	dm	_	_	241.88	242.11	L1
+2	là	là	ADV	ADV	_	5	periph	_	_	243.00	243.08	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	243.09	243.18	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	243.29	243.36	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	243.37	243.39	L1
+6	un	un	DET	DET	_	7	spe	_	_	243.40	243.46	L1
+7	jeune	jeune	NOM	NOM	_	5	dep	_	_	243.47	243.69	L1
+8	qui	_	PRQ	PRQ	_	10	subj	_	_	243.76	243.84	L1
+9	est	être	VRB	VRB	_	10	aux	_	_	243.95	243.98	L1
+10	arrivé	arriver	VPP	VPP	_	7	dep	_	_	243.99	244.30	L1
+11	justement	justement	ADV	ADV	_	10	dep	_	_	244.31	244.66	L1
+12	paraplégique	paraplégique	NOM	NOM	_	10	dep	_	_	244.67	245.32	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-166
+# text = oh mon dieu
+1	oh	oh	INT	INT	_	3	dm	_	_	245.99	246.01	L2
+2	mon	son	DET	DET	_	3	spe	_	_	246.02	246.07	L2
+3	dieu	dieu	NOM	NOM	_	0	ROOT	_	_	246.08	246.17	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-167
+# text = qui a fait pareil accident de moto
+1	qui	_	PRQ	PRQ	_	3	dep	_	_	246.23	246.28	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	246.29	246.32	L1
+3	fait	-	VPP	VPP	_	0	ROOT	_	_	246.33	246.38	L1
+4	pareil	pareil	ADJ	ADJ	_	3	dep	_	_	246.39	246.53	L1
+5	accident	accident	NOM	NOM	_	4	para	_	_	246.54	246.84	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	246.85	247.06	L1
+7	moto	moto	NOM	NOM	_	6	dep	_	_	247.20	247.32	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-168
+# text = une femme qui a grillé la priorité à droite
+1	une	un	DET	DET	_	2	spe	_	_	247.33	247.48	L1
+2	femme	femme	NOM	NOM	_	0	ROOT	_	_	247.49	247.58	L1
+3	qui	_	PRQ	PRQ	_	5	subj	_	_	247.59	247.64	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	247.65	247.68	L1
+5	grillé	griller	VPP	VPP	_	2	dep	_	_	247.72	247.89	L1
+6	la	le	DET	DET	_	7	spe	_	_	247.90	247.95	L1
+7	priorité	priorité	NOM	NOM	_	5	dep	_	_	247.96	248.22	L1
+8	à#droite	à droite	ADV	ADV	_	7	dep	_	_	248.23	249.00	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-169
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	249.27	249.41	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-170
+# text = il s'est pris la voiture
+1	il	il	CLS	CLS	_	4	subj	_	_	249.47	249.53	L1
+2	s'	se	CLI	CLI	_	4	dep	_	_	249.54	249.56	L1
+3	est	être	VRB	VRB	_	4	aux	_	_	249.57	249.59	L1
+4	pris	prendre	VPP	VPP	_	0	ROOT	_	_	249.60	249.68	L1
+5	la	le	DET	DET	_	6	spe	_	_	249.69	249.74	L1
+6	voiture	voiture	NOM	NOM	_	4	dep	_	_	249.75	249.93	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-171
+# text = mais il a pris bien
+1	mais	mais	COO	COO	_	4	mark	_	_	250.63	250.83	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	250.84	250.92	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	250.93	251.04	L1
+4	pris	prendre	VPP	VPP	_	0	ROOT	_	_	251.05	251.42	L1
+5	bien	bien	ADV	ADV	_	4	dep	_	_	251.54	252.08	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-172
+# text = mais j'ai les s~ les gens du service ils ont jamais vu ça
+1	mais	mais	COO	COO	_	3	mark	_	_	252.16	252.46	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	252.47	252.53	L1
+3	ai	avoir	VRB	VRB	_	0	ROOT	_	_	252.54	252.56	L1
+4	les	le	DET	DET	_	7	spe	_	_	252.60	252.68	L1
+5	s~	_	X	X	_	4	disflink	_	_	252.69	252.86	L1
+6	les	le	DET	DET	_	4	para	_	_	252.87	252.93	L1
+7	gens	gens	NOM	NOM	_	13	periph	_	_	252.94	253.02	L1
+8	du	_	PRE	PRE	_	7	dep	_	_	253.03	253.11	L1
+9	service	service	NOM	NOM	_	8	dep	_	_	253.12	253.40	L1
+10	ils	il	CLS	CLS	_	13	subj	_	_	253.47	253.64	L1
+11	ont	avoir	VRB	VRB	_	13	aux	_	_	253.82	253.84	L1
+12	jamais	jamais	ADN	ADN	_	13	dep	_	_	253.90	254.08	L1
+13	vu	voir	VPP	VPP	_	3	para	_	_	254.09	254.15	L1
+14	ça	ça	PRO	PRO	_	13	dep	_	_	254.16	254.33	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-173
+# text = le mec il récupère à une vit
+1	le	le	DET	DET	_	2	spe	_	_	254.55	254.72	L1
+2	mec	mec	NOM	NOM	_	4	periph	_	_	254.83	254.99	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	255.04	255.10	L1
+4	récupère	récupérer	VRB	VRB	_	0	ROOT	_	_	255.75	256.05	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	256.06	256.08	L1
+6	une	un	DET	DET	_	7	spe	_	_	256.14	256.21	L1
+7	vit	vit	NOM	NOM	_	5	dep	_	_	256.22	256.36	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-174
+# text = il avait quel âge
+1	il	il	CLS	CLS	_	2	subj	_	_	256.42	256.47	L2
+2	avait	avoir	VRB	VRB	_	0	ROOT	_	_	256.48	256.61	L2
+3	quel	quel	PRQ	PRQ	_	4	dep	_	_	256.62	256.75	L2
+4	âge	âge	NOM	NOM	_	2	dep	_	_	256.76	257.13	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-175
+# text = vingt ans
+1	vingt	_	NUM	NUM	_	2	spe	_	_	257.40	257.75	L1
+2	ans	an	NOM	NOM	_	0	ROOT	_	_	257.76	257.78	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-176
+# text = mais
+1	mais	mais	COO	COO	_	0	ROOT	_	_	257.79	257.84	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-177
+# text = punaise
+1	punaise	punaise	NOM	NOM	_	0	ROOT	_	_	259.19	259.42	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-178
+# text = il est même pas
+1	il	il	CLS	CLS	_	2	subj	_	_	259.50	259.56	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	259.57	259.59	L1
+3	même	même	ADV	ADV	_	4	dep	_	_	259.60	259.68	L1
+4	pas	pas	ADN	ADN	_	2	dep	_	_	259.69	259.82	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-179
+# text = il a même pas fait il a même pas eu une phase de deuil par rapport à ses jambes
+1	il	il	CLS	CLS	_	5	subj	_	_	259.88	260.00	L1
+2	a	avoir	VRB	VRB	_	5	aux	_	_	260.01	260.09	L1
+3	même	même	ADV	ADV	_	4	dep	_	_	260.10	260.27	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	260.28	260.40	L1
+5	fait	-	VPP	VPP	_	0	ROOT	_	_	260.41	260.62	L1
+6	il	il	CLS	CLS	_	10	subj	_	_	260.63	260.96	L1
+7	a	avoir	VRB	VRB	_	10	aux	_	_	260.97	261.01	L1
+8	même	même	ADV	ADV	_	9	dep	_	_	261.02	261.13	L1
+9	pas	pas	ADN	ADN	_	10	dep	_	_	261.14	261.28	L1
+10	eu	-	VPP	VPP	_	5	para	_	_	261.29	261.37	L1
+11	une	un	DET	DET	_	12	spe	_	_	261.38	261.41	L1
+12	phase	phase	NOM	NOM	_	10	dep	_	_	261.42	261.66	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	261.76	261.83	L1
+14	deuil	deuil	NOM	NOM	_	13	dep	_	_	261.84	262.14	L1
+15	par#rapport#à	par rapport à	PRE	PRE	_	12	dep	_	_	262.15	262.60	L1
+16	ses	son	DET	DET	_	17	spe	_	_	262.64	262.76	L1
+17	jambes	jambe	NOM	NOM	_	15	dep	_	_	262.77	262.90	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-180
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	262.96	263.01	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-181
+# text = c'est pour ça qu'ils s'inquiètent un peu quand même parce qu'il prend trop bien
+1	c'	ce	CLS	CLS	_	2	subj	_	_	263.11	263.16	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	263.17	263.23	L1
+3	pour	pour	PRE	PRE	_	2	dep	_	_	263.24	263.32	L1
+4	ça	ça	PRO	PRO	_	3	dep	_	_	263.33	263.39	L1
+5	qu'	que	PRQ	PRQ	_	8	dep	_	_	263.40	263.43	L1
+6	ils	il	CLS	CLS	_	8	subj	_	_	263.44	263.50	L1
+7	s'	se	CLI	CLI	_	8	dep	_	_	263.51	263.53	L1
+8	inquiètent	inquiéter	VRB	VRB	_	4	dep	_	_	263.54	263.69	L1
+9	un#peu	un peu	ADV	ADV	_	8	dep	_	_	263.70	263.88	L1
+10	quand#même	quand même	ADV	ADV	_	8	dep	_	_	263.92	264.20	L1
+11	parce#qu'	parce que	CSU	CSU	_	8	dep	_	_	264.21	264.49	L1
+12	il	il	CLS	CLS	_	13	subj	_	_	264.50	264.70	L1
+13	prend	prendre	VRB	VRB	_	11	dep	_	_	264.71	264.88	L1
+14	trop	trop	ADV	ADV	_	15	dep	_	_	265.02	265.11	L1
+15	bien	bien	ADV	ADV	_	13	dep	_	_	265.12	265.30	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-182
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	265.85	266.04	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-183
+# text = et ils ont peur qu'à un moment ou à un autre il retombe de haut quoi
+1	et	et	COO	COO	_	3	mark	_	_	266.10	266.12	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	266.13	266.18	L1
+3	ont	avoir	VRB	VRB	_	0	ROOT	_	_	266.19	266.23	L1
+4	peur	peur	NOM	NOM	_	3	dep	_	_	266.24	266.48	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	266.49	266.54	L1
+6	à	à	PRE	PRE	_	14	periph	_	_	266.55	266.59	L1
+7	un	un	DET	DET	_	8	spe	_	_	266.60	266.67	L1
+8	moment	moment	NOM	NOM	_	6	dep	_	_	266.68	266.82	L1
+9	ou	ou	COO	COO	_	10	mark	_	_	266.83	266.85	L1
+10	à	à	PRE	PRE	_	6	para	_	_	266.86	266.88	L1
+11	un	un	DET	DET	_	12	spe	_	_	266.89	266.91	L1
+12	autre	autre	NOM	NOM	_	10	dep	_	_	266.92	267.09	L1
+13	il	il	CLS	CLS	_	14	subj	_	_	267.10	267.15	L1
+14	retombe	retomber	VRB	VRB	_	5	dep	_	_	267.16	267.27	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	267.28	267.30	L1
+16	haut	haut	NOM	NOM	_	15	dep	_	_	267.31	267.33	L1
+17	quoi	quoi	INT	INT	_	16	dm	_	_	267.40	267.54	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-184
+# text = ouais c'est clair
+1	ouais	ouais	INT	INT	_	3	dm	_	_	267.65	267.73	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	267.74	267.76	L2
+3	est	être	VRB	VRB	_	0	ROOT	_	_	267.77	267.79	L2
+4	clair	clair	ADJ	ADJ	_	3	dep	_	_	267.80	267.91	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-185
+# text = je comprends hum
+1	je	je	CLS	CLS	_	2	subj	_	_	267.92	268.00	L2
+2	comprends	comprendre	VRB	VRB	_	0	ROOT	_	_	268.01	268.27	L2
+3	hum	hum	INT	INT	_	2	dm	_	_	268.52	268.64	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-186
+# text = forcément il faut qu'il y ait une phase euh
+1	forcément	forcément	ADV	ADV	_	3	periph	_	_	269.29	269.76	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	269.77	269.84	L1
+3	faut	faillir	VRB	VRB	_	0	ROOT	_	_	269.85	269.93	L1
+4	qu'	que	CSU	CSU	_	3	dep	_	_	269.94	269.98	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	269.99	270.06	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	270.07	270.10	L1
+7	ait	avoir	VRB	VRB	_	4	dep	_	_	270.11	270.15	L1
+8	une	un	DET	DET	_	9	spe	_	_	270.16	270.22	L1
+9	phase	phase	NOM	NOM	_	7	dep	_	_	270.23	270.77	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	270.78	270.80	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-187
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	271.47	271.62	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-188
+# text = de de deuil quoi euh
+1	de	de	PRE	PRE	_	0	ROOT	_	_	271.90	272.08	L1
+2	de	de	PRE	PRE	_	1	para	_	_	272.09	272.16	L1
+3	deuil	deuil	NOM	NOM	_	2	dep	_	_	272.17	272.36	L1
+4	quoi	quoi	INT	INT	_	3	dm	_	_	272.40	272.63	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	272.64	272.67	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-189
+# text = le fait qu'il fasse le deuil de ses jambes
+1	le	le	DET	DET	_	2	spe	_	_	272.68	272.84	L1
+2	fait	fait	NOM	NOM	_	0	ROOT	_	_	272.85	273.06	L1
+3	qu'	que	CSU	CSU	_	2	dep	_	_	273.07	273.09	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	273.19	273.24	L1
+5	fasse	faire	VRB	VRB	_	3	dep	_	_	273.25	273.45	L1
+6	le	le	DET	DET	_	7	spe	_	_	273.46	273.52	L1
+7	deuil	deuil	NOM	NOM	_	5	dep	_	_	273.53	273.75	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	273.76	273.78	L1
+9	ses	son	DET	DET	_	10	spe	_	_	273.79	273.97	L1
+10	jambes	jambe	NOM	NOM	_	8	dep	_	_	273.98	274.20	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-190
+# text = et là euh mais c'est
+1	et	et	COO	COO	_	6	mark	_	_	274.85	274.93	L1
+2	là	là	ADV	ADV	_	6	periph	_	_	274.94	274.99	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	275.00	275.03	L1
+4	mais	mais	COO	COO	_	6	mark	_	_	275.04	275.09	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	275.10	275.12	L1
+6	est	être	VRB	VRB	_	0	ROOT	_	_	275.13	275.17	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-191
+# text = hum putain c'est
+1	hum	hum	INT	INT	_	4	dm	_	_	275.28	275.66	L2
+2	putain	putain	INT	INT	_	1	dm	_	_	275.90	276.18	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	276.19	276.22	L2
+4	est	être	VRB	VRB	_	0	ROOT	_	_	276.23	276.32	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-192
+# text = incroyable comme il veut trop récupérer trop vite euh
+1	incroyable	incroyable	ADJ	ADJ	_	0	ROOT	_	_	276.39	276.91	L1
+2	comme	comme	CSU	CSU	_	1	dep	_	_	276.92	277.03	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	277.07	277.13	L1
+4	veut	vouloir	VRB	VRB	_	2	dep	_	_	277.14	277.35	L1
+5	trop	trop	ADV	ADV	_	6	dep	_	_	277.47	277.55	L1
+6	récupérer	récupérer	VNF	VNF	_	4	dep	_	_	277.65	278.16	L1
+7	trop	trop	ADV	ADV	_	8	dep	_	_	278.17	278.33	L1
+8	vite	vite	ADV	ADV	_	6	dep	_	_	278.34	278.96	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	278.97	279.02	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-193
+# text = il devait
+1	il	il	CLS	CLS	_	2	subj	_	_	280.04	280.04	L1
+2	devait	devoir	VRB	VRB	_	0	ROOT	_	_	280.04	280.04	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-194
+# text = normalement il porte un cors~ ouais
+1	normalement	normalement	ADV	ADV	_	3	periph	_	_	280.05	280.05	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	280.05	280.05	L1
+3	porte	porter	VRB	VRB	_	0	ROOT	_	_	280.05	280.05	L1
+4	un	un	DET	DET	_	5	spe	_	_	280.05	280.05	L1
+5	cors~	_	NOM	NOM	_	3	dep	_	_	280.05	280.05	L1
+6	ouais	ouais	INT	INT	_	5	dm	_	_	280.05	280.05	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-195
+# text = non mais c'est
+1	non	non	INT	INT	_	4	dm	_	_	280.05	280.05	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	280.05	280.05	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	280.05	280.05	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	280.05	280.05	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-196
+# text = il veut aller se venger
+1	il	il	CLS	CLS	_	2	subj	_	_	281.16	281.24	L2
+2	veut	vouloir	VRB	VRB	_	0	ROOT	_	_	281.25	281.52	L2
+3	aller	aller	VNF	VNF	_	2	dep	_	_	281.53	281.77	L2
+4	se	se	CLI	CLI	_	5	dep	_	_	282.00	282.02	L2
+5	venger	venger	VNF	VNF	_	2	dep	_	_	282.03	282.44	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-197
+# text = c'est ça sa phase de deuil
+1	c'	ce	CLS	CLS	_	2	subj	_	_	282.89	283.06	L2
+2	est	être	VRB	VRB	_	0	ROOT	_	_	283.29	283.45	L2
+3	ça	ça	PRO	PRO	_	2	dep	_	_	284.07	284.26	L2
+4	sa	son	DET	DET	_	5	spe	_	_	284.27	284.53	L2
+5	phase	phase	NOM	NOM	_	2	periph	_	_	284.54	284.76	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	284.81	284.97	L2
+7	deuil	deuil	NOM	NOM	_	6	dep	_	_	284.98	285.26	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-198
+# text = ils ont ils ont jamais vu ça
+1	ils	il	CLS	CLS	_	2	subj	_	_	285.65	285.71	L1
+2	ont	avoir	VRB	VRB	_	0	ROOT	_	_	285.72	285.76	L1
+3	ils	il	CLS	CLS	_	6	subj	_	_	285.90	285.95	L1
+4	ont	avoir	VRB	VRB	_	6	aux	_	_	286.09	286.14	L1
+5	jamais	jamais	ADN	ADN	_	6	dep	_	_	286.15	286.43	L1
+6	vu	voir	VPP	VPP	_	2	para	_	_	286.54	286.59	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	286.60	286.75	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-199
+# text = mais mais le mec il m'a trop impressionnée hein
+1	mais	mais	COO	COO	_	7	mark	_	_	287.85	288.21	L1
+2	mais	mais	COO	COO	_	1	para	_	_	288.22	288.33	L1
+3	le	le	DET	DET	_	4	spe	_	_	288.34	288.36	L1
+4	mec	mec	NOM	NOM	_	7	periph	_	_	288.37	288.45	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	288.46	288.52	L1
+6	m'	me	CLI	CLI	_	7	dep	_	_	288.53	288.58	L1
+7	a	avoir	VRB	VRB	_	0	ROOT	_	_	288.59	288.67	L1
+8	trop	trop	ADV	ADV	_	9	dep	_	_	288.77	288.87	L1
+9	impressionnée	impressionner	ADJ	ADJ	_	7	dep	_	_	288.88	289.49	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	289.50	289.83	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-200
+# text = même pas triste
+1	même	même	ADV	ADV	_	2	dep	_	_	289.84	289.99	L1
+2	pas	pas	ADN	ADN	_	3	dep	_	_	290.00	290.18	L1
+3	triste	triste	ADJ	ADJ	_	0	ROOT	_	_	290.30	290.46	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-201
+# text = jamais triste euh
+1	jamais	jamais	ADN	ADN	_	2	dep	_	_	290.64	291.01	L1
+2	triste	triste	ADJ	ADJ	_	0	ROOT	_	_	291.15	291.79	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	291.80	291.82	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-202
+# text = il est même content
+1	il	il	CLS	CLS	_	2	subj	_	_	292.48	292.63	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	292.64	292.72	L1
+3	même	même	ADV	ADV	_	4	dep	_	_	292.73	292.81	L1
+4	content	content	ADJ	ADJ	_	2	dep	_	_	292.87	293.21	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-203
+# text = tu sais ils on lui a euh donné un nouveau fauteuil roulant un truc euh
+1	tu	tu	CLS	CLS	_	2	subj	_	_	293.22	293.49	L1
+2	sais	savoir	VRB	VRB	_	8	dm	_	_	293.50	293.55	L1
+3	ils	il	CLS	CLS	_	8	subj	_	_	293.56	293.74	L1
+4	on	on	CLS	CLS	_	3	para	_	_	293.75	293.86	L1
+5	lui	lui	CLI	CLI	_	8	dep	_	_	293.87	293.96	L1
+6	a	avoir	VRB	VRB	_	8	aux	_	_	293.97	294.20	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	294.21	294.43	L1
+8	donné	donner	VPP	VPP	_	0	ROOT	_	_	294.44	294.69	L1
+9	un	un	DET	DET	_	11	spe	_	_	294.70	294.79	L1
+10	nouveau	nouveau	ADJ	ADJ	_	11	dep	_	_	294.80	295.01	L1
+11	fauteuil	fauteuil	NOM	NOM	_	8	dep	_	_	295.02	295.38	L1
+12	roulant	_	ADJ	ADJ	_	11	dep	_	_	295.39	295.74	L1
+13	un	un	DET	DET	_	14	spe	_	_	295.75	295.85	L1
+14	truc	truc	NOM	NOM	_	11	para	_	_	295.86	296.11	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	296.18	296.31	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-204
+# text = hum
+1	hum	hum	INT	INT	_	0	ROOT	_	_	296.37	296.47	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-205
+# text = les fauteuils roulants
+1	les	le	DET	DET	_	2	spe	_	_	297.18	297.23	L1
+2	fauteuils	fauteuil	NOM	NOM	_	0	ROOT	_	_	297.24	297.49	L1
+3	roulants	roulant	NOM	NOM	_	2	dep	_	_	297.50	298.01	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-206
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	ROOT	_	_	298.22	298.27	L2
+
+# sent_id = cefc-tcof-Ergotherapie_sch-207
+# text = dernière technologie et tout
+1	dernière	dernier	ADJ	ADJ	_	2	dep	_	_	298.34	298.54	L1
+2	technologie	technologie	NOM	NOM	_	0	ROOT	_	_	298.55	298.99	L1
+3	et	et	COO	COO	_	4	mark	_	_	299.00	299.04	L1
+4	tout	tout	ADV	ADV	_	2	para	_	_	300.13	300.24	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-208
+# text = il a dit ben tu vois je suis content d'être comme ça parce que sinon j'aurais jamais connu ça
+1	il	il	CLS	CLS	_	3	subj	_	_	300.25	300.30	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	300.31	300.35	L1
+3	dit	dire	VPP	VPP	_	0	ROOT	_	_	300.36	300.50	L1
+4	ben	ben	INT	INT	_	8	dm	_	_	300.51	300.73	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	300.74	300.83	L1
+6	vois	voir	VRB	VRB	_	4	dm	_	_	300.84	300.95	L1
+7	je	je	CLS	CLS	_	8	subj	_	_	300.96	301.00	L1
+8	suis	être	VRB	VRB	_	3	dep	_	_	301.01	301.11	L1
+9	content	content	ADJ	ADJ	_	8	dep	_	_	301.12	301.37	L1
+10	d'	de	PRE	PRE	_	9	dep	_	_	301.38	301.44	L1
+11	être	être	VNF	VNF	_	10	dep	_	_	301.45	301.57	L1
+12	comme	comme	PRE	PRE	_	11	dep	_	_	301.58	301.71	L1
+13	ça	ça	PRO	PRO	_	12	dep	_	_	301.72	301.87	L1
+14	parce#que	parce que	CSU	CSU	_	8	dep	_	_	301.98	302.15	L1
+15	sinon	sinon	ADV	ADV	_	19	periph	_	_	302.16	302.35	L1
+16	j'	je	CLS	CLS	_	19	subj	_	_	302.36	302.45	L1
+17	aurais	avoir	VRB	VRB	_	19	aux	_	_	302.46	302.58	L1
+18	jamais	jamais	ADN	ADN	_	19	dep	_	_	302.59	302.84	L1
+19	connu	connaître	VPP	VPP	_	14	dep	_	_	302.85	303.15	L1
+20	ça	ça	PRO	PRO	_	19	dep	_	_	303.19	303.27	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-209
+# text = tu vois des phrases comme ça il sort
+1	tu	tu	CLS	CLS	_	2	subj	_	_	304.50	304.55	L1
+2	vois	voir	VRB	VRB	_	8	dm	_	_	304.56	304.64	L1
+3	des	de	PRE	PRE	_	8	periph	_	_	304.65	304.78	L1
+4	phrases	phrase	NOM	NOM	_	3	dep	_	_	304.79	305.02	L1
+5	comme	comme	PRE	PRE	_	4	dep	_	_	305.07	305.20	L1
+6	ça	ça	PRO	PRO	_	5	dep	_	_	305.21	305.26	L1
+7	il	il	CLS	CLS	_	8	subj	_	_	305.27	305.32	L1
+8	sort	sortir	VRB	VRB	_	0	ROOT	_	_	305.33	305.41	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-210
+# text = mais c'est incroyable
+1	mais	mais	COO	COO	_	3	mark	_	_	305.42	305.54	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	305.66	305.68	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	305.69	305.71	L1
+4	incroyable	incroyable	ADJ	ADJ	_	3	dep	_	_	305.72	306.25	L1
+
+# sent_id = cefc-tcof-Ergotherapie_sch-211
+# text = punaise et mais il a de la
+1	punaise	punaise	INT	INT	_	5	dm	_	_	306.41	306.55	L2
+2	et	et	COO	COO	_	5	mark	_	_	306.56	306.60	L2
+3	mais	mais	COO	COO	_	2	para	_	_	306.61	306.91	L2
+4	il	il	CLS	CLS	_	5	subj	_	_	306.92	307.05	L2
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	307.06	307.16	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	307.17	307.19	L2
+7	la	le	DET	DET	_	6	dep	_	_	307.20	307.28	L2
+

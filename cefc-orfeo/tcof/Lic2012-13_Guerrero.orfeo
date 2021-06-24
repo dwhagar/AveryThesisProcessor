@@ -1,0 +1,1160 @@
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-1
+# text = bonjour
+1	bonjour	bonjour	INT	INT	_	0	ROOT	_	_	1.52	1.91	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-2
+# text = alors voilà je m'appelle NNAAMMEE
+1	alors	alors	ADV	ADV	_	5	periph	_	_	1.91	2.35	L1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	2.35	2.68	L1
+3	je	je	CLS	CLS	_	5	subj	_	_	2.68	2.71	L1
+4	m'	me	CLI	CLI	_	5	dep	_	_	2.71	2.74	L1
+5	appelle	appeler	VRB	VRB	_	0	ROOT	_	_	2.74	3.08	L1
+6	NNAAMMEE	NNAAMMEE	NOM	NOM	_	5	dep	_	_	3.08	4.31	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-3
+# text = et je vais vous raconter euh mon dernier voyage
+1	et	et	COO	COO	_	3	mark	_	_	5.06	5.11	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	5.11	5.21	L1
+3	vais	aller	VRB	VRB	_	0	ROOT	_	_	5.21	5.40	L1
+4	vous	vous	CLI	CLI	_	5	dep	_	_	5.40	5.48	L1
+5	raconter	raconter	VNF	VNF	_	3	dep	_	_	5.48	6.08	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	6.08	6.51	L1
+7	mon	son	DET	DET	_	9	spe	_	_	6.51	6.84	L1
+8	dernier	dernier	ADJ	ADJ	_	9	dep	_	_	6.84	7.12	L1
+9	voyage	voyage	NOM	NOM	_	5	dep	_	_	7.12	7.70	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-4
+# text = c'était pendant les vacances de février
+1	c'	ce	CLS	CLS	_	2	subj	_	_	7.70	7.79	L1
+2	était	être	VRB	VRB	_	0	ROOT	_	_	7.79	7.93	L1
+3	pendant	pendant	PRE	PRE	_	2	dep	_	_	7.93	8.17	L1
+4	les	le	DET	DET	_	5	spe	_	_	8.17	8.25	L1
+5	vacances	vacance	NOM	NOM	_	3	dep	_	_	8.25	8.81	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	8.86	8.98	L1
+7	février	février	NOM	NOM	_	6	dep	_	_	8.98	9.66	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-5
+# text = et je suis rentrée euh dimanche
+1	et	et	COO	COO	_	4	mark	_	_	10.27	10.30	L1
+2	je	je	CLS	CLS	_	4	subj	_	_	10.39	10.43	L1
+3	suis	être	VRB	VRB	_	4	aux	_	_	10.43	10.55	L1
+4	rentrée	rentrer	VPP	VPP	_	0	ROOT	_	_	10.55	11.04	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	11.04	11.10	L1
+6	dimanche	dimanche	NOM	NOM	_	4	dep	_	_	11.44	12.03	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-6
+# text = et c'était à Dubaï
+1	et	et	COO	COO	_	3	mark	_	_	12.03	12.10	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	12.10	12.18	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	12.18	12.38	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	12.38	12.53	L1
+5	Dubaï	_	NOM	NOM	_	4	dep	_	_	12.53	12.87	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-7
+# text = alors voilà euh j'ai choisi de partir là-bas parce que c'est une destination facile pour
+1	alors	alors	ADV	ADV	_	6	periph	_	_	14.02	14.28	L1
+2	voilà	voilà	INT	INT	_	1	dm	_	_	14.28	14.91	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	14.91	15.24	L1
+4	j'	je	CLS	CLS	_	6	subj	_	_	15.31	15.53	L1
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	15.53	15.56	L1
+6	choisi	choisir	VPP	VPP	_	0	ROOT	_	_	15.56	16.60	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	16.67	16.78	L1
+8	partir	partir	VNF	VNF	_	7	dep	_	_	16.78	17.15	L1
+9	là-bas	là-bas	ADV	ADV	_	8	dep	_	_	17.15	17.52	L1
+10	parce#que	parce que	CSU	CSU	_	6	dep	_	_	17.56	18.22	L1
+11	c'	ce	CLS	CLS	_	12	subj	_	_	19.01	19.13	L1
+12	est	être	VRB	VRB	_	10	dep	_	_	19.13	19.19	L1
+13	une	un	DET	DET	_	14	spe	_	_	19.19	19.28	L1
+14	destination	destination	NOM	NOM	_	12	dep	_	_	19.28	19.77	L1
+15	facile	facile	ADJ	ADJ	_	14	dep	_	_	19.77	20.78	L1
+16	pour	pour	PRE	PRE	_	12	dep	_	_	20.89	21.14	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-8
+# text = pas beaucoup de personnes m'avaient dit que rester de cinq à sept jours là-bas ça suffisait largement
+1	pas	pas	ADN	ADN	_	2	dep	_	_	21.14	21.24	L1
+2	beaucoup	beaucoup	ADV	ADV	_	7	subj	_	_	21.24	22.14	L1
+3	de	de	PRE	PRE	_	2	dep	_	_	22.14	22.18	L1
+4	personnes	personne	NOM	NOM	_	3	dep	_	_	22.18	22.53	L1
+5	m'	me	CLI	CLI	_	7	dep	_	_	22.53	22.59	L1
+6	avaient	avoir	VRB	VRB	_	7	aux	_	_	22.59	22.78	L1
+7	dit	dire	VPP	VPP	_	0	ROOT	_	_	22.78	23.02	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	23.02	23.59	L1
+9	rester	rester	VNF	VNF	_	17	periph	_	_	24.05	24.53	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	24.53	25.13	L1
+11	cinq	_	NUM	NUM	_	10	dep	_	_	25.34	25.70	L1
+12	à	à	PRE	PRE	_	10	para	_	_	25.70	25.77	L1
+13	sept	_	NUM	NUM	_	14	spe	_	_	25.77	25.97	L1
+14	jours	jour	NOM	NOM	_	12	dep	_	_	25.97	26.31	L1
+15	là-bas	là-bas	ADV	ADV	_	9	dep	_	_	26.31	26.74	L1
+16	ça	ça	PRO	PRO	_	17	subj	_	_	26.95	27.13	L1
+17	suffisait	suffire	VRB	VRB	_	8	dep	_	_	27.13	27.52	L1
+18	largement	largement	ADV	ADV	_	17	dep	_	_	27.52	28.10	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-9
+# text = donc je me suis dit que c'était l'occasion
+1	donc	donc	ADV	ADV	_	5	periph	_	_	28.91	29.28	L1
+2	je	je	CLS	CLS	_	5	subj	_	_	29.28	29.43	L1
+3	me	me	CLI	CLI	_	5	dep	_	_	29.43	29.51	L1
+4	suis	être	VRB	VRB	_	5	aux	_	_	29.51	29.65	L1
+5	dit	dire	VPP	VPP	_	0	ROOT	_	_	29.65	29.74	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	29.74	29.79	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	29.79	29.85	L1
+8	était	être	VRB	VRB	_	6	dep	_	_	29.85	30.01	L1
+9	l'	le	DET	DET	_	10	spe	_	_	30.01	30.06	L1
+10	occasion	occasion	NOM	NOM	_	8	dep	_	_	30.06	30.79	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-10
+# text = euh il y a pas beaucoup d'heures de décalage
+1	euh	euh	INT	INT	_	4	dm	_	_	31.84	32.64	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	32.64	32.71	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	32.71	32.76	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	32.76	32.83	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	32.83	32.98	L1
+6	beaucoup	beaucoup	PRO	PRO	_	4	dep	_	_	32.98	33.21	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	33.21	33.27	L1
+8	heures	heure	NOM	NOM	_	7	dep	_	_	33.27	33.37	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	33.37	33.48	L1
+10	décalage	décalage	NOM	NOM	_	9	dep	_	_	33.48	34.12	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-11
+# text = c'est comme trois heures de décalage
+1	c'	ce	CLS	CLS	_	2	subj	_	_	34.12	34.19	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	34.19	34.25	L1
+3	comme	comme	PRE	PRE	_	2	dep	_	_	34.25	34.68	L1
+4	trois	_	NUM	NUM	_	5	spe	_	_	34.77	35.07	L1
+5	heures	heure	NOM	NOM	_	3	dep	_	_	35.07	35.21	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	35.21	35.30	L1
+7	décalage	décalage	NOM	NOM	_	6	dep	_	_	35.30	35.88	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-12
+# text = et il y a six heures d'avion
+1	et	et	COO	COO	_	4	mark	_	_	35.88	35.91	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	35.91	35.97	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	35.97	36.02	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	36.17	36.19	L1
+5	six	_	NUM	NUM	_	6	spe	_	_	36.19	36.48	L1
+6	heures	heure	NOM	NOM	_	4	dep	_	_	36.48	36.61	L1
+7	d'	de	PRE	PRE	_	6	dep	_	_	36.61	36.67	L1
+8	avion	avion	NOM	NOM	_	7	dep	_	_	36.67	37.11	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-13
+# text = mais c'est un petit peu loin
+1	mais	mais	COO	COO	_	3	mark	_	_	37.11	37.25	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	37.25	37.28	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	37.28	37.57	L1
+4	un	un	DET	DET	_	6	spe	_	_	38.38	38.53	L1
+5	petit	petit	ADJ	ADJ	_	6	dep	_	_	38.53	38.72	L1
+6	peu	peu	ADV	ADV	_	3	dep	_	_	38.72	38.84	L1
+7	loin	loin	ADV	ADV	_	3	dep	_	_	38.84	39.25	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-14
+# text = mais ça va
+1	mais	mais	COO	COO	_	3	mark	_	_	39.25	39.56	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	39.56	39.69	L1
+3	va	aller	VRB	VRB	_	0	ROOT	_	_	39.69	39.95	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-15
+# text = euh en plus il fait super chaud
+1	euh	euh	INT	INT	_	5	dm	_	_	41.25	41.64	L1
+2	en	en	PRE	PRE	_	5	periph	_	_	41.64	41.79	L1
+3	plus	plus	ADN	ADN	_	2	dep	_	_	41.79	42.05	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	42.05	42.11	L1
+5	fait	faire	VRB	VRB	_	0	ROOT	_	_	42.11	42.19	L1
+6	super	super	ADJ	ADJ	_	7	dep	_	_	42.19	42.70	L1
+7	chaud	chaud	NOM	NOM	_	5	dep	_	_	42.70	43.20	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-16
+# text = il fait beau
+1	il	il	CLS	CLS	_	2	subj	_	_	43.20	43.32	L1
+2	fait	faire	VRB	VRB	_	0	ROOT	_	_	43.32	43.41	L1
+3	beau	beau	ADJ	ADJ	_	2	dep	_	_	43.41	44.20	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-17
+# text = euh le temps est vraiment parfait comparé à à NNAAMMEE euh où il neigeait en fait pendant les vacances
+1	euh	euh	INT	INT	_	4	dm	_	_	44.47	44.51	L1
+2	le	le	DET	DET	_	3	spe	_	_	45.21	45.28	L1
+3	temps	temps	NOM	NOM	_	4	subj	_	_	45.28	45.56	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	45.56	45.59	L1
+5	vraiment	vraiment	ADV	ADV	_	6	dep	_	_	45.59	45.91	L1
+6	parfait	parfait	ADJ	ADJ	_	4	dep	_	_	45.91	46.55	L1
+7	comparé	comparer	VPP	VPP	_	4	periph	_	_	46.55	47.07	L1
+8	à	à	PRE	PRE	_	7	dep	_	_	47.36	47.38	L1
+9	à	à	PRE	PRE	_	8	para	_	_	48.27	48.32	L1
+10	NNAAMMEE	NNAAMMEE	NOM	NOM	_	9	dep	_	_	48.32	48.98	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	49.14	49.52	L1
+12	où	où	PRQ	PRQ	_	14	dep	_	_	49.52	49.55	L1
+13	il	il	CLS	CLS	_	14	subj	_	_	49.55	49.63	L1
+14	neigeait	neiger	VRB	VRB	_	10	dep	_	_	49.63	50.06	L1
+15	en#fait	en fait	ADV	ADV	_	14	dep	_	_	50.06	50.39	L1
+16	pendant	pendant	PRE	PRE	_	14	dep	_	_	50.39	50.60	L1
+17	les	le	DET	DET	_	18	spe	_	_	50.60	50.71	L1
+18	vacances	vacance	NOM	NOM	_	16	dep	_	_	50.71	51.29	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-18
+# text = ça a été plutôt bien
+1	ça	ça	PRO	PRO	_	3	subj	_	_	51.62	51.68	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	51.82	51.84	L1
+3	été	être	VPP	VPP	_	0	ROOT	_	_	51.84	52.10	L1
+4	plutôt	plutôt	ADV	ADV	_	5	dep	_	_	52.10	52.86	L1
+5	bien	bien	ADV	ADV	_	3	dep	_	_	53.43	53.85	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-19
+# text = donc euh comme euh c'est au bord de la mer on a pu aller à la plage et bronzer tout ça
+1	donc	donc	ADV	ADV	_	12	periph	_	_	53.90	54.07	L1
+2	euh	euh	INT	INT	_	12	dm	_	_	54.07	54.38	L1
+3	comme	comme	CSU	CSU	_	12	periph	_	_	55.50	56.44	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	56.44	56.47	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	56.47	56.57	L1
+6	est	être	VRB	VRB	_	3	dep	_	_	56.57	56.62	L1
+7	au#bord#de	au bord de	PRE	PRE	_	6	dep	_	_	56.62	56.90	L1
+8	la	le	DET	DET	_	9	spe	_	_	56.90	57.01	L1
+9	mer	mer	NOM	NOM	_	7	dep	_	_	57.01	57.29	L1
+10	on	on	CLS	CLS	_	12	subj	_	_	57.29	57.44	L1
+11	a	avoir	VRB	VRB	_	12	aux	_	_	57.44	57.49	L1
+12	pu	pouvoir	VPP	VPP	_	0	ROOT	_	_	57.49	57.65	L1
+13	aller	aller	VNF	VNF	_	12	dep	_	_	57.65	57.76	L1
+14	à	à	PRE	PRE	_	13	dep	_	_	57.76	57.79	L1
+15	la	le	DET	DET	_	16	spe	_	_	57.79	57.92	L1
+16	plage	plage	NOM	NOM	_	14	dep	_	_	58.01	58.96	L1
+17	et	et	COO	COO	_	18	mark	_	_	59.86	60.12	L1
+18	bronzer	bronzer	VNF	VNF	_	12	dep	_	_	60.12	60.88	L1
+19	tout	tout	ADJ	ADJ	_	20	dep	_	_	60.88	60.97	L1
+20	ça	ça	PRO	PRO	_	18	para	_	_	61.02	61.48	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-20
+# text = il y avait énormément de touristes beaucoup de touristes euh russes en fait
+1	il	il	CLS	CLS	_	3	subj	_	_	61.92	61.98	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	62.03	62.05	L1
+3	avait	avoir	VRB	VRB	_	0	ROOT	_	_	62.05	62.24	L1
+4	énormément	énormément	ADV	ADV	_	3	dep	_	_	62.24	62.71	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	62.71	62.77	L1
+6	touristes	touriste	NOM	NOM	_	5	dep	_	_	62.77	63.52	L1
+7	beaucoup	beaucoup	ADV	ADV	_	4	para	_	_	63.52	63.84	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	63.84	64.34	L1
+9	touristes	touriste	NOM	NOM	_	8	dep	_	_	64.34	65.23	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	65.38	65.40	L1
+11	russes	russe	NOM	NOM	_	9	dep	_	_	65.40	65.93	L1
+12	en#fait	en fait	ADV	ADV	_	3	dep	_	_	66.19	66.62	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-21
+# text = et pas beaucoup d'européens j'ai remarqué après
+1	et	et	COO	COO	_	8	mark	_	_	67.51	67.59	L1
+2	pas	pas	ADN	ADN	_	3	dep	_	_	67.65	67.80	L1
+3	beaucoup	beaucoup	PRO	PRO	_	8	periph	_	_	67.80	67.99	L1
+4	d'	de	PRE	PRE	_	3	dep	_	_	67.99	68.02	L1
+5	européens	européen	NOM	NOM	_	4	dep	_	_	68.02	68.63	L1
+6	j'	je	CLS	CLS	_	8	subj	_	_	68.63	68.70	L1
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	68.70	68.73	L1
+8	remarqué	remarquer	VPP	VPP	_	0	ROOT	_	_	68.73	69.35	L1
+9	après	après	PRE	PRE	_	8	dep	_	_	70.65	71.13	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-22
+# text = euh c'était vraiment un beau un bel endroit
+1	euh	euh	INT	INT	_	3	dm	_	_	71.13	71.39	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	71.60	71.73	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	71.73	71.88	L1
+4	vraiment	vraiment	ADV	ADV	_	3	dep	_	_	71.88	72.22	L1
+5	un	un	DET	DET	_	9	spe	_	_	72.22	72.95	L1
+6	beau	beau	ADJ	ADJ	_	5	disflink	_	_	72.95	73.03	L1
+7	un	un	DET	DET	_	5	para	_	_	73.36	73.49	L1
+8	bel	beau	ADJ	ADJ	_	9	dep	_	_	73.49	73.66	L1
+9	endroit	endroit	NOM	NOM	_	3	dep	_	_	73.66	74.24	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-23
+# text = il y a énormément de de s building
+1	il	il	CLS	CLS	_	3	subj	_	_	75.05	75.17	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	75.29	75.37	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	75.37	76.06	L1
+4	énormément	énormément	ADV	ADV	_	3	dep	_	_	76.27	76.91	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	76.91	77.26	L1
+6	de	de	PRE	PRE	_	5	para	_	_	77.41	77.62	L1
+7	s	_	NOM	NOM	_	6	disflink	_	_	77.62	77.62	L1
+8	building	building	NOM	NOM	_	6	dep	_	_	77.67	78.20	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-24
+# text = donc les immeubles sont vraiment immenses
+1	donc	donc	ADV	ADV	_	4	periph	_	_	78.20	78.51	L1
+2	les	le	DET	DET	_	3	spe	_	_	78.51	78.76	L1
+3	immeubles	immeuble	NOM	NOM	_	4	subj	_	_	78.76	78.99	L1
+4	sont	être	VRB	VRB	_	0	ROOT	_	_	78.99	79.19	L1
+5	vraiment	vraiment	ADV	ADV	_	6	dep	_	_	79.24	79.52	L1
+6	immenses	immense	ADJ	ADJ	_	4	dep	_	_	80.13	80.71	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-25
+# text = c'est même euh je dirais incroyable parce que le plus ils ont le plus gros immeuble du monde
+1	c'	ce	CLS	CLS	_	2	subj	_	_	81.23	81.40	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	81.40	81.52	L1
+3	même	même	ADV	ADV	_	2	dep	_	_	81.52	82.36	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	82.36	82.39	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	82.39	82.52	L1
+6	dirais	dire	VRB	VRB	_	4	dm	_	_	82.52	82.67	L1
+7	incroyable	incroyable	ADJ	ADJ	_	2	dep	_	_	82.67	83.38	L1
+8	parce#que	parce que	CSU	CSU	_	2	dep	_	_	83.47	83.80	L1
+9	le#plus	le plus	ADV	ADV	_	8	disflink	_	_	83.80	84.26	L1
+10	ils	il	CLS	CLS	_	11	subj	_	_	84.38	84.58	L1
+11	ont	avoir	VRB	VRB	_	8	dep	_	_	84.58	84.65	L1
+12	le#plus	le plus	ADV	ADV	_	14	dep	_	_	84.65	84.88	L1
+13	gros	gros	ADJ	ADJ	_	12	dep	_	_	84.88	85.14	L1
+14	immeuble	immeuble	NOM	NOM	_	11	dep	_	_	85.14	85.53	L1
+15	du	_	PRE	PRE	_	14	dep	_	_	85.53	85.63	L1
+16	monde	monde	NOM	NOM	_	15	dep	_	_	85.63	85.91	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-26
+# text = et il fait à peu près deux fois et demi le la hauteur de la tour Eiffel
+1	et	et	COO	COO	_	3	mark	_	_	85.91	85.98	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	85.98	86.28	L1
+3	fait	faire	VRB	VRB	_	0	ROOT	_	_	86.97	87.10	L1
+4	à#peu#près	_	PRE	PRE	_	3	dep	_	_	87.10	87.51	L1
+5	deux	_	NUM	NUM	_	6	spe	_	_	87.51	87.63	L1
+6	fois	foi	NOM	NOM	_	3	dep	_	_	87.63	87.76	L1
+7	et	et	COO	COO	_	8	mark	_	_	87.76	87.79	L1
+8	demi	demi	ADJ	ADJ	_	6	dep	_	_	87.79	88.03	L1
+9	le	le	DET	DET	_	11	spe	_	_	88.03	88.35	L1
+10	la	le	DET	DET	_	9	para	_	_	88.40	88.56	L1
+11	hauteur	hauteur	NOM	NOM	_	6	para	_	_	88.56	88.79	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	88.79	88.85	L1
+13	la	le	DET	DET	_	14	spe	_	_	88.85	88.96	L1
+14	tour	tour	NOM	NOM	_	12	dep	_	_	88.96	89.11	L1
+15	Eiffel	_	NOM	NOM	_	14	dep	_	_	89.15	89.51	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-27
+# text = donc euh c'est vraiment
+1	donc	donc	ADV	ADV	_	4	periph	_	_	90.26	90.50	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	90.56	91.53	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	91.58	91.70	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	91.70	91.76	L1
+5	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	91.76	92.33	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-28
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	92.33	92.48	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	92.48	92.54	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-29
+# text = ouais c'est incroyable quoi
+1	ouais	ouais	INT	INT	_	3	dm	_	_	92.54	92.75	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	92.75	92.81	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	92.81	92.94	L1
+4	incroyable	incroyable	ADJ	ADJ	_	3	dep	_	_	92.94	93.48	L1
+5	quoi	quoi	INT	INT	_	4	dm	_	_	93.48	93.75	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-30
+# text = c'est vraiment quelque chose euh qu'on peut pas imaginer si on ne le voit pas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	93.75	93.85	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	93.85	93.92	L1
+3	vraiment	vraiment	ADV	ADV	_	2	dep	_	_	93.92	94.18	L1
+4	quelque#chose	quelque chose	PRO	PRO	_	2	dep	_	_	94.18	94.93	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	94.93	94.96	L1
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	95.24	95.26	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	95.69	95.77	L1
+8	peut	pouvoir	VRB	VRB	_	4	dep	_	_	95.77	95.91	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	95.91	96.05	L1
+10	imaginer	imaginer	VNF	VNF	_	8	dep	_	_	96.05	96.61	L1
+11	si	si	CSU	CSU	_	10	dep	_	_	96.61	96.78	L1
+12	on	on	CLS	CLS	_	15	subj	_	_	96.78	96.87	L1
+13	ne	ne	CLN	CLN	_	15	dep	_	_	96.87	96.92	L1
+14	le	le	CLI	CLI	_	15	dep	_	_	96.92	96.97	L1
+15	voit	voir	VRB	VRB	_	11	dep	_	_	96.97	97.16	L1
+16	pas	pas	ADN	ADN	_	15	dep	_	_	97.16	97.41	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-31
+# text = et euh ils sont tout le temps train de construire
+1	et	et	COO	COO	_	4	mark	_	_	98.15	98.35	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	98.55	98.64	L1
+3	ils	il	CLS	CLS	_	4	subj	_	_	99.47	99.53	L1
+4	sont	être	VRB	VRB	_	0	ROOT	_	_	99.53	99.89	L1
+5	tout#le#temps	tout le temps	ADV	ADV	_	4	dep	_	_	99.89	100.33	L1
+6	train	train	NOM	NOM	_	4	dep	_	_	100.33	100.49	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	100.49	100.55	L1
+8	construire	construire	VNF	VNF	_	7	dep	_	_	100.55	101.13	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-32
+# text = euh sans arrêt sans arrêt sans arrêt ça construit de partout
+1	euh	euh	INT	INT	_	9	dm	_	_	101.13	101.39	L1
+2	sans	sans	PRE	PRE	_	9	periph	_	_	101.61	101.91	L1
+3	arrêt	arrêt	NOM	NOM	_	2	dep	_	_	101.91	102.13	L1
+4	sans	sans	PRE	PRE	_	2	para	_	_	102.13	102.32	L1
+5	arrêt	arrêt	NOM	NOM	_	4	dep	_	_	102.32	102.49	L1
+6	sans	sans	PRE	PRE	_	4	para	_	_	102.49	102.70	L1
+7	arrêt	arrêt	NOM	NOM	_	6	dep	_	_	102.70	102.93	L1
+8	ça	ça	PRO	PRO	_	9	subj	_	_	102.93	103.07	L1
+9	construit	construire	VPP	VPP	_	0	ROOT	_	_	103.07	103.45	L1
+10	de	de	PRE	PRE	_	9	dep	_	_	103.45	103.48	L1
+11	partout	_	NOM	NOM	_	10	dep	_	_	103.48	104.01	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-33
+# text = à minuit il y a des gens qui travaillent
+1	à	à	PRE	PRE	_	5	periph	_	_	104.64	104.75	L1
+2	minuit	minuit	NOM	NOM	_	1	dep	_	_	104.75	105.16	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	105.16	105.19	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	105.19	105.28	L1
+5	a	avoir	VRB	VRB	_	0	ROOT	_	_	105.28	105.33	L1
+6	des	de	PRE	PRE	_	5	dep	_	_	105.33	105.43	L1
+7	gens	gens	NOM	NOM	_	6	dep	_	_	105.43	105.57	L1
+8	qui	_	PRQ	PRQ	_	9	subj	_	_	105.57	105.67	L1
+9	travaillent	travailler	VRB	VRB	_	7	dep	_	_	105.67	106.32	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-34
+# text = à trois heures du matin il y a des gens qui travaillent
+1	à	à	PRE	PRE	_	8	periph	_	_	106.32	106.42	L1
+2	trois	_	NUM	NUM	_	3	spe	_	_	106.42	106.66	L1
+3	heures	heure	NOM	NOM	_	1	dep	_	_	106.66	106.73	L1
+4	du	_	PRE	PRE	_	3	dep	_	_	106.73	106.84	L1
+5	matin	matin	NOM	NOM	_	4	dep	_	_	106.84	107.17	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	107.17	107.23	L1
+7	y	y	CLI	CLI	_	8	dep	_	_	107.23	107.26	L1
+8	a	avoir	VRB	VRB	_	0	ROOT	_	_	107.26	107.29	L1
+9	des	de	PRE	PRE	_	8	dep	_	_	107.29	107.35	L1
+10	gens	gens	NOM	NOM	_	9	dep	_	_	107.35	107.48	L1
+11	qui	_	PRQ	PRQ	_	12	subj	_	_	107.48	107.57	L1
+12	travaillent	travailler	VRB	VRB	_	10	dep	_	_	107.57	108.17	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-35
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	108.79	108.95	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	108.95	109.48	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-36
+# text = c'est vraiment euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	109.48	109.58	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	109.58	109.62	L1
+3	vraiment	vraiment	ADV	ADV	_	2	dep	_	_	109.62	110.01	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	110.01	110.10	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-37
+# text = c'est une dimension euh qu'on connaît pas en Europe
+1	c'	ce	CLS	CLS	_	2	subj	_	_	110.92	111.03	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	111.03	111.07	L1
+3	une	un	DET	DET	_	4	spe	_	_	111.07	111.17	L1
+4	dimension	dimension	NOM	NOM	_	2	dep	_	_	111.17	111.63	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	111.63	111.94	L1
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	111.98	112.03	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	112.03	112.12	L1
+8	connaît	connaître	VRB	VRB	_	4	dep	_	_	112.12	112.36	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	112.36	112.45	L1
+10	en	en	PRE	PRE	_	8	dep	_	_	112.45	112.53	L1
+11	Europe	Europe	NOM	NOM	_	10	dep	_	_	112.53	112.98	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-38
+# text = après euh donc ouais bon ben avec les constructions ils ont fait beaucoup beaucoup de de centres commerciaux
+1	après	après	PRE	PRE	_	11	periph	_	_	113.87	114.41	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	114.41	114.87	L1
+3	donc	donc	ADV	ADV	_	11	periph	_	_	115.07	115.57	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	115.57	115.83	L1
+5	bon#ben	bon ben	INT	INT	_	4	dm	_	_	115.83	116.06	L1
+6	avec	avec	PRE	PRE	_	11	periph	_	_	116.06	116.27	L1
+7	les	le	DET	DET	_	8	spe	_	_	116.27	116.35	L1
+8	constructions	construction	NOM	NOM	_	6	dep	_	_	116.35	116.79	L1
+9	ils	il	CLS	CLS	_	11	subj	_	_	116.79	116.92	L1
+10	ont	avoir	VRB	VRB	_	11	aux	_	_	116.92	116.96	L1
+11	fait	-	VPP	VPP	_	0	ROOT	_	_	116.96	117.12	L1
+12	beaucoup	beaucoup	ADV	ADV	_	11	dep	_	_	117.12	117.53	L1
+13	beaucoup	beaucoup	ADV	ADV	_	12	para	_	_	117.53	117.78	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	117.78	118.20	L1
+15	de	de	PRE	PRE	_	14	para	_	_	118.31	118.52	L1
+16	centres	centre	NOM	NOM	_	15	dep	_	_	118.52	118.76	L1
+17	commerciaux	commercial	ADJ	ADJ	_	16	dep	_	_	118.76	119.26	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-39
+# text = donc il y a vraiment beaucoup de magasins
+1	donc	donc	ADV	ADV	_	4	periph	_	_	119.91	120.06	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	120.06	120.12	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	120.12	120.15	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	120.15	120.18	L1
+5	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	120.18	120.42	L1
+6	beaucoup	beaucoup	ADV	ADV	_	4	dep	_	_	120.42	120.66	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	120.66	120.69	L1
+8	magasins	magasin	NOM	NOM	_	7	dep	_	_	120.69	121.58	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-40
+# text = toutes les marques qu'on veut elles existent à Dubaï autant les américaines que les marques européennes
+1	toutes	tout	ADJ	ADJ	_	3	dep	_	_	121.58	121.85	L1
+2	les	le	DET	DET	_	3	spe	_	_	121.85	121.92	L1
+3	marques	marque	NOM	NOM	_	8	periph	_	_	121.92	122.17	L1
+4	qu'	que	PRQ	PRQ	_	6	dep	_	_	122.23	122.26	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	122.26	122.37	L1
+6	veut	vouloir	VRB	VRB	_	3	dep	_	_	122.37	122.72	L1
+7	elles	il	CLS	CLS	_	8	subj	_	_	122.72	122.86	L1
+8	existent	exister	VRB	VRB	_	0	ROOT	_	_	122.86	123.39	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	123.73	123.81	L1
+10	Dubaï	_	NOM	NOM	_	9	dep	_	_	123.81	124.38	L1
+11	autant	autant	ADV	ADV	_	8	periph	_	_	124.38	124.99	L1
+12	les	le	DET	DET	_	13	spe	_	_	125.57	125.71	L1
+13	américaines	américain	NOM	NOM	_	11	dep	_	_	125.71	126.37	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	126.37	126.94	L1
+15	les	le	DET	DET	_	16	spe	_	_	126.94	127.03	L1
+16	marques	marque	NOM	NOM	_	14	dep	_	_	127.03	127.27	L1
+17	européennes	européen	ADJ	ADJ	_	16	dep	_	_	127.27	127.91	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-41
+# text = et euh les centres commerciaux pareils
+1	et	et	COO	COO	_	4	mark	_	_	128.77	128.95	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	129.09	129.33	L1
+3	les	le	DET	DET	_	4	spe	_	_	129.80	129.92	L1
+4	centres	centre	NOM	NOM	_	0	ROOT	_	_	129.92	130.15	L1
+5	commerciaux	commercial	ADJ	ADJ	_	4	dep	_	_	130.15	130.89	L1
+6	pareils	pareil	ADJ	ADJ	_	4	dep	_	_	130.89	131.45	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-42
+# text = euh c'est une dimension qu'on ne connaît pas du tout en Europe quoi
+1	euh	euh	INT	INT	_	3	dm	_	_	131.45	131.57	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	132.08	132.26	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	132.26	132.52	L1
+4	une	un	DET	DET	_	5	spe	_	_	133.52	133.61	L1
+5	dimension	dimension	NOM	NOM	_	3	dep	_	_	133.61	134.11	L1
+6	qu'	que	PRQ	PRQ	_	9	dep	_	_	134.11	134.14	L1
+7	on	on	CLS	CLS	_	9	subj	_	_	134.14	134.23	L1
+8	ne	ne	CLN	CLN	_	9	dep	_	_	134.23	134.26	L1
+9	connaît	connaître	VRB	VRB	_	5	dep	_	_	134.26	134.50	L1
+10	pas#du#tout	pas du tout	ADV	ADV	_	9	dep	_	_	134.50	134.87	L1
+11	en	en	PRE	PRE	_	9	dep	_	_	134.87	135.02	L1
+12	Europe	Europe	NOM	NOM	_	11	dep	_	_	135.02	135.30	L1
+13	quoi	quoi	INT	INT	_	12	dm	_	_	135.30	135.46	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-43
+# text = c'est vraiment immense euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	135.46	135.59	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	135.59	135.64	L1
+3	vraiment	vraiment	ADV	ADV	_	4	dep	_	_	135.72	136.24	L1
+4	immense	immense	ADJ	ADJ	_	2	dep	_	_	136.24	136.87	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	136.87	137.12	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-44
+# text = on peut passer trois jours dans un centre commercial
+1	on	on	CLS	CLS	_	2	subj	_	_	137.35	137.50	L1
+2	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	137.50	137.62	L1
+3	passer	passer	VNF	VNF	_	2	dep	_	_	137.62	138.04	L1
+4	trois	_	NUM	NUM	_	5	spe	_	_	138.08	138.32	L1
+5	jours	jour	NOM	NOM	_	3	dep	_	_	138.32	138.56	L1
+6	dans	dans	PRE	PRE	_	3	dep	_	_	138.56	138.68	L1
+7	un	un	DET	DET	_	8	spe	_	_	138.68	138.75	L1
+8	centre	centre	NOM	NOM	_	6	dep	_	_	138.75	138.91	L1
+9	commercial	commercial	ADJ	ADJ	_	8	dep	_	_	138.91	139.62	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-45
+# text = euh on se perd
+1	euh	euh	INT	INT	_	4	dm	_	_	139.62	139.74	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	140.27	140.31	L1
+3	se	se	CLI	CLI	_	4	dep	_	_	140.31	140.46	L1
+4	perd	perdre	VRB	VRB	_	0	ROOT	_	_	140.46	140.86	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-46
+# text = il y en a tellement euh que c'est vraiment incroyable
+1	il	il	CLS	CLS	_	4	subj	_	_	140.86	140.96	L1
+2	y	y	CLI	CLI	_	4	dep	_	_	140.96	140.99	L1
+3	en	en	CLI	CLI	_	4	dep	_	_	140.99	141.02	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	141.02	141.05	L1
+5	tellement	tellement	ADV	ADV	_	4	dep	_	_	141.05	141.53	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	141.53	141.79	L1
+7	que	que	CSU	CSU	_	5	dep	_	_	142.62	142.68	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	142.68	142.84	L1
+9	est	être	VRB	VRB	_	7	dep	_	_	142.84	142.88	L1
+10	vraiment	vraiment	ADV	ADV	_	11	dep	_	_	142.88	143.09	L1
+11	incroyable	incroyable	ADJ	ADJ	_	9	dep	_	_	143.09	143.69	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-47
+# text = dans un des centres commerciaux ils ont le l'aquarium le plus grand du monde donc
+1	dans	dans	PRE	PRE	_	7	periph	_	_	143.69	143.92	L1
+2	un	un	PRO	PRO	_	1	dep	_	_	143.92	143.99	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	143.99	144.14	L1
+4	centres	centre	NOM	NOM	_	3	dep	_	_	144.14	144.29	L1
+5	commerciaux	commercial	ADJ	ADJ	_	4	dep	_	_	144.29	144.88	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	144.88	145.06	L1
+7	ont	avoir	VRB	VRB	_	0	ROOT	_	_	145.06	145.16	L1
+8	le	le	DET	DET	_	10	spe	_	_	145.16	145.78	L1
+9	l'	le	DET	DET	_	8	para	_	_	145.86	146.13	L1
+10	aquarium	aquarium	NOM	NOM	_	7	dep	_	_	146.13	146.63	L1
+11	le#plus	le plus	ADV	ADV	_	12	dep	_	_	146.63	146.81	L1
+12	grand	grand	ADJ	ADJ	_	10	dep	_	_	146.81	146.99	L1
+13	du	_	PRE	PRE	_	12	dep	_	_	146.99	147.13	L1
+14	monde	monde	NOM	NOM	_	13	dep	_	_	147.13	147.52	L1
+15	donc	donc	ADV	ADV	_	14	dm	_	_	148.02	148.22	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-48
+# text = pareil ça euh je sais pas
+1	pareil	pareil	ADJ	ADJ	_	5	periph	_	_	148.22	148.64	L1
+2	ça	ça	PRO	PRO	_	5	periph	_	_	148.64	148.94	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	149.01	149.08	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	149.08	149.26	L1
+5	sais	savoir	VRB	VRB	_	0	ROOT	_	_	150.32	150.49	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	150.49	150.60	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-49
+# text = on peut pas
+1	on	on	CLS	CLS	_	2	subj	_	_	150.60	150.74	L1
+2	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	150.74	150.84	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	150.84	151.09	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-50
+# text = on peut pas l'imaginer si on le voit pas
+1	on	on	CLS	CLS	_	2	subj	_	_	151.09	151.27	L1
+2	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	151.27	151.35	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	151.35	151.46	L1
+4	l'	le	CLI	CLI	_	5	dep	_	_	151.46	151.55	L1
+5	imaginer	imaginer	VNF	VNF	_	2	dep	_	_	151.55	152.17	L1
+6	si	si	CSU	CSU	_	5	dep	_	_	152.85	152.97	L1
+7	on	on	CLS	CLS	_	9	subj	_	_	152.97	153.07	L1
+8	le	le	CLI	CLI	_	9	dep	_	_	153.07	153.14	L1
+9	voit	voir	VRB	VRB	_	6	dep	_	_	153.14	153.30	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	153.30	153.53	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-51
+# text = et euh oui les magasins donc ils vendent de tout comme en Europe
+1	et	et	COO	COO	_	8	mark	_	_	154.64	154.87	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	154.87	155.34	L1
+3	oui	oui	INT	INT	_	2	dm	_	_	155.67	155.72	L1
+4	les	le	DET	DET	_	5	spe	_	_	156.38	156.73	L1
+5	magasins	magasin	NOM	NOM	_	8	periph	_	_	156.73	157.11	L1
+6	donc	donc	ADV	ADV	_	5	dm	_	_	157.11	157.28	L1
+7	ils	il	CLS	CLS	_	8	subj	_	_	157.28	157.34	L1
+8	vendent	vendre	VRB	VRB	_	0	ROOT	_	_	157.34	157.51	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	157.57	157.75	L1
+10	tout	tout	PRO	PRO	_	9	dep	_	_	157.75	157.90	L1
+11	comme	comme	PRE	PRE	_	8	dep	_	_	158.05	158.25	L1
+12	en	en	PRE	PRE	_	11	dep	_	_	158.25	158.36	L1
+13	Europe	Europe	NOM	NOM	_	12	dep	_	_	158.36	158.69	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-52
+# text = mais il faut savoir que là bas les femmes elles sont pratiquement toutes voilées
+1	mais	mais	COO	COO	_	3	mark	_	_	158.74	158.88	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	158.88	159.19	L1
+3	faut	faillir	VRB	VRB	_	0	ROOT	_	_	159.23	159.34	L1
+4	savoir	savoir	VNF	VNF	_	3	dep	_	_	159.34	159.63	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	159.63	159.75	L1
+6	là	là	ADV	ADV	_	11	periph	_	_	159.75	159.88	L1
+7	bas	bas	ADV	ADV	_	6	morph	_	_	159.88	160.05	L1
+8	les	le	DET	DET	_	9	spe	_	_	160.05	160.28	L1
+9	femmes	femme	NOM	NOM	_	11	periph	_	_	160.28	160.47	L1
+10	elles	il	CLS	CLS	_	11	subj	_	_	160.47	160.53	L1
+11	sont	être	VRB	VRB	_	5	dep	_	_	160.53	160.71	L1
+12	pratiquement	pratiquement	ADV	ADV	_	14	dep	_	_	160.71	161.13	L1
+13	toutes	tout	ADJ	ADJ	_	14	dep	_	_	161.13	161.32	L1
+14	voilées	voiler	ADJ	ADJ	_	11	dep	_	_	161.32	161.76	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-53
+# text = donc il y a beaucoup de femmes qui achètent euh des habits euh on va dire normaux
+1	donc	donc	ADV	ADV	_	4	periph	_	_	162.12	162.21	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	162.21	162.29	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	162.29	162.35	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	162.35	162.38	L1
+5	beaucoup	beaucoup	PRO	PRO	_	4	dep	_	_	162.38	162.56	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	162.56	162.59	L1
+7	femmes	femme	NOM	NOM	_	6	dep	_	_	162.59	162.76	L1
+8	qui	_	PRQ	PRQ	_	9	subj	_	_	162.76	162.86	L1
+9	achètent	acheter	VRB	VRB	_	7	dep	_	_	162.86	163.70	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	163.70	163.73	L1
+11	des	de	PRE	PRE	_	9	dep	_	_	163.73	163.97	L1
+12	habits	habit	NOM	NOM	_	11	dep	_	_	163.97	164.35	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	164.35	164.40	L1
+14	on	on	CLS	CLS	_	15	subj	_	_	164.40	164.45	L1
+15	va	aller	VRB	VRB	_	13	dm	_	_	164.45	164.73	L1
+16	dire	dire	VNF	VNF	_	15	dep	_	_	164.73	164.92	L1
+17	normaux	normal	ADJ	ADJ	_	12	dep	_	_	164.92	165.42	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-54
+# text = mais elles ont toutes le voile
+1	mais	mais	COO	COO	_	3	mark	_	_	165.91	166.11	L1
+2	elles	il	CLS	CLS	_	3	subj	_	_	166.11	166.21	L1
+3	ont	avoir	VRB	VRB	_	0	ROOT	_	_	166.32	166.44	L1
+4	toutes	tout	ADJ	ADJ	_	3	dep	_	_	166.56	167.45	L1
+5	le	le	DET	DET	_	6	spe	_	_	167.45	167.54	L1
+6	voile	voile	NOM	NOM	_	3	dep	_	_	167.54	167.93	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-55
+# text = elles sont recouvertes des pieds à la tête
+1	elles	il	CLS	CLS	_	3	subj	_	_	167.93	168.01	L1
+2	sont	être	VRB	VRB	_	3	aux	_	_	168.01	168.68	L1
+3	recouvertes	recouvrir	VPP	VPP	_	0	ROOT	_	_	169.27	169.84	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	169.84	169.96	L1
+5	pieds	pied	NOM	NOM	_	4	dep	_	_	169.96	170.12	L1
+6	à	à	PRE	PRE	_	4	para	_	_	170.12	170.17	L1
+7	la	le	DET	DET	_	8	spe	_	_	170.17	170.29	L1
+8	tête	tête	NOM	NOM	_	6	dep	_	_	170.29	170.58	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-56
+# text = donc ça peut faire un un choc des cultures entre guillemets
+1	donc	donc	ADV	ADV	_	3	periph	_	_	170.69	170.83	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	170.83	170.96	L1
+3	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	170.96	171.05	L1
+4	faire	-	VNF	VNF	_	3	dep	_	_	171.05	171.32	L1
+5	un	un	DET	DET	_	7	spe	_	_	171.32	171.58	L1
+6	un	un	DET	DET	_	5	para	_	_	172.67	172.84	L1
+7	choc	choc	NOM	NOM	_	4	dep	_	_	172.84	173.16	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	173.16	173.28	L1
+9	cultures	culture	NOM	NOM	_	8	dep	_	_	173.28	173.70	L1
+10	entre	entre	PRE	PRE	_	9	dep	_	_	173.70	173.89	L1
+11	guillemets	guillemet	NOM	NOM	_	10	dep	_	_	173.89	174.31	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-57
+# text = même si euh même si on a des femmes voilées en France et en Europe il y en a beaucoup plus là bas
+1	même	même	ADV	ADV	_	2	morph	_	_	174.83	175.02	L1
+2	si	si	CSU	CSU	_	19	periph	_	_	175.02	175.41	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	175.41	175.49	L1
+4	même	même	ADV	ADV	_	5	morph	_	_	176.43	176.61	L1
+5	si	si	CSU	CSU	_	2	para	_	_	176.61	176.75	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	176.75	176.92	L1
+7	a	avoir	VRB	VRB	_	5	dep	_	_	176.92	176.98	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	176.98	177.08	L1
+9	femmes	femme	NOM	NOM	_	8	dep	_	_	177.08	177.30	L1
+10	voilées	voiler	VPP	VPP	_	9	dep	_	_	177.30	177.56	L1
+11	en	en	PRE	PRE	_	7	dep	_	_	177.56	177.67	L1
+12	France	France	NOM	NOM	_	11	dep	_	_	177.90	178.29	L1
+13	et	et	COO	COO	_	14	mark	_	_	178.29	178.35	L1
+14	en	en	PRE	PRE	_	11	para	_	_	178.35	178.51	L1
+15	Europe	Europe	NOM	NOM	_	14	dep	_	_	178.51	178.81	L1
+16	il	il	CLS	CLS	_	19	subj	_	_	179.90	180.11	L1
+17	y	y	CLI	CLI	_	19	dep	_	_	180.11	180.15	L1
+18	en	en	CLI	CLI	_	19	dep	_	_	180.15	180.24	L1
+19	a	avoir	VRB	VRB	_	0	ROOT	_	_	180.24	180.35	L1
+20	beaucoup	beaucoup	ADV	ADV	_	21	dep	_	_	180.35	180.56	L1
+21	plus	plus	ADV	ADV	_	19	dep	_	_	180.56	180.83	L1
+22	là	là	ADV	ADV	_	19	dep	_	_	180.83	180.94	L1
+23	bas	bas	ADV	ADV	_	22	morph	_	_	180.94	181.26	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-58
+# text = et les hommes aussi ont une tenue euh particulière
+1	et	et	COO	COO	_	5	mark	_	_	181.26	181.56	L1
+2	les	le	DET	DET	_	3	spe	_	_	183.12	183.35	L1
+3	hommes	homme	NOM	NOM	_	5	subj	_	_	183.35	183.48	L1
+4	aussi	aussi	ADV	ADV	_	5	dep	_	_	183.48	183.91	L1
+5	ont	avoir	VRB	VRB	_	0	ROOT	_	_	183.91	184.01	L1
+6	une	un	DET	DET	_	7	spe	_	_	184.01	184.15	L1
+7	tenue	tenue	NOM	NOM	_	5	dep	_	_	184.15	184.58	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	184.58	184.63	L1
+9	particulière	particulier	ADJ	ADJ	_	7	dep	_	_	184.63	185.86	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-59
+# text = je sais pas comment ça s'appelle
+1	je	je	CLS	CLS	_	2	subj	_	_	185.86	185.91	L1
+2	sais	savoir	VRB	VRB	_	0	ROOT	_	_	185.91	186.03	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	186.03	186.14	L1
+4	comment	comment	PRQ	PRQ	_	7	dep	_	_	186.14	186.31	L1
+5	ça	ça	PRO	PRO	_	7	subj	_	_	186.31	186.43	L1
+6	s'	se	CLI	CLI	_	7	dep	_	_	186.43	186.48	L1
+7	appelle	appeler	VRB	VRB	_	2	dep	_	_	186.48	186.83	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-60
+# text = mais c'était comme de longues robes blanches avec euh des espèces de voiles aussi sur la tête
+1	mais	mais	COO	COO	_	3	mark	_	_	186.83	187.06	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	187.06	187.10	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	187.10	187.25	L1
+4	comme	comme	PRE	PRE	_	3	dep	_	_	187.25	187.53	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	187.53	187.62	L1
+6	longues	long	ADJ	ADJ	_	7	spe	_	_	187.70	188.05	L1
+7	robes	robe	NOM	NOM	_	5	dep	_	_	188.05	188.48	L1
+8	blanches	blanc	ADJ	ADJ	_	7	dep	_	_	188.48	189.02	L1
+9	avec	avec	PRE	PRE	_	8	dep	_	_	189.11	189.46	L1
+10	euh	euh	INT	INT	_	9	dm	_	_	189.46	189.70	L1
+11	des	de	PRE	PRE	_	9	dep	_	_	189.92	190.14	L1
+12	espèces	espèce	NOM	NOM	_	11	dep	_	_	190.14	190.47	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	190.47	190.57	L1
+14	voiles	voile	NOM	NOM	_	13	dep	_	_	190.57	190.93	L1
+15	aussi	aussi	ADV	ADV	_	16	dep	_	_	190.93	191.07	L1
+16	sur	sur	PRE	PRE	_	14	dep	_	_	191.07	191.28	L1
+17	la	le	DET	DET	_	18	spe	_	_	191.28	191.38	L1
+18	tête	tête	NOM	NOM	_	16	dep	_	_	191.47	191.73	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-61
+# text = donc on les appelle les émirs
+1	donc	donc	ADV	ADV	_	4	periph	_	_	192.56	192.83	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	192.83	192.91	L1
+3	les	le	CLI	CLI	_	4	dep	_	_	192.91	193.07	L1
+4	appelle	appeler	VRB	VRB	_	0	ROOT	_	_	193.07	193.31	L1
+5	les	le	DET	DET	_	6	spe	_	_	193.31	193.46	L1
+6	émirs	émir	NOM	NOM	_	4	dep	_	_	193.46	193.89	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-62
+# text = et euh donc il peut y en avoir enfin de toutes de toutes sortes quoi
+1	et	et	COO	COO	_	5	mark	_	_	194.89	195.04	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	195.04	195.61	L1
+3	donc	donc	ADV	ADV	_	5	periph	_	_	196.86	196.97	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	196.97	197.11	L1
+5	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	197.11	197.20	L1
+6	y	y	CLI	CLI	_	8	dep	_	_	197.20	197.26	L1
+7	en	en	CLI	CLI	_	8	dep	_	_	197.26	197.35	L1
+8	avoir	avoir	VNF	VNF	_	5	dep	_	_	197.35	197.68	L1
+9	enfin	enfin	ADV	ADV	_	8	dm	_	_	197.68	198.08	L1
+10	de	de	PRE	PRE	_	8	dep	_	_	198.08	198.13	L1
+11	toutes	tout	ADJ	ADJ	_	10	disflink	_	_	198.25	198.65	L1
+12	de	de	PRE	PRE	_	10	para	_	_	198.65	198.77	L1
+13	toutes	tout	ADJ	ADJ	_	14	dep	_	_	198.77	199.02	L1
+14	sortes	sorte	NOM	NOM	_	10	dep	_	_	199.07	200.28	L1
+15	quoi	quoi	INT	INT	_	14	dm	_	_	200.28	200.37	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-63
+# text = les gens les gens sont sont en général assez ouverts
+1	les	le	DET	DET	_	2	spe	_	_	200.94	201.25	L1
+2	gens	gens	NOM	NOM	_	5	subj	_	_	201.48	201.57	L1
+3	les	le	DET	DET	_	4	spe	_	_	202.07	202.33	L1
+4	gens	gens	NOM	NOM	_	2	para	_	_	202.33	202.75	L1
+5	sont	être	VRB	VRB	_	0	ROOT	_	_	202.75	203.33	L1
+6	sont	être	VRB	VRB	_	5	para	_	_	204.74	205.07	L1
+7	en#général	en général	ADV	ADV	_	6	dep	_	_	205.07	205.55	L1
+8	assez	assez	ADV	ADV	_	9	dep	_	_	205.55	205.82	L1
+9	ouverts	ouvert	ADJ	ADJ	_	6	dep	_	_	205.82	206.33	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-64
+# text = donc même si ils sont euh reli~ enfin s'ils ont une religion spéciale ils acceptent n' importe qui
+1	donc	donc	ADV	ADV	_	16	periph	_	_	206.64	206.86	L1
+2	même	même	ADV	ADV	_	3	morph	_	_	206.86	207.09	L1
+3	si	si	CSU	CSU	_	16	periph	_	_	207.09	207.34	L1
+4	ils	il	CLS	CLS	_	5	subj	_	_	207.34	207.47	L1
+5	sont	être	VRB	VRB	_	3	dep	_	_	207.47	208.22	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	208.43	208.45	L1
+7	reli~	_	VRB	VRB	_	5	dep	_	_	208.64	208.89	L1
+8	enfin	enfin	ADV	ADV	_	7	dm	_	_	208.89	209.11	L1
+9	s'	si	CSU	CSU	_	3	para	_	_	209.27	209.62	L1
+10	ils	il	CLS	CLS	_	11	subj	_	_	209.62	209.85	L1
+11	ont	avoir	VRB	VRB	_	9	dep	_	_	209.85	209.90	L1
+12	une	un	DET	DET	_	13	spe	_	_	209.90	210.02	L1
+13	religion	religion	NOM	NOM	_	11	dep	_	_	210.02	210.50	L1
+14	spéciale	spécial	ADJ	ADJ	_	13	dep	_	_	210.50	211.12	L1
+15	ils	il	CLS	CLS	_	16	subj	_	_	211.12	211.31	L1
+16	acceptent	accepter	VRB	VRB	_	0	ROOT	_	_	211.31	211.72	L1
+17	n'#importe#qui	_	ADV	ADV	_	16	dep	_	_	211.72	212.42	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-65
+# text = on peut s'habiller comme on veut
+1	on	on	CLS	CLS	_	2	subj	_	_	212.42	212.53	L1
+2	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	212.53	212.62	L1
+3	s'	se	CLI	CLI	_	4	dep	_	_	212.62	212.70	L1
+4	habiller	habiller	VNF	VNF	_	2	dep	_	_	212.70	212.89	L1
+5	comme	comme	CSU	CSU	_	4	dep	_	_	212.89	213.05	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	213.05	213.16	L1
+7	veut	vouloir	VRB	VRB	_	5	dep	_	_	213.16	213.46	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-66
+# text = et il y a pas de problèmes sur ça même si c'est pas ce que j'avais entendu à la base
+1	et	et	COO	COO	_	4	mark	_	_	214.18	214.28	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	214.28	214.52	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	214.52	214.55	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	214.55	214.61	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	214.61	214.79	L1
+6	de	de	PRE	PRE	_	4	dep	_	_	214.84	214.86	L1
+7	problèmes	problème	NOM	NOM	_	6	dep	_	_	214.86	215.39	L1
+8	sur	sur	PRE	PRE	_	7	dep	_	_	215.39	215.57	L1
+9	ça	ça	PRO	PRO	_	8	dep	_	_	215.57	215.77	L1
+10	même	même	ADV	ADV	_	11	morph	_	_	215.77	215.95	L1
+11	si	si	CSU	CSU	_	4	dep	_	_	215.95	216.09	L1
+12	c'	ce	CLS	CLS	_	13	subj	_	_	216.09	216.19	L1
+13	est	être	VRB	VRB	_	11	dep	_	_	216.19	216.24	L1
+14	pas	pas	ADN	ADN	_	13	dep	_	_	216.24	216.32	L1
+15	ce	ce	PRO	PRO	_	13	dep	_	_	216.32	216.38	L1
+16	que	que	PRQ	PRQ	_	19	dep	_	_	216.38	216.46	L1
+17	j'	je	CLS	CLS	_	19	subj	_	_	216.46	216.54	L1
+18	avais	avoir	VRB	VRB	_	19	aux	_	_	216.54	216.63	L1
+19	entendu	entendre	VPP	VPP	_	15	dep	_	_	216.63	217.07	L1
+20	à	à	PRE	PRE	_	19	dep	_	_	217.07	217.11	L1
+21	la	le	DET	DET	_	22	spe	_	_	217.11	217.23	L1
+22	base	base	NOM	NOM	_	20	dep	_	_	217.23	217.55	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-67
+# text = avant de partir à Dubaï euh beaucoup de personnes m'avaient dit euh fais attention euh tu vas devoir t'habiller d'une manière spéciale
+1	avant	avant	NOM	NOM	_	12	periph	_	_	218.04	218.26	L1
+2	de	de	PRE	PRE	_	1	dep	_	_	218.26	218.34	L1
+3	partir	partir	VNF	VNF	_	2	dep	_	_	218.34	218.66	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	218.66	218.72	L1
+5	Dubaï	_	NOM	NOM	_	4	dep	_	_	218.72	219.16	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	219.16	219.28	L1
+7	beaucoup	beaucoup	PRO	PRO	_	12	subj	_	_	219.28	219.51	L1
+8	de	de	PRE	PRE	_	7	dep	_	_	219.51	219.56	L1
+9	personnes	personne	NOM	NOM	_	8	dep	_	_	219.56	219.93	L1
+10	m'	me	CLI	CLI	_	12	dep	_	_	219.93	219.99	L1
+11	avaient	avoir	VRB	VRB	_	12	aux	_	_	219.99	220.17	L1
+12	dit	dire	VPP	VPP	_	0	ROOT	_	_	220.17	220.48	L1
+13	euh	euh	INT	INT	_	14	dm	_	_	220.48	220.64	L1
+14	fais	faire	VRB	VRB	_	12	dep	_	_	220.81	220.96	L1
+15	attention	attention	NOM	NOM	_	14	dep	_	_	220.96	221.77	L1
+16	euh	euh	INT	INT	_	15	dm	_	_	221.91	221.93	L1
+17	tu	tu	CLS	CLS	_	18	subj	_	_	222.51	222.61	L1
+18	vas	aller	VRB	VRB	_	12	dep	_	_	222.61	222.70	L1
+19	devoir	devoir	VNF	VNF	_	18	dep	_	_	222.70	222.93	L1
+20	t'	te	CLI	CLI	_	21	dep	_	_	222.93	222.99	L1
+21	habiller	habiller	VNF	VNF	_	19	dep	_	_	222.99	223.33	L1
+22	d'	de	PRE	PRE	_	21	dep	_	_	223.33	223.36	L1
+23	une	un	DET	DET	_	24	spe	_	_	223.36	223.48	L1
+24	manière	manière	NOM	NOM	_	22	dep	_	_	223.48	223.74	L1
+25	spéciale	spécial	ADJ	ADJ	_	24	dep	_	_	223.74	224.28	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-68
+# text = et en fait pas du tout c'est vraiment ouvert
+1	et	et	COO	COO	_	5	mark	_	_	224.28	224.33	L1
+2	en#fait	en fait	ADV	ADV	_	5	periph	_	_	224.33	224.64	L1
+3	pas#du#tout	pas du tout	ADV	ADV	_	5	periph	_	_	224.64	225.16	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	225.38	225.53	L1
+5	est	être	VRB	VRB	_	0	ROOT	_	_	225.53	225.60	L1
+6	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	225.60	226.14	L1
+7	ouvert	ouvert	ADJ	ADJ	_	5	dep	_	_	226.21	226.69	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-69
+# text = et après donc voilà côté de ça de c~ de toutes ces constructions euh démentielles euh il y a le désert en fait
+1	et	et	COO	COO	_	19	mark	_	_	227.85	227.95	L1
+2	après	après	PRE	PRE	_	19	periph	_	_	227.95	228.25	L1
+3	donc	donc	ADV	ADV	_	2	dm	_	_	228.25	228.37	L1
+4	voilà	_	VRB	VRB	_	3	dm	_	_	228.37	228.79	L1
+5	côté	côté	NOM	NOM	_	19	periph	_	_	228.79	229.08	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	229.08	229.11	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	229.11	229.52	L1
+8	de	de	PRE	PRE	_	6	para	_	_	229.52	229.64	L1
+9	c~	_	X	X	_	8	disflink	_	_	229.64	229.87	L1
+10	de	de	PRE	PRE	_	8	para	_	_	229.87	229.90	L1
+11	toutes	tout	ADJ	ADJ	_	13	dep	_	_	229.90	230.05	L1
+12	ces	ce	DET	DET	_	13	spe	_	_	230.05	230.17	L1
+13	constructions	construction	NOM	NOM	_	10	dep	_	_	230.17	230.95	L1
+14	euh	euh	INT	INT	_	13	dm	_	_	230.95	231.66	L1
+15	démentielles	démentiel	ADJ	ADJ	_	13	dep	_	_	231.66	232.54	L1
+16	euh	euh	INT	INT	_	15	dm	_	_	233.42	234.01	L1
+17	il	il	CLS	CLS	_	19	subj	_	_	234.01	234.09	L1
+18	y	y	CLI	CLI	_	19	dep	_	_	234.13	234.20	L1
+19	a	avoir	VRB	VRB	_	0	ROOT	_	_	234.20	234.23	L1
+20	le	le	DET	DET	_	21	spe	_	_	234.23	234.36	L1
+21	désert	désert	NOM	NOM	_	19	dep	_	_	234.36	234.72	L1
+22	en#fait	en fait	ADV	ADV	_	19	dep	_	_	234.72	235.03	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-70
+# text = c'est vraiment le désert euh que du sable que du sable de partout sur des kilomètres
+1	c'	ce	CLS	CLS	_	2	subj	_	_	235.03	235.30	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	235.30	235.33	L1
+3	vraiment	vraiment	ADV	ADV	_	2	dep	_	_	235.33	235.58	L1
+4	le	le	DET	DET	_	5	spe	_	_	235.58	235.68	L1
+5	désert	désert	NOM	NOM	_	2	dep	_	_	235.68	236.25	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	236.39	236.41	L1
+7	que	que	ADN	ADN	_	2	dep	_	_	236.66	237.21	L1
+8	du	_	PRE	PRE	_	7	dep	_	_	237.49	237.60	L1
+9	sable	sable	NOM	NOM	_	8	dep	_	_	237.60	237.95	L1
+10	que	que	CSU	CSU	_	7	para	_	_	237.95	238.05	L1
+11	du	_	PRE	PRE	_	10	dep	_	_	238.05	238.15	L1
+12	sable	sable	NOM	NOM	_	11	dep	_	_	238.15	238.40	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	238.40	238.54	L1
+14	partout	_	NOM	NOM	_	13	dep	_	_	238.54	238.84	L1
+15	sur	sur	PRE	PRE	_	14	dep	_	_	238.84	238.99	L1
+16	des	de	PRE	PRE	_	15	dep	_	_	238.99	239.08	L1
+17	kilomètres	kilomètre	NOM	NOM	_	16	dep	_	_	239.08	239.64	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-71
+# text = et pareil là bas
+1	et	et	COO	COO	_	2	mark	_	_	240.35	240.51	L1
+2	pareil	pareil	NOM	NOM	_	0	ROOT	_	_	240.56	240.85	L1
+3	là	là	ADV	ADV	_	2	dep	_	_	240.85	241.36	L1
+4	bas	bas	ADV	ADV	_	3	dep	_	_	241.36	242.33	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-72
+# text = euh enfin moi j'ai
+1	euh	euh	INT	INT	_	5	dm	_	_	242.33	242.36	L1
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	242.36	242.50	L1
+3	moi	moi	PRO	PRO	_	5	periph	_	_	242.50	242.61	L1
+4	j'	je	CLS	CLS	_	5	subj	_	_	242.61	242.71	L1
+5	ai	avoir	VRB	VRB	_	0	ROOT	_	_	242.71	242.85	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-73
+# text = on a pris une voiture
+1	on	on	CLS	CLS	_	3	subj	_	_	242.85	242.96	L1
+2	a	avoir	VRB	VRB	_	3	aux	_	_	242.96	243.03	L1
+3	pris	prendre	VPP	VPP	_	0	ROOT	_	_	243.03	243.16	L1
+4	une	un	DET	DET	_	5	spe	_	_	243.16	243.29	L1
+5	voiture	voiture	NOM	NOM	_	3	dep	_	_	243.29	243.85	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-74
+# text = et on a fait euh comme du je sais pas comment dire ça une euh une virée dans le désert sur les dunes
+1	et	et	COO	COO	_	4	mark	_	_	243.85	243.88	L1
+2	on	on	CLS	CLS	_	4	subj	_	_	243.88	244.10	L1
+3	a	avoir	VRB	VRB	_	4	aux	_	_	244.10	244.20	L1
+4	fait	-	VPP	VPP	_	0	ROOT	_	_	244.20	244.49	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	244.49	244.98	L1
+6	comme	comme	PRE	PRE	_	4	dep	_	_	245.72	245.97	L1
+7	du	_	PRE	PRE	_	6	dep	_	_	245.97	246.29	L1
+8	je	je	CLS	CLS	_	9	subj	_	_	247.26	247.36	L1
+9	sais	savoir	VRB	VRB	_	4	parenth	_	_	247.36	247.46	L1
+10	pas	pas	ADN	ADN	_	9	dep	_	_	247.46	247.57	L1
+11	comment	comment	PRQ	PRQ	_	12	dep	_	_	247.57	247.83	L1
+12	dire	dire	VNF	VNF	_	9	dep	_	_	247.83	247.99	L1
+13	ça	ça	PRO	PRO	_	12	dep	_	_	247.99	248.25	L1
+14	une	un	DET	DET	_	17	spe	_	_	248.25	248.85	L1
+15	euh	euh	INT	INT	_	14	dm	_	_	248.96	249.03	L1
+16	une	un	DET	DET	_	14	para	_	_	249.03	249.15	L1
+17	virée	virée	NOM	NOM	_	4	dep	_	_	249.15	249.50	L1
+18	dans	dans	PRE	PRE	_	17	dep	_	_	249.50	249.63	L1
+19	le	le	DET	DET	_	20	spe	_	_	249.63	249.71	L1
+20	désert	désert	NOM	NOM	_	18	dep	_	_	249.71	250.25	L1
+21	sur	sur	PRE	PRE	_	17	dep	_	_	250.25	250.47	L1
+22	les	le	DET	DET	_	23	spe	_	_	250.47	250.59	L1
+23	dunes	dune	NOM	NOM	_	21	dep	_	_	250.59	250.96	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-75
+# text = donc c'était vraiment euh génial
+1	donc	donc	ADV	ADV	_	3	periph	_	_	252.08	252.28	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	252.28	252.35	L1
+3	était	être	VRB	VRB	_	0	ROOT	_	_	252.35	252.54	L1
+4	vraiment	vraiment	ADV	ADV	_	3	dep	_	_	252.54	252.96	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	252.96	253.09	L1
+6	génial	génial	ADJ	ADJ	_	3	dep	_	_	253.09	253.79	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-76
+# text = euh on peut faire
+1	euh	euh	INT	INT	_	3	dm	_	_	254.38	255.21	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	255.25	255.34	L1
+3	peut	pouvoir	VRB	VRB	_	0	ROOT	_	_	255.34	255.43	L1
+4	faire	-	VNF	VNF	_	3	dep	_	_	255.43	255.82	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-77
+# text = euh il y a plein d'activités qui peuvent se faire
+1	euh	euh	INT	INT	_	4	dm	_	_	255.82	255.93	L1
+2	il	il	CLS	CLS	_	4	subj	_	_	255.93	256.01	L1
+3	y	y	CLI	CLI	_	4	dep	_	_	256.01	256.04	L1
+4	a	avoir	VRB	VRB	_	0	ROOT	_	_	256.04	256.08	L1
+5	plein	plein	ADJ	ADJ	_	4	dep	_	_	256.08	256.29	L1
+6	d'	de	PRE	PRE	_	5	dep	_	_	256.29	256.33	L1
+7	activités	activité	NOM	NOM	_	6	dep	_	_	256.33	256.89	L1
+8	qui	_	PRQ	PRQ	_	9	subj	_	_	256.89	257.02	L1
+9	peuvent	pouvoir	VRB	VRB	_	7	dep	_	_	257.02	257.14	L1
+10	se	se	CLI	CLI	_	11	dep	_	_	257.14	257.30	L1
+11	faire	-	VNF	VNF	_	9	dep	_	_	257.30	257.55	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-78
+# text = dans le dans le désert j'ai fait du surf dans le sable
+1	dans	dans	PRE	PRE	_	8	periph	_	_	257.55	257.66	L1
+2	le	le	DET	DET	_	1	disflink	_	_	257.66	257.99	L1
+3	dans	dans	PRE	PRE	_	1	para	_	_	257.99	258.11	L1
+4	le	le	DET	DET	_	5	spe	_	_	258.11	258.24	L1
+5	désert	désert	NOM	NOM	_	3	dep	_	_	258.24	258.87	L1
+6	j'	je	CLS	CLS	_	8	subj	_	_	258.87	258.98	L1
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	258.98	259.01	L1
+8	fait	-	VPP	VPP	_	0	ROOT	_	_	259.01	259.18	L1
+9	du	_	PRE	PRE	_	8	dep	_	_	259.18	259.29	L1
+10	surf	surf	NOM	NOM	_	9	dep	_	_	259.29	259.76	L1
+11	dans	dans	PRE	PRE	_	10	dep	_	_	259.76	259.86	L1
+12	le	le	DET	DET	_	13	spe	_	_	259.86	259.89	L1
+13	sable	sable	NOM	NOM	_	11	dep	_	_	259.94	260.67	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-79
+# text = donc c'est vraiment super
+1	donc	donc	ADV	ADV	_	3	periph	_	_	260.99	261.15	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	261.15	261.23	L1
+3	est	être	VRB	VRB	_	0	ROOT	_	_	261.23	261.27	L1
+4	vraiment	vraiment	ADV	ADV	_	3	dep	_	_	261.27	261.63	L1
+5	super	super	ADJ	ADJ	_	3	dep	_	_	261.63	262.09	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-80
+# text = c'est des choses qu'on ne peut pas voir ailleurs
+1	c'	ce	CLS	CLS	_	2	subj	_	_	262.09	262.18	L1
+2	est	être	VRB	VRB	_	0	ROOT	_	_	262.27	262.40	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	262.40	262.66	L1
+4	choses	chose	NOM	NOM	_	3	dep	_	_	262.66	262.95	L1
+5	qu'	que	PRQ	PRQ	_	8	dep	_	_	262.95	263.04	L1
+6	on	on	CLS	CLS	_	8	subj	_	_	263.04	263.13	L1
+7	ne	ne	CLN	CLN	_	8	dep	_	_	263.13	263.18	L1
+8	peut	pouvoir	VRB	VRB	_	4	dep	_	_	263.18	263.35	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	263.35	263.49	L1
+10	voir	voir	VNF	VNF	_	8	dep	_	_	263.49	263.67	L1
+11	ailleurs	ailleurs	ADV	ADV	_	10	dep	_	_	263.67	264.16	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-81
+# text = euh tout le monde
+1	euh	euh	INT	INT	_	2	dm	_	_	264.83	265.48	L1
+2	tout#le#monde	tout le monde	PRO	PRO	_	0	ROOT	_	_	265.48	266.37	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-82
+# text = oui dans les dans les camps après dans le désert tout le monde fume la chicha en mangeant
+1	oui	oui	INT	INT	_	12	dm	_	_	266.37	266.96	L1
+2	dans	dans	PRE	PRE	_	12	periph	_	_	267.14	267.37	L1
+3	les	le	DET	DET	_	2	disflink	_	_	267.37	267.70	L1
+4	dans	dans	PRE	PRE	_	2	para	_	_	267.70	267.84	L1
+5	les	le	DET	DET	_	6	spe	_	_	267.84	268.01	L1
+6	camps	camp	NOM	NOM	_	4	dep	_	_	268.05	268.33	L1
+7	après	après	PRE	PRE	_	12	periph	_	_	268.33	268.62	L1
+8	dans	dans	PRE	PRE	_	12	periph	_	_	268.62	268.78	L1
+9	le	le	DET	DET	_	10	spe	_	_	268.78	268.81	L1
+10	désert	désert	NOM	NOM	_	8	dep	_	_	268.81	269.21	L1
+11	tout#le#monde	_	NOM	NOM	_	12	subj	_	_	269.21	269.50	L1
+12	fume	fumer	VRB	VRB	_	0	ROOT	_	_	269.50	269.76	L1
+13	la	le	DET	DET	_	14	spe	_	_	269.76	269.84	L1
+14	chicha	_	NOM	NOM	_	12	dep	_	_	269.84	270.55	L1
+15	en	en	PRE	PRE	_	12	dep	_	_	270.99	271.15	L1
+16	mangeant	manger	VPR	VPR	_	15	dep	_	_	271.15	271.90	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-83
+# text = la nourriture elle est super
+1	la	le	DET	DET	_	2	spe	_	_	271.90	272.00	L1
+2	nourriture	nourriture	NOM	NOM	_	4	periph	_	_	272.00	272.48	L1
+3	elle	il	CLS	CLS	_	4	subj	_	_	272.48	272.54	L1
+4	est	être	VRB	VRB	_	0	ROOT	_	_	272.54	272.57	L1
+5	super	super	ADJ	ADJ	_	4	dep	_	_	272.57	273.27	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-84
+# text = ils mangent un petit peu comme euh un petit peu comme les grecs et les turques beaucoup de houmous beaucoup de feuilles de vignes tout ça
+1	ils	il	CLS	CLS	_	2	subj	_	_	273.64	273.74	L1
+2	mangent	manger	VRB	VRB	_	0	ROOT	_	_	273.74	274.05	L1
+3	un	un	DET	DET	_	5	spe	_	_	274.05	274.30	L1
+4	petit	petit	ADJ	ADJ	_	5	dep	_	_	274.30	274.45	L1
+5	peu	_	NOM	NOM	_	2	dep	_	_	274.45	274.61	L1
+6	comme	comme	PRE	PRE	_	2	dep	_	_	274.61	274.83	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	274.83	274.89	L1
+8	un	un	DET	DET	_	10	spe	_	_	274.89	275.26	L1
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	276.26	276.70	L1
+10	peu	_	NOM	NOM	_	11	dep	_	_	276.70	276.87	L1
+11	comme	comme	PRE	PRE	_	6	para	_	_	276.87	276.99	L1
+12	les	le	DET	DET	_	13	spe	_	_	276.99	277.09	L1
+13	grecs	grec	NOM	NOM	_	11	dep	_	_	277.09	277.61	L1
+14	et	et	COO	COO	_	16	mark	_	_	277.61	277.89	L1
+15	les	le	DET	DET	_	16	spe	_	_	277.89	278.16	L1
+16	turques	turc	NOM	NOM	_	13	para	_	_	278.16	278.69	L1
+17	beaucoup	beaucoup	ADV	ADV	_	2	dep	_	_	278.69	278.94	L1
+18	de	de	PRE	PRE	_	17	dep	_	_	278.94	279.35	L1
+19	houmous	_	NOM	NOM	_	18	dep	_	_	279.35	280.15	L1
+20	beaucoup	beaucoup	ADV	ADV	_	17	para	_	_	280.15	280.52	L1
+21	de	de	PRE	PRE	_	20	dep	_	_	280.52	280.81	L1
+22	feuilles	feuille	NOM	NOM	_	21	dep	_	_	280.97	281.21	L1
+23	de	de	PRE	PRE	_	22	dep	_	_	281.21	281.26	L1
+24	vignes	vigne	NOM	NOM	_	23	dep	_	_	281.26	281.96	L1
+25	tout	tout	ADJ	ADJ	_	26	dep	_	_	281.96	282.07	L1
+26	ça	ça	PRO	PRO	_	22	para	_	_	282.07	282.48	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-85
+# text = il y a aussi beaucoup de nourriture indienne parce qu'il y a beaucoup beaucoup d'Indiens à Dubaï
+1	il	il	CLS	CLS	_	3	subj	_	_	283.62	283.72	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	283.72	283.77	L1
+3	a	avoir	VRB	VRB	_	0	ROOT	_	_	283.77	283.82	L1
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	283.82	284.05	L1
+5	beaucoup	beaucoup	PRO	PRO	_	3	dep	_	_	284.05	284.27	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	284.27	284.30	L1
+7	nourriture	nourriture	NOM	NOM	_	6	dep	_	_	284.30	284.76	L1
+8	indienne	indien	ADJ	ADJ	_	7	dep	_	_	284.76	285.29	L1
+9	parce#qu'	parce que	CSU	CSU	_	3	dep	_	_	285.29	285.53	L1
+10	il	il	CLS	CLS	_	12	subj	_	_	285.53	285.59	L1
+11	y	y	CLI	CLI	_	12	dep	_	_	285.59	285.62	L1
+12	a	avoir	VRB	VRB	_	9	dep	_	_	285.62	285.73	L1
+13	beaucoup	beaucoup	ADV	ADV	_	12	dep	_	_	285.73	286.02	L1
+14	beaucoup	beaucoup	ADV	ADV	_	13	para	_	_	286.02	286.25	L1
+15	d'	de	PRE	PRE	_	14	dep	_	_	286.25	286.33	L1
+16	Indiens	indien	NOM	NOM	_	15	dep	_	_	286.33	287.11	L1
+17	à	à	PRE	PRE	_	12	dep	_	_	287.25	287.38	L1
+18	Dubaï	_	NOM	NOM	_	17	dep	_	_	287.38	287.95	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-86
+# text = des Indiens des Pakistanais il y en a énormément qui travaillent là bas en fait qui construisent pour la plupart
+1	des	de	PRE	PRE	_	8	periph	_	_	288.44	288.69	L1
+2	Indiens	indien	NOM	NOM	_	1	dep	_	_	288.69	289.10	L1
+3	des	de	PRE	PRE	_	1	para	_	_	289.10	289.20	L1
+4	Pakistanais	pakistanais	NOM	NOM	_	3	dep	_	_	289.20	289.88	L1
+5	il	il	CLS	CLS	_	8	subj	_	_	290.47	290.56	L1
+6	y	y	CLI	CLI	_	8	dep	_	_	290.56	290.60	L1
+7	en	en	CLI	CLI	_	8	dep	_	_	290.60	290.64	L1
+8	a	avoir	VRB	VRB	_	0	ROOT	_	_	290.64	290.69	L1
+9	énormément	énormément	ADV	ADV	_	8	dep	_	_	290.69	291.47	L1
+10	qui	_	PRQ	PRQ	_	11	subj	_	_	291.56	291.65	L1
+11	travaillent	travailler	VRB	VRB	_	9	dep	_	_	291.65	291.98	L1
+12	là	là	ADV	ADV	_	11	dep	_	_	291.98	292.14	L1
+13	bas	bas	ADV	ADV	_	12	morph	_	_	292.14	292.30	L1
+14	en#fait	en fait	ADV	ADV	_	11	dep	_	_	292.30	292.64	L1
+15	qui	_	PRQ	PRQ	_	16	subj	_	_	292.75	293.12	L1
+16	construisent	construire	VRB	VRB	_	11	para	_	_	293.12	293.63	L1
+17	pour	pour	PRE	PRE	_	16	dep	_	_	293.63	293.78	L1
+18	la#plupart	_	ADV	ADV	_	17	dep	_	_	293.78	294.29	L1
+
+# sent_id = cefc-tcof-Lic2012-13_Guerrero-87
+# text = et euh et voilà
+1	et	et	COO	COO	_	4	mark	_	_	295.44	295.65	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	295.86	296.85	L1
+3	et	et	COO	COO	_	1	para	_	_	297.21	297.31	L1
+4	voilà	voilà	INT	INT	_	0	ROOT	_	_	297.31	297.82	L1
+

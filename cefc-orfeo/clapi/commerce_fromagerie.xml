@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>commerce_fromagerie</title>
+        <respStmt>
+          <resp>Responsables du corpus</resp>
+          <name>Clapi</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="word">16941</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>projet Orfeo</publisher>
+        <pubPlace>http://projet-orfeo.fr</pubPlace>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0"/>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="commentaireDate"/>
+        <note type="commentaireQualiteSon"/>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>fichier <name>commerce_fromagerie</name> du corpus/projet <name>CLAPI</name>
+            </bibl>
+        <recordingStmt>
+          <recording type="audio" dur="03:02:22" ana="#problème_enregistrement #NULL #bip">
+            <date>14/11/2014</date>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p ana="automatique">Annotation automatique</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p>Interactions commerciales dans une boulangerie rurale
+            </p>
+      </abstract>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+      <textClass>
+        <catRef target="transaction" corresp="type"/>
+        <catRef target="professionnel" corresp="secteur"/>
+        <catRef target="commercial" corresp="milieu"/>
+        <catRef target="face_à_face" corresp="channel"/>
+        <catRef corresp="modality" target="oral"/>
+        <catRef corresp="nbLocuteurs" target="2+"/>
+      </textClass>
+      <settingDesc>
+        <place>
+          <p>France, Rhône-Alpes, Région Lyonnaise</p>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="VE1">
+            <sex>M</sex>
+            <birth from="1964" to="1994">
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>En activité</occupation>
+            <education>Vendeuse</education>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="VE2">
+            <sex>F</sex>
+            <birth from="1964" to="1994">
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>En activité</occupation>
+            <education>Vendeur</education>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="VE3">
+            <sex>M</sex>
+            <birth from="1964" to="1994">
+              <placeName>inconnu</placeName>
+            </birth>
+            <occupation>En activité</occupation>
+            <education>Vendeur</education>
+            <langKnowledge>
+              <langKnown level="langue_maternelle">français</langKnown>
+            </langKnowledge>
+          </person>
+          <person xml:id="C01">
+            <sex>Inconnu</sex>
+            <birth from="1954" to="1994">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C02">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C03">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C04">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C05">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C06">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C07">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C08">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C09">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C10">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C11">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C12">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C13">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C14">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C15">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C16">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C17">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C18">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C19">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C20">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C21">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C22">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C23">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C24">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="ETU">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="passant">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="BB1">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="ETI">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C11bis">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="distrib">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="INC">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="LV1">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="LV2">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="OLI">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="LX">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+          <person xml:id="C19bis">
+            <sex>Inconnu</sex>
+            <birth from="1946" to="1986">
+              <placeName>inconnu</placeName>
+            </birth>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+</TEI>

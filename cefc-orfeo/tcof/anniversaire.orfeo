@@ -1,0 +1,1527 @@
+# sent_id = cefc-tcof-anniversaire-1
+# text = ah par contre il y avait l'anniversaire d'NNAAMMEE la semaine dernière
+1	ah	ah	INT	INT	_	6	dm	_	_	0.220000	0.250000	L1
+2	par	par	PRE	PRE	_	6	periph	_	_	0.660000	0.800000	L1
+3	contre	contre	NOM	NOM	_	2	dep	_	_	0.800000	0.990000	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	0.990000	1.050000	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	1.590000	1.610000	L1
+6	avait	avoir	VRB	VRB	_	0	root	_	_	1.610000	1.740000	L1
+7	l'	le	DET	DET	_	8	spe	_	_	1.740000	1.770000	L1
+8	anniversaire	anniversaire	NOM	NOM	_	6	dep	_	_	1.770000	2.050000	L1
+9	d'	de	PRE	PRE	_	8	dep	_	_	2.050000	2.080000	L1
+10	NNAAMMEE	NOM	NOM	NOM	_	9	dep	_	_	2.080000	2.260000	L1
+11	la	le	DET	DET	_	12	spe	_	_	2.260000	2.320000	L1
+12	semaine	semaine	NOM	NOM	_	8	para	_	_	2.320000	2.540000	L1
+13	dernière	dernier	ADJ	ADJ	_	12	dep	_	_	2.540000	2.930000	L1
+
+# sent_id = cefc-tcof-anniversaire-2
+# text = ah oui
+1	ah	ah	INT	INT	_	0	root	_	_	3.650000	3.870000	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	3.870000	4.240000	L2
+
+# sent_id = cefc-tcof-anniversaire-3
+# text = ah c'était trop bien
+1	ah	ah	INT	INT	_	3	dm	_	_	4.660000	4.900000	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	4.900000	4.980000	L1
+3	était	être	VRB	VRB	_	0	root	_	_	4.980000	5.150000	L1
+4	trop	trop	ADV	ADV	_	5	dep	_	_	5.150000	5.560000	L1
+5	bien	bien	ADV	ADV	_	3	dep	_	_	5.660000	6.240000	L1
+
+# sent_id = cefc-tcof-anniversaire-4
+# text = non franchement c'était sympa tu sais ben
+1	non	non	INT	INT	_	4	dm	_	_	7.140000	7.390000	L1
+2	franchement	franchement	ADV	ADV	_	4	periph	_	_	7.390000	7.790000	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	7.790000	7.850000	L1
+4	était	être	VRB	VRB	_	0	root	_	_	7.850000	8.040000	L1
+5	sympa	sympa	ADJ	ADJ	_	4	dep	_	_	8.040000	8.490000	L1
+6	tu	tu	CLS	CLS	_	7	subj	_	_	8.490000	8.550000	L1
+7	sais	savoir	VRB	VRB	_	4	para	_	_	8.550000	8.710000	L1
+8	ben	ben	INT	INT	_	7	dm	_	_	8.790000	8.970000	L1
+
+# sent_id = cefc-tcof-anniversaire-5
+# text = j'avais un peu peur parce que mes parents étaient invités là
+1	j'	je	CLS	CLS	_	2	subj	_	_	8.970000	9.000000	L1
+2	avais	avoir	VRB	VRB	_	0	root	_	_	9.000000	9.290000	L1
+3	un peu	un peu	ADV	ADV	_	2	dep	_	_	9.290000	9.400000	L1
+4	peur	peur	NOM	NOM	_	2	dep	_	_	9.400000	9.580000	L1
+5	parce que	parce que	CSU	CSU	_	2	dep	_	_	9.720000	9.920000	L1
+6	mes	son	DET	DET	_	7	spe	_	_	9.920000	9.980000	L1
+7	parents	parent	NOM	NOM	_	9	subj	_	_	9.980000	10.140000	L1
+8	étaient	être	VRB	VRB	_	9	aux	_	_	10.140000	10.260000	L1
+9	invités	inviter	VPP	VPP	_	5	dep	_	_	10.260000	10.830000	L1
+10	là	là	ADV	ADV	_	9	dep	_	_	10.830000	10.900000	L1
+
+# sent_id = cefc-tcof-anniversaire-6
+# text = et puis ils connaissaient pas ses parents et tout
+1	et puis	et puis	COO	COO	_	3	mark	_	_	11.610000	11.880000	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	11.880000	11.910000	L1
+3	connaissaient	connaître	VRB	VRB	_	0	root	_	_	11.910000	12.260000	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	12.260000	12.400000	L1
+5	ses	son	DET	DET	_	6	spe	_	_	12.400000	12.620000	L1
+6	parents	parent	NOM	NOM	_	3	dep	_	_	12.620000	13.330000	L1
+7	et	et	COO	COO	_	8	mark	_	_	13.870000	14.020000	L1
+8	tout	tout	ADV	ADV	_	6	para	_	_	14.090000	14.160000	L1
+
+# sent_id = cefc-tcof-anniversaire-7
+# text = mais bon j'avais peur que ça fasse tu vois trop officiel euh
+1	mais	mais	COO	COO	_	4	mark	_	_	14.160000	14.260000	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	14.930000	15.450000	L1
+3	j'	je	CLS	CLS	_	4	subj	_	_	15.450000	15.510000	L1
+4	avais	avoir	VRB	VRB	_	0	root	_	_	15.510000	15.680000	L1
+5	peur	peur	NOM	NOM	_	4	dep	_	_	15.680000	15.850000	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	15.850000	15.960000	L1
+7	ça	ça	PRO	PRO	_	8	subj	_	_	15.960000	16.110001	L1
+8	fasse	faire	VRB	VRB	_	6	dep	_	_	16.110001	16.450001	L1
+9	tu	tu	CLS	CLS	_	10	subj	_	_	16.450001	16.530001	L1
+10	vois	voir	VRB	VRB	_	8	dm	_	_	16.610001	16.700001	L1
+11	trop	trop	ADV	ADV	_	12	dep	_	_	16.750000	16.870001	L1
+12	officiel	officiel	ADJ	ADJ	_	10	dep	_	_	16.870001	17.360001	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	17.360001	17.440001	L1
+
+# sent_id = cefc-tcof-anniversaire-8
+# text = oh euh on veut rencontrer euh les parents machin
+1	oh	oh	INT	INT	_	4	dm	_	_	17.440001	17.469999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	17.790001	17.830000	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	17.830000	18.040001	L1
+4	veut	vouloir	VRB	VRB	_	0	root	_	_	18.389999	18.570000	L1
+5	rencontrer	rencontrer	VNF	VNF	_	4	dep	_	_	18.620001	19.400000	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	19.400000	19.600000	L1
+7	les	le	DET	DET	_	8	spe	_	_	20.410000	20.469999	L1
+8	parents	parent	NOM	NOM	_	5	dep	_	_	20.469999	20.780001	L1
+9	machin	machin	NOM	NOM	_	8	dep	_	_	20.780001	21.320000	L1
+
+# sent_id = cefc-tcof-anniversaire-9
+# text = tout et puis en fait bon ça allait on est arrivé
+1	tout	tout	ADJ	ADJ	_	2	dep	_	_	21.320000	21.490000	L1
+2	et puis	et puis	COO	COO	_	7	mark	_	_	21.490000	21.750000	L1
+3	en	en	PRE	PRE	_	7	periph	_	_	21.750000	21.900000	L1
+4	fait	fait	NOM	NOM	_	3	dep	_	_	21.900000	22.139999	L1
+5	bon	bon	INT	INT	_	3	dm	_	_	22.139999	22.389999	L1
+6	ça	ça	PRO	PRO	_	7	subj	_	_	22.389999	22.709999	L1
+7	allait	aller	VRB	VRB	_	0	root	_	_	22.709999	22.940001	L1
+8	on	on	CLS	CLS	_	10	subj	_	_	22.990000	23.020000	L1
+9	est	être	VRB	VRB	_	10	aux	_	_	23.020000	23.049999	L1
+10	arrivé	arriver	VPP	VPP	_	7	dep	_	_	23.049999	23.469999	L1
+
+# sent_id = cefc-tcof-anniversaire-10
+# text = bon bah ils se sont présentés ils ont ils ont présenté mes parents à tout le parce que il y avait il y avait sa famille et ses amis en fait à NNAAMMEE
+1	bon bah	bon bah	INT	INT	_	5	dm	_	_	23.469999	23.850000	L1
+2	ils	il	CLS	CLS	_	5	subj	_	_	24.080000	24.129999	L1
+3	se	se	CLI	CLI	_	5	dep	_	_	24.129999	24.280001	L1
+4	sont	être	VRB	VRB	_	5	aux	_	_	24.280001	24.360001	L1
+5	présentés	présenter	VPP	VPP	_	0	root	_	_	24.360001	25.070000	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	25.120001	25.219999	L1
+7	ont	avoir	VRB	VRB	_	5	para	_	_	25.219999	25.299999	L1
+8	ils	il	CLS	CLS	_	10	subj	_	_	25.299999	25.400000	L1
+9	ont	avoir	VRB	VRB	_	10	aux	_	_	26.129999	26.280001	L1
+10	présenté	présenter	VPP	VPP	_	7	para	_	_	26.280001	26.750000	L1
+11	mes	son	DET	DET	_	12	spe	_	_	26.750000	26.870001	L1
+12	parents	parent	NOM	NOM	_	10	dep	_	_	26.870001	27.170000	L1
+13	à	à	PRE	PRE	_	12	dep	_	_	27.170000	27.230000	L1
+14	tout	tout	PRO	PRO	_	13	dep	_	_	27.360001	27.430000	L1
+15	le	le	DET	DET	_	16	spe	_	_	27.430000	27.610001	L1
+16	parce que	parce que	CSU	CSU	_	12	dep	_	_	27.920000	28.070000	L1
+17	il	il	CLS	CLS	_	19	subj	_	_	28.070000	28.129999	L1
+18	y	y	CLI	CLI	_	19	dep	_	_	28.129999	28.160000	L1
+19	avait	avoir	VRB	VRB	_	16	dep	_	_	28.160000	28.370001	L1
+20	il	il	CLS	CLS	_	22	subj	_	_	28.370001	28.430000	L1
+21	y	y	CLI	CLI	_	22	dep	_	_	28.430000	28.469999	L1
+22	avait	avoir	VRB	VRB	_	19	para	_	_	28.469999	28.600000	L1
+23	sa	son	DET	DET	_	24	spe	_	_	28.600000	28.770000	L1
+24	famille	famille	NOM	NOM	_	22	dep	_	_	28.770000	29.219999	L1
+25	et	et	COO	COO	_	27	mark	_	_	29.309999	29.459999	L1
+26	ses	son	DET	DET	_	27	spe	_	_	29.459999	29.709999	L1
+27	amis	ami	NOM	NOM	_	12	para	_	_	29.709999	29.959999	L1
+28	en	en	PRE	PRE	_	27	dep	_	_	30.000000	30.080000	L1
+29	fait	fait	NOM	NOM	_	28	dep	_	_	30.080000	30.219999	L1
+30	à	à	PRE	PRE	_	29	dep	_	_	30.290001	30.309999	L1
+31	NNAAMMEE	NOM	NOM	NOM	_	30	dep	_	_	30.309999	30.549999	L1
+
+# sent_id = cefc-tcof-anniversaire-11
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	11.190000	11.250000	L2
+2	ouais	ouais	INT	INT	_	1	para	_	_	20.020000	20.170000	L2
+
+# sent_id = cefc-tcof-anniversaire-12
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	31.660000	32.049999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	32.150002	32.189999	L1
+
+# sent_id = cefc-tcof-anniversaire-13
+# text = houla voilà
+1	houla	houla	INT	INT	_	0	root	_	_	31.670000	32.220001	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	33.770000	34.080002	L2
+
+# sent_id = cefc-tcof-anniversaire-14
+# text = les parents d'NNAAMMEE
+1	les	le	DET	DET	_	2	spe	_	_	34.080002	34.230000	L2
+2	parents	parent	NOM	NOM	_	0	root	_	_	34.230000	34.630001	L2
+3	d'	de	PRE	PRE	_	2	dep	_	_	34.630001	34.660000	L2
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	34.660000	34.930000	L2
+
+# sent_id = cefc-tcof-anniversaire-15
+# text = bon
+1	bon	bon	INT	INT	_	0	root	_	_	33.770000	34.099998	L1
+
+# sent_id = cefc-tcof-anniversaire-16
+# text = la famille les parents d'NNAAMMEE
+1	la	le	DET	DET	_	2	spe	_	_	34.099998	34.360001	L1
+2	famille	famille	NOM	NOM	_	0	root	_	_	34.360001	34.830002	L1
+3	les	le	DET	DET	_	4	spe	_	_	35.139999	35.500000	L1
+4	parents	parent	NOM	NOM	_	2	para	_	_	35.580002	35.820000	L1
+5	d'	de	PRE	PRE	_	4	dep	_	_	35.820000	35.849998	L1
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	35.849998	36.250000	L1
+
+# sent_id = cefc-tcof-anniversaire-17
+# text = ont pris ont montré à mes parents bon bah
+1	ont	avoir	VRB	VRB	_	2	aux	_	_	36.250000	36.660000	L1
+2	pris	-	VPP	VPP	_	0	root	_	_	36.660000	36.919998	L1
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	36.919998	37.119999	L1
+4	montré	montrer	VPP	VPP	_	2	para	_	_	37.160000	37.380001	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	37.439999	37.540001	L1
+6	mes	son	DET	DET	_	7	spe	_	_	37.540001	37.750000	L1
+7	parents	parent	NOM	NOM	_	5	dep	_	_	37.750000	38.189999	L1
+8	bon bah	bon bah	INT	INT	_	7	dm	_	_	38.240002	38.529999	L1
+
+# sent_id = cefc-tcof-anniversaire-18
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	38.529999	38.919998	L1
+
+# sent_id = cefc-tcof-anniversaire-19
+# text = toute la famille
+1	toute	tout	ADJ	ADJ	_	3	dep	_	_	38.919998	39.029999	L1
+2	la	le	DET	DET	_	3	spe	_	_	39.099998	39.200001	L1
+3	famille	famille	NOM	NOM	_	0	root	_	_	39.200001	39.700001	L1
+
+# sent_id = cefc-tcof-anniversaire-20
+# text = et puis après bon ben là c'est les amis tout bon d'accord
+1	et puis	et puis	COO	COO	_	6	mark	_	_	39.770000	39.939999	L1
+2	après	après	PRE	PRE	_	6	periph	_	_	39.939999	40.060001	L1
+3	bon ben	bon ben	INT	INT	_	2	dm	_	_	40.060001	40.369999	L1
+4	là	là	ADV	ADV	_	6	periph	_	_	40.369999	40.560001	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	40.560001	40.639999	L1
+6	est	être	VRB	VRB	_	0	root	_	_	40.639999	40.680000	L1
+7	les	le	DET	DET	_	8	spe	_	_	40.680000	40.939999	L1
+8	amis	ami	NOM	NOM	_	6	dep	_	_	40.939999	41.310001	L1
+9	tout	tout	ADJ	ADJ	_	11	dep	_	_	41.310001	41.470001	L1
+10	bon	bon	INT	INT	_	9	dm	_	_	42.450001	42.580002	L1
+11	d'	de	PRE	PRE	_	8	dep	_	_	42.580002	42.610001	L1
+12	accord	accord	NOM	NOM	_	11	dep	_	_	42.610001	42.779999	L1
+
+# sent_id = cefc-tcof-anniversaire-21
+# text = donc après c'était apéro et tout en fait
+1	donc	donc	ADV	ADV	_	4	periph	_	_	42.779999	42.930000	L1
+2	après	après	ADV	ADV	_	4	periph	_	_	42.930000	43.520000	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	43.750000	43.830002	L1
+4	était	être	VRB	VRB	_	0	root	_	_	43.830002	43.919998	L1
+5	apéro	apéro	NOM	NOM	_	4	dep	_	_	43.919998	44.380001	L1
+6	et	et	COO	COO	_	7	mark	_	_	44.380001	44.410000	L1
+7	tout	tout	ADV	ADV	_	5	para	_	_	44.410000	44.560001	L1
+8	en	en	PRE	PRE	_	4	dep	_	_	44.939999	44.970001	L1
+9	fait	faire	VRB	VRB	_	8	dep	_	_	44.970001	45.119999	L1
+
+# sent_id = cefc-tcof-anniversaire-22
+# text = c'était bien fait parce que si tu veux il y avait une partie de la sa~ en fait
+1	c'	ce	CLS	CLS	_	2	subj	_	_	45.119999	45.189999	L1
+2	était	être	VRB	VRB	_	0	root	_	_	45.189999	45.349998	L1
+3	bien	bien	ADV	ADV	_	4	dep	_	_	45.349998	45.610001	L1
+4	fait	faire	VPP	VPP	_	2	dep	_	_	45.610001	45.730000	L1
+5	parce que	parce que	CSU	CSU	_	4	dep	_	_	45.820000	46.000000	L1
+6	si	si	CSU	CSU	_	11	periph	_	_	46.000000	46.209999	L1
+7	tu	tu	CLS	CLS	_	8	subj	_	_	46.209999	46.270000	L1
+8	veux	vouloir	VRB	VRB	_	6	dep	_	_	46.270000	46.340000	L1
+9	il	il	CLS	CLS	_	11	subj	_	_	46.340000	46.400002	L1
+10	y	y	CLI	CLI	_	11	dep	_	_	46.400002	46.430000	L1
+11	avait	avoir	VRB	VRB	_	5	dep	_	_	46.430000	46.529999	L1
+12	une	un	DET	DET	_	13	spe	_	_	46.529999	46.849998	L1
+13	partie	partie	NOM	NOM	_	11	dep	_	_	46.849998	47.169998	L1
+14	de	de	PRE	PRE	_	13	dep	_	_	47.169998	47.200001	L1
+15	la	le	DET	DET	_	16	spe	_	_	47.200001	47.340000	L1
+16	sa~	sa~	NOM	NOM	_	14	dep	_	_	47.340000	47.400002	L1
+17	en	en	PRE	PRE	_	13	dep	_	_	47.480000	47.540001	L1
+18	fait	fait	NOM	NOM	_	17	dep	_	_	47.540001	47.759998	L1
+
+# sent_id = cefc-tcof-anniversaire-23
+# text = il y avait deux parties de la salle
+1	il	il	CLS	CLS	_	3	subj	_	_	47.759998	47.840000	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	47.840000	47.869999	L1
+3	avait	avoir	VRB	VRB	_	0	root	_	_	47.869999	48.020000	L1
+4	deux	deux	NUM	NUM	_	5	spe	_	_	48.020000	48.080002	L1
+5	parties	partie	NOM	NOM	_	3	dep	_	_	48.080002	48.459999	L1
+6	de	de	PRE	PRE	_	5	dep	_	_	48.459999	48.490002	L1
+7	la	le	DET	DET	_	8	spe	_	_	48.490002	48.650002	L1
+8	salle	salle	NOM	NOM	_	6	dep	_	_	48.650002	48.939999	L1
+
+# sent_id = cefc-tcof-anniversaire-24
+# text = il y avait une grosse partie comme ça
+1	il	il	CLS	CLS	_	3	subj	_	_	48.990002	49.049999	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	49.049999	49.080002	L1
+3	avait	avoir	VRB	VRB	_	0	root	_	_	49.080002	49.169998	L1
+4	une	un	DET	DET	_	6	spe	_	_	49.169998	49.230000	L1
+5	grosse	gros	ADJ	ADJ	_	6	dep	_	_	49.230000	49.459999	L1
+6	partie	partie	NOM	NOM	_	3	dep	_	_	49.459999	49.830002	L1
+7	comme	comme	PRE	PRE	_	6	dep	_	_	49.830002	50.090000	L1
+8	ça	ça	PRO	PRO	_	7	dep	_	_	50.090000	50.330002	L1
+
+# sent_id = cefc-tcof-anniversaire-25
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	50.529999	50.810001	L2
+
+# sent_id = cefc-tcof-anniversaire-26
+# text = et puis là il y a avait une plus petite
+1	et puis	et puis	COO	COO	_	5	mark	_	_	50.970001	51.380001	L1
+2	là	là	ADV	ADV	_	5	periph	_	_	51.380001	51.459999	L1
+3	il	il	CLS	CLS	_	5	subj	_	_	51.459999	51.580002	L1
+4	y	y	CLI	CLI	_	5	dep	_	_	51.580002	51.610001	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	51.610001	51.689999	L1
+6	avait	avoir	VRB	VRB	_	5	para	_	_	51.689999	51.830002	L1
+7	une	un	DET	DET	_	9	spe	_	_	51.830002	51.939999	L1
+8	plus	plus	ADV	ADV	_	9	dep	_	_	52.020000	52.099998	L1
+9	petite	petit	ADJ	ADJ	_	6	dep	_	_	52.099998	52.740002	L1
+
+# sent_id = cefc-tcof-anniversaire-27
+# text = là comme ça un peu en fait ils avaient mis dans la plus petite pièce les tables euh pour euh manger tout
+1	là	là	ADV	ADV	_	9	periph	_	_	53.340000	53.570000	L1
+2	comme	comme	PRE	PRE	_	9	periph	_	_	53.570000	53.770000	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	53.770000	54.000000	L1
+4	un peu	un peu	ADV	ADV	_	9	periph	_	_	54.130001	54.230000	L1
+5	en	en	PRE	PRE	_	9	periph	_	_	54.689999	54.779999	L1
+6	fait	fait	NOM	NOM	_	5	dep	_	_	54.779999	54.880001	L1
+7	ils	il	CLS	CLS	_	9	subj	_	_	54.880001	55.139999	L1
+8	avaient	avoir	VRB	VRB	_	9	aux	_	_	55.139999	55.360001	L1
+9	mis	mettre	VPP	VPP	_	0	root	_	_	55.360001	55.619999	L1
+10	dans	dans	PRE	PRE	_	9	dep	_	_	55.619999	55.680000	L1
+11	la	le	DET	DET	_	12	spe	_	_	55.680000	55.970001	L1
+12	plus	plus	NOM	NOM	_	10	dep	_	_	55.970001	56.119999	L1
+13	petite	petit	ADJ	ADJ	_	12	dep	_	_	56.119999	56.330002	L1
+14	pièce	pièce	NOM	NOM	_	12	para	_	_	56.439999	56.660000	L1
+15	les	le	DET	DET	_	16	spe	_	_	56.759998	57.080002	L1
+16	tables	table	NOM	NOM	_	14	para	_	_	57.080002	57.410000	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	57.410000	57.480000	L1
+18	pour	pour	PRE	PRE	_	9	dep	_	_	57.630001	57.750000	L1
+19	euh	euh	INT	INT	_	18	dm	_	_	57.750000	57.860001	L1
+20	manger	manger	VNF	VNF	_	18	dep	_	_	57.860001	58.380001	L1
+21	tout	tout	ADV	ADV	_	20	dep	_	_	58.480000	58.540001	L1
+
+# sent_id = cefc-tcof-anniversaire-28
+# text = et puis là c'était bah piste de danse quoi en fait avec euh
+1	et puis	et puis	COO	COO	_	4	mark	_	_	59.200001	59.380001	L1
+2	là	là	ADV	ADV	_	4	periph	_	_	59.380001	59.549999	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	59.549999	59.680000	L1
+4	était	être	VRB	VRB	_	0	root	_	_	59.680000	59.840000	L1
+5	bah	bah	INT	INT	_	4	dm	_	_	59.840000	60.279999	L1
+6	piste	piste	NOM	NOM	_	4	dep	_	_	60.279999	60.570000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	60.570000	60.689999	L1
+8	danse	danse	NOM	NOM	_	7	dep	_	_	60.689999	61.090000	L1
+9	quoi	quoi	INT	INT	_	8	dm	_	_	61.090000	61.200001	L1
+10	en	en	PRE	PRE	_	4	dep	_	_	61.200001	61.299999	L1
+11	fait	faire	VRB	VRB	_	10	dep	_	_	61.299999	61.590000	L1
+12	avec	avec	PRE	PRE	_	11	dep	_	_	61.750000	61.980000	L1
+13	euh	euh	INT	INT	_	12	dm	_	_	61.980000	62.009998	L1
+
+# sent_id = cefc-tcof-anniversaire-29
+# text = il y avait son cousin qui animait en plus la soirée
+1	il	il	CLS	CLS	_	3	subj	_	_	62.450001	62.520000	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	62.520000	62.549999	L1
+3	avait	avoir	VRB	VRB	_	0	root	_	_	62.549999	62.639999	L1
+4	son	son	DET	DET	_	5	spe	_	_	62.639999	62.860001	L1
+5	cousin	cousin	NOM	NOM	_	3	dep	_	_	62.950001	63.209999	L1
+6	qui	qui	PRQ	PRQ	_	7	subj	_	_	63.209999	63.310001	L1
+7	animait	animer	VRB	VRB	_	5	dep	_	_	63.310001	63.740002	L1
+8	en	en	PRE	PRE	_	7	dep	_	_	63.740002	63.810001	L1
+9	plus	plus	ADN	ADN	_	8	dep	_	_	63.860001	64.050003	L1
+10	la	le	DET	DET	_	11	spe	_	_	64.050003	64.120003	L1
+11	soirée	soirée	NOM	NOM	_	7	dep	_	_	64.120003	64.550003	L1
+
+# sent_id = cefc-tcof-anniversaire-30
+# text = et puis au début tu vois ils avaient fait un apéro
+1	et puis	et puis	COO	COO	_	5	mark	_	_	64.699997	65.449997	L1
+2	au	à+le	PRE	PRE	_	5	periph	_	_	65.449997	65.480003	L1
+3	début	début	NOM	NOM	_	2	dep	_	_	65.480003	65.849998	L1
+4	tu	tu	CLS	CLS	_	5	subj	_	_	65.849998	65.889999	L1
+5	vois	voir	VRB	VRB	_	0	root	_	_	65.889999	65.980003	L1
+6	ils	il	CLS	CLS	_	8	subj	_	_	65.980003	66.080002	L1
+7	avaient	avoir	VRB	VRB	_	8	aux	_	_	66.080002	66.220001	L1
+8	fait	faire	VPP	VPP	_	5	para	_	_	66.220001	66.510002	L1
+9	un	un	DET	DET	_	10	spe	_	_	66.510002	66.730003	L1
+10	apéro	apéro	NOM	NOM	_	8	dep	_	_	66.730003	67.239998	L1
+
+# sent_id = cefc-tcof-anniversaire-31
+# text = euh ils faisaient tourner des plateaux de enfin de de petits fours de machin comme ça
+1	euh	euh	INT	INT	_	3	dm	_	_	67.290001	67.519997	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	68.050003	68.199997	L1
+3	faisaient	faire	VRB	VRB	_	0	root	_	_	68.199997	68.320000	L1
+4	tourner	se tourner	VNF	VNF	_	3	dep	_	_	68.320000	68.650002	L1
+5	des	de	PRE	PRE	_	4	dep	_	_	68.650002	68.809998	L1
+6	plateaux	plateau	NOM	NOM	_	5	dep	_	_	68.809998	69.199997	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	69.320000	69.779999	L1
+8	enfin	enfin	ADV	ADV	_	7	dm	_	_	70.639999	70.940002	L1
+9	de	de	PRE	PRE	_	7	para	_	_	70.940002	71.120003	L1
+10	de	de	PRE	PRE	_	9	para	_	_	71.120003	71.209999	L1
+11	petits	petit	ADJ	ADJ	_	12	dep	_	_	71.279999	71.430000	L1
+12	fours	four	NOM	NOM	_	10	dep	_	_	71.430000	71.709999	L1
+13	de	de	PRE	PRE	_	12	dep	_	_	71.709999	71.879997	L1
+14	machin	machin	NOM	NOM	_	13	dep	_	_	71.879997	72.160004	L1
+15	comme	comme	PRE	PRE	_	12	dep	_	_	72.160004	72.379997	L1
+16	ça	ça	PRO	PRO	_	15	dep	_	_	72.379997	72.540001	L1
+
+# sent_id = cefc-tcof-anniversaire-32
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	54.110001	54.240002	L2
+
+# sent_id = cefc-tcof-anniversaire-33
+# text = hum ouais
+1	hum	hum	INT	INT	_	0	root	_	_	58.860001	58.990002	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	61.779999	62.099998	L2
+
+# sent_id = cefc-tcof-anniversaire-34
+# text = ouais c'était où s qu'il en avait fait
+1	ouais	ouais	INT	INT	_	3	dm	_	_	69.279999	69.680000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	73.720001	73.760002	L2
+3	était	être	VRB	VRB	_	0	root	_	_	73.760002	73.940002	L2
+4	où	où	PRQ	PRQ	_	3	dep	_	_	73.940002	74.050003	L2
+5	s	s	X	X	_	4	disflink	_	_	74.050003	74.050003	L2
+6	qu'	que	CSU	CSU	_	3	dep	_	_	74.050003	74.089996	L2
+7	il	il	CLS	CLS	_	10	subj	_	_	74.089996	74.279999	L2
+8	en	en	CLI	CLI	_	10	dep	_	_	74.279999	74.279999	L2
+9	avait	avoir	VRB	VRB	_	10	aux	_	_	74.279999	74.470001	L2
+10	fait	faire	VPP	VPP	_	6	dep	_	_	74.470001	74.610001	L2
+
+# sent_id = cefc-tcof-anniversaire-35
+# text = c'était à la salle à NNAAMMEE
+1	c'	ce	CLS	CLS	_	2	subj	_	_	74.830002	74.860001	L1
+2	était	être	VRB	VRB	_	0	root	_	_	74.860001	75.050003	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	75.050003	75.129997	L1
+4	la	le	DET	DET	_	5	spe	_	_	75.129997	75.269997	L1
+5	salle	salle	NOM	NOM	_	3	dep	_	_	75.269997	75.870003	L1
+6	à	à	PRE	PRE	_	3	para	_	_	76.019997	76.080002	L1
+7	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	76.239998	76.440002	L1
+
+# sent_id = cefc-tcof-anniversaire-36
+# text = je sais pas si tu
+1	je	je	CLS	CLS	_	2	subj	_	_	76.599998	76.699997	L1
+2	sais	savoir	VRB	VRB	_	0	root	_	_	76.699997	76.849998	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	76.849998	76.910004	L1
+4	si	si	CSU	CSU	_	2	dep	_	_	76.910004	77.169998	L1
+5	tu	tu	CLS	CLS	_	4	disflink	_	_	77.209999	77.459999	L1
+
+# sent_id = cefc-tcof-anniversaire-37
+# text = non c'est un gîte en fait
+1	non	non	INT	INT	_	3	dm	_	_	78.809998	79.029999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	79.260002	79.290001	L1
+3	est	être	VRB	VRB	_	0	root	_	_	79.290001	79.320000	L1
+4	un	un	DET	DET	_	5	spe	_	_	79.320000	79.440002	L1
+5	gîte	gîte	NOM	NOM	_	3	dep	_	_	79.440002	79.800003	L1
+6	en	en	PRE	PRE	_	5	dep	_	_	79.800003	79.940002	L1
+7	fait	fait	NOM	NOM	_	6	dep	_	_	79.940002	80.199997	L1
+
+# sent_id = cefc-tcof-anniversaire-38
+# text = je crois c'est euh le gîte du NNAAMMEE ou un truc comme ça
+1	je	je	CLS	CLS	_	2	subj	_	_	80.199997	80.309998	L1
+2	crois	croire	VRB	VRB	_	0	root	_	_	80.360001	80.500000	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	80.500000	80.639999	L1
+4	est	être	VRB	VRB	_	2	para	_	_	80.639999	80.790001	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	80.790001	81.129997	L1
+6	le	le	DET	DET	_	7	spe	_	_	81.529999	81.660004	L1
+7	gîte	gîte	NOM	NOM	_	4	dep	_	_	81.660004	81.930000	L1
+8	du	de+le	PRE	PRE	_	7	dep	_	_	81.930000	82.089996	L1
+9	NNAAMMEE	NOM	NOM	NOM	_	8	dep	_	_	82.220001	82.470001	L1
+10	ou	ou	COO	COO	_	12	mark	_	_	82.470001	82.500000	L1
+11	un	un	DET	DET	_	12	spe	_	_	82.500000	82.570000	L1
+12	truc	truc	NOM	NOM	_	9	para	_	_	82.570000	82.769997	L1
+13	comme	comme	PRE	PRE	_	12	dep	_	_	82.769997	83.070000	L1
+14	ça	ça	PRO	PRO	_	13	dep	_	_	83.459999	83.650002	L1
+
+# sent_id = cefc-tcof-anniversaire-39
+# text = peut être oui
+1	peut	pouvoir	VRB	VRB	_	0	root	_	_	84.000000	84.080002	L2
+2	être	être	VNF	VNF	_	1	dep	_	_	84.080002	84.180000	L2
+3	oui	oui	INT	INT	_	2	dm	_	_	84.180000	84.269997	L2
+
+# sent_id = cefc-tcof-anniversaire-40
+# text = c'était pas mal
+1	c'	ce	CLS	CLS	_	2	subj	_	_	85.099998	85.180000	L1
+2	était	être	VRB	VRB	_	0	root	_	_	85.180000	85.330002	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	85.330002	85.449997	L1
+4	mal	mal	ADV	ADV	_	2	dep	_	_	85.449997	85.540001	L1
+
+# sent_id = cefc-tcof-anniversaire-41
+# text = et puis au dessus il y a des dortoirs et tout
+1	et puis	et puis	COO	COO	_	6	mark	_	_	85.540001	85.800003	L1
+2	au	à+le	PRE	PRE	_	6	periph	_	_	85.800003	85.839996	L1
+3	dessus	dessus	ADV	ADV	_	2	dep	_	_	85.839996	86.029999	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	86.029999	86.099998	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	86.099998	86.129997	L1
+6	a	avoir	VRB	VRB	_	0	root	_	_	86.129997	86.169998	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	86.169998	86.320000	L1
+8	dortoirs	dortoir	NOM	NOM	_	7	dep	_	_	86.320000	86.959999	L1
+9	et	et	COO	COO	_	10	mark	_	_	86.959999	86.989998	L1
+10	tout	tout	ADV	ADV	_	8	para	_	_	87.300003	87.400002	L1
+
+# sent_id = cefc-tcof-anniversaire-42
+# text = donc euh on a dormi là haut quoi enfin pas mes parents mais
+1	donc	donc	ADV	ADV	_	5	periph	_	_	87.470001	87.559998	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	87.559998	87.690002	L1
+3	on	on	CLS	CLS	_	5	subj	_	_	88.019997	88.169998	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	88.169998	88.199997	L1
+5	dormi	dormir	VPP	VPP	_	0	root	_	_	88.199997	88.599998	L1
+6	là	là	ADV	ADV	_	5	dep	_	_	88.599998	88.660004	L1
+7	haut	haut	ADJ	ADJ	_	6	dep	_	_	88.769997	88.790001	L1
+8	quoi	quoi	INT	INT	_	7	dm	_	_	88.919998	89.019997	L1
+9	enfin	enfin	ADV	ADV	_	8	dm	_	_	89.099998	89.250000	L1
+10	pas	pas	ADN	ADN	_	5	dep	_	_	89.250000	89.400002	L1
+11	mes	son	DET	DET	_	12	spe	_	_	89.400002	89.570000	L1
+12	parents	parent	NOM	NOM	_	5	dep	_	_	89.570000	89.739998	L1
+13	mais	mais	COO	COO	_	12	disflink	_	_	89.739998	89.820000	L1
+
+# sent_id = cefc-tcof-anniversaire-43
+# text = ouais oui
+1	ouais	ouais	INT	INT	_	0	root	_	_	87.470001	87.699997	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	90.349998	90.540001	L2
+
+# sent_id = cefc-tcof-anniversaire-44
+# text = ses copains et tout enfin
+1	ses	son	DET	DET	_	2	spe	_	_	90.879997	91.080002	L1
+2	copains	copain	NOM	NOM	_	0	root	_	_	92.440002	93.080002	L1
+3	et	et	COO	COO	_	4	mark	_	_	93.080002	93.110001	L1
+4	tout	tout	ADV	ADV	_	2	para	_	_	93.110001	93.320000	L1
+5	enfin	enfin	ADV	ADV	_	4	dm	_	_	93.320000	93.489998	L1
+
+# sent_id = cefc-tcof-anniversaire-45
+# text = et puis même la famille ils ont dormi là
+1	et puis	et puis	COO	COO	_	7	mark	_	_	93.489998	93.709999	L1
+2	même	même	ADV	ADV	_	7	periph	_	_	93.709999	93.889999	L1
+3	la	le	DET	DET	_	4	spe	_	_	93.889999	94.010002	L1
+4	famille	famille	NOM	NOM	_	7	periph	_	_	94.010002	94.309998	L1
+5	ils	il	CLS	CLS	_	7	subj	_	_	94.309998	94.430000	L1
+6	ont	avoir	VRB	VRB	_	7	aux	_	_	94.430000	94.489998	L1
+7	dormi	dormir	VPP	VPP	_	0	root	_	_	94.489998	94.830002	L1
+8	là	là	ADV	ADV	_	7	dep	_	_	94.830002	94.889999	L1
+
+# sent_id = cefc-tcof-anniversaire-46
+# text = haut ouais
+1	haut	haut	ADJ	ADJ	_	0	root	_	_	94.889999	94.949997	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	95.230003	95.300003	L2
+
+# sent_id = cefc-tcof-anniversaire-47
+# text = ben oui
+1	ben	ben	INT	INT	_	0	root	_	_	95.300003	95.440002	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	95.480003	95.529999	L2
+
+# sent_id = cefc-tcof-anniversaire-48
+# text = non c'était sympa
+1	non	non	INT	INT	_	3	dm	_	_	96.330002	96.459999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	96.459999	96.639999	L1
+3	était	être	VRB	VRB	_	0	root	_	_	96.639999	96.769997	L1
+4	sympa	sympa	ADJ	ADJ	_	3	dep	_	_	96.769997	97.250000	L1
+
+# sent_id = cefc-tcof-anniversaire-49
+# text = tu parles apéro déjà un kir
+1	tu	tu	CLS	CLS	_	2	subj	_	_	97.599998	97.730003	L1
+2	parles	parler	VRB	VRB	_	0	root	_	_	98.180000	98.370003	L1
+3	apéro	apéro	NOM	NOM	_	2	dep	_	_	98.440002	98.870003	L1
+4	déjà	déjà	ADV	ADV	_	2	dep	_	_	98.870003	99.150002	L1
+5	un	un	DET	DET	_	6	spe	_	_	99.199997	99.459999	L1
+6	kir	kir	NOM	NOM	_	2	dep	_	_	99.459999	99.730003	L1
+
+# sent_id = cefc-tcof-anniversaire-50
+# text = j'étais déjà bière ou kir oh kir
+1	j'	je	CLS	CLS	_	2	subj	_	_	99.730003	99.820000	L1
+2	étais	être	VRB	VRB	_	0	root	_	_	99.870003	100.440002	L1
+3	déjà	déjà	ADV	ADV	_	2	dep	_	_	102.059998	102.400002	L1
+4	bière	bière	NOM	NOM	_	2	dep	_	_	102.980003	103.379997	L1
+5	ou	ou	COO	COO	_	6	mark	_	_	103.379997	103.410004	L1
+6	kir	kir	NOM	NOM	_	4	para	_	_	103.410004	103.730003	L1
+7	oh	oh	INT	INT	_	6	dm	_	_	103.930000	104.139999	L1
+8	kir	kir	NOM	NOM	_	6	para	_	_	104.480003	104.889999	L1
+
+# sent_id = cefc-tcof-anniversaire-51
+# text = kir
+1	kir	kir	NOM	NOM	_	0	root	_	_	104.480003	104.889999	L2
+
+# sent_id = cefc-tcof-anniversaire-52
+# text = après ouh ah c'était marrant
+1	après	après	PRE	PRE	_	5	periph	_	_	107.010002	107.209999	L1
+2	ouh	ouh	INT	INT	_	1	dm	_	_	107.370003	107.610001	L1
+3	ah	ah	INT	INT	_	5	dm	_	_	109.360001	109.540001	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	109.540001	109.639999	L1
+5	était	être	VRB	VRB	_	0	root	_	_	109.639999	109.750000	L1
+6	marrant	marrant	ADJ	ADJ	_	5	dep	_	_	109.750000	110.230003	L1
+
+# sent_id = cefc-tcof-anniversaire-53
+# text = et toute la soirée tu vois j'étais bien dans l'ambiance et tout
+1	et	et	COO	COO	_	8	mark	_	_	110.459999	110.510002	L1
+2	toute	tout	ADJ	ADJ	_	4	dep	_	_	110.510002	110.699997	L1
+3	la	le	DET	DET	_	4	spe	_	_	110.699997	110.849998	L1
+4	soirée	soirée	NOM	NOM	_	8	periph	_	_	110.849998	111.230003	L1
+5	tu	tu	CLS	CLS	_	6	subj	_	_	111.230003	111.300003	L1
+6	vois	voir	VRB	VRB	_	4	dm	_	_	111.300003	111.389999	L1
+7	j'	je	CLS	CLS	_	8	subj	_	_	111.389999	111.419998	L1
+8	étais	être	VRB	VRB	_	0	root	_	_	111.419998	111.680000	L1
+9	bien	bien	ADV	ADV	_	8	dep	_	_	111.680000	111.919998	L1
+10	dans	dans	PRE	PRE	_	8	dep	_	_	111.919998	112.010002	L1
+11	l'	le	DET	DET	_	12	spe	_	_	112.010002	112.050003	L1
+12	ambiance	ambiance	NOM	NOM	_	10	dep	_	_	112.050003	112.620003	L1
+13	et	et	COO	COO	_	14	mark	_	_	112.620003	112.680000	L1
+14	tout	tout	ADV	ADV	_	12	para	_	_	112.680000	112.870003	L1
+
+# sent_id = cefc-tcof-anniversaire-54
+# text = mais j'étais pas malade
+1	mais	mais	COO	COO	_	3	mark	_	_	113.019997	113.080002	L1
+2	j'	je	CLS	CLS	_	3	subj	_	_	113.080002	113.110001	L1
+3	étais	être	VRB	VRB	_	0	root	_	_	113.110001	113.250000	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	113.250000	113.430000	L1
+5	malade	malade	ADJ	ADJ	_	3	dep	_	_	113.430000	113.769997	L1
+
+# sent_id = cefc-tcof-anniversaire-55
+# text = donc c'était
+1	donc	donc	ADV	ADV	_	3	periph	_	_	113.870003	113.989998	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	113.989998	114.099998	L1
+3	était	être	VRB	VRB	_	0	root	_	_	114.099998	114.230003	L1
+
+# sent_id = cefc-tcof-anniversaire-56
+# text = bien
+1	bien	bien	ADV	ADV	_	0	root	_	_	114.230003	114.389999	L2
+
+# sent_id = cefc-tcof-anniversaire-57
+# text = et tu lui as offert quoi alors
+1	et	et	COO	COO	_	4	mark	_	_	114.529999	114.559998	L2
+2	tu	tu	CLS	CLS	_	4	subj	_	_	114.559998	114.639999	L2
+3	lui	lui	CLI	CLI	_	4	dep	_	_	114.639999	114.730003	L2
+4	as	avoir	VRB	VRB	_	0	root	_	_	114.730003	114.779999	L2
+5	offert	offrir	ADJ	ADJ	_	4	dep	_	_	114.779999	115.050003	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	115.239998	115.379997	L2
+7	alors	alors	ADV	ADV	_	4	periph	_	_	115.379997	115.470001	L2
+
+# sent_id = cefc-tcof-anniversaire-58
+# text = une télé
+1	une	un	DET	DET	_	2	spe	_	_	116.040001	116.199997	L1
+2	télé	télé	NOM	NOM	_	0	root	_	_	116.250000	116.790001	L1
+
+# sent_id = cefc-tcof-anniversaire-59
+# text = ah oui tu tu avais été la chercher avec ta mère
+1	ah	ah	INT	INT	_	6	dm	_	_	117.010002	117.250000	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	117.250000	117.389999	L2
+3	tu	tu	CLS	CLS	_	6	subj	_	_	117.389999	117.449997	L2
+4	tu	tu	CLS	CLS	_	3	para	_	_	117.489998	117.599998	L2
+5	avais	avoir	VRB	VRB	_	6	aux	_	_	117.599998	117.739998	L2
+6	été	être	VPP	VPP	_	0	root	_	_	117.820000	118.000000	L2
+7	la	le	CLI	CLI	_	8	dep	_	_	118.169998	118.220001	L2
+8	chercher	chercher	VNF	VNF	_	6	dep	_	_	118.260002	118.480003	L2
+9	avec	avec	PRE	PRE	_	8	dep	_	_	118.480003	118.599998	L2
+10	ta	son	DET	DET	_	11	spe	_	_	118.660004	118.760002	L2
+11	mère	mère	NOM	NOM	_	9	dep	_	_	118.760002	118.849998	L2
+
+# sent_id = cefc-tcof-anniversaire-60
+# text = ouais donc euh maman elle me dit tu es sûre hein
+1	ouais	ouais	INT	INT	_	7	dm	_	_	119.129997	119.330002	L1
+2	donc	donc	ADV	ADV	_	7	periph	_	_	119.330002	119.419998	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	120.019997	120.040001	L1
+4	maman	maman	NOM	NOM	_	7	periph	_	_	120.930000	121.199997	L1
+5	elle	il	CLS	CLS	_	7	subj	_	_	121.199997	121.449997	L1
+6	me	me	CLI	CLI	_	7	dep	_	_	122.040001	122.449997	L1
+7	dit	dire	VRB	VRB	_	0	root	_	_	122.449997	122.550003	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	122.550003	122.660004	L1
+9	es	être	VRB	VRB	_	7	dep	_	_	122.660004	122.720001	L1
+10	sûre	sûr	ADJ	ADJ	_	9	dep	_	_	122.720001	123.209999	L1
+11	hein	hein	INT	INT	_	10	dm	_	_	123.209999	123.279999	L1
+
+# sent_id = cefc-tcof-anniversaire-61
+# text = c'est pas pour toi le cadeau
+1	c'	ce	CLS	CLS	_	2	subj	_	_	123.379997	123.410004	L1
+2	est	être	VRB	VRB	_	0	root	_	_	123.410004	123.440002	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	123.440002	123.589996	L1
+4	pour	pour	PRE	PRE	_	2	dep	_	_	123.589996	123.739998	L1
+5	toi	moi	PRO	PRO	_	4	dep	_	_	123.809998	124.010002	L1
+6	le	le	DET	DET	_	7	spe	_	_	124.010002	124.070000	L1
+7	cadeau	cadeau	NOM	NOM	_	4	dep	_	_	124.070000	124.440002	L1
+
+# sent_id = cefc-tcof-anniversaire-62
+# text = c'est pour lui hein
+1	c'	ce	CLS	CLS	_	2	subj	_	_	124.440002	124.519997	L1
+2	est	être	VRB	VRB	_	0	root	_	_	124.519997	124.550003	L1
+3	pour	pour	PRE	PRE	_	2	dep	_	_	124.730003	124.809998	L1
+4	lui	moi	PRO	PRO	_	3	dep	_	_	124.870003	124.959999	L1
+5	hein	hein	INT	INT	_	4	dm	_	_	125.709999	126.930000	L1
+
+# sent_id = cefc-tcof-anniversaire-63
+# text = je fais
+1	je	je	CLS	CLS	_	2	subj	_	_	127.800003	127.959999	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	128.149994	128.220001	L1
+
+# sent_id = cefc-tcof-anniversaire-64
+# text = mais oui oh non
+1	mais	mais	COO	COO	_	4	mark	_	_	128.220001	128.470001	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	128.470001	128.919998	L1
+3	oh	oh	INT	INT	_	2	dm	_	_	128.919998	129.809998	L1
+4	non	non	INT	INT	_	0	root	_	_	130.800003	131.070007	L1
+
+# sent_id = cefc-tcof-anniversaire-65
+# text = et puis en plus il s'est acheté
+1	et puis	et puis	COO	COO	_	7	mark	_	_	131.070007	131.210007	L1
+2	en	en	PRE	PRE	_	7	periph	_	_	131.210007	131.250000	L1
+3	plus	plus	ADN	ADN	_	2	dep	_	_	131.250000	131.339996	L1
+4	il	il	CLS	CLS	_	7	subj	_	_	131.339996	131.399994	L1
+5	s'	se	CLI	CLI	_	7	dep	_	_	131.399994	131.679993	L1
+6	est	être	VRB	VRB	_	7	aux	_	_	131.679993	131.750000	L1
+7	acheté	acheter	VPP	VPP	_	0	root	_	_	131.750000	132.029999	L1
+
+# sent_id = cefc-tcof-anniversaire-66
+# text = une euh comment ça s'appelle là une Nintendo Game Cube là
+1	une	un	DET	DET	_	6	subj	_	_	132.029999	132.529999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	132.529999	132.589996	L1
+3	comment	comment	PRQ	PRQ	_	6	dep	_	_	133.779999	134.000000	L1
+4	ça	ça	PRO	PRO	_	6	subj	_	_	134.000000	134.160004	L1
+5	s'	se	CLI	CLI	_	6	dep	_	_	134.160004	134.199997	L1
+6	appelle	appeler	VRB	VRB	_	0	root	_	_	134.199997	134.500000	L1
+7	là	là	ADV	ADV	_	6	dep	_	_	134.500000	134.529999	L1
+8	une	un	DET	DET	_	9	spe	_	_	134.660004	135.059998	L1
+9	Nintendo	Nintendo	NOM	NOM	_	6	dep	_	_	135.059998	135.759995	L1
+10	Game	Game	NOM	NOM	_	9	dep	_	_	135.759995	136.009995	L1
+11	Cube	cube	NOM	NOM	_	10	dep	_	_	136.080002	136.380005	L1
+12	là	là	ADV	ADV	_	6	periph	_	_	136.380005	136.460007	L1
+
+# sent_id = cefc-tcof-anniversaire-67
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	137.429993	137.520004	L2
+
+# sent_id = cefc-tcof-anniversaire-68
+# text = donc euh bah comme ça il joue dans sa chambre parce qu'il avait pas de télé
+1	donc	donc	ADV	ADV	_	7	periph	_	_	137.570007	137.679993	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	137.679993	138.050003	L1
+3	bah	bah	INT	INT	_	2	dm	_	_	138.050003	138.110001	L1
+4	comme	comme	PRE	PRE	_	7	periph	_	_	138.190002	138.360001	L1
+5	ça	ça	PRO	PRO	_	4	dep	_	_	138.360001	138.490005	L1
+6	il	il	CLS	CLS	_	7	subj	_	_	138.490005	138.589996	L1
+7	joue	jouer	VRB	VRB	_	0	root	_	_	138.589996	138.779999	L1
+8	dans	dans	PRE	PRE	_	7	dep	_	_	138.779999	138.839996	L1
+9	sa	son	DET	DET	_	10	spe	_	_	138.839996	138.960007	L1
+10	chambre	chambre	NOM	NOM	_	8	dep	_	_	138.960007	139.309998	L1
+11	parce qu'	parce que	CSU	CSU	_	7	dep	_	_	139.380005	139.529999	L1
+12	il	il	CLS	CLS	_	13	subj	_	_	139.529999	139.589996	L1
+13	avait	avoir	VRB	VRB	_	11	dep	_	_	139.639999	139.809998	L1
+14	pas	pas	ADN	ADN	_	13	dep	_	_	139.899994	140.020004	L1
+15	de	de	PRE	PRE	_	13	dep	_	_	140.020004	140.330002	L1
+16	télé	télé	NOM	NOM	_	15	dep	_	_	140.330002	140.449997	L1
+
+# sent_id = cefc-tcof-anniversaire-69
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	140.449997	140.550003	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	140.550003	140.580002	L1
+
+# sent_id = cefc-tcof-anniversaire-70
+# text = ouais il devait toujours la descendre
+1	ouais	ouais	INT	INT	_	3	dm	_	_	140.889999	141.000000	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	141.000000	141.059998	L2
+3	devait	devoir	VRB	VRB	_	0	root	_	_	141.059998	141.270004	L2
+4	toujours	toujours	ADV	ADV	_	3	dep	_	_	141.270004	141.539993	L2
+5	la	le	CLI	CLI	_	6	dep	_	_	141.539993	141.610001	L2
+6	descendre	descendre	VNF	VNF	_	3	dep	_	_	141.610001	142.009995	L2
+
+# sent_id = cefc-tcof-anniversaire-71
+# text = en bas ouais ça devait être euh ça devait être chiant quoi
+1	en bas	en bas	ADV	ADV	_	4	periph	_	_	142.059998	142.330002	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	142.380005	142.479996	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	142.479996	142.630005	L1
+4	devait	devoir	VRB	VRB	_	0	root	_	_	142.630005	142.839996	L1
+5	être	être	VNF	VNF	_	4	dep	_	_	142.839996	143.080002	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	143.130005	143.160004	L1
+7	ça	ça	PRO	PRO	_	8	subj	_	_	143.779999	143.899994	L1
+8	devait	devoir	VRB	VRB	_	4	para	_	_	143.899994	144.070007	L1
+9	être	être	VNF	VNF	_	8	dep	_	_	144.070007	144.130005	L1
+10	chiant	chiant	ADJ	ADJ	_	9	dep	_	_	144.130005	144.429993	L1
+11	quoi	quoi	INT	INT	_	10	dm	_	_	144.470001	144.630005	L1
+
+# sent_id = cefc-tcof-anniversaire-72
+# text = donc là forcément hier hier soir j'arrive c'est sa soeur qui m'ouvre NNAAMMEE qui descend pas
+1	donc	donc	ADV	ADV	_	10	periph	_	_	144.789993	145.039993	L1
+2	là	là	ADV	ADV	_	4	periph	_	_	145.039993	145.229996	L1
+3	forcément	forcément	ADV	ADV	_	4	dep	_	_	146.169998	146.779999	L1
+4	hier	hier	ADV	ADV	_	10	periph	_	_	146.779999	146.990005	L1
+5	hier	hier	ADV	ADV	_	8	periph	_	_	146.990005	147.399994	L1
+6	soir	soir	NOM	NOM	_	5	dep	_	_	147.399994	147.630005	L1
+7	j'	je	CLS	CLS	_	8	subj	_	_	147.630005	147.720001	L1
+8	arrive	arriver	VRB	VRB	_	10	periph	_	_	147.720001	147.940002	L1
+9	c'	ce	CLS	CLS	_	10	subj	_	_	147.940002	148.029999	L1
+10	est	être	VRB	VRB	_	0	root	_	_	148.029999	148.059998	L1
+11	sa	son	DET	DET	_	12	spe	_	_	148.059998	148.119995	L1
+12	soeur	soeur	NOM	NOM	_	10	dep	_	_	148.119995	148.289993	L1
+13	qui	qui	PRQ	PRQ	_	15	subj	_	_	148.410004	148.470001	L1
+14	m'	me	CLI	CLI	_	15	dep	_	_	148.470001	148.690002	L1
+15	ouvre	ouvrer	VRB	VRB	_	12	dep	_	_	148.690002	148.880005	L1
+16	NNAAMMEE	NOM	NOM	NOM	_	15	dep	_	_	149.770004	150.080002	L1
+17	qui	qui	PRQ	PRQ	_	18	dep	_	_	150.190002	150.309998	L1
+18	descend	descendre	VRB	VRB	_	16	dep	_	_	150.309998	150.699997	L1
+19	pas	pas	ADN	ADN	_	18	dep	_	_	150.699997	150.929993	L1
+
+# sent_id = cefc-tcof-anniversaire-73
+# text = je fais bah elle me fait bah NNAAMMEE
+1	je	je	CLS	CLS	_	2	subj	_	_	150.929993	151.009995	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	151.009995	151.080002	L1
+3	bah	bah	INT	INT	_	2	dm	_	_	151.080002	151.300003	L1
+4	elle	il	CLS	CLS	_	6	subj	_	_	151.850006	151.990005	L1
+5	me	me	CLI	CLI	_	6	dep	_	_	151.990005	152.020004	L1
+6	fait	faire	VRB	VRB	_	2	para	_	_	152.020004	152.130005	L1
+7	bah	bah	INT	INT	_	6	dm	_	_	152.130005	152.210007	L1
+8	NNAAMMEE	NOM	NOM	NOM	_	6	dep	_	_	152.210007	152.669998	L1
+
+# sent_id = cefc-tcof-anniversaire-74
+# text = il est en haut euh
+1	il	il	CLS	CLS	_	2	subj	_	_	152.669998	152.710007	L1
+2	est	être	VRB	VRB	_	0	root	_	_	152.710007	152.889999	L1
+3	en haut	en haut	ADV	ADV	_	2	dep	_	_	152.889999	153.309998	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	153.309998	153.509995	L1
+
+# sent_id = cefc-tcof-anniversaire-75
+# text = je fais bon bah il joue quoi
+1	je	je	CLS	CLS	_	2	subj	_	_	153.889999	153.940002	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	153.940002	154.000000	L1
+3	bon bah	bon bah	INT	INT	_	2	dm	_	_	154.000000	154.160004	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	154.160004	154.259995	L1
+5	joue	jouer	VRB	VRB	_	2	para	_	_	154.259995	154.589996	L1
+6	quoi	quoi	INT	INT	_	5	dm	_	_	154.589996	154.750000	L1
+
+# sent_id = cefc-tcof-anniversaire-76
+# text = elle me dit bah oui je pense j'arrive
+1	elle	il	CLS	CLS	_	3	subj	_	_	154.940002	155.020004	L1
+2	me	me	CLI	CLI	_	3	dep	_	_	155.020004	155.050003	L1
+3	dit	dire	VRB	VRB	_	0	root	_	_	155.050003	155.169998	L1
+4	bah	bah	INT	INT	_	7	dm	_	_	155.169998	155.570007	L1
+5	oui	oui	INT	INT	_	4	dm	_	_	155.610001	155.750000	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	155.750000	155.830002	L1
+7	pense	penser	VRB	VRB	_	3	dep	_	_	155.869995	156.259995	L1
+8	j'	je	CLS	CLS	_	9	subj	_	_	156.309998	156.360001	L1
+9	arrive	arriver	VRB	VRB	_	7	para	_	_	156.360001	156.529999	L1
+
+# sent_id = cefc-tcof-anniversaire-77
+# text = il était devant sa console euh
+1	il	il	CLS	CLS	_	2	subj	_	_	156.529999	156.710007	L1
+2	était	être	VRB	VRB	_	0	root	_	_	156.710007	156.949997	L1
+3	devant	devant	PRE	PRE	_	2	dep	_	_	156.949997	157.130005	L1
+4	sa	son	DET	DET	_	5	spe	_	_	157.130005	157.309998	L1
+5	console	console	NOM	NOM	_	3	dep	_	_	157.309998	158.080002	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	158.279999	158.610001	L1
+
+# sent_id = cefc-tcof-anniversaire-78
+# text = je fais bon ça va elle te sert bien la télé ouais
+1	je	je	CLS	CLS	_	2	subj	_	_	159.220001	159.270004	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	159.539993	159.699997	L1
+3	bon	bon	INT	INT	_	2	dm	_	_	159.699997	159.949997	L1
+4	ça	ça	PRO	PRO	_	5	subj	_	_	159.949997	160.080002	L1
+5	va	aller	VRB	VRB	_	2	para	_	_	160.080002	160.169998	L1
+6	elle	il	CLS	CLS	_	8	subj	_	_	160.169998	160.259995	L1
+7	te	te	CLI	CLI	_	8	dep	_	_	160.259995	160.380005	L1
+8	sert	servir	VRB	VRB	_	5	para	_	_	160.380005	160.610001	L1
+9	bien	bien	ADV	ADV	_	8	dep	_	_	160.610001	160.779999	L1
+10	la	le	DET	DET	_	11	spe	_	_	160.779999	160.839996	L1
+11	télé	télé	NOM	NOM	_	8	dep	_	_	160.929993	161.080002	L1
+12	ouais	ouais	INT	INT	_	11	dm	_	_	161.229996	161.600006	L1
+
+# sent_id = cefc-tcof-anniversaire-79
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	163.330002	163.839996	L1
+
+# sent_id = cefc-tcof-anniversaire-80
+# text = en plus ça va parce que c'est euh une cinquante et un centimètres
+1	en	en	PRE	PRE	_	4	periph	_	_	164.880005	164.979996	L1
+2	plus	plus	ADN	ADN	_	1	dep	_	_	164.979996	165.080002	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	165.080002	165.300003	L1
+4	va	aller	VRB	VRB	_	0	root	_	_	165.300003	165.389999	L1
+5	parce que	parce que	CSU	CSU	_	4	dep	_	_	165.389999	165.669998	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	165.669998	165.839996	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	165.839996	166.410004	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	166.410004	166.449997	L1
+9	une	un	DET	DET	_	10	spe	_	_	166.669998	166.789993	L1
+10	cinquante	cinquante	NUM	NUM	_	7	dep	_	_	166.789993	167.160004	L1
+11	et	et	COO	COO	_	13	mark	_	_	167.160004	167.190002	L1
+12	un	un	DET	DET	_	13	spe	_	_	167.190002	167.330002	L1
+13	centimètres	centimètre	NOM	NOM	_	7	dep	_	_	167.330002	167.850006	L1
+
+# sent_id = cefc-tcof-anniversaire-81
+# text = ah oui donc ça va ouais
+1	ah	ah	INT	INT	_	5	dm	_	_	168.009995	168.039993	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	168.039993	168.100006	L2
+3	donc	donc	ADV	ADV	_	5	periph	_	_	168.100006	168.190002	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	168.190002	168.250000	L2
+5	va	aller	VRB	VRB	_	0	root	_	_	168.250000	168.309998	L2
+6	ouais	ouais	INT	INT	_	5	dm	_	_	168.309998	168.600006	L2
+
+# sent_id = cefc-tcof-anniversaire-82
+# text = mais ça va
+1	mais	mais	COO	COO	_	3	mark	_	_	169.800003	169.869995	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	169.869995	170.000000	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	170.000000	170.119995	L1
+
+# sent_id = cefc-tcof-anniversaire-83
+# text = je l'ai pas payée trop cher
+1	je	je	CLS	CLS	_	5	subj	_	_	170.119995	170.190002	L1
+2	l'	le	CLI	CLI	_	5	dep	_	_	170.190002	170.220001	L1
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	170.220001	170.289993	L1
+4	pas	pas	ADN	ADN	_	5	dep	_	_	170.289993	170.460007	L1
+5	payée	payer	VPP	VPP	_	0	root	_	_	170.460007	170.779999	L1
+6	trop	trop	ADV	ADV	_	7	dep	_	_	170.779999	170.970001	L1
+7	cher	cher	ADJ	ADJ	_	5	dep	_	_	170.970001	171.229996	L1
+
+# sent_id = cefc-tcof-anniversaire-84
+# text = c'était cent cent dix euros
+1	c'	ce	CLS	CLS	_	2	subj	_	_	171.500000	171.630005	L1
+2	était	être	VRB	VRB	_	0	root	_	_	171.630005	171.740005	L1
+3	cent	cent	NUM	NUM	_	6	spe	_	_	171.740005	172.479996	L1
+4	cent	cent	NUM	NUM	_	3	dep	_	_	172.479996	172.750000	L1
+5	dix	dix	NUM	NUM	_	4	dep	_	_	172.750000	172.910004	L1
+6	euros	euro	NOM	NOM	_	2	dep	_	_	172.910004	173.100006	L1
+
+# sent_id = cefc-tcof-anniversaire-85
+# text = hum ça va hein
+1	hum	hum	INT	INT	_	3	dm	_	_	174.460007	174.649994	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	174.750000	174.869995	L2
+3	va	aller	VRB	VRB	_	0	root	_	_	174.869995	174.929993	L2
+4	hein	hein	INT	INT	_	3	dm	_	_	174.929993	174.960007	L2
+
+# sent_id = cefc-tcof-anniversaire-86
+# text = chez But
+1	chez	chez	PRE	PRE	_	0	root	_	_	175.009995	175.119995	L1
+2	But	but	NOM	NOM	_	1	dep	_	_	175.119995	175.229996	L1
+
+# sent_id = cefc-tcof-anniversaire-87
+# text = alors que
+1	alors	alors	ADV	ADV	_	2	periph	_	_	176.699997	176.919998	L1
+2	que	que	CSU	CSU	_	0	root	_	_	176.919998	177.000000	L1
+
+# sent_id = cefc-tcof-anniversaire-88
+# text = les
+1	les	le	DET	DET	_	0	root	_	_	177.000000	177.500000	L1
+
+# sent_id = cefc-tcof-anniversaire-89
+# text = trente six
+1	trente	trente	NUM	NUM	_	0	root	_	_	177.500000	177.820007	L1
+2	six	six	NUM	NUM	_	1	dep	_	_	177.820007	178.199997	L1
+
+# sent_id = cefc-tcof-anniversaire-90
+# text = là c'est euh
+1	là	là	ADV	ADV	_	3	periph	_	_	178.279999	178.330002	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	178.589996	178.619995	L1
+3	est	être	VRB	VRB	_	0	root	_	_	178.619995	178.690002	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	178.690002	178.809998	L1
+
+# sent_id = cefc-tcof-anniversaire-91
+# text = quatre vingt dix quatre vingt dix euros donc euh tu sais je fais
+1	quatre	quatre	NUM	NUM	_	7	spe	_	_	180.210007	180.460007	L1
+2	vingt	vingt	NUM	NUM	_	1	dep	_	_	180.460007	180.690002	L1
+3	dix	dix	NUM	NUM	_	2	dep	_	_	180.690002	180.929993	L1
+4	quatre	quatre	NUM	NUM	_	7	spe	_	_	181.570007	181.929993	L1
+5	vingt	vingt	NUM	NUM	_	4	dep	_	_	181.929993	182.419998	L1
+6	dix	dix	NUM	NUM	_	5	dep	_	_	182.419998	182.509995	L1
+7	euros	euro	NOM	NOM	_	11	periph	_	_	182.509995	182.600006	L1
+8	donc	donc	ADV	ADV	_	11	periph	_	_	182.889999	183.190002	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	183.190002	183.399994	L1
+10	tu	tu	CLS	CLS	_	11	subj	_	_	183.399994	183.460007	L1
+11	sais	savoir	VRB	VRB	_	13	dm	_	_	183.460007	183.619995	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	183.669998	184.210007	L1
+13	fais	faire	VRB	VRB	_	0	root	_	_	184.429993	184.479996	L1
+
+# sent_id = cefc-tcof-anniversaire-92
+# text = bon oui bah d'accord
+1	bon	bon	INT	INT	_	4	dm	_	_	184.539993	184.789993	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	181.740005	182.050003	L2
+3	bah	bah	INT	INT	_	2	dm	_	_	182.050003	182.190002	L2
+4	d'	de	PRE	PRE	_	0	root	_	_	182.190002	182.220001	L2
+5	accord	accord	NOM	NOM	_	4	dep	_	_	182.220001	182.600006	L2
+
+# sent_id = cefc-tcof-anniversaire-93
+# text = autant remettre vingt euros de
+1	autant	autant	ADV	ADV	_	2	dep	_	_	184.419998	184.639999	L2
+2	remettre	remettre	VNF	VNF	_	0	root	_	_	184.639999	184.850006	L2
+3	vingt	vingt	NUM	NUM	_	4	spe	_	_	184.850006	185.039993	L2
+4	euros	euro	NOM	NOM	_	2	dep	_	_	185.039993	185.240005	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	185.240005	185.380005	L2
+
+# sent_id = cefc-tcof-anniversaire-94
+# text = plus c'était une promo quoi
+1	plus	plus	ADN	ADN	_	3	dep	_	_	185.440002	185.539993	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	185.089996	185.210007	L1
+3	était	être	VRB	VRB	_	0	root	_	_	185.210007	185.380005	L1
+4	une	un	DET	DET	_	5	spe	_	_	185.380005	185.490005	L1
+5	promo	promo	NOM	NOM	_	3	dep	_	_	185.490005	185.740005	L1
+6	quoi	quoi	INT	INT	_	5	dm	_	_	185.869995	186.009995	L1
+
+# sent_id = cefc-tcof-anniversaire-95
+# text = mais bon autant mettre un peu plus que
+1	mais	mais	COO	COO	_	4	mark	_	_	186.009995	186.169998	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	186.169998	186.300003	L1
+3	autant	autant	ADV	ADV	_	4	dep	_	_	186.610001	186.750000	L1
+4	mettre	mettre	VNF	VNF	_	0	root	_	_	186.750000	186.979996	L1
+5	un peu	un peu	ADV	ADV	_	6	dep	_	_	186.979996	187.089996	L1
+6	plus	plus	ADV	ADV	_	4	dep	_	_	187.089996	187.259995	L1
+7	que	que	CSU	CSU	_	4	dep	_	_	187.369995	187.419998	L1
+
+# sent_id = cefc-tcof-anniversaire-96
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	189.949997	190.149994	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	190.229996	190.580002	L1
+
+# sent_id = cefc-tcof-anniversaire-97
+# text = voilà non c'était bien en plus
+1	voilà	voilà	INT	INT	_	4	dm	_	_	192.369995	192.529999	L1
+2	non	non	INT	INT	_	1	dm	_	_	192.600006	192.660004	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	192.660004	192.699997	L1
+4	était	être	VRB	VRB	_	0	root	_	_	192.699997	192.800003	L1
+5	bien	bien	ADV	ADV	_	4	dep	_	_	192.800003	192.929993	L1
+6	en	en	PRE	PRE	_	4	dep	_	_	192.929993	193.080002	L1
+7	plus	plus	ADN	ADN	_	6	dep	_	_	193.080002	193.270004	L1
+
+# sent_id = cefc-tcof-anniversaire-98
+# text = mes parents se sont bien amusés
+1	mes	son	DET	DET	_	2	spe	_	_	193.270004	193.419998	L1
+2	parents	parent	NOM	NOM	_	6	subj	_	_	193.470001	193.649994	L1
+3	se	se	CLI	CLI	_	6	dep	_	_	193.649994	193.800003	L1
+4	sont	être	VRB	VRB	_	6	aux	_	_	193.800003	193.869995	L1
+5	bien	bien	ADV	ADV	_	6	dep	_	_	193.869995	194.210007	L1
+6	amusés	amuser	VPP	VPP	_	0	root	_	_	194.250000	194.449997	L1
+
+# sent_id = cefc-tcof-anniversaire-99
+# text = donc euh ils se sont pas ennuyés ils se sont bien entendus
+1	donc	donc	ADV	ADV	_	7	periph	_	_	195.399994	195.490005	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	195.490005	195.520004	L1
+3	ils	il	CLS	CLS	_	7	subj	_	_	195.619995	195.669998	L1
+4	se	se	CLI	CLI	_	7	dep	_	_	195.669998	195.800003	L1
+5	sont	être	VRB	VRB	_	7	aux	_	_	195.800003	195.899994	L1
+6	pas	pas	ADN	ADN	_	7	dep	_	_	195.899994	195.970001	L1
+7	ennuyés	ennuyer	VPP	VPP	_	0	root	_	_	195.970001	196.580002	L1
+8	ils	il	CLS	CLS	_	12	subj	_	_	196.580002	196.649994	L1
+9	se	se	CLI	CLI	_	12	dep	_	_	196.990005	197.190002	L1
+10	sont	être	VRB	VRB	_	12	aux	_	_	197.190002	197.240005	L1
+11	bien	bien	ADV	ADV	_	12	dep	_	_	197.240005	197.479996	L1
+12	entendus	entendre	VPP	VPP	_	7	para	_	_	197.479996	198.149994	L1
+
+# sent_id = cefc-tcof-anniversaire-100
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	198.250000	198.940002	L2
+
+# sent_id = cefc-tcof-anniversaire-101
+# text = je voyais mal la soirée oh connard
+1	je	je	CLS	CLS	_	2	subj	_	_	199.750000	199.960007	L1
+2	voyais	voir	VRB	VRB	_	0	root	_	_	200.080002	200.419998	L1
+3	mal	mal	ADV	ADV	_	2	dep	_	_	201.020004	201.380005	L1
+4	la	le	DET	DET	_	5	spe	_	_	201.380005	201.429993	L1
+5	soirée	soirée	NOM	NOM	_	2	dep	_	_	201.669998	202.410004	L1
+6	oh	oh	INT	INT	_	5	dm	_	_	202.410004	202.460007	L1
+7	connard	connard	NOM	NOM	_	5	para	_	_	202.610001	203.339996	L1
+
+# sent_id = cefc-tcof-anniversaire-102
+# text = non mais ça va ils discutaient un peu et
+1	non	non	INT	INT	_	4	dm	_	_	205.800003	205.990005	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	205.990005	206.080002	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	206.080002	206.259995	L1
+4	va	aller	VRB	VRB	_	0	root	_	_	206.259995	206.490005	L1
+5	ils	il	CLS	CLS	_	6	subj	_	_	206.490005	206.550003	L1
+6	discutaient	discuter	VRB	VRB	_	4	para	_	_	207.429993	207.970001	L1
+7	un peu	un peu	ADV	ADV	_	6	dep	_	_	207.970001	208.199997	L1
+8	et	et	COO	COO	_	7	disflink	_	_	208.309998	208.520004	L1
+
+# sent_id = cefc-tcof-anniversaire-103
+# text = tout ah bah ça va c'est cool
+1	tout	tout	ADV	ADV	_	4	periph	_	_	208.520004	208.770004	L2
+2	ah bah	ah bah	INT	INT	_	1	dm	_	_	209.050003	209.149994	L2
+3	ça	ça	PRO	PRO	_	4	subj	_	_	209.250000	209.309998	L2
+4	va	aller	VRB	VRB	_	0	root	_	_	209.529999	209.789993	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	210.330002	210.360001	L2
+6	est	être	VRB	VRB	_	4	para	_	_	210.360001	210.429993	L2
+7	cool	cool	ADJ	ADJ	_	6	dep	_	_	210.789993	210.919998	L2
+
+# sent_id = cefc-tcof-anniversaire-104
+# text = oh par contre il y a son cousin par un moment
+1	oh	oh	INT	INT	_	6	dm	_	_	211.130005	211.160004	L1
+2	par	par	PRE	PRE	_	6	periph	_	_	211.399994	211.520004	L1
+3	contre	contre	NOM	NOM	_	2	dep	_	_	211.520004	211.740005	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	211.740005	211.869995	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	211.869995	211.940002	L1
+6	a	avoir	VRB	VRB	_	0	root	_	_	211.940002	211.970001	L1
+7	son	son	DET	DET	_	8	spe	_	_	211.970001	212.210007	L1
+8	cousin	cousin	NOM	NOM	_	6	dep	_	_	212.210007	212.630005	L1
+9	par	par	PRE	PRE	_	8	dep	_	_	212.679993	212.800003	L1
+10	un	un	DET	DET	_	11	spe	_	_	212.800003	212.830002	L1
+11	moment	moment	NOM	NOM	_	9	dep	_	_	212.830002	213.229996	L1
+
+# sent_id = cefc-tcof-anniversaire-105
+# text = tu vois on dan~ enfin l'apéro était terminé
+1	tu	tu	CLS	CLS	_	2	subj	_	_	213.229996	213.289993	L1
+2	vois	voir	VRB	VRB	_	4	dm	_	_	213.289993	213.380005	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	213.380005	213.539993	L1
+4	dan~	dan~	VRB	VRB	_	9	periph	_	_	213.539993	213.759995	L1
+5	enfin	enfin	ADV	ADV	_	4	dep	_	_	213.759995	213.979996	L1
+6	l'	le	DET	DET	_	7	spe	_	_	213.979996	214.039993	L1
+7	apéro	apéro	NOM	NOM	_	9	subj	_	_	214.039993	214.369995	L1
+8	était	être	VRB	VRB	_	9	aux	_	_	214.369995	214.580002	L1
+9	terminé	(se) terminer	VPP	VPP	_	0	root	_	_	214.580002	215.190002	L1
+
+# sent_id = cefc-tcof-anniversaire-106
+# text = et puis bon on dansait enfin non on mangeait
+1	et puis	et puis	COO	COO	_	4	mark	_	_	215.339996	215.490005	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	215.490005	215.789993	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	215.789993	215.820007	L1
+4	dansait	danser	VRB	VRB	_	0	root	_	_	215.820007	216.270004	L1
+5	enfin	enfin	ADV	ADV	_	4	dm	_	_	216.270004	216.539993	L1
+6	non	non	INT	INT	_	5	dm	_	_	216.630005	216.800003	L1
+7	on	on	CLS	CLS	_	8	subj	_	_	217.300003	217.389999	L1
+8	mangeait	manger	VRB	VRB	_	4	para	_	_	217.460007	217.940002	L1
+
+# sent_id = cefc-tcof-anniversaire-107
+# text = et puis en fait c'était son cousin qui faisait
+1	et puis	et puis	COO	COO	_	5	mark	_	_	218.850006	218.979996	L1
+2	en	en	PRE	PRE	_	5	periph	_	_	218.979996	219.070007	L1
+3	fait	fait	NOM	NOM	_	2	dep	_	_	219.070007	219.240005	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	219.240005	219.320007	L1
+5	était	être	VRB	VRB	_	0	root	_	_	219.320007	219.429993	L1
+6	son	son	DET	DET	_	7	spe	_	_	219.429993	219.649994	L1
+7	cousin	cousin	NOM	NOM	_	5	dep	_	_	219.649994	219.990005	L1
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	219.990005	220.149994	L1
+9	faisait	faire	VRB	VRB	_	7	dep	_	_	220.149994	220.369995	L1
+
+# sent_id = cefc-tcof-anniversaire-108
+# text = la la sono
+1	la	le	DET	DET	_	3	spe	_	_	220.369995	220.559998	L2
+2	la	le	DET	DET	_	1	para	_	_	221.229996	221.309998	L2
+3	sono	sono	NOM	NOM	_	0	root	_	_	221.309998	221.649994	L2
+
+# sent_id = cefc-tcof-anniversaire-109
+# text = ouais donc euh et puis par un moment il nous fait bon ben NNAAMMEE pour tes vingt ans
+1	ouais	ouais	INT	INT	_	10	dm	_	_	221.850006	222.080002	L1
+2	donc	donc	ADV	ADV	_	10	periph	_	_	222.279999	222.720001	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	222.720001	222.750000	L1
+4	et puis	et puis	COO	COO	_	10	mark	_	_	222.750000	223.520004	L1
+5	par	par	PRE	PRE	_	10	periph	_	_	223.580002	223.669998	L1
+6	un	un	DET	DET	_	7	spe	_	_	223.669998	223.699997	L1
+7	moment	moment	NOM	NOM	_	5	dep	_	_	223.699997	224.110001	L1
+8	il	il	CLS	CLS	_	10	subj	_	_	224.110001	224.190002	L1
+9	nous	nous	CLI	CLI	_	10	dep	_	_	224.190002	224.309998	L1
+10	fait	faire	VRB	VRB	_	0	root	_	_	224.309998	224.690002	L1
+11	bon ben	bon ben	INT	INT	_	10	dm	_	_	225.449997	225.660004	L1
+12	NNAAMMEE	NOM	NOM	NOM	_	10	dep	_	_	225.660004	226.330002	L1
+13	pour	pour	PRE	PRE	_	10	dep	_	_	226.330002	226.710007	L1
+14	tes	son	DET	DET	_	16	spe	_	_	226.889999	227.020004	L1
+15	vingt	vingt	NUM	NUM	_	16	dep	_	_	227.020004	227.350006	L1
+16	ans	an	NOM	NOM	_	13	dep	_	_	227.350006	227.600006	L1
+
+# sent_id = cefc-tcof-anniversaire-110
+# text = je t'ai préparé une petite surprise
+1	je	je	CLS	CLS	_	4	subj	_	_	227.600006	227.779999	L1
+2	t'	te	CLI	CLI	_	4	dep	_	_	227.779999	227.919998	L1
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	227.919998	227.960007	L1
+4	préparé	préparer	VPP	VPP	_	0	root	_	_	227.960007	228.210007	L1
+5	une	un	DET	DET	_	7	spe	_	_	228.210007	228.270004	L1
+6	petite	petit	ADJ	ADJ	_	7	dep	_	_	228.270004	228.429993	L1
+7	surprise	surprise	NOM	NOM	_	4	dep	_	_	228.429993	229.529999	L1
+
+# sent_id = cefc-tcof-anniversaire-111
+# text = je fais bon qu'est ce que c'est tout
+1	je	je	CLS	CLS	_	2	subj	_	_	230.110001	230.149994	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	230.149994	230.210007	L1
+3	bon	bon	INT	INT	_	2	dm	_	_	230.210007	230.539993	L1
+4	qu'	que	PRQ	PRQ	_	5	dep	_	_	230.539993	230.610001	L1
+5	est	être	VRB	VRB	_	2	dep	_	_	230.610001	230.679993	L1
+6	ce	ce	PRO	PRO	_	5	dep	_	_	230.679993	230.869995	L1
+7	que	que	PRQ	PRQ	_	9	dep	_	_	230.869995	230.899994	L1
+8	c'	ce	CLS	CLS	_	9	subj	_	_	230.899994	230.940002	L1
+9	est	être	VRB	VRB	_	6	dep	_	_	230.940002	231.360001	L1
+10	tout	tout	ADJ	ADJ	_	9	dep	_	_	231.520004	231.710007	L1
+
+# sent_id = cefc-tcof-anniversaire-112
+# text = et en fait il fait ah bah je vous ai réservé un slow pour toi et NNAAMMEE
+1	et	et	COO	COO	_	5	mark	_	_	231.809998	231.860001	L1
+2	en	en	PRE	PRE	_	5	periph	_	_	231.910004	231.929993	L1
+3	fait	fait	NOM	NOM	_	2	dep	_	_	231.929993	232.020004	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	232.020004	232.080002	L1
+5	fait	faire	VRB	VRB	_	0	root	_	_	232.080002	232.300003	L1
+6	ah bah	ah bah	INT	INT	_	5	dm	_	_	232.300003	233.070007	L1
+7	je	je	CLS	CLS	_	10	subj	_	_	233.070007	233.309998	L1
+8	vous	vous	CLI	CLI	_	10	dep	_	_	233.970001	234.210007	L1
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	234.210007	234.350006	L1
+10	réservé	réserver	VPP	VPP	_	5	para	_	_	234.350006	234.740005	L1
+11	un	un	DET	DET	_	12	spe	_	_	234.740005	234.910004	L1
+12	slow	slow	NOM	NOM	_	10	dep	_	_	234.910004	235.289993	L1
+13	pour	pour	PRE	PRE	_	10	dep	_	_	235.339996	235.529999	L1
+14	toi	moi	PRO	PRO	_	13	dep	_	_	235.529999	235.910004	L1
+15	et	et	COO	COO	_	16	mark	_	_	235.910004	236.020004	L1
+16	NNAAMMEE	NOM	NOM	NOM	_	10	para	_	_	236.020004	236.250000	L1
+
+# sent_id = cefc-tcof-anniversaire-113
+# text = donc vous allez venir ouvrir le bal
+1	donc	donc	ADV	ADV	_	3	periph	_	_	236.250000	236.529999	L1
+2	vous	vous	CLS	CLS	_	3	subj	_	_	236.529999	236.869995	L1
+3	allez	aller	VRB	VRB	_	0	root	_	_	236.869995	237.080002	L1
+4	venir	venir	VNF	VNF	_	3	dep	_	_	237.080002	237.300003	L1
+5	ouvrir	ouvrir	VNF	VNF	_	4	dep	_	_	237.300003	237.649994	L1
+6	le	le	DET	DET	_	7	spe	_	_	237.649994	237.839996	L1
+7	bal	bal	NOM	NOM	_	5	dep	_	_	237.839996	238.229996	L1
+
+# sent_id = cefc-tcof-anniversaire-114
+# text = et tout le monde va venir vous rejoindre
+1	et	et	COO	COO	_	3	mark	_	_	238.320007	238.529999	L1
+2	tout le monde	tout le monde	PRO	PRO	_	3	subj	_	_	238.529999	238.970001	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	239.100006	239.160004	L1
+4	venir	venir	VNF	VNF	_	3	dep	_	_	239.160004	239.289993	L1
+5	vous	vous	CLI	CLI	_	6	dep	_	_	239.289993	239.350006	L1
+6	rejoindre	rejoindre	VNF	VNF	_	4	dep	_	_	239.350006	240.039993	L1
+
+# sent_id = cefc-tcof-anniversaire-115
+# text = ah putain
+1	ah	ah	INT	INT	_	2	dm	_	_	239.279999	239.360001	L2
+2	putain	putain	NOM	NOM	_	0	root	_	_	239.360001	239.940002	L2
+
+# sent_id = cefc-tcof-anniversaire-116
+# text = je fais bon d'accord
+1	je	je	CLS	CLS	_	2	subj	_	_	241.649994	241.679993	L1
+2	fais	faire	VRB	VRB	_	0	root	_	_	242.139999	242.330002	L1
+3	bon	bon	INT	INT	_	2	dep	_	_	242.330002	242.850006	L1
+4	d'	de	PRE	PRE	_	2	dep	_	_	243.419998	243.600006	L1
+5	accord	accord	NOM	NOM	_	4	dep	_	_	243.800003	244.410004	L1
+
+# sent_id = cefc-tcof-anniversaire-117
+# text = alors tu as son parrain qui fait euh enfin à NNAAMMEE
+1	alors	alors	ADV	ADV	_	3	periph	_	_	244.729996	244.880005	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	245.029999	245.080002	L1
+3	as	avoir	VRB	VRB	_	0	root	_	_	245.179993	245.529999	L1
+4	son	son	DET	DET	_	5	spe	_	_	245.570007	245.619995	L1
+5	parrain	parrain	NOM	NOM	_	3	dep	_	_	245.619995	246.169998	L1
+6	qui	qui	PRQ	PRQ	_	7	dep	_	_	246.169998	246.229996	L1
+7	fait	faire	VRB	VRB	_	5	dep	_	_	246.229996	246.509995	L1
+8	euh	euh	INT	INT	_	7	dm	_	_	246.509995	246.600006	L1
+9	enfin	enfin	ADV	ADV	_	8	dm	_	_	246.919998	247.009995	L1
+10	à	à	PRE	PRE	_	7	dep	_	_	247.009995	247.039993	L1
+11	NNAAMMEE	NOM	NOM	NOM	_	10	dep	_	_	247.039993	247.380005	L1
+
+# sent_id = cefc-tcof-anniversaire-118
+# text = il lui fait euh bah
+1	il	il	CLS	CLS	_	3	subj	_	_	247.380005	247.490005	L1
+2	lui	lui	CLI	CLI	_	3	dep	_	_	247.490005	247.580002	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	247.660004	247.770004	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	247.850006	247.869995	L1
+5	bah	bah	INT	INT	_	4	dm	_	_	248.389999	248.490005	L1
+
+# sent_id = cefc-tcof-anniversaire-119
+# text = tu as intérêt à savoir l'emballer hein
+1	tu	tu	CLS	CLS	_	2	subj	_	_	248.490005	248.550003	L1
+2	as	avoir	VRB	VRB	_	0	root	_	_	248.550003	248.660004	L1
+3	intérêt	intérêt	NOM	NOM	_	2	dep	_	_	248.660004	248.970001	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	248.970001	249.000000	L1
+5	savoir	savoir	VNF	VNF	_	4	dep	_	_	249.000000	249.300003	L1
+6	l'	le	CLI	CLI	_	7	dep	_	_	249.300003	249.339996	L1
+7	emballer	emballer	VNF	VNF	_	5	dep	_	_	249.339996	249.919998	L1
+8	hein	hein	INT	INT	_	7	dm	_	_	249.919998	250.100006	L1
+
+# sent_id = cefc-tcof-anniversaire-120
+# text = parce que sinon je vais te montrer
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	250.169998	250.360001	L1
+2	sinon	sinon	ADV	ADV	_	4	periph	_	_	250.360001	250.529999	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	250.529999	250.559998	L1
+4	vais	aller	VRB	VRB	_	1	dep	_	_	250.559998	250.710007	L1
+5	te	te	CLI	CLI	_	6	dep	_	_	250.710007	250.770004	L1
+6	montrer	montrer	VNF	VNF	_	4	dep	_	_	250.770004	251.160004	L1
+
+# sent_id = cefc-tcof-anniversaire-121
+# text = comment on fait
+1	comment	comment	PRQ	PRQ	_	3	dep	_	_	251.160004	251.350006	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	251.350006	251.539993	L1
+3	fait	faire	VRB	VRB	_	0	root	_	_	251.539993	252.059998	L1
+
+# sent_id = cefc-tcof-anniversaire-122
+# text = et tout je fais bah bon c'est bon
+1	et	et	COO	COO	_	4	mark	_	_	252.479996	252.539993	L1
+2	tout	tout	ADV	ADV	_	4	dep	_	_	252.610001	252.669998	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	252.789993	252.820007	L1
+4	fais	faire	VRB	VRB	_	0	root	_	_	252.820007	252.889999	L1
+5	bah	bah	INT	INT	_	4	dm	_	_	252.889999	252.949997	L1
+6	bon	bon	INT	INT	_	5	dm	_	_	253.000000	253.160004	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	253.160004	253.190002	L1
+8	est	être	VRB	VRB	_	4	dep	_	_	253.190002	253.229996	L1
+9	bon	bon	ADJ	ADJ	_	8	dep	_	_	253.229996	253.389999	L1
+
+# sent_id = cefc-tcof-anniversaire-123
+# text = on y va on y va
+1	on	on	CLS	CLS	_	3	subj	_	_	253.389999	253.509995	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	253.509995	253.550003	L1
+3	va	aller	VRB	VRB	_	0	root	_	_	253.550003	253.779999	L1
+4	on	on	CLS	CLS	_	6	subj	_	_	253.779999	253.860001	L1
+5	y	y	CLI	CLI	_	6	dep	_	_	253.860001	254.369995	L1
+6	va	aller	VRB	VRB	_	3	para	_	_	254.679993	254.869995	L1
+
+# sent_id = cefc-tcof-anniversaire-124
+# text = super c'est bon c'est bon
+1	super	super	ADJ	ADJ	_	3	periph	_	_	243.389999	244.410004	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	254.919998	254.979996	L2
+3	est	être	VRB	VRB	_	0	root	_	_	254.979996	255.009995	L2
+4	bon	bon	ADJ	ADJ	_	3	dep	_	_	255.009995	255.199997	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	255.199997	255.330002	L2
+6	est	être	VRB	VRB	_	3	para	_	_	255.330002	255.580002	L2
+7	bon	bon	ADJ	ADJ	_	6	dep	_	_	255.580002	255.639999	L2
+
+# sent_id = cefc-tcof-anniversaire-125
+# text = il sait il sait
+1	il	il	CLS	CLS	_	2	subj	_	_	255.639999	255.789993	L2
+2	sait	savoir	VRB	VRB	_	0	root	_	_	255.789993	255.970001	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	256.010010	256.089996	L2
+4	sait	savoir	VRB	VRB	_	2	para	_	_	256.140015	256.220001	L2
+
+# sent_id = cefc-tcof-anniversaire-126
+# text = donc bon on commence à danser
+1	donc	donc	ADV	ADV	_	4	periph	_	_	257.209991	257.299988	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	257.399994	257.670013	L1
+3	on	on	CLS	CLS	_	4	subj	_	_	257.670013	257.790009	L1
+4	commence	commencer	VRB	VRB	_	0	root	_	_	257.790009	258.100006	L1
+5	à	à	PRE	PRE	_	4	dep	_	_	258.100006	258.130005	L1
+6	danser	danser	VNF	VNF	_	5	dep	_	_	258.130005	258.619995	L1
+
+# sent_id = cefc-tcof-anniversaire-127
+# text = et puis on attendait enfin
+1	et puis	et puis	COO	COO	_	3	mark	_	_	258.670013	259.399994	L1
+2	on	on	CLS	CLS	_	3	subj	_	_	259.399994	259.489990	L1
+3	attendait	attendre	VRB	VRB	_	0	root	_	_	259.489990	260.000000	L1
+4	enfin	enfin	ADV	ADV	_	3	dep	_	_	260.000000	260.299988	L1
+
+# sent_id = cefc-tcof-anniversaire-128
+# text = et personne n'est venu
+1	et	et	COO	COO	_	5	mark	_	_	260.640015	260.690002	L1
+2	personne	personne	PRO	PRO	_	5	subj	_	_	260.690002	261.200012	L1
+3	n'	ne	CLN	CLN	_	5	dep	_	_	261.200012	261.279999	L1
+4	est	être	VRB	VRB	_	5	aux	_	_	261.279999	261.320007	L1
+5	venu	venir	VPP	VPP	_	0	root	_	_	261.320007	261.420013	L1
+
+# sent_id = cefc-tcof-anniversaire-129
+# text = oh oh
+1	oh	oh	INT	INT	_	0	root	_	_	261.589996	261.630005	L2
+2	oh	oh	INT	INT	_	1	dm	_	_	261.959991	262.000000	L2
+
+# sent_id = cefc-tcof-anniversaire-130
+# text = non donc on a dû danser euh tout le long du slow
+1	non	non	INT	INT	_	5	dm	_	_	262.470001	262.829987	L1
+2	donc	donc	ADV	ADV	_	5	periph	_	_	263.070007	263.230011	L1
+3	on	on	CLS	CLS	_	5	subj	_	_	263.230011	263.260010	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	263.309998	263.329987	L1
+5	dû	devoir	VPP	VPP	_	0	root	_	_	263.510010	263.570007	L1
+6	danser	danser	VNF	VNF	_	5	dep	_	_	263.839996	264.540009	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	264.540009	264.670013	L1
+8	tout	tout	ADJ	ADJ	_	10	dep	_	_	264.779999	265.140015	L1
+9	le	le	DET	DET	_	10	spe	_	_	265.140015	265.619995	L1
+10	long	long	NOM	NOM	_	6	dep	_	_	265.619995	265.700012	L1
+11	du	de+le	PRE	PRE	_	10	dep	_	_	265.790009	266.220001	L1
+12	slow	slow	NOM	NOM	_	11	dep	_	_	266.220001	266.450012	L1
+
+# sent_id = cefc-tcof-anniversaire-131
+# text = donc euh voilà tout seuls oh putain ça devait être trop long
+1	donc	donc	ADV	ADV	_	5	periph	_	_	266.450012	266.640015	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	266.640015	266.690002	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	266.690002	267.079987	L1
+4	tout	tout	ADV	ADV	_	5	dep	_	_	267.269989	267.329987	L2
+5	seuls	seul	ADJ	ADJ	_	7	dep	_	_	267.329987	267.459991	L2
+6	oh	oh	INT	INT	_	5	dm	_	_	267.459991	267.529999	L2
+7	putain	putain	NOM	NOM	_	9	periph	_	_	267.609985	268.029999	L2
+8	ça	ça	PRO	PRO	_	9	subj	_	_	268.359985	268.420013	L2
+9	devait	devoir	VRB	VRB	_	0	root	_	_	268.480011	268.690002	L2
+10	être	être	VNF	VNF	_	9	dep	_	_	268.739990	269.010010	L2
+11	trop	trop	ADV	ADV	_	12	dep	_	_	269.010010	269.119995	L2
+12	long	long	ADJ	ADJ	_	10	dep	_	_	269.119995	269.309998	L2
+
+# sent_id = cefc-tcof-anniversaire-132
+# text = donc les autres nous regardaient ils prenaient des photos tout tu voyais les flashs
+1	donc	donc	ADV	ADV	_	5	periph	_	_	270.540009	270.660004	L1
+2	les	le	DET	DET	_	3	spe	_	_	270.660004	270.910004	L1
+3	autres	autres	NOM	NOM	_	5	periph	_	_	270.910004	271.029999	L1
+4	nous	nous	CLS	CLS	_	5	subj	_	_	271.029999	271.160004	L1
+5	regardaient	regarder	VRB	VRB	_	0	root	_	_	271.160004	271.779999	L1
+6	ils	il	CLS	CLS	_	7	subj	_	_	271.920013	271.980011	L1
+7	prenaient	prendre	VRB	VRB	_	5	para	_	_	271.980011	272.149994	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	272.230011	272.480011	L1
+9	photos	photo	NOM	NOM	_	8	dep	_	_	272.480011	272.690002	L1
+10	tout	tout	ADJ	ADJ	_	12	dep	_	_	272.730011	272.899994	L1
+11	tu	tu	CLS	CLS	_	12	subj	_	_	272.899994	272.929993	L1
+12	voyais	voir	VRB	VRB	_	7	para	_	_	272.929993	273.140015	L1
+13	les	le	DET	DET	_	14	spe	_	_	273.140015	273.320007	L1
+14	flashs	flash	NOM	NOM	_	12	dep	_	_	273.320007	273.850006	L1
+
+# sent_id = cefc-tcof-anniversaire-133
+# text = tu sais
+1	tu	tu	CLS	CLS	_	2	subj	_	_	274.410004	274.470001	L1
+2	sais	savoir	VRB	VRB	_	0	root	_	_	274.600006	274.850006	L1
+
+# sent_id = cefc-tcof-anniversaire-134
+# text = ah oui donc on s'est sentis seuls
+1	ah	ah	INT	INT	_	7	dm	_	_	275.440002	275.510010	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	275.510010	275.570007	L1
+3	donc	donc	ADV	ADV	_	7	periph	_	_	275.670013	275.779999	L1
+4	on	on	CLS	CLS	_	7	subj	_	_	276.690002	277.209991	L1
+5	s'	se	CLI	CLI	_	7	dep	_	_	277.209991	277.339996	L1
+6	est	être	VRB	VRB	_	7	aux	_	_	277.339996	277.640015	L1
+7	sentis	sentir	VPP	VPP	_	0	root	_	_	277.640015	277.880005	L1
+8	seuls	seul	ADJ	ADJ	_	7	dep	_	_	277.880005	278.339996	L1
+
+# sent_id = cefc-tcof-anniversaire-135
+# text = il avait vingt ans
+1	il	il	CLS	CLS	_	2	subj	_	_	279.500000	279.600006	L2
+2	avait	avoir	VRB	VRB	_	0	root	_	_	279.600006	279.790009	L2
+3	vingt	vingt	NUM	NUM	_	4	spe	_	_	279.790009	280.040009	L2
+4	ans	an	NOM	NOM	_	2	dep	_	_	280.109985	280.239990	L2
+
+# sent_id = cefc-tcof-anniversaire-136
+# text = ouais donc je pensais que
+1	ouais	ouais	INT	INT	_	4	dm	_	_	280.660004	280.959991	L1
+2	donc	donc	ADV	ADV	_	4	periph	_	_	281.540009	281.720001	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	281.720001	281.839996	L1
+4	pensais	penser	VRB	VRB	_	0	root	_	_	281.839996	282.170013	L1
+5	que	que	CSU	CSU	_	4	dep	_	_	282.170013	282.399994	L1
+
+# sent_id = cefc-tcof-anniversaire-137
+# text = quand même ses copains allaient venir et tout
+1	quand	quand	CSU	CSU	_	0	root	_	_	282.399994	282.480011	L1
+2	même	même	ADV	ADV	_	5	periph	_	_	282.480011	282.649994	L1
+3	ses	son	DET	DET	_	4	spe	_	_	282.649994	282.829987	L1
+4	copains	copain	NOM	NOM	_	5	subj	_	_	282.829987	283.179993	L1
+5	allaient	aller	VRB	VRB	_	1	dep	_	_	283.179993	283.329987	L1
+6	venir	venir	VNF	VNF	_	5	dep	_	_	283.329987	283.750000	L1
+7	et	et	COO	COO	_	8	mark	_	_	283.750000	283.839996	L1
+8	tout	tout	ADV	ADV	_	6	dep	_	_	283.839996	284.010010	L1
+
+# sent_id = cefc-tcof-anniversaire-138
+# text = mais non personne est venu nous rejoindre
+1	mais	mais	COO	COO	_	5	mark	_	_	284.230011	284.290009	L1
+2	non	non	INT	INT	_	1	dm	_	_	284.290009	284.480011	L1
+3	personne	personne	PRO	PRO	_	5	subj	_	_	284.480011	284.959991	L1
+4	est	être	VRB	VRB	_	5	aux	_	_	284.959991	285.010010	L1
+5	venu	venir	VPP	VPP	_	0	root	_	_	285.010010	285.200012	L1
+6	nous	nous	CLI	CLI	_	7	dep	_	_	285.200012	285.390015	L1
+7	rejoindre	rejoindre	VNF	VNF	_	5	dep	_	_	285.390015	285.779999	L1
+
+# sent_id = cefc-tcof-anniversaire-139
+# text = ni ses parents ni rien
+1	ni	ni	COO	COO	_	3	mark	_	_	285.989990	286.179993	L1
+2	ses	son	DET	DET	_	3	spe	_	_	286.179993	286.399994	L1
+3	parents	parent	NOM	NOM	_	0	root	_	_	286.399994	286.869995	L1
+4	ni	ni	COO	COO	_	5	mark	_	_	286.869995	287.059998	L1
+5	rien	rien	PRO	PRO	_	3	para	_	_	287.059998	287.450012	L1
+
+# sent_id = cefc-tcof-anniversaire-140
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	287.709991	287.839996	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	287.839996	287.959991	L1
+
+# sent_id = cefc-tcof-anniversaire-141
+# text = oh à la fin on avait un peu le temps long
+1	oh	oh	INT	INT	_	6	dm	_	_	289.320007	289.399994	L1
+2	à	à	PRE	PRE	_	6	periph	_	_	290.380005	290.420013	L1
+3	la	le	DET	DET	_	4	spe	_	_	290.420013	290.480011	L1
+4	fin	fin	NOM	NOM	_	2	dep	_	_	290.670013	291.040009	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	291.040009	291.209991	L1
+6	avait	avoir	VRB	VRB	_	0	root	_	_	291.209991	291.329987	L1
+7	un peu	un peu	ADV	ADV	_	6	dep	_	_	291.329987	291.609985	L1
+8	le	le	DET	DET	_	9	spe	_	_	291.609985	291.690002	L1
+9	temps	temps	NOM	NOM	_	6	dep	_	_	291.690002	291.809998	L1
+10	long	long	ADJ	ADJ	_	9	dep	_	_	291.809998	292.239990	L1
+
+# sent_id = cefc-tcof-anniversaire-142
+# text = on fait
+1	on	on	CLS	CLS	_	2	subj	_	_	292.329987	292.769989	L1
+2	fait	faire	VRB	VRB	_	0	root	_	_	292.839996	293.010010	L1
+
+# sent_id = cefc-tcof-anniversaire-143
+# text = bon d'accord attends on tourne dans le sens là maintenant
+1	bon	bon	INT	INT	_	4	dm	_	_	293.010010	293.070007	L1
+2	d'	de	PRE	PRE	_	4	periph	_	_	293.070007	293.100006	L1
+3	accord	accord	NOM	NOM	_	2	dep	_	_	293.100006	293.880005	L1
+4	attends	attendre	VRB	VRB	_	0	root	_	_	295.690002	295.880005	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	295.880005	296.019989	L1
+6	tourne	tourner	VRB	VRB	_	4	para	_	_	296.019989	296.299988	L1
+7	dans	dans	PRE	PRE	_	6	dep	_	_	296.299988	296.489990	L1
+8	le	le	DET	DET	_	9	spe	_	_	296.489990	296.570007	L1
+9	sens	sens	NOM	NOM	_	7	dep	_	_	296.570007	296.920013	L1
+10	là	là	ADV	ADV	_	6	dep	_	_	296.920013	296.980011	L1
+11	maintenant	maintenant	ADV	ADV	_	6	dep	_	_	297.079987	297.850006	L1
+
+# sent_id = cefc-tcof-anniversaire-144
+# text = O K
+1	O	O	NOM	NOM	_	0	root	_	_	298.000000	298.019989	L1
+2	K	K	NOM	NOM	_	1	dep	_	_	298.100006	298.200012	L1
+
+# sent_id = cefc-tcof-anniversaire-145
+# text = bon vas y vas y euh
+1	bon	bon	INT	INT	_	2	dm	_	_	298.299988	298.369995	L2
+2	vas	aller	VRB	VRB	_	0	root	_	_	298.630005	298.790009	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	298.790009	299.309998	L2
+4	vas	aller	VRB	VRB	_	2	para	_	_	299.309998	299.649994	L2
+5	y	y	CLI	CLI	_	4	dep	_	_	299.649994	299.679993	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	299.809998	299.890015	L2
+
+# sent_id = cefc-tcof-anniversaire-146
+# text = bon abrège la musique
+1	bon	bon	INT	INT	_	2	dm	_	_	299.890015	300.269989	L2
+2	abrège	abréger	VRB	VRB	_	0	root	_	_	300.829987	301.200012	L2
+3	la	le	DET	DET	_	4	spe	_	_	301.200012	301.320007	L2
+4	musique	musique	NOM	NOM	_	2	dep	_	_	301.320007	302.000000	L2
+
+# sent_id = cefc-tcof-anniversaire-147
+# text = ah j'en avais marre à la fin tu sais
+1	ah	ah	INT	INT	_	4	dm	_	_	303.279999	303.309998	L1
+2	j'	je	CLS	CLS	_	4	subj	_	_	303.309998	303.339996	L1
+3	en	en	CLI	CLI	_	4	dep	_	_	303.339996	303.369995	L1
+4	avais	avoir	VRB	VRB	_	0	root	_	_	303.369995	303.480011	L1
+5	marre	marre	ADV	ADV	_	4	dep	_	_	303.579987	304.029999	L1
+6	à	à	PRE	PRE	_	4	dep	_	_	304.029999	304.109985	L1
+7	la	le	DET	DET	_	8	spe	_	_	304.149994	304.619995	L1
+8	fin	fin	NOM	NOM	_	6	dep	_	_	304.619995	304.910004	L1
+9	tu	tu	CLS	CLS	_	10	subj	_	_	304.910004	305.019989	L1
+10	sais	savoir	VRB	VRB	_	8	dm	_	_	305.019989	305.109985	L1
+
+# sent_id = cefc-tcof-anniversaire-148
+# text = et puis bon c'était rigolo quand même
+1	et puis	et puis	COO	COO	_	4	mark	_	_	305.239990	305.359985	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	305.359985	305.559998	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	305.980011	306.019989	L1
+4	était	être	VRB	VRB	_	0	root	_	_	306.019989	306.179993	L1
+5	rigolo	rigolo	ADJ	ADJ	_	4	dep	_	_	306.179993	306.589996	L1
+6	quand	quand	CSU	CSU	_	4	dep	_	_	306.660004	306.750000	L1
+7	même	même	ADV	ADV	_	6	morph	_	_	306.750000	307.010010	L1
+
+# sent_id = cefc-tcof-anniversaire-149
+# text = mais bon voilà
+1	mais	mais	COO	COO	_	0	root	_	_	307.010010	307.149994	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	307.149994	307.209991	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	308.010010	308.339996	L1
+
+# sent_id = cefc-tcof-anniversaire-150
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	307.649994	307.880005	L2
+
+# sent_id = cefc-tcof-anniversaire-151
+# text = quoi grand moment de solitude
+1	quoi	quoi	INT	INT	_	3	dm	_	_	309.540009	309.700012	L1
+2	grand	grand	ADJ	ADJ	_	3	dep	_	_	309.829987	310.230011	L1
+3	moment	moment	NOM	NOM	_	0	root	_	_	310.230011	310.470001	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	310.470001	310.559998	L1
+5	solitude	solitude	NOM	NOM	_	4	dep	_	_	310.559998	311.269989	L1
+
+# sent_id = cefc-tcof-anniversaire-152
+# text = tu m'étonnes
+1	tu	tu	CLS	CLS	_	3	subj	_	_	311.739990	311.899994	L2
+2	m'	me	CLI	CLI	_	3	dep	_	_	311.899994	311.959991	L2
+3	étonnes	étonner	VRB	VRB	_	0	root	_	_	311.959991	312.200012	L2
+
+# sent_id = cefc-tcof-anniversaire-153
+# text = et puis bon après il a mis de l'autre musique
+1	et puis	et puis	COO	COO	_	6	mark	_	_	312.480011	312.690002	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	312.690002	312.890015	L1
+3	après	après	ADV	ADV	_	6	periph	_	_	312.890015	313.130005	L1
+4	il	il	CLS	CLS	_	6	subj	_	_	313.130005	313.190002	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	313.190002	313.220001	L1
+6	mis	mettre	VPP	VPP	_	0	root	_	_	313.220001	313.390015	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	313.390015	313.510010	L1
+8	l'	le	DET	DET	_	9	spe	_	_	313.510010	313.549988	L1
+9	autre	autre	NOM	NOM	_	7	dep	_	_	313.609985	313.690002	L1
+10	musique	musique	NOM	NOM	_	9	dep	_	_	313.690002	314.070007	L1
+
+# sent_id = cefc-tcof-anniversaire-154
+# text = donc euh tout le monde est venu
+1	donc	donc	ADV	ADV	_	5	periph	_	_	314.070007	314.239990	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	314.239990	314.279999	L1
+3	tout le monde	tout le monde	PRO	PRO	_	5	subj	_	_	314.730011	315.269989	L1
+4	est	être	VRB	VRB	_	5	aux	_	_	315.269989	315.299988	L1
+5	venu	venir	VPP	VPP	_	0	root	_	_	315.299988	315.390015	L1
+

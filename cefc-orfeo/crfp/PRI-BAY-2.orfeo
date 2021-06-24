@@ -1,0 +1,3025 @@
+# sent_id = cefc-crfp-PRI-BAY-2-1
+# text = et pourquoi le maire avait refusé
+1	et	et	COO	COO	_	6	mark	_	_	0.070000	0.450000	L1
+2	pourquoi	pourquoi	PRQ	PRQ	_	6	dep	_	_	0.460000	0.760000	L1
+3	le	le	DET	DET	_	4	spe	_	_	0.800000	0.990000	L1
+4	maire	maire	NOM	NOM	_	6	subj	_	_	1.000000	1.140000	L1
+5	avait	avoir	VRB	VRB	_	6	aux	_	_	1.150000	1.340000	L1
+6	refusé	refuser	VPP	VPP	_	0	root	_	_	1.350000	2.010000	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-2
+# text = ah parce que il y a des gens qui veulent qui veulent appeler leur leur fille assiette chaise fauteuil
+1	ah	ah	INT	INT	_	2	dm	_	_	2.070000	2.350000	L2
+2	parce que	parce que	CSU	CSU	_	0	root	_	_	2.360000	2.900000	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	2.910000	3.160000	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	3.170000	3.270000	L2
+5	a	avoir	VRB	VRB	_	2	dep	_	_	3.280000	3.300000	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	3.370000	3.450000	L2
+7	gens	gens	NOM	NOM	_	6	dep	_	_	3.510000	3.730000	L2
+8	qui	qui	PRQ	PRQ	_	9	subj	_	_	3.780000	3.950000	L2
+9	veulent	vouloir	VRB	VRB	_	7	dep	_	_	3.960000	4.190000	L2
+10	qui	qui	PRQ	PRQ	_	11	subj	_	_	4.200000	4.390000	L2
+11	veulent	vouloir	VRB	VRB	_	9	para	_	_	4.400000	4.640000	L2
+12	appeler	appeler	VNF	VNF	_	11	dep	_	_	4.650000	5.040000	L2
+13	leur	son	DET	DET	_	15	spe	_	_	5.050000	5.350000	L2
+14	leur	son	DET	DET	_	13	para	_	_	5.680000	5.890000	L2
+15	fille	fille	NOM	NOM	_	12	dep	_	_	5.900000	6.350000	L2
+16	assiette	assiette	NOM	NOM	_	15	dep	_	_	6.360000	7.050000	L2
+17	chaise	chaise	NOM	NOM	_	16	dep	_	_	7.060000	7.720000	L2
+18	fauteuil	fauteuil	NOM	NOM	_	17	dep	_	_	7.730000	8.150000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-3
+# text = n'importe bé parce que c'est pas
+1	n'	ne	CLN	CLN	_	2	dep	_	_	8.160000	8.230000	L3
+2	importe	importer	VRB	VRB	_	0	root	_	_	8.240000	8.590000	L3
+3	bé	bé	INT	INT	_	2	dm	_	_	2.070000	2.120000	L3
+4	parce que	parce que	CSU	CSU	_	2	dep	_	_	2.130000	2.990000	L3
+5	c'	ce	CLS	CLS	_	6	subj	_	_	3.000000	3.020000	L3
+6	est	être	VRB	VRB	_	4	dep	_	_	3.030000	3.080000	L3
+7	pas	pas	ADN	ADN	_	6	dep	_	_	3.090000	3.140000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-4
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	3.150000	3.170000	L3
+2	est	être	VRB	VRB	_	0	root	_	_	3.180000	3.240000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-5
+# text = pas quoi il y a des
+1	pas	pas	ADN	ADN	_	5	dep	_	_	3.250000	3.300000	L2
+2	quoi	quoi	INT	INT	_	1	dm	_	_	8.660000	8.850000	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	9.180000	9.240000	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	9.250000	9.270000	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	9.280000	9.310000	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	9.320000	9.690000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-6
+# text = oui mais il y a en a un qui s'appelle vous vous
+1	oui	oui	INT	INT	_	5	dm	_	_	10.080000	10.130000	L3
+2	mais	mais	COO	COO	_	5	mark	_	_	10.140000	10.290000	L3
+3	il	il	CLS	CLS	_	5	subj	_	_	10.300000	10.350000	L3
+4	y	y	CLI	CLI	_	5	dep	_	_	10.360000	10.470000	L3
+5	a	avoir	VRB	VRB	_	0	root	_	_	10.480000	10.520000	L3
+6	en	en	CLI	CLI	_	7	dep	_	_	10.530000	10.580000	L3
+7	a	avoir	VRB	VRB	_	5	para	_	_	10.590000	10.670000	L3
+8	un	un	PRO	PRO	_	7	dep	_	_	10.680000	10.700000	L3
+9	qui	qui	PRQ	PRQ	_	11	subj	_	_	10.710000	10.820000	L3
+10	s'	se	CLI	CLI	_	11	dep	_	_	10.830000	10.920000	L3
+11	appelle	appeler	VRB	VRB	_	8	dep	_	_	10.930000	11.180000	L3
+12	vous	vous	CLS	CLS	_	11	subj	_	_	11.190000	11.330000	L3
+13	vous	moi	PRO	PRO	_	11	periph	_	_	11.440000	11.710000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-7
+# text = ne ça enregistre pas là non
+1	ne	ne	CLN	CLN	_	3	dep	_	_	11.790000	11.810000	L3
+2	ça	ça	PRO	PRO	_	3	subj	_	_	11.820000	12.040000	L3
+3	enregistre	enregistrer	VRB	VRB	_	0	root	_	_	12.050000	12.530000	L3
+4	pas	pas	ADN	ADN	_	3	dep	_	_	12.540000	12.690000	L3
+5	là	là	ADV	ADV	_	3	dep	_	_	12.700000	12.880000	L3
+6	non	non	INT	INT	_	5	dm	_	_	13.570000	13.760000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-8
+# text = alors là je m'en vais
+1	alors	alors	ADV	ADV	_	6	periph	_	_	13.770000	14.170000	L3
+2	là	là	ADV	ADV	_	6	periph	_	_	14.180000	14.230000	L3
+3	je	je	CLS	CLS	_	6	subj	_	_	14.240000	14.340000	L3
+4	m'	me	CLI	CLI	_	6	dep	_	_	14.350000	14.390000	L3
+5	en	en	CLI	CLI	_	6	dep	_	_	14.450000	14.550000	L3
+6	vais	aller	VRB	VRB	_	0	root	_	_	14.690000	14.750000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-9
+# text = non non non vous pouvez rester
+1	non	non	INT	INT	_	5	dm	_	_	13.570000	14.220000	L1
+2	non	non	INT	INT	_	1	para	_	_	14.860000	14.910000	L1
+3	non	non	INT	INT	_	2	para	_	_	14.920000	15.090000	L1
+4	vous	vous	CLS	CLS	_	5	subj	_	_	15.210000	15.350000	L1
+5	pouvez	pouvoir	VRB	VRB	_	0	root	_	_	15.550000	15.780000	L1
+6	rester	rester	VNF	VNF	_	5	dep	_	_	15.790000	16.030001	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-10
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	16.230000	16.379999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-11
+# text = non vous savez la bande dessinée avec Corto Maltese
+1	non	non	INT	INT	_	3	dm	_	_	16.389999	16.690001	L3
+2	vous	vous	CLS	CLS	_	3	subj	_	_	16.770000	16.930000	L3
+3	savez	savoir	VRB	VRB	_	0	root	_	_	16.940001	17.160000	L3
+4	la	le	DET	DET	_	5	spe	_	_	17.170000	17.280001	L3
+5	bande dessinée	B.D.	NOM	NOM	_	3	dep	_	_	17.290001	17.900000	L3
+6	avec	avec	PRE	PRE	_	5	dep	_	_	17.910000	18.090000	L3
+7	Corto	Corto	NOM	NOM	_	6	dep	_	_	18.379999	18.740000	L3
+8	Maltese	Maltese	NOM	NOM	_	7	dep	_	_	18.750000	19.340000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-12
+# text = vous connaissez eh ben euh euh
+1	vous	vous	CLS	CLS	_	2	subj	_	_	19.570000	19.620001	L3
+2	connaissez	connaître	VRB	VRB	_	0	root	_	_	19.709999	20.040001	L3
+3	eh ben	eh ben	INT	INT	_	2	dm	_	_	20.540001	20.840000	L3
+4	euh	euh	INT	INT	_	3	dm	_	_	20.850000	21.129999	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	21.450001	21.570000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-13
+# text = ma fille s'est ma fille aînée qui est médecin scolaire
+1	ma	son	DET	DET	_	2	spe	_	_	21.580000	22.180000	L3
+2	fille	fille	NOM	NOM	_	4	subj	_	_	22.190001	22.629999	L3
+3	s'	se	CLI	CLI	_	4	dep	_	_	22.639999	22.799999	L3
+4	est	être	VRB	VRB	_	0	root	_	_	22.809999	23.059999	L3
+5	ma	son	DET	DET	_	6	spe	_	_	23.070000	23.219999	L3
+6	fille	fille	NOM	NOM	_	4	dep	_	_	23.230000	23.459999	L3
+7	aînée	aîné	ADJ	ADJ	_	6	dep	_	_	23.469999	23.629999	L3
+8	qui	qui	PRQ	PRQ	_	9	dep	_	_	23.639999	23.750000	L3
+9	est	être	VRB	VRB	_	6	dep	_	_	23.760000	23.790001	L3
+10	médecin	médecin	NOM	NOM	_	9	dep	_	_	23.799999	24.129999	L3
+11	scolaire	scolaire	ADJ	ADJ	_	10	dep	_	_	24.139999	24.700001	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-14
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	19.719999	20.040001	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-15
+# text = elle a vu l'autre jour un petit garçon qui s'appelait Corto NNAAMMEE
+1	elle	il	CLS	CLS	_	3	subj	_	_	24.780001	24.850000	L3
+2	a	avoir	VRB	VRB	_	3	aux	_	_	24.860001	24.879999	L3
+3	vu	voir	VPP	VPP	_	0	root	_	_	24.889999	24.959999	L3
+4	l'	le	DET	DET	_	6	spe	_	_	24.969999	24.990000	L3
+5	autre	autre	ADJ	ADJ	_	6	dep	_	_	25.000000	25.120001	L3
+6	jour	jour	NOM	NOM	_	3	dep	_	_	25.129999	25.270000	L3
+7	un	un	DET	DET	_	9	spe	_	_	25.559999	25.670000	L3
+8	petit	petit	ADJ	ADJ	_	9	dep	_	_	25.680000	25.950001	L3
+9	garçon	garçon	NOM	NOM	_	6	para	_	_	25.959999	26.280001	L3
+10	qui	qui	PRQ	PRQ	_	12	subj	_	_	26.290001	26.370001	L3
+11	s'	se	CLI	CLI	_	12	dep	_	_	26.379999	26.469999	L3
+12	appelait	appeler	VRB	VRB	_	9	dep	_	_	26.480000	26.709999	L3
+13	Corto	Corto	NOM	NOM	_	12	dep	_	_	26.719999	27.100000	L3
+14	NNAAMMEE	NOM	NOM	NOM	_	13	dep	_	_	27.110001	27.570000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-16
+# text = ça n'allait pas du tout
+1	ça	ça	PRO	PRO	_	3	subj	_	_	27.770000	27.889999	L3
+2	n'	ne	CLN	CLN	_	3	dep	_	_	27.900000	27.959999	L3
+3	allait	aller	VRB	VRB	_	0	root	_	_	27.969999	28.150000	L3
+4	pas du tout	pas du tout	ADV	ADV	_	3	dep	_	_	28.160000	28.709999	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-17
+# text = ça ça Corto Maltese c'est un héros de bande dessinée
+1	ça	ça	PRO	PRO	_	6	periph	_	_	29.110001	29.250000	L3
+2	ça	ça	PRO	PRO	_	6	periph	_	_	29.260000	29.459999	L3
+3	Corto	Corto	NOM	NOM	_	6	periph	_	_	30.049999	30.340000	L3
+4	Maltese	Maltese	NOM	NOM	_	3	dep	_	_	30.350000	30.889999	L3
+5	c'	ce	CLS	CLS	_	6	subj	_	_	30.930000	31.000000	L3
+6	est	être	VRB	VRB	_	0	root	_	_	31.010000	31.030001	L3
+7	un	un	DET	DET	_	8	spe	_	_	31.040001	31.160000	L3
+8	héros	héros	NOM	NOM	_	6	dep	_	_	31.170000	31.459999	L3
+9	de	de	PRE	PRE	_	8	dep	_	_	31.520000	31.610001	L3
+10	bande dessinée	B.D.	NOM	NOM	_	9	dep	_	_	31.620001	32.250000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-18
+# text = alors il a fallu qu'on oui il s'appelle Corto
+1	alors	alors	ADV	ADV	_	4	periph	_	_	32.259998	32.419998	L3
+2	il	il	CLS	CLS	_	4	subj	_	_	32.529999	32.590000	L3
+3	a	avoir	VRB	VRB	_	4	aux	_	_	32.599998	32.619999	L3
+4	fallu	falloir	VPP	VPP	_	0	root	_	_	32.630001	32.860001	L3
+5	qu'	que	CSU	CSU	_	4	dep	_	_	33.150002	33.230000	L3
+6	on	on	CLS	CLS	_	5	disflink	_	_	33.639999	33.709999	L3
+7	oui	oui	INT	INT	_	6	dm	_	_	34.090000	34.200001	L3
+8	il	il	CLS	CLS	_	10	subj	_	_	34.209999	34.340000	L3
+9	s'	se	CLI	CLI	_	10	dep	_	_	34.529999	34.790001	L3
+10	appelle	appeler	VRB	VRB	_	5	dep	_	_	35.380001	35.669998	L3
+11	Corto	Corto	NOM	NOM	_	10	dep	_	_	35.680000	35.849998	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-19
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	30.080000	30.629999	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	30.990000	31.430000	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-20
+# text = mais on l'a laissé s'inscrire avec ce nom
+1	mais	mais	COO	COO	_	5	mark	_	_	34.090000	34.189999	L1
+2	on	on	CLS	CLS	_	5	subj	_	_	34.200001	34.220001	L1
+3	l'	le	CLI	CLI	_	5	dep	_	_	34.230000	34.330002	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	34.340000	34.380001	L1
+5	laissé	laisser	VPP	VPP	_	0	root	_	_	34.389999	34.700001	L1
+6	s'	se	CLI	CLI	_	7	dep	_	_	34.709999	34.790001	L1
+7	inscrire	inscrire	VNF	VNF	_	5	dep	_	_	34.880001	35.279999	L1
+8	avec	avec	PRE	PRE	_	7	dep	_	_	35.290001	35.450001	L1
+9	ce	ce	DET	DET	_	10	spe	_	_	35.459999	35.639999	L1
+10	nom	nom	NOM	NOM	_	8	dep	_	_	35.650002	35.880001	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-21
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	37.180000	37.509998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-22
+# text = et en fonction de quoi on dit oui ou non vous savez ou vous savez pas je sais pas
+1	et	et	COO	COO	_	7	mark	_	_	37.720001	37.770000	L1
+2	en	en	PRE	PRE	_	7	periph	_	_	37.779999	37.810001	L1
+3	fonction	fonction	NOM	NOM	_	2	dep	_	_	37.910000	38.130001	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	38.139999	38.320000	L1
+5	quoi	quoi	PRQ	PRQ	_	4	dep	_	_	38.330002	38.459999	L1
+6	on	on	CLS	CLS	_	7	subj	_	_	38.470001	38.720001	L1
+7	dit	dire	VRB	VRB	_	0	root	_	_	38.730000	38.849998	L1
+8	oui	oui	INT	INT	_	7	dm	_	_	38.939999	39.000000	L1
+9	ou	ou	COO	COO	_	12	mark	_	_	39.009998	39.029999	L1
+10	non	non	INT	INT	_	9	dm	_	_	39.040001	39.369999	L1
+11	vous	vous	CLS	CLS	_	12	subj	_	_	39.650002	39.700001	L1
+12	savez	savoir	VRB	VRB	_	7	para	_	_	39.709999	39.959999	L1
+13	ou	ou	COO	COO	_	15	mark	_	_	39.970001	39.990002	L1
+14	vous	vous	CLS	CLS	_	15	subj	_	_	40.090000	40.160000	L1
+15	savez	savoir	VRB	VRB	_	12	para	_	_	40.169998	40.310001	L1
+16	pas	pas	ADN	ADN	_	15	dep	_	_	40.380001	40.490002	L2
+17	je	je	CLS	CLS	_	18	subj	_	_	41.419998	41.630001	L2
+18	sais	savoir	VRB	VRB	_	7	parenth	_	_	41.639999	41.799999	L2
+19	pas	pas	ADN	ADN	_	18	dep	_	_	41.810001	41.910000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-23
+# text = je crois que il y a un calendrier avec des prénoms euh authentiques authentiques entre guillemets
+1	je	je	CLS	CLS	_	2	subj	_	_	41.919998	42.009998	L2
+2	crois	croire	VRB	VRB	_	0	root	_	_	42.020000	42.320000	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	42.330002	42.730000	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	42.860001	42.919998	L2
+5	y	y	CLI	CLI	_	6	dep	_	_	42.930000	43.259998	L2
+6	a	avoir	VRB	VRB	_	3	dep	_	_	43.270000	43.570000	L2
+7	un	un	DET	DET	_	8	spe	_	_	43.580002	43.700001	L2
+8	calendrier	calendrier	NOM	NOM	_	6	dep	_	_	43.709999	44.759998	L2
+9	avec	avec	PRE	PRE	_	6	dep	_	_	45.270000	45.709999	L2
+10	des	de	PRE	PRE	_	9	dep	_	_	45.720001	45.919998	L2
+11	prénoms	prénom	NOM	NOM	_	10	dep	_	_	45.930000	46.750000	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	46.759998	46.810001	L2
+13	authentiques	authentique	ADJ	ADJ	_	11	dep	_	_	46.930000	47.799999	L2
+14	authentiques	authentique	ADJ	ADJ	_	11	dep	_	_	47.860001	48.619999	L2
+15	entre	entre	PRE	PRE	_	11	dep	_	_	48.669998	48.910000	L2
+16	guillemets	guillemet	NOM	NOM	_	15	dep	_	_	48.919998	49.480000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-24
+# text = comment c'est-à-dire d'origine chrétienne
+1	comment	comment	PRQ	PRQ	_	3	dep	_	_	41.720001	42.720001	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	50.009998	50.029999	L2
+3	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	50.040001	50.349998	L2
+4	d'	de	PRE	PRE	_	3	dep	_	_	50.360001	50.400002	L2
+5	origine	origine	NOM	NOM	_	4	dep	_	_	50.410000	50.799999	L2
+6	chrétienne	chrétien	ADJ	ADJ	_	5	dep	_	_	50.810001	51.400002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-25
+# text = en fait on s'est aperçu déjà sous la révolution française que ces ces saints étaient de faux saints
+1	en	en	PRE	PRE	_	6	periph	_	_	52.799999	52.910000	L2
+2	fait	fait	NOM	NOM	_	1	dep	_	_	52.919998	53.209999	L2
+3	on	on	CLS	CLS	_	6	subj	_	_	53.220001	53.290001	L2
+4	s'	se	CLI	CLI	_	6	dep	_	_	53.299999	53.410000	L2
+5	est	être	VRB	VRB	_	6	aux	_	_	53.419998	53.509998	L2
+6	aperçu	apercevoir	VPP	VPP	_	0	root	_	_	53.520000	54.209999	L2
+7	déjà	déjà	ADV	ADV	_	6	dep	_	_	54.220001	54.860001	L2
+8	sous	sous	PRE	PRE	_	6	dep	_	_	55.369999	55.560001	L2
+9	la	le	DET	DET	_	10	spe	_	_	55.570000	55.669998	L2
+10	révolution	révolution	NOM	NOM	_	8	dep	_	_	55.680000	56.110001	L2
+11	française	français	ADJ	ADJ	_	10	dep	_	_	56.119999	56.639999	L2
+12	que	que	CSU	CSU	_	6	dep	_	_	56.650002	57.060001	L2
+13	ces	ce	DET	DET	_	15	spe	_	_	57.730000	58.340000	L2
+14	ces	ce	DET	DET	_	13	para	_	_	58.349998	58.630001	L2
+15	saints	saint	NOM	NOM	_	16	subj	_	_	58.639999	59.040001	L2
+16	étaient	être	VRB	VRB	_	12	dep	_	_	59.049999	59.290001	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	59.299999	59.400002	L2
+18	faux	faux	NOM	NOM	_	17	dep	_	_	59.410000	59.779999	L2
+19	saints	saint	ADJ	ADJ	_	18	dep	_	_	59.919998	60.330002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-26
+# text = et c'étaient des noms païens
+1	et	et	COO	COO	_	3	mark	_	_	60.490002	60.520000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	60.529999	60.639999	L2
+3	étaient	être	VRB	VRB	_	0	root	_	_	60.650002	60.849998	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	60.860001	60.990002	L2
+5	noms	nom	NOM	NOM	_	4	dep	_	_	61.000000	61.209999	L2
+6	païens	païen	NOM	NOM	_	5	dep	_	_	61.220001	61.540001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-27
+# text = bon alors euh après il y a eu l'invasion euh des noms espagnols italiens les mots d'anglo-saxonne
+1	bon	bon	INT	INT	_	8	dm	_	_	62.200001	62.779999	L2
+2	alors	alors	ADV	ADV	_	8	periph	_	_	62.790001	62.900002	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	62.910000	62.930000	L2
+4	après	après	ADV	ADV	_	8	periph	_	_	63.650002	64.349998	L2
+5	il	il	CLS	CLS	_	8	subj	_	_	64.360001	65.029999	L2
+6	y	y	CLI	CLI	_	8	dep	_	_	65.040001	65.059998	L2
+7	a	avoir	VRB	VRB	_	8	aux	_	_	65.070000	65.089996	L2
+8	eu	avoir	VPP	VPP	_	0	root	_	_	65.099998	65.339996	L2
+9	l'	le	DET	DET	_	10	spe	_	_	65.349998	65.370003	L2
+10	invasion	invasion	NOM	NOM	_	8	dep	_	_	65.379997	66.459999	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	66.470001	66.629997	L2
+12	des	de	PRE	PRE	_	8	dep	_	_	67.180000	67.279999	L2
+13	noms	nom	NOM	NOM	_	12	dep	_	_	67.290001	67.410004	L2
+14	espagnols	espagnol	ADJ	ADJ	_	13	dep	_	_	67.419998	68.029999	L2
+15	italiens	italien	NOM	NOM	_	13	para	_	_	68.040001	68.660004	L2
+16	les	le	DET	DET	_	17	spe	_	_	68.669998	69.070000	L2
+17	mots	mot	NOM	NOM	_	15	para	_	_	69.080002	69.269997	L2
+18	d'	de	PRE	PRE	_	17	dep	_	_	69.279999	69.339996	L2
+19	anglo-saxonne	anglo-saxon	NOM	NOM	_	18	dep	_	_	69.349998	70.190002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-28
+# text = alors on a fini par être plus laxiste et accepter plus largement
+1	alors	alors	ADV	ADV	_	4	periph	_	_	70.860001	71.019997	L2
+2	on	on	CLS	CLS	_	4	subj	_	_	71.029999	71.260002	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	71.269997	71.309998	L2
+4	fini	finir	VPP	VPP	_	0	root	_	_	71.320000	71.690002	L2
+5	par	par	PRE	PRE	_	4	dep	_	_	71.699997	72.169998	L2
+6	être	être	VNF	VNF	_	5	dep	_	_	72.180000	72.870003	L2
+7	plus	plus	ADN	ADN	_	8	dep	_	_	73.010002	73.199997	L2
+8	laxiste	laxiste	ADJ	ADJ	_	6	dep	_	_	73.209999	73.760002	L2
+9	et	et	COO	COO	_	10	mark	_	_	73.769997	73.989998	L2
+10	accepter	accepter	VNF	VNF	_	4	dep	_	_	74.000000	75.050003	L2
+11	plus	plus	ADV	ADV	_	12	dep	_	_	75.690002	75.830002	L2
+12	largement	largement	ADV	ADV	_	10	dep	_	_	75.839996	76.400002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-29
+# text = il y a des gens qui s'appellent Jeremy John John NNAAMMEE par exemple
+1	il	il	CLS	CLS	_	3	subj	_	_	76.410004	76.480003	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	76.489998	76.510002	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	76.519997	76.540001	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	76.550003	76.669998	L2
+5	gens	gens	NOM	NOM	_	4	dep	_	_	76.680000	76.940002	L2
+6	qui	qui	PRQ	PRQ	_	8	subj	_	_	76.949997	77.040001	L2
+7	s'	se	CLI	CLI	_	8	dep	_	_	77.050003	77.089996	L2
+8	appellent	appeler	VRB	VRB	_	5	dep	_	_	77.099998	77.320000	L2
+9	Jeremy	Jeremy	NOM	NOM	_	8	dep	_	_	77.330002	77.919998	L2
+10	John	John	NOM	NOM	_	9	dep	_	_	77.930000	78.510002	L2
+11	John	John	NOM	NOM	_	10	dep	_	_	79.279999	79.510002	L2
+12	NNAAMMEE	NOM	NOM	NOM	_	11	dep	_	_	79.519997	80.300003	L2
+13	par	par	PRE	PRE	_	8	dep	_	_	80.309998	80.540001	L2
+14	exemple	exemple	NOM	NOM	_	13	dep	_	_	80.550003	80.970001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-30
+# text = mais à l'époque euh à l'époque où euh le enfant ça avait un empire colonial qui était énorme
+1	mais	mais	COO	COO	_	14	mark	_	_	79.279999	79.410004	L3
+2	à	à	PRE	PRE	_	14	periph	_	_	79.419998	79.449997	L3
+3	l'	le	DET	DET	_	4	spe	_	_	79.459999	79.510002	L3
+4	époque	époque	NOM	NOM	_	2	dep	_	_	79.519997	80.970001	L3
+5	euh	euh	INT	INT	_	4	dm	_	_	81.120003	81.169998	L3
+6	à	à	PRE	PRE	_	2	para	_	_	81.660004	81.750000	L3
+7	l'	le	DET	DET	_	8	spe	_	_	81.760002	81.800003	L3
+8	époque	époque	NOM	NOM	_	6	dep	_	_	81.809998	82.209999	L3
+9	où	où	PRQ	PRQ	_	12	dep	_	_	82.220001	82.400002	L3
+10	euh	euh	INT	INT	_	9	dm	_	_	82.410004	82.639999	L3
+11	le	le	DET	DET	_	12	spe	_	_	82.650002	82.739998	L3
+12	enfant	enfant	NOM	NOM	_	8	para	_	_	82.750000	83.019997	L3
+13	ça	ça	PRO	PRO	_	14	subj	_	_	83.070000	83.209999	L3
+14	avait	avoir	VRB	VRB	_	0	root	_	_	83.220001	83.330002	L3
+15	un	un	DET	DET	_	16	spe	_	_	83.339996	83.470001	L3
+16	empire	empire	NOM	NOM	_	14	dep	_	_	83.480003	83.790001	L3
+17	colonial	colonial	ADJ	ADJ	_	16	dep	_	_	83.800003	84.360001	L3
+18	qui	qui	PRQ	PRQ	_	19	subj	_	_	84.370003	84.459999	L3
+19	était	être	VRB	VRB	_	16	dep	_	_	84.470001	84.709999	L3
+20	énorme	énorme	ADJ	ADJ	_	19	dep	_	_	84.750000	85.180000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-31
+# text = c'est pas
+1	c'	ce	CLS	CLS	_	2	subj	_	_	81.629997	81.660004	L2
+2	est	être	VRB	VRB	_	0	root	_	_	81.790001	82.930000	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	83.250000	83.809998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-32
+# text = mal euh quand il y avait je me le rappelle un
+1	mal	mal	ADV	ADV	_	10	periph	_	_	83.860001	84.980003	L3
+2	euh	euh	INT	INT	_	1	dm	_	_	85.690002	85.860001	L3
+3	quand	quand	CSU	CSU	_	10	periph	_	_	85.870003	86.129997	L3
+4	il	il	CLS	CLS	_	6	subj	_	_	86.139999	86.220001	L3
+5	y	y	CLI	CLI	_	6	dep	_	_	86.230003	86.309998	L3
+6	avait	avoir	VRB	VRB	_	3	dep	_	_	86.320000	86.589996	L3
+7	je	je	CLS	CLS	_	10	subj	_	_	86.599998	86.709999	L3
+8	me	me	CLI	CLI	_	10	dep	_	_	86.720001	86.809998	L3
+9	le	le	CLI	CLI	_	10	dep	_	_	86.820000	86.860001	L3
+10	rappelle	rappeler	VRB	VRB	_	0	root	_	_	86.870003	87.339996	L3
+11	un	un	PRO	PRO	_	10	dep	_	_	87.629997	88.110001	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-33
+# text = je crois que c'était un président du Conseil nommé NNAAMMEE qui était allé se promener en Afrique Noire
+1	je	je	CLS	CLS	_	2	subj	_	_	88.540001	88.559998	L3
+2	crois	croire	VRB	VRB	_	0	root	_	_	88.570000	88.680000	L3
+3	que	que	CSU	CSU	_	2	dep	_	_	88.690002	88.709999	L3
+4	c'	ce	CLS	CLS	_	5	subj	_	_	88.720001	88.779999	L3
+5	était	être	VRB	VRB	_	3	dep	_	_	88.790001	88.940002	L3
+6	un	un	DET	DET	_	7	spe	_	_	88.949997	89.019997	L3
+7	président	président	NOM	NOM	_	5	dep	_	_	89.029999	89.379997	L3
+8	du	de+le	PRE	PRE	_	7	dep	_	_	89.389999	89.480003	L3
+9	Conseil	conseil	NOM	NOM	_	8	dep	_	_	89.489998	89.860001	L3
+10	nommé	nommer	ADJ	ADJ	_	7	dep	_	_	89.870003	90.110001	L3
+11	NNAAMMEE	NOM	NOM	NOM	_	10	dep	_	_	90.120003	90.699997	L3
+12	qui	qui	PRQ	PRQ	_	14	subj	_	_	90.709999	90.769997	L3
+13	était	être	VRB	VRB	_	14	aux	_	_	90.779999	91.019997	L3
+14	allé	aller	VPP	VPP	_	11	dep	_	_	91.029999	91.209999	L3
+15	se	se	CLI	CLI	_	16	dep	_	_	91.220001	91.349998	L3
+16	promener	promener	VNF	VNF	_	14	dep	_	_	91.360001	91.800003	L3
+17	en	en	PRE	PRE	_	16	dep	_	_	91.809998	91.930000	L3
+18	Afrique	Afrique	NOM	NOM	_	17	dep	_	_	91.940002	92.269997	L3
+19	Noire	noire	NOM	NOM	_	18	dep	_	_	92.279999	92.529999	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-34
+# text = on avait appelé les enfants NNAAMMEE comme prénom
+1	on	on	CLS	CLS	_	3	subj	_	_	92.760002	92.910004	L3
+2	avait	avoir	VRB	VRB	_	3	aux	_	_	92.919998	93.089996	L3
+3	appelé	appeler	VPP	VPP	_	0	root	_	_	93.099998	93.370003	L3
+4	les	le	DET	DET	_	5	spe	_	_	93.379997	93.589996	L3
+5	enfants	enfant	NOM	NOM	_	3	dep	_	_	93.599998	93.959999	L3
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	93.970001	94.580002	L3
+7	comme	comme	PRE	PRE	_	6	dep	_	_	94.589996	94.820000	L3
+8	prénom	prénom	NOM	NOM	_	7	dep	_	_	94.830002	95.269997	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-35
+# text = alors vous vous rendez compte non
+1	alors	alors	ADV	ADV	_	4	periph	_	_	95.629997	95.779999	L3
+2	vous	vous	CLS	CLS	_	4	subj	_	_	96.040001	96.099998	L3
+3	vous	vous	CLI	CLI	_	4	dep	_	_	96.290001	96.389999	L3
+4	rendez	rendre	VRB	VRB	_	0	root	_	_	96.400002	97.239998	L3
+5	compte	compte	NOM	NOM	_	4	dep	_	_	97.250000	97.330002	L3
+6	non	non	INT	INT	_	5	dm	_	_	97.339996	97.389999	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-36
+# text = c'est c'est ridicule moi
+1	c'	ce	CLS	CLS	_	2	subj	_	_	98.309998	98.400002	L3
+2	est	être	VRB	VRB	_	0	root	_	_	98.410004	98.459999	L3
+3	c'	ce	CLS	CLS	_	4	subj	_	_	98.470001	98.589996	L3
+4	est	être	VRB	VRB	_	2	para	_	_	98.599998	98.629997	L3
+5	ridicule	ridicule	ADJ	ADJ	_	4	dep	_	_	98.639999	99.180000	L3
+6	moi	moi	PRO	PRO	_	4	periph	_	_	99.190002	99.320000	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-37
+# text = oui oui oui oui oui
+1	oui	oui	INT	INT	_	0	root	_	_	96.360001	96.739998	L2
+2	oui	oui	INT	INT	_	1	para	_	_	96.750000	97.389999	L2
+3	oui	oui	INT	INT	_	2	para	_	_	97.589996	97.690002	L2
+4	oui	oui	INT	INT	_	3	para	_	_	97.839996	97.889999	L2
+5	oui	oui	INT	INT	_	4	para	_	_	99.029999	99.349998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-38
+# text = bé bon
+1	bé	bé	INT	INT	_	0	root	_	_	100.050003	100.269997	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	100.760002	100.970001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-39
+# text = alors tu si tu veux tu peux parler
+1	alors	alors	ADV	ADV	_	3	periph	_	_	101.860001	102.050003	L2
+2	tu	tu	CLS	CLS	_	1	disflink	_	_	102.059998	102.190002	L2
+3	si	si	CSU	CSU	_	0	root	_	_	102.199997	102.320000	L2
+4	tu	tu	CLS	CLS	_	5	subj	_	_	102.330002	102.449997	L2
+5	veux	vouloir	VRB	VRB	_	3	dep	_	_	102.459999	102.599998	L2
+6	tu	tu	CLS	CLS	_	7	subj	_	_	102.610001	102.720001	L2
+7	peux	pouvoir	VRB	VRB	_	3	dep	_	_	102.769997	102.870003	L2
+8	parler	parler	VNF	VNF	_	7	dep	_	_	102.879997	103.500000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-40
+# text = je trouve
+1	je	je	CLS	CLS	_	2	subj	_	_	99.510002	99.839996	L3
+2	trouve	trouver	VRB	VRB	_	0	root	_	_	100.019997	100.309998	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-41
+# text = non non non non non non alors vous vous êtes né où ici à Bayonne
+1	non	non	INT	INT	_	11	dm	_	_	101.860001	102.059998	L3
+2	non	non	INT	INT	_	1	para	_	_	102.400002	102.809998	L3
+3	non	non	INT	INT	_	2	para	_	_	102.820000	103.110001	L3
+4	non	non	INT	INT	_	3	para	_	_	103.120003	103.489998	L3
+5	non	non	INT	INT	_	4	para	_	_	104.050003	104.120003	L3
+6	non	non	INT	INT	_	5	para	_	_	104.129997	104.180000	L3
+7	alors	alors	ADV	ADV	_	11	periph	_	_	104.230003	104.760002	L3
+8	vous	vous	CLS	CLS	_	11	subj	_	_	104.769997	105.820000	L3
+9	vous	vous	CLI	CLI	_	11	dep	_	_	107.349998	107.849998	L3
+10	êtes	être	VRB	VRB	_	11	aux	_	_	107.860001	108.029999	L3
+11	né	naître	VPP	VPP	_	0	root	_	_	108.040001	108.180000	L3
+12	où	où	PRQ	PRQ	_	11	dep	_	_	108.190002	108.430000	L3
+13	ici	ici	ADV	ADV	_	11	dep	_	_	108.540001	108.809998	L3
+14	à	à	PRE	PRE	_	11	dep	_	_	108.820000	108.839996	L3
+15	Bayonne	Bayonne	NOM	NOM	_	14	dep	_	_	108.889999	109.160004	L3
+
+# sent_id = cefc-crfp-PRI-BAY-2-42
+# text = je suis né à Bayonne en
+1	je	je	CLS	CLS	_	3	subj	_	_	110.070000	110.360001	L2
+2	suis	être	VRB	VRB	_	3	aux	_	_	110.370003	110.489998	L2
+3	né	naître	VPP	VPP	_	0	root	_	_	110.500000	110.599998	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	110.610001	110.660004	L2
+5	Bayonne	Bayonne	NOM	NOM	_	4	dep	_	_	110.669998	111.330002	L2
+6	en	en	PRE	PRE	_	3	dep	_	_	111.970001	112.070000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-43
+# text = dix-neuf cent vingt-cinq
+1	dix-neuf	dix-neuf	NUM	NUM	_	0	root	_	_	112.080002	112.370003	L2
+2	cent	cent	NUM	NUM	_	1	dep	_	_	112.379997	112.599998	L2
+3	vingt-cinq	vingt-cinq	NUM	NUM	_	2	dep	_	_	112.610001	113.279999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-44
+# text = et pff je sais pas je suis parti
+1	et	et	COO	COO	_	4	mark	_	_	114.629997	115.820000	L2
+2	pff	pff	INT	INT	_	1	dm	_	_	116.529999	116.589996	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	116.790001	116.809998	L2
+4	sais	savoir	VRB	VRB	_	0	root	_	_	116.860001	116.910004	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	116.919998	117.190002	L2
+6	je	je	CLS	CLS	_	8	subj	_	_	117.580002	117.800003	L2
+7	suis	être	VRB	VRB	_	8	aux	_	_	117.809998	117.959999	L2
+8	parti	partir	VPP	VPP	_	4	para	_	_	117.970001	118.199997	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-45
+# text = j'avais trois mois à Pau
+1	j'	je	CLS	CLS	_	2	subj	_	_	118.209999	118.309998	L2
+2	avais	avoir	VRB	VRB	_	0	root	_	_	118.320000	118.449997	L2
+3	trois	trois	NUM	NUM	_	4	spe	_	_	118.459999	118.669998	L2
+4	mois	moi	NOM	NOM	_	2	dep	_	_	118.680000	119.160004	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	119.269997	119.370003	L2
+6	Pau	Pau	NOM	NOM	_	5	dep	_	_	119.440002	119.690002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-46
+# text = ma mère était couturière
+1	ma	son	DET	DET	_	2	spe	_	_	120.480003	120.589996	L2
+2	mère	mère	NOM	NOM	_	3	subj	_	_	120.599998	120.790001	L2
+3	était	être	VRB	VRB	_	0	root	_	_	120.800003	120.949997	L2
+4	couturière	couturier	ADJ	ADJ	_	3	dep	_	_	120.959999	121.470001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-47
+# text = elle avait commencé à dix-huit ans à se lancer dans la couture
+1	elle	il	CLS	CLS	_	3	subj	_	_	122.379997	122.500000	L2
+2	avait	avoir	VRB	VRB	_	3	aux	_	_	122.510002	122.930000	L2
+3	commencé	commencer	VPP	VPP	_	0	root	_	_	123.709999	124.510002	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	124.669998	124.750000	L2
+5	dix-huit	dix-huit	NUM	NUM	_	6	spe	_	_	124.870003	125.370003	L2
+6	ans	an	NOM	NOM	_	4	dep	_	_	125.379997	125.720001	L2
+7	à	à	PRE	PRE	_	4	para	_	_	126.779999	126.809998	L2
+8	se	se	CLI	CLI	_	9	dep	_	_	126.820000	127.010002	L2
+9	lancer	lancer	VNF	VNF	_	7	dep	_	_	127.019997	127.790001	L2
+10	dans	dans	PRE	PRE	_	9	dep	_	_	127.839996	127.970001	L2
+11	la	le	DET	DET	_	12	spe	_	_	127.980003	128.070007	L2
+12	couture	couture	NOM	NOM	_	10	dep	_	_	128.119995	128.589996	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-48
+# text = c'était l'époque où il y avait pas de comment dire de de charges sociales
+1	c'	ce	CLS	CLS	_	2	subj	_	_	129.089996	129.110001	L2
+2	était	être	VRB	VRB	_	0	root	_	_	129.119995	129.339996	L2
+3	l'	le	DET	DET	_	4	spe	_	_	129.350006	129.369995	L2
+4	époque	époque	NOM	NOM	_	2	dep	_	_	129.380005	129.559998	L2
+5	où	où	PRQ	PRQ	_	8	dep	_	_	129.570007	129.669998	L2
+6	il	il	CLS	CLS	_	8	subj	_	_	129.679993	129.839996	L2
+7	y	y	CLI	CLI	_	8	dep	_	_	129.850006	129.869995	L2
+8	avait	avoir	VRB	VRB	_	4	dep	_	_	129.880005	129.990005	L2
+9	pas	pas	ADN	ADN	_	8	dep	_	_	130.000000	130.149994	L2
+10	de	de	PRE	PRE	_	8	dep	_	_	130.160004	130.539993	L2
+11	comment	comment	PRQ	PRQ	_	12	dep	_	_	131.360001	131.570007	L2
+12	dire	dire	VNF	VNF	_	10	dep	_	_	131.580002	131.789993	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	132.720001	133.699997	L2
+14	de	de	PRE	PRE	_	13	para	_	_	133.800003	133.929993	L2
+15	charges	charge	NOM	NOM	_	14	dep	_	_	133.940002	134.320007	L2
+16	sociales	social	ADJ	ADJ	_	15	dep	_	_	134.330002	135.000000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-49
+# text = elles ont es apparu en dix-neuf cent vingt-sept deux ans après
+1	elles	il	CLS	CLS	_	4	subj	_	_	135.509995	135.770004	L2
+2	ont	avoir	VRB	VRB	_	4	aux	_	_	135.779999	135.919998	L2
+3	es	être	VRB	VRB	_	4	aux	_	_	135.919998	135.919998	L2
+4	apparu	apparaître	VPP	VPP	_	0	root	_	_	135.929993	136.279999	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	136.289993	136.339996	L2
+6	dix-neuf	dix-neuf	NUM	NUM	_	10	spe	_	_	136.350006	136.630005	L2
+7	cent	cent	NUM	NUM	_	6	dep	_	_	136.639999	136.820007	L2
+8	vingt-sept	vingt-sept	NUM	NUM	_	7	dep	_	_	136.830002	137.240005	L2
+9	deux	deux	NUM	NUM	_	10	spe	_	_	137.720001	137.899994	L2
+10	ans	an	NOM	NOM	_	5	dep	_	_	137.910004	138.080002	L2
+11	après	après	PRE	PRE	_	10	dep	_	_	138.089996	138.380005	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-50
+# text = alors elle est passée de quinze ouvrières à deux parce que elle pouvait plus les les payer
+1	alors	alors	ADV	ADV	_	4	periph	_	_	139.259995	139.419998	L2
+2	elle	il	CLS	CLS	_	4	subj	_	_	139.429993	139.580002	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	139.589996	139.619995	L2
+4	passée	passer	VPP	VPP	_	0	root	_	_	139.630005	139.929993	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	139.940002	140.059998	L2
+6	quinze	quinze	NUM	NUM	_	7	spe	_	_	140.070007	140.330002	L2
+7	ouvrières	ouvrière	NOM	NOM	_	5	dep	_	_	140.339996	140.740005	L2
+8	à	à	PRE	PRE	_	4	dep	_	_	140.750000	140.869995	L2
+9	deux	deux	NUM	NUM	_	8	dep	_	_	140.880005	141.119995	L2
+10	parce que	parce que	CSU	CSU	_	4	dep	_	_	141.130005	141.369995	L2
+11	elle	il	CLS	CLS	_	12	subj	_	_	141.380005	141.619995	L2
+12	pouvait	pouvoir	VRB	VRB	_	10	dep	_	_	142.080002	142.199997	L2
+13	plus	plus	ADN	ADN	_	12	dep	_	_	142.210007	142.500000	L2
+14	les	le	DET	DET	_	16	dep	_	_	142.509995	142.820007	L2
+15	les	le	CLI	CLI	_	16	dep	_	_	142.830002	142.990005	L2
+16	payer	payer	VNF	VNF	_	12	dep	_	_	143.000000	143.419998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-51
+# text = alors mon frère aîné qui avait quatre ans de plus que moi était très gâté parce qu'il passait de de fille en fille
+1	alors	alors	ADV	ADV	_	6	periph	_	_	144.639999	144.990005	L2
+2	mon	son	DET	DET	_	3	spe	_	_	145.000000	145.529999	L2
+3	frère	frère	NOM	NOM	_	6	periph	_	_	145.539993	145.940002	L2
+4	aîné	aîné	ADJ	ADJ	_	3	dep	_	_	145.949997	146.179993	L2
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	146.190002	146.300003	L2
+6	avait	avoir	VRB	VRB	_	0	root	_	_	146.309998	146.429993	L2
+7	quatre	quatre	NUM	NUM	_	8	spe	_	_	146.440002	146.690002	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	146.699997	146.720001	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	146.729996	146.820007	L2
+10	plus	plus	NOM	NOM	_	9	dep	_	_	146.830002	146.949997	L2
+11	que	que	CSU	CSU	_	6	dep	_	_	147.009995	147.039993	L2
+12	moi	moi	PRO	PRO	_	13	subj	_	_	147.050003	147.250000	L2
+13	était	être	VRB	VRB	_	11	dep	_	_	147.259995	147.460007	L2
+14	très	très	ADV	ADV	_	15	dep	_	_	147.470001	147.649994	L2
+15	gâté	gâté	ADJ	ADJ	_	13	dep	_	_	147.660004	148.000000	L2
+16	parce qu'	parce que	CSU	CSU	_	13	dep	_	_	148.009995	148.190002	L2
+17	il	il	CLS	CLS	_	18	subj	_	_	148.199997	148.259995	L2
+18	passait	passer	VRB	VRB	_	16	dep	_	_	148.270004	148.589996	L2
+19	de	de	PRE	PRE	_	18	dep	_	_	148.600006	148.820007	L2
+20	de	de	PRE	PRE	_	19	para	_	_	149.250000	149.339996	L2
+21	fille	fille	NOM	NOM	_	20	dep	_	_	149.350006	149.649994	L2
+22	en	en	PRE	PRE	_	18	dep	_	_	149.660004	149.779999	L2
+23	fille	fille	NOM	NOM	_	22	dep	_	_	149.789993	150.190002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-52
+# text = vous comprenez tandis que moi j'ai été élevé de
+1	vous	vous	CLS	CLS	_	2	subj	_	_	150.199997	150.320007	L2
+2	comprenez	comprendre	VRB	VRB	_	0	root	_	_	150.330002	150.820007	L2
+3	tandis que	tandis que	CSU	CSU	_	2	dep	_	_	152.199997	152.639999	L2
+4	moi	moi	PRO	PRO	_	8	periph	_	_	152.649994	152.850006	L2
+5	j'	je	CLS	CLS	_	8	subj	_	_	152.860001	152.979996	L2
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	152.990005	153.149994	L2
+7	été	être	VPP	VPP	_	8	aux	_	_	153.160004	153.389999	L2
+8	élevé	élever	VPP	VPP	_	3	dep	_	_	153.399994	153.759995	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	153.770004	154.270004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-53
+# text = bon il a servi de brouillon pour moi
+1	bon	bon	INT	INT	_	4	dm	_	_	154.320007	154.789993	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	154.800003	155.000000	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	155.009995	155.050003	L2
+4	servi	servir	VPP	VPP	_	0	root	_	_	155.059998	155.320007	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	155.330002	155.410004	L2
+6	brouillon	brouillon	NOM	NOM	_	5	dep	_	_	155.419998	155.880005	L2
+7	pour	pour	PRE	PRE	_	4	dep	_	_	155.929993	156.139999	L2
+8	moi	moi	PRO	PRO	_	7	dep	_	_	156.149994	156.360001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-54
+# text = or j'étais apparemment mieux réussi que que lui on est parti à Pau où mon père euh qui était un un prolétaire comme son père son père
+1	or	or	COO	COO	_	3	mark	_	_	157.059998	157.160004	L2
+2	j'	je	CLS	CLS	_	3	subj	_	_	157.169998	157.240005	L2
+3	étais	être	VRB	VRB	_	0	root	_	_	157.250000	157.570007	L2
+4	apparemment	apparemment	ADV	ADV	_	6	dep	_	_	157.580002	158.300003	L2
+5	mieux	mieux	ADV	ADV	_	6	dep	_	_	158.309998	158.479996	L2
+6	réussi	réussir	VPP	VPP	_	3	dep	_	_	158.490005	159.070007	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	159.080002	159.539993	L2
+8	que	que	CSU	CSU	_	7	para	_	_	159.580002	159.639999	L2
+9	lui	moi	PRO	PRO	_	12	periph	_	_	159.649994	159.940002	L2
+10	on	on	CLS	CLS	_	12	subj	_	_	160.449997	160.509995	L2
+11	est	être	VRB	VRB	_	12	aux	_	_	160.520004	160.580002	L2
+12	parti	partir	VPP	VPP	_	8	dep	_	_	160.589996	160.919998	L2
+13	à	à	PRE	PRE	_	12	dep	_	_	160.929993	160.970001	L2
+14	Pau	Pau	NOM	NOM	_	13	dep	_	_	161.059998	161.339996	L2
+15	où	où	PRQ	PRQ	_	20	dep	_	_	161.880005	161.929993	L2
+16	mon	son	DET	DET	_	17	spe	_	_	161.940002	162.229996	L2
+17	père	père	NOM	NOM	_	20	periph	_	_	162.240005	162.869995	L2
+18	euh	euh	INT	INT	_	17	dm	_	_	162.880005	162.899994	L2
+19	qui	qui	PRQ	PRQ	_	20	subj	_	_	164.429993	164.520004	L2
+20	était	être	VRB	VRB	_	8	dep	_	_	164.529999	164.970001	L2
+21	un	un	DET	DET	_	23	spe	_	_	165.029999	165.750000	L2
+22	un	un	DET	DET	_	21	para	_	_	166.089996	166.210007	L2
+23	prolétaire	prolétaire	NOM	NOM	_	20	dep	_	_	166.220001	166.789993	L2
+24	comme	comme	PRE	PRE	_	23	dep	_	_	166.800003	166.940002	L2
+25	son	son	DET	DET	_	26	spe	_	_	166.949997	167.190002	L2
+26	père	père	NOM	NOM	_	24	dep	_	_	167.199997	167.449997	L2
+27	son	son	DET	DET	_	28	spe	_	_	167.460007	167.669998	L2
+28	père	père	NOM	NOM	_	23	para	_	_	167.679993	167.869995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-55
+# text = était cheminot le mon le mien était ajusteur ferronnier
+1	était	être	VRB	VRB	_	0	root	_	_	167.880005	168.070007	L2
+2	cheminot	cheminot	NOM	NOM	_	1	dep	_	_	168.080002	168.759995	L2
+3	le	le	DET	DET	_	5	spe	_	_	168.770004	168.869995	L2
+4	mon	son	DET	DET	_	3	para	_	_	168.880005	169.259995	L2
+5	le mien	le mien	NOM	NOM	_	6	subj	_	_	169.270004	169.699997	L2
+6	était	être	VRB	VRB	_	1	para	_	_	169.710007	170.289993	L2
+7	ajusteur	ajusteur	NOM	NOM	_	6	dep	_	_	170.869995	171.679993	L2
+8	ferronnier	ferronnier	NOM	NOM	_	7	dep	_	_	171.759995	172.419998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-56
+# text = et puis
+1	et puis	et puis	COO	COO	_	0	root	_	_	173.750000	174.110001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-57
+# text = pendant la guerre
+1	pendant	pendant	PRE	PRE	_	0	root	_	_	174.119995	174.369995	L2
+2	la	le	DET	DET	_	3	spe	_	_	174.380005	174.500000	L2
+3	guerre	guerre	NOM	NOM	_	1	dep	_	_	174.509995	174.869995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-58
+# text = comme il était sur des skis là vous savez euh skieur alpin mais tout
+1	comme	comme	CSU	CSU	_	0	root	_	_	176.460007	176.669998	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	176.679993	176.750000	L2
+3	était	être	VRB	VRB	_	1	dep	_	_	176.759995	177.199997	L2
+4	sur	sur	PRE	PRE	_	3	dep	_	_	177.210007	177.479996	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	177.490005	177.580002	L2
+6	skis	ski	NOM	NOM	_	5	dep	_	_	177.589996	177.919998	L2
+7	là	là	ADV	ADV	_	3	dep	_	_	177.929993	178.029999	L2
+8	vous	vous	CLS	CLS	_	9	subj	_	_	178.039993	178.100006	L2
+9	savez	savoir	VRB	VRB	_	7	dm	_	_	178.110001	178.419998	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	179.139999	179.740005	L2
+11	skieur	skieur	NOM	NOM	_	3	dep	_	_	180.460007	180.830002	L2
+12	alpin	alpin	ADJ	ADJ	_	11	dep	_	_	180.839996	181.309998	L2
+13	mais	mais	COO	COO	_	14	mark	_	_	182.149994	182.300003	L2
+14	tout	tout	ADV	ADV	_	11	para	_	_	182.369995	182.539993	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-59
+# text = petit
+1	petit	petit	ADJ	ADJ	_	0	root	_	_	182.550003	183.009995	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-60
+# text = ah un mètre cinquante il devait faire de grandes enjambées pour suivre les autres
+1	ah	ah	INT	INT	_	6	dm	_	_	182.179993	182.250000	L2
+2	un	un	DET	DET	_	3	spe	_	_	183.169998	183.190002	L2
+3	mètre	mètre	NOM	NOM	_	6	periph	_	_	183.199997	183.360001	L2
+4	cinquante	cinquante	NUM	NUM	_	3	dep	_	_	183.369995	183.910004	L2
+5	il	il	CLS	CLS	_	6	subj	_	_	184.009995	184.080002	L2
+6	devait	devoir	VRB	VRB	_	0	root	_	_	184.089996	184.360001	L2
+7	faire	faire	VNF	VNF	_	6	dep	_	_	184.369995	184.559998	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	184.570007	184.660004	L2
+9	grandes	grand	ADJ	ADJ	_	10	dep	_	_	184.669998	185.000000	L2
+10	enjambées	enjambée	NOM	NOM	_	8	dep	_	_	185.009995	185.440002	L2
+11	pour	pour	PRE	PRE	_	7	dep	_	_	185.449997	185.639999	L2
+12	suivre	suivre	VNF	VNF	_	11	dep	_	_	185.649994	185.910004	L2
+13	les	le	DET	DET	_	14	spe	_	_	185.919998	186.070007	L2
+14	autres	autres	NOM	NOM	_	12	dep	_	_	186.080002	186.270004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-61
+# text = il est passé dans les P T T parce qu'il il y avait toutes les lignes téléphoniques qui étaient ravagées dans dans l'est
+1	il	il	CLS	CLS	_	3	subj	_	_	187.169998	187.259995	L2
+2	est	être	VRB	VRB	_	3	aux	_	_	187.270004	187.320007	L2
+3	passé	passer	VPP	VPP	_	0	root	_	_	187.330002	187.679993	L2
+4	dans	dans	PRE	PRE	_	3	dep	_	_	187.690002	187.789993	L2
+5	les	le	DET	DET	_	6	spe	_	_	187.800003	187.919998	L2
+6	P	P	NOM	NOM	_	4	dep	_	_	187.929993	188.080002	L2
+7	T	T	NOM	NOM	_	6	dep	_	_	188.089996	188.250000	L2
+8	T	T	NOM	NOM	_	7	dep	_	_	188.259995	188.389999	L2
+9	parce qu'	parce que	CSU	CSU	_	3	dep	_	_	188.399994	188.600006	L2
+10	il	il	CLS	CLS	_	13	subj	_	_	188.610001	188.690002	L2
+11	il	il	CLS	CLS	_	10	para	_	_	188.889999	188.940002	L2
+12	y	y	CLI	CLI	_	13	dep	_	_	188.949997	188.979996	L2
+13	avait	avoir	VRB	VRB	_	9	dep	_	_	188.990005	189.080002	L2
+14	toutes	tout	ADJ	ADJ	_	16	dep	_	_	189.089996	189.449997	L2
+15	les	le	DET	DET	_	16	spe	_	_	189.460007	189.589996	L2
+16	lignes	ligne	NOM	NOM	_	13	dep	_	_	189.600006	189.869995	L2
+17	téléphoniques	téléphonique	ADJ	ADJ	_	16	dep	_	_	189.880005	190.550003	L2
+18	qui	qui	PRQ	PRQ	_	20	dep	_	_	190.559998	190.660004	L2
+19	étaient	être	VRB	VRB	_	20	aux	_	_	190.669998	191.240005	L2
+20	ravagées	ravager	VPP	VPP	_	16	dep	_	_	191.639999	192.309998	L2
+21	dans	dans	PRE	PRE	_	20	dep	_	_	192.320007	192.619995	L2
+22	dans	dans	PRE	PRE	_	21	para	_	_	192.740005	192.919998	L2
+23	l'	le	DET	DET	_	24	spe	_	_	192.929993	192.960007	L2
+24	est	est	NOM	NOM	_	22	dep	_	_	192.970001	193.300003	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-62
+# text = alors le travail c'était installer les lignes téléphoniques installer les serrureries rebâtir les maisons
+1	alors	alors	ADV	ADV	_	5	periph	_	_	194.300003	194.429993	L2
+2	le	le	DET	DET	_	3	spe	_	_	194.440002	194.589996	L2
+3	travail	travail	NOM	NOM	_	5	periph	_	_	194.600006	195.039993	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	195.050003	195.070007	L2
+5	était	être	VRB	VRB	_	0	root	_	_	195.080002	195.529999	L2
+6	installer	installer	VNF	VNF	_	5	dep	_	_	195.539993	196.020004	L2
+7	les	le	DET	DET	_	8	spe	_	_	196.029999	196.089996	L2
+8	lignes	ligne	NOM	NOM	_	6	dep	_	_	196.100006	196.309998	L2
+9	téléphoniques	téléphonique	ADJ	ADJ	_	8	dep	_	_	196.320007	197.100006	L2
+10	installer	installer	VNF	VNF	_	6	para	_	_	197.679993	198.179993	L2
+11	les	le	DET	DET	_	12	spe	_	_	198.190002	198.250000	L2
+12	serrureries	serrurerie	NOM	NOM	_	10	dep	_	_	198.259995	199.020004	L2
+13	rebâtir	rebâtir	VNF	VNF	_	10	dep	_	_	199.029999	199.580002	L2
+14	les	le	DET	DET	_	15	spe	_	_	199.589996	199.639999	L2
+15	maisons	maison	NOM	NOM	_	13	dep	_	_	199.649994	200.089996	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-63
+# text = alors il a grimpé il a les échelons
+1	alors	alors	ADV	ADV	_	4	periph	_	_	200.789993	201.100006	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	201.110001	201.259995	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	201.270004	201.309998	L2
+4	grimpé	grimper	VPP	VPP	_	0	root	_	_	201.320007	201.649994	L2
+5	il	il	CLS	CLS	_	6	subj	_	_	201.660004	202.050003	L2
+6	a	avoir	VRB	VRB	_	4	dep	_	_	202.059998	202.309998	L2
+7	les	le	DET	DET	_	8	spe	_	_	203.279999	203.529999	L2
+8	échelons	échelon	NOM	NOM	_	6	dep	_	_	203.539993	204.190002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-64
+# text = et quand il a été nommé chef de service il est mort en mille neuf cent trente du diabète
+1	et	et	COO	COO	_	12	mark	_	_	204.720001	204.830002	L2
+2	quand	quand	CSU	CSU	_	12	periph	_	_	204.839996	205.100006	L2
+3	il	il	CLS	CLS	_	6	subj	_	_	205.110001	205.179993	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	205.190002	205.220001	L2
+5	été	être	VPP	VPP	_	6	aux	_	_	205.229996	205.619995	L2
+6	nommé	nommer	VPP	VPP	_	2	dep	_	_	205.630005	205.940002	L2
+7	chef	chef	NOM	NOM	_	6	dep	_	_	205.949997	206.309998	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	206.320007	206.339996	L2
+9	service	service	NOM	NOM	_	8	dep	_	_	206.350006	206.979996	L2
+10	il	il	CLS	CLS	_	12	subj	_	_	207.130005	207.229996	L2
+11	est	être	VRB	VRB	_	12	aux	_	_	207.240005	207.279999	L2
+12	mort	mourir	VPP	VPP	_	0	root	_	_	207.289993	207.679993	L2
+13	en	en	PRE	PRE	_	12	dep	_	_	208.119995	208.199997	L2
+14	mille	mille	NUM	NUM	_	13	dep	_	_	208.210007	208.350006	L2
+15	neuf	neuf	NUM	NUM	_	14	dep	_	_	208.360001	208.460007	L2
+16	cent	cent	NUM	NUM	_	15	dep	_	_	208.470001	208.649994	L2
+17	trente	trente	NUM	NUM	_	16	dep	_	_	208.660004	209.070007	L2
+18	du	de+le	PRE	PRE	_	12	dep	_	_	209.080002	209.240005	L2
+19	diabète	diabète	NOM	NOM	_	18	dep	_	_	209.250000	209.639999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-65
+# text = parce qu'il avait un des ancêtres qui avaient du diabète
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	210.470001	211.070007	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	211.380005	211.550003	L2
+3	avait	avoir	VRB	VRB	_	1	dep	_	_	211.559998	211.809998	L2
+4	un	un	PRO	PRO	_	3	dep	_	_	211.820007	212.070007	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	213.000000	213.210007	L2
+6	ancêtres	ancêtre	NOM	NOM	_	5	dep	_	_	213.220001	213.610001	L2
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	213.619995	213.729996	L2
+8	avaient	avoir	VRB	VRB	_	4	dep	_	_	213.740005	213.869995	L2
+9	du	de+le	PRE	PRE	_	8	dep	_	_	214.050003	214.179993	L2
+10	diabète	diabète	NOM	NOM	_	9	dep	_	_	214.190002	214.490005	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-66
+# text = il a refilé ça mon frère
+1	il	il	CLS	CLS	_	3	subj	_	_	215.690002	215.800003	L2
+2	a	avoir	VRB	VRB	_	3	aux	_	_	215.809998	215.869995	L2
+3	refilé	refiler	VPP	VPP	_	0	root	_	_	215.940002	216.229996	L2
+4	ça	ça	PRO	PRO	_	3	dep	_	_	216.240005	216.509995	L2
+5	mon	son	DET	DET	_	6	spe	_	_	216.520004	216.679993	L2
+6	frère	frère	NOM	NOM	_	3	periph	_	_	216.690002	217.110001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-67
+# text = qui au retour de sa déportation en Allemagne est revenu diabétique
+1	qui	qui	PRQ	PRQ	_	10	subj	_	_	218.509995	218.630005	L2
+2	au	à+le	PRE	PRE	_	10	periph	_	_	218.639999	218.889999	L2
+3	retour	retour	NOM	NOM	_	2	dep	_	_	218.899994	219.059998	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	219.070007	219.110001	L2
+5	sa	son	DET	DET	_	6	spe	_	_	219.119995	219.220001	L2
+6	déportation	déportation	NOM	NOM	_	4	dep	_	_	219.229996	220.009995	L2
+7	en	en	PRE	PRE	_	10	periph	_	_	220.020004	220.039993	L2
+8	Allemagne	Allemagne	NOM	NOM	_	7	dep	_	_	220.050003	220.570007	L2
+9	est	être	VRB	VRB	_	10	aux	_	_	220.669998	220.740005	L2
+10	revenu	revenir	VPP	VPP	_	0	root	_	_	220.750000	221.289993	L2
+11	diabétique	diabétique	CSU	CSU	_	10	dep	_	_	222.720001	223.429993	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-68
+# text = et moi génétiquement j'ai échappé à cette fatalité
+1	et	et	COO	COO	_	6	mark	_	_	223.979996	224.110001	L2
+2	moi	moi	PRO	PRO	_	6	periph	_	_	224.119995	224.580002	L2
+3	génétiquement	génétiquement	ADV	ADV	_	6	periph	_	_	224.830002	225.660004	L2
+4	j'	je	CLS	CLS	_	6	subj	_	_	225.669998	225.809998	L2
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	225.820007	225.910004	L2
+6	échappé	échapper	VPP	VPP	_	0	root	_	_	225.919998	226.419998	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	226.429993	226.570007	L2
+8	cette	ce	DET	DET	_	9	spe	_	_	226.580002	226.860001	L2
+9	fatalité	fatalité	NOM	NOM	_	7	dep	_	_	226.869995	227.669998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-69
+# text = or mon frère continuait dans les P T T
+1	or	or	COO	COO	_	4	mark	_	_	230.330002	230.570007	L2
+2	mon	son	DET	DET	_	3	spe	_	_	230.580002	230.720001	L2
+3	frère	frère	NOM	NOM	_	4	subj	_	_	230.800003	231.279999	L2
+4	continuait	continuer	VRB	VRB	_	0	root	_	_	231.770004	232.660004	L2
+5	dans	dans	PRE	PRE	_	4	dep	_	_	233.800003	234.009995	L2
+6	les	le	DET	DET	_	7	spe	_	_	234.020004	234.119995	L2
+7	P	P	NOM	NOM	_	5	dep	_	_	234.179993	234.300003	L2
+8	T	T	NOM	NOM	_	7	dep	_	_	234.309998	234.490005	L2
+9	T	T	NOM	NOM	_	8	dep	_	_	234.500000	234.720001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-70
+# text = c'est-à-dire il est devenu euh télégraphiste à bicyclette
+1	c'	ce	CLS	CLS	_	2	subj	_	_	234.729996	234.850006	L2
+2	est-à-dire	est-à-dire	VRB	VRB	_	0	root	_	_	234.889999	235.039993	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	235.050003	235.100006	L2
+4	est	être	VRB	VRB	_	5	aux	_	_	235.110001	235.360001	L2
+5	devenu	devenir	VPP	VPP	_	2	para	_	_	235.369995	236.250000	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	236.259995	236.389999	L2
+7	télégraphiste	télégraphiste	NOM	NOM	_	5	dep	_	_	237.440002	238.389999	L2
+8	à	à	PRE	PRE	_	5	dep	_	_	239.389999	239.429993	L2
+9	bicyclette	bicyclette	NOM	NOM	_	8	dep	_	_	239.440002	240.050003	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-71
+# text = il portait les télégrammes
+1	il	il	CLS	CLS	_	2	subj	_	_	240.059998	240.110001	L2
+2	portait	porter	VRB	VRB	_	0	root	_	_	240.119995	240.389999	L2
+3	les	le	DET	DET	_	4	spe	_	_	240.399994	240.589996	L2
+4	télégrammes	télégramme	NOM	NOM	_	2	dep	_	_	240.600006	241.080002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-72
+# text = c'était pas l'époque encore du fax hein
+1	c'	ce	CLS	CLS	_	2	subj	_	_	241.479996	241.639999	L2
+2	était	être	VRB	VRB	_	0	root	_	_	241.649994	241.750000	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	241.759995	241.860001	L2
+4	l'	le	DET	DET	_	5	spe	_	_	241.869995	241.910004	L2
+5	époque	époque	NOM	NOM	_	2	dep	_	_	241.919998	242.289993	L2
+6	encore	encore	ADV	ADV	_	2	dep	_	_	242.300003	242.639999	L2
+7	du	de+le	PRE	PRE	_	2	dep	_	_	242.649994	242.720001	L2
+8	fax	fax	NOM	NOM	_	7	dep	_	_	242.729996	243.059998	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	243.100006	243.119995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-73
+# text = moi pendant les vacances je gagnais ma vie comme télégraphiste euh de dix à quinze ans
+1	moi	moi	PRO	PRO	_	6	periph	_	_	244.460007	244.699997	L2
+2	pendant	pendant	PRE	PRE	_	6	periph	_	_	244.740005	245.270004	L2
+3	les	le	DET	DET	_	4	spe	_	_	245.279999	245.449997	L2
+4	vacances	vacance	NOM	NOM	_	2	dep	_	_	245.460007	245.910004	L2
+5	je	je	CLS	CLS	_	6	subj	_	_	245.919998	246.089996	L2
+6	gagnais	gagner	VRB	VRB	_	0	root	_	_	246.100006	246.419998	L2
+7	ma	son	DET	DET	_	8	spe	_	_	246.429993	246.550003	L2
+8	vie	vie	NOM	NOM	_	6	dep	_	_	246.559998	246.729996	L2
+9	comme	comme	PRE	PRE	_	8	dep	_	_	246.740005	246.889999	L2
+10	télégraphiste	télégraphiste	NOM	NOM	_	9	dep	_	_	246.899994	247.759995	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	247.770004	247.830002	L2
+12	de	de	PRE	PRE	_	10	dep	_	_	247.839996	248.289993	L2
+13	dix	dix	NUM	NUM	_	12	dep	_	_	248.300003	248.520004	L2
+14	à	à	PRE	PRE	_	6	dep	_	_	248.529999	248.619995	L2
+15	quinze	quinze	NUM	NUM	_	16	spe	_	_	248.630005	248.990005	L2
+16	ans	an	NOM	NOM	_	14	dep	_	_	249.000000	249.259995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-74
+# text = après avoir gardé les vaches chez mes chez mes oncles paysans
+1	après	après	PRE	PRE	_	3	dep	_	_	250.179993	250.369995	L2
+2	avoir	avoir	VNF	VNF	_	3	aux	_	_	250.380005	250.610001	L2
+3	gardé	garder	VPP	VPP	_	0	root	_	_	250.619995	250.779999	L2
+4	les	le	DET	DET	_	5	spe	_	_	250.789993	250.949997	L2
+5	vaches	vache	NOM	NOM	_	3	dep	_	_	250.960007	251.240005	L2
+6	chez	chez	PRE	PRE	_	5	dep	_	_	251.289993	251.500000	L2
+7	mes	son	DET	DET	_	6	disflink	_	_	251.509995	252.100006	L2
+8	chez	chez	PRE	PRE	_	6	para	_	_	252.289993	252.419998	L2
+9	mes	son	DET	DET	_	10	spe	_	_	252.429993	252.720001	L2
+10	oncles	oncle	NOM	NOM	_	8	dep	_	_	252.729996	253.339996	L2
+11	paysans	paysan	ADJ	ADJ	_	10	dep	_	_	253.350006	254.009995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-75
+# text = lui il est devenu facteur
+1	lui	moi	PRO	PRO	_	4	periph	_	_	255.520004	255.919998	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	255.929993	255.949997	L2
+3	est	être	VRB	VRB	_	4	aux	_	_	255.960007	255.979996	L2
+4	devenu	devenir	VPP	VPP	_	0	root	_	_	255.990005	256.480011	L2
+5	facteur	facteur	NOM	NOM	_	4	dep	_	_	256.489990	257.209991	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-76
+# text = et alors ce qui est curieux c'est qu'il était très paresseux
+1	et	et	COO	COO	_	8	mark	_	_	257.809998	257.859985	L2
+2	alors	alors	ADV	ADV	_	8	periph	_	_	257.869995	258.209991	L2
+3	ce	ce	PRO	PRO	_	8	periph	_	_	258.220001	258.399994	L2
+4	qui	qui	PRQ	PRQ	_	5	subj	_	_	258.410004	258.500000	L2
+5	est	être	VRB	VRB	_	3	dep	_	_	258.510010	258.670013	L2
+6	curieux	curieux	ADJ	ADJ	_	5	dep	_	_	258.679993	259.029999	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	259.040009	259.070007	L2
+8	est	être	VRB	VRB	_	0	root	_	_	259.079987	259.100006	L2
+9	qu'	que	CSU	CSU	_	8	dep	_	_	259.109985	259.170013	L2
+10	il	il	CLS	CLS	_	11	subj	_	_	259.179993	259.309998	L2
+11	était	être	VRB	VRB	_	9	dep	_	_	259.320007	259.529999	L2
+12	très	très	ADV	ADV	_	13	dep	_	_	259.540009	259.730011	L2
+13	paresseux	paresseux	ADJ	ADJ	_	11	dep	_	_	259.809998	260.410004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-77
+# text = et c'est moi qui avait quatre ans de moins qui l'ai fait travailler
+1	et	et	COO	COO	_	3	mark	_	_	260.630005	260.649994	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	260.660004	260.730011	L2
+3	est	être	VRB	VRB	_	0	root	_	_	260.739990	260.769989	L2
+4	moi	moi	PRO	PRO	_	3	dep	_	_	260.779999	261.160004	L2
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	261.239990	261.339996	L2
+6	avait	avoir	VRB	VRB	_	4	dep	_	_	261.350006	261.549988	L2
+7	quatre	quatre	NUM	NUM	_	8	spe	_	_	261.690002	261.890015	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	261.899994	262.040009	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	262.049988	262.070007	L2
+10	moins	moins	ADV	ADV	_	9	dep	_	_	262.079987	262.230011	L2
+11	qui	qui	PRQ	PRQ	_	14	subj	_	_	262.239990	262.359985	L2
+12	l'	le	CLI	CLI	_	14	dep	_	_	262.369995	262.390015	L2
+13	ai	avoir	VRB	VRB	_	14	aux	_	_	262.399994	262.440002	L2
+14	fait	faire	VPP	VPP	_	8	dep	_	_	262.450012	262.640015	L2
+15	travailler	travailler	VNF	VNF	_	14	dep	_	_	262.649994	263.170013	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-78
+# text = je l'ai fait recevoir à l'examen des commis des P T T puis d'inspecteur des P T T toujours premier
+1	je	je	CLS	CLS	_	4	subj	_	_	263.989990	264.250000	L2
+2	l'	le	CLI	CLI	_	4	dep	_	_	264.260010	264.279999	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	264.290009	264.309998	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	264.320007	264.410004	L2
+5	recevoir	recevoir	VNF	VNF	_	4	dep	_	_	264.420013	265.160004	L2
+6	à	à	PRE	PRE	_	5	dep	_	_	266.250000	266.290009	L2
+7	l'	le	DET	DET	_	8	spe	_	_	266.299988	266.359985	L2
+8	examen	examen	NOM	NOM	_	6	dep	_	_	266.369995	266.649994	L2
+9	des	de	PRE	PRE	_	8	dep	_	_	266.660004	266.850006	L2
+10	commis	commis	NOM	NOM	_	9	dep	_	_	266.859985	267.200012	L2
+11	des	de	PRE	PRE	_	9	para	_	_	267.209991	267.329987	L2
+12	P	P	NOM	NOM	_	11	dep	_	_	267.339996	267.459991	L2
+13	T	T	NOM	NOM	_	12	dep	_	_	267.470001	267.630005	L2
+14	T	T	NOM	NOM	_	13	dep	_	_	267.679993	267.809998	L2
+15	puis	puis	COO	COO	_	16	mark	_	_	267.859985	267.980011	L2
+16	d'	de	PRE	PRE	_	11	para	_	_	267.989990	268.049988	L2
+17	inspecteur	inspecteur	NOM	NOM	_	16	dep	_	_	268.059998	268.549988	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	268.559998	268.619995	L2
+19	P	P	NOM	NOM	_	18	dep	_	_	268.660004	268.779999	L2
+20	T	T	NOM	NOM	_	19	dep	_	_	268.839996	268.920013	L2
+21	T	T	NOM	NOM	_	20	dep	_	_	269.000000	269.140015	L2
+22	toujours	toujours	ADV	ADV	_	23	dep	_	_	270.000000	270.299988	L2
+23	premier	premier	ADJ	ADJ	_	19	dep	_	_	270.309998	270.690002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-79
+# text = mais comme j'étais plus jeune il avait de la difficulté à m'obéir parce que c'était moi qui lui faisais la la classe
+1	mais	mais	COO	COO	_	8	mark	_	_	271.540009	271.869995	L2
+2	comme	comme	CSU	CSU	_	8	periph	_	_	271.880005	272.160004	L2
+3	j'	je	CLS	CLS	_	4	subj	_	_	272.170013	272.250000	L2
+4	étais	être	VRB	VRB	_	2	dep	_	_	272.260010	272.549988	L2
+5	plus	plus	ADN	ADN	_	6	dep	_	_	272.649994	272.769989	L2
+6	jeune	jeune	ADJ	ADJ	_	4	dep	_	_	272.779999	273.190002	L2
+7	il	il	CLS	CLS	_	8	subj	_	_	274.589996	274.720001	L2
+8	avait	avoir	VRB	VRB	_	0	root	_	_	274.730011	274.950012	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	274.959991	275.070007	L2
+10	la	le	DET	DET	_	11	spe	_	_	275.079987	275.130005	L2
+11	difficulté	difficulté	NOM	NOM	_	9	dep	_	_	275.140015	275.769989	L2
+12	à	à	PRE	PRE	_	8	dep	_	_	275.779999	275.799988	L2
+13	m'	me	CLI	CLI	_	14	dep	_	_	275.809998	275.899994	L2
+14	obéir	obéir	VNF	VNF	_	12	dep	_	_	275.910004	276.329987	L2
+15	parce que	parce que	CSU	CSU	_	14	dep	_	_	276.369995	276.630005	L2
+16	c'	ce	CLS	CLS	_	17	subj	_	_	276.640015	276.730011	L2
+17	était	être	VRB	VRB	_	15	dep	_	_	276.739990	276.950012	L2
+18	moi	moi	PRO	PRO	_	17	dep	_	_	277.000000	277.089996	L2
+19	qui	qui	PRQ	PRQ	_	21	subj	_	_	277.170013	277.239990	L2
+20	lui	lui	CLI	CLI	_	21	dep	_	_	277.250000	277.380005	L2
+21	faisais	faire	VRB	VRB	_	18	dep	_	_	277.390015	277.720001	L2
+22	la	le	DET	DET	_	24	spe	_	_	277.730011	278.250000	L2
+23	la	le	DET	DET	_	22	para	_	_	278.600006	278.790009	L2
+24	classe	classe	NOM	NOM	_	21	dep	_	_	278.799988	279.200012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-80
+# text = oh puis je suis devenu euh instituteur euh après euh pff un concours d'entrée
+1	oh	oh	INT	INT	_	5	dm	_	_	280.089996	280.260010	L2
+2	puis	puis	COO	COO	_	5	mark	_	_	280.269989	280.600006	L2
+3	je	je	CLS	CLS	_	5	subj	_	_	280.609985	280.970001	L2
+4	suis	être	VRB	VRB	_	5	aux	_	_	280.980011	281.399994	L2
+5	devenu	devenir	VPP	VPP	_	0	root	_	_	281.450012	282.160004	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	282.459991	282.529999	L2
+7	instituteur	instituteur	NOM	NOM	_	5	dep	_	_	282.820007	283.850006	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	283.950012	284.619995	L2
+9	après	après	PRE	PRE	_	5	dep	_	_	284.760010	285.739990	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	285.750000	285.850006	L2
+11	pff	pff	INT	INT	_	10	dm	_	_	285.989990	286.170013	L2
+12	un	un	DET	DET	_	13	spe	_	_	286.649994	286.670013	L2
+13	concours	concours	NOM	NOM	_	5	dep	_	_	286.869995	287.230011	L2
+14	d'	de	PRE	PRE	_	13	dep	_	_	287.239990	287.309998	L2
+15	entrée	entrée	NOM	NOM	_	14	dep	_	_	287.320007	287.859985	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-81
+# text = et je sais pas si c'est pareil en Espagne les Ecoles Normales s d'instituteur non non
+1	et	et	COO	COO	_	3	mark	_	_	288.420013	288.459991	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	288.470001	288.670013	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	288.679993	288.730011	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	288.739990	288.920013	L2
+5	si	si	CSU	CSU	_	3	dep	_	_	288.929993	289.070007	L2
+6	c'	ce	CLS	CLS	_	7	subj	_	_	289.079987	289.100006	L2
+7	est	être	VRB	VRB	_	5	dep	_	_	289.109985	289.130005	L2
+8	pareil	pareil	ADJ	ADJ	_	7	dep	_	_	289.140015	289.480011	L2
+9	en	en	PRE	PRE	_	7	dep	_	_	289.489990	289.549988	L2
+10	Espagne	Espagne	NOM	NOM	_	9	dep	_	_	289.559998	289.950012	L2
+11	les	le	DET	DET	_	12	spe	_	_	289.959991	290.170013	L2
+12	Ecoles	Ecoles	NOM	NOM	_	10	para	_	_	290.179993	290.380005	L2
+13	Normales	normale	NOM	NOM	_	12	dep	_	_	290.390015	290.820007	L2
+14	s	s	NOM	NOM	_	13	dep	_	_	290.820007	290.820007	L2
+15	d'	de	PRE	PRE	_	14	dep	_	_	291.079987	291.109985	L2
+16	instituteur	instituteur	NOM	NOM	_	15	dep	_	_	291.119995	291.730011	L2
+17	non	non	INT	INT	_	16	dm	_	_	292.070007	292.440002	L2
+18	non	non	INT	INT	_	17	para	_	_	292.779999	292.970001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-82
+# text = ah bon et qu'
+1	ah bon	ah bon	INT	INT	_	3	dm	_	_	293.299988	293.720001	L2
+2	et	et	COO	COO	_	3	mark	_	_	294.089996	294.149994	L2
+3	qu'	que	CSU	CSU	_	0	root	_	_	294.160004	294.209991	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-83
+# text = est-ce que c'est alors
+1	est-ce	est-ce	NOM	NOM	_	0	root	_	_	294.220001	294.339996	L2
+2	que	que	CSU	CSU	_	1	dep	_	_	294.350006	294.420013	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	294.429993	294.559998	L2
+4	est	être	VRB	VRB	_	2	dep	_	_	294.570007	294.670013	L2
+5	alors	alors	ADV	ADV	_	4	dep	_	_	294.679993	294.850006	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-84
+# text = non non non
+1	non	non	INT	INT	_	0	root	_	_	289.070007	289.600006	L1
+2	non	non	INT	INT	_	1	para	_	_	289.790009	290.820007	L1
+3	non	non	INT	INT	_	2	para	_	_	293.450012	293.720001	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-85
+# text = il y a des études spécifiques des études de trois ans ou cinq ans
+1	il	il	CLS	CLS	_	3	subj	_	_	296.059998	296.209991	L1
+2	y	y	CLI	CLI	_	3	dep	_	_	296.220001	296.239990	L1
+3	a	avoir	VRB	VRB	_	0	root	_	_	296.250000	296.329987	L1
+4	des	de	PRE	PRE	_	3	dep	_	_	296.339996	296.540009	L1
+5	études	étude	NOM	NOM	_	4	dep	_	_	296.549988	297.170013	L1
+6	spécifiques	spécifique	ADJ	ADJ	_	5	dep	_	_	297.179993	297.929993	L1
+7	des	de	PRE	PRE	_	4	para	_	_	297.940002	298.079987	L1
+8	études	étude	NOM	NOM	_	7	dep	_	_	298.089996	298.529999	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	298.540009	298.570007	L1
+10	trois	trois	NUM	NUM	_	11	spe	_	_	298.579987	298.829987	L1
+11	ans	an	NOM	NOM	_	9	dep	_	_	298.839996	298.950012	L1
+12	ou	ou	COO	COO	_	14	mark	_	_	298.959991	299.010010	L1
+13	cinq	cinq	NUM	NUM	_	14	spe	_	_	299.019989	299.299988	L1
+14	ans	an	NOM	NOM	_	11	para	_	_	299.339996	299.369995	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-86
+# text = alors à ce moment-là euh ceux que l'on appelait les hussards de la troisième république c'étaient les gens qui entraient en religion
+1	alors	alors	ADV	ADV	_	18	periph	_	_	300.679993	300.890015	L2
+2	à	à	PRE	PRE	_	18	periph	_	_	300.899994	301.100006	L2
+3	ce	ce	DET	DET	_	4	spe	_	_	301.109985	301.130005	L2
+4	moment-là	moment-là	NOM	NOM	_	2	dep	_	_	301.140015	301.700012	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	301.790009	302.290009	L2
+6	ceux	celui	PRO	PRO	_	18	periph	_	_	302.299988	302.420013	L2
+7	que	que	CSU	CSU	_	6	dep	_	_	302.429993	302.450012	L2
+8	l'	le	DET	DET	_	10	dep	_	_	302.459991	302.500000	L2
+9	on	on	CLS	CLS	_	10	subj	_	_	302.510010	302.649994	L2
+10	appelait	appeler	VRB	VRB	_	7	dep	_	_	302.660004	302.980011	L2
+11	les	le	DET	DET	_	12	spe	_	_	302.989990	303.179993	L2
+12	hussards	hussard	NOM	NOM	_	10	dep	_	_	303.190002	303.700012	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	303.709991	303.760010	L2
+14	la	le	DET	DET	_	16	spe	_	_	303.769989	303.820007	L2
+15	troisième	troisième	ADJ	ADJ	_	16	dep	_	_	303.829987	304.230011	L2
+16	république	république	NOM	NOM	_	13	dep	_	_	304.239990	304.899994	L2
+17	c'	ce	CLS	CLS	_	18	subj	_	_	304.959991	305.040009	L2
+18	étaient	être	VRB	VRB	_	0	root	_	_	305.049988	305.200012	L2
+19	les	le	DET	DET	_	20	spe	_	_	305.209991	305.380005	L2
+20	gens	gens	NOM	NOM	_	18	dep	_	_	305.390015	305.769989	L2
+21	qui	qui	PRQ	PRQ	_	22	subj	_	_	305.779999	306.149994	L2
+22	entraient	entrer	VRB	VRB	_	20	dep	_	_	306.779999	307.130005	L2
+23	en	en	PRE	PRE	_	22	dep	_	_	307.140015	307.440002	L2
+24	religion	religion	NOM	NOM	_	23	dep	_	_	307.450012	307.839996	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-87
+# text = si je peux dire en religion laïque comme s instituteur
+1	si	si	CSU	CSU	_	0	root	_	_	307.850006	307.899994	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	307.910004	308.029999	L2
+3	peux	pouvoir	VRB	VRB	_	1	dep	_	_	308.040009	308.140015	L2
+4	dire	dire	VNF	VNF	_	3	dep	_	_	308.149994	308.329987	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	308.779999	308.799988	L2
+6	religion	religion	NOM	NOM	_	5	dep	_	_	308.809998	309.170013	L2
+7	laïque	laïc	ADJ	ADJ	_	6	dep	_	_	309.179993	309.489990	L2
+8	comme	comme	PRE	PRE	_	4	dep	_	_	310.190002	310.609985	L2
+9	s	s	X	X	_	8	dep	_	_	310.609985	310.609985	L2
+10	instituteur	instituteur	NOM	NOM	_	4	dep	_	_	310.619995	311.579987	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-88
+# text = et moi j'étais instituteur euh au moment de la guerre
+1	et	et	COO	COO	_	4	mark	_	_	312.420013	312.730011	L2
+2	moi	moi	PRO	PRO	_	4	periph	_	_	312.739990	312.929993	L2
+3	j'	je	CLS	CLS	_	4	subj	_	_	312.940002	313.019989	L2
+4	étais	être	VRB	VRB	_	0	root	_	_	313.029999	313.230011	L2
+5	instituteur	instituteur	NOM	NOM	_	4	dep	_	_	313.239990	314.540009	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	314.549988	314.570007	L2
+7	au	à+le	PRE	PRE	_	4	dep	_	_	314.670013	314.739990	L2
+8	moment	moment	NOM	NOM	_	7	dep	_	_	314.750000	315.029999	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	315.040009	315.059998	L2
+10	la	le	DET	DET	_	11	spe	_	_	315.070007	315.170013	L2
+11	guerre	guerre	NOM	NOM	_	9	dep	_	_	315.179993	315.450012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-89
+# text = et Pétain a supprimé les Ecoles Normales à ce moment-là
+1	et	et	COO	COO	_	4	mark	_	_	316.459991	316.600006	L2
+2	Pétain	Pétain	NOM	NOM	_	4	subj	_	_	316.609985	317.119995	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	317.130005	317.149994	L2
+4	supprimé	supprimer	VPP	VPP	_	0	root	_	_	317.160004	317.619995	L2
+5	les	le	DET	DET	_	6	spe	_	_	317.630005	317.869995	L2
+6	Ecoles	Ecoles	NOM	NOM	_	4	dep	_	_	317.880005	318.119995	L2
+7	Normales	normale	NOM	NOM	_	6	dep	_	_	318.130005	318.510010	L2
+8	à	à	PRE	PRE	_	4	dep	_	_	318.519989	318.579987	L2
+9	ce	ce	DET	DET	_	10	spe	_	_	318.589996	318.730011	L2
+10	moment-là	moment-là	NOM	NOM	_	8	dep	_	_	318.809998	319.049988	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-90
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	316.880005	317.170013	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	317.410004	317.790009	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-91
+# text = alors on m'a euh on m'a placé au lycée de Mont de Marsan
+1	alors	alors	ADV	ADV	_	4	periph	_	_	320.799988	321.350006	L2
+2	on	on	CLS	CLS	_	4	subj	_	_	321.359985	321.700012	L2
+3	m'	me	CLI	CLI	_	4	dep	_	_	321.709991	321.809998	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	321.820007	321.839996	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	321.850006	321.989990	L2
+6	on	on	CLS	CLS	_	9	subj	_	_	322.000000	322.019989	L2
+7	m'	me	CLI	CLI	_	9	dep	_	_	322.029999	322.709991	L2
+8	a	avoir	VRB	VRB	_	9	aux	_	_	323.230011	323.260010	L2
+9	placé	placer	VPP	VPP	_	4	para	_	_	323.350006	323.750000	L2
+10	au	à+le	PRE	PRE	_	9	dep	_	_	323.760010	323.779999	L2
+11	lycée	lycée	NOM	NOM	_	10	dep	_	_	323.790009	324.320007	L2
+12	de	de	PRE	PRE	_	11	dep	_	_	324.779999	324.899994	L2
+13	Mont	Mont	NOM	NOM	_	12	dep	_	_	324.910004	325.109985	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	325.119995	325.140015	L2
+15	Marsan	Marsan	NOM	NOM	_	14	dep	_	_	325.149994	325.540009	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-92
+# text = et à Mont de Marsan euh il y a eu l'invasion de la zone libre par les allemands
+1	et	et	COO	COO	_	10	mark	_	_	327.950012	327.989990	L2
+2	à	à	PRE	PRE	_	10	periph	_	_	328.000000	328.059998	L2
+3	Mont	Mont	NOM	NOM	_	2	dep	_	_	328.070007	328.230011	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	328.239990	328.299988	L2
+5	Marsan	Marsan	NOM	NOM	_	4	dep	_	_	328.309998	328.899994	L2
+6	euh	euh	INT	INT	_	2	dm	_	_	329.109985	329.799988	L2
+7	il	il	CLS	CLS	_	10	subj	_	_	330.239990	330.290009	L2
+8	y	y	CLI	CLI	_	10	dep	_	_	330.299988	330.320007	L2
+9	a	avoir	VRB	VRB	_	10	aux	_	_	330.329987	330.350006	L2
+10	eu	avoir	VPP	VPP	_	0	root	_	_	330.359985	330.459991	L2
+11	l'	le	DET	DET	_	12	spe	_	_	330.470001	330.510010	L2
+12	invasion	invasion	NOM	NOM	_	10	dep	_	_	330.519989	331.220001	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	331.230011	331.329987	L2
+14	la	le	DET	DET	_	15	spe	_	_	331.339996	331.440002	L2
+15	zone	zone	NOM	NOM	_	13	dep	_	_	331.450012	331.950012	L2
+16	libre	libre	ADJ	ADJ	_	15	dep	_	_	331.959991	332.339996	L2
+17	par	par	PRE	PRE	_	10	dep	_	_	332.410004	332.589996	L2
+18	les	le	DET	DET	_	19	spe	_	_	332.600006	332.769989	L2
+19	allemands	allemand	NOM	NOM	_	17	dep	_	_	332.779999	333.320007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-93
+# text = alors on m'a rattaché à ma maison mère qui était l'Ecole Normale de Lesca
+1	alors	alors	ADV	ADV	_	5	periph	_	_	333.679993	333.929993	L2
+2	on	on	CLS	CLS	_	5	subj	_	_	333.940002	334.040009	L2
+3	m'	me	CLI	CLI	_	5	dep	_	_	334.049988	334.089996	L2
+4	a	avoir	VRB	VRB	_	5	aux	_	_	334.100006	334.170013	L2
+5	rattaché	rattacher	VPP	VPP	_	0	root	_	_	334.269989	335.000000	L2
+6	à	à	PRE	PRE	_	5	dep	_	_	335.089996	335.190002	L2
+7	ma	son	DET	DET	_	8	spe	_	_	335.200012	335.540009	L2
+8	maison	maison	NOM	NOM	_	6	dep	_	_	335.549988	336.019989	L2
+9	mère	mère	NOM	NOM	_	8	dep	_	_	336.029999	336.359985	L2
+10	qui	qui	PRQ	PRQ	_	11	dep	_	_	336.369995	336.440002	L2
+11	était	être	VRB	VRB	_	8	dep	_	_	336.450012	336.600006	L2
+12	l'	le	DET	DET	_	13	spe	_	_	336.609985	336.649994	L2
+13	Ecole	Ecole	NOM	NOM	_	11	dep	_	_	336.660004	336.839996	L2
+14	Normale	normale	NOM	NOM	_	13	dep	_	_	336.850006	337.130005	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	337.140015	337.230011	L2
+16	Lesca	Lesca	NOM	NOM	_	15	dep	_	_	337.239990	337.640015	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-94
+# text = mais c'était le lycée de Louis Bartou là où était
+1	mais	mais	COO	COO	_	3	mark	_	_	337.929993	338.200012	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	338.209991	338.250000	L2
+3	était	être	VRB	VRB	_	0	root	_	_	338.260010	338.500000	L2
+4	le	le	DET	DET	_	5	spe	_	_	339.010010	339.149994	L2
+5	lycée	lycée	NOM	NOM	_	3	dep	_	_	339.160004	339.600006	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	339.609985	339.720001	L2
+7	Louis	Louis	NOM	NOM	_	6	dep	_	_	339.730011	339.880005	L2
+8	Bartou	Bartou	NOM	NOM	_	7	dep	_	_	339.890015	340.260010	L2
+9	là	là	ADV	ADV	_	8	dep	_	_	340.929993	340.989990	L2
+10	où	où	PRQ	PRQ	_	11	dep	_	_	341.000000	341.299988	L2
+11	était	être	VRB	VRB	_	8	dep	_	_	341.309998	341.489990	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-95
+# text = monsieur Bayrou le le ministre de l'Education Nationale
+1	monsieur	Monsieur	NOM	NOM	_	0	root	_	_	341.500000	341.809998	L2
+2	Bayrou	Bayrou	NOM	NOM	_	1	dep	_	_	341.820007	342.279999	L2
+3	le	le	DET	DET	_	5	spe	_	_	342.290009	342.779999	L2
+4	le	le	DET	DET	_	3	para	_	_	342.790009	342.809998	L2
+5	ministre	ministre	NOM	NOM	_	2	para	_	_	342.859985	343.230011	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	343.239990	343.279999	L2
+7	l'	le	DET	DET	_	8	spe	_	_	343.290009	343.309998	L2
+8	Education	Education	NOM	NOM	_	6	dep	_	_	343.320007	343.799988	L2
+9	Nationale	nationale	NOM	NOM	_	8	dep	_	_	343.809998	344.410004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-96
+# text = il y a quelques années comme prof comme jeune prof
+1	il	il	CLS	CLS	_	3	subj	_	_	344.420013	344.470001	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	344.480011	344.500000	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	344.510010	344.529999	L2
+4	quelques	quelque	ADJ	ADJ	_	5	spe	_	_	344.579987	344.929993	L2
+5	années	année	NOM	NOM	_	3	dep	_	_	344.940002	345.079987	L2
+6	comme	comme	PRE	PRE	_	3	dep	_	_	345.170013	345.410004	L2
+7	prof	prof	NOM	NOM	_	6	dep	_	_	345.470001	345.799988	L2
+8	comme	comme	PRE	PRE	_	3	dep	_	_	346.119995	346.329987	L2
+9	jeune	jeune	ADJ	ADJ	_	10	dep	_	_	346.339996	346.549988	L2
+10	prof	prof	NOM	NOM	_	8	dep	_	_	346.559998	346.779999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-97
+# text = puis de l'Ecole Normale
+1	puis	puis	COO	COO	_	2	mark	_	_	347.459991	347.570007	L2
+2	de	de	PRE	PRE	_	0	root	_	_	347.579987	347.700012	L2
+3	l'	le	DET	DET	_	4	spe	_	_	347.709991	347.769989	L2
+4	Ecole	Ecole	NOM	NOM	_	2	dep	_	_	347.779999	347.950012	L2
+5	Normale	normale	NOM	NOM	_	4	dep	_	_	347.959991	348.570007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-98
+# text = moi
+1	moi	moi	PRO	PRO	_	0	root	_	_	348.619995	348.769989	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-99
+# text = je
+1	je	je	CLS	CLS	_	0	root	_	_	348.779999	349.049988	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-100
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	341.899994	342.910004	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-101
+# text = fils de prolétaire je me disais ça instituteur c'est euh c'est le pied
+1	fils	fil	NOM	NOM	_	6	periph	_	_	350.140015	350.290009	L2
+2	de	de	PRE	PRE	_	1	dep	_	_	350.299988	350.480011	L2
+3	prolétaire	prolétaire	NOM	NOM	_	2	dep	_	_	350.489990	351.230011	L2
+4	je	je	CLS	CLS	_	6	subj	_	_	351.239990	351.329987	L2
+5	me	me	CLI	CLI	_	6	dep	_	_	351.339996	351.649994	L2
+6	disais	dire	VRB	VRB	_	0	root	_	_	351.660004	352.079987	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	352.089996	352.149994	L2
+8	instituteur	instituteur	NOM	NOM	_	6	dep	_	_	352.160004	352.589996	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	352.600006	352.769989	L2
+10	est	être	VRB	VRB	_	6	dep	_	_	352.779999	352.839996	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	352.880005	352.899994	L2
+12	c'	ce	CLS	CLS	_	13	subj	_	_	353.089996	353.220001	L2
+13	est	être	VRB	VRB	_	10	para	_	_	353.230011	353.260010	L2
+14	le	le	DET	DET	_	15	spe	_	_	353.269989	353.380005	L2
+15	pied	pied	NOM	NOM	_	13	dep	_	_	353.390015	353.700012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-102
+# text = c'est c'est c'est formidable euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	353.709991	353.730011	L2
+2	est	être	VRB	VRB	_	0	root	_	_	353.739990	354.070007	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	354.220001	354.299988	L2
+4	est	être	VRB	VRB	_	2	para	_	_	354.309998	354.329987	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	355.049988	355.100006	L2
+6	est	être	VRB	VRB	_	4	para	_	_	355.109985	355.179993	L2
+7	formidable	formidable	ADJ	ADJ	_	6	dep	_	_	355.190002	356.309998	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	356.320007	356.339996	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-103
+# text = euh ma grand-mère elle ne savait pas écrire
+1	euh	euh	INT	INT	_	6	dm	_	_	357.140015	357.290009	L2
+2	ma	son	DET	DET	_	3	spe	_	_	357.299988	357.470001	L2
+3	grand-mère	grand-mère	NOM	NOM	_	6	periph	_	_	357.480011	357.959991	L2
+4	elle	il	CLS	CLS	_	6	subj	_	_	357.970001	358.079987	L2
+5	ne	ne	CLN	CLN	_	6	dep	_	_	358.089996	358.209991	L2
+6	savait	savoir	VRB	VRB	_	0	root	_	_	358.220001	358.670013	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	358.679993	359.049988	L2
+8	écrire	écrire	VNF	VNF	_	6	dep	_	_	361.089996	361.609985	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-104
+# text = c'était une ancienne bergère racleuse de peau de mouton mon grand-père
+1	c'	ce	CLS	CLS	_	2	subj	_	_	362.559998	362.579987	L2
+2	était	être	VRB	VRB	_	0	root	_	_	362.589996	362.739990	L2
+3	une	un	DET	DET	_	5	spe	_	_	362.750000	362.880005	L2
+4	ancienne	ancien	ADJ	ADJ	_	5	dep	_	_	362.890015	363.230011	L2
+5	bergère	bergère	NOM	NOM	_	2	dep	_	_	363.239990	363.820007	L2
+6	racleuse	racleuse	ADJ	ADJ	_	5	dep	_	_	364.329987	364.989990	L2
+7	de	de	PRE	PRE	_	5	dep	_	_	365.000000	365.019989	L2
+8	peau	peau	NOM	NOM	_	7	dep	_	_	365.029999	365.190002	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	365.200012	365.230011	L2
+10	mouton	mouton	NOM	NOM	_	9	dep	_	_	365.239990	365.769989	L2
+11	mon	son	DET	DET	_	12	spe	_	_	366.720001	366.959991	L2
+12	grand-père	grand-père	NOM	NOM	_	5	para	_	_	366.970001	367.720001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-105
+# text = était marchand peau de mouton en Espagne
+1	était	être	VRB	VRB	_	0	root	_	_	368.829987	369.179993	L2
+2	marchand	marchand	ADJ	ADJ	_	3	dep	_	_	369.190002	369.899994	L2
+3	peau	peau	NOM	NOM	_	1	dep	_	_	369.910004	370.049988	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	370.059998	370.089996	L2
+5	mouton	mouton	NOM	NOM	_	4	dep	_	_	370.100006	370.679993	L2
+6	en	en	PRE	PRE	_	3	dep	_	_	370.760010	370.850006	L2
+7	Espagne	Espagne	NOM	NOM	_	6	dep	_	_	370.859985	371.279999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-106
+# text = en Allemagne
+1	en	en	PRE	PRE	_	0	root	_	_	372.600006	372.709991	L2
+2	Allemagne	Allemagne	NOM	NOM	_	1	dep	_	_	372.720001	373.420013	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-107
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	372.989990	373.510010	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-108
+# text = pour une affaire de juifs européens
+1	pour	pour	PRE	PRE	_	0	root	_	_	374.500000	374.690002	L2
+2	une	un	DET	DET	_	3	spe	_	_	374.700012	374.809998	L2
+3	affaire	affaire	NOM	NOM	_	1	dep	_	_	374.820007	375.279999	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	375.290009	375.309998	L2
+5	juifs	juif	NOM	NOM	_	4	dep	_	_	375.320007	375.679993	L2
+6	européens	européen	ADJ	ADJ	_	5	dep	_	_	375.690002	376.260010	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-109
+# text = euh mes parents et les siens avaient le certificat d'étude
+1	euh	euh	INT	INT	_	6	dm	_	_	378.109985	378.309998	L2
+2	mes	son	DET	DET	_	3	spe	_	_	378.320007	378.709991	L2
+3	parents	parent	NOM	NOM	_	6	periph	_	_	378.720001	379.260010	L2
+4	et	et	COO	COO	_	6	mark	_	_	379.269989	379.309998	L2
+5	les siens	le mien	PRO	PRO	_	6	subj	_	_	379.320007	379.769989	L2
+6	avaient	avoir	VRB	VRB	_	0	root	_	_	379.779999	379.940002	L2
+7	le	le	DET	DET	_	8	spe	_	_	380.179993	380.320007	L2
+8	certificat	certificat	NOM	NOM	_	6	dep	_	_	380.329987	380.869995	L2
+9	d'	de	PRE	PRE	_	8	dep	_	_	380.880005	380.910004	L2
+10	étude	étude	NOM	NOM	_	9	dep	_	_	380.920013	381.440002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-110
+# text = donc euh ce que nous avons appris comme vocabulaire c'est à l'école primaire avec de très bons instituteurs de très bons professeurs
+1	donc	donc	ADV	ADV	_	11	periph	_	_	381.450012	381.809998	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	381.859985	382.269989	L2
+3	ce	ce	PRO	PRO	_	11	periph	_	_	382.380005	382.459991	L2
+4	que	que	PRQ	PRQ	_	7	dep	_	_	382.470001	382.570007	L2
+5	nous	nous	CLS	CLS	_	7	subj	_	_	382.579987	382.760010	L2
+6	avons	avoir	VRB	VRB	_	7	aux	_	_	382.769989	382.910004	L2
+7	appris	apprendre	VPP	VPP	_	3	dep	_	_	382.920013	383.179993	L2
+8	comme	comme	PRE	PRE	_	7	dep	_	_	383.190002	383.309998	L2
+9	vocabulaire	vocabulaire	NOM	NOM	_	8	dep	_	_	383.320007	384.109985	L2
+10	c'	ce	CLS	CLS	_	11	subj	_	_	384.119995	384.329987	L2
+11	est	être	VRB	VRB	_	0	root	_	_	384.380005	384.739990	L2
+12	à	à	PRE	PRE	_	11	dep	_	_	384.970001	385.040009	L2
+13	l'	le	DET	DET	_	14	spe	_	_	385.049988	385.070007	L2
+14	école	école	NOM	NOM	_	12	dep	_	_	385.079987	385.429993	L2
+15	primaire	primaire	ADJ	ADJ	_	14	dep	_	_	385.570007	386.089996	L2
+16	avec	avec	PRE	PRE	_	11	dep	_	_	386.390015	386.579987	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	386.720001	386.739990	L2
+18	très	très	ADV	ADV	_	19	dep	_	_	386.869995	387.160004	L2
+19	bons	bon	ADJ	ADJ	_	20	dep	_	_	387.170013	387.529999	L2
+20	instituteurs	instituteur	NOM	NOM	_	17	dep	_	_	387.540009	388.149994	L2
+21	de	de	PRE	PRE	_	20	dep	_	_	389.220001	389.679993	L2
+22	très	très	ADV	ADV	_	23	dep	_	_	389.690002	390.190002	L2
+23	bons	bon	ADJ	ADJ	_	24	dep	_	_	390.200012	390.470001	L2
+24	professeurs	professeur	NOM	NOM	_	21	dep	_	_	390.480011	391.079987	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-111
+# text = mais comme ma mère n'avait jamais fait de latin on m'a mis dans une école primaire supérieure
+1	mais	mais	COO	COO	_	14	mark	_	_	391.510010	391.820007	L2
+2	comme	comme	CSU	CSU	_	14	periph	_	_	391.940002	392.299988	L2
+3	ma	son	DET	DET	_	4	spe	_	_	392.309998	392.339996	L2
+4	mère	mère	NOM	NOM	_	8	subj	_	_	392.350006	392.940002	L2
+5	n'	ne	CLN	CLN	_	8	dep	_	_	393.790009	393.829987	L2
+6	avait	avoir	VRB	VRB	_	8	aux	_	_	393.839996	393.980011	L2
+7	jamais	jamais	ADN	ADN	_	8	dep	_	_	393.989990	394.269989	L2
+8	fait	faire	VPP	VPP	_	2	dep	_	_	394.279999	394.480011	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	394.489990	394.519989	L2
+10	latin	latin	NOM	NOM	_	9	dep	_	_	394.529999	394.820007	L2
+11	on	on	CLS	CLS	_	14	subj	_	_	394.829987	394.970001	L2
+12	m'	me	CLI	CLI	_	14	dep	_	_	394.980011	395.049988	L2
+13	a	avoir	VRB	VRB	_	14	aux	_	_	395.059998	395.079987	L2
+14	mis	mettre	VPP	VPP	_	0	root	_	_	395.089996	395.190002	L2
+15	dans	dans	PRE	PRE	_	14	dep	_	_	395.200012	395.410004	L2
+16	une	un	DET	DET	_	17	spe	_	_	395.420013	395.470001	L2
+17	école	école	NOM	NOM	_	15	dep	_	_	395.480011	395.750000	L2
+18	primaire	primaire	ADJ	ADJ	_	17	dep	_	_	395.760010	396.100006	L2
+19	supérieure	supérieur	ADJ	ADJ	_	17	dep	_	_	396.109985	396.619995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-112
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	397.459991	397.559998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-113
+# text = quand j'ai voulu faire du latin ça été à en seconde avec six ans de retard seconde et première
+1	quand	quand	CSU	CSU	_	0	root	_	_	397.570007	397.760010	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	397.769989	397.820007	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	397.829987	397.920013	L2
+4	voulu	se vouloir	VPP	VPP	_	1	dep	_	_	397.929993	398.149994	L2
+5	faire	faire	VNF	VNF	_	4	dep	_	_	398.160004	398.440002	L2
+6	du	de+le	PRE	PRE	_	5	dep	_	_	398.450012	398.549988	L2
+7	latin	latin	NOM	NOM	_	6	dep	_	_	398.559998	398.959991	L2
+8	ça	ça	PRO	PRO	_	5	dep	_	_	399.019989	399.220001	L2
+9	été	être	VPP	VPP	_	5	dep	_	_	399.230011	399.649994	L2
+10	à	à	PRE	PRE	_	9	dep	_	_	399.660004	399.820007	L2
+11	en	en	PRE	PRE	_	10	para	_	_	400.019989	400.149994	L2
+12	seconde	seconde	NOM	NOM	_	11	dep	_	_	400.160004	400.609985	L2
+13	avec	avec	PRE	PRE	_	5	dep	_	_	400.619995	400.809998	L2
+14	six	six	NUM	NUM	_	15	spe	_	_	400.820007	401.040009	L2
+15	ans	an	NOM	NOM	_	13	dep	_	_	401.049988	401.079987	L2
+16	de	de	PRE	PRE	_	15	dep	_	_	401.089996	401.200012	L2
+17	retard	retard	NOM	NOM	_	16	dep	_	_	401.209991	401.519989	L2
+18	seconde	seconde	ADJ	ADJ	_	17	dep	_	_	402.010010	402.440002	L2
+19	et	et	COO	COO	_	20	mark	_	_	402.450012	402.470001	L2
+20	première	premier	ADJ	ADJ	_	5	dep	_	_	402.480011	402.809998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-114
+# text = j'en ai fait deux ans
+1	j'	je	CLS	CLS	_	4	subj	_	_	403.500000	403.589996	L2
+2	en	en	CLI	CLI	_	4	dep	_	_	403.600006	403.679993	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	403.690002	403.799988	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	403.809998	403.899994	L2
+5	deux	deux	NUM	NUM	_	6	spe	_	_	403.910004	404.190002	L2
+6	ans	an	NOM	NOM	_	4	dep	_	_	404.200012	404.480011	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-115
+# text = il me reste plus grand chose à part le latin d'enfant de choeur que j'ai appris quand j'étais enfant de choeur voilà
+1	il	il	CLS	CLS	_	3	subj	_	_	404.959991	405.029999	L2
+2	me	me	CLI	CLI	_	3	dep	_	_	405.040009	405.290009	L2
+3	reste	rester	VRB	VRB	_	0	root	_	_	405.299988	405.450012	L2
+4	plus	plus	ADN	ADN	_	5	dep	_	_	405.459991	405.630005	L2
+5	grand	grand	ADJ	ADJ	_	6	dep	_	_	405.640015	405.820007	L2
+6	chose	chose	NOM	NOM	_	3	dep	_	_	405.829987	406.260010	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	407.010010	407.089996	L2
+8	part	part	NOM	NOM	_	7	dep	_	_	407.100006	407.269989	L2
+9	le	le	DET	DET	_	10	spe	_	_	407.279999	407.410004	L2
+10	latin	latin	NOM	NOM	_	6	para	_	_	407.420013	407.720001	L2
+11	d'	de	PRE	PRE	_	10	dep	_	_	407.730011	407.769989	L2
+12	enfant	enfant	NOM	NOM	_	11	dep	_	_	407.779999	408.049988	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	408.059998	408.200012	L2
+14	choeur	choeur	NOM	NOM	_	13	dep	_	_	408.209991	408.510010	L2
+15	que	que	PRQ	PRQ	_	18	dep	_	_	408.519989	408.709991	L2
+16	j'	je	CLS	CLS	_	18	subj	_	_	408.720001	408.850006	L2
+17	ai	avoir	VRB	VRB	_	18	aux	_	_	408.859985	408.950012	L2
+18	appris	apprendre	VPP	VPP	_	14	dep	_	_	408.959991	409.339996	L2
+19	quand	quand	CSU	CSU	_	18	dep	_	_	409.350006	409.470001	L2
+20	j'	je	CLS	CLS	_	21	subj	_	_	409.540009	409.600006	L2
+21	étais	être	VRB	VRB	_	19	dep	_	_	409.609985	409.779999	L2
+22	enfant	enfant	NOM	NOM	_	21	dep	_	_	409.790009	409.959991	L2
+23	de	de	PRE	PRE	_	22	dep	_	_	409.970001	410.109985	L2
+24	choeur	choeur	NOM	NOM	_	23	dep	_	_	410.119995	410.320007	L2
+25	voilà	voilà	INT	INT	_	24	dm	_	_	411.279999	411.630005	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-116
+# text = bon puis après là j'ai rattrapé le temps perdu parce que on nous obligeait à faire le certificat d'étude jusqu'à trei~ douze ans
+1	bon	bon	INT	INT	_	7	dm	_	_	412.690002	412.959991	L2
+2	puis	puis	COO	COO	_	7	mark	_	_	412.970001	413.100006	L2
+3	après	après	PRE	PRE	_	7	periph	_	_	413.109985	413.769989	L2
+4	là	là	ADV	ADV	_	3	dep	_	_	413.779999	414.010010	L2
+5	j'	je	CLS	CLS	_	7	subj	_	_	414.019989	414.100006	L2
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	414.109985	414.149994	L2
+7	rattrapé	rattraper	VPP	VPP	_	10	aux	_	_	414.160004	414.510010	L2
+8	le	le	DET	DET	_	9	spe	_	_	414.519989	414.540009	L2
+9	temps	temps	NOM	NOM	_	10	subj	_	_	414.549988	414.730011	L2
+10	perdu	perdre	VPP	VPP	_	0	root	_	_	414.739990	414.950012	L2
+11	parce que	parce que	CSU	CSU	_	10	dep	_	_	414.959991	415.269989	L2
+12	on	on	CLS	CLS	_	14	subj	_	_	415.279999	415.450012	L2
+13	nous	nous	CLI	CLI	_	14	dep	_	_	415.459991	415.829987	L2
+14	obligeait	obliger	VRB	VRB	_	11	dep	_	_	415.839996	416.209991	L2
+15	à	à	PRE	PRE	_	14	dep	_	_	416.220001	416.250000	L2
+16	faire	faire	VNF	VNF	_	15	dep	_	_	416.260010	416.399994	L2
+17	le	le	DET	DET	_	18	spe	_	_	416.410004	416.429993	L2
+18	certificat	certificat	NOM	NOM	_	16	dep	_	_	416.440002	416.959991	L2
+19	d'	de	PRE	PRE	_	18	dep	_	_	416.970001	417.019989	L2
+20	étude	étude	NOM	NOM	_	19	dep	_	_	417.029999	417.299988	L2
+21	jusqu'	jusque	PRE	PRE	_	16	dep	_	_	417.309998	417.619995	L2
+22	à	à	PRE	PRE	_	21	dep	_	_	417.630005	417.700012	L2
+23	trei~	trei~	NOM	NOM	_	22	dep	_	_	417.709991	418.089996	L2
+24	douze	douze	NUM	NUM	_	25	spe	_	_	418.209991	418.529999	L2
+25	ans	an	NOM	NOM	_	23	para	_	_	418.540009	418.720001	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-117
+# text = alors on entrait au lycée avec deux ans de retard
+1	alors	alors	ADV	ADV	_	3	periph	_	_	419.489990	419.839996	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	419.850006	419.989990	L2
+3	entrait	entrer	VRB	VRB	_	0	root	_	_	420.000000	420.489990	L2
+4	au	à+le	PRE	PRE	_	3	dep	_	_	420.500000	420.570007	L2
+5	lycée	lycée	NOM	NOM	_	4	dep	_	_	420.579987	420.899994	L2
+6	avec	avec	PRE	PRE	_	3	dep	_	_	420.910004	421.079987	L2
+7	deux	deux	NUM	NUM	_	8	spe	_	_	421.089996	421.290009	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	421.299988	421.579987	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	421.589996	421.609985	L2
+10	retard	retard	NOM	NOM	_	9	dep	_	_	421.619995	421.829987	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-118
+# text = après
+1	après	après	PRE	PRE	_	0	root	_	_	422.920013	423.160004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-119
+# text = quand j'ai je suis passé à l'Ecole Normale au lieu de me mettre de me passer en première
+1	quand	quand	CSU	CSU	_	0	root	_	_	423.170013	423.279999	L2
+2	j'	je	CLS	CLS	_	3	subj	_	_	423.290009	423.329987	L2
+3	ai	avoir	VRB	VRB	_	1	dep	_	_	423.339996	423.619995	L2
+4	je	je	CLS	CLS	_	6	subj	_	_	423.630005	423.790009	L2
+5	suis	être	VRB	VRB	_	6	aux	_	_	423.799988	423.899994	L2
+6	passé	passer	VPP	VPP	_	3	para	_	_	423.910004	424.130005	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	424.140015	424.160004	L2
+8	l'	le	DET	DET	_	9	spe	_	_	424.170013	424.209991	L2
+9	Ecole	Ecole	NOM	NOM	_	7	dep	_	_	424.220001	424.390015	L2
+10	Normale	normale	NOM	NOM	_	9	dep	_	_	424.399994	424.829987	L2
+11	au lieu	au lieu	ADV	ADV	_	6	periph	_	_	425.410004	425.829987	L2
+12	de	de	PRE	PRE	_	6	dep	_	_	425.839996	425.859985	L2
+13	me	me	CLI	CLI	_	14	dep	_	_	425.869995	425.950012	L2
+14	mettre	mettre	VNF	VNF	_	12	dep	_	_	425.959991	426.179993	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	426.190002	426.239990	L2
+16	me	me	CLI	CLI	_	17	dep	_	_	426.250000	426.420013	L2
+17	passer	passer	VNF	VNF	_	15	dep	_	_	426.429993	426.720001	L2
+18	en	en	PRE	PRE	_	17	dep	_	_	426.730011	426.799988	L2
+19	première	premier	ADJ	ADJ	_	18	dep	_	_	426.809998	427.170013	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-120
+# text = on m'a fait redoubler la seconde
+1	on	on	CLS	CLS	_	4	subj	_	_	427.179993	427.239990	L2
+2	m'	me	CLI	CLI	_	4	dep	_	_	427.250000	427.339996	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	427.350006	427.390015	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	427.399994	427.489990	L2
+5	redoubler	redoubler	VNF	VNF	_	4	dep	_	_	427.500000	427.880005	L2
+6	la	le	DET	DET	_	7	spe	_	_	427.890015	428.000000	L2
+7	seconde	seconde	NOM	NOM	_	5	dep	_	_	428.010010	428.390015	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-121
+# text = alors j'avais pris trois ans de retard
+1	alors	alors	ADV	ADV	_	4	periph	_	_	428.850006	428.959991	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	428.970001	428.989990	L2
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	429.000000	429.089996	L2
+4	pris	-	VPP	VPP	_	0	root	_	_	429.100006	429.290009	L2
+5	trois	trois	NUM	NUM	_	6	spe	_	_	429.299988	429.529999	L2
+6	ans	an	NOM	NOM	_	4	dep	_	_	429.540009	429.640015	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	429.649994	429.679993	L2
+8	retard	retard	NOM	NOM	_	7	dep	_	_	429.690002	430.089996	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-122
+# text = mais quand je suis arrivé après le baccalauréat en khâgne à Toulouse au lycée Vermar comme ma femme à au lycée Fénelon à Paris là on était reçu du premier coup euh à deux Ecoles Normales Supérieures Saint-Cloud et ce qui fait que les gens qui étaient plus âgés que
+1	mais	mais	COO	COO	_	28	mark	_	_	431.239990	431.390015	L2
+2	quand	quand	CSU	CSU	_	28	periph	_	_	431.399994	431.559998	L2
+3	je	je	CLS	CLS	_	5	subj	_	_	431.570007	431.769989	L2
+4	suis	être	VRB	VRB	_	5	aux	_	_	431.779999	431.950012	L2
+5	arrivé	arriver	VPP	VPP	_	2	dep	_	_	431.959991	432.220001	L2
+6	après	après	PRE	PRE	_	5	dep	_	_	432.230011	432.390015	L2
+7	le	le	DET	DET	_	8	spe	_	_	432.489990	432.589996	L2
+8	baccalauréat	baccalauréat	NOM	NOM	_	6	dep	_	_	432.600006	433.369995	L2
+9	en	en	PRE	PRE	_	8	dep	_	_	433.380005	433.570007	L2
+10	khâgne	khâgne	NOM	NOM	_	9	dep	_	_	433.579987	434.089996	L2
+11	à	à	PRE	PRE	_	5	dep	_	_	434.600006	434.640015	L2
+12	Toulouse	Toulouse	NOM	NOM	_	11	dep	_	_	434.739990	435.290009	L2
+13	au	à+le	PRE	PRE	_	5	dep	_	_	435.299988	435.320007	L2
+14	lycée	lycée	NOM	NOM	_	13	dep	_	_	435.329987	435.559998	L2
+15	Vermar	Vermar	NOM	NOM	_	14	dep	_	_	435.570007	436.100006	L2
+16	comme	comme	PRE	PRE	_	5	dep	_	_	437.429993	437.820007	L2
+17	ma	son	DET	DET	_	18	spe	_	_	437.829987	437.850006	L2
+18	femme	femme	NOM	NOM	_	16	dep	_	_	437.859985	438.440002	L2
+19	à	à	PRE	PRE	_	18	dep	_	_	438.450012	438.489990	L2
+20	au	à+le	PRE	PRE	_	19	para	_	_	438.500000	438.619995	L2
+21	lycée	lycée	NOM	NOM	_	20	dep	_	_	438.630005	438.929993	L2
+22	Fénelon	Fénelon	NOM	NOM	_	21	dep	_	_	438.940002	439.410004	L2
+23	à	à	PRE	PRE	_	22	dep	_	_	439.420013	439.440002	L2
+24	Paris	Paris	NOM	NOM	_	23	dep	_	_	439.450012	439.799988	L2
+25	là	là	ADV	ADV	_	28	periph	_	_	440.600006	440.989990	L2
+26	on	on	CLS	CLS	_	28	subj	_	_	441.000000	441.130005	L2
+27	était	être	VRB	VRB	_	28	aux	_	_	441.140015	441.390015	L2
+28	reçu	recevoir	VPP	VPP	_	0	root	_	_	441.399994	441.709991	L2
+29	du	de+le	PRE	PRE	_	28	dep	_	_	441.720001	441.809998	L2
+30	premier	premier	ADJ	ADJ	_	31	dep	_	_	441.820007	442.179993	L2
+31	coup	coup	NOM	NOM	_	29	dep	_	_	442.190002	442.480011	L2
+32	euh	euh	INT	INT	_	31	dm	_	_	443.959991	444.239990	L2
+33	à	à	PRE	PRE	_	28	dep	_	_	444.250000	444.480011	L2
+34	deux	deux	NUM	NUM	_	35	spe	_	_	444.489990	444.589996	L2
+35	Ecoles	Ecoles	NOM	NOM	_	33	dep	_	_	444.600006	444.869995	L2
+36	Normales	normale	NOM	NOM	_	35	dep	_	_	444.880005	445.200012	L2
+37	Supérieures	supérieur	ADJ	ADJ	_	36	dep	_	_	445.209991	445.779999	L2
+38	Saint-Cloud	Saint-Cloud	NOM	NOM	_	36	para	_	_	446.399994	447.269989	L2
+39	et	et	COO	COO	_	40	mark	_	_	447.440002	447.540009	L2
+40	ce	ce	PRO	PRO	_	38	para	_	_	449.839996	449.920013	L2
+41	qui	qui	PRQ	PRQ	_	42	dep	_	_	449.929993	450.179993	L2
+42	fait	faire	VRB	VRB	_	40	dep	_	_	450.190002	450.369995	L2
+43	que	que	CSU	CSU	_	42	dep	_	_	450.380005	450.769989	L2
+44	les	le	DET	DET	_	45	spe	_	_	450.899994	451.089996	L2
+45	gens	gens	NOM	NOM	_	47	subj	_	_	451.100006	451.429993	L2
+46	qui	qui	PRQ	PRQ	_	47	dep	_	_	451.440002	451.540009	L2
+47	étaient	être	VRB	VRB	_	43	dep	_	_	451.549988	452.029999	L2
+48	plus	plus	ADN	ADN	_	49	dep	_	_	452.079987	452.399994	L2
+49	âgés	âgé	ADJ	ADJ	_	47	dep	_	_	452.410004	452.589996	L2
+50	que	que	CSU	CSU	_	49	dep	_	_	452.600006	452.700012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-123
+# text = nous
+1	nous	nous	CLS	CLS	_	0	root	_	_	452.709991	452.910004	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-124
+# text = les carrés qui avaient déjà deux ans
+1	les	le	DET	DET	_	2	spe	_	_	453.359985	453.529999	L2
+2	carrés	carré	NOM	NOM	_	0	root	_	_	453.540009	454.019989	L2
+3	qui	qui	PRQ	PRQ	_	4	dep	_	_	454.369995	454.450012	L2
+4	avaient	avoir	VRB	VRB	_	2	dep	_	_	454.459991	454.549988	L2
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	454.559998	454.839996	L2
+6	deux	deux	NUM	NUM	_	7	spe	_	_	454.850006	455.149994	L2
+7	ans	an	NOM	NOM	_	4	dep	_	_	455.160004	455.350006	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-125
+# text = les cubes qui étaient déjà depuis trois ans
+1	les	le	DET	DET	_	2	spe	_	_	455.600006	455.750000	L2
+2	cubes	cube	NOM	NOM	_	4	subj	_	_	455.760010	456.140015	L2
+3	qui	qui	PRQ	PRQ	_	4	dep	_	_	456.290009	456.399994	L2
+4	étaient	être	VRB	VRB	_	0	root	_	_	456.410004	456.570007	L2
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	456.579987	456.820007	L2
+6	depuis	depuis	PRE	PRE	_	4	dep	_	_	456.829987	457.059998	L2
+7	trois	trois	NUM	NUM	_	8	spe	_	_	457.070007	457.390015	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	457.399994	457.579987	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-126
+# text = les tétras qui étaient depuis quatre ans les pentas
+1	les	le	DET	DET	_	2	spe	_	_	457.880005	458.029999	L2
+2	tétras	tétras	NOM	NOM	_	4	subj	_	_	458.040009	458.640015	L2
+3	qui	qui	PRQ	PRQ	_	4	dep	_	_	458.880005	458.950012	L2
+4	étaient	être	VRB	VRB	_	0	root	_	_	458.959991	459.190002	L2
+5	depuis	depuis	PRE	PRE	_	4	dep	_	_	459.200012	459.470001	L2
+6	quatre	quatre	NUM	NUM	_	7	spe	_	_	459.480011	459.769989	L2
+7	ans	an	NOM	NOM	_	5	dep	_	_	459.779999	459.929993	L2
+8	les	le	DET	DET	_	9	spe	_	_	460.279999	460.470001	L2
+9	pentas	pentas	NOM	NOM	_	4	periph	_	_	460.480011	461.170013	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-127
+# text = il y en avait que
+1	il	il	CLS	CLS	_	4	subj	_	_	462.149994	462.200012	L2
+2	y	y	CLI	CLI	_	4	dep	_	_	462.209991	462.239990	L2
+3	en	en	CLI	CLI	_	4	dep	_	_	462.250000	462.269989	L2
+4	avait	avoir	VRB	VRB	_	0	root	_	_	462.279999	462.450012	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	462.459991	462.649994	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-128
+# text = deux qui étaient là depuis cinq ans pour préparer Normale Sup au Saint-Cloud
+1	deux	deux	NUM	NUM	_	0	root	_	_	462.660004	462.799988	L2
+2	qui	qui	PRQ	PRQ	_	3	subj	_	_	463.239990	463.299988	L2
+3	étaient	être	VRB	VRB	_	1	dep	_	_	463.309998	463.489990	L2
+4	là	là	ADV	ADV	_	3	dep	_	_	463.500000	463.760010	L2
+5	depuis	depuis	PRE	PRE	_	3	dep	_	_	463.769989	463.899994	L2
+6	cinq	cinq	NUM	NUM	_	7	spe	_	_	463.910004	464.399994	L2
+7	ans	an	NOM	NOM	_	5	dep	_	_	464.410004	464.670013	L2
+8	pour	pour	PRE	PRE	_	3	dep	_	_	464.829987	464.950012	L2
+9	préparer	préparer	VNF	VNF	_	8	dep	_	_	464.959991	465.429993	L2
+10	Normale	normale	NOM	NOM	_	9	dep	_	_	465.440002	465.799988	L2
+11	Sup	Sup	NOM	NOM	_	10	dep	_	_	465.809998	466.119995	L2
+12	au	à+le	PRE	PRE	_	9	dep	_	_	466.130005	466.179993	L2
+13	Saint-Cloud	Saint-Cloud	NOM	NOM	_	12	dep	_	_	466.190002	466.559998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-129
+# text = et il y avait dans le fond une espèce de sanglier aux ongles noirs avec les cheveux longs qui sentait mauvais qui était hexa
+1	et	et	COO	COO	_	4	mark	_	_	467.059998	467.100006	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	467.109985	467.170013	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	467.179993	467.220001	L2
+4	avait	avoir	VRB	VRB	_	0	root	_	_	467.230011	467.440002	L2
+5	dans	dans	PRE	PRE	_	4	dep	_	_	467.450012	467.600006	L2
+6	le	le	DET	DET	_	7	spe	_	_	467.609985	467.690002	L2
+7	fond	fond	NOM	NOM	_	5	dep	_	_	467.700012	468.239990	L2
+8	une	un	DET	DET	_	9	spe	_	_	468.779999	468.829987	L2
+9	espèce	espèce	NOM	NOM	_	4	dep	_	_	468.839996	469.260010	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	469.269989	469.309998	L2
+11	sanglier	sanglier	NOM	NOM	_	10	dep	_	_	469.320007	470.049988	L2
+12	aux	à+le	PRE	PRE	_	9	dep	_	_	470.059998	470.179993	L2
+13	ongles	ongle	NOM	NOM	_	12	dep	_	_	470.220001	470.529999	L2
+14	noirs	noir	ADJ	ADJ	_	13	dep	_	_	470.540009	470.910004	L2
+15	avec	avec	PRE	PRE	_	4	dep	_	_	470.920013	471.040009	L2
+16	les	le	DET	DET	_	17	spe	_	_	471.049988	471.109985	L2
+17	cheveux	cheveu	NOM	NOM	_	15	dep	_	_	471.119995	471.589996	L2
+18	longs	long	ADJ	ADJ	_	17	dep	_	_	471.630005	471.989990	L2
+19	qui	qui	PRQ	PRQ	_	20	subj	_	_	472.049988	472.179993	L2
+20	sentait	sentir	VRB	VRB	_	17	dep	_	_	472.190002	472.579987	L2
+21	mauvais	mauvais	ADJ	ADJ	_	20	dep	_	_	472.589996	473.140015	L2
+22	qui	qui	PRQ	PRQ	_	23	dep	_	_	473.470001	473.640015	L2
+23	était	être	VRB	VRB	_	20	para	_	_	473.709991	474.029999	L2
+24	hexa	hexa	INT	INT	_	23	dm	_	_	474.040009	474.540009	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-130
+# text = il était là depuis six ans
+1	il	il	CLS	CLS	_	2	subj	_	_	475.380005	475.510010	L2
+2	était	être	VRB	VRB	_	0	root	_	_	475.519989	475.700012	L2
+3	là	là	ADV	ADV	_	2	dep	_	_	475.709991	475.790009	L2
+4	depuis	depuis	PRE	PRE	_	2	dep	_	_	475.799988	476.079987	L2
+5	six	six	NUM	NUM	_	6	spe	_	_	476.089996	476.339996	L2
+6	ans	an	NOM	NOM	_	4	dep	_	_	476.350006	476.570007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-131
+# text = il avait déjà vingt-six ans
+1	il	il	CLS	CLS	_	2	subj	_	_	476.579987	476.630005	L2
+2	avait	avoir	VRB	VRB	_	0	root	_	_	476.640015	476.820007	L2
+3	déjà	déjà	ADV	ADV	_	2	dep	_	_	476.829987	477.130005	L2
+4	vingt-six	vingt-six	NUM	NUM	_	5	spe	_	_	477.140015	477.579987	L2
+5	ans	an	NOM	NOM	_	2	dep	_	_	477.589996	477.829987	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-132
+# text = il était licencié
+1	il	il	CLS	CLS	_	3	subj	_	_	477.940002	477.989990	L2
+2	était	être	VRB	VRB	_	3	aux	_	_	478.000000	478.089996	L2
+3	licencié	licencier	VPP	VPP	_	0	root	_	_	478.100006	478.809998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-133
+# text = il avait il y avait pas de maîtrise à cette époque
+1	il	il	CLS	CLS	_	2	subj	_	_	478.820007	478.940002	L2
+2	avait	avoir	VRB	VRB	_	0	root	_	_	478.950012	479.190002	L2
+3	il	il	CLS	CLS	_	5	subj	_	_	479.470001	479.540009	L2
+4	y	y	CLI	CLI	_	5	dep	_	_	479.549988	479.570007	L2
+5	avait	avoir	VRB	VRB	_	2	para	_	_	479.579987	479.690002	L2
+6	pas	pas	ADN	ADN	_	5	dep	_	_	479.700012	479.760010	L2
+7	de	de	PRE	PRE	_	5	dep	_	_	479.769989	479.799988	L2
+8	maîtrise	maîtrise	NOM	NOM	_	7	dep	_	_	479.809998	480.119995	L2
+9	à	à	PRE	PRE	_	7	para	_	_	480.130005	480.149994	L2
+10	cette	ce	DET	DET	_	11	spe	_	_	480.160004	480.339996	L2
+11	époque	époque	NOM	NOM	_	9	dep	_	_	480.350006	480.559998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-134
+# text = oh j'ai eu la chance d'être reçu en hypokhâgne dès la première année
+1	oh	oh	INT	INT	_	4	dm	_	_	482.079987	482.100006	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	482.109985	482.220001	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	482.230011	482.250000	L2
+4	eu	avoir	VPP	VPP	_	0	root	_	_	482.260010	482.279999	L2
+5	la	le	DET	DET	_	6	spe	_	_	482.290009	482.390015	L2
+6	chance	chance	NOM	NOM	_	4	dep	_	_	482.399994	482.809998	L2
+7	d'	de	PRE	PRE	_	6	dep	_	_	482.820007	482.859985	L2
+8	être	être	VNF	VNF	_	9	aux	_	_	482.869995	482.970001	L2
+9	reçu	recevoir	VPP	VPP	_	7	dep	_	_	483.750000	484.160004	L2
+10	en	en	PRE	PRE	_	9	dep	_	_	484.170013	484.290009	L2
+11	hypokhâgne	hypokhâgne	NOM	NOM	_	10	dep	_	_	484.299988	484.790009	L2
+12	dès	dès	PRE	PRE	_	9	dep	_	_	484.799988	484.989990	L2
+13	la	le	DET	DET	_	15	spe	_	_	485.000000	485.079987	L2
+14	première	premier	ADJ	ADJ	_	15	dep	_	_	485.089996	485.369995	L2
+15	année	année	NOM	NOM	_	12	dep	_	_	485.380005	485.570007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-135
+# text = alors j'ai rattrapé tout mon retard
+1	alors	alors	ADV	ADV	_	4	periph	_	_	485.769989	485.880005	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	485.890015	485.920013	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	485.929993	485.950012	L2
+4	rattrapé	rattraper	VPP	VPP	_	0	root	_	_	485.959991	486.410004	L2
+5	tout	tout	ADJ	ADJ	_	7	dep	_	_	486.420013	486.529999	L2
+6	mon	son	DET	DET	_	7	spe	_	_	486.540009	486.700012	L2
+7	retard	retard	NOM	NOM	_	4	dep	_	_	486.709991	487.059998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-136
+# text = et j'ai été prof à vingt-trois ans
+1	et	et	COO	COO	_	4	mark	_	_	487.109985	487.149994	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	487.160004	487.239990	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	487.250000	487.320007	L2
+4	été	être	VPP	VPP	_	0	root	_	_	487.329987	487.429993	L2
+5	prof	prof	NOM	NOM	_	4	dep	_	_	487.440002	487.679993	L2
+6	à	à	PRE	PRE	_	4	dep	_	_	487.690002	487.709991	L2
+7	vingt-trois	vingt-trois	NUM	NUM	_	8	spe	_	_	487.720001	488.179993	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	488.190002	488.250000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-137
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	489.450012	489.660004	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	489.720001	489.859985	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-138
+# text = voilà après plus tard euh agrégé puis docteur voilà
+1	voilà	voilà	INT	INT	_	6	dm	_	_	490.190002	490.470001	L2
+2	après	après	PRE	PRE	_	6	periph	_	_	490.649994	491.040009	L2
+3	plus	plus	ADV	ADV	_	4	dep	_	_	491.049988	491.279999	L2
+4	tard	tard	ADV	ADV	_	2	dep	_	_	491.290009	491.950012	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	491.959991	492.200012	L2
+6	agrégé	agréger	VPP	VPP	_	0	root	_	_	492.649994	493.839996	L2
+7	puis	puis	COO	COO	_	8	mark	_	_	493.850006	494.089996	L2
+8	docteur	docteur	NOM	NOM	_	6	dep	_	_	494.100006	494.549988	L2
+9	voilà	voilà	INT	INT	_	8	dm	_	_	494.899994	495.100006	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-139
+# text = si vous voulez euh en gros agrégé de Lettres euh Modernes puisque
+1	si	si	CSU	CSU	_	0	root	_	_	496.019989	496.100006	L2
+2	vous	vous	CLS	CLS	_	3	subj	_	_	496.109985	496.190002	L2
+3	voulez	vouloir	VRB	VRB	_	1	dep	_	_	496.200012	496.630005	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	496.640015	497.040009	L2
+5	en	en	PRE	PRE	_	3	dep	_	_	497.049988	497.269989	L2
+6	gros	gros	ADJ	ADJ	_	7	dep	_	_	497.279999	497.820007	L2
+7	agrégé	agrégé	NOM	NOM	_	5	dep	_	_	497.829987	498.100006	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	498.109985	498.200012	L2
+9	Lettres	lettre	NOM	NOM	_	8	dep	_	_	498.209991	498.420013	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	499.480011	499.549988	L2
+11	Modernes	moderne	NOM	NOM	_	9	para	_	_	499.559998	500.119995	L2
+12	puisque	puisque	CSU	CSU	_	3	periph	_	_	500.130005	500.540009	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-140
+# text = le latin bon
+1	le	le	DET	DET	_	2	spe	_	_	501.899994	502.019989	L2
+2	latin	latin	NOM	NOM	_	0	root	_	_	502.470001	503.299988	L2
+3	bon	bon	INT	INT	_	2	dm	_	_	503.350006	504.029999	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-141
+# text = non euh j'avais une seule chose une seule crainte
+1	non	non	INT	INT	_	4	dm	_	_	504.459991	504.660004	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	505.179993	506.070007	L2
+3	j'	je	CLS	CLS	_	4	subj	_	_	507.209991	507.320007	L2
+4	avais	avoir	VRB	VRB	_	0	root	_	_	507.329987	507.459991	L2
+5	une	un	DET	DET	_	7	spe	_	_	507.470001	507.730011	L2
+6	seule	seul	ADJ	ADJ	_	7	dep	_	_	507.820007	508.019989	L2
+7	chose	chose	NOM	NOM	_	4	dep	_	_	508.029999	508.519989	L2
+8	une	un	DET	DET	_	10	spe	_	_	508.529999	508.630005	L2
+9	seule	seul	ADJ	ADJ	_	10	dep	_	_	508.640015	508.940002	L2
+10	crainte	crainte	NOM	NOM	_	7	para	_	_	508.950012	509.609985	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-142
+# text = c'est de ne pas pouvoir faire une licence parce que il fallait du latin
+1	c'	ce	CLS	CLS	_	2	subj	_	_	509.910004	509.929993	L2
+2	est	être	VRB	VRB	_	0	root	_	_	509.940002	510.250000	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	510.260010	510.359985	L2
+4	ne	ne	CLN	CLN	_	6	dep	_	_	510.369995	510.470001	L2
+5	pas	pas	ADN	ADN	_	6	dep	_	_	510.480011	510.679993	L2
+6	pouvoir	pouvoir	VNF	VNF	_	3	dep	_	_	510.730011	511.079987	L2
+7	faire	faire	VNF	VNF	_	6	dep	_	_	511.089996	511.670013	L2
+8	une	un	DET	DET	_	9	spe	_	_	511.679993	511.809998	L2
+9	licence	licence	NOM	NOM	_	7	dep	_	_	511.820007	512.080017	L2
+10	parce que	parce que	CSU	CSU	_	7	dep	_	_	512.090027	512.570007	L2
+11	il	il	CLS	CLS	_	12	subj	_	_	512.580017	512.630005	L2
+12	fallait	falloir	VRB	VRB	_	10	dep	_	_	512.640015	512.919983	L2
+13	du	de+le	PRE	PRE	_	12	dep	_	_	512.929993	513.020020	L2
+14	latin	latin	NOM	NOM	_	13	dep	_	_	513.030029	513.169983	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-143
+# text = euh même les Modernes
+1	euh	euh	INT	INT	_	4	dm	_	_	513.919983	513.940002	L2
+2	même	même	ADV	ADV	_	4	dep	_	_	514.030029	514.580017	L2
+3	les	le	DET	DET	_	4	spe	_	_	514.590027	514.679993	L2
+4	Modernes	moderne	NOM	NOM	_	0	root	_	_	514.690002	515.119995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-144
+# text = alors je me dis pourvu que je tombe à côté d'un curé ou de d'un séminariste pour pouvoir copier sur lui parce que c'est pas possible
+1	alors	alors	ADV	ADV	_	4	periph	_	_	516.140015	516.380005	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	516.390015	516.419983	L2
+3	me	me	CLI	CLI	_	4	dep	_	_	516.429993	516.450012	L2
+4	dis	dire	VRB	VRB	_	0	root	_	_	516.460022	516.510010	L2
+5	pourvu que	pourvu que	PRQ	PRQ	_	7	dep	_	_	516.520020	516.929993	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	516.940002	516.989990	L2
+7	tombe	tomber	VRB	VRB	_	4	dep	_	_	517.000000	517.229980	L2
+8	à	à	PRE	PRE	_	7	dep	_	_	517.239990	517.289978	L2
+9	côté	côté	NOM	NOM	_	8	dep	_	_	517.299988	517.479980	L2
+10	d'	de	PRE	PRE	_	9	dep	_	_	517.489990	517.530029	L2
+11	un	un	DET	DET	_	12	spe	_	_	517.539978	517.659973	L2
+12	curé	curé	NOM	NOM	_	10	dep	_	_	517.669983	518.299988	L2
+13	ou	ou	COO	COO	_	14	mark	_	_	518.309998	518.349976	L2
+14	de	de	PRE	PRE	_	10	para	_	_	518.359985	518.640015	L2
+15	d'	de	PRE	PRE	_	14	para	_	_	519.150024	519.169983	L2
+16	un	un	DET	DET	_	17	spe	_	_	519.179993	519.200012	L2
+17	séminariste	séminariste	NOM	NOM	_	15	dep	_	_	519.210022	519.679993	L2
+18	pour	pour	PRE	PRE	_	7	dep	_	_	519.690002	519.770020	L2
+19	pouvoir	pouvoir	VNF	VNF	_	18	dep	_	_	519.780029	520.010010	L2
+20	copier	copier	VNF	VNF	_	19	dep	_	_	520.020020	520.250000	L2
+21	sur	sur	PRE	PRE	_	20	dep	_	_	520.260010	520.549988	L2
+22	lui	moi	PRO	PRO	_	21	dep	_	_	520.559998	520.789978	L2
+23	parce que	parce que	CSU	CSU	_	7	dep	_	_	520.799988	521.320007	L2
+24	c'	ce	CLS	CLS	_	25	subj	_	_	521.380005	521.400024	L2
+25	est	être	VRB	VRB	_	23	dep	_	_	521.409973	521.450012	L2
+26	pas	pas	ADN	ADN	_	25	dep	_	_	521.809998	522.130005	L2
+27	possible	possible	ADJ	ADJ	_	25	dep	_	_	522.539978	523.090027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-145
+# text = mais l'admission à une Ecole Normale Supérieure me me me dispensait de du certificat d'étude littéraire avec latin
+1	mais	mais	COO	COO	_	12	mark	_	_	524.109985	524.520020	L2
+2	l'	le	DET	DET	_	3	spe	_	_	524.530029	524.739990	L2
+3	admission	admission	NOM	NOM	_	12	subj	_	_	524.750000	525.309998	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	525.320007	525.380005	L2
+5	une	un	DET	DET	_	6	spe	_	_	525.390015	525.489990	L2
+6	Ecole	Ecole	NOM	NOM	_	4	dep	_	_	525.500000	525.700012	L2
+7	Normale	normale	NOM	NOM	_	6	dep	_	_	525.710022	525.940002	L2
+8	Supérieure	supérieur	NOM	NOM	_	7	dep	_	_	525.950012	526.409973	L2
+9	me	me	CLI	CLI	_	12	dep	_	_	526.419983	526.570007	L2
+10	me	me	CLI	CLI	_	12	dep	_	_	527.210022	527.640015	L2
+11	me	me	CLI	CLI	_	12	dep	_	_	527.650024	527.820007	L2
+12	dispensait	dispenser	VRB	VRB	_	0	root	_	_	527.830017	528.530029	L2
+13	de	de	PRE	PRE	_	12	dep	_	_	528.539978	528.770020	L2
+14	du	de+le	PRE	PRE	_	13	para	_	_	528.780029	528.900024	L2
+15	certificat	certificat	NOM	NOM	_	14	dep	_	_	528.909973	529.609985	L2
+16	d'	de	PRE	PRE	_	15	dep	_	_	529.619995	529.679993	L2
+17	étude	étude	NOM	NOM	_	16	dep	_	_	529.690002	530.090027	L2
+18	littéraire	littéraire	ADJ	ADJ	_	17	dep	_	_	530.140015	530.599976	L2
+19	avec	avec	PRE	PRE	_	12	dep	_	_	530.609985	530.869995	L2
+20	latin	latin	NOM	NOM	_	19	dep	_	_	530.880005	531.200012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-146
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	531.880005	532.340027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-147
+# text = comme ça
+1	comme	comme	PRE	PRE	_	0	root	_	_	532.539978	532.739990	L2
+2	ça	ça	PRO	PRO	_	1	dep	_	_	532.750000	533.320007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-148
+# text = mon vocabulaire latin étant très pauvre
+1	mon	son	DET	DET	_	2	spe	_	_	534.039978	534.179993	L2
+2	vocabulaire	vocabulaire	NOM	NOM	_	0	root	_	_	534.190002	534.830017	L2
+3	latin	latin	ADJ	ADJ	_	2	dep	_	_	534.840027	535.200012	L2
+4	étant	être	VPR	VPR	_	3	dep	_	_	535.210022	535.659973	L2
+5	très	très	ADV	ADV	_	6	dep	_	_	536.270020	536.469971	L2
+6	pauvre	pauvre	ADJ	ADJ	_	3	para	_	_	536.479980	536.969971	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-149
+# text = je je m'en suis passé quoi je suis passé euh à l'ENSET Ecole Normale Supérieure de l'Enseignement Technique où j'ai eu plus tard
+1	je	je	CLS	CLS	_	6	subj	_	_	537.770020	538.869995	L2
+2	je	je	CLS	CLS	_	1	para	_	_	539.630005	539.780029	L2
+3	m'	me	CLI	CLI	_	6	dep	_	_	539.789978	539.840027	L2
+4	en	en	CLI	CLI	_	6	dep	_	_	539.849976	539.929993	L2
+5	suis	être	VRB	VRB	_	6	aux	_	_	539.940002	540.140015	L2
+6	passé	passer	VPP	VPP	_	0	root	_	_	540.150024	540.440002	L2
+7	quoi	quoi	INT	INT	_	6	dm	_	_	540.450012	540.530029	L2
+8	je	je	CLS	CLS	_	10	subj	_	_	541.229980	541.260010	L2
+9	suis	être	VRB	VRB	_	10	aux	_	_	541.270020	541.440002	L2
+10	passé	passer	VPP	VPP	_	6	para	_	_	541.450012	542.369995	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	542.570007	542.599976	L2
+12	à	à	PRE	PRE	_	10	dep	_	_	544.489990	544.570007	L2
+13	l'	le	DET	DET	_	14	spe	_	_	544.580017	544.599976	L2
+14	ENSET	ENSET	NOM	NOM	_	12	dep	_	_	544.609985	545.059998	L2
+15	Ecole	Ecole	NOM	NOM	_	14	dep	_	_	545.070007	545.150024	L2
+16	Normale	normale	NOM	NOM	_	15	dep	_	_	545.159973	545.429993	L2
+17	Supérieure	supérieur	NOM	NOM	_	16	dep	_	_	545.440002	546.179993	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	546.190002	546.260010	L2
+19	l'	le	DET	DET	_	20	spe	_	_	546.270020	546.289978	L2
+20	Enseignement	enseignement	NOM	NOM	_	18	dep	_	_	546.299988	546.780029	L2
+21	Technique	technique	NOM	NOM	_	20	dep	_	_	546.789978	547.270020	L2
+22	où	où	PRQ	PRQ	_	25	dep	_	_	547.320007	547.450012	L2
+23	j'	je	CLS	CLS	_	25	subj	_	_	547.460022	547.570007	L2
+24	ai	avoir	VRB	VRB	_	25	aux	_	_	547.580017	547.599976	L2
+25	eu	avoir	VPP	VPP	_	21	dep	_	_	547.609985	547.760010	L2
+26	plus	plus	ADN	ADN	_	27	dep	_	_	547.940002	548.039978	L2
+27	tard	tard	ADV	ADV	_	25	dep	_	_	548.099976	548.609985	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-150
+# text = il y en avait que
+1	il	il	CLS	CLS	_	4	subj	_	_	549.090027	549.140015	L2
+2	y	y	CLI	CLI	_	4	dep	_	_	549.150024	549.169983	L2
+3	en	en	CLI	CLI	_	4	dep	_	_	549.179993	549.200012	L2
+4	avait	avoir	VRB	VRB	_	0	root	_	_	549.210022	549.349976	L2
+5	que	que	CSU	CSU	_	4	dep	_	_	549.359985	549.469971	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-151
+# text = cinq en France des écoles nationales professionnelles
+1	cinq	cinq	NUM	NUM	_	0	root	_	_	549.479980	549.869995	L2
+2	en	en	PRE	PRE	_	1	dep	_	_	549.880005	549.960022	L2
+3	France	France	NOM	NOM	_	2	dep	_	_	549.969971	550.299988	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	550.359985	550.719971	L2
+5	écoles	école	NOM	NOM	_	4	dep	_	_	550.729980	550.969971	L2
+6	nationales	national	ADJ	ADJ	_	5	dep	_	_	550.979980	551.400024	L2
+7	professionnelles	professionnel	NOM	NOM	_	5	para	_	_	551.409973	552.190002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-152
+# text = nous avons été nommés à Saint-Etienne
+1	nous	nous	CLS	CLS	_	4	subj	_	_	552.380005	552.450012	L2
+2	avons	avoir	VRB	VRB	_	3	aux	_	_	552.460022	552.679993	L2
+3	été	être	VPP	VPP	_	4	aux	_	_	552.690002	552.909973	L2
+4	nommés	nommer	VPP	VPP	_	0	root	_	_	552.919983	553.099976	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	553.109985	553.169983	L2
+6	Saint-Etienne	Saint-Etienne	NOM	NOM	_	5	dep	_	_	553.179993	553.760010	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-153
+# text = là on a préparé au baccalauréat qui venait de naître en cinquante-six E qui était le bac C le bac math-Elem
+1	là	là	ADV	ADV	_	4	periph	_	_	554.559998	554.780029	L2
+2	on	on	CLS	CLS	_	4	subj	_	_	554.789978	554.950012	L2
+3	a	avoir	VRB	VRB	_	4	aux	_	_	554.960022	554.979980	L2
+4	préparé	préparer	VPP	VPP	_	0	root	_	_	554.989990	555.820007	L2
+5	au	à+le	PRE	PRE	_	4	dep	_	_	555.830017	555.849976	L2
+6	baccalauréat	baccalauréat	NOM	NOM	_	5	dep	_	_	555.859985	557.280029	L2
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	557.289978	557.390015	L2
+8	venait	venir	VRB	VRB	_	6	dep	_	_	557.400024	557.590027	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	557.599976	557.739990	L2
+10	naître	naître	VNF	VNF	_	9	dep	_	_	557.750000	557.950012	L2
+11	en	en	PRE	PRE	_	10	dep	_	_	558.090027	558.109985	L2
+12	cinquante-six	cinquante-six	NUM	NUM	_	13	spe	_	_	558.229980	558.940002	L2
+13	E	E	NOM	NOM	_	11	dep	_	_	559.609985	559.929993	L2
+14	qui	qui	PRQ	PRQ	_	15	subj	_	_	560.479980	560.549988	L2
+15	était	être	VRB	VRB	_	8	para	_	_	560.559998	560.739990	L2
+16	le	le	DET	DET	_	17	spe	_	_	560.750000	560.859985	L2
+17	bac	bac	NOM	NOM	_	15	dep	_	_	560.869995	561.049988	L2
+18	C	C	NOM	NOM	_	17	dep	_	_	561.059998	561.320007	L2
+19	le	le	DET	DET	_	20	spe	_	_	561.330017	561.460022	L2
+20	bac	bac	NOM	NOM	_	18	para	_	_	561.469971	561.809998	L2
+21	math-Elem	math-Elem	NOM	NOM	_	20	dep	_	_	561.820007	562.489990	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-154
+# text = je sais pas si ça existe ou pas en Espagne bon S mathématiques surtout mathématiques physiques
+1	je	je	CLS	CLS	_	2	subj	_	_	562.500000	562.719971	L2
+2	sais	savoir	VRB	VRB	_	0	root	_	_	562.729980	562.780029	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	562.789978	562.859985	L2
+4	si	si	CSU	CSU	_	2	dep	_	_	562.869995	563.030029	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	563.039978	563.150024	L2
+6	existe	exister	VRB	VRB	_	4	dep	_	_	563.159973	563.510010	L2
+7	ou	ou	COO	COO	_	8	mark	_	_	563.520020	563.570007	L2
+8	pas	pas	ADN	ADN	_	6	dep	_	_	563.650024	563.710022	L2
+9	en	en	PRE	PRE	_	6	dep	_	_	563.719971	564.030029	L2
+10	Espagne	Espagne	NOM	NOM	_	9	dep	_	_	564.039978	564.320007	L2
+11	bon	bon	INT	INT	_	10	dm	_	_	564.539978	564.789978	L2
+12	S	S	NOM	NOM	_	10	para	_	_	565.070007	565.419983	L2
+13	mathématiques	mathématique	ADJ	ADJ	_	12	dep	_	_	566.030029	566.619995	L2
+14	surtout	surtout	ADV	ADV	_	15	dep	_	_	566.630005	566.900024	L2
+15	mathématiques	mathématique	ADJ	ADJ	_	13	para	_	_	567.059998	567.619995	L2
+16	physiques	physique	ADJ	ADJ	_	15	para	_	_	567.630005	568.169983	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-155
+# text = et en plus de la technologie du dessin industriel qui préparait ensuite aux Arts et Métiers
+1	et	et	COO	COO	_	4	mark	_	_	569.119995	569.150024	L2
+2	en	en	PRE	PRE	_	4	periph	_	_	569.159973	569.359985	L2
+3	plus	plus	ADN	ADN	_	2	dep	_	_	569.369995	569.659973	L2
+4	de	de	PRE	PRE	_	0	root	_	_	569.669983	569.750000	L2
+5	la	le	DET	DET	_	6	spe	_	_	569.760010	569.900024	L2
+6	technologie	technologie	NOM	NOM	_	4	dep	_	_	569.909973	570.479980	L2
+7	du	de+le	PRE	PRE	_	6	dep	_	_	570.489990	570.590027	L2
+8	dessin	dessin	NOM	NOM	_	7	dep	_	_	570.599976	570.940002	L2
+9	industriel	industriel	ADJ	ADJ	_	8	dep	_	_	570.950012	571.539978	L2
+10	qui	qui	PRQ	PRQ	_	11	dep	_	_	571.640015	571.750000	L2
+11	préparait	préparer	VRB	VRB	_	8	dep	_	_	571.760010	572.229980	L2
+12	ensuite	ensuite	ADV	ADV	_	11	dep	_	_	572.239990	572.510010	L2
+13	aux	à+le	PRE	PRE	_	11	dep	_	_	572.520020	572.640015	L2
+14	Arts	art	NOM	NOM	_	13	dep	_	_	572.690002	572.869995	L2
+15	et	et	COO	COO	_	16	mark	_	_	572.880005	572.919983	L2
+16	Métiers	métier	NOM	NOM	_	14	para	_	_	572.929993	573.320007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-156
+# text = je ne savais pas enseigner
+1	je	je	CLS	CLS	_	3	subj	_	_	573.969971	574.140015	L2
+2	ne	ne	CLN	CLN	_	3	dep	_	_	574.150024	574.179993	L2
+3	savais	savoir	VRB	VRB	_	0	root	_	_	574.190002	574.469971	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	574.479980	574.619995	L2
+5	enseigner	enseigner	VNF	VNF	_	3	dep	_	_	574.630005	575.239990	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-157
+# text = mais les élèves étaient tellement triés
+1	mais	mais	COO	COO	_	4	mark	_	_	575.719971	575.849976	L2
+2	les	le	DET	DET	_	3	spe	_	_	575.859985	576.059998	L2
+3	élèves	élève	NOM	NOM	_	4	subj	_	_	576.070007	576.340027	L2
+4	étaient	être	VRB	VRB	_	0	root	_	_	576.349976	576.520020	L2
+5	tellement	tellement	ADV	ADV	_	6	dep	_	_	576.530029	577.000000	L2
+6	triés	trier	ADJ	ADJ	_	4	dep	_	_	577.010010	577.520020	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-158
+# text = soixante-dix sur douze cents présentés
+1	soixante-dix	soixante-dix	NUM	NUM	_	0	root	_	_	579.169983	580.159973	L2
+2	sur	sur	PRE	PRE	_	1	dep	_	_	580.169983	580.489990	L2
+3	douze	douze	NUM	NUM	_	5	spe	_	_	580.530029	580.890015	L2
+4	cents	cents	NUM	NUM	_	3	dep	_	_	580.900024	581.080017	L2
+5	présentés	présenter	VPP	VPP	_	2	dep	_	_	581.090027	581.690002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-159
+# text = oh c'était un massacre de prolétaires
+1	oh	oh	INT	INT	_	3	dm	_	_	583.190002	583.349976	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	583.510010	583.659973	L2
+3	était	être	VRB	VRB	_	0	root	_	_	583.669983	583.979980	L2
+4	un	un	DET	DET	_	5	spe	_	_	583.989990	584.150024	L2
+5	massacre	massacre	NOM	NOM	_	3	dep	_	_	584.159973	584.700012	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	584.710022	584.840027	L2
+7	prolétaires	prolétaire	NOM	NOM	_	6	dep	_	_	584.849976	585.280029	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-160
+# text = on prenait la crème des prolétaires
+1	on	on	CLS	CLS	_	2	subj	_	_	585.289978	585.659973	L2
+2	prenait	prendre	VRB	VRB	_	0	root	_	_	585.669983	585.900024	L2
+3	la	le	DET	DET	_	4	spe	_	_	585.909973	586.049988	L2
+4	crème	crème	NOM	NOM	_	2	dep	_	_	586.059998	586.429993	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	586.440002	586.539978	L2
+6	prolétaires	prolétaire	NOM	NOM	_	5	dep	_	_	586.549988	587.109985	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-161
+# text = et directement ils avaient tous le bac malgré moi puisque je je ne savais pas enseigner encore
+1	et	et	COO	COO	_	4	mark	_	_	589.190002	589.489990	L2
+2	directement	directement	ADV	ADV	_	4	periph	_	_	589.500000	590.260010	L2
+3	ils	il	CLS	CLS	_	4	subj	_	_	590.270020	590.450012	L2
+4	avaient	avoir	VRB	VRB	_	0	root	_	_	590.460022	590.590027	L2
+5	tous	tout	ADJ	ADJ	_	7	dep	_	_	590.599976	590.849976	L2
+6	le	le	DET	DET	_	7	spe	_	_	590.859985	591.000000	L2
+7	bac	bac	NOM	NOM	_	4	dep	_	_	591.010010	591.260010	L2
+8	malgré	malgré	PRE	PRE	_	4	dep	_	_	591.890015	592.280029	L2
+9	moi	moi	PRO	PRO	_	8	dep	_	_	592.289978	592.630005	L2
+10	puisque	puisque	CSU	CSU	_	4	periph	_	_	593.020020	593.299988	L2
+11	je	je	CLS	CLS	_	14	subj	_	_	593.309998	593.849976	L2
+12	je	je	CLS	CLS	_	11	para	_	_	594.260010	594.450012	L2
+13	ne	ne	CLN	CLN	_	14	dep	_	_	594.460022	594.479980	L2
+14	savais	savoir	VRB	VRB	_	10	dep	_	_	594.489990	594.880005	L2
+15	pas	pas	ADN	ADN	_	14	dep	_	_	594.890015	594.969971	L2
+16	enseigner	enseigner	VNF	VNF	_	14	dep	_	_	594.979980	595.690002	L2
+17	encore	encore	ADV	ADV	_	16	dep	_	_	595.770020	596.059998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-162
+# text = et ensuite les Arts et Métiers
+1	et	et	COO	COO	_	2	mark	_	_	597.179993	597.460022	L2
+2	ensuite	ensuite	ADV	ADV	_	0	root	_	_	597.469971	597.840027	L2
+3	les	le	DET	DET	_	4	spe	_	_	597.849976	598.090027	L2
+4	Arts	art	NOM	NOM	_	2	dep	_	_	598.099976	598.179993	L2
+5	et	et	COO	COO	_	6	mark	_	_	598.190002	598.270020	L2
+6	Métiers	métier	NOM	NOM	_	4	para	_	_	598.280029	598.890015	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-163
+# text = dans la foulée quoi
+1	dans	dans	PRE	PRE	_	0	root	_	_	599.309998	599.460022	L2
+2	la	le	DET	DET	_	3	spe	_	_	599.469971	599.520020	L2
+3	foulée	foulée	NOM	NOM	_	1	dep	_	_	599.530029	599.900024	L2
+4	quoi	quoi	INT	INT	_	3	dm	_	_	600.059998	600.150024	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-164
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	600.969971	601.460022	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-165
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	601.109985	601.429993	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-166
+# text = voilà mes débuts littéraires
+1	voilà	voilà	INT	INT	_	3	dm	_	_	602.630005	602.940002	L2
+2	mes	son	DET	DET	_	3	spe	_	_	602.950012	603.049988	L2
+3	débuts	début	NOM	NOM	_	0	root	_	_	603.059998	603.640015	L2
+4	littéraires	littéraire	ADJ	ADJ	_	3	dep	_	_	604.000000	604.590027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-167
+# text = le vocabulaire très pauvre au départ
+1	le	le	DET	DET	_	2	spe	_	_	605.260010	605.369995	L2
+2	vocabulaire	vocabulaire	NOM	NOM	_	0	root	_	_	605.380005	606.349976	L2
+3	très	très	ADV	ADV	_	4	dep	_	_	606.880005	607.130005	L2
+4	pauvre	pauvre	ADJ	ADJ	_	2	dep	_	_	607.140015	607.479980	L2
+5	au	à+le	PRE	PRE	_	2	dep	_	_	607.489990	607.609985	L2
+6	départ	départ	NOM	NOM	_	5	dep	_	_	607.619995	608.190002	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-168
+# text = ma grand-mère qui était bergère et qui confondait les mots me disait le va me chercher des poivres
+1	ma	son	DET	DET	_	2	spe	_	_	609.460022	609.630005	L2
+2	grand-mère	grand-mère	NOM	NOM	_	4	subj	_	_	609.640015	610.169983	L2
+3	qui	qui	PRQ	PRQ	_	4	dep	_	_	610.179993	610.270020	L2
+4	était	être	VRB	VRB	_	0	root	_	_	610.280029	610.429993	L2
+5	bergère	bergère	NOM	NOM	_	4	dep	_	_	610.440002	610.880005	L2
+6	et	et	COO	COO	_	8	mark	_	_	610.890015	610.969971	L2
+7	qui	qui	PRQ	PRQ	_	8	dep	_	_	611.140015	611.260010	L2
+8	confondait	confondre	VRB	VRB	_	4	para	_	_	611.299988	611.799988	L2
+9	les	le	DET	DET	_	10	spe	_	_	611.809998	611.929993	L2
+10	mots	mot	NOM	NOM	_	8	dep	_	_	611.940002	612.260010	L2
+11	me	me	CLI	CLI	_	12	dep	_	_	612.989990	613.210022	L2
+12	disait	dire	VRB	VRB	_	8	para	_	_	613.219971	613.780029	L2
+13	le	le	CLI	CLI	_	14	dep	_	_	613.789978	614.030029	L2
+14	va	aller	VRB	VRB	_	12	dep	_	_	614.039978	614.150024	L2
+15	me	me	CLI	CLI	_	16	dep	_	_	614.159973	614.289978	L2
+16	chercher	chercher	VNF	VNF	_	14	dep	_	_	614.299988	614.690002	L2
+17	des	de	PRE	PRE	_	16	dep	_	_	614.700012	614.859985	L2
+18	poivres	poivre	NOM	NOM	_	17	dep	_	_	614.869995	615.590027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-169
+# text = moi j'allais chercher du poivre parce que j'étais quand même à l'école
+1	moi	moi	PRO	PRO	_	3	periph	_	_	616.609985	616.750000	L2
+2	j'	je	CLS	CLS	_	3	subj	_	_	616.760010	616.849976	L2
+3	allais	aller	VRB	VRB	_	0	root	_	_	616.859985	616.979980	L2
+4	chercher	chercher	VNF	VNF	_	3	dep	_	_	616.989990	617.429993	L2
+5	du	de+le	PRE	PRE	_	4	dep	_	_	617.440002	617.690002	L2
+6	poivre	poivre	NOM	NOM	_	5	dep	_	_	617.700012	618.320007	L2
+7	parce que	parce que	CSU	CSU	_	4	dep	_	_	618.530029	618.880005	L2
+8	j'	je	CLS	CLS	_	9	subj	_	_	618.890015	618.969971	L2
+9	étais	être	VRB	VRB	_	7	dep	_	_	619.010010	619.179993	L2
+10	quand	quand	CSU	CSU	_	9	dep	_	_	619.190002	619.309998	L2
+11	même	même	ADV	ADV	_	12	dep	_	_	619.320007	619.489990	L2
+12	à	à	PRE	PRE	_	10	dep	_	_	619.500000	619.549988	L2
+13	l'	le	DET	DET	_	14	spe	_	_	619.559998	619.580017	L2
+14	école	école	NOM	NOM	_	12	dep	_	_	619.590027	619.789978	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-170
+# text = je savais distinguer le poivre euh du sel
+1	je	je	CLS	CLS	_	2	subj	_	_	619.799988	619.940002	L2
+2	savais	savoir	VRB	VRB	_	0	root	_	_	619.950012	620.109985	L2
+3	distinguer	distinguer	VNF	VNF	_	2	dep	_	_	620.119995	620.539978	L2
+4	le	le	DET	DET	_	5	spe	_	_	620.549988	620.640015	L2
+5	poivre	poivre	NOM	NOM	_	3	dep	_	_	620.650024	621.489990	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	621.500000	621.530029	L2
+7	du	de+le	PRE	PRE	_	3	dep	_	_	621.539978	621.700012	L2
+8	sel	sel	NOM	NOM	_	7	dep	_	_	621.710022	621.929993	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-171
+# text = mais non je t'ai demandé des poivres elle me dit elle voulait penser des poireaux
+1	mais	mais	COO	COO	_	6	mark	_	_	622.840027	623.010010	L2
+2	non	non	INT	INT	_	1	dm	_	_	623.020020	623.289978	L2
+3	je	je	CLS	CLS	_	6	subj	_	_	623.299988	623.330017	L2
+4	t'	te	CLI	CLI	_	6	dep	_	_	623.340027	623.369995	L2
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	623.380005	623.450012	L2
+6	demandé	demander	VPP	VPP	_	11	periph	_	_	623.460022	623.789978	L2
+7	des	de	PRE	PRE	_	6	dep	_	_	623.799988	623.969971	L2
+8	poivres	poivre	NOM	NOM	_	7	dep	_	_	623.979980	624.340027	L2
+9	elle	il	CLS	CLS	_	11	subj	_	_	624.349976	624.429993	L2
+10	me	me	CLI	CLI	_	11	dep	_	_	624.440002	624.479980	L2
+11	dit	dire	VRB	VRB	_	0	root	_	_	624.489990	624.869995	L2
+12	elle	il	CLS	CLS	_	13	subj	_	_	624.880005	625.000000	L2
+13	voulait	vouloir	VRB	VRB	_	11	dep	_	_	625.010010	625.210022	L2
+14	penser	penser	VNF	VNF	_	13	dep	_	_	625.219971	625.669983	L2
+15	des	de	PRE	PRE	_	14	dep	_	_	625.739990	625.869995	L2
+16	poireaux	poireau	NOM	NOM	_	15	dep	_	_	625.950012	626.400024	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-172
+# text = alors vous voyez c'est
+1	alors	alors	ADV	ADV	_	3	periph	_	_	628.530029	628.780029	L2
+2	vous	vous	CLS	CLS	_	3	subj	_	_	628.789978	628.840027	L2
+3	voyez	voir	VRB	VRB	_	0	root	_	_	628.849976	629.090027	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	629.099976	629.119995	L2
+5	est	être	VRB	VRB	_	3	para	_	_	629.130005	629.340027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-173
+# text = j'étais pas très aidé sur le plan familial par le le vocabulaire euh parlé
+1	j'	je	CLS	CLS	_	5	subj	_	_	629.349976	629.450012	L2
+2	étais	être	VRB	VRB	_	5	aux	_	_	629.460022	629.659973	L2
+3	pas	pas	ADN	ADN	_	5	dep	_	_	629.669983	629.820007	L2
+4	très	très	ADV	ADV	_	5	dep	_	_	629.830017	630.059998	L2
+5	aidé	aider	VPP	VPP	_	0	root	_	_	630.070007	630.719971	L2
+6	sur	sur	PRE	PRE	_	5	dep	_	_	630.849976	631.020020	L2
+7	le	le	DET	DET	_	8	spe	_	_	631.030029	631.049988	L2
+8	plan	plan	NOM	NOM	_	6	dep	_	_	631.140015	631.539978	L2
+9	familial	familial	ADJ	ADJ	_	8	dep	_	_	631.580017	632.200012	L2
+10	par	par	PRE	PRE	_	6	para	_	_	632.210022	632.500000	L2
+11	le	le	DET	DET	_	13	spe	_	_	632.510010	633.159973	L2
+12	le	le	DET	DET	_	11	para	_	_	633.450012	633.520020	L2
+13	vocabulaire	vocabulaire	NOM	NOM	_	10	dep	_	_	633.530029	634.719971	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	634.729980	634.750000	L2
+15	parlé	parler	VPP	VPP	_	13	dep	_	_	634.890015	635.270020	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-174
+# text = mais c'est parce qu'elle parlait une autre langue votre grand-mère
+1	mais	mais	COO	COO	_	3	mark	_	_	637.299988	637.409973	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	637.510010	637.530029	L1
+3	est	être	VRB	VRB	_	0	root	_	_	637.539978	638.530029	L1
+4	parce qu'	parce que	CSU	CSU	_	3	dep	_	_	638.539978	638.770020	L1
+5	elle	il	CLS	CLS	_	6	subj	_	_	638.780029	638.890015	L1
+6	parlait	parler	VRB	VRB	_	4	dep	_	_	638.900024	639.119995	L1
+7	une	un	DET	DET	_	9	spe	_	_	639.130005	639.270020	L1
+8	autre	autre	ADJ	ADJ	_	9	dep	_	_	639.280029	639.450012	L1
+9	langue	langue	NOM	NOM	_	6	dep	_	_	639.460022	639.710022	L1
+10	votre	son	DET	DET	_	11	spe	_	_	639.770020	640.099976	L1
+11	grand-mère	grand-mère	NOM	NOM	_	9	para	_	_	640.169983	640.409973	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-175
+# text = ou elle parlait que français
+1	ou	ou	COO	COO	_	3	mark	_	_	640.419983	640.440002	L1
+2	elle	il	CLS	CLS	_	3	subj	_	_	640.900024	641.140015	L1
+3	parlait	parler	VRB	VRB	_	0	root	_	_	641.150024	641.380005	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	641.390015	641.409973	L1
+5	français	français	NOM	NOM	_	4	dep	_	_	641.419983	642.140015	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-176
+# text = bon je me suis rattrapé on parlait
+1	bon	bon	INT	INT	_	5	dm	_	_	637.340027	637.710022	L2
+2	je	je	CLS	CLS	_	5	subj	_	_	637.719971	638.020020	L2
+3	me	me	CLI	CLI	_	5	dep	_	_	638.030029	638.510010	L2
+4	suis	être	VRB	VRB	_	5	aux	_	_	638.640015	638.869995	L2
+5	rattrapé	rattraper	VPP	VPP	_	0	root	_	_	638.880005	639.250000	L2
+6	on	on	CLS	CLS	_	7	subj	_	_	639.429993	639.710022	L2
+7	parlait	parler	VRB	VRB	_	5	dm	_	_	641.109985	642.140015	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-177
+# text = on parlait souvent gascon à la maison
+1	on	on	CLS	CLS	_	2	subj	_	_	643.010010	643.130005	L2
+2	parlait	parler	VRB	VRB	_	0	root	_	_	643.140015	643.349976	L2
+3	souvent	souvent	ADV	ADV	_	2	dep	_	_	643.359985	643.640015	L2
+4	gascon	gascon	NOM	NOM	_	2	dep	_	_	643.650024	644.369995	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	644.380005	644.400024	L2
+6	la	le	DET	DET	_	7	spe	_	_	644.409973	644.479980	L2
+7	maison	maison	NOM	NOM	_	5	dep	_	_	644.489990	644.900024	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-178
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	644.099976	644.650024	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	644.710022	644.869995	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-179
+# text = Bayonne
+1	Bayonne	Bayonne	NOM	NOM	_	0	root	_	_	647.119995	647.950012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-180
+# text = contrairement à ce que disent les basques est une ville gasconne
+1	contrairement	contrairement	ADV	ADV	_	0	root	_	_	647.960022	648.570007	L2
+2	à	à	PRE	PRE	_	1	dep	_	_	648.580017	648.619995	L2
+3	ce	ce	PRO	PRO	_	2	dep	_	_	648.700012	648.869995	L2
+4	que	que	PRQ	PRQ	_	5	dep	_	_	648.880005	649.070007	L2
+5	disent	dire	VRB	VRB	_	3	dep	_	_	649.080017	649.320007	L2
+6	les	le	DET	DET	_	7	spe	_	_	649.330017	649.450012	L2
+7	basques	basque	NOM	NOM	_	5	dep	_	_	649.460022	649.919983	L2
+8	est	être	VRB	VRB	_	5	dep	_	_	649.929993	650.090027	L2
+9	une	un	DET	DET	_	10	spe	_	_	650.099976	650.219971	L2
+10	ville	ville	NOM	NOM	_	8	dep	_	_	650.229980	650.440002	L2
+11	gasconne	gascon	ADJ	ADJ	_	10	dep	_	_	650.450012	650.929993	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-181
+# text = aux élections ils ont euh entre un et demi et trois pour cent des voix
+1	aux	à+le	PRE	PRE	_	4	periph	_	_	652.169983	652.330017	L2
+2	élections	élection	NOM	NOM	_	1	dep	_	_	652.340027	653.140015	L2
+3	ils	il	CLS	CLS	_	4	subj	_	_	653.150024	653.280029	L2
+4	ont	avoir	VRB	VRB	_	0	root	_	_	653.289978	653.789978	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	653.799988	653.840027	L2
+6	entre	entre	PRE	PRE	_	4	dep	_	_	654.429993	654.880005	L2
+7	un	un	DET	DET	_	6	dep	_	_	654.940002	655.070007	L2
+8	et	et	COO	COO	_	9	mark	_	_	655.080017	655.159973	L2
+9	demi	demi	ADJ	ADJ	_	7	para	_	_	655.169983	655.409973	L2
+10	et	et	COO	COO	_	11	mark	_	_	655.419983	655.659973	L2
+11	trois	trois	NUM	NUM	_	6	para	_	_	655.669983	655.859985	L2
+12	pour	pour	PRE	PRE	_	11	dep	_	_	655.869995	656.000000	L2
+13	cent	cent	NUM	NUM	_	12	dep	_	_	656.010010	656.169983	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	656.179993	656.280029	L2
+15	voix	voix	NOM	NOM	_	14	dep	_	_	656.289978	656.599976	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-182
+# text = or il y a des chansons que je chantais quand j'avais dix ans pour les fêtes de Bayonne qu'a-~
+1	or	or	COO	COO	_	4	mark	_	_	658.070007	658.219971	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	658.229980	658.299988	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	658.309998	658.330017	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	658.340027	658.429993	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	658.440002	658.500000	L2
+6	chansons	chanson	NOM	NOM	_	5	dep	_	_	658.510010	659.200012	L2
+7	que	que	PRQ	PRQ	_	9	dep	_	_	659.599976	659.679993	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	659.690002	659.859985	L2
+9	chantais	chanter	VRB	VRB	_	6	dep	_	_	659.869995	660.229980	L2
+10	quand	quand	CSU	CSU	_	9	dep	_	_	660.239990	660.359985	L2
+11	j'	je	CLS	CLS	_	12	subj	_	_	660.369995	660.460022	L2
+12	avais	avoir	VRB	VRB	_	10	dep	_	_	660.469971	660.580017	L2
+13	dix	dix	NUM	NUM	_	14	spe	_	_	660.590027	660.869995	L2
+14	ans	an	NOM	NOM	_	12	dep	_	_	660.880005	661.099976	L2
+15	pour	pour	PRE	PRE	_	12	dep	_	_	661.109985	661.219971	L2
+16	les	le	DET	DET	_	17	spe	_	_	661.229980	661.280029	L2
+17	fêtes	fête	NOM	NOM	_	15	dep	_	_	661.289978	661.590027	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	661.599976	661.630005	L2
+19	Bayonne	Bayonne	NOM	NOM	_	18	dep	_	_	661.640015	662.200012	L2
+20	qu'	que	PRQ	PRQ	_	21	dep	_	_	662.210022	662.330017	L2
+21	a-~	a-~	VRB	VRB	_	19	dep	_	_	662.340027	662.369995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-183
+# text = qu'avait fait un chanoine local
+1	qu'	que	CSU	CSU	_	0	root	_	_	662.380005	662.530029	L2
+2	avait	avoir	VRB	VRB	_	3	aux	_	_	662.539978	662.700012	L2
+3	fait	faire	VPP	VPP	_	1	dep	_	_	662.710022	662.859985	L2
+4	un	un	DET	DET	_	5	spe	_	_	662.869995	663.059998	L2
+5	chanoine	chanoine	NOM	NOM	_	3	dep	_	_	663.070007	663.739990	L2
+6	local	local	ADJ	ADJ	_	5	dep	_	_	664.260010	664.669983	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-184
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	661.900024	662.270020	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	662.520020	663.090027	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-185
+# text = prés de la prés de l'Adour
+1	prés	pré	NOM	NOM	_	0	root	_	_	667.510010	668.539978	L2
+2	de	de	PRE	PRE	_	1	dep	_	_	668.549988	668.690002	L2
+3	la	le	DET	DET	_	4	spe	_	_	668.960022	669.179993	L2
+4	prés	pré	NOM	NOM	_	2	dep	_	_	669.820007	670.909973	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	671.609985	672.400024	L2
+6	l'	le	DET	DET	_	7	spe	_	_	672.590027	673.140015	L2
+7	Adour	Adour	NOM	NOM	_	5	dep	_	_	673.640015	674.969971	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-186
+# text = à la faconde gasconne charmante et gracieuse cité où respire la liberté voilà
+1	à	à	PRE	PRE	_	0	root	_	_	675.520020	675.669983	L2
+2	la	le	DET	DET	_	3	spe	_	_	675.679993	675.929993	L2
+3	faconde	faconde	NOM	NOM	_	1	dep	_	_	675.940002	676.869995	L2
+4	gasconne	gascon	NOM	NOM	_	3	dep	_	_	679.260010	680.570007	L2
+5	charmante	charmant	ADJ	ADJ	_	4	dep	_	_	681.270020	681.969971	L2
+6	et	et	COO	COO	_	7	mark	_	_	681.979980	682.140015	L2
+7	gracieuse	gracieux	ADJ	ADJ	_	5	para	_	_	682.150024	683.299988	L2
+8	cité	cité	NOM	NOM	_	7	dep	_	_	684.049988	685.099976	L2
+9	où	où	PRQ	PRQ	_	10	dep	_	_	685.739990	685.909973	L2
+10	respire	respirer	VRB	VRB	_	8	dep	_	_	685.919983	686.400024	L2
+11	la	le	DET	DET	_	12	spe	_	_	686.409973	686.549988	L2
+12	liberté	liberté	NOM	NOM	_	10	dep	_	_	686.679993	687.500000	L2
+13	voilà	voilà	INT	INT	_	12	dm	_	_	688.190002	688.479980	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-187
+# text = ce qu'on chantait en mille neuf cent trente-cinq au moment des premières fêtes de Bayonne
+1	ce	ce	PRO	PRO	_	0	root	_	_	688.489990	688.570007	L2
+2	qu'	que	PRQ	PRQ	_	4	dep	_	_	688.580017	688.599976	L2
+3	on	on	CLS	CLS	_	4	subj	_	_	688.609985	688.719971	L2
+4	chantait	chanter	VRB	VRB	_	1	dep	_	_	688.729980	689.289978	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	689.299988	689.320007	L2
+6	mille	mille	NUM	NUM	_	5	dep	_	_	689.330017	689.960022	L2
+7	neuf	neuf	NUM	NUM	_	6	dep	_	_	690.039978	690.260010	L2
+8	cent	cent	NUM	NUM	_	7	dep	_	_	690.270020	690.479980	L2
+9	trente-cinq	trente-cinq	NUM	NUM	_	8	dep	_	_	690.489990	691.000000	L2
+10	au	à+le	PRE	PRE	_	4	dep	_	_	691.229980	691.260010	L2
+11	moment	moment	NOM	NOM	_	10	dep	_	_	691.270020	691.489990	L2
+12	des	de	PRE	PRE	_	4	dep	_	_	691.500000	691.580017	L2
+13	premières	premier	ADJ	ADJ	_	14	dep	_	_	691.590027	691.900024	L2
+14	fêtes	fête	NOM	NOM	_	12	dep	_	_	691.909973	692.039978	L2
+15	de	de	PRE	PRE	_	14	dep	_	_	692.049988	692.190002	L2
+16	Bayonne	Bayonne	NOM	NOM	_	15	dep	_	_	692.200012	692.510010	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-188
+# text = les basques ont commencé à à se remuer beaucoup plus tard avec l'arrivée des réfugiés espagnols
+1	les	le	DET	DET	_	2	spe	_	_	693.580017	693.859985	L2
+2	basques	basque	NOM	NOM	_	4	subj	_	_	693.869995	694.559998	L2
+3	ont	avoir	VRB	VRB	_	4	aux	_	_	694.570007	694.760010	L2
+4	commencé	commencer	VPP	VPP	_	0	root	_	_	694.770020	695.429993	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	695.440002	695.909973	L2
+6	à	à	PRE	PRE	_	5	para	_	_	698.109985	698.299988	L2
+7	se	se	CLI	CLI	_	8	dep	_	_	698.309998	698.530029	L2
+8	remuer	remuer	VNF	VNF	_	6	dep	_	_	698.539978	699.280029	L2
+9	beaucoup	beaucoup	ADV	ADV	_	10	dep	_	_	699.289978	699.729980	L2
+10	plus	plus	ADV	ADV	_	11	dep	_	_	699.739990	699.880005	L2
+11	tard	tard	ADV	ADV	_	8	dep	_	_	699.940002	700.359985	L2
+12	avec	avec	PRE	PRE	_	8	dep	_	_	700.690002	700.919983	L2
+13	l'	le	DET	DET	_	14	spe	_	_	700.929993	701.039978	L2
+14	arrivée	arrivée	NOM	NOM	_	12	dep	_	_	701.049988	701.559998	L2
+15	des	de	PRE	PRE	_	14	dep	_	_	701.570007	701.690002	L2
+16	réfugiés	réfugié	NOM	NOM	_	15	dep	_	_	701.700012	702.090027	L2
+17	espagnols	espagnol	ADJ	ADJ	_	16	dep	_	_	702.099976	702.630005	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-189
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	702.729980	702.809998	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	703.020020	703.109985	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-190
+# text = j'avais en classe des deux espagnols
+1	j'	je	CLS	CLS	_	2	subj	_	_	704.090027	704.210022	L2
+2	avais	avoir	VRB	VRB	_	0	root	_	_	704.219971	704.409973	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	704.419983	704.580017	L2
+4	classe	classe	NOM	NOM	_	3	dep	_	_	704.590027	705.010010	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	705.020020	705.520020	L2
+6	deux	deux	NUM	NUM	_	7	spe	_	_	705.900024	706.190002	L2
+7	espagnols	espagnol	NOM	NOM	_	5	dep	_	_	706.200012	706.830017	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-191
+# text = qui avaient appris la langue à toute vitesse qui étaient devant nous à l'école en français
+1	qui	qui	PRQ	PRQ	_	3	dep	_	_	708.250000	708.719971	L2
+2	avaient	avoir	VRB	VRB	_	3	aux	_	_	708.729980	709.010010	L2
+3	appris	apprendre	VPP	VPP	_	0	root	_	_	709.020020	709.260010	L2
+4	la	le	DET	DET	_	5	spe	_	_	709.270020	709.400024	L2
+5	langue	langue	NOM	NOM	_	3	dep	_	_	709.409973	709.630005	L2
+6	à	à	PRE	PRE	_	5	dep	_	_	709.640015	709.679993	L2
+7	toute	tout	ADJ	ADJ	_	8	dep	_	_	709.690002	709.950012	L2
+8	vitesse	vitesse	NOM	NOM	_	6	dep	_	_	709.960022	710.369995	L2
+9	qui	qui	PRQ	PRQ	_	10	subj	_	_	710.380005	710.570007	L2
+10	étaient	être	VRB	VRB	_	8	dep	_	_	710.580017	710.780029	L2
+11	devant	devant	PRE	PRE	_	10	dep	_	_	710.789978	711.340027	L2
+12	nous	moi	PRO	PRO	_	11	dep	_	_	711.349976	711.530029	L2
+13	à	à	PRE	PRE	_	10	dep	_	_	712.260010	712.320007	L2
+14	l'	le	DET	DET	_	15	spe	_	_	712.330017	712.369995	L2
+15	école	école	NOM	NOM	_	13	dep	_	_	712.380005	712.900024	L2
+16	en	en	PRE	PRE	_	15	dep	_	_	713.260010	713.460022	L2
+17	français	français	NOM	NOM	_	16	dep	_	_	713.469971	714.369995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-192
+# text = même elle rit elle est comme ça
+1	même	même	ADV	ADV	_	3	periph	_	_	714.440002	714.760010	L2
+2	elle	il	CLS	CLS	_	3	subj	_	_	716.890015	717.210022	L2
+3	rit	rire	VRB	VRB	_	0	root	_	_	717.219971	717.270020	L2
+4	elle	il	CLS	CLS	_	5	subj	_	_	717.280029	717.590027	L2
+5	est	être	VRB	VRB	_	3	para	_	_	718.030029	718.950012	L2
+6	comme	comme	PRE	PRE	_	5	dep	_	_	718.960022	719.159973	L2
+7	ça	ça	PRO	PRO	_	6	dep	_	_	719.169983	719.520020	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-193
+# text = bon et puis je l'ai retrouvé cinquante ans après ce garçon
+1	bon	bon	INT	INT	_	6	dm	_	_	719.900024	720.349976	L2
+2	et puis	et puis	COO	COO	_	6	mark	_	_	720.409973	721.690002	L2
+3	je	je	CLS	CLS	_	6	subj	_	_	722.450012	722.559998	L2
+4	l'	le	CLI	CLI	_	6	dep	_	_	722.570007	722.590027	L2
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	722.599976	722.619995	L2
+6	retrouvé	retrouver	VPP	VPP	_	0	root	_	_	722.630005	723.099976	L2
+7	cinquante	cinquante	NUM	NUM	_	8	spe	_	_	723.109985	723.539978	L2
+8	ans	an	NOM	NOM	_	6	dep	_	_	723.549988	723.710022	L2
+9	après	après	PRE	PRE	_	6	dep	_	_	723.719971	723.929993	L2
+10	ce	ce	DET	DET	_	11	spe	_	_	723.940002	724.059998	L2
+11	garçon	garçon	NOM	NOM	_	9	dep	_	_	724.070007	724.530029	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-194
+# text = puis il il est mort brusquement
+1	puis	puis	COO	COO	_	5	mark	_	_	725.119995	725.280029	L2
+2	il	il	CLS	CLS	_	5	subj	_	_	725.289978	725.590027	L2
+3	il	il	CLS	CLS	_	2	para	_	_	725.599976	725.729980	L2
+4	est	être	VRB	VRB	_	5	aux	_	_	725.739990	725.780029	L2
+5	mort	mourir	VPP	VPP	_	0	root	_	_	725.789978	726.030029	L2
+6	brusquement	brusquement	ADV	ADV	_	5	dep	_	_	726.039978	726.659973	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-195
+# text = alors j'avais repris des cours d'espagnol avec lui parce qu'il en donnait à Bayonne
+1	alors	alors	ADV	ADV	_	4	periph	_	_	727.390015	727.549988	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	727.559998	727.679993	L2
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	727.690002	727.820007	L2
+4	repris	reprendre	VPP	VPP	_	0	root	_	_	727.830017	728.109985	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	728.119995	728.200012	L2
+6	cours	cour	NOM	NOM	_	5	dep	_	_	728.210022	728.349976	L2
+7	d'	de	PRE	PRE	_	6	dep	_	_	728.359985	728.419983	L2
+8	espagnol	espagnol	NOM	NOM	_	7	dep	_	_	728.429993	728.830017	L2
+9	avec	avec	PRE	PRE	_	6	dep	_	_	728.840027	729.020020	L2
+10	lui	moi	PRO	PRO	_	9	dep	_	_	729.030029	729.119995	L2
+11	parce qu'	parce que	CSU	CSU	_	4	dep	_	_	729.130005	729.299988	L2
+12	il	il	CLS	CLS	_	14	subj	_	_	729.309998	729.429993	L2
+13	en	en	CLI	CLI	_	14	dep	_	_	729.440002	729.549988	L2
+14	donnait	donner	VRB	VRB	_	11	dep	_	_	729.559998	729.799988	L2
+15	à	à	PRE	PRE	_	14	dep	_	_	729.809998	729.979980	L2
+16	Bayonne	Bayonne	NOM	NOM	_	15	dep	_	_	729.989990	730.320007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-196
+# text = c'était rigolo
+1	c'	ce	CLS	CLS	_	2	subj	_	_	730.330017	730.349976	L2
+2	était	être	VRB	VRB	_	0	root	_	_	730.359985	730.679993	L2
+3	rigolo	rigolo	NOM	NOM	_	2	dep	_	_	730.940002	731.299988	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-197
+# text = alors
+1	alors	alors	ADV	ADV	_	0	root	_	_	732.140015	732.409973	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-198
+# text = ces ces réfugiés espagnols
+1	ces	ce	DET	DET	_	3	spe	_	_	732.419983	732.690002	L2
+2	ces	ce	DET	DET	_	1	para	_	_	732.750000	732.940002	L2
+3	réfugiés	réfugié	NOM	NOM	_	0	root	_	_	732.950012	733.369995	L2
+4	espagnols	espagnol	ADJ	ADJ	_	3	dep	_	_	733.380005	733.760010	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-199
+# text = dont beaucoup des basques nous ont amené euh la danse
+1	dont	dont	PRQ	PRQ	_	7	dep	_	_	733.770020	733.820007	L2
+2	beaucoup	beaucoup	PRO	PRO	_	1	dep	_	_	733.909973	734.489990	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	734.500000	734.609985	L2
+4	basques	basque	NOM	NOM	_	3	dep	_	_	734.619995	734.969971	L2
+5	nous	nous	CLS	CLS	_	7	subj	_	_	735.049988	735.229980	L2
+6	ont	avoir	VRB	VRB	_	7	aux	_	_	735.239990	735.390015	L2
+7	amené	amener	VPP	VPP	_	0	root	_	_	735.400024	735.950012	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	736.729980	737.219971	L2
+9	la	le	DET	DET	_	10	spe	_	_	737.229980	737.400024	L2
+10	danse	danse	NOM	NOM	_	7	dep	_	_	737.409973	737.979980	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-200
+# text = les chants euh
+1	les	le	DET	DET	_	2	spe	_	_	738.179993	738.289978	L2
+2	chants	chant	NOM	NOM	_	0	root	_	_	738.299988	738.880005	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	739.570007	740.150024	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-201
+# text = moi je me suis inscrit parce que les curés au patronage étaient basques
+1	moi	moi	PRO	PRO	_	5	periph	_	_	740.650024	740.880005	L2
+2	je	je	CLS	CLS	_	5	subj	_	_	740.890015	740.979980	L2
+3	me	me	CLI	CLI	_	5	dep	_	_	740.989990	741.090027	L2
+4	suis	être	VRB	VRB	_	5	aux	_	_	741.099976	741.409973	L2
+5	inscrit	inscrire	VPP	VPP	_	0	root	_	_	741.419983	741.929993	L2
+6	parce que	parce que	CSU	CSU	_	5	dep	_	_	741.940002	742.349976	L2
+7	les	le	DET	DET	_	8	spe	_	_	742.729980	742.969971	L2
+8	curés	curé	NOM	NOM	_	11	subj	_	_	742.979980	743.330017	L2
+9	au	à+le	PRE	PRE	_	8	dep	_	_	743.340027	743.409973	L2
+10	patronage	patronage	NOM	NOM	_	9	dep	_	_	743.419983	743.940002	L2
+11	étaient	être	VRB	VRB	_	6	dep	_	_	744.210022	744.369995	L2
+12	basques	basque	ADJ	ADJ	_	11	dep	_	_	744.380005	744.719971	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-202
+# text = les instituteurs ils étaient basques
+1	les	le	DET	DET	_	2	spe	_	_	745.799988	746.070007	L2
+2	instituteurs	instituteur	NOM	NOM	_	4	periph	_	_	746.080017	746.869995	L2
+3	ils	il	CLS	CLS	_	4	subj	_	_	746.979980	747.090027	L2
+4	étaient	être	VRB	VRB	_	0	root	_	_	747.099976	747.289978	L2
+5	basques	basque	ADJ	ADJ	_	4	dep	_	_	747.299988	747.599976	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-203
+# text = donc ils nous faisaient chanter en basque sans nous donner la traduction comme en latin sans nous donner la traduction
+1	donc	donc	ADV	ADV	_	4	periph	_	_	748.479980	749.000000	L2
+2	ils	il	CLS	CLS	_	4	subj	_	_	749.469971	749.559998	L2
+3	nous	nous	CLI	CLI	_	4	dep	_	_	749.570007	749.700012	L2
+4	faisaient	faire	VRB	VRB	_	0	root	_	_	749.710022	750.190002	L2
+5	chanter	chanter	VNF	VNF	_	4	dep	_	_	750.479980	751.000000	L2
+6	en	en	PRE	PRE	_	5	dep	_	_	751.010010	751.130005	L2
+7	basque	basque	NOM	NOM	_	6	dep	_	_	751.140015	751.539978	L2
+8	sans	sans	PRE	PRE	_	5	dep	_	_	752.070007	752.340027	L2
+9	nous	nous	CLI	CLI	_	10	dep	_	_	752.349976	752.460022	L2
+10	donner	donner	VNF	VNF	_	8	dep	_	_	752.469971	752.700012	L2
+11	la	le	DET	DET	_	12	spe	_	_	752.710022	752.770020	L2
+12	traduction	traduction	NOM	NOM	_	10	dep	_	_	752.780029	753.359985	L2
+13	comme	comme	PRE	PRE	_	10	dep	_	_	753.369995	753.520020	L2
+14	en	en	PRE	PRE	_	13	dep	_	_	753.530029	753.630005	L2
+15	latin	latin	NOM	NOM	_	14	dep	_	_	753.640015	754.070007	L2
+16	sans	sans	PRE	PRE	_	10	dep	_	_	754.080017	754.280029	L2
+17	nous	nous	CLI	CLI	_	18	dep	_	_	754.289978	754.400024	L2
+18	donner	donner	VNF	VNF	_	16	dep	_	_	754.409973	754.599976	L2
+19	la	le	DET	DET	_	20	spe	_	_	754.609985	754.679993	L2
+20	traduction	traduction	NOM	NOM	_	18	dep	_	_	754.690002	755.159973	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-204
+# text = chantait latin
+1	chantait	chanter	VRB	VRB	_	0	root	_	_	755.169983	755.450012	L2
+2	latin	latin	ADJ	ADJ	_	1	dep	_	_	755.460022	755.849976	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-205
+# text = c'était malin ça bon
+1	c'	ce	CLS	CLS	_	2	subj	_	_	756.270020	756.330017	L2
+2	était	être	VRB	VRB	_	0	root	_	_	756.340027	756.489990	L2
+3	malin	malin	ADJ	ADJ	_	2	dep	_	_	756.500000	757.000000	L2
+4	ça	ça	PRO	PRO	_	2	dep	_	_	757.010010	757.229980	L2
+5	bon	bon	INT	INT	_	4	dm	_	_	757.549988	757.719971	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-206
+# text = et puis j'ai fait partie du groupe des Bastalai avec appris le Flamenco et caetera du côté de Barcelone
+1	et puis	et puis	COO	COO	_	4	mark	_	_	758.280029	758.890015	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	758.900024	758.940002	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	758.950012	759.000000	L2
+4	fait	faire	VPP	VPP	_	0	root	_	_	759.010010	759.159973	L2
+5	partie	partie	NOM	NOM	_	4	dep	_	_	759.169983	759.419983	L2
+6	du	de+le	PRE	PRE	_	5	dep	_	_	759.429993	759.520020	L2
+7	groupe	groupe	NOM	NOM	_	6	dep	_	_	759.530029	759.710022	L2
+8	des	de	PRE	PRE	_	5	dep	_	_	759.760010	759.830017	L2
+9	Bastalai	Bastalai	NOM	NOM	_	8	dep	_	_	759.840027	760.520020	L2
+10	avec	avec	PRE	PRE	_	4	dep	_	_	760.619995	761.280029	L2
+11	appris	apprendre	VPP	VPP	_	10	dep	_	_	761.599976	761.809998	L2
+12	le	le	DET	DET	_	13	spe	_	_	761.820007	762.010010	L2
+13	Flamenco	flamenco	NOM	NOM	_	11	dep	_	_	762.020020	762.840027	L2
+14	et caetera	et caetera	ADV	ADV	_	4	dep	_	_	762.890015	764.640015	L2
+15	du	de+le	PRE	PRE	_	4	dep	_	_	765.440002	765.520020	L2
+16	côté	côté	NOM	NOM	_	15	dep	_	_	765.530029	765.690002	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	765.700012	765.799988	L2
+18	Barcelone	Barcelone	NOM	NOM	_	17	dep	_	_	765.809998	766.239990	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-207
+# text = j'ai appris la Sardanne après
+1	j'	je	CLS	CLS	_	3	subj	_	_	766.250000	766.340027	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	766.349976	766.369995	L2
+3	appris	apprendre	VPP	VPP	_	0	root	_	_	766.380005	766.549988	L2
+4	la	le	DET	DET	_	5	spe	_	_	766.559998	766.669983	L2
+5	Sardanne	Sardanne	NOM	NOM	_	3	dep	_	_	766.679993	767.059998	L2
+6	après	après	PRE	PRE	_	3	dep	_	_	767.330017	767.450012	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-208
+# text = quand quand j'ai fait des cures par là à Barcelone aussi
+1	quand	quand	CSU	CSU	_	0	root	_	_	768.080017	768.270020	L2
+2	quand	quand	CSU	CSU	_	1	para	_	_	768.280029	768.460022	L2
+3	j'	je	CLS	CLS	_	5	subj	_	_	768.469971	768.539978	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	768.549988	768.640015	L2
+5	fait	faire	VPP	VPP	_	2	dep	_	_	768.650024	768.760010	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	768.770020	768.919983	L2
+7	cures	cure	NOM	NOM	_	6	dep	_	_	768.929993	769.200012	L2
+8	par	par	PRE	PRE	_	5	dep	_	_	769.210022	769.409973	L2
+9	là	là	ADV	ADV	_	8	dep	_	_	769.419983	769.520020	L2
+10	à	à	PRE	PRE	_	5	dep	_	_	770.260010	770.280029	L2
+11	Barcelone	Barcelone	NOM	NOM	_	10	dep	_	_	770.400024	770.869995	L2
+12	aussi	aussi	ADV	ADV	_	5	dep	_	_	770.950012	771.049988	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-209
+# text = voilà alors euh je vous dis euh un peu sur la langue
+1	voilà	voilà	INT	INT	_	6	dm	_	_	771.830017	772.239990	L2
+2	alors	alors	ADV	ADV	_	6	periph	_	_	772.250000	772.719971	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	772.729980	772.900024	L2
+4	je	je	CLS	CLS	_	6	subj	_	_	773.250000	773.429993	L2
+5	vous	vous	CLI	CLI	_	6	dep	_	_	773.440002	773.530029	L2
+6	dis	dire	VRB	VRB	_	0	root	_	_	773.539978	774.229980	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	774.359985	774.549988	L2
+8	un peu	un peu	ADV	ADV	_	6	dep	_	_	774.559998	774.979980	L2
+9	sur	sur	PRE	PRE	_	6	dep	_	_	774.989990	775.190002	L2
+10	la	le	DET	DET	_	11	spe	_	_	775.200012	775.289978	L2
+11	langue	langue	NOM	NOM	_	9	dep	_	_	775.299988	775.729980	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-210
+# text = mais euh je trouve absurde de de faire parler des gosses en latin de faire parler des gosses euh en basque euh de chanter en basque
+1	mais	mais	COO	COO	_	4	mark	_	_	775.739990	775.940002	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	777.640015	777.719971	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	777.729980	778.250000	L2
+4	trouve	trouver	VRB	VRB	_	0	root	_	_	778.260010	778.539978	L2
+5	absurde	absurde	ADJ	ADJ	_	4	dep	_	_	778.549988	779.229980	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	779.239990	779.500000	L2
+7	de	de	PRE	PRE	_	6	para	_	_	779.510010	779.619995	L2
+8	faire	faire	VNF	VNF	_	7	dep	_	_	779.630005	779.969971	L2
+9	parler	parler	VNF	VNF	_	8	dep	_	_	779.979980	780.270020	L2
+10	des	de	PRE	PRE	_	9	dep	_	_	780.280029	780.349976	L2
+11	gosses	gosse	NOM	NOM	_	10	dep	_	_	780.359985	780.729980	L2
+12	en	en	PRE	PRE	_	9	dep	_	_	780.739990	780.809998	L2
+13	latin	latin	NOM	NOM	_	12	dep	_	_	780.820007	781.250000	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	781.859985	781.900024	L2
+15	faire	faire	VNF	VNF	_	14	dep	_	_	781.909973	782.179993	L2
+16	parler	parler	VNF	VNF	_	15	dep	_	_	782.190002	782.520020	L2
+17	des	de	PRE	PRE	_	16	dep	_	_	782.530029	782.679993	L2
+18	gosses	gosse	NOM	NOM	_	17	dep	_	_	782.690002	783.380005	L2
+19	euh	euh	INT	INT	_	18	dm	_	_	783.390015	783.419983	L2
+20	en	en	PRE	PRE	_	16	dep	_	_	783.950012	783.989990	L2
+21	basque	basque	NOM	NOM	_	20	dep	_	_	784.059998	784.659973	L2
+22	euh	euh	INT	INT	_	21	dm	_	_	784.669983	784.719971	L2
+23	de	de	PRE	PRE	_	21	dep	_	_	784.729980	784.849976	L2
+24	chanter	chanter	VNF	VNF	_	23	dep	_	_	785.109985	785.510010	L2
+25	en	en	PRE	PRE	_	24	dep	_	_	785.520020	785.549988	L2
+26	basque	basque	NOM	NOM	_	25	dep	_	_	785.559998	785.880005	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-211
+# text = et puis après ce n'est que beaucoup plus tard euh
+1	et puis	et puis	COO	COO	_	5	mark	_	_	786.280029	786.520020	L2
+2	après	après	PRE	PRE	_	5	periph	_	_	786.530029	787.109985	L2
+3	ce	ce	PRO	PRO	_	5	subj	_	_	787.119995	787.200012	L2
+4	n'	ne	CLN	CLN	_	5	dep	_	_	787.210022	787.239990	L2
+5	est	être	VRB	VRB	_	0	root	_	_	787.250000	787.299988	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	787.309998	787.359985	L2
+7	beaucoup	beaucoup	ADV	ADV	_	8	dep	_	_	787.369995	787.520020	L2
+8	plus	plus	ADV	ADV	_	9	dep	_	_	787.530029	787.690002	L2
+9	tard	tard	ADV	ADV	_	6	dep	_	_	787.700012	788.150024	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	788.159973	788.309998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-212
+# text = quand à l'Ecole Normale j'ai voulu savoir quand même ce que je chantais
+1	quand	quand	CSU	CSU	_	0	root	_	_	788.719971	789.489990	L2
+2	à	à	PRE	PRE	_	8	periph	_	_	789.500000	789.520020	L2
+3	l'	le	DET	DET	_	4	spe	_	_	789.530029	789.659973	L2
+4	Ecole	Ecole	NOM	NOM	_	2	dep	_	_	789.729980	790.109985	L2
+5	Normale	normale	NOM	NOM	_	4	dep	_	_	790.119995	790.400024	L2
+6	j'	je	CLS	CLS	_	8	subj	_	_	790.409973	790.450012	L2
+7	ai	avoir	VRB	VRB	_	8	aux	_	_	790.460022	790.479980	L2
+8	voulu	se vouloir	VPP	VPP	_	1	dep	_	_	790.489990	790.760010	L2
+9	savoir	savoir	VNF	VNF	_	8	dep	_	_	790.770020	791.200012	L2
+10	quand	quand	CSU	CSU	_	9	dep	_	_	791.210022	791.289978	L2
+11	même	même	ADV	ADV	_	10	morph	_	_	791.299988	791.650024	L2
+12	ce	ce	PRO	PRO	_	9	dep	_	_	791.770020	792.409973	L2
+13	que	que	PRQ	PRQ	_	15	dep	_	_	793.299988	793.909973	L2
+14	je	je	CLS	CLS	_	15	subj	_	_	794.440002	794.659973	L2
+15	chantais	chanter	VRB	VRB	_	12	dep	_	_	794.669983	795.830017	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-213
+# text = adieu bien
+1	adieu	adieu	NOM	NOM	_	0	root	_	_	796.630005	797.219971	L2
+2	bien	bien	ADV	ADV	_	1	dep	_	_	797.229980	797.500000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-214
+# text = ma bien aimée adieu ma belle étoile
+1	ma	son	DET	DET	_	2	spe	_	_	797.510010	797.669983	L2
+2	bien	bien	NOM	NOM	_	0	root	_	_	797.679993	797.929993	L2
+3	aimée	aimé	ADJ	ADJ	_	2	dep	_	_	797.940002	798.159973	L2
+4	adieu	adieu	NOM	NOM	_	2	para	_	_	798.169983	798.380005	L2
+5	ma	son	DET	DET	_	7	spe	_	_	798.390015	798.479980	L2
+6	belle	beau	ADJ	ADJ	_	7	dep	_	_	798.489990	798.719971	L2
+7	étoile	étoile	NOM	NOM	_	4	para	_	_	798.729980	799.059998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-215
+# text = bon c'est c'était merveilleux
+1	bon	bon	INT	INT	_	3	dm	_	_	799.270020	799.469971	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	799.479980	799.630005	L2
+3	est	être	VRB	VRB	_	0	root	_	_	799.640015	799.679993	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	799.750000	799.830017	L2
+5	était	être	VRB	VRB	_	3	para	_	_	799.890015	800.039978	L2
+6	merveilleux	merveilleux	ADJ	ADJ	_	5	dep	_	_	800.130005	800.659973	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-216
+# text = mais qu'on me le dise qu'on me qu'on qu'on nous le dise
+1	mais	mais	COO	COO	_	6	mark	_	_	800.669983	800.789978	L2
+2	qu'	que	CSU	CSU	_	6	dep	_	_	801.440002	801.479980	L2
+3	on	on	CLS	CLS	_	6	subj	_	_	801.489990	801.580017	L2
+4	me	me	CLI	CLI	_	6	dep	_	_	801.590027	801.640015	L2
+5	le	le	CLI	CLI	_	6	dep	_	_	801.650024	801.780029	L2
+6	dise	dire	VRB	VRB	_	0	root	_	_	801.869995	802.250000	L2
+7	qu'	que	CSU	CSU	_	6	dep	_	_	804.299988	804.320007	L2
+8	on	on	CLS	CLS	_	10	subj	_	_	804.330017	804.359985	L2
+9	me	me	CLI	CLI	_	10	dep	_	_	804.369995	804.760010	L2
+10	qu'	que	CSU	CSU	_	7	para	_	_	804.770020	804.799988	L2
+11	on	on	CLS	CLS	_	10	disflink	_	_	804.809998	805.309998	L2
+12	qu'	que	CSU	CSU	_	10	para	_	_	805.380005	805.400024	L2
+13	on	on	CLS	CLS	_	16	subj	_	_	805.409973	805.690002	L2
+14	nous	nous	CLI	CLI	_	16	dep	_	_	805.700012	805.719971	L2
+15	le	le	CLI	CLI	_	16	dep	_	_	805.729980	805.830017	L2
+16	dise	dire	VRB	VRB	_	12	dep	_	_	805.840027	806.340027	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-217
+# text = or j'ai regretté
+1	or	or	COO	COO	_	4	mark	_	_	807.090027	807.270020	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	807.280029	807.299988	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	807.309998	807.349976	L2
+4	regretté	regretter	VPP	VPP	_	0	root	_	_	807.359985	808.039978	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-218
+# text = après
+1	après	après	PRE	PRE	_	0	root	_	_	809.179993	809.520020	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-219
+# text = quand je suis revenu professeur ici
+1	quand	quand	CSU	CSU	_	0	root	_	_	809.530029	809.719971	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	809.869995	809.969971	L2
+3	suis	être	VRB	VRB	_	4	aux	_	_	809.979980	810.109985	L2
+4	revenu	revenir	VPP	VPP	_	1	dep	_	_	810.119995	810.429993	L2
+5	professeur	professeur	NOM	NOM	_	4	dep	_	_	810.440002	811.020020	L2
+6	ici	ici	ADV	ADV	_	4	dep	_	_	811.030029	811.460022	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-220
+# text = bon je j'avais cinq casquettes de président de pff euh de télé-club de de théâtre de club UNESCO pour la ville de Bayonne et caetera
+1	bon	bon	INT	INT	_	4	dm	_	_	811.520020	811.770020	L2
+2	je	je	CLS	CLS	_	4	subj	_	_	811.780029	812.190002	L2
+3	j'	je	CLS	CLS	_	2	para	_	_	812.200012	812.229980	L2
+4	avais	avoir	VRB	VRB	_	0	root	_	_	812.239990	812.330017	L2
+5	cinq	cinq	NUM	NUM	_	6	spe	_	_	812.340027	812.549988	L2
+6	casquettes	casquette	NOM	NOM	_	4	dep	_	_	812.559998	813.119995	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	813.130005	813.219971	L2
+8	président	président	NOM	NOM	_	7	dep	_	_	813.229980	813.809998	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	813.820007	814.359985	L2
+10	pff	pff	INT	INT	_	9	dm	_	_	814.500000	814.710022	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	815.520020	815.549988	L2
+12	de	de	PRE	PRE	_	9	para	_	_	815.559998	815.580017	L2
+13	télé-club	télé-club	NOM	NOM	_	12	dep	_	_	815.690002	816.469971	L2
+14	de	de	PRE	PRE	_	13	dep	_	_	816.570007	816.929993	L2
+15	de	de	PRE	PRE	_	14	para	_	_	816.940002	817.090027	L2
+16	théâtre	théâtre	NOM	NOM	_	15	dep	_	_	817.150024	817.969971	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	817.979980	818.919983	L2
+18	club	club	NOM	NOM	_	17	dep	_	_	819.039978	819.229980	L2
+19	UNESCO	UNESCO	NOM	NOM	_	18	dep	_	_	819.239990	819.559998	L2
+20	pour	pour	PRE	PRE	_	4	dep	_	_	819.599976	820.270020	L2
+21	la	le	DET	DET	_	22	spe	_	_	820.280029	820.479980	L2
+22	ville	ville	NOM	NOM	_	20	dep	_	_	820.489990	820.599976	L2
+23	de	de	PRE	PRE	_	22	dep	_	_	820.609985	820.700012	L2
+24	Bayonne	Bayonne	NOM	NOM	_	23	dep	_	_	820.710022	821.099976	L2
+25	et caetera	et caetera	ADV	ADV	_	4	dep	_	_	821.109985	821.710022	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-221
+# text = alors je recevais des gens ici à table comme vous
+1	alors	alors	ADV	ADV	_	3	periph	_	_	822.820007	823.039978	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	823.049988	823.219971	L2
+3	recevais	recevoir	VRB	VRB	_	0	root	_	_	823.229980	823.650024	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	823.659973	823.809998	L2
+5	gens	gens	NOM	NOM	_	4	dep	_	_	823.820007	824.140015	L2
+6	ici	ici	ADV	ADV	_	3	dep	_	_	824.150024	824.400024	L2
+7	à	à	PRE	PRE	_	3	dep	_	_	824.409973	824.440002	L2
+8	table	table	NOM	NOM	_	7	dep	_	_	824.450012	824.799988	L2
+9	comme	comme	PRE	PRE	_	3	dep	_	_	825.049988	825.200012	L2
+10	vous	moi	PRO	PRO	_	9	dep	_	_	825.210022	825.570007	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-222
+# text = venus du Brésil d'Amérique du Canada des des noirs euh
+1	venus	venu	NOM	NOM	_	0	root	_	_	826.099976	826.309998	L2
+2	du	de+le	PRE	PRE	_	1	dep	_	_	826.320007	826.440002	L2
+3	Brésil	Brésil	NOM	NOM	_	2	dep	_	_	826.450012	827.039978	L2
+4	d'	de	PRE	PRE	_	3	dep	_	_	827.049988	827.179993	L2
+5	Amérique	Amérique	NOM	NOM	_	4	dep	_	_	827.190002	827.909973	L2
+6	du	de+le	PRE	PRE	_	5	dep	_	_	827.919983	828.039978	L2
+7	Canada	Canada	NOM	NOM	_	6	dep	_	_	828.090027	828.849976	L2
+8	des	de	PRE	PRE	_	6	para	_	_	828.919983	829.289978	L2
+9	des	de	PRE	PRE	_	8	para	_	_	829.429993	829.510010	L2
+10	noirs	noir	NOM	NOM	_	9	dep	_	_	829.520020	830.489990	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	830.500000	830.640015	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-223
+# text = et et mes filles avaient six ou sept correspondantes japonaises polonaises
+1	et	et	COO	COO	_	5	mark	_	_	831.330017	831.500000	L2
+2	et	et	COO	COO	_	1	para	_	_	831.590027	831.849976	L2
+3	mes	son	DET	DET	_	4	spe	_	_	832.159973	832.409973	L2
+4	filles	fille	NOM	NOM	_	5	subj	_	_	832.419983	832.869995	L2
+5	avaient	avoir	VRB	VRB	_	0	root	_	_	832.880005	833.260010	L2
+6	six	six	NUM	NUM	_	9	spe	_	_	833.270020	833.520020	L2
+7	ou	ou	COO	COO	_	8	mark	_	_	833.530029	833.590027	L2
+8	sept	sept	NUM	NUM	_	6	para	_	_	833.599976	833.840027	L2
+9	correspondantes	correspondant	NOM	NOM	_	5	dep	_	_	833.849976	834.590027	L2
+10	japonaises	japonais	ADJ	ADJ	_	9	dep	_	_	834.729980	835.580017	L2
+11	polonaises	polonaise	NOM	NOM	_	9	para	_	_	835.659973	836.369995	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-224
+# text = et caetera elles sont allées partout chez leurs correspondantes
+1	et caetera	et caetera	ADV	ADV	_	4	periph	_	_	836.380005	837.059998	L2
+2	elles	il	CLS	CLS	_	4	subj	_	_	837.070007	837.140015	L2
+3	sont	être	VRB	VRB	_	4	aux	_	_	837.150024	837.469971	L2
+4	allées	aller	VPP	VPP	_	0	root	_	_	837.479980	837.679993	L2
+5	partout	partout	ADV	ADV	_	4	dep	_	_	837.690002	838.130005	L2
+6	chez	chez	PRE	PRE	_	4	dep	_	_	838.659973	838.799988	L2
+7	leurs	son	DET	DET	_	8	spe	_	_	838.809998	839.020020	L2
+8	correspondantes	correspondant	NOM	NOM	_	6	dep	_	_	839.030029	839.710022	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-225
+# text = donc j'avais pas me déplacer puisque les gens venaient à moi
+1	donc	donc	ADV	ADV	_	3	periph	_	_	840.320007	840.549988	L2
+2	j'	je	CLS	CLS	_	3	subj	_	_	840.559998	840.640015	L2
+3	avais	avoir	VRB	VRB	_	0	root	_	_	840.650024	840.770020	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	840.780029	840.909973	L2
+5	me	me	CLI	CLI	_	6	dep	_	_	840.919983	841.020020	L2
+6	déplacer	déplacer	VNF	VNF	_	3	dep	_	_	841.030029	841.549988	L2
+7	puisque	puisque	CSU	CSU	_	3	periph	_	_	841.559998	842.070007	L2
+8	les	le	DET	DET	_	9	spe	_	_	842.080017	842.140015	L2
+9	gens	gens	NOM	NOM	_	10	subj	_	_	842.150024	842.349976	L2
+10	venaient	venir	VRB	VRB	_	7	dep	_	_	842.359985	842.599976	L2
+11	à	à	PRE	PRE	_	10	dep	_	_	842.609985	842.650024	L2
+12	moi	moi	PRO	PRO	_	11	dep	_	_	842.659973	842.809998	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-226
+# text = mais ils parlaient tous français
+1	mais	mais	COO	COO	_	3	mark	_	_	842.820007	842.969971	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	842.979980	843.099976	L2
+3	parlaient	parler	VRB	VRB	_	0	root	_	_	843.109985	843.349976	L2
+4	tous	tout	ADJ	ADJ	_	5	dep	_	_	843.359985	843.570007	L2
+5	français	français	NOM	NOM	_	3	dep	_	_	843.580017	844.010010	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-227
+# text = c'étaient des professeurs de français du Brésil de Chine de de Russie
+1	c'	ce	CLS	CLS	_	2	subj	_	_	844.270020	844.340027	L2
+2	étaient	être	VRB	VRB	_	0	root	_	_	844.349976	844.520020	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	844.530029	844.650024	L2
+4	professeurs	professeur	NOM	NOM	_	3	dep	_	_	844.659973	845.070007	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	845.080017	845.210022	L2
+6	français	français	NOM	NOM	_	5	dep	_	_	845.219971	845.710022	L2
+7	du	de+le	PRE	PRE	_	4	dep	_	_	846.010010	846.210022	L2
+8	Brésil	Brésil	NOM	NOM	_	7	dep	_	_	846.219971	846.849976	L2
+9	de	de	PRE	PRE	_	8	dep	_	_	846.859985	846.989990	L2
+10	Chine	Chine	NOM	NOM	_	9	dep	_	_	847.000000	847.590027	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	847.599976	848.039978	L2
+12	de	de	PRE	PRE	_	11	para	_	_	848.440002	848.690002	L2
+13	Russie	Russie	NOM	NOM	_	12	dep	_	_	848.700012	849.250000	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-228
+# text = et caetera alors je là j'ai vécu
+1	et caetera	et caetera	ADV	ADV	_	7	periph	_	_	849.460022	849.960022	L2
+2	alors	alors	ADV	ADV	_	7	periph	_	_	850.909973	851.099976	L2
+3	je	je	CLS	CLS	_	7	subj	_	_	851.150024	851.179993	L2
+4	là	là	ADV	ADV	_	7	periph	_	_	851.229980	851.450012	L2
+5	j'	je	CLS	CLS	_	7	subj	_	_	851.460022	851.539978	L2
+6	ai	avoir	VRB	VRB	_	7	aux	_	_	851.549988	851.609985	L2
+7	vécu	vivre	VPP	VPP	_	0	root	_	_	851.619995	852.099976	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-229
+# text = un hum
+1	un	un	DET	DET	_	0	root	_	_	852.109985	852.520020	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	845.000000	845.320007	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-230
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	847.630005	847.979980	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-231
+# text = un un mouvement d'ouverture à toutes je dis pas les langues parce que heureusement que c'étaient des français
+1	un	un	DET	DET	_	3	spe	_	_	853.159973	853.440002	L2
+2	un	un	DET	DET	_	1	para	_	_	853.530029	853.669983	L2
+3	mouvement	mouvement	NOM	NOM	_	0	root	_	_	853.679993	854.030029	L2
+4	d'	de	PRE	PRE	_	3	dep	_	_	854.039978	854.059998	L2
+5	ouverture	ouverture	NOM	NOM	_	4	dep	_	_	854.070007	854.659973	L2
+6	à	à	PRE	PRE	_	3	dep	_	_	854.669983	854.710022	L2
+7	toutes	tout	ADJ	ADJ	_	9	dep	_	_	854.719971	855.390015	L2
+8	je	je	CLS	CLS	_	9	subj	_	_	855.969971	856.080017	L2
+9	dis	dire	VRB	VRB	_	6	dep	_	_	856.090027	856.219971	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	856.229980	856.349976	L2
+11	les	le	DET	DET	_	12	spe	_	_	856.359985	856.450012	L2
+12	langues	langue	NOM	NOM	_	9	dep	_	_	856.460022	856.840027	L2
+13	parce que	parce que	CSU	CSU	_	9	dep	_	_	856.890015	857.599976	L2
+14	heureusement	heureusement	ADV	ADV	_	15	morph	_	_	857.729980	858.229980	L2
+15	que	que	CSU	CSU	_	13	para	_	_	858.239990	858.260010	L2
+16	c'	ce	CLS	CLS	_	17	subj	_	_	858.270020	858.359985	L2
+17	étaient	être	VRB	VRB	_	15	dep	_	_	858.369995	858.549988	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	858.559998	858.609985	L2
+19	français	français	NOM	NOM	_	18	dep	_	_	858.619995	859.020020	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-232
+# text = moi j'avais un anglais très pauvre et minable un espagnol convenable puisque j'en ai fait douze ans
+1	moi	moi	PRO	PRO	_	3	periph	_	_	860.000000	860.190002	L2
+2	j'	je	CLS	CLS	_	3	subj	_	_	860.200012	860.260010	L2
+3	avais	avoir	VRB	VRB	_	0	root	_	_	860.270020	860.760010	L2
+4	un	un	DET	DET	_	5	spe	_	_	861.239990	861.400024	L2
+5	anglais	anglais	NOM	NOM	_	3	dep	_	_	861.409973	861.799988	L2
+6	très	très	ADV	ADV	_	7	dep	_	_	861.809998	862.020020	L2
+7	pauvre	pauvre	ADJ	ADJ	_	5	dep	_	_	862.030029	862.669983	L2
+8	et	et	COO	COO	_	9	mark	_	_	862.679993	862.719971	L2
+9	minable	minable	ADJ	ADJ	_	7	para	_	_	862.729980	863.260010	L2
+10	un	un	DET	DET	_	11	spe	_	_	863.760010	863.840027	L2
+11	espagnol	espagnol	NOM	NOM	_	5	para	_	_	863.849976	864.330017	L2
+12	convenable	convenable	ADJ	ADJ	_	11	dep	_	_	864.340027	864.909973	L2
+13	puisque	puisque	CSU	CSU	_	11	periph	_	_	864.919983	865.090027	L2
+14	j'	je	CLS	CLS	_	17	subj	_	_	865.099976	865.140015	L2
+15	en	en	CLI	CLI	_	17	dep	_	_	865.150024	865.369995	L2
+16	ai	avoir	VRB	VRB	_	17	aux	_	_	865.380005	865.409973	L2
+17	fait	faire	VPP	VPP	_	13	dep	_	_	865.419983	865.590027	L2
+18	douze	douze	NUM	NUM	_	19	spe	_	_	865.599976	865.880005	L2
+19	ans	an	NOM	NOM	_	17	dep	_	_	865.890015	866.150024	L2
+
+# sent_id = cefc-crfp-PRI-BAY-2-233
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	864.039978	864.900024	L1
+2	hum	hum	INT	INT	_	1	dm	_	_	865.679993	865.989990	L1
+
+# sent_id = cefc-crfp-PRI-BAY-2-234
+# text = là à la rigueur je pouvais parler avec un cubain
+1	là	là	ADV	ADV	_	6	periph	_	_	867.419983	867.849976	L2
+2	à	à	PRE	PRE	_	6	periph	_	_	868.210022	868.270020	L2
+3	la	le	DET	DET	_	4	spe	_	_	868.280029	868.489990	L2
+4	rigueur	rigueur	NOM	NOM	_	2	dep	_	_	868.570007	868.919983	L2
+5	je	je	CLS	CLS	_	6	subj	_	_	869.250000	869.270020	L2
+6	pouvais	pouvoir	VRB	VRB	_	0	root	_	_	869.280029	869.429993	L2
+7	parler	parler	VNF	VNF	_	6	dep	_	_	869.440002	869.659973	L2
+8	avec	avec	PRE	PRE	_	7	dep	_	_	869.669983	869.900024	L2
+9	un	un	DET	DET	_	10	spe	_	_	869.909973	870.030029	L2
+10	cubain	cubain	NOM	NOM	_	8	dep	_	_	870.039978	870.390015	L2
+

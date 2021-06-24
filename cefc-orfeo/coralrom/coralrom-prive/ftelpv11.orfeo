@@ -1,0 +1,620 @@
+# sent_id = cefc-coralrom-ftelpv11-1
+# text = allô
+1	allô	allo	INT	INT	_	0	root	_	_	0.500000	0.720000	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-2
+# text = c'est NNAAMMEE
+1	c'	ce	CLS	CLS	_	2	subj	_	_	1.040000	1.060000	JEA
+2	est	être	VRB	VRB	_	0	root	_	_	1.300000	1.320000	JEA
+3	NNAAMMEE	NOM	NOM	NOM	_	2	dep	_	_	1.330000	1.660000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-3
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	1.950000	2.150000	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-4
+# text = salut c'est NNAAMMEE ça va
+1	salut	salut	NOM	NOM	_	3	periph	_	_	2.360000	2.800000	JEA
+2	c'	ce	CLS	CLS	_	3	subj	_	_	2.810000	2.880000	JEA
+3	est	être	VRB	VRB	_	0	root	_	_	2.890000	2.960000	JEA
+4	NNAAMMEE	NOM	NOM	NOM	_	3	dep	_	_	2.970000	3.220000	JEA
+5	ça	ça	PRO	PRO	_	6	subj	_	_	3.440000	3.510000	JEA
+6	va	aller	VRB	VRB	_	3	dep	_	_	3.520000	3.680000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-5
+# text = ça va ça va
+1	ça	ça	PRO	PRO	_	2	subj	_	_	3.990000	4.070000	JLP
+2	va	aller	VRB	VRB	_	0	root	_	_	4.080000	4.210000	JLP
+3	ça	ça	PRO	PRO	_	4	subj	_	_	4.220000	4.410000	JLP
+4	va	aller	VRB	VRB	_	2	para	_	_	4.420000	4.480000	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-6
+# text = euh en fait je voulais parler à NNAAMMEE
+1	euh	euh	INT	INT	_	5	dm	_	_	5.010000	5.350000	JEA
+2	en	en	PRE	PRE	_	5	periph	_	_	5.360000	5.390000	JEA
+3	fait	fait	NOM	NOM	_	2	dep	_	_	5.400000	5.520000	JEA
+4	je	je	CLS	CLS	_	5	subj	_	_	5.530000	5.590000	JEA
+5	voulais	vouloir	VRB	VRB	_	0	root	_	_	5.600000	5.760000	JEA
+6	parler	parler	VNF	VNF	_	5	dep	_	_	5.770000	5.960000	JEA
+7	à	à	PRE	PRE	_	6	dep	_	_	5.970000	6.040000	JEA
+8	NNAAMMEE	NOM	NOM	NOM	_	7	dep	_	_	6.130000	6.750000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-7
+# text = euh elle est là
+1	euh	euh	INT	INT	_	3	dm	_	_	6.810000	6.830000	JLP
+2	elle	il	CLS	CLS	_	3	subj	_	_	6.980000	7.740000	JLP
+3	est	être	VRB	VRB	_	0	root	_	_	7.750000	7.770000	JLP
+4	là	là	ADV	ADV	_	3	dep	_	_	7.780000	7.990000	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-8
+# text = mais elle est allée poser son casse-croûte au frigo
+1	mais	mais	COO	COO	_	4	mark	_	_	8.140000	8.480000	JLP
+2	elle	il	CLS	CLS	_	4	subj	_	_	8.490000	8.970000	JLP
+3	est	être	VRB	VRB	_	4	aux	_	_	9.010000	9.150000	JLP
+4	allée	aller	VPP	VPP	_	0	root	_	_	9.220000	9.390000	JLP
+5	poser	poser	VNF	VNF	_	4	dep	_	_	9.400000	9.720000	JLP
+6	son	son	DET	DET	_	7	spe	_	_	9.730000	9.950000	JLP
+7	casse-croûte	casse-croûte	NOM	NOM	_	5	dep	_	_	9.960000	10.370000	JLP
+8	au	à+le	PRE	PRE	_	5	dep	_	_	10.380000	10.440000	JLP
+9	frigo	frigo	NOM	NOM	_	8	dep	_	_	10.450000	10.750000	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-9
+# text = elle est là
+1	elle	il	CLS	CLS	_	2	subj	_	_	10.990000	11.070000	JEA
+2	est	être	VRB	VRB	_	0	root	_	_	11.080000	11.240000	JEA
+3	là	là	ADV	ADV	_	2	dep	_	_	11.250000	11.390000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-10
+# text = mais elle est pas là
+1	mais	mais	COO	COO	_	3	mark	_	_	11.400000	11.510000	JEA
+2	elle	il	CLS	CLS	_	3	subj	_	_	11.520000	11.560000	JEA
+3	est	être	VRB	VRB	_	0	root	_	_	11.570000	11.650000	JEA
+4	pas	pas	ADN	ADN	_	3	dep	_	_	11.660000	11.840000	JEA
+5	là	là	ADV	ADV	_	3	dep	_	_	11.850000	11.940000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-11
+# text = ben écoute je vais
+1	ben	ben	INT	INT	_	4	dm	_	_	12.010000	12.140000	JEA
+2	écoute	écouter	VRB	VRB	_	1	dm	_	_	12.150000	12.660000	JEA
+3	je	je	CLS	CLS	_	4	subj	_	_	12.670000	12.830000	JEA
+4	vais	aller	VRB	VRB	_	0	root	_	_	12.840000	13.220000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-12
+# text = ben euh dans deux secondes je peux te la passer hein
+1	ben	ben	INT	INT	_	3	dm	_	_	13.930000	14.510000	JLP
+2	euh	euh	INT	INT	_	1	dm	_	_	14.520000	14.570000	JLP
+3	dans	dans	PRE	PRE	_	7	periph	_	_	14.580000	15.260000	JLP
+4	deux	deux	NUM	NUM	_	5	spe	_	_	15.270000	15.460000	JLP
+5	secondes	seconde	NOM	NOM	_	3	dep	_	_	15.470000	15.850000	JLP
+6	je	je	CLS	CLS	_	7	subj	_	_	15.860000	15.980000	JLP
+7	peux	pouvoir	VRB	VRB	_	0	root	_	_	15.990000	16.100000	JLP
+8	te	te	CLI	CLI	_	10	dep	_	_	16.110001	16.200001	JLP
+9	la	le	CLI	CLI	_	10	dep	_	_	16.209999	16.450001	JLP
+10	passer	passer	VNF	VNF	_	7	dep	_	_	16.559999	16.860001	JLP
+11	hein	hein	INT	INT	_	10	dm	_	_	16.920000	16.940001	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-13
+# text = bon ben
+1	bon ben	bon ben	INT	INT	_	0	root	_	_	17.150000	18.100000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-14
+# text = ma foi euh
+1	ma	son	DET	DET	_	2	spe	_	_	18.110001	18.219999	JEA
+2	foi	foi	NOM	NOM	_	0	root	_	_	18.230000	18.510000	JEA
+3	euh	euh	INT	INT	_	2	dm	_	_	18.520000	18.540001	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-15
+# text = euh elle arrive
+1	euh	euh	INT	INT	_	3	dm	_	_	18.690001	18.709999	JLP
+2	elle	il	CLS	CLS	_	3	subj	_	_	18.889999	19.370001	JLP
+3	arrive	arriver	VRB	VRB	_	0	root	_	_	19.379999	19.620001	JLP
+
+# sent_id = cefc-coralrom-ftelpv11-16
+# text = ah OK
+1	ah	ah	INT	INT	_	0	root	_	_	19.910000	20.129999	JEA
+2	OK	OK	INT	INT	_	1	dm	_	_	20.250000	20.969999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-17
+# text = allô
+1	allô	allo	INT	INT	_	0	root	_	_	58.830002	59.180000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-18
+# text = allô vous êtes toute essouflée
+1	allô	allo	INT	INT	_	3	dm	_	_	59.480000	59.869999	JEA
+2	vous	vous	CLS	CLS	_	3	subj	_	_	59.880001	59.930000	JEA
+3	êtes	être	VRB	VRB	_	0	root	_	_	59.939999	60.060001	JEA
+4	toute	tout	ADJ	ADJ	_	5	dep	_	_	60.150002	60.310001	JEA
+5	essouflée	essouflée	NOM	NOM	_	3	dep	_	_	60.320000	60.889999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-19
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	61.849998	62.070000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-20
+# text = vous avez mis le sandwich dans le frigo
+1	vous	vous	CLS	CLS	_	3	subj	_	_	62.230000	62.299999	JEA
+2	avez	avoir	VRB	VRB	_	3	aux	_	_	62.439999	62.669998	JEA
+3	mis	mettre	VPP	VPP	_	0	root	_	_	62.680000	62.790001	JEA
+4	le	le	DET	DET	_	5	spe	_	_	62.799999	62.830002	JEA
+5	sandwich	sandwich	NOM	NOM	_	3	dep	_	_	62.869999	63.139999	JEA
+6	dans	dans	PRE	PRE	_	3	dep	_	_	63.150002	63.209999	JEA
+7	le	le	DET	DET	_	8	spe	_	_	63.220001	63.240002	JEA
+8	frigo	frigo	NOM	NOM	_	6	dep	_	_	63.250000	63.610001	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-21
+# text = c'est
+1	c'	ce	CLS	CLS	_	2	subj	_	_	63.619999	63.639999	JEA
+2	est	être	VRB	VRB	_	0	root	_	_	63.680000	63.759998	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-22
+# text = bon j'arrive dans du secrétariat
+1	bon	bon	INT	INT	_	3	dm	_	_	63.770000	63.959999	DEL
+2	j'	je	CLS	CLS	_	3	subj	_	_	64.230003	64.260002	DEL
+3	arrive	arriver	VRB	VRB	_	0	root	_	_	64.570000	65.120003	DEL
+4	dans	dans	PRE	PRE	_	3	dep	_	_	65.129997	65.220001	DEL
+5	du	de+le	PRE	PRE	_	4	para	_	_	65.230003	65.330002	DEL
+6	secrétariat	secrétariat	NOM	NOM	_	5	dep	_	_	65.339996	65.910004	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-23
+# text = il m'a fait rigoler
+1	il	il	CLS	CLS	_	4	subj	_	_	66.080002	66.160004	JEA
+2	m'	me	CLI	CLI	_	4	dep	_	_	66.169998	66.190002	JEA
+3	a	avoir	VRB	VRB	_	4	aux	_	_	66.279999	66.300003	JEA
+4	fait	faire	VPP	VPP	_	0	root	_	_	66.309998	66.379997	JEA
+5	rigoler	rigoler	VNF	VNF	_	4	dep	_	_	66.389999	66.610001	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-24
+# text = il m'a dit elle est allée mettre le sandwich dans le frigo
+1	il	il	CLS	CLS	_	4	subj	_	_	66.620003	66.699997	JEA
+2	m'	me	CLI	CLI	_	4	dep	_	_	66.760002	66.800003	JEA
+3	a	avoir	VRB	VRB	_	4	aux	_	_	66.809998	66.830002	JEA
+4	dit	dire	VPP	VPP	_	0	root	_	_	66.839996	66.889999	JEA
+5	elle	il	CLS	CLS	_	7	subj	_	_	66.949997	67.120003	JEA
+6	est	être	VRB	VRB	_	7	aux	_	_	67.129997	67.199997	JEA
+7	allée	aller	VPP	VPP	_	4	para	_	_	67.209999	67.290001	JEA
+8	mettre	mettre	VNF	VNF	_	7	dep	_	_	67.300003	67.790001	JEA
+9	le	le	DET	DET	_	10	spe	_	_	67.800003	67.849998	JEA
+10	sandwich	sandwich	NOM	NOM	_	8	dep	_	_	67.980003	68.230003	JEA
+11	dans	dans	PRE	PRE	_	8	dep	_	_	68.239998	68.290001	JEA
+12	le	le	DET	DET	_	13	spe	_	_	68.300003	68.320000	JEA
+13	frigo	frigo	NOM	NOM	_	11	dep	_	_	68.330002	68.519997	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-25
+# text = bon euh vous avez eu mon mail non pas encore
+1	bon	bon	INT	INT	_	5	dm	_	_	68.849998	69.370003	JEA
+2	euh	euh	INT	INT	_	1	dm	_	_	69.449997	69.470001	JEA
+3	vous	vous	CLS	CLS	_	5	subj	_	_	69.480003	69.529999	JEA
+4	avez	avoir	VRB	VRB	_	5	aux	_	_	69.540001	69.629997	JEA
+5	eu	avoir	VPP	VPP	_	0	root	_	_	69.639999	70.690002	JEA
+6	mon	son	DET	DET	_	7	spe	_	_	70.699997	70.820000	JEA
+7	mail	mail	NOM	NOM	_	5	dep	_	_	70.830002	71.029999	JEA
+8	non	non	INT	INT	_	7	dm	_	_	71.040001	71.190002	JEA
+9	pas	pas	ADN	ADN	_	10	dep	_	_	71.199997	71.309998	JEA
+10	encore	encore	ADV	ADV	_	5	dep	_	_	71.320000	71.430000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-26
+# text = oui euh non je viens juste d'arriver
+1	oui	oui	INT	INT	_	5	dm	_	_	68.760002	68.910004	DEL
+2	euh	euh	INT	INT	_	1	dm	_	_	71.800003	71.839996	DEL
+3	non	non	INT	INT	_	2	dm	_	_	71.849998	72.000000	DEL
+4	je	je	CLS	CLS	_	5	subj	_	_	72.010002	72.050003	DEL
+5	viens	venir	VRB	VRB	_	0	root	_	_	72.059998	72.139999	DEL
+6	juste	juste	ADV	ADV	_	5	dep	_	_	72.150002	72.269997	DEL
+7	d'	de	PRE	PRE	_	5	dep	_	_	72.279999	72.300003	DEL
+8	arriver	arriver	VNF	VNF	_	7	dep	_	_	72.309998	72.480003	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-27
+# text = bon ben alors euh ça sert à rien euh
+1	bon ben	bon ben	INT	INT	_	5	dm	_	_	72.629997	72.940002	JEA
+2	alors	alors	ADV	ADV	_	5	periph	_	_	72.949997	73.160004	JEA
+3	euh	euh	INT	INT	_	2	dm	_	_	73.169998	73.269997	JEA
+4	ça	ça	PRO	PRO	_	5	subj	_	_	73.309998	73.360001	JEA
+5	sert	servir	VRB	VRB	_	0	root	_	_	73.449997	73.610001	JEA
+6	à	à	PRE	PRE	_	5	dep	_	_	73.620003	73.650002	JEA
+7	rien	rien	PRO	PRO	_	6	dep	_	_	73.660004	73.900002	JEA
+8	euh	euh	INT	INT	_	7	dm	_	_	74.250000	74.269997	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-28
+# text = ce qu'on va faire c'est que euh vous regardez votre mail parce que j'ai envoyé le projet numéro
+1	ce	ce	PRO	PRO	_	7	periph	_	_	74.349998	74.620003	JEA
+2	qu'	que	PRQ	PRQ	_	4	dep	_	_	74.629997	74.669998	JEA
+3	on	on	CLS	CLS	_	4	subj	_	_	74.680000	75.300003	JEA
+4	va	aller	VRB	VRB	_	1	dep	_	_	75.459999	75.730003	JEA
+5	faire	faire	VNF	VNF	_	4	dep	_	_	75.739998	76.120003	JEA
+6	c'	ce	CLS	CLS	_	7	subj	_	_	76.129997	76.320000	JEA
+7	est	être	VRB	VRB	_	0	root	_	_	76.330002	76.440002	JEA
+8	que	que	CSU	CSU	_	7	dep	_	_	76.559998	77.239998	JEA
+9	euh	euh	INT	INT	_	8	dm	_	_	77.250000	77.309998	JEA
+10	vous	vous	CLS	CLS	_	11	subj	_	_	77.849998	78.070000	JEA
+11	regardez	regarder	VRB	VRB	_	8	dep	_	_	78.080002	78.489998	JEA
+12	votre	son	DET	DET	_	13	spe	_	_	78.500000	78.750000	JEA
+13	mail	mail	NOM	NOM	_	11	dep	_	_	78.760002	78.940002	JEA
+14	parce que	parce que	CSU	CSU	_	11	dep	_	_	78.949997	79.089996	JEA
+15	j'	je	CLS	CLS	_	17	subj	_	_	79.099998	79.120003	JEA
+16	ai	avoir	VRB	VRB	_	17	aux	_	_	79.129997	79.150002	JEA
+17	envoyé	envoyer	VPP	VPP	_	14	dep	_	_	79.160004	79.410004	JEA
+18	le	le	DET	DET	_	19	spe	_	_	79.419998	79.449997	JEA
+19	projet	projet	NOM	NOM	_	17	dep	_	_	79.459999	79.680000	JEA
+20	numéro	numéro	NOM	NOM	_	19	dep	_	_	79.690002	80.000000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-29
+# text = trois là pour Z14
+1	trois	trois	NUM	NUM	_	0	root	_	_	80.010002	80.190002	JEA
+2	là	là	ADV	ADV	_	1	dep	_	_	80.199997	80.250000	JEA
+3	pour	pour	PRE	PRE	_	1	dep	_	_	80.349998	80.610001	JEA
+4	Z14	Z14	NOM	NOM	_	3	dep	_	_	80.680000	81.080002	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-30
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	80.440002	80.839996	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-31
+# text = hein et donc euh je vous rappelle d'ici dix minutes comme ça
+1	hein	hein	INT	INT	_	7	dm	_	_	81.300003	81.480003	JEA
+2	et	et	COO	COO	_	7	mark	_	_	81.489998	81.540001	JEA
+3	donc	donc	ADV	ADV	_	7	periph	_	_	81.550003	81.919998	JEA
+4	euh	euh	INT	INT	_	3	dm	_	_	81.930000	82.199997	JEA
+5	je	je	CLS	CLS	_	7	subj	_	_	82.620003	82.669998	JEA
+6	vous	vous	CLI	CLI	_	7	dep	_	_	82.680000	82.739998	JEA
+7	rappelle	rappeler	VRB	VRB	_	0	root	_	_	82.750000	83.080002	JEA
+8	d'	de	PRE	PRE	_	7	dep	_	_	83.089996	83.139999	JEA
+9	ici	ici	ADV	ADV	_	8	dep	_	_	83.150002	83.389999	JEA
+10	dix	dix	NUM	NUM	_	11	spe	_	_	83.400002	83.519997	JEA
+11	minutes	minute	NOM	NOM	_	8	dep	_	_	83.529999	83.809998	JEA
+12	comme	comme	PRE	PRE	_	11	dep	_	_	83.889999	84.110001	JEA
+13	ça	ça	PRO	PRO	_	12	dep	_	_	84.169998	84.250000	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-32
+# text = on fait un petit peu le point hein
+1	on	on	CLS	CLS	_	2	subj	_	_	84.260002	84.580002	JEA
+2	fait	faire	VRB	VRB	_	0	root	_	_	85.139999	85.209999	JEA
+3	un	un	DET	DET	_	5	spe	_	_	85.220001	85.379997	JEA
+4	petit	petit	ADJ	ADJ	_	5	dep	_	_	85.529999	85.660004	JEA
+5	peu	peu	NOM	NOM	_	2	dep	_	_	85.699997	85.820000	JEA
+6	le	le	DET	DET	_	7	spe	_	_	85.830002	85.860001	JEA
+7	point	point	NOM	NOM	_	2	dep	_	_	85.900002	86.150002	JEA
+8	hein	hein	INT	INT	_	7	dm	_	_	86.379997	86.550003	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-33
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	81.540001	81.839996	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-34
+# text = d'accord et euh en fait euh NNAAMMEE m'a demandé euh parce qu'elle a vu que NNAAMMEE quand elle remplissait les heures complémentaires elle mettait le trimestre enfin le le semestre qui correspondait à l'U V
+1	d'	de	PRE	PRE	_	11	periph	_	_	85.180000	85.209999	DEL
+2	accord	accord	NOM	NOM	_	1	dep	_	_	85.220001	85.449997	DEL
+3	et	et	COO	COO	_	5	mark	_	_	86.360001	86.519997	DEL
+4	euh	euh	INT	INT	_	3	dm	_	_	86.529999	86.550003	DEL
+5	en	en	PRE	PRE	_	11	periph	_	_	86.610001	86.720001	DEL
+6	fait	fait	NOM	NOM	_	5	dep	_	_	86.730003	86.989998	DEL
+7	euh	euh	INT	INT	_	6	dm	_	_	87.000000	87.360001	DEL
+8	NNAAMMEE	NOM	NOM	NOM	_	11	subj	_	_	87.370003	87.720001	DEL
+9	m'	me	CLI	CLI	_	11	dep	_	_	87.730003	87.750000	DEL
+10	a	avoir	VRB	VRB	_	11	aux	_	_	87.760002	87.800003	DEL
+11	demandé	demander	VPP	VPP	_	0	root	_	_	87.809998	88.400002	DEL
+12	euh	euh	INT	INT	_	11	dm	_	_	88.410004	88.500000	DEL
+13	parce qu'	parce que	CSU	CSU	_	11	dep	_	_	88.559998	88.709999	DEL
+14	elle	il	CLS	CLS	_	16	subj	_	_	88.720001	88.790001	DEL
+15	a	avoir	VRB	VRB	_	16	aux	_	_	88.860001	88.889999	DEL
+16	vu	voir	VPP	VPP	_	13	dep	_	_	88.959999	89.080002	DEL
+17	que	que	CSU	CSU	_	16	dep	_	_	89.089996	89.230003	DEL
+18	NNAAMMEE	NOM	NOM	NOM	_	26	periph	_	_	89.239998	89.529999	DEL
+19	quand	quand	CSU	CSU	_	26	periph	_	_	89.690002	89.889999	DEL
+20	elle	il	CLS	CLS	_	21	subj	_	_	89.900002	89.949997	DEL
+21	remplissait	remplir	VRB	VRB	_	19	dep	_	_	89.959999	90.360001	DEL
+22	les	le	DET	DET	_	23	spe	_	_	90.519997	90.720001	DEL
+23	heures	heure	NOM	NOM	_	21	dep	_	_	90.730003	90.830002	DEL
+24	complémentaires	complémentaire	ADJ	ADJ	_	23	dep	_	_	90.839996	91.400002	DEL
+25	elle	il	CLS	CLS	_	26	subj	_	_	91.410004	91.489998	DEL
+26	mettait	mettre	VRB	VRB	_	17	dep	_	_	91.500000	91.690002	DEL
+27	le	le	DET	DET	_	28	spe	_	_	91.699997	91.800003	DEL
+28	trimestre	trimestre	NOM	NOM	_	26	dep	_	_	91.809998	92.300003	DEL
+29	enfin	enfin	ADV	ADV	_	28	dm	_	_	92.309998	92.489998	DEL
+30	le	le	DET	DET	_	32	spe	_	_	92.500000	92.650002	DEL
+31	le	le	DET	DET	_	30	para	_	_	92.660004	92.730003	DEL
+32	semestre	semestre	NOM	NOM	_	28	para	_	_	92.739998	93.120003	DEL
+33	qui	qui	PRQ	PRQ	_	34	subj	_	_	93.169998	93.290001	DEL
+34	correspondait	correspondre	VRB	VRB	_	32	dep	_	_	93.300003	93.739998	DEL
+35	à	à	PRE	PRE	_	34	dep	_	_	93.750000	93.830002	DEL
+36	l'	le	DET	DET	_	37	spe	_	_	93.839996	93.870003	DEL
+37	U	U	NOM	NOM	_	35	dep	_	_	93.879997	93.930000	DEL
+38	V	V	NOM	NOM	_	37	dep	_	_	93.940002	94.180000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-35
+# text = et donc euh on était en train de marquer ça
+1	et	et	COO	COO	_	5	mark	_	_	94.839996	94.930000	DEL
+2	donc	donc	ADV	ADV	_	5	periph	_	_	95.110001	95.400002	DEL
+3	euh	euh	INT	INT	_	2	dm	_	_	95.410004	95.449997	DEL
+4	on	on	CLS	CLS	_	5	subj	_	_	95.459999	95.559998	DEL
+5	était	être	VRB	VRB	_	0	root	_	_	95.570000	95.709999	DEL
+6	en	en	PRE	PRE	_	5	dep	_	_	95.720001	95.800003	DEL
+7	train	train	NOM	NOM	_	6	dep	_	_	95.809998	95.989998	DEL
+8	de	de	PRE	PRE	_	7	dep	_	_	96.000000	96.019997	DEL
+9	marquer	marquer	VNF	VNF	_	8	dep	_	_	96.029999	96.290001	DEL
+10	ça	ça	PRO	PRO	_	9	dep	_	_	96.300003	96.529999	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-36
+# text = et bon j'ai vu que enfin il y a des trucs je sais pas NNAAMMEE euh
+1	et	et	COO	COO	_	5	mark	_	_	96.540001	96.589996	DEL
+2	bon	bon	INT	INT	_	1	dm	_	_	96.599998	96.730003	DEL
+3	j'	je	CLS	CLS	_	5	subj	_	_	96.739998	96.839996	DEL
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	96.849998	96.879997	DEL
+5	vu	voir	VPP	VPP	_	0	root	_	_	96.889999	96.980003	DEL
+6	que	que	CSU	CSU	_	5	dep	_	_	96.989998	97.089996	DEL
+7	enfin	enfin	ADV	ADV	_	6	dm	_	_	97.099998	97.180000	DEL
+8	il	il	CLS	CLS	_	10	subj	_	_	97.190002	97.290001	DEL
+9	y	y	CLI	CLI	_	10	dep	_	_	97.300003	97.430000	DEL
+10	a	avoir	VRB	VRB	_	6	dep	_	_	97.489998	97.709999	DEL
+11	des	de	PRE	PRE	_	10	dep	_	_	97.720001	97.839996	DEL
+12	trucs	truc	NOM	NOM	_	11	dep	_	_	97.849998	97.989998	DEL
+13	je	je	CLS	CLS	_	14	subj	_	_	98.000000	98.019997	DEL
+14	sais	savoir	VRB	VRB	_	6	dep	_	_	98.029999	98.089996	DEL
+15	pas	pas	ADN	ADN	_	14	dep	_	_	98.099998	98.250000	DEL
+16	NNAAMMEE	NOM	NOM	NOM	_	14	dep	_	_	98.260002	98.570000	DEL
+17	euh	euh	INT	INT	_	16	dm	_	_	98.580002	98.699997	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-37
+# text = vous l'avez mis en Z14
+1	vous	vous	CLS	CLS	_	4	subj	_	_	98.709999	98.870003	DEL
+2	l'	le	CLI	CLI	_	4	dep	_	_	98.879997	98.910004	DEL
+3	avez	avoir	VRB	VRB	_	4	aux	_	_	98.919998	99.080002	DEL
+4	mis	mettre	VPP	VPP	_	0	root	_	_	99.089996	99.199997	DEL
+5	en	en	PRE	PRE	_	4	dep	_	_	99.209999	99.320000	DEL
+6	Z14	Z14	NOM	NOM	_	5	dep	_	_	99.330002	99.949997	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-38
+# text = mh ouais
+1	mh	mh	INT	INT	_	0	root	_	_	88.559998	88.660004	JEA
+2	ouais	ouais	INT	INT	_	1	dm	_	_	94.550003	94.779999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-39
+# text = c'est normal
+1	c'	ce	CLS	CLS	_	2	subj	_	_	100.680000	100.699997	DEL
+2	est	être	VRB	VRB	_	0	root	_	_	100.709999	100.830002	DEL
+3	normal	normal	ADJ	ADJ	_	2	dep	_	_	100.839996	101.110001	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-40
+# text = ou
+1	ou	ou	COO	COO	_	0	root	_	_	101.120003	101.190002	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-41
+# text = pas mh je me suis gouré
+1	pas	pas	ADN	ADN	_	6	dep	_	_	101.199997	101.250000	JEA
+2	mh	mh	INT	INT	_	1	dm	_	_	101.070000	101.250000	JEA
+3	je	je	CLS	CLS	_	6	subj	_	_	101.309998	101.330002	JEA
+4	me	me	CLI	CLI	_	6	dep	_	_	101.339996	101.370003	JEA
+5	suis	être	VRB	VRB	_	6	aux	_	_	101.430000	101.519997	JEA
+6	gouré	gourer	VPP	VPP	_	0	root	_	_	101.529999	101.809998	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-42
+# text = elle a fait euh z10 NNAAMMEE
+1	elle	il	CLS	CLS	_	3	subj	_	_	102.449997	102.680000	DEL
+2	a	avoir	VRB	VRB	_	3	aux	_	_	102.830002	102.849998	DEL
+3	fait	faire	VPP	VPP	_	0	root	_	_	102.860001	103.000000	DEL
+4	euh	euh	INT	INT	_	3	dm	_	_	103.010002	103.029999	DEL
+5	z10	z10	PRE	PRE	_	3	dep	_	_	103.120003	103.449997	DEL
+6	NNAAMMEE	NOM	NOM	NOM	_	5	dep	_	_	103.519997	103.820000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-43
+# text = non oui je je je sais pas ce qu
+1	non	non	INT	INT	_	6	dm	_	_	103.830002	103.919998	JEA
+2	oui	oui	INT	INT	_	1	dm	_	_	104.070000	104.349998	JEA
+3	je	je	CLS	CLS	_	6	subj	_	_	104.360001	104.650002	JEA
+4	je	je	CLS	CLS	_	3	para	_	_	104.660004	104.900002	JEA
+5	je	je	CLS	CLS	_	4	para	_	_	104.910004	104.940002	JEA
+6	sais	savoir	VRB	VRB	_	0	root	_	_	104.949997	105.000000	JEA
+7	pas	pas	ADN	ADN	_	6	dep	_	_	105.010002	105.059998	JEA
+8	ce	ce	DET	DET	_	9	spe	_	_	105.070000	105.110001	JEA
+9	qu	qu	PRQ	PRQ	_	6	dep	_	_	105.120003	105.139999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-44
+# text = en fait
+1	en	en	PRE	PRE	_	0	root	_	_	105.309998	105.330002	DEL
+2	fait	fait	NOM	NOM	_	1	dep	_	_	105.389999	105.510002	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-45
+# text = ah c'est peut être la recopie automatique dans Excel
+1	ah	ah	INT	INT	_	3	dm	_	_	105.459999	105.720001	JEA
+2	c'	ce	CLS	CLS	_	3	subj	_	_	105.730003	105.750000	JEA
+3	est	être	VRB	VRB	_	0	root	_	_	105.760002	105.779999	JEA
+4	peut	pouvoir	VRB	VRB	_	3	para	_	_	105.940002	106.040001	JEA
+5	être	être	VNF	VNF	_	4	dep	_	_	106.050003	106.230003	JEA
+6	la	le	DET	DET	_	7	spe	_	_	106.239998	106.330002	JEA
+7	recopie	recopie	NOM	NOM	_	5	dep	_	_	106.339996	106.739998	JEA
+8	automatique	automatique	ADJ	ADJ	_	7	dep	_	_	106.750000	107.209999	JEA
+9	dans	dans	PRE	PRE	_	5	dep	_	_	107.220001	107.360001	JEA
+10	Excel	Excel	NOM	NOM	_	9	dep	_	_	107.370003	107.629997	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-46
+# text = ça décalé les bras
+1	ça	ça	PRO	PRO	_	2	subj	_	_	107.739998	108.059998	JEA
+2	décalé	décaler	VPP	VPP	_	0	root	_	_	108.070000	108.629997	JEA
+3	les	le	DET	DET	_	4	spe	_	_	108.690002	108.800003	JEA
+4	bras	bras	NOM	NOM	_	2	dep	_	_	108.889999	108.989998	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-47
+# text = m'en tombent
+1	m'	me	CLI	CLI	_	3	dep	_	_	109.000000	109.040001	JEA
+2	en	en	CLI	CLI	_	3	dep	_	_	109.379997	109.599998	JEA
+3	tombent	tomber	VRB	VRB	_	0	root	_	_	109.610001	109.779999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-48
+# text = oui
+1	oui	oui	INT	INT	_	0	root	_	_	107.739998	107.879997	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-49
+# text = ah d'accord non
+1	ah	ah	INT	INT	_	2	dm	_	_	108.760002	108.989998	DEL
+2	d'	de	PRE	PRE	_	0	root	_	_	109.000000	109.040001	DEL
+3	accord	accord	NOM	NOM	_	2	dep	_	_	109.370003	109.660004	DEL
+4	non	non	INT	INT	_	3	dm	_	_	110.129997	110.320000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-50
+# text = mais c'est juste que elle essaie de vous joindre
+1	mais	mais	COO	COO	_	3	mark	_	_	110.330002	110.430000	DEL
+2	c'	ce	CLS	CLS	_	3	subj	_	_	110.440002	110.529999	DEL
+3	est	être	VRB	VRB	_	0	root	_	_	110.540001	110.650002	DEL
+4	juste	juste	ADV	ADV	_	3	dep	_	_	110.660004	110.879997	DEL
+5	que	que	CSU	CSU	_	3	dep	_	_	110.889999	111.019997	DEL
+6	elle	il	CLS	CLS	_	7	subj	_	_	111.029999	111.089996	DEL
+7	essaie	essayer	VRB	VRB	_	5	dep	_	_	111.099998	111.320000	DEL
+8	de	de	PRE	PRE	_	7	dep	_	_	111.330002	111.430000	DEL
+9	vous	vous	CLI	CLI	_	10	dep	_	_	111.440002	111.620003	DEL
+10	joindre	joindre	VNF	VNF	_	8	dep	_	_	111.629997	111.900002	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-51
+# text = elle m'a dit que c'était occupé
+1	elle	il	CLS	CLS	_	4	subj	_	_	111.910004	111.959999	DEL
+2	m'	me	CLI	CLI	_	4	dep	_	_	111.970001	112.000000	DEL
+3	a	avoir	VRB	VRB	_	4	aux	_	_	112.010002	112.050003	DEL
+4	dit	dire	VPP	VPP	_	0	root	_	_	112.059998	112.150002	DEL
+5	que	que	CSU	CSU	_	4	dep	_	_	112.160004	112.180000	DEL
+6	c'	ce	CLS	CLS	_	8	subj	_	_	112.190002	112.279999	DEL
+7	était	être	VRB	VRB	_	8	aux	_	_	112.290001	112.410004	DEL
+8	occupé	occuper	VPP	VPP	_	5	dep	_	_	112.419998	112.709999	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-52
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	112.769997	112.949997	DEL
+2	euh	euh	INT	INT	_	1	dm	_	_	112.959999	113.150002	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-53
+# text = oui ben c'est j'étais sur Internet
+1	oui	oui	INT	INT	_	4	dm	_	_	112.839996	113.010002	JEA
+2	ben	ben	INT	INT	_	1	dm	_	_	113.019997	113.150002	JEA
+3	c'	ce	CLS	CLS	_	4	subj	_	_	113.279999	113.300003	JEA
+4	est	être	VRB	VRB	_	0	root	_	_	113.419998	113.480003	JEA
+5	j'	je	CLS	CLS	_	6	subj	_	_	113.489998	113.519997	JEA
+6	étais	être	VRB	VRB	_	4	para	_	_	113.529999	113.739998	JEA
+7	sur	sur	PRE	PRE	_	6	dep	_	_	113.820000	113.930000	JEA
+8	Internet	internet	NOM	NOM	_	7	dep	_	_	113.940002	114.379997	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-54
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	114.849998	115.059998	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-55
+# text = bon sinon c'était bien hier le l'exposé là hein
+1	bon	bon	INT	INT	_	4	dm	_	_	115.379997	115.809998	JEA
+2	sinon	sinon	ADV	ADV	_	4	periph	_	_	115.860001	116.089996	JEA
+3	c'	ce	CLS	CLS	_	4	subj	_	_	116.099998	116.180000	JEA
+4	était	être	VRB	VRB	_	0	root	_	_	116.190002	116.370003	JEA
+5	bien	bien	ADV	ADV	_	4	dep	_	_	116.379997	116.570000	JEA
+6	hier	hier	ADV	ADV	_	4	dep	_	_	116.580002	116.790001	JEA
+7	le	le	DET	DET	_	9	spe	_	_	116.800003	117.230003	JEA
+8	l'	le	DET	DET	_	7	para	_	_	118.199997	118.300003	JEA
+9	exposé	exposé	NOM	NOM	_	4	dep	_	_	118.309998	118.779999	JEA
+10	là	là	ADV	ADV	_	9	dep	_	_	118.790001	118.910004	JEA
+11	hein	hein	INT	INT	_	10	dm	_	_	118.970001	119.610001	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-56
+# text = j'étais content c'est bien c'est bien
+1	j'	je	CLS	CLS	_	2	subj	_	_	119.989998	120.050003	JEA
+2	étais	être	VRB	VRB	_	0	root	_	_	120.059998	120.209999	JEA
+3	content	content	ADJ	ADJ	_	2	dep	_	_	120.220001	120.970001	JEA
+4	c'	ce	CLS	CLS	_	5	subj	_	_	121.260002	121.339996	JEA
+5	est	être	VRB	VRB	_	2	para	_	_	121.480003	121.510002	JEA
+6	bien	bien	ADV	ADV	_	5	dep	_	_	121.519997	121.599998	JEA
+7	c'	ce	CLS	CLS	_	8	subj	_	_	121.889999	121.910004	JEA
+8	est	être	VRB	VRB	_	5	para	_	_	121.919998	121.940002	JEA
+9	bien	bien	ADV	ADV	_	8	dep	_	_	121.949997	122.099998	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-57
+# text = bon j'ai vu que vous aviez un petit peu
+1	bon	bon	INT	INT	_	4	dm	_	_	122.110001	122.290001	JEA
+2	j'	je	CLS	CLS	_	4	subj	_	_	122.300003	122.320000	JEA
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	122.330002	122.349998	JEA
+4	vu	voir	VPP	VPP	_	0	root	_	_	122.360001	122.500000	JEA
+5	que	que	CSU	CSU	_	4	dep	_	_	122.510002	122.629997	JEA
+6	vous	vous	CLS	CLS	_	7	subj	_	_	122.639999	122.699997	JEA
+7	aviez	avoir	VRB	VRB	_	5	dep	_	_	122.709999	122.870003	JEA
+8	un	un	DET	DET	_	10	spe	_	_	122.879997	122.989998	JEA
+9	petit	petit	ADJ	ADJ	_	10	dep	_	_	123.419998	123.550003	JEA
+10	peu	peu	NOM	NOM	_	7	dep	_	_	123.760002	123.860001	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-58
+# text = vous étiez un petit peu tendue au début
+1	vous	vous	CLS	CLS	_	2	subj	_	_	123.870003	123.970001	JEA
+2	étiez	être	VRB	VRB	_	0	root	_	_	123.980003	124.169998	JEA
+3	un	un	DET	DET	_	5	spe	_	_	124.180000	124.239998	JEA
+4	petit	petit	ADJ	ADJ	_	5	dep	_	_	124.250000	124.400002	JEA
+5	peu	peu	NOM	NOM	_	2	dep	_	_	124.410004	124.500000	JEA
+6	tendue	tendre	ADJ	ADJ	_	5	dep	_	_	124.510002	124.900002	JEA
+7	au	à+le	PRE	PRE	_	2	dep	_	_	124.910004	125.000000	JEA
+8	début	début	NOM	NOM	_	7	dep	_	_	125.010002	125.129997	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-59
+# text = mais bon non non mais c'était très bien très bien
+1	mais	mais	COO	COO	_	7	mark	_	_	125.239998	125.529999	JEA
+2	bon	bon	INT	INT	_	1	dm	_	_	125.540001	125.650002	JEA
+3	non	non	INT	INT	_	2	dm	_	_	125.900002	126.180000	JEA
+4	non	non	INT	INT	_	3	para	_	_	126.190002	126.239998	JEA
+5	mais	mais	COO	COO	_	1	para	_	_	126.250000	126.320000	JEA
+6	c'	ce	CLS	CLS	_	7	subj	_	_	126.400002	126.419998	JEA
+7	était	être	VRB	VRB	_	0	root	_	_	126.430000	126.580002	JEA
+8	très	très	ADV	ADV	_	9	dep	_	_	126.589996	126.750000	JEA
+9	bien	bien	ADV	ADV	_	7	dep	_	_	126.760002	126.889999	JEA
+10	très	très	ADV	ADV	_	11	dep	_	_	127.040001	127.120003	JEA
+11	bien	bien	ADV	ADV	_	7	dep	_	_	127.129997	127.209999	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-60
+# text = très bien je pense que
+1	très	très	ADV	ADV	_	2	dep	_	_	127.320000	127.400002	JEA
+2	bien	bien	ADV	ADV	_	4	periph	_	_	127.410004	127.489998	JEA
+3	je	je	CLS	CLS	_	4	subj	_	_	127.529999	127.650002	JEA
+4	pense	penser	VRB	VRB	_	0	root	_	_	127.660004	127.830002	JEA
+5	que	que	CSU	CSU	_	4	dep	_	_	127.970001	128.210007	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-61
+# text = ça plu
+1	ça	ça	PRO	PRO	_	0	root	_	_	128.929993	129.119995	JEA
+2	plu	plu	X	X	_	1	disflink	_	_	129.130005	129.410004	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-62
+# text = bon je rappelle d'ici euh dix minutes
+1	bon	bon	INT	INT	_	3	dm	_	_	130.160004	130.440002	JEA
+2	je	je	CLS	CLS	_	3	subj	_	_	130.720001	130.940002	JEA
+3	rappelle	rappeler	VRB	VRB	_	0	root	_	_	130.949997	131.270004	JEA
+4	d'	de	PRE	PRE	_	3	dep	_	_	131.279999	131.320007	JEA
+5	ici	ici	ADV	ADV	_	4	dep	_	_	131.330002	131.779999	JEA
+6	euh	euh	INT	INT	_	5	dm	_	_	131.789993	132.229996	JEA
+7	dix	dix	NUM	NUM	_	8	spe	_	_	132.240005	132.380005	JEA
+8	minutes	minute	NOM	NOM	_	3	dep	_	_	132.389999	132.660004	JEA
+
+# sent_id = cefc-coralrom-ftelpv11-63
+# text = ouais ouais j'étais conv-~ ouais
+1	ouais	ouais	INT	INT	_	4	dm	_	_	119.410004	119.540001	DEL
+2	ouais	ouais	INT	INT	_	1	para	_	_	119.830002	120.000000	DEL
+3	j'	je	CLS	CLS	_	4	subj	_	_	120.010002	120.050003	DEL
+4	étais	être	VRB	VRB	_	0	root	_	_	120.059998	120.209999	DEL
+5	conv-~	conv-~	NOM	NOM	_	4	dep	_	_	120.220001	120.980003	DEL
+6	ouais	ouais	INT	INT	_	5	dm	_	_	120.989998	121.040001	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-64
+# text = ouais ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	125.199997	125.559998	DEL
+2	ouais	ouais	INT	INT	_	1	para	_	_	125.570000	125.720001	DEL
+3	ouais	ouais	INT	INT	_	2	para	_	_	125.730003	125.839996	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-65
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	132.949997	132.970001	DEL
+2	accord	accord	NOM	NOM	_	1	dep	_	_	132.979996	133.250000	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-66
+# text = OK je regarde ça
+1	OK	OK	INT	INT	_	3	dm	_	_	133.259995	133.360001	DEL
+2	je	je	CLS	CLS	_	3	subj	_	_	133.369995	133.389999	DEL
+3	regarde	regarder	VRB	VRB	_	0	root	_	_	133.399994	133.539993	DEL
+4	ça	ça	PRO	PRO	_	3	dep	_	_	133.600006	133.919998	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-67
+# text = allez
+1	allez	aller	VRB	VRB	_	0	root	_	_	134.580002	134.800003	DEL
+
+# sent_id = cefc-coralrom-ftelpv11-68
+# text = OK ça roule
+1	OK	OK	INT	INT	_	3	dm	_	_	133.669998	133.979996	JEA
+2	ça	ça	PRO	PRO	_	3	subj	_	_	134.100006	134.250000	JEA
+3	roule	rouler	VRB	VRB	_	0	root	_	_	134.259995	134.369995	JEA
+

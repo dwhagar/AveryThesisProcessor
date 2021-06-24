@@ -1,0 +1,1631 @@
+# sent_id = cefc-tcof-Tel_maz_07-1
+# text = j'étais pas pas à l'aise
+1	j'	je	CLS	CLS	_	2	subj	_	_	0.140000	0.160000	L1
+2	étais	être	VRB	VRB	_	0	root	_	_	0.170000	0.250000	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	0.390000	0.470000	L1
+4	pas	pas	ADN	ADN	_	2	dep	_	_	0.810000	0.860000	L1
+5	à	à	PRE	PRE	_	2	dep	_	_	0.990000	1.010000	L1
+6	l'	le	DET	DET	_	7	spe	_	_	1.020000	1.050000	L1
+7	aise	aise	NOM	NOM	_	5	dep	_	_	1.290000	1.340000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-2
+# text = jeudi dernier
+1	jeudi	jeudi	NOM	NOM	_	0	root	_	_	1.610000	1.850000	L1
+2	dernier	dernier	ADJ	ADJ	_	1	dep	_	_	1.860000	2.080000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-3
+# text = quand pour l'aide aux devoirs là quand je croyais que je serais toute seule comme toi tu avais été j~
+1	quand	quand	CSU	CSU	_	20	periph	_	_	2.090000	2.150000	L1
+2	pour	pour	PRE	PRE	_	1	dep	_	_	2.270000	2.370000	L1
+3	l'	le	DET	DET	_	4	spe	_	_	2.380000	2.430000	L1
+4	aide	aide	NOM	NOM	_	2	dep	_	_	2.440000	2.560000	L1
+5	aux	à+le	PRE	PRE	_	20	periph	_	_	2.570000	2.630000	L1
+6	devoirs	devoir	NOM	NOM	_	5	dep	_	_	2.640000	2.900000	L1
+7	là	là	ADV	ADV	_	20	periph	_	_	2.910000	3.030000	L1
+8	quand	quand	CSU	CSU	_	20	periph	_	_	3.410000	3.460000	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	3.470000	3.490000	L1
+10	croyais	croire	VRB	VRB	_	8	dep	_	_	3.500000	3.670000	L1
+11	que	que	CSU	CSU	_	10	dep	_	_	3.980000	4.030000	L1
+12	je	je	CLS	CLS	_	13	subj	_	_	4.040000	4.060000	L1
+13	serais	être	VRB	VRB	_	11	dep	_	_	4.070000	4.230000	L1
+14	toute	tout	ADJ	ADJ	_	15	dep	_	_	4.240000	4.490000	L1
+15	seule	seul	ADJ	ADJ	_	13	dep	_	_	4.500000	4.750000	L1
+16	comme	comme	PRE	PRE	_	13	dep	_	_	4.760000	4.940000	L1
+17	toi	moi	PRO	PRO	_	16	dep	_	_	4.950000	5.140000	L1
+18	tu	tu	CLS	CLS	_	20	subj	_	_	5.150000	5.220000	L1
+19	avais	avoir	VRB	VRB	_	20	aux	_	_	5.230000	5.410000	L1
+20	été	être	VPP	VPP	_	0	root	_	_	5.420000	5.720000	L1
+21	j~	j~	CLI	CLI	_	20	dep	_	_	6.570000	6.630000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-4
+# text = j'étais pas fière hein quand je suis arrivée bon quand j'ai vu qu'il y avait deux autres animatrices qui venaient
+1	j'	je	CLS	CLS	_	2	subj	_	_	6.670000	6.960000	L1
+2	étais	être	VRB	VRB	_	0	root	_	_	6.970000	7.130000	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	7.140000	7.270000	L1
+4	fière	fier	ADJ	ADJ	_	2	dep	_	_	7.280000	7.590000	L1
+5	hein	hein	INT	INT	_	4	dm	_	_	7.600000	7.680000	L1
+6	quand	quand	CSU	CSU	_	2	dep	_	_	7.690000	7.790000	L1
+7	je	je	CLS	CLS	_	9	subj	_	_	7.800000	7.860000	L1
+8	suis	être	VRB	VRB	_	9	aux	_	_	7.870000	7.960000	L1
+9	arrivée	arriver	VPP	VPP	_	6	dep	_	_	7.970000	8.460000	L1
+10	bon	bon	INT	INT	_	9	dm	_	_	8.470000	8.630000	L1
+11	quand	quand	CSU	CSU	_	6	para	_	_	8.920000	8.970000	L1
+12	j'	je	CLS	CLS	_	14	subj	_	_	8.980000	9.040000	L1
+13	ai	avoir	VRB	VRB	_	14	aux	_	_	9.050000	9.110000	L1
+14	vu	voir	VPP	VPP	_	11	dep	_	_	9.120000	9.280000	L1
+15	qu'	que	CSU	CSU	_	14	dep	_	_	9.290000	9.330000	L1
+16	il	il	CLS	CLS	_	18	subj	_	_	9.340000	9.390000	L1
+17	y	y	CLI	CLI	_	18	dep	_	_	9.400000	9.420000	L1
+18	avait	avoir	VRB	VRB	_	15	dep	_	_	9.430000	9.660000	L1
+19	deux	deux	NUM	NUM	_	21	spe	_	_	9.670000	9.960000	L1
+20	autres	autre	ADJ	ADJ	_	21	dep	_	_	9.970000	10.290000	L1
+21	animatrices	animateur	NOM	NOM	_	18	dep	_	_	10.300000	10.770000	L1
+22	qui	qui	PRQ	PRQ	_	23	subj	_	_	10.780000	10.890000	L1
+23	venaient	venir	VRB	VRB	_	21	dep	_	_	10.900000	11.130000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-5
+# text = j'ai
+1	j'	je	CLS	CLS	_	2	subj	_	_	11.140000	11.200000	L1
+2	ai	avoir	VRB	VRB	_	0	root	_	_	11.210000	11.330000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-6
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	3.730000	3.920000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-7
+# text = ben oui
+1	ben	ben	INT	INT	_	0	root	_	_	6.000000	6.050000	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	6.260000	6.310000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-8
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	12.430000	12.680000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-9
+# text = ça fait du
+1	ça	ça	PRO	PRO	_	2	subj	_	_	12.920000	12.980000	L1
+2	fait	faire	VRB	VRB	_	0	root	_	_	12.990000	13.110000	L1
+3	du	de+le	PRE	PRE	_	2	dep	_	_	13.120000	13.170000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-10
+# text = bien et donc euh
+1	bien	bien	ADV	ADV	_	0	root	_	_	13.210000	13.700000	L2
+2	et	et	COO	COO	_	3	mark	_	_	14.670000	14.740000	L2
+3	donc	donc	ADV	ADV	_	1	para	_	_	14.750000	15.150000	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	15.240000	15.260000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-11
+# text = et pour finir on était une animatrice par élève quoi
+1	et	et	COO	COO	_	5	mark	_	_	15.320000	15.570000	L1
+2	pour	pour	PRE	PRE	_	5	periph	_	_	15.580000	15.720000	L1
+3	finir	finir	VNF	VNF	_	2	dep	_	_	15.730000	15.880000	L1
+4	on	on	CLS	CLS	_	5	subj	_	_	15.890000	15.910000	L1
+5	était	être	VRB	VRB	_	0	root	_	_	15.920000	16.090000	L1
+6	une	un	DET	DET	_	7	spe	_	_	16.100000	16.180000	L1
+7	animatrice	animateur	NOM	NOM	_	5	dep	_	_	16.190001	16.660000	L1
+8	par	par	PRE	PRE	_	7	dep	_	_	16.709999	16.930000	L1
+9	élève	élève	NOM	NOM	_	8	dep	_	_	16.940001	17.240000	L1
+10	quoi	quoi	INT	INT	_	9	dm	_	_	17.290001	17.400000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-12
+# text = donc euh ça va
+1	donc	donc	ADV	ADV	_	4	periph	_	_	17.480000	17.750000	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	18.110001	18.129999	L1
+3	ça	ça	PRO	PRO	_	4	subj	_	_	18.190001	18.280001	L1
+4	va	aller	VRB	VRB	_	0	root	_	_	18.290001	18.420000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-13
+# text = ça fait peut-être même beaucoup des fois
+1	ça	ça	PRO	PRO	_	2	subj	_	_	19.190001	19.240000	L2
+2	fait	faire	VRB	VRB	_	0	root	_	_	19.250000	19.299999	L2
+3	peut-être	peut-être	ADV	ADV	_	2	dep	_	_	19.309999	19.459999	L2
+4	même	même	ADV	ADV	_	5	dep	_	_	19.469999	19.650000	L2
+5	beaucoup	beaucoup	PRO	PRO	_	2	dep	_	_	19.660000	19.860001	L2
+6	des	de	PRE	PRE	_	2	dep	_	_	19.969999	20.209999	L2
+7	fois	foi	NOM	NOM	_	6	dep	_	_	20.219999	20.340000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-14
+# text = ça doit pas être facile
+1	ça	ça	PRO	PRO	_	2	subj	_	_	20.430000	20.510000	L2
+2	doit	devoir	VRB	VRB	_	0	root	_	_	20.520000	20.629999	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	20.680000	20.910000	L2
+4	être	être	VNF	VNF	_	2	dep	_	_	20.920000	21.100000	L2
+5	facile	facile	ADJ	ADJ	_	4	dep	_	_	21.110001	21.389999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-15
+# text = ben pff oui et non parce que
+1	ben	ben	INT	INT	_	6	dm	_	_	21.510000	21.799999	L1
+2	pff	pff	INT	INT	_	1	dm	_	_	21.900000	22.049999	L1
+3	oui	oui	INT	INT	_	2	dm	_	_	22.170000	22.309999	L1
+4	et	et	COO	COO	_	6	mark	_	_	22.320000	22.389999	L1
+5	non	non	INT	INT	_	4	dm	_	_	22.400000	22.580000	L1
+6	parce que	parce que	CSU	CSU	_	0	root	_	_	22.590000	23.430000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-16
+# text = en général pas tous
+1	en	en	PRE	PRE	_	4	periph	_	_	23.440001	23.459999	L1
+2	général	général	NOM	NOM	_	1	dep	_	_	23.469999	23.990000	L1
+3	pas	pas	ADN	ADN	_	4	dep	_	_	24.110001	24.230000	L1
+4	tous	tout	ADJ	ADJ	_	0	root	_	_	24.240000	24.520000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-17
+# text = mais en général euh les enfants qui viennent à l'aide aux devoirs c'est des enfants en difficulté
+1	mais	mais	COO	COO	_	15	mark	_	_	24.530001	24.610001	L1
+2	en	en	PRE	PRE	_	15	periph	_	_	24.620001	24.690001	L1
+3	général	général	NOM	NOM	_	2	dep	_	_	24.700001	25.309999	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	25.379999	25.400000	L1
+5	les	le	DET	DET	_	6	spe	_	_	25.410000	25.900000	L1
+6	enfants	enfant	NOM	NOM	_	15	periph	_	_	25.910000	26.100000	L1
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	26.110001	26.180000	L1
+8	viennent	venir	VRB	VRB	_	6	dep	_	_	26.190001	26.340000	L1
+9	à	à	PRE	PRE	_	8	dep	_	_	26.350000	26.370001	L1
+10	l'	le	DET	DET	_	11	spe	_	_	26.379999	26.400000	L1
+11	aide	aide	NOM	NOM	_	9	dep	_	_	26.410000	26.510000	L1
+12	aux	à+le	PRE	PRE	_	8	dep	_	_	26.520000	26.559999	L1
+13	devoirs	devoir	NOM	NOM	_	12	dep	_	_	26.570000	26.820000	L1
+14	c'	ce	CLS	CLS	_	15	subj	_	_	26.830000	26.860001	L1
+15	est	être	VRB	VRB	_	0	root	_	_	26.920000	26.969999	L1
+16	des	de	PRE	PRE	_	15	dep	_	_	26.980000	27.170000	L1
+17	enfants	enfant	NOM	NOM	_	16	dep	_	_	27.180000	27.469999	L1
+18	en	en	PRE	PRE	_	15	dep	_	_	27.480000	27.540001	L1
+19	difficulté	difficulté	NOM	NOM	_	18	dep	_	_	27.549999	28.120001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-18
+# text = donc tu vois Julian
+1	donc	donc	ADV	ADV	_	3	periph	_	_	28.780001	28.889999	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	28.900000	28.950001	L1
+3	vois	voir	VRB	VRB	_	0	root	_	_	28.959999	29.150000	L1
+4	Julian	Julian	NOM	NOM	_	3	dep	_	_	29.160000	29.590000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-19
+# text = il est en grosse difficulté
+1	il	il	CLS	CLS	_	2	subj	_	_	29.600000	29.730000	L1
+2	est	être	VRB	VRB	_	0	root	_	_	29.740000	29.799999	L1
+3	en	en	PRE	PRE	_	2	dep	_	_	29.809999	29.930000	L1
+4	grosse	gros	ADJ	ADJ	_	5	dep	_	_	29.940001	30.209999	L1
+5	difficulté	difficulté	NOM	NOM	_	3	dep	_	_	30.219999	30.820000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-20
+# text = donc euh c'est pas plus mal
+1	donc	donc	ADV	ADV	_	4	periph	_	_	30.830000	31.010000	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	31.020000	31.040001	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	31.950001	31.969999	L1
+4	est	être	VRB	VRB	_	0	root	_	_	31.980000	32.000000	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	32.009998	32.070000	L1
+6	plus	plus	ADN	ADN	_	7	dep	_	_	32.080002	32.220001	L1
+7	mal	mal	ADV	ADV	_	4	dep	_	_	32.230000	32.400002	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-21
+# text = enfin euh
+1	enfin	enfin	ADV	ADV	_	0	root	_	_	32.410000	32.560001	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	32.570000	32.590000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-22
+# text = justement moi on m'a dit euh
+1	justement	justement	ADV	ADV	_	6	periph	_	_	32.599998	32.779999	L1
+2	moi	moi	PRO	PRO	_	6	periph	_	_	32.790001	33.049999	L1
+3	on	on	CLS	CLS	_	6	subj	_	_	33.160000	33.500000	L1
+4	m'	me	CLI	CLI	_	6	dep	_	_	33.509998	33.549999	L1
+5	a	avoir	VRB	VRB	_	6	aux	_	_	33.560001	33.650002	L1
+6	dit	dire	VPP	VPP	_	0	root	_	_	33.660000	33.930000	L1
+7	euh	euh	INT	INT	_	6	dm	_	_	33.939999	34.009998	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-23
+# text = essaie de t'en occuper euh
+1	essaie	essayer	VRB	VRB	_	0	root	_	_	34.020000	34.400002	L1
+2	de	de	PRE	PRE	_	1	dep	_	_	34.410000	34.509998	L1
+3	t'	te	CLI	CLI	_	5	dep	_	_	34.520000	34.560001	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	34.570000	34.700001	L1
+5	occuper	occuper	VNF	VNF	_	2	dep	_	_	34.709999	35.439999	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	35.450001	35.470001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-24
+# text = oui ben c'est clair
+1	oui	oui	INT	INT	_	4	dm	_	_	31.100000	31.150000	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	31.160000	31.309999	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	31.450001	31.480000	L2
+4	est	être	VRB	VRB	_	0	root	_	_	31.490000	31.570000	L2
+5	clair	clair	ADJ	ADJ	_	4	dep	_	_	31.750000	31.889999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-25
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	36.130001	36.330002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-26
+# text = je vais essayer de le de m'en occuper
+1	je	je	CLS	CLS	_	2	subj	_	_	36.480000	36.500000	L1
+2	vais	aller	VRB	VRB	_	0	root	_	_	36.509998	36.630001	L1
+3	essayer	essayer	VNF	VNF	_	2	dep	_	_	36.639999	36.830002	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	36.840000	37.029999	L1
+5	le	le	DET	DET	_	4	disflink	_	_	37.040001	37.130001	L1
+6	de	de	PRE	PRE	_	4	para	_	_	37.220001	37.270000	L1
+7	m'	me	CLI	CLI	_	9	dep	_	_	37.279999	37.310001	L1
+8	en	en	CLI	CLI	_	9	dep	_	_	37.770000	37.790001	L1
+9	occuper	occuper	VNF	VNF	_	6	dep	_	_	37.799999	38.070000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-27
+# text = mais bon après euh je sais pas si je pourrais faire grand chose
+1	mais	mais	COO	COO	_	6	mark	_	_	38.080002	38.150002	L1
+2	bon	bon	INT	INT	_	1	dm	_	_	38.160000	38.270000	L1
+3	après	après	PRE	PRE	_	6	periph	_	_	38.279999	38.599998	L1
+4	euh	euh	INT	INT	_	3	dm	_	_	38.610001	38.630001	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	38.639999	38.830002	L1
+6	sais	savoir	VRB	VRB	_	0	root	_	_	39.270000	39.400002	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	39.480000	39.610001	L1
+8	si	si	CSU	CSU	_	6	dep	_	_	39.619999	39.680000	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	39.689999	39.790001	L1
+10	pourrais	pouvoir	VRB	VRB	_	8	dep	_	_	39.799999	39.939999	L1
+11	faire	faire	VNF	VNF	_	10	dep	_	_	39.950001	40.169998	L1
+12	grand	grand	ADJ	ADJ	_	13	dep	_	_	40.330002	40.410000	L1
+13	chose	chose	NOM	NOM	_	11	dep	_	_	40.540001	40.639999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-28
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	40.910000	41.090000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-29
+# text = ben pour des élèves euh
+1	ben	ben	INT	INT	_	2	dm	_	_	42.540001	42.689999	L1
+2	pour	pour	PRE	PRE	_	0	root	_	_	42.700001	42.820000	L1
+3	des	de	PRE	PRE	_	2	dep	_	_	42.830002	43.099998	L1
+4	élèves	élève	NOM	NOM	_	3	dep	_	_	43.230000	43.599998	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	43.610001	43.630001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-30
+# text = ben écoute euh t'auras pu l'aider
+1	ben	ben	INT	INT	_	6	dm	_	_	43.740002	44.110001	L2
+2	écoute	écouter	VRB	VRB	_	6	dm	_	_	44.119999	44.369999	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	44.380001	44.400002	L2
+4	t'	te	CLI	CLI	_	6	dep	_	_	44.520000	44.540001	L2
+5	auras	avoir	VRB	VRB	_	6	aux	_	_	44.549999	44.650002	L2
+6	pu	pouvoir	VPP	VPP	_	0	root	_	_	44.660000	44.730000	L2
+7	l'	le	CLI	CLI	_	8	dep	_	_	44.740002	44.759998	L2
+8	aider	aider	VNF	VNF	_	6	dep	_	_	44.770000	44.869999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-31
+# text = oui dans ce cas-là la dernière fois j'ai essayé de lui expliquer des trucs euh genre
+1	oui	oui	INT	INT	_	10	dm	_	_	44.970001	45.110001	L1
+2	dans	dans	PRE	PRE	_	10	periph	_	_	45.549999	45.740002	L1
+3	ce	ce	DET	DET	_	4	spe	_	_	45.959999	46.090000	L1
+4	cas-là	cas-là	NOM	NOM	_	2	dep	_	_	46.240002	46.480000	L1
+5	la	le	DET	DET	_	7	spe	_	_	46.560001	46.759998	L1
+6	dernière	dernier	ADJ	ADJ	_	7	dep	_	_	46.770000	47.060001	L1
+7	fois	foi	NOM	NOM	_	10	periph	_	_	47.070000	47.150002	L1
+8	j'	je	CLS	CLS	_	10	subj	_	_	47.160000	47.180000	L1
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	47.189999	47.340000	L1
+10	essayé	essayer	VPP	VPP	_	0	root	_	_	47.410000	47.799999	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	47.810001	47.869999	L1
+12	lui	lui	CLI	CLI	_	13	dep	_	_	47.880001	47.990002	L1
+13	expliquer	expliquer	VNF	VNF	_	11	dep	_	_	48.000000	48.650002	L1
+14	des	de	PRE	PRE	_	13	dep	_	_	48.900002	48.959999	L1
+15	trucs	truc	NOM	NOM	_	14	dep	_	_	48.970001	49.090000	L1
+16	euh	euh	INT	INT	_	15	dm	_	_	49.099998	49.119999	L1
+17	genre	genre	NOM	NOM	_	15	para	_	_	49.130001	49.250000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-32
+# text = le tu sais il devait apprendre les tables de multiplication là pour les réviser
+1	le	le	DET	DET	_	3	spe	_	_	49.259998	49.509998	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	49.520000	49.590000	L1
+3	sais	savoir	VRB	VRB	_	0	root	_	_	49.599998	49.650002	L1
+4	il	il	CLS	CLS	_	5	subj	_	_	49.660000	49.740002	L1
+5	devait	devoir	VRB	VRB	_	3	para	_	_	49.750000	49.869999	L1
+6	apprendre	apprendre	VNF	VNF	_	5	dep	_	_	49.880001	50.200001	L1
+7	les	le	DET	DET	_	8	spe	_	_	50.209999	50.290001	L1
+8	tables	table	NOM	NOM	_	6	dep	_	_	50.299999	50.470001	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	50.480000	50.540001	L1
+10	multiplication	multiplication	NOM	NOM	_	9	dep	_	_	50.549999	51.240002	L1
+11	là	là	ADV	ADV	_	8	dep	_	_	51.250000	51.340000	L1
+12	pour	pour	PRE	PRE	_	6	dep	_	_	52.180000	52.290001	L1
+13	les	le	CLI	CLI	_	14	dep	_	_	52.299999	52.389999	L1
+14	réviser	réviser	VNF	VNF	_	12	dep	_	_	52.400002	52.740002	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-33
+# text = j'ai essayé de lui expliquer le truc de la table de neuf là moins un euh plus complément là
+1	j'	je	CLS	CLS	_	3	subj	_	_	52.750000	52.799999	L1
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	52.810001	52.880001	L1
+3	essayé	essayer	VPP	VPP	_	0	root	_	_	52.889999	53.200001	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	53.209999	53.230000	L1
+5	lui	lui	CLI	CLI	_	6	dep	_	_	53.240002	53.369999	L1
+6	expliquer	expliquer	VNF	VNF	_	4	dep	_	_	53.380001	53.730000	L1
+7	le	le	DET	DET	_	8	spe	_	_	53.740002	53.799999	L1
+8	truc	truc	NOM	NOM	_	6	dep	_	_	53.869999	54.009998	L1
+9	de	de	PRE	PRE	_	8	dep	_	_	54.060001	54.080002	L1
+10	la	le	DET	DET	_	11	spe	_	_	54.090000	54.240002	L1
+11	table	table	NOM	NOM	_	9	dep	_	_	54.250000	54.439999	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	54.450001	54.520000	L1
+13	neuf	neuf	NUM	NUM	_	12	dep	_	_	54.529999	54.730000	L1
+14	là	là	ADV	ADV	_	11	dep	_	_	54.799999	54.930000	L1
+15	moins	moins	ADV	ADV	_	14	para	_	_	55.430000	56.750000	L1
+16	un	un	DET	DET	_	19	spe	_	_	56.759998	56.849998	L1
+17	euh	euh	INT	INT	_	16	dm	_	_	56.889999	56.910000	L1
+18	plus	plus	ADN	ADN	_	19	dep	_	_	56.919998	57.009998	L1
+19	complément	complément	ADV	ADV	_	20	dep	_	_	57.020000	57.430000	L1
+20	là	là	ADV	ADV	_	11	dep	_	_	57.439999	57.500000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-34
+# text = hum hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	51.830002	51.990002	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	52.000000	52.080002	L2
+3	hum	hum	INT	INT	_	2	dm	_	_	58.470001	58.779999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-35
+# text = ben i-~ je crois qu'il a pas compris hein
+1	ben	ben	INT	INT	_	4	dm	_	_	60.250000	60.299999	L1
+2	i-~	i-~	INT	INT	_	1	dm	_	_	60.310001	60.509998	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	60.520000	60.540001	L1
+4	crois	croire	VRB	VRB	_	0	root	_	_	60.549999	60.680000	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	60.689999	60.709999	L1
+6	il	il	CLS	CLS	_	9	subj	_	_	60.720001	60.830002	L1
+7	a	avoir	VRB	VRB	_	9	aux	_	_	60.840000	60.880001	L1
+8	pas	pas	ADN	ADN	_	9	dep	_	_	60.939999	61.020000	L1
+9	compris	comprendre	VPP	VPP	_	5	dep	_	_	61.279999	61.470001	L1
+10	hein	hein	INT	INT	_	9	dm	_	_	61.480000	61.549999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-36
+# text = il est oui il faut
+1	il	il	CLS	CLS	_	2	subj	_	_	62.230000	62.290001	L1
+2	est	être	VRB	VRB	_	0	root	_	_	62.299999	62.680000	L2
+3	oui	oui	INT	INT	_	2	dm	_	_	62.750000	62.860001	L2
+4	il	il	CLS	CLS	_	5	subj	_	_	62.869999	62.910000	L2
+5	faut	faillir	VRB	VRB	_	2	para	_	_	62.970001	63.020000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-37
+# text = j'ai raconté à maman
+1	j'	je	CLS	CLS	_	3	subj	_	_	63.250000	63.270000	L1
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	63.279999	63.299999	L1
+3	raconté	raconter	VPP	VPP	_	0	root	_	_	63.310001	63.509998	L1
+4	à	à	PRE	PRE	_	3	dep	_	_	63.520000	63.549999	L1
+5	maman	maman	NOM	NOM	_	4	dep	_	_	63.560001	63.860001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-38
+# text = puis elle m'a dit ah c'est un petit peu trop compliqué pour lui hein
+1	puis	puis	COO	COO	_	5	mark	_	_	63.869999	63.950001	L1
+2	elle	il	CLS	CLS	_	5	subj	_	_	63.959999	64.059998	L1
+3	m'	me	CLI	CLI	_	5	dep	_	_	64.070000	64.129997	L1
+4	a	avoir	VRB	VRB	_	5	aux	_	_	64.139999	64.190002	L1
+5	dit	dire	VPP	VPP	_	0	root	_	_	64.199997	64.370003	L1
+6	ah	ah	INT	INT	_	8	dm	_	_	65.089996	65.180000	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	65.190002	65.209999	L1
+8	est	être	VRB	VRB	_	5	dep	_	_	65.220001	65.269997	L1
+9	un	un	DET	DET	_	11	spe	_	_	65.279999	65.389999	L1
+10	petit	petit	ADJ	ADJ	_	11	dep	_	_	65.400002	65.580002	L1
+11	peu	peu	NOM	NOM	_	8	dep	_	_	65.589996	65.690002	L1
+12	trop	trop	ADV	ADV	_	13	dep	_	_	65.699997	65.849998	L1
+13	compliqué	compliquer	VPP	VPP	_	11	dep	_	_	65.860001	66.239998	L1
+14	pour	pour	PRE	PRE	_	13	dep	_	_	66.250000	66.370003	L1
+15	lui	moi	PRO	PRO	_	14	dep	_	_	66.379997	66.589996	L1
+16	hein	hein	INT	INT	_	15	dm	_	_	67.040001	67.459999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-39
+# text = il est en quelle classe déjà
+1	il	il	CLS	CLS	_	2	subj	_	_	67.669998	67.760002	L2
+2	est	être	VRB	VRB	_	0	root	_	_	67.769997	67.790001	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	67.800003	67.839996	L2
+4	quelle	quel	PRQ	PRQ	_	5	dep	_	_	67.849998	68.010002	L2
+5	classe	classe	ADJ	ADJ	_	3	dep	_	_	68.019997	68.230003	L2
+6	déjà	déjà	ADV	ADV	_	2	periph	_	_	68.239998	68.500000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-40
+# text = C M 2
+1	C	C	NOM	NOM	_	0	root	_	_	69.449997	69.589996	L1
+2	M	Monsieur	NOM	NOM	_	1	dep	_	_	69.599998	69.809998	L1
+3	2	2	X	X	_	2	dep	_	_	70.139999	70.430000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-41
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	70.820000	70.970001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-42
+# text = ben ils veu-~ ils veulent envoyer en SEGPA l'année prochaine
+1	ben	ben	INT	INT	_	3	dm	_	_	71.500000	71.559998	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	71.570000	71.639999	L1
+3	veu-~	veu-~	VRB	VRB	_	0	root	_	_	71.650002	71.709999	L1
+4	ils	il	CLS	CLS	_	5	subj	_	_	71.720001	71.860001	L1
+5	veulent	vouloir	VRB	VRB	_	3	para	_	_	71.870003	71.989998	L1
+6	envoyer	envoyer	VNF	VNF	_	5	dep	_	_	72.000000	72.279999	L1
+7	en	en	PRE	PRE	_	6	dep	_	_	72.290001	72.379997	L1
+8	SEGPA	SEGPA	NOM	NOM	_	7	dep	_	_	72.389999	72.709999	L1
+9	l'	le	DET	DET	_	10	spe	_	_	72.760002	72.779999	L1
+10	année	année	NOM	NOM	_	6	dep	_	_	72.790001	72.940002	L1
+11	prochaine	prochain	ADJ	ADJ	_	10	dep	_	_	72.980003	73.290001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-43
+# text = quoi oui ben
+1	quoi	quoi	INT	INT	_	0	root	_	_	73.300003	73.449997	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	74.139999	74.279999	L2
+3	ben	ben	INT	INT	_	2	dm	_	_	74.290001	74.430000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-44
+# text = parce qu'apparemment il est ben je sais pas si tu te souviens comment il était dans la classe de maman
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	74.550003	74.690002	L1
+2	apparemment	apparemment	ADV	ADV	_	4	periph	_	_	74.699997	74.959999	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	74.970001	75.059998	L1
+4	est	être	VRB	VRB	_	1	dep	_	_	75.070000	75.160004	L1
+5	ben	ben	INT	INT	_	4	dm	_	_	75.169998	75.220001	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	75.230003	75.360001	L1
+7	sais	savoir	VRB	VRB	_	4	para	_	_	75.370003	75.480003	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	75.489998	75.540001	L1
+9	si	si	CSU	CSU	_	7	dep	_	_	75.550003	75.610001	L1
+10	tu	tu	CLS	CLS	_	12	subj	_	_	75.620003	75.669998	L1
+11	te	te	CLI	CLI	_	12	dep	_	_	75.680000	75.699997	L1
+12	souviens	souviens	VRB	VRB	_	9	dep	_	_	75.709999	75.910004	L1
+13	comment	comment	PRQ	PRQ	_	15	dep	_	_	75.919998	76.099998	L1
+14	il	il	CLS	CLS	_	15	subj	_	_	76.110001	76.160004	L1
+15	était	être	VRB	VRB	_	7	dep	_	_	76.169998	76.330002	L1
+16	dans	dans	PRE	PRE	_	15	dep	_	_	76.339996	76.400002	L1
+17	la	le	DET	DET	_	18	spe	_	_	76.410004	76.500000	L1
+18	classe	classe	NOM	NOM	_	16	dep	_	_	76.510002	76.699997	L1
+19	de	de	PRE	PRE	_	18	dep	_	_	76.709999	76.790001	L1
+20	maman	maman	NOM	NOM	_	19	dep	_	_	76.800003	77.110001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-45
+# text = non je sais
+1	non	non	INT	INT	_	3	dm	_	_	77.639999	77.639999	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	77.639999	77.639999	L2
+3	sais	savoir	VRB	VRB	_	0	root	_	_	77.639999	77.639999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-46
+# text = déjà là il ben il était en grosse difficu-~ très grosse difficulté quoi
+1	déjà	déjà	ADV	ADV	_	6	periph	_	_	77.889999	78.070000	L1
+2	là	là	ADV	ADV	_	6	periph	_	_	78.080002	78.309998	L1
+3	il	il	CLS	CLS	_	6	subj	_	_	78.320000	78.470001	L1
+4	ben	ben	INT	INT	_	3	dm	_	_	78.480003	78.580002	L1
+5	il	il	CLS	CLS	_	3	para	_	_	78.589996	78.709999	L1
+6	était	être	VRB	VRB	_	0	root	_	_	78.720001	79.349998	L1
+7	en	en	PRE	PRE	_	6	dep	_	_	79.360001	79.650002	L1
+8	grosse	gros	NOM	NOM	_	7	dep	_	_	79.660004	79.919998	L1
+9	difficu-~	difficu-~	ADJ	ADJ	_	8	dep	_	_	79.930000	80.279999	L1
+10	très	très	ADV	ADV	_	11	dep	_	_	80.290001	80.489998	L1
+11	grosse	gros	ADJ	ADJ	_	9	para	_	_	80.500000	80.680000	L1
+12	difficulté	difficulté	NOM	NOM	_	8	para	_	_	80.690002	81.199997	L1
+13	quoi	quoi	INT	INT	_	12	dm	_	_	81.209999	81.349998	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-47
+# text = il a je pense qu'il était passé
+1	il	il	CLS	CLS	_	2	subj	_	_	82.059998	82.120003	L1
+2	a	avoir	VRB	VRB	_	0	root	_	_	82.129997	82.150002	L1
+3	je	je	CLS	CLS	_	4	subj	_	_	82.500000	82.519997	L1
+4	pense	penser	VRB	VRB	_	2	para	_	_	82.529999	82.629997	L1
+5	qu'	que	CSU	CSU	_	4	dep	_	_	82.639999	82.660004	L1
+6	il	il	CLS	CLS	_	8	subj	_	_	82.669998	82.720001	L1
+7	était	être	VRB	VRB	_	8	aux	_	_	82.730003	82.919998	L1
+8	passé	passer	VPP	VPP	_	5	dep	_	_	82.989998	83.500000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-48
+# text = mais euh limite quoi
+1	mais	mais	COO	COO	_	3	mark	_	_	83.510002	84.419998	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	84.430000	84.459999	L1
+3	limite	limite	NOM	NOM	_	0	root	_	_	84.470001	84.809998	L1
+4	quoi	quoi	INT	INT	_	3	dm	_	_	84.820000	85.120003	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-49
+# text = et sous condition de euh
+1	et	et	COO	COO	_	2	mark	_	_	85.129997	85.339996	L1
+2	sous	sous	PRE	PRE	_	0	root	_	_	85.750000	85.930000	L1
+3	condition	condition	NOM	NOM	_	2	dep	_	_	86.000000	86.500000	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	86.510002	86.980003	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	86.989998	87.010002	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-50
+# text = si ça va pas mieux il redouble le C E 1
+1	si	si	CSU	CSU	_	7	periph	_	_	87.019997	87.070000	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	87.080002	87.129997	L1
+3	va	aller	VRB	VRB	_	1	dep	_	_	87.139999	87.320000	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	87.330002	87.449997	L1
+5	mieux	mieux	ADV	ADV	_	3	dep	_	_	87.459999	87.550003	L1
+6	il	il	CLS	CLS	_	7	subj	_	_	87.559998	87.629997	L1
+7	redouble	redoubler	VRB	VRB	_	0	root	_	_	87.639999	87.949997	L1
+8	le	le	DET	DET	_	9	spe	_	_	88.019997	88.040001	L1
+9	C	C	NOM	NOM	_	7	dep	_	_	88.050003	88.150002	L1
+10	E	E	PRE	PRE	_	9	dep	_	_	88.160004	88.199997	L1
+11	1	1	X	X	_	10	dep	_	_	88.550003	89.019997	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-51
+# text = quoi en même temps je veux
+1	quoi	quoi	INT	INT	_	4	dm	_	_	89.120003	89.199997	L2
+2	en même temps	en même temps	ADV	ADV	_	4	periph	_	_	82.190002	82.199997	L2
+3	je	je	CLS	CLS	_	4	subj	_	_	82.199997	82.199997	L2
+4	veux	vouloir	VRB	VRB	_	0	root	_	_	82.199997	82.199997	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-52
+# text = ben des fois aussi pour certains gamins c'est mieux de les envoyer en SEGPA que de les laisser continuer le cursus normal hein
+1	ben	ben	INT	INT	_	5	dm	_	_	89.489998	89.660004	L2
+2	des	de	PRE	PRE	_	5	periph	_	_	89.669998	89.879997	L2
+3	fois	foi	NOM	NOM	_	2	dep	_	_	89.930000	90.150002	L2
+4	aussi	aussi	ADV	ADV	_	5	dep	_	_	90.160004	90.250000	L2
+5	pour	pour	PRE	PRE	_	9	periph	_	_	90.349998	90.470001	L2
+6	certains	certain	DET	DET	_	7	spe	_	_	90.480003	90.760002	L2
+7	gamins	gamin	NOM	NOM	_	5	dep	_	_	90.769997	91.169998	L2
+8	c'	ce	CLS	CLS	_	9	subj	_	_	91.180000	91.279999	L2
+9	est	être	VRB	VRB	_	0	root	_	_	91.290001	91.360001	L2
+10	mieux	mieux	ADV	ADV	_	9	dep	_	_	91.370003	91.519997	L2
+11	de	de	PRE	PRE	_	9	dep	_	_	91.529999	91.550003	L2
+12	les	le	CLI	CLI	_	13	dep	_	_	91.559998	91.750000	L2
+13	envoyer	envoyer	VNF	VNF	_	11	dep	_	_	91.760002	92.080002	L2
+14	en	en	PRE	PRE	_	13	dep	_	_	92.089996	92.129997	L2
+15	SEGPA	SEGPA	NOM	NOM	_	14	dep	_	_	92.139999	92.519997	L2
+16	que	que	CSU	CSU	_	13	dep	_	_	92.529999	92.570000	L2
+17	de	de	PRE	PRE	_	16	dep	_	_	92.629997	92.790001	L2
+18	les	le	CLI	CLI	_	19	dep	_	_	92.800003	92.900002	L2
+19	laisser	laisser	VNF	VNF	_	17	dep	_	_	92.910004	93.139999	L2
+20	continuer	continuer	VNF	VNF	_	19	dep	_	_	93.320000	93.669998	L2
+21	le	le	DET	DET	_	22	spe	_	_	93.680000	93.709999	L2
+22	cursus	cursus	NOM	NOM	_	20	dep	_	_	93.720001	93.970001	L2
+23	normal	normal	ADJ	ADJ	_	22	dep	_	_	94.120003	94.449997	L2
+24	hein	hein	INT	INT	_	23	dm	_	_	94.459999	94.720001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-53
+# text = ouais c'est clair
+1	ouais	ouais	INT	INT	_	3	dm	_	_	95.050003	95.099998	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	95.110001	95.129997	L1
+3	est	être	VRB	VRB	_	0	root	_	_	95.139999	95.160004	L1
+4	clair	clair	ADJ	ADJ	_	3	dep	_	_	95.169998	95.349998	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-54
+# text = mais s'il est déjà en énorme difficulté maintenant il va arriver en sixième
+1	mais	mais	COO	COO	_	11	mark	_	_	95.360001	95.419998	L1
+2	s'	si	CSU	CSU	_	11	periph	_	_	95.480003	95.500000	L2
+3	il	il	CLS	CLS	_	4	subj	_	_	95.510002	95.629997	L2
+4	est	être	VRB	VRB	_	2	dep	_	_	95.639999	95.730003	L2
+5	déjà	déjà	ADV	ADV	_	4	dep	_	_	95.739998	95.980003	L2
+6	en	en	PRE	PRE	_	4	dep	_	_	95.989998	96.209999	L2
+7	énorme	énorme	ADJ	ADJ	_	8	dep	_	_	96.220001	96.529999	L2
+8	difficulté	difficulté	NOM	NOM	_	6	dep	_	_	96.540001	97.220001	L2
+9	maintenant	maintenant	ADV	ADV	_	11	periph	_	_	97.230003	97.669998	L2
+10	il	il	CLS	CLS	_	11	subj	_	_	97.680000	97.739998	L2
+11	va	aller	VRB	VRB	_	0	root	_	_	97.750000	97.930000	L2
+12	arriver	arriver	VNF	VNF	_	11	dep	_	_	97.940002	98.150002	L2
+13	en	en	PRE	PRE	_	12	dep	_	_	98.160004	98.269997	L2
+14	sixième	sixième	ADJ	ADJ	_	13	dep	_	_	98.410004	98.790001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-55
+# text = il va
+1	il	il	CLS	CLS	_	2	subj	_	_	99.139999	99.209999	L2
+2	va	aller	VRB	VRB	_	0	root	_	_	99.220001	99.339996	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-56
+# text = plus être pris en charge par personne enfin
+1	plus	plus	ADN	ADN	_	3	dep	_	_	99.349998	99.480003	L2
+2	être	être	VNF	VNF	_	3	aux	_	_	99.489998	99.709999	L2
+3	pris	-	VPP	VPP	_	0	root	_	_	99.760002	99.989998	L2
+4	en charge	en charge	ADJ	ADJ	_	3	dep	_	_	100.000000	100.349998	L2
+5	par	par	PRE	PRE	_	3	dep	_	_	100.360001	100.480003	L2
+6	personne	personne	PRO	PRO	_	5	dep	_	_	100.580002	100.900002	L2
+7	enfin	enfin	ADV	ADV	_	6	dm	_	_	100.910004	101.580002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-57
+# text = il aura encore des profs
+1	il	il	CLS	CLS	_	2	subj	_	_	101.660004	101.730003	L2
+2	aura	avoir	VRB	VRB	_	0	root	_	_	101.739998	101.849998	L2
+3	encore	encore	ADV	ADV	_	2	dep	_	_	101.860001	102.160004	L2
+4	des	de	PRE	PRE	_	2	dep	_	_	102.169998	102.269997	L2
+5	profs	prof	NOM	NOM	_	4	dep	_	_	102.279999	102.559998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-58
+# text = mais euh mais c'est différent quoi
+1	mais	mais	COO	COO	_	5	mark	_	_	102.620003	102.900002	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	103.110001	103.150002	L2
+3	mais	mais	COO	COO	_	1	para	_	_	103.570000	103.699997	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	103.709999	103.750000	L2
+5	est	être	VRB	VRB	_	0	root	_	_	103.800003	103.839996	L2
+6	différent	différent	ADJ	ADJ	_	5	dep	_	_	103.849998	104.389999	L2
+7	quoi	quoi	INT	INT	_	6	dm	_	_	104.400002	104.669998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-59
+# text = il va être beaucoup plus autonome euh
+1	il	il	CLS	CLS	_	2	subj	_	_	104.680000	104.839996	L2
+2	va	aller	VRB	VRB	_	0	root	_	_	104.849998	105.019997	L2
+3	être	être	VNF	VNF	_	2	dep	_	_	105.029999	105.190002	L2
+4	beaucoup	beaucoup	ADV	ADV	_	5	dep	_	_	105.199997	105.449997	L2
+5	plus	plus	ADV	ADV	_	6	dep	_	_	105.459999	105.790001	L2
+6	autonome	autonome	ADJ	ADJ	_	3	dep	_	_	105.800003	106.320000	L2
+7	euh	euh	INT	INT	_	6	dm	_	_	106.400002	106.470001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-60
+# text = il aura beaucoup plus de boulot
+1	il	il	CLS	CLS	_	2	subj	_	_	106.879997	107.040001	L2
+2	aura	avoir	VRB	VRB	_	0	root	_	_	107.050003	107.239998	L2
+3	beaucoup	beaucoup	ADV	ADV	_	4	dep	_	_	107.250000	107.519997	L2
+4	plus	plus	ADV	ADV	_	2	dep	_	_	107.529999	107.739998	L2
+5	de	de	PRE	PRE	_	4	dep	_	_	107.750000	107.849998	L2
+6	boulot	boulot	NOM	NOM	_	5	dep	_	_	107.860001	108.110001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-61
+# text = il y aura beaucoup plus de choses à intégrer euh
+1	il	il	CLS	CLS	_	3	subj	_	_	108.120003	108.209999	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	108.269997	108.349998	L2
+3	aura	avoir	VRB	VRB	_	0	root	_	_	108.360001	108.519997	L2
+4	beaucoup	beaucoup	ADV	ADV	_	5	dep	_	_	108.529999	108.739998	L2
+5	plus	plus	ADV	ADV	_	3	dep	_	_	108.750000	108.940002	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	108.949997	109.070000	L2
+7	choses	chose	NOM	NOM	_	6	dep	_	_	109.080002	109.260002	L2
+8	à	à	PRE	PRE	_	7	dep	_	_	109.269997	109.309998	L2
+9	intégrer	intégrer	VNF	VNF	_	8	dep	_	_	109.320000	109.889999	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	110.089996	110.110001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-62
+# text = enfin il y a il y a quatre-vingt-quinze pour cent de chance qu'il se ramasse
+1	enfin	enfin	ADV	ADV	_	4	dm	_	_	110.250000	111.040001	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	111.190002	111.290001	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	111.300003	111.330002	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	111.339996	111.830002	L2
+5	il	il	CLS	CLS	_	7	subj	_	_	112.220001	112.320000	L2
+6	y	y	CLI	CLI	_	7	dep	_	_	112.330002	112.360001	L2
+7	a	avoir	VRB	VRB	_	4	para	_	_	112.370003	112.519997	L2
+8	quatre-vingt-quinze	quatre-vingt-quinze	NUM	NUM	_	7	dep	_	_	112.529999	113.500000	L2
+9	pour	pour	PRE	PRE	_	8	dep	_	_	113.510002	113.650002	L2
+10	cent	cent	NUM	NUM	_	9	dep	_	_	113.730003	113.830002	L2
+11	de	de	PRE	PRE	_	10	dep	_	_	113.839996	113.940002	L2
+12	chance	chance	NOM	NOM	_	11	dep	_	_	113.949997	114.129997	L2
+13	qu'	que	PRQ	PRQ	_	16	dep	_	_	114.139999	114.169998	L2
+14	il	il	CLS	CLS	_	16	subj	_	_	114.180000	114.300003	L2
+15	se	se	CLI	CLI	_	16	dep	_	_	114.309998	114.330002	L2
+16	ramasse	ramasse	NOM	NOM	_	12	dep	_	_	114.339996	114.629997	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-63
+# text = ouais c'est clair
+1	ouais	ouais	INT	INT	_	3	dm	_	_	115.360001	115.459999	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	115.470001	115.489998	L1
+3	est	être	VRB	VRB	_	0	root	_	_	115.500000	115.589996	L1
+4	clair	clair	ADJ	ADJ	_	3	dep	_	_	115.599998	115.849998	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-64
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	115.860001	115.910004	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-65
+# text = et puis euh et
+1	et puis	et puis	COO	COO	_	0	root	_	_	115.970001	116.480003	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	116.489998	116.510002	L2
+3	et	et	COO	COO	_	1	para	_	_	116.739998	116.910004	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-66
+# text = qu'il soit euh encore plus dégoûté de l'école et que euh il il ait jamais son brevet et qu'à seize ans il s'en aille de l'école
+1	qu'	que	CSU	CSU	_	0	root	_	_	116.919998	116.940002	L2
+2	il	il	CLS	CLS	_	3	subj	_	_	116.949997	117.510002	L2
+3	soit	être	VRB	VRB	_	1	dep	_	_	117.519997	117.980003	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	118.110001	118.129997	L2
+5	encore	encore	ADV	ADV	_	7	dep	_	_	118.139999	118.430000	L2
+6	plus	plus	ADN	ADN	_	7	dep	_	_	118.480003	118.680000	L2
+7	dégoûté	dégoûter	VPP	VPP	_	3	dep	_	_	118.690002	119.099998	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	119.110001	119.160004	L2
+9	l'	le	DET	DET	_	10	spe	_	_	119.169998	119.199997	L2
+10	école	école	NOM	NOM	_	8	dep	_	_	119.209999	119.540001	L2
+11	et	et	COO	COO	_	12	mark	_	_	119.550003	119.599998	L2
+12	que	que	CSU	CSU	_	1	para	_	_	119.610001	119.730003	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	119.739998	119.870003	L2
+14	il	il	CLS	CLS	_	16	subj	_	_	119.919998	120.330002	L2
+15	il	il	CLS	CLS	_	14	para	_	_	120.440002	120.559998	L2
+16	ait	avoir	VRB	VRB	_	12	dep	_	_	120.870003	120.970001	L2
+17	jamais	jamais	ADN	ADN	_	16	dep	_	_	120.980003	121.230003	L2
+18	son	son	DET	DET	_	19	spe	_	_	121.269997	121.370003	L2
+19	brevet	brevet	NOM	NOM	_	16	dep	_	_	121.379997	121.750000	L2
+20	et	et	COO	COO	_	21	mark	_	_	121.760002	121.790001	L2
+21	qu'	que	CSU	CSU	_	12	para	_	_	121.800003	121.839996	L2
+22	à	à	PRE	PRE	_	28	periph	_	_	121.849998	121.930000	L2
+23	seize	seize	NUM	NUM	_	24	spe	_	_	121.989998	122.160004	L2
+24	ans	an	NOM	NOM	_	22	dep	_	_	122.169998	122.239998	L2
+25	il	il	CLS	CLS	_	28	subj	_	_	122.250000	122.389999	L2
+26	s'	se	CLI	CLI	_	28	dep	_	_	122.400002	122.419998	L2
+27	en	en	CLI	CLI	_	28	dep	_	_	122.430000	122.470001	L2
+28	aille	ailler	VRB	VRB	_	21	dep	_	_	122.550003	122.639999	L2
+29	de	de	PRE	PRE	_	28	dep	_	_	122.650002	122.669998	L2
+30	l'	le	DET	DET	_	31	spe	_	_	122.680000	122.699997	L2
+31	école	école	NOM	NOM	_	29	dep	_	_	122.709999	123.059998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-67
+# text = quoi hum
+1	quoi	quoi	INT	INT	_	2	dm	_	_	123.070000	123.260002	L1
+2	hum	hum	INT	INT	_	0	root	_	_	124.400002	124.470001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-68
+# text = donc euh la SEGPA c'est sûr c'est pas la panacée
+1	donc	donc	ADV	ADV	_	6	periph	_	_	125.010002	125.089996	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	125.099998	125.120003	L2
+3	la	le	DET	DET	_	4	spe	_	_	125.129997	125.339996	L2
+4	SEGPA	SEGPA	NOM	NOM	_	6	periph	_	_	125.389999	125.709999	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	125.720001	125.800003	L2
+6	est	être	VRB	VRB	_	0	root	_	_	125.809998	125.839996	L2
+7	sûr	sûr	ADJ	ADJ	_	6	dep	_	_	125.849998	126.029999	L2
+8	c'	ce	CLS	CLS	_	9	subj	_	_	126.070000	126.089996	L2
+9	est	être	VRB	VRB	_	6	para	_	_	126.099998	126.150002	L2
+10	pas	pas	ADN	ADN	_	9	dep	_	_	126.160004	126.300003	L2
+11	la	le	DET	DET	_	12	spe	_	_	126.309998	126.379997	L2
+12	panacée	panacée	NOM	NOM	_	9	dep	_	_	126.389999	126.830002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-69
+# text = mais bon en même temps euh ça aide quand même bien des enfants
+1	mais	mais	COO	COO	_	6	mark	_	_	126.839996	126.970001	L2
+2	bon	bon	INT	INT	_	1	dm	_	_	126.980003	127.050003	L2
+3	en même temps	en même temps	ADV	ADV	_	6	periph	_	_	127.059998	127.760002	L2
+4	euh	euh	INT	INT	_	3	dm	_	_	127.769997	127.790001	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	127.800003	127.900002	L2
+6	aide	aider	VRB	VRB	_	0	root	_	_	128.190002	128.369995	L2
+7	quand	quand	CSU	CSU	_	6	dep	_	_	128.449997	128.520004	L2
+8	même	même	ADV	ADV	_	9	dep	_	_	128.529999	128.669998	L2
+9	bien	bien	ADV	ADV	_	7	dep	_	_	128.679993	128.850006	L2
+10	des	de	PRE	PRE	_	6	dep	_	_	128.860001	129.020004	L2
+11	enfants	enfant	NOM	NOM	_	10	dep	_	_	129.029999	129.350006	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-70
+# text = ouais c'est
+1	ouais	ouais	INT	INT	_	3	dm	_	_	130.039993	130.110001	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	130.119995	130.190002	L1
+3	est	être	VRB	VRB	_	0	root	_	_	130.199997	130.229996	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-71
+# text = mais c'est quoi le principe de la SEGPA déjà
+1	mais	mais	COO	COO	_	3	mark	_	_	130.240005	130.380005	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	130.389999	130.410004	L1
+3	est	être	VRB	VRB	_	0	root	_	_	130.419998	130.509995	L1
+4	quoi	quoi	PRQ	PRQ	_	3	dep	_	_	130.520004	130.720001	L1
+5	le	le	DET	DET	_	6	spe	_	_	130.729996	130.880005	L1
+6	principe	principe	NOM	NOM	_	3	dep	_	_	130.889999	131.250000	L1
+7	de	de	PRE	PRE	_	6	dep	_	_	131.259995	131.330002	L1
+8	la	le	DET	DET	_	9	spe	_	_	131.339996	131.649994	L1
+9	SEGPA	SEGPA	NOM	NOM	_	7	dep	_	_	131.660004	131.990005	L1
+10	déjà	déjà	ADV	ADV	_	3	periph	_	_	132.320007	132.600006	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-72
+# text = ben en fait c'est tu as des enfants bon le problème
+1	ben	ben	INT	INT	_	5	dm	_	_	132.940002	132.990005	L2
+2	en	en	PRE	PRE	_	5	periph	_	_	133.000000	133.020004	L2
+3	fait	fait	NOM	NOM	_	2	dep	_	_	133.029999	133.229996	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	133.270004	133.309998	L2
+5	est	être	VRB	VRB	_	0	root	_	_	133.320007	133.550003	L2
+6	tu	tu	CLS	CLS	_	7	subj	_	_	133.559998	133.610001	L2
+7	as	avoir	VRB	VRB	_	5	para	_	_	133.619995	133.690002	L2
+8	des	de	PRE	PRE	_	7	dep	_	_	133.699997	133.830002	L2
+9	enfants	enfant	NOM	NOM	_	8	dep	_	_	133.839996	134.119995	L2
+10	bon	bon	INT	INT	_	9	dm	_	_	134.130005	134.240005	L2
+11	le	le	DET	DET	_	12	spe	_	_	134.250000	134.389999	L2
+12	problème	problème	NOM	NOM	_	7	dep	_	_	134.399994	134.759995	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-73
+# text = c'est que souvent c'est il y a pas mal d'enfants qui ont des problèmes de comportement
+1	c'	ce	CLS	CLS	_	2	subj	_	_	134.770004	134.800003	L2
+2	est	être	VRB	VRB	_	0	root	_	_	134.809998	134.850006	L2
+3	que	que	CSU	CSU	_	2	dep	_	_	134.860001	134.880005	L2
+4	souvent	souvent	ADV	ADV	_	6	periph	_	_	134.929993	135.240005	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	135.250000	135.339996	L2
+6	est	être	VRB	VRB	_	3	dep	_	_	135.350006	135.419998	L2
+7	il	il	CLS	CLS	_	9	subj	_	_	135.429993	135.500000	L2
+8	y	y	CLI	CLI	_	9	dep	_	_	135.509995	135.539993	L2
+9	a	avoir	VRB	VRB	_	6	para	_	_	135.550003	135.589996	L2
+10	pas	pas	ADN	ADN	_	11	dep	_	_	135.600006	135.729996	L2
+11	mal	mal	ADV	ADV	_	9	dep	_	_	135.740005	135.899994	L2
+12	d'	de	PRE	PRE	_	9	dep	_	_	135.910004	135.949997	L2
+13	enfants	enfant	NOM	NOM	_	12	dep	_	_	135.960007	136.220001	L2
+14	qui	qui	PRQ	PRQ	_	15	subj	_	_	136.229996	136.360001	L2
+15	ont	avoir	VRB	VRB	_	13	dep	_	_	136.369995	136.389999	L2
+16	des	de	PRE	PRE	_	15	dep	_	_	136.399994	136.550003	L2
+17	problèmes	problème	NOM	NOM	_	16	dep	_	_	136.610001	136.899994	L2
+18	de	de	PRE	PRE	_	17	dep	_	_	136.910004	136.929993	L2
+19	comportement	comportement	NOM	NOM	_	18	dep	_	_	136.940002	137.550003	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-74
+# text = ouais mais c'est ça le problème parce que lui niveau comtemp~ comportement ça va encore
+1	ouais	ouais	INT	INT	_	4	dm	_	_	138.110001	138.240005	L1
+2	mais	mais	COO	COO	_	4	mark	_	_	138.250000	138.320007	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	138.330002	138.350006	L1
+4	est	être	VRB	VRB	_	0	root	_	_	138.360001	138.429993	L1
+5	ça	ça	PRO	PRO	_	4	dep	_	_	138.440002	138.610001	L1
+6	le	le	DET	DET	_	7	spe	_	_	138.619995	138.669998	L1
+7	problème	problème	NOM	NOM	_	4	dep	_	_	138.679993	139.350006	L1
+8	parce que	parce que	CSU	CSU	_	4	dep	_	_	139.360001	139.500000	L1
+9	lui	moi	PRO	PRO	_	14	periph	_	_	139.570007	139.710007	L1
+10	niveau	niveau	NOM	NOM	_	14	periph	_	_	139.789993	140.020004	L1
+11	comtemp~	comtemp~	ADJ	ADJ	_	10	dep	_	_	140.029999	140.380005	L1
+12	comportement	comportement	NOM	NOM	_	10	para	_	_	140.479996	141.080002	L1
+13	ça	ça	PRO	PRO	_	14	subj	_	_	141.139999	141.279999	L1
+14	va	aller	VRB	VRB	_	8	dep	_	_	141.289993	141.399994	L1
+15	encore	encore	ADV	ADV	_	14	dep	_	_	141.410004	141.750000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-75
+# text = enfin il est turbulent avec euh Davida et Guillaume
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	141.759995	142.229996	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	142.240005	142.559998	L1
+3	est	être	VRB	VRB	_	0	root	_	_	142.570007	142.750000	L1
+4	turbulent	turbulent	ADJ	ADJ	_	3	dep	_	_	142.759995	143.369995	L1
+5	avec	avec	PRE	PRE	_	4	dep	_	_	143.380005	143.729996	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	143.740005	143.770004	L1
+7	Davida	Davida	NOM	NOM	_	5	dep	_	_	143.779999	144.690002	L1
+8	et	et	COO	COO	_	9	mark	_	_	144.699997	145.289993	L1
+9	Guillaume	Guillaume	NOM	NOM	_	7	para	_	_	145.300003	145.729996	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-76
+# text = quand ils sont tous les trois ils sont turbulents
+1	quand	quand	CSU	CSU	_	8	periph	_	_	146.729996	146.789993	L1
+2	ils	il	CLS	CLS	_	3	subj	_	_	146.800003	146.869995	L1
+3	sont	être	VRB	VRB	_	1	dep	_	_	146.880005	146.970001	L1
+4	tous	tout	ADJ	ADJ	_	6	dep	_	_	146.979996	147.070007	L1
+5	les	le	DET	DET	_	6	spe	_	_	147.080002	147.149994	L1
+6	trois	trois	NUM	NUM	_	3	dep	_	_	147.160004	147.380005	L1
+7	ils	il	CLS	CLS	_	8	subj	_	_	147.389999	147.440002	L1
+8	sont	être	VRB	VRB	_	0	root	_	_	147.449997	147.539993	L1
+9	turbulents	turbulents	ADV	ADV	_	8	dep	_	_	147.550003	148.029999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-77
+# text = mais là euh i-~ à la rentrée ils avaient décidé de les séparer tous les trois
+1	mais	mais	COO	COO	_	10	mark	_	_	148.690002	149.350006	L1
+2	là	là	ADV	ADV	_	10	periph	_	_	149.360001	149.850006	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	149.860001	149.880005	L1
+4	i-~	i-~	X	X	_	3	disflink	_	_	149.889999	150.509995	L1
+5	à	à	PRE	PRE	_	10	periph	_	_	150.520004	150.589996	L1
+6	la	le	DET	DET	_	7	spe	_	_	150.600006	150.679993	L1
+7	rentrée	rentrée	NOM	NOM	_	5	dep	_	_	150.690002	150.990005	L1
+8	ils	il	CLS	CLS	_	10	subj	_	_	151.080002	151.250000	L1
+9	avaient	avoir	VRB	VRB	_	10	aux	_	_	151.259995	151.419998	L1
+10	décidé	décider	VPP	VPP	_	0	root	_	_	151.429993	151.720001	L1
+11	de	de	PRE	PRE	_	10	dep	_	_	151.729996	151.750000	L1
+12	les	le	CLI	CLI	_	13	dep	_	_	152.089996	152.160004	L1
+13	séparer	séparer	VNF	VNF	_	11	dep	_	_	152.169998	152.440002	L1
+14	tous	tout	ADJ	ADJ	_	16	dep	_	_	152.449997	152.589996	L1
+15	les	le	DET	DET	_	16	spe	_	_	152.600006	152.710007	L1
+16	trois	trois	NUM	NUM	_	13	dep	_	_	152.720001	153.050003	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-78
+# text = et et euh ouais
+1	et	et	COO	COO	_	0	root	_	_	153.589996	153.639999	L1
+2	et	et	COO	COO	_	1	para	_	_	154.309998	154.389999	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	154.610001	154.679993	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	155.220001	155.350006	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-79
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	146.539993	146.610001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-80
+# text = ouais attends
+1	ouais	ouais	INT	INT	_	2	dm	_	_	153.860001	153.949997	L2
+2	attends	attendre	VRB	VRB	_	0	root	_	_	153.960007	154.149994	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-81
+# text = oui vas-y
+1	oui	oui	INT	INT	_	2	dm	_	_	156.039993	156.130005	L2
+2	vas-y	vas-y	VRB	VRB	_	0	root	_	_	156.139999	156.389999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-82
+# text = ils avaient décidé de les séparer tous les trois
+1	ils	il	CLS	CLS	_	3	subj	_	_	156.490005	156.600006	L1
+2	avaient	avoir	VRB	VRB	_	3	aux	_	_	156.610001	156.750000	L1
+3	décidé	décider	VPP	VPP	_	0	root	_	_	156.759995	157.130005	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	157.139999	157.160004	L1
+5	les	le	CLI	CLI	_	6	dep	_	_	157.169998	157.279999	L1
+6	séparer	séparer	VNF	VNF	_	4	dep	_	_	157.289993	157.669998	L1
+7	tous	tout	ADJ	ADJ	_	9	dep	_	_	157.679993	157.850006	L1
+8	les	le	DET	DET	_	9	spe	_	_	157.860001	157.949997	L1
+9	trois	trois	NUM	NUM	_	6	dep	_	_	157.960007	158.410004	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-83
+# text = et donc lui tout seul
+1	et	et	COO	COO	_	5	mark	_	_	158.479996	158.589996	L1
+2	donc	donc	ADV	ADV	_	5	periph	_	_	158.600006	158.779999	L1
+3	lui	moi	PRO	PRO	_	5	dep	_	_	158.789993	159.119995	L1
+4	tout	tout	ADV	ADV	_	5	dep	_	_	159.130005	159.360001	L1
+5	seul	seul	ADJ	ADJ	_	0	root	_	_	159.399994	159.699997	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-84
+# text = mais i-~ c'est limite un amour quoi
+1	mais	mais	COO	COO	_	4	mark	_	_	160.250000	160.449997	L1
+2	i-~	i-~	ADV	ADV	_	4	periph	_	_	160.460007	160.740005	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	160.750000	160.770004	L1
+4	est	être	VRB	VRB	_	0	root	_	_	160.779999	160.929993	L1
+5	limite	limite	NOM	NOM	_	4	dep	_	_	160.940002	161.160004	L1
+6	un	un	DET	DET	_	7	spe	_	_	161.169998	161.309998	L1
+7	amour	amour	NOM	NOM	_	5	para	_	_	161.320007	161.539993	L1
+8	quoi	quoi	INT	INT	_	7	dm	_	_	161.550003	161.710007	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-85
+# text = il était pas insolent ni rien
+1	il	il	CLS	CLS	_	2	subj	_	_	161.720001	161.779999	L1
+2	était	être	VRB	VRB	_	0	root	_	_	161.789993	162.100006	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	162.110001	162.320007	L1
+4	insolent	insolent	NOM	NOM	_	2	dep	_	_	162.330002	162.860001	L1
+5	ni	ni	COO	COO	_	6	mark	_	_	162.869995	163.000000	L1
+6	rien	rien	PRO	PRO	_	4	para	_	_	163.009995	163.259995	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-86
+# text = mais c'est enfin c'est un un garçon normal de son âge quoi en gros quand il est avec les autres mecs
+1	mais	mais	COO	COO	_	3	mark	_	_	164.259995	164.309998	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	164.320007	164.360001	L1
+3	est	être	VRB	VRB	_	0	root	_	_	164.369995	164.449997	L1
+4	enfin	enfin	ADV	ADV	_	3	dm	_	_	164.460007	164.660004	L1
+5	c'	ce	CLS	CLS	_	6	subj	_	_	164.669998	164.710007	L1
+6	est	être	VRB	VRB	_	3	para	_	_	164.720001	164.789993	L1
+7	un	un	DET	DET	_	9	spe	_	_	164.800003	165.100006	L1
+8	un	un	DET	DET	_	7	para	_	_	165.160004	165.259995	L1
+9	garçon	garçon	NOM	NOM	_	6	dep	_	_	165.270004	165.660004	L1
+10	normal	normal	ADJ	ADJ	_	9	dep	_	_	165.669998	166.100006	L1
+11	de	de	PRE	PRE	_	9	dep	_	_	166.110001	166.130005	L1
+12	son	son	DET	DET	_	13	spe	_	_	166.139999	166.360001	L1
+13	âge	âge	NOM	NOM	_	11	dep	_	_	166.369995	166.619995	L1
+14	quoi	quoi	INT	INT	_	13	dm	_	_	166.669998	166.750000	L1
+15	en	en	PRE	PRE	_	6	dep	_	_	166.759995	166.850006	L1
+16	gros	gros	NOM	NOM	_	15	dep	_	_	166.860001	167.220001	L1
+17	quand	quand	CSU	CSU	_	6	dep	_	_	168.009995	168.059998	L1
+18	il	il	CLS	CLS	_	19	subj	_	_	168.070007	168.119995	L1
+19	est	être	VRB	VRB	_	17	dep	_	_	168.130005	168.330002	L1
+20	avec	avec	PRE	PRE	_	19	dep	_	_	168.339996	168.539993	L1
+21	les	le	DET	DET	_	23	spe	_	_	168.550003	168.660004	L1
+22	autres	autre	ADJ	ADJ	_	23	dep	_	_	168.669998	168.789993	L1
+23	mecs	mec	NOM	NOM	_	20	dep	_	_	168.800003	169.160004	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-87
+# text = ouais ben oui
+1	ouais	ouais	INT	INT	_	0	root	_	_	163.869995	163.929993	L2
+2	ben	ben	INT	INT	_	1	dm	_	_	163.940002	164.089996	L2
+3	oui	oui	INT	INT	_	2	dm	_	_	164.100006	164.160004	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-88
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	167.389999	167.630005	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-89
+# text = euh ben il fait un peu n' importe quoi
+1	euh	euh	INT	INT	_	4	dm	_	_	169.289993	169.309998	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	169.320007	169.460007	L1
+3	il	il	CLS	CLS	_	4	subj	_	_	169.470001	170.330002	L1
+4	fait	faire	VRB	VRB	_	0	root	_	_	170.449997	170.500000	L1
+5	un peu	un peu	ADV	ADV	_	4	dep	_	_	170.509995	170.750000	L1
+6	n' importe quoi	n'importe quoi	PRO	PRO	_	4	dep	_	_	170.759995	171.619995	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-90
+# text = il provoque un peu
+1	il	il	CLS	CLS	_	2	subj	_	_	171.630005	171.860001	L1
+2	provoque	provoquer	VRB	VRB	_	0	root	_	_	171.869995	172.229996	L1
+3	un peu	un peu	ADV	ADV	_	2	dep	_	_	172.240005	172.759995	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-91
+# text = enfin je dis pas que c'est normal
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	173.009995	173.520004	L1
+2	je	je	CLS	CLS	_	3	subj	_	_	173.529999	173.550003	L1
+3	dis	dire	VRB	VRB	_	0	root	_	_	173.690002	173.800003	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	173.809998	173.910004	L1
+5	que	que	CSU	CSU	_	3	dep	_	_	173.919998	173.960007	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	173.970001	173.990005	L1
+7	est	être	VRB	VRB	_	5	dep	_	_	174.000000	174.070007	L1
+8	normal	normal	ADJ	ADJ	_	7	dep	_	_	174.080002	174.550003	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-92
+# text = mais ça arrive souvent on va dire
+1	mais	mais	COO	COO	_	3	mark	_	_	174.559998	174.669998	L1
+2	ça	ça	PRO	PRO	_	3	subj	_	_	174.729996	174.880005	L1
+3	arrive	arriver	VRB	VRB	_	0	root	_	_	174.889999	175.009995	L1
+4	souvent	souvent	ADV	ADV	_	3	dep	_	_	175.100006	175.339996	L1
+5	on	on	CLS	CLS	_	6	subj	_	_	175.350006	175.399994	L1
+6	va	aller	VRB	VRB	_	3	para	_	_	175.410004	175.539993	L1
+7	dire	dire	VNF	VNF	_	6	dep	_	_	175.550003	175.789993	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-93
+# text = hum hum
+1	hum	hum	INT	INT	_	0	root	_	_	176.259995	176.470001	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	176.729996	176.789993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-94
+# text = surtout qu'en plus là c'est l'aide aux devoirs
+1	surtout	surtout	ADV	ADV	_	2	dep	_	_	177.529999	177.699997	L1
+2	qu'	que	CSU	CSU	_	0	root	_	_	177.710007	177.740005	L1
+3	en	en	PRE	PRE	_	7	periph	_	_	177.750000	177.839996	L1
+4	plus	plus	ADN	ADN	_	3	dep	_	_	177.850006	178.039993	L1
+5	là	là	ADV	ADV	_	7	periph	_	_	178.050003	178.149994	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	178.199997	178.220001	L1
+7	est	être	VRB	VRB	_	2	dep	_	_	178.229996	178.300003	L1
+8	l'	le	DET	DET	_	9	spe	_	_	178.309998	178.369995	L1
+9	aide	aide	NOM	NOM	_	7	dep	_	_	178.380005	178.470001	L1
+10	aux	à+le	PRE	PRE	_	9	dep	_	_	178.479996	178.529999	L1
+11	devoirs	devoir	NOM	NOM	_	10	dep	_	_	178.539993	178.809998	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-95
+# text = donc pour eux c'est pas vraiment la classe
+1	donc	donc	ADV	ADV	_	5	periph	_	_	178.820007	178.929993	L1
+2	pour	pour	PRE	PRE	_	5	periph	_	_	178.940002	179.190002	L1
+3	eux	moi	PRO	PRO	_	2	dep	_	_	179.199997	179.220001	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	179.229996	179.250000	L1
+5	est	être	VRB	VRB	_	0	root	_	_	179.259995	179.279999	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	179.289993	179.399994	L1
+7	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	179.410004	179.699997	L1
+8	la	le	DET	DET	_	9	spe	_	_	179.710007	179.820007	L1
+9	classe	classe	NOM	NOM	_	5	dep	_	_	179.830002	180.160004	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-96
+# text = donc c'est peut-être un peu plus détente que la classe
+1	donc	donc	ADV	ADV	_	3	periph	_	_	180.169998	180.270004	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	180.279999	180.300003	L1
+3	est	être	VRB	VRB	_	0	root	_	_	180.309998	180.380005	L1
+4	peut-être	peut-être	ADV	ADV	_	3	dep	_	_	180.389999	180.660004	L1
+5	un peu	un peu	ADV	ADV	_	6	dep	_	_	180.669998	181.139999	L1
+6	plus	plus	ADN	ADN	_	7	dep	_	_	181.149994	181.419998	L1
+7	détente	détente	NOM	NOM	_	3	dep	_	_	181.429993	181.979996	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	181.990005	182.089996	L1
+9	la	le	DET	DET	_	10	spe	_	_	182.100006	182.229996	L1
+10	classe	classe	NOM	NOM	_	8	dep	_	_	182.240005	182.750000	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-97
+# text = oui pas forcément je sais
+1	oui	oui	INT	INT	_	5	dm	_	_	183.860001	184.020004	L2
+2	pas	pas	ADN	ADN	_	5	periph	_	_	184.029999	184.119995	L2
+3	forcément	forcément	ADV	ADV	_	5	periph	_	_	184.130005	184.419998	L2
+4	je	je	CLS	CLS	_	5	subj	_	_	184.429993	184.449997	L2
+5	sais	savoir	VRB	VRB	_	0	root	_	_	184.509995	184.559998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-98
+# text = pas mais euh enfin je sais pas on verra les autres euh
+1	pas	pas	ADN	ADN	_	6	dep	_	_	184.570007	184.619995	L1
+2	mais	mais	COO	COO	_	6	mark	_	_	184.679993	185.009995	L1
+3	euh	euh	INT	INT	_	2	dm	_	_	185.250000	185.270004	L1
+4	enfin	enfin	ADV	ADV	_	3	dm	_	_	185.279999	185.470001	L1
+5	je	je	CLS	CLS	_	6	subj	_	_	185.750000	185.820007	L1
+6	sais	savoir	VRB	VRB	_	0	root	_	_	185.919998	186.070007	L1
+7	pas	pas	ADN	ADN	_	6	dep	_	_	186.399994	186.860001	L1
+8	on	on	CLS	CLS	_	9	subj	_	_	186.869995	186.949997	L1
+9	verra	voir	VRB	VRB	_	6	para	_	_	186.960007	187.190002	L1
+10	les	le	DET	DET	_	11	spe	_	_	187.199997	187.380005	L1
+11	autres	autres	NOM	NOM	_	9	dep	_	_	187.389999	187.880005	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	188.160004	188.179993	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-99
+# text = ouais on verra comment ça se passera
+1	ouais	ouais	INT	INT	_	3	dm	_	_	188.380005	188.429993	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	188.440002	188.460007	L2
+3	verra	voir	VRB	VRB	_	0	root	_	_	188.470001	188.580002	L2
+4	comment	comment	PRQ	PRQ	_	3	dep	_	_	188.710007	188.889999	L2
+5	ça	ça	PRO	PRO	_	7	subj	_	_	188.899994	188.949997	L2
+6	se	se	CLI	CLI	_	7	dep	_	_	188.960007	188.979996	L2
+7	passera	passer	VRB	VRB	_	4	dep	_	_	189.059998	189.199997	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-100
+# text = les autres trucs
+1	les	le	DET	DET	_	3	spe	_	_	189.279999	189.369995	L1
+2	autres	autre	ADJ	ADJ	_	3	dep	_	_	189.380005	189.669998	L1
+3	trucs	truc	NOM	NOM	_	0	root	_	_	189.800003	190.300003	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-101
+# text = mais euh
+1	mais	mais	COO	COO	_	0	root	_	_	190.440002	190.869995	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	191.039993	191.139999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-102
+# text = mais
+1	mais	mais	COO	COO	_	0	root	_	_	192.690002	192.690002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-103
+# text = moi
+1	moi	moi	PRO	PRO	_	0	root	_	_	192.690002	192.690002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-104
+# text = pour la SEG
+1	pour	pour	PRE	PRE	_	0	root	_	_	192.690002	192.690002	L2
+2	la	le	DET	DET	_	3	spe	_	_	192.690002	192.690002	L2
+3	SEG	SEG	NOM	NOM	_	1	dep	_	_	192.690002	192.690002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-105
+# text = je pense que PA
+1	je	je	CLS	CLS	_	2	subj	_	_	192.750000	192.850006	L1
+2	pense	penser	VRB	VRB	_	0	root	_	_	193.210007	193.460007	L1
+3	que	que	CSU	CSU	_	2	dep	_	_	193.470001	193.630005	L1
+4	PA	PA	NOM	NOM	_	3	dep	_	_	194.470001	194.720001	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-106
+# text = oui je disais pour la SEGPA
+1	oui	oui	INT	INT	_	3	dm	_	_	195.850006	195.960007	L2
+2	je	je	CLS	CLS	_	3	subj	_	_	195.970001	196.000000	L2
+3	disais	dire	VRB	VRB	_	0	root	_	_	196.009995	196.289993	L2
+4	pour	pour	PRE	PRE	_	3	dep	_	_	196.300003	196.440002	L2
+5	la	le	DET	DET	_	6	spe	_	_	196.449997	196.580002	L2
+6	SEGPA	SEGPA	NOM	NOM	_	4	dep	_	_	196.589996	197.070007	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-107
+# text = c'est des gamins qui ont pas le niveau du tout pour aller en sixième
+1	c'	ce	CLS	CLS	_	2	subj	_	_	197.130005	197.190002	L2
+2	est	être	VRB	VRB	_	0	root	_	_	197.199997	197.479996	L2
+3	des	de	PRE	PRE	_	2	dep	_	_	197.490005	197.610001	L2
+4	gamins	gamin	NOM	NOM	_	3	dep	_	_	197.619995	197.979996	L2
+5	qui	qui	PRQ	PRQ	_	6	subj	_	_	198.139999	198.339996	L2
+6	ont	avoir	VRB	VRB	_	2	para	_	_	198.350006	198.419998	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	198.429993	198.660004	L2
+8	le	le	DET	DET	_	9	spe	_	_	198.669998	198.699997	L2
+9	niveau	niveau	NOM	NOM	_	6	dep	_	_	198.710007	199.029999	L2
+10	du	de+le	PRE	PRE	_	9	dep	_	_	199.039993	199.169998	L2
+11	tout	tout	PRO	PRO	_	10	dep	_	_	199.210007	199.300003	L2
+12	pour	pour	PRE	PRE	_	6	dep	_	_	199.309998	199.490005	L2
+13	aller	aller	VNF	VNF	_	12	dep	_	_	199.500000	199.679993	L2
+14	en	en	PRE	PRE	_	13	dep	_	_	199.690002	199.789993	L2
+15	sixième	sixième	ADJ	ADJ	_	14	dep	_	_	199.889999	200.220001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-108
+# text = hum
+1	hum	hum	INT	INT	_	0	root	_	_	200.729996	200.779999	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-109
+# text = et euh c'est en fait
+1	et	et	COO	COO	_	4	mark	_	_	201.500000	201.630005	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	201.949997	201.990005	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	202.000000	202.199997	L2
+4	est	être	VRB	VRB	_	0	root	_	_	202.210007	202.820007	L2
+5	en	en	PRE	PRE	_	4	dep	_	_	202.830002	202.880005	L2
+6	fait	fait	NOM	NOM	_	5	dep	_	_	202.940002	203.050003	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-110
+# text = ils sont euh bon ils vont
+1	ils	il	CLS	CLS	_	2	subj	_	_	203.100006	203.190002	L2
+2	sont	être	VRB	VRB	_	6	parenth	_	_	203.250000	203.309998	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	203.550003	203.570007	L2
+4	bon	bon	INT	INT	_	3	dm	_	_	203.660004	203.789993	L2
+5	ils	il	CLS	CLS	_	6	subj	_	_	203.800003	203.929993	L2
+6	vont	aller	VRB	VRB	_	0	root	_	_	203.940002	204.029999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-111
+# text = quand même au co~ euh enfin SEGPA c'est souvent euh euh dans un collège que ça se passe
+1	quand	quand	CSU	CSU	_	9	periph	_	_	204.039993	204.149994	L2
+2	même	même	ADV	ADV	_	3	dep	_	_	204.160004	204.279999	L2
+3	au	à+le	PRE	PRE	_	1	dep	_	_	204.289993	204.350006	L2
+4	co~	co~	NOM	NOM	_	3	dep	_	_	204.360001	204.520004	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	204.559998	204.669998	L2
+6	enfin	enfin	ADV	ADV	_	5	dm	_	_	204.740005	204.929993	L2
+7	SEGPA	SEGPA	NOM	NOM	_	3	dep	_	_	205.000000	205.279999	L2
+8	c'	ce	CLS	CLS	_	9	subj	_	_	205.289993	205.309998	L2
+9	est	être	VRB	VRB	_	0	root	_	_	205.429993	205.490005	L2
+10	souvent	souvent	ADV	ADV	_	9	dep	_	_	205.570007	206.130005	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	206.139999	206.160004	L2
+12	euh	euh	INT	INT	_	11	dm	_	_	206.339996	206.380005	L2
+13	dans	dans	PRE	PRE	_	9	dep	_	_	206.509995	206.630005	L2
+14	un	un	DET	DET	_	15	spe	_	_	206.639999	207.470001	L2
+15	collège	collège	NOM	NOM	_	13	dep	_	_	207.479996	207.809998	L2
+16	que	que	CSU	CSU	_	9	dep	_	_	207.820007	207.940002	L2
+17	ça	ça	PRO	PRO	_	19	subj	_	_	208.289993	208.440002	L2
+18	se	se	CLI	CLI	_	19	dep	_	_	208.449997	208.509995	L2
+19	passe	passer	VRB	VRB	_	16	dep	_	_	208.520004	208.750000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-112
+# text = mais c'est des instits
+1	mais	mais	COO	COO	_	3	mark	_	_	209.529999	209.619995	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	209.729996	209.750000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	209.759995	209.800003	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	209.809998	209.919998	L2
+5	instits	instit	NOM	NOM	_	4	dep	_	_	209.929993	210.429993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-113
+# text = mais euh les instits ils font pas forcément classe
+1	mais	mais	COO	COO	_	6	mark	_	_	210.559998	210.679993	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	210.720001	210.740005	L2
+3	les	le	DET	DET	_	4	spe	_	_	210.750000	211.089996	L2
+4	instits	instit	NOM	NOM	_	6	periph	_	_	211.149994	211.639999	L2
+5	ils	il	CLS	CLS	_	6	subj	_	_	211.720001	211.789993	L2
+6	font	faire	VRB	VRB	_	0	root	_	_	211.800003	211.929993	L2
+7	pas	pas	ADN	ADN	_	6	dep	_	_	211.940002	212.250000	L2
+8	forcément	forcément	ADV	ADV	_	9	dep	_	_	212.259995	212.660004	L2
+9	classe	classe	ADJ	ADJ	_	6	dep	_	_	212.669998	212.839996	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-114
+# text = toute la journée il va y avoir
+1	toute	tout	ADJ	ADJ	_	3	dep	_	_	212.889999	213.000000	L2
+2	la	le	DET	DET	_	3	spe	_	_	213.009995	213.130005	L2
+3	journée	journée	NOM	NOM	_	5	periph	_	_	213.139999	213.500000	L2
+4	il	il	CLS	CLS	_	5	subj	_	_	213.619995	213.669998	L2
+5	va	aller	VRB	VRB	_	0	root	_	_	213.850006	213.979996	L2
+6	y	y	CLI	CLI	_	7	dep	_	_	213.990005	214.070007	L2
+7	avoir	avoir	VNF	VNF	_	5	dep	_	_	214.080002	214.360001	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-115
+# text = ils vont donner des cours de maths
+1	ils	il	CLS	CLS	_	2	subj	_	_	214.369995	214.449997	L2
+2	vont	aller	VRB	VRB	_	0	root	_	_	214.460007	214.550003	L2
+3	donner	donner	VNF	VNF	_	2	dep	_	_	214.559998	214.800003	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	214.809998	214.889999	L2
+5	cours	cour	NOM	NOM	_	4	dep	_	_	214.899994	215.089996	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	215.100006	215.199997	L2
+7	maths	maths	NOM	NOM	_	6	dep	_	_	215.210007	215.589996	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-116
+# text = ils vont donner des cours de français
+1	ils	il	CLS	CLS	_	2	subj	_	_	215.600006	215.660004	L2
+2	vont	aller	VRB	VRB	_	0	root	_	_	215.669998	215.779999	L2
+3	donner	donner	VNF	VNF	_	2	dep	_	_	215.789993	216.080002	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	216.089996	216.169998	L2
+5	cours	cour	NOM	NOM	_	4	dep	_	_	216.179993	216.330002	L2
+6	de	de	PRE	PRE	_	5	dep	_	_	216.339996	216.429993	L2
+7	français	français	NOM	NOM	_	6	dep	_	_	216.440002	216.770004	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-117
+# text = ils vont avoir un emploi du temps
+1	ils	il	CLS	CLS	_	2	subj	_	_	216.779999	216.889999	L2
+2	vont	aller	VRB	VRB	_	0	root	_	_	216.899994	216.960007	L2
+3	avoir	avoir	VNF	VNF	_	2	dep	_	_	216.970001	217.229996	L2
+4	un	un	DET	DET	_	5	spe	_	_	217.240005	217.259995	L2
+5	emploi	emploi	NOM	NOM	_	3	dep	_	_	217.270004	217.509995	L2
+6	du	de+le	PRE	PRE	_	5	dep	_	_	217.520004	217.639999	L2
+7	temps	temps	NOM	NOM	_	6	dep	_	_	217.649994	217.839996	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-118
+# text = enfin ça dépend des SEGPA quoi
+1	enfin	enfin	ADV	ADV	_	3	dm	_	_	217.850006	217.970001	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	217.979996	218.089996	L2
+3	dépend	dépendre	VRB	VRB	_	0	root	_	_	218.100006	218.360001	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	218.369995	218.449997	L2
+5	SEGPA	SEGPA	NOM	NOM	_	4	dep	_	_	218.460007	218.809998	L2
+6	quoi	quoi	INT	INT	_	5	dm	_	_	219.369995	219.649994	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-119
+# text = il y en a ça va être le même système que
+1	il	il	CLS	CLS	_	4	subj	_	_	219.820007	219.899994	L2
+2	y	y	CLI	CLI	_	4	dep	_	_	219.910004	219.929993	L2
+3	en	en	CLI	CLI	_	4	dep	_	_	219.940002	219.960007	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	219.970001	219.990005	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	220.000000	220.050003	L2
+6	va	aller	VRB	VRB	_	4	para	_	_	220.059998	220.110001	L2
+7	être	être	VNF	VNF	_	6	dep	_	_	220.119995	220.259995	L2
+8	le	le	DET	DET	_	10	spe	_	_	220.270004	220.320007	L2
+9	même	même	ADJ	ADJ	_	10	dep	_	_	220.330002	220.490005	L2
+10	système	système	NOM	NOM	_	7	dep	_	_	220.500000	220.820007	L2
+11	que	que	CSU	CSU	_	7	dep	_	_	220.830002	220.929993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-120
+# text = la classe limite
+1	la	le	DET	DET	_	2	spe	_	_	220.940002	221.050003	L2
+2	classe	classe	NOM	NOM	_	0	root	_	_	221.059998	221.320007	L2
+3	limite	limite	NOM	NOM	_	2	dep	_	_	221.410004	221.679993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-121
+# text = et il y en a d'autres euh
+1	et	et	COO	COO	_	5	mark	_	_	221.690002	221.770004	L2
+2	il	il	CLS	CLS	_	5	subj	_	_	221.779999	221.850006	L2
+3	y	y	CLI	CLI	_	5	dep	_	_	221.860001	221.880005	L2
+4	en	en	CLI	CLI	_	5	dep	_	_	221.889999	221.910004	L2
+5	a	avoir	VRB	VRB	_	0	root	_	_	221.919998	221.960007	L2
+6	d'	de	PRE	PRE	_	5	dep	_	_	221.970001	222.039993	L2
+7	autres	autre	ADJ	ADJ	_	6	dep	_	_	222.050003	222.259995	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	222.270004	222.289993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-122
+# text = voilà
+1	voilà	voilà	INT	INT	_	0	root	_	_	222.300003	222.750000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-123
+# text = c'est plutôt moitié euh système collège quoi matière par matière euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	222.990005	223.020004	L1
+2	est	être	VRB	VRB	_	0	root	_	_	223.410004	223.490005	L1
+3	plutôt	plutôt	ADV	ADV	_	2	dep	_	_	223.570007	223.710007	L1
+4	moitié	moitié	NOM	NOM	_	2	dep	_	_	223.720001	224.259995	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	224.389999	224.440002	L1
+6	système	système	NOM	NOM	_	4	dep	_	_	224.449997	224.619995	L1
+7	collège	collège	NOM	NOM	_	6	dep	_	_	224.630005	224.789993	L1
+8	quoi	quoi	INT	INT	_	7	dm	_	_	224.800003	224.979996	L1
+9	matière	matière	NOM	NOM	_	6	para	_	_	224.990005	225.240005	L1
+10	par	par	PRE	PRE	_	9	dep	_	_	225.250000	225.339996	L1
+11	matière	matière	NOM	NOM	_	10	dep	_	_	225.350006	225.669998	L1
+12	euh	euh	INT	INT	_	11	dm	_	_	225.679993	225.729996	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-124
+# text = hum hum mais bon ça dépend beaucoup
+1	hum	hum	INT	INT	_	6	dm	_	_	225.789993	225.929993	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	226.119995	226.229996	L2
+3	mais	mais	COO	COO	_	6	mark	_	_	226.240005	226.350006	L2
+4	bon	bon	INT	INT	_	3	dm	_	_	226.589996	228.080002	L2
+5	ça	ça	PRO	PRO	_	6	subj	_	_	228.089996	228.199997	L2
+6	dépend	dépendre	VRB	VRB	_	0	root	_	_	228.210007	228.479996	L2
+7	beaucoup	beaucoup	PRO	PRO	_	6	dep	_	_	228.490005	228.919998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-125
+# text = et et c'est vrai que ben t'as des SEC~ des SEGPA qui sont euh plutôt euh
+1	et	et	COO	COO	_	4	mark	_	_	228.929993	229.339996	L2
+2	et	et	COO	COO	_	1	para	_	_	229.509995	229.539993	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	229.869995	229.889999	L2
+4	est	être	VRB	VRB	_	0	root	_	_	230.020004	230.080002	L2
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	230.089996	230.389999	L2
+6	que	que	CSU	CSU	_	5	dep	_	_	230.399994	230.570007	L2
+7	ben	ben	INT	INT	_	6	dm	_	_	230.580002	230.720001	L2
+8	t'	te	CLI	CLI	_	9	dep	_	_	230.729996	230.789993	L2
+9	as	avoir	VRB	VRB	_	4	para	_	_	230.800003	230.850006	L2
+10	des	de	PRE	PRE	_	9	dep	_	_	230.860001	231.039993	L2
+11	SEC~	SEC~	NOM	NOM	_	10	dep	_	_	231.080002	231.250000	L2
+12	des	de	PRE	PRE	_	11	dep	_	_	231.649994	231.949997	L2
+13	SEGPA	SEGPA	NOM	NOM	_	12	dep	_	_	232.910004	233.619995	L2
+14	qui	qui	PRQ	PRQ	_	15	dep	_	_	233.720001	233.880005	L2
+15	sont	être	VRB	VRB	_	13	dep	_	_	233.889999	234.199997	L2
+16	euh	euh	INT	INT	_	15	dm	_	_	234.210007	234.270004	L2
+17	plutôt	plutôt	ADV	ADV	_	15	dep	_	_	234.899994	235.309998	L2
+18	euh	euh	INT	INT	_	17	dm	_	_	235.490005	235.509995	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-126
+# text = enfin on hésite pas envoyer des enfants là-haut quoi parce que tu sais que euh elles sont relativement bien
+1	enfin	enfin	ADV	ADV	_	3	periph	_	_	236.029999	236.440002	L2
+2	on	on	CLS	CLS	_	3	subj	_	_	236.449997	236.589996	L2
+3	hésite	hésiter	VRB	VRB	_	0	root	_	_	236.600006	236.869995	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	236.880005	237.059998	L2
+5	envoyer	envoyer	VNF	VNF	_	3	dep	_	_	237.070007	237.330002	L2
+6	des	de	PRE	PRE	_	5	dep	_	_	237.339996	237.500000	L2
+7	enfants	enfant	NOM	NOM	_	6	dep	_	_	237.509995	237.759995	L2
+8	là-haut	là-haut	ADV	ADV	_	5	dep	_	_	237.770004	238.029999	L2
+9	quoi	quoi	INT	INT	_	8	dm	_	_	238.039993	238.190002	L2
+10	parce que	parce que	CSU	CSU	_	3	dep	_	_	238.199997	238.410004	L2
+11	tu	tu	CLS	CLS	_	12	subj	_	_	238.419998	238.639999	L2
+12	sais	savoir	VRB	VRB	_	10	dep	_	_	238.649994	238.850006	L2
+13	que	que	CSU	CSU	_	12	dep	_	_	238.860001	239.320007	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	239.330002	239.399994	L2
+15	elles	il	CLS	CLS	_	16	subj	_	_	239.410004	239.550003	L2
+16	sont	être	VRB	VRB	_	13	dep	_	_	239.600006	239.690002	L2
+17	relativement	relativement	ADV	ADV	_	18	dep	_	_	239.699997	240.270004	L2
+18	bien	bien	ADV	ADV	_	16	dep	_	_	240.279999	240.690002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-127
+# text = mais la plupart euh ça fait quand même on va dire peur parce que les gamins euh c'est des gamins avec des gros gros problèmes dé-~ de comportement
+1	mais	mais	COO	COO	_	5	mark	_	_	241.119995	241.380005	L2
+2	la plupart	la plupart	ADV	ADV	_	5	periph	_	_	241.389999	242.250000	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	242.259995	242.289993	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	242.300003	242.399994	L2
+5	fait	faire	VRB	VRB	_	0	root	_	_	242.410004	242.580002	L2
+6	quand	quand	CSU	CSU	_	5	dep	_	_	242.589996	242.729996	L2
+7	même	même	ADV	ADV	_	9	periph	_	_	242.740005	242.940002	L2
+8	on	on	CLS	CLS	_	9	subj	_	_	243.289993	243.309998	L2
+9	va	aller	VRB	VRB	_	6	dep	_	_	243.809998	244.089996	L2
+10	dire	dire	VNF	VNF	_	9	dep	_	_	244.100006	244.279999	L2
+11	peur	peur	NOM	NOM	_	10	dep	_	_	244.289993	244.369995	L2
+12	parce que	parce que	CSU	CSU	_	9	dep	_	_	244.559998	245.089996	L2
+13	les	le	DET	DET	_	14	spe	_	_	245.139999	245.410004	L2
+14	gamins	gamin	NOM	NOM	_	17	periph	_	_	245.419998	245.820007	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	245.830002	245.850006	L2
+16	c'	ce	CLS	CLS	_	17	subj	_	_	245.860001	245.949997	L2
+17	est	être	VRB	VRB	_	12	dep	_	_	245.960007	245.979996	L2
+18	des	de	PRE	PRE	_	17	dep	_	_	245.990005	246.100006	L2
+19	gamins	gamin	NOM	NOM	_	18	dep	_	_	246.110001	246.339996	L2
+20	avec	avec	PRE	PRE	_	17	dep	_	_	246.350006	246.589996	L2
+21	des	de	PRE	PRE	_	20	dep	_	_	246.600006	246.679993	L2
+22	gros	gros	NOM	NOM	_	21	dep	_	_	246.690002	246.919998	L2
+23	gros	gros	ADJ	ADJ	_	22	dep	_	_	246.929993	247.130005	L2
+24	problèmes	problème	NOM	NOM	_	17	periph	_	_	247.139999	247.500000	L2
+25	dé-~	dé-~	NOM	NOM	_	24	dep	_	_	247.509995	247.610001	L2
+26	de	de	PRE	PRE	_	25	dep	_	_	247.619995	248.029999	L2
+27	comportement	comportement	NOM	NOM	_	26	dep	_	_	248.039993	248.539993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-128
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	249.449997	249.509995	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-129
+# text = et dans ce cas-là après tu pries pour
+1	et	et	COO	COO	_	7	mark	_	_	250.589996	250.610001	L2
+2	dans	dans	PRE	PRE	_	7	periph	_	_	250.619995	250.800003	L2
+3	ce	ce	DET	DET	_	4	spe	_	_	250.809998	250.830002	L2
+4	cas-là	cas-là	NOM	NOM	_	2	dep	_	_	250.839996	251.169998	L2
+5	après	après	PRE	PRE	_	7	periph	_	_	251.179993	251.350006	L2
+6	tu	tu	CLS	CLS	_	7	subj	_	_	251.360001	251.500000	L2
+7	pries	prier	VRB	VRB	_	0	root	_	_	251.509995	251.770004	L2
+8	pour	pour	PRE	PRE	_	7	dep	_	_	251.779999	251.949997	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-130
+# text = ne
+1	ne	ne	CLN	CLN	_	0	root	_	_	251.960007	252.080002	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-131
+# text = pas euh
+1	pas	pas	ADN	ADN	_	0	root	_	_	252.089996	252.520004	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	252.529999	252.589996	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-132
+# text = ne
+1	ne	ne	CLN	CLN	_	0	root	_	_	252.600006	252.639999	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-133
+# text = pas euh
+1	pas	pas	ADN	ADN	_	0	root	_	_	252.649994	252.880005	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	252.889999	252.910004	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-134
+# text = quand tu es remplaçante pour ne
+1	quand	quand	CSU	CSU	_	0	root	_	_	252.919998	253.029999	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	253.039993	253.100006	L2
+3	es	être	VRB	VRB	_	1	dep	_	_	253.110001	253.139999	L2
+4	remplaçante	remplaçant	NOM	NOM	_	3	dep	_	_	253.149994	253.619995	L2
+5	pour	pour	PRE	PRE	_	3	dep	_	_	253.630005	253.729996	L2
+6	ne	ne	CLN	CLN	_	5	dep	_	_	253.740005	253.990005	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-135
+# text = ne pas aller remplacer là-haut
+1	ne	ne	CLN	CLN	_	0	root	_	_	254.309998	254.470001	L2
+2	pas	pas	ADN	ADN	_	3	dep	_	_	254.479996	254.649994	L2
+3	aller	aller	VNF	VNF	_	1	dep	_	_	254.660004	254.729996	L2
+4	remplacer	remplacer	VNF	VNF	_	3	dep	_	_	254.740005	255.210007	L2
+5	là-haut	là-haut	ADV	ADV	_	4	dep	_	_	255.220001	255.669998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-136
+# text = quoi ouais
+1	quoi	quoi	INT	INT	_	0	root	_	_	256.070007	256.549988	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	258.130005	258.380005	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-137
+# text = ouais mais c'est vrai hein
+1	ouais	ouais	INT	INT	_	4	dm	_	_	258.660004	258.709991	L2
+2	mais	mais	COO	COO	_	4	mark	_	_	258.720001	258.799988	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	258.809998	258.829987	L2
+4	est	être	VRB	VRB	_	0	root	_	_	258.839996	258.859985	L2
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	258.869995	259.000000	L2
+6	hein	hein	INT	INT	_	5	dm	_	_	259.010010	259.260010	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-138
+# text = hum surtout que les remplaçants je pense que ça doit être plus difficile que la vrai instit quoi
+1	hum	hum	INT	INT	_	3	dm	_	_	261.309998	261.369995	L1
+2	surtout	surtout	ADV	ADV	_	3	periph	_	_	261.529999	261.700012	L1
+3	que	que	CSU	CSU	_	0	root	_	_	261.940002	262.010010	L1
+4	les	le	DET	DET	_	5	spe	_	_	262.070007	262.149994	L1
+5	remplaçants	remplaçant	NOM	NOM	_	7	periph	_	_	262.160004	263.010010	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	263.019989	263.109985	L1
+7	pense	penser	VRB	VRB	_	3	dep	_	_	263.119995	263.309998	L1
+8	que	que	CSU	CSU	_	7	dep	_	_	263.320007	263.369995	L1
+9	ça	ça	PRO	PRO	_	10	subj	_	_	263.429993	263.510010	L1
+10	doit	devoir	VRB	VRB	_	8	dep	_	_	263.519989	263.600006	L1
+11	être	être	VNF	VNF	_	10	dep	_	_	263.609985	264.010010	L1
+12	plus	plus	ADN	ADN	_	13	dep	_	_	264.019989	264.109985	L1
+13	difficile	difficile	ADJ	ADJ	_	11	dep	_	_	264.119995	264.369995	L1
+14	que	que	CSU	CSU	_	13	dep	_	_	264.380005	264.450012	L1
+15	la	le	DET	DET	_	17	spe	_	_	264.459991	264.980011	L1
+16	vrai	vrai	ADJ	ADJ	_	17	dep	_	_	264.989990	265.230011	L1
+17	instit	instit	NOM	NOM	_	14	dep	_	_	265.329987	265.690002	L1
+18	quoi	quoi	INT	INT	_	17	dm	_	_	265.700012	265.859985	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-139
+# text = parce que hum oh ça dépend parce que quand tu dis bon ils savent où ils vont donc dès le départ euh enfin les les gamins n'ont pas euh
+1	parce que	parce que	CSU	CSU	_	0	root	_	_	266.790009	267.059998	L2
+2	hum	hum	INT	INT	_	1	dm	_	_	267.450012	267.500000	L2
+3	oh	oh	INT	INT	_	2	dm	_	_	267.570007	267.609985	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	267.619995	267.769989	L2
+5	dépend	dépendre	VRB	VRB	_	1	dep	_	_	267.779999	268.109985	L2
+6	parce que	parce que	CSU	CSU	_	5	dep	_	_	268.119995	268.399994	L2
+7	quand	quand	CSU	CSU	_	12	periph	_	_	268.410004	268.519989	L2
+8	tu	tu	CLS	CLS	_	9	subj	_	_	268.529999	268.600006	L2
+9	dis	dire	VRB	VRB	_	7	dep	_	_	268.609985	268.880005	L2
+10	bon	bon	INT	INT	_	7	dm	_	_	268.890015	269.019989	L2
+11	ils	il	CLS	CLS	_	12	subj	_	_	269.059998	269.299988	L2
+12	savent	savoir	VRB	VRB	_	6	dep	_	_	269.309998	269.529999	L2
+13	où	où	PRQ	PRQ	_	15	dep	_	_	269.540009	269.600006	L2
+14	ils	il	CLS	CLS	_	15	subj	_	_	269.609985	269.750000	L2
+15	vont	aller	VRB	VRB	_	12	dep	_	_	269.760010	269.859985	L2
+16	donc	donc	ADV	ADV	_	26	periph	_	_	269.959991	270.179993	L2
+17	dès	dès	PRE	PRE	_	26	periph	_	_	270.190002	270.299988	L2
+18	le	le	DET	DET	_	19	spe	_	_	270.309998	270.339996	L2
+19	départ	départ	NOM	NOM	_	17	dep	_	_	270.350006	271.220001	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	271.320007	271.339996	L2
+21	enfin	enfin	ADV	ADV	_	26	periph	_	_	272.429993	272.799988	L2
+22	les	le	DET	DET	_	24	spe	_	_	272.910004	273.179993	L2
+23	les	le	DET	DET	_	22	para	_	_	273.190002	273.339996	L2
+24	gamins	gamin	NOM	NOM	_	26	subj	_	_	273.350006	273.839996	L2
+25	n'	ne	CLN	CLN	_	26	dep	_	_	273.850006	273.869995	L2
+26	ont	avoir	VRB	VRB	_	1	dep	_	_	273.880005	273.929993	L2
+27	pas	pas	ADN	ADN	_	26	dep	_	_	273.940002	274.619995	L2
+28	euh	euh	INT	INT	_	27	dm	_	_	274.630005	274.649994	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-140
+# text = euh enfin comment dire dès le début ils sont vissés
+1	euh	euh	INT	INT	_	4	dm	_	_	275.130005	275.170013	L2
+2	enfin	enfin	ADV	ADV	_	1	dm	_	_	275.519989	276.750000	L2
+3	comment	comment	PRQ	PRQ	_	4	dep	_	_	276.760010	277.019989	L2
+4	dire	dire	VNF	VNF	_	10	periph	_	_	277.029999	277.329987	L2
+5	dès	dès	PRE	PRE	_	4	dep	_	_	277.480011	277.670013	L2
+6	le	le	DET	DET	_	7	spe	_	_	277.679993	277.700012	L2
+7	début	début	NOM	NOM	_	5	dep	_	_	277.709991	277.970001	L2
+8	ils	il	CLS	CLS	_	10	subj	_	_	277.980011	278.029999	L2
+9	sont	être	VRB	VRB	_	10	aux	_	_	278.040009	278.160004	L2
+10	vissés	visser	VPP	VPP	_	0	root	_	_	278.170013	278.570007	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-141
+# text = quoi ouais
+1	quoi	quoi	INT	INT	_	0	root	_	_	278.579987	278.799988	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	279.769989	279.880005	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-142
+# text = ils arrivent ils les les remplaçants arrivent
+1	ils	il	CLS	CLS	_	2	subj	_	_	280.209991	280.299988	L2
+2	arrivent	arriver	VRB	VRB	_	0	root	_	_	280.309998	280.579987	L2
+3	ils	il	CLS	CLS	_	7	subj	_	_	280.589996	280.880005	L2
+4	les	le	DET	DET	_	6	spe	_	_	280.890015	280.940002	L2
+5	les	le	DET	DET	_	4	para	_	_	280.950012	281.059998	L2
+6	remplaçants	remplaçant	NOM	NOM	_	7	subj	_	_	281.070007	281.420013	L2
+7	arrivent	arriver	VRB	VRB	_	2	dep	_	_	281.429993	281.769989	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-143
+# text = et ils savent que euh les cinq premières minutes euh c'est c'est c'est c'est les cinq premières minutes qui vont euh
+1	et	et	COO	COO	_	3	mark	_	_	281.779999	281.850006	L2
+2	ils	il	CLS	CLS	_	3	subj	_	_	281.859985	281.980011	L2
+3	savent	savoir	VRB	VRB	_	0	root	_	_	281.989990	282.209991	L2
+4	que	que	CSU	CSU	_	3	dep	_	_	282.220001	282.290009	L2
+5	euh	euh	INT	INT	_	4	dm	_	_	282.329987	282.480011	L2
+6	les	le	DET	DET	_	9	spe	_	_	282.820007	283.160004	L2
+7	cinq	cinq	NUM	NUM	_	9	dep	_	_	283.170013	283.380005	L2
+8	premières	premier	ADJ	ADJ	_	9	dep	_	_	283.390015	283.730011	L2
+9	minutes	minute	NOM	NOM	_	12	periph	_	_	283.739990	284.109985	L2
+10	euh	euh	INT	INT	_	9	dm	_	_	284.119995	284.140015	L2
+11	c'	ce	CLS	CLS	_	12	subj	_	_	284.149994	284.170013	L2
+12	est	être	VRB	VRB	_	4	dep	_	_	284.179993	284.329987	L2
+13	c'	ce	CLS	CLS	_	14	subj	_	_	284.339996	284.369995	L2
+14	est	être	VRB	VRB	_	12	para	_	_	284.380005	284.440002	L2
+15	c'	ce	CLS	CLS	_	16	subj	_	_	284.690002	284.709991	L2
+16	est	être	VRB	VRB	_	14	para	_	_	284.720001	284.850006	L2
+17	c'	ce	CLS	CLS	_	18	subj	_	_	284.940002	284.970001	L2
+18	est	être	VRB	VRB	_	16	para	_	_	284.980011	285.309998	L2
+19	les	le	DET	DET	_	22	spe	_	_	285.380005	285.510010	L2
+20	cinq	cinq	NUM	NUM	_	22	dep	_	_	285.519989	285.700012	L2
+21	premières	premier	ADJ	ADJ	_	22	dep	_	_	285.709991	286.019989	L2
+22	minutes	minute	NOM	NOM	_	18	dep	_	_	286.029999	286.279999	L2
+23	qui	qui	PRQ	PRQ	_	24	subj	_	_	286.359985	286.470001	L2
+24	vont	aller	VRB	VRB	_	22	dep	_	_	286.480011	286.600006	L2
+25	euh	euh	INT	INT	_	24	dm	_	_	287.410004	287.429993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-144
+# text = qui qui
+1	qui	qui	PRQ	PRQ	_	0	root	_	_	287.750000	288.130005	L2
+2	qui	qui	PRQ	PRQ	_	1	para	_	_	288.140015	288.309998	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-145
+# text = oh tu vois ce que je veux dire
+1	oh	oh	INT	INT	_	3	dm	_	_	288.519989	288.540009	L2
+2	tu	tu	CLS	CLS	_	3	subj	_	_	288.640015	288.690002	L2
+3	vois	voir	VRB	VRB	_	0	root	_	_	288.899994	289.299988	L2
+4	ce	ce	PRO	PRO	_	3	dep	_	_	289.429993	289.470001	L2
+5	que	que	PRQ	PRQ	_	7	dep	_	_	289.480011	289.500000	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	289.510010	289.549988	L2
+7	veux	vouloir	VRB	VRB	_	4	dep	_	_	289.559998	289.980011	L2
+8	dire	dire	VNF	VNF	_	7	dep	_	_	289.989990	290.179993	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-146
+# text = quoi oui qui vont déterminer
+1	quoi	quoi	INT	INT	_	4	dm	_	_	290.190002	290.399994	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	290.809998	290.950012	L1
+3	qui	qui	PRQ	PRQ	_	4	subj	_	_	291.279999	291.429993	L1
+4	vont	aller	VRB	VRB	_	0	root	_	_	291.440002	291.559998	L1
+5	déterminer	déterminer	VNF	VNF	_	4	dep	_	_	291.570007	292.420013	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-147
+# text = le voilà c'est bien comportement futur des élèves vis-à-vis de leur remplaçant chéri
+1	le	le	DET	DET	_	4	periph	_	_	292.429993	292.869995	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	293.029999	293.410004	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	293.420013	293.440002	L2
+4	est	être	VRB	VRB	_	0	root	_	_	293.450012	293.470001	L2
+5	bien	bien	ADV	ADV	_	7	dep	_	_	293.480011	293.899994	L1
+6	comportement	comportement	ADV	ADV	_	7	dep	_	_	294.200012	294.690002	L1
+7	futur	futur	ADJ	ADJ	_	4	dep	_	_	294.700012	295.130005	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	295.140015	295.369995	L1
+9	élèves	élève	NOM	NOM	_	8	dep	_	_	295.380005	295.640015	L1
+10	vis-à-vis de	vis-à-vis de	PRE	PRE	_	4	dep	_	_	295.649994	296.089996	L1
+11	leur	son	DET	DET	_	12	spe	_	_	296.100006	296.369995	L1
+12	remplaçant	remplaçant	NOM	NOM	_	10	dep	_	_	296.380005	296.750000	L1
+13	chéri	chéri	ADJ	ADJ	_	12	dep	_	_	296.760010	297.019989	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-148
+# text = tu parles
+1	tu	tu	CLS	CLS	_	2	subj	_	_	297.489990	297.859985	L2
+2	parles	parler	VRB	VRB	_	0	root	_	_	298.019989	298.250000	L2
+
+# sent_id = cefc-tcof-Tel_maz_07-149
+# text = bien ouais ben
+1	bien	bien	ADV	ADV	_	0	root	_	_	298.260010	298.529999	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	298.760010	298.910004	L1
+3	ben	ben	INT	INT	_	2	dm	_	_	298.920013	299.420013	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-150
+# text = d'ailleurs enfin
+1	d'	de	PRE	PRE	_	0	root	_	_	300.070007	300.149994	L1
+2	ailleurs	ailleurs	ADV	ADV	_	1	morph	_	_	300.160004	300.600006	L1
+3	enfin	enfin	ADV	ADV	_	2	dm	_	_	300.609985	300.690002	L1
+
+# sent_id = cefc-tcof-Tel_maz_07-151
+# text = s'ils les vissent pas euh s'ils les vissent pas dès le début euh après c'est foutu
+1	s'	si	CSU	CSU	_	18	periph	_	_	300.750000	300.769989	L2
+2	ils	il	CLS	CLS	_	4	subj	_	_	300.779999	300.920013	L2
+3	les	le	CLI	CLI	_	4	dep	_	_	300.980011	301.190002	L2
+4	vissent	visser	VRB	VRB	_	1	dep	_	_	301.200012	301.299988	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	301.309998	301.359985	L2
+6	euh	euh	INT	INT	_	5	dm	_	_	301.399994	301.440002	L2
+7	s'	si	CSU	CSU	_	1	para	_	_	301.450012	301.470001	L2
+8	ils	il	CLS	CLS	_	10	subj	_	_	301.540009	301.769989	L2
+9	les	le	CLI	CLI	_	10	dep	_	_	301.779999	301.839996	L2
+10	vissent	visser	VRB	VRB	_	7	dep	_	_	301.850006	302.000000	L2
+11	pas	pas	ADN	ADN	_	10	dep	_	_	302.010010	302.170013	L2
+12	dès	dès	PRE	PRE	_	10	dep	_	_	302.179993	302.309998	L2
+13	le	le	DET	DET	_	14	spe	_	_	302.320007	302.350006	L2
+14	début	début	NOM	NOM	_	12	dep	_	_	302.359985	302.679993	L2
+15	euh	euh	INT	INT	_	14	dm	_	_	302.690002	302.709991	L2
+16	après	après	PRE	PRE	_	10	dep	_	_	302.769989	303.290009	L2
+17	c'	ce	CLS	CLS	_	18	subj	_	_	303.470001	303.549988	L2
+18	est	être	VRB	VRB	_	0	root	_	_	303.809998	303.829987	L2
+19	foutu	foutre	ADJ	ADJ	_	18	dep	_	_	303.929993	304.070007	L2
+

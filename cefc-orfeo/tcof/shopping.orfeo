@@ -1,0 +1,1439 @@
+# sent_id = cefc-tcof-shopping-1
+# text = soixante douze heures de
+1	soixante	soixante	NUM	NUM	_	3	spe	_	_	1.460000	1.860000	L1
+2	douze	douze	NUM	NUM	_	3	spe	_	_	1.860000	1.950000	L1
+3	heures	heure	NOM	NOM	_	0	root	_	_	1.950000	2.080000	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	2.080000	2.180000	L1
+
+# sent_id = cefc-tcof-shopping-2
+# text = de non
+1	de	de	PRE	PRE	_	0	root	_	_	2.180000	2.210000	L2
+2	non	non	INT	INT	_	1	dm	_	_	2.420000	3.080000	L2
+
+# sent_id = cefc-tcof-shopping-3
+# text = un peu moins peu moins parce que j'ai pas fini
+1	un peu	un peu	ADV	ADV	_	2	dep	_	_	3.080000	3.390000	L2
+2	moins	moins	ADV	ADV	_	0	root	_	_	3.520000	3.660000	L2
+3	peu	peu	ADV	ADV	_	4	dep	_	_	3.660000	3.770000	L2
+4	moins	moins	ADV	ADV	_	2	para	_	_	3.770000	4.010000	L2
+5	parce que	parce que	CSU	CSU	_	2	dep	_	_	4.010000	4.350000	L2
+6	j'	je	CLS	CLS	_	9	subj	_	_	4.350000	4.470000	L2
+7	ai	avoir	VRB	VRB	_	9	aux	_	_	4.470000	4.520000	L2
+8	pas	pas	ADN	ADN	_	9	dep	_	_	4.520000	4.620000	L2
+9	fini	finir	VPP	VPP	_	5	dep	_	_	4.620000	4.950000	L2
+
+# sent_id = cefc-tcof-shopping-4
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	5.020000	5.110000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	5.110000	5.140000	L2
+
+# sent_id = cefc-tcof-shopping-5
+# text = ça va tu regardes pas trop en dix jours
+1	ça	ça	PRO	PRO	_	2	subj	_	_	6.940000	7.050000	L1
+2	va	aller	VRB	VRB	_	0	root	_	_	7.050000	7.230000	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	7.230000	7.290000	L1
+4	regardes	regarder	VRB	VRB	_	2	para	_	_	7.290000	7.530000	L1
+5	pas	pas	ADN	ADN	_	4	dep	_	_	7.610000	7.710000	L1
+6	trop	trop	ADV	ADV	_	4	dep	_	_	7.820000	7.900000	L1
+7	en	en	PRE	PRE	_	4	dep	_	_	7.900000	8.120000	L1
+8	dix	dix	NUM	NUM	_	9	spe	_	_	8.120000	8.290000	L1
+9	jours	jour	NOM	NOM	_	7	dep	_	_	8.290000	8.420000	L1
+
+# sent_id = cefc-tcof-shopping-6
+# text = ça fait
+1	ça	ça	PRO	PRO	_	2	subj	_	_	8.510000	8.610000	L1
+2	fait	faire	VRB	VRB	_	0	root	_	_	8.610000	8.780000	L1
+
+# sent_id = cefc-tcof-shopping-7
+# text = quoi ça fait quand même six sept heures hein
+1	quoi	quoi	INT	INT	_	3	dm	_	_	8.780000	8.950000	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	9.660000	9.720000	L2
+3	fait	faire	VRB	VRB	_	0	root	_	_	9.720000	9.900000	L2
+4	quand	quand	CSU	CSU	_	3	dep	_	_	9.980000	10.040000	L2
+5	même	même	ADV	ADV	_	8	dep	_	_	10.040000	10.200000	L2
+6	six	six	NUM	NUM	_	8	spe	_	_	10.730000	10.820000	L2
+7	sept	sept	NUM	NUM	_	8	spe	_	_	10.940000	11.160000	L2
+8	heures	heure	NOM	NOM	_	4	dep	_	_	11.160000	11.530000	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	11.530000	11.720000	L2
+
+# sent_id = cefc-tcof-shopping-8
+# text = par jour ouah oh la vache
+1	par	par	PRE	PRE	_	0	root	_	_	12.000000	12.190000	L1
+2	jour	jour	NOM	NOM	_	1	dep	_	_	12.190000	12.530000	L1
+3	ouah	ouah	INT	INT	_	2	dm	_	_	12.530000	12.780000	L1
+4	oh la	oh là	INT	INT	_	3	dm	_	_	12.780000	12.890000	L1
+5	vache	vache	ADJ	ADJ	_	2	dep	_	_	12.890000	13.340000	L1
+
+# sent_id = cefc-tcof-shopping-9
+# text = ouais mais là pendant toute une semaine j'ai fait que ça parce que j'étais malade quoi
+1	ouais	ouais	INT	INT	_	10	dm	_	_	13.790000	14.000000	L2
+2	mais	mais	COO	COO	_	10	mark	_	_	14.000000	14.140000	L2
+3	là	là	ADV	ADV	_	10	periph	_	_	14.140000	14.470000	L2
+4	pendant	pendant	PRE	PRE	_	10	periph	_	_	14.630000	14.930000	L2
+5	toute	tout	ADJ	ADJ	_	7	dep	_	_	14.930000	15.160000	L2
+6	une	un	DET	DET	_	7	spe	_	_	15.160000	15.260000	L2
+7	semaine	semaine	NOM	NOM	_	4	dep	_	_	15.360000	15.640000	L2
+8	j'	je	CLS	CLS	_	10	subj	_	_	15.710000	15.740000	L2
+9	ai	avoir	VRB	VRB	_	10	aux	_	_	15.740000	15.800000	L2
+10	fait	faire	VPP	VPP	_	0	root	_	_	15.850000	15.970000	L2
+11	que	que	CSU	CSU	_	10	dep	_	_	15.970000	16.020000	L2
+12	ça	ça	PRO	PRO	_	13	morph	_	_	16.120001	16.240000	L2
+13	parce que	parce que	CSU	CSU	_	11	dep	_	_	16.280001	16.510000	L2
+14	j'	je	CLS	CLS	_	15	subj	_	_	16.510000	16.600000	L2
+15	étais	être	VRB	VRB	_	13	dep	_	_	16.600000	16.770000	L2
+16	malade	malade	ADJ	ADJ	_	15	dep	_	_	16.770000	17.030001	L2
+17	quoi	quoi	INT	INT	_	16	dm	_	_	17.360001	17.440001	L2
+
+# sent_id = cefc-tcof-shopping-10
+# text = donc euh
+1	donc	donc	ADV	ADV	_	0	root	_	_	17.510000	17.590000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	17.650000	17.670000	L2
+
+# sent_id = cefc-tcof-shopping-11
+# text = ouais ben ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	18.309999	18.520000	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	18.570000	18.650000	L1
+3	ouais	ouais	INT	INT	_	2	dm	_	_	18.650000	18.940001	L1
+
+# sent_id = cefc-tcof-shopping-12
+# text = pendant une semaine je de~ je devais me taper du dix heures par jour à peu près
+1	pendant	pendant	PRE	PRE	_	7	periph	_	_	18.570000	18.889999	L2
+2	une	un	DET	DET	_	3	spe	_	_	18.990000	19.049999	L2
+3	semaine	semaine	NOM	NOM	_	1	dep	_	_	19.049999	19.250000	L2
+4	je	je	CLS	CLS	_	7	subj	_	_	19.250000	19.389999	L2
+5	de~	de~	X	X	_	4	disflink	_	_	19.450001	19.570000	L2
+6	je	je	CLS	CLS	_	4	para	_	_	19.610001	19.660000	L2
+7	devais	devoir	VRB	VRB	_	0	root	_	_	19.750000	19.920000	L2
+8	me	me	CLI	CLI	_	9	dep	_	_	19.920000	19.950001	L2
+9	taper	se taper	VNF	VNF	_	7	dep	_	_	19.950001	20.129999	L2
+10	du	de+le	PRE	PRE	_	9	dep	_	_	20.129999	20.240000	L2
+11	dix	dix	NUM	NUM	_	12	spe	_	_	20.510000	20.670000	L2
+12	heures	heure	NOM	NOM	_	10	dep	_	_	20.670000	20.799999	L2
+13	par	par	PRE	PRE	_	12	dep	_	_	20.860001	21.030001	L2
+14	jour	jour	NOM	NOM	_	13	dep	_	_	21.030001	21.320000	L2
+15	à	à	PRE	PRE	_	14	dep	_	_	21.320000	21.370001	L2
+16	peu	peu	ADV	ADV	_	17	dep	_	_	21.370001	21.549999	L2
+17	près	près	ADV	ADV	_	15	dep	_	_	21.549999	21.770000	L2
+
+# sent_id = cefc-tcof-shopping-13
+# text = c'est pas bon en plus quand tu es malade euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	22.270000	22.370001	L1
+2	est	être	VRB	VRB	_	0	root	_	_	22.440001	22.480000	L1
+3	pas	pas	ADN	ADN	_	2	dep	_	_	22.480000	22.719999	L1
+4	bon	bon	INT	INT	_	3	dm	_	_	22.719999	22.920000	L1
+5	en	en	PRE	PRE	_	2	dep	_	_	22.920000	23.110001	L1
+6	plus	plus	ADN	ADN	_	5	dep	_	_	23.110001	23.340000	L1
+7	quand	quand	CSU	CSU	_	2	dep	_	_	23.340000	23.450001	L1
+8	tu	tu	CLS	CLS	_	9	subj	_	_	23.500000	23.549999	L1
+9	es	être	VRB	VRB	_	7	dep	_	_	23.549999	23.590000	L1
+10	malade	malade	ADJ	ADJ	_	9	dep	_	_	23.590000	24.020000	L1
+11	euh	euh	INT	INT	_	10	dm	_	_	24.080000	24.100000	L1
+
+# sent_id = cefc-tcof-shopping-14
+# text = ah ouais
+1	ah	ah	INT	INT	_	0	root	_	_	24.860001	25.059999	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	25.059999	25.150000	L2
+
+# sent_id = cefc-tcof-shopping-15
+# text = je
+1	je	je	CLS	CLS	_	0	root	_	_	25.150000	25.240000	L2
+
+# sent_id = cefc-tcof-shopping-16
+# text = m'
+1	m'	me	CLI	CLI	_	0	root	_	_	25.240000	25.320000	L2
+
+# sent_id = cefc-tcof-shopping-17
+# text = en je
+1	en	en	CLI	CLI	_	2	dep	_	_	25.320000	25.350000	L2
+2	je	je	CLS	CLS	_	0	root	_	_	25.350000	25.639999	L2
+
+# sent_id = cefc-tcof-shopping-18
+# text = jusqu'à épuisement
+1	jusqu'	jusque	PRE	PRE	_	0	root	_	_	26.180000	26.350000	L2
+2	à	à	PRE	PRE	_	1	dep	_	_	26.350000	26.450001	L2
+3	épuisement	épuisement	NOM	NOM	_	2	dep	_	_	26.500000	27.299999	L2
+
+# sent_id = cefc-tcof-shopping-19
+# text = jusqu'à ce que je m'endorme
+1	jusqu'	jusque	PRE	PRE	_	0	root	_	_	27.450001	27.570000	L2
+2	à	à	PRE	PRE	_	1	dep	_	_	27.570000	27.600000	L2
+3	ce	ce	PRO	PRO	_	2	dep	_	_	27.600000	27.629999	L2
+4	que	que	PRQ	PRQ	_	7	dep	_	_	27.629999	27.660000	L2
+5	je	je	CLS	CLS	_	7	subj	_	_	27.660000	27.719999	L2
+6	m'	me	CLI	CLI	_	7	dep	_	_	27.770000	27.809999	L2
+7	endorme	endormir	VRB	VRB	_	3	dep	_	_	27.809999	28.219999	L2
+
+# sent_id = cefc-tcof-shopping-20
+# text = que tu sors pas et tout
+1	que	que	CSU	CSU	_	0	root	_	_	25.900000	25.930000	L1
+2	tu	tu	CLS	CLS	_	3	subj	_	_	25.930000	25.990000	L1
+3	sors	sortir	VRB	VRB	_	1	dep	_	_	25.990000	26.170000	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	26.170000	26.799999	L1
+5	et	et	COO	COO	_	6	mark	_	_	26.799999	26.980000	L1
+6	tout	tout	ADV	ADV	_	3	para	_	_	26.980000	27.299999	L1
+
+# sent_id = cefc-tcof-shopping-21
+# text = tu restes tu restes dans tes microbes
+1	tu	tu	CLS	CLS	_	2	subj	_	_	27.770000	27.830000	L1
+2	restes	rester	VRB	VRB	_	0	root	_	_	27.830000	28.290001	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	28.430000	28.500000	L1
+4	restes	rester	VRB	VRB	_	2	para	_	_	28.500000	28.670000	L1
+5	dans	dans	PRE	PRE	_	4	dep	_	_	28.670000	28.830000	L1
+6	tes	son	DET	DET	_	7	spe	_	_	28.920000	28.969999	L1
+7	microbes	microbe	NOM	NOM	_	5	dep	_	_	28.969999	29.459999	L1
+
+# sent_id = cefc-tcof-shopping-22
+# text = et tout ah c'est ignoble
+1	et	et	COO	COO	_	2	mark	_	_	29.559999	29.629999	L1
+2	tout	tout	ADV	ADV	_	5	periph	_	_	29.799999	29.850000	L1
+3	ah	ah	INT	INT	_	2	dm	_	_	30.110001	30.469999	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	31.010000	31.040001	L1
+5	est	être	VRB	VRB	_	0	root	_	_	31.040001	31.070000	L1
+6	ignoble	ignoble	ADJ	ADJ	_	5	dep	_	_	31.070000	31.500000	L1
+
+# sent_id = cefc-tcof-shopping-23
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	30.219999	30.400000	L2
+
+# sent_id = cefc-tcof-shopping-24
+# text = c'est ignoble
+1	c'	ce	CLS	CLS	_	2	subj	_	_	32.830002	32.880001	L1
+2	est	être	VRB	VRB	_	0	root	_	_	32.880001	32.959999	L1
+3	ignoble	ignoble	ADJ	ADJ	_	2	dep	_	_	32.959999	33.220001	L1
+
+# sent_id = cefc-tcof-shopping-25
+# text = moi j'y ai échappé
+1	moi	moi	PRO	PRO	_	5	periph	_	_	34.029999	34.139999	L1
+2	j'	je	CLS	CLS	_	5	subj	_	_	34.139999	34.169998	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	34.169998	34.209999	L1
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	34.209999	34.340000	L1
+5	échappé	échapper	VPP	VPP	_	0	root	_	_	34.340000	34.689999	L1
+
+# sent_id = cefc-tcof-shopping-26
+# text = belle
+1	belle	beau	ADJ	ADJ	_	0	root	_	_	34.689999	34.970001	L2
+
+# sent_id = cefc-tcof-shopping-27
+# text = ah bon ah ben je me suis j~ à deux doigts d'une gastro hein
+1	ah bon	ah bon	INT	INT	_	5	dm	_	_	35.790001	36.040001	L1
+2	ah ben	ah ben	INT	INT	_	1	dm	_	_	36.250000	36.619999	L1
+3	je	je	CLS	CLS	_	5	subj	_	_	36.619999	36.930000	L1
+4	me	me	CLI	CLI	_	5	dep	_	_	37.000000	37.070000	L1
+5	suis	être	VRB	VRB	_	0	root	_	_	37.070000	37.349998	L1
+6	j~	j~	CLI	CLI	_	5	dep	_	_	37.349998	37.480000	L1
+7	à	à	PRE	PRE	_	5	dep	_	_	37.610001	37.799999	L1
+8	deux	deux	NUM	NUM	_	9	spe	_	_	37.849998	37.970001	L1
+9	doigts	doigt	NOM	NOM	_	7	dep	_	_	37.970001	38.169998	L1
+10	d'	de	PRE	PRE	_	9	dep	_	_	38.169998	38.209999	L1
+11	une	un	DET	DET	_	12	spe	_	_	38.209999	38.450001	L1
+12	gastro	gastro	NOM	NOM	_	10	dep	_	_	38.560001	38.820000	L1
+13	hein	hein	INT	INT	_	12	dm	_	_	38.820000	38.849998	L1
+
+# sent_id = cefc-tcof-shopping-28
+# text = c'était bizarre dimanche soir euh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	39.029999	39.060001	L1
+2	était	être	VRB	VRB	_	0	root	_	_	39.220001	39.320000	L1
+3	bizarre	bizarre	ADJ	ADJ	_	2	dep	_	_	39.400002	39.730000	L1
+4	dimanche	dimanche	NOM	NOM	_	3	dep	_	_	39.799999	40.049999	L1
+5	soir	soir	NOM	NOM	_	4	dep	_	_	40.169998	40.380001	L1
+6	euh	euh	INT	INT	_	5	dm	_	_	40.520000	40.610001	L1
+
+# sent_id = cefc-tcof-shopping-29
+# text = c'est pas moi alors
+1	c'	ce	CLS	CLS	_	2	subj	_	_	40.900002	40.939999	L2
+2	est	être	VRB	VRB	_	0	root	_	_	41.669998	42.130001	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	42.130001	42.220001	L2
+4	moi	moi	PRO	PRO	_	2	dep	_	_	42.220001	42.340000	L2
+5	alors	alors	ADV	ADV	_	2	periph	_	_	42.389999	42.520000	L2
+
+# sent_id = cefc-tcof-shopping-30
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	41.720001	42.340000	L1
+
+# sent_id = cefc-tcof-shopping-31
+# text = ah la la trois heures ben ouais je suis rentrée chez moi et envie de vomir enfin
+1	ah	ah	INT	INT	_	10	dm	_	_	43.599998	43.709999	L1
+2	la	le	DET	DET	_	5	spe	_	_	43.709999	43.820000	L1
+3	la	le	DET	DET	_	2	para	_	_	43.869999	44.040001	L1
+4	trois	trois	NUM	NUM	_	5	dep	_	_	44.470001	44.740002	L1
+5	heures	heure	NOM	NOM	_	10	periph	_	_	44.799999	45.119999	L1
+6	ben	ben	INT	INT	_	5	dm	_	_	45.119999	45.259998	L1
+7	ouais	ouais	INT	INT	_	6	dm	_	_	45.259998	45.330002	L1
+8	je	je	CLS	CLS	_	10	subj	_	_	45.330002	45.400002	L1
+9	suis	être	VRB	VRB	_	10	aux	_	_	45.400002	45.490002	L1
+10	rentrée	rentrer	VPP	VPP	_	0	root	_	_	45.490002	45.750000	L1
+11	chez	chez	PRE	PRE	_	10	dep	_	_	45.750000	45.919998	L1
+12	moi	moi	PRO	PRO	_	11	dep	_	_	45.919998	46.119999	L1
+13	et	et	COO	COO	_	14	mark	_	_	46.860001	46.900002	L1
+14	envie	envie	NOM	NOM	_	10	dep	_	_	46.900002	47.119999	L1
+15	de	de	PRE	PRE	_	14	dep	_	_	47.119999	47.150002	L1
+16	vomir	vomir	VNF	VNF	_	15	dep	_	_	47.150002	47.610001	L1
+17	enfin	enfin	ADV	ADV	_	16	dm	_	_	47.610001	47.849998	L1
+
+# sent_id = cefc-tcof-shopping-32
+# text = c'était pénible
+1	c'	ce	CLS	CLS	_	2	subj	_	_	47.939999	47.980000	L1
+2	était	être	VRB	VRB	_	0	root	_	_	47.980000	48.119999	L1
+3	pénible	pénible	ADJ	ADJ	_	2	dep	_	_	48.119999	48.610001	L1
+
+# sent_id = cefc-tcof-shopping-33
+# text = et rien
+1	et	et	COO	COO	_	2	mark	_	_	48.959999	48.990002	L1
+2	rien	rien	PRO	PRO	_	0	root	_	_	48.990002	49.189999	L1
+
+# sent_id = cefc-tcof-shopping-34
+# text = et euh voilà ça été barbouillée et tout
+1	et	et	COO	COO	_	5	mark	_	_	50.889999	50.939999	L1
+2	euh	euh	INT	INT	_	1	dm	_	_	51.020000	51.070000	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	51.259998	51.419998	L1
+4	ça	ça	PRO	PRO	_	5	subj	_	_	51.529999	51.619999	L1
+5	été	été	VRB	VRB	_	0	root	_	_	51.779999	51.860001	L1
+6	barbouillée	barbouiller	VPP	VPP	_	5	dep	_	_	52.459999	52.689999	L1
+7	et	et	COO	COO	_	8	mark	_	_	52.750000	52.849998	L1
+8	tout	tout	ADV	ADV	_	6	para	_	_	52.849998	52.910000	L1
+
+# sent_id = cefc-tcof-shopping-35
+# text = mais rien
+1	mais	mais	COO	COO	_	2	mark	_	_	52.910000	53.049999	L1
+2	rien	rien	PRO	PRO	_	0	root	_	_	53.270000	53.349998	L1
+
+# sent_id = cefc-tcof-shopping-36
+# text = bon ben c'est bien c'est bien
+1	bon ben	bon ben	INT	INT	_	3	dm	_	_	55.439999	56.009998	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	56.790001	56.810001	L2
+3	est	être	VRB	VRB	_	0	root	_	_	56.810001	56.840000	L2
+4	bien	bien	ADV	ADV	_	3	dep	_	_	57.240002	57.349998	L2
+5	c'	ce	CLS	CLS	_	6	subj	_	_	57.349998	57.380001	L2
+6	est	être	VRB	VRB	_	3	para	_	_	57.380001	57.459999	L2
+7	bien	bien	ADV	ADV	_	6	dep	_	_	57.459999	57.570000	L2
+
+# sent_id = cefc-tcof-shopping-37
+# text = tu l'as déjà mis en route
+1	tu	tu	CLS	CLS	_	5	subj	_	_	57.570000	57.630001	L2
+2	l'	le	CLI	CLI	_	5	dep	_	_	57.630001	57.700001	L2
+3	as	avoir	VRB	VRB	_	5	aux	_	_	57.700001	57.730000	L2
+4	déjà	déjà	ADV	ADV	_	5	dep	_	_	57.730000	57.860001	L2
+5	mis	mettre	VPP	VPP	_	0	root	_	_	57.860001	57.919998	L2
+6	en	en	PRE	PRE	_	5	dep	_	_	57.959999	58.110001	L2
+7	route	route	NOM	NOM	_	6	dep	_	_	58.160000	58.439999	L2
+
+# sent_id = cefc-tcof-shopping-38
+# text = et tu as eu quoi toi
+1	et	et	COO	COO	_	4	mark	_	_	58.189999	58.259998	L1
+2	tu	tu	CLS	CLS	_	4	subj	_	_	58.259998	58.410000	L1
+3	as	avoir	VRB	VRB	_	4	aux	_	_	58.410000	58.439999	L1
+4	eu	avoir	VPP	VPP	_	0	root	_	_	58.439999	58.470001	L1
+5	quoi	quoi	INT	INT	_	4	dm	_	_	58.520000	58.619999	L1
+6	toi	moi	PRO	PRO	_	4	periph	_	_	58.619999	58.730000	L1
+
+# sent_id = cefc-tcof-shopping-39
+# text = hein
+1	hein	hein	INT	INT	_	0	root	_	_	59.529999	59.730000	L2
+
+# sent_id = cefc-tcof-shopping-40
+# text = c'était c'était une gastro que tu as eu ouais gastro euh enfin une grippe intestinale en fait mh
+1	c'	ce	CLS	CLS	_	2	subj	_	_	60.939999	60.970001	L1
+2	était	être	VRB	VRB	_	0	root	_	_	60.970001	61.299999	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	61.400002	61.430000	L1
+4	était	être	VRB	VRB	_	2	para	_	_	61.430000	61.529999	L1
+5	une	un	DET	DET	_	6	spe	_	_	61.529999	61.650002	L1
+6	gastro	gastro	NOM	NOM	_	4	dep	_	_	61.650002	61.959999	L1
+7	que	que	CSU	CSU	_	6	dep	_	_	61.959999	62.000000	L1
+8	tu	tu	CLS	CLS	_	10	subj	_	_	62.040001	62.090000	L1
+9	as	avoir	VRB	VRB	_	10	aux	_	_	62.090000	62.119999	L1
+10	eu	avoir	VPP	VPP	_	7	dep	_	_	62.119999	62.150002	L2
+11	ouais	ouais	INT	INT	_	10	dm	_	_	62.910000	63.299999	L2
+12	gastro	gastro	NOM	NOM	_	10	dep	_	_	63.299999	64.080002	L2
+13	euh	euh	INT	INT	_	12	dm	_	_	64.080002	64.419998	L2
+14	enfin	enfin	ADV	ADV	_	13	dm	_	_	64.419998	64.750000	L2
+15	une	un	DET	DET	_	16	spe	_	_	64.750000	64.849998	L2
+16	grippe	grippe	NOM	NOM	_	12	para	_	_	64.849998	65.110001	L2
+17	intestinale	intestinal	ADJ	ADJ	_	16	dep	_	_	65.110001	65.620003	L2
+18	en	en	PRE	PRE	_	16	dep	_	_	65.620003	65.650002	L2
+19	fait	fait	NOM	NOM	_	18	dep	_	_	65.650002	65.709999	L2
+20	mh	mh	INT	INT	_	19	dm	_	_	66.360001	66.639999	L2
+
+# sent_id = cefc-tcof-shopping-41
+# text = donc euh mais j'ai eu séparé c'était marrant euh
+1	donc	donc	ADV	ADV	_	9	periph	_	_	66.879997	67.110001	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	67.279999	67.620003	L2
+3	mais	mais	COO	COO	_	6	mark	_	_	67.959999	68.059998	L2
+4	j'	je	CLS	CLS	_	6	subj	_	_	68.059998	68.139999	L2
+5	ai	avoir	VRB	VRB	_	6	aux	_	_	68.139999	68.180000	L2
+6	eu	avoir	VPP	VPP	_	9	periph	_	_	68.180000	68.339996	L2
+7	séparé	séparer	VPP	VPP	_	6	para	_	_	68.339996	68.809998	L2
+8	c'	ce	CLS	CLS	_	9	subj	_	_	68.809998	68.839996	L2
+9	était	être	VRB	VRB	_	0	root	_	_	68.949997	69.080002	L2
+10	marrant	marrant	ADJ	ADJ	_	9	dep	_	_	69.080002	69.320000	L2
+11	euh	euh	INT	INT	_	10	dm	_	_	69.529999	69.559998	L2
+
+# sent_id = cefc-tcof-shopping-42
+# text = j'ai bien vomi deux jours
+1	j'	je	CLS	CLS	_	4	subj	_	_	70.099998	70.120003	L2
+2	ai	avoir	VRB	VRB	_	4	aux	_	_	70.120003	70.150002	L2
+3	bien	bien	ADV	ADV	_	4	dep	_	_	70.239998	70.339996	L2
+4	vomi	vomir	VPP	VPP	_	0	root	_	_	70.339996	70.599998	L2
+5	deux	deux	NUM	NUM	_	6	spe	_	_	70.599998	70.849998	L2
+6	jours	jour	NOM	NOM	_	4	dep	_	_	70.910004	71.220001	L2
+
+# sent_id = cefc-tcof-shopping-43
+# text = et après le reste euh à peu près bien une journée et pend~ les trois jours qui ont suivi euh
+1	et	et	COO	COO	_	6	mark	_	_	71.320000	71.629997	L1
+2	après	après	PRE	PRE	_	6	periph	_	_	71.690002	72.010002	L1
+3	le	le	DET	DET	_	4	spe	_	_	72.010002	72.110001	L1
+4	reste	reste	NOM	NOM	_	2	dep	_	_	72.110001	72.339996	L1
+5	euh	euh	INT	INT	_	4	dm	_	_	72.769997	72.790001	L1
+6	à	à	PRE	PRE	_	0	root	_	_	72.839996	72.870003	L2
+7	peu	peu	ADV	ADV	_	8	dep	_	_	72.870003	73.010002	L2
+8	près	près	ADV	ADV	_	9	dep	_	_	73.150002	73.320000	L2
+9	bien	bien	ADV	ADV	_	6	dep	_	_	73.320000	73.510002	L2
+10	une	un	DET	DET	_	11	spe	_	_	73.510002	73.570000	L2
+11	journée	journée	NOM	NOM	_	6	dep	_	_	73.639999	74.160004	L2
+12	et	et	COO	COO	_	13	mark	_	_	74.199997	74.279999	L2
+13	pend~	pend~	PRE	PRE	_	6	para	_	_	74.349998	74.510002	L2
+14	les	le	DET	DET	_	16	spe	_	_	74.550003	74.750000	L2
+15	trois	trois	NUM	NUM	_	16	dep	_	_	74.849998	74.959999	L2
+16	jours	jour	NOM	NOM	_	13	dep	_	_	74.959999	75.050003	L2
+17	qui	qui	PRQ	PRQ	_	19	dep	_	_	75.050003	75.110001	L2
+18	ont	avoir	VRB	VRB	_	19	aux	_	_	75.239998	75.349998	L2
+19	suivi	suivre	VPP	VPP	_	16	dep	_	_	75.349998	75.559998	L2
+20	euh	euh	INT	INT	_	19	dm	_	_	75.879997	76.080002	L2
+
+# sent_id = cefc-tcof-shopping-44
+# text = j'étais dans dans dans le gaz
+1	j'	je	CLS	CLS	_	2	subj	_	_	76.080002	76.180000	L2
+2	étais	être	VRB	VRB	_	0	root	_	_	76.180000	76.489998	L2
+3	dans	dans	PRE	PRE	_	2	dep	_	_	76.489998	76.760002	L2
+4	dans	dans	PRE	PRE	_	3	para	_	_	77.480003	77.540001	L2
+5	dans	dans	PRE	PRE	_	4	para	_	_	77.760002	77.870003	L2
+6	le	le	DET	DET	_	7	spe	_	_	77.870003	77.900002	L2
+7	gaz	gaz	NOM	NOM	_	5	dep	_	_	77.900002	78.000000	L2
+
+# sent_id = cefc-tcof-shopping-45
+# text = quoi ah la vache
+1	quoi	quoi	INT	INT	_	4	dm	_	_	78.000000	78.089996	L1
+2	ah	ah	INT	INT	_	1	dm	_	_	78.669998	78.730003	L1
+3	la	le	DET	DET	_	4	spe	_	_	78.820000	78.870003	L1
+4	vache	vache	NOM	NOM	_	0	root	_	_	79.519997	79.599998	L1
+
+# sent_id = cefc-tcof-shopping-46
+# text = ben quand tu es venue me voir euh c'était vers la fin
+1	ben	ben	INT	INT	_	10	dm	_	_	79.660004	79.750000	L2
+2	quand	quand	CSU	CSU	_	10	periph	_	_	79.750000	79.830002	L2
+3	tu	tu	CLS	CLS	_	5	subj	_	_	79.830002	79.910004	L2
+4	es	être	VRB	VRB	_	5	aux	_	_	79.910004	79.959999	L2
+5	venue	venir	VPP	VPP	_	2	dep	_	_	79.959999	80.110001	L2
+6	me	me	CLI	CLI	_	7	dep	_	_	80.110001	80.220001	L2
+7	voir	voir	VNF	VNF	_	5	dep	_	_	80.220001	80.820000	L2
+8	euh	euh	INT	INT	_	7	dm	_	_	80.820000	81.040001	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	81.250000	81.290001	L2
+10	était	être	VRB	VRB	_	0	root	_	_	81.290001	81.519997	L2
+11	vers	vers	PRE	PRE	_	10	dep	_	_	81.519997	81.730003	L2
+12	la	le	DET	DET	_	13	spe	_	_	81.730003	81.820000	L2
+13	fin	fin	NOM	NOM	_	11	dep	_	_	81.919998	82.080002	L2
+
+# sent_id = cefc-tcof-shopping-47
+# text = je je commençais à
+1	je	je	CLS	CLS	_	3	subj	_	_	82.190002	82.320000	L2
+2	je	je	CLS	CLS	_	1	para	_	_	82.459999	82.489998	L2
+3	commençais	commencer	VRB	VRB	_	0	root	_	_	82.739998	83.320000	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	83.440002	83.529999	L2
+
+# sent_id = cefc-tcof-shopping-48
+# text = mais c'était pas encore ça
+1	mais	mais	COO	COO	_	3	mark	_	_	84.129997	84.489998	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	84.489998	84.519997	L2
+3	était	être	VRB	VRB	_	0	root	_	_	84.519997	84.690002	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	84.690002	84.779999	L2
+5	encore	encore	ADV	ADV	_	3	dep	_	_	84.779999	85.269997	L2
+6	ça	ça	PRO	PRO	_	3	periph	_	_	85.360001	85.580002	L2
+
+# sent_id = cefc-tcof-shopping-49
+# text = enfin tu l'as vu hein
+1	enfin	enfin	ADV	ADV	_	5	dep	_	_	85.970001	86.089996	L2
+2	tu	tu	CLS	CLS	_	5	subj	_	_	86.089996	86.209999	L2
+3	l'	le	CLI	CLI	_	5	dep	_	_	86.209999	86.290001	L2
+4	as	avoir	VRB	VRB	_	5	aux	_	_	86.290001	86.320000	L2
+5	vu	voir	VPP	VPP	_	0	root	_	_	86.320000	86.480003	L2
+6	hein	hein	INT	INT	_	5	dm	_	_	86.599998	86.620003	L2
+
+# sent_id = cefc-tcof-shopping-50
+# text = ça allait mieux
+1	ça	ça	PRO	PRO	_	2	subj	_	_	83.440002	83.529999	L1
+2	allait	aller	VRB	VRB	_	0	root	_	_	83.529999	83.709999	L1
+3	mieux	mieux	ADV	ADV	_	2	dep	_	_	83.800003	83.940002	L1
+
+# sent_id = cefc-tcof-shopping-51
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	86.989998	87.120003	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	87.120003	87.320000	L1
+
+# sent_id = cefc-tcof-shopping-52
+# text = ben oui tu as ouvert la porte j'ai dis ouah
+1	ben	ben	INT	INT	_	4	dm	_	_	87.410004	87.650002	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	87.760002	87.839996	L1
+3	tu	tu	CLS	CLS	_	4	subj	_	_	88.040001	88.089996	L1
+4	as	avoir	VRB	VRB	_	0	root	_	_	88.089996	88.129997	L1
+5	ouvert	ouvert	ADJ	ADJ	_	4	dep	_	_	88.129997	88.419998	L1
+6	la	le	DET	DET	_	7	spe	_	_	88.419998	88.529999	L1
+7	porte	porte	NOM	NOM	_	4	dep	_	_	88.580002	88.720001	L1
+8	j'	je	CLS	CLS	_	9	subj	_	_	88.720001	88.750000	L1
+9	ai	avoir	VRB	VRB	_	4	para	_	_	88.750000	88.779999	L1
+10	dis	dire	VRB	VRB	_	9	dm	_	_	88.870003	88.919998	L1
+11	ouah	ouah	INT	INT	_	10	dm	_	_	89.040001	89.250000	L1
+
+# sent_id = cefc-tcof-shopping-53
+# text = ah ouais j'étais pas pas très en forme
+1	ah	ah	INT	INT	_	4	dm	_	_	89.500000	89.529999	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	89.529999	89.629997	L2
+3	j'	je	CLS	CLS	_	4	subj	_	_	89.629997	89.660004	L2
+4	étais	être	VRB	VRB	_	0	root	_	_	89.660004	89.889999	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	89.930000	90.089996	L2
+6	pas	pas	ADN	ADN	_	7	dep	_	_	90.860001	90.930000	L2
+7	très	très	ADV	ADV	_	4	dep	_	_	90.930000	91.379997	L2
+8	en	en	PRE	PRE	_	4	dep	_	_	91.519997	91.760002	L2
+9	forme	forme	NOM	NOM	_	8	dep	_	_	92.239998	92.570000	L2
+
+# sent_id = cefc-tcof-shopping-54
+# text = ah ouais ben ouais
+1	ah	ah	INT	INT	_	3	dm	_	_	92.760002	92.790001	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	92.790001	92.849998	L1
+3	ben	ben	INT	INT	_	0	root	_	_	92.849998	92.949997	L1
+4	ouais	ouais	INT	INT	_	3	dm	_	_	92.949997	93.010002	L1
+
+# sent_id = cefc-tcof-shopping-55
+# text = donc hier qu'est ce que j'ai fais hier ben
+1	donc	donc	ADV	ADV	_	9	periph	_	_	93.699997	93.879997	L2
+2	hier	hier	ADV	ADV	_	9	periph	_	_	93.989998	94.510002	L2
+3	qu'	que	CSU	CSU	_	9	dep	_	_	94.669998	94.690002	L2
+4	est	être	VRB	VRB	_	3	dep	_	_	94.769997	94.900002	L2
+5	ce	ce	PRO	PRO	_	4	dep	_	_	94.900002	94.930000	L2
+6	que	que	PRQ	PRQ	_	8	dep	_	_	95.029999	95.099998	L2
+7	j'	je	CLS	CLS	_	8	subj	_	_	95.160004	95.180000	L2
+8	ai	avoir	VRB	VRB	_	5	dep	_	_	95.180000	95.239998	L2
+9	fais	faire	VRB	VRB	_	0	root	_	_	95.239998	95.309998	L2
+10	hier	hier	ADV	ADV	_	9	dep	_	_	95.309998	95.550003	L2
+11	ben	ben	INT	INT	_	10	dm	_	_	95.639999	95.699997	L2
+
+# sent_id = cefc-tcof-shopping-56
+# text = j'étais à en Allemagne hier
+1	j'	je	CLS	CLS	_	2	subj	_	_	95.699997	95.730003	L2
+2	étais	être	VRB	VRB	_	0	root	_	_	95.730003	95.820000	L2
+3	à	à	PRE	PRE	_	2	dep	_	_	95.820000	95.879997	L2
+4	en	en	PRE	PRE	_	3	para	_	_	95.879997	95.959999	L2
+5	Allemagne	Allemagne	NOM	NOM	_	4	dep	_	_	95.959999	96.150002	L2
+6	hier	hier	ADV	ADV	_	2	dep	_	_	96.150002	96.239998	L2
+
+# sent_id = cefc-tcof-shopping-57
+# text = qu'est ce que tu as été foutre en Allemagne toi
+1	qu'	que	CSU	CSU	_	0	root	_	_	97.290001	97.320000	L1
+2	est	être	VRB	VRB	_	1	dep	_	_	97.320000	97.349998	L1
+3	ce	ce	PRO	PRO	_	2	dep	_	_	97.400002	97.419998	L1
+4	que	que	PRQ	PRQ	_	7	dep	_	_	97.419998	97.449997	L1
+5	tu	tu	CLS	CLS	_	7	subj	_	_	97.449997	97.510002	L1
+6	as	avoir	VRB	VRB	_	7	aux	_	_	97.510002	97.540001	L1
+7	été	être	VPP	VPP	_	3	dep	_	_	97.540001	97.669998	L1
+8	foutre	foutre	VNF	VNF	_	7	dep	_	_	97.669998	97.900002	L1
+9	en	en	PRE	PRE	_	8	dep	_	_	97.980003	98.099998	L1
+10	Allemagne	Allemagne	NOM	NOM	_	9	dep	_	_	98.099998	98.339996	L1
+11	toi	moi	PRO	PRO	_	8	periph	_	_	98.480003	98.559998	L1
+
+# sent_id = cefc-tcof-shopping-58
+# text = acheter des chaussures
+1	acheter	acheter	VNF	VNF	_	0	root	_	_	98.900002	99.029999	L2
+2	des	de	PRE	PRE	_	1	dep	_	_	99.400002	99.500000	L2
+3	chaussures	chaussure	NOM	NOM	_	2	dep	_	_	99.870003	100.730003	L2
+
+# sent_id = cefc-tcof-shopping-59
+# text = ben il y en a pas assez à Nancy
+1	ben	ben	INT	INT	_	5	dm	_	_	100.830002	100.889999	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	100.889999	100.949997	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	100.949997	100.980003	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	100.980003	101.019997	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	101.019997	101.080002	L1
+6	pas	pas	ADN	ADN	_	5	dep	_	_	101.080002	101.169998	L1
+7	assez	assez	ADV	ADV	_	5	dep	_	_	101.169998	101.230003	L1
+8	à	à	PRE	PRE	_	5	dep	_	_	101.230003	101.290001	L1
+9	Nancy	Nancy	NOM	NOM	_	8	dep	_	_	101.290001	101.870003	L1
+
+# sent_id = cefc-tcof-shopping-60
+# text = non mai euh il y a qu'en Allemagne qu'il y a des grandes tailles en fait
+1	non	non	INT	INT	_	6	dm	_	_	102.239998	102.470001	L2
+2	mai	mai	NOM	NOM	_	6	periph	_	_	102.470001	102.650002	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	102.650002	103.089996	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	103.089996	103.150002	L2
+5	y	y	CLI	CLI	_	6	dep	_	_	103.209999	103.379997	L2
+6	a	avoir	VRB	VRB	_	0	root	_	_	103.379997	103.440002	L2
+7	qu'	qu'	ADN	ADN	_	6	dep	_	_	103.529999	103.550003	L2
+8	en	en	PRE	PRE	_	6	dep	_	_	103.550003	103.680000	L2
+9	Allemagne	Allemagne	NOM	NOM	_	8	dep	_	_	103.680000	103.930000	L2
+10	qu'	que	PRQ	PRQ	_	13	dep	_	_	103.930000	103.959999	L2
+11	il	il	CLS	CLS	_	13	subj	_	_	103.959999	104.019997	L2
+12	y	y	CLI	CLI	_	13	dep	_	_	104.019997	104.050003	L2
+13	a	avoir	VRB	VRB	_	9	dep	_	_	104.050003	104.080002	L2
+14	des	de	PRE	PRE	_	13	dep	_	_	104.139999	104.230003	L2
+15	grandes	grand	ADJ	ADJ	_	16	dep	_	_	104.230003	104.459999	L2
+16	tailles	taille	NOM	NOM	_	14	dep	_	_	104.459999	104.629997	L2
+17	en	en	PRE	PRE	_	13	dep	_	_	104.680000	104.739998	L2
+18	fait	fait	NOM	NOM	_	17	dep	_	_	104.739998	104.889999	L2
+
+# sent_id = cefc-tcof-shopping-61
+# text = ah ben oui c'est vrai
+1	ah ben	ah ben	INT	INT	_	4	dm	_	_	105.199997	105.360001	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	105.360001	105.419998	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	105.459999	105.480003	L1
+4	est	être	VRB	VRB	_	0	root	_	_	105.480003	105.510002	L1
+5	vrai	vrai	ADJ	ADJ	_	4	dep	_	_	105.570000	105.650002	L1
+
+# sent_id = cefc-tcof-shopping-62
+# text = tu m'avais dit
+1	tu	tu	CLS	CLS	_	4	subj	_	_	105.790001	105.839996	L1
+2	m'	me	CLI	CLI	_	4	dep	_	_	105.839996	105.870003	L1
+3	avais	avoir	VRB	VRB	_	4	aux	_	_	105.870003	105.959999	L1
+4	dit	dire	VPP	VPP	_	0	root	_	_	106.190002	106.250000	L1
+
+# sent_id = cefc-tcof-shopping-63
+# text = ouais et euh même et même là bas en fait alors chez nous s leur s taille maximum euh
+1	ouais	ouais	INT	INT	_	14	dm	_	_	106.209999	106.440002	L2
+2	et	et	COO	COO	_	14	mark	_	_	106.660004	106.820000	L2
+3	euh	euh	INT	INT	_	2	dm	_	_	106.820000	106.870003	L2
+4	même	même	ADV	ADV	_	14	periph	_	_	106.870003	107.239998	L2
+5	et	et	COO	COO	_	14	mark	_	_	107.239998	107.269997	L2
+6	même	même	ADV	ADV	_	14	periph	_	_	107.269997	107.879997	L2
+7	là	là	ADV	ADV	_	14	periph	_	_	107.879997	108.059998	L2
+8	bas	bas	ADV	ADV	_	7	dep	_	_	108.059998	108.160004	L2
+9	en	en	PRE	PRE	_	14	periph	_	_	108.160004	108.480003	L2
+10	fait	fait	NOM	NOM	_	9	dep	_	_	108.480003	108.610001	L2
+11	alors	alors	ADV	ADV	_	14	periph	_	_	108.949997	109.129997	L2
+12	chez	chez	PRE	PRE	_	14	periph	_	_	109.129997	109.339996	L2
+13	nous	moi	PRO	PRO	_	12	dep	_	_	109.339996	109.540001	L2
+14	s	s	VRB	VRB	_	0	root	_	_	109.540001	109.540001	L2
+15	leur	son	DET	DET	_	16	spe	_	_	109.540001	109.660004	L2
+16	s	s	NOM	NOM	_	14	dep	_	_	109.660004	109.660004	L2
+17	taille	taille	NOM	NOM	_	16	dep	_	_	109.809998	110.370003	L2
+18	maximum	maximum	NOM	NOM	_	17	dep	_	_	110.370003	111.169998	L2
+19	euh	euh	INT	INT	_	18	dm	_	_	111.169998	111.430000	L2
+
+# sent_id = cefc-tcof-shopping-64
+# text = en général c'est quarante cinq
+1	en	en	PRE	PRE	_	4	periph	_	_	112.099998	112.279999	L2
+2	général	général	NOM	NOM	_	1	dep	_	_	112.279999	112.769997	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	112.839996	112.919998	L2
+4	est	être	VRB	VRB	_	0	root	_	_	112.919998	112.949997	L2
+5	quarante	quarante	NUM	NUM	_	4	dep	_	_	113.010002	113.250000	L2
+6	cinq	cinq	NUM	NUM	_	5	dep	_	_	113.389999	113.580002	L2
+
+# sent_id = cefc-tcof-shopping-65
+# text = et chez eux ça monte jusqu'à
+1	et	et	COO	COO	_	5	mark	_	_	114.050003	114.110001	L2
+2	chez	chez	PRE	PRE	_	5	periph	_	_	114.110001	114.470001	L2
+3	eux	moi	PRO	PRO	_	2	dep	_	_	114.470001	114.580002	L2
+4	ça	ça	PRO	PRO	_	5	subj	_	_	114.760002	114.820000	L2
+5	monte	monter	VRB	VRB	_	0	root	_	_	114.820000	115.000000	L2
+6	jusqu'	jusque	PRE	PRE	_	5	dep	_	_	115.000000	115.260002	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	115.260002	115.330002	L2
+
+# sent_id = cefc-tcof-shopping-66
+# text = quarante
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	115.330002	115.629997	L2
+
+# sent_id = cefc-tcof-shopping-67
+# text = six quarante sept
+1	six	six	NUM	NUM	_	0	root	_	_	115.800003	115.889999	L2
+2	quarante	quarante	NUM	NUM	_	1	dep	_	_	116.019997	116.220001	L2
+3	sept	sept	NUM	NUM	_	2	dep	_	_	116.360001	116.459999	L2
+
+# sent_id = cefc-tcof-shopping-68
+# text = ouais quarante cinq ils sont grands les allemands
+1	ouais	ouais	INT	INT	_	5	dm	_	_	113.919998	113.980003	L1
+2	quarante	quarante	NUM	NUM	_	5	periph	_	_	114.040001	114.570000	L1
+3	cinq	cinq	NUM	NUM	_	2	dep	_	_	114.570000	114.639999	L1
+4	ils	il	CLS	CLS	_	5	subj	_	_	116.739998	116.800003	L1
+5	sont	être	VRB	VRB	_	0	root	_	_	116.849998	116.940002	L1
+6	grands	grand	ADJ	ADJ	_	5	dep	_	_	116.940002	117.029999	L1
+7	les	le	DET	DET	_	8	spe	_	_	117.029999	117.089996	L1
+8	allemands	allemand	NOM	NOM	_	5	dep	_	_	117.160004	117.279999	L1
+
+# sent_id = cefc-tcof-shopping-69
+# text = ouais ouais ils sont grands
+1	ouais	ouais	INT	INT	_	4	dm	_	_	117.620003	117.680000	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	117.680000	117.800003	L2
+3	ils	il	CLS	CLS	_	4	subj	_	_	117.800003	117.860001	L2
+4	sont	être	VRB	VRB	_	0	root	_	_	118.029999	118.190002	L2
+5	grands	grand	ADJ	ADJ	_	4	dep	_	_	118.190002	118.360001	L2
+
+# sent_id = cefc-tcof-shopping-70
+# text = il y avait même certains modèles en
+1	il	il	CLS	CLS	_	3	subj	_	_	118.580002	118.629997	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	118.629997	118.660004	L2
+3	avait	avoir	VRB	VRB	_	0	root	_	_	118.660004	118.940002	L2
+4	même	même	ADV	ADV	_	5	dep	_	_	118.940002	119.029999	L2
+5	certains	certain	ADJ	ADJ	_	6	dep	_	_	119.029999	119.330002	L2
+6	modèles	modèle	NOM	NOM	_	3	dep	_	_	119.330002	119.680000	L2
+7	en	en	PRE	PRE	_	3	dep	_	_	119.809998	119.839996	L2
+
+# sent_id = cefc-tcof-shopping-71
+# text = quarante huit
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	119.839996	120.110001	L2
+2	huit	huit	NUM	NUM	_	1	dep	_	_	120.230003	120.320000	L2
+
+# sent_id = cefc-tcof-shopping-72
+# text = mais en règle générale
+1	mais	mais	COO	COO	_	2	mark	_	_	120.989998	121.089996	L2
+2	en	en	PRE	PRE	_	0	root	_	_	121.089996	121.779999	L2
+3	règle	règle	NOM	NOM	_	2	dep	_	_	121.779999	121.910004	L2
+4	générale	général	ADJ	ADJ	_	3	dep	_	_	121.910004	122.470001	L2
+
+# sent_id = cefc-tcof-shopping-73
+# text = le magasin standard il s'arrête à
+1	le	le	DET	DET	_	2	spe	_	_	122.470001	122.629997	L2
+2	magasin	magasin	NOM	NOM	_	6	periph	_	_	122.629997	123.110001	L2
+3	standard	standard	ADJ	ADJ	_	2	dep	_	_	123.199997	123.550003	L2
+4	il	il	CLS	CLS	_	6	subj	_	_	123.599998	123.660004	L2
+5	s'	se	CLI	CLI	_	6	dep	_	_	123.660004	123.720001	L2
+6	arrête	arrêter	VRB	VRB	_	0	root	_	_	123.720001	123.900002	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	123.989998	124.029999	L2
+
+# sent_id = cefc-tcof-shopping-74
+# text = quarante six
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	124.129997	124.290001	L2
+2	six	six	NUM	NUM	_	1	dep	_	_	124.290001	124.379997	L2
+
+# sent_id = cefc-tcof-shopping-75
+# text = et euh j'ai trouvé deux paires de
+1	et	et	COO	COO	_	5	mark	_	_	125.580002	125.750000	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	125.750000	126.199997	L2
+3	j'	je	CLS	CLS	_	5	subj	_	_	126.199997	126.290001	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	126.290001	126.360001	L2
+5	trouvé	se trouver	VPP	VPP	_	0	root	_	_	126.360001	126.610001	L2
+6	deux	deux	NUM	NUM	_	7	spe	_	_	126.610001	126.779999	L2
+7	paires	paire	NOM	NOM	_	5	dep	_	_	126.839996	127.169998	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	127.230003	127.260002	L2
+
+# sent_id = cefc-tcof-shopping-76
+# text = quarante six apparemment des quarante six qui chaussent grand
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	127.260002	127.440002	L2
+2	six	six	NUM	NUM	_	3	spe	_	_	127.589996	127.680000	L2
+3	apparemment	apparemment	NOM	NOM	_	1	dep	_	_	127.889999	128.270004	L2
+4	des	de	PRE	PRE	_	3	dep	_	_	128.270004	128.419998	L2
+5	quarante	quarante	NUM	NUM	_	6	spe	_	_	128.419998	128.589996	L2
+6	six	six	NOM	NOM	_	4	dep	_	_	128.639999	128.759995	L2
+7	qui	qui	PRQ	PRQ	_	8	subj	_	_	128.889999	128.949997	L2
+8	chaussent	chausser	VRB	VRB	_	6	dep	_	_	128.949997	129.089996	L2
+9	grand	grand	ADJ	ADJ	_	8	dep	_	_	129.089996	129.259995	L2
+
+# sent_id = cefc-tcof-shopping-77
+# text = parce qu'il y avait des
+1	parce qu'	parce que	CSU	CSU	_	0	root	_	_	129.259995	129.419998	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	129.419998	129.479996	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	129.479996	129.509995	L2
+4	avait	avoir	VRB	VRB	_	1	dep	_	_	129.509995	129.610001	L2
+5	des	de	PRE	PRE	_	4	dep	_	_	129.610001	129.669998	L2
+
+# sent_id = cefc-tcof-shopping-78
+# text = quarante six
+1	quarante	quarante	NUM	NUM	_	0	root	_	_	129.669998	129.839996	L2
+2	six	six	NUM	NUM	_	1	dep	_	_	129.839996	129.929993	L2
+
+# sent_id = cefc-tcof-shopping-79
+# text = qui m'allaient pas
+1	qui	qui	PRQ	PRQ	_	3	subj	_	_	129.929993	130.009995	L2
+2	m'	me	CLI	CLI	_	3	dep	_	_	130.139999	130.199997	L2
+3	allaient	aller	VRB	VRB	_	0	root	_	_	130.199997	130.320007	L2
+4	pas	pas	ADN	ADN	_	3	dep	_	_	130.320007	130.449997	L2
+
+# sent_id = cefc-tcof-shopping-80
+# text = donc euh j'ai trouvé deux paires
+1	donc	donc	ADV	ADV	_	5	periph	_	_	131.369995	131.649994	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	131.750000	131.830002	L2
+3	j'	je	CLS	CLS	_	5	subj	_	_	131.869995	131.960007	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	131.960007	131.990005	L2
+5	trouvé	se trouver	VPP	VPP	_	0	root	_	_	132.089996	132.309998	L2
+6	deux	deux	NUM	NUM	_	7	spe	_	_	132.309998	132.449997	L2
+7	paires	paire	NOM	NOM	_	5	dep	_	_	132.539993	132.710007	L2
+
+# sent_id = cefc-tcof-shopping-81
+# text = voilà cent euros de godasses
+1	voilà	voilà	INT	INT	_	3	dm	_	_	133.509995	133.740005	L2
+2	cent	cent	NUM	NUM	_	3	spe	_	_	133.889999	134.020004	L2
+3	euros	euro	NOM	NOM	_	0	root	_	_	134.020004	134.220001	L2
+4	de	de	PRE	PRE	_	3	dep	_	_	134.309998	134.330002	L2
+5	godasses	godasse	NOM	NOM	_	4	dep	_	_	134.330002	134.539993	L2
+
+# sent_id = cefc-tcof-shopping-82
+# text = ouais ouh quand même ouais oh deux paires ça va
+1	ouais	ouais	INT	INT	_	10	dm	_	_	130.940002	131.000000	L1
+2	ouh	ouh	INT	INT	_	1	dm	_	_	132.970001	133.369995	L1
+3	quand	quand	CSU	CSU	_	10	periph	_	_	135.059998	135.149994	L1
+4	même	même	ADV	ADV	_	3	morph	_	_	135.149994	135.389999	L1
+5	ouais	ouais	INT	INT	_	4	dm	_	_	135.389999	135.509995	L1
+6	oh	oh	INT	INT	_	8	dm	_	_	136.229996	136.259995	L1
+7	deux	deux	NUM	NUM	_	8	spe	_	_	136.259995	136.419998	L1
+8	paires	paire	NOM	NOM	_	10	periph	_	_	136.419998	136.589996	L1
+9	ça	ça	PRO	PRO	_	10	subj	_	_	136.710007	136.779999	L1
+10	va	aller	VRB	VRB	_	0	root	_	_	136.949997	137.160004	L1
+
+# sent_id = cefc-tcof-shopping-83
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	135.880005	136.000000	L2
+
+# sent_id = cefc-tcof-shopping-84
+# text = ben oui c'est pour ça pour ça que j'ai en fait
+1	ben	ben	INT	INT	_	4	dm	_	_	137.210007	137.309998	L2
+2	oui	oui	INT	INT	_	1	dm	_	_	137.309998	137.369995	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	137.369995	137.399994	L2
+4	est	être	VRB	VRB	_	0	root	_	_	137.399994	137.429993	L2
+5	pour	pour	PRE	PRE	_	4	dep	_	_	137.429993	137.610001	L2
+6	ça	ça	PRO	PRO	_	5	dep	_	_	137.610001	137.800003	L2
+7	pour	pour	PRE	PRE	_	5	para	_	_	138.000000	138.080002	L2
+8	ça	ça	PRO	PRO	_	7	dep	_	_	138.080002	138.240005	L2
+9	que	que	PRQ	PRQ	_	11	dep	_	_	138.240005	138.270004	L2
+10	j'	je	CLS	CLS	_	11	subj	_	_	138.270004	138.330002	L2
+11	ai	avoir	VRB	VRB	_	7	dep	_	_	138.330002	138.570007	L2
+12	en	en	PRE	PRE	_	11	dep	_	_	138.770004	138.940002	L2
+13	fait	fait	NOM	NOM	_	12	dep	_	_	139.050003	139.169998	L2
+
+# sent_id = cefc-tcof-shopping-85
+# text = moi il faut que je m'achète des baskets
+1	moi	moi	PRO	PRO	_	3	periph	_	_	138.779999	138.869995	L1
+2	il	il	CLS	CLS	_	3	subj	_	_	138.869995	138.929993	L1
+3	faut	faillir	VRB	VRB	_	0	root	_	_	138.929993	138.990005	L1
+4	que	que	CSU	CSU	_	3	dep	_	_	138.990005	139.020004	L1
+5	je	je	CLS	CLS	_	7	subj	_	_	139.020004	139.070007	L1
+6	m'	me	CLI	CLI	_	7	dep	_	_	139.070007	139.100006	L1
+7	achète	acheter	VRB	VRB	_	4	dep	_	_	139.100006	139.220001	L1
+8	des	de	PRE	PRE	_	7	dep	_	_	139.300003	139.380005	L1
+9	baskets	basket	NOM	NOM	_	8	dep	_	_	139.380005	139.649994	L1
+
+# sent_id = cefc-tcof-shopping-86
+# text = les les deux trois premiers magasins que j'avais fait je trouvais pas
+1	les	le	DET	DET	_	6	spe	_	_	140.190002	140.350006	L2
+2	les	le	DET	DET	_	1	para	_	_	140.350006	140.630005	L2
+3	deux	deux	NUM	NUM	_	6	dep	_	_	140.630005	140.779999	L2
+4	trois	trois	NUM	NUM	_	3	dep	_	_	140.779999	141.000000	L2
+5	premiers	premier	ADJ	ADJ	_	6	dep	_	_	141.000000	141.250000	L2
+6	magasins	magasin	NOM	NOM	_	12	periph	_	_	141.250000	141.559998	L2
+7	que	que	PRQ	PRQ	_	10	dep	_	_	141.559998	141.589996	L2
+8	j'	je	CLS	CLS	_	10	subj	_	_	141.589996	141.649994	L2
+9	avais	avoir	VRB	VRB	_	10	aux	_	_	141.649994	141.899994	L2
+10	fait	faire	VPP	VPP	_	6	dep	_	_	141.899994	141.979996	L2
+11	je	je	CLS	CLS	_	12	subj	_	_	142.029999	142.059998	L2
+12	trouvais	trouver	VRB	VRB	_	0	root	_	_	142.059998	142.289993	L2
+13	pas	pas	ADN	ADN	_	12	dep	_	_	142.289993	142.470001	L2
+
+# sent_id = cefc-tcof-shopping-87
+# text = ça m'énervait et arrivé au quatrième
+1	ça	ça	PRO	PRO	_	3	subj	_	_	142.539993	142.589996	L2
+2	m'	me	CLI	CLI	_	3	dep	_	_	142.589996	142.669998	L2
+3	énervait	énerver	VRB	VRB	_	0	root	_	_	142.669998	143.169998	L2
+4	et	et	COO	COO	_	5	mark	_	_	143.169998	143.220001	L2
+5	arrivé	arriver	VPP	VPP	_	3	para	_	_	143.839996	144.300003	L2
+6	au	à+le	PRE	PRE	_	5	dep	_	_	144.300003	144.360001	L2
+7	quatrième	quatrième	ADJ	ADJ	_	6	dep	_	_	144.440002	144.889999	L2
+
+# sent_id = cefc-tcof-shopping-88
+# text = j'en ai trouvé une pas mal
+1	j'	je	CLS	CLS	_	4	subj	_	_	144.940002	144.970001	L2
+2	en	en	CLI	CLI	_	4	dep	_	_	144.970001	145.089996	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	145.089996	145.119995	L2
+4	trouvé	se trouver	VPP	VPP	_	0	root	_	_	145.119995	145.389999	L2
+5	une	un	DET	DET	_	7	spe	_	_	145.389999	145.559998	L2
+6	pas	pas	ADN	ADN	_	7	dep	_	_	145.559998	145.729996	L2
+7	mal	mal	ADV	ADV	_	4	dep	_	_	145.729996	146.009995	L2
+
+# sent_id = cefc-tcof-shopping-89
+# text = donc j'ai dit bon ben voilà cinquante euros allez hop je prends ça euh de toute facon
+1	donc	donc	ADV	ADV	_	4	periph	_	_	146.779999	146.949997	L2
+2	j'	je	CLS	CLS	_	4	subj	_	_	147.009995	147.029999	L2
+3	ai	avoir	VRB	VRB	_	4	aux	_	_	147.029999	147.110001	L2
+4	dit	dire	VPP	VPP	_	0	root	_	_	147.110001	147.229996	L2
+5	bon ben	bon ben	INT	INT	_	4	dm	_	_	147.279999	147.580002	L2
+6	voilà	voilà	INT	INT	_	9	dm	_	_	147.580002	147.839996	L2
+7	cinquante	cinquante	NUM	NUM	_	8	spe	_	_	147.919998	148.080002	L2
+8	euros	euro	NOM	NOM	_	9	subj	_	_	148.080002	148.179993	L2
+9	allez	aller	VRB	VRB	_	4	dep	_	_	148.350006	148.460007	L2
+10	hop	hop	INT	INT	_	9	dm	_	_	148.460007	148.550003	L2
+11	je	je	CLS	CLS	_	12	subj	_	_	148.550003	148.710007	L2
+12	prends	prendre	VRB	VRB	_	4	para	_	_	148.919998	149.029999	L2
+13	ça	ça	PRO	PRO	_	12	dep	_	_	149.139999	149.410004	L2
+14	euh	euh	INT	INT	_	13	dm	_	_	149.490005	149.550003	L2
+15	de	de	PRE	PRE	_	12	dep	_	_	149.770004	149.869995	L2
+16	toute	tout	ADJ	ADJ	_	17	dep	_	_	149.970001	150.139999	L2
+17	facon	facon	NOM	NOM	_	15	dep	_	_	150.369995	150.500000	L2
+
+# sent_id = cefc-tcof-shopping-90
+# text = il y a rien d'autre
+1	il	il	CLS	CLS	_	3	subj	_	_	150.570007	150.750000	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	150.750000	150.779999	L2
+3	a	avoir	VRB	VRB	_	0	root	_	_	150.779999	150.809998	L2
+4	rien	rien	PRO	PRO	_	3	dep	_	_	150.940002	151.110001	L2
+5	d'	de	PRE	PRE	_	4	dep	_	_	151.110001	151.139999	L2
+6	autre	autre	NOM	NOM	_	5	dep	_	_	151.139999	151.270004	L2
+
+# sent_id = cefc-tcof-shopping-91
+# text = ouais ben voilà
+1	ouais	ouais	INT	INT	_	0	root	_	_	151.339996	151.449997	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	151.449997	151.539993	L1
+3	voilà	voilà	INT	INT	_	2	dm	_	_	151.539993	151.690002	L1
+
+# sent_id = cefc-tcof-shopping-92
+# text = et euh après je suis allé à une espèce de de galerie qui ressemble au Printemps quoi où tu as de tout
+1	et	et	COO	COO	_	6	mark	_	_	152.339996	152.580002	L2
+2	euh	euh	INT	INT	_	1	dm	_	_	152.580002	153.279999	L2
+3	après	après	PRE	PRE	_	6	periph	_	_	153.600006	153.880005	L2
+4	je	je	CLS	CLS	_	6	subj	_	_	153.880005	153.990005	L2
+5	suis	être	VRB	VRB	_	6	aux	_	_	153.990005	154.089996	L2
+6	allé	aller	VPP	VPP	_	0	root	_	_	154.089996	154.259995	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	154.259995	154.300003	L2
+8	une	un	DET	DET	_	9	spe	_	_	154.300003	154.389999	L2
+9	espèce	espèce	NOM	NOM	_	7	dep	_	_	154.389999	154.729996	L2
+10	de	de	PRE	PRE	_	9	dep	_	_	154.839996	155.169998	L2
+11	de	de	PRE	PRE	_	10	para	_	_	155.169998	155.470001	L2
+12	galerie	galerie	NOM	NOM	_	11	dep	_	_	155.470001	155.899994	L2
+13	qui	qui	PRQ	PRQ	_	14	dep	_	_	156.100006	156.160004	L2
+14	ressemble	ressembler	VRB	VRB	_	9	dep	_	_	156.160004	156.309998	L2
+15	au	à+le	PRE	PRE	_	14	dep	_	_	156.309998	156.369995	L2
+16	Printemps	printemps	NOM	NOM	_	15	dep	_	_	156.470001	156.850006	L2
+17	quoi	quoi	INT	INT	_	16	dm	_	_	156.899994	157.020004	L2
+18	où	où	PRQ	PRQ	_	20	dep	_	_	157.259995	157.309998	L2
+19	tu	tu	CLS	CLS	_	20	subj	_	_	157.369995	157.419998	L2
+20	as	avoir	VRB	VRB	_	14	dep	_	_	157.419998	157.490005	L2
+21	de	de	PRE	PRE	_	20	dep	_	_	157.639999	157.660004	L2
+22	tout	tout	PRO	PRO	_	21	dep	_	_	157.660004	157.740005	L2
+
+# sent_id = cefc-tcof-shopping-93
+# text = il y avait aussi des chaussures
+1	il	il	CLS	CLS	_	3	subj	_	_	158.610001	158.690002	L2
+2	y	y	CLI	CLI	_	3	dep	_	_	158.690002	158.779999	L2
+3	avait	avoir	VRB	VRB	_	0	root	_	_	158.779999	158.919998	L2
+4	aussi	aussi	ADV	ADV	_	3	dep	_	_	158.919998	159.050003	L2
+5	des	de	PRE	PRE	_	3	dep	_	_	159.119995	159.199997	L2
+6	chaussures	chaussure	NOM	NOM	_	5	dep	_	_	159.199997	159.520004	L2
+
+# sent_id = cefc-tcof-shopping-94
+# text = j'ai regardé à tout hasard
+1	j'	je	CLS	CLS	_	3	subj	_	_	159.520004	159.580002	L2
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	159.580002	159.619995	L2
+3	regardé	regarder	VPP	VPP	_	0	root	_	_	159.619995	159.940002	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	159.940002	160.009995	L2
+5	tout	tout	ADJ	ADJ	_	6	dep	_	_	160.130005	160.190002	L2
+6	hasard	hasard	NOM	NOM	_	4	dep	_	_	160.190002	160.380005	L2
+
+# sent_id = cefc-tcof-shopping-95
+# text = et puis j'en ai trouvé une autre paire là
+1	et puis	et puis	COO	COO	_	5	mark	_	_	160.570007	160.690002	L2
+2	j'	je	CLS	CLS	_	5	subj	_	_	160.690002	160.720001	L2
+3	en	en	CLI	CLI	_	5	dep	_	_	160.720001	160.750000	L2
+4	ai	avoir	VRB	VRB	_	5	aux	_	_	160.750000	160.779999	L2
+5	trouvé	se trouver	VPP	VPP	_	0	root	_	_	160.779999	160.940002	L2
+6	une	un	DET	DET	_	8	spe	_	_	160.940002	161.029999	L2
+7	autre	autre	ADJ	ADJ	_	8	dep	_	_	161.029999	161.130005	L2
+8	paire	paire	NOM	NOM	_	5	dep	_	_	161.179993	161.259995	L2
+9	là	là	ADV	ADV	_	5	dep	_	_	161.259995	161.320007	L2
+
+# sent_id = cefc-tcof-shopping-96
+# text = quoi mh
+1	quoi	quoi	INT	INT	_	0	root	_	_	161.380005	161.470001	L1
+2	mh	mh	INT	INT	_	1	dm	_	_	157.270004	157.309998	L1
+
+# sent_id = cefc-tcof-shopping-97
+# text = tu étais où en Allemagne
+1	tu	tu	CLS	CLS	_	2	subj	_	_	162.380005	162.460007	L1
+2	étais	être	VRB	VRB	_	0	root	_	_	162.619995	162.830002	L1
+3	où	où	PRQ	PRQ	_	2	dep	_	_	162.830002	162.889999	L1
+4	en	en	PRE	PRE	_	2	dep	_	_	162.889999	162.919998	L1
+5	Allemagne	Allemagne	NOM	NOM	_	4	dep	_	_	162.919998	163.320007	L1
+
+# sent_id = cefc-tcof-shopping-98
+# text = à Saarbrück
+1	à	à	PRE	PRE	_	0	root	_	_	163.699997	164.270004	L2
+2	Saarbrück	Saarbrück	NOM	NOM	_	1	dep	_	_	164.389999	164.630005	L2
+
+# sent_id = cefc-tcof-shopping-99
+# text = oh c'est pas l'Allemagne Saarbrück
+1	oh	oh	INT	INT	_	3	dm	_	_	165.880005	165.910004	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	165.910004	165.940002	L1
+3	est	être	VRB	VRB	_	0	root	_	_	165.940002	165.970001	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	166.020004	166.070007	L1
+5	l'	le	DET	DET	_	6	spe	_	_	166.440002	166.470001	L1
+6	Allemagne	Allemagne	NOM	NOM	_	3	dep	_	_	166.470001	166.940002	L1
+7	Saarbrück	Saarbrück	NOM	NOM	_	6	dep	_	_	167.000000	167.350006	L1
+
+# sent_id = cefc-tcof-shopping-100
+# text = eh ben Saarbrücken
+1	eh ben	eh ben	INT	INT	_	2	dm	_	_	167.669998	167.770004	L2
+2	Saarbrücken	Saarbrücken	NOM	NOM	_	0	root	_	_	168.009995	168.580002	L2
+
+# sent_id = cefc-tcof-shopping-101
+# text = ah Saarbrücken
+1	ah	ah	INT	INT	_	2	dm	_	_	168.919998	169.070007	L1
+2	Saarbrücken	Saarbrücken	NOM	NOM	_	0	root	_	_	169.110001	169.899994	L1
+
+# sent_id = cefc-tcof-shopping-102
+# text = ah oui
+1	ah	ah	INT	INT	_	0	root	_	_	169.899994	169.979996	L1
+2	oui	oui	INT	INT	_	1	dm	_	_	169.979996	170.039993	L1
+
+# sent_id = cefc-tcof-shopping-103
+# text = ben Saarbr~ en français tu dis Saarbrück
+1	ben	ben	INT	INT	_	2	dm	_	_	170.130005	170.330002	L2
+2	Saarbr~	Saarbr~	NOM	NOM	_	6	periph	_	_	170.410004	170.630005	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	170.690002	170.820007	L2
+4	français	français	NOM	NOM	_	3	dep	_	_	170.820007	171.309998	L2
+5	tu	tu	CLS	CLS	_	6	subj	_	_	171.309998	171.369995	L2
+6	dis	dire	VRB	VRB	_	0	root	_	_	171.369995	171.479996	L2
+7	Saarbrück	Saarbrück	NOM	NOM	_	6	dep	_	_	171.479996	171.960007	L2
+
+# sent_id = cefc-tcof-shopping-104
+# text = mais en Allemagne c'est Saarbrücken
+1	mais	mais	COO	COO	_	5	mark	_	_	172.029999	172.119995	L2
+2	en	en	PRE	PRE	_	5	periph	_	_	172.119995	172.429993	L2
+3	Allemagne	Allemagne	NOM	NOM	_	2	dep	_	_	172.559998	172.770004	L2
+4	c'	ce	CLS	CLS	_	5	subj	_	_	172.929993	172.960007	L2
+5	est	être	VRB	VRB	_	0	root	_	_	172.960007	173.029999	L2
+6	Saarbrücken	Saarbrücken	NOM	NOM	_	5	dep	_	_	173.029999	173.630005	L2
+
+# sent_id = cefc-tcof-shopping-105
+# text = c'est à c'est passé au delà de la frontière ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	173.270004	173.350006	L1
+2	est	être	VRB	VRB	_	0	root	_	_	173.350006	173.619995	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	173.779999	173.800003	L1
+4	c'	ce	CLS	CLS	_	6	subj	_	_	173.970001	174.000000	L1
+5	est	être	VRB	VRB	_	6	aux	_	_	174.000000	174.039993	L1
+6	passé	passer	VPP	VPP	_	2	dep	_	_	174.039993	174.350006	L1
+7	au delà	au-delà	ADV	ADV	_	6	dep	_	_	174.350006	174.520004	L1
+8	de	de	PRE	PRE	_	6	dep	_	_	174.520004	174.550003	L1
+9	la	le	DET	DET	_	10	spe	_	_	174.550003	174.619995	L1
+10	frontière	frontière	NOM	NOM	_	8	dep	_	_	174.619995	174.990005	L1
+11	ça	ça	PRO	PRO	_	6	periph	_	_	175.029999	175.089996	L1
+
+# sent_id = cefc-tcof-shopping-106
+# text = mh ben Saarbrück je pensais que c'était euh
+1	mh	mh	INT	INT	_	5	dm	_	_	176.070007	176.190002	L1
+2	ben	ben	INT	INT	_	1	dm	_	_	177.089996	177.179993	L1
+3	Saarbrück	Saarbrück	NOM	NOM	_	5	periph	_	_	177.279999	177.669998	L1
+4	je	je	CLS	CLS	_	5	subj	_	_	177.669998	177.699997	L1
+5	pensais	penser	VRB	VRB	_	0	root	_	_	177.699997	177.830002	L1
+6	que	que	CSU	CSU	_	5	dep	_	_	177.869995	177.929993	L1
+7	c'	ce	CLS	CLS	_	8	subj	_	_	178.119995	178.139999	L1
+8	était	être	VRB	VRB	_	6	dep	_	_	178.139999	178.250000	L1
+9	euh	euh	INT	INT	_	8	dm	_	_	178.250000	178.279999	L1
+
+# sent_id = cefc-tcof-shopping-107
+# text = c'est à coté de Saint Avold
+1	c'	ce	CLS	CLS	_	2	subj	_	_	179.119995	179.169998	L1
+2	est	être	VRB	VRB	_	0	root	_	_	179.169998	179.520004	L1
+3	à	à	PRE	PRE	_	2	dep	_	_	179.660004	179.699997	L1
+4	coté	coté	NOM	NOM	_	3	dep	_	_	179.699997	179.970001	L1
+5	de	de	PRE	PRE	_	4	dep	_	_	180.240005	180.649994	L1
+6	Saint	saint	NOM	NOM	_	5	dep	_	_	180.770004	180.910004	L1
+7	Avold	Avold	NOM	NOM	_	6	dep	_	_	181.559998	181.820007	L1
+
+# sent_id = cefc-tcof-shopping-108
+# text = non
+1	non	non	INT	INT	_	0	root	_	_	181.970001	182.089996	L2
+
+# sent_id = cefc-tcof-shopping-109
+# text = ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	179.139999	179.490005	L2
+
+# sent_id = cefc-tcof-shopping-110
+# text = Saarbrücken c'est à la frontière
+1	Saarbrücken	Saarbrücken	NOM	NOM	_	3	periph	_	_	179.619995	180.000000	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	180.229996	180.250000	L2
+3	est	être	VRB	VRB	_	0	root	_	_	180.250000	180.509995	L2
+4	à	à	PRE	PRE	_	3	dep	_	_	180.619995	180.639999	L2
+5	la	le	DET	DET	_	6	spe	_	_	180.809998	180.910004	L2
+6	frontière	frontière	NOM	NOM	_	4	dep	_	_	181.520004	181.800003	L2
+
+# sent_id = cefc-tcof-shopping-111
+# text = on doit pas parler du même
+1	on	on	CLS	CLS	_	2	subj	_	_	183.410004	183.660004	L2
+2	doit	devoir	VRB	VRB	_	0	root	_	_	183.660004	183.770004	L2
+3	pas	pas	ADN	ADN	_	2	dep	_	_	183.770004	183.830002	L2
+4	parler	parler	VNF	VNF	_	2	dep	_	_	183.830002	184.070007	L2
+5	du	de+le	PRE	PRE	_	4	dep	_	_	184.070007	184.199997	L2
+6	même	même	NOM	NOM	_	5	dep	_	_	184.199997	184.789993	L2
+
+# sent_id = cefc-tcof-shopping-112
+# text = euh il y a oui il y en a plusieurs il y en a plusieurs
+1	euh	euh	INT	INT	_	4	dm	_	_	184.919998	185.080002	L2
+2	il	il	CLS	CLS	_	4	subj	_	_	185.860001	185.929993	L2
+3	y	y	CLI	CLI	_	4	dep	_	_	185.929993	185.960007	L2
+4	a	avoir	VRB	VRB	_	0	root	_	_	185.960007	186.050003	L2
+5	oui	oui	INT	INT	_	4	dm	_	_	186.050003	186.149994	L2
+6	il	il	CLS	CLS	_	9	subj	_	_	186.149994	186.199997	L2
+7	y	y	CLI	CLI	_	9	dep	_	_	186.199997	186.229996	L2
+8	en	en	CLI	CLI	_	9	dep	_	_	186.229996	186.259995	L2
+9	a	avoir	VRB	VRB	_	4	para	_	_	186.259995	186.399994	L2
+10	plusieurs	plusieurs	DET	DET	_	9	dep	_	_	186.440002	187.199997	L2
+11	il	il	CLS	CLS	_	14	subj	_	_	187.199997	187.309998	L2
+12	y	y	CLI	CLI	_	14	dep	_	_	187.380005	187.399994	L2
+13	en	en	CLI	CLI	_	14	dep	_	_	187.399994	187.559998	L2
+14	a	avoir	VRB	VRB	_	9	para	_	_	187.559998	187.600006	L2
+15	plusieurs	plusieurs	DET	DET	_	14	dep	_	_	187.600006	187.949997	L2
+
+# sent_id = cefc-tcof-shopping-113
+# text = mh il y en a plusieurs hein
+1	mh	mh	INT	INT	_	5	dm	_	_	188.869995	189.050003	L1
+2	il	il	CLS	CLS	_	5	subj	_	_	185.240005	185.360001	L1
+3	y	y	CLI	CLI	_	5	dep	_	_	185.360001	185.419998	L1
+4	en	en	CLI	CLI	_	5	dep	_	_	185.419998	185.470001	L1
+5	a	avoir	VRB	VRB	_	0	root	_	_	185.470001	185.539993	L1
+6	plusieurs	plusieurs	DET	DET	_	5	dep	_	_	185.539993	185.770004	L1
+7	hein	hein	INT	INT	_	6	dm	_	_	185.770004	185.809998	L1
+
+# sent_id = cefc-tcof-shopping-114
+# text = c'est ça
+1	c'	ce	CLS	CLS	_	2	subj	_	_	185.860001	185.889999	L1
+2	est	être	VRB	VRB	_	0	root	_	_	185.889999	185.919998	L1
+3	ça	ça	PRO	PRO	_	2	dep	_	_	185.919998	186.050003	L1
+
+# sent_id = cefc-tcof-shopping-115
+# text = ouais c'est ça il y a un Saarbrück à coté de Saint Avold ouais
+1	ouais	ouais	INT	INT	_	3	dm	_	_	186.050003	186.149994	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	186.149994	186.179993	L1
+3	est	être	VRB	VRB	_	0	root	_	_	186.179993	186.259995	L1
+4	ça	ça	PRO	PRO	_	3	dep	_	_	186.259995	186.389999	L1
+5	il	il	CLS	CLS	_	7	subj	_	_	186.429993	186.479996	L1
+6	y	y	CLI	CLI	_	7	dep	_	_	186.479996	186.509995	L1
+7	a	avoir	VRB	VRB	_	3	para	_	_	186.509995	186.610001	L1
+8	un	un	DET	DET	_	9	spe	_	_	186.610001	186.830002	L1
+9	Saarbrück	Saarbrück	NOM	NOM	_	7	dep	_	_	186.880005	187.149994	L1
+10	à	à	PRE	PRE	_	9	dep	_	_	187.149994	187.179993	L1
+11	coté	coté	NOM	NOM	_	10	dep	_	_	187.179993	187.309998	L1
+12	de	de	PRE	PRE	_	11	dep	_	_	187.309998	187.339996	L1
+13	Saint	saint	NOM	NOM	_	12	dep	_	_	187.339996	187.410004	L1
+14	Avold	Avold	NOM	NOM	_	13	dep	_	_	187.410004	187.559998	L1
+15	ouais	ouais	INT	INT	_	14	dm	_	_	187.559998	187.619995	L1
+
+# sent_id = cefc-tcof-shopping-116
+# text = c'est bien ce que je dis
+1	c'	ce	CLS	CLS	_	2	subj	_	_	187.619995	187.669998	L1
+2	est	être	VRB	VRB	_	0	root	_	_	187.669998	187.750000	L1
+3	bien	bien	ADV	ADV	_	2	dep	_	_	187.750000	187.940002	L1
+4	ce	ce	PRO	PRO	_	2	dep	_	_	187.940002	187.970001	L1
+5	que	que	PRQ	PRQ	_	7	dep	_	_	187.970001	188.000000	L1
+6	je	je	CLS	CLS	_	7	subj	_	_	188.000000	188.029999	L1
+7	dis	dire	VRB	VRB	_	4	dep	_	_	188.100006	188.149994	L1
+
+# sent_id = cefc-tcof-shopping-117
+# text = mais sur les panneaux français en fait ils mettent Saarbrück
+1	mais	mais	COO	COO	_	9	mark	_	_	190.080002	190.330002	L2
+2	sur	sur	PRE	PRE	_	9	periph	_	_	190.330002	190.449997	L2
+3	les	le	DET	DET	_	4	spe	_	_	190.449997	190.649994	L2
+4	panneaux	panneau	NOM	NOM	_	2	dep	_	_	190.649994	190.979996	L2
+5	français	français	ADJ	ADJ	_	4	dep	_	_	191.039993	191.449997	L2
+6	en	en	PRE	PRE	_	9	periph	_	_	191.449997	191.520004	L2
+7	fait	fait	NOM	NOM	_	6	dep	_	_	191.600006	191.679993	L2
+8	ils	il	CLS	CLS	_	9	subj	_	_	191.679993	191.740005	L2
+9	mettent	mettre	VRB	VRB	_	0	root	_	_	191.839996	192.020004	L2
+10	Saarbrück	Saarbrück	NOM	NOM	_	9	dep	_	_	192.130005	192.580002	L2
+
+# sent_id = cefc-tcof-shopping-118
+# text = et
+1	et	et	COO	COO	_	0	root	_	_	192.869995	192.899994	L2
+
+# sent_id = cefc-tcof-shopping-119
+# text = sur les panneaux allemands
+1	sur	sur	PRE	PRE	_	0	root	_	_	192.899994	193.000000	L2
+2	les	le	DET	DET	_	3	spe	_	_	193.000000	193.059998	L2
+3	panneaux	panneau	NOM	NOM	_	1	dep	_	_	193.119995	193.389999	L2
+4	allemands	allemand	ADJ	ADJ	_	3	dep	_	_	193.389999	193.669998	L2
+
+# sent_id = cefc-tcof-shopping-120
+# text = dès que tu passes la frontière c'est marqué Saarbrücken
+1	dès	dès	PRE	PRE	_	8	periph	_	_	193.669998	193.809998	L2
+2	que	que	CSU	CSU	_	1	dep	_	_	193.809998	193.839996	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	193.839996	193.910004	L2
+4	passes	passer	VRB	VRB	_	2	dep	_	_	193.949997	194.070007	L2
+5	la	le	DET	DET	_	6	spe	_	_	194.119995	194.169998	L2
+6	frontière	frontière	NOM	NOM	_	4	dep	_	_	194.169998	194.539993	L2
+7	c'	ce	CLS	CLS	_	8	subj	_	_	194.710007	194.740005	L2
+8	est	être	VRB	VRB	_	0	root	_	_	194.740005	194.770004	L2
+9	marqué	marquer	VPP	VPP	_	8	dep	_	_	194.770004	194.929993	L2
+10	Saarbrücken	Saarbrücken	NOM	NOM	_	9	dep	_	_	195.020004	195.289993	L2
+
+# sent_id = cefc-tcof-shopping-121
+# text = logique
+1	logique	logique	ADJ	ADJ	_	0	root	_	_	195.809998	196.009995	L1
+
+# sent_id = cefc-tcof-shopping-122
+# text = en même temps voilà exactement donc je suis allé là bas
+1	en même temps	en même temps	ADV	ADV	_	7	periph	_	_	196.160004	196.759995	L2
+2	voilà	voilà	INT	INT	_	1	dm	_	_	197.470001	197.619995	L2
+3	exactement	exactement	ADV	ADV	_	1	para	_	_	197.679993	198.020004	L2
+4	donc	donc	ADV	ADV	_	7	periph	_	_	198.720001	198.880005	L2
+5	je	je	CLS	CLS	_	7	subj	_	_	198.880005	198.910004	L2
+6	suis	être	VRB	VRB	_	7	aux	_	_	198.910004	199.000000	L2
+7	allé	aller	VPP	VPP	_	0	root	_	_	199.000000	199.119995	L2
+8	là	là	ADV	ADV	_	7	dep	_	_	199.119995	199.229996	L2
+9	bas	bas	ADV	ADV	_	8	dep	_	_	199.229996	199.570007	L2
+
+# sent_id = cefc-tcof-shopping-123
+# text = mais c'est vraiment collé à la frontière hein
+1	mais	mais	COO	COO	_	3	mark	_	_	199.619995	199.679993	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	199.679993	199.710007	L2
+3	est	être	VRB	VRB	_	0	root	_	_	199.710007	199.740005	L2
+4	vraiment	vraiment	ADV	ADV	_	5	dep	_	_	199.740005	199.889999	L2
+5	collé	coller	VPP	VPP	_	3	dep	_	_	199.889999	200.039993	L2
+6	à	à	PRE	PRE	_	5	dep	_	_	200.039993	200.070007	L2
+7	la	le	DET	DET	_	8	spe	_	_	200.070007	200.190002	L2
+8	frontière	frontière	NOM	NOM	_	6	dep	_	_	200.190002	200.559998	L2
+9	hein	hein	INT	INT	_	8	dm	_	_	200.559998	200.589996	L2
+
+# sent_id = cefc-tcof-shopping-124
+# text = tu sors de Saarbrücken
+1	tu	tu	CLS	CLS	_	2	subj	_	_	200.889999	201.089996	L2
+2	sors	sortir	VRB	VRB	_	0	root	_	_	201.130005	201.270004	L2
+3	de	de	PRE	PRE	_	2	dep	_	_	201.309998	201.389999	L2
+4	Saarbrücken	Saarbrücken	NOM	NOM	_	3	dep	_	_	201.470001	201.979996	L2
+
+# sent_id = cefc-tcof-shopping-125
+# text = tu es en
+1	tu	tu	CLS	CLS	_	2	subj	_	_	202.050003	202.110001	L2
+2	es	être	VRB	VRB	_	0	root	_	_	202.110001	202.139999	L2
+3	en	en	PRE	PRE	_	2	dep	_	_	202.139999	202.169998	L2
+
+# sent_id = cefc-tcof-shopping-126
+# text = France ouais ouais
+1	France	France	NOM	NOM	_	0	root	_	_	202.320007	202.429993	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	200.800003	201.199997	L1
+3	ouais	ouais	INT	INT	_	2	para	_	_	201.490005	201.899994	L1
+
+# sent_id = cefc-tcof-shopping-127
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	203.130005	203.309998	L1
+2	ouais	ouais	INT	INT	_	1	para	_	_	203.309998	203.500000	L1
+
+# sent_id = cefc-tcof-shopping-128
+# text = tu en fait c'est collé à Spicheren
+1	tu	tu	CLS	CLS	_	3	subj	_	_	203.669998	203.850006	L2
+2	en	en	CLI	CLI	_	3	dep	_	_	203.850006	203.929993	L2
+3	fait	faire	VRB	VRB	_	0	root	_	_	203.929993	204.070007	L2
+4	c'	ce	CLS	CLS	_	6	subj	_	_	204.139999	204.179993	L2
+5	est	être	VRB	VRB	_	6	aux	_	_	204.179993	204.289993	L2
+6	collé	coller	VPP	VPP	_	3	para	_	_	204.289993	204.570007	L2
+7	à	à	PRE	PRE	_	6	dep	_	_	204.570007	204.690002	L2
+8	Spicheren	Spicheren	NOM	NOM	_	7	dep	_	_	204.839996	205.289993	L2
+
+# sent_id = cefc-tcof-shopping-129
+# text = Spicheren
+1	Spicheren	Spicheren	NOM	NOM	_	0	root	_	_	206.630005	207.309998	L1
+
+# sent_id = cefc-tcof-shopping-130
+# text = Spicheren ouais tu as Spicheren
+1	Spicheren	Spicheren	NOM	NOM	_	4	periph	_	_	207.600006	207.919998	L2
+2	ouais	ouais	INT	INT	_	1	dm	_	_	207.919998	207.979996	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	209.330002	209.380005	L2
+4	as	avoir	VRB	VRB	_	0	root	_	_	209.380005	209.570007	L2
+5	Spicheren	Spicheren	NOM	NOM	_	4	dep	_	_	209.770004	210.399994	L2
+
+# sent_id = cefc-tcof-shopping-131
+# text = et puis après tu traverses un autre patelin
+1	et puis	et puis	COO	COO	_	4	mark	_	_	210.520004	210.690002	L2
+2	après	après	PRE	PRE	_	4	periph	_	_	210.690002	211.080002	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	211.080002	211.139999	L2
+4	traverses	traverser	VRB	VRB	_	0	root	_	_	211.320007	211.710007	L2
+5	un	un	DET	DET	_	7	spe	_	_	211.830002	211.850006	L2
+6	autre	autre	ADJ	ADJ	_	7	dep	_	_	211.850006	211.940002	L2
+7	patelin	patelin	NOM	NOM	_	4	dep	_	_	212.000000	212.270004	L2
+
+# sent_id = cefc-tcof-shopping-132
+# text = et puis après tu es à Forbach
+1	et puis	et puis	COO	COO	_	4	mark	_	_	212.330002	212.449997	L2
+2	après	après	PRE	PRE	_	4	periph	_	_	212.449997	212.570007	L2
+3	tu	tu	CLS	CLS	_	4	subj	_	_	212.570007	212.630005	L2
+4	es	être	VRB	VRB	_	0	root	_	_	212.630005	212.660004	L2
+5	à	à	PRE	PRE	_	4	dep	_	_	212.660004	212.690002	L2
+6	Forbach	Forbach	NOM	NOM	_	5	dep	_	_	212.690002	212.940002	L2
+
+# sent_id = cefc-tcof-shopping-133
+# text = d'accord
+1	d'	de	PRE	PRE	_	0	root	_	_	213.270004	213.300003	L1
+2	accord	accord	NOM	NOM	_	1	dep	_	_	213.360001	213.470001	L1
+
+# sent_id = cefc-tcof-shopping-134
+# text = donc ça va assez vite
+1	donc	donc	ADV	ADV	_	3	periph	_	_	213.929993	214.020004	L2
+2	ça	ça	PRO	PRO	_	3	subj	_	_	214.100006	214.210007	L2
+3	va	aller	VRB	VRB	_	0	root	_	_	214.210007	214.320007	L2
+4	assez	assez	ADV	ADV	_	5	dep	_	_	214.320007	214.399994	L2
+5	vite	vite	ADV	ADV	_	3	dep	_	_	214.399994	214.539993	L2
+
+# sent_id = cefc-tcof-shopping-135
+# text = oui c'est pas ouais c'est pas loin
+1	oui	oui	INT	INT	_	3	dm	_	_	214.869995	215.000000	L1
+2	c'	ce	CLS	CLS	_	3	subj	_	_	215.000000	215.029999	L1
+3	est	être	VRB	VRB	_	0	root	_	_	215.130005	215.149994	L1
+4	pas	pas	ADN	ADN	_	3	dep	_	_	215.210007	215.380005	L1
+5	ouais	ouais	INT	INT	_	4	dm	_	_	215.440002	215.490005	L1
+6	c'	ce	CLS	CLS	_	7	subj	_	_	215.490005	215.520004	L1
+7	est	être	VRB	VRB	_	3	para	_	_	215.630005	215.649994	L1
+8	pas	pas	ADN	ADN	_	7	dep	_	_	215.649994	215.710007	L1
+9	loin	loin	ADV	ADV	_	7	dep	_	_	215.710007	215.809998	L1
+
+# sent_id = cefc-tcof-shopping-136
+# text = quoi non c'est pas loin du tout ouais ouais
+1	quoi	quoi	INT	INT	_	4	dm	_	_	215.809998	215.919998	L2
+2	non	non	INT	INT	_	1	dm	_	_	216.220001	216.309998	L2
+3	c'	ce	CLS	CLS	_	4	subj	_	_	216.309998	216.339996	L2
+4	est	être	VRB	VRB	_	0	root	_	_	216.479996	216.500000	L2
+5	pas	pas	ADN	ADN	_	4	dep	_	_	216.500000	216.589996	L2
+6	loin	loin	ADV	ADV	_	4	dep	_	_	216.589996	216.770004	L2
+7	du	de+le	PRE	PRE	_	4	dep	_	_	218.289993	218.350006	L2
+8	tout	tout	PRO	PRO	_	7	dep	_	_	218.350006	218.789993	L2
+9	ouais	ouais	INT	INT	_	8	dm	_	_	219.000000	219.259995	L2
+10	ouais	ouais	INT	INT	_	9	para	_	_	219.449997	219.600006	L2
+
+# sent_id = cefc-tcof-shopping-137
+# text = non c'est ça m'a permis de de trouver des chaussures vu que ça faisait cinq ans que j'en avais pas acheté
+1	non	non	INT	INT	_	3	dm	_	_	219.600006	219.770004	L2
+2	c'	ce	CLS	CLS	_	3	subj	_	_	219.929993	219.960007	L2
+3	est	être	VRB	VRB	_	0	root	_	_	219.960007	219.990005	L2
+4	ça	ça	PRO	PRO	_	7	subj	_	_	219.990005	220.050003	L2
+5	m'	me	CLI	CLI	_	7	dep	_	_	220.619995	220.699997	L2
+6	a	avoir	VRB	VRB	_	7	aux	_	_	220.699997	220.729996	L2
+7	permis	permettre	VPP	VPP	_	3	para	_	_	220.800003	221.110001	L2
+8	de	de	PRE	PRE	_	7	dep	_	_	221.110001	221.139999	L2
+9	de	de	PRE	PRE	_	8	para	_	_	221.179993	221.369995	L2
+10	trouver	se trouver	VNF	VNF	_	9	dep	_	_	221.490005	221.679993	L2
+11	des	de	PRE	PRE	_	10	dep	_	_	221.679993	221.740005	L2
+12	chaussures	chaussure	NOM	NOM	_	11	dep	_	_	221.740005	222.160004	L2
+13	vu	vu	PRE	PRE	_	7	dep	_	_	222.229996	222.360001	L2
+14	que	que	CSU	CSU	_	13	dep	_	_	222.360001	222.490005	L2
+15	ça	ça	PRO	PRO	_	16	subj	_	_	222.490005	222.600006	L2
+16	faisait	faire	VRB	VRB	_	14	dep	_	_	222.699997	222.839996	L2
+17	cinq	cinq	NUM	NUM	_	18	spe	_	_	222.919998	222.979996	L2
+18	ans	an	NOM	NOM	_	16	dep	_	_	222.979996	223.009995	L2
+19	que	que	PRQ	PRQ	_	24	dep	_	_	223.089996	223.360001	L2
+20	j'	je	CLS	CLS	_	24	subj	_	_	223.470001	223.520004	L2
+21	en	en	CLI	CLI	_	24	dep	_	_	223.520004	223.550003	L2
+22	avais	avoir	VRB	VRB	_	24	aux	_	_	223.550003	223.699997	L2
+23	pas	pas	ADN	ADN	_	24	dep	_	_	223.699997	223.789993	L2
+24	acheté	acheter	VPP	VPP	_	18	dep	_	_	223.789993	223.990005	L2
+
+# sent_id = cefc-tcof-shopping-138
+# text = mais ouais eh ça va moi j'arrive pas à tenir cinq ans avec une paire de chaussures hein
+1	mais	mais	COO	COO	_	5	mark	_	_	222.229996	222.460007	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	222.460007	222.619995	L1
+3	eh	eh	INT	INT	_	2	dm	_	_	224.160004	224.190002	L1
+4	ça	ça	PRO	PRO	_	5	subj	_	_	224.190002	224.259995	L1
+5	va	aller	VRB	VRB	_	0	root	_	_	224.259995	224.429993	L1
+6	moi	moi	PRO	PRO	_	8	periph	_	_	224.429993	224.580002	L1
+7	j'	je	CLS	CLS	_	8	subj	_	_	224.639999	224.679993	L1
+8	arrive	arriver	VRB	VRB	_	5	para	_	_	224.679993	225.360001	L1
+9	pas	pas	ADN	ADN	_	8	dep	_	_	225.720001	226.190002	L1
+10	à	à	PRE	PRE	_	8	dep	_	_	226.270004	226.369995	L1
+11	tenir	(se) tenir	VNF	VNF	_	10	dep	_	_	226.369995	226.610001	L1
+12	cinq	cinq	NUM	NUM	_	13	spe	_	_	226.779999	226.899994	L1
+13	ans	an	NOM	NOM	_	11	dep	_	_	227.240005	227.330002	L1
+14	avec	avec	PRE	PRE	_	11	dep	_	_	227.679993	227.820007	L1
+15	une	un	DET	DET	_	16	spe	_	_	227.860001	227.910004	L1
+16	paire	paire	NOM	NOM	_	14	dep	_	_	227.910004	228.020004	L1
+17	de	de	PRE	PRE	_	16	dep	_	_	228.020004	228.059998	L1
+18	chaussures	chaussure	NOM	NOM	_	17	dep	_	_	228.059998	228.559998	L1
+19	hein	hein	INT	INT	_	18	dm	_	_	228.660004	228.679993	L1
+
+# sent_id = cefc-tcof-shopping-139
+# text = oh peut être quatre ans
+1	oh	oh	INT	INT	_	2	dm	_	_	228.729996	228.759995	L2
+2	peut	pouvoir	VRB	VRB	_	0	root	_	_	228.800003	228.929993	L2
+3	être	être	VNF	VNF	_	2	dep	_	_	228.970001	229.050003	L2
+4	quatre	quatre	NUM	NUM	_	5	spe	_	_	229.050003	229.339996	L2
+5	ans	an	NOM	NOM	_	3	dep	_	_	229.339996	229.520004	L2
+
+# sent_id = cefc-tcof-shopping-140
+# text = allez quatre ans
+1	allez	aller	VRB	VRB	_	0	root	_	_	229.520004	229.679993	L2
+2	quatre	quatre	NUM	NUM	_	3	spe	_	_	230.100006	230.410004	L2
+3	ans	an	NOM	NOM	_	1	dep	_	_	230.509995	230.529999	L2
+
+# sent_id = cefc-tcof-shopping-141
+# text = mes baskets là ça fait un an que je les ai
+1	mes	son	DET	DET	_	2	spe	_	_	230.080002	230.220001	L1
+2	baskets	basket	NOM	NOM	_	5	periph	_	_	230.220001	230.550003	L1
+3	là	là	ADV	ADV	_	2	dep	_	_	230.660004	230.729996	L1
+4	ça	ça	PRO	PRO	_	5	subj	_	_	230.729996	230.880005	L1
+5	fait	faire	VRB	VRB	_	0	root	_	_	230.880005	231.039993	L1
+6	un	un	DET	DET	_	7	spe	_	_	231.039993	231.160004	L1
+7	an	an	NOM	NOM	_	5	dep	_	_	231.160004	231.229996	L1
+8	que	que	PRQ	PRQ	_	11	dep	_	_	231.229996	231.300003	L1
+9	je	je	CLS	CLS	_	11	subj	_	_	231.300003	231.330002	L1
+10	les	le	CLI	CLI	_	11	dep	_	_	231.330002	231.500000	L1
+11	ai	avoir	VRB	VRB	_	7	dep	_	_	231.500000	231.619995	L1
+
+# sent_id = cefc-tcof-shopping-142
+# text = elles sont mortes c'est pour ça que je voulais
+1	elles	il	CLS	CLS	_	3	subj	_	_	231.860001	231.910004	L1
+2	sont	être	VRB	VRB	_	3	aux	_	_	231.910004	231.970001	L1
+3	mortes	mourir	VPP	VPP	_	5	periph	_	_	232.610001	232.720001	L1
+4	c'	ce	CLS	CLS	_	5	subj	_	_	232.720001	232.750000	L1
+5	est	être	VRB	VRB	_	0	root	_	_	232.750000	232.779999	L1
+6	pour	pour	PRE	PRE	_	5	dep	_	_	232.839996	232.979996	L1
+7	ça	ça	PRO	PRO	_	6	dep	_	_	232.979996	233.089996	L1
+8	que	que	PRQ	PRQ	_	10	dep	_	_	233.089996	233.220001	L1
+9	je	je	CLS	CLS	_	10	subj	_	_	233.220001	233.380005	L1
+10	voulais	vouloir	VRB	VRB	_	6	dep	_	_	233.380005	233.610001	L1
+
+# sent_id = cefc-tcof-shopping-143
+# text = ah les baskets oui là je suis d'accord
+1	ah	ah	INT	INT	_	3	dm	_	_	233.009995	233.080002	L2
+2	les	le	DET	DET	_	3	spe	_	_	233.080002	233.240005	L2
+3	baskets	basket	NOM	NOM	_	7	periph	_	_	233.240005	233.660004	L2
+4	oui	oui	INT	INT	_	3	dm	_	_	233.770004	233.839996	L2
+5	là	là	ADV	ADV	_	7	periph	_	_	233.839996	233.979996	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	233.979996	234.029999	L2
+7	suis	être	VRB	VRB	_	0	root	_	_	234.029999	234.169998	L2
+8	d'	de	PRE	PRE	_	7	dep	_	_	234.169998	234.220001	L2
+9	accord	accord	NOM	NOM	_	8	dep	_	_	234.220001	234.619995	L2
+
+# sent_id = cefc-tcof-shopping-144
+# text = mais les chaussures ouais les chaussures de ville c'est différent
+1	mais	mais	COO	COO	_	10	mark	_	_	234.619995	234.820007	L2
+2	les	le	DET	DET	_	3	spe	_	_	234.820007	235.009995	L2
+3	chaussures	chaussure	NOM	NOM	_	10	periph	_	_	235.009995	235.220001	L2
+4	ouais	ouais	INT	INT	_	3	dm	_	_	235.270004	235.699997	L2
+5	les	le	DET	DET	_	6	spe	_	_	235.699997	235.820007	L2
+6	chaussures	chaussure	NOM	NOM	_	3	para	_	_	235.899994	236.179993	L2
+7	de	de	PRE	PRE	_	6	dep	_	_	236.179993	236.210007	L2
+8	ville	ville	NOM	NOM	_	7	dep	_	_	236.210007	236.300003	L2
+9	c'	ce	CLS	CLS	_	10	subj	_	_	236.300003	236.330002	L2
+10	est	être	VRB	VRB	_	0	root	_	_	236.330002	236.360001	L2
+11	différent	différent	ADJ	ADJ	_	10	dep	_	_	236.449997	236.779999	L2
+
+# sent_id = cefc-tcof-shopping-145
+# text = ouais les chaussures de ville oui forcément
+1	ouais	ouais	INT	INT	_	3	dm	_	_	235.270004	235.699997	L1
+2	les	le	DET	DET	_	3	spe	_	_	235.699997	235.820007	L1
+3	chaussures	chaussure	NOM	NOM	_	0	root	_	_	235.899994	236.360001	L1
+4	de	de	PRE	PRE	_	3	dep	_	_	236.449997	236.509995	L1
+5	ville	ville	NOM	NOM	_	4	dep	_	_	236.679993	236.770004	L1
+6	oui	oui	INT	INT	_	5	dm	_	_	236.830002	236.949997	L1
+7	forcément	forcément	ADV	ADV	_	3	dep	_	_	236.949997	237.449997	L1
+
+# sent_id = cefc-tcof-shopping-146
+# text = mais les baskets oui ça je trouve hein euh facilement
+1	mais	mais	COO	COO	_	7	mark	_	_	237.500000	237.600006	L2
+2	les	le	DET	DET	_	3	spe	_	_	237.600006	237.679993	L2
+3	baskets	basket	NOM	NOM	_	7	periph	_	_	237.679993	238.059998	L2
+4	oui	oui	INT	INT	_	3	dm	_	_	238.059998	238.160004	L2
+5	ça	ça	PRO	PRO	_	7	periph	_	_	238.160004	238.339996	L2
+6	je	je	CLS	CLS	_	7	subj	_	_	238.339996	238.380005	L2
+7	trouve	trouver	VRB	VRB	_	0	root	_	_	238.559998	239.130005	L2
+8	hein	hein	INT	INT	_	7	dm	_	_	239.130005	239.160004	L2
+9	euh	euh	INT	INT	_	8	dm	_	_	239.160004	239.199997	L2
+10	facilement	facilement	ADV	ADV	_	7	dep	_	_	239.289993	239.949997	L2
+
+# sent_id = cefc-tcof-shopping-147
+# text = baskets ouais c'est ils font des grandes tailles
+1	baskets	basket	NOM	NOM	_	4	periph	_	_	240.050003	240.270004	L1
+2	ouais	ouais	INT	INT	_	1	dm	_	_	240.270004	240.330002	L1
+3	c'	ce	CLS	CLS	_	4	subj	_	_	240.399994	240.429993	L1
+4	est	être	VRB	VRB	_	0	root	_	_	240.429993	240.550003	L1
+5	ils	il	CLS	CLS	_	6	subj	_	_	240.550003	240.639999	L1
+6	font	faire	VRB	VRB	_	4	para	_	_	240.639999	240.750000	L1
+7	des	de	PRE	PRE	_	6	dep	_	_	240.750000	240.809998	L1
+8	grandes	grand	ADJ	ADJ	_	9	dep	_	_	240.860001	240.970001	L1
+9	tailles	taille	NOM	NOM	_	7	dep	_	_	241.059998	241.139999	L1
+

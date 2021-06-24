@@ -1,0 +1,370 @@
+# sent_id = cefc-coralrom-fpubdl05-1
+# text = à l'aéroport voilà
+1	à	à	PRE	PRE	_	0	root	_	_	0.120000	0.170000	MIR
+2	l'	le	DET	DET	_	3	spe	_	_	0.180000	0.210000	MIR
+3	aéroport	aéroport	NOM	NOM	_	1	dep	_	_	0.280000	0.580000	MIR
+4	voilà	voilà	INT	INT	_	3	dm	_	_	0.590000	0.840000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-2
+# text = pour quoi faire
+1	pour	pour	PRE	PRE	_	0	root	_	_	1.260000	1.400000	EST
+2	quoi	quoi	PRQ	PRQ	_	1	dep	_	_	1.410000	1.500000	EST
+3	faire	faire	VNF	VNF	_	1	dep	_	_	1.590000	1.770000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-3
+# text = ben pour le théâtre elle a besoin elle avait besoin d'enregistrer
+1	ben	ben	INT	INT	_	6	dm	_	_	2.180000	2.340000	MIR
+2	pour	pour	PRE	PRE	_	6	periph	_	_	2.430000	2.550000	MIR
+3	le	le	DET	DET	_	4	spe	_	_	2.560000	2.580000	MIR
+4	théâtre	théâtre	NOM	NOM	_	2	dep	_	_	2.640000	3.020000	MIR
+5	elle	il	CLS	CLS	_	6	subj	_	_	3.030000	3.100000	MIR
+6	a	avoir	VRB	VRB	_	0	root	_	_	3.110000	3.170000	MIR
+7	besoin	besoin	NOM	NOM	_	6	dep	_	_	3.180000	3.560000	MIR
+8	elle	il	CLS	CLS	_	9	subj	_	_	3.570000	3.630000	MIR
+9	avait	avoir	VRB	VRB	_	6	para	_	_	3.640000	3.780000	MIR
+10	besoin	besoin	NOM	NOM	_	9	dep	_	_	3.790000	3.980000	MIR
+11	d'	de	PRE	PRE	_	10	dep	_	_	3.990000	4.030000	MIR
+12	enregistrer	enregistrer	VNF	VNF	_	11	dep	_	_	4.040000	4.750000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-4
+# text = elle monte je sais pas trop quoi
+1	elle	il	CLS	CLS	_	2	subj	_	_	4.760000	4.890000	MIR
+2	monte	monter	VRB	VRB	_	0	root	_	_	4.900000	5.150000	MIR
+3	je	je	CLS	CLS	_	4	subj	_	_	5.160000	5.280000	MIR
+4	sais	savoir	VRB	VRB	_	2	para	_	_	5.290000	5.340000	MIR
+5	pas	pas	ADN	ADN	_	4	dep	_	_	5.350000	5.400000	MIR
+6	trop	trop	ADV	ADV	_	4	dep	_	_	5.410000	5.550000	MIR
+7	quoi	quoi	INT	INT	_	6	dm	_	_	5.660000	5.740000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-5
+# text = donc il lui fallait des bruits de fond de gens qui partaient en voyage parce que dessus elle va monter une chanson de Brel
+1	donc	donc	ADV	ADV	_	4	periph	_	_	5.840000	5.980000	MIR
+2	il	il	CLS	CLS	_	4	subj	_	_	5.990000	6.080000	MIR
+3	lui	lui	CLI	CLI	_	4	dep	_	_	6.090000	6.160000	MIR
+4	fallait	falloir	VRB	VRB	_	0	root	_	_	6.170000	6.380000	MIR
+5	des	de	PRE	PRE	_	4	dep	_	_	6.390000	6.510000	MIR
+6	bruits	bruit	NOM	NOM	_	5	dep	_	_	6.570000	6.700000	MIR
+7	de	de	PRE	PRE	_	6	dep	_	_	6.710000	6.790000	MIR
+8	fond	fond	NOM	NOM	_	7	dep	_	_	6.800000	7.090000	MIR
+9	de	de	PRE	PRE	_	8	dep	_	_	7.100000	7.270000	MIR
+10	gens	gens	NOM	NOM	_	9	dep	_	_	7.280000	7.360000	MIR
+11	qui	qui	PRQ	PRQ	_	12	subj	_	_	7.420000	7.510000	MIR
+12	partaient	partir	VRB	VRB	_	10	dep	_	_	7.570000	7.780000	MIR
+13	en	en	PRE	PRE	_	12	dep	_	_	7.790000	7.840000	MIR
+14	voyage	voyage	NOM	NOM	_	13	dep	_	_	7.900000	8.470000	MIR
+15	parce que	parce que	CSU	CSU	_	12	dep	_	_	8.580000	8.980000	MIR
+16	dessus	dessus	ADV	ADV	_	18	periph	_	_	9.430000	9.580000	MIR
+17	elle	il	CLS	CLS	_	18	subj	_	_	9.590000	9.660000	MIR
+18	va	aller	VRB	VRB	_	15	dep	_	_	9.670000	9.750000	MIR
+19	monter	monter	VNF	VNF	_	18	dep	_	_	9.760000	10.030000	MIR
+20	une	un	DET	DET	_	21	spe	_	_	10.040000	10.120000	MIR
+21	chanson	chanson	NOM	NOM	_	19	dep	_	_	10.130000	10.490000	MIR
+22	de	de	PRE	PRE	_	21	dep	_	_	10.550000	10.630000	MIR
+23	Brel	Brel	NOM	NOM	_	22	dep	_	_	10.680000	10.790000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-6
+# text = je sais plus laquelle
+1	je	je	CLS	CLS	_	2	subj	_	_	10.850000	10.870000	MIR
+2	sais	savoir	VRB	VRB	_	0	root	_	_	10.880000	10.930000	MIR
+3	plus	plus	ADN	ADN	_	2	dep	_	_	11.110000	11.220000	MIR
+4	laquelle	lequel	PRQ	PRQ	_	2	dep	_	_	11.230000	11.680000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-7
+# text = c'est excellent
+1	c'	ce	CLS	CLS	_	2	subj	_	_	13.310000	13.330000	EST
+2	est	être	VRB	VRB	_	0	root	_	_	13.340000	13.400000	EST
+3	excellent	excellent	ADJ	ADJ	_	2	dep	_	_	13.450000	13.830000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-8
+# text = donc elle est partie à l'aéroport
+1	donc	donc	ADV	ADV	_	4	periph	_	_	14.440000	14.600000	MIR
+2	elle	il	CLS	CLS	_	4	subj	_	_	14.660000	14.760000	MIR
+3	est	être	VRB	VRB	_	4	aux	_	_	14.770000	14.840000	MIR
+4	partie	partir	VPP	VPP	_	0	root	_	_	14.850000	15.180000	MIR
+5	à	à	PRE	PRE	_	4	dep	_	_	15.190000	15.210000	MIR
+6	l'	le	DET	DET	_	7	spe	_	_	15.220000	15.320000	MIR
+7	aéroport	aéroport	NOM	NOM	_	5	dep	_	_	15.330000	15.860000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-9
+# text = elle a elle a
+1	elle	il	CLS	CLS	_	2	subj	_	_	16.129999	16.260000	MIR
+2	a	avoir	VRB	VRB	_	0	root	_	_	16.450001	16.480000	MIR
+3	elle	il	CLS	CLS	_	4	subj	_	_	16.540001	16.680000	MIR
+4	a	avoir	VRB	VRB	_	2	para	_	_	16.690001	16.780001	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-10
+# text = d-~
+1	d-~	d-~	X	X	_	0	root	_	_	17.139999	17.219999	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-11
+# text = mm enregistré des bruits de de fond de voyage tout ça
+1	mm	mm	INT	INT	_	2	dm	_	_	17.230000	17.750000	MIR
+2	enregistré	enregistrer	VPP	VPP	_	0	root	_	_	18.469999	19.150000	MIR
+3	des	de	PRE	PRE	_	2	dep	_	_	19.160000	19.250000	MIR
+4	bruits	bruit	NOM	NOM	_	3	dep	_	_	19.309999	19.450001	MIR
+5	de	de	PRE	PRE	_	4	dep	_	_	19.459999	19.559999	MIR
+6	de	de	PRE	PRE	_	5	para	_	_	19.629999	19.700001	MIR
+7	fond	fond	NOM	NOM	_	6	dep	_	_	19.830000	20.010000	MIR
+8	de	de	PRE	PRE	_	7	dep	_	_	20.020000	20.040001	MIR
+9	voyage	voyage	NOM	NOM	_	8	dep	_	_	20.049999	20.360001	MIR
+10	tout	tout	ADJ	ADJ	_	11	dep	_	_	20.370001	20.420000	MIR
+11	ça	ça	PRO	PRO	_	4	para	_	_	20.430000	20.629999	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-12
+# text = puis après elle a interviewé deux ou trois personnes
+1	puis	puis	COO	COO	_	5	mark	_	_	20.639999	20.730000	MIR
+2	après	après	PRE	PRE	_	5	periph	_	_	20.740000	20.959999	MIR
+3	elle	il	CLS	CLS	_	5	subj	_	_	20.969999	21.000000	MIR
+4	a	avoir	VRB	VRB	_	5	aux	_	_	21.010000	21.040001	MIR
+5	interviewé	interviewer	VPP	VPP	_	0	root	_	_	21.049999	21.530001	MIR
+6	deux	deux	NUM	NUM	_	9	spe	_	_	21.540001	21.620001	MIR
+7	ou	ou	COO	COO	_	8	mark	_	_	21.629999	21.690001	MIR
+8	trois	trois	NUM	NUM	_	6	para	_	_	21.750000	21.889999	MIR
+9	personnes	personne	NOM	NOM	_	5	dep	_	_	22.360001	22.540001	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-13
+# text = pour le théâtre ils font ça maintenant
+1	pour	pour	PRE	PRE	_	5	periph	_	_	23.870001	24.049999	EST
+2	le	le	DET	DET	_	3	spe	_	_	24.059999	24.090000	EST
+3	théâtre	théâtre	NOM	NOM	_	1	dep	_	_	24.100000	24.360001	EST
+4	ils	il	CLS	CLS	_	5	subj	_	_	24.370001	24.420000	EST
+5	font	faire	VRB	VRB	_	0	root	_	_	24.430000	24.549999	EST
+6	ça	ça	PRO	PRO	_	5	dep	_	_	24.559999	24.700001	EST
+7	maintenant	maintenant	ADV	ADV	_	5	dep	_	_	24.709999	25.090000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-14
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	25.660000	25.799999	MIR
+2	ouais	ouais	INT	INT	_	1	para	_	_	25.809999	25.860001	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-15
+# text = mais c'est nouveau
+1	mais	mais	COO	COO	_	3	mark	_	_	26.590000	26.830000	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	26.900000	27.040001	EST
+3	est	être	VRB	VRB	_	0	root	_	_	27.049999	27.150000	EST
+4	nouveau	nouveau	ADJ	ADJ	_	3	dep	_	_	27.160000	27.440001	EST
+
+# sent_id = cefc-coralrom-fpubdl05-16
+# text = nous on faisait pas ça
+1	nous	moi	PRO	PRO	_	3	periph	_	_	27.450001	27.549999	EST
+2	on	on	CLS	CLS	_	3	subj	_	_	27.559999	27.639999	EST
+3	faisait	faire	VRB	VRB	_	0	root	_	_	27.650000	27.910000	EST
+4	pas	pas	ADN	ADN	_	3	dep	_	_	27.969999	28.049999	EST
+5	ça	ça	PRO	PRO	_	3	dep	_	_	28.139999	28.270000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-17
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	26.650000	26.709999	MIR
+2	ouais	ouais	INT	INT	_	1	para	_	_	26.719999	26.770000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-18
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	26.780001	26.830000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-19
+# text = mais bon
+1	mais	mais	COO	COO	_	0	root	_	_	28.420000	28.760000	EST
+2	bon	bon	INT	INT	_	1	dm	_	_	28.770000	28.850000	EST
+
+# sent_id = cefc-coralrom-fpubdl05-20
+# text = bon j'ai pas fait trop de théâtre mais
+1	bon	bon	INT	INT	_	5	dm	_	_	30.260000	30.440001	EST
+2	j'	je	CLS	CLS	_	5	subj	_	_	30.450001	30.530001	EST
+3	ai	avoir	VRB	VRB	_	5	aux	_	_	30.540001	30.559999	EST
+4	pas	pas	ADN	ADN	_	5	dep	_	_	30.570000	30.639999	EST
+5	fait	faire	VPP	VPP	_	0	root	_	_	30.650000	30.700001	EST
+6	trop	trop	ADV	ADV	_	5	dep	_	_	30.750000	30.870001	EST
+7	de	de	PRE	PRE	_	6	dep	_	_	30.879999	30.910000	EST
+8	théâtre	théâtre	NOM	NOM	_	7	dep	_	_	30.990000	31.340000	EST
+9	mais	mais	COO	COO	_	8	disflink	_	_	31.420000	31.559999	EST
+
+# sent_id = cefc-coralrom-fpubdl05-21
+# text = oui mais elle elle est en licence théâtre hein
+1	oui	oui	INT	INT	_	5	dm	_	_	31.879999	31.959999	MIR
+2	mais	mais	COO	COO	_	5	mark	_	_	31.969999	32.139999	MIR
+3	elle	il	CLS	CLS	_	5	subj	_	_	32.150002	32.169998	MIR
+4	elle	il	CLS	CLS	_	3	para	_	_	32.180000	32.290001	MIR
+5	est	être	VRB	VRB	_	0	root	_	_	32.299999	32.360001	MIR
+6	en	en	PRE	PRE	_	5	dep	_	_	32.439999	32.580002	MIR
+7	licence	licence	NOM	NOM	_	6	dep	_	_	32.849998	33.290001	MIR
+8	théâtre	théâtre	NOM	NOM	_	7	dep	_	_	33.299999	33.639999	MIR
+9	hein	hein	INT	INT	_	8	dm	_	_	33.779999	33.830002	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-22
+# text = donc bon ben ils font des trucs mh
+1	donc	donc	ADV	ADV	_	4	periph	_	_	34.020000	34.250000	MIR
+2	bon ben	bon ben	INT	INT	_	1	dm	_	_	34.389999	34.919998	MIR
+3	ils	il	CLS	CLS	_	4	subj	_	_	35.040001	35.090000	MIR
+4	font	faire	VRB	VRB	_	0	root	_	_	35.099998	35.150002	MIR
+5	des	de	PRE	PRE	_	4	dep	_	_	35.160000	35.209999	MIR
+6	trucs	truc	NOM	NOM	_	5	dep	_	_	35.220001	35.330002	MIR
+7	mh	mh	INT	INT	_	6	dm	_	_	34.389999	34.939999	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-23
+# text = si tu savais tout ce qu'elle fait elle fait plein de stages
+1	si	si	CSU	CSU	_	10	periph	_	_	36.490002	36.599998	MIR
+2	tu	tu	CLS	CLS	_	3	subj	_	_	36.610001	36.660000	MIR
+3	savais	savoir	VRB	VRB	_	1	dep	_	_	36.669998	36.880001	MIR
+4	tout	tout	ADJ	ADJ	_	5	dep	_	_	36.889999	36.939999	MIR
+5	ce	ce	PRO	PRO	_	3	dep	_	_	36.950001	37.029999	MIR
+6	qu'	que	PRQ	PRQ	_	8	dep	_	_	37.040001	37.070000	MIR
+7	elle	il	CLS	CLS	_	8	subj	_	_	37.080002	37.169998	MIR
+8	fait	faire	VRB	VRB	_	5	dep	_	_	37.180000	37.549999	MIR
+9	elle	il	CLS	CLS	_	10	subj	_	_	38.389999	38.459999	MIR
+10	fait	faire	VRB	VRB	_	0	root	_	_	38.470001	38.610001	MIR
+11	plein	plein	ADJ	ADJ	_	10	dep	_	_	38.619999	38.709999	MIR
+12	de	de	PRE	PRE	_	11	dep	_	_	38.720001	38.740002	MIR
+13	stages	stage	NOM	NOM	_	12	dep	_	_	38.750000	39.240002	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-24
+# text = elle fait euh assistante de metteur en scène
+1	elle	il	CLS	CLS	_	2	subj	_	_	39.250000	39.389999	MIR
+2	fait	faire	VRB	VRB	_	0	root	_	_	39.400002	39.520000	MIR
+3	euh	euh	INT	INT	_	2	dm	_	_	39.529999	39.599998	MIR
+4	assistante	assistant	ADJ	ADJ	_	2	dep	_	_	40.220001	40.709999	MIR
+5	de	de	PRE	PRE	_	4	dep	_	_	40.720001	40.970001	MIR
+6	metteur	metteur	NOM	NOM	_	5	dep	_	_	40.980000	41.340000	MIR
+7	en	en	PRE	PRE	_	2	dep	_	_	41.349998	41.410000	MIR
+8	scène	scène	NOM	NOM	_	7	dep	_	_	41.470001	42.410000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-25
+# text = ah c'est excellent
+1	ah	ah	INT	INT	_	3	dm	_	_	42.680000	42.700001	EST
+2	c'	ce	CLS	CLS	_	3	subj	_	_	43.130001	43.160000	EST
+3	est	être	VRB	VRB	_	0	root	_	_	43.169998	43.299999	EST
+4	excellent	excellent	ADJ	ADJ	_	3	dep	_	_	43.360001	43.630001	EST
+
+# sent_id = cefc-coralrom-fpubdl05-26
+# text = ah ouais mais c'est bien ce qu'elle fait
+1	ah	ah	INT	INT	_	5	dm	_	_	43.880001	44.139999	MIR
+2	ouais	ouais	INT	INT	_	1	dm	_	_	44.150002	44.200001	MIR
+3	mais	mais	COO	COO	_	5	mark	_	_	44.209999	44.259998	MIR
+4	c'	ce	CLS	CLS	_	5	subj	_	_	44.270000	44.369999	MIR
+5	est	être	VRB	VRB	_	0	root	_	_	44.380001	44.400002	MIR
+6	bien	bien	ADV	ADV	_	5	dep	_	_	44.459999	44.599998	MIR
+7	ce	ce	PRO	PRO	_	5	dep	_	_	44.610001	44.689999	MIR
+8	qu'	que	PRQ	PRQ	_	10	dep	_	_	44.700001	44.720001	MIR
+9	elle	il	CLS	CLS	_	10	subj	_	_	44.730000	44.779999	MIR
+10	fait	faire	VRB	VRB	_	7	dep	_	_	44.790001	44.840000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-27
+# text = c'est vachement intéressant
+1	c'	ce	CLS	CLS	_	2	subj	_	_	44.970001	44.990002	MIR
+2	est	être	VRB	VRB	_	0	root	_	_	45.000000	45.020000	MIR
+3	vachement	vachement	ADV	ADV	_	4	dep	_	_	45.200001	45.439999	MIR
+4	intéressant	intéressant	ADJ	ADJ	_	2	dep	_	_	45.540001	46.220001	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-28
+# text = ah la dernière fois je suis passée dans le couloir
+1	ah	ah	INT	INT	_	7	dm	_	_	45.000000	45.020000	EST
+2	la	le	DET	DET	_	4	spe	_	_	45.540001	45.599998	EST
+3	dernière	dernier	ADJ	ADJ	_	4	dep	_	_	45.610001	46.020000	EST
+4	fois	foi	NOM	NOM	_	7	periph	_	_	46.029999	46.220001	EST
+5	je	je	CLS	CLS	_	7	subj	_	_	46.279999	46.340000	EST
+6	suis	être	VRB	VRB	_	7	aux	_	_	46.349998	46.430000	EST
+7	passée	passer	VPP	VPP	_	0	root	_	_	46.439999	46.709999	EST
+8	dans	dans	PRE	PRE	_	7	dep	_	_	46.720001	46.820000	EST
+9	le	le	DET	DET	_	10	spe	_	_	46.830002	46.849998	EST
+10	couloir	couloir	NOM	NOM	_	8	dep	_	_	46.860001	47.130001	EST
+
+# sent_id = cefc-coralrom-fpubdl05-29
+# text = attends il y avait les boites
+1	attends	attendre	VRB	VRB	_	4	dm	_	_	47.209999	47.349998	EST
+2	il	il	CLS	CLS	_	4	subj	_	_	47.360001	47.410000	EST
+3	y	y	CLI	CLI	_	4	dep	_	_	47.450001	47.470001	EST
+4	avait	avoir	VRB	VRB	_	0	root	_	_	47.480000	47.689999	EST
+5	les	le	DET	DET	_	6	spe	_	_	47.750000	47.910000	EST
+6	boites	boites	NOM	NOM	_	4	dep	_	_	47.919998	48.650002	EST
+
+# sent_id = cefc-coralrom-fpubdl05-30
+# text = ils avaient coupé des des bouteilles en plastoc
+1	ils	il	CLS	CLS	_	3	subj	_	_	48.660000	48.860001	EST
+2	avaient	avoir	VRB	VRB	_	3	aux	_	_	48.869999	49.020000	EST
+3	coupé	couper	VPP	VPP	_	0	root	_	_	49.169998	49.360001	EST
+4	des	de	PRE	PRE	_	3	dep	_	_	49.450001	49.570000	EST
+5	des	de	PRE	PRE	_	4	para	_	_	49.980000	50.029999	EST
+6	bouteilles	bouteille	NOM	NOM	_	5	dep	_	_	50.139999	50.450001	EST
+7	en	en	PRE	PRE	_	6	dep	_	_	50.459999	50.490002	EST
+8	plastoc	plastoc	NOM	NOM	_	7	dep	_	_	50.500000	50.880001	EST
+
+# sent_id = cefc-coralrom-fpubdl05-31
+# text = mh et ils ont mis ça sur le truc
+1	mh	mh	INT	INT	_	5	dm	_	_	51.119999	51.250000	EST
+2	et	et	COO	COO	_	5	mark	_	_	51.709999	51.730000	EST
+3	ils	il	CLS	CLS	_	5	subj	_	_	51.740002	51.790001	EST
+4	ont	avoir	VRB	VRB	_	5	aux	_	_	51.799999	51.820000	EST
+5	mis	mettre	VPP	VPP	_	0	root	_	_	51.830002	51.970001	EST
+6	ça	ça	PRO	PRO	_	5	dep	_	_	51.980000	52.150002	EST
+7	sur	sur	PRE	PRE	_	5	dep	_	_	52.250000	52.439999	EST
+8	le	le	DET	DET	_	9	spe	_	_	52.450001	52.470001	EST
+9	truc	truc	NOM	NOM	_	7	dep	_	_	52.480000	52.610001	EST
+
+# sent_id = cefc-coralrom-fpubdl05-32
+# text = j'ai dit c'est super
+1	j'	je	CLS	CLS	_	3	subj	_	_	52.619999	52.639999	EST
+2	ai	avoir	VRB	VRB	_	3	aux	_	_	52.720001	52.759998	EST
+3	dit	dire	VPP	VPP	_	0	root	_	_	52.770000	52.820000	EST
+4	c'	ce	CLS	CLS	_	5	subj	_	_	53.020000	53.310001	EST
+5	est	être	VRB	VRB	_	3	dep	_	_	53.470001	53.520000	EST
+6	super	super	ADJ	ADJ	_	5	dep	_	_	53.529999	53.639999	EST
+
+# sent_id = cefc-coralrom-fpubdl05-33
+# text = ça faisait très beau comme déco
+1	ça	ça	PRO	PRO	_	2	subj	_	_	53.650002	53.720001	EST
+2	faisait	faire	VRB	VRB	_	0	root	_	_	53.910000	54.040001	EST
+3	très	très	ADV	ADV	_	4	dep	_	_	54.130001	54.209999	EST
+4	beau	beau	ADJ	ADJ	_	2	dep	_	_	54.299999	54.349998	EST
+5	comme	comme	PRE	PRE	_	2	dep	_	_	54.419998	54.689999	EST
+6	déco	déco	NOM	NOM	_	5	dep	_	_	54.759998	54.869999	EST
+
+# sent_id = cefc-coralrom-fpubdl05-34
+# text = tu as pas vu
+1	tu	tu	CLS	CLS	_	4	subj	_	_	55.060001	55.160000	EST
+2	as	avoir	VRB	VRB	_	4	aux	_	_	55.169998	55.290001	EST
+3	pas	pas	ADN	ADN	_	4	dep	_	_	55.299999	55.590000	EST
+4	vu	voir	VPP	VPP	_	0	root	_	_	55.599998	55.689999	EST
+
+# sent_id = cefc-coralrom-fpubdl05-35
+# text = mh
+1	mh	mh	INT	INT	_	0	root	_	_	47.570000	47.680000	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-36
+# text = ah oui mais avec un rien il faut voir ce qu'ils font comme déco avec un rien quoi hein
+1	ah	ah	INT	INT	_	8	dm	_	_	55.090000	55.270000	MIR
+2	oui	oui	INT	INT	_	1	dm	_	_	55.279999	55.389999	MIR
+3	mais	mais	COO	COO	_	8	mark	_	_	55.400002	55.480000	MIR
+4	avec	avec	PRE	PRE	_	8	periph	_	_	55.490002	55.689999	MIR
+5	un	un	DET	DET	_	6	spe	_	_	55.790001	55.919998	MIR
+6	rien	rien	NOM	NOM	_	4	dep	_	_	55.930000	56.259998	MIR
+7	il	il	CLS	CLS	_	8	subj	_	_	56.270000	56.330002	MIR
+8	faut	faillir	VRB	VRB	_	0	root	_	_	56.490002	56.549999	MIR
+9	voir	voir	VNF	VNF	_	8	dep	_	_	56.619999	56.779999	MIR
+10	ce	ce	PRO	PRO	_	9	dep	_	_	56.790001	56.880001	MIR
+11	qu'	que	PRQ	PRQ	_	13	dep	_	_	56.889999	56.910000	MIR
+12	ils	il	CLS	CLS	_	13	subj	_	_	56.919998	56.970001	MIR
+13	font	faire	VRB	VRB	_	10	dep	_	_	56.980000	57.189999	MIR
+14	comme	comme	PRE	PRE	_	13	dep	_	_	57.250000	57.439999	MIR
+15	déco	déco	NOM	NOM	_	14	dep	_	_	57.450001	57.689999	MIR
+16	avec	avec	PRE	PRE	_	13	dep	_	_	57.700001	57.919998	MIR
+17	un	un	DET	DET	_	18	spe	_	_	57.930000	58.000000	MIR
+18	rien	rien	NOM	NOM	_	16	dep	_	_	58.049999	58.279999	MIR
+19	quoi	quoi	INT	INT	_	18	dm	_	_	58.490002	58.570000	MIR
+20	hein	hein	INT	INT	_	19	dm	_	_	58.580002	58.610001	MIR
+
+# sent_id = cefc-coralrom-fpubdl05-37
+# text = ouais ouais
+1	ouais	ouais	INT	INT	_	0	root	_	_	58.990002	59.090000	EST
+2	ouais	ouais	INT	INT	_	1	para	_	_	59.099998	59.240002	EST
+
+# sent_id = cefc-coralrom-fpubdl05-38
+# text = puisqu'ils ont ils ont un petit budget hein
+1	puisqu'	puisque	CSU	CSU	_	0	root	_	_	60.459999	60.660000	MIR
+2	ils	il	CLS	CLS	_	3	subj	_	_	60.669998	60.849998	MIR
+3	ont	avoir	VRB	VRB	_	1	dep	_	_	60.860001	60.930000	MIR
+4	ils	il	CLS	CLS	_	5	subj	_	_	60.939999	61.099998	MIR
+5	ont	avoir	VRB	VRB	_	3	para	_	_	61.110001	61.130001	MIR
+6	un	un	DET	DET	_	8	spe	_	_	61.139999	61.160000	MIR
+7	petit	petit	ADJ	ADJ	_	8	dep	_	_	61.220001	61.389999	MIR
+8	budget	budget	NOM	NOM	_	5	dep	_	_	61.430000	61.799999	MIR
+9	hein	hein	INT	INT	_	8	dm	_	_	61.810001	61.889999	MIR
+
