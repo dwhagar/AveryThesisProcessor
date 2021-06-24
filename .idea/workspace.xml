@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="DEBUGGING!!!" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JupyterTrust" id="64291245-a0a7-400f-9756-9ed2df1f392f" />
+  <component name="ProjectId" id="1fe0gsxcAGHkZTdC6sUROXefFPR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/final-data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/json-data/unverified-groups.json" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/final-data" />
+      <recent name="$PROJECT_DIR$/json-data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/json-data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Repair Input">
+    <configuration name="Colors Only" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-r -i $PROJECT_DIR$/final-data/repaired-data.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Count Sentences" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-i $PROJECT_DIR$/final-data/repaired-data.json -c" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Differentiate by Age" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-a -i $PROJECT_DIR$/final-data/repaired-data.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Generate Matricies" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-n -i $PROJECT_DIR$/final-data/repaired-data.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lem Verified JSON" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-l -i $PROJECT_DIR$/final-data/verified-groups.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Porcess JSON Test" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-v -i $PROJECT_DIR$/json-data/test.json -o $PROJECT_DIR$/json-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Porcess Unverified JSON" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-i $PROJECT_DIR$/json-data/verified-groups.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Porcess Verified JSON" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-v -i $PROJECT_DIR$/json-data/reviewed-groups-10-06.json -o $PROJECT_DIR$/json-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Repair Input" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
+      <option name="PARAMETERS" value="-p -i $PROJECT_DIR$/final-data/repaired-data.2020-11-13.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (All Data)  w/ Output" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-r -d data -o $USER_HOME$/Desktop" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (Lyon Directory)" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-r -d data/Lyon -t" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (MTLN)" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-r -d data/MTLN -t" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (Palasis Directory)" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-r -d data/Palasis -t" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (Palasis File) w/ Output" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-f data/Palasis/01-1a.xml -o $USER_HOME$/Desktop" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xml-process (Palasis File)" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml-process.py" />
+      <option name="PARAMETERS" value="-f data/Palasis/01-1a.xml -t" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Count Sentences" />
+      <item itemvalue="Python.Differentiate by Age" />
+      <item itemvalue="Python.Colors Only" />
+      <item itemvalue="Python.Generate Matricies" />
+      <item itemvalue="Python.Repair Input" />
+      <item itemvalue="Python.Lem Verified JSON" />
+      <item itemvalue="Python.Porcess JSON Test" />
+      <item itemvalue="Python.Porcess Unverified JSON" />
+      <item itemvalue="Python.Porcess Verified JSON" />
+      <item itemvalue="Python.xml-process (All Data)  w/ Output" />
+      <item itemvalue="Python.xml-process (Lyon Directory)" />
+      <item itemvalue="Python.xml-process (MTLN)" />
+      <item itemvalue="Python.xml-process (Palasis Directory)" />
+      <item itemvalue="Python.xml-process (Palasis File) w/ Output" />
+      <item itemvalue="Python.xml-process (Palasis File)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="" />
+      <created>1596563365282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596563365282</updated>
+      <workItem from="1596563366394" duration="11470000" />
+      <workItem from="1596587634667" duration="7087000" />
+      <workItem from="1599762888891" duration="15573000" />
+      <workItem from="1600133631852" duration="16358000" />
+      <workItem from="1600150971822" duration="101000" />
+      <workItem from="1600366318017" duration="2248000" />
+      <workItem from="1600786828775" duration="299000" />
+      <workItem from="1600787182991" duration="541000" />
+      <workItem from="1600790701672" duration="123000" />
+      <workItem from="1600870884527" duration="848000" />
+      <workItem from="1601042613563" duration="612000" />
+      <workItem from="1601391057366" duration="773000" />
+      <workItem from="1601478761517" duration="363000" />
+      <workItem from="1601652571298" duration="890000" />
+      <workItem from="1601962843652" duration="612000" />
+      <workItem from="1602015623977" duration="332000" />
+      <workItem from="1602525343276" duration="41000" />
+      <workItem from="1602525476454" duration="5707000" />
+      <workItem from="1602551678163" duration="2188000" />
+      <workItem from="1602554041608" duration="312000" />
+      <workItem from="1602614749571" duration="5564000" />
+      <workItem from="1602620801254" duration="100000" />
+      <workItem from="1602621144234" duration="1762000" />
+      <workItem from="1603121088142" duration="2393000" />
+      <workItem from="1603124473103" duration="139000" />
+      <workItem from="1603817748095" duration="5546000" />
+      <workItem from="1604077237760" duration="5665000" />
+      <workItem from="1605290784872" duration="13551000" />
+      <workItem from="1622128314944" duration="147000" />
+      <workItem from="1622128552176" duration="3233000" />
+      <workItem from="1622131817308" duration="4077000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated to new IDE.">
+      <created>1596563544191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596563544191</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Gutted.  Nearly a full recode started.">
+      <created>1596564176705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596564176705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Reworking the processing.  Decided to store sentences in a list of Sentence objects as per new directives from Avery Baggett to process sentences this way.  Also makes more sense.  Split the XML parser into two subroutines as the old code was difficult to understand and there are two distinct versions.">
+      <created>1596567734465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596567734465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished initial draft of Lyon processor.">
+      <created>1596569619526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596569619526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Second processor subroutine added, should be able to get a list of sentence objects now.">
+      <created>1596584555485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596584555485</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First phase of processor testing, seems to work.  Cannot generate CSV file as template from Avery Baggett is blank.">
+      <created>1596585021675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596585021675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added the NLTK POS Tagger -- works beautifully.  Also added a guide to the tag meanings.  Now each sentence is tagged as it is read into the object.">
+      <created>1596586163613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596586163613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Corrections to the list of POS tags.  Had some remnants of being copied from HTML.">
+      <created>1596586432628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596586432628</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed some bugs, implemented spacy's French language POS tagged.  Corrected for punctuation marks within the corpus data (maybe).">
+      <created>1596595537247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596595537248</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Output to a JSON file for later processing.  Also added code to get adjective/noun groupings.">
+      <created>1599786067902</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599786067902</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Started work on a JSON processor for manual editing of data.  Data set requires human intervention to ensure adjectives are correctly tagged.">
+      <created>1600138339042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600138339042</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added JSON files to work with and got the load, save, and merge JSON functions written.  Believe I've done the blacklist and whitelist building correctly now and should merge the data nicely once verified.">
+      <created>1600151053259</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600151053259</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated JSON files with latest reviewed versions.">
+      <created>1600367489191</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600367489191</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added counters and updated the blacklist and whitelist.">
+      <created>1600787667360</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600787667360</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Latest batch of processed data.">
+      <created>1600871746100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600871746100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated for latest data review.">
+      <created>1601043230618</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601043230618</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated for latest data review.">
+      <created>1601391818004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601391818004</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated for latest data review.">
+      <created>1601479116818</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601479116818</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated for latest data review.">
+      <created>1601654250669</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654250669</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated for latest data review.">
+      <created>1601963403219</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601963403219</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Final batch of verified data.">
+      <created>1602015926668</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602015926668</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Removed some outdated files, changed naming convention to make it easier for Avery's screen reader to look at the code, began work on lemmatizing the data.">
+      <created>1602527571877</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602527571877</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Still changing the names of some functions and variables for the screen reader.  Added ability to save lemma data (root forms) to the JSON file.">
+      <created>1602530647757</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530647757</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added a backup of the verified data, compressed.  This will prevent any changes to the canonical data which took so long to go through.">
+      <created>1602530757520</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530757520</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added a bit to save the lemma data to a new file, have not actually created the file yet.  Emailed Avery to find out what data she wants exactly so I can code it.">
+      <created>1602531305498</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602531305498</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Spoke with Avery, save all data with lemmatized words and generated CSV files to make an excel spreadsheet with for easy reading.">
+      <created>1602553877263</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1602553877263</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Generated a numbers sheet with actual counts of each adjective.">
+      <created>1602554576774</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602554576775</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Making adjustments to the blacklist to remove the last of the bad data and make some other corrections.">
+      <created>1602616413508</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602616413508</updated>
+    </task>
+    <task id="LOCAL-00029" summary="This should be the final edits for the last of the special cases.">
+      <created>1602618289235</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602618289235</updated>
+    </task>
+    <task id="LOCAL-00030" summary="More processing, split by age after texting with Avery about what she needed next.">
+      <created>1602620320374</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602620320374</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update from Avery, up to age 8 is the cut off, not up to and including age 8.">
+      <created>1602620891099</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1602620891099</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Finally got rid of the last of the bad / weird data.  I'm sure there is some code that needs to be deleted now too as it's outdated.  Still need to write the code to laod the lemmatized data from the adjusted JSON.">
+      <created>1602622905956</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1602622905956</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Breakdown by adjective position and age.">
+      <created>1603124527142</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603124527142</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Working on the latest numbers, counting colors and their positions as well as generating a heat-map style grid of adjective/noun pairs and positions.">
+      <created>1603819178618</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603819178618</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Output for colors should work now, still have to test it.">
+      <created>1603821334694</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603821334694</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Still working on the noun/adjective counts.">
+      <created>1604079819719</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1604079819720</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Still working on the noun/adjective counts.">
+      <created>1604083054880</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604083054880</updated>
+    </task>
+    <task id="LOCAL-00038" summary="First prototype code for generating noun/adjective matrix of counts.">
+      <created>1605296229048</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1605296229048</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Still working out the kinks of the matrix code.  Needing to reduce the noun set as well since otherwise it overloads numbers with too many columns.">
+      <created>1605306281385</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605306281385</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Working so far, nouns require validation.">
+      <created>1605307077090</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605307077090</updated>
+    </task>
+    <task id="LOCAL-00041" summary="New kinds of validation all over the place.  Redid the repair function.">
+      <created>1622134632571</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1622134632571</updated>
+    </task>
+    <task id="LOCAL-00042" summary="DEBUGGING!!!">
+      <created>1622135905831</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1622135905831</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated JSON files with latest reviewed versions." />
+    <MESSAGE value="Added counters and updated the blacklist and whitelist." />
+    <MESSAGE value="Latest batch of processed data." />
+    <MESSAGE value="Updated for latest data review." />
+    <MESSAGE value="Final batch of verified data." />
+    <MESSAGE value="Removed some outdated files, changed naming convention to make it easier for Avery's screen reader to look at the code, began work on lemmatizing the data." />
+    <MESSAGE value="Still changing the names of some functions and variables for the screen reader.  Added ability to save lemma data (root forms) to the JSON file." />
+    <MESSAGE value="Added a backup of the verified data, compressed.  This will prevent any changes to the canonical data which took so long to go through." />
+    <MESSAGE value="Added a bit to save the lemma data to a new file, have not actually created the file yet.  Emailed Avery to find out what data she wants exactly so I can code it." />
+    <MESSAGE value="Spoke with Avery, save all data with lemmatized words and generated CSV files to make an excel spreadsheet with for easy reading." />
+    <MESSAGE value="Generated a numbers sheet with actual counts of each adjective." />
+    <MESSAGE value="Making adjustments to the blacklist to remove the last of the bad data and make some other corrections." />
+    <MESSAGE value="This should be the final edits for the last of the special cases." />
+    <MESSAGE value="More processing, split by age after texting with Avery about what she needed next." />
+    <MESSAGE value="Update from Avery, up to age 8 is the cut off, not up to and including age 8." />
+    <MESSAGE value="Finally got rid of the last of the bad / weird data.  I'm sure there is some code that needs to be deleted now too as it's outdated.  Still need to write the code to laod the lemmatized data from the adjusted JSON." />
+    <MESSAGE value="Breakdown by adjective position and age." />
+    <MESSAGE value="Working on the latest numbers, counting colors and their positions as well as generating a heat-map style grid of adjective/noun pairs and positions." />
+    <MESSAGE value="Output for colors should work now, still have to test it." />
+    <MESSAGE value="Still working on the noun/adjective counts." />
+    <MESSAGE value="First prototype code for generating noun/adjective matrix of counts." />
+    <MESSAGE value="Still working out the kinks of the matrix code.  Needing to reduce the noun set as well since otherwise it overloads numbers with too many columns." />
+    <MESSAGE value="Working so far, nouns require validation." />
+    <MESSAGE value="New kinds of validation all over the place.  Redid the repair function." />
+    <MESSAGE value="DEBUGGING!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEBUGGING!!!" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Count_Sentences.coverage" NAME="Count Sentences Coverage Results" MODIFIED="1605302895921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File_.coverage" NAME="xml-process (Palasis File) Coverage Results" MODIFIED="1599786556419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory___w__Output.coverage" NAME="xml-process (All Data)  w/ Output Coverage Results" MODIFIED="1599786745793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Colors_Only.coverage" NAME="Colors Only Coverage Results" MODIFIED="1605303573731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Lem_Verified_JSON.coverage" NAME="Lem Verified JSON Coverage Results" MODIFIED="1602622496408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_Directory_.coverage" NAME="xml-process (Palasis Directory) Coverage Results" MODIFIED="1596591141407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_JSON_Test.coverage" NAME="Porcess JSON Test Coverage Results" MODIFIED="1600146303901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_Unverified_JSON.coverage" NAME="Porcess Unverified JSON Coverage Results" MODIFIED="1602622440287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_Verified_JSON.coverage" NAME="Porcess Verified JSON Coverage Results" MODIFIED="1602015752207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Repair_Input.coverage" NAME="Repair Input Coverage Results" MODIFIED="1622135823218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory_.coverage" NAME="xml-process (Lyon Directory) Coverage Results" MODIFIED="1596595405517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File__w__Output.coverage" NAME="xml-process (Palasis File) w/ Output Coverage Results" MODIFIED="1599785801383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Generate_Matricies.coverage" NAME="Generate Matricies Coverage Results" MODIFIED="1605306337796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_JSON.coverage" NAME="Porcess JSON Coverage Results" MODIFIED="1600146697734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Differentiate_by_Age.coverage" NAME="Differentiate by Age Coverage Results" MODIFIED="1605303518309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
