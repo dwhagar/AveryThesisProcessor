@@ -443,6 +443,36 @@ class Sentence:
 
         return prenom_lemmas, postnom_lemmas
 
+    def get_adjective_count_helper(self, data, adjective):
+        """
+        Process a set of noun/adjective groups and count those which match the given adjective.
+
+        :param data:  A list of noun/adjective groups that has been lemmatized.
+        :param adjective: A single adjective lemma (string) to be looked for.
+        :return: A count of the number of times that adjective occurs in a group.
+        """
+        result = 0
+
+        for w in data:
+            for a in w[1]:
+                if a[1].lower() == adjective:
+                    result += 1
+
+        return result
+
+    def get_adjective_count(self, adjective):
+        """
+        Processes the list of prenominal and postnominal groups looking for a specific
+        adjective and returns the count of that adjective both pre and postnominally.
+
+        :param adjective: A single adjective lemma (string) to be looked for.
+        :return: A count of that adjective in the current sentence in the format (pre, post).
+        """
+        pre_count = self.get_adjective_count_helper(self.pre_nom, adjective)
+        post_count = self.get_adjective_count_helper(self.post_nom, adjective)
+
+        return pre_count, post_count
+
     def get_colors_helper(self, data):
         """
         Processes a given set of noun/adjective groups and extracts those which represent colors.

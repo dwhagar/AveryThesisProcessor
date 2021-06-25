@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="Began work on reading the actual sentence data.">
+    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="Should be pulling the sentences into the proper data structure so it can be examined.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-standards.py" beforeDir="false" afterPath="$PROJECT_DIR$/get-standards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentence/sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentence/sentence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/orfeo_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/orfeo_tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,7 +495,8 @@
       <workItem from="1622128552176" duration="3233000" />
       <workItem from="1622131817308" duration="4077000" />
       <workItem from="1624552668845" duration="257000" />
-      <workItem from="1624579599223" duration="11629000" />
+      <workItem from="1624579599223" duration="11694000" />
+      <workItem from="1624639921899" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to new IDE.">
       <created>1596563544191</created>
@@ -827,7 +827,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624587199964</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Should be pulling the sentences into the proper data structure so it can be examined.">
+      <created>1624591570344</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1624591570344</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,7 +854,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final batch of verified data." />
     <MESSAGE value="Removed some outdated files, changed naming convention to make it easier for Avery's screen reader to look at the code, began work on lemmatizing the data." />
     <MESSAGE value="Still changing the names of some functions and variables for the screen reader.  Added ability to save lemma data (root forms) to the JSON file." />
     <MESSAGE value="Added a backup of the verified data, compressed.  This will prevent any changes to the canonical data which took so long to go through." />
@@ -872,15 +878,16 @@
     <MESSAGE value="Refactoring to structure most of the functions into a package to more easily split the script into individual scripts rather than one massive script." />
     <MESSAGE value="Basic XML parser for speaker data, though we don't care about the speakers for the CEFC data." />
     <MESSAGE value="Began work on reading the actual sentence data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Began work on reading the actual sentence data." />
+    <MESSAGE value="Should be pulling the sentences into the proper data structure so it can be examined." />
+    <option name="LAST_COMMIT_MESSAGE" value="Should be pulling the sentences into the proper data structure so it can be examined." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/get-standards.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="42" />
+          <line>88</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -895,7 +902,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Count_Sentences.coverage" NAME="Count Sentences Coverage Results" MODIFIED="1624589660489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File_.coverage" NAME="xml-process (Palasis File) Coverage Results" MODIFIED="1599786556419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Get_Standards.coverage" NAME="Get Standards Coverage Results" MODIFIED="1624591392972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Get_Standards.coverage" NAME="Get Standards Coverage Results" MODIFIED="1624641963091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory___w__Output.coverage" NAME="xml-process (All Data)  w/ Output Coverage Results" MODIFIED="1599786745793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Colors_Only.coverage" NAME="Colors Only Coverage Results" MODIFIED="1605303573731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Lem_Verified_JSON.coverage" NAME="Lem Verified JSON Coverage Results" MODIFIED="1602622496408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
