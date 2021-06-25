@@ -2,6 +2,7 @@
 
 import json
 import os.path
+from os import walk
 
 # Custom packages
 import sentence
@@ -322,3 +323,14 @@ def matrix_gen_csv(matrix, adjs, nouns):
         data.append(line)
 
     return data
+
+def find_orfeo_files(directory):
+    """From a path generates a list of all files matching ORFEO file extension."""
+    result = []
+
+    for (dirpath, dirnames, filenames) in walk(directory):
+        for file in filenames:
+            if file[-5:].lower() == "orfeo":
+                result.append(os.path.join(dirpath, file))
+
+    return result

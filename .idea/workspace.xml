@@ -19,14 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="DEBUGGING!!!">
-      <change afterPath="$PROJECT_DIR$/get-standards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/file_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="Refactoring to structure most of the functions into a package to more easily split the script into individual scripts rather than one massive script.">
+      <change afterPath="$PROJECT_DIR$/tools/orfeo_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/xml_tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-process.py" beforeDir="false" afterPath="$PROJECT_DIR$/json-process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-standards.py" beforeDir="false" afterPath="$PROJECT_DIR$/get-standards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <recent name="$PROJECT_DIR$/json-data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Repair Input">
+  <component name="RunManager" selected="Python.Get Standards">
     <configuration name="Colors Only" type="PythonConfigurationType" factoryName="Python">
       <module name="AveryThesisProcessor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +168,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json-process.py" />
       <option name="PARAMETERS" value="-n -i $PROJECT_DIR$/final-data/repaired-data.json -o $PROJECT_DIR$/final-data" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Get Standards" type="PythonConfigurationType" factoryName="Python">
+      <module name="AveryThesisProcessor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get-standards.py" />
+      <option name="PARAMETERS" value="-i ./cefc-orfeo -o ./cefc-orfeo" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -419,6 +440,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Get Standards" />
       <item itemvalue="Python.Count Sentences" />
       <item itemvalue="Python.Differentiate by Age" />
       <item itemvalue="Python.Colors Only" />
@@ -476,7 +498,7 @@
       <workItem from="1622128552176" duration="3233000" />
       <workItem from="1622131817308" duration="4077000" />
       <workItem from="1624552668845" duration="257000" />
-      <workItem from="1624579599223" duration="1051000" />
+      <workItem from="1624579599223" duration="6797000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to new IDE.">
       <created>1596563544191</created>
@@ -786,7 +808,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624552853382</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Refactoring to structure most of the functions into a package to more easily split the script into individual scripts rather than one massive script.">
+      <created>1624580684046</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1624580684046</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,7 +835,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added counters and updated the blacklist and whitelist." />
     <MESSAGE value="Latest batch of processed data." />
     <MESSAGE value="Updated for latest data review." />
     <MESSAGE value="Final batch of verified data." />
@@ -831,11 +859,24 @@
     <MESSAGE value="New kinds of validation all over the place.  Redid the repair function." />
     <MESSAGE value="Added data to calculate adjective/noun norms." />
     <MESSAGE value="DEBUGGING!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEBUGGING!!!" />
+    <MESSAGE value="Refactoring to structure most of the functions into a package to more easily split the script into individual scripts rather than one massive script." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring to structure most of the functions into a package to more easily split the script into individual scripts rather than one massive script." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/get-standards.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Count_Sentences.coverage" NAME="Count Sentences Coverage Results" MODIFIED="1605302895921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File_.coverage" NAME="xml-process (Palasis File) Coverage Results" MODIFIED="1599786556419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Get_Standards.coverage" NAME="Get Standards Coverage Results" MODIFIED="1624586130105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory___w__Output.coverage" NAME="xml-process (All Data)  w/ Output Coverage Results" MODIFIED="1599786745793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Colors_Only.coverage" NAME="Colors Only Coverage Results" MODIFIED="1605303573731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Lem_Verified_JSON.coverage" NAME="Lem Verified JSON Coverage Results" MODIFIED="1602622496408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -843,7 +884,7 @@
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_JSON_Test.coverage" NAME="Porcess JSON Test Coverage Results" MODIFIED="1600146303901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_Unverified_JSON.coverage" NAME="Porcess Unverified JSON Coverage Results" MODIFIED="1602622440287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Porcess_Verified_JSON.coverage" NAME="Porcess Verified JSON Coverage Results" MODIFIED="1602015752207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Repair_Input.coverage" NAME="Repair Input Coverage Results" MODIFIED="1622135823218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Repair_Input.coverage" NAME="Repair Input Coverage Results" MODIFIED="1624582620170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory_.coverage" NAME="xml-process (Lyon Directory) Coverage Results" MODIFIED="1596595405517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File__w__Output.coverage" NAME="xml-process (Palasis File) w/ Output Coverage Results" MODIFIED="1599785801383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Generate_Matricies.coverage" NAME="Generate Matricies Coverage Results" MODIFIED="1605306337796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
