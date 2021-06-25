@@ -52,6 +52,7 @@ def read_sentences(file, speakers):
         sentence_text = " ".join(this_sentence_list)
 
         this_sentence = Sentence(this_speaker, sentence_text, this_word_list)
+        this_sentence.lem()
 
         sentences.append(this_sentence)
 
