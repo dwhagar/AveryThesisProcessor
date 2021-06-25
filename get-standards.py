@@ -37,6 +37,8 @@ def main():
         xml_file = file[0:-6] + ".xml"
         speaker_data = tools.read_speaker(xml_file)
         sentence_data = tools.read_sentences(orfeo_file, speaker_data)
-        print("Nope, not done yet.")
+        for sentence in sentence_data:
+            if sentence.has_pair:
+                print("FOUND ONE!")
 
 main()

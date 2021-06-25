@@ -159,7 +159,7 @@ class Sentence:
         idx_max = len(self.pos) # Maximum possible index.
         for idx in range(0, idx_max):
             w = self.pos[idx]
-            if w[1] == "NOUN" and not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
+            if (w[1] == "NOUN" or w[1] == "NOM") and not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
                 noun = w[0]
                 this_post = (noun, [])
                 this_pre = (noun, [])
@@ -199,7 +199,7 @@ class Sentence:
         noun / adjective groups.
 
         :param data: A list of noun/adjective groups either in (noun, [adjective, ajective], lemma)
-        format or (noun, [(adjcetive, root), (adjective lemma)], lemma) format.
+        format or (noun, [(adjective, lemma), (adjective lemma)], lemma) format.
         :return: Returns a dictionary object with all the data.
         """
         result = []
