@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="Think I fixed the last error, but don't have time to test it.">
-      <change afterPath="$PROJECT_DIR$/tools/csv_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/json_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/text_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e5841ad-5464-4644-8302-76fe7b3d6ad0" name="Default Changelist" comment="Fixed a few bugs for getting counts.  Might still be something wrong with the counter for some of the adjectives given by Avery.  Should be able to generate a proper CSV file from this and then make a Numbers sheet out of it.">
+      <change afterPath="$PROJECT_DIR$/cefc-orfeo/standards.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-standards.py" beforeDir="false" afterPath="$PROJECT_DIR$/get-standards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json-process.py" beforeDir="false" afterPath="$PROJECT_DIR$/json-process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/orfeo_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/orfeo_tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,14 +496,7 @@
       <workItem from="1624552668845" duration="257000" />
       <workItem from="1624579599223" duration="11694000" />
       <workItem from="1624639921899" duration="2299000" />
-      <workItem from="1624725954426" duration="2168000" />
-    </task>
-    <task id="LOCAL-00002" summary="Gutted.  Nearly a full recode started.">
-      <created>1596564176705</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1596564176705</updated>
+      <workItem from="1624725954426" duration="2658000" />
     </task>
     <task id="LOCAL-00003" summary="Reworking the processing.  Decided to store sentences in a list of Sentence objects as per new directives from Avery Baggett to process sentences this way.  Also makes more sense.  Split the XML parser into two subroutines as the old code was difficult to understand and there are two distinct versions.">
       <created>1596567734465</created>
@@ -848,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624642216023</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Fixed a few bugs for getting counts.  Might still be something wrong with the counter for some of the adjectives given by Avery.  Should be able to generate a proper CSV file from this and then make a Numbers sheet out of it.">
+      <created>1624728364917</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1624728364917</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,7 +861,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a backup of the verified data, compressed.  This will prevent any changes to the canonical data which took so long to go through." />
     <MESSAGE value="Added a bit to save the lemma data to a new file, have not actually created the file yet.  Emailed Avery to find out what data she wants exactly so I can code it." />
     <MESSAGE value="Spoke with Avery, save all data with lemmatized words and generated CSV files to make an excel spreadsheet with for easy reading." />
     <MESSAGE value="Generated a numbers sheet with actual counts of each adjective." />
@@ -893,17 +885,11 @@
     <MESSAGE value="Should be pulling the sentences into the proper data structure so it can be examined." />
     <MESSAGE value="First try at counting the adjectives.  So far, does nto run, but should soon enough." />
     <MESSAGE value="Think I fixed the last error, but don't have time to test it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Think I fixed the last error, but don't have time to test it." />
+    <MESSAGE value="Fixed a few bugs for getting counts.  Might still be something wrong with the counter for some of the adjectives given by Avery.  Should be able to generate a proper CSV file from this and then make a Numbers sheet out of it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a few bugs for getting counts.  Might still be something wrong with the counter for some of the adjectives given by Avery.  Should be able to generate a proper CSV file from this and then make a Numbers sheet out of it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/get-standards.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -916,7 +902,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Count_Sentences.coverage" NAME="Count Sentences Coverage Results" MODIFIED="1624589660489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Palasis_File_.coverage" NAME="xml-process (Palasis File) Coverage Results" MODIFIED="1599786556419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Get_Standards.coverage" NAME="Get Standards Coverage Results" MODIFIED="1624728156965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AveryThesisProcessor$Get_Standards.coverage" NAME="Get Standards Coverage Results" MODIFIED="1624728549977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$xml_process__Lyon_Directory___w__Output.coverage" NAME="xml-process (All Data)  w/ Output Coverage Results" MODIFIED="1599786745793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Colors_Only.coverage" NAME="Colors Only Coverage Results" MODIFIED="1605303573731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AveryThesisProcessor$Lem_Verified_JSON.coverage" NAME="Lem Verified JSON Coverage Results" MODIFIED="1602622496408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

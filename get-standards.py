@@ -25,6 +25,9 @@ def main():
     if not(os.path.isdir(arg.input)):
         print("Your input path does not exist.")
         return 1
+    if not(os.path.isdir(arg.output)):
+        print("Your output path does not exist.")
+        return 1
 
     # Gather a life of all files to be loaded within the target directory.
     files = tools.find_orfeo_files(arg.input)
@@ -86,9 +89,9 @@ def main():
 
         counts[adjective] = (pre_count, post_count)
 
+    # Now lets generate the CSV file.
     csv_header = "adjective, prenominal count, postnominal count"
-
     csv_data = tools.gen_standard_count_CSV(csv_header, counts)
-
+    tools.write_CSV(csv_data, os.path.join(arg.output, 'standards.csv'))
 
 main()
