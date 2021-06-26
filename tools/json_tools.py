@@ -10,6 +10,9 @@ from .file_data import file_data
 def save_JSON(data, file):
     """
     Saves sentence / file data to a JSON file.
+    Note that this output routine accepts a list of file_data objects and converts it into a dictionary format before
+    saving to a JSON file.  Unlike the output_JSON function it expects a list is file_data objects that has not yet
+    been formatted as a dictionary.
 
     :param data: List of file_data objects to be saved
     :param file: File to save objects to
@@ -17,6 +20,7 @@ def save_JSON(data, file):
     """
     outData = []
 
+    # Convert the file_data objects to dictionary format.
     for d in data:
         jsonData = {
             "file":d.file,
@@ -95,3 +99,20 @@ def merge_JSON(data, file):
         data.extend(outData)
         f.seek(0)
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+def output_JSON(data, file, test = False):
+    """
+    Output a data structure as JSON text.  Can run as a test for screen output instead of file output.
+    Note that this output routine is for conversion from XML Corpus Data into the JSON format.  Unlike save_JSON this
+    expects the data to be already formatted as a dictionary.
+
+    :param data: Dictionary data ready for JSON output.
+    :param file: File to output data to.
+    :param test: Boolean value of if this is a test run or not.
+    :return: None
+    """
+    if test:
+        print(json.dumps(data, indent=4, ensure_ascii=False).encode('utf8').decode())
+    else:
+        with open(file, 'w') as outfile:
+            json.dump(data, outfile, indent=4, ensure_ascii=False)
