@@ -86,6 +86,9 @@ def main():
 
         counts[adjective] = (pre_count, post_count)
 
-    print("WOO!")
+    csv_header = "adjective, prenominal count, postnominal count"
+
+    csv_data = tools.gen_standard_count_CSV(csv_header, counts)
+
 
 main()

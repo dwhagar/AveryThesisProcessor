@@ -97,7 +97,7 @@ def main():
 
         # Now lets output the data out.
         header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Younger Postnominal"
-        counts_csv = tools.gen_CSV(header, counts)
+        counts_csv = tools.gen_stat_CSV(header, counts)
         counts_file = arg.output + "/counts.csv"
         tools.write_CSV(counts_csv, counts_file)
 
@@ -152,7 +152,7 @@ def main():
 
         # Now lets output the data out.
         header = "Lemma, Full Count, Older, Younger, Older Prenominal, Older Postnominal, Younger Prenominal, Older Postnominal"
-        counts_csv = tools.gen_CSV(header, counts)
+        counts_csv = tools.gen_stat_CSV(header, counts)
         counts_file = arg.output + "/colors.csv"
         tools.write_CSV(counts_csv, counts_file)
 
@@ -259,13 +259,13 @@ def main():
                            reduced_younger_post)
 
         # Generate the data.
-        all_data = tools.matrix_gen_csv(matrix, reduced_lemma, reduced_nouns)
-        older_data = tools.matrix_gen_csv(older_matrix, reduced_lemma, reduced_nouns)
-        younger_data = tools.matrix_gen_csv(younger_matrix, reduced_lemma, reduced_nouns)
-        older_pre_data = tools.matrix_gen_csv(older_pre_matrix, reduced_lemma, reduced_nouns)
-        older_post_data = tools.matrix_gen_csv(older_post_matrix, reduced_lemma, reduced_nouns)
-        younger_pre_data = tools.matrix_gen_csv(younger_pre_matrix, reduced_lemma, reduced_nouns)
-        younger_post_data = tools.matrix_gen_csv(younger_post_matrix, reduced_lemma, reduced_nouns)
+        all_data = tools.noun_adj_matrix_gen_csv(matrix, reduced_lemma, reduced_nouns)
+        older_data = tools.noun_adj_matrix_gen_csv(older_matrix, reduced_lemma, reduced_nouns)
+        younger_data = tools.noun_adj_matrix_gen_csv(younger_matrix, reduced_lemma, reduced_nouns)
+        older_pre_data = tools.noun_adj_matrix_gen_csv(older_pre_matrix, reduced_lemma, reduced_nouns)
+        older_post_data = tools.noun_adj_matrix_gen_csv(older_post_matrix, reduced_lemma, reduced_nouns)
+        younger_pre_data = tools.noun_adj_matrix_gen_csv(younger_pre_matrix, reduced_lemma, reduced_nouns)
+        younger_post_data = tools.noun_adj_matrix_gen_csv(younger_post_matrix, reduced_lemma, reduced_nouns)
 
         # We need to build the header.
         header = ""
@@ -273,13 +273,13 @@ def main():
             header = header + "," + n
 
         # CSV-ize it!
-        all_csv = tools.gen_CSV(header, all_data)
-        older_csv = tools.gen_CSV(header, older_data)
-        younger_csv = tools.gen_CSV(header, younger_data)
-        older_pre_csv = tools.gen_CSV(header, older_pre_data)
-        older_post_csv = tools.gen_CSV(header, older_post_data)
-        younger_pre_csv = tools.gen_CSV(header, younger_pre_data)
-        younger_post_csv = tools.gen_CSV(header, younger_post_data)
+        all_csv = tools.gen_stat_CSV(header, all_data)
+        older_csv = tools.gen_stat_CSV(header, older_data)
+        younger_csv = tools.gen_stat_CSV(header, younger_data)
+        older_pre_csv = tools.gen_stat_CSV(header, older_pre_data)
+        older_post_csv = tools.gen_stat_CSV(header, older_post_data)
+        younger_pre_csv = tools.gen_stat_CSV(header, younger_pre_data)
+        younger_post_csv = tools.gen_stat_CSV(header, younger_post_data)
 
         # Output the CSV data to files.
         tools.write_CSV(all_csv, arg.output + "/matrix-all.csv")

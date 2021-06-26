@@ -1,7 +1,20 @@
 # Tools for dealing with the ORFEO files in the CEFC data set.
 
+import os.path
+from os import walk
 from sentence import Sentence
-from .tools import read_text
+from .text_tools import read_text
+
+def find_orfeo_files(directory):
+    """From a path generates a list of all files matching ORFEO file extension."""
+    result = []
+
+    for (dirpath, dirnames, filenames) in walk(directory):
+        for file in filenames:
+            if file[-5:].lower() == "orfeo":
+                result.append(os.path.join(dirpath, file))
+
+    return result
 
 def read_sentences(file, speakers):
     """Reads sentence data from file and parses it with the speaker data."""
