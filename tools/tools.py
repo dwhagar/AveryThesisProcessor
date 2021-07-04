@@ -128,3 +128,32 @@ def count_noun_adj(sentences, adjectives, nouns, all_older, all_younger, prenom_
            older_post_matrix,\
            younger_pre_matrix,\
            younger_post_matrix
+
+def count_from_list(data, adjectives):
+    """
+    Generations a dictionary list of adjectives and their prenominal / postnominal counts.
+
+    :param data: A list of sentence objects.
+    :param adjectives: A list of adjectives
+    :return: A dictionary in the format of count{adjective} = (prenominal, postnominal)
+    """
+    # Going to store the data in a dictionary of tuples.  Each adjective will
+    # have an entry and that entry will have a tuple of (pre, post) for that
+    # adjective.
+    counts = {}
+
+    # Go through each adjective and all the sentences looking for said adjective.
+    for adjective in adjectives:
+        # Initialize counter variables.
+        pre_count = 0
+        post_count = 0
+
+        # Count the adjectives found in each position for each sentence.
+        for sentence in data:
+            this_pre_count, this_post_count = sentence.get_adjective_count(adjective)
+            pre_count += this_pre_count
+            post_count += this_post_count
+
+        counts[adjective] = (pre_count, post_count)
+
+    return counts

@@ -452,11 +452,18 @@ class Sentence:
         :return: A count of the number of times that adjective occurs in a group.
         """
         result = 0
+        found = False
 
         for w in data:
             for a in w[1]:
-                if a[1].lower() == adjective:
-                    result += 1
+                if type(a) == dict:
+                    if a['lemma'].lower() == adjective:
+                        found = True
+                elif type(a) == tuple:
+                    if a[1].lower() == adjective:
+                        found = True
+
+                if found: result += 1
 
         return result
 
