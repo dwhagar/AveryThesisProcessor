@@ -7,8 +7,8 @@ from os import getcwd, makedirs
 import xml.etree.ElementTree as ET
 
 # Import custom classes.
-from tools.json_tools import output_JSON
-from tools.xml_tools import get_attribute, find_XML, corpus_PB12, corpus_271
+from tools.json import output_JSON
+from tools.xml import get_attribute, find_XML, corpus_PB12, corpus_271
 
 def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
@@ -89,7 +89,7 @@ def main():
         makedirs(arg.output, exist_ok=True)
 
     print("Outputting only sentence data with noun/adjective pairs to unverified-groups.json...")
-    output_JSON(pairs_only, os.path.join(arg.output, 'json-data/unverified-groups.json'), arg.test)
+    output_JSON(pairs_only, os.path.join(arg.output, 'data-json/unverified-groups.json'), arg.test)
     print("Outputting complete data set to complete.json...")
     output_JSON(out_data, os.path.join(arg.output, 'complete.json'), arg.test)
 

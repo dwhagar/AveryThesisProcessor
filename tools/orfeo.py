@@ -3,7 +3,7 @@
 import os.path
 from os import walk
 from sentence import Sentence
-from .text_tools import read_text
+from .text import read_text
 
 def find_orfeo_files(directory):
     """From a path generates a list of all files matching ORFEO file extension."""
