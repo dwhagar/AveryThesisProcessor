@@ -163,7 +163,7 @@ class Sentence:
         idx_max = len(self.pos) # Maximum possible index.
         for idx in range(0, idx_max):
             w = self.pos[idx]
-            if (w[1].lower() == "noun" or w[1].lower() == "nom") and \
+            if (w[1].lower() == "noun" or w[1].lower() == "nom" or w[1].lower() == "n") and \
                     not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
                 noun = w[0]
                 this_post = (noun, [])
