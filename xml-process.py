@@ -46,17 +46,23 @@ def main():
         file_list = find_XML(arg.dir, arg.recursive)
 
     # Process all the XML files in the list.
-
-    data = [] # Master list of all data.
-    out_data = [] # Data for output in JSON format.
-    pairs_only = [] # Only data with adjective / noun groups.
+    data = [] # Master list of all data as a list of FD objects.
 
     for file in file_list:
         print("Processing file '" + file + "'...")
-        d = process_XML(file)
+        file_data = process_XML(file)
+        data.extend(file_data)
 
+    # These lists are for output to JSON files.
+    out_data = [] # Master list formatted as dictionary.
+    pairs_only = [] # List of only those FD objects that have noun/adjective groups.
+
+    # Build our data for output to JSON format.
     for d in data:
-        out_data.append(d.data_out())
+        this_JSON = d.data_out()
+        out_data.append(this_JSON)
+        if d.sentence.has_pair:
+            pairs_only.append(this_JSON)
 
     print("Processing complete.")
     if not arg.test:

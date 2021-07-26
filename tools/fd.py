@@ -10,3 +10,12 @@ class FD:
         """
         self.file = file
         self.sentence = s
+
+    def data_out(self):
+        """Processes the file / sentence data into a dictionary for JSON output."""
+        result = {
+            "file":self.file,
+            "data":self.sentence.data_out()
+        }
+
+        return result

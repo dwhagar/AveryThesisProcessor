@@ -99,7 +99,7 @@ def process_XML(file):
         this_speaker = speaker.match_speaker(these_speakers, speaker_ID)
         this_sentence = None
         sentence_text = ""
-        if not(this_speaker is None):
+        if not(this_speaker is None) and len(utterance) > 0:
             word_list = [] # List of raw words to build the sentence text.
             pos_list = [] # List of words with parts of speech.
             for word in utterance:
@@ -108,6 +108,9 @@ def process_XML(file):
                 sentence_text = " ".join(word_list)
 
             this_sentence = sentence.Sentence(this_speaker, sentence_text, pos_list)
+            # Don't actually need to do this, but the lammatizer works and this ensures
+            # that it is in the correct format.
+            this_sentence.lem()
 
         if not(this_sentence is None):
             data.append(fd.FD(file, this_sentence))
@@ -135,7 +138,7 @@ def process_speakers(file):
     # Now branch to the proper processor.
     if ver == 'PB1.2':
         speakers = corpus_PB12(corpusRoot)
-    elif ver == '2.7.1':
+    elif ver == '2.7.1' or ver == '2.16.0':
         speakers = corpus_271(corpusRoot)
 
     return speakers
