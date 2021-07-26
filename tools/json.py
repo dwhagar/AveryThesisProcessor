@@ -5,7 +5,7 @@ import json
 # Custom packages
 import sentence
 import speaker
-from .file_data import file_data
+from .fd import FD
 
 def save_JSON(data, file):
     """
@@ -71,7 +71,7 @@ def read_JSON(file):
                 pre_nom.append((tempN, tempA))
 
             st = sentence.Sentence(sp, data_JSON['sentence'], pos, post_nom, pre_nom, False)
-            temp_file = file_data(d['file'], st)
+            temp_file = FD(d['file'], st)
             sentences.append(temp_file)
 
     return sentences

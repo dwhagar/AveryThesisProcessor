@@ -4,11 +4,10 @@
 import argparse
 import os.path
 from os import getcwd, makedirs
-import xml.etree.ElementTree as ET
 
 # Import custom classes.
 from tools.json import output_JSON
-from tools.xml import get_attribute, find_XML, corpus_PB12, corpus_271
+from tools.xml import find_XML, process_XML
 
 def ageKey(val):
     """Simple function to allow sorting by the age of a speaker."""
@@ -47,39 +46,14 @@ def main():
         file_list = find_XML(arg.dir, arg.recursive)
 
     # Process all the XML files in the list.
-    data = [] # Master list of all data processed.
-    out_data = [] # Data for output to JSON.
-    pairs_only = [] # Only sentences which have adjective / noun groups.
+
+    data = [] # Master list of all data.
+    out_data = [] # Data for output in JSON format.
+    pairs_only = [] # Only data with adjective / noun groups.
+
     for file in file_list:
         print("Processing file '" + file + "'...")
-
-        corpusTree = ET.parse(file)
-        corpusRoot = corpusTree.getroot()
-
-        # Need to determine file version for processing, since different files have
-        # different capitalization, we need to account for that.
-        ver = get_attribute(corpusRoot, 'version')
-        if ver is None:
-            ver = get_attribute(corpusRoot, 'Version')
-
-        lst = []
-
-        # Now branch to the proper processor.
-        if ver == 'PB1.2':
-            lst = corpus_PB12(corpusRoot)
-            data.extend(lst)
-        elif ver == '2.7.1':
-            lst = corpus_271(corpusRoot)
-            data.extend(lst)
-
-        for d in lst:
-            json_data = {
-                "file":file,
-                "data":d.data_out()
-            }
-            out_data.append(json_data)
-            if d.has_pair:
-                pairs_only.append(json_data)
+        d = process_XML(file)
 
     for d in data:
         out_data.append(d.data_out())
@@ -89,7 +63,7 @@ def main():
         makedirs(arg.output, exist_ok=True)
 
     print("Outputting only sentence data with noun/adjective pairs to unverified-groups.json...")
-    output_JSON(pairs_only, os.path.join(arg.output, 'data-json/unverified-groups.json'), arg.test)
+    output_JSON(pairs_only, os.path.join(arg.output, 'unverified-groups.json'), arg.test)
     print("Outputting complete data set to complete.json...")
     output_JSON(out_data, os.path.join(arg.output, 'complete.json'), arg.test)
 

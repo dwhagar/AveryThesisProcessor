@@ -1,17 +1,21 @@
 # Tools for dealing with XML data in the CEFC data set.
 import os.path
 import xml.etree.ElementTree as ET
+from talkbank_parser import MorParser, prettyUtterance
 from os import walk
 
 import sentence
 import speaker
-
-from speaker import Speaker
+from . import fd
 
 def url_scrub(data):
     """Scrubs URL data from a line of XML text, the URL is encased in {}"""
     # This function also puts the result into all lowercase, to make pattern matching easier.
-    result = data.split("}")[1]
+    if data.find("}") >= 0:
+        result = data.split("}")[1]
+    else:
+        result = data
+
     return result.lower()
 
 def get_attribute(data, att):
@@ -53,7 +57,7 @@ def read_speaker(file):
                                                         person_sex = 'female'
                                                     elif person_sex == 'M':
                                                         person_sex = 'male'
-                                            this_speaker = Speaker(person_ID, person_ID, person_ID, person_sex, 999, 'french')
+                                            this_speaker = speaker.Speaker(person_ID, person_ID, person_ID, person_sex, 999, 'french')
                                             speakers.append(this_speaker)
 
     return speakers
@@ -72,11 +76,77 @@ def find_XML(directory, r = False):
 
     return result
 
-def corpus_PB12(dataXML):
-    """Processes Corpus Data for version PB1.2 such as the Lyon Corpus.
-    Accepts input of XML data for processing and returns a list of Sentence objects.
+def process_XML(file):
     """
-    result = [] # This will eventually store the completed list of Sentence objects.
+    Processes XML data using the talkbank_parser library.
+
+    :param file: Name of the file to be read.
+    :return: A list of FD objects read from the XML file.
+    """
+    # The MorParser does not actually extract the speaker information that is needed such as,
+    # age and gender, will have to extract that ourselves.
+    these_speakers = process_speakers(file)
+
+    parser = MorParser()
+    corpus = parser.parse(file)
+    corpus = list(corpus) # Generate a list of utterances with their appropriate speaker information.
+
+    data = []
+
+    # Go through and build the data structure for the Sentence object.
+    for item in corpus:
+        uid, speaker_ID, utterance = item
+        this_speaker = speaker.match_speaker(these_speakers, speaker_ID)
+        this_sentence = None
+        sentence_text = ""
+        if not(this_speaker is None):
+            word_list = [] # List of raw words to build the sentence text.
+            pos_list = [] # List of words with parts of speech.
+            for word in utterance:
+                word_list.append(word.word)
+                pos_list.append((word.word, word.pos))
+                sentence_text = " ".join(word_list)
+
+            this_sentence = sentence.Sentence(this_speaker, sentence_text, pos_list)
+
+        if not(this_sentence is None):
+            data.append(fd.FD(file, this_sentence))
+
+    return data
+
+def process_speakers(file):
+    """
+    Reads speaker information out of an XML file and returns a list of Speaker objects.
+
+    :param file: Filename of the file to be read.
+    :return: A list of Speaker objects identified in the file.
+    """
+    corpusTree = ET.parse(file)
+    corpusRoot = corpusTree.getroot()
+
+    speakers = [] # All speakers found in a particular file.
+
+    # Need to determine file version for processing, since different files have
+    # different capitalization, we need to account for that.
+    ver = get_attribute(corpusRoot, 'version')
+    if ver is None:
+        ver = get_attribute(corpusRoot, 'Version')
+
+    # Now branch to the proper processor.
+    if ver == 'PB1.2':
+        speakers = corpus_PB12(corpusRoot)
+    elif ver == '2.7.1':
+        speakers = corpus_271(corpusRoot)
+
+    return speakers
+
+def corpus_PB12(dataXML):
+    """
+    Processes version PB1.2 of the XML data to extract speaker data.
+
+    :param dataXML: XML Tree
+    :return:  A list of Speaker Objects
+    """
     speakers = []
 
     for child in dataXML:
@@ -104,46 +174,16 @@ def corpus_PB12(dataXML):
                         elif url_scrub(partData.tag) == 'language':
                             sLang = partData.text
                     speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
-        # Now for the actual transcript data.  Before this tag is reached we assume
-        # that we will actually have all the speakers for this file.
-        elif url_scrub(child.tag) == 'transcript':
-            for u in child:
-                if url_scrub(u.tag) == 'u':
-                    sentenceText = "" # Full reconstructed sentence
-                    thisSpeaker = None # Where to put the speaker data
-                    sID = get_attribute(u, 'speaker')
-                    # We need to locate this speaker in the list.
-                    for s in speakers:
-                        if s.sid == sID:
-                            thisSpeaker = s
-                    if thisSpeaker is None:
-                        raise ValueError('Speaker not found in data.')
-                    # We have located the speaker, now we can process the actual text.
-                    for ortho in u:
-                        if url_scrub(ortho.tag) == 'orthography':
-                            for g in ortho:
-                                noSpace = '!"#$%&\'(*+-./:;<=>?@[\\^_`{|~'
-                                if url_scrub(g.tag) == 'g':
-                                    # This data set is weird, each word (w) is also in a g tag.
-                                    newWord = gen_sentence(g)
-                                    if len(sentenceText) < 1:
-                                        sentenceText = newWord
-                                    elif newWord in noSpace or sentenceText[-1] in noSpace:
-                                        sentenceText += newWord
-                                    else:
-                                        sentenceText += " " + newWord
 
-                    # Check to make sure it is logical to append the data.
-                    if not (sentenceText == "" or thisSpeaker is None):
-                        result.append(sentence.Sentence(thisSpeaker, sentenceText))
-
-    return result
+    return speakers
 
 def corpus_271(dataXML):
-    """Processes Corpus Data for version 2.7.1 such as Palasis and MTLM.
-    Accepts input of XML data for processing and returns a list of Sentence objects.
     """
-    result = []
+    Processes version 2.7.1 of the XML data to extract speaker data.
+
+    :param dataXML: XML Tree
+    :return:  A list of Speaker Objects
+    """
     speakers = []
 
     if url_scrub(dataXML.tag) == 'chat':
@@ -162,22 +202,8 @@ def corpus_271(dataXML):
                         sSex = get_attribute(parts, 'sex')
                         # Generate the Speaker and add to the list of speakers.
                         speakers.append(speaker.Speaker(sID, sRole, sName, sSex, sAge, sLang))
-            elif url_scrub(chat.tag) == 'u':
-                thisSpeaker = None  # Where to put the speaker data
-                sID = get_attribute(chat, 'who')
-                # We need to locate this speaker in the list.
-                for s in speakers:
-                    if s.sid == sID:
-                        thisSpeaker = s
-                if thisSpeaker is None:
-                    raise ValueError('Speaker not found in data.')
 
-                sentenceText = gen_sentence(chat)
-                # Check to make sure it is logical to append the data.
-                if not (sentenceText == "" or thisSpeaker is None):
-                    result.append(sentence.Sentence(thisSpeaker, sentenceText))
-
-    return result
+    return speakers
 
 def gen_sentence(dataXML):
     """Takes the w tags for words from a sentence transcript and returns the sentence

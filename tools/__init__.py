@@ -1,6 +1,6 @@
 # Package for standard tools to use across scripts.
 
-from .file_data import file_data
+from .fd import FD
 from .tools import count_adj, count_noun_adj, count_noun_adj_helper, count_from_list
 from .text import save_text, read_text
 from .json import save_JSON, read_JSON, merge_JSON, output_JSON

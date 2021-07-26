@@ -51,3 +51,21 @@ class Speaker:
             "age":self.age.decimal
         }
         return result
+
+def match_speaker(speaker_list, speaker_ID):
+    """
+    Checks for a speaker ID against a list of Speaker objects and returns the matching
+    Speaker object, or None Type if not found.
+
+    :param speaker_list: A list of Speaker objects to search
+    :param speaker_ID: The ID of the speaker being looked for
+    :return: A Speaker object matching the ID or None Type if not found
+    """
+    result = None
+
+    for s in speaker_list:
+        if s.sid == speaker_ID:
+            result = s
+            break
+
+    return result

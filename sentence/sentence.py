@@ -4,12 +4,13 @@
 
 # We had some issues with this because of it being loaded on a mac in a virtual
 # environment for PyCharm.  This is not the standard way to load the french data for
-# the parts of speech (POS) tagger.
-import fr_core_news_lg
+# the parts of speech (POS) tagger.  We load the nlp object here as a global because
+# of the load time involved.
+# import fr_core_news_lg
+# nlp = fr_core_news_lg.load()
+
 import string
-nlp = fr_core_news_lg.load()
 from french_lefff_lemmatizer.french_lefff_lemmatizer import FrenchLefffLemmatizer
-# Similar to above with defining a global object to reduce run times for loading.
 # The lemmatizer object takes a while to load, so loading it as a global object.
 lemmatizer = FrenchLefffLemmatizer()
 
@@ -34,14 +35,17 @@ class Sentence:
         # as of October 5, 2020 all sentence data has been verified.
         self.review = True
 
+        # The POS tagger did not work very well for the child speech as it was expecting adult
+        # speech, disabling it and pulling the POS tags directly out of the corpus data.
         # If we already have parts of speech, load them.
-        if pos is None:
-            global nlp
-            doc = nlp(self.text)
-            for token in doc:
-                self.pos.append((token.text, token.pos_))
-        else:
-            self.pos = pos
+        # if pos is None:
+        #     global nlp
+        #    doc = nlp(self.text)
+        #    for token in doc:
+        #        self.pos.append((token.text, token.pos_))
+        #else:
+
+        self.pos = pos
 
         # If we already have the prenominal and postnominal lists, load them.
         if post is None:
@@ -159,7 +163,8 @@ class Sentence:
         idx_max = len(self.pos) # Maximum possible index.
         for idx in range(0, idx_max):
             w = self.pos[idx]
-            if (w[1] == "NOUN" or w[1] == "NOM") and not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
+            if (w[1].lower() == "noun" or w[1].lower() == "nom") and \
+                    not (w[0] == '-' or w[1] == '_' or w[0] == '>' or w[0] == '<'):
                 noun = w[0]
                 this_post = (noun, [])
                 this_pre = (noun, [])
@@ -168,7 +173,7 @@ class Sentence:
                     # Forward Search
                     if idx < idx_max - 1:
                         for x in range(idx + 1, idx_max):
-                            if self.pos[x][1] == "ADJ":
+                            if self.pos[x][1].lower() == "adj":
                                 found = True
                                 self.has_pair = True
                                 this_post[1].append(self.pos[x][0])
@@ -179,7 +184,7 @@ class Sentence:
                     # Backward Search
                     if idx > 0:
                         for x in range(idx - 1, -1, -1):
-                            if self.pos[x][1] == "ADJ":
+                            if self.pos[x][1].lower() == "adj":
                                 found = True
                                 self.has_pair = True
                                 this_pre[1].append(self.pos[x][0])

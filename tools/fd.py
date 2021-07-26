@@ -1,6 +1,6 @@
 # File data object for loading corpus data.
 
-class file_data:
+class FD:
     def __init__(self, file, s):
         """
         Stores the sentence and the file name the sentence came from.
