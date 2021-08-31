@@ -264,8 +264,12 @@ class Sentence:
 
         for group in data:
             for adj in group[1]:
-                adjective_list.append(adj[0].lower())
-                lemma_list.append(adj[1].lower())
+                if type(adj) is dict:
+                    adjective_list.append(adj['adjective'].lower())
+                    lemma_list.append(adj['lemma'].lower())
+                else:
+                    adjective_list.append(adj[0].lower())
+                    lemma_list.append(adj[1].lower())
 
         return adjective_list, lemma_list
 

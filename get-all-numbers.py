@@ -44,7 +44,7 @@ def main():
             child_sentence_list.append(item.sentence)
 
     # Load the adult data.
-    files = tools.find_orfeo_files(arg.input)
+    files = tools.find_orfeo_files(arg.adult)
     adult_sentence_list = []
 
     # Lets go through the files and
