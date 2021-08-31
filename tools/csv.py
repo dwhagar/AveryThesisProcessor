@@ -77,3 +77,23 @@ def noun_adj_matrix_gen_csv(matrix, adjs, nouns):
         data.append(line)
 
     return data
+
+def gen_complete_adjective_CSV(hdr, adjectives, child, adult):
+    """
+    Takes in list of adjective counts from child and adult data and outputs
+    a list of strings ready for output to a CSV file.
+
+    :param hdr: CSV Header
+    :param adjectives: A list of all the adjectives to be counted over
+    :param child: Child adjective count dictionary
+    :param adult: Adult adjective count dictionary
+    :return: A list of strings ready for output to a file
+    """
+
+    result = [hdr]
+
+    for adj in adjectives:
+        this_line = adj + "," + str(child[adj][0]) + "," + str(child[adj][1]) + "," + str(adult[adj][0]) + "," + str(adult[adj][1])
+        result.append(this_line)
+
+    return result
