@@ -10,6 +10,24 @@ import os.path
 import argparse
 import tools
 
+def sentence_filter_helper(data):
+    """Filters a list of sentence objects by if they have adjectives / noun groups."""
+    result = []
+    for this_sentence in data:
+        if this_sentence.has_pair:
+            result.append(this_sentence)
+
+    return result
+
+def adj_list_helper(data):
+    """Generates a list of adjective lemmas from a list of sentences."""
+    result =  []
+    for this_sentence in data:
+        adjectives,lemmas = this_sentence.find_adjectives()
+        result.extend(lemmas)
+
+    return result
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", "--child", type=str, help="The JSON file to load child data from.")
@@ -40,7 +58,7 @@ def main():
     data = tools.read_JSON(arg.child)
     child_sentence_list = []
     for item in data:
-        if item.sentence.has_pair and item.sentence.speaker.age.decimal < 8:
+        if item.sentence.speaker.age.decimal < 8:
             child_sentence_list.append(item.sentence)
 
     # Load the adult data.
@@ -53,25 +71,24 @@ def main():
         xml_file = file[0:-6] + ".xml"
         speaker_data = tools.read_speaker(xml_file)
         sentence_data = tools.read_sentences(orfeo_file, speaker_data)
+        adult_sentence_list.extend(sentence_data)
 
-        # Now we need to throw away any sentence that does not have a
-        # noun adjective group in it.
-        filtered_sentences = []
-
-        for sentence in sentence_data:
-            if sentence.has_pair:
-                filtered_sentences.append(sentence)
-
-        adult_sentence_list.extend(filtered_sentences)
+    # Filter all sentences by if they have pairs or not.
+    adult_sentence_list = sentence_filter_helper(adult_sentence_list)
+    child_sentence_list = sentence_filter_helper(child_sentence_list)
 
     # Get a list of every adjective used anywhere.
     complete_adjective_list = []
-    for this_sentence in child_sentence_list:
-        complete_adjective_list.extend(this_sentence.find_adjectives())
-    for this_sentence in adult_sentence_list:
-        complete_adjective_list.extend(this_sentence.find_adjectives())
+    complete_adjective_list.extend(adj_list_helper(child_sentence_list))
+    complete_adjective_list.extend(adj_list_helper(adult_sentence_list))
 
+    complete_adjective_list = list(set(complete_adjective_list))
+
+    print("There are " + str(len(complete_adjective_list)) + " adjectives.")
+
+    print("Counting adjective usage in child data.")
     child_counts = tools.count_from_list(child_sentence_list, complete_adjective_list)
+    print("Counting adjective usage in adult data.")
     adult_counts = tools.count_from_list(adult_sentence_list, complete_adjective_list)
 
     # Now lets generate the CSV file.

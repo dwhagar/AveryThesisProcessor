@@ -50,11 +50,17 @@ class Sentence:
         # If we already have the prenominal and postnominal lists, load them.
         if post is None:
             self.post_nom = []
+        elif len(post) < 1:
+            self.post_nom = []
+            self.has_pair = False
         else:
             self.post_nom = post
             self.has_pair = True
         if pre is None:
             self.pre_nom = []
+        elif len(pre) < 1:
+            self.pre_nom = []
+            self.has_pair = False
         else:
             self.pre_nom = pre
             self.has_pair = True

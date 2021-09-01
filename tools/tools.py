@@ -154,6 +154,8 @@ def count_from_list(data, adjectives):
             pre_count += this_pre_count
             post_count += this_post_count
 
+        print("Found " + str(pre_count) + " prenominal and " + str(post_count) + " postnominal instances of " + adjective + ".")
+
         counts[adjective] = (pre_count, post_count)
 
     return counts
