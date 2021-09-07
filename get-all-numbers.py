@@ -75,14 +75,9 @@ def main():
 
     # Filter all sentences by if they have pairs or not.
     adult_sentence_list = sentence_filter_helper(adult_sentence_list)
-    child_sentence_list = sentence_filter_helper(child_sentence_list)
 
     # Get a list of every adjective used anywhere.
-    complete_adjective_list = []
-    complete_adjective_list.extend(adj_list_helper(child_sentence_list))
-    complete_adjective_list.extend(adj_list_helper(adult_sentence_list))
-
-    complete_adjective_list = list(set(complete_adjective_list))
+    complete_adjective_list = list(set(adj_list_helper(child_sentence_list)))
 
     print("There are " + str(len(complete_adjective_list)) + " adjectives.")
 
