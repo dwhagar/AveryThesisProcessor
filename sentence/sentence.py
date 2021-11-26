@@ -585,3 +585,7 @@ class Sentence:
         postnominal = self.adj_exist_helper(adj, self.post_nom)
 
         return prenominal, postnominal
+
+    def count_words(self):
+        """This will count all the words in the given sentence."""
+        return len(self.pos)
