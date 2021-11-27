@@ -35,9 +35,10 @@ def adj_adult_age_counts(data, adjs):
     result = 0
 
     for item in data:
-        for word in adjs:
-            this_pre_count, this_post_count = item.get_adjective_count(word)
-            result += this_pre_count + this_post_count
+        if item.has_pair:
+            for word in adjs:
+                this_pre_count, this_post_count = item.get_adjective_count(word)
+                result += this_pre_count + this_post_count
 
     return result
 
@@ -54,16 +55,17 @@ def adj_child_age_counts(data, age_low, age_high, adjs):
     result = 0
 
     for item in data:
-        speaker_age = item.speaker.age.decimal * 6
-        for word in adjs:
-            if age_high < 48:
-                if age_low <= speaker_age < age_high:
-                    this_pre_count, this_post_count = item.get_adjective_count(word)
-                    result += this_pre_count + this_post_count
-            else:
-                if age_low <= speaker_age <= 48:
-                    this_pre_count, this_post_count = item.get_adjective_count(word)
-                    result += this_pre_count + this_post_count
+        speaker_age = item.speaker.age.decimal * 12
+        if item.has_pair:
+            for word in adjs:
+                if age_high < 48:
+                    if age_low <= speaker_age < age_high:
+                        this_pre_count, this_post_count = item.get_adjective_count(word)
+                        result += this_pre_count + this_post_count
+                else:
+                    if age_low <= speaker_age <= 48:
+                        this_pre_count, this_post_count = item.get_adjective_count(word)
+                        result += this_pre_count + this_post_count
 
     return result
 
@@ -123,17 +125,17 @@ def main():
     print("The total words in the Adult Data is:  " + str(adult_words))
 
     # Age bins of 6 month increments
+    print("Counting adjectives in child data for each bin.")
     for age_low in range(19, 48, 6):
         age_high = age_low + 6
         if age_high > 48:
             age_high = 48
 
-        print("Counting adjectives in child data for each bin.")
         child_adjective_count = adj_child_age_counts(child_sentence_list, age_low, age_high, adjectives)
         print("From age " + str(age_low) + " to " + str(age_high) + ":  " + str(child_adjective_count) + ".")
 
-        print("Counting adjectives in the adult data.")
-        adult_adjective_count = adj_adult_age_counts(adult_sentence_list, adjectives)
-        print("The adult data has:  " + str(adult_adjective_count) + ".")
+    print("Counting adjectives in the adult data.")
+    adult_adjective_count = adj_adult_age_counts(adult_sentence_list, adjectives)
+    print("The adult data has:  " + str(adult_adjective_count) + ".")
 
 main()
