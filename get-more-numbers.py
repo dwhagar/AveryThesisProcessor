@@ -10,17 +10,22 @@ import os.path
 import argparse
 import tools
 
-def count_words(data):
+def count_words(data, child = False):
     """
     Counts the words in every sentence in a list of sentences.
 
     :param data: A list of Sentence objects
+    :param child: Boolean value to say if this is child or adult data, defaults to False
     :return: An integer of # of words counted
     """
     result = 0
 
     for item in data:
-        result += item.count_words()
+        if child:
+            if 19 <= item.speaker.age.decimal * 12 <= 48:
+                result += item.count_words()
+        else:
+            result += item.count_words()
 
     return result
 
@@ -54,14 +59,15 @@ def get_gendered_counts(data, adjs):
     female_result = 0
 
     for item in data:
-        if item.has_pair:
-            for word in adjs:
-                this_pre_count, this_post_count = item.get_adjective_count(word)
-                to_add = this_pre_count + this_post_count
-                if item.speaker.sex.lower()[0] == "m":
-                    male_result += to_add
-                if item.speaker.sex.lower()[0] == "f":
-                    female_result += to_add
+        if 19 <= item.speaker.age.decimal * 12 <= 48:
+            if item.has_pair:
+                for word in adjs:
+                    this_pre_count, this_post_count = item.get_adjective_count(word)
+                    to_add = this_pre_count + this_post_count
+                    if item.speaker.sex.lower()[0] == "m":
+                        male_result += to_add
+                    if item.speaker.sex.lower()[0] == "f":
+                        female_result += to_add
 
     return male_result, female_result
 
@@ -173,7 +179,7 @@ def main():
         adult_sentence_list.extend(sentence_data)
 
     # Get word totals.
-    child_words = count_words(child_sentence_list)
+    child_words = count_words(child_sentence_list, True)
     adult_words = count_words(adult_sentence_list)
     print("The total words in the Child Data is:  " + str(child_words))
     print("The total words in the Adult Data is:  " + str(adult_words))
