@@ -52,7 +52,7 @@ def main():
         sentences.extend(filtered_sentences)
 
     # Now we need to do some counting.
-    adjective_list = tools.text.read_text(os.path.join(arg.input, 'adjective-list.txt'))
+    adjective_list = tools.text.read_text(os.path.join(arg.input, 'data/adjective-list.txt'))
 
     # Going to store the data in a dictionary of tuples.  Each adjective will
     # have an entry and that entry will have a tuple of (pre, post) for that
