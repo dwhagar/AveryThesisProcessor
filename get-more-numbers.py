@@ -22,7 +22,7 @@ def count_words(data, child = False):
 
     for item in data:
         if child:
-            if 19 <= item.speaker.age.decimal * 12 <= 48:
+            if 19 <= item.speaker.age.decimal * 12 < 49:
                 result += item.count_words()
         else:
             result += item.count_words()
@@ -59,15 +59,14 @@ def get_gendered_counts(data, adjs):
     female_result = 0
 
     for item in data:
-        if 19 <= item.speaker.age.decimal * 12 <= 48:
-            if item.has_pair:
-                for word in adjs:
-                    this_pre_count, this_post_count = item.get_adjective_count(word)
-                    to_add = this_pre_count + this_post_count
-                    if item.speaker.sex.lower()[0] == "m":
-                        male_result += to_add
-                    if item.speaker.sex.lower()[0] == "f":
-                        female_result += to_add
+        if item.has_pair:
+            for word in adjs:
+                this_pre_count, this_post_count = item.get_adjective_count(word)
+                to_add = this_pre_count + this_post_count
+                if item.speaker.sex == "male":
+                    male_result += to_add
+                elif item.speaker.sex == "female":
+                    female_result += to_add
 
     return male_result, female_result
 
@@ -88,7 +87,7 @@ def adj_child_age_helper(sentence_data, adj):
         result += this_pre_count + this_post_count
         if sentence_data.speaker.sex.lower()[0] == "m":
             male_result += result
-        if sentence_data.speaker.sex.lower()[0] == "f":
+        elif sentence_data.speaker.sex.lower()[0] == "f":
             female_result += result
 
     return result, male_result, female_result
@@ -110,22 +109,13 @@ def adj_child_age_counts(data, age_low, age_high, adjs):
 
     for item in data:
         speaker_age = item.speaker.age.decimal * 12
-        if age_high < 48:
-            if age_low <= speaker_age < age_high:
-                total_word += item.count_words()
-                for word in adjs:
-                    this_total, this_male, this_female = adj_child_age_helper(item, word)
-                    result += this_total
-                    male_result += this_male
-                    female_result += this_female
-        else:
-            if age_low <= speaker_age <= 48:
-                total_word += item.count_words()
-                for word in adjs:
-                    this_total, this_male, this_female = adj_child_age_helper(item, word)
-                    result += this_total
-                    male_result += this_male
-                    female_result += this_female
+        if age_low <= speaker_age < age_high:
+            total_word += item.count_words()
+            for word in adjs:
+                this_total, this_male, this_female = adj_child_age_helper(item, word)
+                result += this_total
+                male_result += this_male
+                female_result += this_female
 
     return result, male_result, female_result, total_word
 
@@ -188,8 +178,6 @@ def main():
     print("Counting adjectives in child data for each bin.")
     for age_low in range(19, 48, 6):
         age_high = age_low + 6
-        if age_high > 48:
-            age_high = 48
 
         child_adjective_count, child_male_count, child_female_count, child_total_count =\
             adj_child_age_counts(child_sentence_list, age_low, age_high, adjectives)
