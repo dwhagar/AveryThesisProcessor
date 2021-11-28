@@ -20,7 +20,7 @@ def count_words(data):
     result = 0
 
     for item in data:
-        result = result + item.count_words()
+        result += item.count_words()
 
     return result
 
@@ -42,32 +42,86 @@ def adj_adult_age_counts(data, adjs):
 
     return result
 
+def get_gendered_counts(data, adjs):
+    """
+    Returns a tuple with male adjective count and female adjective count.
+
+    :param data: A list of Sentence objects
+    :param adjs: A list of adjectives to count
+    :return: (male adjective count, female adjective count)
+    """
+    male_result = 0
+    female_result = 0
+
+    for item in data:
+        if item.has_pair:
+            for word in adjs:
+                this_pre_count, this_post_count = item.get_adjective_count(word)
+                to_add = this_pre_count + this_post_count
+                if item.speaker.sex.lower()[0] == "m":
+                    male_result += to_add
+                if item.speaker.sex.lower()[0] == "f":
+                    female_result += to_add
+
+    return male_result, female_result
+
+def adj_child_age_helper(sentence_data, adj):
+    """
+    Returns a count for a given adjective in a single sentence.
+
+    :param sentence_data: A single Sentence object
+    :param adj: A single adjective to count
+    :return: (total occurrences, male occurrences, female occurrences)
+    """
+    result = 0
+    male_result = 0
+    female_result = 0
+
+    if sentence_data.has_pair:
+        this_pre_count, this_post_count = sentence_data.get_adjective_count(adj)
+        result += this_pre_count + this_post_count
+        if sentence_data.speaker.sex.lower()[0] == "m":
+            male_result += result
+        if sentence_data.speaker.sex.lower()[0] == "f":
+            female_result += result
+
+    return result, male_result, female_result
+
 def adj_child_age_counts(data, age_low, age_high, adjs):
     """
-    Obtains adjective counts for each age bin of 6 months.
+    Obtains adjective counts for each age bin of 6 months in total and per gender and total words for each bin.
 
     :param data: List of Sentence objects
     :param age_low: The lower limit on ages in months
     :param age_high: The upper limit on ages in months
     :param adjs: A list of adjectives to count occurrences of
-    :return: An integer of the number of adjectives for this age
+    :return: (total count, male count, female count, total word count)
     """
     result = 0
+    male_result = 0
+    female_result = 0
+    total_word = 0
 
     for item in data:
         speaker_age = item.speaker.age.decimal * 12
-        if item.has_pair:
-            for word in adjs:
-                if age_high < 48:
-                    if age_low <= speaker_age < age_high:
-                        this_pre_count, this_post_count = item.get_adjective_count(word)
-                        result += this_pre_count + this_post_count
-                else:
-                    if age_low <= speaker_age <= 48:
-                        this_pre_count, this_post_count = item.get_adjective_count(word)
-                        result += this_pre_count + this_post_count
+        if age_high < 48:
+            if age_low <= speaker_age < age_high:
+                total_word += item.count_words()
+                for word in adjs:
+                    this_total, this_male, this_female = adj_child_age_helper(item, word)
+                    result += this_total
+                    male_result += this_male
+                    female_result += this_female
+        else:
+            if age_low <= speaker_age <= 48:
+                total_word += item.count_words()
+                for word in adjs:
+                    this_total, this_male, this_female = adj_child_age_helper(item, word)
+                    result += this_total
+                    male_result += this_male
+                    female_result += this_female
 
-    return result
+    return result, male_result, female_result, total_word
 
 def main():
     parser = argparse.ArgumentParser()
@@ -131,8 +185,18 @@ def main():
         if age_high > 48:
             age_high = 48
 
-        child_adjective_count = adj_child_age_counts(child_sentence_list, age_low, age_high, adjectives)
-        print("From age " + str(age_low) + " to " + str(age_high) + ":  " + str(child_adjective_count) + ".")
+        child_adjective_count, child_male_count, child_female_count, child_total_count =\
+            adj_child_age_counts(child_sentence_list, age_low, age_high, adjectives)
+        print("From age " + str(age_low) + " to " + str(age_high) + ":  "
+              + str(child_adjective_count) + " total adjectives ("
+              + str(child_male_count) + " male, "
+              + str(child_female_count) + " female) out of "
+              + str(child_total_count) + " words.")
+
+    print("Counting gendered adjectives in child data.")
+    child_male_count, child_female_count = get_gendered_counts(child_sentence_list, adjectives)
+    print("Male children uttered " + str(child_male_count) + " adjectives and female children uttered "
+          + str(child_female_count) + " adjectives.")
 
     print("Counting adjectives in the adult data.")
     adult_adjective_count = adj_adult_age_counts(adult_sentence_list, adjectives)
